@@ -1,12 +1,16 @@
 {
-  "status": "git-ready-materials-await-api-scope",
+  "status": "git-pushed-material-assets-await-api-scope",
   "date": "2026-11-02",
-  "gitPushed": false,
+  "gitPushed": true,
   "binaryAssetsUploaded": false,
   "validation": {
     "sourceFilesAndGitBlobBytesVerified": 4190,
     "navigationLinksVerified": 79,
     "credentialPatternScan": "no-matches",
     "helperSyntax": "valid"
-  }
+  },
+  "repository": "https://gitlab.com/hung-group7524844/huyen-hoc-project",
+  "materialsAssetCount": 16,
+  "materialsAssetBytes": 3854019925,
+  "blocker": "Git OAuth permits repository access; Package Registry API returned insufficient_scope. Awaiting HHC_GITLAB_TOKEN with api scope."
 }
