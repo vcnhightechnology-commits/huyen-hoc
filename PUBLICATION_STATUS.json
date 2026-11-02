@@ -1,6 +1,12 @@
 {
-  "status": "prepared-awaiting-gitlab-authentication",
+  "status": "git-ready-materials-await-api-scope",
   "date": "2026-11-02",
   "gitPushed": false,
-  "binaryAssetsUploaded": false
+  "binaryAssetsUploaded": false,
+  "validation": {
+    "sourceFilesAndGitBlobBytesVerified": 4190,
+    "navigationLinksVerified": 79,
+    "credentialPatternScan": "no-matches",
+    "helperSyntax": "valid"
+  }
 }
