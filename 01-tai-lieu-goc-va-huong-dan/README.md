@@ -1,6 +1,6 @@
 # Tài liệu gốc và hướng dẫn cho các AI
 
-- [Quy trình phối hợp](HUONG_DAN_PHOI_HOP.md).
+- [Quy trình phối hợp](HUONG_DAN_PHOI_HOP.md), [mẫu giao việc cho AI](PROMPT_CHO_AI.md).
 - [Mã và tài liệu dự án](du-an/README.md), [trạng thái nghiên cứu](du-an/PROJECT_RESEARCH_STATE.md), [trạng thái máy đọc](du-an/EXHAUSTIVE_WORK_STATE.json), [ma trận độ phủ](du-an/v53/research/library-current/COVERAGE.json).
 - [Danh mục sách nguồn](du-an/collaboration/materials/SOURCE_BOOKS.md), [manifest gốc](du-an/collaboration/materials/MANIFEST.json), [manifest tải GitHub hiện hành](GITHUB_MATERIALS.json).
 - [Chỉ mục byte checkout bàn giao](HANDOFF_FILES.json), [trạng thái tải lên](../PUBLICATION_STATUS.json).
