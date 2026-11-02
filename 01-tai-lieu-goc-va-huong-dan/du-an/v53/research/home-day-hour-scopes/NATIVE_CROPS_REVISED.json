@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-29",
+  "records": [
+    {
+      "id": "day-turn-final-ji",
+      "source": {
+        "file": "tmp/home-day-hour-staging/ITKC_BT_1508A_V002_247.JPG",
+        "bytes": 1154317,
+        "sha256": "2f54e52d14f55a5616245fa7842575ec0f637fc5f010f71147bba8fd71f70bdf"
+      },
+      "boxXYXY": [
+        235,
+        240,
+        900,
+        2090
+      ],
+      "crop": {
+        "file": "tmp/home-day-hour-staging/day-turn-final-ji-complete.png",
+        "bytes": 1830442,
+        "sha256": "999781220f3ca0c816bc80f506e16af6d0ca0c9d01d15960c856a922772a1d84"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "viewed": true,
+      "accepted": true,
+      "excludedInitialCrop": {
+        "file": "tmp/home-day-hour-staging/day-turn-final-ji.png",
+        "bytes": 1789407,
+        "sha256": "c61208c53de3202805affb5587f01d2a804dbb5994131556820aeb77a612963c"
+      },
+      "initialCropReason": "Truncated heading/top or missing neighboring title/body column; retained but excluded."
+    },
+    {
+      "id": "jielu-activity",
+      "source": {
+        "file": "tmp/home-day-hour-staging/ITKC_BT_1508A_V002_255.JPG",
+        "bytes": 1234946,
+        "sha256": "e1ca976c39097c0a21cf587c7ea797d880cac921566176aa4ccc2404aee5a4c2"
+      },
+      "boxXYXY": [
+        220,
+        240,
+        700,
+        2090
+      ],
+      "crop": {
+        "file": "tmp/home-day-hour-staging/jielu-activity-final.png",
+        "bytes": 1343349,
+        "sha256": "29e26b8f35ae4efc05e74137af6eb52f3f31aca5c973749b742843e0fca78e15"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "viewed": true,
+      "accepted": true,
+      "excludedInitialCrop": {
+        "file": "tmp/home-day-hour-staging/jielu-activity.png",
+        "bytes": 1056135,
+        "sha256": "e90782412f7bb90f5d24c558a62c5c38cc4e5e5539a3d09704aeb1a00143e4cc"
+      },
+      "initialCropReason": "Truncated heading/top or missing neighboring title/body column; retained but excluded.",
+      "secondExcludedCrop": {
+        "file": "tmp/home-day-hour-staging/jielu-activity-complete.png",
+        "bytes": 1080885,
+        "sha256": "66623d779229860a8514f690dfb9e6d2a31a284ed542c8292534d39faa00dc92"
+      },
+      "secondExclusionReason": "One edge still trimmed the first/last glyph or title; widened both selected-clause margins."
+    },
+    {
+      "id": "xunzhong-heading",
+      "source": {
+        "file": "tmp/home-day-hour-staging/ITKC_BT_1508A_V002_255.JPG",
+        "bytes": 1234946,
+        "sha256": "e1ca976c39097c0a21cf587c7ea797d880cac921566176aa4ccc2404aee5a4c2"
+      },
+      "boxXYXY": [
+        100,
+        200,
+        300,
+        850
+      ],
+      "crop": {
+        "file": "tmp/home-day-hour-staging/xunzhong-heading-top-complete.png",
+        "bytes": 196265,
+        "sha256": "c1610d9308e5baf436757f5b5c965552586601afe7e7377d61d166941be6f8d7"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "viewed": true,
+      "accepted": true,
+      "excludedInitialCrop": {
+        "file": "tmp/home-day-hour-staging/xunzhong-heading.png",
+        "bytes": 140282,
+        "sha256": "35d2df894e0debeb8ace0223f2460ba38c69546148225577bb7eb8e117b46834"
+      },
+      "initialCropReason": "Truncated heading/top or missing neighboring title/body column; retained but excluded.",
+      "postFreezeExcludedCrop": {
+        "file": "tmp/home-day-hour-staging/xunzhong-heading-complete.png",
+        "bytes": 151003,
+        "sha256": "01c1d12aaff021ca00f6b8a45813f9e67cd1c46a72bc644a6b086034205c4559"
+      },
+      "postFreezeReason": "Header top still clipped first glyph; full source had already been viewed, wording/oracle unchanged."
+    },
+    {
+      "id": "xunzhong-activities",
+      "source": {
+        "file": "tmp/home-day-hour-staging/ITKC_BT_1508A_V002_256.JPG",
+        "bytes": 1219992,
+        "sha256": "e2eb7be7e480dad0d3a05462961d36c97c189fba5b4390e7ce64c20a515718f1"
+      },
+      "boxXYXY": [
+        1215,
+        280,
+        1515,
+        2090
+      ],
+      "crop": {
+        "file": "tmp/home-day-hour-staging/xunzhong-activities.png",
+        "bytes": 808807,
+        "sha256": "13bff7fb37fb4becc171f85c2be3aa58bf8f1cd510e6634cf3dd6098c76baf9f"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "viewed": true,
+      "accepted": true
+    },
+    {
+      "id": "hour-override-and-ri-glyph",
+      "source": {
+        "file": "tmp/home-day-hour-staging/ITKC_BT_1508A_V002_256.JPG",
+        "bytes": 1219992,
+        "sha256": "e2eb7be7e480dad0d3a05462961d36c97c189fba5b4390e7ce64c20a515718f1"
+      },
+      "boxXYXY": [
+        365,
+        240,
+        1300,
+        2090
+      ],
+      "crop": {
+        "file": "tmp/home-day-hour-staging/hour-override-and-ri-glyph-complete.png",
+        "bytes": 2622694,
+        "sha256": "29b49b062121aecb8c0f0b8a6c772d608a67e881030625c455ea025497164230"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "viewed": true,
+      "accepted": true,
+      "excludedInitialCrop": {
+        "file": "tmp/home-day-hour-staging/hour-override-and-ri-glyph.png",
+        "bytes": 2357794,
+        "sha256": "f866ff34313c7b931514d15161afb0a67b8de9151c042758d62c77d491c8db72"
+      },
+      "initialCropReason": "Truncated heading/top or missing neighboring title/body column; retained but excluded."
+    },
+    {
+      "id": "build-bury-repair-hour",
+      "source": {
+        "file": "tmp/home-day-hour-staging/ITKC_BT_1508A_V002_256.JPG",
+        "bytes": 1219992,
+        "sha256": "e2eb7be7e480dad0d3a05462961d36c97c189fba5b4390e7ce64c20a515718f1"
+      },
+      "boxXYXY": [
+        100,
+        240,
+        700,
+        2090
+      ],
+      "crop": {
+        "file": "tmp/home-day-hour-staging/build-bury-repair-hour-final.png",
+        "bytes": 1662727,
+        "sha256": "97e461a75e1586f26dffb29458adebc6c58c0dfdf525b5dc8a5b9e8d1e12ad3e"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "viewed": true,
+      "accepted": true,
+      "excludedInitialCrop": {
+        "file": "tmp/home-day-hour-staging/build-bury-repair-hour.png",
+        "bytes": 727377,
+        "sha256": "6bd28638b251d383cf111c8e045712aecc4a1f4eee60c9280ff575fcfb8bbd2e"
+      },
+      "initialCropReason": "Truncated heading/top or missing neighboring title/body column; retained but excluded.",
+      "secondExcludedCrop": {
+        "file": "tmp/home-day-hour-staging/build-bury-repair-hour-complete.png",
+        "bytes": 1081916,
+        "sha256": "a357b3c801b1f7941528ecc9250c90d1ec9b6892f83c892ca6aa6cfd17b7c58c"
+      },
+      "secondExclusionReason": "One edge still trimmed the first/last glyph or title; widened both selected-clause margins."
+    },
+    {
+      "id": "zhou-xing-heading",
+      "source": {
+        "file": "tmp/home-day-hour-staging/ITKC_BT_1508A_V002_253.JPG",
+        "bytes": 1120936,
+        "sha256": "b1a7a6d239eb4219ba743135cb4cfda29a79104eaba03178fbe5e02a7c876fc9"
+      },
+      "boxXYXY": [
+        610,
+        240,
+        900,
+        2090
+      ],
+      "crop": {
+        "file": "tmp/home-day-hour-staging/zhou-xing-heading-complete.png",
+        "bytes": 744420,
+        "sha256": "7d708813dce17f5ad753cc5ab1cf22cb6e0b774336e3486abe9fa3186e45866e"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "viewed": true,
+      "accepted": true,
+      "excludedInitialCrop": {
+        "file": "tmp/home-day-hour-staging/zhou-xing-heading.png",
+        "bytes": 637902,
+        "sha256": "407adf18ce292524a203c38ce189b13d28f5fb55e22d3af7e433a5bd9f4b5074"
+      },
+      "initialCropReason": "Truncated heading/top or missing neighboring title/body column; retained but excluded."
+    },
+    {
+      "id": "tianzei-month-class-formula",
+      "source": {
+        "file": "tmp/home-day-hour-staging/ITKC_BT_1508A_V002_248.JPG",
+        "bytes": 1340863,
+        "sha256": "703c634810a8acbcfd0d778526b60b9d392c62c4f2108eac0d7c6c063b399e21"
+      },
+      "boxXYXY": [
+        1250,
+        240,
+        1515,
+        2090
+      ],
+      "crop": {
+        "file": "tmp/home-day-hour-staging/tianzei-month-class-formula.png",
+        "bytes": 785417,
+        "sha256": "980247c07e50e69005dc3c85cfc6400d53e037b75869c0419a6e8d31c78cc5d6"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "viewed": true,
+      "accepted": true
+    }
+  ],
+  "purpose": "Selected clause/glyph collation only; images first pass do not imply whole application.",
+  "excludedInitialCrops": 9,
+  "allFinalCropsViewed": true,
+  "postFreezeMarginCorrectionCount": 1
+}

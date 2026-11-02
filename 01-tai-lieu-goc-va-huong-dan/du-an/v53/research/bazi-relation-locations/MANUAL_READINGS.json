@@ -1,0 +1,64 @@
+{
+  "schema": "hhc.bazi.relation-locations.readings.v1",
+  "date": "2026-10-26",
+  "method": "New targeted visual reading of previously retained source-page renders; no new download and no whole-book collation. Distinguish main body from printed marginal commentary. No OCR.",
+  "scan": {
+    "title": "評註淵海子平",
+    "catalog": "https://taiwanebook.ncl.edu.tw/zh-tw/book/NTL-9900014379",
+    "edition": "1926 according to the retained National Taiwan Library catalog",
+    "pdf": "research/four-items/sources/yuanhai-NTL-v1.pdf",
+    "pdfSHA256": "664bccd1ea4706c609df8ea6cd69a4565db97dc277e876fc22eb125ea41dcc9f",
+    "scope": "Images are local rendered derivatives of this retained PDF. Original download/catalog evidence stays in the earlier source audit; do not describe reused bytes as a fresh institutional download."
+  },
+  "readings": [
+    {
+      "id": "yanghai-110-margin-relations",
+      "pdfPage": 110,
+      "printedPage": "卷二 二九",
+      "image": "research/full-study/bazi/sources/yuanhai-reading-110.png",
+      "layer": "Printed upper marginal commentary, not the main paragraph",
+      "stemPairs": ["甲丁","乙丙","丙己","丁戊","戊辛","己庚","庚癸","辛壬","壬乙","癸甲"],
+      "relationship": "Thương Quan",
+      "implementation": "Fixed relation identifies another stem relative to the day master. It does not itself establish a pattern, presence at a visible stem, or the consequences stated in the main paragraph."
+    },
+    {
+      "id": "yuanhai-109-visible-time",
+      "pdfPage": 109,
+      "printedPage": "卷二 二八",
+      "image": "research/full-study/bazi/sources/yuanhai-reading-109.png",
+      "layer": "Main paragraph/example",
+      "excerpt": "年月時透出三丁食",
+      "implementation": "The source distinguishes positions at visible year/month/hour stems. The product records physical source positions; it does not import claims about lifespan, relatives or prosperity."
+    },
+    {
+      "id": "yuanhai-109-indirect-print",
+      "pdfPage": 109,
+      "printedPage": "卷二 二八",
+      "image": "research/full-study/bazi/sources/yuanhai-reading-109.png",
+      "layer": "Printed upper marginal commentary",
+      "stemPairs": ["甲壬"],
+      "relationship": "Thiên Ấn",
+      "implementation": "The named 倒食 discussion involves a use of 食神, not every isolated indirect-resource relation. The exact no-food qualification below is evidenced by the retained digital WYG text, not claimed as a new scan reading."
+    },
+    {
+      "id": "yuanhai-110-111-context",
+      "pdfPages": [110,111],
+      "printedPages": ["卷二 二九","卷二 三〇"],
+      "images": ["research/full-study/bazi/sources/yuanhai-reading-110.png","research/full-study/bazi/sources/yuanhai-reading-111.png"],
+      "layer": "Main paragraphs",
+      "excerpts": ["四柱有官星露","常以他人不如己君子惡之小人畏之"],
+      "implementation": "The first excerpt explicitly concerns a visible official stem; the second is a traditional character judgment and is excluded from product conclusions. Co-presence in hidden stems cannot be silently promoted to visible 官 or a personality diagnosis. No strength, pattern or useful-god classifier is added."
+    }
+  ],
+  "retainedDigitalText": {
+    "file": "research/four-items/sources/KR3g0042_005.txt",
+    "sha256": "1ebdd92feaa57496b702f962ad6fafd4f19c17e98c38a94b40f626ef321dd997",
+    "witness": "Kanripo WYG transcription pinned at 7db72e5553de6ee4c45ed3980c6c67f8a6e451bf; these clauses are not newly image-collated",
+    "passages": [
+      {"page":"005-5b","excerpt":"謂之支藏干透","use":"Maintain a distinction between branch storage and a visible stem."},
+      {"page":"005-68b","excerpt":"柱中無食只以偏印論","use":"Indirect resource alone does not establish a food-depriving pattern."}
+    ]
+  },
+  "digitalPolicy": "Group actual positions by exact day-relative stem relation; distinguish visible year/month/hour stems from all known branch hidden stems. The day stem is the reference 日主 and is not an extra visible 比肩 occurrence. Primary hidden-stem order is retained, never converted into a strength percentage. Missing/ambiguous pillars are not invented.",
+  "coverageLimits": "Three previously retained scan pages, four targeted reading units, eleven relation pairs and two digital clauses. This does not complete the ten-section pattern matrix, strength/useful-god study, or the complete work."
+}

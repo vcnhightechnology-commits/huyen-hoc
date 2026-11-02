@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-28",
+  "basis": "Local byte-identity hashes at promotion, not publisher signatures. Audit uses packaged files without requiring tmp staging.",
+  "records": [
+    {
+      "file": "v53/research/tuvi-void-child/ordinal-reference.mjs",
+      "stagingFile": "tmp/tuvi-child-limit-staging/ordinal-reference.mjs",
+      "sha256": "36597371898fca61528b402526fa39f1b99ba3d28cdfecbaa0eb2558d1967c9b",
+      "bytes": 1410
+    },
+    {
+      "file": "v53/research/tuvi-void-child/SOURCE_ORDINALS.json",
+      "stagingFile": "tmp/tuvi-child-limit-staging/SOURCE_ORDINALS.json",
+      "sha256": "6af2514c287e025b838840780618202fc0eb4c1402424f1b2cb3f95f17500c44",
+      "bytes": 2208
+    },
+    {
+      "file": "v53/research/tuvi-void-child/RESPONSE.json",
+      "stagingFile": "tmp/tuvi-child-limit-staging/RESPONSE.json",
+      "sha256": "0edf409189243f25ea9e7624684aa525a4a9370ab086f38523d9c4c1b5e342d9",
+      "bytes": 1483
+    },
+    {
+      "file": "v53/research/tuvi-void-child/SEARCH_LEADS.json",
+      "stagingFile": "tmp/tuvi-child-limit-staging/SEARCH_LEADS.json",
+      "sha256": "67afe140205119186874a9843201a104df7d00c32a1bebc2b438e4d502379d1b",
+      "bytes": 1086
+    },
+    {
+      "file": "v53/research/tuvi-void-child/official-080-max-response.bin",
+      "stagingFile": "tmp/tuvi-child-limit-staging/official-080-max-response.bin",
+      "sha256": "3583028b8177997257190b29910fd802ea895c68f197c795e5267d00cf76d6a0",
+      "bytes": 608
+    },
+    {
+      "file": "v53/research/tuvi-void-child/void-reference.mjs",
+      "stagingFile": "tmp/tuvi-void-coordinates-staging/void-reference.mjs",
+      "sha256": "dd9526570b0199ef46367277b52194dad7f318e99bf05094cb41087f259d156a",
+      "bytes": 2785
+    },
+    {
+      "file": "v53/research/tuvi-void-child/SOURCE_TABLES.json",
+      "stagingFile": "tmp/tuvi-void-coordinates-staging/SOURCE_TABLES.json",
+      "sha256": "76d7e151df205457d640ec067a7164ea4598cddaac43c8004de70f24d4acbc90",
+      "bytes": 4023
+    },
+    {
+      "file": "v53/research/tuvi-void-child/CHILD_SOURCE_MANIFEST.json",
+      "stagingFile": "tmp/tuvi-child-limit-staging/SOURCE_MANIFEST.json",
+      "sha256": "54fec00e297a1de3270506e3ff860f74fae604e7dffbcc3bf1a433c68cc04d96",
+      "bytes": 2919
+    },
+    {
+      "file": "v53/research/tuvi-void-child/CHILD_CROP.json",
+      "stagingFile": "tmp/tuvi-child-limit-staging/CROP.json",
+      "sha256": "3f5ad8a02082651a0f55f2f524dc5e7b574f8752c02eca12a21b7f3d52a8ef4e",
+      "bytes": 523
+    },
+    {
+      "file": "v53/research/tuvi-void-child/images/child80-native-crop.png",
+      "stagingFile": "tmp/tuvi-child-limit-staging/child80-native-crop.png",
+      "sha256": "bef72296fdb5242e6d0bb8a8463d8ad4e392247be51b4f8131a8ccf4abbb42e1",
+      "bytes": 685424
+    },
+    {
+      "file": "v53/qa/tuvi-void-child/CHILD_RESULTS.json",
+      "stagingFile": "tmp/tuvi-child-limit-staging/RESULTS.json",
+      "sha256": "91dc660786d3b887ad14036ee25f0b97ce3d54d2487fa6c9ec943c8d2d77460b",
+      "bytes": 24345
+    },
+    {
+      "file": "v53/research/tuvi-void-child/VOID_SOURCE_MANIFEST.json",
+      "stagingFile": "tmp/tuvi-void-coordinates-staging/SOURCE_MANIFEST.json",
+      "sha256": "db45f329bba6f718297932546aa3aa08c8ca6bcc6fde0f2b07ac33e67ab341aa",
+      "bytes": 1435
+    },
+    {
+      "file": "v53/research/tuvi-void-child/VOID_CROP.json",
+      "stagingFile": "tmp/tuvi-void-coordinates-staging/CROP.json",
+      "sha256": "5802e5888e68118c5dde94cc0d7896aafaee0216439a4d21f72fcadf747be8f2",
+      "bytes": 516
+    },
+    {
+      "file": "v53/research/tuvi-void-child/images/void80-native.png",
+      "stagingFile": "tmp/tuvi-void-coordinates-staging/void80-native.png",
+      "sha256": "e8133927a746b1e7d539a6f741d8f8d52b9b8037e1e4e190f344d2c2e4370293",
+      "bytes": 1374336
+    },
+    {
+      "file": "v53/qa/tuvi-void-child/VOID_RESULTS.json",
+      "stagingFile": "tmp/tuvi-void-coordinates-staging/RESULTS.json",
+      "sha256": "2c7e1edcb5a6000233c797695eb8c72ad8d184f6f8136a73e99025df87fa4c6b",
+      "bytes": 72211
+    }
+  ]
+}

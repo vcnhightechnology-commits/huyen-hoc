@@ -1,0 +1,49 @@
+{
+  "cases": [
+    {
+      "id": "source-exact",
+      "contextID": "FOOD-00-C18",
+      "root": "甲子",
+      "target": "丙辰",
+      "basis": "declared-source-example",
+      "literalLabel": "正印",
+      "ordinaryRelation": "食神"
+    },
+    {
+      "id": "source-other-target",
+      "contextID": "FOOD-00-C18",
+      "root": "甲子",
+      "target": "丙寅",
+      "basis": "declared-source-example",
+      "literalLabel": null,
+      "ordinaryRelation": "食神"
+    },
+    {
+      "id": "source-day-not-assigned",
+      "contextID": "FOOD-00-C18",
+      "root": "甲子",
+      "target": "丙辰",
+      "basis": "natal-day",
+      "literalLabel": null,
+      "ordinaryRelation": null
+    },
+    {
+      "id": "source-missing",
+      "contextID": "FOOD-00-C18",
+      "root": "甲子",
+      "target": null,
+      "basis": "declared-source-example",
+      "literalLabel": null,
+      "ordinaryRelation": null
+    },
+    {
+      "id": "C19-unresolved",
+      "contextID": "FOOD-00-C19",
+      "root": null,
+      "target": null,
+      "basis": "unresolved-source-clause",
+      "literalLabel": null,
+      "ordinaryRelation": null
+    }
+  ]
+}

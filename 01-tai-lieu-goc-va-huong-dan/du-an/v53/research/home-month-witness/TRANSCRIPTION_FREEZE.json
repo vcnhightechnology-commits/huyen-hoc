@@ -1,0 +1,162 @@
+{
+  "date": "2026-10-29",
+  "frozenAt": "2026-10-29T03:30:11.978372+00:00",
+  "beforeSuccessfulActualBatch": true,
+  "previousFreezeBeforeFirstFailedBatch": "pre-fix/TRANSCRIPTION_FREEZE.json",
+  "previousFreezeSHA256": "bdb4fa42f3381cb63758c3e7074432952f33e4c4c1e6b8c7bb435840ffd92e08",
+  "manualGridNotFormulaFilled": true,
+  "P08UnresolvedCellsRetained": true,
+  "originalManualAndExpectedDataUnchanged": true,
+  "files": [
+    {
+      "file": "tmp/home-month-witness-staging/MANUAL_WITNESS_TABLE.json",
+      "bytes": 11551,
+      "sha256": "2c4bba64668420c29f43e6028ab390f4a963b263a02276b9474e009fb28d8d65"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/MANUAL_EXPECTATIONS.json",
+      "bytes": 1664,
+      "sha256": "45d547bf44bad0ae2db49d148118d445b5bd03c7cecabec384092ec67bb5e077"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/NATIVE_CROPS.json",
+      "bytes": 4535,
+      "sha256": "f0a92729cf8aca4cafff38e8d60c6747c1947379c8e48d8f7ed9f78040712e72"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/SOURCE_IDENTITIES.json",
+      "bytes": 1519,
+      "sha256": "22d444063fbcd5d5e6f9fea29ea0867d0884ca1b848cd08e978f8be381da5ee1"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/REQUESTS.json",
+      "bytes": 39326,
+      "sha256": "4411ccf7378d80ce8548207f456ab73bc6d526053db7ae890cc8f06bcf864640"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/DIGITAL_TABLE_EXTRACTS.json",
+      "bytes": 5194,
+      "sha256": "fb644817f40a52fdd10bed8be936ba0a0ba3cd56935712db0a4aced41bf12652"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/monthly-witness-reference.mjs",
+      "bytes": 3156,
+      "sha256": "d51d4d462e8a470f9d704baef2482ddcb7f61048700296eeebbb42be2bab4e07"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/run-actual-once.mjs",
+      "bytes": 2554,
+      "sha256": "417d1ce04e6138e217d23c1f89821440d1988582ceb72dd6f6bf345c99397c8a"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/crop-month-order.png",
+      "bytes": 318176,
+      "sha256": "e81f40c8768ad22118ee3f09ccae7ea8422e5f267244fc3fa2728d015ceef0c0"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/crop-tian-dao-complete.png",
+      "bytes": 464546,
+      "sha256": "8657db253769f0e442818d7ae9426e6b3c7d5c9bb191ce7fd78886b565bb3e53"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/crop-tian-de.png",
+      "bytes": 414953,
+      "sha256": "a76b2cb1472d645278b1a8ee4b5747153762c5bbc16c5663b35edf0efd3c3f99"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/crop-yue-de.png",
+      "bytes": 482093,
+      "sha256": "30532c757ef98f29bbe98cd29e95a98bee969f1b012b83b70974b0481bf5573a"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/crop-tian-de-he.png",
+      "bytes": 468835,
+      "sha256": "7286c798c954c9a4ea8fa421740ff4ee5f02a04c9c558080cbcb8a470ac9f84e"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/crop-yue-de-he.png",
+      "bytes": 355491,
+      "sha256": "29d8bd49007c913e04d6d369d37ca22bdb549fd3d2bf0eadaa37dc9861c5f4dd"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/crop-yue-kong.png",
+      "bytes": 365870,
+      "sha256": "e6c007343b89a1a61fad3b61ca61bd599f83320a15610a17c14a3de7211823d0"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/crop-yue-cai.png",
+      "bytes": 364666,
+      "sha256": "d10362aa14b4a466f226bc8fa9a688334c3b8113c81bb0742a2e2d7058a84761"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/xuanze-yaolue-upper.html",
+      "bytes": 500441,
+      "sha256": "4bf49609180880a23c28793d1d7466490d87035115f9945fc2a733ed1b742021"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/xuanze-yaolue-root.html",
+      "bytes": 57741,
+      "sha256": "f93b531b972c979f972aebc7a91fb46257167192912dde0e2bcab1944dba5228"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/itkc-directory.html",
+      "bytes": 62145,
+      "sha256": "3f176a3acb974ea75b0b3b881318e393b86fcf62f5082d0d3a55fda5a3877575"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/wikisource-itkc-file-description.html",
+      "bytes": 68821,
+      "sha256": "bc4fd267544df329c42b7b8319b5bf224d5963d19906d2dac59d1693cecf42db"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/itkc-1508A-bibliography.html",
+      "bytes": 4747,
+      "sha256": "070b7af8ff7d1674ba7474bad5eb9db6a21aa97ac7f14265b1749e049397ccdc"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/itkc-1508A-upper-directory.html",
+      "bytes": 12565,
+      "sha256": "9de39a23f1bdeae01ef7942ac5f85de860c5ec1531d9a7e642e929b78c408f39"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/itkc-month-directions-0110.html",
+      "bytes": 149352,
+      "sha256": "98d01685cb9ea36e2e24b4beec51248b674c0745ace2e13d0eb81e2255a8b2da"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/itkc-imageviewer-root.html",
+      "bytes": 62890,
+      "sha256": "ed2dc82c22298eb81fb0e4ceff09579d62e50686add8e892ba861405dddaec8b"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/itkc-month-image-node.html",
+      "bytes": 1450,
+      "sha256": "f26997ea8d087803beecd638ec882d48d522d30ec40735e44b270e385cc4ee9b"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/itkc-V002-034.JPG",
+      "bytes": 1289126,
+      "sha256": "921879c6fec510bb8e2672857e3e3b7e67467c881e6d4c5158b49e944386cd80"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/itkc-month-image-next.json",
+      "bytes": 1312,
+      "sha256": "7cb0e7aef1f38ddcf7aee785b8e13eb14efb3bd7fd050a4be6683216bc8e2608"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/itkc-V002-035.JPG",
+      "bytes": 1304734,
+      "sha256": "7f632d43f4f2bc3d58f20d025072ecd136ec2483e208df62b35d0e994c3e9df4"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/itkc-1508A-editorial-notes.html",
+      "bytes": 8670,
+      "sha256": "9666d6bd0892829cc4d17ad8fead0fcd898aa92687bc1a712c43a338aa0e7912"
+    },
+    {
+      "file": "tmp/home-month-witness-staging/FAILED_BATCH_AUDIT.json",
+      "bytes": 1197,
+      "sha256": "97c4e7b3aef8063817533073f94a162c6dca9c2d7fcffb0fddc8cb46ec064b85"
+    }
+  ]
+}

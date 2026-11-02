@@ -1,0 +1,54 @@
+{
+  "files": [
+    {
+      "file": "v53/research/bazi-food-source/CONTEXTS.json",
+      "bytes": 82405,
+      "sha256": "c9179c1421a4521ce9bd0f5d48ab05e28a6a9ed11daf462927ad777343be0f68"
+    },
+    {
+      "file": "v53/qa/bazi-food-core/TEN_RELATION_RESULTS.json",
+      "bytes": 3097,
+      "sha256": "b596850a855e1c33dbc0454669a9fb4338861dce68f85985772c2b0097a594aa"
+    },
+    {
+      "file": "v53/research/bazi-food-quantity/CURRENT_CONTEXT_COVERAGE.json",
+      "bytes": 51082,
+      "sha256": "d25e17f8e76573e151c307a19b9f0723650e9363a495c450dba6c36e70759a54"
+    }
+  ],
+  "retainedFullImagesActuallyViewed": [
+    {
+      "file": "v53/research/bazi-food-source/p182.png",
+      "bytes": 289054,
+      "sha256": "f0c0f94bde087f597fc4da1e0e26882fbc44557f7fccf721d5d0cdd97561611e"
+    },
+    {
+      "file": "v53/research/bazi-food-source/p183.png",
+      "bytes": 296993,
+      "sha256": "f319a1a893f5697af38ed81be496591ecb87f92c9c67001d8d3530872738f94a"
+    },
+    {
+      "file": "v53/research/bazi-food-source/p184.png",
+      "bytes": 257267,
+      "sha256": "41d0bbcdef6f4051348164d7359a8908ba003993a9a88eabc646b8e5efcfa289"
+    }
+  ],
+  "V08RetainedActualFoodPair": {
+    "declaredCoordinatePair": [
+      "甲子",
+      "丙子"
+    ],
+    "actualHHCTenGod": "Thực Thần",
+    "actualLunarTenGod": "食神",
+    "sourceQuantityNotInferred": true,
+    "realCalendarDateValidated": false
+  },
+  "V08DoesNotValidateWealthProduction": true,
+  "referenceIsTextListAndDeclaredPremiseCompositionNotCalendarOrEngineQuery": true,
+  "newEngineCalls": 0,
+  "currentMatrixCountsRemain": [
+    49,
+    41,
+    0
+  ]
+}

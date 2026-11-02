@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-27",
+  "cases": [
+    {
+      "id": "scatter-rebuttal-huan-kan",
+      "pdfPages": [
+        85,
+        86
+      ],
+      "values": [
+        8,
+        7,
+        8,
+        8,
+        7,
+        9
+      ],
+      "number": 59,
+      "changedNumber": 29,
+      "monthBranch": "丑",
+      "dayGanZhi": "丁酉",
+      "focusLine": 6,
+      "expectedBranch": "卯",
+      "expectedChangedBranch": "子",
+      "sourceDetail": "父卯木6動生世巳火5，化子水回生；酉月得信寅月歸，作者說非卯動酉月沖散。故事結果未驗。"
+    },
+    {
+      "id": "changed-trigram-generation",
+      "pdfPage": 86,
+      "values": [
+        8,
+        7,
+        9,
+        8,
+        7,
+        9
+      ],
+      "number": 57,
+      "changedNumber": 29,
+      "dayGanZhi": null,
+      "monthBranch": null,
+      "sourceDetail": "巽木變坎水，生指水回生木之卦層描述；不等於每爻回生。"
+    },
+    {
+      "id": "changed-trigram-control",
+      "pdfPage": 86,
+      "values": [
+        6,
+        7,
+        7,
+        6,
+        7,
+        7
+      ],
+      "number": 57,
+      "changedNumber": 1,
+      "dayGanZhi": null,
+      "monthBranch": null,
+      "sourceDetail": "巽木變乾金，卦層金回克木；與爻層圖並列保存。"
+    },
+    {
+      "id": "void-unmoving-finance-first",
+      "pdfPages": [
+        94,
+        95
+      ],
+      "values": [
+        7,
+        8,
+        7,
+        8,
+        7,
+        9
+      ],
+      "number": 37,
+      "changedNumber": 63,
+      "monthBranch": "辰",
+      "dayGanZhi": "乙卯",
+      "focusLine": 2,
+      "expectedBranch": "丑",
+      "expectedChangedBranch": null,
+      "sourceDetail": "家人之既濟，財丑2原表旬空且前占元神被回克；後占另損41/子財伏5。不可把多占例當單一盤實證。"
+    },
+    {
+      "id": "void-self-travel-static",
+      "pdfPage": 95,
+      "values": [
+        7,
+        7,
+        7,
+        8,
+        8,
+        7
+      ],
+      "number": 26,
+      "changedNumber": 26,
+      "monthBranch": "子",
+      "dayGanZhi": "辛亥",
+      "focusLine": 2,
+      "expectedBranch": "寅",
+      "expectedChangedBranch": null,
+      "sourceDetail": "大畜世寅木2處甲辰旬/寅卯空，作者先不決再占明夷；不替換PDF52辛卯日。"
+    },
+    {
+      "id": "void-travel-recast",
+      "pdfPages": [
+        95,
+        96
+      ],
+      "values": [
+        9,
+        8,
+        7,
+        6,
+        8,
+        8
+      ],
+      "number": 36,
+      "changedNumber": 62,
+      "monthBranch": "子",
+      "dayGanZhi": "辛亥",
+      "focusLine": 4,
+      "expectedBranch": "丑",
+      "expectedChangedBranch": "午",
+      "sourceDetail": "明夷之小過，世丑土4動化午火回生，卯財1動化辰土；兩卦合決保留歷史方法，不合併成一盤。"
+    }
+  ],
+  "dateConflictCarriedForward": {
+    "file": "../liuyao-use-god/SOURCE_FIXTURES.json",
+    "sha256": "5eed7c54b7e19f1f3a14b0fdfbd979bb5c7ba680896199a1cebd53c7be9f6a72",
+    "dateAsRead": "酉月辛卯日",
+    "standardXun": "甲申",
+    "standardVoid": "午未",
+    "storyProseVoid": "寅卯",
+    "status": "source-date-vs-void-prose-unresolved",
+    "unverifiedHypothesisOnly": "辛亥wouldmatch寅卯;not a source correction."
+  },
+  "syntheticControlsAreNotPrintedCases": true,
+  "historicalOutcomesValidated": false
+}

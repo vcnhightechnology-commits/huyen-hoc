@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-25T15:15:00.377Z",
+  "checks": [
+    {
+      "name": "Executed iztro package matches the archived original package bytes",
+      "ok": true,
+      "detail": {
+        "files": 209,
+        "version": "2.6.2",
+        "tarballSha256": "d44e96631c0506424c3aef25a7bba8e43e01729102d6a703720cbe224aec5403"
+      }
+    },
+    {
+      "name": "Engine arithmetic and star placement code remain byte-identical",
+      "ok": true
+    },
+    {
+      "name": "Every tested empty palace uses the actual opposite palace and its actual major stars",
+      "ok": true,
+      "detail": {
+        "births": 100,
+        "palaces": 1200,
+        "emptyPalaces": 196,
+        "directPalaces": 1004
+      }
+    },
+    {
+      "name": "Reading a palace and building its summary never moves or adds a natal star",
+      "ok": true,
+      "detail": {
+        "births": 100
+      }
+    },
+    {
+      "name": "Empty Mệnh reading identifies Thiên Di without treating its stars as local",
+      "ok": true,
+      "detail": {
+        "title": "Mệnh và góc nhìn từ Thiên Di",
+        "lead": "Cung Mệnh không có chính tinh tọa thủ, còn gọi là vô chính diệu. Điều này tự nó không quyết định tốt hay xấu. Có thể đọc thêm cung đối diện Thiên Di tại Mùi, nơi có Thái Dương và Thái Âm để có góc nhìn bổ sung."
+      }
+    },
+    {
+      "name": "Palace lookup uses the physical index even if the array order changes",
+      "ok": true
+    },
+    {
+      "name": "An invalid palace selection fails explicitly",
+      "ok": true
+    },
+    {
+      "name": "An empty related palace cannot fabricate an interpretation or star name",
+      "ok": true
+    },
+    {
+      "name": "The initial empty Mệnh shows a distinct supplemental-reading section",
+      "ok": true
+    },
+    {
+      "name": "Supplemental stars are labeled with their actual palace",
+      "ok": true
+    },
+    {
+      "name": "TXT preserves the supplemental label and the two physical locations",
+      "ok": true
+    },
+    {
+      "name": "Print keeps related reading text but hides the interactive link",
+      "ok": true
+    },
+    {
+      "name": "Related-reading action synchronizes dropdown, selected chart cell and content",
+      "ok": true
+    },
+    {
+      "name": "A palace with its own major stars keeps the existing direct reading",
+      "ok": true
+    },
+    {
+      "name": "Selecting the original chart cell restores its related-reading section without moving stars",
+      "ok": true
+    },
+    {
+      "name": "Saved profile recomputes and restores the correct related palace",
+      "ok": true
+    },
+    {
+      "name": "320px: new related-reading text and link fit the page",
+      "ok": true,
+      "detail": {
+        "page": 320,
+        "width": 320
+      }
+    },
+    {
+      "name": "390px: new related-reading text and link fit the page",
+      "ok": true,
+      "detail": {
+        "page": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "768px: new related-reading text and link fit the page",
+      "ok": true,
+      "detail": {
+        "page": 768,
+        "width": 768
+      }
+    },
+    {
+      "name": "1440px: new related-reading text and link fit the page",
+      "ok": true,
+      "detail": {
+        "page": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "name": "No runtime errors, external requests or source panels appear",
+      "ok": true,
+      "detail": {
+        "errors": [],
+        "requests": []
+      }
+    }
+  ],
+  "errors": [],
+  "requests": []
+}

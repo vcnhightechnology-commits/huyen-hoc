@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-29",
+  "status": "source-lexicon-and-runtime-table-verified;staged-for-larger-batch",
+  "catalogueID": "M01",
+  "scope": "Twelve-term source lexicon and distinct quoted enumeration; not natal-strength classifier",
+  "retainedSourceImagesReexamined": [
+    112,
+    113,
+    114,
+    115
+  ],
+  "acceptedNativeCrops": 4,
+  "newHTTPBodies": 0,
+  "newSourcePositions": 0,
+  "newEngineCalls": 0,
+  "relatedUnresolvedScope": "tmp/bazi-food-position-staging/WORK_STATE.json",
+  "activeFoodMatrixUnchanged": "44/46/0",
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false,
+  "sourceChecks": {
+    "date": "2026-10-29",
+    "passed": true,
+    "nativeCropsRGBMatched": 4,
+    "preimplementationFilesUnchanged": 3,
+    "retainedIdentityFilesVerified": 8,
+    "mainTermsImageRead": 12,
+    "quotedDefinitionsImageRead": 12,
+    "explicitAliasTokens": 4,
+    "editorialAlignmentsNotPromotedToAliases": 2,
+    "newIndependentWitnesses": 0,
+    "digitalComparisonVariants": [
+      {
+        "retained": "飬",
+        "workingImageReading": "養",
+        "comparisonOnly": true
+      }
+    ],
+    "newHTTPBodies": 0,
+    "newSourcePositions": 0,
+    "runtime": {
+      "actualLunarLifeStageTableReads": 1,
+      "labelsInTable": 12,
+      "actualCalendarObjects": 0,
+      "actualEightCharObjects": 0,
+      "actualHHCCharts": 0,
+      "actualIztroCharts": 0,
+      "sourceQuotedOrderComparedAsSameOrdinal": false,
+      "sourceAliasesOrStrengthValidated": false,
+      "consumerChanged": false
+    },
+    "referenceTests": {
+      "date": "2026-10-29",
+      "passed": true,
+      "groups": 8,
+      "sourceOrders": 2,
+      "definedQuotedStages": 12,
+      "mainAndQuotedLiteralTermQueries": 24,
+      "explicitAliasQueries": 4,
+      "acceptedAliasTokens": 4,
+      "editorialAlignmentsNotAcceptedAsAliases": 2,
+      "unsupportedQueriesReturnedNull": 19,
+      "nonPredictionInvariants": 300,
+      "sourceOrdinalAlignmentChecks": 12,
+      "preimplementationFilesUnchanged": 3,
+      "retainedActualLunarTableReads": 1,
+      "newEngineCallsDuringTests": 0,
+      "consumerChanged": false,
+      "wholeChapterApplied": false
+    },
+    "consumerChanged": false,
+    "wholeChapterApplied": false,
+    "wholeCatalogueCompleted": false
+  },
+  "actualLunarTableReads": 1,
+  "actualCalendarOrNatalCharts": 0,
+  "newEngineCallsDuringTests": 0,
+  "next": [
+    "Read and collate the source-specific ten-stem生/死 branches and the alternative-earth/one-wood critique before applying a general phase engine.",
+    "Continue at tmp/bazi-ten-stem-life-staging/WORK_STATE.json; three boundary images have been viewed, not the full chapter.",
+    "Integrate this glossary with a meaningful source/coordinate batch and package once; do not rebuild V53 merely for staging notes."
+  ],
+  "releasedV53Unchanged": true
+}

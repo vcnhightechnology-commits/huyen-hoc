@@ -1,0 +1,80 @@
+# AI-01 — Handoff nối tiếp: phép kiểm Không Vong bốn trụ và 518.400 tổ hợp
+
+## Tổng quan
+
+GitHub app hiện trả `403 — Sorry. Your account was suspended` khi thử đọc/ghi nhánh `ai-01`; **chưa push**, chưa cập nhật PR #13 và chưa chạy full repository CI trong lượt này. Mốc cuối cùng kiểm thành công qua GitHub ở các lượt trước: commit `c5a630583d96f4a55a56924bd141b193e600a694`, 480/480 tests — **không đảm bảo là HEAD hiện tại**. Chưa thể xác minh nguồn byte WYG II/III trong lượt này.
+
+Các file cũ từ bản vá trước (giữ nguyên):
+
+- `WYG3_KONGWANG_CROSS_AXIS.json`
+- `validate_wyg3_kongwang_cross_axis.py`
+- `test_wyg3_kongwang_cross_axis.py`
+- `WYG3_KONGWANG_CROSS_AXIS_REPORT.md`
+
+Bốn file **mới** trong thư mục `collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/`:
+
+- `WYG3_KONGWANG_JOINT_FINGERPRINT.json`
+- `validate_wyg3_kongwang_joint_space.py`
+- `test_wyg3_kongwang_joint_space.py`
+- `WYG3_KONGWANG_JOINT_FINGERPRINT_REPORT.md`
+
+Hai kiểu bản vá:
+
+- `ai01_kongwang_2026-11-01_cumulative.patch`: từ HEAD cũ chưa áp dụng 4 file Không Vong — thêm **8 file** cũ và mới, không ghi đè file dự án hiện hữu.
+- `ai01_kongwang_2026-11-01_addon.patch`: checkout **đã có 4 file cũ** — chỉ thêm **4 file mới**.
+
+**Chỉ áp dụng một trong hai** tùy theo trạng thái thực tế của checkout. Luôn kiểm tra `git apply --check` và không bao giờ chạy nếu có file trùng tên khác nội dung.
+
+## Kiểm thử ngoại tuyến
+
+Từ root dự án có cả 8 file:
+
+```bash
+D=collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31
+python3 "$D/validate_wyg3_kongwang_cross_axis.py" --model-only
+python3 "$D/validate_wyg3_kongwang_joint_space.py" --model-only
+python3 -m unittest discover -s "$D" -p 'test_wyg3_kongwang_*.py' -v
+```
+
+Phải phân biệt:
+
+- `--model-only` kiểm đủ toán học nhưng **KHÔNG** xác nhận ảnh in hoặc Git nguồn.
+- Chạy **không có `--model-only`** sẽ buộc validator cũ đọc **đúng** các byte nguồn WYG II/III, SHA Git blob, chữ ở đúng tờ và trích 13 unit.
+- Nguồn thiếu hoặc bytes đổi phải **FAIL CLOSED**; đừng xóa/đổi hash hoặc thay nguyên văn để cho CI qua.
+
+## Cách tích hợp nhánh `ai-01` và CI sau khi có lại GitHub
+
+```bash
+# Ở checkout mới có quyền GitHub; KHÔNG dùng cho master/main.
+git switch ai-01
+# Kiểm tra nhánh hiện tại xem có file nào trùng.
+git status --short
+# Chọn một bản vá phù hợp và kiểm trước khi áp dụng.
+git apply --check /path/to/chosen.patch
+git apply /path/to/chosen.patch
+
+D=collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31
+python3 "$D/validate_wyg3_kongwang_cross_axis.py"
+python3 "$D/validate_wyg3_kongwang_joint_space.py"
+python3 -m unittest discover -s "$D" -p 'test_wyg3_kongwang_*.py' -v
+```
+
+Sau khi source-level đạt, thêm trước step `Run safety regression tests` của `.github/workflows/ai01-research-safety.yml` **hai step mới** nếu workflow chưa có:
+
+```yaml
+      - name: Validate WYG III four-pillar 旬空 source and calendar analysis
+        run: python3 collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/validate_wyg3_kongwang_cross_axis.py
+      - name: Validate WYG III 518400 formal four-pillar fingerprints
+        run: python3 collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/validate_wyg3_kongwang_joint_space.py
+```
+
+Mở rộng `validate_ai01_registry_links.py` (trước đây 18 hồ sơ) thành 20, ghim hash bản ghi mẹ và khóa bốn trụ cùng trạng thái `engine=blocked`; thêm mutation tests riêng. Cũng cần cập nhật README của nhánh để chỉ đường hai báo cáo.
+
+Đến khi kiểm đầy đủ trên `ai-01` mới commit/push/chờ GitHub Actions, cập nhật PR #13 thành *Draft* có kết quả thật. Không merge `main`, không thay engine, `v53`, website, coverage hoặc bản phát hành.
+
+## Câu hỏi còn mở
+
+- Người viết cổ thư đang dùng hai chi 旬空 hay biến thể chọn một chi ở ví dụ `甲午 癸酉 丙子 壬辰`?
+- `身`/`空` trong từng câu chỉ một trụ nào hay một toán tử khác?
+- Các tổ hợp hình thức xuất hiện trong lịch thực vào những thời điểm nào? Cần lịch tiết khí và quy tắc múi giờ đã kiểm, không thể suy từ 518.400 trường hợp.
+- `六合`, `墓庫`, `夾貴` có điều kiện kết hợp nào được nguồn định nghĩa rõ và đủ để tái dựng S11 `臨空印`? **Chưa có**.

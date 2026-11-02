@@ -1,0 +1,101 @@
+{
+  "writtenBeforeImplementationAndRuntime": true,
+  "date": "2026-10-29",
+  "mainOrder": [
+    "長生",
+    "沐浴",
+    "冠帶",
+    "臨官",
+    "帝旺",
+    "衰",
+    "病",
+    "死",
+    "墓",
+    "絶",
+    "胎",
+    "養"
+  ],
+  "quotedOrder": [
+    "受氣",
+    "受胎",
+    "成形",
+    "長生",
+    "沐浴",
+    "冠帶",
+    "臨官",
+    "帝旺",
+    "衰",
+    "病",
+    "死",
+    "墓"
+  ],
+  "explicitAliasQueries": [
+    {
+      "term": "絶",
+      "canonicalSourceName": "受氣",
+      "sourceOrdinal": 1
+    },
+    {
+      "term": "胞",
+      "canonicalSourceName": "受氣",
+      "sourceOrdinal": 1
+    },
+    {
+      "term": "敗",
+      "canonicalSourceName": "沐浴",
+      "sourceOrdinal": 5
+    },
+    {
+      "term": "庫",
+      "canonicalSourceName": "墓",
+      "sourceOrdinal": 12
+    }
+  ],
+  "notImplicitQuotedAliases": [
+    "胎",
+    "養",
+    "生",
+    "旺",
+    "长生",
+    "绝",
+    "冠带",
+    "临官"
+  ],
+  "allMainNameQuotedOrdinal": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    1,
+    null,
+    null
+  ],
+  "expectedLunarSimplifiedSequence": [
+    "长生",
+    "沐浴",
+    "冠带",
+    "临官",
+    "帝旺",
+    "衰",
+    "病",
+    "死",
+    "墓",
+    "绝",
+    "胎",
+    "养"
+  ],
+  "explicitComparisonNormalizationOnly": {
+    "长生": "長生",
+    "冠带": "冠帶",
+    "临官": "臨官",
+    "绝": "絶",
+    "养": "養"
+  },
+  "calendarOrNatalChartsExpected": 0,
+  "sourceTermsNotDiagnosesOrForecasts": true
+}

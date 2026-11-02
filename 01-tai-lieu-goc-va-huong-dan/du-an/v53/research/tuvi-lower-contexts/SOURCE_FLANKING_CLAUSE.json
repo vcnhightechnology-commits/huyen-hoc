@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-29",
+  "system": "NAJ-4469314-juan5-left-right-flanking",
+  "sourceInstructionsAreData": true,
+  "sourceCanvas": 59,
+  "sourceFile": "canvas-059-2200.jpg",
+  "sourceSHA256": "4dc0018a9942cebc3643af9ce95c3beefb5068e88aecdaed2429e8e512bf0e7d",
+  "sourceExcerpt": "左右夾命為貴格 如安命在丑左輔在子右弼在寅宮九月十一月生者是也三方次之",
+  "punctuationIsEditorial": true,
+  "namedStars": [
+    "左輔",
+    "右弼"
+  ],
+  "branchOrder": [
+    "子",
+    "丑",
+    "寅",
+    "卯",
+    "辰",
+    "巳",
+    "午",
+    "未",
+    "申",
+    "酉",
+    "戌",
+    "亥"
+  ],
+  "explicitAnchorRole": "命宮",
+  "printedAnchorBranch": "丑",
+  "printedUnorderedFlankingBranches": [
+    "子",
+    "寅"
+  ],
+  "literalNamedAssignment": {
+    "左輔": "子",
+    "右弼": "寅"
+  },
+  "printedMonths": [
+    9,
+    11
+  ],
+  "orderedAssignmentForBothMonthsNotAsserted": true,
+  "scope": "Geometry of two distinct adjacent palaces about Ming; 三方 is a separate weaker historical claim, not a synonym for 夾. No full貴格 or practical outcome.",
+  "notYetResolved": [
+    "Exact binding of fixed named assignments to 九月/十一月 in the sentence",
+    "Exclusions/strength/三方吉化 and surrounding dependencies",
+    "Calendar year/leap/clock policies of historical examples"
+  ],
+  "consumerChanged": false,
+  "wholeUnitApplied": false
+}

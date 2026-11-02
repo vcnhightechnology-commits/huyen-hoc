@@ -1,0 +1,261 @@
+{
+  "date": "2026-10-28",
+  "status": "staged-closing-source-span-and-explicit-house-question-contexts-verified",
+  "checks": [
+    {
+      "name": "44newlyviewed positions and4QA images preserve retainedPDF/image identities;2priorTOC rereads and4publisher leaves are notnewrulepages",
+      "ok": true
+    },
+    {
+      "name": "Printed乾→小畜 executes2actualHHCcalls andmatches6independentkin/branchlabels,Self6/Response3,and午官→未父;parentsymbols present refute the quoted blanketabsence premise locally",
+      "ok": true
+    },
+    {
+      "name": "Buildingrole Father doesnotbecomebiologicalparent;individualmoving/cohabitationqueriesrequireexplicitrelationship andunrelatedResponse stayssymbolic",
+      "ok": true
+    },
+    {
+      "name": "Landform,acquisitionwhen/where,practitionerandrelativeheight areseparatenamedcoordinates without actualterrain,ownership,dateor excavationdepth",
+      "ok": true
+    },
+    {
+      "name": "All13sourcecontexts preserve explicitmissingquestions andreturnnull forunencodedoldhouseconcern,universaldoorline,clinical/legal/physicaloutcomes",
+      "ok": true
+    },
+    {
+      "name": "393datedcolophon directlyprintsRepublic14month11publication/distribution;394endleafand1925preface remain separate,notanewindependentwitness",
+      "ok": true
+    },
+    {
+      "name": "Closing28spans plus20priorstagedspansyield130firstpass/7partialfoundations/0whole;TOC-bodytitles retainedwithoutclaimall137unitsfullyapplied",
+      "ok": true
+    },
+    {
+      "name": "Strictcontexts rejectautomaticbroadquestions/aliases/hiddenpremises;returnedsource data cannotmutate tables andreleased3663consumerbytesstayunchanged",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "newViewedSourcePositions": 44,
+    "newBodyPositions": 40,
+    "nonRuleLeaves": 4,
+    "expandedPriorTOCPositions": 2,
+    "highResolutionQAViewed": 4,
+    "newFirstPassSpans": 28,
+    "inheritedPriorStagingSpans": 20,
+    "currentFirstPassSpans": 130,
+    "partialFoundationUnits": 7,
+    "wholeUnitsApplied": 0,
+    "actualHHCHexCalls": 2,
+    "printedCastFixtures": 1,
+    "sourceKinBranchLabels": 6,
+    "sourceChangedKinBranchLabels": 1,
+    "namedHouseContexts": 13,
+    "explicitMissingScopeCases": 26,
+    "colophonSourcePDFPage": 393,
+    "colophonRepublicYear": 14,
+    "colophonCommonEraYear": 1925,
+    "colophonPrintedMonth": 11,
+    "newHTTPRequests": 0,
+    "newOriginalContainers": 0
+  },
+  "fixtureProjection": {
+    "system": "b02-ch105-whole-house-critique",
+    "subject": "whole-household",
+    "question": "undifferentiated-household-fortunes",
+    "sourcePages": [
+      360,
+      361
+    ],
+    "sourceVoice": "野鶴",
+    "questionScopeComplete": true,
+    "chart": {
+      "schema": "hhc.liuyao.structural-chart.v1",
+      "orientation": "bottom-to-top",
+      "input": [
+        7,
+        7,
+        7,
+        9,
+        7,
+        7
+      ],
+      "primary": {
+        "number": 1,
+        "normalizedName": "乾為天",
+        "palace": "乾",
+        "palaceTrigram": 1,
+        "palaceElement": "金",
+        "stage": "本宮",
+        "stageIndex": 0,
+        "shi": 6,
+        "ying": 3,
+        "bits": [
+          1,
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "changed": {
+        "number": 9,
+        "normalizedName": "風天小畜",
+        "bits": [
+          1,
+          1,
+          1,
+          0,
+          1,
+          1
+        ],
+        "ownPalaceDiagnostic": "巽",
+        "ownPalaceElementDiagnostic": "木",
+        "annotationKinBasisPalace": "乾",
+        "shiYingReassigned": false
+      },
+      "dayStem": null,
+      "lines": [
+        {
+          "line": 1,
+          "stem": "甲",
+          "branch": "子",
+          "element": "水",
+          "kin": "子孫",
+          "kinBasisPalace": "乾",
+          "value": 7,
+          "polarity": 1,
+          "moving": false,
+          "role": null,
+          "spirit": null,
+          "changed": null
+        },
+        {
+          "line": 2,
+          "stem": "甲",
+          "branch": "寅",
+          "element": "木",
+          "kin": "妻財",
+          "kinBasisPalace": "乾",
+          "value": 7,
+          "polarity": 1,
+          "moving": false,
+          "role": null,
+          "spirit": null,
+          "changed": null
+        },
+        {
+          "line": 3,
+          "stem": "甲",
+          "branch": "辰",
+          "element": "土",
+          "kin": "父母",
+          "kinBasisPalace": "乾",
+          "value": 7,
+          "polarity": 1,
+          "moving": false,
+          "role": "應",
+          "spirit": null,
+          "changed": null
+        },
+        {
+          "line": 4,
+          "stem": "壬",
+          "branch": "午",
+          "element": "火",
+          "kin": "官鬼",
+          "kinBasisPalace": "乾",
+          "value": 9,
+          "polarity": 1,
+          "moving": true,
+          "role": null,
+          "spirit": null,
+          "changed": {
+            "line": 4,
+            "stem": "辛",
+            "branch": "未",
+            "element": "土",
+            "kin": "父母",
+            "kinBasisPalace": "乾",
+            "polarity": 0
+          }
+        },
+        {
+          "line": 5,
+          "stem": "壬",
+          "branch": "申",
+          "element": "金",
+          "kin": "兄弟",
+          "kinBasisPalace": "乾",
+          "value": 7,
+          "polarity": 1,
+          "moving": false,
+          "role": null,
+          "spirit": null,
+          "changed": null
+        },
+        {
+          "line": 6,
+          "stem": "壬",
+          "branch": "戌",
+          "element": "土",
+          "kin": "父母",
+          "kinBasisPalace": "乾",
+          "value": 7,
+          "polarity": 1,
+          "moving": false,
+          "role": "世",
+          "spirit": null,
+          "changed": null
+        }
+      ],
+      "movingLines": [
+        4
+      ],
+      "scope": "structural-source-reference-only",
+      "consumerApplied": false,
+      "predictedEvent": null,
+      "missingPremises": [
+        "用神selection",
+        "飛伏rules",
+        "calendar month/day boundaries",
+        "旺衰/旬空conditionalrules",
+        "full source exceptions",
+        "outcome validation"
+      ]
+    },
+    "sourceRolesExtracted": false,
+    "candidateRoleProjections": null,
+    "unknownReason": "source-rejects-undifferentiated-household-query",
+    "sourceRejectsUndifferentiatedQuestion": true,
+    "sourceSymbolicLandform": null,
+    "sourceRelativeHeightBand": null,
+    "sourceHeightIsNotElevationOrDepth": false,
+    "sourceRoleIsNotBiologicalIdentity": true,
+    "useLineSelected": null,
+    "strength": null,
+    "effectiveActivity": null,
+    "actualHouseOrRoomPlan": null,
+    "universalDoorLine": null,
+    "compassBearing": null,
+    "realLocation": null,
+    "actualElevation": null,
+    "diggingDepth": null,
+    "landOwnership": null,
+    "acquisitionDate": null,
+    "practitionerQuality": null,
+    "constructionSafety": null,
+    "healthResult": null,
+    "lifespan": null,
+    "familyOutcome": null,
+    "financialResult": null,
+    "chronologicalDateAdapter": null,
+    "practicalOutcome": null,
+    "consumerApplied": false
+  },
+  "allConditionalRulesEncoded": false,
+  "sourceOutcomesValidated": false,
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false
+}

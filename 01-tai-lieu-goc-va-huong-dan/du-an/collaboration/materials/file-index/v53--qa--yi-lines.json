@@ -1,0 +1,65 @@
+{
+  "scope": "v53/qa/yi-lines",
+  "files": [
+    {
+      "file": "v53/qa/yi-lines/can-moving.txt",
+      "bytes": 1892,
+      "sha256": "3a7ca0d498029d21e98382842acc1f6c34e91b94cbbde4ad0fd09fe71a07ebc5",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/3a7ca0d498029d21e98382842acc1f6c34e91b94cbbde4ad0fd09fe71a07ebc5",
+      "httpRange": {
+        "offset": 379924759,
+        "compressedBytes": 1068,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/yi-lines/pattern-checks.json",
+      "bytes": 25565,
+      "sha256": "5873b8df6619ef344055d81e39c3bb3de3a4295cb989b91e751b65437dd7a8a9",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5873b8df6619ef344055d81e39c3bb3de3a4295cb989b91e751b65437dd7a8a9",
+      "httpRange": {
+        "offset": 227086166,
+        "compressedBytes": 1712,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/yi-lines/reading-1440.png",
+      "bytes": 400627,
+      "sha256": "1855523e4515a4d047bac612f1765d8ae3f5090d87cb8ffdb37e5a1dfc5ff366",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1855523e4515a4d047bac612f1765d8ae3f5090d87cb8ffdb37e5a1dfc5ff366",
+      "httpRange": {
+        "offset": 328264091,
+        "compressedBytes": 386204,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/yi-lines/reading-390.png",
+      "bytes": 213545,
+      "sha256": "822d5a707ae6a93e1bd1cf7fa6e62ed9ad8c8174765e0d43ddcfe00ae67363aa",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/822d5a707ae6a93e1bd1cf7fa6e62ed9ad8c8174765e0d43ddcfe00ae67363aa",
+      "httpRange": {
+        "offset": 87300364,
+        "compressedBytes": 203199,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/yi-lines/test-results.json",
+      "bytes": 3261,
+      "sha256": "9dce405e74eefcbc762e5046cf1e3aa1c44723635d0ab60ae3c11163f4b571c3",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9dce405e74eefcbc762e5046cf1e3aa1c44723635d0ab60ae3c11163f4b571c3",
+      "httpRange": {
+        "offset": 118705419,
+        "compressedBytes": 1032,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

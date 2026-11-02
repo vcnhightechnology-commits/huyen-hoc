@@ -1,0 +1,74 @@
+[
+  {
+    "id": "sheng-heng",
+    "primary": 46,
+    "changed": 32,
+    "sourceContext": "B02-ch034",
+    "question": "weather",
+    "shi": 4,
+    "ying": 1,
+    "interposedLines": [
+      {
+        "line": 2,
+        "branch": "亥",
+        "kin": "父母",
+        "moving": false
+      },
+      {
+        "line": 3,
+        "branch": "酉",
+        "kin": "官鬼",
+        "moving": false
+      }
+    ],
+    "candidateSymbolicRole": null,
+    "symbolicRole": null,
+    "roleApplicable": false,
+    "bilateralContext": false,
+    "visibleMovingInterposedLines": [],
+    "roleScope": "source-symbolism-not-real-person-identification",
+    "automaticQuestionInference": false,
+    "darkMotionDerived": false,
+    "obstructionEstablished": null,
+    "predictedOutcome": null,
+    "consumerApplied": false,
+    "completeStrengthAndUseGodRules": false
+  },
+  {
+    "id": "dayou-daxu",
+    "primary": 14,
+    "changed": 26,
+    "sourceContext": "B02-ch034",
+    "question": "boat_travel",
+    "shi": 3,
+    "ying": 6,
+    "interposedLines": [
+      {
+        "line": 4,
+        "branch": "酉",
+        "kin": "兄弟",
+        "moving": true
+      },
+      {
+        "line": 5,
+        "branch": "未",
+        "kin": "父母",
+        "moving": false
+      }
+    ],
+    "candidateSymbolicRole": "附載",
+    "symbolicRole": "附載",
+    "roleApplicable": true,
+    "bilateralContext": true,
+    "visibleMovingInterposedLines": [
+      4
+    ],
+    "roleScope": "source-symbolism-not-real-person-identification",
+    "automaticQuestionInference": false,
+    "darkMotionDerived": false,
+    "obstructionEstablished": null,
+    "predictedOutcome": null,
+    "consumerApplied": false,
+    "completeStrengthAndUseGodRules": false
+  }
+]

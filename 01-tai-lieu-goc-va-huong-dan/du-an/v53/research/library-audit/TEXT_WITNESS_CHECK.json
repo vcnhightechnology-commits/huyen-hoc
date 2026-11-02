@@ -1,0 +1,79 @@
+{
+  "schema": "hhc.zhaijing.selected-transcription-collation.v1",
+  "date": "2026-10-25",
+  "sourceRevisions": {
+    "repositories": [
+      {
+        "repo": "KR3g0019",
+        "branch": "WYG",
+        "revision": "306f7650b38ab309e648b7a64ecd3b3d8cd5884a"
+      },
+      {
+        "repo": "KR5a0294",
+        "branch": "HFL",
+        "revision": "c4a5508d8d672dd4e62713f577f90ed64a17c3c5"
+      }
+    ],
+    "note": "Edition identity is that declared by the maintainer. An immutable commit plus SHA establishes reproducibility, not textual correctness or predictive validity."
+  },
+  "pairs": [
+    {
+      "id": "opening",
+      "wyg": "夫宅者乃是隂陽之樞紐人倫之軌模",
+      "hfl": "夫宅者乃是陰陽之樞紐人倫之軌模",
+      "observation": "隂/陰 differs in this opening. Kept literally, no blanket character conversion.",
+      "locatedInWYG": true,
+      "locatedInHFL": true
+    },
+    {
+      "id": "ability-wording",
+      "wyg": "非夫博物明賢而能悟斯道也",
+      "hfl": "非夫博物明賢無能悟斯道也",
+      "observation": "而/無 changes the recorded wording. Without matching facsimile pages, do not declare which is an OCR error or repair either text.",
+      "locatedInWYG": true,
+      "locatedInHFL": true
+    },
+    {
+      "id": "analogy",
+      "wyg": "猶藥病之效也",
+      "hfl": "猶樂病之效也",
+      "observation": "藥/樂 differs in the recorded transcription. Requires image checking before editorial correction.",
+      "locatedInWYG": true,
+      "locatedInHFL": true
+    }
+  ],
+  "metadataCaution": "KR5a0294 labels BASEEDITION/WITNESS HFL and its Readme maps HFL to 涵芬樓版, but its SOURCE header mentions 三家本 1988. This edition attribution has not been independently reconciled against images. KR3g0019 WYG attribution is also maintainer metadata, not an authenticated original manuscript.",
+  "scope": "Three selected comparisons in volume 1, not a full-book collation or assessment of feng shui effects. These transcriptions are supplemental research evidence and are not introduced as user-facing room rules.",
+  "byteFiles": [
+    {
+      "file": "KR3g0019-KR3g0019_000.txt",
+      "bytes": 1442,
+      "sha256": "b2e8cf82101f9e5a10677fa7cf584f0e25a02da621d439efeadb1c05cd423dd9"
+    },
+    {
+      "file": "KR3g0019-KR3g0019_001.txt",
+      "bytes": 9937,
+      "sha256": "619aa9ec17852afd4b3629f9b5ff3b31b18872a4824747e890d092aefcd975cc"
+    },
+    {
+      "file": "KR3g0019-KR3g0019_002.txt",
+      "bytes": 8112,
+      "sha256": "c67b8d70714492f5bfb3dc9bb603092bd84e33e443cc0a588bc02a46de9ff23d"
+    },
+    {
+      "file": "KR5a0294-KR5a0294_000.txt",
+      "bytes": 252,
+      "sha256": "b28d77f538821a536bcf261344d54e7d7ad94e89c7f148b9819edb02286655d7"
+    },
+    {
+      "file": "KR5a0294-KR5a0294_001.txt",
+      "bytes": 10201,
+      "sha256": "36999623ec17df47c746d09aef90671b0a8de44d112151bab7e75000306ca242"
+    },
+    {
+      "file": "KR5a0294-KR5a0294_002.txt",
+      "bytes": 8422,
+      "sha256": "ccadc3644ea912f85645bf6a1b3e59bcb45590601fee2e13e5d5fd224b8ac03e"
+    }
+  ]
+}

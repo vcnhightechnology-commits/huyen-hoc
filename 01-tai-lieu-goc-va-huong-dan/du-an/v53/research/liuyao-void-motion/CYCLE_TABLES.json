@@ -1,0 +1,279 @@
+{
+  "date": "2026-10-27",
+  "sixXunVoidRows": [
+    {
+      "xunHead": "甲子",
+      "voidBranches": [
+        "戌",
+        "亥"
+      ]
+    },
+    {
+      "xunHead": "甲戌",
+      "voidBranches": [
+        "申",
+        "酉"
+      ]
+    },
+    {
+      "xunHead": "甲申",
+      "voidBranches": [
+        "午",
+        "未"
+      ]
+    },
+    {
+      "xunHead": "甲午",
+      "voidBranches": [
+        "辰",
+        "巳"
+      ]
+    },
+    {
+      "xunHead": "甲辰",
+      "voidBranches": [
+        "寅",
+        "卯"
+      ]
+    },
+    {
+      "xunHead": "甲寅",
+      "voidBranches": [
+        "子",
+        "丑"
+      ]
+    }
+  ],
+  "xunPDFPage": 93,
+  "derivedDayCoordinates": "60合法干支由十干十二支同序循環推得；每十日對應影印六旬之一。此為明示推導，非逐日六十格原表。",
+  "rawMembershipIsFunctionalVoid": false,
+  "calendarAdapter": false,
+  "monthBreakRows": [
+    {
+      "sourceMonthOrdinal": 1,
+      "monthBranch": "寅",
+      "clashedBranch": "申"
+    },
+    {
+      "sourceMonthOrdinal": 2,
+      "monthBranch": "卯",
+      "clashedBranch": "酉"
+    },
+    {
+      "sourceMonthOrdinal": 3,
+      "monthBranch": "辰",
+      "clashedBranch": "戌"
+    },
+    {
+      "sourceMonthOrdinal": 4,
+      "monthBranch": "巳",
+      "clashedBranch": "亥"
+    },
+    {
+      "sourceMonthOrdinal": 5,
+      "monthBranch": "午",
+      "clashedBranch": "子"
+    },
+    {
+      "sourceMonthOrdinal": 6,
+      "monthBranch": "未",
+      "clashedBranch": "丑"
+    },
+    {
+      "sourceMonthOrdinal": 7,
+      "monthBranch": "申",
+      "clashedBranch": "寅"
+    },
+    {
+      "sourceMonthOrdinal": 8,
+      "monthBranch": "酉",
+      "clashedBranch": "卯"
+    },
+    {
+      "sourceMonthOrdinal": 9,
+      "monthBranch": "戌",
+      "clashedBranch": "辰"
+    },
+    {
+      "sourceMonthOrdinal": 10,
+      "monthBranch": "亥",
+      "clashedBranch": "巳"
+    },
+    {
+      "sourceMonthOrdinal": 11,
+      "monthBranch": "子",
+      "clashedBranch": "午"
+    },
+    {
+      "sourceMonthOrdinal": 12,
+      "monthBranch": "丑",
+      "clashedBranch": "未"
+    }
+  ],
+  "monthBreakPDFPages": [
+    103,
+    104
+  ],
+  "monthBoundaryEstablished": false,
+  "fourPhaseConvention": "B02-author-earth-follows-water;partial-explicit-fire-row",
+  "fourPhaseRows": [
+    {
+      "element": "金",
+      "生": "巳",
+      "旺": "酉",
+      "墓": "丑",
+      "絕": "寅",
+      "pdfPages": [
+        97
+      ]
+    },
+    {
+      "element": "木",
+      "生": "亥",
+      "旺": "卯",
+      "墓": "未",
+      "絕": "申",
+      "pdfPages": [
+        97
+      ]
+    },
+    {
+      "element": "水",
+      "生": "申",
+      "旺": "子",
+      "墓": "辰",
+      "絕": "巳",
+      "pdfPages": [
+        97
+      ]
+    },
+    {
+      "element": "土",
+      "生": "申",
+      "旺": "子",
+      "墓": "辰",
+      "絕": "巳",
+      "pdfPages": [
+        97,
+        98,
+        99
+      ]
+    },
+    {
+      "element": "火",
+      "生": "寅",
+      "旺": null,
+      "墓": "戌",
+      "絕": null,
+      "pdfPages": [
+        99,
+        101
+      ]
+    }
+  ],
+  "phaseLimits": [
+    "PDF97表直接列金、木、水土，未列火一行；火生寅見99、墓戌見101。未由常識補午旺亥絕。",
+    "PDF98說巳火可反生強土，巳不是對任何土爻一律作絕。金巳生也受巳午火克/生扶條件限制。",
+    "PDF99轉引火土生寅後提出土寄生申；保留作者所採框架和爭議，未宣稱各派一致或實證定論。",
+    "Only four named phase coordinates;no full12stage generator or finalstrength classifier."
+  ],
+  "threeTombKinds": {
+    "pdfPage": 100,
+    "kinds": [
+      "用爻入日墓",
+      "入動墓",
+      "動而化墓"
+    ],
+    "rejectedLegacyNames": [
+      "世墓",
+      "身墓",
+      "命墓"
+    ]
+  },
+  "sixSpiritsPrintedRowsPDF71": [
+    {
+      "stems": [
+        "甲",
+        "乙"
+      ],
+      "bottomToTop": [
+        "青龍",
+        "朱雀",
+        "勾陳",
+        "螣蛇",
+        "白虎",
+        "玄武"
+      ]
+    },
+    {
+      "stems": [
+        "丙",
+        "丁"
+      ],
+      "bottomToTop": [
+        "朱雀",
+        "勾陳",
+        "螣蛇",
+        "白虎",
+        "玄武",
+        "青龍"
+      ]
+    },
+    {
+      "stems": [
+        "戊"
+      ],
+      "bottomToTop": [
+        "勾陳",
+        "螣蛇",
+        "白虎",
+        "玄武",
+        "青龍",
+        "朱雀"
+      ]
+    },
+    {
+      "stems": [
+        "己"
+      ],
+      "bottomToTop": [
+        "螣蛇",
+        "白虎",
+        "玄武",
+        "青龍",
+        "朱雀",
+        "勾陳"
+      ]
+    },
+    {
+      "stems": [
+        "庚",
+        "辛"
+      ],
+      "bottomToTop": [
+        "白虎",
+        "玄武",
+        "青龍",
+        "朱雀",
+        "勾陳",
+        "螣蛇"
+      ]
+    },
+    {
+      "stems": [
+        "壬",
+        "癸"
+      ],
+      "bottomToTop": [
+        "玄武",
+        "青龍",
+        "朱雀",
+        "勾陳",
+        "螣蛇",
+        "白虎"
+      ]
+    }
+  ],
+  "spiritsNormalization": "Printed元武/勾陳/螣蛇 normalized to prior private API玄武/勾陳/螣蛇;page71columns read top6→bottom1 and reversed explicitly for array orientation.",
+  "consumerApplied": false
+}

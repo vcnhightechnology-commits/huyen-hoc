@@ -1,0 +1,77 @@
+{
+  "scope": "v53/qa/opposite-reading",
+  "files": [
+    {
+      "file": "v53/qa/opposite-reading/engine-comparison.json",
+      "bytes": 464990,
+      "sha256": "703b2d3d1e6731c72f984e942333b05a947aae7cbc9c32c3b6837481cc4ed203",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/703b2d3d1e6731c72f984e942333b05a947aae7cbc9c32c3b6837481cc4ed203",
+      "httpRange": {
+        "offset": 315237758,
+        "compressedBytes": 34425,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/opposite-reading/reading-1440.png",
+      "bytes": 458136,
+      "sha256": "3b3df5839cdcafc624d3c7a997a41c0184c63a9b47f7dd62cd298c25fd2f3ae5",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/3b3df5839cdcafc624d3c7a997a41c0184c63a9b47f7dd62cd298c25fd2f3ae5",
+      "httpRange": {
+        "offset": 385118816,
+        "compressedBytes": 440632,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/opposite-reading/reading-390.png",
+      "bytes": 271779,
+      "sha256": "dcfa6d920330c9f95adfdd1aed74e5e128e747185d177a256d856ca53c5c0d63",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/dcfa6d920330c9f95adfdd1aed74e5e128e747185d177a256d856ca53c5c0d63",
+      "httpRange": {
+        "offset": 237604433,
+        "compressedBytes": 258760,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/opposite-reading/reading.txt",
+      "bytes": 4220,
+      "sha256": "c2023c1dce8683ea9c5e4a0c14e67fd41567671e53c9cc2c25cea4e8c61d0b6e",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c2023c1dce8683ea9c5e4a0c14e67fd41567671e53c9cc2c25cea4e8c61d0b6e",
+      "httpRange": {
+        "offset": 312062715,
+        "compressedBytes": 1842,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/opposite-reading/source-audit.json",
+      "bytes": 1330,
+      "sha256": "bc320057a3839ca1d2a56c4e815a6c117512844b49582e10c3219dfeeb5f7d13",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bc320057a3839ca1d2a56c4e815a6c117512844b49582e10c3219dfeeb5f7d13",
+      "httpRange": {
+        "offset": 195395121,
+        "compressedBytes": 740,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/opposite-reading/test-results.json",
+      "bytes": 3557,
+      "sha256": "a44ecca1fc8e06e732879a3d84534833b3966b7d3bdbca602e73447095b47153",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a44ecca1fc8e06e732879a3d84534833b3966b7d3bdbca602e73447095b47153",
+      "httpRange": {
+        "offset": 212126416,
+        "compressedBytes": 1274,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

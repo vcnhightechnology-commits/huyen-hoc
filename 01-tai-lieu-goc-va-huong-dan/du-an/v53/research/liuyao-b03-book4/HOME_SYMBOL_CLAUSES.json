@@ -1,0 +1,63 @@
+{
+  "date": "2026-10-27",
+  "sourceID": "B03-book4",
+  "sourceContext": "B03-volume9-home-divination",
+  "anchors": {
+    "house": {
+      "line": 2,
+      "sourceSymbol": "宅",
+      "pdfPage": 28
+    },
+    "occupants": {
+      "line": 5,
+      "sourceSymbol": "人口",
+      "pdfPage": 28
+    },
+    "inner": {
+      "lines": [
+        1,
+        2,
+        3
+      ],
+      "pdfPage": 28
+    },
+    "outer": {
+      "lines": [
+        4,
+        5,
+        6
+      ],
+      "pdfPage": 28
+    }
+  },
+  "fourthLineDoor": {
+    "pdfPage": 41,
+    "boundedReading": "四爻兄弟方言戶",
+    "commentaryBoundedReading": "無兄弟臨之不可便言門戶如臨兄弟方以戶斷",
+    "principalDoorBoundedReading": "第四爻或動或靜與第二爻相合者當以大門決斷",
+    "kinPrerequisite": "兄弟",
+    "primaryLinesCompared": [
+      4,
+      2
+    ],
+    "motionRequirement": null,
+    "structuralCombinationUsesPreviouslyCollatedSixCombinationTable": true
+  },
+  "thirdLineBedException": {
+    "pdfPage": 40,
+    "boundedReading": "兄弟卯爻床榻論",
+    "commentaryBoundedReading": "如兄弟是卯爻不可言門戶當以床榻論之",
+    "line": 3,
+    "kin": "兄弟",
+    "branch": "卯"
+  },
+  "scope": "Source divination symbols only, not compass-based house planning or physical object detection.",
+  "notCompiled": [
+    "Full other third-line/door conditions",
+    "Other line-element/stem/season/kin alternatives",
+    "Original author versus added supplement attribution pedigree",
+    "All strength/void/day/month/outcome conditions"
+  ],
+  "floorPlanAdapter": false,
+  "consumerApplied": false
+}

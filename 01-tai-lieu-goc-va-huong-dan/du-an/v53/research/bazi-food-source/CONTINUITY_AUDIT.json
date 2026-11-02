@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-28",
+  "status": "direct-retained-continuity-gap-not-filled",
+  "sourceContainer": "v53/research/bazi-pattern-witness/CADAL06066041.djvu",
+  "sourceSHA256": "013ce4861680a2bf08b811050c45a45bb2d3ce9d164f7e2341d7070bd5cb2c1a",
+  "actualDecodedContainerPages": 226,
+  "lastBeforeGap": {
+    "containerPage": 188,
+    "workingFolio": "005-93b",
+    "start": "重巳中丙戊禄來崇",
+    "end": "嵗運若逢財旺地須當權職自髙陞"
+  },
+  "firstAfterGap": {
+    "containerPage": 189,
+    "printedFolioNumeral": "九十六",
+    "workingFolio": "005-96a",
+    "start": "日衝官巳要强亥為壬禄貴人鄉",
+    "end": "其餘四日並不論及是則以此二日倒衝為"
+  },
+  "digitalComparator": "v53/research/four-items/sources/KR3g0042_005.txt",
+  "correspondingDigitalFoliosNotBetweenTheseRetainedImages": [
+    "005-94a",
+    "005-94b",
+    "005-95a",
+    "005-95b"
+  ],
+  "affectedUnits": [
+    "飛天禄馬-tail",
+    "倒衝禄-heading-and-opening"
+  ],
+  "digitalContainsMissingInterval": true,
+  "scanOriginalBytesChanged": false,
+  "digitalBytesChanged": false,
+  "missingAnywhereInEntireContainerEstablished": false,
+  "noSilentInterpolation": true,
+  "noSingleArithmeticImageToFolioOffset": true,
+  "publicEngineAffected": false,
+  "next": "Seekexactimagewitnessforthese4foliosorlocaterelocatedpages;notcallwholeCADALsectionimagecompletefromcontiguouscontainernumbers."
+}

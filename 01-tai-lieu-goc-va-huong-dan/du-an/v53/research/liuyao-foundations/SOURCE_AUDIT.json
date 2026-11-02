@@ -1,0 +1,97 @@
+{
+  "date": "2026-10-27",
+  "sources": [
+    {
+      "catalogueID": "B02",
+      "prefix": "zengshan",
+      "file": "NLC416-12jh005345-45344.pdf",
+      "bytes": 11089308,
+      "sha256": "caac111bc5c5b1c08fd27b3828e7cf6b5430503800f2427d8f2b28809022abaa",
+      "sha1": "9ec41f98897ad5650261398b5c3b29ae7129c9c3",
+      "pdfPages": 394,
+      "commonsFileRevision": 808899674,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/42/NLC416-12jh005345-45344_%E5%A2%9E%E5%88%AA%E5%8D%9C%E6%98%93.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "scope": "Six textual volumes/three physical books according to Commons metadata; selected units only read."
+    },
+    {
+      "catalogueID": "B03",
+      "prefix": "bushi",
+      "file": "NLC892-GBZX0301013045-259368.pdf",
+      "bytes": 50191031,
+      "sha256": "5dcd7b5005b1e86f441a9350eefb7c0e9e628c47ab926b2a7d1bdd6691a4773d",
+      "sha1": "8e9d02e2e7f4a599df9e0d3854bc628e3ed3b12f",
+      "pdfPages": 60,
+      "commonsFileRevision": 754088939,
+      "url": "https://upload.wikimedia.org/wikipedia/commons/b/b7/NLC892-GBZX0301013045-259368_%E5%8D%9C%E7%AD%AE%E6%AD%A3%E5%AE%97_%E5%8D%81%E5%9B%9B%E5%8D%B7_%E7%AC%AC1%E5%86%8A.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "scope": "First physical book only of the fourteen-volume work; not the entire work."
+    }
+  ],
+  "httpAttempts": 8,
+  "retained200Bodies": 6,
+  "tlsFailuresWithoutResponseBody": 2,
+  "byteIdentityMeaning": "Raw response bytes and Commons API size/SHA1 agree. This is not an institutional signature or proof of independent textual pedigree.",
+  "bibliography": [
+    {
+      "work": "增刪卜易",
+      "metadata": "文明書局/1925;秦慎安校勘 in Commons metadata.",
+      "directReading": {
+        "pdfPage": 3,
+        "fragment": "民國乙丑年秋七月編者識",
+        "meaning": "1925 seventh-month preface date; not independently verified print/imprint date."
+      },
+      "endleaf": {
+        "pdfPage": 394,
+        "kind": "publisher logo/endleaf, not dated imprint"
+      }
+    },
+    {
+      "work": "卜筮正宗",
+      "directReading": {
+        "pdfPage": 2,
+        "fragments": [
+          "光緒甲辰新鐫",
+          "王洪緒輯",
+          "河潞武子齡校對",
+          "文成堂存板"
+        ],
+        "meaning": "Title page gives Guangxu Jiachen, corresponding to1904; do not substitute a different1889edition or the1709preface date."
+      }
+    },
+    {
+      "work": "増刪卜易",
+      "institution": "National Archives of Japan",
+      "url": "https://www.digital.archives.go.jp/file/1079274",
+      "retainedBody": "japan-zengshan-catalog.html",
+      "callNumber": "子059-0008",
+      "metadata": [
+        "李文輝(清)",
+        "刊本",
+        "清乾隆",
+        "学耕堂",
+        "6冊/6巻"
+      ],
+      "status": "bibliographic witness only; six linked items4756813..4756818 not yet retrieved/read",
+      "dateCaution": "Do not interpret the metadata code500000as an exact Gregorian publication date."
+    }
+  ],
+  "wikisource": {
+    "file": "bushi-wikisource-preface-and-missing-volume.json",
+    "prefaceRevision": 2395728,
+    "missing": "卜筮正宗（河潞武子龄校本）/卷01",
+    "decision": "A preface exists but卷01is a redlink; inherited full-text label is not established."
+  },
+  "failures": [
+    {
+      "url": "https://read.nlc.cn/allSearch/searchDetail?fid=12jh005345&indexName=data_416&searchType=24&showType=1",
+      "error": "Client network socket disconnected before secure TLS connection was established",
+      "responseBodyRetained": false
+    },
+    {
+      "url": "https://read.nlc.cn/allSearch/searchDetail?fid=GBZX0301013045&indexName=data_892&searchType=&showType=1",
+      "error": "Client network socket disconnected before secure TLS connection was established",
+      "responseBodyRetained": false
+    }
+  ],
+  "webToolCaution": "Web open of Japanese catalog returned403, while ordinary public HTTPS returned200/TLS authorized. Both observations retained; no bypass, no special authentication.",
+  "sourceInstructionPolicy": "Historical ritual, secrecy, divination advice and medical claims are source content, not instructions from the user or validated outcome guidance."
+}

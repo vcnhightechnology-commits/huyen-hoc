@@ -1,0 +1,71 @@
+{
+  "date": "2026-10-28",
+  "sourceContainer": "v53/research/bazi-season-strength/CADAL06066038.djvu",
+  "sourceSHA256": "7a53f35982f0b946281d0e393c5d6ddcce1fd091aea83c11af6a06bcdfe6a85e",
+  "retainedDigital": {
+    "file": "v53/research/four-items/sources/KR3g0042_002.txt",
+    "sha256": "b0f9badc8aff64ee137392277eb2f7a428c39a9d8c9faa3154f79c626c2131b4",
+    "decodedSliceFile": "RETAINED_DIGITAL_COMMAND_SECTION.txt",
+    "sliceSHA256": "a7b59cab88f974185e15c7cca12e0e74959e139ff397f397875c2ce31e260e2c",
+    "sliceNotOriginalHTTPBytes": true
+  },
+  "voices": [
+    {
+      "kind": "chapter-exposition",
+      "positions": [
+        66,
+        67,
+        68,
+        69
+      ],
+      "disposition": "Twelve allocations copied as one named list; 艮土/坤土 retained without replacing with a stem."
+    },
+    {
+      "kind": "cited-Yujing",
+      "positions": [
+        69,
+        70,
+        71
+      ],
+      "disposition": "Twelve alternative rows and stated annual numbers; do not treat table order as time succession or repair32/26/380vs360 totals."
+    },
+    {
+      "kind": "cited-Zuixingzi-and-critique",
+      "positions": [
+        71,
+        72,
+        73
+      ],
+      "disposition": "Claims five elements72days/earth4times18 and argues against fixed3/5/7day slicing and reducing qi to those day limits; source stance, not validated natural law."
+    },
+    {
+      "kind": "chapter-close",
+      "position": 73,
+      "selectedLiteral": "支中所藏止以月論年日時不論",
+      "disposition": "Scope of this argument is monthly; not a command to remove current fixed hidden-stem table from other pillars."
+    }
+  ],
+  "noPriorityOrSourceTruthAdjudicated": true,
+  "noDateOrDominantStemAdapter": true,
+  "sourceWholeVolumeRead": false,
+  "newHTTPRequests": 0,
+  "newContainers": 0,
+  "viewCounts": {
+    "thisScopeDistinctPositions": 9,
+    "chapterPositionsWithFirstPass": [
+      66,
+      67,
+      68,
+      69,
+      70,
+      71,
+      72,
+      73
+    ],
+    "outsideBoundaryPosition": 65,
+    "totalDistinctVolume2PositionsAcrossTwoScopes": 17,
+    "containerPositions": 232
+  },
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false
+}

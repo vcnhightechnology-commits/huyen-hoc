@@ -1,0 +1,181 @@
+{
+  "date": "2026-10-29",
+  "writtenBeforeImplementationAndRuntime": true,
+  "system": "TMTH005-C07-source-chain",
+  "stemElements": {
+    "甲": "木",
+    "丙": "火",
+    "壬": "水",
+    "戊": "土",
+    "庚": "金"
+  },
+  "enginePairs": [
+    {
+      "root": "甲",
+      "target": "丙",
+      "lunarTenGod": "食神",
+      "hhcTenGod": "Thực Thần"
+    },
+    {
+      "root": "甲",
+      "target": "壬",
+      "lunarTenGod": "偏印",
+      "hhcTenGod": "Thiên Ấn"
+    },
+    {
+      "root": "甲",
+      "target": "戊",
+      "lunarTenGod": "偏财",
+      "hhcTenGod": "Thiên Tài"
+    },
+    {
+      "root": "甲",
+      "target": "庚",
+      "lunarTenGod": "七杀",
+      "hhcTenGod": "Thất Sát"
+    },
+    {
+      "root": "壬",
+      "target": "甲",
+      "lunarTenGod": "食神",
+      "hhcTenGod": "Thực Thần"
+    },
+    {
+      "root": "壬",
+      "target": "丙",
+      "lunarTenGod": "偏财",
+      "hhcTenGod": "Thiên Tài"
+    },
+    {
+      "root": "丙",
+      "target": "戊",
+      "lunarTenGod": "食神",
+      "hhcTenGod": "Thực Thần"
+    },
+    {
+      "root": "丙",
+      "target": "庚",
+      "lunarTenGod": "偏财",
+      "hhcTenGod": "Thiên Tài"
+    },
+    {
+      "root": "庚",
+      "target": "甲",
+      "lunarTenGod": "偏财",
+      "hhcTenGod": "Thiên Tài"
+    },
+    {
+      "root": "戊",
+      "target": "庚",
+      "lunarTenGod": "食神",
+      "hhcTenGod": "Thực Thần"
+    },
+    {
+      "root": "丙",
+      "target": "壬",
+      "lunarTenGod": "七杀",
+      "hhcTenGod": "Thất Sát"
+    }
+  ],
+  "manualCases": [
+    {
+      "id": "parallel-all-declared",
+      "subjectBinding": "parallel-bing-subject",
+      "facts": {
+        "sameInteractionFrame": true,
+        "owlControlEffective": true,
+        "noCounteractingRescue": true
+      },
+      "expectedSourceScenarioPremises": true,
+      "expectedSuppressedEdgeIDs": [
+        "丙>戊",
+        "丙>庚"
+      ],
+      "expectedAdjacencyContradiction": false
+    },
+    {
+      "id": "parallel-rescue-not-ruled-out",
+      "subjectBinding": "parallel-bing-subject",
+      "facts": {
+        "sameInteractionFrame": true,
+        "owlControlEffective": true,
+        "noCounteractingRescue": null
+      },
+      "expectedSourceScenarioPremises": null,
+      "expectedSuppressedEdgeIDs": null,
+      "expectedAdjacencyContradiction": false
+    },
+    {
+      "id": "parallel-explicit-rescue",
+      "subjectBinding": "parallel-bing-subject",
+      "facts": {
+        "sameInteractionFrame": true,
+        "owlControlEffective": true,
+        "noCounteractingRescue": false
+      },
+      "expectedSourceScenarioPremises": false,
+      "expectedSuppressedEdgeIDs": null,
+      "expectedAdjacencyContradiction": false
+    },
+    {
+      "id": "parallel-owl-ineffective",
+      "subjectBinding": "parallel-bing-subject",
+      "facts": {
+        "sameInteractionFrame": true,
+        "owlControlEffective": false,
+        "noCounteractingRescue": true
+      },
+      "expectedSourceScenarioPremises": false,
+      "expectedSuppressedEdgeIDs": null,
+      "expectedAdjacencyContradiction": false
+    },
+    {
+      "id": "parallel-frame-missing",
+      "subjectBinding": "parallel-bing-subject",
+      "facts": {
+        "sameInteractionFrame": null,
+        "owlControlEffective": true,
+        "noCounteractingRescue": true
+      },
+      "expectedSourceScenarioPremises": null,
+      "expectedSuppressedEdgeIDs": null,
+      "expectedAdjacencyContradiction": false
+    },
+    {
+      "id": "unresolved-not-auto-bound",
+      "subjectBinding": "unresolved",
+      "facts": {
+        "sameInteractionFrame": true,
+        "owlControlEffective": true,
+        "noCounteractingRescue": true
+      },
+      "expectedSourceScenarioPremises": null,
+      "expectedSuppressedEdgeIDs": null,
+      "expectedAdjacencyContradiction": false
+    },
+    {
+      "id": "adjacent-never-called-control",
+      "subjectBinding": "adjacent-wu-subject",
+      "facts": {
+        "sameInteractionFrame": true,
+        "owlControlEffective": true,
+        "noCounteractingRescue": true
+      },
+      "expectedSourceScenarioPremises": null,
+      "expectedSuppressedEdgeIDs": null,
+      "expectedAdjacencyContradiction": true
+    },
+    {
+      "id": "unknown-facts-not-effective-control",
+      "subjectBinding": "parallel-bing-subject",
+      "facts": {},
+      "expectedSourceScenarioPremises": null,
+      "expectedSuppressedEdgeIDs": null,
+      "expectedAdjacencyContradiction": false
+    }
+  ],
+  "calendarObjectsExpected": 0,
+  "fullSourceEffectivenessAlwaysNull": true,
+  "practicalOutcomesAlwaysNull": true,
+  "enginePairCount": 11
+}

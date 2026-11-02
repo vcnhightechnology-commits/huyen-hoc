@@ -1,0 +1,103 @@
+{
+  "directedPositiveTokens": [
+    "寅巳",
+    "巳申",
+    "申寅",
+    "丑戌",
+    "戌未",
+    "未丑",
+    "子卯",
+    "卯子",
+    "辰辰",
+    "午午",
+    "酉酉",
+    "亥亥"
+  ],
+  "primaryLabels": {
+    "寅巳": "無恩",
+    "巳申": "無恩",
+    "申寅": "無恩",
+    "丑戌": "恃勢",
+    "戌未": "恃勢",
+    "未丑": "恃勢",
+    "子卯": "無禮",
+    "卯子": "無禮",
+    "辰辰": "自刑",
+    "午午": "自刑",
+    "酉酉": "自刑",
+    "亥亥": "自刑"
+  },
+  "alternativeLabels": {
+    "寅巳": "恃勢",
+    "巳申": "恃勢",
+    "申寅": "恃勢",
+    "丑戌": "無恩",
+    "戌未": "無恩",
+    "未丑": "無恩"
+  },
+  "sourceOrdinalSequences": {
+    "mao-zi-forward": "卯辰巳午未申酉戌亥子",
+    "zi-mao-backward": "子亥戌酉申未午巳辰卯",
+    "yin-si-backward": "寅丑子亥戌酉申未午巳",
+    "si-shen-backward": "巳辰卯寅丑子亥戌酉申",
+    "chou-xu-forward": "丑寅卯辰巳午未申酉戌",
+    "xu-wei-forward": "戌亥子丑寅卯辰巳午未"
+  },
+  "entryLabels": [
+    {
+      "direction": "host-to-guest",
+      "entry": true,
+      "sourceLabel": "貴"
+    },
+    {
+      "direction": "host-to-guest",
+      "entry": false,
+      "sourceLabel": "賤"
+    },
+    {
+      "direction": "guest-to-host",
+      "entry": true,
+      "sourceLabel": "賤"
+    },
+    {
+      "direction": "guest-to-host",
+      "entry": false,
+      "sourceLabel": "貴"
+    }
+  ],
+  "literalEntryTargets": {
+    "庚戌": null,
+    "丙戌": null,
+    "壬戌": null,
+    "戊戌": true,
+    "甲戌": false
+  },
+  "sourceControlExample": [
+    "癸巳",
+    "戊寅",
+    "庚申"
+  ],
+  "fourSelfPermutation": "辰午酉亥",
+  "newNaYinExpected": {
+    "乙丑": "海中金",
+    "庚戌": "钗钏金",
+    "丙戌": "屋上土",
+    "壬戌": "大海水",
+    "甲戌": "山头火",
+    "癸巳": "长流水",
+    "戊寅": "城头土",
+    "庚申": "石榴木"
+  },
+  "reusedNaYinExpected": {
+    "戊戌": "平地木"
+  },
+  "withhold": [
+    "effectivePenalty",
+    "fullFormation",
+    "sourceEntryCalculated",
+    "healthRisk",
+    "rankPrediction",
+    "outcome",
+    "calendarDate"
+  ]
+}

@@ -1,0 +1,170 @@
+{
+  "date": "2026-10-26",
+  "scope": "Fixed hidden-stem sets and ten relationship classification; no automated useful-god or strength diagnosis.",
+  "facsimile": {
+    "title": "評註淵海子平 / 淵海子平子平真詮 v.1",
+    "download": {
+      "file": "yuanhai-NTL-v1.pdf",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/NTL-9900014379_%E6%B7%B5%E6%B5%B7%E5%AD%90%E5%B9%B3%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE_v.1.pdf",
+      "finalURL": "https://upload.wikimedia.org/wikipedia/commons/f/fa/NTL-9900014379_%E6%B7%B5%E6%B5%B7%E5%AD%90%E5%B9%B3%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE_v.1.pdf",
+      "status": 200,
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "headers": {
+        "content-type": "application/pdf",
+        "x-object-meta-sha1base36": "6xzrm68rg3ku5fbs6e2h4h3h646guoa",
+        "etag": "177dab1663916a276905e647598818f0",
+        "last-modified": "Mon, 05 Dec 2022 01:07:33 GMT",
+        "accept-ranges": "bytes",
+        "content-length": "90837030",
+        "date": "Sun, 25 Oct 2026 16:59:36 GMT",
+        "x-ratelimit-limit": "600000, 600000;w=60",
+        "x-ratelimit-remaining": "599999",
+        "x-ratelimit-reset": "24",
+        "server": "envoy",
+        "age": "0",
+        "x-cache": "cp1105 miss, cp1105 pass",
+        "x-cache-status": "pass",
+        "server-timing": "cache;desc=\"pass\", host;desc=\"cp1105\"",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "x-client-ip": "2a02:6ea0:1806:1000:22b0:7c3c:8de0:8549",
+        "x-content-type-options": "nosniff",
+        "reporting-endpoints": "csp_endpoint=\"https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json\"",
+        "content-security-policy-report-only": "default-src 'none'; script-src 'none'; style-src 'unsafe-inline' data:; font-src data:; img-src data: https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; connect-src https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; media-src data: 'self'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'self'; report-uri https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json; report-to csp_endpoint",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+        "timing-allow-origin": "*",
+        "set-cookie": [
+          "WMF-Uniq=h-XDKSoA7YQKhg3ac8ufOQQEAAAAAFvdE8sQfeAr0PblajVUn-RjnUTvgs6N1um5;Domain=upload.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Mon, 25 Oct 2027 00:00:00 GMT"
+        ],
+        "x-request-id": "1b1e608d-03cd-401a-80ec-44c474e39ba1",
+        "x-analytics": ""
+      },
+      "bytes": 90837030,
+      "sha256": "664bccd1ea4706c609df8ea6cd69a4565db97dc277e876fc22eb125ea41dcc9f",
+      "retrievedUTC": "2026-10-25T16:59:50.840Z",
+      "usable": true
+    },
+    "catalogue": "https://taiwanebook.ncl.edu.tw/zh-tw/book/NTL-9900014379",
+    "asCatalogued": {
+      "author": "秦慎安 校勘",
+      "publisher": "文明",
+      "year": 1926,
+      "pages": 207,
+      "accession": "31111003618756",
+      "holdingAndImages": "國立臺灣圖書館"
+    },
+    "page": 54,
+    "printedPage": "三六",
+    "heading": "又地支藏遁歌",
+    "pageImage": "sources/yuanhai-p54.png",
+    "pageImageSHA256": "f4f28d360594d55ffd86c7b066312e8d9bba0ed51d3e97eece8224f4fa3f5246",
+    "method": "Manual visual reading of all twelve branch/stem sets from the rendered original PDF page, not inferred from the runtime table. PDF has no usable extracted Chinese text here. Pages 40/55 were search probes, not extra verified passages."
+  },
+  "hiddenStemReadings": [
+    {
+      "branch": "子",
+      "printedStemOrder": "癸",
+      "publicPrimaryFirstOrder": "癸",
+      "sameSet": true
+    },
+    {
+      "branch": "丑",
+      "printedStemOrder": "癸辛己",
+      "publicPrimaryFirstOrder": "己癸辛",
+      "sameSet": true
+    },
+    {
+      "branch": "寅",
+      "printedStemOrder": "甲丙戊",
+      "publicPrimaryFirstOrder": "甲丙戊",
+      "sameSet": true
+    },
+    {
+      "branch": "卯",
+      "printedStemOrder": "乙",
+      "publicPrimaryFirstOrder": "乙",
+      "sameSet": true
+    },
+    {
+      "branch": "辰",
+      "printedStemOrder": "乙戊癸",
+      "publicPrimaryFirstOrder": "戊乙癸",
+      "sameSet": true
+    },
+    {
+      "branch": "巳",
+      "printedStemOrder": "庚丙戊",
+      "publicPrimaryFirstOrder": "丙庚戊",
+      "sameSet": true
+    },
+    {
+      "branch": "午",
+      "printedStemOrder": "丁己",
+      "publicPrimaryFirstOrder": "丁己",
+      "sameSet": true
+    },
+    {
+      "branch": "未",
+      "printedStemOrder": "乙己丁",
+      "publicPrimaryFirstOrder": "己丁乙",
+      "sameSet": true
+    },
+    {
+      "branch": "申",
+      "printedStemOrder": "庚壬戊",
+      "publicPrimaryFirstOrder": "庚壬戊",
+      "sameSet": true
+    },
+    {
+      "branch": "酉",
+      "printedStemOrder": "辛",
+      "publicPrimaryFirstOrder": "辛",
+      "sameSet": true
+    },
+    {
+      "branch": "戌",
+      "printedStemOrder": "辛丁戊",
+      "publicPrimaryFirstOrder": "戊辛丁",
+      "sameSet": true
+    },
+    {
+      "branch": "亥",
+      "printedStemOrder": "壬甲",
+      "publicPrimaryFirstOrder": "壬甲",
+      "sameSet": true
+    }
+  ],
+  "orderingLimit": "UI puts conventional primary stem first; poem order is retained here and does not establish primary/secondary quantitative weights. Actual installed lunar-typescript agrees with the selected display order.",
+  "tenRelations": {
+    "digitalWitness": "Kanripo KR3g0042 / WYG",
+    "commit": "7db72e5553de6ee4c45ed3980c6c67f8a6e451bf",
+    "file": "sources/KR3g0042_005.txt",
+    "sha256": "1ebdd92feaa57496b702f962ad6fafd4f19c17e98c38a94b40f626ef321dd997",
+    "passages": [
+      "卷五 1a–4b 論古人立印食官財名義",
+      "卷五 5a 論正官"
+    ],
+    "method": "Read the passages on day master, five generating/controlling relations and same/opposite polarity; implement the ten labels and compare all 100 ordered stem pairs with executed lunar-typescript. Practical Vietnamese descriptions are editorial prompts, not translations of fate claims.",
+    "limit": "WYG identification is supplied by the digital repository. This is a pinned transcription, not a fully collated facsimile of San Ming Tong Hui."
+  },
+  "notAdopted": {
+    "file": "sources/KR3g0042_002.txt",
+    "sha256": "b0f9badc8aff64ee137392277eb2f7a428c39a9d8c9faa3154f79c626c2131b4",
+    "passage": "卷二 33a–36a 論人元司事",
+    "finding": "Seasonal day-allocation tables contain alternatives and differ from fixed twelve-branch hidden-stem sets (for example 子 includes 壬癸). They are not substituted for the fixed table, and no day weights are inferred."
+  },
+  "evidenceLevels": [
+    "Institutional catalogue metadata",
+    "Downloaded scan bytes and derivative page hash",
+    "Manual passage/set reading",
+    "Pinned digital witness",
+    "Independent runtime table comparison",
+    "Authored consumer explanations"
+  ],
+  "remaining": "No complete study of these books; no independent verification of predictive efficacy, full 1926 volume, all textual variants, strength weights or useful-god choice."
+}

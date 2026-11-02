@@ -1,0 +1,262 @@
+{
+  "date": "2026-10-27",
+  "orientation": "Bottom-to-top; numeric6/7/8/9 are implementation encoding of printed cross/line/circle.",
+  "examples": [
+    {
+      "id": "zengshan-63-recognition",
+      "pdfPages": [
+        23
+      ],
+      "values": [
+        7,
+        8,
+        9,
+        6,
+        9,
+        8
+      ],
+      "backsPerCast": [
+        1,
+        2,
+        3,
+        0,
+        3,
+        2
+      ],
+      "number": 63,
+      "movingLines": [
+        3,
+        4,
+        5
+      ],
+      "derivedChangedNumber": 51,
+      "scope": "Printed coin outcomes and primary-polarity recognition only; changed51is an implementation result, not a printed changed-hexagram fixture."
+    },
+    {
+      "id": "zengshan-64-recognition",
+      "pdfPages": [
+        24
+      ],
+      "values": [
+        8,
+        9,
+        8,
+        7,
+        6,
+        7
+      ],
+      "backsPerCast": [
+        2,
+        3,
+        2,
+        1,
+        0,
+        1
+      ],
+      "number": 64,
+      "movingLines": [
+        2,
+        5
+      ],
+      "derivedChangedNumber": 12,
+      "scope": "Second primary-polarity recognition example; changed12is derived, not a printed changed figure."
+    },
+    {
+      "id": "zengshan-43-to44",
+      "pdfPages": [
+        44,
+        45
+      ],
+      "values": [
+        9,
+        7,
+        7,
+        7,
+        7,
+        6
+      ],
+      "number": 43,
+      "changedNumber": 44,
+      "movingLines": [
+        1,
+        6
+      ],
+      "palace": "坤",
+      "element": "土",
+      "shi": 5,
+      "ying": 2,
+      "primaryBranches": [
+        "子",
+        "寅",
+        "辰",
+        "亥",
+        "酉",
+        "未"
+      ],
+      "primaryKin": [
+        "妻財",
+        "官鬼",
+        "兄弟",
+        "妻財",
+        "子孫",
+        "兄弟"
+      ],
+      "changedAnnotations": [
+        {
+          "line": 1,
+          "branch": "丑",
+          "element": "土",
+          "kin": "兄弟"
+        },
+        {
+          "line": 6,
+          "branch": "戌",
+          "element": "土",
+          "kin": "兄弟"
+        }
+      ],
+      "counterexample": "Changed hexagram44belongs to乾金; using that as kin anchor would give父母for both changed土lines, contrary to the explicit explanation."
+    },
+    {
+      "id": "zengshan-qian-static",
+      "pdfPages": [
+        46
+      ],
+      "values": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "number": 1,
+      "changedNumber": 1,
+      "movingLines": [],
+      "palace": "乾",
+      "element": "金",
+      "shi": 6,
+      "ying": 3,
+      "primaryBranches": [
+        "子",
+        "寅",
+        "辰",
+        "午",
+        "申",
+        "戌"
+      ],
+      "primaryKin": [
+        "子孫",
+        "妻財",
+        "父母",
+        "官鬼",
+        "兄弟",
+        "父母"
+      ],
+      "changedAnnotations": []
+    }
+  ],
+  "qianRoleAnchors": [
+    {
+      "number": 1,
+      "shi": 6,
+      "ying": 3,
+      "pdfPages": [
+        26
+      ]
+    },
+    {
+      "number": 44,
+      "shi": 1,
+      "ying": 4,
+      "pdfPages": [
+        26
+      ]
+    },
+    {
+      "number": 33,
+      "shi": 2,
+      "ying": 5,
+      "pdfPages": [
+        26
+      ]
+    },
+    {
+      "number": 12,
+      "shi": 3,
+      "ying": 6,
+      "pdfPages": [
+        26
+      ]
+    },
+    {
+      "number": 20,
+      "shi": 4,
+      "ying": 1,
+      "pdfPages": [
+        27
+      ]
+    },
+    {
+      "number": 23,
+      "shi": 5,
+      "ying": 2,
+      "pdfPages": [
+        27
+      ]
+    },
+    {
+      "number": 35,
+      "shi": 4,
+      "ying": 1,
+      "pdfPages": [
+        27
+      ]
+    },
+    {
+      "number": 14,
+      "shi": 3,
+      "ying": 6,
+      "pdfPages": [
+        27
+      ]
+    }
+  ],
+  "literalSpiritRows": [
+    {
+      "dayStems": [
+        "甲",
+        "乙"
+      ],
+      "bottomToTop": [
+        "青龍",
+        "朱雀",
+        "勾陳",
+        "螣蛇",
+        "白虎",
+        "玄武"
+      ],
+      "pdfPage": 22
+    },
+    {
+      "dayStems": [
+        "丙",
+        "丁"
+      ],
+      "bottomToTop": [
+        "朱雀",
+        "勾陳",
+        "螣蛇",
+        "白虎",
+        "玄武",
+        "青龍"
+      ],
+      "pdfPage": 22
+    }
+  ],
+  "notEvidenceOf": [
+    "empirical predictive accuracy",
+    "complete384printed chart-row collation",
+    "independent textual pedigree"
+  ]
+}

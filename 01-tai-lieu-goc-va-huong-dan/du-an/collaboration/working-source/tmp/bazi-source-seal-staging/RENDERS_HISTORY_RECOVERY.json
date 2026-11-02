@@ -1,0 +1,25 @@
+{
+  "status": "verified-reconstructed-prior-render-ledger",
+  "originalPath": "tmp/bazi-source-seal-staging/RENDERS.json",
+  "oldSealedSHA256": "d63c7b605c15d8f04ec16f34e35ba2140f62c969ffb24089f25cb0fb019bea6a",
+  "oldBytes": 1429,
+  "oldPages": [
+    88,
+    89,
+    90
+  ],
+  "currentSHA256": "0e8e6f5e538a1cdef71556273ad960f9cb65f1d469610db4f38b15a12f3626f4",
+  "currentPages": [
+    88,
+    89,
+    90,
+    91,
+    92,
+    93
+  ],
+  "historyObject": "recovery/consolidated-history/objects/d6/d63c7b605c15d8f04ec16f34e35ba2140f62c969ffb24089f25cb0fb019bea6a",
+  "historyIndex": "recovery/consolidated-history/INDEX.sqlite",
+  "method": "Current JSON filtered to sealed page set and serialized with original two-space JSON/newline format; byte count and SHA-256 exactly match NATIVE_IDENTITIES.json. Original prior bytes were absent from object store before this operation.",
+  "sourceSeal": "tmp/bazi-source-seal-staging/NATIVE_IDENTITIES.json",
+  "note": "The old seal remains historical. Current RENDERS.json was not modified."
+}

@@ -1,0 +1,912 @@
+diff --git a/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/AI02_DEPENDENCY_CLOSURE_REVIEW_2026-11-01.md b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/AI02_DEPENDENCY_CLOSURE_REVIEW_2026-11-01.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..9d15369cd0e6ee4356eeb39c53b9950c0b330d29
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/AI02_DEPENDENCY_CLOSURE_REVIEW_2026-11-01.md
+@@ -0,0 +1,67 @@
++# AI-02 — Cổng kiểm phụ thuộc sau khi mã kiểm được thay đổi
++
++**Ngày:** 01/11/2026. **Nhánh mục tiêu:** `codex/ai-02-tu-binh`.
++**Trạng thái:** phát triển/kiểm thử tại máy cục bộ, **chưa push lên GitHub**; kết nối GitHub tiếp tục báo `403 Sorry. Your account was suspended`.
++**Phạm vi:** QA của nghiên cứu văn bản Tử Bình. Không can thiệp engine, lịch pháp, dự đoán, website hay global coverage.
++
++## Vấn đề: đã cập nhật đúng SHA nhưng có phụ thuộc mới bị bỏ sót
++
++Checkpoint gần nhất khóa 17 Git blob của sáu test, các module audit, bộ kiểm transcript và năm JSON nguồn. Khóa SHA phát hiện khi ai đó sửa một tệp mà *không cập nhật manifest*. Tuy nhiên, một thay đổi hợp lệ có thể cập nhật cả SHA của tệp test lẫn SHA của manifest, **nhưng quên thêm file phụ thuộc mới**. Ví dụ:
++
++```js
++// Một bản test đã được cập nhật SHA nhưng bỏ quên phụ thuộc này trong manifest:
++import './unreviewed-helper.mjs';
++```
++
++Khi đó khóa SHA 17 tệp cũ vẫn hợp lệ, còn mã bổ sung lại được Node nạp từ thư mục làm việc. Đây là *khoảng trống kiểm toán phụ thuộc*, không phải bằng chứng một sự cố thực tế trên GitHub.
++
++## Thay đổi mã
++
++Cổng `run-ai02-evidence-gates.mjs` tiếp tục dùng **chỉ các module chuẩn Node** trước khi xác minh hash. Sau khi kiểm nguyên byte của 17 tệp và **trước khi import bất kỳ module dự án nào**, nó kiểm tĩnh một tập quy tắc bảo thủ:
++
++1. Đọc nguồn runner và 11 module `.mjs` đã khóa.
++2. Tìm các chuỗi đường dẫn có hậu tố `.mjs`, `.js`, `.cjs`, `.node`, `.json` dưới dạng literal, kể cả `./` hoặc `../`; tên tham chiếu phải thuộc 17 tệp được khóa (riêng runner và lock manifest được nhận diện rõ).
++3. Rà những import/re-export tĩnh: chỉ `node:` hoặc tên module nội bộ đã khóa được chấp nhận.
++4. Chặn `import()` động không có literal mô-đun đã khóa, ngoại trừ một lời gọi điều phối `new URL(name, import.meta.url)` đã kiểm danh sách test riêng.
++5. Chặn `require()` trong module nghiên cứu `.mjs`, và các cách nối chuỗi tệp đơn giản như `'unreviewed'+'.json'`.
++
++**Chú ý:** Đây là *kiểm tra tham chiếu tĩnh bảo thủ*, **không phải parser JavaScript đầy đủ**. Nó không ngăn mọi đường dẫn được ghép bằng computed expression, `eval`, hoán đổi tệp giữa lúc đọc và import (TOCTOU), hoặc người có quyền sửa cả runner lẫn SHA gốc. Nó có thể từ chối an toàn những đoạn code hợp lệ chứa ví dụ đường dẫn trong chuỗi hoặc chú thích; cần review khi xảy ra.
++
++Cả mã cũ và mã mới vẫn không tải website, không gọi engine HHC, không triển khai package/runtime mới và không thay tính đúng sai của luận mệnh.
++
++## Kiểm thực thi bằng Node.js v22.16.0
++
++Sau khi sửa runner và **giữ nguyên manifest 17 tệp**:
++
++| Bộ kiểm | Kết quả |
++|---|---:|
++| `run-ai02-evidence-gates.mjs` | 44/44 nhóm thực chạy |
++| `test-gate-transcript-validation.mjs` | 13/13 |
++| `test-evidence-runner-hardening.mjs` | 13/13 |
++| `test-pre-import-lock.mjs` | 6/6 |
++| `test-gate-dependency-closure.mjs` (mới) | **12/12** |
++| **Tổng** | **88/88 nhóm** |
++
++Bộ kiểm mới tạo thư mục sao chép tạm, thay mã test, **tái ghim SHA của file test và SHA của manifest** trước khi chạy runner. Tám cách đưa phụ thuộc không đăng ký đã bị từ chối: import tĩnh, import qua `from`, vượt thư mục cha, JSON chưa khóa, import động từ biến, import động literal chưa khóa, `require`, nối hậu tố `.json`. Hai mẫu dùng phụ thuộc *đã khóa* vẫn chạy thành công. Mọi tệp thay đổi đều nằm ở thư mục tạm và tự xóa khi test kết thúc.
++
++Kết quả runner trên bộ gốc: **17 SHA hợp lệ, 12 mô-đun rà nguồn, 28 tham chiếu literal, 44 nhóm PASS thực tế, 2 nhóm tích hợp SHA, 0 skip**.
++
++## Các giới hạn nghiệm thu
++
++- Không nâng `sourceFactRecovered`, `engineReady`, `COVERAGE.json` hoặc coi 88 nhóm kiểm là 88 lá số đã xác nhận.
++- Bộ kiểm này giúp reviewer phát hiện thay đổi phụ thuộc *thông thường* khi cập nhật SHA; không tuyên bố chống được kẻ có quyền sửa mọi tệp và môi trường Node.
++- Khóa SHA dùng Git blob SHA-1 phục vụ **định danh byte**, không phải một chữ ký xác nhận độc lập bên ngoài kho.
++- Chưa chạy CI toàn repository hoặc truy cập được HEAD trên GitHub; PR #1 chưa được cập nhật trong lượt này.
++
++## Cách chạy lại
++
++Tại thư mục gốc checkout AI-02, sau khi áp cumulative patch và kiểm SHA:
++
++```sh
++cd collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries
++node run-ai02-evidence-gates.mjs
++node test-gate-transcript-validation.mjs
++node test-evidence-runner-hardening.mjs
++node test-pre-import-lock.mjs
++node test-gate-dependency-closure.mjs
++```
+diff --git a/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/AI02_DEPENDENCY_CLOSURE_TEST_RESULTS_2026-11-01.json b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/AI02_DEPENDENCY_CLOSURE_TEST_RESULTS_2026-11-01.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..178cd6229d0880f87a3bb9328b65ead3d856f23c
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/AI02_DEPENDENCY_CLOSURE_TEST_RESULTS_2026-11-01.json
+@@ -0,0 +1,78 @@
++{
++  "schema": "hhc.ai02.dependency-closure-offline-qa.v1",
++  "date": "2026-11-01",
++  "targetBranch": "codex/ai-02-tu-binh",
++  "gitHubPushStatus": "not-pushed-github-connector-403-account-suspended",
++  "baselineRunnerGitBlobSHA1": "6e7b87c3e3cd310b685b784e2c45a577905fc37f",
++  "previousOfflinePreimportRunnerGitBlobSHA1": "ef17f516312a36be62a14e803f20b2ab645613fe",
++  "newRunnerGitBlobSHA1": "3625caa7f7bf7ca8e5798c7b5c61cfa883e10209",
++  "evidenceGitBlobSha": "e1dddf4abb69865498c31a1868131800d0cb8743",
++  "gateLockManifestGitBlobSha": "e42401e71758048a2da4cd740cf492c5565d12db",
++  "runtime": "Node.js v22.16.0",
++  "passed": true,
++  "groupsActuallyObserved": 96,
++  "suiteLogChecks": [
++    {
++      "file": "run-ai02-evidence-gates.mjs",
++      "groupsActuallyObserved": 44,
++      "passed": true
++    },
++    {
++      "file": "test-evidence-runner-hardening.mjs",
++      "groupsActuallyObserved": 13,
++      "passed": true
++    },
++    {
++      "file": "test-gate-dependency-closure.mjs",
++      "groupsActuallyObserved": 12,
++      "passed": true
++    },
++    {
++      "file": "test-gate-transcript-validation.mjs",
++      "groupsActuallyObserved": 13,
++      "passed": true
++    },
++    {
++      "file": "test-m03-translation-layer.mjs",
++      "groupsActuallyObserved": 8,
++      "passed": true
++    },
++    {
++      "file": "test-pre-import-lock.mjs",
++      "groupsActuallyObserved": 6,
++      "passed": true
++    }
++  ],
++  "inputLockFiles": 17,
++  "dependencyModulesScanned": 12,
++  "literalDependenciesChecked": 28,
++  "closureNegativeRepinnedAttacksRejected": 8,
++  "preimportSideEffectRegressionsBlocked": 4,
++  "m03DigitalSources": 4,
++  "m03LayeredObservations": 6,
++  "m03DataMutationsRejected": 31,
++  "newPrintedSourcePagesAdjudicated": 0,
++  "newPdfSha256Computed": 0,
++  "newEngineCalls": 0,
++  "consumerChanged": false,
++  "globalCoverageChanged": false,
++  "publishedOnGitHub": false,
++  "checkedFilesGitBlobs": {
++    "run-ai02-evidence-gates.mjs": "3625caa7f7bf7ca8e5798c7b5c61cfa883e10209",
++    "test-pre-import-lock.mjs": "dbd9178da6f4937f05b1ebd9628f798ab44efabf",
++    "test-gate-dependency-closure.mjs": "d5c95ff6ce7b94519b3de0f4aacb1a317db64db5",
++    "audit-m03-translation-layer.mjs": "9a31c24a320015536b24fd746ca29fbca6d8f739",
++    "test-m03-translation-layer.mjs": "54e41f4c6d181f798a57efb08f183f5a6fdb5829",
++    "M03_TRANSLATION_LAYER_ADDENDUM_2026-11-01.json": "d3ba2733975dc31e5345443b186334714ece5db0",
++    "AI02_DEPENDENCY_CLOSURE_REVIEW_2026-11-01.md": "9d15369cd0e6ee4356eeb39c53b9950c0b330d29",
++    "M03_TRANSLATION_LAYER_REVIEW_2026-11-01.md": "eb30738a147d59b2c478a4f6535da2a9ba7b7856"
++  },
++  "limitations": [
++    "GitHub head cannot be verified due to account-suspension HTTP 403; perform non-force update only after fresh branch review.",
++    "Local source graph scanner conservatively checks literal references, not all computed imports, eval or dynamic filesystem paths.",
++    "Runner + SHA strings are both repository-controlled; locks are not externally signed.",
++    "Temporary-file races remain outside the source-review trust boundary.",
++    "Web transcriptions and modern translation do not authenticate M03 printed glyphs.",
++    "Test suites do not measure astrology efficacy or application-level CI."
++  ]
++}
+diff --git a/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/AI02_PREIMPORT_INTEGRITY_REPAIR_2026-11-01.md b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/AI02_PREIMPORT_INTEGRITY_REPAIR_2026-11-01.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..481f643886078946dae1bc96709d438410ea7eaf
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/AI02_PREIMPORT_INTEGRITY_REPAIR_2026-11-01.md
+@@ -0,0 +1,79 @@
++# AI-02 — Sửa lỗi mã mô-đun chạy trước cổng kiểm SHA
++
++**Ngày:** 2026-11-01. **Phạm vi:** `codex/ai-02-tu-binh`, bộ kiểm xuất xứ, không phải engine Tứ trụ.
++**Trạng thái:** đã thực thi kiểm thử Node.js cục bộ; **chưa push GitHub** vì connector trả 403 `Sorry. Your account was suspended` ngay cả khi đọc branch và PR.
++
++## 1. Lỗi tái hiện trước khi sửa
++
++Runner trước đó có hai câu lệnh **static ES module imports**:
++
++```js
++import {auditBoundCheckpoint, gitBlobSHA, readErrata} from './audit-source-errata.mjs';
++import {validateSuiteTranscript} from './gate-transcript-validation.mjs';
++```
++
++ESM xử lý/evaluate các phụ thuộc tĩnh trước khi bắt đầu thực thi phần thân của runner. Do đó vòng kiểm `AI02_GATE_INPUT_LOCK_2026-11-01.json` (17 Git blob SHA) **chạy sau khi hai file nghiên cứu được evaluate**, dù source-code runner nói phải kiểm trước mọi import.
++
++Phản ví dụ thực thi trong thư mục sao chép tạm:
++
++1. Giữ nguyên mọi file đang có và thêm một lệnh ghi tệp `early-import-sentinel.txt` vào cuối `audit-source-errata.mjs`.
++2. Chạy phiên bản runner trước khi vá bằng `node`.
++3. **Quan sát thực tế:** exit code 1 (đúng là phát hiện SHA khác), **nhưng** sentinel đã được tạo (`sentinel_exists=true`). Điều này chứng minh khóa kiểm xảy ra quá muộn để ngăn tác dụng phụ ở thời điểm import.
++
++Sai lệch này không hàm ý có kẻ tấn công thực tế; nó là **lỗ hổng thứ tự xác thực trong công cụ QA**, không phải lỗ hổng đã biết của ứng dụng sản phẩm.
++
++## 2. Bản sửa và lý do
++
++Bản sửa xóa cả hai static import tương đối. Runner bắt đầu chỉ với các module chuẩn `node:assert/strict`, `node:fs`, `node:crypto`, `node:path`, `node:url`. Sau khi xác minh **Git blob SHA của manifest** và **tất cả 17 file**, nó mới nạp hai module AI-02 qua:
++
++```js
++const {auditBoundCheckpoint, gitBlobSHA, readErrata} = await import('./audit-source-errata.mjs');
++const {validateSuiteTranscript} = await import('./gate-transcript-validation.mjs');
++```
++
++Các phép kiểm `EVIDENCE.json`, các suite, báo cáo `PASS` và kiểm transcript giữ nguyên ngữ nghĩa. Khóa manifest gốc `e42401e71758048a2da4cd740cf492c5565d12db` và SHA checkpoint `e1dddf4abb69865498c31a1868131800d0cb8743` không thay đổi. Không phải cập nhật danh sách SHA 17 file vì chính runner không nằm trong danh sách ấy; **việc thay runner phải được người nghiệm thu review riêng**.
++
++## 3. Kiểm hồi quy mới
++
++`test-pre-import-lock.mjs` chạy trong các thư mục sao chép độc lập, xóa chúng sau khi chạy. Test cố ý sửa module để thực thi lệnh ghi sentinel khi được import. Nó kiểm **cả** exit code **và** sentinel không tồn tại:
++
++- bản gốc sạch: runner vẫn đạt 44 nhóm và 17 file khóa;
++- code runner không static import module tương đối, dynamic import nằm sau vòng kiểm toàn bộ;
++- file audit bị sửa có side-effect: bị chặn **trước evaluate**;
++- file transcript validator bị sửa: bị chặn **trước evaluate**;
++- cả hai cùng bị sửa: cả hai không được evaluate;
++- file test suite bị sửa: không thực thi tác dụng phụ.
++
++**Kết quả Node.js v22.16.0 thực chạy:**
++
++| Bộ kiểm | Nhóm PASS | Kết quả |
++|---|---:|---|
++| `run-ai02-evidence-gates.mjs` | 44 | đạt; 2 nhóm tích hợp checkout, 0 skip |
++| `test-gate-transcript-validation.mjs` | 13 | đạt |
++| `test-evidence-runner-hardening.mjs` | 13 | đạt; 12 tình huống sửa dữ liệu/mã bị từ chối |
++| **`test-pre-import-lock.mjs` (mới)** | **6** | **đạt; 4 trường hợp mã gài chạy sớm không được thực thi** |
++
++**Tổng:** 76 nhóm kiểm đã chạy cục bộ, là **số nhóm của các suite**, không phải số assertion độc lập hay kiểm định mệnh lý.
++
++## 4. Đối chiếu byte và giới hạn
++
++- `run-ai02-evidence-gates.mjs` trước: Git SHA-1 `6e7b87c3e3cd310b685b784e2c45a577905fc37f`.
++- `run-ai02-evidence-gates.mjs` sau: Git SHA-1 `ef17f516312a36be62a14e803f20b2ab645613fe`.
++- `test-pre-import-lock.mjs` mới: Git SHA-1 `dbd9178da6f4937f05b1ebd9628f798ab44efabf`.
++- Original `EVIDENCE.json` không đổi: Git SHA-1 `e1dddf4abb69865498c31a1868131800d0cb8743`.
++- Original lock JSON không đổi: Git SHA-1 `e42401e71758048a2da4cd740cf492c5565d12db`.
++
++**Giới hạn tin cậy:** Khóa SHA nằm trong cùng kho; người có quyền sửa runner và SHA cứng có thể thay đổi mô hình tin cậy. Bản vá không chứng minh an toàn trước tấn công TOCTOU (file bị sửa giữa bước kiểm và bước import), không sandbox JavaScript, không chứng minh mã nguồn bên ngoài `AI-02`, không chạy CI toàn repo, không chạy engine hay phép luận đoán.
++
++## 5. Hướng sử dụng bản vá ngoại tuyến
++
++Sau khi khôi phục quyền GitHub, áp patch trong **checkout đúng nhánh AI-02**. Trước khi áp, kiểm tra version SHA file runner cũ đúng `6e7b...` và working tree sạch. Kiểm `git apply --check`, áp patch, chạy bốn lệnh Node bên dưới rồi review diff và commit lên PR #1. Nếu đầu nhánh thay đổi, cần đối chiếu/rebase; không force-push.
++
++```sh
++node collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/run-ai02-evidence-gates.mjs
++node collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/test-gate-transcript-validation.mjs
++node collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/test-evidence-runner-hardening.mjs
++node collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/test-pre-import-lock.mjs
++```
++
++**Không tác động `main`, engine, coverage, ZIP hay giao diện. PR #1 giữ Draft khi chưa có nghiệm thu.**
+diff --git a/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/AI02_PREIMPORT_TEST_RESULTS_2026-11-01.json b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/AI02_PREIMPORT_TEST_RESULTS_2026-11-01.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..1037ca8f15073ce77342121a644776c4a15f40c3
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/AI02_PREIMPORT_TEST_RESULTS_2026-11-01.json
+@@ -0,0 +1,57 @@
++{
++  "schema": "hhc.ai02.pre-import-lock-test.v1",
++  "date": "2026-11-01",
++  "branchTarget": "codex/ai-02-tu-binh",
++  "status": "tested-offline-not-pushed",
++  "reasonGitHubNotPushed": "GitHub connector returned 403: Sorry. Your account was suspended",
++  "runtime": "Node.js v22.16.0",
++  "baselineRunnerGitBlob": "6e7b87c3e3cd310b685b784e2c45a577905fc37f",
++  "patchedRunnerGitBlob": "ef17f516312a36be62a14e803f20b2ab645613fe",
++  "newRegressionTestGitBlob": "dbd9178da6f4937f05b1ebd9628f798ab44efabf",
++  "originalEvidenceGitBlobUnchanged": "e1dddf4abb69865498c31a1868131800d0cb8743",
++  "lockManifestGitBlobUnchanged": "e42401e71758048a2da4cd740cf492c5565d12db",
++  "oldBehavior": {
++    "invalidAuditFileInjectedSideEffectRanBeforeGate": true,
++    "runnerExitCode": 1
++  },
++  "newBehavior": {
++    "invalidAuditFileInjectedSideEffectRanBeforeGate": false
++  },
++  "suiteResults": [
++    {
++      "file": "run-ai02-evidence-gates.mjs",
++      "groups": 44,
++      "passed": true,
++      "verifiedInputBlobs": 17,
++      "integrationSkipped": 0
++    },
++    {
++      "file": "test-gate-transcript-validation.mjs",
++      "groups": 13,
++      "passed": true
++    },
++    {
++      "file": "test-evidence-runner-hardening.mjs",
++      "groups": 13,
++      "passed": true,
++      "intentionalCorruptionsRejected": 12
++    },
++    {
++      "file": "test-pre-import-lock.mjs",
++      "groups": 6,
++      "passed": true,
++      "modifiedModulesPreventedFromExecuting": 4
++    }
++  ],
++  "groupTotal": 76,
++  "engineCalls": 0,
++  "historicalPrintedPagesReadThisScope": 0,
++  "calendarTesting": false,
++  "predictiveTesting": false,
++  "ciEntireRepoTested": false,
++  "limitations": [
++    "Git blob hashes are repository-scoped review checks, not an external signature",
++    "Time-of-check/time-of-use races and malicious edits to the bootstrap itself are out of scope",
++    "No written commit on GitHub due to suspended connected account"
++  ]
++}
+diff --git a/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/M03_DIGITAL_WITNESS_DEPENDENCY_NOTE_2026-11-01.md b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/M03_DIGITAL_WITNESS_DEPENDENCY_NOTE_2026-11-01.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..5f277fced76c97cf603ddfde7396dd60f35cce37
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/M03_DIGITAL_WITNESS_DEPENDENCY_NOTE_2026-11-01.md
+@@ -0,0 +1,33 @@
++# AI-02 — M03: phân biệt chuỗi nguyên chú, lời diễn giải và nhân chứng in
++
++**Ngày đối chiếu:** 2026-11-01. **Mức chứng cứ:** các trang văn bản số truy cập được và metadata hai file scan Commons; **0 trang ảnh chứa dị văn được đọc** trong lượt này.
++
++## 1. Nguồn trực tuyến được phân tầng
++
++| Nguồn/nhan đề | Vai trò | Nguyên chú hoặc câu tương ứng | Trạng thái |
++|---|---|---|---|
++| [Wikisource, 滴天髓闡微](https://zh.wikisource.org/zh-hant/滴天髓闡微) | `原註` trong chương 17, `衰旺` | `衰右有旺者存` | chữ trên trang số |
++| [Wikisource, 滴天髓闡微](https://zh.wikisource.org/zh-hant/滴天髓闡微) | `任氏曰` hồi cố cuối chương | `衰中有旺者存` | **cùng URL**, không phải nhân chứng mới |
++| [詩詞匯, 滴天髓闡微·衰旺](https://www.shicihui.com/zh-tw/book/ditiansuichanwei/16287) | nhãn `原注` | `衰中有旺者存` | bản chép số khác, chưa xác minh độc lập |
++| [qj.hk, 滴天髓闡微·衰旺](https://www.qj.hk/mobile/jingdian/book/919/13323.html) | nhãn `原注` | `衰中有旺者存` | bản chép số khác, chưa xác minh độc lập |
++| [Libo 康立波, 滴天髓闡微](https://libokang.com/zh-hant/classics/bazi/滴天髓闡微/) | đoạn nguyên văn trên website | `衰右有旺者存` | giữ chữ `右` trong phần chữ Hán |
++| [Libo 康立波, 滴天髓闡微](https://libokang.com/zh-hant/classics/bazi/滴天髓闡微/) | diễn giải tiếng Trung hiện đại | diễn đạt ý “suy ở trong có vượng” | **lời giải nghĩa**, không phải bản chép nguyên văn khác |
++| [Wikisource, 滴天髓/12](https://zh.wikisource.org/zh-hant/滴天髓/12) | chương `衰旺論`, **nhan đề số khác** | `衰中有旺者存` và câu mở `立命之奧` | không tự coi thành bản khắc độc lập |
++| [識典古籍, 滴天髓輯要·衰旺論](https://www.shidianguji.com/book/7654517725435265075/chapter/1m5zgml2zdwcp) | dòng trình bày `輯要`, **nhan đề khác** | `衰中有旺者存` | phải xác định vật mang riêng; không tự gộp với `闡微` |
++
++**Kết luận ranh giới:** Việc Libo giữ chữ `右` trong nguyên văn nhưng giải nghĩa theo “中” là một trường hợp cụ thể cho thấy **lời dịch/diễn giải không thể dùng để bác hay chọn dị văn**. Cặp `右/中` trong cùng một URL Wikisource cũng không được đếm thành hai bản in. Không suy lịch sử sao chép chỉ từ chuỗi ngắn tương đồng; các trang số có thể cùng dùng một file nền.
++
++## 2. Hai đối tượng scan cần định danh đúng
++
++Trang [Wikimedia Commons / thể loại 滴天髓闡微](https://commons.wikimedia.org/wiki/Category:滴天髓闡微) liệt kê hai đối tượng *kỹ thuật số*:
++
++1. [SSID-11335994 滴天髓闡微.pdf](https://commons.wikimedia.org/wiki/File:SSID-11335994_滴天髓闡微.pdf) — **516 trang PDF, 14.07 MB**; metadata ghi xuất bản tại **上海大東書局**, **1947**.
++2. `CADAL07005210 滴天髓闡微.djvu` — **521 trang, 17.08 MB** theo chỉ mục Commons; đây là **đối tượng lưu trữ thứ hai**, chưa xác nhận là một lần in hoặc một bản khắc độc lập.
++
++Trong lượt này thử đọc PDF SSID gốc nhưng công cụ trả lỗi tải file do kích thước khoảng 14.75 MB. Chưa thấy ảnh đúng tờ `原註` hay đoạn `任氏曰`; chưa tính SHA-256 byte nguồn. Không khẳng định 1947 là niên đại của mọi lớp lời chú hoặc bản khác.
++
++## 3. Tiền đề để phán định văn bản
++
++Cần đối ảnh đúng hai vị trí trên **mỗi ấn bản có định danh vật mang rõ**: nguyên chú chứa `衰右/衰中`, lời Nhậm thị thuật lại và động từ `原注去/原注云`; chụp/ghi index PDF, folio, nhan đề in, metadata thư viện, SHA nguồn. Đối thêm các bản trong dòng truyền bản khác trước khi điền `preferredReading`.
++
++**Tuyệt đối không dùng ý nghĩa mệnh lý, số website ủng hộ, hoặc bản dịch hiện đại để tự sửa chữ cổ.** Nghiên cứu này không cho phép phát sinh quy tắc engine hay kết luận y tế, tài chính, tính cách, vận hạn.
+diff --git a/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/M03_TRANSLATION_LAYER_ADDENDUM_2026-11-01.json b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/M03_TRANSLATION_LAYER_ADDENDUM_2026-11-01.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..d3ba2733975dc31e5345443b186334714ece5db0
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/M03_TRANSLATION_LAYER_ADDENDUM_2026-11-01.json
+@@ -0,0 +1,62 @@
++{
++  "schema": "hhc.ai02.m03-translation-vs-text.v1",
++  "lane": "AI-02",
++  "date": "2026-11-01",
++  "catalogue": "M03",
++  "work": "滴天髓闡微",
++  "section": "通神論·十七、衰旺",
++  "observationMode": "web-visible-digital-text-only",
++  "sources": [
++    {
++      "id": "WS",
++      "url": "https://zh.wikisource.org/zh-hant/滴天髓闡微",
++      "sourceType": "digitized-transcription",
++      "independentPrintedWitness": false
++    },
++    {
++      "id": "LIBO",
++      "url": "https://libokang.com/zh-hant/classics/bazi/滴天髓闡微/",
++      "sourceType": "transcription-plus-modern-translation",
++      "independentPrintedWitness": false
++    },
++    {
++      "id": "SHICI",
++      "url": "https://www.shicihui.com/zh-tw/book/ditiansuichanwei/16287",
++      "sourceType": "digitized-transcription-with-translation",
++      "independentPrintedWitness": false
++    },
++    {
++      "id": "GUOXUE",
++      "url": "https://guoxue3000.com/books/378/chapters/20",
++      "sourceType": "digitized-transcription",
++      "independentPrintedWitness": false
++    }
++  ],
++  "observations": [
++    {"id":"O1","sourceId":"WS","layer":"original-note-transcribed","shortSpan":"衰右有旺者存"},
++    {"id":"O2","sourceId":"WS","layer":"ren-retrospective-quotation","shortSpan":"衰中有旺者存"},
++    {"id":"O3","sourceId":"LIBO","layer":"original-note-transcribed","shortSpan":"衰右有旺者存"},
++    {"id":"O4","sourceId":"LIBO","layer":"modern-explanatory-translation","shortSpan":"衰之中另有旺存在"},
++    {"id":"O5","sourceId":"SHICI","layer":"original-note-transcribed","shortSpan":"衰中有旺者存"},
++    {"id":"O6","sourceId":"GUOXUE","layer":"original-note-transcribed","shortSpan":"衰中有旺者存"}
++  ],
++  "printLead": {
++    "url": "https://commons.wikimedia.org/wiki/File:SSID-11335994_滴天髓闡微.pdf",
++    "catalogueYear": 1947,
++    "pdfPageCount": 516,
++    "printedPagesInspectedAtLocus": 0,
++    "printedReadingAtLocus": null,
++    "sourceFileSha256": null
++  },
++  "inferenceGuard": {
++    "translationCountedAsOriginalTextWitness": false,
++    "sameWebsiteMultipleLayersCountedAsMultiplePrintedWitnesses": false,
++    "digitalSourcesCountedAsIndependentPrintedEditions": false,
++    "sourceReadingAdjudicated": false,
++    "preferredReading": null,
++    "newIndependentPrintedWitnesses": 0,
++    "engineReady": false,
++    "consumerChanged": false
++  },
++  "disclaimer": "A modern translation can make the sense intelligible without independently validating the character in the printed original. Multiple digital websites may share underlying transcription."
++}
+diff --git a/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/M03_TRANSLATION_LAYER_REVIEW_2026-11-01.md b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/M03_TRANSLATION_LAYER_REVIEW_2026-11-01.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..eb30738a147d59b2c478a4f6535da2a9ba7b7856
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/M03_TRANSLATION_LAYER_REVIEW_2026-11-01.md
+@@ -0,0 +1,38 @@
++# AI-02 — M03: bản dịch hiện đại không phải chứng bản in độc lập
++
++**Ngày:** 01/11/2026 · **Tác phẩm:** `滴天髓闡微` · **Phạm vi:** `通神論·十七、衰旺`.
++
++## Kiểm tra tầng chữ và tầng diễn nghĩa
++
++Các nguồn văn bản số được đối chiếu bằng những chuỗi **ngắn**:
++
++| Nguồn số | Tầng lời | Quan sát ngắn |
++|---|---|---|
++| [Wikisource, 闡微](https://zh.wikisource.org/zh-hant/滴天髓闡微) | `原註` chép số | `衰右有旺者存` |
++| Cùng trang Wikisource | `任氏曰` dẫn lại | `衰中有旺者存` |
++| [Libo 康立波國學](https://libokang.com/zh-hant/classics/bazi/滴天髓闡微/) | phần Hán văn gắn `原注` | `衰右有旺者存` |
++| Cùng trang Libo | diễn nghĩa hiện đại | `衰之中另有旺存在` |
++| [詩詞匯, 衰旺](https://www.shicihui.com/zh-tw/book/ditiansuichanwei/16287) | phần Hán văn gắn `原注` | `衰中有旺者存` |
++| [國學3000, 衰旺](https://guoxue3000.com/books/378/chapters/20) | phần Hán văn gắn `原注` | `衰中有旺者存` |
++
++Điểm mới ở trang Libo: **ngay trong cùng một website**, đoạn chép Hán văn giữ chữ `右`, nhưng phần diễn nghĩa giải thích theo ý **trong suy có vượng**. Việc bản dịch diễn giải một câu thành dạng dễ hiểu **không tự xác minh glyph** của bản in Hán văn. Đây là một dấu hiệu *khác tầng trình bày*, không thể dùng để bỏ phiếu chọn nguyên tác `右` hay `中`.
++
++## Chỉ mục ảnh in và ranh giới
++
++[Wikimedia Commons SSID-11335994](https://commons.wikimedia.org/wiki/File:SSID-11335994_滴天髓闡微.pdf) ghi metadata bản in năm **1947**, **516 trang**, dung lượng khoảng **14,07 MB**. Đường tải gốc bị công cụ trả thông báo kích thước vượt giới hạn (~14.75 MB), nên trong lượt này **không đọc được ảnh tờ chứa dị văn**, **không có trang PDF/folio được xác nhận**, **không tính SHA-256 PDF**. Con số metadata không chứng minh một glyph cụ thể.
++
++Các trang số cũng có thể phụ thuộc cùng một nguồn chép. Dù có bốn URL, **số nhân chứng in độc lập mới = 0**. Các nhãn `原注`, `任氏曰`, bản dịch và bản chú **không được nhập làm một**.
++
++## Kết quả có thể tái lập
++
++- `M03_TRANSLATION_LAYER_ADDENDUM_2026-11-01.json`: **4 URL, 6 quan sát và một đầu mối bản in chưa đối ảnh**.
++- `audit-m03-translation-layer.mjs` và `test-m03-translation-layer.mjs`: **8/8 nhóm**, **31 trường hợp sai bị từ chối**, bao gồm giả bản in độc lập, đổi chữ, đổi tầng `translation` thành `original`, tự chọn bản ưu tiên, giả checksum PDF hoặc bật engine.
++- Đây là kiểm toán **nguồn số và vai trò văn bản**, không phải phép đo độ đúng của bói toán, không phải OCR hay hiệu khảo ảnh in.
++
++## Quy trình nghiên cứu tiếp
++
++1. Mở bản scan có định danh thư viện; ghi **tệp nguồn, SHA-256, trang PDF (1-based), folio bản in, 3–5 chữ lân cận, vùng ảnh** và tình trạng đọc trực tiếp/OCR.
++2. Đối ảnh `衰右`/`衰中` trong lớp `原註` và đoạn `任氏曰` ở cùng một bản in, **không** chỉ so các trang số.
++3. Kiểm quan hệ hậu ấn/bản chép/bản biên tập trước khi chọn chữ; nếu chưa đủ thì để `preferredReading=null`.
++
++**M03 vẫn là câu hỏi văn bản mở.** Không đưa kết luận vào `v53/engine.js` hoặc `COVERAGE.json`.
+diff --git a/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/audit-m03-translation-layer.mjs b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/audit-m03-translation-layer.mjs
+new file mode 100644
+index 0000000000000000000000000000000000000000..9a31c24a320015536b24fd746ca29fbca6d8f739
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/audit-m03-translation-layer.mjs
+@@ -0,0 +1,68 @@
++/** Cross-check exact SHORT online reading snippets by speaker/translation layer.
++ * Never uses website agreement or modern Vietnamese/Chinese paraphrase to
++ * adjudicate the printed glyph. No network or engine calls.
++ */
++import {readFileSync} from 'node:fs';
++import {dirname,join} from 'node:path';
++import {fileURLToPath} from 'node:url';
++const HOME=dirname(fileURLToPath(import.meta.url));
++const observed=[
++ ['O1','WS','original-note-transcribed','衰右有旺者存'],
++ ['O2','WS','ren-retrospective-quotation','衰中有旺者存'],
++ ['O3','LIBO','original-note-transcribed','衰右有旺者存'],
++ ['O4','LIBO','modern-explanatory-translation','衰之中另有旺存在'],
++ ['O5','SHICI','original-note-transcribed','衰中有旺者存'],
++ ['O6','GUOXUE','original-note-transcribed','衰中有旺者存']
++];
++const sources=[
++ ['WS','https://zh.wikisource.org/zh-hant/滴天髓闡微','digitized-transcription'],
++ ['LIBO','https://libokang.com/zh-hant/classics/bazi/滴天髓闡微/','transcription-plus-modern-translation'],
++ ['SHICI','https://www.shicihui.com/zh-tw/book/ditiansuichanwei/16287','digitized-transcription-with-translation'],
++ ['GUOXUE','https://guoxue3000.com/books/378/chapters/20','digitized-transcription']
++];
++function isRecord(value){return value!==null&&typeof value==='object'&&!Array.isArray(value) && Object.getPrototypeOf(value)===Object.prototype;}
++function exactKeys(obj,keys){return isRecord(obj)&&Reflect.ownKeys(obj).length===keys.length&&keys.every(k=>Object.hasOwn(obj,k));}
++export const readTranslationLedger=()=>JSON.parse(readFileSync(join(HOME,'M03_TRANSLATION_LAYER_ADDENDUM_2026-11-01.json'),'utf8'));
++export function auditTranslationLedger(doc){
++ const errors=[],deny=reason=>errors.push(reason);
++ if(!isRecord(doc))return {passed:false,errors:['non-object-ledger'],engineEligible:false};
++ if(doc.schema!=='hhc.ai02.m03-translation-vs-text.v1'||doc.lane!=='AI-02'||doc.catalogue!=='M03'||
++ doc.work!=='滴天髓闡微'||doc.section!=='通神論·十七、衰旺'||doc.observationMode!=='web-visible-digital-text-only')deny('scope-or-schema');
++ const ss=doc.sources;
++ if(!Array.isArray(ss)||ss.length!==4)deny('sources-not-four');
++ else for(let i=0;i<ss.length;i++){
++   const s=ss[i],exp=sources[i];
++   if(!exactKeys(s,['id','url','sourceType','independentPrintedWitness'])||s.id!==exp[0]||s.url!==exp[1]||
++      s.sourceType!==exp[2]||s.independentPrintedWitness!==false)deny('source-invalid-'+i);
++ }
++ const oo=doc.observations;
++ if(!Array.isArray(oo)||oo.length!==6)deny('observations-not-six');
++ else for(let i=0;i<oo.length;i++){
++   const o=oo[i],exp=observed[i];
++   if(!exactKeys(o,['id','sourceId','layer','shortSpan'])||o.id!==exp[0]||o.sourceId!==exp[1]||
++     o.layer!==exp[2]||o.shortSpan!==exp[3])deny('observation-invalid-'+i);
++ }
++ const print=doc.printLead;
++ if(!exactKeys(print,['url','catalogueYear','pdfPageCount','printedPagesInspectedAtLocus','printedReadingAtLocus','sourceFileSha256'])||
++   print.url!=='https://commons.wikimedia.org/wiki/File:SSID-11335994_滴天髓闡微.pdf'||
++   print.catalogueYear!==1947||print.pdfPageCount!==516||print.printedPagesInspectedAtLocus!==0||
++   print.printedReadingAtLocus!==null||print.sourceFileSha256!==null)deny('unverified-print-claim');
++ const limit=doc.inferenceGuard;
++ if(!exactKeys(limit,['translationCountedAsOriginalTextWitness','sameWebsiteMultipleLayersCountedAsMultiplePrintedWitnesses',
++  'digitalSourcesCountedAsIndependentPrintedEditions','sourceReadingAdjudicated','preferredReading',
++  'newIndependentPrintedWitnesses','engineReady','consumerChanged'])||
++  limit.translationCountedAsOriginalTextWitness!==false||
++  limit.sameWebsiteMultipleLayersCountedAsMultiplePrintedWitnesses!==false||
++  limit.digitalSourcesCountedAsIndependentPrintedEditions!==false||
++  limit.sourceReadingAdjudicated!==false||limit.preferredReading!==null||
++  limit.newIndependentPrintedWitnesses!==0||limit.engineReady!==false||limit.consumerChanged!==false)
++  deny('unverified-promotion');
++ if(typeof doc.disclaimer!=='string'||!doc.disclaimer.includes('modern translation'))deny('disclaimer-missing');
++ return {passed:errors.length===0,errors,sources:Array.isArray(ss)?ss.length:0,
++  observations:Array.isArray(oo)?oo.length:0,modernTranslations:1,
++  printedReadingsVerified:0,sourceReadingAdjudicated:false,engineEligible:false};
++}
++if(process.argv[1]===fileURLToPath(import.meta.url)){
++ const result=auditTranslationLedger(readTranslationLedger());console.log(JSON.stringify(result));
++ if(!result.passed)process.exitCode=1;
++}
+diff --git a/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/run-ai02-evidence-gates.mjs b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/run-ai02-evidence-gates.mjs
+index 6e7b87c3e3cd310b685b784e2c45a577905fc37f..3625caa7f7bf7ca8e5798c7b5c61cfa883e10209 100644
+--- a/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/run-ai02-evidence-gates.mjs
++++ b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/run-ai02-evidence-gates.mjs
+@@ -8,8 +8,9 @@ import {readFileSync} from 'node:fs';
+ import {createHash} from 'node:crypto';
+ import {dirname, join} from 'node:path';
+ import {fileURLToPath} from 'node:url';
+-import {auditBoundCheckpoint, gitBlobSHA, readErrata} from './audit-source-errata.mjs';
+-import {validateSuiteTranscript} from './gate-transcript-validation.mjs';
++// SECURITY BOUNDARY: do not statically import *any* local/research module.
++// Node evaluates static imports before this file executes its input-lock gate.
++// Import verified modules only after the lock has checked their Git blob SHA.
+ 
+ const HERE=dirname(fileURLToPath(import.meta.url));
+ const REQUIRED_SHA='e1dddf4abb69865498c31a1868131800d0cb8743';
+@@ -25,12 +26,70 @@ assert.equal(gitBlobShaOfBytes(lockBytes),LOCK_SHA,'AI-02: gate-input manifest G
+ const lock=JSON.parse(lockBytes.toString('utf8'));
+ assert.equal(lock.schema,'hhc.ai02.verified-gate-inputs.v1','AI-02: invalid gate-input manifest');
+ assert.equal(lock.fileCount,17,'AI-02: unexpected gate input count');
++// Verify the full input set before evaluating any local JavaScript modules.
++// The lock file itself is pinned in this bootstrap. It is not an external
++// signature, and this check is not a sandbox for files modified concurrently.
+ for(const file of lock.files){
+   const bytes=readFileSync(join(HERE,file.path));
+   assert.equal(gitBlobShaOfBytes(bytes),file.gitBlobSha1,
+     `AI-02: input Git blob mismatch: ${file.path}`);
+ }
+ 
++/**
++ * Review-safety guard: a locked module must not silently add a NEW LITERAL
++ * local .mjs/.json dependency without updating the reviewed 17-file lock.
++ * This deliberately fails closed on unknown dynamic imports. It is a
++ * conservative source-text check, NOT a complete JavaScript parser or a
++ * defense against computed filesystem paths, eval, or a malicious runner.
++ */
++const lockedNames=new Set(lock.files.map(record=>record.path));
++assert.equal(lockedNames.size,lock.files.length,'AI-02: duplicate gate-input path');
++const allowedNames=new Set([...lockedNames,LOCK_FILE,'run-ai02-evidence-gates.mjs']);
++let referencesVerified=0;
++const modulesToInspect=['run-ai02-evidence-gates.mjs',
++  ...lock.files.map(record=>record.path).filter(path=>path.endsWith('.mjs'))];
++for(const name of modulesToInspect){
++  const source=readFileSync(join(HERE,name),'utf8');
++  // Conservative: match quoted bare basenames or ./basenames; false positives
++  // require manual review, which is preferable to silently trusting new code.
++  const literals=source.matchAll(/(['"`])((?:\.\.?\/)?[\w./-]+\.(?:js|cjs|mjs|json|node))\1/g);
++  for(const item of literals){
++    const dependency=item[2].startsWith('./') ? item[2].slice(2) : item[2];
++    assert.ok(allowedNames.has(dependency),
++      `AI-02: unpinned local reference from ${name}: ${dependency}`);
++    referencesVerified++;
++  }
++  // Refuse common string-concatenation attempts such as 'extra'+'.json':
++  // those paths cannot be checked against the file-name allowlist above.
++  if(name!=='run-ai02-evidence-gates.mjs')
++    assert.ok(!/(['"`])\.(?:mjs|cjs|js|json|node)\1/.test(source),
++      `AI-02: computed local-file extension in ${name}`);
++  // Static imports and re-exports can also point to remote packages or
++  // unrecognized extensions. Only Node built-ins or locked local files pass.
++  for(const specifier of source.matchAll(/\bfrom\s*(['"])([^'"]+)\1|\bimport\s*(['"])([^'"]+)\3/g)){
++    const value=specifier[2]||specifier[4];
++    if(value.startsWith('node:'))continue;
++    assert.ok(value.startsWith('./') && lockedNames.has(value.slice(2)),
++      `AI-02: unreviewed static module import in ${name}: ${value}`);
++  }
++  for(const call of source.matchAll(/\bimport\s*\(\s*([^)]*)\)/g)){
++    const expression=call[1].trim();
++    const staticImport=/^(['"`])\.\/[\w.-]+\.mjs\1\s*$/.test(expression);
++    const testSuiteImport=name==='run-ai02-evidence-gates.mjs' &&
++      expression==='new URL(name,import.meta.url';
++    assert.ok(staticImport || testSuiteImport,
++      `AI-02: unreviewed computed module import in ${name}`);
++  }
++  if(name!=='run-ai02-evidence-gates.mjs')
++    assert.ok(!/\brequire\s*\(/.test(source),
++      `AI-02: unexpected CommonJS loader in ${name}`);
++}
++
++// Only now is it safe, under this repository-review trust model, to import
++// project code. This also verifies the local source-code dependencies first.
++const {auditBoundCheckpoint, gitBlobSHA, readErrata} = await import('./audit-source-errata.mjs');
++const {validateSuiteTranscript} = await import('./gate-transcript-validation.mjs');
++
+ const original=readFileSync(join(HERE,'EVIDENCE.json'),'utf8');
+ assert.equal(gitBlobSHA(original),REQUIRED_SHA,'AI-02: original historical checkpoint Git blob SHA mismatch');
+ const audit=auditBoundCheckpoint(original,readErrata());
+@@ -70,6 +129,7 @@ assert.equal(totalGroups,44);
+ console.log(JSON.stringify({passed:true,mode:'full-checkpoint-SHA-and-observed-test-groups',
+   sourceBlobSHA:REQUIRED_SHA,checkpointIdentityVerified:true,
+   inputLockGitBlobSHA:LOCK_SHA,verifiedInputBlobs:lock.files.length,
++  literalDependenciesChecked:referencesVerified,dependencyModulesScanned:modulesToInspect.length,
+   suites:completed,groupsActuallyObserved:totalGroups,
+   checkoutIntegrationGroups:2,checkoutIntegrationSkipped:0,
+   engineCalls:0,sourceImagesReadByScripts:0,
+diff --git a/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/test-gate-dependency-closure.mjs b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/test-gate-dependency-closure.mjs
+new file mode 100644
+index 0000000000000000000000000000000000000000..d5c95ff6ce7b94519b3de0f4aacb1a317db64db5
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/test-gate-dependency-closure.mjs
+@@ -0,0 +1,118 @@
++/**
++ * AI-02: assert the reviewed SHA lock also covers literal LOCAL source imports.
++ * Mutations are deliberately RE-PINNED to mimic a reviewer updating hashes but
++ * forgetting to register a new dependency. All tests use temporary copies.
++ */
++import assert from 'node:assert/strict';
++import {createHash} from 'node:crypto';
++import {copyFileSync, existsSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSync} from 'node:fs';
++import {tmpdir} from 'node:os';
++import {dirname, join} from 'node:path';
++import {fileURLToPath} from 'node:url';
++import {spawnSync} from 'node:child_process';
++
++const ROOT=dirname(fileURLToPath(import.meta.url));
++const RUNNER='run-ai02-evidence-gates.mjs';
++const LOCK='AI02_GATE_INPUT_LOCK_2026-11-01.json';
++const files=readdirSync(ROOT).filter(name=>name.endsWith('.mjs')||name.endsWith('.json'));
++let groups=0,negative=0;
++const test=(name,fn)=>{fn();groups++;console.log('PASS '+name);};
++const blob=(value)=>{const bytes=Buffer.isBuffer(value)?value:Buffer.from(value);return createHash('sha1').update(`blob ${bytes.length}\0`).update(bytes).digest('hex');};
++function isolated(mutator=()=>{}) {
++  const dir=mkdtempSync(join(tmpdir(),'ai02-dependencies-'));
++  try {
++    for(const file of files)copyFileSync(join(ROOT,file),join(dir,file));
++    mutator(dir);
++    const marker=join(dir,'unreviewed-module-executed.txt');
++    const p=spawnSync(process.execPath,[join(dir,RUNNER)],{
++      cwd:dir,encoding:'utf8',timeout:25000,maxBuffer:2000000,
++      env:{...process.env,AI02_DEPENDENCY_SENTINEL:marker}
++    });
++    if(p.error)throw p.error;
++    return {exit:p.status,stdout:p.stdout,stderr:p.stderr,sideEffect:existsSync(marker)};
++  } finally {rmSync(dir,{recursive:true,force:true});}
++}
++function edit(dir,name,change) {
++  const path=join(dir,name);
++  writeFileSync(path,change(readFileSync(path,'utf8')));
++}
++function repin(dir,name) {
++  const path=join(dir,LOCK);
++  const manifest=JSON.parse(readFileSync(path,'utf8'));
++  const entry=manifest.files.find(x=>x.path===name);
++  assert.ok(entry,'test must replace an EXISTING reviewed file');
++  entry.gitBlobSha1=blob(readFileSync(join(dir,name)));
++  const newManifest=JSON.stringify(manifest,null,2)+'\n';
++  writeFileSync(path,newManifest);
++  edit(dir,RUNNER,source=>{
++    const updated=source.replace(/const LOCK_SHA='[a-f0-9]{40}';/,
++      `const LOCK_SHA='${blob(newManifest)}';`);
++    assert.notEqual(updated,source);return updated;
++  });
++}
++function helper(dir) {
++  writeFileSync(join(dir,'unreviewed-helper.mjs'),
++    "import {writeFileSync} from 'node:fs';\nwriteFileSync(process.env.AI02_DEPENDENCY_SENTINEL,'executed');\n");
++}
++function denied(name,mutator,error) {
++  test(name,()=>{
++    const r=isolated(dir=>{mutator(dir);repin(dir,'test-m05-editorial.mjs');});
++    assert.notEqual(r.exit,0,'unregistered dependency MUST fail before import');
++    assert.equal(r.sideEffect,false,'unreviewed code executed before rejection');
++    assert.match(r.stderr,error);
++    negative++;
++  });
++}
++
++test('unchanged gate observes 44 groups and checks 12 JS dependency carriers',()=>{
++  const r=isolated();assert.equal(r.exit,0,r.stderr);
++  const summary=JSON.parse(r.stdout.trim().split('\n').at(-1));
++  assert.equal(summary.groupsActuallyObserved,44);
++  assert.equal(summary.verifiedInputBlobs,17);
++  assert.equal(summary.dependencyModulesScanned,12);
++  assert.ok(summary.literalDependenciesChecked>=28);
++});
++test('legal static import of an ALREADY locked auditor is allowed after repin',()=>{
++  const r=isolated(dir=>{
++    edit(dir,'test-m05-editorial.mjs',s=>s+"\nawait import('./audit-m05-editorial.mjs');\n");
++    repin(dir,'test-m05-editorial.mjs');
++  });
++  assert.equal(r.exit,0,r.stderr);
++});
++test('legal literal reference to a locked JSON input remains allowed',()=>{
++  const r=isolated(dir=>{
++    edit(dir,'test-m05-editorial.mjs',s=>s+"\nconst __reviewedSource='M03_INTERNAL_COLLATION_2026-11-01.json';\n");
++    repin(dir,'test-m05-editorial.mjs');
++  });
++  assert.equal(r.exit,0,r.stderr);
++});
++denied('unlocked side-effect-only static import fails despite repinned test SHA',dir=>{
++  helper(dir);edit(dir,'test-m05-editorial.mjs',s=>"import './unreviewed-helper.mjs';\n"+s);
++},/unpinned local reference|unreviewed static module import/);
++denied('unlocked named static import is rejected after repin',dir=>{
++  helper(dir);edit(dir,'test-m05-editorial.mjs',s=>"import {anything} from './unreviewed-helper.mjs';\n"+s);
++},/unpinned local reference|unreviewed static module import/);
++denied('relative parent import cannot escape the lock',dir=>{
++  edit(dir,'test-m05-editorial.mjs',s=>"import '../outside.mjs';\n"+s);
++},/unpinned local reference|unreviewed static module import/);
++denied('unlocked JSON read in revised auditor is blocked before test execution',dir=>{
++  edit(dir,'test-m05-editorial.mjs',s=>s+"\nconst __newSource='unreviewed-source.json';\n");
++},/unpinned local reference/);
++denied('computed dynamic import is rejected even when source SHA is updated',dir=>{
++  edit(dir,'test-m05-editorial.mjs',s=>s+"\nconst __dep='./audit-m05-editorial.mjs';await import(__dep);\n");
++},/unreviewed computed module import/);
++denied('literal dynamic import cannot load an unlocked module',dir=>{
++  helper(dir);edit(dir,'test-m05-editorial.mjs',s=>s+"\nawait import('./unreviewed-helper.mjs');\n");
++},/unpinned local reference/);
++denied('concatenated JSON source path is not silently trusted',dir=>{
++  edit(dir,'test-m05-editorial.mjs',s=>s+"\nconst __computed='unreviewed-source'+'.json';\n");
++},/computed local-file extension/);
++denied('unreviewed CommonJS loader is denied in checked ESM',dir=>{
++  edit(dir,'test-m05-editorial.mjs',s=>s+"\nrequire('node:fs');\n");
++},/unexpected CommonJS loader/);
++test('manifest SHA is still the original when not deliberately repinned',()=>{
++  const manifest=readFileSync(join(ROOT,LOCK));
++  assert.equal(blob(manifest),'e42401e71758048a2da4cd740cf492c5565d12db');
++});
++console.log(JSON.stringify({passed:true,groups,repinnedDependencyAttacksRejected:negative,
++  engineCalls:0,testCopiesOnly:true,knownLimitation:'Lexical source-reference check cannot prove absence of all computed FS/eval paths.'}));
+diff --git a/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/test-m03-translation-layer.mjs b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/test-m03-translation-layer.mjs
+new file mode 100644
+index 0000000000000000000000000000000000000000..54e41f4c6d181f798a57efb08f183f5a6fdb5829
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/test-m03-translation-layer.mjs
+@@ -0,0 +1,70 @@
++import assert from 'node:assert/strict';
++import {auditTranslationLedger,readTranslationLedger} from './audit-m03-translation-layer.mjs';
++const original=readTranslationLedger(),copy=()=>structuredClone(original);
++let groups=0,bad=0;
++function test(title,fn){fn();groups++;console.log('PASS '+title);}
++test('four digital URLs and six observations are structurally authenticated',()=>{
++ const r=auditTranslationLedger(original);assert.equal(r.passed,true,JSON.stringify(r.errors));
++ assert.equal(r.sources,4);assert.equal(r.observations,6);
++});
++test('original-note digital transcription must not equal modern translation witness',()=>{
++ const libo=original.observations.filter(x=>x.sourceId==='LIBO');
++ assert.equal(libo.length,2);assert.notEqual(libo[0].layer,libo[1].layer);
++ assert.equal(libo[0].shortSpan,'衰右有旺者存');
++ assert.equal(libo[1].shortSpan,'衰之中另有旺存在');
++});
++test('internal Wikisource contradiction remains two roles on one URL',()=>{
++ assert.equal(original.sources[0].id,'WS');
++ assert.deepEqual(original.observations.filter(x=>x.sourceId==='WS').map(x=>x.shortSpan),
++ ['衰右有旺者存','衰中有旺者存']);
++});
++test('other digital sites cannot vote an unverified print reading into existence',()=>{
++ assert.equal(original.inferenceGuard.preferredReading,null);
++ assert.equal(original.inferenceGuard.newIndependentPrintedWitnesses,0);
++ assert.equal(original.printLead.printedReadingAtLocus,null);
++});
++test('print catalogue lead is not a viewed folio or PDF checksum',()=>{
++ assert.equal(original.printLead.catalogueYear,1947);
++ assert.equal(original.printLead.pdfPageCount,516);
++ assert.equal(original.printLead.sourceFileSha256,null);
++ assert.equal(original.printLead.printedPagesInspectedAtLocus,0);
++});
++test('source/role/text mutations and premature adoption are all rejected',()=>{
++ const corruptions=[
++  x=>x.sources[0].url='https://example.invalid',
++  x=>x.sources[1].sourceType='original-printed-witness',
++  x=>x.sources[2].independentPrintedWitness=true,
++  x=>x.sources.push(structuredClone(x.sources[3])),
++  x=>x.observations[0].shortSpan='衰中有旺者存',
++  x=>x.observations[1].shortSpan='衰右有旺者存',
++  x=>x.observations[2].layer='printed-facsimile',
++  x=>x.observations[3].layer='original-note-transcribed',
++  x=>x.observations[3].shortSpan='衰右有旺者存',
++  x=>x.observations[4].sourceId='WS',
++  x=>x.observations[5].extra='unreviewed',
++  x=>x.printLead.printedReadingAtLocus='中',
++  x=>x.printLead.printedPagesInspectedAtLocus=1,
++  x=>x.printLead.sourceFileSha256='fake',
++  x=>x.inferenceGuard.preferredReading='中',
++  x=>x.inferenceGuard.sourceReadingAdjudicated=true,
++  x=>x.inferenceGuard.engineReady=true,
++  x=>x.inferenceGuard.consumerChanged=true,
++  x=>x.inferenceGuard.translationCountedAsOriginalTextWitness=true,
++  x=>x.inferenceGuard.newIndependentPrintedWitnesses=1,
++  x=>x.disclaimer='historical proof'
++ ];
++ for(const mutate of corruptions){const v=copy();mutate(v);assert.equal(auditTranslationLedger(v).passed,false);bad++;}
++});
++test('bad JSON-like structures rejected with no uncaught exception',()=>{
++ for(const v of [null,42,'text',[],{},
++  {...copy(),sources:null},{...copy(),sources:[null,...copy().sources.slice(1)]},
++  {...copy(),observations:[null,...copy().observations.slice(1)]},
++  {...copy(),printLead:null},{...copy(),inferenceGuard:null}]){
++  let result;assert.doesNotThrow(()=>result=auditTranslationLedger(v));assert.equal(result.passed,false);bad++;
++ }
++});
++test('ledger is read-only and cannot be adopted by any engine',()=>{
++ const before=JSON.stringify(original);const r=auditTranslationLedger(original);
++ assert.equal(JSON.stringify(original),before);assert.equal(r.engineEligible,false);
++});
++console.log(JSON.stringify({passed:true,groups,negativeCasesRejected:bad,engineCalls:0,newPrintedPages:0}));
+diff --git a/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/test-pre-import-lock.mjs b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/test-pre-import-lock.mjs
+new file mode 100644
+index 0000000000000000000000000000000000000000..dbd9178da6f4937f05b1ebd9628f798ab44efabf
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/test-pre-import-lock.mjs
+@@ -0,0 +1,81 @@
++/**
++ * AI-02 regression: untrusted local ES modules must NOT be evaluated before
++ * the reviewed 17-file input-lock has been verified.
++ * This uses disposable directory copies and does not modify the worktree.
++ */
++import assert from 'node:assert/strict';
++import {copyFileSync, existsSync, mkdtempSync, readdirSync, readFileSync, rmSync, writeFileSync} from 'node:fs';
++import {tmpdir} from 'node:os';
++import {dirname, join} from 'node:path';
++import {fileURLToPath} from 'node:url';
++import {spawnSync} from 'node:child_process';
++
++const SOURCE = dirname(fileURLToPath(import.meta.url));
++const RUNNER = 'run-ai02-evidence-gates.mjs';
++const FILES = readdirSync(SOURCE, {withFileTypes:true})
++  .filter(f => f.isFile() && (f.name.endsWith('.mjs') || f.name.endsWith('.json')))
++  .map(f => f.name);
++const SEAL_PATH = 'prelock-module-ran.txt';
++let groups=0, blocked=0;
++function group(name, test) {test(); groups++; console.log('PASS '+name);}
++function isolatedRun(mutator=()=>{}) {
++  const home=mkdtempSync(join(tmpdir(),'ai02-prelock-'));
++  try {
++    for(const f of FILES)copyFileSync(join(SOURCE, f),join(home,f));
++    mutator(home);
++    const marker=join(home,SEAL_PATH);
++    const run=spawnSync(process.execPath,[join(home,RUNNER)],{
++      cwd:home, encoding:'utf8', timeout:25000, maxBuffer:1000000,
++      env:{...process.env, AI02_EARLY_IMPORT_SENTINEL:marker}
++    });
++    if(run.error)throw run.error;
++    return {code:run.status,stderr:run.stderr,stdout:run.stdout,
++      executedBeforeLock:existsSync(marker)};
++  } finally {rmSync(home,{recursive:true,force:true});}
++}
++function addSentinel(home,name) {
++  const p=join(home,name);
++  writeFileSync(p,readFileSync(p,'utf8') +
++    "\nimport {writeFileSync as __sentinelWrite} from 'node:fs';\n" +
++    "__sentinelWrite(process.env.AI02_EARLY_IMPORT_SENTINEL,'EVALUATED_BEFORE_CHECK');\n");
++}
++function rejection(name,mutator,expectedPath){
++  group(name,()=>{
++    const result=isolatedRun(mutator);
++    assert.notEqual(result.code,0,'tampered module should be rejected');
++    assert.equal(result.executedBeforeLock,false,
++      'the invalid module must not be evaluated before checksum rejection');
++    assert.match(result.stderr,new RegExp('input Git blob mismatch: '+expectedPath.replaceAll('.','\\.')));
++    blocked++;
++  });
++}
++
++group('baseline runner still passes 44 real research groups',()=>{
++  const r=isolatedRun();
++  assert.equal(r.code,0,r.stderr);
++  assert.equal(r.executedBeforeLock,false);
++  const summary=JSON.parse(r.stdout.trim().split('\n').at(-1));
++  assert.equal(summary.groupsActuallyObserved,44);
++  assert.equal(summary.verifiedInputBlobs,17);
++  assert.equal(summary.checkoutIntegrationSkipped,0);
++});
++group('bootstrap has no statically imported local modules',()=>{
++  const code=readFileSync(join(SOURCE,RUNNER),'utf8');
++  assert.doesNotMatch(code,/^\s*import\s+(?:[\s\S]*?\s+from\s+)?['"]\.\//m);
++  const firstDynamic=code.indexOf("await import('./audit-source-errata.mjs')");
++  const verifyAll=code.indexOf('for(const file of lock.files)');
++  assert.ok(verifyAll>=0 && firstDynamic>verifyAll);
++});
++rejection('altered source auditor cannot run an import-time side effect',
++  dir=>addSentinel(dir,'audit-source-errata.mjs'),'audit-source-errata.mjs');
++rejection('altered transcript validator cannot run an import-time side effect',
++  dir=>addSentinel(dir,'gate-transcript-validation.mjs'),'gate-transcript-validation.mjs');
++rejection('multiple altered local modules are rejected before either evaluates',
++  dir=>{addSentinel(dir,'audit-source-errata.mjs');addSentinel(dir,'gate-transcript-validation.mjs');},
++  'audit-source-errata.mjs');
++rejection('altered direct test file cannot run an import-time side effect',
++  dir=>addSentinel(dir,'test-m05-editorial.mjs'),'test-m05-editorial.mjs');
++
++console.log(JSON.stringify({passed:true,groups,corruptionsBlockedWithoutExecution:blocked,
++  checkpointShaPinned:true,engineCalls:0,sandboxType:'isolated-temporary-copies-only',
++  limitations:'Does not prevent time-of-check/time-of-use races or malicious edits to runner plus its hardcoded lock SHA.'}));

@@ -1,0 +1,45 @@
+{
+  "status": "source-and-reference-verified;package-verification-external",
+  "checks": [
+    {
+      "passed": true,
+      "postImplementationSealedFiles": 6,
+      "preimplementationFreezeEstablished": false,
+      "sourceSealSequenceExceptionRetained": true,
+      "manualCasesUnchangedAfterFirstTest": true,
+      "manualCases": 8,
+      "selectedClauseCodepoints": 8,
+      "parentContextCodepoints": 19,
+      "nativeCropRGBMatches": 1,
+      "newSourcePositions": 0,
+      "newHTTPBodies": 0,
+      "newEngineCallsDuringVerification": 0,
+      "retainedActualFoodPairReused": 1,
+      "calendarConsistencyEstablished": false,
+      "wholeContextApplied": false,
+      "consumerChanged": false
+    },
+    {
+      "passed": true,
+      "groups": 6,
+      "inspectionFrames": 371,
+      "nullInvariants": 3710,
+      "fullDayHourStemAndDeclaredFireDomain": 363,
+      "invalidInputs": 8,
+      "unsupportedRequests": 3,
+      "newEngineCallsDuringTests": 0,
+      "retainedActualFoodPairReused": true,
+      "preimplementationFreezeEstablished": false,
+      "sourceExpectationsSealTiming": "post-implementation;explicit-sequence-exception",
+      "fireStrengthCalculated": false,
+      "consumerChanged": false,
+      "wholeContextApplied": false
+    }
+  ],
+  "historicalPrivateStatePreserved": true,
+  "sourceSealSequenceException": true,
+  "currentParentMatrix": "v53/research/bazi-food-quantity/CURRENT_CONTEXT_COVERAGE.json",
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false,
+  "packageVerificationPointer": "recovery/research-release/FINAL_VERIFICATION.json"
+}

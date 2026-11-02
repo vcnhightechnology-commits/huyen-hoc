@@ -1,0 +1,773 @@
+{
+  "scope": "tmp/home-yangzhai-selection-staging",
+  "files": [
+    {
+      "file": "tmp/home-yangzhai-selection-staging/CONTEXT_READINGS.json",
+      "bytes": 13565,
+      "sha256": "b39a87f36f2c828cee1859de6e715a3ca7d571afd2212136ddd03fda36510aa8",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b39a87f36f2c828cee1859de6e715a3ca7d571afd2212136ddd03fda36510aa8",
+      "httpRange": {
+        "offset": 360005916,
+        "compressedBytes": 4885,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/MANUAL_HOUR_TABLE.json",
+      "bytes": 4737,
+      "sha256": "b5d79bc2e5cd9035724a3a83087bfce4acd52d354f677577b14fb2ad72ee3093",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/b5d79bc2e5cd9035724a3a83087bfce4acd52d354f677577b14fb2ad72ee3093",
+      "httpRange": {
+        "offset": 2667893,
+        "compressedBytes": 997,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/QA_IMAGES.json",
+      "bytes": 3633,
+      "sha256": "5d99f34a54db31dd448110adfde1d096e12e503fbf255854566b4a4a0ad99fc2",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5d99f34a54db31dd448110adfde1d096e12e503fbf255854566b4a4a0ad99fc2",
+      "httpRange": {
+        "offset": 274301197,
+        "compressedBytes": 837,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/RAW_IMAGES.json",
+      "bytes": 20922,
+      "sha256": "8e665a0985f4a513f70b783aaa1164fd39657c830e6af0cc98f365fac9d95a26",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8e665a0985f4a513f70b783aaa1164fd39657c830e6af0cc98f365fac9d95a26",
+      "httpRange": {
+        "offset": 294971880,
+        "compressedBytes": 3408,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/READING_CORRECTION_AUDIT.json",
+      "bytes": 782,
+      "sha256": "ea1b67afa76668c9725eda0b99012002206aa393433eb0ae7ed52ed19facbc99",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ea1b67afa76668c9725eda0b99012002206aa393433eb0ae7ed52ed19facbc99",
+      "httpRange": {
+        "offset": 51317727,
+        "compressedBytes": 504,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/REFERENCE_RESULTS.json",
+      "bytes": 47057,
+      "sha256": "b2fb03fc3cc9830826d60b5876d42c34c45dbbf9a6cf05190c8bafb13d9c9aa3",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b2fb03fc3cc9830826d60b5876d42c34c45dbbf9a6cf05190c8bafb13d9c9aa3",
+      "httpRange": {
+        "offset": 349098191,
+        "compressedBytes": 3355,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/WORK_STATE.json",
+      "bytes": 1312,
+      "sha256": "d4be28b7aa49b0294784e6579171f86a2f02c372450ea157f571694745b297ec",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d4be28b7aa49b0294784e6579171f86a2f02c372450ea157f571694745b297ec",
+      "httpRange": {
+        "offset": 132433829,
+        "compressedBytes": 640,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/extract-raw.py",
+      "bytes": 1541,
+      "sha256": "cae8e355e3133efb106b81bea8faa6d01ea027a4ad145c10d328d7d96497a06f",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/cae8e355e3133efb106b81bea8faa6d01ea027a4ad145c10d328d7d96497a06f",
+      "httpRange": {
+        "offset": 422395601,
+        "compressedBytes": 938,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/manual-hour-tables.py",
+      "bytes": 4356,
+      "sha256": "f703044e588f6fbd1e63aa2a8bf4ab85c9da3d317b60a55f7fb1920d4ad9d7f6",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f703044e588f6fbd1e63aa2a8bf4ab85c9da3d317b60a55f7fb1920d4ad9d7f6",
+      "httpRange": {
+        "offset": 218859229,
+        "compressedBytes": 2299,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/qa/p134-exception-complete-native.png",
+      "bytes": 1637703,
+      "sha256": "8d617ffffd7d158683922f95662e854ecb88239527e0c835d51f70228d61b25b",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8d617ffffd7d158683922f95662e854ecb88239527e0c835d51f70228d61b25b",
+      "httpRange": {
+        "offset": 281576805,
+        "compressedBytes": 1638198,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/qa/p134-exception-native.png",
+      "bytes": 1410273,
+      "sha256": "c1bd7f2bb7152c052a0a0d6595f99e634a243747b4401017eebc2a6c29163b0e",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c1bd7f2bb7152c052a0a0d6595f99e634a243747b4401017eebc2a6c29163b0e",
+      "httpRange": {
+        "offset": 263601172,
+        "compressedBytes": 1410698,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/qa/p134-hour-starts-native.png",
+      "bytes": 3169300,
+      "sha256": "974b46eec50c4439696052e9a77da2a2c45224836e4ab899d64990d79e777c1f",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/974b46eec50c4439696052e9a77da2a2c45224836e4ab899d64990d79e777c1f",
+      "httpRange": {
+        "offset": 18558215,
+        "compressedBytes": 3170255,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/qa/p135-bottom-hour-native.png",
+      "bytes": 1465459,
+      "sha256": "b6c84088d27e3f46a1604b6a92db7793631e289517e0a2b904c4fb78f4969f1c",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/b6c84088d27e3f46a1604b6a92db7793631e289517e0a2b904c4fb78f4969f1c",
+      "httpRange": {
+        "offset": 157924342,
+        "compressedBytes": 1465904,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/qa/p135-hour-labels-native.png",
+      "bytes": 3218582,
+      "sha256": "d27a23067ecc3470bbaa0084d7155dd3510659d44527948a54d311abaef0b69f",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d27a23067ecc3470bbaa0084d7155dd3510659d44527948a54d311abaef0b69f",
+      "httpRange": {
+        "offset": 113709133,
+        "compressedBytes": 3219552,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/qa/p135-last-two-native.png",
+      "bytes": 403569,
+      "sha256": "637258666f8752ee9ffdbcb0fff0c49d86e4993c13e4f556475fb062d1ac50ed",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/637258666f8752ee9ffdbcb0fff0c49d86e4993c13e4f556475fb062d1ac50ed",
+      "httpRange": {
+        "offset": 89659819,
+        "compressedBytes": 403694,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/qa/p135-siming-native.png",
+      "bytes": 340964,
+      "sha256": "334f0dd9a82fc8c22f6e96185114bba068983dcc3e908401618f6d64f0eac324",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/334f0dd9a82fc8c22f6e96185114bba068983dcc3e908401618f6d64f0eac324",
+      "httpRange": {
+        "offset": 267346091,
+        "compressedBytes": 341069,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/qa/p165-tiangan-hour-caveat-native.png",
+      "bytes": 2169558,
+      "sha256": "42bb352aa1b961cfce51d6e6f318215dac4f2aadc649f7bf247ea0cd146562d7",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/42bb352aa1b961cfce51d6e6f318215dac4f2aadc649f7bf247ea0cd146562d7",
+      "httpRange": {
+        "offset": 156157887,
+        "compressedBytes": 2170213,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p124.jpg",
+      "bytes": 787481,
+      "sha256": "bfc43c5155139f8b1bff21009d222967f37c97d64ad83bf478260f5d2ca0a957",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bfc43c5155139f8b1bff21009d222967f37c97d64ad83bf478260f5d2ca0a957",
+      "httpRange": {
+        "offset": 231924158,
+        "compressedBytes": 785719,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p125.jpg",
+      "bytes": 780162,
+      "sha256": "552beb1e7f961b6fe8206bacbf9e3dd4f963d7b8b100f337abaede3e8425be77",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/552beb1e7f961b6fe8206bacbf9e3dd4f963d7b8b100f337abaede3e8425be77",
+      "httpRange": {
+        "offset": 145182790,
+        "compressedBytes": 778681,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p126.jpg",
+      "bytes": 813414,
+      "sha256": "585a814949f28530ccc3a9b06f88a92fde2d09522c8cc27d92658f7046504cf4",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/585a814949f28530ccc3a9b06f88a92fde2d09522c8cc27d92658f7046504cf4",
+      "httpRange": {
+        "offset": 226184220,
+        "compressedBytes": 811742,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p127.jpg",
+      "bytes": 764519,
+      "sha256": "06d0b29eaef400186f6aa8fb1d145592a78f97cc3859f736ada6d752dd77472f",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/06d0b29eaef400186f6aa8fb1d145592a78f97cc3859f736ada6d752dd77472f",
+      "httpRange": {
+        "offset": 127845605,
+        "compressedBytes": 763434,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p128.jpg",
+      "bytes": 795676,
+      "sha256": "7a46440d74978e4eddf0501b28fd15c60519317dc5ca383f8d44fc80d76c727f",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7a46440d74978e4eddf0501b28fd15c60519317dc5ca383f8d44fc80d76c727f",
+      "httpRange": {
+        "offset": 10168189,
+        "compressedBytes": 794122,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p129.jpg",
+      "bytes": 793452,
+      "sha256": "504006d1a07e20c6646393d21bf11382e68a7f6ab523c5494ed929091d2a7c25",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/504006d1a07e20c6646393d21bf11382e68a7f6ab523c5494ed929091d2a7c25",
+      "httpRange": {
+        "offset": 348054260,
+        "compressedBytes": 790716,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p130.jpg",
+      "bytes": 811647,
+      "sha256": "fcb023d42104581b9892bada7aca5c6acf1cff4279eb6a1d77296fc45724b900",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/fcb023d42104581b9892bada7aca5c6acf1cff4279eb6a1d77296fc45724b900",
+      "httpRange": {
+        "offset": 283686164,
+        "compressedBytes": 809526,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p131.jpg",
+      "bytes": 810368,
+      "sha256": "e8e587a003957124e35252d9885ba8b2ec0f4eb413a5606a10523f1e4d0408f0",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/e8e587a003957124e35252d9885ba8b2ec0f4eb413a5606a10523f1e4d0408f0",
+      "httpRange": {
+        "offset": 39066186,
+        "compressedBytes": 807714,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p132.jpg",
+      "bytes": 782747,
+      "sha256": "11c129deb71d22641ead689d2dd980466ce9220660f79a903b578a2cdd0ab4a3",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/11c129deb71d22641ead689d2dd980466ce9220660f79a903b578a2cdd0ab4a3",
+      "httpRange": {
+        "offset": 238189490,
+        "compressedBytes": 780797,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p133.jpg",
+      "bytes": 825493,
+      "sha256": "836080a49e668456d3e66200f011ef0a224dcd72ddbe07dbb091762c87185da0",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/836080a49e668456d3e66200f011ef0a224dcd72ddbe07dbb091762c87185da0",
+      "httpRange": {
+        "offset": 190520966,
+        "compressedBytes": 822504,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p134.jpg",
+      "bytes": 794481,
+      "sha256": "421266ea4de843a0a13575fb43e07893bfe8e9482b861627a7d2f43146423895",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/421266ea4de843a0a13575fb43e07893bfe8e9482b861627a7d2f43146423895",
+      "httpRange": {
+        "offset": 147334750,
+        "compressedBytes": 791837,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p135.jpg",
+      "bytes": 803383,
+      "sha256": "24ae6c35123eef3f4164cd902d18e7863802ed9364b483d095ea839ca954ed5d",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/24ae6c35123eef3f4164cd902d18e7863802ed9364b483d095ea839ca954ed5d",
+      "httpRange": {
+        "offset": 125784919,
+        "compressedBytes": 801222,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p136.jpg",
+      "bytes": 796507,
+      "sha256": "52332be84314af1f83a0840832695b77b33c56b6c1c3af12c8e4b92c32f790dc",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/52332be84314af1f83a0840832695b77b33c56b6c1c3af12c8e4b92c32f790dc",
+      "httpRange": {
+        "offset": 111579095,
+        "compressedBytes": 794350,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p137.jpg",
+      "bytes": 886914,
+      "sha256": "8b0985252340d2345a6bd1db9c9e312c51a449be77abc37233cc57154ab9959c",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8b0985252340d2345a6bd1db9c9e312c51a449be77abc37233cc57154ab9959c",
+      "httpRange": {
+        "offset": 263184716,
+        "compressedBytes": 885950,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p138.jpg",
+      "bytes": 870246,
+      "sha256": "9c3f7111c7ad23611847b2c04e0f9450953f76691674cc6f27f310eff21008d9",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9c3f7111c7ad23611847b2c04e0f9450953f76691674cc6f27f310eff21008d9",
+      "httpRange": {
+        "offset": 103408672,
+        "compressedBytes": 868410,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p139.jpg",
+      "bytes": 917489,
+      "sha256": "da891fd487b1b929db29112e2d96ec80930ec29259c4bbe6afaf537642273790",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/da891fd487b1b929db29112e2d96ec80930ec29259c4bbe6afaf537642273790",
+      "httpRange": {
+        "offset": 212339552,
+        "compressedBytes": 915796,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p140.jpg",
+      "bytes": 876738,
+      "sha256": "fa8517403f82c04a8f4d2295d956bd0740fc9931d079e150c4984824179ac744",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/fa8517403f82c04a8f4d2295d956bd0740fc9931d079e150c4984824179ac744",
+      "httpRange": {
+        "offset": 257444319,
+        "compressedBytes": 874973,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p141.jpg",
+      "bytes": 870910,
+      "sha256": "32f720ffef38300ccecffa5ce90e83d1c677356597c4c55c029c6e86993f2022",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/32f720ffef38300ccecffa5ce90e83d1c677356597c4c55c029c6e86993f2022",
+      "httpRange": {
+        "offset": 265260653,
+        "compressedBytes": 868806,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p142.jpg",
+      "bytes": 890117,
+      "sha256": "2dead110f058048b25cc59b2facb810cfc6c752229b3673fb4d44a176f0f76ad",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2dead110f058048b25cc59b2facb810cfc6c752229b3673fb4d44a176f0f76ad",
+      "httpRange": {
+        "offset": 216316169,
+        "compressedBytes": 888460,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p143.jpg",
+      "bytes": 871307,
+      "sha256": "01f64c3a35479532a33a84bde8b2ef341d71b49e8d5a6322c6a367b057ee266d",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/01f64c3a35479532a33a84bde8b2ef341d71b49e8d5a6322c6a367b057ee266d",
+      "httpRange": {
+        "offset": 93806473,
+        "compressedBytes": 869582,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p144.jpg",
+      "bytes": 843947,
+      "sha256": "2870a56a8ec8bad7dc635c7b23bc2e3196763510e9c519027918b15d687cfd8d",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2870a56a8ec8bad7dc635c7b23bc2e3196763510e9c519027918b15d687cfd8d",
+      "httpRange": {
+        "offset": 158489010,
+        "compressedBytes": 842184,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p145.jpg",
+      "bytes": 841508,
+      "sha256": "df17a9db29274581394c3658cb0698c47837f5eab4dbab7056e98e60653904ac",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/df17a9db29274581394c3658cb0698c47837f5eab4dbab7056e98e60653904ac",
+      "httpRange": {
+        "offset": 263961981,
+        "compressedBytes": 839910,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p146.jpg",
+      "bytes": 796025,
+      "sha256": "6e2dae475bf2e2fd6706b56e1a1e4d5de808c2e4848168ffa1bfbf4918be2b40",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6e2dae475bf2e2fd6706b56e1a1e4d5de808c2e4848168ffa1bfbf4918be2b40",
+      "httpRange": {
+        "offset": 273214621,
+        "compressedBytes": 794137,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p147.jpg",
+      "bytes": 806038,
+      "sha256": "bb85458a86a5c07db8c366fae8b16e67329f43ffd04bd840cd2c798597f589da",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bb85458a86a5c07db8c366fae8b16e67329f43ffd04bd840cd2c798597f589da",
+      "httpRange": {
+        "offset": 191638709,
+        "compressedBytes": 803544,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p148.jpg",
+      "bytes": 899843,
+      "sha256": "f1cb3e7b653b5e44ff78d02efc6f38a9e7719c7fbfc19f1d5def3c9c41b70e3d",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f1cb3e7b653b5e44ff78d02efc6f38a9e7719c7fbfc19f1d5def3c9c41b70e3d",
+      "httpRange": {
+        "offset": 162443642,
+        "compressedBytes": 898492,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p149.jpg",
+      "bytes": 880231,
+      "sha256": "bef01799fcbe06a452d75a05453e040c4bb1904c7fe624f28905c4dd263b8b90",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bef01799fcbe06a452d75a05453e040c4bb1904c7fe624f28905c4dd263b8b90",
+      "httpRange": {
+        "offset": 219367472,
+        "compressedBytes": 877838,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p150.jpg",
+      "bytes": 755565,
+      "sha256": "45a87921acfaa043195b3cde51bab4f01374a6a68585dfac69d1a27bd31b236c",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/45a87921acfaa043195b3cde51bab4f01374a6a68585dfac69d1a27bd31b236c",
+      "httpRange": {
+        "offset": 195605224,
+        "compressedBytes": 754672,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p151.jpg",
+      "bytes": 807917,
+      "sha256": "69d54b00c7b1faf5158234325e233e35eff9c721dfae78aaef0e6d8e44de3b2b",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/69d54b00c7b1faf5158234325e233e35eff9c721dfae78aaef0e6d8e44de3b2b",
+      "httpRange": {
+        "offset": 238627982,
+        "compressedBytes": 805966,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p152.jpg",
+      "bytes": 797175,
+      "sha256": "7101903f083ada1cc468b11efd73d7a0be720314916b4ac0ed1fb0f3727c9e8b",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/7101903f083ada1cc468b11efd73d7a0be720314916b4ac0ed1fb0f3727c9e8b",
+      "httpRange": {
+        "offset": 319287378,
+        "compressedBytes": 794743,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p153.jpg",
+      "bytes": 829971,
+      "sha256": "7af4c1e60c5d627292b85b0f7b2c9f505341523c6bc74cdbebf08226449b05b4",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7af4c1e60c5d627292b85b0f7b2c9f505341523c6bc74cdbebf08226449b05b4",
+      "httpRange": {
+        "offset": 34859165,
+        "compressedBytes": 827899,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p154.jpg",
+      "bytes": 882484,
+      "sha256": "ccf83db70f11b6764c6d3ed3558f31497d56f45c746e4952ce7ad2939eee9e5b",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/ccf83db70f11b6764c6d3ed3558f31497d56f45c746e4952ce7ad2939eee9e5b",
+      "httpRange": {
+        "offset": 50758630,
+        "compressedBytes": 880950,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p155.jpg",
+      "bytes": 804355,
+      "sha256": "19fd17138c742ee522eb1f37c7da8bfb742bee95079b6ba05c1ddb41a4de3863",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/19fd17138c742ee522eb1f37c7da8bfb742bee95079b6ba05c1ddb41a4de3863",
+      "httpRange": {
+        "offset": 341531121,
+        "compressedBytes": 802353,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p156.jpg",
+      "bytes": 807409,
+      "sha256": "b73bc8dc1160d543b825b1fe5a2fe308e6dabc3793d4de464e5b55a62fc00819",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/b73bc8dc1160d543b825b1fe5a2fe308e6dabc3793d4de464e5b55a62fc00819",
+      "httpRange": {
+        "offset": 159586681,
+        "compressedBytes": 805257,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p157.jpg",
+      "bytes": 794645,
+      "sha256": "19a6b1a721cac0b24762de472050027e0d2d1bc9648405521b3b0c7388df9a86",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/19a6b1a721cac0b24762de472050027e0d2d1bc9648405521b3b0c7388df9a86",
+      "httpRange": {
+        "offset": 336971526,
+        "compressedBytes": 792625,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p158.jpg",
+      "bytes": 779987,
+      "sha256": "57a489216f7131fedf7ef37ed4b6a6ccb327c8954325ff56f73ecde199deb443",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/57a489216f7131fedf7ef37ed4b6a6ccb327c8954325ff56f73ecde199deb443",
+      "httpRange": {
+        "offset": 220083556,
+        "compressedBytes": 778962,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p159.jpg",
+      "bytes": 800654,
+      "sha256": "b44698a9f951a8d2f1e617925780ca704df3dfe715c0264b47eddf5e46559ed8",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b44698a9f951a8d2f1e617925780ca704df3dfe715c0264b47eddf5e46559ed8",
+      "httpRange": {
+        "offset": 370011207,
+        "compressedBytes": 797216,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p160.jpg",
+      "bytes": 795298,
+      "sha256": "71f1d8761aeab5d5102c493566878ace381d0258b7fae395f6fb4cc96d9452a9",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/71f1d8761aeab5d5102c493566878ace381d0258b7fae395f6fb4cc96d9452a9",
+      "httpRange": {
+        "offset": 330585163,
+        "compressedBytes": 792919,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p161.jpg",
+      "bytes": 738118,
+      "sha256": "61272135880787aa7c35592d937e4e9c25d4e9f6d1b3cfcd5ffd7ef8c7b4cc5b",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/61272135880787aa7c35592d937e4e9c25d4e9f6d1b3cfcd5ffd7ef8c7b4cc5b",
+      "httpRange": {
+        "offset": 73469247,
+        "compressedBytes": 737076,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p162.jpg",
+      "bytes": 749818,
+      "sha256": "8a53705ab7342d1d16ff932b866c2b002e4f72dc7c000eb5cb27b3a0a62ccab4",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8a53705ab7342d1d16ff932b866c2b002e4f72dc7c000eb5cb27b3a0a62ccab4",
+      "httpRange": {
+        "offset": 250929143,
+        "compressedBytes": 748866,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p163.jpg",
+      "bytes": 764980,
+      "sha256": "ce9127a73c759daafaf5a2c5db249a72d2998af6959a283320a33163e3112643",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/ce9127a73c759daafaf5a2c5db249a72d2998af6959a283320a33163e3112643",
+      "httpRange": {
+        "offset": 73484232,
+        "compressedBytes": 763724,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p164.jpg",
+      "bytes": 776316,
+      "sha256": "d55ae0061ca58b988e176ca6c6157408c6f3c3eb4e0136eebc7a237a705e4f5f",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d55ae0061ca58b988e176ca6c6157408c6f3c3eb4e0136eebc7a237a705e4f5f",
+      "httpRange": {
+        "offset": 146032271,
+        "compressedBytes": 774645,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p165.jpg",
+      "bytes": 819191,
+      "sha256": "8c2bfaf2023ddd6028d834d54c8d947dbeec210f0ad02c7509028986a94b0691",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8c2bfaf2023ddd6028d834d54c8d947dbeec210f0ad02c7509028986a94b0691",
+      "httpRange": {
+        "offset": 275459186,
+        "compressedBytes": 816576,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p166.jpg",
+      "bytes": 739578,
+      "sha256": "04dd2ec0891dd7408e23eaad64bd50d44fd7ce5869ceb457f5614eb4fd7b7583",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/04dd2ec0891dd7408e23eaad64bd50d44fd7ce5869ceb457f5614eb4fd7b7583",
+      "httpRange": {
+        "offset": 114434947,
+        "compressedBytes": 738324,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p167.jpg",
+      "bytes": 773606,
+      "sha256": "24464c5556f0d920cca02fe4fb256e16a4e99a99e5902c738417606f05c2bf3c",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/24464c5556f0d920cca02fe4fb256e16a4e99a99e5902c738417606f05c2bf3c",
+      "httpRange": {
+        "offset": 122801057,
+        "compressedBytes": 771952,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/raw-p168.jpg",
+      "bytes": 775819,
+      "sha256": "a547f8421242239d0027323775ebe69e44d2b8df9205ceb5823a5af9bca4113e",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a547f8421242239d0027323775ebe69e44d2b8df9205ceb5823a5af9bca4113e",
+      "httpRange": {
+        "offset": 223479554,
+        "compressedBytes": 775089,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/source-hour-reference.mjs",
+      "bytes": 2434,
+      "sha256": "d1cd7e2f92d9925c16ba25207a9b5132e3527fb5a0fedc8d6c82d2cebd9b3f3d",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d1cd7e2f92d9925c16ba25207a9b5132e3527fb5a0fedc8d6c82d2cebd9b3f3d",
+      "httpRange": {
+        "offset": 113042367,
+        "compressedBytes": 1096,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-selection-staging/test-hour-reference.mjs",
+      "bytes": 6151,
+      "sha256": "8fcb9ee9ff8b87faf7d0da2ae1a0854afde5e742d0740ad41f428a536faf4af5",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8fcb9ee9ff8b87faf7d0da2ae1a0854afde5e742d0740ad41f428a536faf4af5",
+      "httpRange": {
+        "offset": 300622049,
+        "compressedBytes": 2533,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

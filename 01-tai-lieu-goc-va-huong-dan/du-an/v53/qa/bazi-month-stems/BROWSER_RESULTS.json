@@ -1,0 +1,110 @@
+{
+  "checks": [
+    {
+      "name": "New month detail is collapsed by default and labels its actual month branch",
+      "ok": true
+    },
+    {
+      "name": "All three hidden stems of this source month are retained as separate readable cards",
+      "ok": true
+    },
+    {
+      "name": "Canh is shown as a secondary Chính Quan rather than replacing the Bính main stem",
+      "ok": true
+    },
+    {
+      "name": "Day stem is never counted as an additional revealed month-stem location",
+      "ok": true
+    },
+    {
+      "name": "Consumer explanation does not convert the source example into a confirmed pattern",
+      "ok": true
+    },
+    {
+      "name": "TXT includes all month cards and secondary official even when collapsed",
+      "ok": true
+    },
+    {
+      "name": "TXT restores default closed state",
+      "ok": true
+    },
+    {
+      "name": "TXT preserves an already-open month detail",
+      "ok": true
+    },
+    {
+      "name": "Unknown-hour month reading only compares known year/month stems",
+      "ok": true
+    },
+    {
+      "name": "Saved chart reopens and recomputes its complete month description",
+      "ok": true
+    },
+    {
+      "name": "Print expands new month cards and hides the input form",
+      "ok": true
+    },
+    {
+      "name": "After print restores the month detail to its original closed state",
+      "ok": true
+    },
+    {
+      "name": "Print preserves a detail that was originally open",
+      "ok": true
+    },
+    {
+      "name": "Actual PDF generation also restores the collapsed month detail",
+      "ok": true
+    },
+    {
+      "name": "320px: all monthly cards fit within the viewport",
+      "ok": true,
+      "detail": {
+        "width": 320,
+        "page": 320
+      }
+    },
+    {
+      "name": "390px: all monthly cards fit within the viewport",
+      "ok": true,
+      "detail": {
+        "width": 390,
+        "page": 390
+      }
+    },
+    {
+      "name": "768px: all monthly cards fit within the viewport",
+      "ok": true,
+      "detail": {
+        "width": 768,
+        "page": 768
+      }
+    },
+    {
+      "name": "1440px: all monthly cards fit within the viewport",
+      "ok": true,
+      "detail": {
+        "width": 1440,
+        "page": 1440
+      }
+    },
+    {
+      "name": "Ambiguous input suppresses the full month expansion and cycles",
+      "ok": true
+    },
+    {
+      "name": "Editing birth input removes stale month cards and download action",
+      "ok": true
+    },
+    {
+      "name": "Standalone has no JS errors,HTTP requests or source/audit terms in the consumer page",
+      "ok": true,
+      "detail": {
+        "errors": [],
+        "http": []
+      }
+    }
+  ],
+  "errors": [],
+  "http": []
+}

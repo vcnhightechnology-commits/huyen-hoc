@@ -1,0 +1,641 @@
+{
+  "scope": "v53/research/tuvi-star-offices",
+  "files": [
+    {
+      "file": "v53/research/tuvi-star-offices/CURRENT_CANVAS_INVENTORY.json",
+      "bytes": 63787,
+      "sha256": "b9cfca141a15fed4c2619fadadfa9de462cf7b49165a0402be6d82592e4d2976",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/b9cfca141a15fed4c2619fadadfa9de462cf7b49165a0402be6d82592e4d2976",
+      "httpRange": {
+        "offset": 182315671,
+        "compressedBytes": 5324,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/FIRST_PASS_READINGS.json",
+      "bytes": 12016,
+      "sha256": "f24e30283c4a329f28f82b8ed5f283b8d429f69d4224c24d28c774971d55d793",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f24e30283c4a329f28f82b8ed5f283b8d429f69d4224c24d28c774971d55d793",
+      "httpRange": {
+        "offset": 167441492,
+        "compressedBytes": 3509,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/FRONT12_SOURCE_RESULTS.json",
+      "bytes": 584,
+      "sha256": "edc3895b4ef0ef24235202038d90d54f6efba5abadbe8831090a45b9c99a994c",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/edc3895b4ef0ef24235202038d90d54f6efba5abadbe8831090a45b9c99a994c",
+      "httpRange": {
+        "offset": 103072066,
+        "compressedBytes": 334,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/PROMOTION_IDENTITIES.json",
+      "bytes": 19486,
+      "sha256": "5e3f1dbd080d7c5ed0c5aa458012072f028bc7ec5af43f04211c0911d7e852ab",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5e3f1dbd080d7c5ed0c5aa458012072f028bc7ec5af43f04211c0911d7e852ab",
+      "httpRange": {
+        "offset": 330664463,
+        "compressedBytes": 4820,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/READING_CORRECTIONS.json",
+      "bytes": 635,
+      "sha256": "bd060611cb3c34b7be4bd3470f5dc77f24860a9cfd5de0f5e4eb8cb860eaf053",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bd060611cb3c34b7be4bd3470f5dc77f24860a9cfd5de0f5e4eb8cb860eaf053",
+      "httpRange": {
+        "offset": 201621340,
+        "compressedBytes": 369,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/REQUESTS.json",
+      "bytes": 5430,
+      "sha256": "3549b372b1d611c7467c87efb9b1266bf2fe3913f7b30068d4074e337f46cd58",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/3549b372b1d611c7467c87efb9b1266bf2fe3913f7b30068d4074e337f46cd58",
+      "httpRange": {
+        "offset": 320373056,
+        "compressedBytes": 504,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/SOURCE_DISPOSITIONS.json",
+      "bytes": 6102,
+      "sha256": "08c50e45ab24efdff37edbe4120f3cd7380aa0f13d0dc9d590f1fd2e0b3f5106",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/08c50e45ab24efdff37edbe4120f3cd7380aa0f13d0dc9d590f1fd2e0b3f5106",
+      "httpRange": {
+        "offset": 142323758,
+        "compressedBytes": 763,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/SOURCE_MANIFEST.json",
+      "bytes": 42640,
+      "sha256": "6624225cec1ce6a69c793d866c325c45ea21735005d74074ef3637289755d743",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6624225cec1ce6a69c793d866c325c45ea21735005d74074ef3637289755d743",
+      "httpRange": {
+        "offset": 107963118,
+        "compressedBytes": 5428,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/SOURCE_TABLES.json",
+      "bytes": 10654,
+      "sha256": "1e511a62846969bafaf71dfb9bd9cebea813be22cea01eb200eed21f19f1a697",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/1e511a62846969bafaf71dfb9bd9cebea813be22cea01eb200eed21f19f1a697",
+      "httpRange": {
+        "offset": 60351948,
+        "compressedBytes": 1926,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/STAGED_build-star-study.py",
+      "bytes": 9694,
+      "sha256": "96a81425ad76bb03434d6fca2ff3a254c587e8c6ba1816e3629cd83ab2e35b27",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/96a81425ad76bb03434d6fca2ff3a254c587e8c6ba1816e3629cd83ab2e35b27",
+      "httpRange": {
+        "offset": 368852833,
+        "compressedBytes": 4813,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/STAGED_fetch-front.py",
+      "bytes": 2228,
+      "sha256": "ccb632478214a886e29a79e5265b440af8a7568bdea20967fa07866730a5ea9f",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/ccb632478214a886e29a79e5265b440af8a7568bdea20967fa07866730a5ea9f",
+      "httpRange": {
+        "offset": 42543807,
+        "compressedBytes": 1185,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/STAGED_finalize-stage.py",
+      "bytes": 7150,
+      "sha256": "ecabe86838ae4eb90d6f533648799128b4451a309a3da15377139c0e6ca1c255",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ecabe86838ae4eb90d6f533648799128b4451a309a3da15377139c0e6ca1c255",
+      "httpRange": {
+        "offset": 94340186,
+        "compressedBytes": 4062,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/STAGED_record-frontmatter.py",
+      "bytes": 9834,
+      "sha256": "7b80c80167d53b8e1d0bd516bbee3d6786935b7fd04dba2a3bc2ebc262f64c66",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7b80c80167d53b8e1d0bd516bbee3d6786935b7fd04dba2a3bc2ebc262f64c66",
+      "httpRange": {
+        "offset": 40850234,
+        "compressedBytes": 5075,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/STAGED_snapshot.py",
+      "bytes": 1281,
+      "sha256": "13f5f9da603f7d72fa07a6aca4a1d879203068c4454436862bb57196305f4e85",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/13f5f9da603f7d72fa07a6aca4a1d879203068c4454436862bb57196305f4e85",
+      "httpRange": {
+        "offset": 264710254,
+        "compressedBytes": 664,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/STAGED_test-star-offices.mjs",
+      "bytes": 8436,
+      "sha256": "642a4cee3f0ff7362e04eae0042cb1f39e5f14372c58a2d41968aabeb334834f",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/642a4cee3f0ff7362e04eae0042cb1f39e5f14372c58a2d41968aabeb334834f",
+      "httpRange": {
+        "offset": 93895248,
+        "compressedBytes": 3692,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/WINDOWS_TRUST_REQUESTS.json",
+      "bytes": 16470,
+      "sha256": "665c2a2958d2bcab5c5d52cf14b2582344724a161a9020d579d3dbc497ac04b8",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/665c2a2958d2bcab5c5d52cf14b2582344724a161a9020d579d3dbc497ac04b8",
+      "httpRange": {
+        "offset": 200599780,
+        "compressedBytes": 2609,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/WINDOWS_TRUST_REQUESTS_13_24.json",
+      "bytes": 17305,
+      "sha256": "201bcf610aac9364323fdca06d8f4eaf1254b485285fec38ac7f058c5a67bb21",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/201bcf610aac9364323fdca06d8f4eaf1254b485285fec38ac7f058c5a67bb21",
+      "httpRange": {
+        "offset": 77813536,
+        "compressedBytes": 2545,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/WINDOWS_TRUST_REQUESTS_25_30.json",
+      "bytes": 8731,
+      "sha256": "555ecbcf0710b456e55ad7d218f91e9a398df5a58c3592e80a6657ac62c1f6d0",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/555ecbcf0710b456e55ad7d218f91e9a398df5a58c3592e80a6657ac62c1f6d0",
+      "httpRange": {
+        "offset": 146697567,
+        "compressedBytes": 1716,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/WORK_STATE.json",
+      "bytes": 3988,
+      "sha256": "fd3a0c66f84b8c719d663d21e132c777db652edcf713a1b9cc296697214c48bd",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/fd3a0c66f84b8c719d663d21e132c777db652edcf713a1b9cc296697214c48bd",
+      "httpRange": {
+        "offset": 288703882,
+        "compressedBytes": 2138,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-001-native-trust.jpg",
+      "bytes": 413925,
+      "sha256": "4c0248c5528f59f288f98d52f32cf1733087e004f6ea8db5a604af3946ba25f1",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4c0248c5528f59f288f98d52f32cf1733087e004f6ea8db5a604af3946ba25f1",
+      "httpRange": {
+        "offset": 286933153,
+        "compressedBytes": 412036,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-002-native-trust.jpg",
+      "bytes": 454066,
+      "sha256": "1b9e0f354510bff77f1608cc9756991bfaca079b6d8c319d6d5a1b9cb353c46f",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1b9e0f354510bff77f1608cc9756991bfaca079b6d8c319d6d5a1b9cb353c46f",
+      "httpRange": {
+        "offset": 354172642,
+        "compressedBytes": 452776,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-003-native-trust.jpg",
+      "bytes": 511384,
+      "sha256": "1621a081ff581ea0d0eea627e9197e7e1d3abadfbf63ee54664f9f31da252eb7",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1621a081ff581ea0d0eea627e9197e7e1d3abadfbf63ee54664f9f31da252eb7",
+      "httpRange": {
+        "offset": 294334872,
+        "compressedBytes": 510067,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-004-native-trust.jpg",
+      "bytes": 499856,
+      "sha256": "56a15d38b5aa5ec657ee24ad904c12460ccfe097281b9970497d0a43a51d53fb",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/56a15d38b5aa5ec657ee24ad904c12460ccfe097281b9970497d0a43a51d53fb",
+      "httpRange": {
+        "offset": 161141907,
+        "compressedBytes": 498536,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-005-native-trust.jpg",
+      "bytes": 509155,
+      "sha256": "b12d3258110d0632526c8ed66ac0b7837a9b5743330ae8862270c6546ec1d3f7",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b12d3258110d0632526c8ed66ac0b7837a9b5743330ae8862270c6546ec1d3f7",
+      "httpRange": {
+        "offset": 336208320,
+        "compressedBytes": 507888,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-006-native-trust.jpg",
+      "bytes": 568033,
+      "sha256": "5ce4233074e0f76ad63d4ac21017c79ec5e7ffcc15fa74e037db57f5b93f9c98",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5ce4233074e0f76ad63d4ac21017c79ec5e7ffcc15fa74e037db57f5b93f9c98",
+      "httpRange": {
+        "offset": 264709495,
+        "compressedBytes": 566926,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-007-native-trust.jpg",
+      "bytes": 551739,
+      "sha256": "296eb96ad2c1659d2d76f2196912f48c2184385a341e387a1114435a9255dc70",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/296eb96ad2c1659d2d76f2196912f48c2184385a341e387a1114435a9255dc70",
+      "httpRange": {
+        "offset": 165785292,
+        "compressedBytes": 550581,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-008-native-trust.jpg",
+      "bytes": 558358,
+      "sha256": "0935dfa99657735ad8f81e661d67dbb6dde043a236197d7e24cd84308ad12ee3",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0935dfa99657735ad8f81e661d67dbb6dde043a236197d7e24cd84308ad12ee3",
+      "httpRange": {
+        "offset": 146053362,
+        "compressedBytes": 557267,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-009-native-trust.jpg",
+      "bytes": 543805,
+      "sha256": "d7b0a2c904be761df2bb85207b6bf4c0b5725dee7f735986e1b6da71555bbd1d",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d7b0a2c904be761df2bb85207b6bf4c0b5725dee7f735986e1b6da71555bbd1d",
+      "httpRange": {
+        "offset": 170812208,
+        "compressedBytes": 542587,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-010-native-trust.jpg",
+      "bytes": 544953,
+      "sha256": "c7616e5c916cfd93055b4ae626101c321025a0c71365a92a1168ec0108aee106",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c7616e5c916cfd93055b4ae626101c321025a0c71365a92a1168ec0108aee106",
+      "httpRange": {
+        "offset": 374626531,
+        "compressedBytes": 543755,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-011-native-trust.jpg",
+      "bytes": 554389,
+      "sha256": "1417af861f5cb90aa1e9c881d4615e6a87820ca69d0698b53e7aa27b4e56e67e",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1417af861f5cb90aa1e9c881d4615e6a87820ca69d0698b53e7aa27b4e56e67e",
+      "httpRange": {
+        "offset": 265453235,
+        "compressedBytes": 553332,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-012-native-trust.jpg",
+      "bytes": 551574,
+      "sha256": "424a3c5c6e1bf1989bc929793f1dc05a408a1743ec502ee5aef43eaf2d7a8fa3",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/424a3c5c6e1bf1989bc929793f1dc05a408a1743ec502ee5aef43eaf2d7a8fa3",
+      "httpRange": {
+        "offset": 151954569,
+        "compressedBytes": 550501,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-013-native-trust.jpg",
+      "bytes": 554300,
+      "sha256": "a4b11b1e362f680c43e5c4911d238b1a1e0d908f1669e6a0e2296585a4c3de12",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a4b11b1e362f680c43e5c4911d238b1a1e0d908f1669e6a0e2296585a4c3de12",
+      "httpRange": {
+        "offset": 215762282,
+        "compressedBytes": 553128,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-014-native-trust.jpg",
+      "bytes": 553339,
+      "sha256": "a1d4f517541a4bf923ead4a21e64d41c8811a478761d376deb71f504469ca566",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a1d4f517541a4bf923ead4a21e64d41c8811a478761d376deb71f504469ca566",
+      "httpRange": {
+        "offset": 163954810,
+        "compressedBytes": 552209,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-015-native-trust.jpg",
+      "bytes": 542504,
+      "sha256": "ad05e4811a4061ff19a8c913e64fdee887db36e2547946307dfd4b4f620b99dd",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/ad05e4811a4061ff19a8c913e64fdee887db36e2547946307dfd4b4f620b99dd",
+      "httpRange": {
+        "offset": 291669257,
+        "compressedBytes": 541409,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-016-native-trust.jpg",
+      "bytes": 540808,
+      "sha256": "57b5dee776e0df8873bc0a097d2264534cfbdfa2354ba059795d1808f5297975",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/57b5dee776e0df8873bc0a097d2264534cfbdfa2354ba059795d1808f5297975",
+      "httpRange": {
+        "offset": 220980806,
+        "compressedBytes": 539621,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-017-native-trust.jpg",
+      "bytes": 554548,
+      "sha256": "34a9c0a1312e778f9926af8adaea6e046f7bf7b06021f00c5399cbea9d2da263",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/34a9c0a1312e778f9926af8adaea6e046f7bf7b06021f00c5399cbea9d2da263",
+      "httpRange": {
+        "offset": 312583299,
+        "compressedBytes": 553374,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-018-native-trust.jpg",
+      "bytes": 542113,
+      "sha256": "1b6cccf19f9f26bc68fcdc6d7206bf0b00e4caa0f7b924cd4a3de0f7cf997816",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1b6cccf19f9f26bc68fcdc6d7206bf0b00e4caa0f7b924cd4a3de0f7cf997816",
+      "httpRange": {
+        "offset": 351630778,
+        "compressedBytes": 540940,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-019-native-trust.jpg",
+      "bytes": 559023,
+      "sha256": "46e4b2db2b1c7cc3e55753f945d6f0b42113bd746ffd237cb28e318ac5e97066",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/46e4b2db2b1c7cc3e55753f945d6f0b42113bd746ffd237cb28e318ac5e97066",
+      "httpRange": {
+        "offset": 202427326,
+        "compressedBytes": 557991,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-020-native-trust.jpg",
+      "bytes": 561588,
+      "sha256": "ffca74576f1da90f5956f1e0b3aef95ac89bb4e9516493ba6c34e070966e7ef9",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ffca74576f1da90f5956f1e0b3aef95ac89bb4e9516493ba6c34e070966e7ef9",
+      "httpRange": {
+        "offset": 312765977,
+        "compressedBytes": 560648,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-021-native-trust.jpg",
+      "bytes": 562962,
+      "sha256": "63961e69528cc5d9f17e62c507c54e3ffc01f2afcff0d374370154e5b9706e21",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/63961e69528cc5d9f17e62c507c54e3ffc01f2afcff0d374370154e5b9706e21",
+      "httpRange": {
+        "offset": 90647055,
+        "compressedBytes": 561960,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-022-native-trust.jpg",
+      "bytes": 574465,
+      "sha256": "6f589ac9fb2848a9734bad27f7ca3e012f02d292fe02a9818fde201d915b7099",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6f589ac9fb2848a9734bad27f7ca3e012f02d292fe02a9818fde201d915b7099",
+      "httpRange": {
+        "offset": 285759537,
+        "compressedBytes": 573428,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-023-native-trust.jpg",
+      "bytes": 565592,
+      "sha256": "fefeac52208a695309821ef27ebd87eabbf39c5b8f69174614b3ffa342a7f182",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/fefeac52208a695309821ef27ebd87eabbf39c5b8f69174614b3ffa342a7f182",
+      "httpRange": {
+        "offset": 308863401,
+        "compressedBytes": 564533,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-024-native-trust.jpg",
+      "bytes": 550941,
+      "sha256": "693733a44c0abf778fa0a1d9976f751bae00d74b2e75ebc3129d8ef1ff51806f",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/693733a44c0abf778fa0a1d9976f751bae00d74b2e75ebc3129d8ef1ff51806f",
+      "httpRange": {
+        "offset": 236148805,
+        "compressedBytes": 549853,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-025-native-trust.jpg",
+      "bytes": 549732,
+      "sha256": "842e49ad919d0abe488553dd73865ddf910e364d5c12cb4448b99dcc933fd8ad",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/842e49ad919d0abe488553dd73865ddf910e364d5c12cb4448b99dcc933fd8ad",
+      "httpRange": {
+        "offset": 196048369,
+        "compressedBytes": 548582,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-026-native-trust.jpg",
+      "bytes": 548851,
+      "sha256": "1154ac29901ef0f68f65a22302a581b2b3cc3bdff26ddcfeb149890e5475eb08",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1154ac29901ef0f68f65a22302a581b2b3cc3bdff26ddcfeb149890e5475eb08",
+      "httpRange": {
+        "offset": 234313322,
+        "compressedBytes": 547677,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-027-native-trust.jpg",
+      "bytes": 548964,
+      "sha256": "dcd92c8adf9bbd24b9d12947e3170f06f9174041867d47001351ca1eed439e93",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/dcd92c8adf9bbd24b9d12947e3170f06f9174041867d47001351ca1eed439e93",
+      "httpRange": {
+        "offset": 235006314,
+        "compressedBytes": 547784,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-028-native-trust.jpg",
+      "bytes": 565186,
+      "sha256": "ed9c0320f81423091bcd23808a6f68d734fbc2de0436c1e0e3c3c10f3ac33416",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ed9c0320f81423091bcd23808a6f68d734fbc2de0436c1e0e3c3c10f3ac33416",
+      "httpRange": {
+        "offset": 101792439,
+        "compressedBytes": 564072,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-029-native-trust.jpg",
+      "bytes": 549008,
+      "sha256": "c934639a8659423c89b9427473b9b41d6422e02a042b04d833a88fd62a4a9c59",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c934639a8659423c89b9427473b9b41d6422e02a042b04d833a88fd62a4a9c59",
+      "httpRange": {
+        "offset": 392262797,
+        "compressedBytes": 547911,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/canvas-030-native-trust.jpg",
+      "bytes": 531100,
+      "sha256": "c161f5e1ce6ef686a8ef6b54ef74d80e6c2fdfab71c3e9c1417bb855a21e8ea9",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c161f5e1ce6ef686a8ef6b54ef74d80e6c2fdfab71c3e9c1417bb855a21e8ea9",
+      "httpRange": {
+        "offset": 259938633,
+        "compressedBytes": 529833,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/fetch-closing.ps1",
+      "bytes": 1865,
+      "sha256": "69b30d46318a360ad56e410464f9ae108700936fbf0c0f62c5d856f5c33ea48a",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/69b30d46318a360ad56e410464f9ae108700936fbf0c0f62c5d856f5c33ea48a",
+      "httpRange": {
+        "offset": 238263540,
+        "compressedBytes": 993,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/fetch-next.ps1",
+      "bytes": 1865,
+      "sha256": "44a2db501cbf87f5fa579abfbed0064e873d40209b96df7aea8a3c491daa23dd",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/44a2db501cbf87f5fa579abfbed0064e873d40209b96df7aea8a3c491daa23dd",
+      "httpRange": {
+        "offset": 176945476,
+        "compressedBytes": 993,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/fetch-windows-trust.ps1",
+      "bytes": 2386,
+      "sha256": "e65a2b30c73f22baef7ccfb9d1838b348f19ffd482394cd05777980618aef65e",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e65a2b30c73f22baef7ccfb9d1838b348f19ffd482394cd05777980618aef65e",
+      "httpRange": {
+        "offset": 372784540,
+        "compressedBytes": 1075,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-star-offices/star-office-reference.mjs",
+      "bytes": 1603,
+      "sha256": "213eda5bd379d19ea3ed7b735fa013126981ab8dd4fc1f0decf1ee15aa84bc63",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/213eda5bd379d19ea3ed7b735fa013126981ab8dd4fc1f0decf1ee15aa84bc63",
+      "httpRange": {
+        "offset": 86314428,
+        "compressedBytes": 850,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

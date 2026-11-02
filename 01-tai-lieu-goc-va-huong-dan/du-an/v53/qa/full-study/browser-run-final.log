@@ -1,0 +1,35 @@
+PASS Tử vi shows four real related palaces and their star statuses
+PASS Changing palace updates related reading rather than leaving stale context
+PASS Related-palace labels and statuses survive TXT export
+PASS Bát tự provides month command and ten dated cycles
+PASS Cycle dates and rules survive TXT without private citations
+PASS Saved Bát tự recomputes cycle dates from the restored birth input
+PASS Unknown hour suppresses invented cycle date while retaining a known sequence
+PASS Exact 7.5° boundary selects Quý without changing the eight-direction result
+PASS Editing uncertainty clears the previous mountain output
+PASS Uncertain measurement preserves Tý and Quý candidates
+PASS Measured 24-mountain output survives TXT
+PASS Saved bearing restores measurement, uncertainty and recalculated mountains
+PASS Full-six-line reader marks only the actually moving line
+PASS Six-line context starts collapsed to keep the result approachable
+PASS Closed six-line context is complete in TXT and returns to its collapsed state
+PASS Print opens the complete context temporarily
+PASS After printing restores the previous detail state
+PASS tuvi at 320px fits the viewport
+PASS bazi at 320px fits the viewport
+PASS directions at 320px fits the viewport
+PASS yi at 320px fits the viewport
+PASS tuvi at 390px fits the viewport
+PASS bazi at 390px fits the viewport
+PASS directions at 390px fits the viewport
+PASS yi at 390px fits the viewport
+PASS tuvi at 768px fits the viewport
+PASS bazi at 768px fits the viewport
+PASS directions at 768px fits the viewport
+PASS yi at 768px fits the viewport
+PASS tuvi at 1440px fits the viewport
+PASS bazi at 1440px fits the viewport
+PASS directions at 1440px fits the viewport
+PASS yi at 1440px fits the viewport
+PASS All four tools run offline without JavaScript errors or research panels
+34/34 passed

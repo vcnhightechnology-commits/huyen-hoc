@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-29",
+  "status": "two-chapters-first-pass-and-selected-coordinate-reference-verified;pending-next-meaningful-research-batch",
+  "catalogueID": "M01",
+  "chapters": [
+    "論將星華葢",
+    "論咸池"
+  ],
+  "sourceContainer": "v53/research/bazi-season-strength/CADAL06066038.djvu",
+  "priorReviewedPositions": [
+    204,
+    205
+  ],
+  "newCandidatePositions": [
+    206,
+    207,
+    208
+  ],
+  "newPositionsActuallyViewed": [
+    206,
+    207,
+    208,
+    209
+  ],
+  "newHTTPBodies": 0,
+  "newEngineCalls": 0,
+  "wholeChaptersRead": true,
+  "wholeChaptersApplied": false,
+  "publicProductChanged": false,
+  "priority": [
+    "Preserve source preface 按: 咸池 needs 天干納音於地同類; determine which source coordinate the qualification refers to before a calendar adapter.",
+    "Read 重金重葢 examples 庚辰/辛丑 without silently equating stem metal and NaYin metal.",
+    "Distinguish source 三合中位/底庫 role derivation from formed full group; do not auto choose birth year/day anchor.",
+    "Keep historical appearance/moral/sex/infertility/mortality claims outside consumer inference."
+  ],
+  "positionsActuallyViewed": [
+    204,
+    205,
+    206,
+    207,
+    208,
+    209
+  ],
+  "chapterPages": {
+    "general-canopy": [
+      204,
+      205,
+      206,
+      207
+    ],
+    "xianchi": [
+      207,
+      208,
+      209
+    ]
+  },
+  "editorialUnits": 38,
+  "cleanDigitalCodepoints": 899,
+  "freezePending": false,
+  "sourceLimits": [
+    "NaYin qualification source role/anchor, exact year-day-time/fetal basis and calendar adapter.",
+    "Complete condition branches in38 editor units: benefics, noble markers, 正印/庫墓/驛馬, year-stem store, void/break/clash/strength and nested attributions.",
+    "Meaning/precedence of reported gold-wood taboo vs repeated-gold examples; no silent harmonization.",
+    "All historical health, death, spouse, fertility, gender, moral and socioeconomic outcomes remain unvalidated and outside consumer inference."
+  ],
+  "preimplementationFreeze": "PREIMPLEMENTATION_FREEZE.json",
+  "readingAmendment": "READING_AMENDMENT.json",
+  "reference": "star-reference.mjs",
+  "sourceChecks": "SOURCE_RESULTS.json",
+  "referenceTests": "REFERENCE_RESULTS.json",
+  "actualNaYinTableQueries": 2,
+  "actualStemElementTableQueries": 2,
+  "newEngineCallsDuringTests": 0,
+  "actualCalendarObjects": 0,
+  "actualNatalCharts": 0,
+  "integratedIntoRelease": true,
+  "next": [
+    "Continue論三刑 at214 already viewed as boundary; inspect215 onward.",
+    "Resolve true-five-element/true-ghost source roles with native context before a calendar adapter.",
+    "Keep one latest comprehensive package; do not create archives/v53-before-* or repeat retained engine queries."
+  ],
+  "integrationKind": "research-only;consumer-unchanged",
+  "packageVerificationPointer": "recovery/research-release/FINAL_VERIFICATION.json"
+}

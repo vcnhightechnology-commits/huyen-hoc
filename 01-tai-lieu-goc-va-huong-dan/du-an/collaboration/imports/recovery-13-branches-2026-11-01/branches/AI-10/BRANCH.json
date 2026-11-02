@@ -1,0 +1,16 @@
+{
+  "id": "AI-10",
+  "name": "Tam Thức — Kỳ Môn Độn Giáp, Lục Nhâm, Thái Ất",
+  "researchTrackDirectory": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10",
+  "historicalGitBranchRef": "codex/ai-10-tam-thuc",
+  "historicalPR": "11",
+  "historicalCommitSHA": "3fba778df2db68cd0fdbb472a271b1322dcc66ae (mốc cuối ghi nhận trước lỗi 403)",
+  "historicalGitMetadataVerifiedAgainstCurrentRemote": false,
+  "reportedTestsHistoricalUnverified": "118/118 ca cục bộ trong 13 tệp hiện có; manifest bắt buộc 24 tệp, thiếu 11; full suite CHƯA đạt",
+  "reportedNextSteps": "Cần khôi phục đủ 24 test, chạy GitHub Actions và V53, đối nguồn S01/S02/S03 và rà người duyệt. PR #11 tiếp tục Draft.",
+  "currentProjectPointers": [
+    "v53/research/library-current/COVERAGE.json (chưa xác định thư mục triển khai tương đương)"
+  ],
+  "evidenceMembers": 10,
+  "applicationPatchApplied": false
+}

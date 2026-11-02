@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-26",
+  "newResponses": [
+    {
+      "file": "official-90.jpg",
+      "bytes": 530139,
+      "sha256": "da4b94d3d5aeb8e377f948ac5bb1d428f9aa36159197f90035e5a1d2041472c5",
+      "actualImageSize": [
+        2200,
+        1659
+      ],
+      "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102812187300/iiif/M2019050811103249305_0090.jp2/full/2200,/0/native.jpg"
+    },
+    {
+      "file": "official-91.jpg",
+      "bytes": 545984,
+      "sha256": "6a34b069fe54c3a520af9e34dc76dd90600c55a6c4c619f715642a8a9e7e2583",
+      "actualImageSize": [
+        2200,
+        1659
+      ],
+      "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102812187400/iiif/M2019050811103249305_0091.jp2/full/2200,/0/native.jpg"
+    },
+    {
+      "file": "official-92.jpg",
+      "bytes": 541190,
+      "sha256": "d33c8c7dc5cef157142127b266ce83e6770243bb8148fe184aefb16311bee7d6",
+      "actualImageSize": [
+        2200,
+        1659
+      ],
+      "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102812187500/iiif/M2019050811103249305_0092.jp2/full/2200,/0/native.jpg"
+    }
+  ],
+  "reusedFiles": [
+    {
+      "file": "content.js",
+      "bytes": 15723,
+      "sha256": "c4f9c12dd2fdc703909dc9ab98e26c718f11af18f5fbba3e5c4dce88f58911a1"
+    },
+    {
+      "file": "tuvi-context.js",
+      "bytes": 8603,
+      "sha256": "e0adac9e8788fde7e5382d131ac88534ab6aa541477037c44a09d21c672e3c89"
+    },
+    {
+      "file": "fortune-context.js",
+      "bytes": 2300,
+      "sha256": "29a50aa1db8fcd15b09401d3ed9e5b78875314ee13042593c12a3c44b59920d5"
+    },
+    {
+      "file": "fortune.js",
+      "bytes": 8094,
+      "sha256": "7d1057005a69d9281fe15880c32140977aa56270d063e6018497d9ccf9c70625"
+    },
+    {
+      "file": "research/fortune-followup/official-manifest.json",
+      "bytes": 117876,
+      "sha256": "732991ca47aefc323ea2095a93202fd301421ad8b92994c63caae2a94acf75af"
+    },
+    {
+      "file": "research/fortune-followup/official-catalog.html",
+      "bytes": 99153,
+      "sha256": "4074095900b967e53edf35995558a04f41eb480b4f57df7f53387cc28792f2ec"
+    },
+    {
+      "file": "../v46/evidence/npm/iztro-2.6.2.tgz",
+      "bytes": 1425345,
+      "sha256": "d44e96631c0506424c3aef25a7bba8e43e01729102d6a703720cbe224aec5403"
+    }
+  ],
+  "manualTargetPassages": 4,
+  "sameEditionAsPriorImages": true,
+  "independentNewHistoricalWitnesses": 0,
+  "fortuneCalculationBodySHA256": "1b492d9c2e3aadd65d995df73daeb89c0e10a63c27239e32c302f00e9f64ae5d",
+  "fortuneCalculationUnchangedFromSnapshot": true,
+  "epistemicBoundary": "Co-location geometry and software runtime are checked separately from editorial reflective prompts and unvalidated classical predictions."
+}

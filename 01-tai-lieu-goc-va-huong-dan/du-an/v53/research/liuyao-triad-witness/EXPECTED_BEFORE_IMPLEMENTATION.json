@@ -1,0 +1,228 @@
+{
+  "date": "2026-10-29",
+  "writtenBeforeImplementation": true,
+  "manualCases": [
+    {
+      "id": "Japan-three-actual-with-known-rest",
+      "sourceID": "B02-Japan-4756814-volume2",
+      "values": [
+        6,
+        8,
+        6,
+        8,
+        6,
+        8
+      ],
+      "darkMovementByLine": {
+        "1": false,
+        "2": false,
+        "3": false,
+        "4": false,
+        "5": false,
+        "6": false
+      },
+      "expectedWoodFirstModeCandidate": true
+    },
+    {
+      "id": "Japan-three-actual-rest-dark-unknown",
+      "sourceID": "B02-Japan-4756814-volume2",
+      "values": [
+        6,
+        8,
+        6,
+        8,
+        6,
+        8
+      ],
+      "darkMovementByLine": {},
+      "expectedWoodFirstModeCandidate": null
+    },
+    {
+      "id": "Japan-extra-actual-moving",
+      "sourceID": "B02-Japan-4756814-volume2",
+      "values": [
+        6,
+        6,
+        6,
+        8,
+        6,
+        8
+      ],
+      "darkMovementByLine": {
+        "1": false,
+        "2": false,
+        "3": false,
+        "4": false,
+        "5": false,
+        "6": false
+      },
+      "expectedWoodFirstModeCandidate": null
+    },
+    {
+      "id": "Japan-extra-dark-moving",
+      "sourceID": "B02-Japan-4756814-volume2",
+      "values": [
+        6,
+        8,
+        6,
+        8,
+        6,
+        8
+      ],
+      "darkMovementByLine": {
+        "1": false,
+        "2": true,
+        "3": false,
+        "4": false,
+        "5": false,
+        "6": false
+      },
+      "expectedWoodFirstModeCandidate": null
+    },
+    {
+      "id": "Japan-two-actual-plus-known-static",
+      "sourceID": "B02-Japan-4756814-volume2",
+      "values": [
+        6,
+        8,
+        8,
+        8,
+        6,
+        8
+      ],
+      "darkMovementByLine": {
+        "1": false,
+        "2": false,
+        "3": false,
+        "4": false,
+        "5": false,
+        "6": false
+      },
+      "expectedWoodFirstModeCandidate": false,
+      "expectedLegacyMode2": true
+    },
+    {
+      "id": "Japan-two-actual-third-dark",
+      "sourceID": "B02-Japan-4756814-volume2",
+      "values": [
+        6,
+        8,
+        8,
+        8,
+        6,
+        8
+      ],
+      "darkMovementByLine": {
+        "1": false,
+        "2": false,
+        "3": true,
+        "4": false,
+        "5": false,
+        "6": false
+      },
+      "expectedWoodFirstModeCandidate": null,
+      "expectedLegacyMode2": false
+    },
+    {
+      "id": "Japan-all-static",
+      "sourceID": "B02-Japan-4756814-volume2",
+      "values": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "darkMovementByLine": {
+        "1": false,
+        "2": false,
+        "3": false,
+        "4": false,
+        "5": false,
+        "6": false
+      },
+      "expectedWoodFirstModeCandidate": false
+    },
+    {
+      "id": "NLC-retains-one-literal-unadjudicated",
+      "sourceID": "B02-NLC416-12jh005345-45344",
+      "values": [
+        6,
+        8,
+        6,
+        8,
+        6,
+        8
+      ],
+      "darkMovementByLine": {
+        "1": false,
+        "2": false,
+        "3": false,
+        "4": false,
+        "5": false,
+        "6": false
+      },
+      "expectedWoodFirstModeCandidate": null
+    },
+    {
+      "id": "NLC-one-moving-not-silently-accepted",
+      "sourceID": "B02-NLC416-12jh005345-45344",
+      "values": [
+        6,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "darkMovementByLine": {
+        "1": false,
+        "2": false,
+        "3": false,
+        "4": false,
+        "5": false,
+        "6": false
+      },
+      "expectedWoodFirstModeCandidate": null
+    }
+  ],
+  "syntheticEngineFixture": {
+    "values": [
+      6,
+      8,
+      6,
+      8,
+      6,
+      8
+    ],
+    "primaryNumber": 2,
+    "changedValues": [
+      7,
+      8,
+      7,
+      8,
+      7,
+      8
+    ],
+    "changedNumber": 63,
+    "primaryBranchesBottomToTop": [
+      "未",
+      "巳",
+      "卯",
+      "丑",
+      "亥",
+      "酉"
+    ],
+    "movingLines": [
+      1,
+      3,
+      5
+    ],
+    "sourcePrintedCast": false,
+    "newIndependentSourceExample": false
+  },
+  "sourceModeCountNLCStillNull": true,
+  "wholeFormationAlwaysNull": true,
+  "epochOrForecastAlwaysNull": true
+}

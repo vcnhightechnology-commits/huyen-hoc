@@ -1,0 +1,280 @@
+[
+  {
+    "downloadedAt": "2026-10-29T05:14:11.0108877Z",
+    "bytes": 104463,
+    "sha256": "df53801cdc445492b065631aa1446abbeb7d6f0e11f1b1aa3ff89d4fd01dc753",
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 05:14:08 GMT"
+      ],
+      "Server": [
+        "mw-web.codfw.main-7db4fb585c-q6bbf"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "accept-ch": [
+        ""
+      ],
+      "reporting-endpoints": [
+        "csp-report-to-endpoint='/w/api.php?action=cspreport&format=json';"
+      ],
+      "Content-Security-Policy": [
+        "script-src 'unsafe-eval' blob: 'self' meta.wikimedia.org *.wikimedia.org *.wikipedia.org *.wikinews.org *.wiktionary.org *.wikibooks.org *.wikiversity.org *.wikisource.org wikisource.org *.wikiquote.org *.wikidata.org *.wikifunctions.org *.wikivoyage.org *.mediawiki.org mediawiki.org wikimedia.org *.wmflabs.org *.wmcloud.org *.toolforge.org wss://*.toolforge.org *.jsdelivr.net unpkg.com cdnjs.cloudflare.com raw.githubusercontent.com *.github.com code.jquery.com cdn.mathjax.org use.typekit.net fonts.cdnfonts.com use.fontawesome.com i.ytimg.com rsms.me doi.org localhost https://localhost:* http://localhost:* wss://localhost:* ws://localhost:* *.google.com *.gstatic.com *.googleapis.com *.translate.yandex.net yastatic.net ya.ru radically.github.io cdn.sammdot.ca cdn.fontshare.com viaf.org publicai-proxy.alaexis.workers.dev iiif.archive.org api.flickr.com live.staticflickr.com api.anthropic.com api.openai.com api.publicai.co catalogo.pusc.it parsifal.urbe.it opac.sbn.it overpass-api.de api.openrouteservice.org archive.org *.openstreetmap.org *.waymarkedtrails.org *.thunderforest.com registry.ipe.wiki analytics.ipe.wiki qlever.dev app.goacoustic.com wikipedia-archive.ourworldindata.org api.inaturalist.org inaturalist-open-data.s3.amazonaws.com validator.w3.org db.onlinewebfonts.com fontlibrary.org 'unsafe-inline' auth.wikimedia.org; default-src 'self' data: blob: https://upload.wikimedia.org https://thumb.wikimedia.org meta.wikimedia.org *.wikimedia.org *.wikipedia.org *.wikinews.org *.wiktionary.org *.wikibooks.org *.wikiversity.org *.wikisource.org wikisource.org *.wikiquote.org *.wikidata.org *.wikifunctions.org *.wikivoyage.org *.mediawiki.org mediawiki.org wikimedia.org *.wmflabs.org *.wmcloud.org *.toolforge.org wss://*.toolforge.org *.jsdelivr.net unpkg.com cdnjs.cloudflare.com raw.githubusercontent.com *.github.com code.jquery.com cdn.mathjax.org use.typekit.net fonts.cdnfonts.com use.fontawesome.com i.ytimg.com rsms.me doi.org localhost https://localhost:* http://localhost:* wss://localhost:* ws://localhost:* *.google.com *.gstatic.com *.googleapis.com *.translate.yandex.net yastatic.net ya.ru radically.github.io cdn.sammdot.ca cdn.fontshare.com viaf.org publicai-proxy.alaexis.workers.dev iiif.archive.org api.flickr.com live.staticflickr.com api.anthropic.com api.openai.com api.publicai.co catalogo.pusc.it parsifal.urbe.it opac.sbn.it overpass-api.de api.openrouteservice.org archive.org *.openstreetmap.org *.waymarkedtrails.org *.thunderforest.com registry.ipe.wiki analytics.ipe.wiki qlever.dev app.goacoustic.com wikipedia-archive.ourworldindata.org api.inaturalist.org inaturalist-open-data.s3.amazonaws.com validator.w3.org db.onlinewebfonts.com fontlibrary.org en.wikipedia.org en.wikibooks.org en.wikinews.org en.wikiquote.org en.wikisource.org en.wikiversity.org en.wikivoyage.org en.wiktionary.org www.mediawiki.org foundation.wikimedia.org incubator.wikimedia.org species.wikimedia.org wikimania.wikimedia.org www.wikidata.org www.wikifunctions.org auth.wikimedia.org; style-src 'self' data: blob: https://upload.wikimedia.org https://thumb.wikimedia.org meta.wikimedia.org *.wikimedia.org *.wikipedia.org *.wikinews.org *.wiktionary.org *.wikibooks.org *.wikiversity.org *.wikisource.org wikisource.org *.wikiquote.org *.wikidata.org *.wikifunctions.org *.wikivoyage.org *.mediawiki.org mediawiki.org wikimedia.org *.wmflabs.org *.wmcloud.org *.toolforge.org wss://*.toolforge.org *.jsdelivr.net unpkg.com cdnjs.cloudflare.com raw.githubusercontent.com *.github.com code.jquery.com cdn.mathjax.org use.typekit.net fonts.cdnfonts.com use.fontawesome.com i.ytimg.com rsms.me doi.org localhost https://localhost:* http://localhost:* wss://localhost:* ws://localhost:* *.google.com *.gstatic.com *.googleapis.com *.translate.yandex.net yastatic.net ya.ru radically.github.io cdn.sammdot.ca cdn.fontshare.com viaf.org publicai-proxy.alaexis.workers.dev iiif.archive.org api.flickr.com live.staticflickr.com api.anthropic.com api.openai.com api.publicai.co catalogo.pusc.it parsifal.urbe.it opac.sbn.it overpass-api.de api.openrouteservice.org archive.org *.openstreetmap.org *.waymarkedtrails.org *.thunderforest.com registry.ipe.wiki analytics.ipe.wiki qlever.dev app.goacoustic.com wikipedia-archive.ourworldindata.org api.inaturalist.org inaturalist-open-data.s3.amazonaws.com validator.w3.org db.onlinewebfonts.com fontlibrary.org 'unsafe-inline'; object-src 'none'; report-uri /w/api.php?action=cspreport&format=json; report-to csp-report-to-endpoint"
+      ],
+      "Age": [
+        "0"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "X-Cache": [
+        "cp2059 miss, cp2059 miss"
+      ],
+      "x-cache-status": [
+        "miss"
+      ],
+      "Strict-Transport-Security": [
+        "max-age=106384710; includeSubDomains; preload"
+      ],
+      "report-to": [
+        "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }"
+      ],
+      "nel": [
+        "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}"
+      ],
+      "Set-Cookie": [
+        "WMF-Last-Access=29-Oct-2026;Path=/;HttpOnly;secure;Expires=Mon, 30 Nov 2026 00:00:00 GMT",
+        "GeoIP=US:::37.75:-97.82:v4; Path=/; secure; Domain=.wikimedia.org",
+        "NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600",
+        "WMF-Uniq=7KfC8vTEXFeOkdFLGmegFQQIAAAAAFvdS3RCpqxqJ9YHV4N4g_eBQKAUimuvyMVM;Domain=commons.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Fri, 29 Oct 2027 00:00:00 GMT"
+      ],
+      "x-client-ip": [
+        "103.111.32.52"
+      ],
+      "Cache-Control": [
+        "no-transform, must-revalidate, max-age=0, s-maxage=0, private"
+      ],
+      "Vary": [
+        "Accept-Encoding",
+        "X-Subdomain",
+        "Cookie",
+        "Authorization",
+        "User-Agent"
+      ],
+      "Transfer-Encoding": [
+        "chunked"
+      ],
+      "X-Request-ID": [
+        "dd34b512-67b2-4e18-9682-a77d966adbae"
+      ],
+      "x-analytics": [
+        ""
+      ],
+      "Server-Timing": [
+        "cache;desc=\"miss\", host;desc=\"cp2059\",co_id;desc=\"3179400666\""
+      ],
+      "Content-Language": [
+        "en"
+      ],
+      "Last-Modified": [
+        "Thu, 15 Oct 2026 05:14:08 GMT"
+      ],
+      "Content-Type": [
+        "text/html; charset=UTF-8"
+      ]
+    },
+    "url": "https://commons.wikimedia.org/wiki/File:SSID-12152602_%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8_%E5%8D%B733-36.pdf",
+    "standardTLSValidation": true,
+    "file": "commons-file.html",
+    "status": 200
+  },
+  {
+    "sha256": "3f6f81e7332a779dc8c43e8b69808e3f03449b8c595daea649529bea2c8d84ca",
+    "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/SSID-12152602_%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8_%E5%8D%B733-36.pdf",
+    "headers": {
+      "x-object-meta-sha1base36": [
+        "is0tirnwvbefq9hfyp1qwhi3vqf0yae"
+      ],
+      "ETag": [
+        "35957087c40f143a3d6cfb073ce5e1a6"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "Date": [
+        "Thu, 29 Oct 2026 05:14:11 GMT"
+      ],
+      "x-ratelimit-limit": [
+        "600000, 600000;w=60"
+      ],
+      "x-ratelimit-remaining": [
+        "599999"
+      ],
+      "x-ratelimit-reset": [
+        "49"
+      ],
+      "Server": [
+        "envoy"
+      ],
+      "Age": [
+        "0"
+      ],
+      "X-Cache": [
+        "cp2052 miss, cp2052 pass"
+      ],
+      "x-cache-status": [
+        "pass"
+      ],
+      "Server-Timing": [
+        "cache;desc=\"pass\", host;desc=\"cp2052\""
+      ],
+      "Strict-Transport-Security": [
+        "max-age=106384710; includeSubDomains; preload"
+      ],
+      "report-to": [
+        "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }"
+      ],
+      "nel": [
+        "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}"
+      ],
+      "x-client-ip": [
+        "2a02:6ea0:1806:6000:ca6d:524:be31:f00d"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "reporting-endpoints": [
+        "csp_endpoint=\"https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json\""
+      ],
+      "content-security-policy-report-only": [
+        "default-src 'none'; script-src 'none'; style-src 'unsafe-inline' data:; font-src data:; img-src data: https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; connect-src https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; media-src data: 'self'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'self'; report-uri https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json; report-to csp_endpoint"
+      ],
+      "Access-Control-Allow-Origin": [
+        "*"
+      ],
+      "Access-Control-Expose-Headers": [
+        "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache"
+      ],
+      "Timing-Allow-Origin": [
+        "*"
+      ],
+      "Set-Cookie": [
+        "WMF-Uniq=OwShavrpBn9ih9fDIJSZ5gQIAAAAAFvdbNY6UJhvLA6Bhi-PX_c2WiJ9RJmGXtpb;Domain=upload.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Fri, 29 Oct 2027 00:00:00 GMT"
+      ],
+      "X-Request-ID": [
+        "906c302c-d3a6-4595-b356-5b7b42fadfbf"
+      ],
+      "x-analytics": [
+        ""
+      ],
+      "Content-Type": [
+        "application/pdf"
+      ],
+      "Last-Modified": [
+        "Fri, 06 Jan 2023 20:37:24 GMT"
+      ],
+      "Content-Length": [
+        "54208629"
+      ]
+    },
+    "bytes": 54208629,
+    "standardTLSValidation": true,
+    "file": "SSID-12152602-vol33-36.pdf",
+    "status": 200,
+    "downloadedAt": "2026-10-29T05:14:26.0924241Z"
+  },
+  {
+    "status": 200,
+    "downloadedAt": "2026-10-29T05:14:11.5758513Z",
+    "standardTLSValidation": true,
+    "bytes": 103265,
+    "file": "wikisource-vol36.html",
+    "sha256": "0be2c5640c3fb7f50c6076c4bd6d1e9048b05b544f287cb25b1a2e6f0b2bc54b",
+    "headers": {
+      "Date": [
+        "Thu, 29 Oct 2026 05:14:09 GMT"
+      ],
+      "Server": [
+        "mw-web.codfw.main-7db4fb585c-27wsf"
+      ],
+      "X-Content-Type-Options": [
+        "nosniff"
+      ],
+      "accept-ch": [
+        ""
+      ],
+      "reporting-endpoints": [
+        "csp-report-to-endpoint='/w/api.php?action=cspreport&format=json';"
+      ],
+      "Content-Security-Policy": [
+        "script-src 'unsafe-eval' blob: 'self' meta.wikimedia.org *.wikimedia.org *.wikipedia.org *.wikinews.org *.wiktionary.org *.wikibooks.org *.wikiversity.org *.wikisource.org wikisource.org *.wikiquote.org *.wikidata.org *.wikifunctions.org *.wikivoyage.org *.mediawiki.org mediawiki.org wikimedia.org *.wmflabs.org *.wmcloud.org *.toolforge.org wss://*.toolforge.org *.jsdelivr.net unpkg.com cdnjs.cloudflare.com raw.githubusercontent.com *.github.com code.jquery.com cdn.mathjax.org use.typekit.net fonts.cdnfonts.com use.fontawesome.com i.ytimg.com rsms.me doi.org localhost https://localhost:* http://localhost:* wss://localhost:* ws://localhost:* *.google.com *.gstatic.com *.googleapis.com *.translate.yandex.net yastatic.net ya.ru radically.github.io cdn.sammdot.ca cdn.fontshare.com viaf.org publicai-proxy.alaexis.workers.dev iiif.archive.org api.flickr.com live.staticflickr.com api.anthropic.com api.openai.com api.publicai.co catalogo.pusc.it parsifal.urbe.it opac.sbn.it overpass-api.de api.openrouteservice.org archive.org *.openstreetmap.org *.waymarkedtrails.org *.thunderforest.com registry.ipe.wiki analytics.ipe.wiki qlever.dev app.goacoustic.com wikipedia-archive.ourworldindata.org api.inaturalist.org inaturalist-open-data.s3.amazonaws.com validator.w3.org db.onlinewebfonts.com fontlibrary.org 'unsafe-inline' auth.wikimedia.org; default-src 'self' data: blob: upload.wikimedia.org thumb.wikimedia.org https://commons.wikimedia.org meta.wikimedia.org *.wikimedia.org *.wikipedia.org *.wikinews.org *.wiktionary.org *.wikibooks.org *.wikiversity.org *.wikisource.org wikisource.org *.wikiquote.org *.wikidata.org *.wikifunctions.org *.wikivoyage.org *.mediawiki.org mediawiki.org wikimedia.org *.wmflabs.org *.wmcloud.org *.toolforge.org wss://*.toolforge.org *.jsdelivr.net unpkg.com cdnjs.cloudflare.com raw.githubusercontent.com *.github.com code.jquery.com cdn.mathjax.org use.typekit.net fonts.cdnfonts.com use.fontawesome.com i.ytimg.com rsms.me doi.org localhost https://localhost:* http://localhost:* wss://localhost:* ws://localhost:* *.google.com *.gstatic.com *.googleapis.com *.translate.yandex.net yastatic.net ya.ru radically.github.io cdn.sammdot.ca cdn.fontshare.com viaf.org publicai-proxy.alaexis.workers.dev iiif.archive.org api.flickr.com live.staticflickr.com api.anthropic.com api.openai.com api.publicai.co catalogo.pusc.it parsifal.urbe.it opac.sbn.it overpass-api.de api.openrouteservice.org archive.org *.openstreetmap.org *.waymarkedtrails.org *.thunderforest.com registry.ipe.wiki analytics.ipe.wiki qlever.dev app.goacoustic.com wikipedia-archive.ourworldindata.org api.inaturalist.org inaturalist-open-data.s3.amazonaws.com validator.w3.org db.onlinewebfonts.com fontlibrary.org en.wikipedia.org en.wikibooks.org en.wikinews.org en.wikiquote.org en.wikiversity.org en.wikivoyage.org en.wiktionary.org www.mediawiki.org commons.wikimedia.org foundation.wikimedia.org incubator.wikimedia.org species.wikimedia.org wikimania.wikimedia.org www.wikidata.org www.wikifunctions.org auth.wikimedia.org; style-src 'self' data: blob: upload.wikimedia.org thumb.wikimedia.org https://commons.wikimedia.org meta.wikimedia.org *.wikimedia.org *.wikipedia.org *.wikinews.org *.wiktionary.org *.wikibooks.org *.wikiversity.org *.wikisource.org wikisource.org *.wikiquote.org *.wikidata.org *.wikifunctions.org *.wikivoyage.org *.mediawiki.org mediawiki.org wikimedia.org *.wmflabs.org *.wmcloud.org *.toolforge.org wss://*.toolforge.org *.jsdelivr.net unpkg.com cdnjs.cloudflare.com raw.githubusercontent.com *.github.com code.jquery.com cdn.mathjax.org use.typekit.net fonts.cdnfonts.com use.fontawesome.com i.ytimg.com rsms.me doi.org localhost https://localhost:* http://localhost:* wss://localhost:* ws://localhost:* *.google.com *.gstatic.com *.googleapis.com *.translate.yandex.net yastatic.net ya.ru radically.github.io cdn.sammdot.ca cdn.fontshare.com viaf.org publicai-proxy.alaexis.workers.dev iiif.archive.org api.flickr.com live.staticflickr.com api.anthropic.com api.openai.com api.publicai.co catalogo.pusc.it parsifal.urbe.it opac.sbn.it overpass-api.de api.openrouteservice.org archive.org *.openstreetmap.org *.waymarkedtrails.org *.thunderforest.com registry.ipe.wiki analytics.ipe.wiki qlever.dev app.goacoustic.com wikipedia-archive.ourworldindata.org api.inaturalist.org inaturalist-open-data.s3.amazonaws.com validator.w3.org db.onlinewebfonts.com fontlibrary.org 'unsafe-inline'; object-src 'none'; report-uri /w/api.php?action=cspreport&format=json; report-to csp-report-to-endpoint"
+      ],
+      "Age": [
+        "0"
+      ],
+      "Accept-Ranges": [
+        "bytes"
+      ],
+      "X-Cache": [
+        "cp2059 miss, cp2059 miss"
+      ],
+      "x-cache-status": [
+        "miss"
+      ],
+      "Strict-Transport-Security": [
+        "max-age=106384710; includeSubDomains; preload"
+      ],
+      "report-to": [
+        "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }"
+      ],
+      "nel": [
+        "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}"
+      ],
+      "Set-Cookie": [
+        "WMF-Last-Access=29-Oct-2026;Path=/;HttpOnly;secure;Expires=Mon, 30 Nov 2026 00:00:00 GMT",
+        "WMF-Last-Access-Global=29-Oct-2026;Path=/;Domain=.wikisource.org;HttpOnly;secure;Expires=Mon, 30 Nov 2026 00:00:00 GMT",
+        "WMF-DP=e58;Path=/;HttpOnly;secure;Expires=Thu, 29 Oct 2026 00:00:00 GMT",
+        "GeoIP=US:::37.75:-97.82:v4; Path=/; secure; Domain=.wikisource.org",
+        "NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600",
+        "WMF-Uniq=8VmXbtX2Li15-dvHTAP_KgQIAAAAAFvdqiOGztHBcpN9Xc9vV2fMr8VnYID_YSZ7;Domain=.wikisource.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Fri, 29 Oct 2027 00:00:00 GMT"
+      ],
+      "x-client-ip": [
+        "103.111.32.52"
+      ],
+      "Cache-Control": [
+        "no-transform, must-revalidate, max-age=0, s-maxage=0, private"
+      ],
+      "Vary": [
+        "Accept-Encoding",
+        "X-Subdomain",
+        "Cookie",
+        "Accept-Language",
+        "Authorization",
+        "User-Agent"
+      ],
+      "Transfer-Encoding": [
+        "chunked"
+      ],
+      "X-Request-ID": [
+        "fb4f518b-04d9-4b8c-af6c-670a123f8472"
+      ],
+      "x-analytics": [
+        ""
+      ],
+      "Server-Timing": [
+        "cache;desc=\"miss\", host;desc=\"cp2059\",co_id;desc=\"2801152109\""
+      ],
+      "Content-Language": [
+        "zh"
+      ],
+      "Last-Modified": [
+        "Sat, 17 Oct 2026 19:52:49 GMT"
+      ],
+      "Content-Type": [
+        "text/html; charset=UTF-8"
+      ]
+    },
+    "url": "https://zh.wikisource.org/wiki/%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)/%E5%8D%B736"
+  }
+]

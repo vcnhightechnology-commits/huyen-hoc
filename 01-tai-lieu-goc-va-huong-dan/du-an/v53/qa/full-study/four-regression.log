@@ -1,0 +1,48 @@
+PASS Vận hạn is discoverable directly below the natal reading
+PASS A shortcut at the top of the result focuses the period date field
+PASS No reference date or period is fabricated before a user chooses it
+PASS Chosen date produces three period cards with lunar year and nominal age
+PASS Year transformations and all 12 decade ranges are available as readable details
+PASS TXT contains the chosen date, age and actual period reading
+PASS Editing target date clears old period output and saved selection
+PASS Day before lunar New Year uses the preceding year and age
+PASS A target before birth is visibly rejected and leaves no stale result
+PASS Opening a saved natal profile recomputes the saved period from its selected date
+PASS Changing natal birth data invalidates the entire old period output
+PASS Before first decade the period card states it has not started
+PASS Bazi exposes visible stems and full branch hidden stems in four columns
+PASS Relation meanings explain their element/polarity relationship without strength diagnosis
+PASS Bazi TXT includes branch hidden stems and clearly labeled relationships
+PASS Unknown stable birth hour does not create hour hidden stems
+PASS Unknown-hour boundary ambiguity suppresses relationship readings
+PASS Degree-based direction tool is available alongside age-based directions
+PASS A measurement crossing the sector edge keeps both direction candidates
+PASS Magnetic north requires an explicit declination input
+PASS East-positive declination is added to magnetic bearing and wraps to true north
+PASS Restored direction profile retains measurement object, north reference and declination
+PASS Direction TXT records the measured object and interpreted true bearing
+PASS Hexagram 3: its first moving line has distinct source-based reading
+PASS Hexagram 25: its first moving line has distinct source-based reading
+PASS Hexagram 38: its first moving line has distinct source-based reading
+PASS Hexagram 54: its first moving line has distinct source-based reading
+PASS Hexagram 64: its first moving line has distinct source-based reading
+PASS New line readings export their specific motif and practical prompt
+PASS 320px yi: extended reading fits viewport
+PASS 320px bazi: extended reading fits viewport
+PASS 320px directions: extended reading fits viewport
+PASS 320px tuvi: extended reading fits viewport
+PASS 390px yi: extended reading fits viewport
+PASS 390px bazi: extended reading fits viewport
+PASS 390px directions: extended reading fits viewport
+PASS 390px tuvi: extended reading fits viewport
+PASS 768px yi: extended reading fits viewport
+PASS 768px bazi: extended reading fits viewport
+PASS 768px directions: extended reading fits viewport
+PASS 768px tuvi: extended reading fits viewport
+PASS 1440px yi: extended reading fits viewport
+PASS 1440px bazi: extended reading fits viewport
+PASS 1440px directions: extended reading fits viewport
+PASS 1440px tuvi: extended reading fits viewport
+PASS Print includes selected period but hides date input and form
+PASS No JavaScript errors, HTTP requests or private source panels in the standalone product
+47/47 passed

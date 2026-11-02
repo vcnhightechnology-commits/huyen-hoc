@@ -1,0 +1,419 @@
+{
+  "date": "2026-10-29",
+  "byteExactCopies": [
+    {
+      "source": "tmp/bazi-life-stage-staging/ACTUAL_RUNTIME.json",
+      "target": "v53/research/bazi-life-stage/ACTUAL_RUNTIME.json",
+      "bytes": 3478,
+      "sha256": "99dc15e3f43cbc11322dfb3f609be7ab26fe1185a4dc27f4e5d07e17b9a82aa3"
+    },
+    {
+      "source": "tmp/bazi-life-stage-staging/broad-groups-and-qualifier.png",
+      "target": "v53/research/bazi-life-stage/broad-groups-and-qualifier.png",
+      "bytes": 33694,
+      "sha256": "4a416da28e7ab803c1fbfc77aba66ba272787284c49d82ec034ce6b10da09d92"
+    },
+    {
+      "source": "tmp/bazi-life-stage-staging/EXPECTED_BEFORE_IMPLEMENTATION.json",
+      "target": "v53/research/bazi-life-stage/EXPECTED_BEFORE_IMPLEMENTATION.json",
+      "bytes": 1637,
+      "sha256": "3db6229bdf40afe070ce66dc357ceb0bc5b6945606f491a837e4491870d8144c"
+    },
+    {
+      "source": "tmp/bazi-life-stage-staging/life-stage-reference.mjs",
+      "target": "v53/research/bazi-life-stage/life-stage-reference.mjs",
+      "bytes": 2938,
+      "sha256": "6bbb852773e750d413fea70d178243d7563b5cfc2b9ce894588dcbf3d4f502e7"
+    },
+    {
+      "source": "tmp/bazi-life-stage-staging/main-list-start.png",
+      "target": "v53/research/bazi-life-stage/main-list-start.png",
+      "bytes": 31501,
+      "sha256": "9801663356499e267fc7251866e45f0bbe4db13eafc0f162de7b4b7f45069dd9"
+    },
+    {
+      "source": "tmp/bazi-life-stage-staging/main-tail-and-quoted-first-five.png",
+      "target": "v53/research/bazi-life-stage/main-tail-and-quoted-first-five.png",
+      "bytes": 189398,
+      "sha256": "04ead532c46221d40bc844dc1ca6438d2fda006a34b3e11653f2289048d0b870"
+    },
+    {
+      "source": "tmp/bazi-life-stage-staging/MANUAL_TERMS.json",
+      "target": "v53/research/bazi-life-stage/MANUAL_TERMS.json",
+      "bytes": 5534,
+      "sha256": "8e58357bdc12c1878dfbf0e0e0ee59574b7c95f937aaaa861f98347b65c2d42a"
+    },
+    {
+      "source": "tmp/bazi-life-stage-staging/NATIVE_CROPS.json",
+      "target": "v53/research/bazi-life-stage/NATIVE_CROPS.json",
+      "bytes": 2555,
+      "sha256": "58a0461728b49e07905569c70128edaa10eaf5917b85985208e9497cbb838aaf"
+    },
+    {
+      "source": "tmp/bazi-life-stage-staging/PREIMPLEMENTATION_FREEZE.json",
+      "target": "v53/research/bazi-life-stage/PREIMPLEMENTATION_FREEZE.json",
+      "bytes": 643,
+      "sha256": "f3b351e1069baae7b55bff65120a7a48ca330dd74ee3b469fd5ef7fe0f6a66a1"
+    },
+    {
+      "source": "tmp/bazi-life-stage-staging/prepare-source.py",
+      "target": "v53/research/bazi-life-stage/prepare-source.py",
+      "bytes": 7734,
+      "sha256": "c6380d8555ba9f7fda0dcb63deb0b7464206a9d5bc0d557c1f29abaec5825a8f"
+    },
+    {
+      "source": "tmp/bazi-life-stage-staging/quoted-six-to-twelve-and-qualifier.png",
+      "target": "v53/research/bazi-life-stage/quoted-six-to-twelve-and-qualifier.png",
+      "bytes": 201857,
+      "sha256": "135a1bbc50dad48411846ef6dcbcb64c84eaee66d4f29106d5ef8375261fc77e"
+    },
+    {
+      "source": "tmp/bazi-life-stage-staging/RESEARCH_REPORT.md",
+      "target": "v53/research/bazi-life-stage/RESEARCH_REPORT.md",
+      "bytes": 4946,
+      "sha256": "29430cb4ab038aabb852e1d6d99a53e56741366eb1853e80b698574bbc86198f"
+    },
+    {
+      "source": "tmp/bazi-life-stage-staging/run-actual-once.mjs",
+      "target": "v53/research/bazi-life-stage/run-actual-once.mjs",
+      "bytes": 2487,
+      "sha256": "42c8fce3e1ab2285cf0554bace6d247c921b8c8a8d9e4fae970f0c3d475f4614"
+    },
+    {
+      "source": "tmp/bazi-life-stage-staging/SOURCE_IDENTITIES.json",
+      "target": "v53/research/bazi-life-stage/SOURCE_IDENTITIES.json",
+      "bytes": 1600,
+      "sha256": "0afe44209af0146f0663db43fb0c686a55155eab6ea217b75679dd3fbb3b5823"
+    },
+    {
+      "source": "tmp/bazi-life-stage-staging/SOURCE_RESULTS.json",
+      "target": "v53/research/bazi-life-stage/SOURCE_RESULTS.json",
+      "bytes": 1595,
+      "sha256": "0b2a6e215721187f4574cf3def9f5b868dfe0e832c0d28f695cb6b6584abbe2c"
+    },
+    {
+      "source": "tmp/bazi-life-stage-staging/test-life-stage.mjs",
+      "target": "v53/research/bazi-life-stage/test-life-stage.mjs",
+      "bytes": 4884,
+      "sha256": "8acfed645e90c7c0a55d9759019e69d1a628dac587b0411489856860354e4638"
+    },
+    {
+      "source": "tmp/bazi-life-stage-staging/TEST_RESULTS.json",
+      "target": "v53/research/bazi-life-stage/TEST_RESULTS.json",
+      "bytes": 559,
+      "sha256": "9dea7c1a89885af87dbc32546998324fcfe17e7e9a12efb0a7bb625cd1361b3f"
+    },
+    {
+      "source": "tmp/bazi-life-stage-staging/TRANSCRIPTION_COMPARISON.json",
+      "target": "v53/research/bazi-life-stage/TRANSCRIPTION_COMPARISON.json",
+      "bytes": 683,
+      "sha256": "53c8539896e4e0cd7f51e8119585e0795cde52dd3f7d50cf1f801673c3810694"
+    },
+    {
+      "source": "tmp/bazi-life-stage-staging/verify-source.py",
+      "target": "v53/research/bazi-life-stage/verify-source.py",
+      "bytes": 3653,
+      "sha256": "39e74c236743d3f9fbc459dc6b1f81ae2a3901f032a3f52820b78a0e91f3509a"
+    },
+    {
+      "source": "tmp/bazi-life-stage-staging/WORK_STATE.json",
+      "target": "v53/research/bazi-life-stage/WORK_STATE.json",
+      "bytes": 2913,
+      "sha256": "904e2bc7a0bcf0259c236034fa17744e7eb07507cdad3eed06f6c52a134ba1ea"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/ACTUAL_RUNTIME.json",
+      "target": "v53/research/bazi-ten-stem-life/ACTUAL_RUNTIME.json",
+      "bytes": 4473,
+      "sha256": "e9c7d9ea0611e762a732d62393bfc95a849b39324ed02deb527f0fcfac617fe4"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/CHAPTER_DISPOSITIONS.json",
+      "target": "v53/research/bazi-ten-stem-life/CHAPTER_DISPOSITIONS.json",
+      "bytes": 10384,
+      "sha256": "c56c7c1de381cc3f8bdc274b1f95d32d232b882d5b24a332d0129940f433bb3b"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/CLAUSE_RENDERS.json",
+      "target": "v53/research/bazi-ten-stem-life/CLAUSE_RENDERS.json",
+      "bytes": 7026,
+      "sha256": "48b5c3e449732cdc9e68e0439fb57b35d6a2f88e13b392d92036c3d87a418e34"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/coordinate-reference.mjs",
+      "target": "v53/research/bazi-ten-stem-life/coordinate-reference.mjs",
+      "bytes": 1243,
+      "sha256": "f220633e213cc5314319ba321b66caa7bc496563e46c311fbb31068148e29cb4"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/decode-boundaries.mjs",
+      "target": "v53/research/bazi-ten-stem-life/decode-boundaries.mjs",
+      "bytes": 2890,
+      "sha256": "1d20d5e57f3360b03c6428fceda9c1f960e4da14d049d3e7acfc032d75b32b7a"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/decode-clauses.mjs",
+      "target": "v53/research/bazi-ten-stem-life/decode-clauses.mjs",
+      "bytes": 2926,
+      "sha256": "f647c11807d559d0758be25ba8a1144d91fce89463232981608ef8357f648909"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/decode-remaining.mjs",
+      "target": "v53/research/bazi-ten-stem-life/decode-remaining.mjs",
+      "bytes": 2909,
+      "sha256": "b57c5acaa8e3169925a2f27e7708c3de309f2d04df5378bf108d1160ecc8f9bf"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/decode-supplement.mjs",
+      "target": "v53/research/bazi-ten-stem-life/decode-supplement.mjs",
+      "bytes": 2892,
+      "sha256": "987de8c5e176749e5258c3fb542a587c6a5fc3f6986cd93642b42b0c120fb8f0"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/DIGITAL_CHAPTER_LOCATOR.txt",
+      "target": "v53/research/bazi-ten-stem-life/DIGITAL_CHAPTER_LOCATOR.txt",
+      "bytes": 14512,
+      "sha256": "9d14fff87cd346ba21fb4b9fddb45e5fb3c03179d787b3b6739beb8200207625"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/EVIDENCE_SUPPLEMENT.json",
+      "target": "v53/research/bazi-ten-stem-life/EVIDENCE_SUPPLEMENT.json",
+      "bytes": 404,
+      "sha256": "e5e4c8bf931b62be1c9c66e6cff3668890189c8a081eafc5ac1ac5f3d0506d81"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/EXPECTED_BEFORE_IMPLEMENTATION.json",
+      "target": "v53/research/bazi-ten-stem-life/EXPECTED_BEFORE_IMPLEMENTATION.json",
+      "bytes": 2903,
+      "sha256": "1bcf376aed456d15dbad9fa089b4a44acbb5eae5aab3a51cf4a78ee12a656e5a"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/LOCAL_RENDERS.json",
+      "target": "v53/research/bazi-ten-stem-life/LOCAL_RENDERS.json",
+      "bytes": 2264,
+      "sha256": "d40c5c83312860491de5fdbfef80290ac7b46350e70ff8cdc3c02bb191a83ff2"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/MANUAL_COORDINATES.json",
+      "target": "v53/research/bazi-ten-stem-life/MANUAL_COORDINATES.json",
+      "bytes": 4015,
+      "sha256": "756776c22484e51058e0ed08d6122e8bf0f94d57513e0dcf2379fb00f67b971e"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p10.png",
+      "target": "v53/research/bazi-ten-stem-life/p10.png",
+      "bytes": 275042,
+      "sha256": "7e4b0315960ce9d11e0cb48cddbc84042bc4074ce471cef29d88b3f138798dbf"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p11.png",
+      "target": "v53/research/bazi-ten-stem-life/p11.png",
+      "bytes": 249481,
+      "sha256": "7e6f4d836b7e4dc433f437040e9fa6603957743382b1c888f34e8b4fc84ddfab"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p12.png",
+      "target": "v53/research/bazi-ten-stem-life/p12.png",
+      "bytes": 247763,
+      "sha256": "1c6ebbe00ce68f2d1acbc84e69b02b489a3549019c7c6a71ae3cb6d7cf27bb5c"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p13.png",
+      "target": "v53/research/bazi-ten-stem-life/p13.png",
+      "bytes": 278468,
+      "sha256": "c8ab013746450e76cfdcadbf1abc2a7c60bd21147e38fb6fe27ec8b0c097105e"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p14.png",
+      "target": "v53/research/bazi-ten-stem-life/p14.png",
+      "bytes": 261781,
+      "sha256": "1ae34669e408243b604d844b64457a32e78c429d12e2105183cc3120ee17a091"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p15.png",
+      "target": "v53/research/bazi-ten-stem-life/p15.png",
+      "bytes": 258450,
+      "sha256": "2789a61a57eca5fefb39176b6ec430842aee184f4801b13fc42201d98bd3d92e"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p16.png",
+      "target": "v53/research/bazi-ten-stem-life/p16.png",
+      "bytes": 270378,
+      "sha256": "9262dc9876e09ace4b8a3a6d5443a8b82346d9a29e95aeee0846b77d3c271ac9"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p17.png",
+      "target": "v53/research/bazi-ten-stem-life/p17.png",
+      "bytes": 262969,
+      "sha256": "e769af2f021ef315ef98d2d1f480a324d3064caa5a3cf7a94687714949f6372a"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p18.png",
+      "target": "v53/research/bazi-ten-stem-life/p18.png",
+      "bytes": 266888,
+      "sha256": "121fc67acb3a64abc5a3906a61798e9b557976eb65214e9872828e2cfcc2aefa"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p19.png",
+      "target": "v53/research/bazi-ten-stem-life/p19.png",
+      "bytes": 243398,
+      "sha256": "2103b4c0515e119b2488ea177701266c5277460cedc5ef25388229235d83644d"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p20.png",
+      "target": "v53/research/bazi-ten-stem-life/p20.png",
+      "bytes": 254053,
+      "sha256": "1f60e8efd956f69db5c9a1a234d9a7f0937328c258ed3554df0f8d3fec6ac55d"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p21.png",
+      "target": "v53/research/bazi-ten-stem-life/p21.png",
+      "bytes": 270898,
+      "sha256": "c9e2be4b14f20bda1bddb5babc8a15d89601f5699294579d3b034bed763ccb84"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p22.png",
+      "target": "v53/research/bazi-ten-stem-life/p22.png",
+      "bytes": 262341,
+      "sha256": "f26bca2f98e44f1919f14ae0b3c405ed52b0adcddfbf5447d779409a56cce1ab"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p23.png",
+      "target": "v53/research/bazi-ten-stem-life/p23.png",
+      "bytes": 261079,
+      "sha256": "6f1884946e6021e53630881270265ca7b06e02ced4ea4b171f632f3bb91890c8"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p24.png",
+      "target": "v53/research/bazi-ten-stem-life/p24.png",
+      "bytes": 246248,
+      "sha256": "45140970f8c9bf4a8deae761982bd9b3e6f579e6617c9f63c226e3e24dd21275"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p25.png",
+      "target": "v53/research/bazi-ten-stem-life/p25.png",
+      "bytes": 249613,
+      "sha256": "4f92c0e3c6a37f8ac2d7cf0e8ecbf61d2ac9c5865baeb114d10c562861a91840"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p26.png",
+      "target": "v53/research/bazi-ten-stem-life/p26.png",
+      "bytes": 270607,
+      "sha256": "86bea15f0566082cf25540dcfba89ee1234590010e05227086e98dff797a6307"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p27.png",
+      "target": "v53/research/bazi-ten-stem-life/p27.png",
+      "bytes": 244743,
+      "sha256": "64722b74dbb61234fb5611547c58ccb022f009383b0359fe9e519bb0ecbd662a"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p28.png",
+      "target": "v53/research/bazi-ten-stem-life/p28.png",
+      "bytes": 283198,
+      "sha256": "144f5f3413396718c61c64071d403aa2731e1d63e4b0f729ae02fdde37166a26"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p29.png",
+      "target": "v53/research/bazi-ten-stem-life/p29.png",
+      "bytes": 279053,
+      "sha256": "fa1d70b1708e09a3d253c6a06679b61cb452438870bba5e650eacb622887e32f"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p30.png",
+      "target": "v53/research/bazi-ten-stem-life/p30.png",
+      "bytes": 250974,
+      "sha256": "fd8b8162913a80e4f6c45f93f19952fa44bb8f8ea53fa1c467f33492f2fffcca"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p31.png",
+      "target": "v53/research/bazi-ten-stem-life/p31.png",
+      "bytes": 267117,
+      "sha256": "8e7106487d23bf47dc43c5b1f547d99cb9302f515e7eeee5010acae15d40cb21"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p32.png",
+      "target": "v53/research/bazi-ten-stem-life/p32.png",
+      "bytes": 256360,
+      "sha256": "1ca0c0ae22a05e9f65cf58be381f64e5f69abb584b369c91d84d8dada1710827"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p33.png",
+      "target": "v53/research/bazi-ten-stem-life/p33.png",
+      "bytes": 274062,
+      "sha256": "0f75e7bf425d20d2f75b8e81aeebfb21c243662dc3b8ccd11d8fe925ac11ef2a"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p34.png",
+      "target": "v53/research/bazi-ten-stem-life/p34.png",
+      "bytes": 275160,
+      "sha256": "e148fdd30ed6c558a8f6f3264fb1a36ce2c4140c9e0888676f89e5c39981cf86"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p35.png",
+      "target": "v53/research/bazi-ten-stem-life/p35.png",
+      "bytes": 239921,
+      "sha256": "387d25da6a361adf58292a79fd9b0b7b617b7ce80b71227f3679b28379aa3505"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/p9.png",
+      "target": "v53/research/bazi-ten-stem-life/p9.png",
+      "bytes": 241349,
+      "sha256": "de6403129005b869e4fe9b9b33e0f5fc1fee11ac7a44ebc69d1c32e1dd0e1b27"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/PREIMPLEMENTATION_FREEZE.json",
+      "target": "v53/research/bazi-ten-stem-life/PREIMPLEMENTATION_FREEZE.json",
+      "bytes": 633,
+      "sha256": "8286e2c8fe3d098d1f2c56ccf4a0c4fbe52facee9852e7e3746bd2ecf393cd1e"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/prepare-table.py",
+      "target": "v53/research/bazi-ten-stem-life/prepare-table.py",
+      "bytes": 3047,
+      "sha256": "f4cf4dbaff77c9fa5b778e9c9d38b8e7521399afda052af1d8b617560103f900"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/REMAINING_RENDERS.json",
+      "target": "v53/research/bazi-ten-stem-life/REMAINING_RENDERS.json",
+      "bytes": 4141,
+      "sha256": "0576b76c136eb5ae0a2ca7a52837020c12b1c0d1c6bbc184e11c0f20d639ee0e"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/RESEARCH_REPORT.md",
+      "target": "v53/research/bazi-ten-stem-life/RESEARCH_REPORT.md",
+      "bytes": 4657,
+      "sha256": "808d1be5160c3e607309aa920ac820131b12f20275de73d66035e8c31a7f96a7"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/run-actual-once.mjs",
+      "target": "v53/research/bazi-ten-stem-life/run-actual-once.mjs",
+      "bytes": 2169,
+      "sha256": "a44fc4fe7b9039ff8fa7ef70d806b03174b4fe8f5fac4c78e75e19fffc675b74"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/SUPPLEMENTAL_RENDERS.json",
+      "target": "v53/research/bazi-ten-stem-life/SUPPLEMENTAL_RENDERS.json",
+      "bytes": 1055,
+      "sha256": "3cd69a7235b52995153a5a1331a87b7b3c26091b11f5d7c8d98546dd77fb6caa"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/test-coordinates.mjs",
+      "target": "v53/research/bazi-ten-stem-life/test-coordinates.mjs",
+      "bytes": 2833,
+      "sha256": "383dd717473b44d178b3ea4079cf5b1893d7f4b59ddc8cd90943c61ad396a9d0"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/TEST_RESULTS.json",
+      "target": "v53/research/bazi-ten-stem-life/TEST_RESULTS.json",
+      "bytes": 427,
+      "sha256": "b8050cceae177302d5f5e3952398355ea33eb1edad23fe7de6b874f786084cd6"
+    },
+    {
+      "source": "tmp/bazi-ten-stem-life-staging/WORK_STATE.json",
+      "target": "v53/research/bazi-ten-stem-life/WORK_STATE.json",
+      "bytes": 3172,
+      "sha256": "237d3bf74e383516287cd12d13fcf9b04c5e28a9fea3d32896e56bb966d28c4e"
+    }
+  ]
+}

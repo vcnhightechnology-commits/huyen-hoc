@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-28",
+  "system": "NAJ-4468520-juan2-QA-flanking-two-neighbours",
+  "branchOrder": [
+    "子",
+    "丑",
+    "寅",
+    "卯",
+    "辰",
+    "巳",
+    "午",
+    "未",
+    "申",
+    "酉",
+    "戌",
+    "亥"
+  ],
+  "geometryModel": "Editorial cyclic12-neighbour encoding of printed 前後二宮; unordered two distinct neighbours. Not source-defined enumeration of0..11.",
+  "anchorRole": "命宮",
+  "pairs": [
+    {
+      "kind": "sun-moon",
+      "stars": [
+        "Thái Dương",
+        "Thái Âm"
+      ],
+      "iztroNames": [
+        "太阳",
+        "太阴"
+      ],
+      "sourceNames": [
+        "太陽",
+        "太陰"
+      ]
+    },
+    {
+      "kind": "chang-qu",
+      "stars": [
+        "Văn Xương",
+        "Văn Khúc"
+      ],
+      "iztroNames": [
+        "文昌",
+        "文曲"
+      ],
+      "sourceNames": [
+        "文昌",
+        "文曲"
+      ]
+    }
+  ],
+  "unimplementedSourceConditions": [
+    "不逢空劫羊殺 scope and effective obstruction",
+    "星格/旺陷/吉化/三合 source preconditions beyond selected clause",
+    "身宮 relation not inferred from the phrase 身命",
+    "period-frame adapters and source outcomes"
+  ],
+  "consumerChanged": false,
+  "wholeUnitApplied": false
+}

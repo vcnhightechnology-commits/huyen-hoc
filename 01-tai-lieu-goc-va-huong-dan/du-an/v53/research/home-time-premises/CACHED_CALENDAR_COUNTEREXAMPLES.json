@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-29",
+  "source": {
+    "file": "v53/research/home-day-markers/ACTUAL_RUNTIME.json",
+    "bytes": 319086,
+    "sha256": "bfed8de17209d7ec1f43c23b26fa071e62309a3b02042d3df790013845e1e02b"
+  },
+  "records": [
+    {
+      "solar": {
+        "y": 2018,
+        "m": 1,
+        "d": 8,
+        "hour": 12,
+        "minute": 0,
+        "second": 0
+      },
+      "lunarMonth": 11,
+      "lunarDay": 22,
+      "dayGanzhi": "庚子",
+      "engineMonthBranch": "丑",
+      "explicitMonthFrame": 12,
+      "actualZhiXing": "闭",
+      "numericLunarMonthMarker": "建",
+      "declaredEngineMonthBranchMarker": null,
+      "sourceMonthBasisValidated": false,
+      "libraryErrorClaimed": false
+    },
+    {
+      "solar": {
+        "y": 2018,
+        "m": 1,
+        "d": 9,
+        "hour": 12,
+        "minute": 0,
+        "second": 0
+      },
+      "lunarMonth": 11,
+      "lunarDay": 23,
+      "dayGanzhi": "辛丑",
+      "engineMonthBranch": "丑",
+      "explicitMonthFrame": 12,
+      "actualZhiXing": "建",
+      "numericLunarMonthMarker": null,
+      "declaredEngineMonthBranchMarker": "建",
+      "sourceMonthBasisValidated": false,
+      "libraryErrorClaimed": false
+    },
+    {
+      "solar": {
+        "y": 2018,
+        "m": 1,
+        "d": 14,
+        "hour": 12,
+        "minute": 0,
+        "second": 0
+      },
+      "lunarMonth": 11,
+      "lunarDay": 28,
+      "dayGanzhi": "丙午",
+      "engineMonthBranch": "丑",
+      "explicitMonthFrame": 12,
+      "actualZhiXing": "执",
+      "numericLunarMonthMarker": "破",
+      "declaredEngineMonthBranchMarker": null,
+      "sourceMonthBasisValidated": false,
+      "libraryErrorClaimed": false
+    },
+    {
+      "solar": {
+        "y": 2018,
+        "m": 1,
+        "d": 15,
+        "hour": 12,
+        "minute": 0,
+        "second": 0
+      },
+      "lunarMonth": 11,
+      "lunarDay": 29,
+      "dayGanzhi": "丁未",
+      "engineMonthBranch": "丑",
+      "explicitMonthFrame": 12,
+      "actualZhiXing": "破",
+      "numericLunarMonthMarker": null,
+      "declaredEngineMonthBranchMarker": "破",
+      "sourceMonthBasisValidated": false,
+      "libraryErrorClaimed": false
+    }
+  ],
+  "newCalendarObjects": 0,
+  "newZhiXingCalls": 0,
+  "purpose": "Four retained actual lunar-typescript coordinate examples with differentnumericmonth/enginebranch. Reusedcacheonly;doesnotproveITKCmonthlyboundary.",
+  "originalBatchCountsNotAddedAgain": true
+}

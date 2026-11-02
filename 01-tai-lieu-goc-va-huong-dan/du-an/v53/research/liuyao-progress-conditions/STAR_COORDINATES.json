@@ -1,0 +1,127 @@
+{
+  "date": "2026-10-27",
+  "sourceID": "B02-ch033",
+  "pdfPages": [
+    136,
+    137
+  ],
+  "nobleman": {
+    "verseRows": {
+      "甲": [
+        "丑",
+        "未"
+      ],
+      "戊": [
+        "丑",
+        "未"
+      ],
+      "乙": [
+        "子",
+        "申"
+      ],
+      "己": [
+        "子",
+        "申"
+      ],
+      "丙": [
+        "亥",
+        "酉"
+      ],
+      "丁": [
+        "亥",
+        "酉"
+      ],
+      "壬": [
+        "卯",
+        "巳"
+      ],
+      "癸": [
+        "卯",
+        "巳"
+      ],
+      "庚": [
+        "午",
+        "寅"
+      ],
+      "辛": [
+        "午",
+        "寅"
+      ]
+    },
+    "proseExampleGeng": [
+      "丑",
+      "未"
+    ],
+    "gengStatus": "within-page-conflict-not-resolved",
+    "verseReading": "庚辛逢馬虎",
+    "proseExampleBoundedReading": "假令甲□庚日…見丑未者即是貴人",
+    "middleGlyphInExample": "戊/戌 shape unresolved;not used as a new day coordinate",
+    "fullNoblemanTableUnambiguouslyEstablished": false
+  },
+  "salary": {
+    "explicitRows": {
+      "甲": "寅",
+      "乙": "卯",
+      "丙": "巳",
+      "己": "午",
+      "庚": "申",
+      "辛": "酉"
+    },
+    "notExplicitInTheseSixStemLines": [
+      "丁",
+      "戊",
+      "壬",
+      "癸"
+    ],
+    "missingFourRowsFilledFromRuntime": false
+  },
+  "horse": {
+    "groups": [
+      {
+        "dayBranches": [
+          "申",
+          "子",
+          "辰"
+        ],
+        "target": "寅"
+      },
+      {
+        "dayBranches": [
+          "巳",
+          "酉",
+          "丑"
+        ],
+        "target": "亥"
+      },
+      {
+        "dayBranches": [
+          "寅",
+          "午",
+          "戌"
+        ],
+        "target": "申"
+      },
+      {
+        "dayBranches": [
+          "亥",
+          "卯",
+          "未"
+        ],
+        "target": "巳"
+      }
+    ]
+  },
+  "joy": {
+    "explicitSeasonRows": {
+      "春": "戌",
+      "夏": "丑",
+      "秋": "辰",
+      "冬": "未"
+    },
+    "modernCalendarSeasonAdapterEstablished": false
+  },
+  "sourceChapterCaution": "Stars can assist the useful line;the source explicitly denies their independent control of outcomes. Quoted polemical/medical claims are not validated facts.",
+  "sourceInstructionsAreData": true,
+  "consumerApplied": false,
+  "wholeChapterApplied": false
+}

@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-29",
+  "purpose": "Seal selected digital readings and provenance; not a preimplementation algorithm fixture. No new algorithm implemented.",
+  "files": [
+    {
+      "file": "tmp/tuvi-shidian-witness-staging/DIGITAL_PASSAGE_LEDGER.json",
+      "bytes": 6288,
+      "sha256": "e3c8938c8abd107f3cbb1a02384a18867fac99dcc509eee7505d6a9fe9e64e07"
+    },
+    {
+      "file": "tmp/tuvi-shidian-witness-staging/RETAINED_COMPARISON_IDENTITIES.json",
+      "bytes": 1451,
+      "sha256": "e5431bb6e8a671333b8cccdeac4fa579e2c6545cd7d617d7d35cf23264740086"
+    },
+    {
+      "file": "tmp/tuvi-shidian-witness-staging/ACQUISITION_SUMMARY.json",
+      "bytes": 4395,
+      "sha256": "827d7f0e37070195d256873f177dafffea8b9fa6f1bf0ce66efdcd107579f735"
+    },
+    {
+      "file": "tmp/tuvi-shidian-witness-staging/chapter-response.html",
+      "bytes": 992096,
+      "sha256": "8888822139fb45422ffcfe2939057243df2c45307b78fbb6ff4515dc61b585ad"
+    },
+    {
+      "file": "tmp/tuvi-shidian-witness-staging/HOST_REQUEST.json",
+      "bytes": 4658,
+      "sha256": "f0c263b33868840b56ac3e326b7c91f15ee0a40d66dc12cc22e14e88daa220a3"
+    },
+    {
+      "file": "tmp/tuvi-shidian-witness-staging/REQUEST.json",
+      "bytes": 386,
+      "sha256": "da99c202afc342d054c201d27637bdcd181bd530c9c7720a2ab9fef6f41e372a"
+    },
+    {
+      "file": "tmp/tuvi-shidian-witness-staging/WORK_STATE.json",
+      "bytes": 1410,
+      "sha256": "305bf76100cbbd8e680b26e3b72f7f6276e19acb6156591a0645ff4fc9c59ae4"
+    }
+  ],
+  "clientFiles": [
+    {
+      "file": "tmp/tuvi-shidian-witness-staging/public-book-reader.js",
+      "bytes": 925,
+      "sha256": "a62131857d72d3dcbf077f2ccfa326d8e08dbb7d1fa10acef5c79c26474f3a79"
+    },
+    {
+      "file": "tmp/tuvi-shidian-witness-staging/client-7111.c595f1ca.js",
+      "bytes": 47791,
+      "sha256": "35796fd23da81bcd70d944d5d20879dabb1ea145f511e4ac78ae0548d3de8e78"
+    },
+    {
+      "file": "tmp/tuvi-shidian-witness-staging/client-1265.fdab5d3f.js",
+      "bytes": 179520,
+      "sha256": "6e6967367b646cadd3addf08ab0f548851c68619710683f45c91707ad71768c9"
+    },
+    {
+      "file": "tmp/tuvi-shidian-witness-staging/client-4994.ae981763.js",
+      "bytes": 488639,
+      "sha256": "89378234c03532714a0b7c768761a04a1bee07d00701c5b36838f786fc5b54e7"
+    },
+    {
+      "file": "tmp/tuvi-shidian-witness-staging/client-1746.0cd03317.js",
+      "bytes": 2307871,
+      "sha256": "473c7f818696a16d9bfb1e475502578fc9bf3a09c499b0cb261cf59af9084c9c"
+    },
+    {
+      "file": "tmp/tuvi-shidian-witness-staging/client-7227.b637795c.js",
+      "bytes": 1465,
+      "sha256": "8be0c3f777b3272b30b64517323e24767c84ac89d1d2ba9a620c2ff84cf98f0d"
+    },
+    {
+      "file": "tmp/tuvi-shidian-witness-staging/client-5456.17c717b4.js",
+      "bytes": 76849,
+      "sha256": "e4b34947bb020499224fe156f1c9cac8f7bb7946afe012655da04e9ecf5fee74"
+    },
+    {
+      "file": "tmp/tuvi-shidian-witness-staging/client-5796.f6337c0f.js",
+      "bytes": 144911,
+      "sha256": "0094fd232db6952ec52479097499d1b0f080d99300316feeac4067b0cf92ec76"
+    },
+    {
+      "file": "tmp/tuvi-shidian-witness-staging/client-7691.d2ca499c.js",
+      "bytes": 542032,
+      "sha256": "29abf8302d2b9a0588fdcf7a43a39347f5401d8fb4727bd296321d360b0718c6"
+    },
+    {
+      "file": "tmp/tuvi-shidian-witness-staging/client-8920.c8dfe8e9.js",
+      "bytes": 138687,
+      "sha256": "9ca8f632ba094c14265b1ce5f0f56f1324b85a6c5b8ef963bcc5fba56d2bea02"
+    }
+  ],
+  "newEngineCalls": 0
+}

@@ -1,0 +1,17 @@
+PASS Unknown hour renders ten onset intervals without a single invented start instant
+PASS Hour fields stay empty and disabled while intervals are computed
+PASS Explicitly saved unknown-hour profile stores no fabricated clock or precomputed interval
+PASS TXT retains both bounds, all ten cycles and interval limitations
+PASS Supplying a known clock replaces every range with the regular single-onset reading
+PASS Reopening the saved profile recomputes the same interval and retains an unknown clock
+PASS A solar-term boundary day does not combine incompatible year/month charts into one range
+PASS Late-Zi day ambiguity is still suppressed when birth hour is unknown
+PASS Returning to midnight policy restores the valid interval without retaining stale uncertainty
+PASS 320px: interval table scrolls internally without widening the page
+PASS 390px: interval table scrolls internally without widening the page
+PASS On mobile the interval dates can be revealed by internal table scrolling
+PASS 768px: interval table scrolls internally without widening the page
+PASS 1440px: interval table scrolls internally without widening the page
+PASS Print keeps both onset bounds while hiding the input panel and actions
+PASS No JavaScript error or external request is introduced in the standalone product
+16/16 passed

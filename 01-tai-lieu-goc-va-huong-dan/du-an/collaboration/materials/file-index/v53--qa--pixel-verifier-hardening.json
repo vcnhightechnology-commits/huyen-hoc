@@ -1,0 +1,89 @@
+{
+  "scope": "v53/qa/pixel-verifier-hardening",
+  "files": [
+    {
+      "file": "v53/qa/pixel-verifier-hardening/AFTER_verify-bazi-food-six-pillars-sources.py",
+      "bytes": 5902,
+      "sha256": "5b86351aca5aeb9f55502f42589756cc103efc959a5213a0bf175fa88810a844",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5b86351aca5aeb9f55502f42589756cc103efc959a5213a0bf175fa88810a844",
+      "httpRange": {
+        "offset": 256357716,
+        "compressedBytes": 2511,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/pixel-verifier-hardening/AFTER_verify-liuyao-b03-triad-clause-sources.py",
+      "bytes": 6780,
+      "sha256": "3415b2c4a20a4d112ba99dcc8e88ac8b5fdd8e1d8919ed7b6bdaaf48c2d921fd",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/3415b2c4a20a4d112ba99dcc8e88ac8b5fdd8e1d8919ed7b6bdaaf48c2d921fd",
+      "httpRange": {
+        "offset": 281568803,
+        "compressedBytes": 2884,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/pixel-verifier-hardening/BEFORE_verify-bazi-food-six-pillars-sources.py",
+      "bytes": 5886,
+      "sha256": "495603661edd12749287f1f28ffacba7401ced96a001b9515fa87899a58bd425",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/495603661edd12749287f1f28ffacba7401ced96a001b9515fa87899a58bd425",
+      "httpRange": {
+        "offset": 264503371,
+        "compressedBytes": 2500,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/pixel-verifier-hardening/BEFORE_verify-liuyao-b03-triad-clause-sources.py",
+      "bytes": 6748,
+      "sha256": "672159d25e3d798ce30159c83c3513e3adc4e1404be3640571d2540116ec68ac",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/672159d25e3d798ce30159c83c3513e3adc4e1404be3640571d2540116ec68ac",
+      "httpRange": {
+        "offset": 211875510,
+        "compressedBytes": 2871,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/pixel-verifier-hardening/CHANGE_PLAN.json",
+      "bytes": 1314,
+      "sha256": "788fed73eed3034384782dd50c50b8d24d430d835044a3274aee40721adce9f9",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/788fed73eed3034384782dd50c50b8d24d430d835044a3274aee40721adce9f9",
+      "httpRange": {
+        "offset": 392678809,
+        "compressedBytes": 540,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/pixel-verifier-hardening/PREDICATE_RESULTS.json",
+      "bytes": 1097,
+      "sha256": "053198f8257acef444432c82bdb3ec6dc5e3edc93ff95256fa635b3741a9a99e",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/053198f8257acef444432c82bdb3ec6dc5e3edc93ff95256fa635b3741a9a99e",
+      "httpRange": {
+        "offset": 118829251,
+        "compressedBytes": 325,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/pixel-verifier-hardening/RESULTS.json",
+      "bytes": 423,
+      "sha256": "3f154a946d0bfa918b6607d594d5a8d4aabe69d2c2f0447976c17f1b056a8b02",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/3f154a946d0bfa918b6607d594d5a8d4aabe69d2c2f0447976c17f1b056a8b02",
+      "httpRange": {
+        "offset": 72712803,
+        "compressedBytes": 253,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

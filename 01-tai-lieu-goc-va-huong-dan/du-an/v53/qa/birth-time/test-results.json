@@ -1,0 +1,135 @@
+{
+  "date": "2026-10-25T14:15:22.363Z",
+  "checks": [
+    {
+      "name": "tuvi: missing or invalid known clock is never replaced by a default",
+      "ok": true,
+      "detail": {
+        "cases": 9
+      }
+    },
+    {
+      "name": "tuvi: explicitly entered 00:00 is accepted",
+      "ok": true
+    },
+    {
+      "name": "bazi: missing or invalid known clock is never replaced by a default",
+      "ok": true,
+      "detail": {
+        "cases": 9
+      }
+    },
+    {
+      "name": "bazi: explicitly entered 00:00 is accepted",
+      "ok": true
+    },
+    {
+      "name": "Explicitly unknown birth time still produces three pillars only",
+      "ok": true
+    },
+    {
+      "name": "A text flag cannot masquerade as unknown-time permission",
+      "ok": true
+    },
+    {
+      "name": "Actual iztro package used for the hour regression matches archived npm bytes",
+      "ok": true,
+      "detail": {
+        "version": "2.6.2",
+        "files": 209,
+        "tarballSha256": "d44e96631c0506424c3aef25a7bba8e43e01729102d6a703720cbe224aec5403"
+      }
+    },
+    {
+      "name": "All 24 entered hours for both genders keep matching real iztro on 17 natal fields",
+      "ok": true,
+      "detail": {
+        "calls": 48,
+        "fields": 816
+      }
+    },
+    {
+      "name": "New Tử vi form starts without an invented hour or minute",
+      "ok": true
+    },
+    {
+      "name": "Date alone cannot generate or export a Tử vi chart",
+      "ok": true
+    },
+    {
+      "name": "Partial midnight entry still requires the minute",
+      "ok": true
+    },
+    {
+      "name": "Explicit midnight can be submitted by Enter and saved",
+      "ok": true
+    },
+    {
+      "name": "New Bát tự form starts without a clock and unknown-time mode requires an explicit choice",
+      "ok": true
+    },
+    {
+      "name": "Bát tự date alone cannot silently create a noon birth",
+      "ok": true
+    },
+    {
+      "name": "Choosing unknown time clearly suppresses hour pillar",
+      "ok": true
+    },
+    {
+      "name": "Unknown-time profiles store no calculation anchor as a birth clock",
+      "ok": true,
+      "detail": {
+        "name": "",
+        "gender": "male",
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "tz": 7,
+        "calendar": "solar",
+        "leap": false,
+        "noTime": true,
+        "dayPolicy": "midnight",
+        "leapPolicy": "same"
+      }
+    },
+    {
+      "name": "Unknown-time TXT never turns the internal anchor into a birth timestamp",
+      "ok": true
+    },
+    {
+      "name": "Legacy unknown-time profile restores with blank disabled clock fields",
+      "ok": true
+    },
+    {
+      "name": "Leaving unknown-time mode requires a genuinely entered clock",
+      "ok": true
+    },
+    {
+      "name": "Known late-night clock still produces the fourth pillar",
+      "ok": true
+    },
+    {
+      "name": "An out-of-range hour removes the stale chart and prevents export",
+      "ok": true
+    },
+    {
+      "name": "Profile restore cannot bypass known-time validation",
+      "ok": true
+    },
+    {
+      "name": "Previously saved explicit midnight remains readable after the change",
+      "ok": true
+    },
+    {
+      "name": "No runtime errors or HTTP requests introduced by explicit-time input",
+      "ok": true,
+      "detail": {
+        "errors": [],
+        "requests": []
+      }
+    }
+  ],
+  "errors": [],
+  "requests": []
+}

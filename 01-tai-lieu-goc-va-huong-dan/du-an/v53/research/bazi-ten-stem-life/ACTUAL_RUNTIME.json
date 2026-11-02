@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-29",
+  "executedUTC": "2026-10-29T08:15:29.257Z",
+  "libraryVersion": "1.8.6",
+  "librarySHA256": "76e490b74e9913ed94b49689b90abc688ed1e2b11456312b3eb081ec63cf2fbe",
+  "scriptSHA256": "a44fc4fe7b9039ff8fa7ef70d806b03174b4fe8f5fac4c78e75e19fffc675b74",
+  "freezeSHA256": "8286e2c8fe3d098d1f2c56ccf4a0c4fbe52facee9852e7e3746bd2ecf393cd1e",
+  "method": "Actual exported EightChar.prototype.getDiShi called with explicitly declared getDayGan/getDayGanIndex carrier; no calendar/natal instance.",
+  "pairs": [
+    {
+      "stem": "甲",
+      "branch": "亥",
+      "expectedSourceMarker": "长生",
+      "expectedLunarLabel": "长生",
+      "actualLunarLabel": "长生",
+      "matches": true
+    },
+    {
+      "stem": "甲",
+      "branch": "午",
+      "expectedSourceMarker": "死",
+      "expectedLunarLabel": "死",
+      "actualLunarLabel": "死",
+      "matches": true
+    },
+    {
+      "stem": "乙",
+      "branch": "午",
+      "expectedSourceMarker": "长生",
+      "expectedLunarLabel": "长生",
+      "actualLunarLabel": "长生",
+      "matches": true
+    },
+    {
+      "stem": "乙",
+      "branch": "亥",
+      "expectedSourceMarker": "死",
+      "expectedLunarLabel": "死",
+      "actualLunarLabel": "死",
+      "matches": true
+    },
+    {
+      "stem": "丙",
+      "branch": "寅",
+      "expectedSourceMarker": "长生",
+      "expectedLunarLabel": "长生",
+      "actualLunarLabel": "长生",
+      "matches": true
+    },
+    {
+      "stem": "丙",
+      "branch": "酉",
+      "expectedSourceMarker": "死",
+      "expectedLunarLabel": "死",
+      "actualLunarLabel": "死",
+      "matches": true
+    },
+    {
+      "stem": "丁",
+      "branch": "酉",
+      "expectedSourceMarker": "长生",
+      "expectedLunarLabel": "长生",
+      "actualLunarLabel": "长生",
+      "matches": true
+    },
+    {
+      "stem": "丁",
+      "branch": "寅",
+      "expectedSourceMarker": "死",
+      "expectedLunarLabel": "死",
+      "actualLunarLabel": "死",
+      "matches": true
+    },
+    {
+      "stem": "戊",
+      "branch": "寅",
+      "expectedSourceMarker": "长生",
+      "expectedLunarLabel": "长生",
+      "actualLunarLabel": "长生",
+      "matches": true
+    },
+    {
+      "stem": "戊",
+      "branch": "酉",
+      "expectedSourceMarker": "死",
+      "expectedLunarLabel": "死",
+      "actualLunarLabel": "死",
+      "matches": true
+    },
+    {
+      "stem": "己",
+      "branch": "酉",
+      "expectedSourceMarker": "长生",
+      "expectedLunarLabel": "长生",
+      "actualLunarLabel": "长生",
+      "matches": true
+    },
+    {
+      "stem": "己",
+      "branch": "寅",
+      "expectedSourceMarker": "死",
+      "expectedLunarLabel": "死",
+      "actualLunarLabel": "死",
+      "matches": true
+    },
+    {
+      "stem": "庚",
+      "branch": "巳",
+      "expectedSourceMarker": "长生",
+      "expectedLunarLabel": "长生",
+      "actualLunarLabel": "长生",
+      "matches": true
+    },
+    {
+      "stem": "庚",
+      "branch": "子",
+      "expectedSourceMarker": "死",
+      "expectedLunarLabel": "死",
+      "actualLunarLabel": "死",
+      "matches": true
+    },
+    {
+      "stem": "辛",
+      "branch": "子",
+      "expectedSourceMarker": "长生",
+      "expectedLunarLabel": "长生",
+      "actualLunarLabel": "长生",
+      "matches": true
+    },
+    {
+      "stem": "辛",
+      "branch": "巳",
+      "expectedSourceMarker": "死",
+      "expectedLunarLabel": "死",
+      "actualLunarLabel": "死",
+      "matches": true
+    },
+    {
+      "stem": "壬",
+      "branch": "申",
+      "expectedSourceMarker": "长生",
+      "expectedLunarLabel": "长生",
+      "actualLunarLabel": "长生",
+      "matches": true
+    },
+    {
+      "stem": "壬",
+      "branch": "卯",
+      "expectedSourceMarker": "死",
+      "expectedLunarLabel": "死",
+      "actualLunarLabel": "死",
+      "matches": true
+    },
+    {
+      "stem": "癸",
+      "branch": "卯",
+      "expectedSourceMarker": "长生",
+      "expectedLunarLabel": "长生",
+      "actualLunarLabel": "长生",
+      "matches": true
+    },
+    {
+      "stem": "癸",
+      "branch": "申",
+      "expectedSourceMarker": "死",
+      "expectedLunarLabel": "死",
+      "actualLunarLabel": "死",
+      "matches": true
+    }
+  ],
+  "actualCoordinateMethodCalls": 20,
+  "actualCalendarObjects": 0,
+  "actualNatalCharts": 0,
+  "sourceOtherVoicesAdjudicated": false,
+  "sourcePredictionValidated": false
+}

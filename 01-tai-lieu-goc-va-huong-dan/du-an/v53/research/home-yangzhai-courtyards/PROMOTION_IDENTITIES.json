@@ -1,0 +1,465 @@
+{
+  "date": "2026-10-28",
+  "records": [
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/CONTEXT_RESULTS.json",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/CONTEXT_RESULTS.json",
+      "bytes": 12561,
+      "sha256": "73a276d8ecf669149adabef1d26f9663572ff5a23299185be20e66e50a058234"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/courtyard-context-reference.mjs",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/courtyard-context-reference.mjs",
+      "bytes": 2743,
+      "sha256": "1844ed17dca3f281dd02163339b8a42b1073cd89b230688edc2adc15265ffa73"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/courtyard-reference.mjs",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/courtyard-reference.mjs",
+      "bytes": 1527,
+      "sha256": "6edc98e5cbdfb292de769b2a06cb4d20ed12b62448e23abd0e666882d68f6a42"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/STAGED_crop-witness.py",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/crop-witness.py",
+      "bytes": 1227,
+      "sha256": "bff9cac33d92bb0437a9d35e8bbf5ff5c20141ced2d0cd9553a0d0c1094692a2"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/STAGED_decode-gjts-native.mjs",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/decode-gjts-native.mjs",
+      "bytes": 2910,
+      "sha256": "070a60fbbfd75d95898c11ed0409bddfa3ff0422d64f1e7103f03c39041eb4b7"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/STAGED_fetch-commons-witness-metadata.py",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/fetch-commons-witness-metadata.py",
+      "bytes": 1949,
+      "sha256": "7587a7b61d902b40d1abe827e9633cefccfd70e983d54367baafe9449536b8de"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/STAGED_fetch-comparison-text.py",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/fetch-comparison-text.py",
+      "bytes": 2281,
+      "sha256": "40d78d6afa8e083a25ae8e5eaafb38b973b0cb0b16bfe9e6be066c41e0c373cc"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/STAGED_fetch-djvu-witness.py",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/fetch-djvu-witness.py",
+      "bytes": 1759,
+      "sha256": "60e50675c9e89ef2e4b479525ba6966bacf08f19979e2a7ce28b9fab45f4f614"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/STAGED_fetch-image-template.py",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/fetch-image-template.py",
+      "bytes": 1568,
+      "sha256": "75075a5cf63904dc15733b0f0577e587cffe784e0d8f0404dc7d76a9d13fe069"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/STAGED_fetch-transcluded-pages.py",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/fetch-transcluded-pages.py",
+      "bytes": 2348,
+      "sha256": "cc843fa36b521547bb2e010da509f120fcda32660cb82b5e0d1718f8a6f06fce"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/FETCH_ERROR.json",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/FETCH_ERROR.json",
+      "bytes": 546,
+      "sha256": "9edefd922eed59619afed7f6d7226fc22f7ea95d96a5eda32a4eae9e72342b47"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/STAGED_finalize-readings.py",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/finalize-readings.py",
+      "bytes": 6431,
+      "sha256": "4a365b8803108ffef47fd45edd524b423fc4a794b6bbc2cbb00d99b9390bb330"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/gjts-commons-metadata-response.json",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/gjts-commons-metadata-response.json",
+      "bytes": 78734,
+      "sha256": "b0218f715d89abf9df5b7498877e44d17e4220d09e45dc5cbae9357ad5d1a792"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/gjts-image-template-decoded.txt",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/gjts-image-template-decoded.txt",
+      "bytes": 477,
+      "sha256": "85d64fd394ea832f10f647560e6db04894d88aad5907e7f1e0bfe5e37fb1308a"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/gjts-image-template-response.json",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/gjts-image-template-response.json",
+      "bytes": 762,
+      "sha256": "76fe0a8800cc9d22af4f4508c2d6290f4c892551f6e929ea23dd4045665540af"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/gjts-p86.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/gjts-p86.png",
+      "bytes": 1118426,
+      "sha256": "5299952e46fec6584c329f0c2fb69c73af7bdbb59119e86e4d83242c37cef147"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/gjts-p87.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/gjts-p87.png",
+      "bytes": 787502,
+      "sha256": "df6901814bf09584c44edda9d81a15aac9255c7af9faab0cda8f47893f449fbe"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/gjts-p88.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/gjts-p88.png",
+      "bytes": 730551,
+      "sha256": "aa223412bbb585d7f564e780228c66db7e4b5abfe075ca93927f65a4be75621e"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/gjts-p89.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/gjts-p89.png",
+      "bytes": 1101200,
+      "sha256": "098f14e101923bed8418bb628357118b5e6958d2bdc7b08908b29f545eca3831"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/gjts676-decoded-wikitext.txt",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/gjts676-decoded-wikitext.txt",
+      "bytes": 423,
+      "sha256": "33f927a4fb763ebd279956a1d30bac40bfc4eed2abd0c649c045143184f5c843"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/gjts676-page-revisions-response.json",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/gjts676-page-revisions-response.json",
+      "bytes": 45060,
+      "sha256": "2e8bcf40e3349333584c74e6a2a4dba927260c2530674747a9efb636f9552fc8"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/gjts676-pages/p81.txt",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/gjts676-pages/p81.txt",
+      "bytes": 3162,
+      "sha256": "5530f9dcb0377b5b2ed13d22ec991ea2bb1d1a05cd4993633dbecf866327769b"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/gjts676-pages/p82.txt",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/gjts676-pages/p82.txt",
+      "bytes": 1735,
+      "sha256": "d333e0dbf055b3fe92092e9cf374b609a124924ac80eb590223ee27122678053"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/gjts676-pages/p83.txt",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/gjts676-pages/p83.txt",
+      "bytes": 4942,
+      "sha256": "1ccffdd39dba177c20ae370c2a57c85d1c2c95be91a24ed5f6449e4cd1fb667f"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/gjts676-pages/p84.txt",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/gjts676-pages/p84.txt",
+      "bytes": 4927,
+      "sha256": "5253163e5fc45334a9a32e7f2ace011a44ac1d73db1c3b9d84fb87ad115fe4ec"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/gjts676-pages/p85.txt",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/gjts676-pages/p85.txt",
+      "bytes": 5511,
+      "sha256": "8f4adc595f2da43511f2908a81ef1a3c7b1c6a26197902239b4eba2c153fe237"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/gjts676-pages/p86.txt",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/gjts676-pages/p86.txt",
+      "bytes": 4354,
+      "sha256": "a902bea1aee501e459cbaea5de53b172966461a1d163e42b55eb19f9662835fa"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/gjts676-pages/p87.txt",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/gjts676-pages/p87.txt",
+      "bytes": 2132,
+      "sha256": "830e9a28298b7d7a82319cc5e8d8671a25ad767bc0dc2e070eb8503ccc239b7f"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/gjts676-pages/p88.txt",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/gjts676-pages/p88.txt",
+      "bytes": 1645,
+      "sha256": "78fb038e48a79cd3ca45250797af3f044c1dff1921a27f3697ef9425b1110838"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/gjts676-pages/p89.txt",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/gjts676-pages/p89.txt",
+      "bytes": 4649,
+      "sha256": "2771077f2b773aa71250fa255d6ec32d1286e9e57a99c8410d71405fa86d6a0d"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/gjts676-pages/p90.txt",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/gjts676-pages/p90.txt",
+      "bytes": 4247,
+      "sha256": "5ed33caccd7fdf4e77b7a61430d3b65a9af6083b87f3fff6cc4750462527fbe0"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/gjts676-pages/p91.txt",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/gjts676-pages/p91.txt",
+      "bytes": 3777,
+      "sha256": "d2007254d6e0193a889daeaf159f6eefdca2be8d9b45f80ae150182bcb75470b"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/gjts676-revision-response.json",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/gjts676-revision-response.json",
+      "bytes": 758,
+      "sha256": "b2227192fc364e95f350ad2a2fcdb5d18b51b9629ee09dc9c3540267b2bb4c8c"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/GJTS_LOCAL_RENDERS.json",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/GJTS_LOCAL_RENDERS.json",
+      "bytes": 2649,
+      "sha256": "83fd2f04442ab2c7e3a342de17cd055dfe35d27429637a78e3c3e442ae793d6d"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/GJTS_QA_IMAGES.json",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/GJTS_QA_IMAGES.json",
+      "bytes": 5070,
+      "sha256": "cb641916398a45c80c03d945fdfbeddc64cbe16a27ae308be613dbda9bd56c58"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/Gujin-Tushu-Jicheng-Volume476.djvu",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/Gujin-Tushu-Jicheng-Volume476.djvu",
+      "bytes": 33681249,
+      "sha256": "e819d6f430065e4f63c121390d74ad6d3bc36457cfb8e59fb7a2cea6483130de"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/STAGED_manual-diagram-cells.py",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/manual-diagram-cells.py",
+      "bytes": 4200,
+      "sha256": "e96205df14a35309a670cbb769c8a474bf1da94c14d2f16d679d7da634560581"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/MANUAL_DIAGRAM_CELLS.json",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/MANUAL_DIAGRAM_CELLS.json",
+      "bytes": 16334,
+      "sha256": "9811e9e8d126bf73e23471c65e0bcc4561c2d7e481ea4a9d02a9ae5a550254a1"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/NATIVE_RESULTS.json",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/NATIVE_RESULTS.json",
+      "bytes": 3403,
+      "sha256": "08a6a39f841981a6f0e7fad68a1ba2fcab2686142170664f3c2e4ede9a77e445"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/STAGED_promote.py",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/promote.py",
+      "bytes": 7484,
+      "sha256": "b467fb07a5bbb5fc58ead9698966b7a3fb55e56cfd8d7435c82da2a96a3344c3"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/gjts-case82-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/gjts-case82-native.png",
+      "bytes": 50260,
+      "sha256": "81425836606afa24b6c613f404252e995110858a0ad5e3253c3b7c69234112b2"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/gjts-case83-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/gjts-case83-native.png",
+      "bytes": 51496,
+      "sha256": "ec0bd5e99bcc167b3107fd176050e88970a5460f4799b9e2e57428e756c5c67a"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/gjts-case84-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/gjts-case84-native.png",
+      "bytes": 50732,
+      "sha256": "0a2ab08fc716893a1e19096c84bd6244803d2d9c371b52996a81854ae47a41b0"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/gjts-case85-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/gjts-case85-native.png",
+      "bytes": 46431,
+      "sha256": "31b63de87f5e29ca0b5c1e90ce1c70296ee06fcdaf11f2d04ffde3196e213a63"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/gjts-case86-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/gjts-case86-native.png",
+      "bytes": 39008,
+      "sha256": "2c4cc508f6d300cd4a5ab61cfbda98ca078679ae16411c23f2c4aa3c8a11c013"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/gjts-case87-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/gjts-case87-native.png",
+      "bytes": 42471,
+      "sha256": "781e2199b9907e04736f0151ed575417e6e817f5c58f6c815d3088fda0907e75"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/gjts-case88-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/gjts-case88-native.png",
+      "bytes": 48820,
+      "sha256": "a897c0b8d566cdc5e7813dad08f51a175a93d52e86fc8324a0b60275e55d0a6e"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/gjts-case89-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/gjts-case89-native.png",
+      "bytes": 53823,
+      "sha256": "e08cc75c0aced936e05579bcfe313ac6751756629b2bccb209588ec8eb7b8da3"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/gjts-case90-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/gjts-case90-native.png",
+      "bytes": 49380,
+      "sha256": "ca08576694756e6ed038c88f930eb5d170ea4cafb646dfdaf35fd325988c754b"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/gjts-case91-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/gjts-case91-native.png",
+      "bytes": 46950,
+      "sha256": "14c947641dd79fcaebd9cfefeb7a7f44d2d6f8390f88f17be83166b56b745f8b"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/gjts-case92-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/gjts-case92-native.png",
+      "bytes": 43879,
+      "sha256": "557d9e0da2039dd3edffe6e0a203b66e4331ab596e8241e72df399e05bde420d"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/gjts-case93-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/gjts-case93-native.png",
+      "bytes": 48095,
+      "sha256": "5c12f7854134cc101c9755da65583c7f4bd2fe594446d82285570f2cb0c74873"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/p82-diagram-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/p82-diagram-native.png",
+      "bytes": 2421976,
+      "sha256": "100afb0f022d5fa013949f39096f38a397127fabcf6116f44a5f6926b68f7b57"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/p83-diagram-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/p83-diagram-native.png",
+      "bytes": 2305335,
+      "sha256": "dcfecfbc5381fe458ae55c0612da40bead215b27d492147fec23a81ed870f43b"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/p84-diagram-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/p84-diagram-native.png",
+      "bytes": 2494886,
+      "sha256": "146996494681928f0233c71409b12e1b1b148599c34bc782b9ae61e1d9525282"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/p84-element-column-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/p84-element-column-native.png",
+      "bytes": 429518,
+      "sha256": "b5432360097c2ab85d1947116447e78e01e837f1d4e02e70ec30771445dd80a4"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/p85-diagram-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/p85-diagram-native.png",
+      "bytes": 2329627,
+      "sha256": "0cad77a0a6f9db5a867603f847fe3b4740a93d6863c9cf5fa19f24a67562e361"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/p86-diagram-rotated180-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/p86-diagram-rotated180-native.png",
+      "bytes": 2346348,
+      "sha256": "23a68240172bcf2215ecddc937c3222b43c9c706f8e7f2a5a59ab29d88133600"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/p87-diagram-rotated180-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/p87-diagram-rotated180-native.png",
+      "bytes": 2354248,
+      "sha256": "bdf9f8f01febe0d7bb51adf280eadb604ce79e83696fe176ea77a4395b94384a"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/p88-diagram-rotated180-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/p88-diagram-rotated180-native.png",
+      "bytes": 2331884,
+      "sha256": "72abcb8b85ba93d900ab8ba654812621ad48c3d7f4edaab7b971c0f2843ac6d1"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/p89-diagram-rotated180-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/p89-diagram-rotated180-native.png",
+      "bytes": 2385818,
+      "sha256": "09b8c097489ac7f51e95c18fa11e7c497ae086214fdd77178465db11ed64b5ba"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/p90-diagram-rotated180-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/p90-diagram-rotated180-native.png",
+      "bytes": 2266244,
+      "sha256": "37eb9c784b400fe096f63dadaecccc80809d72d97fa86aec8c5b42167c65d536"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/p91-diagram-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/p91-diagram-native.png",
+      "bytes": 2178566,
+      "sha256": "5b5ac252c9920eeb4b99bd2068579860b74ddc75aec32324e6ddd56639998dbe"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/p92-diagram-rotated180-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/p92-diagram-rotated180-native.png",
+      "bytes": 2284905,
+      "sha256": "267e3853bb4667cb0f9923b6ddec63f0bd5b2b4a6ce68bc6f39f6b92abb99583"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/p93-diagram-native.png",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/qa/p93-diagram-native.png",
+      "bytes": 2457574,
+      "sha256": "cd7d1596b9ee2819c3baaf0add5009c89662813da04b52c24d78d291c8f032fe"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/QA_IMAGES.json",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/QA_IMAGES.json",
+      "bytes": 7613,
+      "sha256": "5de2782e488948de0fff47a409f892deb104ceca10259cadfff6b1cdfb54cdf3"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/READING_CORRECTION_AUDIT.json",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/READING_CORRECTION_AUDIT.json",
+      "bytes": 1164,
+      "sha256": "6fe4c32d4c7657bbdd8438cdb0e032255509e45e4c4cf303b0083ba113e283c8"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/STAGED_record-raw-review.py",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/record-raw-review.py",
+      "bytes": 3620,
+      "sha256": "9ce2ed9ac4b0d1daa2100cdc908277ae7362c81fdd5277b1c56578f81ccbd7b9"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-courtyards/REFERENCE_RESULTS.json",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/REFERENCE_RESULTS.json",
+      "bytes": 15320,
+      "sha256": "76cda81bc2b001d5664e2eec5f61ff9a4eeccf74297915dc21c15a2eee44374f"
+    },
+    {
+      "file": "v53/HOME_COURTYARDS_REPORT.md",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/REPORT.md",
+      "bytes": 5375,
+      "sha256": "0e256581edd77f47dd1a653ec81d240d95211e371fe69ed331e5dc717553408d"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/REQUESTS.json",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/REQUESTS.json",
+      "bytes": 31376,
+      "sha256": "f7f37cfc68e04914d71da58066757c37b10293776e6de7f256e06bbf68b12e58"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/SELECTED_WITNESS_COLLATION.json",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/SELECTED_WITNESS_COLLATION.json",
+      "bytes": 2771,
+      "sha256": "e5dc8e454068ade1ecccea293ca6a58844de14c5df44352cea2b84cd090037c8"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/SOURCE_DISPOSITIONS.json",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/SOURCE_DISPOSITIONS.json",
+      "bytes": 1886,
+      "sha256": "27531d701630f276df17aca4986e8ab8254c67804c3229ca11c031bed87ad6b3"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/STAGED_test-courtyard-context.mjs",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/test-courtyard-context.mjs",
+      "bytes": 3520,
+      "sha256": "af5350349ec680c0000531db78f92d20dfb13677d91666dfddfb32145012eefb"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/STAGED_test-courtyard-reference.mjs",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/test-courtyard-reference.mjs",
+      "bytes": 5406,
+      "sha256": "7bd35daf94d75699de3c97f923a8ec23d608a3feeaab3a218830edc861cf6d88"
+    },
+    {
+      "file": "v53/research/home-yangzhai-courtyards/STAGED_WORK_STATE.json",
+      "stagingFile": "tmp/home-yangzhai-courtyard-staging/WORK_STATE.json",
+      "bytes": 7866,
+      "sha256": "edb63ee60e1d791085af9a3b7647b026abbe4c2f6cb95649578293c2feb6b7da"
+    }
+  ],
+  "moduleByteIdenticalToStaging": true,
+  "testsOnlyPathRelocated": true,
+  "passedRuntimeTestsNotRerunOnPromotion": true,
+  "workStatePathAudit": "Original staging state retained byte-identically as STAGED_WORK_STATE.json; current WORK_STATE has promoted paths and summary. Identity target corrected before package verification, no runtime rerun."
+}

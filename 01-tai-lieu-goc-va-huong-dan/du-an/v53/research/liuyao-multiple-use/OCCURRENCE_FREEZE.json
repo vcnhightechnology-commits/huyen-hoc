@@ -1,0 +1,16 @@
+{
+  "frozenAtUTC": "2026-10-29T14:47:20.102356+00:00",
+  "purpose": "Selected source-driven occurrence projection and manual fixture expectations before new implementation; reuse actual HHC batch rather than rerun.",
+  "files": [
+    {
+      "file": "OCCURRENCE_MANUAL.json",
+      "bytes": 2481,
+      "sha256": "8ee0f67ea48f99ff667bfb997939bd97cbbd4984c352d5446da6255d8c696154"
+    },
+    {
+      "file": "OCCURRENCE_EXPECTED.json",
+      "bytes": 1383,
+      "sha256": "3dbf262a93255620f1fc89599b45d62519b8148f764a8676e634e3fe76437c3a"
+    }
+  ]
+}

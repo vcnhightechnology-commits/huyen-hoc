@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-29",
+  "executedUTC": "2026-10-29T10:27:19.775Z",
+  "libraryVersion": "1.8.6",
+  "libraryFile": "v46/node_modules/lunar-typescript/dist/index.cjs",
+  "librarySHA256": "76e490b74e9913ed94b49689b90abc688ed1e2b11456312b3eb081ec63cf2fbe",
+  "scriptSHA256": "321f8732489954b9ac8b18d210b41377da9a6f927cbb8d5645b38d2f5beb4172",
+  "freezeSHA256": "4b2adf2ad4df6203d305601cdf7bfef74f49a5f01a48aa000c76d73785482ba9",
+  "method": "Execute the retained official library in Node and query its exported HE_ZHI_6 table12 times plus its LU table once. No reimplementation used for this comparison.",
+  "partners": [
+    {
+      "branch": "子",
+      "index": 0,
+      "actual": "丑",
+      "expected": "丑",
+      "matches": true
+    },
+    {
+      "branch": "丑",
+      "index": 1,
+      "actual": "子",
+      "expected": "子",
+      "matches": true
+    },
+    {
+      "branch": "寅",
+      "index": 2,
+      "actual": "亥",
+      "expected": "亥",
+      "matches": true
+    },
+    {
+      "branch": "卯",
+      "index": 3,
+      "actual": "戌",
+      "expected": "戌",
+      "matches": true
+    },
+    {
+      "branch": "辰",
+      "index": 4,
+      "actual": "酉",
+      "expected": "酉",
+      "matches": true
+    },
+    {
+      "branch": "巳",
+      "index": 5,
+      "actual": "申",
+      "expected": "申",
+      "matches": true
+    },
+    {
+      "branch": "午",
+      "index": 6,
+      "actual": "未",
+      "expected": "未",
+      "matches": true
+    },
+    {
+      "branch": "未",
+      "index": 7,
+      "actual": "午",
+      "expected": "午",
+      "matches": true
+    },
+    {
+      "branch": "申",
+      "index": 8,
+      "actual": "巳",
+      "expected": "巳",
+      "matches": true
+    },
+    {
+      "branch": "酉",
+      "index": 9,
+      "actual": "辰",
+      "expected": "辰",
+      "matches": true
+    },
+    {
+      "branch": "戌",
+      "index": 10,
+      "actual": "卯",
+      "expected": "卯",
+      "matches": true
+    },
+    {
+      "branch": "亥",
+      "index": 11,
+      "actual": "寅",
+      "expected": "寅",
+      "matches": true
+    }
+  ],
+  "lu": {
+    "stem": "甲",
+    "actual": "寅",
+    "expected": "寅",
+    "matches": true
+  },
+  "actualPartnerTableQueries": 12,
+  "actualLuQueries": 1,
+  "actualCalendarObjects": 0,
+  "actualNatalCharts": 0,
+  "untested": "Hidden-horse formula, source month station astronomy, directional fortune claims and effective combination are not validated by this coordinate batch.",
+  "sourceEfficacyValidated": false
+}

@@ -1,0 +1,195 @@
+{
+  "schema": "hhc.meihua.rule-ledger.v1",
+  "rules": [
+    {
+      "id": "sequence",
+      "pdfPages": [
+        13
+      ],
+      "evidenceType": "source-explicit",
+      "rule": "乾1兌2離3震4巽5坎6艮7坤8",
+      "disposition": "implemented"
+    },
+    {
+      "id": "elements",
+      "pdfPages": [
+        13
+      ],
+      "evidenceType": "source-explicit",
+      "rule": "QianDuiMetal/KunGenEarth/ZhenXunWood/KanWater/LiFire;five generation/control pairs",
+      "disposition": "implemented as symbolic relations"
+    },
+    {
+      "id": "trigram-zero",
+      "pdfPages": [
+        14
+      ],
+      "evidenceType": "source-explicit",
+      "rule": "Eight divisor,zero remainder maps to8",
+      "disposition": "implemented"
+    },
+    {
+      "id": "moving-zero",
+      "pdfPages": [
+        15
+      ],
+      "evidenceType": "digitization-convention",
+      "rule": "Six-cycle positions1..6,exact multiples use6; text has no position0",
+      "disposition": "implemented"
+    },
+    {
+      "id": "mutual",
+      "pdfPages": [
+        15
+      ],
+      "evidenceType": "source-explicit",
+      "rule": "Middle four original lines form overlapping trigrams; source does not require a64-name",
+      "disposition": "implemented with added convenience hexagram name"
+    },
+    {
+      "id": "pure-mutual",
+      "pdfPages": [
+        15
+      ],
+      "evidenceType": "printed-alternative-selected",
+      "rule": "又云乾坤無互互其變卦;use changed lines for pureQian/Kun",
+      "disposition": "implemented/versioned"
+    },
+    {
+      "id": "time",
+      "pdfPages": [
+        15,
+        23,
+        24
+      ],
+      "evidenceType": "source-explicit",
+      "rule": "Y+M+D upper,Y+M+D+H lower and moving,year/hourZhi1..12",
+      "disposition": "implemented/versioned"
+    },
+    {
+      "id": "object-count",
+      "pdfPages": [
+        16
+      ],
+      "evidenceType": "selected-reading-of-source",
+      "rule": "Count upper/hour lower/original count+hour moving; high-count variant not independently exemplified",
+      "disposition": "implemented/versioned/raw-count-hour-v1"
+    },
+    {
+      "id": "sound-pair",
+      "pdfPages": [
+        24,
+        25
+      ],
+      "evidenceType": "source-worked-example-generalization",
+      "rule": "First group upper,second lower,raw totals+hour moving; generalization to larger counts explicitly chosen",
+      "disposition": "implemented/versioned/two-raw-counts-hour-v1"
+    },
+    {
+      "id": "object-direction",
+      "pdfPages": [
+        21,
+        22,
+        27,
+        28
+      ],
+      "evidenceType": "source-explicit",
+      "rule": "Symbol upper,Later-Heaven direction lower,their indices+hour moving",
+      "disposition": "implemented/versioned/object-direction-hour-v1"
+    },
+    {
+      "id": "body-use",
+      "pdfPages": [
+        105,
+        106
+      ],
+      "evidenceType": "source-explicit",
+      "rule": "Moving half isUse/static half isBody",
+      "disposition": "implemented"
+    },
+    {
+      "id": "body-use-readings",
+      "pdfPages": [
+        13,
+        56,
+        58,
+        59
+      ],
+      "evidenceType": "editorial-inference-separated",
+      "rule": "Map symbolic relation then authored reflective prompt; no automatic good/bad prognosis",
+      "disposition": "implemented"
+    },
+    {
+      "id": "leap-month",
+      "pdfPages": [
+        15
+      ],
+      "evidenceType": "product-convention-source-silent",
+      "rule": "Use entered lunar month ordinal when leap checkbox selected",
+      "disposition": "implemented and visible"
+    },
+    {
+      "id": "current-clock",
+      "pdfPages": [
+        15
+      ],
+      "evidenceType": "product-convention-source-silent",
+      "rule": "Current button lunarUTC+7,civil midnight,Tý23:00..00:59,calendar-review guard",
+      "disposition": "implemented and visible"
+    },
+    {
+      "id": "input-range",
+      "pdfPages": [],
+      "evidenceType": "product-constraint",
+      "rule": "Positive counts capped1million; components not a verified complete lunar-date tuple",
+      "disposition": "implemented"
+    },
+    {
+      "id": "word-tone",
+      "pdfPages": [
+        17,
+        18,
+        25,
+        26
+      ],
+      "evidenceType": "source-explicit-not-yet-implemented",
+      "rule": "Tone/stroke and count methods differ; temple西7 contradicts modern counting and one-character versus added-hour line rules differ",
+      "disposition": "open,requires named method/input premise"
+    },
+    {
+      "id": "measurement",
+      "pdfPages": [
+        18,
+        19
+      ],
+      "evidenceType": "source-explicit-not-yet-implemented",
+      "rule": "Zhang/chi sums without hour;chi/cun sum adds hour; no standardized metric conversion given",
+      "disposition": "open"
+    },
+    {
+      "id": "season-strength",
+      "pdfPages": [
+        13,
+        58,
+        59,
+        61
+      ],
+      "evidenceType": "source-conditional-not-yet-implemented",
+      "rule": "Season,body strength and multiple contextual premises remain",
+      "disposition": "open"
+    },
+    {
+      "id": "forecast-anecdotes",
+      "pdfPages": [
+        23,
+        24,
+        25,
+        27,
+        28
+      ],
+      "evidenceType": "historical-literary",
+      "rule": "Recorded events and anecdotes retained as source content,not evidence of predictive reliability",
+      "disposition": "no automatic event prediction"
+    }
+  ]
+}

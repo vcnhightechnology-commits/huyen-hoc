@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-28",
+  "records": [
+    {
+      "id": "XK94-FAMILY",
+      "sourcePDFPage": 94,
+      "literalYangMarks": [
+        "乾",
+        "坎",
+        "艮",
+        "震"
+      ],
+      "literalYinMarks": [
+        "巽",
+        "離",
+        "坤",
+        "兌"
+      ],
+      "context": "Eight symbolic trigram labels. Following prose separately calls east/north rooms yang and west/south rooms yin; a measured-plan adapter is not established by assigning trigram direction.",
+      "notBirthFuyuanGroup": true,
+      "notWaterMountainGrouping": true
+    },
+    {
+      "id": "XK94-INITIAL",
+      "sourcePDFPage": 94,
+      "selectedLiteral": "氣口首門為初爻永不變更",
+      "disposition": "Initial gate/source frame anchor only; full carry/exchange algorithm unresolved, no first-draw automation."
+    },
+    {
+      "id": "XK95-VOICE",
+      "sourcePDFPage": 95,
+      "context": "Poem, annotation, and compiler stance distinguish the exchange method from other named house rules; references 天乙巨門 and later numbered combinations are not merged.",
+      "disposition": "Preserve argumentative voices, not consensus."
+    },
+    {
+      "id": "XK96-97-OUTCOMES",
+      "sourcePDFPages": [
+        96,
+        97
+      ],
+      "context": "Kinship, illness, death and timing claims with direction/line/year-month premises.",
+      "disposition": "Historical/interpretive source claims only; not deployed as diagnoses, events or family predictions."
+    },
+    {
+      "id": "XK98-BALANCE",
+      "sourcePDFPage": 98,
+      "selectedLiteral": "陽房多必損陰人陰房多必損陽人",
+      "sourceVoice": "Annotation arguing that balanced yin and yang is enough; practical efficacy not established.",
+      "disposition": "Only arithmetic comparison of complete declared source counts; never infer historical health/wealth claims."
+    },
+    {
+      "id": "XK98-100-SEVEN",
+      "sourcePDFPages": [
+        98,
+        99,
+        100
+      ],
+      "context": "Seven numbered combinations, 青龍/黃蛇/赤蛇 labels and directions, star attributions, bodily and household outcomes. Annotation distinguishes these from 裝卦 and says 天乙巨門 absent there.",
+      "disposition": "Not a complete seven-state exchange implementation; source-layer/model identification and efficacy remain open."
+    }
+  ]
+}

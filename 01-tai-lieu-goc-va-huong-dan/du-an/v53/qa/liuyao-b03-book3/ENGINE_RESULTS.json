@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-27",
+  "checks": [
+    {
+      "name": "Already acquired raw67-page PDF reused without HTTP or duplicated original PDF",
+      "ok": true
+    },
+    {
+      "name": "43new source renders/8expanded records/two QA crops, all67source pages now viewed by recorded scopes",
+      "ok": true
+    },
+    {
+      "name": "12first-pass relevant section spans across volumes5/6/7; page30completes body, never entire source application",
+      "ok": true
+    },
+    {
+      "name": "20bounded clauses keep medical/ritual assertions historical and distinguish marriage/birth/household/relative domains",
+      "ok": true
+    },
+    {
+      "name": "64actual HHC figure-number calls anchor all catalogue identities; calendar horizons are not product forecasts",
+      "ok": true
+    },
+    {
+      "name": "Pinned actual lunar runtime executes60anchors and120boundary endpoints, current/next xun tested with last-inside controls",
+      "ok": true
+    },
+    {
+      "name": "Raw branch 寅 on 甲辰 gives10days and on 癸丑 gives1day; actual movement/changed丑 do not replace primary branch",
+      "ok": true
+    },
+    {
+      "name": "46080selected primary-line/motion/day contexts match independent literal NaJia and actual lunar xun oracles",
+      "ok": true
+    },
+    {
+      "name": "Missing day stays unknown; unsupported domain, invalid day, extra strength/month context or malformed cast rejects",
+      "ok": true
+    },
+    {
+      "name": "Consumer707411bytes and10earlier private references unchanged; prior timing module preserved",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "actualHHCHexCalls": 64,
+    "actualLunarCalls": 180,
+    "distinctLunarNoonDates": 62,
+    "referenceAnchorDays": 60,
+    "privateSelectedLineContexts": 46080,
+    "rawVoidContexts": 7680,
+    "exitHistogram": {
+      "1": 768,
+      "2": 768,
+      "3": 768,
+      "4": 768,
+      "5": 768,
+      "6": 768,
+      "7": 768,
+      "8": 768,
+      "9": 768,
+      "10": 768
+    },
+    "graphDigest": "84ba0913c10c6897ccdb93de0c40a88aeaeb0ad6621093ab4d98d9c9c2417bba",
+    "newSourceRenders": 43,
+    "expandedEarlierPages": 8,
+    "QAOnlyRenders": 2,
+    "firstPassSectionSpans": 12,
+    "newOrCompletedSectionSpans": 8,
+    "boundedOperationalClauses": 20
+  },
+  "htmlSHA256": "549cb415c1a7785e92be25b407d965ea0abd4d3affc54696b784f84d87601857",
+  "consumerChanged": false,
+  "wholeBookApplied": false
+}

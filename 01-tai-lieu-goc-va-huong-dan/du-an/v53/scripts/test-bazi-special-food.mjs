@@ -1,0 +1,30 @@
+import{readFile,writeFile}from'node:fs/promises';import assert from'node:assert/strict';import{specialFoodCoordinates as inspect}from'../research/bazi-food-source/special-food-reference.mjs';
+const s=new URL('../qa/bazi-food-source/',import.meta.url),checks=[];async function check(name,fn){await fn();checks.push({name,ok:true});}
+const gao=['甲戌','庚午','戊辰','庚申'],hu=['丁酉','甲辰','癸酉','庚申'];
+await check('TwoactualHHCandtwoactualLunarforwardchartsfrom57boundedsearchchartspreserveprinted4pillarswithoutattributingmoderndatestohistoricalpeople',async()=>{
+ const p=JSON.parse(await readFile(new URL('SOURCE_EXAMPLES_PROBE.json',s),'utf8'));assert.equal(p.actualLunarSearchCharts,57);assert.equal(p.actualLunarForwardCharts,2);assert.equal(p.actualHHCBaziCalls,2);assert.deepEqual(p.records.map(x=>x.actualHHCPillars),[gao,hu]);for(const x of p.records){assert.deepEqual(x.actualHHCPillars,x.actualLunarPillars);assert.equal(x.historicalBirthDateAttributed,false);assert.equal(x.sourceOutcomeValidated,false);}
+});
+await check('SpecificWuDayGengShenHourrequiresbothcoordinates;GuiDaypatternisseparatenamedsourceandunknownhourisnotfalse',()=>{
+ const a=inspect({system:'TMTH005-zhuanshi',pillars:gao,declaredFacts:{}}),b=inspect({system:'TMTH005-zhuanyin',pillars:hu,declaredFacts:{}});assert.equal(a.baseCoordinatesMatch,true);assert.equal(b.baseCoordinatesMatch,true);assert.equal(inspect({system:'TMTH005-zhuanshi',pillars:hu,declaredFacts:{}}).baseCoordinatesMatch,false);
+ assert.equal(inspect({system:'TMTH005-zhuanshi',pillars:[...gao.slice(0,3),null],declaredFacts:{}}).baseCoordinatesMatch,null);assert.equal(inspect({system:'TMTH005-zhuanshi',pillars:[...gao.slice(0,3),'壬戌'],declaredFacts:{}}).baseCoordinatesMatch,false);
+});
+await check('RawyearJiacoexistswithsource195monthGengcontrolcounterexampleshape;presencedoesnotautomaticallyrejectorclaimactualcontrol',()=>{
+ const raw=inspect({system:'TMTH005-zhuanshi',pillars:gao,declaredFacts:{}});assert.deepEqual(raw.sourceLocalRawHits.map(x=>[x.position,x.kind,x.symbol]),[['year','stem','甲']]);assert.equal(raw.source195ControlledJiaCounterexampleShape,true);assert.equal(raw.declaredEffectiveMonthGengControlsYearJia,null);assert(raw.rawHitPresenceIsNotFinalSourceRejection);assert.equal(raw.effectiveControlOrCombination,null);
+ const declared=inspect({system:'TMTH005-zhuanshi',pillars:gao,declaredFacts:{effectiveMonthGengControlsYearJia:true}});assert.equal(declared.declaredEffectiveMonthGengControlsYearJia,true);assert.equal(declared.sourceFullPatternEstablished,null);
+ assert.throws(()=>inspect({system:'TMTH005-zhuanshi',pillars:['乙亥','辛巳','戊申','庚申'],declaredFacts:{effectiveMonthGengControlsYearJia:true}}));assert.throws(()=>inspect({system:'TMTH005-zhuanshi',pillars:[null,'庚午','戊辰','庚申'],declaredFacts:{effectiveMonthGengControlsYearJia:true}}));
+});
+await check('Source193yearmonthrawscopeisnotexpandedtohiddenstemsorallpillars;twoexplicitdifficultdaysarestillonlycoordinates',()=>{
+ const x=inspect({system:'TMTH005-zhuanshi',pillars:['乙亥','辛巳','戊寅','庚申'],declaredFacts:{}});assert.equal(x.sourceLocalRawHits.length,0);assert.equal(x.difficultDayCoordinates,true);assert(x.source193YearMonthOnly);assert.equal(x.sourceFullPatternEstablished,null);
+ const y=inspect({system:'TMTH005-zhuanshi',pillars:['丙寅','乙卯','戊午','庚申'],declaredFacts:{}});assert.deepEqual(y.sourceLocalRawHits.map(x=>[x.position,x.kind,x.symbol]),[['year','stem','丙'],['year','branch','寅'],['month','branch','卯']]);assert.equal(y.difficultDayCoordinates,true);
+ const partial=inspect({system:'TMTH005-zhuanshi',pillars:['甲戌','庚午',null,null],declaredFacts:{}});assert.deepEqual(partial.rawHitScannedPositions,['year','month']);assert.equal(partial.rawHitScanComplete,true);assert.equal(partial.baseCoordinatesMatch,null);assert.equal(partial.sourceLocalRawHits[0].sourceContainerPage,193);
+ const unknownScoped=inspect({system:'TMTH005-zhuanshi',pillars:[null,'庚午','戊辰','庚申'],declaredFacts:{}});assert.equal(unknownScoped.rawHitScanComplete,false);
+});
+await check('ProseSealpreferenceandpoemNoOfficerSealandAutumnWinterversusNotExclusivecommentaryremainparallel;nomadeduppriorityorautomaticseasonverdict',()=>{
+ const x=inspect({system:'TMTH005-zhuanshi',pillars:gao,declaredFacts:{dayStrong:true,effectiveMonthWealthOfficerPriority:true}});assert.deepEqual(x.sourceProseVsPoemSealConflict,{prose:'愛財星印綬',poem:'要無官印',resolution:null});assert.equal(x.sourceProseAutumnWinterVsCommentaryNotExclusive.automaticSeasonGate,null);assert.equal(x.sourcePriorityResolved,null);assert.equal(x.overallStrength,null);assert.equal(x.practicalOutcome,null);
+ const p=inspect({system:'TMTH005-zhuanyin',pillars:['丙寅','己巳','癸酉','庚申'],declaredFacts:{sealStrong:true}});assert(p.sourceLocalRawHits.some(x=>x.kind==='stem'&&x.symbol==='己'));assert(p.sourceLocalRawHits.some(x=>x.kind==='branch'&&x.symbol==='巳'));assert.equal(p.sourceFullPatternEstablished,null);
+});
+await check('Explicitnull,sparsearrays,aliasedcyclepairs,extrakeys,unknownfactnamesandcrosssystemcontrolclaimsarehandledwithoutcoercion',()=>{
+ const b={system:'TMTH005-zhuanshi',pillars:gao,declaredFacts:{}};for(const x of[null,{},[],{...b,pillars:Array(4)},{...b,pillars:['甲丑',...gao.slice(1)]},{...b,dayPolicy:'midnight'},{...b,declaredFacts:{strong:'true'}},{...b,declaredFacts:{chartIsGood:true}},{...b,[Symbol('x')]:true},Object.create(b)])assert.throws(()=>inspect(x));
+ assert.throws(()=>inspect({system:'TMTH005-zhuanyin',pillars:hu,declaredFacts:{effectiveMonthGengControlsYearJia:true}}));const a=inspect(b);a.pillars[0]='丙寅';assert.equal(inspect(b).pillars[0],'甲戌');
+});
+const out={date:'2026-10-28',checks,summary:{namedSourceSystems:2,sourcePrintedFourPillarExamples:2,actualHHCBaziCallsFromCompletedProbe:2,actualLunarForwardChartsFromCompletedProbe:2,actualLunarSearchChartsFromCompletedProbe:57,engineReexecutionInThisTestFile:0,fullPatternClassifier:false,effectiveControlMethod:false,sourceImageContinuityGapUnfilled:true,consumerChanged:false,wholeCatalogueCompleted:false}};await writeFile(new URL('SPECIAL_FOOD_RESULTS.json',s),JSON.stringify(out,null,2)+'\n');console.log(JSON.stringify(out));

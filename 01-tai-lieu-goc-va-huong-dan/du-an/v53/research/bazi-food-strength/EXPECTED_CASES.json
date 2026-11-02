@@ -1,0 +1,172 @@
+{
+  "basePillars": [
+    "甲寅",
+    "丙寅",
+    "甲子",
+    "戊辰"
+  ],
+  "baseFacts": {
+    "bingWaterRestraintAbsent": null,
+    "continuingShengWangXiangLuSatisfied": null,
+    "fireStrong": null,
+    "earthStrong": null,
+    "jiaStrong": null,
+    "bingReceivesGeneration": null,
+    "wuJiQiThin": null
+  },
+  "cases": [
+    {
+      "id": "all-unknown",
+      "season": null,
+      "region": null,
+      "facts": {},
+      "expected": {
+        "continuingRequirements": null,
+        "summerRequirements": null,
+        "springContrast": null,
+        "springSouthernRequirements": null
+      }
+    },
+    {
+      "id": "summer-attributes-without-strength",
+      "season": "summer",
+      "region": "東南",
+      "facts": {},
+      "expected": {
+        "summerRequirements": null
+      }
+    },
+    {
+      "id": "summer-explicit-complete",
+      "season": "summer",
+      "region": "東南",
+      "facts": {
+        "bingWaterRestraintAbsent": true,
+        "continuingShengWangXiangLuSatisfied": true,
+        "fireStrong": true,
+        "earthStrong": true
+      },
+      "expected": {
+        "continuingRequirements": true,
+        "summerRequirements": true,
+        "springContrast": false,
+        "springSouthernRequirements": false
+      }
+    },
+    {
+      "id": "summer-earth-missing",
+      "season": "summer",
+      "region": "東南",
+      "facts": {
+        "bingWaterRestraintAbsent": true,
+        "continuingShengWangXiangLuSatisfied": true,
+        "fireStrong": true
+      },
+      "expected": {
+        "summerRequirements": null
+      }
+    },
+    {
+      "id": "summer-earth-false",
+      "season": "summer",
+      "region": "東南",
+      "facts": {
+        "bingWaterRestraintAbsent": true,
+        "continuingShengWangXiangLuSatisfied": true,
+        "fireStrong": true,
+        "earthStrong": false
+      },
+      "expected": {
+        "summerRequirements": false
+      }
+    },
+    {
+      "id": "summer-compound-missing",
+      "season": "summer",
+      "region": "東南",
+      "facts": {
+        "bingWaterRestraintAbsent": true,
+        "fireStrong": true,
+        "earthStrong": true
+      },
+      "expected": {
+        "continuingRequirements": null,
+        "summerRequirements": null
+      }
+    },
+    {
+      "id": "spring-contrast-only",
+      "season": "three-spring",
+      "region": null,
+      "facts": {
+        "jiaStrong": true,
+        "bingReceivesGeneration": true,
+        "wuJiQiThin": true
+      },
+      "expected": {
+        "springContrast": true,
+        "springSouthernRequirements": null
+      }
+    },
+    {
+      "id": "spring-southern-requirements",
+      "season": "three-spring",
+      "region": "南方",
+      "facts": {
+        "bingWaterRestraintAbsent": true,
+        "continuingShengWangXiangLuSatisfied": true,
+        "fireStrong": true,
+        "earthStrong": true
+      },
+      "expected": {
+        "springSouthernRequirements": true,
+        "springContrast": null
+      }
+    },
+    {
+      "id": "spring-east-south-is-not-south",
+      "season": "three-spring",
+      "region": "東南",
+      "facts": {
+        "bingWaterRestraintAbsent": true,
+        "continuingShengWangXiangLuSatisfied": true,
+        "fireStrong": true,
+        "earthStrong": true
+      },
+      "expected": {
+        "springSouthernRequirements": false
+      }
+    },
+    {
+      "id": "known-restraint-blocks",
+      "season": "summer",
+      "region": "東南",
+      "facts": {
+        "bingWaterRestraintAbsent": false,
+        "continuingShengWangXiangLuSatisfied": true,
+        "fireStrong": true,
+        "earthStrong": true
+      },
+      "expected": {
+        "continuingRequirements": false,
+        "summerRequirements": false,
+        "waterRestraintBranch": true
+      }
+    },
+    {
+      "id": "jia-strength-alone",
+      "season": "three-spring",
+      "region": "南方",
+      "facts": {
+        "jiaStrong": true
+      },
+      "expected": {
+        "springContrast": null,
+        "springSouthernRequirements": null
+      }
+    }
+  ],
+  "absentVisibleWaterDoesNotEstablishEffectiveAbsence": true,
+  "phaseLabelsDoNotEstablishStrength": true,
+  "noOutcomeExpected": true
+}

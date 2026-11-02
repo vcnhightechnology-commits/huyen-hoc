@@ -1,0 +1,348 @@
+{
+  "schema": "hhc.bazi.triad-stars.chapter.v1",
+  "sourceDigital": {
+    "file": "v53/research/four-items/sources/KR3g0042_002.txt",
+    "bytes": 123566,
+    "sha256": "b0f9badc8aff64ee137392277eb2f7a428c39a9d8c9faa3154f79c626c2131b4"
+  },
+  "derivedLocator": {
+    "file": "tmp/bazi-triad-stars-staging/DIGITAL_CHAPTER_LOCATOR.txt",
+    "bytes": 2979,
+    "sha256": "84a49bbd323be29988f103d88597c9eb840849dd5f09f1c7ed0b8eddee274df0"
+  },
+  "cleanSHA256": "292c510a4c64b5b5aa91783483056f80423858b412e51ba8dd6abbdde3e1f699",
+  "cleanCodepoints": 899,
+  "cleanUTF16Units": 902,
+  "cleaningPolicy": "Remove pb tags, whitespace and ¶ only. Preserve encoded KR entities and glyph variants; offsets are codepoints, not UTF16 units.",
+  "records": [
+    {
+      "id": "J00",
+      "startCodepoint": 0,
+      "endCodepointExclusive": 90,
+      "literalDigital": "論將星華葢(二煞皆三合中取故附於後/)将星者如将劄中軍也故以三合中位謂之将星華葢者喻如寳葢天有此星其形如葢常覆乎大帝之座故以三合底處得庫謂之華葢洞𤣥經云将星處乎中軍華葢張乎庫土是也",
+      "disposition": "selected-general-middle-and-canopy-store-role-definitions",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "J01",
+      "startCodepoint": 90,
+      "endCodepointExclusive": 107,
+      "literalDigital": "凡将星常欲吉星相扶貴煞加臨乃為吉慶",
+      "disposition": "declared-benefic-support-and-noble-marker-not-classified",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "J02",
+      "startCodepoint": 107,
+      "endCodepointExclusive": 129,
+      "literalDigital": "理愚歌云將星若用亡神臨為國棟梁臣言吉助之為貴",
+      "disposition": "nested-attribution-亡神-with吉助-not-unconditional-cancellation",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "J03",
+      "startCodepoint": 129,
+      "endCodepointExclusive": 147,
+      "literalDigital": "更夾貴庫墓純粹而不雜者出将入相之格也",
+      "disposition": "unmixed-store-premise-and-historical-office-claim",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "J04",
+      "startCodepoint": 147,
+      "endCodepointExclusive": 161,
+      "literalDigital": "帶華葢正印而不夾庫兩府之格也",
+      "disposition": "positive-and-negative-premises-no-modern-office-prediction",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "J05",
+      "startCodepoint": 161,
+      "endCodepointExclusive": 174,
+      "literalDigital": "只帶庫墓而不帶正印員郎以上",
+      "disposition": "positive-and-negative-premises-no-modern-office-prediction",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "J06",
+      "startCodepoint": 174,
+      "endCodepointExclusive": 192,
+      "literalDigital": "既不帶墓又不𢃄正印止有華葢常調之禄也",
+      "disposition": "three-absence-presence-premises-no-numeric-rank-model",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "J07",
+      "startCodepoint": 192,
+      "endCodepointExclusive": 209,
+      "literalDigital": "𢃄華印而正建驛馬名曰節印主旌節之貴",
+      "disposition": "named-marker-conjunction-no-automatic-calendar-adapter",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "J08",
+      "startCodepoint": 209,
+      "endCodepointExclusive": 222,
+      "literalDigital": "若嵗干庫同庫為兩重福主大貴",
+      "disposition": "year-stem-store-frame-not-replaced-with-day-stem",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "J09",
+      "startCodepoint": 222,
+      "endCodepointExclusive": 247,
+      "literalDigital": "又曰凡人命得華葢多主孤寡總貴亦不免孤獨作僧道藝術論",
+      "disposition": "historical-isolation-and-religious-occupation-claim-not-product-rule",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "J10",
+      "startCodepoint": 247,
+      "endCodepointExclusive": 257,
+      "literalDigital": "壺中子云華葢為術藝星",
+      "disposition": "nested-attribution-art-label-only",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "J11",
+      "startCodepoint": 257,
+      "endCodepointExclusive": 289,
+      "literalDigital": "理愚歌云華葢雖吉亦有妨或為孽子或孤孀塡房入贅多闕口鑪鉗頂笠披緇黄",
+      "disposition": "historical-family-and-gender-claim-not-product-rule",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "J12",
+      "startCodepoint": 289,
+      "endCodepointExclusive": 319,
+      "literalDigital": "又云華葢星辰兄弟寡天上孤髙之宿也生來若在時與胎便是過房庶出者",
+      "disposition": "historical-time-and-fetal-pillar-claim-not-product-rule",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "J13",
+      "startCodepoint": 319,
+      "endCodepointExclusive": 336,
+      "literalDigital": "林開云印墓同華品格清重重臨印即公卿",
+      "disposition": "nested-attribution印墓同華-and-repeated印-open",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "J14",
+      "startCodepoint": 336,
+      "endCodepointExclusive": 350,
+      "literalDigital": "若還空破臨其位便是幽閒藝術人",
+      "disposition": "void-break-premises-not-classified",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "J15",
+      "startCodepoint": 350,
+      "endCodepointExclusive": 372,
+      "literalDigital": "又云華葢重重喜休逢破與衝性雖頗聰慧挾術走西東",
+      "disposition": "clash-break-and-strength-premises-not-classified",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "J16",
+      "startCodepoint": 372,
+      "endCodepointExclusive": 382,
+      "literalDigital": "若還臨旺相定是作三公",
+      "disposition": "strength-and-historical-office-claim-not-a-score",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "J17",
+      "startCodepoint": 382,
+      "endCodepointExclusive": 396,
+      "literalDigital": "君子值之應獲福小人生處怕懸針",
+      "disposition": "historical-social-hierarchy-claim-not-product-rule",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "J18",
+      "startCodepoint": 396,
+      "endCodepointExclusive": 432,
+      "literalDigital": "又曰凡命時坐華葢主平生歇滅壬癸人尤忌之主老年䘮子日犯尅妻女命時逢一生不産",
+      "disposition": "historical-mortality-spouse-fertility-claim-not-product-rule",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "J19",
+      "startCodepoint": 432,
+      "endCodepointExclusive": 440,
+      "literalDigital": "三命云華葢怕金木",
+      "disposition": "reported-negative-gold-wood-claim-kept-separate",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "J20",
+      "startCodepoint": 440,
+      "endCodepointExclusive": 479,
+      "literalDigital": "壺中子有重金重葢格如庚辰見庚辰辛丑見辛丑但逢兩金重見華葢更有禄馬秀氣扶持當封爵",
+      "disposition": "two-printed-repeated-pillar-examples-no-silent-NaYin-metal-assumption",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "J21",
+      "startCodepoint": 479,
+      "endCodepointExclusive": 520,
+      "literalDigital": "燭神經云華蓋為庇䕃清神主人曠逹神清性靈恬淡寡慾一生不利財物惟與夾貴併則為福清貴特逹",
+      "disposition": "nested-attribution-庇蔭-and-夾貴-qualification-not-outcome",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "X00",
+      "startCodepoint": 520,
+      "endCodepointExclusive": 573,
+      "literalDigital": "論咸池(按此煞須天干納音於地同類方是若只/論寅午戌在卯天干納音或不屬火非是)(此煞亦因三合/而取故附於後)",
+      "disposition": "editorial按-NaYin-same-kind-qualification-not-bare-branch-classifier",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "X01",
+      "startCodepoint": 573,
+      "endCodepointExclusive": 607,
+      "literalDigital": "淮南子曰日出扶桑入於咸池故五行沐浴之地名咸池是取日入之義萬物暗昧之時",
+      "disposition": "sunset-rationale-not-astronomical-calculation",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "X02",
+      "startCodepoint": 607,
+      "endCodepointExclusive": 635,
+      "literalDigital": "寅午戍卯巳酉丑午申子辰酉亥卯未子即長生第二位沐浴之宫是也",
+      "disposition": "four-coordinate-lists-and-second-stage-description",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "X03",
+      "startCodepoint": 635,
+      "endCodepointExclusive": 658,
+      "literalDigital": "一名敗神一名桃花煞其神主奸邪&KR0075;鄙",
+      "disposition": "names-and-historical-moral-claims-not-character-classifier",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "X04",
+      "startCodepoint": 658,
+      "endCodepointExclusive": 680,
+      "literalDigital": "如生旺則羙容儀躭酒色踈財好歡破散家業惟務貪滛",
+      "disposition": "historical-appearance-and-morality-claim-not-product-rule",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "X05",
+      "startCodepoint": 680,
+      "endCodepointExclusive": 721,
+      "literalDigital": "如死絶落魄不檢言行狡詐逰蕩賭&KR0608;忘恩失信私濫奸&KR0075;靡所不為",
+      "disposition": "historical-morality-claim-not-product-rule",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "X06",
+      "startCodepoint": 721,
+      "endCodepointExclusive": 736,
+      "literalDigital": "與元辰併更臨生旺者多得匪人為妻",
+      "disposition": "historical-spouse-claim-not-product-rule",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "X07",
+      "startCodepoint": 736,
+      "endCodepointExclusive": 760,
+      "literalDigital": "與貴人建禄併多因油鹽酒貨得生或因婦人暗昧之財起家",
+      "disposition": "historical-wealth-claim-not-product-rule",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "X08",
+      "startCodepoint": 760,
+      "endCodepointExclusive": 777,
+      "literalDigital": "平生有水厄癆瘵之疾累遭遺失暗昧之災",
+      "disposition": "historical-health-and-disaster-claim-not-medical-or-risk-guidance",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "X09",
+      "startCodepoint": 777,
+      "endCodepointExclusive": 794,
+      "literalDigital": "此人入命有破無成非為吉兆婦人尤忌之",
+      "disposition": "historical-overall-and-gender-claim-not-product-rule",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "X10",
+      "startCodepoint": 794,
+      "endCodepointExclusive": 808,
+      "literalDigital": "沈足云咸池忌日時又云咸池怕水",
+      "disposition": "digital-attribution-日時-and-water-taboo-not-adopted-priority",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "X11",
+      "startCodepoint": 808,
+      "endCodepointExclusive": 823,
+      "literalDigital": "壺中子云沐浴臨年伯夷有首陽之餓",
+      "disposition": "historical-exemplar-not-empirical-evidence",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "X12",
+      "startCodepoint": 823,
+      "endCodepointExclusive": 841,
+      "literalDigital": "又云見生值沐浴曰祼形行年值沐浴曰窮煞",
+      "disposition": "named-labels-without-calendar-basis",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "X13",
+      "startCodepoint": 841,
+      "endCodepointExclusive": 849,
+      "literalDigital": "又云五行最忌沐浴",
+      "disposition": "reported-generalization-not-adopted-overall-verdict",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "X14",
+      "startCodepoint": 849,
+      "endCodepointExclusive": 881,
+      "literalDigital": "紫虚局云風流淫冶號咸池併集來臨禍應期酒色相刑三二位更加神煞血光隨",
+      "disposition": "nested-rhyme-outcomes-not-source-of-an-algorithm",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "X15",
+      "startCodepoint": 881,
+      "endCodepointExclusive": 899,
+      "literalDigital": "詳諸書見咸池非吉煞日時與水命遇之尢凶",
+      "disposition": "source-summary-and-water命-premises-not-classified",
+      "wholeUnitApplied": false
+    }
+  ],
+  "chapterPages": {
+    "general-canopy": [
+      204,
+      205,
+      206,
+      207
+    ],
+    "xianchi": [
+      207,
+      208,
+      209
+    ]
+  },
+  "sharedPriorReviewedPositions": [
+    204,
+    205
+  ],
+  "newPositionsActuallyViewed": [
+    206,
+    207,
+    208,
+    209
+  ],
+  "lastPageIncludesNextChapterBoundary": 209,
+  "wholeChaptersApplied": false
+}

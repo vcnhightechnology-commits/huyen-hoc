@@ -1,0 +1,133 @@
+{
+  "date": "2026-10-28",
+  "sourcePDF": {
+    "file": "v53/research/home-yangzhai-shishu/Tianyige-330000-1705-0007405-yangzhai-shishu.pdf",
+    "bytes": 151275796,
+    "sha256": "b6394102a995bb66df173452b37614b29d58e34ff85e08c43077006572ac48a5",
+    "physicalPositions": 195
+  },
+  "sourceRawImages": [
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p131.jpg",
+      "sourcePDFPage": 131,
+      "sha256": "e8e587a003957124e35252d9885ba8b2ec0f4eb413a5606a10523f1e4d0408f0",
+      "bytes": 810368,
+      "sourceImageID": 405,
+      "expandedActuallyViewed": true,
+      "newReadPosition": false
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p132.jpg",
+      "sourcePDFPage": 132,
+      "sha256": "11c129deb71d22641ead689d2dd980466ce9220660f79a903b578a2cdd0ab4a3",
+      "bytes": 782747,
+      "sourceImageID": 409,
+      "expandedActuallyViewed": true,
+      "newReadPosition": false
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p133.jpg",
+      "sourcePDFPage": 133,
+      "sha256": "836080a49e668456d3e66200f011ef0a224dcd72ddbe07dbb091762c87185da0",
+      "bytes": 825493,
+      "sourceImageID": 412,
+      "expandedActuallyViewed": true,
+      "newReadPosition": false
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p134.jpg",
+      "sourcePDFPage": 134,
+      "sha256": "421266ea4de843a0a13575fb43e07893bfe8e9482b861627a7d2f43146423895",
+      "bytes": 794481,
+      "sourceImageID": 415,
+      "expandedActuallyViewed": true,
+      "newReadPosition": false
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p144.jpg",
+      "sourcePDFPage": 144,
+      "sha256": "2870a56a8ec8bad7dc635c7b23bc2e3196763510e9c519027918b15d687cfd8d",
+      "bytes": 843947,
+      "sourceImageID": 446,
+      "expandedActuallyViewed": true,
+      "newReadPosition": false
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p145.jpg",
+      "sourcePDFPage": 145,
+      "sha256": "df17a9db29274581394c3658cb0698c47837f5eab4dbab7056e98e60653904ac",
+      "bytes": 841508,
+      "sourceImageID": 449,
+      "expandedActuallyViewed": true,
+      "newReadPosition": false
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p146.jpg",
+      "sourcePDFPage": 146,
+      "sha256": "6e2dae475bf2e2fd6706b56e1a1e4d5de808c2e4848168ffa1bfbf4918be2b40",
+      "bytes": 796025,
+      "sourceImageID": 452,
+      "expandedActuallyViewed": true,
+      "newReadPosition": false
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p147.jpg",
+      "sourcePDFPage": 147,
+      "sha256": "bb85458a86a5c07db8c366fae8b16e67329f43ffd04bd840cd2c798597f589da",
+      "bytes": 806038,
+      "sourceImageID": 455,
+      "expandedActuallyViewed": true,
+      "newReadPosition": false
+    }
+  ],
+  "sourceInstitutionalProvenance": "Retained Tianyige institutional-sourcePDF; same existing witness, not a newly independent edition",
+  "selectedTablePage": 146,
+  "sourceRows": 7,
+  "printedCells": 84,
+  "clearCells": 82,
+  "unresolvedCells": 2,
+  "sourceMonthCalendarBoundaryResolved": false,
+  "sourceRowDomainsNotCollapsed": true,
+  "fullDateSelectionMethodImplemented": false,
+  "newHTTPRequests": 0,
+  "newContainers": 0,
+  "newIndependentWitnesses": 0,
+  "newReadSourcePositions": 0,
+  "runtimeProof": [
+    {
+      "file": "v46/node_modules/lunar-typescript/package.json",
+      "bytes": 2188,
+      "sha256": "f66f1217e67e227f77b7a35b3c5b40d3835842856920e99ebd7e10f2d940e21c",
+      "actualCJSBatchEntry": false,
+      "supplementalModuleNotExecutedByCJSBatch": false
+    },
+    {
+      "file": "v46/node_modules/lunar-typescript/dist/index.cjs",
+      "bytes": 425191,
+      "sha256": "76e490b74e9913ed94b49689b90abc688ed1e2b11456312b3eb081ec63cf2fbe",
+      "actualCJSBatchEntry": true,
+      "supplementalModuleNotExecutedByCJSBatch": false
+    },
+    {
+      "file": "v46/node_modules/lunar-typescript/dist/lib/LunarUtil.mjs",
+      "bytes": 125118,
+      "sha256": "91fa746093157e66911c8ee3876aa446a74628b64ebb42c25d8b329213b58d64",
+      "actualCJSBatchEntry": false,
+      "supplementalModuleNotExecutedByCJSBatch": true
+    }
+  ],
+  "runtimeVersion": "1.8.6",
+  "runtimeProofKind": "Installed local package files hashed; not new publisher-signature or independently retrieved package proof",
+  "actualLunarStemPairLookups": 20,
+  "diagnosticRuntimeProbe": {
+    "HE_GAN_5Reads": 1,
+    "HE_ZHI_6Reads": 1,
+    "POSITION_DESCReads": 1,
+    "newChartCalls": 0,
+    "probeUsedToInspectArrayShapeNotCountedAsSourceMatches": true
+  },
+  "actualHHCCalendarCharts": 0,
+  "actualIztroCharts": 0,
+  "sourceEfficacyValidated": false,
+  "wholeSourceApplied": false
+}

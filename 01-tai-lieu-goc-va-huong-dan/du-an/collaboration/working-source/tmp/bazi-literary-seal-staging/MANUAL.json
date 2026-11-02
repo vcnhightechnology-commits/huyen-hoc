@@ -1,0 +1,98 @@
+{
+  "sourceID": "TMTH003-WenzhangYin-literal-pairs",
+  "chapterUnit": {
+    "id": "S04",
+    "opening": "有文章印",
+    "start": 251,
+    "end": 323,
+    "text": "有文章印如戊寅見癸未辛巳見甲戌庚申見乙丑癸亥見丙辰乙亥見壬辰乃納音尅身干神復制戊午得癸未庚子得乙丑丁酉得壬辰己卯得甲戌辛酉得丙辰干神制支神合之類",
+    "wholeUnitApplied": false
+  },
+  "rows": [
+    {
+      "id": "A1",
+      "group": "A",
+      "root": "戊寅",
+      "target": "癸未",
+      "sourceConnective": "見",
+      "sourceMechanismPhrase": "乃納音尅身干神復制"
+    },
+    {
+      "id": "A2",
+      "group": "A",
+      "root": "辛巳",
+      "target": "甲戌",
+      "sourceConnective": "見",
+      "sourceMechanismPhrase": "乃納音尅身干神復制"
+    },
+    {
+      "id": "A3",
+      "group": "A",
+      "root": "庚申",
+      "target": "乙丑",
+      "sourceConnective": "見",
+      "sourceMechanismPhrase": "乃納音尅身干神復制"
+    },
+    {
+      "id": "A4",
+      "group": "A",
+      "root": "癸亥",
+      "target": "丙辰",
+      "sourceConnective": "見",
+      "sourceMechanismPhrase": "乃納音尅身干神復制"
+    },
+    {
+      "id": "A5",
+      "group": "A",
+      "root": "乙亥",
+      "target": "壬辰",
+      "sourceConnective": "見",
+      "sourceMechanismPhrase": "乃納音尅身干神復制"
+    },
+    {
+      "id": "B1",
+      "group": "B",
+      "root": "戊午",
+      "target": "癸未",
+      "sourceConnective": "得",
+      "sourceMechanismPhrase": "干神制支神合之類"
+    },
+    {
+      "id": "B2",
+      "group": "B",
+      "root": "庚子",
+      "target": "乙丑",
+      "sourceConnective": "得",
+      "sourceMechanismPhrase": "干神制支神合之類"
+    },
+    {
+      "id": "B3",
+      "group": "B",
+      "root": "丁酉",
+      "target": "壬辰",
+      "sourceConnective": "得",
+      "sourceMechanismPhrase": "干神制支神合之類"
+    },
+    {
+      "id": "B4",
+      "group": "B",
+      "root": "己卯",
+      "target": "甲戌",
+      "sourceConnective": "得",
+      "sourceMechanismPhrase": "干神制支神合之類"
+    },
+    {
+      "id": "B5",
+      "group": "B",
+      "root": "辛酉",
+      "target": "丙辰",
+      "sourceConnective": "得",
+      "sourceMechanismPhrase": "干神制支神合之類"
+    }
+  ],
+  "rootNatalRole": null,
+  "twoMechanismPhrasesNotMerged": true,
+  "sourceYiHaiRenChenPreserved": true,
+  "groupBStemControlDirectionAdjudicated": false,
+  "sourceEfficacyValidated": false
+}

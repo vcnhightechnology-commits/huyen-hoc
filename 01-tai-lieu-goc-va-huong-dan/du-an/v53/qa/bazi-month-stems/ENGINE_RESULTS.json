@@ -1,0 +1,1247 @@
+{
+  "checks": [
+    {
+      "name": "Ten manually read clauses agree at their exact retained digital page markers with declared glyph normalization",
+      "ok": true
+    },
+    {
+      "name": "All month inspection,onset,unknown-hour sweep and cycle calculations keep identical code bytes",
+      "ok": true
+    },
+    {
+      "name": "Actually executed lunar-typescript1.8.6 runtime matches the retained byte audit",
+      "ok": true
+    },
+    {
+      "name": "All sixteen source day-stem/month-branch examples contain the exact official stem in the real hidden-stem table",
+      "ok": true
+    },
+    {
+      "name": "Four source examples place the official relation outside the primary hidden stem",
+      "ok": true,
+      "detail": [
+        {
+          "day": "乙",
+          "branch": "巳",
+          "official": "庚"
+        },
+        {
+          "day": "辛",
+          "branch": "寅",
+          "official": "丙"
+        },
+        {
+          "day": "壬",
+          "branch": "午",
+          "official": "己"
+        },
+        {
+          "day": "癸",
+          "branch": "巳",
+          "official": "戊"
+        }
+      ]
+    },
+    {
+      "name": "2928 real charts retain every prior month/onset/cycle field while matching actual library month hidden stems",
+      "ok": true,
+      "detail": {
+        "charts": 2928,
+        "hiddenStemOccurrences": 6840
+      }
+    },
+    {
+      "name": "All ten day-relative relations and all twelve month branches occur in real comparison cases",
+      "ok": true
+    },
+    {
+      "name": "Every one of the sixteen image-read partial examples has a concrete computed chart fixture",
+      "ok": true
+    },
+    {
+      "name": "Rendering keeps each secondary official as a separate monthly stem without promoting it to the main stem",
+      "ok": true
+    },
+    {
+      "name": "Unknown-hour full1440minute range and monthly disclosure are unchanged with no invented hour",
+      "ok": true
+    },
+    {
+      "name": "Ambiguous known pillars suppress the entire month-and-cycle reading",
+      "ok": true
+    },
+    {
+      "name": "Engine,application and all unrelated content modules retain prior release bytes",
+      "ok": true
+    },
+    {
+      "name": "Standalone embeds the complete revised display and shared export expansion class",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "realCharts": 2928,
+    "hiddenStemOccurrences": 6840,
+    "sourcePairs": 16,
+    "secondaryOfficialCases": 4,
+    "realSourceFixtures": 16,
+    "unknownHourSweeps": 1
+  },
+  "fixtures": [
+    {
+      "source": {
+        "day": "丙",
+        "branch": "子",
+        "official": "癸"
+      },
+      "input": {
+        "y": 2020,
+        "m": 1,
+        "d": 4,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "己亥",
+        "丙子",
+        "丙午",
+        "戊子"
+      ],
+      "month": {
+        "branch": "Tý",
+        "main": {
+          "index": 9,
+          "name": "Quý",
+          "element": "Thủy",
+          "god": "Chính Quan",
+          "primary": true
+        },
+        "revealed": [
+          {
+            "index": 9,
+            "name": "Quý",
+            "element": "Thủy",
+            "god": "Chính Quan",
+            "primary": true,
+            "pillars": []
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "day": "壬",
+        "branch": "丑",
+        "official": "己"
+      },
+      "input": {
+        "y": 2020,
+        "m": 1,
+        "d": 10,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "己亥",
+        "丁丑",
+        "壬子",
+        "庚子"
+      ],
+      "month": {
+        "branch": "Sửu",
+        "main": {
+          "index": 5,
+          "name": "Kỷ",
+          "element": "Thổ",
+          "god": "Chính Quan",
+          "primary": true
+        },
+        "revealed": [
+          {
+            "index": 5,
+            "name": "Kỷ",
+            "element": "Thổ",
+            "god": "Chính Quan",
+            "primary": true,
+            "pillars": [
+              "năm"
+            ]
+          },
+          {
+            "index": 9,
+            "name": "Quý",
+            "element": "Thủy",
+            "god": "Kiếp Tài",
+            "primary": false,
+            "pillars": []
+          },
+          {
+            "index": 7,
+            "name": "Tân",
+            "element": "Kim",
+            "god": "Chính Ấn",
+            "primary": false,
+            "pillars": []
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "day": "己",
+        "branch": "寅",
+        "official": "甲"
+      },
+      "input": {
+        "y": 2020,
+        "m": 2,
+        "d": 6,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "戊寅",
+        "己卯",
+        "甲子"
+      ],
+      "month": {
+        "branch": "Dần",
+        "main": {
+          "index": 0,
+          "name": "Giáp",
+          "element": "Mộc",
+          "god": "Chính Quan",
+          "primary": true
+        },
+        "revealed": [
+          {
+            "index": 0,
+            "name": "Giáp",
+            "element": "Mộc",
+            "god": "Chính Quan",
+            "primary": true,
+            "pillars": [
+              "giờ"
+            ]
+          },
+          {
+            "index": 2,
+            "name": "Bính",
+            "element": "Hỏa",
+            "god": "Chính Ấn",
+            "primary": false,
+            "pillars": []
+          },
+          {
+            "index": 4,
+            "name": "Mậu",
+            "element": "Thổ",
+            "god": "Kiếp Tài",
+            "primary": false,
+            "pillars": [
+              "tháng"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "day": "辛",
+        "branch": "寅",
+        "official": "丙"
+      },
+      "input": {
+        "y": 2020,
+        "m": 2,
+        "d": 8,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "戊寅",
+        "辛巳",
+        "戊子"
+      ],
+      "month": {
+        "branch": "Dần",
+        "main": {
+          "index": 0,
+          "name": "Giáp",
+          "element": "Mộc",
+          "god": "Chính Tài",
+          "primary": true
+        },
+        "revealed": [
+          {
+            "index": 0,
+            "name": "Giáp",
+            "element": "Mộc",
+            "god": "Chính Tài",
+            "primary": true,
+            "pillars": []
+          },
+          {
+            "index": 2,
+            "name": "Bính",
+            "element": "Hỏa",
+            "god": "Chính Quan",
+            "primary": false,
+            "pillars": []
+          },
+          {
+            "index": 4,
+            "name": "Mậu",
+            "element": "Thổ",
+            "god": "Chính Ấn",
+            "primary": false,
+            "pillars": [
+              "tháng",
+              "giờ"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "day": "戊",
+        "branch": "卯",
+        "official": "乙"
+      },
+      "input": {
+        "y": 2020,
+        "m": 3,
+        "d": 6,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "己卯",
+        "戊申",
+        "壬子"
+      ],
+      "month": {
+        "branch": "Mão",
+        "main": {
+          "index": 1,
+          "name": "Ất",
+          "element": "Mộc",
+          "god": "Chính Quan",
+          "primary": true
+        },
+        "revealed": [
+          {
+            "index": 1,
+            "name": "Ất",
+            "element": "Mộc",
+            "god": "Chính Quan",
+            "primary": true,
+            "pillars": []
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "day": "癸",
+        "branch": "辰",
+        "official": "戊"
+      },
+      "input": {
+        "y": 2020,
+        "m": 4,
+        "d": 10,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "庚辰",
+        "癸未",
+        "壬子"
+      ],
+      "month": {
+        "branch": "Thìn",
+        "main": {
+          "index": 4,
+          "name": "Mậu",
+          "element": "Thổ",
+          "god": "Chính Quan",
+          "primary": true
+        },
+        "revealed": [
+          {
+            "index": 4,
+            "name": "Mậu",
+            "element": "Thổ",
+            "god": "Chính Quan",
+            "primary": true,
+            "pillars": []
+          },
+          {
+            "index": 1,
+            "name": "Ất",
+            "element": "Mộc",
+            "god": "Thực Thần",
+            "primary": false,
+            "pillars": []
+          },
+          {
+            "index": 9,
+            "name": "Quý",
+            "element": "Thủy",
+            "god": "Tỷ Kiên",
+            "primary": false,
+            "pillars": []
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "day": "辛",
+        "branch": "巳",
+        "official": "丙"
+      },
+      "input": {
+        "y": 2020,
+        "m": 5,
+        "d": 8,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "辛巳",
+        "辛亥",
+        "戊子"
+      ],
+      "month": {
+        "branch": "Tỵ",
+        "main": {
+          "index": 2,
+          "name": "Bính",
+          "element": "Hỏa",
+          "god": "Chính Quan",
+          "primary": true
+        },
+        "revealed": [
+          {
+            "index": 2,
+            "name": "Bính",
+            "element": "Hỏa",
+            "god": "Chính Quan",
+            "primary": true,
+            "pillars": []
+          },
+          {
+            "index": 6,
+            "name": "Canh",
+            "element": "Kim",
+            "god": "Kiếp Tài",
+            "primary": false,
+            "pillars": [
+              "năm"
+            ]
+          },
+          {
+            "index": 4,
+            "name": "Mậu",
+            "element": "Thổ",
+            "god": "Chính Ấn",
+            "primary": false,
+            "pillars": [
+              "giờ"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "day": "癸",
+        "branch": "巳",
+        "official": "戊"
+      },
+      "input": {
+        "y": 2020,
+        "m": 5,
+        "d": 10,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "辛巳",
+        "癸丑",
+        "壬子"
+      ],
+      "month": {
+        "branch": "Tỵ",
+        "main": {
+          "index": 2,
+          "name": "Bính",
+          "element": "Hỏa",
+          "god": "Chính Tài",
+          "primary": true
+        },
+        "revealed": [
+          {
+            "index": 2,
+            "name": "Bính",
+            "element": "Hỏa",
+            "god": "Chính Tài",
+            "primary": true,
+            "pillars": []
+          },
+          {
+            "index": 6,
+            "name": "Canh",
+            "element": "Kim",
+            "god": "Chính Ấn",
+            "primary": false,
+            "pillars": [
+              "năm"
+            ]
+          },
+          {
+            "index": 4,
+            "name": "Mậu",
+            "element": "Thổ",
+            "god": "Chính Quan",
+            "primary": false,
+            "pillars": []
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "day": "乙",
+        "branch": "巳",
+        "official": "庚"
+      },
+      "input": {
+        "y": 2020,
+        "m": 5,
+        "d": 12,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "辛巳",
+        "乙卯",
+        "丙子"
+      ],
+      "month": {
+        "branch": "Tỵ",
+        "main": {
+          "index": 2,
+          "name": "Bính",
+          "element": "Hỏa",
+          "god": "Thương Quan",
+          "primary": true
+        },
+        "revealed": [
+          {
+            "index": 2,
+            "name": "Bính",
+            "element": "Hỏa",
+            "god": "Thương Quan",
+            "primary": true,
+            "pillars": [
+              "giờ"
+            ]
+          },
+          {
+            "index": 6,
+            "name": "Canh",
+            "element": "Kim",
+            "god": "Chính Quan",
+            "primary": false,
+            "pillars": [
+              "năm"
+            ]
+          },
+          {
+            "index": 4,
+            "name": "Mậu",
+            "element": "Thổ",
+            "god": "Chính Tài",
+            "primary": false,
+            "pillars": []
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "day": "庚",
+        "branch": "午",
+        "official": "丁"
+      },
+      "input": {
+        "y": 2020,
+        "m": 6,
+        "d": 6,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "壬午",
+        "庚辰",
+        "丙子"
+      ],
+      "month": {
+        "branch": "Ngọ",
+        "main": {
+          "index": 3,
+          "name": "Đinh",
+          "element": "Hỏa",
+          "god": "Chính Quan",
+          "primary": true
+        },
+        "revealed": [
+          {
+            "index": 3,
+            "name": "Đinh",
+            "element": "Hỏa",
+            "god": "Chính Quan",
+            "primary": true,
+            "pillars": []
+          },
+          {
+            "index": 5,
+            "name": "Kỷ",
+            "element": "Thổ",
+            "god": "Chính Ấn",
+            "primary": false,
+            "pillars": []
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "day": "壬",
+        "branch": "午",
+        "official": "己"
+      },
+      "input": {
+        "y": 2020,
+        "m": 6,
+        "d": 8,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "壬午",
+        "壬午",
+        "庚子"
+      ],
+      "month": {
+        "branch": "Ngọ",
+        "main": {
+          "index": 3,
+          "name": "Đinh",
+          "element": "Hỏa",
+          "god": "Chính Tài",
+          "primary": true
+        },
+        "revealed": [
+          {
+            "index": 3,
+            "name": "Đinh",
+            "element": "Hỏa",
+            "god": "Chính Tài",
+            "primary": true,
+            "pillars": []
+          },
+          {
+            "index": 5,
+            "name": "Kỷ",
+            "element": "Thổ",
+            "god": "Chính Quan",
+            "primary": false,
+            "pillars": []
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "day": "壬",
+        "branch": "未",
+        "official": "己"
+      },
+      "input": {
+        "y": 2020,
+        "m": 7,
+        "d": 8,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "癸未",
+        "壬子",
+        "庚子"
+      ],
+      "month": {
+        "branch": "Mùi",
+        "main": {
+          "index": 5,
+          "name": "Kỷ",
+          "element": "Thổ",
+          "god": "Chính Quan",
+          "primary": true
+        },
+        "revealed": [
+          {
+            "index": 5,
+            "name": "Kỷ",
+            "element": "Thổ",
+            "god": "Chính Quan",
+            "primary": true,
+            "pillars": []
+          },
+          {
+            "index": 3,
+            "name": "Đinh",
+            "element": "Hỏa",
+            "god": "Chính Tài",
+            "primary": false,
+            "pillars": []
+          },
+          {
+            "index": 1,
+            "name": "Ất",
+            "element": "Mộc",
+            "god": "Thương Quan",
+            "primary": false,
+            "pillars": []
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "day": "乙",
+        "branch": "申",
+        "official": "庚"
+      },
+      "input": {
+        "y": 2020,
+        "m": 8,
+        "d": 10,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "甲申",
+        "乙酉",
+        "丙子"
+      ],
+      "month": {
+        "branch": "Thân",
+        "main": {
+          "index": 6,
+          "name": "Canh",
+          "element": "Kim",
+          "god": "Chính Quan",
+          "primary": true
+        },
+        "revealed": [
+          {
+            "index": 6,
+            "name": "Canh",
+            "element": "Kim",
+            "god": "Chính Quan",
+            "primary": true,
+            "pillars": [
+              "năm"
+            ]
+          },
+          {
+            "index": 8,
+            "name": "Nhâm",
+            "element": "Thủy",
+            "god": "Chính Ấn",
+            "primary": false,
+            "pillars": []
+          },
+          {
+            "index": 4,
+            "name": "Mậu",
+            "element": "Thổ",
+            "god": "Chính Tài",
+            "primary": false,
+            "pillars": []
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "day": "甲",
+        "branch": "酉",
+        "official": "辛"
+      },
+      "input": {
+        "y": 2020,
+        "m": 9,
+        "d": 8,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "乙酉",
+        "甲寅",
+        "甲子"
+      ],
+      "month": {
+        "branch": "Dậu",
+        "main": {
+          "index": 7,
+          "name": "Tân",
+          "element": "Kim",
+          "god": "Chính Quan",
+          "primary": true
+        },
+        "revealed": [
+          {
+            "index": 7,
+            "name": "Tân",
+            "element": "Kim",
+            "god": "Chính Quan",
+            "primary": true,
+            "pillars": []
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "day": "癸",
+        "branch": "戌",
+        "official": "戊"
+      },
+      "input": {
+        "y": 2020,
+        "m": 10,
+        "d": 17,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "丙戌",
+        "癸巳",
+        "壬子"
+      ],
+      "month": {
+        "branch": "Tuất",
+        "main": {
+          "index": 4,
+          "name": "Mậu",
+          "element": "Thổ",
+          "god": "Chính Quan",
+          "primary": true
+        },
+        "revealed": [
+          {
+            "index": 4,
+            "name": "Mậu",
+            "element": "Thổ",
+            "god": "Chính Quan",
+            "primary": true,
+            "pillars": []
+          },
+          {
+            "index": 7,
+            "name": "Tân",
+            "element": "Kim",
+            "god": "Thiên Ấn",
+            "primary": false,
+            "pillars": []
+          },
+          {
+            "index": 3,
+            "name": "Đinh",
+            "element": "Hỏa",
+            "god": "Thiên Tài",
+            "primary": false,
+            "pillars": []
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "day": "丁",
+        "branch": "亥",
+        "official": "壬"
+      },
+      "input": {
+        "y": 2020,
+        "m": 11,
+        "d": 10,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "丁亥",
+        "丁巳",
+        "庚子"
+      ],
+      "month": {
+        "branch": "Hợi",
+        "main": {
+          "index": 8,
+          "name": "Nhâm",
+          "element": "Thủy",
+          "god": "Chính Quan",
+          "primary": true
+        },
+        "revealed": [
+          {
+            "index": 8,
+            "name": "Nhâm",
+            "element": "Thủy",
+            "god": "Chính Quan",
+            "primary": true,
+            "pillars": []
+          },
+          {
+            "index": 0,
+            "name": "Giáp",
+            "element": "Mộc",
+            "god": "Chính Ấn",
+            "primary": false,
+            "pillars": []
+          }
+        ]
+      }
+    }
+  ],
+  "unknownInput": {
+    "y": 2018,
+    "m": 8,
+    "d": 9,
+    "tz": 8,
+    "noTime": true,
+    "gender": "male",
+    "dayPolicy": "midnight"
+  },
+  "rows": [
+    {
+      "input": {
+        "y": 2020,
+        "m": 1,
+        "d": 1,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "己亥",
+        "丙子",
+        "癸卯",
+        "壬子"
+      ],
+      "month": {
+        "branch": "Tý",
+        "main": {
+          "index": 9,
+          "name": "Quý",
+          "element": "Thủy",
+          "god": "Tỷ Kiên",
+          "primary": true
+        },
+        "revealed": [
+          {
+            "index": 9,
+            "name": "Quý",
+            "element": "Thủy",
+            "god": "Tỷ Kiên",
+            "primary": true,
+            "pillars": []
+          }
+        ]
+      }
+    },
+    {
+      "input": {
+        "y": 2020,
+        "m": 1,
+        "d": 1,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "midnight",
+        "lateZiHour": "next"
+      },
+      "pillars": [
+        "己亥",
+        "丙子",
+        "癸卯",
+        "壬子"
+      ],
+      "month": {
+        "branch": "Tý",
+        "main": {
+          "index": 9,
+          "name": "Quý",
+          "element": "Thủy",
+          "god": "Tỷ Kiên",
+          "primary": true
+        },
+        "revealed": [
+          {
+            "index": 9,
+            "name": "Quý",
+            "element": "Thủy",
+            "god": "Tỷ Kiên",
+            "primary": true,
+            "pillars": []
+          }
+        ]
+      }
+    },
+    {
+      "input": {
+        "y": 2020,
+        "m": 1,
+        "d": 1,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "己亥",
+        "丙子",
+        "癸卯",
+        "丙辰"
+      ],
+      "month": {
+        "branch": "Tý",
+        "main": {
+          "index": 9,
+          "name": "Quý",
+          "element": "Thủy",
+          "god": "Tỷ Kiên",
+          "primary": true
+        },
+        "revealed": [
+          {
+            "index": 9,
+            "name": "Quý",
+            "element": "Thủy",
+            "god": "Tỷ Kiên",
+            "primary": true,
+            "pillars": []
+          }
+        ]
+      }
+    },
+    {
+      "input": {
+        "y": 2020,
+        "m": 1,
+        "d": 1,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "midnight",
+        "lateZiHour": "next"
+      },
+      "pillars": [
+        "己亥",
+        "丙子",
+        "癸卯",
+        "丙辰"
+      ],
+      "month": {
+        "branch": "Tý",
+        "main": {
+          "index": 9,
+          "name": "Quý",
+          "element": "Thủy",
+          "god": "Tỷ Kiên",
+          "primary": true
+        },
+        "revealed": [
+          {
+            "index": 9,
+            "name": "Quý",
+            "element": "Thủy",
+            "god": "Tỷ Kiên",
+            "primary": true,
+            "pillars": []
+          }
+        ]
+      }
+    },
+    {
+      "input": {
+        "y": 2020,
+        "m": 1,
+        "d": 1,
+        "hour": 16,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "己亥",
+        "丙子",
+        "癸卯",
+        "庚申"
+      ],
+      "month": {
+        "branch": "Tý",
+        "main": {
+          "index": 9,
+          "name": "Quý",
+          "element": "Thủy",
+          "god": "Tỷ Kiên",
+          "primary": true
+        },
+        "revealed": [
+          {
+            "index": 9,
+            "name": "Quý",
+            "element": "Thủy",
+            "god": "Tỷ Kiên",
+            "primary": true,
+            "pillars": []
+          }
+        ]
+      }
+    },
+    {
+      "input": {
+        "y": 2020,
+        "m": 1,
+        "d": 1,
+        "hour": 16,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "midnight",
+        "lateZiHour": "next"
+      },
+      "pillars": [
+        "己亥",
+        "丙子",
+        "癸卯",
+        "庚申"
+      ],
+      "month": {
+        "branch": "Tý",
+        "main": {
+          "index": 9,
+          "name": "Quý",
+          "element": "Thủy",
+          "god": "Tỷ Kiên",
+          "primary": true
+        },
+        "revealed": [
+          {
+            "index": 9,
+            "name": "Quý",
+            "element": "Thủy",
+            "god": "Tỷ Kiên",
+            "primary": true,
+            "pillars": []
+          }
+        ]
+      }
+    }
+  ],
+  "manualSHA256": "ec26bd9855294d699cc0117c2f9a6689e43bfa9506184e505662b0bef26a21f0"
+}

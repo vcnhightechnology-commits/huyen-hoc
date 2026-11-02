@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-27",
+  "checks": [
+    {
+      "name": "Six retained HTTP200bodies match exact bytes/SHA256;two TLS failures stay failures",
+      "ok": true
+    },
+    {
+      "name": "Original two PDF byte identities match pinned Commons API size/SHA1 and description revisions",
+      "ok": true
+    },
+    {
+      "name": "Twenty-eight bounded manual image records are hashed;84navigation pages are explicitly separate",
+      "ok": true
+    },
+    {
+      "name": "Missing Wikisource卷01and catalog-only Japanese witness are not counted as full text",
+      "ok": true
+    },
+    {
+      "name": "64source palace identities form a bijection and agree with actual HHC hex engine and prior printed catalogue",
+      "ok": true
+    },
+    {
+      "name": "All48new book NaJia positions corroborate the separately retained MaiHoa table,with bottom-up halves",
+      "ok": true
+    },
+    {
+      "name": "48literal branch positions agree with independent ascending/descending cyclic controls",
+      "ok": true
+    },
+    {
+      "name": "All25printed kin cells agree with independent generation/control relations based on palace element",
+      "ok": true
+    },
+    {
+      "name": "Eight printed乾世應anchors match all stages,including遊魂4/歸魂3",
+      "ok": true
+    },
+    {
+      "name": "Four source structural fixtures preserve two primary-recognition examples and explicit43→44change example",
+      "ok": true
+    },
+    {
+      "name": "43→44changed丑/戌stay兄弟relative to original坤土;changed乾金would incorrectly yield父母",
+      "ok": true
+    },
+    {
+      "name": "Every4096primary/changed pair runs actual HHC engine;only moving lines get annotations with original palace kin",
+      "ok": true
+    },
+    {
+      "name": "All10explicit day stems follow source starts and two printed rows;missing stem leaves six labels null",
+      "ok": true
+    },
+    {
+      "name": "Invalid/sparse/coerced input and unsupported date/forecast premises are rejected",
+      "ok": true
+    },
+    {
+      "name": "Returned charts/catalogue are isolated and cannot mutate source tables",
+      "ok": true
+    },
+    {
+      "name": "Released HTML and every root JS/CSS remain byte-identical;research reference is absent from public site",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "sourceExamples": 4,
+    "palaceMembers": 64,
+    "najiaPositions": 48,
+    "kinCells": 25,
+    "roleStages": 8,
+    "explicitDayStemRows": 10,
+    "literalSpiritRotationRows": 2,
+    "derivedAdditionalRotations": 4,
+    "exhaustiveStructures": 4096,
+    "movingAnnotations": 12288,
+    "actualHHCHexCalls": 8260,
+    "changedPalaceDiff": 3584,
+    "changedKinAnchorDifferences": 9864,
+    "exhaustiveDigest": "5c127081137371396489bee77ccb6b61c5b94946ef64a9c2a78ee2c706169060",
+    "retainedHTTPBodies": 6,
+    "failedTLSRequests": 2,
+    "boundedImageRecords": 28,
+    "navigationPagesOnly": 84,
+    "consumerChanged": false,
+    "wholeBooksApplied": false,
+    "predictiveAccuracyEstablished": false
+  },
+  "htmlSHA256": "549cb415c1a7785e92be25b407d965ea0abd4d3affc54696b784f84d87601857"
+}

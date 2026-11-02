@@ -1,0 +1,24 @@
+{
+  "system": "xieji-three-needles",
+  "model": "equal24-zi-zero-clockwise",
+  "sourceHalfPositionOffsets": {
+    "regular": 0,
+    "middle": -1,
+    "seam": 1
+  },
+  "derivedStepDegrees": 15,
+  "derivedHalfStepDegrees": 7.5,
+  "derivation": "360°/24 equal model positions; middle precedes and seam follows regular by half a position. Degrees are a software geometry convention, not numerals quoted from pages12–15.",
+  "endpointPolicy": "both-at-touch",
+  "endpointPolicyTier": "Software convention: source does not prescribe half-open endpoints.",
+  "regularCoordinateOrigin": "Zi=0°, increasing 子→癸→丑 in an explicitly chosen ideal model.",
+  "physicalNorthCalibration": null,
+  "magneticDeclinationAdapter": null,
+  "sourceUse": {
+    "regular": "定向",
+    "middle": "格龍",
+    "seam": "消砂納水"
+  },
+  "modernFieldMeasurementValidated": false,
+  "practicalOutcome": null
+}

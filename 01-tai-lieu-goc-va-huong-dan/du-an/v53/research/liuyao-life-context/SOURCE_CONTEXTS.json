@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-27",
+  "sourceInstructionsAreData": true,
+  "methods": [
+    {
+      "id": "B02-ch037-lifelong-wealth-structure",
+      "sourcePages": [
+        214,
+        215
+      ],
+      "sourceVoice": "覺子 and chapter37 source, targeted structural roles only",
+      "groups": [
+        {
+          "id": "wealth",
+          "kin": "妻財",
+          "sourceTerm": "財"
+        },
+        {
+          "id": "blessing",
+          "kin": "子孫",
+          "sourceTerm": "福/子孫"
+        }
+      ],
+      "sourceReading": "世爻財爻子孫爻三者",
+      "groupingBasis": "Three explicit source actors:世,財,子孫. Whether旺相/無氣/失陷 applies is not inferred from presence."
+    },
+    {
+      "id": "B02-ch038-lifelong-career-structure",
+      "sourcePages": [
+        229
+      ],
+      "sourceVoice": "chapter38 opening, targeted structural roles only",
+      "groups": [
+        {
+          "id": "office",
+          "kin": "官鬼",
+          "sourceTerm": "官"
+        },
+        {
+          "id": "writing",
+          "kin": "父母",
+          "sourceTerm": "父"
+        }
+      ],
+      "sourceReading": "官父興隆文章見用",
+      "groupingBasis": "Parallel source role groups, not a claim that parent always generates官 or an automatically selected用神."
+    }
+  ],
+  "separateQuestionSource": {
+    "sourcePages": [
+      213,
+      214
+    ],
+    "focusCategories": [
+      "parents",
+      "siblings",
+      "wealth",
+      "career",
+      "marriage",
+      "children",
+      "longevity"
+    ],
+    "sourceLimit": "Author critiques treatingonecastasalloflife;source ends及壽元俱宜分占. Categories not automatically derivedfromusertext,not permissiontoautocast."
+  },
+  "structuralElementEdges": "Ordinary five-element生成/克 relations from retained foundations. Edges are derived, not source prose quotations, activity priorities or effective causal effects.",
+  "wholeConditionalRulesCompiled": false,
+  "practicalOutcomesValidated": false
+}

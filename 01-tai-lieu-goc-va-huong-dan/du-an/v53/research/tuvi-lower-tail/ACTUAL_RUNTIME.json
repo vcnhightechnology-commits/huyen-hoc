@@ -1,0 +1,190 @@
+{
+  "date": "2026-10-29",
+  "actualHHCTuviCalls": 3,
+  "actualIztroNatalCalls": 3,
+  "actualConsumerPalaceReads": 3,
+  "actualRuntimeBatchInvocations": 1,
+  "codeHashes": {
+    "engine.js": "39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6",
+    "content.js": "c4f9c12dd2fdc703909dc9ab98e26c718f11af18f5fbba3e5c4dce88f58911a1"
+  },
+  "iztroVersion": "2.6.2",
+  "records": [
+    {
+      "id": "chang-guogong-empty",
+      "input": {
+        "y": 1951,
+        "m": 2,
+        "d": 12,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 14,
+        "minute": 0,
+        "gender": "male"
+      },
+      "printedYearPillar": "辛卯",
+      "hhcYearPillar": "Tân Mão",
+      "iztroLunar": "一九五一年二月十二",
+      "hhcSolar": {
+        "d": 19,
+        "m": 3,
+        "y": 1951
+      },
+      "iztroSolar": "1951-3-19",
+      "hhcProjection": {
+        "mingBranch": "申",
+        "cuc": 6,
+        "residentMajor": [],
+        "oppositeBranch": "寅",
+        "oppositeMajor": [
+          "天機",
+          "太陰"
+        ]
+      },
+      "iztroProjection": {
+        "mingBranch": "申",
+        "cuc": 6,
+        "residentMajor": [],
+        "oppositeBranch": "寅",
+        "oppositeMajor": [
+          "天機",
+          "太陰"
+        ]
+      },
+      "consumerProjection": {
+        "residentMajor": [],
+        "opposite": {
+          "branch": "Dần",
+          "stars": [
+            "天機",
+            "太陰"
+          ]
+        },
+        "text": "Cung Mệnh không có chính tinh tọa thủ, còn gọi là vô chính diệu. Điều này tự nó không quyết định tốt hay xấu. Có thể đọc thêm cung đối diện Thiên Di tại Dần, nơi có Thiên Cơ và Thái Âm để có góc nhìn bổ sung."
+      },
+      "fullHistoricalDateAttributed": false,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "linsheng-empty",
+      "input": {
+        "y": 1954,
+        "m": 4,
+        "d": 20,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 0,
+        "minute": 0,
+        "gender": "male"
+      },
+      "printedYearPillar": "甲午",
+      "hhcYearPillar": "Giáp Ngọ",
+      "iztroLunar": "一九五四年四月二十",
+      "hhcSolar": {
+        "d": 22,
+        "m": 5,
+        "y": 1954
+      },
+      "iztroSolar": "1954-5-22",
+      "hhcProjection": {
+        "mingBranch": "巳",
+        "cuc": 3,
+        "residentMajor": [],
+        "oppositeBranch": "亥",
+        "oppositeMajor": [
+          "廉貞",
+          "貪狼"
+        ]
+      },
+      "iztroProjection": {
+        "mingBranch": "巳",
+        "cuc": 3,
+        "residentMajor": [],
+        "oppositeBranch": "亥",
+        "oppositeMajor": [
+          "廉貞",
+          "貪狼"
+        ]
+      },
+      "consumerProjection": {
+        "residentMajor": [],
+        "opposite": {
+          "branch": "Hợi",
+          "stars": [
+            "廉貞",
+            "貪狼"
+          ]
+        },
+        "text": "Cung Mệnh không có chính tinh tọa thủ, còn gọi là vô chính diệu. Điều này tự nó không quyết định tốt hay xấu. Có thể đọc thêm cung đối diện Thiên Di tại Hợi, nơi có Liêm Trinh và Tham Lang để có góc nhìn bổ sung."
+      },
+      "fullHistoricalDateAttributed": false,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "xiucai-occupied",
+      "input": {
+        "y": 1980,
+        "m": 9,
+        "d": 10,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 4,
+        "minute": 0,
+        "gender": "male"
+      },
+      "printedYearPillar": "庚申",
+      "hhcYearPillar": "Canh Thân",
+      "iztroLunar": "一九八〇年九月初十",
+      "hhcSolar": {
+        "d": 18,
+        "m": 10,
+        "y": 1980
+      },
+      "iztroSolar": "1980-10-18",
+      "hhcProjection": {
+        "mingBranch": "申",
+        "cuc": 2,
+        "residentMajor": [
+          "破軍"
+        ],
+        "oppositeBranch": "寅",
+        "oppositeMajor": [
+          "天相",
+          "武曲"
+        ]
+      },
+      "iztroProjection": {
+        "mingBranch": "申",
+        "cuc": 2,
+        "residentMajor": [
+          "破軍"
+        ],
+        "oppositeBranch": "寅",
+        "oppositeMajor": [
+          "天相",
+          "武曲"
+        ]
+      },
+      "consumerProjection": {
+        "residentMajor": [
+          "破軍"
+        ],
+        "opposite": null,
+        "text": "Gợi nhu cầu đổi mới, tháo gỡ cách làm cũ và bắt đầu lại khi cần. Sức sáng tạo thường xuất hiện khi bạn được phép thử một hướng khác."
+      },
+      "fullHistoricalDateAttributed": false,
+      "sourceOutcomeValidated": false
+    }
+  ],
+  "consumerChanged": false,
+  "sourceOutcomeValidated": false
+}

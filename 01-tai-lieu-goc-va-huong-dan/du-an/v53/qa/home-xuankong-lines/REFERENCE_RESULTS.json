@@ -1,0 +1,371 @@
+{
+  "date": "2026-10-28",
+  "checks": [
+    {
+      "name": "Two literal source relocation examples retain origin before destination without assigning final gate positions",
+      "ok": true
+    },
+    {
+      "name": "Ten and twenty declared source units discard all earlier units and keep five ordered units above the separately declared gate",
+      "ok": true
+    },
+    {
+      "name": "Repair and new count one declared unit each, while duplicate IDs and an unknown count unit never become multiple rooms",
+      "ok": true
+    },
+    {
+      "name": "Fewer than five rooms do not borrow the relocation pair to manufacture a complete hexagram",
+      "ok": true
+    },
+    {
+      "name": "Declared room sides never classify diagonal measured sectors, floor counts or area; unknown current tail stays unknown",
+      "ok": true
+    },
+    {
+      "name": "Sixty-four actual HHC hexNumber calls verify bit encoding only, with independent Qian/Kun/Jiji/Weiji orientation anchors",
+      "ok": true
+    },
+    {
+      "name": "Gate is never automatically complemented, caller objects remain independent, and strict fields reject hidden calendar or outcome coercion",
+      "ok": true
+    }
+  ],
+  "coordinates": [
+    {
+      "bitsBottomToTop": "000000",
+      "actualHHCHexagramNumber": 2,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "100000",
+      "actualHHCHexagramNumber": 24,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "010000",
+      "actualHHCHexagramNumber": 7,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "110000",
+      "actualHHCHexagramNumber": 19,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "001000",
+      "actualHHCHexagramNumber": 15,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "101000",
+      "actualHHCHexagramNumber": 36,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "011000",
+      "actualHHCHexagramNumber": 46,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "111000",
+      "actualHHCHexagramNumber": 11,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "000100",
+      "actualHHCHexagramNumber": 16,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "100100",
+      "actualHHCHexagramNumber": 51,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "010100",
+      "actualHHCHexagramNumber": 40,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "110100",
+      "actualHHCHexagramNumber": 54,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "001100",
+      "actualHHCHexagramNumber": 62,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "101100",
+      "actualHHCHexagramNumber": 55,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "011100",
+      "actualHHCHexagramNumber": 32,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "111100",
+      "actualHHCHexagramNumber": 34,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "000010",
+      "actualHHCHexagramNumber": 8,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "100010",
+      "actualHHCHexagramNumber": 3,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "010010",
+      "actualHHCHexagramNumber": 29,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "110010",
+      "actualHHCHexagramNumber": 60,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "001010",
+      "actualHHCHexagramNumber": 39,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "101010",
+      "actualHHCHexagramNumber": 63,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "011010",
+      "actualHHCHexagramNumber": 48,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "111010",
+      "actualHHCHexagramNumber": 5,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "000110",
+      "actualHHCHexagramNumber": 45,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "100110",
+      "actualHHCHexagramNumber": 17,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "010110",
+      "actualHHCHexagramNumber": 47,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "110110",
+      "actualHHCHexagramNumber": 58,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "001110",
+      "actualHHCHexagramNumber": 31,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "101110",
+      "actualHHCHexagramNumber": 49,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "011110",
+      "actualHHCHexagramNumber": 28,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "111110",
+      "actualHHCHexagramNumber": 43,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "000001",
+      "actualHHCHexagramNumber": 23,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "100001",
+      "actualHHCHexagramNumber": 27,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "010001",
+      "actualHHCHexagramNumber": 4,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "110001",
+      "actualHHCHexagramNumber": 41,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "001001",
+      "actualHHCHexagramNumber": 52,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "101001",
+      "actualHHCHexagramNumber": 22,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "011001",
+      "actualHHCHexagramNumber": 18,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "111001",
+      "actualHHCHexagramNumber": 26,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "000101",
+      "actualHHCHexagramNumber": 35,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "100101",
+      "actualHHCHexagramNumber": 21,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "010101",
+      "actualHHCHexagramNumber": 64,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "110101",
+      "actualHHCHexagramNumber": 38,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "001101",
+      "actualHHCHexagramNumber": 56,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "101101",
+      "actualHHCHexagramNumber": 30,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "011101",
+      "actualHHCHexagramNumber": 50,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "111101",
+      "actualHHCHexagramNumber": 14,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "000011",
+      "actualHHCHexagramNumber": 20,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "100011",
+      "actualHHCHexagramNumber": 42,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "010011",
+      "actualHHCHexagramNumber": 59,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "110011",
+      "actualHHCHexagramNumber": 61,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "001011",
+      "actualHHCHexagramNumber": 53,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "101011",
+      "actualHHCHexagramNumber": 37,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "011011",
+      "actualHHCHexagramNumber": 57,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "111011",
+      "actualHHCHexagramNumber": 9,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "000111",
+      "actualHHCHexagramNumber": 12,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "100111",
+      "actualHHCHexagramNumber": 25,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "010111",
+      "actualHHCHexagramNumber": 6,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "110111",
+      "actualHHCHexagramNumber": 10,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "001111",
+      "actualHHCHexagramNumber": 33,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "101111",
+      "actualHHCHexagramNumber": 13,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "011111",
+      "actualHHCHexagramNumber": 44,
+      "sourceHouseInterpretationValidated": false
+    },
+    {
+      "bitsBottomToTop": "111111",
+      "actualHHCHexagramNumber": 1,
+      "sourceHouseInterpretationValidated": false
+    }
+  ],
+  "summary": {
+    "completeChecks": 7,
+    "sourcePrintedRelocationExamples": 2,
+    "actualHHCHexNumberCalls": 64,
+    "newCalendarChartCalls": 0,
+    "newHHCDirectionsCalls": 0,
+    "newIztroCalls": 0,
+    "fullXuanKongExchangeMethodApplied": false,
+    "modernPlanAdapterImplemented": false,
+    "consumerChanged": false,
+    "wholeCatalogueCompleted": false
+  },
+  "actualEngine": {
+    "file": "v53/engine.js",
+    "sha256": "39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6"
+  }
+}

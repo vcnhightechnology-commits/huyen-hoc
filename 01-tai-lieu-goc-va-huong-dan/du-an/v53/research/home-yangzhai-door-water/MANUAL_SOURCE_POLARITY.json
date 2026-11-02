@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-28",
+  "sourcePDFPage": 107,
+  "sourceHeading": "陰陽山水法",
+  "yangWorkingText": "乾甲坤乙坎癸申辰離壬寅戌俱陽也",
+  "yinWorkingText": "艮丙巽辛兌丁巳丑震庚亥未俱陰也",
+  "yangMarks": [
+    "乾",
+    "甲",
+    "坤",
+    "乙",
+    "坎",
+    "癸",
+    "申",
+    "辰",
+    "離",
+    "壬",
+    "寅",
+    "戌"
+  ],
+  "yinMarks": [
+    "艮",
+    "丙",
+    "巽",
+    "辛",
+    "兌",
+    "丁",
+    "巳",
+    "丑",
+    "震",
+    "庚",
+    "亥",
+    "未"
+  ],
+  "mappingToMountainMarks": {
+    "坎": "子",
+    "離": "午",
+    "震": "卯",
+    "兌": "酉"
+  },
+  "normalizationBasis": "The prose sometimes names cardinal trigram 坎/離/震/兌 where the24山 table uses子/午/卯/酉; this conversion is explicit, not a new literal character in source.",
+  "notUniversalYinYangSystem": true,
+  "sourceOutcomesValidated": false
+}

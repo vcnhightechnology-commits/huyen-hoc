@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-29T17:05:21.439435+07:00",
+  "scope": "manual readings, 18 expected cases, source identities and inspected crop dispositions frozen before reference module or tests exist",
+  "files": [
+    {
+      "file": "MANUAL_CONDITIONS.json",
+      "bytes": 7525,
+      "sha256": "414d5267092166c51d34143c101fc61ee4d50a51d25722840309fb64ca1b8eef"
+    },
+    {
+      "file": "EXPECTED_BEFORE_IMPLEMENTATION.json",
+      "bytes": 8761,
+      "sha256": "c6dd795a2f7582184491266b7da8480a6d85c5b7bf0a354ba972c7e1b2b76405"
+    },
+    {
+      "file": "SOURCE_REUSE.json",
+      "bytes": 1609,
+      "sha256": "589134158fcd93fba5aa42972b177a64347b807a106a7f910bde9f79298f18f3"
+    },
+    {
+      "file": "NATIVE_CROPS.json",
+      "bytes": 3601,
+      "sha256": "dea1ffd1ad5d9bf8a9e22e1c7b06055b99970a29a872e5c74a1f3f61697cd80e"
+    }
+  ]
+}

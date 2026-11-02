@@ -1,0 +1,1573 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="Content-Script-Type" content="text/javascript">
+	<meta http-equiv="Content-Style-Type" content="text/css">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+	<title>한국고전종합DB</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<link rel="shortcut icon" href="/resources/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" href="/resources/images/apple-touch-icon.png"> 
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/resources/css/common.css" />
+<link rel="stylesheet" href="/resources/css/xsl_style.css" />
+<link rel="stylesheet" href="/resources/libs/jquery-ui/jquery-ui.min.css" />
+
+<script src="/resources/libs/jquery-1.12.4.min.js"></script>
+<script src="/resources/libs/backbone/underscore-min.js"></script>
+<script src="/resources/libs/backbone/backbone-min.js"></script>
+<script src="/resources/libs/core/underscore.string.min.js"></script>
+
+<script src="/resources/libs/core/string.js"></script>
+
+<script src="/resources/js/common.js"></script>
+<script src="/resources/js/search.js"></script>
+<script src="/resources/libs/jquery.blockUI.js"></script>
+<script>
+	new Image().src="/resources/images/common/busy.gif";
+	$(document).ajaxStop($.unblockUI); 
+	$.blockUI.defaults.css = {}; 
+	$.blockUI.defaults.overlayCSS ={};
+</script>
+
+<script type="text/javascript">
+g_contextPath = s.rtrim("/",'/');
+
+function resizeWindow() { 
+	var winH = $(window).height();
+	$(".view_left").css({height:winH-62+"px"});//이미지뷰어 트기
+	$(".snb_scroll").css({height:winH-62+"px"});
+	
+	var syncCheck = $(".syncCheck").hasClass('on');
+	if ( syncCheck ) {
+		var h = (winH-138)/2;
+		$("#imgviewer").css({height: h+"px"});
+		$("#textorgtrans").css({height: h+"px"});
+		$(".text_body_scroll").css({height: (h-10)+"px"});
+	} else {
+		var h = (winH-138);
+		$("#imgviewer").css({height: h+"px"});
+		$("#textorgtrans").css({height: "0px"});
+	}
+	$("#imgviewer").iviewer('update');
+	$("#imgviewer").iviewer('center');
+	$("#imgviewer").iviewer('fit');
+}
+
+$(window).load(function() {
+	$(window).resize(resizeWindow); 
+	resizeWindow();	
+});
+
+
+$(document).ready(function(){
+	// 체크박스 on/off
+	$("#wrap").on("click",".check_toggle", function( event ) {
+		if($(this).hasClass('dis') || $(this).hasClass('no-bind'))
+			return;
+		
+		if($(this).hasClass('on')){
+			$(this).removeClass('on');
+		}else{
+			$(this).addClass('on');
+		}
+	});
+
+	// 뷰어 트리 열고 닫기
+	$('.tree_toggle').click(function(){
+		if($('.viewerwrap').hasClass('viewerwrap_toggle')){
+			$('.viewerwrap').removeClass('viewerwrap_toggle');
+		}else{
+			$('.viewerwrap').addClass('viewerwrap_toggle');
+		}
+		$("#imgviewer").iviewer('update');
+		$("#imgviewer").iviewer('center');
+		$("#imgviewer").iviewer('fit');
+	});
+
+});
+
+
+</script>
+
+
+	
+	
+	
+		<script src="/resources/js/analysis-db.js?v=20250224"></script>
+	
+	
+	<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+	<script type="text/javascript"> if(!wcs_add) var wcs_add = {}; wcs_add["wa"] = "644caa96e7db4c"; if(window.wcs) {wcs_do(); } </script>
+</head>
+
+<body style="overflow: hidden;">
+
+<div id="wrap">
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+<header class="view_header">		
+	<h1 class="sta"><img src="/resources/images/sta_layer1.png" alt="한국고전종합DB" /></h1>
+	<a class="btn_close" onclick="window.close()"><img src="/resources/images/btn_close_layer1.png" alt="닫기" /></a>
+
+	<h2 id="view_header_title"></h2>
+</header>
+
+
+
+<div class="viewerwrap">
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+<!-- imgviewer/snb_img.jsp -->
+<link href="/resources/libs/jquery.simple.tree/css/simpleTree.css" rel="stylesheet" type="text/css">
+<style>
+.V1.V2.V3.simpleTree li { /*background: #f2f2f2;*/ border-bottom: none; font-size: 12px; font-weight: normal;}
+
+.snb_img .sub_gnb_tree {display:none; padding:5px 15px; overflow:none; border-bottom:solid 1px #d0d0d2;}
+.snb_img .sub_gnb_tree.on {display:block;}
+ul.V1.V2.V3.simpleTree {margin:2px 5px; padding:0;}
+</style>
+
+<script type="text/javascript">
+var gTreeState = {
+	paramObj:{
+		grpId: '',
+		itemId: '',
+		gubun: '',
+		cate1: '',
+		cate2: '',
+		dataGubun: '',
+		depth: '',
+		upSeoji: '',
+		dataId: ''
+	},
+	
+	g_getPathId : function(paramObj) {
+		if(!s.isBlank(paramObj.dataId))
+			return paramObj.cate1+'_'+paramObj.cate2+'_'+paramObj.dataId;
+		else if(!s.isBlank(paramObj.cate2))
+			return paramObj.cate1+'_'+paramObj.cate2;
+		else
+			return paramObj.cate1;
+	},
+	
+	defaultCate1Param: function (paramObj) {
+		if(s.isBlank(paramObj.dataId) && s.isBlank(paramObj.upSeoji))
+			return;
+			
+		if(paramObj.grpId == 'hj' || paramObj.itemId == 'BT' || paramObj.itemId == 'GO' || paramObj.itemId == 'MO' || paramObj.itemId == 'MD' || paramObj.itemId == 'KP' || paramObj.itemId == 'KH') {
+			if(paramObj.gubun == 'book' || paramObj.gubun == 'author') {
+				if(s.isBlank(paramObj.cate1)) {
+					paramObj.cate1 = "Z";
+				}
+			}
+		}  
+	},
+
+	correctParams: function (paramObj) {
+		if((paramObj.itemId == 'JT' || paramObj.itemId == 'JR' || paramObj.itemId == 'JO') && paramObj.gubun == 'book') {
+			paramObj.cate1 = '';
+			paramObj.cate2 = '';
+		}	
+	}
+};
+
+</script>
+
+
+<script type="text/javascript">
+function updateTreeTopNavi(pageUrl) {
+	
+	var paramObj = getUrlParam(pageUrl);
+	if(s.isBlank(paramObj.dataId)) {
+		gTreeState.paramObj.upSeoji = '';
+		gTreeState.paramObj.cate1 = '';
+		gTreeState.paramObj.cate2 = '';
+	}
+	paramObj = defaultParamObj(paramObj);
+ 	
+	var treeRootGubun = getTreeGubun(paramObj.itemId, paramObj.gubun);
+	paramObj.treeRootGubun = treeRootGubun;
+	//console_log(paramObj);
+
+	$("div[data-gubun]").removeClass("on");
+	$("div[data-gubun='"+treeRootGubun+"']").addClass("on");
+	
+	$("div[data-tree-gubun]").removeClass("on");
+	$("div[data-tree-gubun='"+treeRootGubun+"']").addClass("on");
+	
+	treeSync(paramObj);
+}
+
+function getTreeGubun(itemId, gubun) {
+	var treeRootGubun = gubun;
+	if(s.isBlank(treeRootGubun)) {
+		treeRootGubun = 'book';
+	}
+	
+	return treeRootGubun;
+}
+
+
+var 상하위서지맵 = {"ITKC_GO_1351A":"ITKC_GO_1305A","ITKC_BT_1422A":"ITKC_BT_1409A","ITKC_BT_1313A":"ITKC_BT_1305A","ITKC_BT_1410A":"ITKC_BT_1409A","ITKC_GO_1513A":"ITKC_GO_1509A","ITKC_GO_1363A":"ITKC_GO_1305A","ITKC_BT_1349A":"ITKC_BT_1305A","ITKC_GO_1375A":"ITKC_GO_1373A","ITKC_GO_1387A":"ITKC_GO_1373A","ITKC_BT_1325A":"ITKC_BT_1305A","ITKC_GO_1399A":"ITKC_GO_1373A","ITKC_BT_1337A":"ITKC_BT_1305A","ITKC_GO_1429A":"ITKC_GO_1409A","ITKC_BT_1381A":"ITKC_BT_1373A","ITKC_GO_1417A":"ITKC_GO_1409A","ITKC_BT_1393A":"ITKC_BT_1373A","ITKC_GO_1405A":"ITKC_GO_1373A","ITKC_GO_1514A":"ITKC_GO_1509A","ITKC_GO_1308A":"ITKC_GO_1305A","ITKC_GO_1350A":"ITKC_GO_1305A","ITKC_GO_1362A":"ITKC_GO_1305A","ITKC_BT_1411A":"ITKC_BT_1409A","ITKC_BT_1423A":"ITKC_BT_1409A","ITKC_GO_1403A":"ITKC_GO_1373A","ITKC_GO_1374A":"ITKC_GO_1373A","ITKC_BT_1338A":"ITKC_BT_1305A","ITKC_GO_1512A":"ITKC_GO_1509A","ITKC_GO_1386A":"ITKC_GO_1373A","ITKC_GO_1398A":"ITKC_GO_1373A","ITKC_BT_1314A":"ITKC_BT_1305A","ITKC_BT_1326A":"ITKC_BT_1305A","ITKC_GO_1428A":"ITKC_GO_1409A","ITKC_BT_1382A":"ITKC_BT_1373A","ITKC_GO_1416A":"ITKC_GO_1409A","ITKC_GO_1404A":"ITKC_GO_1373A","ITKC_GO_1307A":"ITKC_GO_1305A","ITKC_BT_1394A":"ITKC_BT_1373A","ITKC_GO_1319A":"ITKC_GO_1305A","ITKC_GO_1389A":"ITKC_GO_1373A","ITKC_BT_1323A":"ITKC_BT_1305A","ITKC_BT_1335A":"ITKC_BT_1305A","ITKC_BT_1420A":"ITKC_BT_1409A","ITKC_BT_1311A":"ITKC_BT_1305A","ITKC_GO_1341A":"ITKC_GO_1305A","ITKC_GO_1353A":"ITKC_GO_1305A","ITKC_BT_1347A":"ITKC_BT_1305A","ITKC_GO_1377A":"ITKC_GO_1373A","ITKC_BT_1359A":"ITKC_BT_1305A","ITKC_GO_1407A":"ITKC_GO_1373A","ITKC_BT_1391A":"ITKC_BT_1373A","ITKC_GO_1419A":"ITKC_GO_1409A","ITKC_GO_1340A":"ITKC_GO_1305A","ITKC_BT_1312A":"ITKC_BT_1305A","ITKC_BT_1324A":"ITKC_BT_1305A","ITKC_BT_1421A":"ITKC_BT_1409A","ITKC_GO_1352A":"ITKC_GO_1305A","ITKC_GO_1364A":"ITKC_GO_1305A","ITKC_GO_1376A":"ITKC_GO_1373A","ITKC_BT_1336A":"ITKC_BT_1305A","ITKC_GO_1388A":"ITKC_GO_1373A","ITKC_BT_1348A":"ITKC_BT_1305A","ITKC_GO_1418A":"ITKC_GO_1409A","ITKC_GO_1309A":"ITKC_GO_1305A","ITKC_BT_1392A":"ITKC_BT_1373A","ITKC_GO_1406A":"ITKC_GO_1373A","ITKC_GO_1515A":"ITKC_GO_1509A","ITKC_BT_1380A":"ITKC_BT_1373A","ITKC_GO_1383A":"ITKC_GO_1373A","ITKC_GO_1395A":"ITKC_GO_1373A","ITKC_BT_1345A":"ITKC_BT_1305A","ITKC_BT_1357A":"ITKC_BT_1305A","ITKC_BT_1321A":"ITKC_BT_1305A","ITKC_GO_1315A":"ITKC_GO_1305A","ITKC_BT_1333A":"ITKC_BT_1305A","ITKC_GO_1424A":"ITKC_GO_1409A","ITKC_GO_1412A":"ITKC_GO_1409A","ITKC_GO_1400A":"ITKC_GO_1373A","ITKC_GO_1316A":"ITKC_GO_1305A","ITKC_GO_1328A":"ITKC_GO_1305A","ITKC_GO_1382A":"ITKC_GO_1373A","ITKC_GO_1394A":"ITKC_GO_1373A","ITKC_BT_1334A":"ITKC_BT_1305A","ITKC_BT_1346A":"ITKC_BT_1305A","ITKC_GO_1314A":"ITKC_GO_1305A","ITKC_BT_1310A":"ITKC_BT_1305A","ITKC_GO_1326A":"ITKC_GO_1305A","ITKC_BT_1322A":"ITKC_BT_1305A","ITKC_GO_1423A":"ITKC_GO_1409A","ITKC_BT_1358A":"ITKC_BT_1305A","ITKC_GO_1411A":"ITKC_GO_1409A","ITKC_BT_1390A":"ITKC_BT_1373A","ITKC_GO_1327A":"ITKC_GO_1305A","ITKC_GO_1339A":"ITKC_GO_1305A","ITKC_BT_1408A":"ITKC_BT_1373A","ITKC_GO_1361A":"ITKC_GO_1305A","ITKC_BT_1379A":"ITKC_BT_1373A","ITKC_BT_1343A":"ITKC_BT_1305A","ITKC_BT_1476A":"ITKC_BT_1469A","ITKC_BT_1355A":"ITKC_BT_1305A","ITKC_GO_1414A":"ITKC_GO_1409A","ITKC_GO_1385A":"ITKC_GO_1373A","ITKC_GO_1402A":"ITKC_GO_1373A","ITKC_GO_1397A":"ITKC_GO_1373A","ITKC_GO_1511A":"ITKC_GO_1509A","ITKC_GO_1427A":"ITKC_GO_1409A","ITKC_GO_1415A":"ITKC_GO_1409A","ITKC_GO_1306A":"ITKC_GO_1305A","ITKC_BT_1331A":"ITKC_BT_1305A","ITKC_GO_1318A":"ITKC_GO_1305A","ITKC_GO_1360A":"ITKC_GO_1305A","ITKC_GO_1384A":"ITKC_GO_1373A","ITKC_BT_1356A":"ITKC_BT_1305A","ITKC_BT_1332A":"ITKC_BT_1305A","ITKC_BT_1344A":"ITKC_BT_1305A","ITKC_GO_1425A":"ITKC_GO_1409A","ITKC_GO_1396A":"ITKC_GO_1373A","ITKC_GO_1413A":"ITKC_GO_1409A","ITKC_GO_1401A":"ITKC_GO_1373A","ITKC_GO_1510A":"ITKC_GO_1509A","ITKC_GO_1426A":"ITKC_GO_1409A","ITKC_GO_1317A":"ITKC_GO_1305A","ITKC_BT_1320A":"ITKC_BT_1305A","ITKC_GO_1329A":"ITKC_GO_1305A","ITKC_BT_1309A":"ITKC_BT_1305A","ITKC_BT_1406A":"ITKC_BT_1373A","ITKC_BT_1418A":"ITKC_BT_1409A","ITKC_GO_1391A":"ITKC_GO_1373A","ITKC_GO_1323A":"ITKC_GO_1305A","ITKC_BT_1389A":"ITKC_BT_1373A","ITKC_GO_1420A":"ITKC_GO_1409A","ITKC_GO_1335A":"ITKC_GO_1305A","ITKC_GO_1347A":"ITKC_GO_1305A","ITKC_GO_1359A":"ITKC_GO_1305A","ITKC_BT_1377A":"ITKC_BT_1373A","ITKC_BT_1515A":"ITKC_BT_1509A","ITKC_GO_1311A":"ITKC_GO_1305A","ITKC_BT_1341A":"ITKC_BT_1305A","ITKC_BT_1353A":"ITKC_BT_1305A","ITKC_BT_1419A":"ITKC_BT_1409A","ITKC_BT_1407A":"ITKC_BT_1373A","ITKC_GO_1390A":"ITKC_GO_1373A","ITKC_GO_1334A":"ITKC_GO_1305A","ITKC_BT_1378A":"ITKC_BT_1373A","ITKC_GO_1346A":"ITKC_GO_1305A","ITKC_GO_1358A":"ITKC_GO_1305A","ITKC_BT_1475A":"ITKC_BT_1469A","ITKC_BT_1354A":"ITKC_BT_1305A","ITKC_GO_1310A":"ITKC_GO_1305A","ITKC_GO_1322A":"ITKC_GO_1305A","ITKC_BT_1330A":"ITKC_BT_1305A","ITKC_BT_1342A":"ITKC_BT_1305A","ITKC_GO_1381A":"ITKC_GO_1373A","ITKC_GO_1393A":"ITKC_GO_1373A","ITKC_BT_1428A":"ITKC_BT_1409A","ITKC_BT_1307A":"ITKC_BT_1305A","ITKC_BT_1319A":"ITKC_BT_1305A","ITKC_GO_1410A":"ITKC_GO_1409A","ITKC_GO_1313A":"ITKC_GO_1305A","ITKC_GO_1325A":"ITKC_GO_1305A","ITKC_BT_1387A":"ITKC_BT_1373A","ITKC_GO_1337A":"ITKC_GO_1305A","ITKC_BT_1399A":"ITKC_BT_1373A","ITKC_BT_1513A":"ITKC_BT_1509A","ITKC_BT_1404A":"ITKC_BT_1373A","ITKC_BT_1416A":"ITKC_BT_1409A","ITKC_GO_1422A":"ITKC_GO_1409A","ITKC_GO_1338A":"ITKC_GO_1305A","ITKC_BT_1363A":"ITKC_BT_1305A","ITKC_BT_1375A":"ITKC_BT_1373A","ITKC_BT_1351A":"ITKC_BT_1305A","ITKC_GO_1392A":"ITKC_GO_1373A","ITKC_BT_1417A":"ITKC_BT_1409A","ITKC_BT_1429A":"ITKC_BT_1409A","ITKC_BT_1308A":"ITKC_BT_1305A","ITKC_GO_1380A":"ITKC_GO_1373A","ITKC_GO_1421A":"ITKC_GO_1409A","ITKC_GO_1312A":"ITKC_GO_1305A","ITKC_GO_1324A":"ITKC_GO_1305A","ITKC_GO_1336A":"ITKC_GO_1305A","ITKC_BT_1376A":"ITKC_BT_1373A","ITKC_GO_1348A":"ITKC_GO_1305A","ITKC_BT_1388A":"ITKC_BT_1373A","ITKC_BT_1405A":"ITKC_BT_1373A","ITKC_BT_1514A":"ITKC_BT_1509A","ITKC_GO_1349A":"ITKC_GO_1305A","ITKC_BT_1352A":"ITKC_BT_1305A","ITKC_BT_1364A":"ITKC_BT_1305A","ITKC_BT_1340A":"ITKC_BT_1305A","ITKC_BT_1329A":"ITKC_BT_1305A","ITKC_GO_1476A":"ITKC_GO_1469A","ITKC_GO_1379A":"ITKC_GO_1373A","ITKC_BT_1511A":"ITKC_BT_1509A","ITKC_BT_1426A":"ITKC_BT_1409A","ITKC_GO_1331A":"ITKC_GO_1305A","ITKC_BT_1317A":"ITKC_BT_1305A","ITKC_GO_1343A":"ITKC_GO_1305A","ITKC_BT_1402A":"ITKC_BT_1373A","ITKC_GO_1355A":"ITKC_GO_1305A","ITKC_BT_1414A":"ITKC_BT_1409A","ITKC_BT_1385A":"ITKC_BT_1373A","ITKC_BT_1397A":"ITKC_BT_1373A","ITKC_BT_1361A":"ITKC_BT_1305A","ITKC_BT_1318A":"ITKC_BT_1305A","ITKC_GO_1378A":"ITKC_GO_1373A","ITKC_GO_1475A":"ITKC_GO_1469A","ITKC_BT_1398A":"ITKC_BT_1373A","ITKC_GO_1330A":"ITKC_GO_1305A","ITKC_BT_1415A":"ITKC_BT_1409A","ITKC_GO_1342A":"ITKC_GO_1305A","ITKC_BT_1512A":"ITKC_BT_1509A","ITKC_BT_1427A":"ITKC_BT_1409A","ITKC_BT_1306A":"ITKC_BT_1305A","ITKC_GO_1354A":"ITKC_GO_1305A","ITKC_BT_1403A":"ITKC_BT_1373A","ITKC_BT_1374A":"ITKC_BT_1373A","ITKC_BT_1386A":"ITKC_BT_1373A","ITKC_BT_1350A":"ITKC_BT_1305A","ITKC_GO_1408A":"ITKC_GO_1373A","ITKC_BT_1362A":"ITKC_BT_1305A","ITKC_GO_1345A":"ITKC_GO_1305A","ITKC_BT_1400A":"ITKC_BT_1373A","ITKC_GO_1357A":"ITKC_GO_1305A","ITKC_BT_1412A":"ITKC_BT_1409A","ITKC_BT_1327A":"ITKC_BT_1305A","ITKC_BT_1339A":"ITKC_BT_1305A","ITKC_GO_1321A":"ITKC_GO_1305A","ITKC_BT_1424A":"ITKC_BT_1409A","ITKC_GO_1333A":"ITKC_GO_1305A","ITKC_BT_1315A":"ITKC_BT_1305A","ITKC_BT_1383A":"ITKC_BT_1373A","ITKC_BT_1395A":"ITKC_BT_1373A","ITKC_GO_1356A":"ITKC_GO_1305A","ITKC_BT_1401A":"ITKC_BT_1373A","ITKC_BT_1510A":"ITKC_BT_1509A","ITKC_BT_1316A":"ITKC_BT_1305A","ITKC_GO_1320A":"ITKC_GO_1305A","ITKC_BT_1328A":"ITKC_BT_1305A","ITKC_GO_1332A":"ITKC_GO_1305A","ITKC_BT_1413A":"ITKC_BT_1409A","ITKC_GO_1344A":"ITKC_GO_1305A","ITKC_BT_1425A":"ITKC_BT_1409A","ITKC_BT_1360A":"ITKC_BT_1305A","ITKC_BT_1396A":"ITKC_BT_1373A","ITKC_BT_1384A":"ITKC_BT_1373A","상위서지목록":["ITKC_BT_1305A","ITKC_BT_1373A","ITKC_BT_1409A","ITKC_BT_1469A","ITKC_BT_1509A","ITKC_GO_1305A","ITKC_GO_1373A","ITKC_GO_1409A","ITKC_GO_1469A","ITKC_GO_1509A"]};//{'ITKC_BT_1346A':'ITKC_BT_1305A','ITKC_BT_1305A':'ITKC_BT_1305A'};
+function defaultParamObj(paramObj) {
+	if(s.isBlank(paramObj.grpId)) paramObj.grpId = defaultStr(gTreeState.paramObj.grpId, "");
+	if(s.isBlank(paramObj.itemId)) paramObj.itemId = defaultStr(gTreeState.paramObj.itemId, toShortItemId(paramObj.dataId));
+	if(s.isBlank(paramObj.itemId)) paramObj.itemId = defaultStr("GO");
+	if(s.isBlank(paramObj.gubun)) paramObj.gubun = defaultStr(gTreeState.paramObj.gubun, "book");
+	if(s.isBlank(paramObj.cate1)) paramObj.cate1 = defaultStr(gTreeState.paramObj.cate1);
+	if(s.isBlank(paramObj.cate2)) paramObj.cate2 = defaultStr(gTreeState.paramObj.cate2);
+	if(s.isBlank(paramObj.dataGubun)) paramObj.dataGubun = defaultStr(gTreeState.paramObj.dataGubun);
+	if(s.isBlank(paramObj.upSeoji)) paramObj.upSeoji = defaultStr(gTreeState.paramObj.upSeoji);
+	if(s.isBlank(paramObj.depth)) paramObj.depth = defaultStr(gTreeState.paramObj.depth);
+	
+	if(!s.isBlank(paramObj.dataId) && s.isBlank(paramObj.upSeoji)) { //하위서지는 상위서지 하위에만 존재하기 때문에 반드시
+		paramObj.upSeoji = defaultStr(상하위서지맵[toSeojiId(paramObj.dataId)]);
+	}
+		
+	gTreeState.defaultCate1Param(paramObj);
+	gTreeState.correctParams(paramObj);
+	
+	gTreeState.paramObj = paramObj
+
+	return paramObj;
+}
+
+var TREE = null;
+function treeSync(paramObj) {
+	TREE = $("div[data-tree-gubun='"+paramObj.treeRootGubun+"'] .root").data("treeObj");
+	//alert(JSON.stringify($TREE.option));
+	//alert($("li[data-dataId='"+paramObj.dataId+"']", TREE).attr("data-dataId"));
+	//alert($("li[data-dataId='"+paramObj.dataId+"']", TREE).html());
+
+	if(paramObj.grpId == 'hj') {
+		//console_log("[treeSync] grpId:" + paramObj.grpId +" gubun:"+paramObj.gubun);
+		openNode($(">li.root li[data-hj-gubun='"+paramObj.gubun+"']", TREE)[0]);
+	} else {
+		syncNode($(">li.root", TREE)[0]);
+	}
+}
+
+function syncNode(node) {
+	if(node==null)
+		return;
+	
+	//console_log("[syncNode] dataUrl: " + $(node).attr("data-url"));
+	var subNode = findNodeSub(node);
+	if(subNode!=null)
+		openNode(subNode);
+	else
+		scrollToVisibleNode(node, ".snb_img.snb_scroll"); //sync End;
+}
+
+function findNodeSub(node) {
+	var findNode = null;
+	//console_log("[findNodeSub] size:" + $('>ul>li[data-url]', node).size());
+	
+	if(!s.isBlank(gTreeState.paramObj.upSeoji)) {
+		var upSeojiNode = $('>ul>li[data-url][data-upSeoji="'+gTreeState.paramObj.upSeoji+'"]', node);
+		if(upSeojiNode.length>0) {
+			//console_log("[findNodeSub] find OK upSeoji: " + gTreeState.paramObj.upSeoji);
+			findNode = upSeojiNode.get(0);
+		}
+	} 
+	
+	if(findNode == null) {
+		$('>ul>li[data-url]', node).each(function() {
+			var dataUrl = $(this).attr("data-url");
+			var dataId = $(this).attr("data-dataId");
+			var paramObj = getUrlParam(dataUrl);
+			gTreeState.defaultCate1Param(paramObj);
+			 
+			var nodePathId = gTreeState.g_getPathId(paramObj);
+			var gPathId = gTreeState.g_getPathId(gTreeState.paramObj);
+			
+			if(s.isBlank(paramObj.upSeoji) && (gPathId == nodePathId || s.startsWith(gPathId, nodePathId+'_'))) {
+				//console_log("[findNodeSub] find OK gPathId:" + gPathId + " nodePathId:" + nodePathId);
+				findNode = this;
+				return false;
+			}
+		});
+	}
+	
+	return findNode;
+}
+
+function openNode(node) {
+	if(node==null)
+		return;
+	//console_log("[openNode] dataUrl: "+$(node).attr("data-url"));
+	
+	$('.active',TREE).attr('class','text');
+	if($(">span", node).hasClass("text"))	{
+		$(">span", node)[0].className='active';
+	}
+	
+	var childUl = $('>ul', node);
+	if(childUl==null)
+		return;
+	
+	if(!childUl.is(':visible')) {
+		//console_log("[openNode] nodeToggle");
+		var ajax = childUl.is('.ajax');
+		TREE.nodeToggle(node);
+		if(!ajax)
+			syncNode(node);
+	} else {
+		//console_log("[openNode] syncNode");
+		syncNode(node);
+	}
+}
+
+function afterNodeAjax(node) { //ul.ajax node
+	var parentNode = node.parent().get();
+	var dataUrl = $(parentNode).attr("data-url");
+	//var dataId = $(parentNode).attr("data-dataId");
+	//var paramObj = getUrlParam(dataUrl);
+	//console_log("[afterNodeAjax] dataUrl: "+ dataUrl);
+	
+	syncNode(parentNode);
+}
+</script>
+
+<script src="/resources/libs/jquery.simple.tree/js/jquery.simple.tree.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	
+	var simpleTreeCollection;
+	$(document).ready(function(){
+		simpleTreeCollection = $('.simpleTree').simpleTree({
+			autoclose: false,
+			drag: false,
+			afterClickToggle : true,
+			
+			afterClick:function(node){
+				//alert("text-"+$('span:first',node).text());
+				click_Node(node);
+			},
+			
+			afterDblClick:function(node){
+				//alert("text-"+$('span:first',node).text());
+			},
+			afterMove:function(destination, source, pos){
+				//alert("destination-"+destination.attr('id')+" source-"+source.attr('id')+" pos-"+pos);
+			},
+			afterAjax: afterNodeAjax,
+			//afterAjax:function() {
+				//alert('Loaded');
+			//},
+			animate:true,
+			//,docToFolderConvert:true
+			imageUrl : '/resources/libs/jquery.simple.tree'
+		});
+	});
+	
+	function click_Node(node) {
+		var dataUrl = node.attr("data-url");
+		//var dataId = node.attr("data-dataId");
+		
+		var paramObj = getUrlParam(dataUrl);
+		var upSeojiNode = node.closest("li[data-upSeoji]");
+		//console_log("[click_Node] data-upSeoji closest length: " +upSeojiNode.length);
+		if(upSeojiNode.length>0 && s.isBlank(paramObj.upSeoji)) {
+			dataUrl +="&upSeoji="+ upSeojiNode.attr("data-upSeoji");
+		}
+		
+		paramObj = getUrlParam(dataUrl);
+		gTreeState.paramObj = paramObj;
+
+		
+		if(paramObj.gubun == 'cate' || s.isBlank(paramObj.dataId)) {
+			if(paramObj.gubun == 'author') {
+				if(paramObj.depth == '1')//BT,GO,MO,MD
+					return;
+			}
+		} else {
+			if(paramObj.dataGubun == '월'){
+				return;
+			}
+			appRouter.navigate('/imgviewer/imgnode'+dataUrl, { trigger: true })
+		}
+	}
+	
+	function clickSnbMenu(itemId, gubun) {
+		var treeRootGubun = getTreeGubun(itemId, gubun);
+
+		$("div[data-gubun][data-gubun]").removeClass("on");
+		$("div[data-gubun='"+treeRootGubun+"']").addClass("on");
+		
+		if($("div[data-tree-gubun='"+treeRootGubun+"']").is(":visible")) {
+			$("div[data-tree-gubun='"+treeRootGubun+"']").removeClass("on");
+		} else {
+			$("div[data-tree-gubun]").removeClass('on');
+			$("div[data-tree-gubun='"+treeRootGubun+"']").addClass("on");
+		}
+	}
+</script>
+
+<a class="tree_toggle"></a>
+
+<div class="view_left">
+
+<div class="snb_img snb_scroll">
+
+	
+	
+	
+		<div class="snb_stit" data-gubun="book"><a onclick="clickSnbMenu('GO','book')">서명별</a></div>
+		<div class="sub_gnb_tree" data-tree-gubun="book">
+			<ul class="simpleTree V1 V2 V3">
+				<li class="root">
+					<ul data-rooName='book'>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=Z&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='전체'>전체</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=Z&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=A&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='가'>가</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=A&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=B&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='나'>나</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=B&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=C&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='다'>다</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=C&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=D&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='라'>라</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=D&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=E&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='마'>마</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=E&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=F&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='바'>바</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=F&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=G&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='사'>사</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=G&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=H&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='아'>아</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=H&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=I&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='자'>자</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=I&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=J&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='차'>차</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=J&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=K&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='카'>카</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=K&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=L&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='타'>타</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=L&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=M&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='파'>파</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=M&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=N&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='하'>하</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=N&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+</ul>
+
+				</li>
+			</ul>
+		</div>
+
+		<div class="snb_stit" data-gubun="author"><a onclick="clickSnbMenu('GO','author')">저자별</a></div>
+		<div class="sub_gnb_tree" data-tree-gubun="author">
+			<ul class="simpleTree V1 V2 V3">
+				<li class="root">
+					<ul data-rooName='author'>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=Z&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='전체'>전체</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=Z&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=A&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='가'>가</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=A&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=B&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='나'>나</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=B&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=C&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='다'>다</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=C&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=D&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='라'>라</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=D&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=E&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='마'>마</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=E&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=F&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='바'>바</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=F&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=G&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='사'>사</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=G&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=H&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='아'>아</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=H&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=I&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='자'>자</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=I&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=J&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='차'>차</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=J&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=K&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='카'>카</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=K&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=L&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='타'>타</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=L&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=M&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='파'>파</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=M&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=N&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='하'>하</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=N&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+</ul>
+
+				</li>
+			</ul>
+		</div>
+
+		
+	
+	
+	
+	
+	
+	
+	
+
+
+</div>
+
+</div>
+<!--// snb_img -->
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/libs/selector/css/imgareaselect-default.css"/>
+<script src="/resources/libs/selector/jquery.imgareaselect.js"></script>
+<script src="/resources/js/ITKCImageViewer.js?20191202"></script>
+
+<style type="text/css">
+/*본문 이미지 드래그 선택 관련*/
+.highlightbox {	background: #ee2222; border: 1px solid black; position: absolute; opacity:0.5; filter:alpha(opacity = 50); }
+.parallel { font-family: "돋움", Dotum, "굴림", Gulim, AppleGothic, Sans-serif; font-size: 11px; color: #808080; letter-spacing:-1px; text-align:right; position:relative; top:-3px; }
+.parallelVR { padding-left:18px; margin-left:2px; background:url(/itkcdb/ext/image/n2/bg/backVir.gif) center top no-repeat; font-size:11px; line-height:11px; }
+
+/*.text_body img.xsl_page_icon{display:none;}*/ /*페이지 아이콘 감추기*/
+.view_page_option {padding-right:10px;}
+.small_btn.dci {font-size:10.5px;}
+.small_btn.copy {font-size:10.5px;}
+</style>
+
+<style>
+.iviewer_imagefilename {position:absolute; bottom: 10px; width:100%; text-align:center; font-size:14px;}
+.iviewer_zoom_status {position:absolute; top: 0px; width:100%; text-align:left; font-size:10px;}
+.view_content .view {height: 650px;}
+#dlg_print fieldset {margin:0px; padding:0; text-align:center; border:0;}
+#dlg_print input input {margin:0px;}
+#dlg_print p {padding:10px 0px;	line-height:150%;}
+
+#imgviewer.noimage {background:url(/resources/images/viewer_img_default.png) no-repeat center center;}
+
+#dualscroll { display:none; margin-top: 12px; padding-top:1px; }
+
+.imgdir {width:33%; height:100px; float:left;}
+.imgdir .imgdiricon {padding:5px;}
+</style>
+
+<script type="text/javascript">
+	var g_initStatus = {//뷰어오픈초기상태
+			chSts_me: false,
+			chSts_o: false, //원문
+			chSts_t: false, //번역문
+			chSts_k: false, //교감표점
+			viewSync3: '', //문장매칭
+			
+			getChSts_me(defVal) {
+				if(!this.chSts_me) return defVal;
+				this.chSts_me = false;
+				return true;
+			},
+			getchSts_o(defVal) {
+				if(!this.chSts_o) return defVal;
+				this.chSts_o = false;
+				return true;
+			},
+			getchSts_t(defVal) {
+				if(!this.chSts_t) return defVal;
+				this.chSts_t = false;
+				return true;
+			},
+			getchSts_k(defVal) {
+				if(!this.chSts_k) return defVal;
+				this.chSts_k = false;
+				return true;
+			},
+			getViewSync3(defVal) {
+				if(this.viewSync3!='Y') return defVal;
+				this.viewSync3 = '';
+				return 'Y';
+			}
+		}
+	
+	var img_server = window.location.protocol + '//' + window.location.hostname + (window.location.port ? (':' + window.location.port) : '');
+	
+	function getImgSize($img) {
+	    var size = { 
+	        width : $img.prop("width"), height : $img.prop("height"), 
+	        naturalWidth : 0, naturalHeight : 0 
+	    };
+
+	    if ($img.prop('naturalWidth') == undefined) {
+	        var $tmpImg = $('<img/>').attr('src', $img.attr('src'));
+	        size.naturalWidth = $tmpImg[0].width;
+	        size.naturalHeight = $tmpImg[0].height;
+	    } else {
+	        size.naturalWidth = $img.prop('naturalWidth');
+	        size.naturalHeight = $img.prop('naturalHeight');                
+	    }
+	    return size;
+	}
+
+	var ImgViewer = function ( ) {
+	}
+	ImgViewer.prototype = {
+		// properties
+		imgserver : "",
+		imgCur: 0,
+		imgPrev: 0,
+		imgNext: 0,
+		imgTotal: 0,
+		imgFile: "",
+		imgPath: "",
+		finalitem: {},
+		rellist: [],
+
+		printLoadCnt : 0,
+		printTotalCnt : 0,
+	
+		// method
+		init : function( config ) {
+			this.imgserver = config.imgserver;
+		},
+		loadImgInfo : function( svrdata ) {
+			
+			if ( svrdata.finalitem ) {
+				this.finalitem = svrdata.finalitem;
+				$("#view_header_title").html( svrdata.finalitem["자료제목_KC"] );
+				if(svrdata.finalitem["서명_KC"]) {
+					$("#seoji_name").html( " - " + svrdata.finalitem["서명_KC"] );
+					if(svrdata.finalitem["아이템ID"] == 'ITKC_MD') {
+						if(svrdata.finalitem["저자한글한자"])
+							$("#seoji_name").append( " | " + svrdata.finalitem["저자한글한자"] );
+						if(svrdata.finalitem["소장처"])
+							$("#seoji_name").append( " | " + svrdata.finalitem["소장처"] );
+					}
+				}
+			} else {
+				this.finalitem = {"서지ID": svrdata.seojiId};
+			}
+			if ( svrdata.rellist ) {
+				this.rellist = svrdata.rellist;
+			} else {
+				this.rellist = {};
+			}
+
+			if ( svrdata.imginfo ) {
+				this.imgNext = svrdata.imginfo.imgNext;
+				this.imgPrev = svrdata.imginfo.imgPrev;
+				this.imgCur = svrdata.imginfo.imgCur;
+				this.imgTotal = svrdata.imginfo.imgTotal;
+				this.imgFile = svrdata.imginfo.imgFile;
+				this.imgPath = svrdata.imginfo.imgPath;
+				this.setPageinfo();
+			}
+			
+			setSyncInfo(svrdata, this.rellist);
+		},
+		getCurItem : function(  ) {
+			return this.finalitem;
+		},
+		goFirst : function() {
+			if  ( this.imgCur != 0 ) {
+				var curitem = this.getCurItem();
+				var param = { "seojiId": curitem["서지ID"], "imgIdx":0 };
+				this.ajaxLoadImage( param );
+			}
+		},
+		goPrev : function( ) {
+			if  ( this.imgCur != 0 ) {
+				var curitem = this.getCurItem();
+				var param = { "seojiId": curitem["서지ID"], "imgIdx":(parseInt(this.imgCur)-1) };
+				this.ajaxLoadImage( param );
+			}
+		}, 
+		goNext : function( ) {
+			if  ( this.imgCur != (parseInt(this.imgTotal)-1) ) {
+				var curitem = this.getCurItem();
+				var param = { "seojiId": curitem["서지ID"], "imgIdx":(parseInt(this.imgCur)+1) };
+				this.ajaxLoadImage( param );
+			}
+		},
+		goLast : function() {
+			if  ( this.imgCur != (parseInt(this.imgTotal)-1) ) {
+				var curitem = this.getCurItem();
+				var param = { "seojiId": curitem["서지ID"], "imgIdx":(parseInt(this.imgTotal)-1) };
+				this.ajaxLoadImage( param );
+			}
+		},
+		goPage : function( pageidx, sync ) {
+			if  ( 0 <= pageidx && pageidx <= (parseInt(this.imgTotal)-1) ) {
+				var curitem = this.getCurItem();
+				var param = { "seojiId": curitem["서지ID"], "imgIdx":pageidx };
+				this.ajaxLoadImage( param );
+			} else {
+				//
+			}
+		},
+		ajaxLoadImage : function( param ) {
+			$.post("/imgviewer/imgnavi", param, null, "json")
+			.done(function (result, textStatus, jqXHR) {
+				imv.loadImgInfo( result );
+				imv.loadImg();
+				imv.treeSync(true);
+
+			}).fail(function (jqXHR, textStatus, errorThrown) { alert(jqXHR.status + " : " + textStatus + " : " + errorThrown); });
+		},		
+		loadImg : function() {
+			$("#imgviewer").iviewer('loadImage', this.imgserver + "/" + this.imgPath );
+		},
+		doZoomin : function(  ) {
+			$("#imgviewer").iviewer('zoom_by', 1);
+		},
+		doZoomout : function(  ) {
+			$("#imgviewer").iviewer('zoom_by', -1);
+		},
+		doFit : function(  ) {
+			$("#imgviewer").iviewer('fit');
+		},
+		doOrig : function(  ) {
+			$("#imgviewer").iviewer('set_zoom', 100);
+		},
+		treeSync: function( bUpdateTxt ) {
+			var curitem = this.getCurItem();
+			if ( curitem["자료ID"] != null ) {
+				updateTreeTopNavi("/imgviewer/imgnode?itemId="+toShortItemId(curitem["자료ID"])+"&dataId=" + curitem["자료ID"] );
+				if(bUpdateTxt)
+					openOrgTransText();
+			} else {
+				$("div.view_left").find("span.active").removeClass("active").addClass("text");
+			}
+		},
+		setPageinfo: function() {
+			if(s.startsWith(this.imgFile,"ITKC_MO")) {
+				$(".img_control_vertview").show();
+				updatePopVertView();
+			} else {
+				$(".img_control_vertview").hide();
+			}
+			
+			$(".iviewer_imagefilename").html( this.imgFile+"_IMG" );
+			document.getElementById("pageinfo").value = parseInt(this.imgCur) + 1;
+			document.getElementById("pageinfo2").value = "/" + this.imgTotal;
+		},
+		doPrint: function(printtype) {
+			this.openPrintStatus();
+
+			var curitem = this.getCurItem();
+			var s_page, e_page;
+			var img_angle = $("#frm_print input[name=img_angle]:checked").val()
+			if ( printtype == "single") {
+				s_page = parseInt(this.imgCur);
+				e_page = parseInt(this.imgCur) + 1;
+				print_win.location.href = "/imgviewer/print.do?printtype=single&seojiId=" + curitem["서지ID"] + "&spage=" + s_page + "&epage=" + e_page + "&angle=" + img_angle;
+			} else if ( printtype == "multi") {
+				s_page = parseInt( $("#frm_print input[name=s_page]").val() ) - 1;
+				e_page = parseInt( $("#frm_print input[name=e_page]").val() ) - 1 + 1;
+				print_win.location.href = "/imgviewer/print.do?printtype=multi&seojiId=" + curitem["서지ID"] + "&spage=" + s_page + "&epage=" + e_page + "&angle=" + img_angle;
+			}
+		},
+		getPrintDivSize: function() {
+			var tmps = { width:800, height:1000 };
+
+			return tmps;
+		},
+		multiPrintChk : function(){
+			var s_page = $("#frm_print input[name=s_page]").val();
+			var e_page = $("#frm_print input[name=e_page]").val();
+
+			if( s_page == '' ) {
+				alert("시작페이지가 없습니다..");
+				$("#frm_print input[name=s_page]").focus();
+			} else if( e_page == '') {
+				alert("끝페이지가 없습니다..");
+				$("#frm_print input[name=e_page]").focus();
+			} else if(isNaN(s_page)) {
+				alert("시작페이지는 숫자를 써주세요.");
+				$("#frm_print input[name=s_page]").val("");
+				$("#frm_print input[name=s_page]").focus();
+			} else if(isNaN(e_page)) {
+				alert("끝페이지는 숫자를 써주세요.");
+				$("#frm_print input[name=e_page]").val("");
+				$("#frm_print input[name=e_page]").focus();
+			} else if( parseInt(s_page) < 1 ) {
+				alert("시작페이지의 최소값은 1입니다.");
+				$("#frm_print input[name=s_page]").val("");
+				$("#frm_print input[name=s_page]").focus();
+			} else if( parseInt(s_page) > parseInt(e_page) ) {
+				alert("시작 페이지는 끝페이지 보다 클수 없습니다.");
+				$("#frm_print input[name=s_page]").focus();
+				$("#frm_print input[name=s_page]").focus();
+			} else if( parseInt(e_page) - parseInt(s_page) > 49) {
+				alert("이미지 50개이상은 출력이 불가능합니다.");
+				$("#frm_print input[name=s_page]").val("");
+				$("#frm_print input[name=e_page]").val("");
+				$("#frm_print input[name=s_page]").focus();
+			} else if( parseInt(e_page) > parseInt(this.imgTotal) ) {
+				alert("해당이미지의 마지막 페이지는 " + this.imgTotal + " 입니다.");
+				$("#frm_print input[name=e_page]").val( this.imgTotal );
+				$("#frm_print input[name=e_page]").focus();
+			} else {
+				return true;
+			}
+		},
+		multiPrint: function( printtype ) {
+			this.printTotalCnt = print_win.$('body').find('img.printimg').length;
+		},
+		imageLoadCheck : function(img) {
+			this.printLoadCnt++;
+			this.setPrintStatusDlg( Math.floor(100 *this.printLoadCnt / this.printTotalCnt) );
+
+			//// image resize
+			if (this.printLoadCnt >= this.printTotalCnt) {
+				var printimg = print_win.$('#print_area').find('img.printimg');
+				for ( var i = 0; i < printimg.length; i++ ) {
+					this.imageResizeNew( printimg[i] );
+				}
+				this.startPrint();
+			}
+
+		},
+		startPrint : function() {
+			if (document.queryCommandSupported('print'))  {
+				$("#print_win").get(0).contentWindow.focus();
+				$("#print_win").get(0).contentWindow.document.execCommand('print', false, null);
+			} else {
+				$("#print_win").get(0).contentWindow.focus();
+				$("#print_win").get(0).contentWindow.print();
+			}
+
+			this.printLoadCnt = 0;
+			this.printTotalCnt = 0;
+			print_win.$('#print_area').html("");
+			this.closePrintStatus();
+		},
+		imageResizeNew : function( imgObj ){
+			var imgsz = getImgSize( $(imgObj) );
+
+			var prdiv_size = this.getPrintDivSize();
+			var prdiv_ratio = prdiv_size.width / prdiv_size.height;
+			var img_ratio = imgsz.naturalWidth / imgsz.naturalHeight;
+
+			if ( img_ratio >= prdiv_ratio ) { //
+				if(imgsz.naturalWidth > prdiv_size.width) {
+					zoom = prdiv_size.width / imgsz.naturalWidth;
+					imgObj.width = prdiv_size.width;
+				}
+			} else {
+				if(imgsz.naturalHeight > prdiv_size.height ) {
+					zoom = prdiv_size.height / imgsz.naturalHeight;
+					imgObj.height = prdiv_size.height;
+				}
+			}
+		},
+		openPrintStatus : function() {
+			this.setPrintStatusDlg( 0 );
+			$("#print_prog_dlg" ).dialog("open");
+		},
+		closePrintStatus : function() {
+			$("#print_prog_dlg" ).dialog("close");
+		},
+		setPrintStatusDlg : function( val ) {
+			$("#print_prog_status").progressbar("value", val );
+		}
+	};
+	
+	var imv = new ImgViewer();
+	imv.init({"imgserver":img_server});
+	
+	function setSyncInfo(svrdata, rellist) {
+		var html = "";
+
+		if (svrdata.orgItemIdByDataId == "BT") html='번역문';
+		else if(svrdata.orgItemIdByDataId == "MP" || svrdata.orgItemIdByDataId == "GP" || svrdata.orgItemIdByDataId == "KP") html='교감표점';
+		else if(svrdata.orgItemIdByDataId == "MO" || svrdata.orgItemIdByDataId == "GO") html='원문';
+		else if(svrdata.orgItemIdByDataId == "KH") html='원문';
+		else html = "";
+
+		var chSts_me = $(".syncCheck.on[data-sync-name='viewMe']").hasClass("on");
+		chSts_me = g_initStatus.getChSts_me(chSts_me);
+		if(svrdata.orgItemIdByDataId != "MD") {
+			html="<a class='check_toggle syncCheck "+(chSts_me?"on":"")+"' data-sync-name='viewMe' data-sync-val='Y'>"+html+"</a>";
+		}
+		
+		if(rellist['원문']) {
+			var chSts_o = $(".syncCheck.on[data-sync-name='viewSync_o']").hasClass("on");
+			chSts_o = g_initStatus.getchSts_o(chSts_o);
+			html+="<a class='check_toggle syncCheck "+(chSts_o?"on":"")+"' data-sync-name='viewSync_o' data-sync-val='OT'>원문</a>";
+		}
+		if(rellist['교감표점']) {
+			var chSts_k = $(".syncCheck.on[data-sync-name='viewSync_k']").hasClass("on");
+			chSts_k = g_initStatus.getchSts_k(chSts_k);
+			html+="<a class='check_toggle syncCheck "+(chSts_k?"on":"")+"' data-sync-name='viewSync_k' data-sync-val='KP'>교감표점</a>";
+		}
+		if(rellist['번역문']) {
+			var chSts_t = $(".syncCheck.on[data-sync-name='viewSync_t']").hasClass("on");
+			chSts_t = g_initStatus.getchSts_t(chSts_t);
+			html+="<a class='check_toggle syncCheck "+(chSts_t?"on":"")+"' data-sync-name='viewSync_t' data-sync-val='TR'>번역문</a>";
+		}
+		
+		if(svrdata.hejeYN == 'Y' || svrdata.orgItemIdByDataId == "MO" || svrdata.orgItemIdByDataId == "KP")
+			html+=" | <a id='linkhaeje'>해제</a>";
+			
+		html+=" <span class='dci-pane'>";
+		//if(imv.imgFile)
+		//	html+=" <a class='small_btn dci' data-dci-copy='"+imv.imgFile+"_IMG'>DCI복사</a>";
+		if(imv.getCurItem() && imv.getCurItem()['자료ID'])
+			html+=" <a class='small_btn dci dci-url-type' data-url-copy='"+imv.imgFile+"_IMG"+"'>URL복사</a>"; //html+=" <a class='small_btn dci' data-url-copy='"+imv.getCurItem()['자료ID']+"'>URL복사</a>";
+		html+=" </span>";
+		
+		$("#syncInfo").html(html); 
+	}
+
+	function openOrgTransText() {
+		var tmp_item = imv.getCurItem();
+
+		var viewMe = $(".syncCheck.on[data-sync-name='viewMe']").data("syncVal");
+		var viewSync_o = $(".syncCheck.on[data-sync-name='viewSync_o']").data("syncVal");
+		var viewSync_k = $(".syncCheck.on[data-sync-name='viewSync_k']").data("syncVal");
+		var viewSync_t = $(".syncCheck.on[data-sync-name='viewSync_t']").data("syncVal");
+		
+		var viewCnt = 0;
+		if(viewMe)viewCnt++;
+		if(viewSync_o)viewCnt++;
+		if(viewSync_k)viewCnt++;
+		if(viewSync_t)viewCnt++;
+		
+		var viewSync = "";
+		var viewSync2 = "";
+		if (tmp_item['아이템ID'] == "ITKC_BT") {
+			viewSync = viewSync_o;
+			viewSync2 = viewSync_k;
+		} else if (tmp_item['아이템ID'] == "ITKC_MO") {
+			viewSync = viewSync_k;
+			viewSync2 = viewSync_t;
+		} else if (tmp_item['아이템ID'] == "ITKC_KH") {
+			viewSync = $('.util .viewSync_KH').hasClass('on')?'KW':'';
+			viewSync2 = $('.util .viewSync2_KH').hasClass('on')?'KW':'';
+			if ( viewCnt == 0) {
+				$('.util .viewSync_KH').hide();
+				$('.util .viewSync2_KH').hide();
+			} else {
+				$('.util .viewSync_KH').show();
+				$('.util .viewSync2_KH').show();
+			}
+		} else {
+			viewSync = viewSync_o;
+			viewSync2 = viewSync_t;
+		}
+
+		if ( viewCnt == 0) {
+			$("#textorgtrans").html("");
+			resizeWindow();
+		} else {
+			if ( viewCnt == 1 )
+				$("#dualscroll").hide();
+			else
+				$("#dualscroll").show();
+			
+			if ( tmp_item['자료ID'] == null ) {
+				$("#dualscroll").hide();
+				$(".syncCheck").removeClass('on');
+				resizeWindow();
+				return;
+			}
+		
+			var viewSync3 = '';
+			if(viewCnt>=2 && $(".check_toggle[data-view-sync3]").is(':visible') && $(".check_toggle[data-view-sync3]").hasClass("on"))
+				viewSync3 = 'Y';
+			if(viewCnt>=2) viewSync3 = g_initStatus.getViewSync3(viewSync3);
+			$.get("/imgviewer/node", {"dataId":tmp_item['자료ID'], "viewMe":viewMe=='Y'?'Y':'N', "viewSync":viewSync, "viewSync2":viewSync2, "viewSync3":viewSync3})
+				.done(function (result, textStatus, jqXHR) {
+					$(".check_toggle[data-view-sync3]").hide();
+					$("#textorgtrans").html( result );
+					resizeWindow();
+				}).fail(function (jqXHR, textStatus, errorThrown) { alert(jqXHR.status + " : " + textStatus + " : " + errorThrown); });
+		}
+	}
+
+	function mappingSyncState(mappingSyncBlock,viewSync3) {
+		$(".check_toggle[data-view-sync3]").attr('data-view-sync3', viewSync3);
+		
+		if(viewSync3 == 'Y') {
+			$("#textorgtrans").addClass('mapping_on');
+			$(".check_toggle[data-view-sync3]").addClass('on');
+		} else {
+			$("#textorgtrans").removeClass('mapping_on');
+			$(".check_toggle[data-view-sync3]").removeClass('on');
+		}
+		
+		if(mappingSyncBlock == 'Y') {
+			$("#textorgtrans").addClass('mappingSyncBlock');
+			$(".check_toggle[data-view-sync3]").show();
+		} else {
+			$("#textorgtrans").addClass('mappingSyncBlock');
+			$(".check_toggle[data-view-sync3]").hide();
+		}
+	}
+	
+	$(document).ready(function(){
+		$("#content").on("click", ".check_toggle.viewer[data-view-sync3]", function(e) {
+			var viewSync3= $(this).attr("data-view-sync3");
+			if($(this).hasClass("on")) {
+				$("#textorgtrans").removeClass('mapping_on');
+				$(this).removeClass("on");
+			} else {
+				if(viewSync3=='Y') {
+					$("#textorgtrans").addClass('mapping_on');
+					$(this).addClass("on");
+				} else {
+					$("#textorgtrans").removeClass('mapping_on');
+					$(this).addClass("on");
+					openOrgTransText();
+				}
+			}
+		});
+	});
+	
+	///////////////////////
+	$(document).ready(function(){
+		//	{{{ 이미지뷰어 및 navigating 
+		$("#imgviewer").iviewer({
+
+			ui_disabled : false,
+			zoom_animation : true,
+			zoom : 'fit',
+			zoom_min : 20,
+			zoom_max : 500,
+			zoom_delta : 1.1,
+			mousewheel : true,
+			update_on_resize : true,
+			onStartLoad : function(ev, src) {
+				$("#imgviewer").find("img").hide();
+				$(".iviewer_zoom_status").hide();
+			},
+			onFinishLoad : function(ev, src) {
+				$("#imgviewer").find("img").show();
+				$(".iviewer_zoom_status").hide();
+				$("#imgviewer").removeClass("noimage");
+
+				$("#imgviewer").iviewer('update');
+				$("#imgviewer").iviewer('center');
+				$("#imgviewer").iviewer('fit');
+			},
+			onErrorLoad : function(ev, src) {
+				$("#imgviewer").addClass("noimage");
+			}
+		});
+
+		// control bar : image viewer navigation( 이전 및 다음으로 가기) 및 기타
+		$(".img_control_first").click(function( event ) {
+			imv.goFirst();
+			event.preventDefault();
+		});
+		$(".img_control_prev").click(function( event ) {
+			imv.goPrev();
+			event.preventDefault();
+		});
+		$(".img_control_next").click(function( event ) {
+			imv.goNext();
+			event.preventDefault();
+		});
+		$(".img_control_last").click(function( event ) {
+			imv.goLast();
+			event.preventDefault();
+		});
+		$(".img_control_go").click(function( event ) {
+			var imgidx = parseInt( document.getElementById("pageinfo").value );
+			imv.goPage( imgidx - 1, true );
+			event.preventDefault();
+		});
+		$(".img_control_zoomin").click(function( event ) {
+			imv.doZoomin();
+			event.preventDefault();
+		});
+		$(".img_control_zoomout").click(function( event ) {
+			imv.doZoomout();
+			event.preventDefault();
+		});
+		$(".img_control_fit").click(function( event ) {
+			imv.doFit();
+			event.preventDefault();
+		});
+		$(".img_control_orig").click(function( event ) {
+			imv.doOrig();
+			event.preventDefault();
+		});
+		$(".img_control_print").click(function( event ) {
+			$("#dlg_print" ).dialog("open");
+			event.preventDefault();
+		});
+		$(".img_control_vertview").click(function( event ) {
+			var tmp_item = imv.getCurItem();
+			event.preventDefault();
+		});
+		// }}}
+
+		$("#wrap").on("click",".syncCheck", function( event ) {
+			openOrgTransText();
+			event.preventDefault();
+		});
+
+		$("#wrap").on("click","#linkhaeje", function( event ) {
+			var tmp_item = imv.getCurItem();
+			var tmp_seojiId = tmp_item['서지ID'];
+			if(!tmp_seojiId)
+				return;
+			
+			if(s.startsWith(tmp_seojiId, 'ITKC_BT')) {
+				var url = "/dir/item?grpId=hj#/dir/node?grpId=hj&itemId=BT&dataId=" + tmp_seojiId;
+				window.open( url, '_blank');
+			} else if(s.startsWith(tmp_seojiId, 'ITKC_MO')) {
+				var hejeid = tmp_seojiId.substring( tmp_seojiId.lastIndexOf("_")+1, tmp_seojiId.length );
+				var url = "/dir/item?grpId=hj#/dir/node?grpId=hj&itemId=MI&dataId=ITKC_MI_" + hejeid;
+				window.open( url, '_blank');
+			} else if(s.startsWith(tmp_seojiId, 'ITKC_KP')) {
+				var hejeid = tmp_seojiId.substring( tmp_seojiId.lastIndexOf("_")+1, tmp_seojiId.length );
+				var url = "/dir/item?grpId=hj#/dir/node?grpId=hj&itemId=MI&dataId=ITKC_KI_" + hejeid;
+				window.open( url, '_blank');
+			}
+
+			event.preventDefault();
+		});
+		// }}}
+
+		// {{{ 인쇄기능 Dialog
+		$( "#dlg_print" ).dialog({
+			autoOpen: false,
+			modal: true,
+			width: 400,
+			buttons: [{
+				text: "인쇄",
+				click: function() {
+					var printtype = $('#frm_print input[name=printtype]:checked').val();
+					if ( printtype == 'single' ) {
+						$( this ).dialog("close");
+						imv.doPrint("single"); 
+					} else if ( printtype == 'multi' ) {
+						if ( imv.multiPrintChk() ) {
+							$( this ).dialog("close");	
+							imv.doPrint('multi');
+						}
+					}
+				}
+			}, {
+				text: "취소",
+				click: function() {
+					$( this ).dialog( "close" );
+				}
+			}]
+		});
+
+		//$("#dlg_print input[name=printtype]:radio").checkboxradio({ icon: false  });
+		$( "#dlg_print input[name=printtype]:radio").on( "change", function ( e ) {
+			if ( this.value == "single" ) {
+				$("#printpage input[type=text]").attr("readonly",true);
+				$("#printpage input[type=text]").attr("disabled",true);
+			} else {
+				$("#printpage input").removeAttr("readonly");
+				$("#printpage input").removeAttr("disabled");
+			}
+		});
+		$("#print_prog_dlg" ).dialog({
+			autoOpen: false,
+			modal: true,
+			width: 350//,
+			//buttons: [{ text: "취소", click: function() { $( this ).dialog( "close" ); } }]
+		});
+		
+		$("#print_prog_status").progressbar({ value: false,
+			change: function() {
+        		$("#progress_label").text( "이미지 로드 중입니다. : " + $("#print_prog_status").progressbar( "value" ) + "%" );
+      		}
+      	});
+		$("#print_prog_status").find(".ui-progressbar-value").css({ "background":"#007fff" })
+		// }}}
+		
+		
+		$("#content").on("click", "img.xsl_page_icon", function(e) {//xsl 페이지 아이콘 클릭
+			var pageId = toViewerPageId($(this).data("pageNumber"));
+			var dataId = $(this).closest("[data-viewnode-id]").data("viewnodeId");
+			if(!dataId)
+				getUrlParam(Backbone.history.getFragment()).dataId;
+			
+			location.href = "/imgviewer/item?itemId="+toShortItemId(dataId)+"#imgviewer/imgnode?grpId=&itemId="+toShortItemId(dataId)+"&dataId="+dataId+"&pageId="+pageId;
+		});
+
+	});
+ 
+	var prev_pageUrl = "";
+	var AppRouter = Backbone.Router.extend({
+	    routes: {
+	        'imgviewer/imgnode?*queryString': "imgnode",
+	    },
+	
+	    imgnode: function(queryString) {
+	    	var url = "/imgviewer/imgnode";
+    		if (typeof queryString != 'undefined')
+	    		url += "?"+queryString;
+	        this.loadAjaxData(url);
+	    },
+	    
+	    loadAjaxData: function(pageUrl) {
+	    	//console_log("[loadAjaxData] encodeURI before: "+ pageUrl);
+	    	pageUrl = encodeURI(pageUrl);
+	    	//console_log("[loadAjaxData] encodeURI after: "+ pageUrl);
+	    	
+	    	if(prev_pageUrl == pageUrl) //yskwun 20250910 크롬에서 트리 클릭시(.navigate 호출) 동일이벤트 2번 발생되는 현상  https://github.com/gwynjudd/backbone/commit/9fd4c79b573a164f430072781a1a5b4c2c29f13f, https://stackoverflow.com/questions/17727495/backbone-navigate-triggers-twice-in-firefox, http://jsfiddle.net/adyz/qcged76e/2/
+	    		return;
+	    	prev_pageUrl = pageUrl;
+	    	
+	    	$.blockUI({message: '<div class="loading-pane"><img src="/resources/images/common/busy.gif" /></div>'});
+	    	$.get(pageUrl).done(function (result, textStatus, jqXHR) {
+
+	    		$.unblockUI();
+	    		updateTreeTopNavi( pageUrl );
+				imv.loadImgInfo( result );
+				imv.loadImg();
+				imv.treeSync(false); //상위노드 클릭시 자동left Sync를 위해 호출
+				openOrgTransText();
+
+				try {
+					if(_PL) {_PL(location.href);} //ace count call when ajax
+					ga_send_pageview(); //google analysis
+					if(window.wcs) {wcs_do();} //naver analysis
+	    		} catch(err) {}
+				
+	    	}).fail(function (jqXHR, textStatus, errorThrown) { alert(jqXHR.status + " : " + textStatus + " : " + errorThrown); }).always($.unblockUI);
+	    }
+	});
+
+	var appRouter = new AppRouter;
+         
+	$(function(){
+		Backbone.history.start();
+	});
+</script>
+
+<script src="/resources/libs/jquery.scrollSync.js"></script>
+<script src="/resources/js/itkcNodeView.js?20210809"></script>
+
+<script type="text/javascript">
+function changeLocationHash(paramName, paramVal) {
+	var hasUrl = Backbone.history.getFragment();
+	hasUrl = getChangeQueryParam(hasUrl, paramName, paramVal);
+    appRouter.navigate('/'+hasUrl, { trigger: true })
+}
+
+function changeLocationMapHash(paramMap) {
+	var hasUrl = Backbone.history.getFragment();
+	
+	_.each(paramMap, function(value,key,list) {
+		hasUrl = getChangeQueryParam(hasUrl, key, value);
+	});
+	
+	appRouter.navigate('/'+hasUrl, { trigger: true });
+}
+
+function navigate(url) {
+	appRouter.navigate('/'+url, { trigger: true });
+}
+
+var vertViewWin = null;
+function popVertView() {
+	var paramObj = getUrlParam(Backbone.history.getFragment());
+	vertViewWin = popWin('/imgviewer/vertView?dataId='+paramObj.dataId+'&imgFile='+imv.imgFile,'_verflow', 760, 750);
+}
+
+function updatePopVertView() {
+	if(vertViewWin && !vertViewWin.closed) {
+		popVertView();
+	}
+}
+</script>
+
+
+
+
+
+
+<script type="text/javascript" src="/resources/libs/jquery-ui/jquery-ui.min.js" ></script>
+<script type="text/javascript" src="/resources/libs/iviewer/jquery.mousewheel.min.js" ></script>
+<script type="text/javascript" src="/resources/libs/iviewer/jquery.iviewer.js" ></script>
+<!-- view_content area -->	
+<div class="view_content">
+	
+	<div class="view_page_option">
+		<span style="margin-left:10px;font-weight:bold;">고전원문 <span id="seoji_name"></span></span>
+		<div class="option_btn_txt fr" id="syncInfo"></div>
+	</div> 
+
+	<section class="content" id="content">
+		<div id="imgviewer" class="view">
+			<a class="img_control_prev"><img src="/resources/images/viewer_img_prev.png" alt="이전" /></a>
+			<a class="img_control_next"><img src="/resources/images/viewer_img_next.png" alt="다음" /></a>
+			<!--<a class="img_control_prev"><img src="/resources/images/viewer_img_prevd.png" alt="이전" /></a>
+			<a class="img_control_next"><img src="/resources/images/viewer_img_nextd.png" alt="다음" /></a>-->
+			<div class="iviewer_imagefilename"></div>
+		</div>
+		<div class="control">
+			<nav class="viewer">
+				<a class="img_control_first"><img src="/resources/images/btn_viewer_first.png" alt="처음" /></a>
+				<a class="img_control_prev"><img src="/resources/images/btn_viewer_prev.png" alt="이전" /></a>
+				<a class="img_control_next"><img src="/resources/images/btn_viewer_next.png" alt="다음" /></a>
+				<a class="img_control_last"><img src="/resources/images/btn_viewer_last.png" alt="마지막" /></a>
+				<div class="control_page">
+					<input id="pageinfo" type="text" value="1" />
+					<input id="pageinfo2" type="text" value="" readonly />
+					<a class="img_control_go"><img src="/resources/images/bg_go.png" alt="마지막" /></a>
+				</div>
+				<a class="img_control_zoomin"><img src="/resources/images/btn_viewer_zoomin.png" alt="확대" /></a>
+				<a class="img_control_zoomout"><img src="/resources/images/btn_viewer_zoomout.png" alt="축소" /></a>
+				<a class="img_control_orig"><img src="/resources/images/btn_viewer_11.png" alt="1:1" /></a>
+				<a class="img_control_fit"><img src="/resources/images/btn_viewer_fit.png" alt="화면맞춤" /></a>
+				<a class="img_control_print"><img src="/resources/images/btn_viewer_print.png" alt="출력" /></a>
+			</nav>
+			<nav class="util">
+				
+				
+				
+					<a class="check_toggle no-bind viewer" data-view-sync3="" style="display:none; margin:12px 5px 0 0; padding-top:1px;">문장매칭</a>
+					<a id="dualscroll" class="check_toggle scroll-sync no-bind on" onclick="toggleScrollSync(this);">동시 스크롤</a>
+					<a class="img_control_vertview" onclick="popVertView()" style='display:none;'><img src="/resources/images/btn_viewer_height.png" alt="세로보기" /></a>
+				
+				
+			</nav>
+		</div>
+		<div id="textorgtrans" class="para_block">
+		</div>
+	</section>
+
+</div>
+<!-- {{{ print -->
+<div id="dlg_print" title="인쇄 " style="display:none;">
+	<form name="frm_print" id="frm_print">
+		<div style="padding:3px"><b><i class="ui-icon ui-icon-print" ></i> 인쇄범위</b></div>
+		<div style="padding:10px 10px 5px 30px">
+			<input type="radio" name="printtype" id="single" value="single" checked> 
+			현재쪽 
+		</div>
+		<div style="padding:10px 10px 5px 30px">
+			<div id="printpage">
+				<input type="radio" name="printtype" id="multi" value="multi">
+				일부분 :
+				<label>시작페이지</label>
+				<input type="text" name="s_page" value="" size="3" readonly="readonly" disabled="disabled" class="text ui-widget-content ui-corner-all">
+				<label> ~ 끝페이지</label>
+				<input type="text" name="e_page"  value="" size="3" readonly="readonly" disabled="disabled" class="text ui-widget-content ui-corner-all">
+				<div style="padding:5px; text-align:center;">※ 일부분 인쇄는 50페이지 이하로 선택해 주십시오</div>
+			</div> 
+		</div>
+
+		<div style="padding:3px"><b><i class="ui-icon ui-icon-print" ></i> 인쇄방식</b></div>
+		<table width="100%">
+			<tr>
+				<td align="center" colspan="4">
+				<div class="imgdir">
+					<img src="/resources/images/rotate_01.png"><br>
+					<input type="radio" name="img_angle" value="270" >
+					<div class="imgdiricon">
+						-90도 회전
+					</div>
+				</div>
+				<div class="imgdir">
+					<img src="/resources/images/rotate_02.png"><br>
+					<input type="radio" name="img_angle" value="0" >
+					<div class="imgdiricon">
+						기본방향
+					</div>
+				</div>
+				<div class="imgdir">
+					<img src="/resources/images/rotate_03.png"><br>
+					<input type="radio" name="img_angle" value="90" checked>
+					<div class="imgdiricon">
+						90도 회전
+					</div>
+				<div>
+				</td>
+			</tr>
+		</table>
+
+	</form>
+</div>
+<div id='print_prog_dlg' title='인쇄중 입니다.' style="display:none;">
+	<div id='progress_label' style='font-weight: bold; text-shadow: 1px 1px 0 #fff;'>이미지 로드 중입니다...</div>
+	<div id='print_prog_status' style='margin-top: 20px;'></div>
+</div>
+<div id="ext_area" style="display:none;">
+<iframe name="print_win" id="print_win" height="0px" width="100%" style="border-top:0px; border-bottom:0px; border-left:0px; border-right:0px;"></iframe>
+</div>
+
+
+
+<section id="layer_kakju_detial" class="pop_mark" style="display:none; width:400px">
+	<header class="pophead_mark">
+		<h2 class="poptit"><strong>+</strong> <span class='kakju_type'>주석</span></h2>
+		<div class="mark_num"></div>
+	</header>
+	<div class="popcontent_mark">
+		<div class="cont_txt" style="overflow:hidden;">
+			[내용영역]
+		</div>
+	</div>
+</section>
+
+<section id="layer_dci_copy" class="pop_mark" style="width:400px; display:none;">
+	<header class="pophead_mark">
+		<h2 class="poptit"><strong>+</strong> <span>DCI복사</span></h2>
+		<div class="mark_btn"><a onclick="copyClipBoard('dci-copy-textarea')" class="small_btn">복사하기</a> <a class="small_btn closebtn">X</a></div>
+	</header>
+	<div class="popcontent_mark">
+		<textarea id="dci-copy-textarea" style="width:359px;height:35px">
+		</textarea>
+	</div>
+</section>
+
+<section id="layer_link_kakju" class="pop_mark" style="width:400px; display:none;">
+</section>
+
+<section id="layer_authorWriter_detial" class="pop_mark" style="display:none;width:200px">
+	<header class="pophead_mark">
+		<h2 class="poptit"><strong>+</strong> <span class="authorType">역자정보</span></h2>
+		<div class="mark_num"></div>
+	</header>
+	<div class="popcontent_mark">
+		[내용영역]
+	</div>
+</section>
+
+<!-- }}} -->
+
+<!--// content area -->
+
+</div>
+
+</div>
+
+
+
+</body>
+</html>

@@ -1,0 +1,23 @@
+{
+  "atUTC": "2026-10-30T05:05:09.961290+00:00",
+  "referenceAbsent": true,
+  "files": [
+    {
+      "file": "tmp/bazi-source-seal-staging/MANUAL.json",
+      "bytes": 1203,
+      "sha256": "67ff629878a3ad3427113ab80a2b54574da2797e2d9c192bba7688139d5d34b8"
+    },
+    {
+      "file": "tmp/bazi-source-seal-staging/EXPECTED.json",
+      "bytes": 903,
+      "sha256": "4aee02f473311b8da4a8b00948c60b1fcb76b49e3f15a8a7d0d0caec4af548ff"
+    },
+    {
+      "file": "tmp/bazi-source-seal-staging/SOURCE_IDENTITIES.json",
+      "bytes": 1261,
+      "sha256": "e53c5e388f251bd00d97433f3f20c691dbf122288a19a6e98ded06c17f33b754"
+    }
+  ],
+  "newEngineCallsPlanned": 0,
+  "sourceOnlyLookupNotEngineComparison": true
+}

@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-27",
+  "status": "functional-candidate-verified-visual-integration-pending",
+  "candidateStandalone": "v53/research/bazi-jianlu-context/consumer-candidate/Huyen_Hoc_Cac.html",
+  "playwrightLaunch": "spawn EPERM",
+  "inAppBrowser": "Local browser use disabled in Work settings",
+  "browserTestsPassed": false,
+  "visualQAComplete": false,
+  "pdfQAComplete": false,
+  "consumerChanged": false,
+  "currentHTMLBytes": 707411,
+  "candidateHTMLBytes": 709915,
+  "next": "When a browser is available, run the candidate browser test, inspect screenshots/PDF, then integrate the preserved files; do not present current UI as updated."
+}

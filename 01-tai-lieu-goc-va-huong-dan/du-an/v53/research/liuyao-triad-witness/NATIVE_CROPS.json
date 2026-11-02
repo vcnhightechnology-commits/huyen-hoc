@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-29",
+  "records": [
+    {
+      "id": "japan8-four-modes",
+      "source": {
+        "file": "tmp/liuyao-triad-witness-staging/japan-volume2-spread-8-returned.jpg",
+        "bytes": 884801,
+        "sha256": "ba5566f80a350364a3240a1d15c14ab850d5a9ba6f00b22ed7722357de18ceda"
+      },
+      "boxXYXY": [
+        1110,
+        300,
+        1485,
+        1815
+      ],
+      "crop": {
+        "file": "tmp/liuyao-triad-witness-staging/japan8-four-modes.png",
+        "bytes": 923683,
+        "sha256": "f095296d1aa5e0febe1fe068694c023b76a3de313cdcdbf968c177393152a365"
+      },
+      "viewed": true,
+      "accepted": true,
+      "scope": "Selectedfirst-mode/four-modewordingonly;notwholepagecollation.",
+      "RGBMatchesSourceCrop": true
+    },
+    {
+      "id": "japan9-two-active-qualification",
+      "source": {
+        "file": "tmp/liuyao-triad-witness-staging/japan-volume2-spread-9-returned.jpg",
+        "bytes": 896143,
+        "sha256": "790e8ea768fc09a8059214d556b9cfc08e9a4a39796882365c9bcbc9988e6c44"
+      },
+      "boxXYXY": [
+        1850,
+        330,
+        2050,
+        1810
+      ],
+      "crop": {
+        "file": "tmp/liuyao-triad-witness-staging/japan9-two-active-qualification.png",
+        "bytes": 499928,
+        "sha256": "db6de1119266385ae75b39458b0029ee60c84c7feec1ac9c28c02eb2a813dd30"
+      },
+      "viewed": true,
+      "accepted": false,
+      "exclusionReason": "Rightmarginoflaterqualificationcut;retainedastrial,expandedbeforefreeze."
+    },
+    {
+      "id": "nlc78-first-mode",
+      "source": {
+        "file": "v53/research/liuyao-day-month/images/zengshan-78.png",
+        "bytes": 130954,
+        "sha256": "644d5ad1bcc0ee367f5b250eef86b6c8d127eb4c8b75bc8647cb201c0dcc7969"
+      },
+      "boxXYXY": [
+        860,
+        235,
+        1010,
+        1520
+      ],
+      "crop": {
+        "file": "tmp/liuyao-triad-witness-staging/nlc78-first-mode.png",
+        "bytes": 22150,
+        "sha256": "8d4cda122582bd28d82d7c24b961d67c2d7ee7552700d303a450ff2fef37bc5f"
+      },
+      "viewed": true,
+      "accepted": true,
+      "scope": "Selectedfirst-mode/four-modewordingonly;notwholepagecollation.",
+      "RGBMatchesSourceCrop": true
+    },
+    {
+      "id": "japan9-qualification-complete",
+      "source": {
+        "file": "tmp/liuyao-triad-witness-staging/japan-volume2-spread-9-returned.jpg",
+        "bytes": 896143,
+        "sha256": "790e8ea768fc09a8059214d556b9cfc08e9a4a39796882365c9bcbc9988e6c44"
+      },
+      "boxXYXY": [
+        1730,
+        315,
+        2180,
+        1835
+      ],
+      "crop": {
+        "file": "tmp/liuyao-triad-witness-staging/japan9-qualification-complete.png",
+        "bytes": 1096385,
+        "sha256": "a076957a8054ced0cf919c16f2bf3a7507eba6952fbab4ebeac6eecc8e34e414"
+      },
+      "viewed": true,
+      "accepted": true,
+      "RGBMatchesSourceCrop": true
+    }
+  ]
+}

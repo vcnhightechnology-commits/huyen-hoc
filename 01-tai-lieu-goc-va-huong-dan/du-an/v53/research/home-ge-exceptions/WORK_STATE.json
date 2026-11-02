@@ -1,0 +1,41 @@
+{
+  "schema": "hhc.home.ge-exceptions.work-state.v1",
+  "date": "2026-10-29",
+  "status": "selected-source-conditions-and-two-local-exceptions-verified",
+  "sourceID": "itkc-1508A-vol2-daily-selected",
+  "relatedCatalogueID": "P08",
+  "isIndependentWitnessOfP08": false,
+  "sourcePositionsReused": [251,252,253],
+  "selectedConditionUnits": 10,
+  "headingGroups": 7,
+  "localExceptionClauses": 2,
+  "deferredConditionUnits": 8,
+  "sourceEvidence": "SOURCE_REUSE.json",
+  "readings": "MANUAL_CONDITIONS.json",
+  "reference": "ge-exception-reference.mjs",
+  "tests": "REFERENCE_RESULTS.json",
+  "sourceChecks": "SOURCE_RESULTS.json",
+  "preimplementationFreeze": "PREIMPLEMENTATION_FREEZE.json",
+  "sourceLimits": [
+    "Only two short local exceptions under the declared reading; marker/day qualification remains caller-declared, no date adapter.",
+    "Entering a mountain to cut timber is a combined activity; no split into entry alone or location-free cutting.",
+    "祭祀合神在日 is kept apart from prayer, the preceding benefic list and historical ghost rites.",
+    "Eight condition units keep unresolved list/nested/connective/activity/heading semantics; no AND/OR guessed.",
+    "刑隔 heading and 州隔 running form remain separate roles; digital 州鬲 is not independent testimony.",
+    "種植合成收日 retains governing 合 rather than an invented third day label from digital punctuation.",
+    "No override of 萬通火星 or any other clause; local exception is not overall permission, efficacy or a prediction."
+  ],
+  "next": [
+    "Trace named system definitions and grouping within retained source context before implementing the eight deferred condition units; do not solve an ambiguous list by a modern engine convention.",
+    "If source grammar or missing classifiers cannot be resolved, continue an independent substantial gap in the current library matrix.",
+    "P08 month labels still 500 working readings/220 unresolved coordinates; no automatic fill or repetition of 720 prior calendar calls.",
+    "Retain C05 food connective/pillar-scope and B02 efficacy/priority as open; no whole-work completion claim."
+  ],
+  "newHTTPBodies": 0,
+  "newSourcePositions": 0,
+  "newCalendarEngineCalls": 0,
+  "newChartCalls": 0,
+  "consumerChanged": false,
+  "wholeWorkApplied": false,
+  "wholeCatalogueCompleted": false
+}

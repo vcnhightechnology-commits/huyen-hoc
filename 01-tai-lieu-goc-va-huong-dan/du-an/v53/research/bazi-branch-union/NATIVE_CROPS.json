@@ -1,0 +1,94 @@
+{
+  "records": [
+    {
+      "page": 193,
+      "raw": {
+        "file": "tmp/bazi-branch-union-staging/p193.png",
+        "bytes": 259192,
+        "sha256": "66080b357b94485d8b43ae7709932cd068082b5263163fcbcb5cb3dfeba80671"
+      },
+      "crop": {
+        "file": "tmp/bazi-branch-union-staging/p193-pair-arguments.png",
+        "bytes": 191655,
+        "sha256": "be60aae8fc332f82e75a12807305964e707b128df13f28358f0689a05c519997"
+      },
+      "boxXYXY": [
+        270,
+        310,
+        2070,
+        2860
+      ],
+      "viewed": true,
+      "accepted": true,
+      "note": "Full selected context."
+    },
+    {
+      "page": 198,
+      "raw": {
+        "file": "tmp/bazi-branch-union-staging/p198.png",
+        "bytes": 273581,
+        "sha256": "53873a7997a5aae6883c6e2ebf66b60e0da8cdd13bdc4f57ca63214b30c9aea3"
+      },
+      "crop": {
+        "file": "tmp/bazi-branch-union-staging/p198-hidden-and-directed.png",
+        "bytes": 185367,
+        "sha256": "701b6c3a3f96e78ba8728498347742fd01081f5862b0db96cc9fc5e5050455da"
+      },
+      "boxXYXY": [
+        315,
+        315,
+        1900,
+        2870
+      ],
+      "viewed": true,
+      "accepted": false,
+      "note": "First crop right edge clipped preceding 合禄合馬合貴 context; expanded before freeze."
+    },
+    {
+      "page": 199,
+      "raw": {
+        "file": "tmp/bazi-branch-union-staging/p199.png",
+        "bytes": 231492,
+        "sha256": "519679a6bdfecf8afcf823f5709c1585f5f888b3fe262d4cedc6d37836561b0a"
+      },
+      "crop": {
+        "file": "tmp/bazi-branch-union-staging/p199-directed-tail-boundary.png",
+        "bytes": 59135,
+        "sha256": "5f409686e78afb16dc4c5f4282c05d50bf2ac2d19634eb9111cf8fb2e9757f49"
+      },
+      "boxXYXY": [
+        1530,
+        300,
+        2040,
+        2880
+      ],
+      "viewed": true,
+      "accepted": true,
+      "note": "Full selected context."
+    },
+    {
+      "page": 198,
+      "raw": {
+        "file": "tmp/bazi-branch-union-staging/p198.png",
+        "bytes": 273581,
+        "sha256": "53873a7997a5aae6883c6e2ebf66b60e0da8cdd13bdc4f57ca63214b30c9aea3"
+      },
+      "crop": {
+        "file": "tmp/bazi-branch-union-staging/p198-hidden-directed-expanded.png",
+        "bytes": 209831,
+        "sha256": "e0e3a7ef92d06894bebf23d8c35a30e9ff479c8faad9729b2a34599099054811"
+      },
+      "boxXYXY": [
+        300,
+        290,
+        2120,
+        2880
+      ],
+      "viewed": true,
+      "accepted": true,
+      "note": "Full selected context."
+    }
+  ],
+  "acceptedRGBMatched": 3,
+  "trialRGBMatched": 1
+}

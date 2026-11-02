@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-29",
+  "beforeGuardImplementation": true,
+  "manualCases": [
+    {
+      "catalogue": "B02",
+      "scope": "weather-voices-and-heng-case",
+      "expectedDisposition": "reuse-existing-complete-bounded-scope",
+      "expectedNewSourceCase": false
+    },
+    {
+      "catalogue": "B02",
+      "scope": "complete-weather-strength-and-timing",
+      "expectedDisposition": "open-source-premises",
+      "expectedNewSourceCase": null
+    }
+  ],
+  "unknownScopeMustNotBeTreatedAsComplete": true,
+  "wholeCatalogueCompleteExpected": false
+}

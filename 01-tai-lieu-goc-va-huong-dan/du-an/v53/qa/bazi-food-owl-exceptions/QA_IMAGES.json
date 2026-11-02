@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-28",
+  "records": [
+    {
+      "sourceFile": "v53/research/bazi-food-source/p175.png",
+      "file": "p175-exceptions-native.png",
+      "cropBox": [
+        350,
+        300,
+        1610,
+        2860
+      ],
+      "sha256": "d9681a56301381be95ae97e46b149e5becb54faaaf4ea82f423c38a1154021fd",
+      "resampled": false,
+      "actuallyViewed": true
+    },
+    {
+      "sourceFile": "v53/research/bazi-food-source/p176.png",
+      "file": "p176-exceptions-close-native.png",
+      "cropBox": [
+        1050,
+        270,
+        2120,
+        2600
+      ],
+      "sha256": "2cab0d440b51f82fca4d73734379d90be86294a4bcc74dd667e921f276481ffd",
+      "resampled": false,
+      "actuallyViewed": true
+    },
+    {
+      "sourceFile": "v53/research/bazi-food-source/p175.png",
+      "file": "p175-lu-glyph-native.png",
+      "cropBox": [
+        1330,
+        300,
+        1580,
+        1500
+      ],
+      "sha256": "d3a4748c57e57745b285ca6fe7c9a751c0aab1ab0bfab7174e2eb44a69f0b1da",
+      "resampled": false,
+      "actuallyViewed": true,
+      "readingNote": "Initial target crop actually contains 如己亥 context, not the disputed祿clause; retained with correction note."
+    },
+    {
+      "sourceFile": "v53/research/bazi-food-source/p175.png",
+      "file": "p175-lu-clause-native.png",
+      "cropBox": [
+        1120,
+        300,
+        1360,
+        1500
+      ],
+      "sha256": "81ebd77b5cd749dbcb1653d3e67b1b73c66029a0ac43e90b7e22a7e32ccc4f59",
+      "resampled": false,
+      "actuallyViewed": true,
+      "readingNote": "Correct target native crop shows 而土祿在亥; retain apparent literal土, no correction from standard祿table."
+    }
+  ]
+}

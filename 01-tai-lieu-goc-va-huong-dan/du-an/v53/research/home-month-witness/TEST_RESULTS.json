@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-29",
+  "checks": [
+    {
+      "name": "Manual84-cell grid, expected contrasts, eight native crops and13retained HTTP bodies frozen before successful batch",
+      "ok": true
+    },
+    {
+      "name": "84literal comparisons retain77equal, five centre-stem differences and two unresolved P08 cells",
+      "ok": true
+    },
+    {
+      "name": "Image month-de fourth cell is Geng while ITKC/WSdigital both read Yin; duplicate wording not independent corroboration",
+      "ok": true
+    },
+    {
+      "name": "Four unsupported bases and missing month do not select calendar rows, centres or trigrams",
+      "ok": true
+    },
+    {
+      "name": "Explicit input domains, isolated results and null downstream claims prevent silent witness promotion",
+      "ok": true
+    },
+    {
+      "name": "Two successful compass calls plus two from failed mapping batch are disclosed; no additional engine execution in replay",
+      "ok": true
+    },
+    {
+      "name": "Stable consumer and original P08table preserve their bytes",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "completeChecks": 7,
+    "manualCells": 84,
+    "sourceComparisonsReplayed": 84,
+    "sameLiterals": 77,
+    "differentLiterals": 5,
+    "P08Unresolved": 2,
+    "unknownBasisFrames": 336,
+    "missingMonthFrames": 7,
+    "institutionDigitalImageDiscrepancies": 1,
+    "wikisourceDigitalImageDiscrepancies": 1,
+    "distinctFacsimileDiscrepancyCoordinates": 1,
+    "retainedHTTP200Bodies": 13,
+    "newHHCCompassCallsThisTest": 0,
+    "totalActualCompassCallsIncludingPriorFailure": 4,
+    "successfulBatchCompassCalls": 2,
+    "failedBatchCompassCalls": 2,
+    "successfulRuntimeBatches": 1,
+    "failedRuntimeBatches": 1,
+    "consumerChanged": false,
+    "wholeCatalogueCompleted": false
+  }
+}

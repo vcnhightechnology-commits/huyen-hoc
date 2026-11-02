@@ -1,0 +1,125 @@
+{
+  "schema": "hhc.bazi.food-chain.selected-source.v1",
+  "date": "2026-10-29",
+  "system": "TMTH005-C07-source-chain",
+  "parent": "FOOD-00-C07",
+  "sourceImage": "v53/research/bazi-pattern-extension/images/p171.png",
+  "printedFolio": "005-85a",
+  "newSourcePositions": 0,
+  "newHTTPBodies": 0,
+  "chainLiteral": "假如甲見丙為食柱中有壬作甲木偏印尅制丙火不能生戊土不能制庚金使甲木受制退財豈不窘乎",
+  "literalHasExplicitSecondSubject": false,
+  "sourceNamedDayRoot": "甲",
+  "sourceNamedStems": [
+    "甲",
+    "丙",
+    "壬",
+    "戊",
+    "庚"
+  ],
+  "stemsAreNotFiveBirthPillars": true,
+  "dayRootRolesDirectlyNamed": [
+    {
+      "dayRoot": "甲",
+      "stem": "丙",
+      "role": "食神"
+    },
+    {
+      "dayRoot": "甲",
+      "stem": "壬",
+      "role": "偏印"
+    }
+  ],
+  "dayRootRolesEditoriallyInferred": [
+    {
+      "dayRoot": "甲",
+      "stem": "戊",
+      "role": "偏財"
+    },
+    {
+      "dayRoot": "甲",
+      "stem": "庚",
+      "role": "七殺"
+    }
+  ],
+  "elementCoordinateEdges": [
+    {
+      "from": "甲",
+      "to": "丙",
+      "relation": "生",
+      "basis": "Source甲見丙為食+fixedrelation"
+    },
+    {
+      "from": "壬",
+      "to": "甲",
+      "relation": "生",
+      "basis": "Source壬作甲木偏印+fixedrelation"
+    },
+    {
+      "from": "壬",
+      "to": "丙",
+      "relation": "剋",
+      "basis": "Sourceexplicit尅制丙火"
+    },
+    {
+      "from": "丙",
+      "to": "戊",
+      "relation": "生",
+      "basis": "Workingparallel-Bing-subjectreading;sourceexpresses不能notpositiveeffectivegeneration"
+    },
+    {
+      "from": "丙",
+      "to": "庚",
+      "relation": "剋",
+      "basis": "Editorialellipsisresolution;notexplicitrepeatedsubject"
+    },
+    {
+      "from": "庚",
+      "to": "甲",
+      "relation": "剋",
+      "basis": "Source使甲木受制;actor庚editoriallyboundfromprecedingclause"
+    }
+  ],
+  "subjectBindingModels": {
+    "unresolved": {
+      "sourceMeaningResolved": false
+    },
+    "parallel-bing-subject": {
+      "inferredActorForBothNegatedPredicates": "丙",
+      "label": "Editorialinferencecompatiblewithfixedfive-elementcoordinates;notdiplomaticemendation",
+      "sourceMeaningResolved": false
+    },
+    "adjacent-wu-subject": {
+      "inferredActorForSecondNegatedPredicate": "戊",
+      "label": "Mechanicaladjacencycounterreadingtoaudit;戊→庚生isnot剋",
+      "sourceMeaningResolved": false
+    }
+  },
+  "qualifiedVoices": [
+    {
+      "name": "又曰",
+      "scope": "Citedfood-owlclaim,notsingleunqualifiedauthorrule"
+    },
+    {
+      "name": "元理賦云",
+      "scope": "Quotedclaimnotmodernoutcomeevidence"
+    },
+    {
+      "name": "一行云",
+      "literalAnchor": "五行休廢遇竒救災禍必輕四柱消息值平和福徳増重",
+      "scope": "Rescueandbalancequalificationretained;noautomaticpriority/rescueclassifier"
+    }
+  ],
+  "excludedOutcomeClaims": [
+    "appearance",
+    "character",
+    "lifespan",
+    "wealthloss",
+    "familyfortune"
+  ],
+  "quantityStrengthAndRescueClassifiersEstablished": false,
+  "calendarOrBirthChartEstablished": false,
+  "consumerApplied": false,
+  "wholeParentApplied": false,
+  "newSourceCoordinateGraphNotFixedRelationRediscovery": true
+}

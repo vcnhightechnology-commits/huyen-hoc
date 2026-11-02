@@ -1,0 +1,272 @@
+{
+  "date": "2026-10-28",
+  "sourcePDFSHA256": "b6394102a995bb66df173452b37614b29d58e34ff85e08c43077006572ac48a5",
+  "sourcePDFPages": [
+    134,
+    135
+  ],
+  "sourceDayBranches": [
+    "子",
+    "丑",
+    "寅",
+    "卯",
+    "辰",
+    "巳",
+    "午",
+    "未",
+    "申",
+    "酉",
+    "戌",
+    "亥"
+  ],
+  "entryMethod": "Ten columns retained, 司命 corrected by native header-to-column alignment, 勾陳 directly entered from its actual column. Neighbor 日 list kept separate, not hour values.",
+  "columns": [
+    {
+      "sourceLabel": "青龍",
+      "sourceType": "黃道",
+      "hoursByDayBranch": [
+        "申",
+        "戌",
+        "子",
+        "寅",
+        "辰",
+        "午",
+        "申",
+        "戌",
+        "子",
+        "寅",
+        "辰",
+        "午"
+      ],
+      "sourcePDFPage": 134
+    },
+    {
+      "sourceLabel": "明堂",
+      "sourceType": "黃道",
+      "hoursByDayBranch": [
+        "酉",
+        "亥",
+        "丑",
+        "卯",
+        "巳",
+        "未",
+        "酉",
+        "亥",
+        "丑",
+        "卯",
+        "巳",
+        "未"
+      ],
+      "sourcePDFPage": 134
+    },
+    {
+      "sourceLabel": "天刑",
+      "sourceType": "黑道",
+      "hoursByDayBranch": [
+        "戌",
+        "子",
+        "寅",
+        "辰",
+        "午",
+        "申",
+        "戌",
+        "子",
+        "寅",
+        "辰",
+        "午",
+        "申"
+      ],
+      "sourcePDFPage": 134
+    },
+    {
+      "sourceLabel": "朱雀",
+      "sourceType": "黑道",
+      "hoursByDayBranch": [
+        "亥",
+        "丑",
+        "卯",
+        "巳",
+        "未",
+        "酉",
+        "亥",
+        "丑",
+        "卯",
+        "巳",
+        "未",
+        "酉"
+      ],
+      "sourcePDFPage": 134
+    },
+    {
+      "sourceLabel": "金匱",
+      "sourceType": "黃道",
+      "hoursByDayBranch": [
+        "子",
+        "寅",
+        "辰",
+        "午",
+        "申",
+        "戌",
+        "子",
+        "寅",
+        "辰",
+        "午",
+        "申",
+        "戌"
+      ],
+      "sourcePDFPage": 135
+    },
+    {
+      "sourceLabel": "天德",
+      "sourceType": "黃道",
+      "hoursByDayBranch": [
+        "丑",
+        "卯",
+        "巳",
+        "未",
+        "酉",
+        "亥",
+        "丑",
+        "卯",
+        "巳",
+        "未",
+        "酉",
+        "亥"
+      ],
+      "sourcePDFPage": 135
+    },
+    {
+      "sourceLabel": "白虎",
+      "sourceType": "黑道",
+      "hoursByDayBranch": [
+        "寅",
+        "辰",
+        "午",
+        "申",
+        "戌",
+        "子",
+        "寅",
+        "辰",
+        "午",
+        "申",
+        "戌",
+        "子"
+      ],
+      "sourcePDFPage": 135
+    },
+    {
+      "sourceLabel": "土堂",
+      "sourceType": "黃道",
+      "hoursByDayBranch": [
+        "卯",
+        "巳",
+        "未",
+        "酉",
+        "亥",
+        "丑",
+        "卯",
+        "巳",
+        "未",
+        "酉",
+        "亥",
+        "丑"
+      ],
+      "sourcePDFPage": 135
+    },
+    {
+      "sourceLabel": "天牢",
+      "sourceType": "黑道",
+      "hoursByDayBranch": [
+        "辰",
+        "午",
+        "申",
+        "戌",
+        "子",
+        "寅",
+        "辰",
+        "午",
+        "申",
+        "戌",
+        "子",
+        "寅"
+      ],
+      "sourcePDFPage": 135
+    },
+    {
+      "sourceLabel": "玄武",
+      "sourceType": "黑道",
+      "hoursByDayBranch": [
+        "巳",
+        "未",
+        "酉",
+        "亥",
+        "丑",
+        "卯",
+        "巳",
+        "未",
+        "酉",
+        "亥",
+        "丑",
+        "卯"
+      ],
+      "sourcePDFPage": 135
+    },
+    {
+      "sourceLabel": "司命",
+      "sourceType": "黃道",
+      "hoursByDayBranch": [
+        "午",
+        "申",
+        "戌",
+        "子",
+        "寅",
+        "辰",
+        "午",
+        "申",
+        "戌",
+        "子",
+        "寅",
+        "辰"
+      ],
+      "sourcePDFPage": 135
+    },
+    {
+      "sourceLabel": "勾陳",
+      "sourceType": "黑道",
+      "hoursByDayBranch": [
+        "未",
+        "酉",
+        "亥",
+        "丑",
+        "卯",
+        "巳",
+        "未",
+        "酉",
+        "亥",
+        "丑",
+        "卯",
+        "巳"
+      ],
+      "sourcePDFPage": 135
+    }
+  ],
+  "comparisonAliasesOnly": {
+    "青龍": "青龙",
+    "金匱": "金匮",
+    "土堂": "玉堂",
+    "天牢": "天牢",
+    "司命": "司命",
+    "勾陳": "勾陈"
+  },
+  "tuTangAliasIsEditorialAndDoesNotRewritePrintedGlyph": true,
+  "all144PrintedCellsCollated": true,
+  "directEnteredCells": 144,
+  "overallAuspiciousnessValidated": false,
+  "excludedNeighborDayGuide": {
+    "literal": "申子辰巳酉丑寅午戌亥卯未",
+    "header": "日",
+    "semanticRoleUnresolved": true,
+    "notGouChenHourColumn": true
+  },
+  "rowCoordinateBasis": "Sequential 子丑寅卯辰巳午未申酉戌亥 day labels at134, independently retained; final 日 list at135 has a different grouping, whose full editorial function remains unresolved."
+}

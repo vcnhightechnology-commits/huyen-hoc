@@ -1,0 +1,323 @@
+{
+  "date": "2026-10-27",
+  "actualHHCBaziCalls": 10,
+  "actualLunarLookupCalls": 41,
+  "actualLunarFixtureCalls": 10,
+  "compatible": 10,
+  "incompatible": 0,
+  "fixtures": [
+    {
+      "source": {
+        "dayStem": "甲",
+        "monthBranch": "寅",
+        "printedHourPillar": "壬申",
+        "image": 223,
+        "folio": "005-113a",
+        "glyphsNormalizedFromRoles": true
+      },
+      "input": {
+        "y": 2020,
+        "m": 2,
+        "d": 21,
+        "hour": 16,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualPillars": [
+        "庚子",
+        "戊寅",
+        "甲午",
+        "壬申"
+      ],
+      "compatible": true,
+      "expectedHour": "壬申",
+      "printedHour": "壬申",
+      "historicalBirthDate": false
+    },
+    {
+      "source": {
+        "dayStem": "乙",
+        "monthBranch": "卯",
+        "printedHourPillar": "辛巳",
+        "image": 223,
+        "folio": "005-113a",
+        "glyphsNormalizedFromRoles": true
+      },
+      "input": {
+        "y": 2020,
+        "m": 3,
+        "d": 23,
+        "hour": 10,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualPillars": [
+        "庚子",
+        "己卯",
+        "乙丑",
+        "辛巳"
+      ],
+      "compatible": true,
+      "expectedHour": "辛巳",
+      "printedHour": "辛巳",
+      "historicalBirthDate": false
+    },
+    {
+      "source": {
+        "dayStem": "丙",
+        "monthBranch": "巳",
+        "printedHourPillar": "己亥",
+        "image": 223,
+        "folio": "005-113a",
+        "glyphsNormalizedFromRoles": true
+      },
+      "input": {
+        "y": 2020,
+        "m": 5,
+        "d": 23,
+        "hour": 22,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualPillars": [
+        "庚子",
+        "辛巳",
+        "丙寅",
+        "己亥"
+      ],
+      "compatible": true,
+      "expectedHour": "己亥",
+      "printedHour": "己亥",
+      "historicalBirthDate": false
+    },
+    {
+      "source": {
+        "dayStem": "丁",
+        "monthBranch": "午",
+        "printedHourPillar": "庚子",
+        "image": 223,
+        "folio": "005-113a",
+        "glyphsNormalizedFromRoles": true
+      },
+      "input": {
+        "y": 2020,
+        "m": 6,
+        "d": 23,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualPillars": [
+        "庚子",
+        "壬午",
+        "丁酉",
+        "庚子"
+      ],
+      "compatible": true,
+      "expectedHour": "庚子",
+      "printedHour": "庚子",
+      "historicalBirthDate": false
+    },
+    {
+      "source": {
+        "dayStem": "戊",
+        "monthBranch": "巳",
+        "printedHourPillar": "甲寅",
+        "image": 223,
+        "folio": "005-113a",
+        "glyphsNormalizedFromRoles": true
+      },
+      "input": {
+        "y": 2020,
+        "m": 5,
+        "d": 15,
+        "hour": 4,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualPillars": [
+        "庚子",
+        "辛巳",
+        "戊午",
+        "甲寅"
+      ],
+      "compatible": true,
+      "expectedHour": "甲寅",
+      "printedHour": "甲寅",
+      "historicalBirthDate": false
+    },
+    {
+      "source": {
+        "dayStem": "己",
+        "monthBranch": "午",
+        "printedHourPillar": "乙丑",
+        "image": 223,
+        "folio": "005-113a",
+        "glyphsNormalizedFromRoles": true
+      },
+      "input": {
+        "y": 2020,
+        "m": 6,
+        "d": 15,
+        "hour": 2,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualPillars": [
+        "庚子",
+        "壬午",
+        "己丑",
+        "乙丑"
+      ],
+      "compatible": true,
+      "expectedHour": "乙丑",
+      "printedHour": "乙丑",
+      "historicalBirthDate": false
+    },
+    {
+      "source": {
+        "dayStem": "庚",
+        "monthBranch": "申",
+        "printedHourPillar": "丙戌",
+        "image": 223,
+        "folio": "005-113a",
+        "glyphsNormalizedFromRoles": true
+      },
+      "input": {
+        "y": 2020,
+        "m": 8,
+        "d": 15,
+        "hour": 20,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualPillars": [
+        "庚子",
+        "甲申",
+        "庚寅",
+        "丙戌"
+      ],
+      "compatible": true,
+      "expectedHour": "丙戌",
+      "printedHour": "丙戌",
+      "historicalBirthDate": false
+    },
+    {
+      "source": {
+        "dayStem": "辛",
+        "monthBranch": "酉",
+        "printedHourPillar": "丁酉",
+        "image": 223,
+        "folio": "005-113a",
+        "glyphsNormalizedFromRoles": true
+      },
+      "input": {
+        "y": 2020,
+        "m": 9,
+        "d": 15,
+        "hour": 18,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualPillars": [
+        "庚子",
+        "乙酉",
+        "辛酉",
+        "丁酉"
+      ],
+      "compatible": true,
+      "expectedHour": "丁酉",
+      "printedHour": "丁酉",
+      "historicalBirthDate": false
+    },
+    {
+      "source": {
+        "dayStem": "壬",
+        "monthBranch": "亥",
+        "printedHourPillar": "戊申",
+        "image": 223,
+        "folio": "005-113a",
+        "glyphsNormalizedFromRoles": true
+      },
+      "input": {
+        "y": 2020,
+        "m": 11,
+        "d": 15,
+        "hour": 16,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualPillars": [
+        "庚子",
+        "丁亥",
+        "壬戌",
+        "戊申"
+      ],
+      "compatible": true,
+      "expectedHour": "戊申",
+      "printedHour": "戊申",
+      "historicalBirthDate": false
+    },
+    {
+      "source": {
+        "dayStem": "癸",
+        "monthBranch": "子",
+        "printedHourPillar": "己未",
+        "image": 224,
+        "folio": "005-113b",
+        "glyphsNormalizedFromRoles": true
+      },
+      "input": {
+        "y": 2020,
+        "m": 12,
+        "d": 16,
+        "hour": 14,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualPillars": [
+        "庚子",
+        "戊子",
+        "癸巳",
+        "己未"
+      ],
+      "compatible": true,
+      "expectedHour": "己未",
+      "printedHour": "己未",
+      "historicalBirthDate": false
+    }
+  ],
+  "noGregorianDateAttributedToHistoricalPerson": true,
+  "sourceEmended": false,
+  "rejectedResearchHypothesis": "Initial mental arithmetic wrongly suspected丙日己亥 incompatible. Actual five-rats arithmetic and both runtimes confirm己亥;no source error."
+}

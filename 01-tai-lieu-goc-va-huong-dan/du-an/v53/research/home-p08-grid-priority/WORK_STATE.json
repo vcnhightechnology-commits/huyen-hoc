@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-29",
+  "status": "bounded-source-research-integrated;whole-work-open",
+  "catalogueIDs": [
+    "P08"
+  ],
+  "relatedWork": "選擇要略",
+  "sourcePositionsReexamined": [
+    "P08-131",
+    "ITKC-244"
+  ],
+  "sourceResults": "SOURCE_RESULTS.json",
+  "referenceResults": "TEST_RESULTS.json",
+  "readingAudit": "READING_AUDIT.json",
+  "newHTTPBodies": 0,
+  "newSourcePositions": 0,
+  "newEngineCalls": 0,
+  "newCalendarObjects": 0,
+  "P08CellLabelsReadable": 500,
+  "P08CellLabelsUnresolved": 220,
+  "consumerChanged": false,
+  "wholeSourceMethodApplied": false,
+  "wholeCatalogueCompleted": false,
+  "next": [
+    "Keep P08-day and ITKC-direction predicates separate; do not treat one source as a textual witness amending the other.",
+    "Resolve listed-star premises and source priority only from full source context; generic benefic presence is not an adapter.",
+    "Seek a legitimate P08 facsimile witness or clear source context for 220 unresolved labels; do not refill them from repeated patterns.",
+    "Promote after a useful combined scope; retain the current single source package and do not create whole-ZIP snapshots."
+  ],
+  "integratedIntoRelease": true,
+  "latestResearchReport": "v53/HOME_SPATIAL_CONTEXT_REPORT.md",
+  "packageVerificationPointer": "recovery/research-release/FINAL_VERIFICATION.json",
+  "historicalPrivateStage": "tmp/home-p08-grid-priority-staging"
+}

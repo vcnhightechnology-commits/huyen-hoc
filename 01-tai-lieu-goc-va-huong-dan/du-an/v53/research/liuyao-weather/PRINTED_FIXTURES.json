@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-27",
+  "fixtures": [
+    {
+      "id": "B02-191-Heng-to-DaGuo",
+      "sourcePDFPage": 191,
+      "qaImage": "qa360-191.png",
+      "primaryHan": "恒",
+      "changedHan": "大過",
+      "primary": 32,
+      "changed": 28,
+      "valuesBottomToTop": [
+        8,
+        7,
+        7,
+        7,
+        6,
+        8
+      ],
+      "movingLine": 5,
+      "sourceBaseLabelsBottomToTop": [
+        {
+          "branch": "丑",
+          "kin": "妻財"
+        },
+        {
+          "branch": "亥",
+          "kin": "父母"
+        },
+        {
+          "branch": "酉",
+          "kin": "官鬼"
+        },
+        {
+          "branch": "午",
+          "kin": "子孫"
+        },
+        {
+          "branch": "申",
+          "kin": "官鬼"
+        },
+        {
+          "branch": "戌",
+          "kin": "妻財"
+        }
+      ],
+      "sourceMovingProse": "申鬼明動化進神",
+      "sourceShiProse": "世爻酉鬼暗動",
+      "expectedChangedBranch": "酉",
+      "movingPositionBasis": "Unique申鬼 atline5 inprintedbranchlist plus source申鬼明動 and恒→大過. Numeric6/7/8/9encoding derivedexplicitly;notallprintedlineglyphsalignmentcollated.",
+      "calendarDateBound": false,
+      "historicalWeatherOutcomeValidated": false
+    }
+  ],
+  "dateOrRealWeatherAdapterEstablished": false
+}

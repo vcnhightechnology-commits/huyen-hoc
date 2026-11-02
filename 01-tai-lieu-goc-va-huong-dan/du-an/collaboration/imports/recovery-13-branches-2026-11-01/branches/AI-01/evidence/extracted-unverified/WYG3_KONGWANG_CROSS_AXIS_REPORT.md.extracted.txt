@@ -1,0 +1,101 @@
+# AI-01 — Đối chiếu chéo can chi, Không Vong và Lục hợp: WYG III, 003-63a
+
+**Ngày nghiên cứu:** 2026-11-01
+
+**Tình trạng:** mô hình toán học kiểm thử được; **nguyên byte GitHub và ảnh mặt giấy chưa kiểm lại được trong lượt này**. Kết nối GitHub từ môi trường phiên hiện tại báo `HTTP 403: Sorry. Your account was suspended`; không thực hiện push, merge hoặc chỉnh engine.
+
+## 1. Câu nguồn và phạm vi
+
+Từ các hồ sơ WYG trong dự án đã kiểm ở lượt trước, thiên `論空亡`, quyển III, tờ `003-63a` đưa ra ví dụ **`甲午 癸酉 丙子 壬辰時`**, cùng chú giải `雖空却與癸酉作六合` và `又庫墓夾貴所以入格`. Đây là **câu nguồn**, không phải một ngày sinh đã được kiểm thực tế. Các bản trực tuyến cũng chứa đoạn này: [Wikisource, quyển III](https://zh.wikisource.org/zh-hant/三命通會/卷三) và [Chinese Classics, quyển III](https://www.chinese-classics.org/read/shushu/mingli/san-ming-tong-hui/003). **Hai trang web không tự tạo ra hai bản in cổ độc lập.**
+
+Đoạn `太歲與日互換空亡` ở tờ `003-61a` có chủ thể năm và **ngày**. Vì vậy, tuyệt đối **không** được dùng câu nói này để đặt tên hay luận đoán quan hệ hai chiều giữa **năm và giờ** của ví dụ trên. Thiên đó còn phân biệt `截路空亡`, `四大空亡`, `五鬼空亡`. Quan trọng hơn, **tờ `003-59b` ngay trong thiên này đưa ra hai cách CHỌN MỘT CHI từ cặp khuyết**, do đó bảng đầu tiên chỉ minh họa phương pháp cơ bản **cả hai chi còn thiếu trong mỗi tuần 10 can (旬空)**, không tự xác định phương pháp của tác giả trong mọi ví dụ.
+
+## 2. Sự thật tính toán được từ Lục thập hoa giáp
+
+Với 60 can chi hợp lệ đánh chỉ số `0..59` theo `甲子` = 0, tuần chứa một trụ được xác định bởi `index // 10` (sáu tuần). Hai chi rơi vào `旬空` là các chi đứng sau mười vị trí của tuần, không dùng cấu hình vận hạn hay mệnh chủ.
+
+| Vị trí gán theo thứ tự bốn trụ | Index 60 | Tuần | Hai chi 旬空 | Trụ trong ví dụ có chi rơi vào 旬空 |
+|---|---:|---|---|---|
+| Năm `甲午` | 30 | `甲午旬` | `辰巳` | Giờ `壬辰` (chi `辰`) |
+| Tháng `癸酉` | 9 | `甲子旬` | `戌亥` | Không có |
+| Ngày `丙子` | 12 | `甲戌旬` | `申酉` | Tháng `癸酉` (chi `酉`) |
+| Giờ `壬辰` | 28 | **`甲申旬`** | **`午未`** | Năm `甲午` (chi `午`) |
+
+### Ba liên hệ có hướng, không phải hai
+
+1. **Năm → Giờ:** chi giờ `辰` rơi vào `旬空(甲午) = {辰, 巳}`.
+2. **Ngày → Tháng:** chi tháng `酉` rơi vào `旬空(丙子) = {申, 酉}`.
+3. **Giờ → Năm:** chi năm `午` rơi vào `旬空(壬辰) = {午, 未}`.
+
+Do (1) và (3), **năm–giờ tương hỗ** theo phép toán hai chi thiếu. Lưu ý **`壬辰` thuộc `甲申旬`**, không phải `甲辰旬`; suy sai tuần này sẽ làm mất một nửa quan hệ đối ứng. **Năm–ngày không tương hỗ**: `子` không thuộc `辰巳`, còn `午` không thuộc `申酉`.
+
+### Kiểm ngay hai phương pháp một chi theo văn tờ 59b
+
+Nguồn WYG III dẫn lời *珞琭子*:
+
+- `五陽令用一陽五陰令用一陰`: với ví dụ của **甲子旬**, các trụ can dương (`甲子、丙寅、戊辰、庚午、壬申`) chọn `戌`, các trụ can âm (`乙丑、丁卯、己巳、辛未、癸酉`) chọn `亥`.
+- Cách **chia trên/dưới năm trụ** tiếp theo: `甲子` tới `戊辰` chọn `戌`; `己巳` tới `癸酉` chọn `亥`.
+
+Tôi mô hình hóa hai phát biểu thành **hai phép mở rộng GIẢ THUYẾT qua cả sáu tuần**; nguồn đang kiểm chỉ đưa ví dụ chi tiết cho **甲子旬**. Không được gọi những phép mở rộng đó là quy tắc cổ thư chung cho mọi tuần đã được chứng minh.
+
+| Trụ | Hai chi cơ bản | Chọn theo can âm/dương | Chọn theo 5 trụ đầu/cuối của tuần |
+|---|---|---|---|
+| Năm `甲午` | 辰、巳 | 辰 | 辰 |
+| Tháng `癸酉` | 戌、亥 | 亥 | 亥 |
+| Ngày `丙子` | 申、酉 | 申 | 申 |
+| Giờ `壬辰` | 午、未 | 午 | **未** |
+
+| Phương pháp tính | Những liên hệ còn giữ lại | Số liên hệ |
+|---|---|---:|
+| Hai chi tuần không | Năm→Giờ, Ngày→Tháng, Giờ→Năm | **3** |
+| Một chi theo âm/dương | Năm→Giờ, Giờ→Năm | **2** |
+| Một chi theo nhóm 5+5 | Năm→Giờ | **1** |
+
+Vì vậy **năm–giờ chỉ tương hỗ theo hai phép đầu**; theo cách 5+5, năm→giờ còn nhưng giờ→năm không còn. Quan hệ ngày→tháng cũng biến mất khi chỉ chọn một chi từ `申酉`. Đây là **kiểm độ nhạy phương pháp**, không phải lời nói cổ thư rằng có đúng một, hai hoặc ba dấu Không Vong.
+
+### Hai phép kiểm lịch độc lập theo quy ước công bố
+
+- **Từ can năm `甲`**, dùng phép khởi tháng theo quy ước `甲己年丙寅起` thì tháng `酉` là **`癸酉`**, khớp ví dụ.
+- **Từ can ngày `丙`**, dùng phép khởi giờ theo quy ước `丙辛日戊子起` thì giờ `辰` là **`壬辰`**, khớp ví dụ.
+
+**Cảnh báo văn bản:** nguồn số WYG II `論遁月時` lưu chữ **`甲巳`**, có hình thể khác `甲己`. Chương trình dùng quy ước đã *đặt tên riêng* để kiểm tính nhất quán, **không sửa chữ nguyên văn** và không chứng minh ngày sinh tương ứng với một mốc thiên văn.
+
+### Lục hợp và Lục xung đồng thời
+
+- Tháng `癸酉` (**酉**) gặp giờ `壬辰` (**辰**): `辰酉` thuộc **六合**, đúng điều nguồn nêu bằng lời.
+- Năm `甲午` (**午**) gặp ngày `丙子` (**子**): `子午` thuộc **六沖**. Đây là phép đối chiếu chi *bên cạnh*, **không** suy ra một vận hạn/điềm hay sửa kết luận `入格` của sách.
+
+Điểm quan trọng: cùng một ví dụ chứa nhiều quan hệ trái loại, và chính văn bản nêu thêm `庫墓` và `夾貴`. Không một quan hệ đơn lẻ nào là điều kiện cần–đủ cho `臨空印` S11 hoặc cho kết luận tốt/xấu.
+
+## 3. Kiểm độ đặc hiệu trên toàn bộ 60 × 60
+
+| Đối tượng xét | Số lượng |
+|---|---:|
+| Tổng cặp có thứ tự `(A, B)` với hai trụ 60 hoa giáp | **3.600** |
+| `B` có chi nằm trong `旬空` của `A` | **600** |
+| Đồng thời `A` nằm trong `旬空` của `B` | **120** cặp có thứ tự |
+| Cặp tương hỗ không phân biệt hướng | **60** |
+| Số trụ tương hỗ với một trụ bất kỳ | **2** |
+
+Thử cả ba phương pháp trên toàn bộ 3.600 cặp (giả thuyết mở rộng cho hai phương pháp chọn một chi):
+
+| Phép chọn | Quan hệ có hướng | Quan hệ tương hỗ có thứ tự | Cặp tương hỗ không phân biệt hướng |
+|---|---:|---:|---:|
+| Hai chi cơ bản | **600** | **120** | **60** |
+| Một chi âm/dương | **300** | **60** | **30** |
+| Một chi theo 5+5 | **300** | **36** | **18** |
+
+Như vậy, **một quan hệ năm–giờ tương hỗ không độc nhất với ví dụ cổ thư**, và kết quả đếm thay đổi theo đúng quy ước đặt tên. Các số liệu là **tần suất tổ hợp toán học trên bảng hoa giáp**, không phải tỷ lệ trong dân số, không phải tần suất thực tế trong lịch và không phải tỷ lệ ứng nghiệm.
+
+## 4. Kiểm thử và nguồn
+
+- `WYG3_KONGWANG_CROSS_AXIS.json`: khóa bốn trụ, sáu tuần, quan hệ có hướng, Lục hợp/Lục xung và các cổng phủ định suy luận.
+- `validate_wyg3_kongwang_cross_axis.py --model-only`: tái tính cả ba phép chọn Không Vong từ 60 trụ, kiểm biểu diễn 3/2/1 của cùng lá số, quét 3.600 cặp theo từng phép chọn và kiểm các cổng hạn chế; chạy được ngoại tuyến.
+- `validate_wyg3_kongwang_cross_axis.py` (không cờ): **bắt buộc** đọc đúng các Git blob nguồn WYG II/III, trích đúng các folio `57b`, `98a`, `59b`, `61a`, `61b`, `63a`, xác minh SHA-256 văn bản S01–S13 và đối chiếu đoạn S11. Nếu file nguồn không có hoặc checksum khác, **báo lỗi**, không nhận là đã xem gốc.
+- `test_wyg3_kongwang_cross_axis.py`: thử toàn bộ 60 trụ; sáu tuần; 720 phép khởi tháng và 720 phép khởi giờ; thử cách chọn can âm/dương và 5+5 đối chiếu câu trên tờ 59b; thay trụ để phá từng quan hệ; lỗi gần giống `已/己`, sai chẵn lẻ, giả nhận đã đọc ảnh, cố sửa chữ `甲巳` và tự nhận engine được phê duyệt.
+
+**Trạng thái kiểm thực tế 01/11/2026:** **80/80 unit tests chạy ngoại tuyến đạt**, bao gồm kiểm mẫu âm và tình trạng nguồn không có sẽ bị chặn. **Full source SHA/folio check chưa được thực thi lượt này**, vì GitHub connector trả `403` và container không truy cập DNS GitHub. Cần chạy validator ở repository có đủ byte nguồn sau khi tài khoản có quyền trở lại.
+
+## 5. Handoff và ranh giới
+
+Bản vá chỉ chứa tài liệu và mã nghiên cứu mới trong thư mục `continuation-2026-10-31`. Chưa sửa `v53`, corpus, engine, CI, release, website, coverage, ZIP dự án, hoặc PR #13. Có thể chạy test tại thư mục đã giải nén rồi chép các file mới vào nhánh `ai-01` để chạy **source-level** và CI theo hướng dẫn ở `AI01_KONGWANG_HANDOFF.md`.

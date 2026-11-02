@@ -1,0 +1,56 @@
+{
+  "records": [
+    {
+      "raw": {
+        "file": "v53/research/liuyao-b02-jinqian/witness/japan-volume2-spread-50-returned.jpg",
+        "bytes": 905052,
+        "sha256": "3a070a43598d6ffb1f1babc21f1d9e4b1751c225fa94249f61bbe578ea555ad2"
+      },
+      "crop": {
+        "file": "tmp/liuyao-multiple-use-staging/japan50-three-use-date.png",
+        "bytes": 618791,
+        "sha256": "ab152d3f9456577818fe4053cbc4b8e4dc0ee1b3e3e4e9a1af85d6fce3eaeb08"
+      },
+      "boxXYXY": [
+        1210,
+        330,
+        1480,
+        1810
+      ],
+      "actuallyViewed": true,
+      "accepted": true,
+      "selectedNativeDateReading": "玄月丙午日"
+    },
+    {
+      "raw": {
+        "file": "v53/research/liuyao-progress-conditions/images/zengshan-135.png",
+        "bytes": 88413,
+        "sha256": "656d5327c7974402d6a26c607e2b3d50b0c53094723691bd92b1f46fec68875d"
+      },
+      "crop": {
+        "file": "tmp/liuyao-multiple-use-staging/nlc135-three-use-date.png",
+        "bytes": 6322,
+        "sha256": "3e34ef9b496f9e4884a1f6e21e47b291b1073c0a26c84f180f018b68ac873290"
+      },
+      "boxXYXY": [
+        395,
+        190,
+        555,
+        680
+      ],
+      "actuallyViewed": true,
+      "accepted": true,
+      "selectedNativeDateReading": "玄月丙午日"
+    }
+  ],
+  "scope": "NewselectedparallelreadingofretainedJapan50/NLC135;noHTTP/neworiginalimage/newenginecalls.",
+  "hypothesizedDayVariantRejected": true,
+  "nativeBothReadBingWu": true,
+  "correctDisposition": "same-selected-date-reading;notvariant",
+  "dayReadings": [
+    "丙午",
+    "丙午"
+  ],
+  "monthGlyphRetained": "玄月",
+  "monthBranchInferred": false
+}

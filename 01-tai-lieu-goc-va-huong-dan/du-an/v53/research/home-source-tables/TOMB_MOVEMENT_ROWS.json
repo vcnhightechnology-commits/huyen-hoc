@@ -1,0 +1,269 @@
+{
+  "date": "2026-10-27",
+  "status": "bounded-source-rule-with-explicit-traditional-coordinates",
+  "sourceContainer": "v53/research/full-study/home/CADAL06056503.djvu",
+  "sourceSHA256": "bfd3b76c55d62324919ab161c8c2ba2ecb129b3b2c59a3ab0428807e8f8278db",
+  "yearStemGroups": [
+    "甲己",
+    "乙庚",
+    "丙辛",
+    "丁壬",
+    "戊癸"
+  ],
+  "rows": [
+    {
+      "id": "water-earth",
+      "mountains": [
+        "甲",
+        "寅",
+        "辰",
+        "巽",
+        "戌",
+        "坎",
+        "辛",
+        "申",
+        "丑",
+        "癸",
+        "坤",
+        "庚",
+        "未"
+      ],
+      "tombBranch": "辰",
+      "sourcePages": [
+        42,
+        43
+      ],
+      "yearGroupRows": [
+        {
+          "yearStems": "甲己",
+          "derivedPillar": "戊辰",
+          "sourceMovementElement": "木",
+          "sourceAvoidElement": "金"
+        },
+        {
+          "yearStems": "乙庚",
+          "derivedPillar": "庚辰",
+          "sourceMovementElement": "金",
+          "sourceAvoidElement": "火"
+        },
+        {
+          "yearStems": "丙辛",
+          "derivedPillar": "壬辰",
+          "sourceMovementElement": "水",
+          "sourceAvoidElement": "土"
+        },
+        {
+          "yearStems": "丁壬",
+          "derivedPillar": "甲辰",
+          "sourceMovementElement": "火",
+          "sourceAvoidElement": "水"
+        },
+        {
+          "yearStems": "戊癸",
+          "derivedPillar": "丙辰",
+          "sourceMovementElement": "土",
+          "sourceAvoidElement": "木"
+        }
+      ]
+    },
+    {
+      "id": "fire",
+      "mountains": [
+        "離",
+        "壬",
+        "丙",
+        "乙"
+      ],
+      "tombBranch": "戌",
+      "sourcePages": [
+        43,
+        44
+      ],
+      "yearGroupRows": [
+        {
+          "yearStems": "甲己",
+          "derivedPillar": "甲戌",
+          "sourceMovementElement": "火",
+          "sourceAvoidElement": "水"
+        },
+        {
+          "yearStems": "乙庚",
+          "derivedPillar": "丙戌",
+          "sourceMovementElement": "土",
+          "sourceAvoidElement": "木"
+        },
+        {
+          "yearStems": "丙辛",
+          "derivedPillar": "戊戌",
+          "sourceMovementElement": "木",
+          "sourceAvoidElement": "金"
+        },
+        {
+          "yearStems": "丁壬",
+          "derivedPillar": "庚戌",
+          "sourceMovementElement": "金",
+          "sourceAvoidElement": "火"
+        },
+        {
+          "yearStems": "戊癸",
+          "derivedPillar": "壬戌",
+          "sourceMovementElement": "水",
+          "sourceAvoidElement": "土"
+        }
+      ]
+    },
+    {
+      "id": "wood",
+      "mountains": [
+        "震",
+        "艮",
+        "巳"
+      ],
+      "tombBranch": "未",
+      "sourcePages": [
+        44
+      ],
+      "yearGroupRows": [
+        {
+          "yearStems": "甲己",
+          "derivedPillar": "辛未",
+          "sourceMovementElement": "土",
+          "sourceAvoidElement": "木"
+        },
+        {
+          "yearStems": "乙庚",
+          "derivedPillar": "癸未",
+          "sourceMovementElement": "木",
+          "sourceAvoidElement": "金"
+        },
+        {
+          "yearStems": "丙辛",
+          "derivedPillar": "乙未",
+          "sourceMovementElement": "金",
+          "sourceAvoidElement": "火"
+        },
+        {
+          "yearStems": "丁壬",
+          "derivedPillar": "丁未",
+          "sourceMovementElement": "水",
+          "sourceAvoidElement": "土"
+        },
+        {
+          "yearStems": "戊癸",
+          "derivedPillar": "己未",
+          "sourceMovementElement": "火",
+          "sourceAvoidElement": "水"
+        }
+      ]
+    },
+    {
+      "id": "metal",
+      "mountains": [
+        "乾",
+        "亥",
+        "兌",
+        "丁"
+      ],
+      "tombBranch": "丑",
+      "sourcePages": [
+        44,
+        45
+      ],
+      "yearGroupRows": [
+        {
+          "yearStems": "甲己",
+          "derivedPillar": "乙丑",
+          "sourceMovementElement": "金",
+          "sourceAvoidElement": "火"
+        },
+        {
+          "yearStems": "乙庚",
+          "derivedPillar": "丁丑",
+          "sourceMovementElement": "水",
+          "sourceAvoidElement": "土"
+        },
+        {
+          "yearStems": "丙辛",
+          "derivedPillar": "己丑",
+          "sourceMovementElement": "火",
+          "sourceAvoidElement": "水"
+        },
+        {
+          "yearStems": "丁壬",
+          "derivedPillar": "辛丑",
+          "sourceMovementElement": "土",
+          "sourceAvoidElement": "木"
+        },
+        {
+          "yearStems": "戊癸",
+          "derivedPillar": "癸丑",
+          "sourceMovementElement": "木",
+          "sourceAvoidElement": "金"
+        }
+      ]
+    }
+  ],
+  "readAgainBeforePromotion": [
+    "image44–45metal group after-solstice exception",
+    "image46winter-solstice then丑month scope: exact modern adapter remains null",
+    "source terms正運/墓運/變運 and yearmonth冠 must stay distinct"
+  ],
+  "notReady": [
+    "Moderncalendaradapter remains null",
+    "Full年月尅山家/yearmonthcrown/dayhour cells not extracted",
+    "No consumer integration"
+  ],
+  "consumerChanged": false,
+  "exactPeriodRecheck": {
+    "sourceImages": [
+      45,
+      46,
+      47
+    ],
+    "sourcePhrases": [
+      "上年冬至已屬今年今年冬至即屬明年",
+      "冬至後丑月歲君未更而墓運已改"
+    ],
+    "boundedReadingNotFullDiplomaticTranscript": true,
+    "scope": "After-current-winter-solstice within source丑period, specifically metalmountain墓at丑; no claim that birthyear→kua changes at solstice.",
+    "directlyRechecked": true
+  },
+  "modernCalendarAdapterEstablished": false,
+  "afterSolsticeRows": [
+    {
+      "sourceYearStems": "甲己",
+      "pillar": "丁丑",
+      "movementElement": "水",
+      "avoidElement": "土",
+      "page": 45
+    },
+    {
+      "sourceYearStems": "乙庚",
+      "pillar": "己丑",
+      "movementElement": "火",
+      "avoidElement": "水",
+      "page": 45
+    },
+    {
+      "sourceYearStems": "丙辛",
+      "pillar": "辛丑",
+      "movementElement": "土",
+      "avoidElement": "木",
+      "page": 45
+    },
+    {
+      "sourceYearStems": "丁壬",
+      "pillar": "癸丑",
+      "movementElement": "木",
+      "avoidElement": "金",
+      "page": 45
+    },
+    {
+      "sourceYearStems": "戊癸",
+      "pillar": "乙丑",
+      "movementElement": "金",
+      "avoidElement": "火",
+      "page": 45
+    }
+  ]
+}

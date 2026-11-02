@@ -1,0 +1,1225 @@
+{
+  "date": "2026-10-28",
+  "source": "v53/research/bazi-food-source/CONTEXTS.json",
+  "sourceSHA256": "c9179c1421a4521ce9bd0f5d48ab05e28a6a9ed11daf462927ad777343be0f68",
+  "records": [
+    {
+      "id": "FOOD-00-C01",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 46,
+      "sourceFirstPassDisposition": "editorial-heading",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C02",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 21,
+      "sourceFirstPassDisposition": "relation-coordinate",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C03",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 137,
+      "sourceFirstPassDisposition": "conditional-source-claim",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-core/core-reference.mjs",
+          "sha256": "cc4c8cab5de10199dd8042918912dc44e0d2ac1a0fe9707110abb12276a9fc30",
+          "scope": "Selected exact clauses and explicitly declared research premises; not all subsidiary conditions.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C04",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 37,
+      "sourceFirstPassDisposition": "conditional-source-claim",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-core/core-reference.mjs",
+          "sha256": "cc4c8cab5de10199dd8042918912dc44e0d2ac1a0fe9707110abb12276a9fc30",
+          "scope": "Selected exact clauses and explicitly declared research premises; not all subsidiary conditions.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C05",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 22,
+      "sourceFirstPassDisposition": "position-conditional",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C06",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 38,
+      "sourceFirstPassDisposition": "conditional-source-claim",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-core/core-reference.mjs",
+          "sha256": "cc4c8cab5de10199dd8042918912dc44e0d2ac1a0fe9707110abb12276a9fc30",
+          "scope": "Selected exact clauses and explicitly declared research premises; not all subsidiary conditions.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C07",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 128,
+      "sourceFirstPassDisposition": "conditional-source-claim",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C08",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 39,
+      "sourceFirstPassDisposition": "hidden-combination-open",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-core/core-reference.mjs",
+          "sha256": "cc4c8cab5de10199dd8042918912dc44e0d2ac1a0fe9707110abb12276a9fc30",
+          "scope": "Selected exact clauses and explicitly declared research premises; not all subsidiary conditions.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C09",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 50,
+      "sourceFirstPassDisposition": "quantity-conditional",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-core/core-reference.mjs",
+          "sha256": "cc4c8cab5de10199dd8042918912dc44e0d2ac1a0fe9707110abb12276a9fc30",
+          "scope": "Selected exact clauses and explicitly declared research premises; not all subsidiary conditions.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C10",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 38,
+      "sourceFirstPassDisposition": "strength-and-position",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-core/core-reference.mjs",
+          "sha256": "cc4c8cab5de10199dd8042918912dc44e0d2ac1a0fe9707110abb12276a9fc30",
+          "scope": "Selected exact clauses and explicitly declared research premises; not all subsidiary conditions.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C11",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 21,
+      "sourceFirstPassDisposition": "quantity-conditional",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-core/core-reference.mjs",
+          "sha256": "cc4c8cab5de10199dd8042918912dc44e0d2ac1a0fe9707110abb12276a9fc30",
+          "scope": "Selected exact clauses and explicitly declared research premises; not all subsidiary conditions.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C12",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 94,
+      "sourceFirstPassDisposition": "pattern-label-not-relation-remap",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-core/core-reference.mjs",
+          "sha256": "cc4c8cab5de10199dd8042918912dc44e0d2ac1a0fe9707110abb12276a9fc30",
+          "scope": "Selected exact clauses and explicitly declared research premises; not all subsidiary conditions.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C13",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 99,
+      "sourceFirstPassDisposition": "specific-stem-season-context",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C14",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 217,
+      "sourceFirstPassDisposition": "specific-stem-luck-context",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C15",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 213,
+      "sourceFirstPassDisposition": "counterexamples-with-glyphs-open",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-owl-exceptions/owl-exception-reference.mjs",
+          "sha256": "9dd27bb9cf538603c243005667b8200538e906e33a44717fe2fe33ce9660fb9f",
+          "scope": "Eight source-role exception premise audits; natal anchors/effectiveness/priority still open.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C16",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 62,
+      "sourceFirstPassDisposition": "named-voice",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C17",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 45,
+      "sourceFirstPassDisposition": "historical-status-claim",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C18",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 64,
+      "sourceFirstPassDisposition": "pillar-examples",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C19",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 76,
+      "sourceFirstPassDisposition": "conditional-compound-open",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C20",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 94,
+      "sourceFirstPassDisposition": "stem-branch-strength-examples",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-seats/food-seat-reference.mjs",
+          "sha256": "b8256bb1ca333d0ac10b901c6cdbe9689297e7ec4d9d1a8b6ed29229847339d7",
+          "scope": "Named five-family listed coordinate set only; remaining 祿馬旺相 and outcomes open.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C21",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 68,
+      "sourceFirstPassDisposition": "conditional-quotation",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C22",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 53,
+      "sourceFirstPassDisposition": "named-voice",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C23",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 102,
+      "sourceFirstPassDisposition": "quantity-contrast",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C24",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 61,
+      "sourceFirstPassDisposition": "historical-health-family-claim",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C25",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 35,
+      "sourceFirstPassDisposition": "named-voice",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C26",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 16,
+      "sourceFirstPassDisposition": "historical-personality-body-claim",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C27",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 41,
+      "sourceFirstPassDisposition": "named-voice",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C28",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 23,
+      "sourceFirstPassDisposition": "conditional-quotation",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C29",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 26,
+      "sourceFirstPassDisposition": "sequence-conditional",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C30",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 18,
+      "sourceFirstPassDisposition": "position-conditional",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C31",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 19,
+      "sourceFirstPassDisposition": "specific-stem-conditional",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C32",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 16,
+      "sourceFirstPassDisposition": "named-voice",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C33",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 27,
+      "sourceFirstPassDisposition": "named-voice",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C34",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 79,
+      "sourceFirstPassDisposition": "conditional-quotation",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C35",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 411,
+      "sourceFirstPassDisposition": "parallel-verses",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-00-C36",
+      "unit": "FOOD-00",
+      "digitalCodepoints": 10,
+      "sourceFirstPassDisposition": "source-closure-not-project-completion",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-01-C01",
+      "unit": "FOOD-01",
+      "digitalCodepoints": 4,
+      "sourceFirstPassDisposition": "editorial-heading",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-01-C02",
+      "unit": "FOOD-01",
+      "digitalCodepoints": 60,
+      "sourceFirstPassDisposition": "calendar-pattern-prerequisites",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-gap-witness/flying-reference.mjs",
+          "sha256": "d56fe0e596651753577db251dae85548f9ba0ac47215d416e38b2f7144a98458",
+          "scope": "Selected named day-set/visible coordinate/priority-separation fields only; C01-C10 label has separate actual-engine comparison, not an automatic birth-month label.",
+          "sourceCoordinateComparisonFile": "v53/qa/bazi-food-gap-witness/REFERENCE_RESULTS.json",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-01-C03",
+      "unit": "FOOD-01",
+      "digitalCodepoints": 57,
+      "sourceFirstPassDisposition": "position-and-activity",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-gap-witness/flying-reference.mjs",
+          "sha256": "d56fe0e596651753577db251dae85548f9ba0ac47215d416e38b2f7144a98458",
+          "scope": "Selected named day-set/visible coordinate/priority-separation fields only; C01-C10 label has separate actual-engine comparison, not an automatic birth-month label.",
+          "sourceCoordinateComparisonFile": "v53/qa/bazi-food-gap-witness/REFERENCE_RESULTS.json",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-01-C04",
+      "unit": "FOOD-01",
+      "digitalCodepoints": 101,
+      "sourceFirstPassDisposition": "gengzi-specific",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-gap-witness/flying-reference.mjs",
+          "sha256": "d56fe0e596651753577db251dae85548f9ba0ac47215d416e38b2f7144a98458",
+          "scope": "Selected named day-set/visible coordinate/priority-separation fields only; C01-C10 label has separate actual-engine comparison, not an automatic birth-month label.",
+          "sourceCoordinateComparisonFile": "v53/qa/bazi-food-gap-witness/REFERENCE_RESULTS.json",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-01-C05",
+      "unit": "FOOD-01",
+      "digitalCodepoints": 34,
+      "sourceFirstPassDisposition": "renzi-specific-glyph-open",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-gap-witness/flying-reference.mjs",
+          "sha256": "d56fe0e596651753577db251dae85548f9ba0ac47215d416e38b2f7144a98458",
+          "scope": "Selected named day-set/visible coordinate/priority-separation fields only; C01-C10 label has separate actual-engine comparison, not an automatic birth-month label.",
+          "sourceCoordinateComparisonFile": "v53/qa/bazi-food-gap-witness/REFERENCE_RESULTS.json",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-01-C06",
+      "unit": "FOOD-01",
+      "digitalCodepoints": 84,
+      "sourceFirstPassDisposition": "xinhai-guihai-specific",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-gap-witness/flying-reference.mjs",
+          "sha256": "d56fe0e596651753577db251dae85548f9ba0ac47215d416e38b2f7144a98458",
+          "scope": "Selected named day-set/visible coordinate/priority-separation fields only; C01-C10 label has separate actual-engine comparison, not an automatic birth-month label.",
+          "sourceCoordinateComparisonFile": "v53/qa/bazi-food-gap-witness/REFERENCE_RESULTS.json",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-01-C07",
+      "unit": "FOOD-01",
+      "digitalCodepoints": 102,
+      "sourceFirstPassDisposition": "counterconditions",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-gap-witness/flying-reference.mjs",
+          "sha256": "d56fe0e596651753577db251dae85548f9ba0ac47215d416e38b2f7144a98458",
+          "scope": "Selected named day-set/visible coordinate/priority-separation fields only; C01-C10 label has separate actual-engine comparison, not an automatic birth-month label.",
+          "sourceCoordinateComparisonFile": "v53/qa/bazi-food-gap-witness/REFERENCE_RESULTS.json",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-01-C08",
+      "unit": "FOOD-01",
+      "digitalCodepoints": 54,
+      "sourceFirstPassDisposition": "combination-conflict-conditions",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-01-C09",
+      "unit": "FOOD-01",
+      "digitalCodepoints": 407,
+      "sourceFirstPassDisposition": "parallel-verses",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-01-C10",
+      "unit": "FOOD-01",
+      "digitalCodepoints": 17,
+      "sourceFirstPassDisposition": "explicit-disagreement",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-gap-witness/flying-reference.mjs",
+          "sha256": "d56fe0e596651753577db251dae85548f9ba0ac47215d416e38b2f7144a98458",
+          "scope": "Selected named day-set/visible coordinate/priority-separation fields only; C01-C10 label has separate actual-engine comparison, not an automatic birth-month label.",
+          "sourceCoordinateComparisonFile": "v53/qa/bazi-food-gap-witness/REFERENCE_RESULTS.json",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-02-C01",
+      "unit": "FOOD-02",
+      "digitalCodepoints": 3,
+      "sourceFirstPassDisposition": "digital-only-heading",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-02-C02",
+      "unit": "FOOD-02",
+      "digitalCodepoints": 154,
+      "sourceFirstPassDisposition": "two-day-prerequisites-digital-only",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-gap-witness/flying-reference.mjs",
+          "sha256": "d56fe0e596651753577db251dae85548f9ba0ac47215d416e38b2f7144a98458",
+          "scope": "Selected named day-set/visible coordinate/priority-separation fields only; C01-C10 label has separate actual-engine comparison, not an automatic birth-month label.",
+          "sourceCoordinateComparisonFile": "v53/qa/bazi-food-gap-witness/REFERENCE_RESULTS.json",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-02-C03",
+      "unit": "FOOD-02",
+      "digitalCodepoints": 61,
+      "sourceFirstPassDisposition": "parallel-prerequisites-digital-only",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-02-C04",
+      "unit": "FOOD-02",
+      "digitalCodepoints": 85,
+      "sourceFirstPassDisposition": "counterexample-digital-only",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-02-C05",
+      "unit": "FOOD-02",
+      "digitalCodepoints": 55,
+      "sourceFirstPassDisposition": "six-day-variant-digital-only",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-gap-witness/flying-reference.mjs",
+          "sha256": "d56fe0e596651753577db251dae85548f9ba0ac47215d416e38b2f7144a98458",
+          "scope": "Selected named day-set/visible coordinate/priority-separation fields only; C01-C10 label has separate actual-engine comparison, not an automatic birth-month label.",
+          "sourceCoordinateComparisonFile": "v53/qa/bazi-food-gap-witness/REFERENCE_RESULTS.json",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-02-C06",
+      "unit": "FOOD-02",
+      "digitalCodepoints": 315,
+      "sourceFirstPassDisposition": "parallel-verses-mixed-availability",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-02-C07",
+      "unit": "FOOD-02",
+      "digitalCodepoints": 27,
+      "sourceFirstPassDisposition": "two-day-preference",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-gap-witness/flying-reference.mjs",
+          "sha256": "d56fe0e596651753577db251dae85548f9ba0ac47215d416e38b2f7144a98458",
+          "scope": "Selected named day-set/visible coordinate/priority-separation fields only; C01-C10 label has separate actual-engine comparison, not an automatic birth-month label.",
+          "sourceCoordinateComparisonFile": "v53/qa/bazi-food-gap-witness/REFERENCE_RESULTS.json",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-03-C01",
+      "unit": "FOOD-03",
+      "digitalCodepoints": 4,
+      "sourceFirstPassDisposition": "editorial-heading",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-03-C02",
+      "unit": "FOOD-03",
+      "digitalCodepoints": 59,
+      "sourceFirstPassDisposition": "explicit-coordinate-and-negative-cases",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-appendices/appendix-reference.mjs",
+          "sha256": "cb73e338217694e270217003750a796bff00afcec13abd196240060d2b536d9c",
+          "scope": "Explicit listed coordinates / source year-anchor guard only; every whole clause remains unapplied.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-03-C03",
+      "unit": "FOOD-03",
+      "digitalCodepoints": 38,
+      "sourceFirstPassDisposition": "conditional-source-claim",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-04-C01",
+      "unit": "FOOD-04",
+      "digitalCodepoints": 4,
+      "sourceFirstPassDisposition": "editorial-heading",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-04-C02",
+      "unit": "FOOD-04",
+      "digitalCodepoints": 37,
+      "sourceFirstPassDisposition": "explicit-two-stem-examples",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-appendices/appendix-reference.mjs",
+          "sha256": "cb73e338217694e270217003750a796bff00afcec13abd196240060d2b536d9c",
+          "scope": "Explicit listed coordinates / source year-anchor guard only; every whole clause remains unapplied.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-04-C03",
+      "unit": "FOOD-04",
+      "digitalCodepoints": 27,
+      "sourceFirstPassDisposition": "explicit-year-anchor",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-appendices/appendix-reference.mjs",
+          "sha256": "cb73e338217694e270217003750a796bff00afcec13abd196240060d2b536d9c",
+          "scope": "Explicit listed coordinates / source year-anchor guard only; every whole clause remains unapplied.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-05-C01",
+      "unit": "FOOD-05",
+      "digitalCodepoints": 4,
+      "sourceFirstPassDisposition": "editorial-heading",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-05-C02",
+      "unit": "FOOD-05",
+      "digitalCodepoints": 22,
+      "sourceFirstPassDisposition": "thirteen-position-example",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-appendices/appendix-reference.mjs",
+          "sha256": "cb73e338217694e270217003750a796bff00afcec13abd196240060d2b536d9c",
+          "scope": "Explicit listed coordinates / source year-anchor guard only; every whole clause remains unapplied.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-05-C03",
+      "unit": "FOOD-05",
+      "digitalCodepoints": 66,
+      "sourceFirstPassDisposition": "position-and-source-examples",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-05-C04",
+      "unit": "FOOD-05",
+      "digitalCodepoints": 24,
+      "sourceFirstPassDisposition": "explicit-year-hour-counterexample",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-appendices/appendix-reference.mjs",
+          "sha256": "cb73e338217694e270217003750a796bff00afcec13abd196240060d2b536d9c",
+          "scope": "Explicit listed coordinates / source year-anchor guard only; every whole clause remains unapplied.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-06-C01",
+      "unit": "FOOD-06",
+      "digitalCodepoints": 4,
+      "sourceFirstPassDisposition": "editorial-heading",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-06-C02",
+      "unit": "FOOD-06",
+      "digitalCodepoints": 39,
+      "sourceFirstPassDisposition": "six-visible-stem-coordinates",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-appendices/appendix-reference.mjs",
+          "sha256": "cb73e338217694e270217003750a796bff00afcec13abd196240060d2b536d9c",
+          "scope": "Explicit listed coordinates / source year-anchor guard only; every whole clause remains unapplied.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-07-C01",
+      "unit": "FOOD-07",
+      "digitalCodepoints": 4,
+      "sourceFirstPassDisposition": "editorial-heading",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-07-C02",
+      "unit": "FOOD-07",
+      "digitalCodepoints": 30,
+      "sourceFirstPassDisposition": "explicit-day-hour-and-year-month-scope",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-source/special-food-reference.mjs",
+          "sha256": "b815e6477ca4d3dd9493268d2004ef3cc8f67c03ff7f36af43b00bb9d7e80a1a",
+          "scope": "戊day/庚申hour base coordinates, not a formed pattern.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-07-C03",
+      "unit": "FOOD-07",
+      "digitalCodepoints": 81,
+      "sourceFirstPassDisposition": "virtual-combination-open",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-source/special-food-reference.mjs",
+          "sha256": "b815e6477ca4d3dd9493268d2004ef3cc8f67c03ff7f36af43b00bb9d7e80a1a",
+          "scope": "甲丙卯寅 visible year/month hits; no automatic effective hidden combination.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-07-C04",
+      "unit": "FOOD-07",
+      "digitalCodepoints": 28,
+      "sourceFirstPassDisposition": "season-and-strength-and-seal",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-source/special-food-reference.mjs",
+          "sha256": "b815e6477ca4d3dd9493268d2004ef3cc8f67c03ff7f36af43b00bb9d7e80a1a",
+          "scope": "Prose seal preference/autumn-winter retained; strength/priority declarations not inferred.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-07-C05",
+      "unit": "FOOD-07",
+      "digitalCodepoints": 10,
+      "sourceFirstPassDisposition": "two-difficult-days",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-source/special-food-reference.mjs",
+          "sha256": "b815e6477ca4d3dd9493268d2004ef3cc8f67c03ff7f36af43b00bb9d7e80a1a",
+          "scope": "戊午/戊寅 difficult-day coordinates only.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-07-C06",
+      "unit": "FOOD-07",
+      "digitalCodepoints": 11,
+      "sourceFirstPassDisposition": "source-priority-premise",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-source/special-food-reference.mjs",
+          "sha256": "b815e6477ca4d3dd9493268d2004ef3cc8f67c03ff7f36af43b00bb9d7e80a1a",
+          "scope": "effectiveMonthWealthOfficerPriority is an explicit caller declaration, not an evaluated month-pattern test.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-07-C07",
+      "unit": "FOOD-07",
+      "digitalCodepoints": 66,
+      "sourceFirstPassDisposition": "parallel-conditions",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-07-C08",
+      "unit": "FOOD-07",
+      "digitalCodepoints": 58,
+      "sourceFirstPassDisposition": "parallel-conditions",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-07-C09",
+      "unit": "FOOD-07",
+      "digitalCodepoints": 30,
+      "sourceFirstPassDisposition": "seal-and-season-conflict",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-source/special-food-reference.mjs",
+          "sha256": "b815e6477ca4d3dd9493268d2004ef3cc8f67c03ff7f36af43b00bb9d7e80a1a",
+          "scope": "Poem 要無官印 stored against prose 愛財星印綬; no adjudicated priority.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-07-C10",
+      "unit": "FOOD-07",
+      "digitalCodepoints": 14,
+      "sourceFirstPassDisposition": "named-classification-difference",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-07-C11",
+      "unit": "FOOD-07",
+      "digitalCodepoints": 82,
+      "sourceFirstPassDisposition": "raw-jia-counterexample",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-source/special-food-reference.mjs",
+          "sha256": "b815e6477ca4d3dd9493268d2004ef3cc8f67c03ff7f36af43b00bb9d7e80a1a",
+          "scope": "Printed 高燿 chart and year甲/month庚 counterexample coordinate shape, effective control still declared.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-07-C12",
+      "unit": "FOOD-07",
+      "digitalCodepoints": 50,
+      "sourceFirstPassDisposition": "season-not-exclusive",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-source/special-food-reference.mjs",
+          "sha256": "b815e6477ca4d3dd9493268d2004ef3cc8f67c03ff7f36af43b00bb9d7e80a1a",
+          "scope": "不專秋冬生 retained against earlier seasonal preference; no automatic exclusive season gate.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-08-C01",
+      "unit": "FOOD-08",
+      "digitalCodepoints": 4,
+      "sourceFirstPassDisposition": "editorial-heading",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-08-C02",
+      "unit": "FOOD-08",
+      "digitalCodepoints": 28,
+      "sourceFirstPassDisposition": "four-day-hour-target-examples",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-appendices/appendix-reference.mjs",
+          "sha256": "cb73e338217694e270217003750a796bff00afcec13abd196240060d2b536d9c",
+          "scope": "Explicit listed coordinates / source year-anchor guard only; every whole clause remains unapplied.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-09-C01",
+      "unit": "FOOD-09",
+      "digitalCodepoints": 4,
+      "sourceFirstPassDisposition": "editorial-heading",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-09-C02",
+      "unit": "FOOD-09",
+      "digitalCodepoints": 22,
+      "sourceFirstPassDisposition": "example-and-target-role-open",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-appendices/appendix-reference.mjs",
+          "sha256": "cb73e338217694e270217003750a796bff00afcec13abd196240060d2b536d9c",
+          "scope": "Explicit listed coordinates / source year-anchor guard only; every whole clause remains unapplied.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-09-C03",
+      "unit": "FOOD-09",
+      "digitalCodepoints": 40,
+      "sourceFirstPassDisposition": "six-further-pillar-pairs",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-appendices/appendix-reference.mjs",
+          "sha256": "cb73e338217694e270217003750a796bff00afcec13abd196240060d2b536d9c",
+          "scope": "Explicit listed coordinates / source year-anchor guard only; every whole clause remains unapplied.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-10-C01",
+      "unit": "FOOD-10",
+      "digitalCodepoints": 4,
+      "sourceFirstPassDisposition": "editorial-heading",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-10-C02",
+      "unit": "FOOD-10",
+      "digitalCodepoints": 28,
+      "sourceFirstPassDisposition": "explicit-day-hour",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-source/special-food-reference.mjs",
+          "sha256": "b815e6477ca4d3dd9493268d2004ef3cc8f67c03ff7f36af43b00bb9d7e80a1a",
+          "scope": "癸day/庚申hour base coordinate, not whole 六癸 method.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-10-C03",
+      "unit": "FOOD-10",
+      "digitalCodepoints": 46,
+      "sourceFirstPassDisposition": "virtual-combination-open",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-source/special-food-reference.mjs",
+          "sha256": "b815e6477ca4d3dd9493268d2004ef3cc8f67c03ff7f36af43b00bb9d7e80a1a",
+          "scope": "Named hidden mechanism and effectiveHiddenCombination declaration only; not proof of actual 虛合.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-10-C04",
+      "unit": "FOOD-10",
+      "digitalCodepoints": 19,
+      "sourceFirstPassDisposition": "distinct-stem-branch-raw-coordinates",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-source/special-food-reference.mjs",
+          "sha256": "b815e6477ca4d3dd9493268d2004ef3cc8f67c03ff7f36af43b00bb9d7e80a1a",
+          "scope": "Visible 戊己丙/巳午寅 source-local raw hits, not final rejection.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-10-C05",
+      "unit": "FOOD-10",
+      "digitalCodepoints": 26,
+      "sourceFirstPassDisposition": "strength-and-luck",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-source/special-food-reference.mjs",
+          "sha256": "b815e6477ca4d3dd9493268d2004ef3cc8f67c03ff7f36af43b00bb9d7e80a1a",
+          "scope": "dayStrong/sealStrong declarations only; no gold-water luck or outcome classifier.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-10-C06",
+      "unit": "FOOD-10",
+      "digitalCodepoints": 18,
+      "sourceFirstPassDisposition": "printed-four-pillars",
+      "selectedModuleLinks": [
+        {
+          "module": "v53/research/bazi-food-source/special-food-reference.mjs",
+          "sha256": "b815e6477ca4d3dd9493268d2004ef3cc8f67c03ff7f36af43b00bb9d7e80a1a",
+          "scope": "胡懋功 literal chart projected in earlier source probe; no new independent example here.",
+          "wholeContextApplied": false
+        }
+      ],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-10-C07",
+      "unit": "FOOD-10",
+      "digitalCodepoints": 91,
+      "sourceFirstPassDisposition": "parallel-verses",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "FOOD-10-C08",
+      "unit": "FOOD-10",
+      "digitalCodepoints": 19,
+      "sourceFirstPassDisposition": "explicit-classification-boundary",
+      "selectedModuleLinks": [],
+      "wholeContextApplied": false,
+      "remainingSubsidiaryConditionsOpen": true,
+      "sourceOutcomeValidated": false
+    }
+  ],
+  "counts": {
+    "totalParents": 90,
+    "parentsWithSelectedModuleOrDeclaredPremiseLinks": 42,
+    "parentsWithoutSuchLinks": 48,
+    "coreSeatsOwlParents": 10,
+    "earlierSpecialFoodProvenanceParents": 13,
+    "newAppendixParents": 9,
+    "wholeParentsApplied": 0,
+    "wholeSourceUnitsApplied": 0,
+    "newFlyingDaoLinkedParents": 10,
+    "earlierScopeLinkedParents": 32
+  },
+  "countingCorrection": "Previous32/58 source-link audit retained unchanged; add10new selected source-coordinate/engine-comparison parents. The32 already includes13old special-food provenance parents formerly omitted from narrow10/80. Links still do not establish whole-rule application.",
+  "moduleLinkIsNotFullRuleOrEvidenceOfEffectiveness": true
+}

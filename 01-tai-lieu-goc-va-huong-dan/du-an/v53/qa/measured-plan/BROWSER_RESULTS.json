@@ -1,0 +1,130 @@
+{
+  "date": "2026-10-26T05:27:02.818Z",
+  "checks": [
+    {
+      "name": "New plan is optional, initially closed and does not fabricate a measurement",
+      "ok": true
+    },
+    {
+      "name": "A filled room yields a true-north diagram,20m² footprint and northwest center",
+      "ok": true
+    },
+    {
+      "name": "Adding a room clears prior output immediately",
+      "ok": true
+    },
+    {
+      "name": "Two rooms and two different perimeter openings have separate, correct results",
+      "ok": true
+    },
+    {
+      "name": "Editing orientation clears a previously drawn north arrow and output",
+      "ok": true
+    },
+    {
+      "name": "Rotating the plan preserves40m² coverage and correctly changes the opening directions",
+      "ok": true
+    },
+    {
+      "name": "A late change event with identical values preserves the freshly calculated result",
+      "ok": true
+    },
+    {
+      "name": "TXT preserves house/room/opening dimensions, actual orientation and boundaries of interpretation",
+      "ok": true
+    },
+    {
+      "name": "Downloaded SVG is independent and contains north arrow, dimensions and both opening lines",
+      "ok": true
+    },
+    {
+      "name": "A room beyond house boundary shows a clear error and removes the prior diagram",
+      "ok": true
+    },
+    {
+      "name": "An overlapping footprint is reported and its area counted only once",
+      "ok": true
+    },
+    {
+      "name": "Changing the room advice does not discard the separately entered measured plan",
+      "ok": true
+    },
+    {
+      "name": "Switching between age directions and room guide preserves in-session geometry",
+      "ok": true
+    },
+    {
+      "name": "Print opens an existing plan and keeps measurement controls out of print",
+      "ok": true
+    },
+    {
+      "name": "The plan is visible in print while all its editing controls are hidden",
+      "ok": true
+    },
+    {
+      "name": "After printing restores the prior collapsed state",
+      "ok": true
+    },
+    {
+      "name": "320px: form, vector plan and long room text fit the page",
+      "ok": true,
+      "detail": {
+        "width": 320,
+        "page": 320
+      }
+    },
+    {
+      "name": "390px: form, vector plan and long room text fit the page",
+      "ok": true,
+      "detail": {
+        "width": 390,
+        "page": 390
+      }
+    },
+    {
+      "name": "768px: form, vector plan and long room text fit the page",
+      "ok": true,
+      "detail": {
+        "width": 768,
+        "page": 768
+      }
+    },
+    {
+      "name": "1440px: form, vector plan and long room text fit the page",
+      "ok": true,
+      "detail": {
+        "width": 1440,
+        "page": 1440
+      }
+    },
+    {
+      "name": "Geometry is not automatically written to browser storage",
+      "ok": true,
+      "detail": {
+        "keys": []
+      }
+    },
+    {
+      "name": "Markup-like labels display as text without inserting elements",
+      "ok": true
+    },
+    {
+      "name": "Removing a perimeter opening invalidates its old result",
+      "ok": true
+    },
+    {
+      "name": "Reload starts clean without invented dimensions or recovered private measurements",
+      "ok": true
+    },
+    {
+      "name": "No JavaScript errors, external requests or research data panels are introduced",
+      "ok": true,
+      "detail": {
+        "errors": [],
+        "requests": []
+      }
+    }
+  ],
+  "errors": [],
+  "requests": []
+}

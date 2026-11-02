@@ -1,0 +1,277 @@
+{
+  "date": "2026-10-25T14:16:15.671Z",
+  "checks": [
+    {
+      "name": "Archived primary TXT bodies retain their original bytes and hashes",
+      "ok": true,
+      "detail": {
+        "count": 200
+      }
+    },
+    {
+      "name": "All archived Gregorian dates yield the published lunar year or the one explicit unresolved date",
+      "ok": true,
+      "detail": {
+        "rows": 73048,
+        "matched": 73047,
+        "diffs": [],
+        "blocked": [
+          {
+            "date": "1916-02-03",
+            "message": "Ngày sinh này cần đối chiếu lại năm âm lịch. Hãy chọn Năm âm lịch và nhập năm đã được xác nhận.",
+            "publishedYear": 1916,
+            "engineYear": 1915
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tết boundaries and the UTC+7/UTC+8 year difference are preserved",
+      "ok": true,
+      "detail": [
+        {
+          "y": 2025,
+          "m": 1,
+          "d": 28,
+          "tz": 7,
+          "year": 2024
+        },
+        {
+          "y": 2025,
+          "m": 1,
+          "d": 29,
+          "tz": 7,
+          "year": 2025
+        },
+        {
+          "y": 2024,
+          "m": 2,
+          "d": 9,
+          "tz": 8,
+          "year": 2023
+        },
+        {
+          "y": 2024,
+          "m": 2,
+          "d": 10,
+          "tz": 8,
+          "year": 2024
+        },
+        {
+          "y": 1968,
+          "m": 1,
+          "d": 29,
+          "tz": 7,
+          "year": 1968
+        },
+        {
+          "y": 1968,
+          "m": 1,
+          "d": 29,
+          "tz": 8,
+          "year": 1967
+        },
+        {
+          "y": 1916,
+          "m": 2,
+          "d": 3,
+          "tz": 7,
+          "year": 1916
+        }
+      ]
+    },
+    {
+      "name": "Unsupported derived year, impossible dates and invalid timezone are refused",
+      "ok": true
+    },
+    {
+      "name": "Existing direct lunar-year lookup remains available",
+      "ok": true
+    },
+    {
+      "name": "Changing input mode clears stale result",
+      "ok": true
+    },
+    {
+      "name": "Incomplete full-date input is rejected",
+      "ok": true
+    },
+    {
+      "name": "Live preview uses prior lunar year before Tết",
+      "ok": true
+    },
+    {
+      "name": "Before-Tết result uses 2024 nạp âm, not Gregorian 2025",
+      "ok": true
+    },
+    {
+      "name": "Fresh date result survives delayed field change when focus leaves the input",
+      "ok": true
+    },
+    {
+      "name": "Date-mode profile saves original date, calendar offset and derived year",
+      "ok": true,
+      "detail": {
+        "name": "",
+        "gender": "male",
+        "yearMode": "solar-date",
+        "yearSolarY": 2025,
+        "yearSolarM": 1,
+        "yearSolarD": 28,
+        "yearTZ": 7,
+        "direction": "",
+        "year": 2024
+      }
+    },
+    {
+      "name": "Changing Gregorian date clears old reading and actions",
+      "ok": true
+    },
+    {
+      "name": "On Tết the derived year changes to 2025",
+      "ok": true
+    },
+    {
+      "name": "Hidden direct-year field retains its own value while modes change",
+      "ok": true
+    },
+    {
+      "name": "Hidden full-date fields retain their own values",
+      "ok": true
+    },
+    {
+      "name": "Profile restore rederives from original Gregorian date rather than stale saved year",
+      "ok": true
+    },
+    {
+      "name": "TXT retains Gregorian date, lunar date and year actually used",
+      "ok": true
+    },
+    {
+      "name": "Print retains date conversion and chosen year",
+      "ok": true
+    },
+    {
+      "name": "1900 date mapping to lunar 1899 is refused without clamping",
+      "ok": true
+    },
+    {
+      "name": "Impossible full-date lookup is refused",
+      "ok": true
+    },
+    {
+      "name": "Unresolved 1916 UTC+8 year cannot silently become a result",
+      "ok": true
+    },
+    {
+      "name": "Explicit confirmed lunar year remains usable for the unresolved date",
+      "ok": true
+    },
+    {
+      "name": "Directions derive 1968 under Vietnam calendar",
+      "ok": true
+    },
+    {
+      "name": "Changing calendar offset clears stale direction results",
+      "ok": true
+    },
+    {
+      "name": "UTC+8 can use prior lunar year and different cung phi on the same Gregorian date",
+      "ok": true,
+      "detail": {
+        "plus7": "⌖\nKhôn\nTây TỨ MỆNH",
+        "plus8": "⌖\nCàn\nTây TỨ MỆNH"
+      }
+    },
+    {
+      "name": "Direction date-mode profile restores its date and selected calendar offset",
+      "ok": true
+    },
+    {
+      "name": "Legacy profile without yearMode still restores as direct lunar year",
+      "ok": true
+    },
+    {
+      "name": "Keyboard Enter submission remains savable after the input blurs",
+      "ok": true
+    },
+    {
+      "name": "destiny full-date mode fits 320px",
+      "ok": true,
+      "detail": {
+        "scroll": 320,
+        "width": 320
+      }
+    },
+    {
+      "name": "destiny full-date mode fits 390px",
+      "ok": true,
+      "detail": {
+        "scroll": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "destiny full-date mode fits 768px",
+      "ok": true,
+      "detail": {
+        "scroll": 768,
+        "width": 768
+      }
+    },
+    {
+      "name": "destiny full-date mode fits 1440px",
+      "ok": true,
+      "detail": {
+        "scroll": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "name": "directions full-date mode fits 320px",
+      "ok": true,
+      "detail": {
+        "scroll": 320,
+        "width": 320
+      }
+    },
+    {
+      "name": "directions full-date mode fits 390px",
+      "ok": true,
+      "detail": {
+        "scroll": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "directions full-date mode fits 768px",
+      "ok": true,
+      "detail": {
+        "scroll": 768,
+        "width": 768
+      }
+    },
+    {
+      "name": "directions full-date mode fits 1440px",
+      "ok": true,
+      "detail": {
+        "scroll": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "name": "New helper does not introduce source links or research text into UI",
+      "ok": true
+    },
+    {
+      "name": "No runtime errors or external requests in year lookup",
+      "ok": true,
+      "detail": {
+        "errors": [],
+        "requests": []
+      }
+    }
+  ],
+  "errors": [],
+  "requests": []
+}

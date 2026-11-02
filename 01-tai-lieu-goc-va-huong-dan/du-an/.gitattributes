@@ -1,0 +1,3 @@
+# Source evidence and SHA-256 ledgers require exact bytes across platforms.
+# Never convert line endings automatically on checkout or commit.
+* -text

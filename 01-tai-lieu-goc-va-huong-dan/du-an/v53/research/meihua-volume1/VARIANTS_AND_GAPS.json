@@ -1,0 +1,182 @@
+{
+  "schema": "hhc.meihua.volume1-gaps.v1",
+  "records": [
+    {
+      "id": "kan-animal-omission",
+      "evidencePDFPages": [
+        44
+      ],
+      "printedHeader": "動物",
+      "printedBoundedBody": "豕魚水中之物",
+      "digitalFieldMissing": true
+    },
+    {
+      "id": "gen-name-omission",
+      "evidencePDFPages": [
+        51
+      ],
+      "printedHeader": "姓字",
+      "printedBoundedBody": "宮音帶土字傍之姓氏行位五七",
+      "digitalFieldMissing": true
+    },
+    {
+      "id": "mou-heading",
+      "evidencePDFPages": [
+        35,
+        37,
+        40,
+        43,
+        45,
+        48,
+        50,
+        53
+      ],
+      "printedHeader": "謀望",
+      "pinnedDigitalHeader": "謀旺",
+      "positions": 8,
+      "policy": "keeppinneddigitalbytesandphysicalreadingsseparate"
+    },
+    {
+      "id": "palace-name-copy-variants",
+      "differentNamePositions": 7,
+      "positions": [
+        {
+          "parent": "乾",
+          "ordinal": 3,
+          "printedName": "天山遯",
+          "digitalName": "天山遁",
+          "numberEditoriallyIdentified": 33,
+          "evidencePDFPages": [
+            33
+          ]
+        },
+        {
+          "parent": "坤",
+          "ordinal": 2,
+          "printedName": "地雷復",
+          "digitalName": "地雷複",
+          "numberEditoriallyIdentified": 24,
+          "evidencePDFPages": [
+            36
+          ]
+        },
+        {
+          "parent": "坤",
+          "ordinal": 6,
+          "printedName": "澤天夬",
+          "digitalName": "澤天決",
+          "numberEditoriallyIdentified": 43,
+          "evidencePDFPages": [
+            36
+          ]
+        },
+        {
+          "parent": "巽",
+          "ordinal": 5,
+          "printedName": "天雷无妄",
+          "digitalName": "天雷無妄",
+          "numberEditoriallyIdentified": 25,
+          "evidencePDFPages": [
+            41
+          ]
+        },
+        {
+          "parent": "離",
+          "ordinal": 4,
+          "printedName": "火水未濟",
+          "digitalName": "火水末濟",
+          "numberEditoriallyIdentified": 64,
+          "evidencePDFPages": [
+            46
+          ]
+        },
+        {
+          "parent": "兌",
+          "ordinal": 1,
+          "printedName": "兌為澤",
+          "digitalName": "兌為金",
+          "numberEditoriallyIdentified": 58,
+          "evidencePDFPages": [
+            51,
+            52
+          ]
+        },
+        {
+          "parent": "兌",
+          "ordinal": 4,
+          "printedName": "澤山咸",
+          "digitalName": "澤山鹹",
+          "numberEditoriallyIdentified": 31,
+          "evidencePDFPages": [
+            51,
+            52
+          ]
+        }
+      ],
+      "policy": "Includesglyph/readings遯/遁,復/複,夬/決,无/無,未/末,兌為澤/兌為金,咸/鹹. Keepbothlayers;engineidentificationfollowsprintedname/structure,notunannouncedrawsourcecorrection."
+    },
+    {
+      "id": "sound-premises",
+      "evidencePDFPages": [
+        16,
+        24,
+        25,
+        31,
+        32
+      ],
+      "policy": "generalcount/hourandtwo-groupknockingareseparatenamedpremises;notoneuniversalmethod"
+    },
+    {
+      "id": "colour-contexts",
+      "evidencePDFPages": [
+        32,
+        35,
+        38,
+        41,
+        43,
+        46,
+        48,
+        51,
+        53
+      ],
+      "policy": "驗色localmappingandfulltable五色arecontextspecific;Qian大赤/玄,Kun黃/黑etcpreventauniversalcolour-to-onetrigramclassifier"
+    },
+    {
+      "id": "all-fields-not-body-collated",
+      "evidencePDFPages": [
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ],
+      "physicalHeaders": 216,
+      "digitalFields": 214,
+      "policy": "Allheaderspositioned,butfullvalues/variantsnotallcollated. Do notclaim216fullyverifiedpredictions."
+    }
+  ],
+  "remaining": [
+    "Allsubsidiaryclauseandtablebodycollationacrossfivevolumes",
+    "Independentwitnessfordiagram/nuclear/seasonvariants",
+    "FullLụcHàopremisesrequireseparateidentifiedwitnesses",
+    "PendingconsumerUIcandidateactualbrowser/PDFvalidation"
+  ],
+  "wholeBookApplied": false
+}

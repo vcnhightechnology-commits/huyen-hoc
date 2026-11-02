@@ -1,0 +1,72 @@
+{
+  "passed": true,
+  "promotedByteIdentities": 64,
+  "historicalPrivatePrefixIdentitiesVerified": 40,
+  "sourceChecks": {
+    "bazi-food-transformation": {
+      "passed": true,
+      "frozenFiles": 8,
+      "sourceClauses": 5,
+      "digitalCodepoints": 62,
+      "nativeCropRGBMatches": 1,
+      "sourceGlyphsGloballyEmended": false,
+      "retainedActualComponentCoordinates": 20,
+      "previouslyNewPairsRunOnce": 6,
+      "newHHCQueriesAtThatRun": 6,
+      "newLunarQueriesAtThatRun": 6,
+      "retainedRelationPairsReused": 14,
+      "retainedPartnerCoordinatesReused": 10,
+      "newEngineCallsDuringVerification": 0,
+      "newHTTPBodies": 0,
+      "newSourcePositions": 0,
+      "wholeContextApplied": false,
+      "sourceTransformationValidated": false,
+      "consumerChanged": false
+    },
+    "bazi-food-quantity": {
+      "passed": true,
+      "frozenFiles": 5,
+      "manualCases": 8,
+      "sourceContextsRetained": 3,
+      "C23Codepoints": 102,
+      "nativeCropsRGBMatched": 2,
+      "retainedImagesReexamined": 3,
+      "newHTTPBodies": 0,
+      "newSourcePositions": 0,
+      "newEngineCallsDuringVerification": 0,
+      "retainedActualFoodPairReused": 1,
+      "anchorRoleChosen": false,
+      "wholeContextApplied": false,
+      "consumerChanged": false
+    },
+    "bazi-food-fire-exception": {
+      "passed": true,
+      "postImplementationSealedFiles": 6,
+      "preimplementationFreezeEstablished": false,
+      "sourceSealSequenceExceptionRetained": true,
+      "manualCasesUnchangedAfterFirstTest": true,
+      "manualCases": 8,
+      "selectedClauseCodepoints": 8,
+      "parentContextCodepoints": 19,
+      "nativeCropRGBMatches": 1,
+      "newSourcePositions": 0,
+      "newHTTPBodies": 0,
+      "newEngineCallsDuringVerification": 0,
+      "retainedActualFoodPairReused": 1,
+      "calendarConsistencyEstablished": false,
+      "wholeContextApplied": false,
+      "consumerChanged": false
+    }
+  },
+  "currentMatrixCounts": [
+    49,
+    41,
+    0
+  ],
+  "previousFrozenMatrixUnchanged": true,
+  "lateSealC31ExceptionExplicit": true,
+  "initialC31ScriptRevisionsVerifiedInSHAIndex": 3,
+  "newEngineCallsDuringVerification": 0,
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false
+}

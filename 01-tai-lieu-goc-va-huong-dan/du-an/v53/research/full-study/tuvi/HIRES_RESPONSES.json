@@ -1,0 +1,76 @@
+[
+  {
+    "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102812187100/iiif/M2019050811103249305_0088.jp2/full/full/0/native.jpg",
+    "status": 200,
+    "headers": {
+      "content-type": "image/jpeg;charset=UTF-8",
+      "transfer-encoding": "chunked",
+      "connection": "keep-alive",
+      "date": "Mon, 26 Oct 2026 04:27:03 GMT",
+      "content-language": "ja",
+      "strict-transport-security": "max-age=31536000",
+      "server": "Apache",
+      "x-frame-options": "SAMEORIGIN",
+      "pragma": "no-cache",
+      "cache-control": "no-cache, no-store",
+      "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+      "content-security-policy": "frame-ancestors 'self'",
+      "access-control-allow-origin": "*",
+      "x-cache": "Miss from cloudfront",
+      "via": "1.1 46b7ff1419d911febc631c7ceff6e52e.cloudfront.net (CloudFront)",
+      "x-amz-cf-pop": "LAX53-P5",
+      "x-amz-cf-id": "jaVLGi1BsarWqr1ZYUS5ySpoTAMYblJqu7dxrNZYvoQiaXs8jDCgaw=="
+    },
+    "tls": {
+      "authorized": true,
+      "authorizationError": null
+    },
+    "time": "2026-10-26T04:27:08.728Z",
+    "file": "official-88-full.jpg",
+    "canvas": "https://www.digital.archives.go.jp/api/iiif/4468520/canvas/C102812187100",
+    "bytes": 825635,
+    "sha256": "01aa70087388237313da09a6038e923e676acda36cfe1e58b3026e817a8eb619",
+    "format": "IIIF /full/full/ JPEG response, server capped at3000px; not full6300px canvas/masterJP2 bytes",
+    "canvasWidth": 6300,
+    "canvasHeight": 4750,
+    "responseWidth": 3000,
+    "responseHeight": 2262
+  },
+  {
+    "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102812187200/iiif/M2019050811103249305_0089.jp2/full/full/0/native.jpg",
+    "status": 200,
+    "headers": {
+      "content-type": "image/jpeg;charset=UTF-8",
+      "transfer-encoding": "chunked",
+      "connection": "keep-alive",
+      "date": "Mon, 26 Oct 2026 04:27:04 GMT",
+      "content-language": "ja",
+      "strict-transport-security": "max-age=31536000",
+      "server": "Apache",
+      "x-frame-options": "SAMEORIGIN",
+      "pragma": "no-cache",
+      "cache-control": "no-cache, no-store",
+      "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+      "content-security-policy": "frame-ancestors 'self'",
+      "access-control-allow-origin": "*",
+      "x-cache": "Miss from cloudfront",
+      "via": "1.1 46b7ff1419d911febc631c7ceff6e52e.cloudfront.net (CloudFront)",
+      "x-amz-cf-pop": "LAX53-P5",
+      "x-amz-cf-id": "MR8V4VEv-XBxNZq42XXQO4ayv3YKGb4kWqb-3b0jblDzA2jO-PvZCw=="
+    },
+    "tls": {
+      "authorized": true,
+      "authorizationError": null
+    },
+    "time": "2026-10-26T04:27:09.784Z",
+    "file": "official-89-full.jpg",
+    "canvas": "https://www.digital.archives.go.jp/api/iiif/4468520/canvas/C102812187200",
+    "bytes": 859799,
+    "sha256": "34e5178b021178cccf3ef61a6513652405db45ed989b2e1393361ba306d101e6",
+    "format": "IIIF /full/full/ JPEG response, server capped at3000px; not full6300px canvas/masterJP2 bytes",
+    "canvasWidth": 6300,
+    "canvasHeight": 4750,
+    "responseWidth": 3000,
+    "responseHeight": 2262
+  }
+]

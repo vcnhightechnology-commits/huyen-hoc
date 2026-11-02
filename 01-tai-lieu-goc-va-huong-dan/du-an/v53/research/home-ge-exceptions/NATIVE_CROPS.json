@@ -1,0 +1,117 @@
+{
+  "schema": "hhc.native-crops.v1",
+  "records": [
+    {
+      "position": 251,
+      "source": {
+        "file": "v53/research/home-day-hour-scopes/ITKC_BT_1508A_V002_251.JPG",
+        "bytes": 1172122,
+        "sha256": "b762211c12efd94b4983404b2fe3cde60530158db09bded89530caa536489707"
+      },
+      "boxXYXY": [
+        120,
+        250,
+        900,
+        2090
+      ],
+      "crop": {
+        "file": "tmp/home-ge-exceptions-staging/forest-mountain-and-earth-start.png",
+        "bytes": 2120570,
+        "sha256": "fe65ea8edcbac755208cc7b5a790c5e4bcff227f523ef1d988b76bbe86529719"
+      },
+      "accepted": true,
+      "viewed": true,
+      "reason": "Full selected clauses/heading context."
+    },
+    {
+      "position": 252,
+      "source": {
+        "file": "v53/research/home-day-hour-scopes/ITKC_BT_1508A_V002_252.JPG",
+        "bytes": 1156260,
+        "sha256": "0d7fb94ee7b6a2b2065765e80da6a9780d51ec7e1d9a4dd87d4290d995c9120a"
+      },
+      "boxXYXY": [
+        880,
+        250,
+        1525,
+        2090
+      ],
+      "crop": {
+        "file": "tmp/home-ge-exceptions-staging/earth-tail-shen-complete.png",
+        "bytes": 1683688,
+        "sha256": "44dbe0d45966ec618edf21926102db816601403d3ee72726efc25b1a315ee8ec"
+      },
+      "accepted": false,
+      "viewed": true,
+      "reason": "Trial context crop superseded by wider crop before freeze; not counted as accepted evidence."
+    },
+    {
+      "position": 253,
+      "source": {
+        "file": "v53/research/home-day-hour-scopes/ITKC_BT_1508A_V002_253.JPG",
+        "bytes": 1120936,
+        "sha256": "b1a7a6d239eb4219ba743135cb4cfda29a79104eaba03178fbe5e02a7c876fc9"
+      },
+      "boxXYXY": [
+        500,
+        250,
+        1120,
+        2090
+      ],
+      "crop": {
+        "file": "tmp/home-ge-exceptions-staging/ghost-and-zhou-voices.png",
+        "bytes": 1601005,
+        "sha256": "6dae7ad9a7f7a3ce25fc7c97afa4b7e38d4dfa5737985d3987e5c7063606a5ab"
+      },
+      "accepted": false,
+      "viewed": true,
+      "reason": "Trial context crop superseded by wider crop before freeze; not counted as accepted evidence."
+    },
+    {
+      "position": 252,
+      "source": {
+        "file": "v53/research/home-day-hour-scopes/ITKC_BT_1508A_V002_252.JPG",
+        "bytes": 1156260,
+        "sha256": "0d7fb94ee7b6a2b2065765e80da6a9780d51ec7e1d9a4dd87d4290d995c9120a"
+      },
+      "boxXYXY": [
+        850,
+        240,
+        1530,
+        2100
+      ],
+      "crop": {
+        "file": "tmp/home-ge-exceptions-staging/earth-tail-shen-expanded.png",
+        "bytes": 1785994,
+        "sha256": "6af22fd7c64ceefa1ee1d678d216896249f3034f080e7e81a6cd8dc6d3de4133"
+      },
+      "accepted": true,
+      "viewed": true,
+      "reason": "Full selected clauses/heading context."
+    },
+    {
+      "position": 253,
+      "source": {
+        "file": "v53/research/home-day-hour-scopes/ITKC_BT_1508A_V002_253.JPG",
+        "bytes": 1120936,
+        "sha256": "b1a7a6d239eb4219ba743135cb4cfda29a79104eaba03178fbe5e02a7c876fc9"
+      },
+      "boxXYXY": [
+        500,
+        280,
+        1260,
+        2100
+      ],
+      "crop": {
+        "file": "tmp/home-ge-exceptions-staging/ghost-xing-zhou-complete.png",
+        "bytes": 1948654,
+        "sha256": "817ed3f95ffedd1310d7f5da10dc0fd20c3a22af0d6c240b3c488d6714aef099"
+      },
+      "accepted": true,
+      "viewed": true,
+      "reason": "Full selected clauses/heading context."
+    }
+  ],
+  "newSourcePositions": 0,
+  "newHTTPBodies": 0
+}

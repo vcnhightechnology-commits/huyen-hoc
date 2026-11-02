@@ -1,0 +1,57 @@
+{
+  "schema": "hhc.meihua.conditions-variants.v1",
+  "variants": [
+    {
+      "id": "qian-time-branches",
+      "pdfPages": [
+        57
+      ],
+      "printed": "乾為戌亥",
+      "digital": "坤為戌亥",
+      "disposition": "retainboth;notanindependentcalendarboundaryverification"
+    },
+    {
+      "id": "trade-role-and-control",
+      "pdfPages": [
+        69
+      ],
+      "printed": "用為交易之應／體剋用交易成遲",
+      "digital": "用為財／體克用有財",
+      "disposition": "materialsubject-specificdifference;matrixfollowsthisprintedwitness,nosilentcorrectionofrawdigitaltext"
+    },
+    {
+      "id": "burial-retreat",
+      "pdfPages": [
+        74
+      ],
+      "printed": "主貧退",
+      "digital": "主運退",
+      "disposition": "retainboundedreading;nochangeofcorpus"
+    },
+    {
+      "id": "midday-dui",
+      "pdfPages": [
+        83
+      ],
+      "printed": "離之時坤兌為體則吉",
+      "digital": "離之時坤兌為體則吉",
+      "disposition": "source-internalconflictwithfirecontrolsmetal;doNOTsilentlysubstitute艮for兌"
+    },
+    {
+      "id": "pi-case2-mutual",
+      "pdfPages": [
+        73
+      ],
+      "printed": "第二爻動…互見巽離",
+      "digital": "第二爻動…互見巽離",
+      "disposition": "Matcheschangednuclear37(upper巽/lower離);mainnuclear53is巽艮. Sourceusesmixedcontext;notgeneralruleoverride."
+    }
+  ],
+  "open": [
+    "Allsubsidiaryclauses,visualuncertaintiesandsecond-witnesscollationremainopen;18roledefinitions/85clausesarenotwholevolumeapplication.",
+    "NochoiceofGregorian/lunar/solar-seasonboundaryorprioritybetweenmonthanddayislicensedbythesefewclauses.",
+    "Body/use relationalgraphisqualitative;weights,thresholdsandautomaticcancellationnotestablished.",
+    "Weather,medical,pregnancy,burial,legalandfinancialoutcomeclaimsarenotvalidatedforecasts;medicalprescriptionsandghost/lifespanclaimsremainhistorical.",
+    "Quietroomwithnothingheardorseenexplicitlyhasnoexternalhexagram;do notinventanomen."
+  ]
+}

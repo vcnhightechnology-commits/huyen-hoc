@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-29",
+  "retainedSourceModule": {
+    "file": "v53/research/home-hour-alignment/source-hour-reference.mjs",
+    "bytes": 2400,
+    "sha256": "b40caf5be790e93e3497aa640b4e8d7c4a7d047b9c8b37b0886899e3967db075"
+  },
+  "entryPoint": "sourceJieluActivityScope",
+  "sourceStates": [
+    true,
+    false,
+    null
+  ],
+  "activities": {
+    "travel": "travel",
+    "marriage": "marriage",
+    "relocation": "relocation",
+    "build": "other",
+    "burial": "other"
+  },
+  "plannedRetainedAPIExecutions": 15,
+  "notCalendarEngineCalls": true,
+  "newLunarObjects": 0,
+  "newHHCCharts": 0,
+  "newIztroCharts": 0,
+  "doNotInferIdenticalNamedSystems": true
+}

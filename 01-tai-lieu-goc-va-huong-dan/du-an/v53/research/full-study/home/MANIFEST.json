@@ -1,0 +1,1172 @@
+{
+  "schema": "hhc.full-study.home.sources.v1",
+  "files": [
+    {
+      "file": "commons-cadal06056503-imageinfo.json",
+      "requestedURL": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url%7Csize%7Csha1%7Cextmetadata&titles=File%3ACADAL06056503%20%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu",
+      "finalURL": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url%7Csize%7Csha1%7Cextmetadata&titles=File%3ACADAL06056503%20%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu",
+      "retrievedUTC": "2026-10-26T03:53:53.350Z",
+      "status": 200,
+      "bytes": 2524,
+      "sha256": "a88af4181ebd5bc1033a23d485a36524f9e9b23dffe7820cdb761d5a0c904465",
+      "headers": {
+        "date": "Mon, 26 Oct 2026 03:53:48 GMT",
+        "server": "mw-api-ext.eqiad.main-5f8dd6899c-qxm45",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src 'self'; script-src 'none'; object-src 'none'",
+        "x-frame-options": "DENY",
+        "content-disposition": "inline; filename=api-result.json",
+        "expires": "Mon, 26 Oct 2026 04:53:48 GMT",
+        "cache-control": "max-age=3600, s-maxage=3600, public",
+        "content-type": "application/json; charset=utf-8",
+        "age": "0",
+        "accept-ranges": "bytes",
+        "x-cache": "cp1110 miss, cp1110 miss",
+        "x-cache-status": "miss",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "set-cookie": [
+          "WMF-Last-Access=26-Oct-2026;Path=/;HttpOnly;secure;Expires=Fri, 27 Nov 2026 00:00:00 GMT",
+          "GeoIP=US:::37.75:-97.82:v4; Path=/; secure; Domain=.wikimedia.org",
+          "NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600",
+          "WMF-Uniq=49Aaw9mEXd4cjUZVhIV6XQQFAAAAAFvd8etkwKI9wt2BmSfQzipM5-1XFf6scH3w;Domain=commons.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Tue, 26 Oct 2027 00:00:00 GMT"
+        ],
+        "x-client-ip": "103.111.32.68",
+        "vary": "Accept-Encoding,X-Subdomain,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization,User-Agent",
+        "content-length": "2524",
+        "x-request-id": "f92d4c80-879e-41e9-be6f-029d848c5aa7",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"miss\", host;desc=\"cp1110\",co_id;desc=\"2010759251\""
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "redirectChain": [
+        {
+          "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo&iiprop=url%7Csize%7Csha1%7Cextmetadata&titles=File%3ACADAL06056503%20%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu",
+          "status": 200
+        }
+      ],
+      "usable": true,
+      "role": "Commons API image metadata, file identity and direct URL",
+      "transport": "HTTPS with certificate validation; Accept-Encoding identity; response body saved as received, no text conversion"
+    },
+    {
+      "file": "commons-cadal06056503-catalog.html",
+      "requestedURL": "https://commons.wikimedia.org/wiki/File:CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu",
+      "finalURL": "https://commons.wikimedia.org/wiki/File:CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu",
+      "retrievedUTC": "2026-10-26T03:53:53.413Z",
+      "status": 200,
+      "bytes": 114785,
+      "sha256": "bac87ba08d57ca6f5e3aaf738866f92e15b6494d49cce0393f882a94895faef8",
+      "headers": {
+        "date": "Mon, 26 Oct 2026 03:53:48 GMT",
+        "server": "mw-web.eqiad.main-dccb7c848-5nqg5",
+        "x-content-type-options": "nosniff",
+        "content-language": "en",
+        "accept-ch": "",
+        "reporting-endpoints": "csp-report-to-endpoint='/w/api.php?action=cspreport&format=json';",
+        "content-security-policy": "script-src 'unsafe-eval' blob: 'self' meta.wikimedia.org *.wikimedia.org *.wikipedia.org *.wikinews.org *.wiktionary.org *.wikibooks.org *.wikiversity.org *.wikisource.org wikisource.org *.wikiquote.org *.wikidata.org *.wikifunctions.org *.wikivoyage.org *.mediawiki.org mediawiki.org wikimedia.org *.wmflabs.org *.wmcloud.org *.toolforge.org wss://*.toolforge.org *.jsdelivr.net unpkg.com cdnjs.cloudflare.com raw.githubusercontent.com *.github.com code.jquery.com cdn.mathjax.org use.typekit.net fonts.cdnfonts.com use.fontawesome.com i.ytimg.com rsms.me doi.org localhost https://localhost:* http://localhost:* wss://localhost:* ws://localhost:* *.google.com *.gstatic.com *.googleapis.com *.translate.yandex.net yastatic.net ya.ru radically.github.io cdn.sammdot.ca cdn.fontshare.com viaf.org publicai-proxy.alaexis.workers.dev iiif.archive.org api.flickr.com live.staticflickr.com api.anthropic.com api.openai.com api.publicai.co catalogo.pusc.it parsifal.urbe.it opac.sbn.it overpass-api.de api.openrouteservice.org archive.org *.openstreetmap.org *.waymarkedtrails.org *.thunderforest.com registry.ipe.wiki analytics.ipe.wiki qlever.dev app.goacoustic.com wikipedia-archive.ourworldindata.org api.inaturalist.org inaturalist-open-data.s3.amazonaws.com validator.w3.org db.onlinewebfonts.com fontlibrary.org 'unsafe-inline' auth.wikimedia.org; default-src 'self' data: blob: https://upload.wikimedia.org https://thumb.wikimedia.org meta.wikimedia.org *.wikimedia.org *.wikipedia.org *.wikinews.org *.wiktionary.org *.wikibooks.org *.wikiversity.org *.wikisource.org wikisource.org *.wikiquote.org *.wikidata.org *.wikifunctions.org *.wikivoyage.org *.mediawiki.org mediawiki.org wikimedia.org *.wmflabs.org *.wmcloud.org *.toolforge.org wss://*.toolforge.org *.jsdelivr.net unpkg.com cdnjs.cloudflare.com raw.githubusercontent.com *.github.com code.jquery.com cdn.mathjax.org use.typekit.net fonts.cdnfonts.com use.fontawesome.com i.ytimg.com rsms.me doi.org localhost https://localhost:* http://localhost:* wss://localhost:* ws://localhost:* *.google.com *.gstatic.com *.googleapis.com *.translate.yandex.net yastatic.net ya.ru radically.github.io cdn.sammdot.ca cdn.fontshare.com viaf.org publicai-proxy.alaexis.workers.dev iiif.archive.org api.flickr.com live.staticflickr.com api.anthropic.com api.openai.com api.publicai.co catalogo.pusc.it parsifal.urbe.it opac.sbn.it overpass-api.de api.openrouteservice.org archive.org *.openstreetmap.org *.waymarkedtrails.org *.thunderforest.com registry.ipe.wiki analytics.ipe.wiki qlever.dev app.goacoustic.com wikipedia-archive.ourworldindata.org api.inaturalist.org inaturalist-open-data.s3.amazonaws.com validator.w3.org db.onlinewebfonts.com fontlibrary.org en.wikipedia.org en.wikibooks.org en.wikinews.org en.wikiquote.org en.wikisource.org en.wikiversity.org en.wikivoyage.org en.wiktionary.org www.mediawiki.org foundation.wikimedia.org incubator.wikimedia.org species.wikimedia.org wikimania.wikimedia.org www.wikidata.org www.wikifunctions.org auth.wikimedia.org; style-src 'self' data: blob: https://upload.wikimedia.org https://thumb.wikimedia.org meta.wikimedia.org *.wikimedia.org *.wikipedia.org *.wikinews.org *.wiktionary.org *.wikibooks.org *.wikiversity.org *.wikisource.org wikisource.org *.wikiquote.org *.wikidata.org *.wikifunctions.org *.wikivoyage.org *.mediawiki.org mediawiki.org wikimedia.org *.wmflabs.org *.wmcloud.org *.toolforge.org wss://*.toolforge.org *.jsdelivr.net unpkg.com cdnjs.cloudflare.com raw.githubusercontent.com *.github.com code.jquery.com cdn.mathjax.org use.typekit.net fonts.cdnfonts.com use.fontawesome.com i.ytimg.com rsms.me doi.org localhost https://localhost:* http://localhost:* wss://localhost:* ws://localhost:* *.google.com *.gstatic.com *.googleapis.com *.translate.yandex.net yastatic.net ya.ru radically.github.io cdn.sammdot.ca cdn.fontshare.com viaf.org publicai-proxy.alaexis.workers.dev iiif.archive.org api.flickr.com live.staticflickr.com api.anthropic.com api.openai.com api.publicai.co catalogo.pusc.it parsifal.urbe.it opac.sbn.it overpass-api.de api.openrouteservice.org archive.org *.openstreetmap.org *.waymarkedtrails.org *.thunderforest.com registry.ipe.wiki analytics.ipe.wiki qlever.dev app.goacoustic.com wikipedia-archive.ourworldindata.org api.inaturalist.org inaturalist-open-data.s3.amazonaws.com validator.w3.org db.onlinewebfonts.com fontlibrary.org 'unsafe-inline'; object-src 'none'; report-uri /w/api.php?action=cspreport&format=json; report-to csp-report-to-endpoint",
+        "last-modified": "Fri, 23 Oct 2026 14:28:56 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "age": "0",
+        "accept-ranges": "bytes",
+        "x-cache": "cp1114 miss, cp1114 miss",
+        "x-cache-status": "miss",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "set-cookie": [
+          "WMF-Last-Access=26-Oct-2026;Path=/;HttpOnly;secure;Expires=Fri, 27 Nov 2026 00:00:00 GMT",
+          "GeoIP=US:CA:Los_Angeles:34.05:-118.24:v4; Path=/; secure; Domain=.wikimedia.org",
+          "NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600",
+          "WMF-Uniq=6mqxhfl3nJIxKSykrXM_2QQFAAAAAFvdBflYb1PfDxxrzB08o5BOOJky_ymIgBbn;Domain=commons.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Tue, 26 Oct 2027 00:00:00 GMT"
+        ],
+        "x-client-ip": "2a02:6ea0:1806:d000:4902:34f9:c51c:edb3",
+        "cache-control": "private, s-maxage=0, max-age=0, must-revalidate, no-transform",
+        "vary": "Accept-Encoding,X-Subdomain,Cookie,Authorization,User-Agent",
+        "transfer-encoding": "chunked",
+        "x-request-id": "335f3c87-9fdd-4b37-9711-ca768823b9ab",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"miss\", host;desc=\"cp1114\",co_id;desc=\"3438512103\""
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "redirectChain": [
+        {
+          "url": "https://commons.wikimedia.org/wiki/File:CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu",
+          "status": 200
+        }
+      ],
+      "usable": true,
+      "role": "Public catalogue/file metadata; CADAL attribution is Commons metadata, not independent custody verification",
+      "transport": "HTTPS with certificate validation; Accept-Encoding identity; response body saved as received, no text conversion"
+    },
+    {
+      "file": "wikisource-xieji-v02-oldid787335.html",
+      "requestedURL": "https://zh.wikisource.org/w/index.php?oldid=787335&title=%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)%2F%E5%8D%B702",
+      "finalURL": "https://zh.wikisource.org/w/index.php?oldid=787335&title=%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)%2F%E5%8D%B702",
+      "retrievedUTC": "2026-10-26T03:53:53.425Z",
+      "status": 200,
+      "bytes": 110994,
+      "sha256": "0e6ab5bc890241ea0a8022f65860e86923a6448d595e523278f96b4b6235f139",
+      "headers": {
+        "date": "Mon, 26 Oct 2026 03:53:48 GMT",
+        "server": "mw-web.eqiad.main-dccb7c848-l7f4s",
+        "x-content-type-options": "nosniff",
+        "content-language": "zh",
+        "accept-ch": "",
+        "reporting-endpoints": "csp-report-to-endpoint='/w/api.php?action=cspreport&format=json';",
+        "content-security-policy": "script-src 'unsafe-eval' blob: 'self' meta.wikimedia.org *.wikimedia.org *.wikipedia.org *.wikinews.org *.wiktionary.org *.wikibooks.org *.wikiversity.org *.wikisource.org wikisource.org *.wikiquote.org *.wikidata.org *.wikifunctions.org *.wikivoyage.org *.mediawiki.org mediawiki.org wikimedia.org *.wmflabs.org *.wmcloud.org *.toolforge.org wss://*.toolforge.org *.jsdelivr.net unpkg.com cdnjs.cloudflare.com raw.githubusercontent.com *.github.com code.jquery.com cdn.mathjax.org use.typekit.net fonts.cdnfonts.com use.fontawesome.com i.ytimg.com rsms.me doi.org localhost https://localhost:* http://localhost:* wss://localhost:* ws://localhost:* *.google.com *.gstatic.com *.googleapis.com *.translate.yandex.net yastatic.net ya.ru radically.github.io cdn.sammdot.ca cdn.fontshare.com viaf.org publicai-proxy.alaexis.workers.dev iiif.archive.org api.flickr.com live.staticflickr.com api.anthropic.com api.openai.com api.publicai.co catalogo.pusc.it parsifal.urbe.it opac.sbn.it overpass-api.de api.openrouteservice.org archive.org *.openstreetmap.org *.waymarkedtrails.org *.thunderforest.com registry.ipe.wiki analytics.ipe.wiki qlever.dev app.goacoustic.com wikipedia-archive.ourworldindata.org api.inaturalist.org inaturalist-open-data.s3.amazonaws.com validator.w3.org db.onlinewebfonts.com fontlibrary.org 'unsafe-inline' auth.wikimedia.org; default-src 'self' data: blob: upload.wikimedia.org thumb.wikimedia.org https://commons.wikimedia.org meta.wikimedia.org *.wikimedia.org *.wikipedia.org *.wikinews.org *.wiktionary.org *.wikibooks.org *.wikiversity.org *.wikisource.org wikisource.org *.wikiquote.org *.wikidata.org *.wikifunctions.org *.wikivoyage.org *.mediawiki.org mediawiki.org wikimedia.org *.wmflabs.org *.wmcloud.org *.toolforge.org wss://*.toolforge.org *.jsdelivr.net unpkg.com cdnjs.cloudflare.com raw.githubusercontent.com *.github.com code.jquery.com cdn.mathjax.org use.typekit.net fonts.cdnfonts.com use.fontawesome.com i.ytimg.com rsms.me doi.org localhost https://localhost:* http://localhost:* wss://localhost:* ws://localhost:* *.google.com *.gstatic.com *.googleapis.com *.translate.yandex.net yastatic.net ya.ru radically.github.io cdn.sammdot.ca cdn.fontshare.com viaf.org publicai-proxy.alaexis.workers.dev iiif.archive.org api.flickr.com live.staticflickr.com api.anthropic.com api.openai.com api.publicai.co catalogo.pusc.it parsifal.urbe.it opac.sbn.it overpass-api.de api.openrouteservice.org archive.org *.openstreetmap.org *.waymarkedtrails.org *.thunderforest.com registry.ipe.wiki analytics.ipe.wiki qlever.dev app.goacoustic.com wikipedia-archive.ourworldindata.org api.inaturalist.org inaturalist-open-data.s3.amazonaws.com validator.w3.org db.onlinewebfonts.com fontlibrary.org en.wikipedia.org en.wikibooks.org en.wikinews.org en.wikiquote.org en.wikiversity.org en.wikivoyage.org en.wiktionary.org www.mediawiki.org commons.wikimedia.org foundation.wikimedia.org incubator.wikimedia.org species.wikimedia.org wikimania.wikimedia.org www.wikidata.org www.wikifunctions.org auth.wikimedia.org; style-src 'self' data: blob: upload.wikimedia.org thumb.wikimedia.org https://commons.wikimedia.org meta.wikimedia.org *.wikimedia.org *.wikipedia.org *.wikinews.org *.wiktionary.org *.wikibooks.org *.wikiversity.org *.wikisource.org wikisource.org *.wikiquote.org *.wikidata.org *.wikifunctions.org *.wikivoyage.org *.mediawiki.org mediawiki.org wikimedia.org *.wmflabs.org *.wmcloud.org *.toolforge.org wss://*.toolforge.org *.jsdelivr.net unpkg.com cdnjs.cloudflare.com raw.githubusercontent.com *.github.com code.jquery.com cdn.mathjax.org use.typekit.net fonts.cdnfonts.com use.fontawesome.com i.ytimg.com rsms.me doi.org localhost https://localhost:* http://localhost:* wss://localhost:* ws://localhost:* *.google.com *.gstatic.com *.googleapis.com *.translate.yandex.net yastatic.net ya.ru radically.github.io cdn.sammdot.ca cdn.fontshare.com viaf.org publicai-proxy.alaexis.workers.dev iiif.archive.org api.flickr.com live.staticflickr.com api.anthropic.com api.openai.com api.publicai.co catalogo.pusc.it parsifal.urbe.it opac.sbn.it overpass-api.de api.openrouteservice.org archive.org *.openstreetmap.org *.waymarkedtrails.org *.thunderforest.com registry.ipe.wiki analytics.ipe.wiki qlever.dev app.goacoustic.com wikipedia-archive.ourworldindata.org api.inaturalist.org inaturalist-open-data.s3.amazonaws.com validator.w3.org db.onlinewebfonts.com fontlibrary.org 'unsafe-inline'; object-src 'none'; report-uri /w/api.php?action=cspreport&format=json; report-to csp-report-to-endpoint",
+        "last-modified": "Sat, 17 Oct 2026 19:52:48 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "age": "0",
+        "accept-ranges": "bytes",
+        "x-cache": "cp1110 miss, cp1110 miss",
+        "x-cache-status": "miss",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "set-cookie": [
+          "WMF-Last-Access=26-Oct-2026;Path=/;HttpOnly;secure;Expires=Fri, 27 Nov 2026 00:00:00 GMT",
+          "WMF-Last-Access-Global=26-Oct-2026;Path=/;Domain=.wikisource.org;HttpOnly;secure;Expires=Fri, 27 Nov 2026 00:00:00 GMT",
+          "WMF-DP=097;Path=/;HttpOnly;secure;Expires=Mon, 26 Oct 2026 00:00:00 GMT",
+          "GeoIP=US:::37.75:-97.82:v4; Path=/; secure; Domain=.wikisource.org",
+          "NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600",
+          "WMF-Uniq=G7891eWGokRAfHn5yP_fxwQFAAAAAFvdb18FRw0ULW2MX9QyG95vGN0QLkpvPj2d;Domain=.wikisource.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Tue, 26 Oct 2027 00:00:00 GMT"
+        ],
+        "x-client-ip": "103.111.32.68",
+        "cache-control": "private, s-maxage=0, max-age=0, must-revalidate, no-transform",
+        "vary": "Accept-Encoding,X-Subdomain,Cookie,Accept-Language,Authorization,User-Agent",
+        "transfer-encoding": "chunked",
+        "x-request-id": "12530566-1e3e-4fee-9d07-cc0ff7b69b1a",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"miss\", host;desc=\"cp1110\",co_id;desc=\"559945112\""
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "redirectChain": [
+        {
+          "url": "https://zh.wikisource.org/w/index.php?oldid=787335&title=%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)%2F%E5%8D%B702",
+          "status": 200
+        }
+      ],
+      "usable": true,
+      "role": "Immutable Wikisource revision; Chinese transcription, not yet scan-verified",
+      "transport": "HTTPS with certificate validation; Accept-Encoding identity; response body saved as received, no text conversion"
+    },
+    {
+      "file": "CADAL06056503.djvu",
+      "requestedURL": "https://upload.wikimedia.org/wikipedia/commons/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "finalURL": "https://upload.wikimedia.org/wikipedia/commons/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "retrievedUTC": "2026-10-26T03:53:54.634Z",
+      "status": 200,
+      "bytes": 3433014,
+      "sha256": "bfd3b76c55d62324919ab161c8c2ba2ecb129b3b2c59a3ab0428807e8f8278db",
+      "headers": {
+        "content-type": "image/vnd.djvu",
+        "x-object-meta-sha1base36": "hlzvy6ysjhobrkgfbhl5lhdj4s8csdy",
+        "etag": "65b5bbc9495a44f321a4ee0b1b0bf235",
+        "last-modified": "Sat, 28 Dec 2019 15:04:49 GMT",
+        "accept-ranges": "bytes",
+        "content-length": "3433014",
+        "date": "Mon, 26 Oct 2026 03:53:49 GMT",
+        "x-ratelimit-limit": "600000, 600000;w=60",
+        "x-ratelimit-remaining": "565104",
+        "x-ratelimit-reset": "11",
+        "server": "envoy",
+        "age": "0",
+        "x-cache": "cp1105 miss, cp1105 miss",
+        "x-cache-status": "miss",
+        "server-timing": "cache;desc=\"miss\", host;desc=\"cp1105\"",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "x-client-ip": "2a02:6ea0:1806:d000:4902:34f9:c51c:edb3",
+        "x-content-type-options": "nosniff",
+        "reporting-endpoints": "csp_endpoint=\"https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json\"",
+        "content-security-policy-report-only": "default-src 'none'; script-src 'none'; style-src 'unsafe-inline' data:; font-src data:; img-src data: https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; connect-src https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; media-src data: 'self'; object-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; report-uri https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json; report-to csp_endpoint",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+        "timing-allow-origin": "*",
+        "set-cookie": [
+          "WMF-Uniq=MiWVkU3LxJTAXFZyXG3e8QQFAAAAAFvdPmdX4RnYOKQY6bDgdJYCwt_fi_UAuBQE;Domain=upload.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Tue, 26 Oct 2027 00:00:00 GMT"
+        ],
+        "x-request-id": "7c38f0cd-d1c0-4c75-8879-abd12461b588",
+        "x-analytics": ""
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "redirectChain": [
+        {
+          "url": "https://upload.wikimedia.org/wikipedia/commons/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+          "status": 200
+        }
+      ],
+      "usable": true,
+      "role": "Whole public facsimile container; SHA confirms downloaded bytes, not complete reading",
+      "transport": "HTTPS with certificate validation; Accept-Encoding identity; response body saved as received, no text conversion"
+    },
+    {
+      "file": "CADAL06056503-page001.jpg",
+      "requestedURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page1-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "finalURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page1-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "retrievedUTC": "2026-10-26T03:53:55.511Z",
+      "status": 400,
+      "bytes": 2009,
+      "sha256": "578c2af362d5b507782614782ee8d9d688e15ebf066dec9f88ddeb0be2601fc3",
+      "headers": {
+        "date": "Mon, 26 Oct 2026 03:53:50 GMT",
+        "server": "Varnish",
+        "x-cache": "cp1110 int",
+        "x-cache-status": "int-front",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "set-cookie": [
+          "WMF-Last-Access=26-Oct-2026;Path=/;HttpOnly;secure;Expires=Fri, 27 Nov 2026 00:00:00 GMT"
+        ],
+        "x-client-ip": "103.111.32.68",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+        "timing-allow-origin": "*",
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "2009",
+        "x-request-id": "cfdc1a89-1f24-498c-a7be-58662bb739bd",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"int-front\", host;desc=\"cp1110\",co_id;desc=\"153945093\""
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "redirectChain": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page1-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+          "status": 400
+        }
+      ],
+      "usable": false,
+      "role": "Commons rendered page of the public DjVu facsimile, page ordinal 1; derivative distinct from DjVu bytes",
+      "transport": "HTTPS with certificate validation; Accept-Encoding identity; response body saved as received, no text conversion"
+    },
+    {
+      "file": "CADAL06056503-page002.jpg",
+      "requestedURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page2-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "finalURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page2-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "retrievedUTC": "2026-10-26T03:53:55.768Z",
+      "status": 400,
+      "bytes": 2009,
+      "sha256": "6fd04ffc695a097dd5b852312cc8012b64a69612a884fdb71b976647ccb80952",
+      "headers": {
+        "date": "Mon, 26 Oct 2026 03:53:50 GMT",
+        "server": "Varnish",
+        "x-cache": "cp1110 int",
+        "x-cache-status": "int-front",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "set-cookie": [
+          "WMF-Last-Access=26-Oct-2026;Path=/;HttpOnly;secure;Expires=Fri, 27 Nov 2026 00:00:00 GMT"
+        ],
+        "x-client-ip": "103.111.32.68",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+        "timing-allow-origin": "*",
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "2009",
+        "x-request-id": "e1dd04cd-9038-4256-9810-e54d2214c4e4",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"int-front\", host;desc=\"cp1110\",co_id;desc=\"3747754897\""
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "redirectChain": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page2-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+          "status": 400
+        }
+      ],
+      "usable": false,
+      "role": "Commons rendered page of the public DjVu facsimile, page ordinal 2; derivative distinct from DjVu bytes",
+      "transport": "HTTPS with certificate validation; Accept-Encoding identity; response body saved as received, no text conversion"
+    },
+    {
+      "file": "CADAL06056503-page003.jpg",
+      "requestedURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page3-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "finalURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page3-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "retrievedUTC": "2026-10-26T03:53:56.026Z",
+      "status": 400,
+      "bytes": 2009,
+      "sha256": "d9f80d1cd83f48069ac762ade2bdec39a70c3ff6508ebf483fb4a7fcdf0db789",
+      "headers": {
+        "date": "Mon, 26 Oct 2026 03:53:51 GMT",
+        "server": "Varnish",
+        "x-cache": "cp1110 int",
+        "x-cache-status": "int-front",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "set-cookie": [
+          "WMF-Last-Access=26-Oct-2026;Path=/;HttpOnly;secure;Expires=Fri, 27 Nov 2026 00:00:00 GMT"
+        ],
+        "x-client-ip": "103.111.32.68",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+        "timing-allow-origin": "*",
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "2009",
+        "x-request-id": "adce90ee-2aab-4234-b539-4c3db95b4f1a",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"int-front\", host;desc=\"cp1110\",co_id;desc=\"2130864516\""
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "redirectChain": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page3-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+          "status": 400
+        }
+      ],
+      "usable": false,
+      "role": "Commons rendered page of the public DjVu facsimile, page ordinal 3; derivative distinct from DjVu bytes",
+      "transport": "HTTPS with certificate validation; Accept-Encoding identity; response body saved as received, no text conversion"
+    },
+    {
+      "file": "CADAL06056503-page004.jpg",
+      "requestedURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page4-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "finalURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page4-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "retrievedUTC": "2026-10-26T03:53:56.297Z",
+      "status": 400,
+      "bytes": 2009,
+      "sha256": "fcc8d9e2b7b043870bd8f0e6ae915aa4c5c9c184dedd5e320ebb89be5205f537",
+      "headers": {
+        "date": "Mon, 26 Oct 2026 03:53:51 GMT",
+        "server": "Varnish",
+        "x-cache": "cp1110 int",
+        "x-cache-status": "int-front",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "set-cookie": [
+          "WMF-Last-Access=26-Oct-2026;Path=/;HttpOnly;secure;Expires=Fri, 27 Nov 2026 00:00:00 GMT"
+        ],
+        "x-client-ip": "103.111.32.68",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+        "timing-allow-origin": "*",
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "2009",
+        "x-request-id": "41fcf5d2-1ab1-4854-ae44-8b847bf6d8ef",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"int-front\", host;desc=\"cp1110\",co_id;desc=\"2219646632\""
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "redirectChain": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page4-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+          "status": 400
+        }
+      ],
+      "usable": false,
+      "role": "Commons rendered page of the public DjVu facsimile, page ordinal 4; derivative distinct from DjVu bytes",
+      "transport": "HTTPS with certificate validation; Accept-Encoding identity; response body saved as received, no text conversion"
+    },
+    {
+      "file": "CADAL06056503-page005.jpg",
+      "requestedURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page5-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "finalURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page5-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "retrievedUTC": "2026-10-26T03:53:56.569Z",
+      "status": 400,
+      "bytes": 2009,
+      "sha256": "1fce65f3ede3d62e5472237149ce27491849fd97e7d14c6fe2bc7536b7a67c11",
+      "headers": {
+        "date": "Mon, 26 Oct 2026 03:53:51 GMT",
+        "server": "Varnish",
+        "x-cache": "cp1110 int",
+        "x-cache-status": "int-front",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "set-cookie": [
+          "WMF-Last-Access=26-Oct-2026;Path=/;HttpOnly;secure;Expires=Fri, 27 Nov 2026 00:00:00 GMT"
+        ],
+        "x-client-ip": "103.111.32.68",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+        "timing-allow-origin": "*",
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "2009",
+        "x-request-id": "beec319a-d149-40a7-81ec-f97d526f5e3f",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"int-front\", host;desc=\"cp1110\",co_id;desc=\"876683184\""
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "redirectChain": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page5-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+          "status": 400
+        }
+      ],
+      "usable": false,
+      "role": "Commons rendered page of the public DjVu facsimile, page ordinal 5; derivative distinct from DjVu bytes",
+      "transport": "HTTPS with certificate validation; Accept-Encoding identity; response body saved as received, no text conversion"
+    },
+    {
+      "file": "CADAL06056503-page006.jpg",
+      "requestedURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page6-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "finalURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page6-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "retrievedUTC": "2026-10-26T03:53:56.824Z",
+      "status": 400,
+      "bytes": 2009,
+      "sha256": "a16a177bab55dce35b76917dcdd5b9c6370abf9394f28f23e8200b12704ad777",
+      "headers": {
+        "date": "Mon, 26 Oct 2026 03:53:51 GMT",
+        "server": "Varnish",
+        "x-cache": "cp1110 int",
+        "x-cache-status": "int-front",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "set-cookie": [
+          "WMF-Last-Access=26-Oct-2026;Path=/;HttpOnly;secure;Expires=Fri, 27 Nov 2026 00:00:00 GMT"
+        ],
+        "x-client-ip": "103.111.32.68",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+        "timing-allow-origin": "*",
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "2009",
+        "x-request-id": "652b9d6d-3f52-45cb-87e8-8370d35c5bf6",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"int-front\", host;desc=\"cp1110\",co_id;desc=\"1755610976\""
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "redirectChain": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page6-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+          "status": 400
+        }
+      ],
+      "usable": false,
+      "role": "Commons rendered page of the public DjVu facsimile, page ordinal 6; derivative distinct from DjVu bytes",
+      "transport": "HTTPS with certificate validation; Accept-Encoding identity; response body saved as received, no text conversion"
+    },
+    {
+      "file": "CADAL06056503-page007.jpg",
+      "requestedURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page7-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "finalURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page7-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "retrievedUTC": "2026-10-26T03:53:57.081Z",
+      "status": 400,
+      "bytes": 2009,
+      "sha256": "aca0726515ead7532b16862f9ea83feaee33d4326fbaec198aef8983e3d482d1",
+      "headers": {
+        "date": "Mon, 26 Oct 2026 03:53:52 GMT",
+        "server": "Varnish",
+        "x-cache": "cp1110 int",
+        "x-cache-status": "int-front",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "set-cookie": [
+          "WMF-Last-Access=26-Oct-2026;Path=/;HttpOnly;secure;Expires=Fri, 27 Nov 2026 00:00:00 GMT"
+        ],
+        "x-client-ip": "103.111.32.68",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+        "timing-allow-origin": "*",
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "2009",
+        "x-request-id": "8cdbb896-c011-4823-adf5-61ef7f2b186f",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"int-front\", host;desc=\"cp1110\",co_id;desc=\"1709038426\""
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "redirectChain": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page7-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+          "status": 400
+        }
+      ],
+      "usable": false,
+      "role": "Commons rendered page of the public DjVu facsimile, page ordinal 7; derivative distinct from DjVu bytes",
+      "transport": "HTTPS with certificate validation; Accept-Encoding identity; response body saved as received, no text conversion"
+    },
+    {
+      "file": "CADAL06056503-page008.jpg",
+      "requestedURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page8-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "finalURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page8-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "retrievedUTC": "2026-10-26T03:53:57.341Z",
+      "status": 400,
+      "bytes": 2009,
+      "sha256": "7a7547fe6d2abfe2005b9fab679de4a33e40a78ddd86d93d390a3f7631eeebb3",
+      "headers": {
+        "date": "Mon, 26 Oct 2026 03:53:52 GMT",
+        "server": "Varnish",
+        "x-cache": "cp1110 int",
+        "x-cache-status": "int-front",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "set-cookie": [
+          "WMF-Last-Access=26-Oct-2026;Path=/;HttpOnly;secure;Expires=Fri, 27 Nov 2026 00:00:00 GMT"
+        ],
+        "x-client-ip": "103.111.32.68",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+        "timing-allow-origin": "*",
+        "content-type": "text/html; charset=utf-8",
+        "content-length": "2009",
+        "x-request-id": "4f3a05b8-98ff-4178-b9bf-d739b28ca543",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"int-front\", host;desc=\"cp1110\",co_id;desc=\"2223306743\""
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "redirectChain": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page8-957px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+          "status": 400
+        }
+      ],
+      "usable": false,
+      "role": "Commons rendered page of the public DjVu facsimile, page ordinal 8; derivative distinct from DjVu bytes",
+      "transport": "HTTPS with certificate validation; Accept-Encoding identity; response body saved as received, no text conversion"
+    },
+    {
+      "file": "CADAL06056503-page001-500.jpg",
+      "requestedURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page1-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "finalURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page1-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "retrievedUTC": "2026-10-26T03:54:26.164Z",
+      "status": 200,
+      "bytes": 19822,
+      "sha256": "aae44f3b561c2baf7fa8ea0ed545e344bdfc5545060d263ae84458a90eecfc51",
+      "headers": {
+        "content-type": "image/jpeg",
+        "content-disposition": "inline;filename*=UTF-8''CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg",
+        "etag": "e997de37cc4839c70f243fe1b2388316",
+        "last-modified": "Sun, 23 Aug 2026 20:20:04 GMT",
+        "content-length": "19822",
+        "date": "Mon, 26 Oct 2026 03:54:21 GMT",
+        "x-ratelimit-limit": "600000, 600000;w=60",
+        "x-ratelimit-remaining": "599999",
+        "x-ratelimit-reset": "39",
+        "server": "envoy",
+        "age": "0",
+        "accept-ranges": "bytes",
+        "x-cache": "cp1110 miss, cp1110 miss",
+        "x-cache-status": "miss",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "x-client-ip": "103.111.32.68",
+        "x-content-type-options": "nosniff",
+        "reporting-endpoints": "csp_endpoint=\"https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json\"",
+        "content-security-policy-report-only": "default-src 'none'; script-src 'none'; style-src 'unsafe-inline' data:; font-src data:; img-src data: https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; connect-src https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; media-src data: 'self'; object-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; report-uri https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json; report-to csp_endpoint",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+        "timing-allow-origin": "*",
+        "set-cookie": [
+          "GeoIP=US:::37.75:-97.82:v4; Path=/; secure; Domain=.wikimedia.org",
+          "NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600",
+          "WMF-Uniq=anG0yMlPBIOaoZbgjoB8jQQFAAAAAFvdRAxTxOUQwTAjIwOHjRXfL3XeoPAgqEdJ;Domain=thumb.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Tue, 26 Oct 2027 00:00:00 GMT"
+        ],
+        "x-request-id": "b92cb678-156f-4f8c-97fb-aa250cace43b",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"miss\", host;desc=\"cp1110\",co_id;desc=\"3146568728\""
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "redirectChain": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page1-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+          "status": 200
+        }
+      ],
+      "usable": true,
+      "role": "Commons rendered page at advertised standard width of the public DjVu facsimile, page ordinal 1; derivative distinct from DjVu bytes",
+      "transport": "HTTPS with certificate validation; Accept-Encoding identity; response body saved as received, no text conversion"
+    },
+    {
+      "file": "CADAL06056503-page002-500.jpg",
+      "requestedURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page2-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "finalURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page2-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "retrievedUTC": "2026-10-26T03:54:27.060Z",
+      "status": 200,
+      "bytes": 24830,
+      "sha256": "b9d0f82920a9dbf01d5ae9f3e7c7d84909aecdffbc6ca0d978459daba8bcb51f",
+      "headers": {
+        "content-type": "image/jpeg",
+        "content-length": "24830",
+        "content-disposition": "inline;filename*=UTF-8''CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg",
+        "xkey": "File:CADAL06056503_æ¬½å®åç´è¾¨æ¹æ¸Â·å·äº.djvu",
+        "server": "Thumbor/7.8.0",
+        "date": "Mon, 26 Oct 2026 03:54:22 GMT",
+        "x-ratelimit-limit": "600000, 600000;w=60",
+        "x-ratelimit-remaining": "599979",
+        "x-ratelimit-reset": "39",
+        "age": "1",
+        "accept-ranges": "bytes",
+        "x-cache": "cp1110 miss, cp1110 miss",
+        "x-cache-status": "miss",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "x-client-ip": "103.111.32.68",
+        "x-content-type-options": "nosniff",
+        "reporting-endpoints": "csp_endpoint=\"https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json\"",
+        "content-security-policy-report-only": "default-src 'none'; script-src 'none'; style-src 'unsafe-inline' data:; font-src data:; img-src data: https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; connect-src https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; media-src data: 'self'; object-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; report-uri https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json; report-to csp_endpoint",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+        "timing-allow-origin": "*",
+        "set-cookie": [
+          "GeoIP=US:::37.75:-97.82:v4; Path=/; secure; Domain=.wikimedia.org",
+          "NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600",
+          "WMF-Uniq=rMTQxEPXOoUac9aEHSrzwAQFAAAAAFvdiuhMArGs69xMGpsZ7JJA5gno6g_He9Ch;Domain=thumb.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Tue, 26 Oct 2027 00:00:00 GMT"
+        ],
+        "x-request-id": "21fc3fc4-19f1-4843-9a1a-4026bb58482b",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"miss\", host;desc=\"cp1110\",co_id;desc=\"3360303820\""
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "redirectChain": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page2-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+          "status": 200
+        }
+      ],
+      "usable": true,
+      "role": "Commons rendered page at advertised standard width of the public DjVu facsimile, page ordinal 2; derivative distinct from DjVu bytes",
+      "transport": "HTTPS with certificate validation; Accept-Encoding identity; response body saved as received, no text conversion"
+    },
+    {
+      "file": "CADAL06056503-page003-500.jpg",
+      "requestedURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page3-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "finalURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page3-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "retrievedUTC": "2026-10-26T03:54:27.971Z",
+      "status": 200,
+      "bytes": 87929,
+      "sha256": "cb0d6ef4cdcc57be170a27de8f72cf36563b7833121264b65865d00a401faaac",
+      "headers": {
+        "content-type": "image/jpeg",
+        "content-length": "87929",
+        "content-disposition": "inline;filename*=UTF-8''CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg",
+        "xkey": "File:CADAL06056503_æ¬½å®åç´è¾¨æ¹æ¸Â·å·äº.djvu",
+        "server": "Thumbor/7.8.0",
+        "date": "Mon, 26 Oct 2026 03:54:22 GMT",
+        "x-ratelimit-limit": "600000, 600000;w=60",
+        "x-ratelimit-remaining": "599954",
+        "x-ratelimit-reset": "38",
+        "age": "0",
+        "accept-ranges": "bytes",
+        "x-cache": "cp1110 miss, cp1110 miss",
+        "x-cache-status": "miss",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "x-client-ip": "103.111.32.68",
+        "x-content-type-options": "nosniff",
+        "reporting-endpoints": "csp_endpoint=\"https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json\"",
+        "content-security-policy-report-only": "default-src 'none'; script-src 'none'; style-src 'unsafe-inline' data:; font-src data:; img-src data: https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; connect-src https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; media-src data: 'self'; object-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; report-uri https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json; report-to csp_endpoint",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+        "timing-allow-origin": "*",
+        "set-cookie": [
+          "GeoIP=US:::37.75:-97.82:v4; Path=/; secure; Domain=.wikimedia.org",
+          "NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600",
+          "WMF-Uniq=UH5DaYWxrmTABIERV7m69wQFAAAAAFvdOn_nvQcM3NoX4dGkKIsbF-6AW1pXMeNa;Domain=thumb.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Tue, 26 Oct 2027 00:00:00 GMT"
+        ],
+        "x-request-id": "c0dde675-dcf8-488f-8360-3374752b5424",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"miss\", host;desc=\"cp1110\",co_id;desc=\"13583251\""
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "redirectChain": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page3-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+          "status": 200
+        }
+      ],
+      "usable": true,
+      "role": "Commons rendered page at advertised standard width of the public DjVu facsimile, page ordinal 3; derivative distinct from DjVu bytes",
+      "transport": "HTTPS with certificate validation; Accept-Encoding identity; response body saved as received, no text conversion"
+    },
+    {
+      "file": "CADAL06056503-page004-500.jpg",
+      "requestedURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page4-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "finalURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page4-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "retrievedUTC": "2026-10-26T03:54:28.800Z",
+      "status": 200,
+      "bytes": 46008,
+      "sha256": "79922aa0e26f247bdd1e35a0578b05ceec43280d8770fc1e39434e0e1164636f",
+      "headers": {
+        "content-type": "image/jpeg",
+        "content-length": "46008",
+        "content-disposition": "inline;filename*=UTF-8''CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg",
+        "xkey": "File:CADAL06056503_æ¬½å®åç´è¾¨æ¹æ¸Â·å·äº.djvu",
+        "server": "Thumbor/7.8.0",
+        "date": "Mon, 26 Oct 2026 03:54:23 GMT",
+        "x-ratelimit-limit": "600000, 600000;w=60",
+        "x-ratelimit-remaining": "599868",
+        "x-ratelimit-reset": "37",
+        "age": "0",
+        "accept-ranges": "bytes",
+        "x-cache": "cp1110 miss, cp1110 miss",
+        "x-cache-status": "miss",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "x-client-ip": "103.111.32.68",
+        "x-content-type-options": "nosniff",
+        "reporting-endpoints": "csp_endpoint=\"https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json\"",
+        "content-security-policy-report-only": "default-src 'none'; script-src 'none'; style-src 'unsafe-inline' data:; font-src data:; img-src data: https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; connect-src https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; media-src data: 'self'; object-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; report-uri https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json; report-to csp_endpoint",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+        "timing-allow-origin": "*",
+        "set-cookie": [
+          "GeoIP=US:::37.75:-97.82:v4; Path=/; secure; Domain=.wikimedia.org",
+          "NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600",
+          "WMF-Uniq=0764dQzAVVUwoKSD9M6rvgQFAAAAAFvddol5fJA-Pl7zYYlDWFNTRb4lGv0eyZc_;Domain=thumb.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Tue, 26 Oct 2027 00:00:00 GMT"
+        ],
+        "x-request-id": "78fe3674-93d7-4989-ba51-cd07726e8b04",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"miss\", host;desc=\"cp1110\",co_id;desc=\"2648426576\""
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "redirectChain": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page4-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+          "status": 200
+        }
+      ],
+      "usable": true,
+      "role": "Commons rendered page at advertised standard width of the public DjVu facsimile, page ordinal 4; derivative distinct from DjVu bytes",
+      "transport": "HTTPS with certificate validation; Accept-Encoding identity; response body saved as received, no text conversion"
+    },
+    {
+      "file": "CADAL06056503-page005-500.jpg",
+      "requestedURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page5-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "finalURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page5-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "retrievedUTC": "2026-10-26T03:54:29.648Z",
+      "status": 200,
+      "bytes": 38913,
+      "sha256": "c5acc56729829e4e7ba40dc2b397d7e10d3b2b920894e0911bccfe3526ebabfe",
+      "headers": {
+        "content-type": "image/jpeg",
+        "content-length": "38913",
+        "content-disposition": "inline;filename*=UTF-8''CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg",
+        "xkey": "File:CADAL06056503_æ¬½å®åç´è¾¨æ¹æ¸Â·å·äº.djvu",
+        "server": "Thumbor/7.8.0",
+        "date": "Mon, 26 Oct 2026 03:54:24 GMT",
+        "x-ratelimit-limit": "600000, 600000;w=60",
+        "x-ratelimit-remaining": "599823",
+        "x-ratelimit-reset": "36",
+        "age": "0",
+        "accept-ranges": "bytes",
+        "x-cache": "cp1110 miss, cp1110 miss",
+        "x-cache-status": "miss",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "x-client-ip": "103.111.32.68",
+        "x-content-type-options": "nosniff",
+        "reporting-endpoints": "csp_endpoint=\"https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json\"",
+        "content-security-policy-report-only": "default-src 'none'; script-src 'none'; style-src 'unsafe-inline' data:; font-src data:; img-src data: https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; connect-src https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; media-src data: 'self'; object-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; report-uri https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json; report-to csp_endpoint",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+        "timing-allow-origin": "*",
+        "set-cookie": [
+          "GeoIP=US:::37.75:-97.82:v4; Path=/; secure; Domain=.wikimedia.org",
+          "NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600",
+          "WMF-Uniq=kgRrxffEbCX1USorEkrcAwQFAAAAAFvdfiazsZXnmJU9m7vwdJmo-QdYRbyUiyEh;Domain=thumb.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Tue, 26 Oct 2027 00:00:00 GMT"
+        ],
+        "x-request-id": "a6c4e9ab-fd4c-46a8-bddd-2b1ee59345c8",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"miss\", host;desc=\"cp1110\",co_id;desc=\"4103819826\""
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "redirectChain": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page5-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+          "status": 200
+        }
+      ],
+      "usable": true,
+      "role": "Commons rendered page at advertised standard width of the public DjVu facsimile, page ordinal 5; derivative distinct from DjVu bytes",
+      "transport": "HTTPS with certificate validation; Accept-Encoding identity; response body saved as received, no text conversion"
+    },
+    {
+      "file": "CADAL06056503-page006-500.jpg",
+      "requestedURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page6-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "finalURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page6-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "retrievedUTC": "2026-10-26T03:54:30.559Z",
+      "status": 200,
+      "bytes": 92926,
+      "sha256": "400e52f8032aade34c75773c4c7660f4bea15a7dc51ec36ffbf5a51cec2d4b6c",
+      "headers": {
+        "content-type": "image/jpeg",
+        "content-length": "92926",
+        "content-disposition": "inline;filename*=UTF-8''CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg",
+        "xkey": "File:CADAL06056503_æ¬½å®åç´è¾¨æ¹æ¸Â·å·äº.djvu",
+        "server": "Thumbor/7.8.0",
+        "date": "Mon, 26 Oct 2026 03:54:25 GMT",
+        "x-ratelimit-limit": "600000, 600000;w=60",
+        "x-ratelimit-remaining": "599784",
+        "x-ratelimit-reset": "36",
+        "age": "1",
+        "accept-ranges": "bytes",
+        "x-cache": "cp1110 miss, cp1110 miss",
+        "x-cache-status": "miss",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "x-client-ip": "103.111.32.68",
+        "x-content-type-options": "nosniff",
+        "reporting-endpoints": "csp_endpoint=\"https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json\"",
+        "content-security-policy-report-only": "default-src 'none'; script-src 'none'; style-src 'unsafe-inline' data:; font-src data:; img-src data: https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; connect-src https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; media-src data: 'self'; object-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; report-uri https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json; report-to csp_endpoint",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+        "timing-allow-origin": "*",
+        "set-cookie": [
+          "GeoIP=US:::37.75:-97.82:v4; Path=/; secure; Domain=.wikimedia.org",
+          "NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600",
+          "WMF-Uniq=ytoKac6X0P-i4uJIDUDSMwQFAAAAAFvdEWYzAYX9IqTd1n130L0h2ivoki2jK8Yx;Domain=thumb.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Tue, 26 Oct 2027 00:00:00 GMT"
+        ],
+        "x-request-id": "61abb7b3-8581-4da4-bcd9-f7b2fdae1042",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"miss\", host;desc=\"cp1110\",co_id;desc=\"3600309693\""
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "redirectChain": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page6-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+          "status": 200
+        }
+      ],
+      "usable": true,
+      "role": "Commons rendered page at advertised standard width of the public DjVu facsimile, page ordinal 6; derivative distinct from DjVu bytes",
+      "transport": "HTTPS with certificate validation; Accept-Encoding identity; response body saved as received, no text conversion"
+    },
+    {
+      "file": "CADAL06056503-page007-500.jpg",
+      "requestedURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page7-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "finalURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page7-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "retrievedUTC": "2026-10-26T03:54:31.476Z",
+      "status": 200,
+      "bytes": 66458,
+      "sha256": "92606bb336456d878694b17569039e89c01b8f01c0d39b42097f58deaca49b78",
+      "headers": {
+        "content-type": "image/jpeg",
+        "content-length": "66458",
+        "content-disposition": "inline;filename*=UTF-8''CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg",
+        "xkey": "File:CADAL06056503_æ¬½å®åç´è¾¨æ¹æ¸Â·å·äº.djvu",
+        "server": "Thumbor/7.8.0",
+        "date": "Mon, 26 Oct 2026 03:54:26 GMT",
+        "x-ratelimit-limit": "600000, 600000;w=60",
+        "x-ratelimit-remaining": "599693",
+        "x-ratelimit-reset": "35",
+        "age": "1",
+        "accept-ranges": "bytes",
+        "x-cache": "cp1110 miss, cp1110 miss",
+        "x-cache-status": "miss",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "x-client-ip": "103.111.32.68",
+        "x-content-type-options": "nosniff",
+        "reporting-endpoints": "csp_endpoint=\"https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json\"",
+        "content-security-policy-report-only": "default-src 'none'; script-src 'none'; style-src 'unsafe-inline' data:; font-src data:; img-src data: https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; connect-src https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; media-src data: 'self'; object-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; report-uri https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json; report-to csp_endpoint",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+        "timing-allow-origin": "*",
+        "set-cookie": [
+          "GeoIP=US:::37.75:-97.82:v4; Path=/; secure; Domain=.wikimedia.org",
+          "NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600",
+          "WMF-Uniq=UIrOR3BjyPe0wjy830xT3wQFAAAAAFvdthdQHk8SpEhpBXu4OIO0ldNlBugGAog-;Domain=thumb.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Tue, 26 Oct 2027 00:00:00 GMT"
+        ],
+        "x-request-id": "2288991a-13e0-45fb-9070-89e4bd680625",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"miss\", host;desc=\"cp1110\",co_id;desc=\"2463223939\""
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "redirectChain": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page7-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+          "status": 200
+        }
+      ],
+      "usable": true,
+      "role": "Commons rendered page at advertised standard width of the public DjVu facsimile, page ordinal 7; derivative distinct from DjVu bytes",
+      "transport": "HTTPS with certificate validation; Accept-Encoding identity; response body saved as received, no text conversion"
+    },
+    {
+      "file": "CADAL06056503-page008-500.jpg",
+      "requestedURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page8-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "finalURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page8-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "retrievedUTC": "2026-10-26T03:54:32.308Z",
+      "status": 200,
+      "bytes": 32808,
+      "sha256": "7eaa1ff8065c937602dda34409be4ff21efa2fb0ca07d4643cab0cc6122b1087",
+      "headers": {
+        "content-type": "image/jpeg",
+        "content-length": "32808",
+        "content-disposition": "inline;filename*=UTF-8''CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg",
+        "xkey": "File:CADAL06056503_æ¬½å®åç´è¾¨æ¹æ¸Â·å·äº.djvu",
+        "server": "Thumbor/7.8.0",
+        "date": "Mon, 26 Oct 2026 03:54:27 GMT",
+        "x-ratelimit-limit": "600000, 600000;w=60",
+        "x-ratelimit-remaining": "599628",
+        "x-ratelimit-reset": "34",
+        "age": "1",
+        "accept-ranges": "bytes",
+        "x-cache": "cp1110 miss, cp1110 miss",
+        "x-cache-status": "miss",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "x-client-ip": "103.111.32.68",
+        "x-content-type-options": "nosniff",
+        "reporting-endpoints": "csp_endpoint=\"https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json\"",
+        "content-security-policy-report-only": "default-src 'none'; script-src 'none'; style-src 'unsafe-inline' data:; font-src data:; img-src data: https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; connect-src https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; media-src data: 'self'; object-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; report-uri https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json; report-to csp_endpoint",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+        "timing-allow-origin": "*",
+        "set-cookie": [
+          "GeoIP=US:::37.75:-97.82:v4; Path=/; secure; Domain=.wikimedia.org",
+          "NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600",
+          "WMF-Uniq=LZvVb7oHAETwRA-gGtpEnAQFAAAAAFvdHYwmX1lDPpJQn8RsAEe9fN-b77oNpMs-;Domain=thumb.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Tue, 26 Oct 2027 00:00:00 GMT"
+        ],
+        "x-request-id": "1947153e-6cba-4414-893b-bfb840960e5e",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"miss\", host;desc=\"cp1110\",co_id;desc=\"2441264603\""
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "redirectChain": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page8-500px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+          "status": 200
+        }
+      ],
+      "usable": true,
+      "role": "Commons rendered page at advertised standard width of the public DjVu facsimile, page ordinal 8; derivative distinct from DjVu bytes",
+      "transport": "HTTPS with certificate validation; Accept-Encoding identity; response body saved as received, no text conversion"
+    },
+    {
+      "file": "CADAL06056503-page005-960.jpg",
+      "requestedURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page5-960px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "finalURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page5-960px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "retrievedUTC": "2026-10-26T03:55:21.500Z",
+      "status": 200,
+      "bytes": 109776,
+      "sha256": "5051e336dcba329dc29a68e2033fbb10a7367b7cdbd5d80fe68d03756757ab05",
+      "headers": {
+        "content-type": "image/jpeg",
+        "content-disposition": "inline;filename*=UTF-8''CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg",
+        "etag": "3363dc5bb6f7437e35805c7f03dace62",
+        "last-modified": "Sat, 12 Sep 2026 14:16:27 GMT",
+        "content-length": "109776",
+        "date": "Mon, 26 Oct 2026 03:55:16 GMT",
+        "x-ratelimit-limit": "600000, 600000;w=60",
+        "x-ratelimit-remaining": "599999",
+        "x-ratelimit-reset": "44",
+        "server": "envoy",
+        "age": "0",
+        "accept-ranges": "bytes",
+        "x-cache": "cp1110 miss, cp1110 miss",
+        "x-cache-status": "miss",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "x-client-ip": "103.111.32.68",
+        "x-content-type-options": "nosniff",
+        "reporting-endpoints": "csp_endpoint=\"https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json\"",
+        "content-security-policy-report-only": "default-src 'none'; script-src 'none'; style-src 'unsafe-inline' data:; font-src data:; img-src data: https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; connect-src https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; media-src data: 'self'; object-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; report-uri https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json; report-to csp_endpoint",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+        "timing-allow-origin": "*",
+        "set-cookie": [
+          "GeoIP=US:::37.75:-97.82:v4; Path=/; secure; Domain=.wikimedia.org",
+          "NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600",
+          "WMF-Uniq=dOw1-x8aKztEIMgMalWI_wQFAAAAAFvd98QcQDXe88AMAuHKHGuHB5O4OGZiRtfF;Domain=thumb.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Tue, 26 Oct 2027 00:00:00 GMT"
+        ],
+        "x-request-id": "cb0fd3ed-e249-4fff-badd-5ca47c115cdd",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"miss\", host;desc=\"cp1110\",co_id;desc=\"574329094\""
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "redirectChain": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page5-960px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+          "status": 200
+        }
+      ],
+      "usable": true,
+      "role": "Commons rendered page at standard width960; page ordinal 5; derivative distinct from the archived whole DjVu",
+      "transport": "HTTPS with certificate validation; Accept-Encoding identity; response body saved as received, no text conversion"
+    },
+    {
+      "file": "CADAL06056503-page006-960.jpg",
+      "requestedURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page6-960px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "finalURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page6-960px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "retrievedUTC": "2026-10-26T03:55:22.011Z",
+      "status": 200,
+      "bytes": 239483,
+      "sha256": "073d85a0f530a2fa70b037f8b6e60cf77c23297c31ab1c5fc600315cb35728ab",
+      "headers": {
+        "content-type": "image/jpeg",
+        "content-disposition": "inline;filename*=UTF-8''CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg",
+        "etag": "b1c48d6b855c5383f649c68905305e5d",
+        "last-modified": "Sat, 12 Sep 2026 14:16:32 GMT",
+        "content-length": "239483",
+        "date": "Mon, 26 Oct 2026 03:55:16 GMT",
+        "x-ratelimit-limit": "600000, 600000;w=60",
+        "x-ratelimit-remaining": "599891",
+        "x-ratelimit-reset": "44",
+        "server": "envoy",
+        "age": "0",
+        "accept-ranges": "bytes",
+        "x-cache": "cp1110 miss, cp1110 miss",
+        "x-cache-status": "miss",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "x-client-ip": "103.111.32.68",
+        "x-content-type-options": "nosniff",
+        "reporting-endpoints": "csp_endpoint=\"https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json\"",
+        "content-security-policy-report-only": "default-src 'none'; script-src 'none'; style-src 'unsafe-inline' data:; font-src data:; img-src data: https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; connect-src https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; media-src data: 'self'; object-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; report-uri https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json; report-to csp_endpoint",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+        "timing-allow-origin": "*",
+        "set-cookie": [
+          "GeoIP=US:::37.75:-97.82:v4; Path=/; secure; Domain=.wikimedia.org",
+          "NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600",
+          "WMF-Uniq=FJH33kUqp9JkHWJwqDG0kgQFAAAAAFvdHXjYaLv5eSc_W7F6j5Fn9UYJROYZkFYC;Domain=thumb.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Tue, 26 Oct 2027 00:00:00 GMT"
+        ],
+        "x-request-id": "da12bcd0-ce40-4813-9d17-aa3b03a76de0",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"miss\", host;desc=\"cp1110\",co_id;desc=\"1416356571\""
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "redirectChain": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page6-960px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+          "status": 200
+        }
+      ],
+      "usable": true,
+      "role": "Commons rendered page at standard width960; page ordinal 6; derivative distinct from the archived whole DjVu",
+      "transport": "HTTPS with certificate validation; Accept-Encoding identity; response body saved as received, no text conversion"
+    },
+    {
+      "file": "CADAL06056503-page007-960.jpg",
+      "requestedURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page7-960px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "finalURL": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page7-960px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+      "retrievedUTC": "2026-10-26T03:55:22.349Z",
+      "status": 200,
+      "bytes": 173510,
+      "sha256": "1717ce7b0a0a56e8e07a7fcabf53117357049e54a7301218e8d8d8c8fe783f30",
+      "headers": {
+        "content-type": "image/jpeg",
+        "content-disposition": "inline;filename*=UTF-8''CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg",
+        "etag": "e1c0ae52ef6ce061827d903fe70dcf25",
+        "last-modified": "Sat, 12 Sep 2026 14:16:38 GMT",
+        "content-length": "173510",
+        "date": "Mon, 26 Oct 2026 03:55:17 GMT",
+        "x-ratelimit-limit": "600000, 600000;w=60",
+        "x-ratelimit-remaining": "599657",
+        "x-ratelimit-reset": "43",
+        "server": "envoy",
+        "age": "0",
+        "accept-ranges": "bytes",
+        "x-cache": "cp1110 miss, cp1110 miss",
+        "x-cache-status": "miss",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "x-client-ip": "103.111.32.68",
+        "x-content-type-options": "nosniff",
+        "reporting-endpoints": "csp_endpoint=\"https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json\"",
+        "content-security-policy-report-only": "default-src 'none'; script-src 'none'; style-src 'unsafe-inline' data:; font-src data:; img-src data: https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; connect-src https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; media-src data: 'self'; object-src 'none'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; report-uri https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json; report-to csp_endpoint",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+        "timing-allow-origin": "*",
+        "set-cookie": [
+          "GeoIP=US:::37.75:-97.82:v4; Path=/; secure; Domain=.wikimedia.org",
+          "NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600",
+          "WMF-Uniq=PyGv14fclLOuy8mvP_Uh9wQFAAAAAFvdSFMZcqy70tM5Gp7dWckA82TDfD8jtoxk;Domain=thumb.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Tue, 26 Oct 2027 00:00:00 GMT"
+        ],
+        "x-request-id": "bd48187f-33be-4b03-90ac-d7873332ee2b",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"miss\", host;desc=\"cp1110\",co_id;desc=\"1072297672\""
+      },
+      "tls": {
+        "authorized": true,
+        "protocol": "TLSv1.3"
+      },
+      "redirectChain": [
+        {
+          "url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/ab/CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu/page7-960px-CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu.jpg?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail&_=20191228150449",
+          "status": 200
+        }
+      ],
+      "usable": true,
+      "role": "Commons rendered page at standard width960; page ordinal 7; derivative distinct from the archived whole DjVu",
+      "transport": "HTTPS with certificate validation; Accept-Encoding identity; response body saved as received, no text conversion"
+    }
+  ]
+}

@@ -1,0 +1,1341 @@
+{
+  "date": "2026-10-28",
+  "checks": [
+    {
+      "name": "Two retained diagram source images, three prose images and actual pinned lunar runtime bytes match their identities",
+      "ok": true
+    },
+    {
+      "name": "20 movement cells and24 mountain labels independently read from diagram41 agree with the prior prose table",
+      "ok": true
+    },
+    {
+      "name": "60 actual lunar EightChar year-pillar executions compare all50 listed year coordinates without turning omitted years into safety claims",
+      "ok": true
+    },
+    {
+      "name": "60 actual lunar EightChar month-pillar executions compare19 resolved printed month sets;one reading remains unfilled",
+      "ok": true
+    },
+    {
+      "name": "1440 year and2880 month coordinate queries preserve table membership and a three-valued source reading rather than filling ambiguity",
+      "ok": true
+    },
+    {
+      "name": "After-solstice metal exception stays in prior prose and is not overwritten by an ordinary diagram; unknown phase stays unknown",
+      "ok": true
+    },
+    {
+      "name": "Strict coordinates, explicit nulls and returned copies avoid silent aliases, date adapters and mutation",
+      "ok": true
+    },
+    {
+      "name": "Released HTML, engine and all preceding reference implementations are byte-identical to the archived verified package",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "movementCells": 20,
+    "mountainLabels": 24,
+    "sourceYearEntries": 50,
+    "resolvedMonthSets": 19,
+    "unresolvedMonthSets": 1,
+    "actualLunarYearCharts": 60,
+    "actualLunarMonthCharts": 60,
+    "privateYearContexts": 1440,
+    "privateMonthContexts": 2880,
+    "expandedPreviouslyReadPages": 5,
+    "newHTTPRequests": 0,
+    "newOriginalContainers": 0,
+    "newSourcePages": 0
+  },
+  "runtimeYears": [
+    {
+      "GregorianRuntimeFixture": 1984,
+      "pillar": "甲子",
+      "nayin": "海中金",
+      "nayinElement": "金",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 1985,
+      "pillar": "乙丑",
+      "nayin": "海中金",
+      "nayinElement": "金",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 1986,
+      "pillar": "丙寅",
+      "nayin": "炉中火",
+      "nayinElement": "火",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 1987,
+      "pillar": "丁卯",
+      "nayin": "炉中火",
+      "nayinElement": "火",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 1988,
+      "pillar": "戊辰",
+      "nayin": "大林木",
+      "nayinElement": "木",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 1989,
+      "pillar": "己巳",
+      "nayin": "大林木",
+      "nayinElement": "木",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 1990,
+      "pillar": "庚午",
+      "nayin": "路旁土",
+      "nayinElement": "土",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 1991,
+      "pillar": "辛未",
+      "nayin": "路旁土",
+      "nayinElement": "土",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 1992,
+      "pillar": "壬申",
+      "nayin": "剑锋金",
+      "nayinElement": "金",
+      "printedGroups": 0,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 1993,
+      "pillar": "癸酉",
+      "nayin": "剑锋金",
+      "nayinElement": "金",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 1994,
+      "pillar": "甲戌",
+      "nayin": "山头火",
+      "nayinElement": "火",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 1995,
+      "pillar": "乙亥",
+      "nayin": "山头火",
+      "nayinElement": "火",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 1996,
+      "pillar": "丙子",
+      "nayin": "涧下水",
+      "nayinElement": "水",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 1997,
+      "pillar": "丁丑",
+      "nayin": "涧下水",
+      "nayinElement": "水",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 1998,
+      "pillar": "戊寅",
+      "nayin": "城头土",
+      "nayinElement": "土",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 1999,
+      "pillar": "己卯",
+      "nayin": "城头土",
+      "nayinElement": "土",
+      "printedGroups": 0,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2000,
+      "pillar": "庚辰",
+      "nayin": "白蜡金",
+      "nayinElement": "金",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2001,
+      "pillar": "辛巳",
+      "nayin": "白蜡金",
+      "nayinElement": "金",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2002,
+      "pillar": "壬午",
+      "nayin": "杨柳木",
+      "nayinElement": "木",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2003,
+      "pillar": "癸未",
+      "nayin": "杨柳木",
+      "nayinElement": "木",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2004,
+      "pillar": "甲申",
+      "nayin": "泉中水",
+      "nayinElement": "水",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2005,
+      "pillar": "乙酉",
+      "nayin": "泉中水",
+      "nayinElement": "水",
+      "printedGroups": 0,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2006,
+      "pillar": "丙戌",
+      "nayin": "屋上土",
+      "nayinElement": "土",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2007,
+      "pillar": "丁亥",
+      "nayin": "屋上土",
+      "nayinElement": "土",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2008,
+      "pillar": "戊子",
+      "nayin": "霹雳火",
+      "nayinElement": "火",
+      "printedGroups": 0,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2009,
+      "pillar": "己丑",
+      "nayin": "霹雳火",
+      "nayinElement": "火",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2010,
+      "pillar": "庚寅",
+      "nayin": "松柏木",
+      "nayinElement": "木",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2011,
+      "pillar": "辛卯",
+      "nayin": "松柏木",
+      "nayinElement": "木",
+      "printedGroups": 0,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2012,
+      "pillar": "壬辰",
+      "nayin": "长流水",
+      "nayinElement": "水",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2013,
+      "pillar": "癸巳",
+      "nayin": "长流水",
+      "nayinElement": "水",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2014,
+      "pillar": "甲午",
+      "nayin": "沙中金",
+      "nayinElement": "金",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2015,
+      "pillar": "乙未",
+      "nayin": "沙中金",
+      "nayinElement": "金",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2016,
+      "pillar": "丙申",
+      "nayin": "山下火",
+      "nayinElement": "火",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2017,
+      "pillar": "丁酉",
+      "nayin": "山下火",
+      "nayinElement": "火",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2018,
+      "pillar": "戊戌",
+      "nayin": "平地木",
+      "nayinElement": "木",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2019,
+      "pillar": "己亥",
+      "nayin": "平地木",
+      "nayinElement": "木",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2020,
+      "pillar": "庚子",
+      "nayin": "壁上土",
+      "nayinElement": "土",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2021,
+      "pillar": "辛丑",
+      "nayin": "壁上土",
+      "nayinElement": "土",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2022,
+      "pillar": "壬寅",
+      "nayin": "金箔金",
+      "nayinElement": "金",
+      "printedGroups": 0,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2023,
+      "pillar": "癸卯",
+      "nayin": "金箔金",
+      "nayinElement": "金",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2024,
+      "pillar": "甲辰",
+      "nayin": "覆灯火",
+      "nayinElement": "火",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2025,
+      "pillar": "乙巳",
+      "nayin": "覆灯火",
+      "nayinElement": "火",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2026,
+      "pillar": "丙午",
+      "nayin": "天河水",
+      "nayinElement": "水",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2027,
+      "pillar": "丁未",
+      "nayin": "天河水",
+      "nayinElement": "水",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2028,
+      "pillar": "戊申",
+      "nayin": "大驿土",
+      "nayinElement": "土",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2029,
+      "pillar": "己酉",
+      "nayin": "大驿土",
+      "nayinElement": "土",
+      "printedGroups": 0,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2030,
+      "pillar": "庚戌",
+      "nayin": "钗钏金",
+      "nayinElement": "金",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2031,
+      "pillar": "辛亥",
+      "nayin": "钗钏金",
+      "nayinElement": "金",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2032,
+      "pillar": "壬子",
+      "nayin": "桑柘木",
+      "nayinElement": "木",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2033,
+      "pillar": "癸丑",
+      "nayin": "桑柘木",
+      "nayinElement": "木",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2034,
+      "pillar": "甲寅",
+      "nayin": "大溪水",
+      "nayinElement": "水",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2035,
+      "pillar": "乙卯",
+      "nayin": "大溪水",
+      "nayinElement": "水",
+      "printedGroups": 0,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2036,
+      "pillar": "丙辰",
+      "nayin": "沙中土",
+      "nayinElement": "土",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2037,
+      "pillar": "丁巳",
+      "nayin": "沙中土",
+      "nayinElement": "土",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2038,
+      "pillar": "戊午",
+      "nayin": "天上火",
+      "nayinElement": "火",
+      "printedGroups": 0,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2039,
+      "pillar": "己未",
+      "nayin": "天上火",
+      "nayinElement": "火",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2040,
+      "pillar": "庚申",
+      "nayin": "石榴木",
+      "nayinElement": "木",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2041,
+      "pillar": "辛酉",
+      "nayin": "石榴木",
+      "nayinElement": "木",
+      "printedGroups": 0,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2042,
+      "pillar": "壬戌",
+      "nayin": "大海水",
+      "nayinElement": "水",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    },
+    {
+      "GregorianRuntimeFixture": 2043,
+      "pillar": "癸亥",
+      "nayin": "大海水",
+      "nayinElement": "水",
+      "printedGroups": 1,
+      "sourceDateAdapterValidated": false
+    }
+  ],
+  "runtimeMonths": [
+    {
+      "sourceYearStem": "甲",
+      "sourceMonthOrdinal": 1,
+      "modernFixture": [
+        1984,
+        2,
+        20
+      ],
+      "pillar": "丙寅",
+      "nayinElement": "火",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "甲",
+      "sourceMonthOrdinal": 2,
+      "modernFixture": [
+        1984,
+        3,
+        20
+      ],
+      "pillar": "丁卯",
+      "nayinElement": "火",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "甲",
+      "sourceMonthOrdinal": 3,
+      "modernFixture": [
+        1984,
+        4,
+        20
+      ],
+      "pillar": "戊辰",
+      "nayinElement": "木",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "甲",
+      "sourceMonthOrdinal": 4,
+      "modernFixture": [
+        1984,
+        5,
+        20
+      ],
+      "pillar": "己巳",
+      "nayinElement": "木",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "甲",
+      "sourceMonthOrdinal": 5,
+      "modernFixture": [
+        1984,
+        6,
+        20
+      ],
+      "pillar": "庚午",
+      "nayinElement": "土",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "甲",
+      "sourceMonthOrdinal": 6,
+      "modernFixture": [
+        1984,
+        7,
+        20
+      ],
+      "pillar": "辛未",
+      "nayinElement": "土",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "甲",
+      "sourceMonthOrdinal": 7,
+      "modernFixture": [
+        1984,
+        8,
+        20
+      ],
+      "pillar": "壬申",
+      "nayinElement": "金",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "甲",
+      "sourceMonthOrdinal": 8,
+      "modernFixture": [
+        1984,
+        9,
+        20
+      ],
+      "pillar": "癸酉",
+      "nayinElement": "金",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "甲",
+      "sourceMonthOrdinal": 9,
+      "modernFixture": [
+        1984,
+        10,
+        20
+      ],
+      "pillar": "甲戌",
+      "nayinElement": "火",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "甲",
+      "sourceMonthOrdinal": 10,
+      "modernFixture": [
+        1984,
+        11,
+        20
+      ],
+      "pillar": "乙亥",
+      "nayinElement": "火",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "甲",
+      "sourceMonthOrdinal": 11,
+      "modernFixture": [
+        1984,
+        12,
+        20
+      ],
+      "pillar": "丙子",
+      "nayinElement": "水",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "甲",
+      "sourceMonthOrdinal": 12,
+      "modernFixture": [
+        1985,
+        1,
+        20
+      ],
+      "pillar": "丁丑",
+      "nayinElement": "水",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "乙",
+      "sourceMonthOrdinal": 1,
+      "modernFixture": [
+        1985,
+        2,
+        20
+      ],
+      "pillar": "戊寅",
+      "nayinElement": "土",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "乙",
+      "sourceMonthOrdinal": 2,
+      "modernFixture": [
+        1985,
+        3,
+        20
+      ],
+      "pillar": "己卯",
+      "nayinElement": "土",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "乙",
+      "sourceMonthOrdinal": 3,
+      "modernFixture": [
+        1985,
+        4,
+        20
+      ],
+      "pillar": "庚辰",
+      "nayinElement": "金",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "乙",
+      "sourceMonthOrdinal": 4,
+      "modernFixture": [
+        1985,
+        5,
+        20
+      ],
+      "pillar": "辛巳",
+      "nayinElement": "金",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "乙",
+      "sourceMonthOrdinal": 5,
+      "modernFixture": [
+        1985,
+        6,
+        20
+      ],
+      "pillar": "壬午",
+      "nayinElement": "木",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "乙",
+      "sourceMonthOrdinal": 6,
+      "modernFixture": [
+        1985,
+        7,
+        20
+      ],
+      "pillar": "癸未",
+      "nayinElement": "木",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "乙",
+      "sourceMonthOrdinal": 7,
+      "modernFixture": [
+        1985,
+        8,
+        20
+      ],
+      "pillar": "甲申",
+      "nayinElement": "水",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "乙",
+      "sourceMonthOrdinal": 8,
+      "modernFixture": [
+        1985,
+        9,
+        20
+      ],
+      "pillar": "乙酉",
+      "nayinElement": "水",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "乙",
+      "sourceMonthOrdinal": 9,
+      "modernFixture": [
+        1985,
+        10,
+        20
+      ],
+      "pillar": "丙戌",
+      "nayinElement": "土",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "乙",
+      "sourceMonthOrdinal": 10,
+      "modernFixture": [
+        1985,
+        11,
+        20
+      ],
+      "pillar": "丁亥",
+      "nayinElement": "土",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "乙",
+      "sourceMonthOrdinal": 11,
+      "modernFixture": [
+        1985,
+        12,
+        20
+      ],
+      "pillar": "戊子",
+      "nayinElement": "火",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "乙",
+      "sourceMonthOrdinal": 12,
+      "modernFixture": [
+        1986,
+        1,
+        20
+      ],
+      "pillar": "己丑",
+      "nayinElement": "火",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丙",
+      "sourceMonthOrdinal": 1,
+      "modernFixture": [
+        1986,
+        2,
+        20
+      ],
+      "pillar": "庚寅",
+      "nayinElement": "木",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丙",
+      "sourceMonthOrdinal": 2,
+      "modernFixture": [
+        1986,
+        3,
+        20
+      ],
+      "pillar": "辛卯",
+      "nayinElement": "木",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丙",
+      "sourceMonthOrdinal": 3,
+      "modernFixture": [
+        1986,
+        4,
+        20
+      ],
+      "pillar": "壬辰",
+      "nayinElement": "水",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丙",
+      "sourceMonthOrdinal": 4,
+      "modernFixture": [
+        1986,
+        5,
+        20
+      ],
+      "pillar": "癸巳",
+      "nayinElement": "水",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丙",
+      "sourceMonthOrdinal": 5,
+      "modernFixture": [
+        1986,
+        6,
+        20
+      ],
+      "pillar": "甲午",
+      "nayinElement": "金",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丙",
+      "sourceMonthOrdinal": 6,
+      "modernFixture": [
+        1986,
+        7,
+        20
+      ],
+      "pillar": "乙未",
+      "nayinElement": "金",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丙",
+      "sourceMonthOrdinal": 7,
+      "modernFixture": [
+        1986,
+        8,
+        20
+      ],
+      "pillar": "丙申",
+      "nayinElement": "火",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丙",
+      "sourceMonthOrdinal": 8,
+      "modernFixture": [
+        1986,
+        9,
+        20
+      ],
+      "pillar": "丁酉",
+      "nayinElement": "火",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丙",
+      "sourceMonthOrdinal": 9,
+      "modernFixture": [
+        1986,
+        10,
+        20
+      ],
+      "pillar": "戊戌",
+      "nayinElement": "木",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丙",
+      "sourceMonthOrdinal": 10,
+      "modernFixture": [
+        1986,
+        11,
+        20
+      ],
+      "pillar": "己亥",
+      "nayinElement": "木",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丙",
+      "sourceMonthOrdinal": 11,
+      "modernFixture": [
+        1986,
+        12,
+        20
+      ],
+      "pillar": "庚子",
+      "nayinElement": "土",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丙",
+      "sourceMonthOrdinal": 12,
+      "modernFixture": [
+        1987,
+        1,
+        20
+      ],
+      "pillar": "辛丑",
+      "nayinElement": "土",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丁",
+      "sourceMonthOrdinal": 1,
+      "modernFixture": [
+        1987,
+        2,
+        20
+      ],
+      "pillar": "壬寅",
+      "nayinElement": "金",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丁",
+      "sourceMonthOrdinal": 2,
+      "modernFixture": [
+        1987,
+        3,
+        20
+      ],
+      "pillar": "癸卯",
+      "nayinElement": "金",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丁",
+      "sourceMonthOrdinal": 3,
+      "modernFixture": [
+        1987,
+        4,
+        20
+      ],
+      "pillar": "甲辰",
+      "nayinElement": "火",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丁",
+      "sourceMonthOrdinal": 4,
+      "modernFixture": [
+        1987,
+        5,
+        20
+      ],
+      "pillar": "乙巳",
+      "nayinElement": "火",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丁",
+      "sourceMonthOrdinal": 5,
+      "modernFixture": [
+        1987,
+        6,
+        20
+      ],
+      "pillar": "丙午",
+      "nayinElement": "水",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丁",
+      "sourceMonthOrdinal": 6,
+      "modernFixture": [
+        1987,
+        7,
+        20
+      ],
+      "pillar": "丁未",
+      "nayinElement": "水",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丁",
+      "sourceMonthOrdinal": 7,
+      "modernFixture": [
+        1987,
+        8,
+        20
+      ],
+      "pillar": "戊申",
+      "nayinElement": "土",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丁",
+      "sourceMonthOrdinal": 8,
+      "modernFixture": [
+        1987,
+        9,
+        20
+      ],
+      "pillar": "己酉",
+      "nayinElement": "土",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丁",
+      "sourceMonthOrdinal": 9,
+      "modernFixture": [
+        1987,
+        10,
+        20
+      ],
+      "pillar": "庚戌",
+      "nayinElement": "金",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丁",
+      "sourceMonthOrdinal": 10,
+      "modernFixture": [
+        1987,
+        11,
+        20
+      ],
+      "pillar": "辛亥",
+      "nayinElement": "金",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丁",
+      "sourceMonthOrdinal": 11,
+      "modernFixture": [
+        1987,
+        12,
+        20
+      ],
+      "pillar": "壬子",
+      "nayinElement": "木",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "丁",
+      "sourceMonthOrdinal": 12,
+      "modernFixture": [
+        1988,
+        1,
+        20
+      ],
+      "pillar": "癸丑",
+      "nayinElement": "木",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "戊",
+      "sourceMonthOrdinal": 1,
+      "modernFixture": [
+        1988,
+        2,
+        20
+      ],
+      "pillar": "甲寅",
+      "nayinElement": "水",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "戊",
+      "sourceMonthOrdinal": 2,
+      "modernFixture": [
+        1988,
+        3,
+        20
+      ],
+      "pillar": "乙卯",
+      "nayinElement": "水",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "戊",
+      "sourceMonthOrdinal": 3,
+      "modernFixture": [
+        1988,
+        4,
+        20
+      ],
+      "pillar": "丙辰",
+      "nayinElement": "土",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "戊",
+      "sourceMonthOrdinal": 4,
+      "modernFixture": [
+        1988,
+        5,
+        20
+      ],
+      "pillar": "丁巳",
+      "nayinElement": "土",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "戊",
+      "sourceMonthOrdinal": 5,
+      "modernFixture": [
+        1988,
+        6,
+        20
+      ],
+      "pillar": "戊午",
+      "nayinElement": "火",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "戊",
+      "sourceMonthOrdinal": 6,
+      "modernFixture": [
+        1988,
+        7,
+        20
+      ],
+      "pillar": "己未",
+      "nayinElement": "火",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "戊",
+      "sourceMonthOrdinal": 7,
+      "modernFixture": [
+        1988,
+        8,
+        20
+      ],
+      "pillar": "庚申",
+      "nayinElement": "木",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "戊",
+      "sourceMonthOrdinal": 8,
+      "modernFixture": [
+        1988,
+        9,
+        20
+      ],
+      "pillar": "辛酉",
+      "nayinElement": "木",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "戊",
+      "sourceMonthOrdinal": 9,
+      "modernFixture": [
+        1988,
+        10,
+        20
+      ],
+      "pillar": "壬戌",
+      "nayinElement": "水",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "戊",
+      "sourceMonthOrdinal": 10,
+      "modernFixture": [
+        1988,
+        11,
+        20
+      ],
+      "pillar": "癸亥",
+      "nayinElement": "水",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "戊",
+      "sourceMonthOrdinal": 11,
+      "modernFixture": [
+        1988,
+        12,
+        20
+      ],
+      "pillar": "甲子",
+      "nayinElement": "金",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    },
+    {
+      "sourceYearStem": "戊",
+      "sourceMonthOrdinal": 12,
+      "modernFixture": [
+        1989,
+        1,
+        20
+      ],
+      "pillar": "乙丑",
+      "nayinElement": "金",
+      "calendarBoundaryAttestedByDiagram": false,
+      "solsticePhaseFromDateNotApplied": true
+    }
+  ],
+  "unresolved": [
+    {
+      "row": "water-earth-丙辛",
+      "sourceReadingAlternatives": [
+        [
+          12
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      "derivedExpectedMonthOrdinals": [
+        11,
+        12
+      ],
+      "sourceRestoredFromRuntime": false
+    }
+  ],
+  "consumerChanged": false,
+  "calendarAdapterEstablished": false,
+  "sourceAmbiguityRestored": false,
+  "practicalOutcomesValidated": false,
+  "wholeUnitsApplied": false,
+  "wholeCatalogueCompleted": false
+}

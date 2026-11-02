@@ -1,0 +1,228 @@
+{
+  "date": "2026-10-29",
+  "actualHHCTuviCalls": 3,
+  "actualIztroNatalCalls": 3,
+  "actualRuntimeBatchInvocations": 1,
+  "engineSHA256": "39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6",
+  "iztroVersion": "2.6.2",
+  "records": [
+    {
+      "id": "month9-ming-chou",
+      "input": {
+        "y": 1985,
+        "m": 9,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 18,
+        "minute": 0,
+        "gender": "male"
+      },
+      "hhcSolar": {
+        "d": 28,
+        "m": 10,
+        "y": 1985
+      },
+      "iztroSolar": "1985-10-28",
+      "hhc": {
+        "anchorBranch": "丑",
+        "placements": {
+          "左輔": "子",
+          "右弼": "寅"
+        }
+      },
+      "iztro": {
+        "anchorBranch": "丑",
+        "placements": {
+          "左輔": "子",
+          "右弼": "寅"
+        }
+      },
+      "hhcInspection": {
+        "system": "NAJ-4469314-juan5-left-right-flanking",
+        "anchorRole": "命宮",
+        "anchorBranch": "丑",
+        "placements": {
+          "左輔": "子",
+          "右弼": "寅"
+        },
+        "geometryMatched": true,
+        "fullPatternMatched": null,
+        "sourceOutcomeValidated": false,
+        "practicalOutcome": null,
+        "notYetResolved": [
+          "Exact binding of fixed named assignments to 九月/十一月 in the sentence",
+          "Exclusions/strength/三方吉化 and surrounding dependencies",
+          "Calendar year/leap/clock policies of historical examples"
+        ]
+      },
+      "iztroInspection": {
+        "system": "NAJ-4469314-juan5-left-right-flanking",
+        "anchorRole": "命宮",
+        "anchorBranch": "丑",
+        "placements": {
+          "左輔": "子",
+          "右弼": "寅"
+        },
+        "geometryMatched": true,
+        "fullPatternMatched": null,
+        "sourceOutcomeValidated": false,
+        "practicalOutcome": null,
+        "notYetResolved": [
+          "Exact binding of fixed named assignments to 九月/十一月 in the sentence",
+          "Exclusions/strength/三方吉化 and surrounding dependencies",
+          "Calendar year/leap/clock policies of historical examples"
+        ]
+      }
+    },
+    {
+      "id": "month11-ming-chou",
+      "input": {
+        "y": 1985,
+        "m": 11,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 22,
+        "minute": 0,
+        "gender": "male"
+      },
+      "hhcSolar": {
+        "d": 26,
+        "m": 12,
+        "y": 1985
+      },
+      "iztroSolar": "1985-12-26",
+      "hhc": {
+        "anchorBranch": "丑",
+        "placements": {
+          "左輔": "寅",
+          "右弼": "子"
+        }
+      },
+      "iztro": {
+        "anchorBranch": "丑",
+        "placements": {
+          "左輔": "寅",
+          "右弼": "子"
+        }
+      },
+      "hhcInspection": {
+        "system": "NAJ-4469314-juan5-left-right-flanking",
+        "anchorRole": "命宮",
+        "anchorBranch": "丑",
+        "placements": {
+          "左輔": "寅",
+          "右弼": "子"
+        },
+        "geometryMatched": true,
+        "fullPatternMatched": null,
+        "sourceOutcomeValidated": false,
+        "practicalOutcome": null,
+        "notYetResolved": [
+          "Exact binding of fixed named assignments to 九月/十一月 in the sentence",
+          "Exclusions/strength/三方吉化 and surrounding dependencies",
+          "Calendar year/leap/clock policies of historical examples"
+        ]
+      },
+      "iztroInspection": {
+        "system": "NAJ-4469314-juan5-left-right-flanking",
+        "anchorRole": "命宮",
+        "anchorBranch": "丑",
+        "placements": {
+          "左輔": "寅",
+          "右弼": "子"
+        },
+        "geometryMatched": true,
+        "fullPatternMatched": null,
+        "sourceOutcomeValidated": false,
+        "practicalOutcome": null,
+        "notYetResolved": [
+          "Exact binding of fixed named assignments to 九月/十一月 in the sentence",
+          "Exclusions/strength/三方吉化 and surrounding dependencies",
+          "Calendar year/leap/clock policies of historical examples"
+        ]
+      }
+    },
+    {
+      "id": "month4-same-palace-negative",
+      "input": {
+        "y": 1985,
+        "m": 4,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 20,
+        "minute": 0,
+        "gender": "male"
+      },
+      "hhcSolar": {
+        "d": 3,
+        "m": 6,
+        "y": 1985
+      },
+      "iztroSolar": "1985-6-3",
+      "hhc": {
+        "anchorBranch": "未",
+        "placements": {
+          "左輔": "未",
+          "右弼": "未"
+        }
+      },
+      "iztro": {
+        "anchorBranch": "未",
+        "placements": {
+          "左輔": "未",
+          "右弼": "未"
+        }
+      },
+      "hhcInspection": {
+        "system": "NAJ-4469314-juan5-left-right-flanking",
+        "anchorRole": "命宮",
+        "anchorBranch": "未",
+        "placements": {
+          "左輔": "未",
+          "右弼": "未"
+        },
+        "geometryMatched": false,
+        "fullPatternMatched": null,
+        "sourceOutcomeValidated": false,
+        "practicalOutcome": null,
+        "notYetResolved": [
+          "Exact binding of fixed named assignments to 九月/十一月 in the sentence",
+          "Exclusions/strength/三方吉化 and surrounding dependencies",
+          "Calendar year/leap/clock policies of historical examples"
+        ]
+      },
+      "iztroInspection": {
+        "system": "NAJ-4469314-juan5-left-right-flanking",
+        "anchorRole": "命宮",
+        "anchorBranch": "未",
+        "placements": {
+          "左輔": "未",
+          "右弼": "未"
+        },
+        "geometryMatched": false,
+        "fullPatternMatched": null,
+        "sourceOutcomeValidated": false,
+        "practicalOutcome": null,
+        "notYetResolved": [
+          "Exact binding of fixed named assignments to 九月/十一月 in the sentence",
+          "Exclusions/strength/三方吉化 and surrounding dependencies",
+          "Calendar year/leap/clock policies of historical examples"
+        ]
+      }
+    }
+  ],
+  "consumerChanged": false,
+  "historicalDatesValidated": false
+}

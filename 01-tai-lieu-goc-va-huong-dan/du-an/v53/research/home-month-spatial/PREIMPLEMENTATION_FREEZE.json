@@ -1,0 +1,27 @@
+{
+  "stage": "source reading and premise expectations before monthly-spatial module exists",
+  "date": "2026-10-29",
+  "files": [
+    {
+      "file": "tmp/home-month-spatial-staging/MANUAL_SPATIAL_CLAUSES.json",
+      "bytes": 2680,
+      "sha256": "13e2b6d3c3b18186257ab742fdeb37526f0fb86bbdb115b6e88396e871f45955"
+    },
+    {
+      "file": "tmp/home-month-spatial-staging/EXPECTED_BEFORE_IMPLEMENTATION.json",
+      "bytes": 16546,
+      "sha256": "6a3edd4f47fe4f424ead3e7914eb1ca3e4626b46246951e0491f3e23a98de85d"
+    },
+    {
+      "file": "tmp/home-month-spatial-staging/SOURCE_IDENTITIES.json",
+      "bytes": 2496,
+      "sha256": "79f6d441d4ef5bfd935bc198da28b78ae358ef656d5a0e378b731e20ce6566cc"
+    },
+    {
+      "file": "tmp/home-month-spatial-staging/REUSE_IDENTITIES.json",
+      "bytes": 1310,
+      "sha256": "78e50f79bcc6137b0fd67b33053da949df8844b672b93a393bdffa33cf52a0dc"
+    }
+  ],
+  "noWholeSnapshotCreated": true
+}

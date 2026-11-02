@@ -1,0 +1,264 @@
+{
+  "schema": "hhc.ai01.wxjj-seal-unit-ledger.v1",
+  "date": "2026-11-01",
+  "status": "structured-source-inventory-not-executable",
+  "scope": "五行精紀 卷十九 / 論正印: text units and evidence status",
+  "purpose": "Keep the chapter's seal categories, quotations, examples, and general cautions separate before any consumer rule is considered.",
+  "primaryDigitalRecord": {
+    "url": "https://www.shidianguji.com/zh/book/NGJ8922621209348/chapter/1lnvyvqxghstk",
+    "recordId": "NGJ8922621209348",
+    "evidenceClass": "digital transcription; not page image",
+    "note": "This ID shares the NLC 892-2621 catalog series with scanned part 4 (209417); exact chapter-page provenance is not established. Its 福聚 transcription omits 日 while scan p.30 contains it."
+  },
+  "comparisonDigitalRecords": [
+    {
+      "url": "https://www.shidianguji.com/zh/book/NGJ892411999013122114408/chapter/1lmyjad4zcsvn",
+      "recordId": "NGJ892411999013122114408",
+      "evidenceClass": "digital transcription; not independent physical witness",
+      "note": "The number maps to NLC data_892,411999,013122,114408, part 1 of the same catalog family as the NLC 06857 第3冊 scan (114453). The 福聚 heading and position list match the inspected p.47 scan; exact transcription-page linkage has not been independently documented."
+    },
+    {
+      "url": "https://asklingxi.com/zh-tw/books/wuxing-jingji/19-jinshen/02-zhengyin",
+      "recordId": "editorial-19-zhengyin",
+      "evidenceClass": "editorial transcription",
+      "note": "Used as a reading aid and comparison text; not counted as a physical witness."
+    }
+  ],
+  "facsimileEvidence": [
+    {
+      "copyId": "NLC-06857-NLC892-411999013122-114453",
+      "localPdf": "v53/research/bazi-relations/evidence/facsimiles/NLC06857_WXJJ_VOL3_20261101.pdf",
+      "pdfBytes": 37007952,
+      "pdfSha256": "e88387495032048b71d11196ee59861ad1bfeee4c7ca5ee80fd9686eb9d37d04",
+      "pagesPartiallyCollated": [47, 48, 49, 50]
+    },
+    {
+      "copyId": "NLC892-2621-209417-VOL4",
+      "sourcePdfUrl": "https://commons.wikimedia.org/wiki/File:NLC892-2621-209417_%E4%BA%94%E8%A1%8C%E7%B2%BE%E7%B4%80_%E7%AC%AC4%E5%86%8A.pdf",
+      "sourcePdfAcquired": false,
+      "previewPagesPartiallyViewed": [30, 31],
+      "previewPage30": {
+        "file": "v53/research/bazi-relations/evidence/facsimiles/NLC892-2621-209417_VOL4_PAGE30_3840px.jpg",
+        "bytes": 1207853,
+        "sha256": "18d5c8fdd269cac798a7b66a63871ba65a94bc24b5dd36a204e2300a4bf8d1d4",
+        "class": "3840px Wikimedia page-preview derivative"
+      },
+      "previewPage31": {
+        "file": "v53/research/bazi-relations/evidence/facsimiles/NLC892-2621-209417_VOL4_PAGE31_3840px.jpg",
+        "bytes": 1049488,
+        "sha256": "3a64b33aada026c8b9ddb7eafe8c726a44f8a1cbebe2f4ac90072a26ded40d81",
+        "class": "3840px Wikimedia page-preview derivative"
+      }
+    }
+  ],
+  "units": [
+    {
+      "unitId": "W19-I01",
+      "heading": "五行正印 / base seal families",
+      "textualFunction": "Lists five Nayin seal pairings and introduces native-house seal evaluation.",
+      "conditionFragments": ["五行正印", "本家印", "旺", "同類作庫", "祿馬", "夾貴", "華蓋"],
+      "sourceAttribution": "WXJJ compiler voice in the transcription; exact earlier source layers may vary within the section.",
+      "facsimileStatus": "partially visible in NLC06857 p.47 and surrounding p.49; not a full line-by-line collation",
+      "missingPremises": ["operational definition of 本家", "how to resolve competing support and impairment conditions", "scope of omitted subject/pronoun across condition clauses"],
+      "automationDisposition": "no rule; source explanation only"
+    },
+    {
+      "unitId": "W19-I02",
+      "heading": "夾貴印",
+      "textualFunction": "Classifies combinations of seal, nobleman, and tomb-store conditions with differing rank statements.",
+      "conditionFragments": ["丙丁人得甲戌", "壬癸人得丙辰、壬辰", "夾貴正印", "庫墓"],
+      "sourceAttribution": "WXJJ transcription; attribution boundary not fully resolved.",
+      "facsimileStatus": "digital-text inventory only; not independently collated as a complete unit",
+      "missingPremises": ["which pillar positions count for 夾", "full catalogue of nobleman and tomb-store combinations", "interaction with all other seals"],
+      "automationDisposition": "no rule; not sufficiently specified"
+    },
+    {
+      "unitId": "W19-I03",
+      "heading": "紅鸞天印格",
+      "textualFunction": "Names a seal pattern, gives a verse and several traditional pairings, then attaches rank language.",
+      "conditionFragments": ["紅鸞天印在生時", "法曰", "命坐日時"],
+      "sourceAttribution": "WXJJ chapter text; verse and rules are not validated by independent biographies.",
+      "facsimileStatus": "digital-text inventory only",
+      "missingPremises": ["complete selection rule for omitted cases", "meaning and scope of the verse's birth-time phrasing", "independent identity of cited historical examples"],
+      "automationDisposition": "no rule; literary and historical claims remain separate"
+    },
+    {
+      "unitId": "W19-I04",
+      "heading": "華蓋印",
+      "textualFunction": "Describes a seal associated with a three-branch group and differentiates conditions involving nobleman and tomb-store.",
+      "conditionFragments": ["亥卯未人得癸未", "華蓋正印", "夾貴庫墓"],
+      "sourceAttribution": "WXJJ transcription.",
+      "facsimileStatus": "digital-text inventory only; page image not collated for this complete passage",
+      "missingPremises": ["full generalization rule signaled by 餘準此", "position scope", "how pure/impure is evaluated"],
+      "automationDisposition": "no rule; partial traditional taxonomy only"
+    },
+    {
+      "unitId": "W19-I05",
+      "heading": "節印",
+      "textualFunction": "A citation attributed to 玉霄寶鑑 defines an additional named seal in terms of Hua-gai seal and a correctly placed 驛馬.",
+      "conditionFragments": ["玉霄寶鑑云", "華蓋印", "正建驛馬"],
+      "sourceAttribution": "Quoted-inside-WXJJ; standalone 玉霄 text not located.",
+      "facsimileStatus": "not yet directly collated from an image",
+      "missingPremises": ["scope of 正建", "position and year/month requirements", "identity of the cited 玉霄 text"],
+      "automationDisposition": "no rule; quotation lead only"
+    },
+    {
+      "unitId": "W19-I06",
+      "heading": "偏印",
+      "textualFunction": "Names cross-element seal combinations, then quotes conditions about main/body qi and rescue from damage or emptiness.",
+      "conditionFragments": ["偏印", "主本有旺相氣", "尅破", "福神救助", "空亡"],
+      "sourceAttribution": "WXJJ section plus a separate 玉霄寶鑑 quotation.",
+      "facsimileStatus": "not yet directly collated from an image",
+      "missingPremises": ["scope of 主本", "what counts as rescue", "which forms of 空亡 apply", "whether quotation boundary ends with the cited description"],
+      "automationDisposition": "no rule; conditions remain incomplete"
+    },
+    {
+      "unitId": "W19-I07",
+      "headingVariants": ["福聚命印", "福聚印"],
+      "textualFunction": "Describes five or four listed positions with absent qi, dispersion, and a 正印/偏印 condition.",
+      "conditionFragments": ["年月日時胎", "五位中或四位", "俱無氣", "衰散", "正印", "偏印", "或庫或旺"],
+      "sourceAttribution": "WXJJ section; digital records and two scans differ in heading; one digital transcription omits 日.",
+      "facsimileStatus": "directly visible at NLC06857 p.47 and preview NLC892-2621-209417 p.30; both scans include 日, headings differ",
+      "missingPremises": ["which 'four' positions are meant", "whether list elements may be mixed across positions", "boundary and antecedent of 此印", "cause of Shidian B's missing 日"],
+      "automationDisposition": "no rule; do not normalize the positions or combine with TMTH 五位俱"
+    },
+    {
+      "unitId": "W19-I08",
+      "heading": "權印",
+      "textualFunction": "A 玉霄寶鑑 citation presents a compact parallel to the 福聚 passage and names a distinct conclusion.",
+      "conditionFragments": ["玉霄寶鑑有權印云", "五位中或四位", "俱無氣", "正印", "或庫或旺", "殺神受制"],
+      "sourceAttribution": "Quoted-inside-WXJJ; source book text not located.",
+      "facsimileStatus": "NLC06857 PDF p.48 directly collated; full section in other copy not yet individually collated",
+      "missingPremises": ["exact scope of the quotation", "relationship to 福聚印", "position antecedents for the single 正印"],
+      "automationDisposition": "no rule; keep separate from 福聚"
+    },
+    {
+      "unitId": "W19-I09",
+      "heading": "財庫印",
+      "textualFunction": "Gives a short water-person/fire-seal example and refers the reader to further cases.",
+      "conditionFragments": ["水人得火印", "餘准此"],
+      "sourceAttribution": "WXJJ chapter heading; do not alias to TMTH's three 財庫 categories.",
+      "facsimileStatus": "heading/nearby text visible in preview pages 30–31; not fully collated",
+      "missingPremises": ["direction and scope of the generalization", "meaning of 財庫 in this local section", "relation to 祿財庫/命財庫/身財庫"],
+      "automationDisposition": "no rule; keep frameworks distinct"
+    },
+    {
+      "unitId": "W19-I10",
+      "heading": "破福成禍印",
+      "textualFunction": "Gives a water-person example involving another water seal, additional earth positions, and a flourishing native-house seal.",
+      "conditionFragments": ["水人得水印", "月時胎帶土", "本家印", "癸盛"],
+      "sourceAttribution": "WXJJ transcription.",
+      "facsimileStatus": "continuation visible in preview pages 30–31 but no full collation",
+      "missingPremises": ["scope of 癸盛", "how the clauses connect", "full extension implied by 餘準此"],
+      "automationDisposition": "no rule; insufficient context"
+    },
+    {
+      "unitId": "W19-I11",
+      "heading": "禍聚印",
+      "textualFunction": "Gives one example of repeated water/tomb conditions and states an adverse conclusion.",
+      "conditionFragments": ["癸巳", "壬辰印", "多帶水", "俱墓於辰"],
+      "sourceAttribution": "WXJJ transcription; example text has graph variants across digital copies.",
+      "facsimileStatus": "continuation visible in preview pages 30–31 but not fully collated",
+      "missingPremises": ["which positions comprise 多帶", "role of Nayin versus stem/branch in each clause", "whether the example is exhaustive"],
+      "automationDisposition": "no rule; example only"
+    },
+    {
+      "unitId": "W19-I12",
+      "heading": "帶殺印",
+      "textualFunction": "Contrasts a seal with noble sha that is called favorable against a seal that harms the native element without rescue.",
+      "conditionFragments": ["印中見貴殺即好", "反尅本命", "無福神"],
+      "sourceAttribution": "WXJJ transcription.",
+      "facsimileStatus": "heading and part of the passage visible in preview page 31; not fully collation-checked",
+      "missingPremises": ["definition of 貴殺", "scope of 印中", "what constitutes 往還 or rescue"],
+      "automationDisposition": "no rule; context-dependent assertions"
+    },
+    {
+      "unitId": "W19-I13",
+      "headingVariants": ["臨空印", "歸空印"],
+      "textualFunction": "States a condition linking an empty seal, absence of 六合, and presence of 官貴, followed by an adverse judgment.",
+      "conditionFragments": ["印空", "無六合", "見官貴"],
+      "sourceAttribution": "Heading differs among digital copies; one image-visible heading is not yet collated at full character resolution.",
+      "facsimileStatus": "臨空印 heading and text partly visible in preview p.31; not yet full character collation",
+      "missingPremises": ["which emptiness relation is tested", "whether 六合 refers to a particular pair or chart-wide presence", "interaction with rescue/other seals"],
+      "automationDisposition": "no rule; do not merge 臨空印 with 福聚 空亡 clauses"
+    },
+    {
+      "unitId": "W19-I14",
+      "headingVariants": ["刑印", "自刑印", "自刑殺"],
+      "textualFunction": "Gives a metal-seal example involving 戌/丑 and a local judgment; different digital witnesses use different labels.",
+      "conditionFragments": ["庚戌", "乙丑", "丑刑戌", "以金刑金"],
+      "sourceAttribution": "WXJJ transcription and variant comparison; heading variants are not synonyms established.",
+      "facsimileStatus": "刑印 heading/part of text visible in preview p.31; full collation not complete",
+      "missingPremises": ["whether the heading is editorial or textual", "the rule's generalization beyond the example", "how this local use relates to TMTH's 自刑 terms"],
+      "automationDisposition": "no rule; preserve local example and labels"
+    },
+    {
+      "unitId": "W19-I15",
+      "headingVariants": ["鳳凰嘶印格", "鳳凰啣印格", "鳳凰御印格"],
+      "textualFunction": "Restricts a named verse-pattern to year/time positions and gives a historical example.",
+      "conditionFragments": ["只年時上是", "庫墓年時兩對分"],
+      "sourceAttribution": "Variant labels across digital copies and TMTH; not independently verified in the new preview pages.",
+      "facsimileStatus": "digital-text comparison; not collation-verified in current scans",
+      "missingPremises": ["exact pair structure", "how the position restriction applies", "historical example's independent birth record"],
+      "automationDisposition": "no rule; preserve title variants"
+    },
+    {
+      "unitId": "W19-I16",
+      "heading": "文章印",
+      "textualFunction": "Lists Nayin pairings and attributes the associated status statement to 廣信集.",
+      "conditionFragments": ["納音尅身", "干神所制"],
+      "sourceAttribution": "廣信集 quoted within WXJJ; standalone text not located.",
+      "facsimileStatus": "not yet image-collated as a complete list",
+      "missingPremises": ["exact list completeness", "scope of 干神所制", "basis for the claimed examination/office outcome"],
+      "automationDisposition": "no rule; quotation and historical prediction claim only"
+    },
+    {
+      "unitId": "W19-I17",
+      "heading": "又文章印",
+      "textualFunction": "Gives a second list with an explicit day-or-hour placement phrase.",
+      "conditionFragments": ["又文章印", "在日上或時上"],
+      "sourceAttribution": "WXJJ text; attribution boundary needs collation.",
+      "facsimileStatus": "not yet image-collated as a complete list",
+      "missingPremises": ["list item reading in each copy", "relation to first 文章印 list", "whether date or time conditions are alternatives"],
+      "automationDisposition": "no rule; do not merge two lists"
+    },
+    {
+      "unitId": "W19-I18",
+      "heading": "五行正印主本同德 general ranking",
+      "textualFunction": "Ranks subject/source relationship, emperor seat, fetal month, and several named seal families; gives broad support and avoidance statements.",
+      "conditionFragments": ["主本同德為上", "帝坐為中", "胎月為下", "庫墓", "生旺相助", "刑衝破害"],
+      "sourceAttribution": "Passage attributed to 閻東叟書 in the section.",
+      "facsimileStatus": "NLC06857 p.49 partially collated; digital copies vary 主本/本主 and 坐/座",
+      "missingPremises": ["operational definitions of 主本/帝坐/胎月", "priority between several simultaneous signals", "scope of mutual exchange and harmony"],
+      "automationDisposition": "no scoring rule; explanation only"
+    },
+    {
+      "unitId": "W19-I19",
+      "heading": "天元變化書: 官印 / 鬼印",
+      "textualFunction": "Separates two labels by a phrase about stem/branch interaction and gives one favorable and one unfavorable four-pillar example.",
+      "conditionFragments": ["支干有交涉", "官印", "無交涉", "鬼印", "癸巳", "乙卯/己卯", "丙辰", "壬辰"],
+      "sourceAttribution": "Quoted-inside-WXJJ; standalone 天元變化書 text not located.",
+      "facsimileStatus": "digital transcripts A/B differ in some graphs and wording; target NLC preview page not yet read at sufficient resolution; local NLC06857 p.49 contains the general passage partially",
+      "missingPremises": ["which stems/branches interact", "whether interaction means relation, production, combination, or another operation", "whether the two examples state necessary/sufficient conditions", "the month stem in NLC06857 p.50 remains visually unresolved"],
+      "automationDisposition": "no rule; use only as source examples"
+    },
+    {
+      "unitId": "W19-I20",
+      "heading": "正印主人 and movement caution",
+      "textualFunction": "Describes general disposition/status, effects of non-native seals, and a caution against moving/severing an otherwise useful seal.",
+      "conditionFragments": ["正印主人", "非本家正印", "身尅印", "印尅身", "印不宜動", "有所衝"],
+      "sourceAttribution": "Final passages in WXJJ's 印 discussion with named-source boundaries nearby.",
+      "facsimileStatus": "digital-text inventory; complete image-level reading not yet completed",
+      "missingPremises": ["scope and precedence of each clause", "whether terms refer to Nayin or another layer at every occurrence", "definition of 動 for the seal"],
+      "automationDisposition": "no rule; keep separate as prose-level claims"
+    }
+  ],
+  "globalOpenQuestions": [
+    "The transcription sources A/B map to two NLC catalog series, but exact chapter-page transcription provenance is not documented.",
+    "Image evidence confirms a heading variant 福聚命印/福聚印 across two NLC scans and a scan/transcription mismatch for 日; do not assign the latter to OCR or textual transmission without an explicit source link.",
+    "The digital chapter text gives condition fragments and claims, but many omitted subjects, position scopes, ranking rules, and exception precedence remain undefined.",
+    "No interpretive rule is currently promoted to the project engine or consumer website."
+  ],
+  "consumerRulePromotion": false,
+  "completeChapterImageCollation": false
+}

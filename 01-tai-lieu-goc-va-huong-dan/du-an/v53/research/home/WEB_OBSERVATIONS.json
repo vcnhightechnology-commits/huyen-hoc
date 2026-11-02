@@ -1,0 +1,27 @@
+{
+  "schema": "hhc.home.web-observations.v1",
+  "observedDate": "2026-10-25",
+  "status": "Derived notes from web tool responses, not original publisher response bodies. Raw byte downloads for the CDC URLs returned 403 and are labeled unusable in SOURCE_MANIFEST.json. No access controls were bypassed.",
+  "observations": [
+    {
+      "url": "https://www.cdc.gov/sleep/about/",
+      "title": "About Sleep",
+      "publishedDateShown": "2024-05-15",
+      "observation": "General bedroom advice includes a quiet, relaxing environment with a cool temperature. No personal diagnosis, exact temperature target or treatment advice is implemented.",
+      "use": "Bedroom advice; cross-check only, original content bytes not captured."
+    },
+    {
+      "url": "https://www.cdc.gov/mold-health/about/index.html",
+      "title": "Mold",
+      "publishedDateShown": "2024-09-26",
+      "observation": "Moisture source repair and kitchen/bathroom exhaust to outdoors are described. Product implementation also has independently saved EPA guidance for these points.",
+      "use": "Cross-check; no claim that the saved 403 body is the article."
+    },
+    {
+      "url": "https://www.yourhome.gov.au/passive-design/design-climate",
+      "title": "Design for climate",
+      "observation": "Room layout recommendations depend on climate. Original download timed out. Australian orientation recommendations were not transplanted to Vietnam or encoded as universal sector assignments.",
+      "use": "Boundary setting; not an archived full original source."
+    }
+  ]
+}

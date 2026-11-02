@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-29",
+  "duplicateStaging": "tmp/liuyao-b02-weather-followup-20261029",
+  "duplicatePrivateModuleNotPromoted": true,
+  "existingReleasedReport": "v53/LIUYAO_WEATHER_ROLES_REPORT.md",
+  "existingReleasedWeatherModule": {
+    "file": "v53/research/liuyao-weather/weather-reference.mjs",
+    "bytes": 1741,
+    "sha256": "1e0a5c33e32dcd9be9abe00707812bc053374bc4604c85bcb7413db5f3c296c9"
+  },
+  "existingReleasedFixture": {
+    "file": "v53/research/liuyao-weather/PRINTED_FIXTURES.json",
+    "bytes": 1395,
+    "sha256": "3201f2f63e202e2c81b320e9c6b363c88661a17df4be2e86d4f72c2819b9300c"
+  },
+  "newStagedFixture": {
+    "file": "tmp/liuyao-b02-weather-followup-20261029/MANUAL_VOICE_AND_FIXTURE.json",
+    "bytes": 3301,
+    "sha256": "dc1b29394557c473b5afbe802ed47cbe097eed74451ddc2a94f5a7fb7739dc2e"
+  },
+  "actualAdditionalDuplicateHHCHexNumberCalls": 2,
+  "actualAdditionalDuplicateCompileCalls": 1,
+  "newUniqueSourceCases": 0,
+  "newHTTPRequests": 0,
+  "newSourcePDFs": 0,
+  "newSourcePositions": 0,
+  "unnecessary180DPIRerenderedPages": [
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198
+  ],
+  "all8Original144DPIDerivativesSHAExactlyRestored": true,
+  "restorationResults": {
+    "date": "2026-10-29",
+    "allEightOriginalStagedDerivativesByteRestored": true,
+    "records": [
+      {
+        "page": 191,
+        "sha256": "46c7b6e7dc87e60c5cec534f50e123e8d5a45e9e7e3a69d237adabe592bda186",
+        "exactOriginalDerivativeRestored": true
+      },
+      {
+        "page": 192,
+        "sha256": "fa6c828530ac4851cf94e3262b9d5cf4e24efe39b3ad56e1da846530e73c130e",
+        "exactOriginalDerivativeRestored": true
+      },
+      {
+        "page": 193,
+        "sha256": "ef124a6ddc4a81a7de9a76a428c0a4d273dceb710a220e4498fdcd180271c73f",
+        "exactOriginalDerivativeRestored": true
+      },
+      {
+        "page": 194,
+        "sha256": "899bc688db2e7a03aba03a2614a4549d404d06bbac6e71a46acfb48fd52bd48f",
+        "exactOriginalDerivativeRestored": true
+      },
+      {
+        "page": 195,
+        "sha256": "248aac309b1ca2204a5e2e6fc0f09ecc9fc34022f908968f00cd4ad8b7cb1326",
+        "exactOriginalDerivativeRestored": true
+      },
+      {
+        "page": 196,
+        "sha256": "75fbbb49fe996c7792c893d309626d7d673b03a93d09ee79b30a44a775f8a478",
+        "exactOriginalDerivativeRestored": true
+      },
+      {
+        "page": 197,
+        "sha256": "43630df4713a27d4a4b312114a7ecf4d2df07a357e840ff50b79d4cd5f9ac918",
+        "exactOriginalDerivativeRestored": true
+      },
+      {
+        "page": 198,
+        "sha256": "b38e61852147f9966199e9cd58c1865a2e9aa95b669448c495d8461d8e42d629",
+        "exactOriginalDerivativeRestored": true
+      }
+    ],
+    "sourcePDFUnchanged": true,
+    "newFirstPassPositions": 0,
+    "consumerAffected": false
+  },
+  "originalPDFAndAllReleasedV53UnchangedByDuplicateWork": true,
+  "newModelRuntimeCountsMustNotMasqueradeAsIndependentSourceValidation": true
+}

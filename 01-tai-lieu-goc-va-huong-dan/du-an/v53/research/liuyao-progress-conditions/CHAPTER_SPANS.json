@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-27",
+  "sourceID": "B02",
+  "units": [
+    {
+      "id": "B02-ch029",
+      "normalizedHeading": "進神退神",
+      "pdfPages": [
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124
+      ],
+      "bodyTextualVolumeAsPrinted": 2,
+      "firstPassCompleteSpanRead": true,
+      "entireUnitApplied": false,
+      "printedHeadingAsRead": "進神退神章第二十九"
+    },
+    {
+      "id": "B02-ch030",
+      "normalizedHeading": "隨鬼入墓",
+      "pdfPages": [
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130
+      ],
+      "bodyTextualVolumeAsPrinted": 2,
+      "firstPassCompleteSpanRead": true,
+      "entireUnitApplied": false,
+      "printedHeadingAsRead": "隨鬼入墓章第三十"
+    },
+    {
+      "id": "B02-ch031",
+      "normalizedHeading": "獨發",
+      "pdfPages": [
+        130,
+        131,
+        132,
+        133,
+        134
+      ],
+      "bodyTextualVolumeAsPrinted": 2,
+      "firstPassCompleteSpanRead": true,
+      "entireUnitApplied": false,
+      "printedHeadingAsRead": "獨發章第三十一"
+    },
+    {
+      "id": "B02-ch032",
+      "normalizedHeading": "兩現",
+      "pdfPages": [
+        134,
+        135,
+        136
+      ],
+      "bodyTextualVolumeAsPrinted": 2,
+      "firstPassCompleteSpanRead": true,
+      "entireUnitApplied": false,
+      "printedHeadingAsRead": "兩現章第三十一"
+    },
+    {
+      "id": "B02-ch033",
+      "normalizedHeading": "星煞",
+      "pdfPages": [
+        136,
+        137,
+        138
+      ],
+      "bodyTextualVolumeAsPrinted": 2,
+      "firstPassCompleteSpanRead": true,
+      "entireUnitApplied": false,
+      "printedHeadingAsRead": "星煞章第三十三"
+    }
+  ],
+  "numberingConflict": {
+    "canonicalUnitID": "B02-ch032",
+    "TOCNumber": 32,
+    "bodyPrintedNumberAsRead": 31,
+    "bodyPDFPage": 134,
+    "QAActuallyViewed": true,
+    "silentlyRenumbered": false
+  },
+  "volumeMappingCorrection": {
+    "unit": "B02-ch033",
+    "earlierLocalTOCMapVolume": 3,
+    "correctedTOCVolume": 2,
+    "bodyVolumeAsPrinted": 2,
+    "evidencePDFPages": [
+      14,
+      136,
+      138
+    ],
+    "status": "local-map-corrected-after-TOC-and-body-audit-not-a-source-volume-conflict"
+  },
+  "allClausesApplied": false
+}

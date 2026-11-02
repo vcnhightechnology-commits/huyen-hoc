@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-29",
+  "scope": "Source-only next-premise ledger, not a completed strength compiler or independent witness",
+  "contextID": "FOOD-00-C13",
+  "retainedSourceContext": "v53/research/bazi-food-source/CONTEXTS.json",
+  "retainedSourceImageActuallyViewed": "v53/research/bazi-food-source/p173.png",
+  "position": "005-86a",
+  "selectedUnits": [
+    {
+      "literal": "甲日食丙柱中無壬癸亥子方好如有水氣丙自受制",
+      "subject": "丙 food, within甲day example",
+      "open": "Absence of four visible literal symbols alone does not prove complete absence of source水氣, effective non-restraint or whole-pattern qualification. No hidden/cycle strength inferred."
+    },
+    {
+      "literal": "如無此制又要生旺向祿",
+      "subject": "Continuation requires another strength/向祿 premise",
+      "open": "Do not make no-restraint sufficient. Complete source binding/strength/祿 and chronology remain open."
+    },
+    {
+      "literal": "如丙生夏月運厯東南火土俱旺",
+      "subject": "Explicit丙, fire-and-earth scope",
+      "open": "A summer month or southeast label alone does not establish both fire and earth effective strength, or the source outcome. No Gregorian direction/luck-period adapter."
+    },
+    {
+      "literal": "若生三春甲旺丙火雖得生不知戊己氣薄須厯南方火土俱旺",
+      "subject": "甲 strength,丙 receipt of generation,戊己 wealth strength are separate",
+      "open": "Do not replace three named subjects with one day-master score, take generated丙 as sufficient wealth strength, or infer source finance from a phase coordinate."
+    }
+  ],
+  "nextReadingCaveat": "Source己身 versus digital巳身 and source戊己 glyphs require their own recorded reading policy; no rewrite of the raw image or digital context in this source-only ledger.",
+  "newEngineCalls": 0,
+  "newHTTPBodies": 0,
+  "parentCoverageRaised": false,
+  "wholeContextApplied": false,
+  "consumerChanged": false
+}

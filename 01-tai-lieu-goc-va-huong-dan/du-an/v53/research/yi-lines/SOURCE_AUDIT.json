@@ -1,0 +1,163 @@
+{
+  "schema": "hhc.yi-moving-line-reading.source-audit.v1",
+  "date": "2026-10-25",
+  "scope": {
+    "hexagrams": [
+      1,
+      2
+    ],
+    "ordinaryLines": 12,
+    "supplementaryLines": 2,
+    "remainingOrdinaryLinesWithoutSpecificReading": 372
+  },
+  "sourceType": "Two already archived Wikisource digital witnesses. Original bytes rechecked and direct LI text parsed independently from saved HTML; no duplicate downloads or scanned historical edition claim.",
+  "records": [
+    {
+      "number": 1,
+      "position": 1,
+      "label": "初九",
+      "sourceText": "潛龍勿用。",
+      "sourceFile": "v48\\evidence\\yi\\01.html",
+      "sha256": "6d615cbb722bb409ad015fa1c180d75984379629f972f4b36919a207302ceb99",
+      "revision": "2404991",
+      "review": "Authored practical paraphrase checked against this source text motif; no full literal translation, divination guarantee or independent philological certification."
+    },
+    {
+      "number": 1,
+      "position": 2,
+      "label": "九二",
+      "sourceText": "見龍在田，利見大人。",
+      "sourceFile": "v48\\evidence\\yi\\01.html",
+      "sha256": "6d615cbb722bb409ad015fa1c180d75984379629f972f4b36919a207302ceb99",
+      "revision": "2404991",
+      "review": "Authored practical paraphrase checked against this source text motif; no full literal translation, divination guarantee or independent philological certification."
+    },
+    {
+      "number": 1,
+      "position": 3,
+      "label": "九三",
+      "sourceText": "君子終日乾乾，夕惕若；厲，无咎。",
+      "sourceFile": "v48\\evidence\\yi\\01.html",
+      "sha256": "6d615cbb722bb409ad015fa1c180d75984379629f972f4b36919a207302ceb99",
+      "revision": "2404991",
+      "review": "Authored practical paraphrase checked against this source text motif; no full literal translation, divination guarantee or independent philological certification."
+    },
+    {
+      "number": 1,
+      "position": 4,
+      "label": "九四",
+      "sourceText": "或躍在淵，无咎。",
+      "sourceFile": "v48\\evidence\\yi\\01.html",
+      "sha256": "6d615cbb722bb409ad015fa1c180d75984379629f972f4b36919a207302ceb99",
+      "revision": "2404991",
+      "review": "Authored practical paraphrase checked against this source text motif; no full literal translation, divination guarantee or independent philological certification."
+    },
+    {
+      "number": 1,
+      "position": 5,
+      "label": "九五",
+      "sourceText": "飛龍在天，利見大人。",
+      "sourceFile": "v48\\evidence\\yi\\01.html",
+      "sha256": "6d615cbb722bb409ad015fa1c180d75984379629f972f4b36919a207302ceb99",
+      "revision": "2404991",
+      "review": "Authored practical paraphrase checked against this source text motif; no full literal translation, divination guarantee or independent philological certification."
+    },
+    {
+      "number": 1,
+      "position": 6,
+      "label": "上九",
+      "sourceText": "亢龍，有悔。",
+      "sourceFile": "v48\\evidence\\yi\\01.html",
+      "sha256": "6d615cbb722bb409ad015fa1c180d75984379629f972f4b36919a207302ceb99",
+      "revision": "2404991",
+      "review": "Authored practical paraphrase checked against this source text motif; no full literal translation, divination guarantee or independent philological certification."
+    },
+    {
+      "number": 1,
+      "position": "all-moving-supplement",
+      "label": "用九",
+      "sourceText": "見羣龍無首，吉。",
+      "sourceFile": "v48\\evidence\\yi\\01.html",
+      "sha256": "6d615cbb722bb409ad015fa1c180d75984379629f972f4b36919a207302ceb99",
+      "revision": "2404991",
+      "review": "Supplementary reading when all six lines of Qian/Kun move. Not encoded as a universal precedence rule for changing lines."
+    },
+    {
+      "number": 2,
+      "position": 1,
+      "label": "初六",
+      "sourceText": "履霜，堅冰至。",
+      "sourceFile": "v48\\evidence\\yi\\02.html",
+      "sha256": "358021cea01ba7ef48139986f86c06fb1fee0d39cad9c65a818d86d3d59727a8",
+      "revision": "2404999",
+      "review": "Authored practical paraphrase checked against this source text motif; no full literal translation, divination guarantee or independent philological certification."
+    },
+    {
+      "number": 2,
+      "position": 2,
+      "label": "六二",
+      "sourceText": "直方大，不習无不利。",
+      "sourceFile": "v48\\evidence\\yi\\02.html",
+      "sha256": "358021cea01ba7ef48139986f86c06fb1fee0d39cad9c65a818d86d3d59727a8",
+      "revision": "2404999",
+      "review": "Authored practical paraphrase checked against this source text motif; no full literal translation, divination guarantee or independent philological certification."
+    },
+    {
+      "number": 2,
+      "position": 3,
+      "label": "六三",
+      "sourceText": "含章，可貞。或從王事，无成有終。",
+      "sourceFile": "v48\\evidence\\yi\\02.html",
+      "sha256": "358021cea01ba7ef48139986f86c06fb1fee0d39cad9c65a818d86d3d59727a8",
+      "revision": "2404999",
+      "review": "Authored practical paraphrase checked against this source text motif; no full literal translation, divination guarantee or independent philological certification."
+    },
+    {
+      "number": 2,
+      "position": 4,
+      "label": "六四",
+      "sourceText": "括囊，无咎无譽。",
+      "sourceFile": "v48\\evidence\\yi\\02.html",
+      "sha256": "358021cea01ba7ef48139986f86c06fb1fee0d39cad9c65a818d86d3d59727a8",
+      "revision": "2404999",
+      "review": "Authored practical paraphrase checked against this source text motif; no full literal translation, divination guarantee or independent philological certification."
+    },
+    {
+      "number": 2,
+      "position": 5,
+      "label": "六五",
+      "sourceText": "黃裳，元吉。",
+      "sourceFile": "v48\\evidence\\yi\\02.html",
+      "sha256": "358021cea01ba7ef48139986f86c06fb1fee0d39cad9c65a818d86d3d59727a8",
+      "revision": "2404999",
+      "review": "Authored practical paraphrase checked against this source text motif; no full literal translation, divination guarantee or independent philological certification."
+    },
+    {
+      "number": 2,
+      "position": 6,
+      "label": "上六",
+      "sourceText": "龍戰于野，其血玄黃。",
+      "sourceFile": "v48\\evidence\\yi\\02.html",
+      "sha256": "358021cea01ba7ef48139986f86c06fb1fee0d39cad9c65a818d86d3d59727a8",
+      "revision": "2404999",
+      "review": "Authored practical paraphrase checked against this source text motif; no full literal translation, divination guarantee or independent philological certification."
+    },
+    {
+      "number": 2,
+      "position": "all-moving-supplement",
+      "label": "用六",
+      "sourceText": "利永貞。",
+      "sourceFile": "v48\\evidence\\yi\\02.html",
+      "sha256": "358021cea01ba7ef48139986f86c06fb1fee0d39cad9c65a818d86d3d59727a8",
+      "revision": "2404999",
+      "review": "Supplementary reading when all six lines of Qian/Kun move. Not encoded as a universal precedence rule for changing lines."
+    }
+  ],
+  "editorialLimits": [
+    "Practical Vietnamese paraphrase, not literal translation or quotations of a modern copyrighted translation.",
+    "Kun line 2 is not taken as permission to stop learning; Kun line 5 does not prescribe yellow clothing for luck.",
+    "Qian/Kun all-moving supplements coexist with the six individual readings; no school is declared universally binding.",
+    "Other hexagrams retain clearly labeled position-based prompts.",
+    "No source text, URLs, revisions or corpus are shipped in the consumer interface."
+  ]
+}

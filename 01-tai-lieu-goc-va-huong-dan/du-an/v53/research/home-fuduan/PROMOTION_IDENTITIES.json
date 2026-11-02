@@ -1,0 +1,262 @@
+{
+  "date": "2026-10-29",
+  "stageDirectory": "tmp/home-fuduan-staging",
+  "files": [
+    {
+      "file": "acquire-body.ps1",
+      "bytes": 1150,
+      "sha256": "ce02c1b8e4cb5f89c9051d1bcaaadd110db675a7e8ac2547969f3dac6162885b"
+    },
+    {
+      "file": "COLLATION_PENDING.json",
+      "bytes": 649,
+      "sha256": "7aa4773f34dc7f4f030ab20c08cb2e88bf48c2ddc62028ba9968bcdf0511ec58"
+    },
+    {
+      "file": "commons-file.html",
+      "bytes": 104463,
+      "sha256": "df53801cdc445492b065631aa1446abbeb7d6f0e11f1b1aa3ff89d4fd01dc753"
+    },
+    {
+      "file": "commons-file.html.extracted.txt",
+      "bytes": 6257,
+      "sha256": "d0918a6514542bac32b19a41b20fa1bba1721ec5b00dd668d560da72ad472964"
+    },
+    {
+      "file": "commons-file.html.request.json",
+      "bytes": 7185,
+      "sha256": "f2f08d2e95f024236afeacd7e8ced328da1bbf84a1671971988ad3664eb9eeca"
+    },
+    {
+      "file": "EXPECTED_BEFORE_IMPLEMENTATION.json",
+      "bytes": 5196,
+      "sha256": "72fe58fba3712efc882e0bec4e3ebd81916e7d326d928cd79f2869cfee3e2d69"
+    },
+    {
+      "file": "fuduan-complete-249.png",
+      "bytes": 1898180,
+      "sha256": "67d0b14b561b58d54aa998089e483015b78492238fd82509ac1d772757f78d4f"
+    },
+    {
+      "file": "fuduan-end.png",
+      "bytes": 60279,
+      "sha256": "3dd9fc9a77cbb1a6a5e3db3195d3737bcbd454511afc9f8795cd2bc719383dde"
+    },
+    {
+      "file": "fuduan-main.png",
+      "bytes": 1431727,
+      "sha256": "0a1e8d671996834f244a60b3550035cc3075b057e1dc97a1c9485bb93e9398f0"
+    },
+    {
+      "file": "fuduan-reference.mjs",
+      "bytes": 1991,
+      "sha256": "e126be85a404d0544b55af6907eaec334ad90a8cdd35da8b513f4b64e7207aa2"
+    },
+    {
+      "file": "NATIVE_CROPS.json",
+      "bytes": 2226,
+      "sha256": "043c4717d247e0082653627de5656e19ad71b0fdac6564780ec2f4764b146b7e"
+    },
+    {
+      "file": "NATIVE_PDF_IMAGES.json",
+      "bytes": 3300,
+      "sha256": "962313e27dfa8d0a6de16082283e879dc9ae2a0d0b50f644a1315840110d4970"
+    },
+    {
+      "file": "pdf1-native-image0-Im0.jpg",
+      "bytes": 164540,
+      "sha256": "45a0217676e0338ac3badeb23976b6961de7e1270c26c22a7adbe6cbb66d152c"
+    },
+    {
+      "file": "pdf1-raw-dct.jpg",
+      "bytes": 166765,
+      "sha256": "f3ce6921b3f718a5b4c99b3296dfb53f21f677fd6423913cbceabb0d0376a24c"
+    },
+    {
+      "file": "pdf98-native-image0-Im0.jpg",
+      "bytes": 550945,
+      "sha256": "bed33a4bedfdd974365a24ec14a452287a1b32db9e7ed71bb4d1d7c6bb3cc6cb"
+    },
+    {
+      "file": "pdf98-raw-dct.jpg",
+      "bytes": 550971,
+      "sha256": "af7569e87cb814e95e1a8863d6c41de41ea651d667baa2ffa0031e7e1500c614"
+    },
+    {
+      "file": "pdf99-native-image0-Im0.jpg",
+      "bytes": 537660,
+      "sha256": "5f3921fcec71838753ba4117ed4d82ba83f4cd997f82ff9d5073ea70bdcae973"
+    },
+    {
+      "file": "pdf99-raw-dct.jpg",
+      "bytes": 537724,
+      "sha256": "660ef4e7978b7e68d7a60f538e1506fcd67818fd6151b8849c6523bc7a3950b2"
+    },
+    {
+      "file": "PDF_CONTAINER_INSPECTION.json",
+      "bytes": 340,
+      "sha256": "d6704c09e54faf6f946b8917bff32d105bd2e49ad929955fd56ed860afb93b97"
+    },
+    {
+      "file": "PREIMPLEMENTATION_FREEZE.json",
+      "bytes": 1261,
+      "sha256": "5c1ef1ef23184645bb87811eb860f6c05c9d12817fbb8e6cfb1daaa4733a03ec"
+    },
+    {
+      "file": "RAW_DCT_IMAGES.json",
+      "bytes": 4087,
+      "sha256": "94f08d3ad5a0cb1d872064d1cb93f23ab8202ba61470de7a69261611737ecd46"
+    },
+    {
+      "file": "READING_AUDIT.json",
+      "bytes": 4787,
+      "sha256": "2e5816ce3bfa686d9544bbaae5765310602cb7462e7cee0fc39db7727f621af9"
+    },
+    {
+      "file": "REFERENCE_RESULTS.json",
+      "bytes": 501,
+      "sha256": "6192031f407111783f00cc4acc810c72d9399e923fea5d9d4c2edb4e41eedcfa"
+    },
+    {
+      "file": "REQUESTS.json",
+      "bytes": 18486,
+      "sha256": "ca203303cd9d9cb307a06d30f8d4e7ce5f61f7e1e27338d23a9da507ab7c17ff"
+    },
+    {
+      "file": "SELECTED_SOURCE_DISPOSITIONS.json",
+      "bytes": 1613,
+      "sha256": "cad7e9256f9f4d02aac55dafdaa96581d870c743e5b6f3514f9acee1dbb02512"
+    },
+    {
+      "file": "SOURCE_ARITHMETIC_PREMISES_DRAFT.json",
+      "bytes": 2107,
+      "sha256": "a663658018dedbd2b671b314ad2fb0f40df5599b203d86f9fc3debc464a6df37"
+    },
+    {
+      "file": "SOURCE_CLAIMS.json",
+      "bytes": 6438,
+      "sha256": "05dc7e94cdcc39f98467cc9c446fcf27366926f9dc63c908d6c05f4678098055"
+    },
+    {
+      "file": "SSID-12152602-vol33-36.pdf",
+      "bytes": 54208629,
+      "sha256": "3f6f81e7332a779dc8c43e8b69808e3f03449b8c595daea649529bea2c8d84ca"
+    },
+    {
+      "file": "SSID-12152602-vol33-36.pdf.request.json",
+      "bytes": 3248,
+      "sha256": "a0417a45adecf089d772bc37ed528ca8869d7997b45563114e19c594a18b56c0"
+    },
+    {
+      "file": "STAGING_IDENTITIES.json",
+      "bytes": 7426,
+      "sha256": "fbe3cdc1e41bcc12a666f33943286dea501840b62d3a400e8aa705740903518a"
+    },
+    {
+      "file": "test-fuduan-reference.mjs",
+      "bytes": 3919,
+      "sha256": "50148758e771f4636961f22c2f2ac7968199f959817bc87b7b98eb5f9e2dbb28"
+    },
+    {
+      "file": "wikisource-vol36.html",
+      "bytes": 103265,
+      "sha256": "0be2c5640c3fb7f50c6076c4bd6d1e9048b05b544f287cb25b1a2e6f0b2bc54b"
+    },
+    {
+      "file": "wikisource-vol36.html.extracted.txt",
+      "bytes": 32819,
+      "sha256": "44e68dcba5bfe1c22506aa392a9308bb1cab1c162563d97cfd826b28784963f8"
+    },
+    {
+      "file": "wikisource-vol36.html.request.json",
+      "bytes": 7489,
+      "sha256": "a9d6ac15132350ffb0de01ec4013586955abf4f715614ace1635930e1ec225ed"
+    },
+    {
+      "file": "WORK_STATE.json",
+      "bytes": 3571,
+      "sha256": "525321f30c95318a4dc3cdddb5194d60a4f682953cacc4ade8e3545d38fdfe55"
+    },
+    {
+      "file": "xieji-097.png",
+      "bytes": 830777,
+      "sha256": "150c08d4d3cfe7ac285c3f20d0af759bd23d24c01c1ad3eaf0815156b8721132"
+    },
+    {
+      "file": "xieji-098.png",
+      "bytes": 871532,
+      "sha256": "0dbdfd89344bf7538fa1ac4cf88f23eac75fdcfcf33d8399d4ed8954d1e33180"
+    },
+    {
+      "file": "xieji-099.png",
+      "bytes": 810193,
+      "sha256": "98f2271a449d266e37cb584a2813f43aea9ec33a030f2d9b296ede28971d94b0"
+    },
+    {
+      "file": "xieji-1.png",
+      "bytes": 510695,
+      "sha256": "ec0662c8850f6ef697661aaa4e66b395c8efe73bc88e9f7281c808578f6cc776"
+    },
+    {
+      "file": "xieji-100.png",
+      "bytes": 848731,
+      "sha256": "d0861b491525a6f2b1e34cfccbfe4c7ff5b665be8b3254a2b9909609b825594a"
+    },
+    {
+      "file": "xieji-101.png",
+      "bytes": 810089,
+      "sha256": "dcb168dcad0564689350769cf3609753f40de308ed37280bcc24906f9ff8192f"
+    },
+    {
+      "file": "xieji-102.png",
+      "bytes": 880924,
+      "sha256": "eaa1d1bfed6113848caaab71509c514a3f6b85bda41b1b85120007a1a90b0854"
+    },
+    {
+      "file": "xieji-50.png",
+      "bytes": 770272,
+      "sha256": "3cc8129aa6e37f3e55a79f23e3d6fac36f113bab9e1d62e24b63d2db4bc0e222"
+    },
+    {
+      "file": "xieji-70.png",
+      "bytes": 749551,
+      "sha256": "9917cac60025d2c4c6de750e9b39a4d575787ef072a8afdc91f5d6a68fd95c37"
+    },
+    {
+      "file": "xieji-85.png",
+      "bytes": 798262,
+      "sha256": "d3d26303754f29bcd61ac924db273f8df55e69a79af490cf8b68f97a763e60cb"
+    },
+    {
+      "file": "xieji-95.png",
+      "bytes": 787408,
+      "sha256": "3ddc1b294f049bee5185dc1ba0666f09ba133a1f030a8780cc7c36651940084d"
+    },
+    {
+      "file": "xieji98-complete-prose.png",
+      "bytes": 1734628,
+      "sha256": "85e011b5515590311facd10a43a9038969e7b00a21fe04efaaacb11f4b38e28f"
+    },
+    {
+      "file": "xieji99-complete-mansion-table.png",
+      "bytes": 414635,
+      "sha256": "ca9d00a393c6481e72cc5ad29b286629342f7f9f7842fa3fc692a545d5634dad"
+    },
+    {
+      "file": "xieji99-critique-final.png",
+      "bytes": 396515,
+      "sha256": "88fdb161ca89ee529e13b9b631e7fa0a8b61f1aae2f8b3f09852e474317feddb"
+    },
+    {
+      "file": "xieji99-first-three-columns.png",
+      "bytes": 261545,
+      "sha256": "b416a5a74a5d81619397b8e52ebe922b241b02e924e2081c8ab5bb5929548273"
+    },
+    {
+      "file": "XIEJI_NATIVE_CROPS.json",
+      "bytes": 3347,
+      "sha256": "dab335a139c96479aaebbf9582d2c697f17ad77df0576ee6eeeab578f6bd608c"
+    }
+  ],
+  "scope": "Original acquisition bodies and derivatives, historical trials explicitly excluded from source claims; no claim all107pagesread."
+}

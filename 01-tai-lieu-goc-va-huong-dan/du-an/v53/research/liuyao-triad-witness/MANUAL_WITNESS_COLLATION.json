@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-29",
+  "status": "manual-selected-source-comparison-before-implementation",
+  "witnesses": {
+    "B02-Japan-4756814-volume2": {
+      "holding": "NationalArchivesofJapan",
+      "item": "https://www.digital.archives.go.jp/item/4756814",
+      "referenceCode": "子０５９－０００８-0002",
+      "manifest": "INHERITED_japan-volume2-manifest.json",
+      "newCanvasOrdinals": [
+        3,
+        26,
+        9,
+        8
+      ],
+      "actuallyViewedAsOverviews": [
+        3,
+        26,
+        9,
+        8
+      ],
+      "navigationOnly": [
+        3,
+        26
+      ],
+      "targetSelectedText": [
+        8,
+        9
+      ],
+      "returnedImageDimensions": [
+        3000,
+        2073
+      ],
+      "manifestDimensions": [
+        6150,
+        4250
+      ],
+      "JP2OriginalAcquired": false,
+      "originalPrintYear": null,
+      "independentTransmissionEstablished": false,
+      "holdingAlreadyRetainedInEarlierScope": true
+    },
+    "B02-NLC416-12jh005345-45344": {
+      "source": "v53/research/liuyao-foundations/NLC416-12jh005345-45344.pdf",
+      "reusedPosition": 78,
+      "sourceTextNotEmended": true
+    }
+  },
+  "selectedComparisons": [
+    {
+      "id": "mode1",
+      "JapanDiplomatic": "一卦之內有三交動而合局者一也",
+      "NLCDiplomatic": "一卦之內有一交動而合局者一也",
+      "workingNormalization": "交→爻onlyinexplicitline-referencecontext;notdaystem/character-globalreplacement",
+      "difference": "三versus一",
+      "JapanWorkingActualMovingSubset": 3,
+      "NLCMeaningAdjudicated": false
+    },
+    {
+      "id": "mode2",
+      "JapanDiplomatic": "若兩交動一交不動亦成合局二也",
+      "NLCDiplomatic": "若兩交動一交不動亦成合局二也",
+      "selectedLiteralAgreement": true
+    },
+    {
+      "id": "one-visible-one-dark",
+      "JapanDiplomatic": "一交明動一交暗動亦作兩交動",
+      "NLCDiplomatic": "一交明動一交暗動亦作兩交動",
+      "selectedLiteralAgreement": true
+    }
+  ],
+  "qualificationsRetained": [
+    "三交若有兩交動不成其局須得後之日月補湊合成其局謂之虛一待用",
+    "三合局中有一空破者待填實之日月成之",
+    "有一交入墓者待沖開之日成之"
+  ],
+  "sourceClaimsNotCompleteFormation": true,
+  "practicalOutcomeValidated": false,
+  "all53CanvasesRead": false,
+  "newDifferentBookAcquired": false,
+  "newNLCPositions": 0,
+  "integrationPolicy": "Newwitness-specificcoordinatecandidateonly. OldNLCmoduleunchanged. NoB03thresholdimport,noNLCemendation,noactualdate/outcome/formationcomputed.",
+  "candidateScope": "Japanliteral三only: exactlythreeactualprimarymovingmembersofadeclaredtriad,allotherprimarylinesexplicitlyknowninactive. Additional/unknowndarkactivityorlayersunadjudicated. Thisisaconservativesubset,notfullsemanticresolutionof三交動."
+}

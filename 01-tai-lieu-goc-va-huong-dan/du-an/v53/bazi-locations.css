@@ -1,0 +1,14 @@
+.relation-locations{margin:12px 0;padding:12px 14px;background:var(--bg,#f6f5ee);border:1px solid var(--line);border-radius:5px;overflow-wrap:anywhere}
+.relation-locations>div+div{margin-top:10px}
+.relation-locations b{font-size:12px;color:var(--muted);font-weight:600}
+.relation-locations ul{list-style:none;margin:4px 0 0;padding:0}
+.relation-locations li,.relation-guide .relation-locations p{font-size:13px;line-height:1.8;margin:3px 0 0}
+.relation-guide>.hint{margin:8px 0 18px}
+.bazi-month-stems{margin:20px 0;padding:14px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+.bazi-month-stems>summary{font-weight:600;cursor:pointer;line-height:1.6}
+.bazi-month-stems .context-grid{margin:14px 0}
+.bazi-month-stems h5{margin:0 0 10px}
+.bazi-month-stems article p{font-size:14px;overflow-wrap:anywhere}
+.bazi-month-stems article p>b{font-size:12px;color:var(--muted);margin-bottom:4px}
+@media print{.relation-guide .reading-card{break-inside:avoid}.relation-locations{padding:8px 10px}.relation-locations li,.relation-guide .relation-locations p{font-size:10px}.bazi-cycles>h4{break-after:avoid}}
+@media print{.bazi-month-stems,.bazi-dayun-block{break-inside:avoid}}

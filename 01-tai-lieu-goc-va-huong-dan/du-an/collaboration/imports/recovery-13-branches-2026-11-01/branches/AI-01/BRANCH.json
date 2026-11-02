@@ -1,0 +1,27 @@
+{
+  "id": "AI-01",
+  "name": "Bát Tự — Tứ Trụ, Chính Ấn và Không Vong",
+  "researchTrackDirectory": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01",
+  "historicalGitBranchRef": "ai-01",
+  "historicalPR": "13",
+  "historicalCommitSHA": "c5a630583d96f4a55a56924bd141b193e600a694 (mốc lịch sử, không phải HEAD đã xác minh)",
+  "historicalGitMetadataVerifiedAgainstCurrentRemote": false,
+  "reportedTestsHistoricalUnverified": "17/17 test trong ZIP gốc đã chạy lại ở lần tổng hợp trước; báo cáo riêng ghi 80/80 test Không Vong ngoại tuyến",
+  "reportedNextSteps": "Đã xem một phần hai hồ sơ scan NLC WXJJ: NLC 06857 第3冊 PDF 47–50 và NLC 892-2621-209417 第4冊 preview PDF 30–31. Hai ảnh đều có 日 trong 年月日時胎; tiêu đề 福聚命印/福聚印 khác nhau. Bản chép 识典 NGJ8922621209348 thiếu 日, cùng dãy mã số hóa NLC 892-2621 nhưng chưa nối được với ảnh cụ thể nên chưa kết luận lỗi OCR hay dị văn vật chất. PDF 第4冊 chưa lưu gốc; hai JPEG preview đã băm. Ưu tiên tiếp tìm trang tờ 七 và đoạn 天元變化書/支干有交涉 trong cùng tập; đối ảnh WYG; không áp logic vào engine/site. NCL-06584 (445 trang/240.79 MB) chưa đối ảnh và không tải toàn tập. Patch Không Vong ngày 01/11 chưa push do GitHub 403; PR #13 chỉ là trạng thái lịch sử.",
+  "currentProjectPointers": [
+    "v53/research/bazi-branch-union",
+    "v53/research/bazi-branch-clash",
+    "collaboration/imports/ai01-2026-10-31"
+  ],
+  "evidenceMembers": 12,
+  "applicationPatchApplied": false,
+  "currentLocalStatus": "active-follow-up-not-complete",
+  "latestFollowupReport": "AI01_PROGRESS_2026-11-01.md",
+  "latestFacsimileCollation": "AI01_FACSIMILE_COLLATION_2026-11-01.md",
+  "latestBibliographicNote": "AI01_YUXIAO_BIBLIOGRAPHIC_NOTE_2026-11-01.md",
+  "latestLexicalNote": "AI01_JIAOSHE_LEXICAL_NOTE_2026-11-01.md",
+  "latestVariantLedger": "AI01_SOURCE_VARIANTS_2026-11-01.json",
+  "facsimileSourceSha256": "e88387495032048b71d11196ee59861ad1bfeee4c7ca5ee80fd9686eb9d37d04",
+  "actualEngineAudit": "AI01_ENGINE_EXAMPLE_AUDIT_2026-11-01.json",
+  "applicationCodeChangedInFollowup": false
+}

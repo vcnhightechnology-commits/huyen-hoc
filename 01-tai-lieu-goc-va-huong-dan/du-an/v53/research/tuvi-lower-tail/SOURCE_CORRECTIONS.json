@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-29",
+  "kind": "manual-transcription-cell-boundary-correction",
+  "sourceBodyChanged": false,
+  "engineChanged": false,
+  "consumerChanged": false,
+  "originalFrozenFile": "FROZEN_RESIDENCE_CASES.json",
+  "originalFrozenSHA256": "a5ab7457cac85421fd19af30de9605146a88379ea6956aab58a3bd032b139a17",
+  "originalRuntimeFile": "ACTUAL_RUNTIME.json",
+  "originalRuntimeSHA256": "a98d33b421a2bc1b634c1716d88c5bd74cd6b48ef0f3b92855ce11ee5976e79b",
+  "changes": [
+    {
+      "caseID": "linsheng-empty",
+      "field": "expectedOppositeMajor",
+      "before": [
+        "巨門"
+      ],
+      "after": [
+        "廉貞",
+        "貪狼"
+      ],
+      "reason": "Frozen reading took neighbouring 戌 palace 巨門. Native crop shows bottom right 亥 廉貞貪狼; not an emendation by engine vote.",
+      "evidence": [
+        "115-bottom-row.png",
+        "115-opposite-and-neighbour.png"
+      ]
+    }
+  ],
+  "initialProjectionChecks": 30,
+  "initialProjectionMatches": 28,
+  "initialProjectionMismatches": 2,
+  "uniqueManualFieldsCorrected": 1,
+  "chartReruns": 0
+}

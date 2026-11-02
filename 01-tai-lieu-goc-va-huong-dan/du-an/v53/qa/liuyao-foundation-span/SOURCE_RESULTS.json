@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-28",
+  "retainedPDFBytesVerified": 11089308,
+  "retainedPDFSHA256": "caac111bc5c5b1c08fd27b3828e7cf6b5430503800f2427d8f2b28809022abaa",
+  "retainedImageHashesVerified": 28,
+  "retainedSourcePositionsReviewed": 28,
+  "newHTTPRequests": 0,
+  "newSourcePositions": 0,
+  "newOriginalContainers": 0,
+  "newIndependentWitnesses": 0,
+  "sourceAnomalyCropsViewedAndVerified": 3,
+  "motionNativeCropViewedAndVerified": 1,
+  "fullHigherResolutionPagesViewedNotClaimed": true,
+  "pixelReproductions": [
+    {
+      "pdfPage": 26,
+      "dpi": 230,
+      "file": "redecode-26-230.png",
+      "sha256": "8c3b8996c9a5c7f4473651f2dfbc7624b619085baa4a98254290d62db3230391",
+      "targetSHA256": "8c3b8996c9a5c7f4473651f2dfbc7624b619085baa4a98254290d62db3230391",
+      "pixelMatch": true,
+      "newSourcePosition": false
+    },
+    {
+      "pdfPage": 29,
+      "dpi": 360,
+      "file": "redecode-29-360.png",
+      "sha256": "508c82a055fa04144d0f20be06d62449c67f8279971305763cd33f83e0e57bd0",
+      "targetSHA256": "508c82a055fa04144d0f20be06d62449c67f8279971305763cd33f83e0e57bd0",
+      "pixelMatch": true,
+      "newSourcePosition": false
+    }
+  ],
+  "firstPassSpansAdded": 7,
+  "firstPassUnitsCurrent": 137,
+  "wholeUnitsApplied": 0,
+  "allSourceCharactersCollated": false,
+  "sourceMismatchesRetained": 3,
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false
+}

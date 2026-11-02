@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-30",
+  "status": "source-role-and-quantifier-ambiguity-reviewed;no-reference-implemented",
+  "parent": {
+    "id": "FOOD-00-C22",
+    "unit": "FOOD-00",
+    "heading": "論食神",
+    "startCleanCodepoint": 1609,
+    "endCleanCodepoint": 1662,
+    "text": "理愚歌云子返哺時逢子建更值貴人喜相見建官又在貴人鄉鳳閣鸞臺厯華選返哺者年月日時皆自下食上見天乙官印吉煞主貴",
+    "digitalFolios": [
+      "005-88b",
+      "005-89a"
+    ],
+    "digitalOnlyFoliosWithinKnownContinuityGap": [],
+    "voice": "Liyu-song-plus-gloss",
+    "disposition": "named-voice",
+    "readingNote": "返哺/thiên ất/quan ấn, gloss dưới ăn trên; chưa chọn vị trí một cách mặc định.",
+    "firstPassRead": true,
+    "allCharactersImageCollated": false,
+    "fullConditionalRuleEncoded": false,
+    "sourceOutcomeValidated": false,
+    "consumerApplied": false
+  },
+  "sourceVoice": "理愚歌 plus following gloss",
+  "selectedGlossLiteral": "返哺者年月日時皆自下食上見天乙官印吉煞主貴",
+  "sourceIdentities": [
+    {
+      "file": "v53/research/bazi-food-source/CONTEXTS.json",
+      "bytes": 82405,
+      "sha256": "c9179c1421a4521ce9bd0f5d48ab05e28a6a9ed11daf462927ad777343be0f68"
+    },
+    {
+      "file": "v53/research/four-items/sources/KR3g0042_005.txt",
+      "bytes": 122081,
+      "sha256": "1ebdd92feaa57496b702f962ad6fafd4f19c17e98c38a94b40f626ef321dd997"
+    },
+    {
+      "file": "v53/research/bazi-relations/sources/KR3g0042_005.txt",
+      "bytes": 122081,
+      "sha256": "1ebdd92feaa57496b702f962ad6fafd4f19c17e98c38a94b40f626ef321dd997"
+    }
+  ],
+  "retainedFullSourceImagesReexamined": [
+    {
+      "file": "v53/research/bazi-food-source/p178.png",
+      "bytes": 311884,
+      "sha256": "47c6a7ac4dee8dc46ba341fecad8e1bf34d25ee4bb4523faf8b0f09b473f8efd"
+    },
+    {
+      "file": "v53/research/bazi-food-source/p179.png",
+      "bytes": 279312,
+      "sha256": "f07f7fa58c8410c6ff38935a45972703ec4f4715b34a5d8c1aa2c287adea5c3c"
+    }
+  ],
+  "quotedTextDoesNotPrintAnExplicitFourPillarExample": true,
+  "directionHypotheses": [
+    {
+      "id": "lower-as-relation-root",
+      "meaning": "下食上 read as lower/later pillar taking upper/earlier pillar as food",
+      "sourceAdjudicated": false
+    },
+    {
+      "id": "upper-as-relation-root",
+      "meaning": "Editorial counter-reading of return-feeding presentation; not a source correction",
+      "sourceAdjudicated": false
+    }
+  ],
+  "edgeScopeHypotheses": [
+    {
+      "id": "adjacent",
+      "laterEarlierRolePairs": [
+        [
+          "month",
+          "year"
+        ],
+        [
+          "day",
+          "month"
+        ],
+        [
+          "hour",
+          "day"
+        ]
+      ],
+      "sourceAdjudicated": false
+    },
+    {
+      "id": "all-later-earlier",
+      "laterEarlierRolePairs": [
+        [
+          "month",
+          "year"
+        ],
+        [
+          "day",
+          "year"
+        ],
+        [
+          "day",
+          "month"
+        ],
+        [
+          "hour",
+          "year"
+        ],
+        [
+          "hour",
+          "month"
+        ],
+        [
+          "hour",
+          "day"
+        ]
+      ],
+      "sourceAdjudicated": false
+    }
+  ],
+  "selectedDirection": null,
+  "selectedEdgeScope": null,
+  "sourceYearOrDayRootDefault": null,
+  "otherOpenPremises": [
+    "子建/建官 meanings and whether quoted lines/gloss share the same operational scope",
+    "天乙/官印/吉煞 precise list sense and anchor/frame",
+    "strength/effectiveness and full source outcome"
+  ],
+  "retainedSearch": {
+    "scope": "UTF8txt within v53/research and two retained source trees; no claim the full scans/corpus were read again",
+    "matchesInDistinctFullTextWitnesses": 1,
+    "twoFullTextPathsAreByteDuplicates": true,
+    "thirdTextHit": "v53/research/bazi-food-source/RETAINED_DIGITAL_SECTION.txt",
+    "thirdHitIsSameSectionExtractionNotIndependentWitness": true,
+    "independentWitnessFound": false
+  },
+  "currentParentMatrix": {
+    "file": "v53/research/bazi-food-quantity/CURRENT_CONTEXT_COVERAGE.json",
+    "bytes": 51082,
+    "sha256": "d25e17f8e76573e151c307a19b9f0723650e9363a495c450dba6c36e70759a54"
+  },
+  "currentMatrixCountsUnchanged": [
+    49,
+    41,
+    0
+  ],
+  "C22SelectedModuleLinkAdded": false,
+  "newEngineCalls": 0,
+  "newHTTPBodies": 0,
+  "newSourcePositions": 0,
+  "consumerChanged": false,
+  "wholeContextApplied": false,
+  "wholeCatalogueCompleted": false,
+  "next": "Keep both direction and edge-scope axes explicit if a future comparison is made. Seek a defined explanatory witness or directly printed example before choosing a classifier; switch to independent C35 source conditions meanwhile. Do not use synthetic engine agreement to resolve the original grammar."
+}

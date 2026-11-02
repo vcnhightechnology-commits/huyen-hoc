@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-29",
+  "source": "v53/research/home-yangzhai-courtyards/Gujin-Tushu-Jicheng-Volume476.djvu",
+  "sourceSHA256": "e819d6f430065e4f63c121390d74ad6d3bc36457cfb8e59fb7a2cea6483130de",
+  "decoder": "v53/research/bazi-pattern-extension/tooling/djvu.js",
+  "decoderSHA256": "10a831d62cc7ced39c30c7350a11410402d082a0f0a5b073a88d3d7ca662add3",
+  "containerPages": 135,
+  "method": "Unmodified retained decoder in NodeVM with ImageData value holder; native RGBA to lossless PNG via local zlib/CRC chunks. No browser, DOM canvas, OCR or HTTP.",
+  "records": [
+    {
+      "page": 100,
+      "file": "gjts-p100.png",
+      "bytes": 1616481,
+      "sha256": "df25f002115efe4bf156bda96888f668ace0593c4251de29d18b6ead7eac7c60",
+      "width": 4305,
+      "height": 6070,
+      "pixelRGBA_SHA256": "70dec30a23a71e167282364a925012b64f50d9b7363580dc4f0ae8b2fad6f61c",
+      "actuallyViewed": false
+    },
+    {
+      "page": 101,
+      "file": "gjts-p101.png",
+      "bytes": 1260977,
+      "sha256": "8e678b29c540864b75c2a61db5b616b2bc5f9a4af068ef00019d43b0e6bb6575",
+      "width": 4296,
+      "height": 6064,
+      "pixelRGBA_SHA256": "c9564071176d75658d63eed18f90cc5462d5c624110151b74ad734a684aff528",
+      "actuallyViewed": false
+    }
+  ],
+  "newHTTPRequests": 0,
+  "newOriginalContainers": 0
+}

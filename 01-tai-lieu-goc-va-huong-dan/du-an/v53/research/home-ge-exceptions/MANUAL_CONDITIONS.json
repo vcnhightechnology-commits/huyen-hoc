@@ -1,0 +1,181 @@
+{
+  "schema": "hhc.home.ge-conditions.v1",
+  "date": "2026-10-29",
+  "sourceID": "itkc-1508A-vol2-daily-selected",
+  "frameID": "source-declared-day-and-symbolic-activity",
+  "scope": "Ten selected editorial condition units under seven heading groups; not an exhaustive inventory of the whole source.",
+  "textStatus": "Selected unpunctuated working readings from images; spaces, clause boundaries and activity identifiers are editorial. No claim of full diplomatic transcription.",
+  "records": [
+    {
+      "id": "forest-mountain-travel-capture",
+      "pages": [
+        251
+      ],
+      "imageHeading": "林隔 山隔",
+      "literalUnpunctuated": "出行張捕合月殺飛廉執危收日不避山林隔",
+      "activityScope": "出行/張捕; do not silently decide whether the paired activities or five following labels are alternatives or a conjunction.",
+      "disposition": "deferred-list-semantics",
+      "openPremises": [
+        "Segmentation/ANY-vs-ALL of 月殺/飛廉/執/危/收日.",
+        "Calendar classifiers and inter-clause priority."
+      ]
+    },
+    {
+      "id": "forest-mountain-timber",
+      "pages": [
+        251
+      ],
+      "imageHeading": "林隔 山隔",
+      "literalUnpunctuated": "入山伐木合吉星亦不避之",
+      "activityScope": "Entering a mountain to cut timber as one combined source activity; neither entry alone nor timber cutting at any location.",
+      "disposition": "local-exception-from-declared-premises",
+      "openPremises": [
+        "Source identity/classification of 吉星 and 林隔/山隔.",
+        "No overall suitability, prediction, forestry permission or real-world instruction."
+      ]
+    },
+    {
+      "id": "earth-burial",
+      "pages": [
+        251,
+        252
+      ],
+      "imageHeading": "地隔",
+      "literalUnpunctuated": "安葬合通天竅走馬六壬天罡年月陽龍陰兔帝星年月到山到向兼求三奇祿馬貴人鸞駕諸帝星同到不避地隔",
+      "activityScope": "安葬 only; retain a cross-page clause and 兼求/同到 without flattening its nested conditions.",
+      "disposition": "deferred-nested-condition",
+      "openPremises": [
+        "Scope of 年月/到山到向/兼求/同到 and named systems.",
+        "List connections, source-specific calendar/spatial adapters and priority."
+      ]
+    },
+    {
+      "id": "earth-planting",
+      "pages": [
+        252
+      ],
+      "imageHeading": "地隔",
+      "literalUnpunctuated": "種植合成收日亦不避之",
+      "activityScope": "種植; 合 is a governing verb before 成收日, not a third named day label.",
+      "disposition": "deferred-list-semantics",
+      "openPremises": [
+        "成/收 list semantics and source-specific day basis.",
+        "No invented third label 合 from modern digital punctuation."
+      ]
+    },
+    {
+      "id": "shen-general",
+      "pages": [
+        252
+      ],
+      "imageHeading": "神隔",
+      "literalUnpunctuated": "祈福祭祀合天德月德黃道敬心普護福生",
+      "activityScope": "祈福/祭祀 with a preceding benefic list; keep separate from 如祭祀合神在日.",
+      "disposition": "deferred-list-and-scope",
+      "openPremises": [
+        "List ANY/ALL, activity scope and relationship to the following 如 clause.",
+        "No automatic equivalence of 敬心 to 敬安 or other label."
+      ]
+    },
+    {
+      "id": "sacrifice-shen-present",
+      "pages": [
+        252
+      ],
+      "imageHeading": "神隔",
+      "literalUnpunctuated": "如祭祀合神在日亦不避神隔",
+      "activityScope": "祭祀 qualified by 神在日. The 如 clause is treated as a local conditional under this editorial segmentation; does not extend to prayer alone.",
+      "disposition": "local-exception-from-declared-premises",
+      "openPremises": [
+        "No formula identifying 神在日, no general cancellation of all constraints.",
+        "Separate source-local reading, not empirical validation of a rite."
+      ]
+    },
+    {
+      "id": "fire-ge",
+      "pages": [
+        252
+      ],
+      "imageHeading": "火隔",
+      "literalUnpunctuated": "爐冶窰竈合寅午戌納音屬火日及萬通火星日不避火隔",
+      "activityScope": "爐冶/窰竈; existing activity-clause module deliberately remains unresolved.",
+      "disposition": "deferred-connective-and-priority",
+      "openPremises": [
+        "及, 寅午戌 vs 納音屬火 and grouping not resolved.",
+        "A possible 火隔 exception does not cancel 萬通火星 restrictions."
+      ]
+    },
+    {
+      "id": "water-ge",
+      "pages": [
+        252
+      ],
+      "imageHeading": "水隔",
+      "literalUnpunctuated": "忌開塘放魚合得申子辰日納音屬水及建日不避水隔",
+      "activityScope": "開塘放魚 remains literal; initial 忌 and 及 do not establish a precedence algorithm.",
+      "disposition": "deferred-connective-and-priority",
+      "openPremises": [
+        "Scope of 忌, 申子辰/納音屬水/建日 grouping and 及.",
+        "Calendar basis and precedence."
+      ]
+    },
+    {
+      "id": "ghost-ge",
+      "pages": [
+        253
+      ],
+      "imageHeading": "鬼隔",
+      "literalUnpunctuated": "祭設鬼類合黑道壬癸日及癸亥日不避鬼隔",
+      "activityScope": "Historical 祭設鬼類 only; not generic sacrifice, no product recommendation.",
+      "disposition": "deferred-connective-and-scope",
+      "openPremises": [
+        "Relation 黑道/壬癸日/癸亥日 and 及; not choose AND/OR.",
+        "癸亥 is not silently removed as redundant under a modern stem parser."
+      ]
+    },
+    {
+      "id": "xing-zhou-ge",
+      "pages": [
+        253
+      ],
+      "imageHeading": "刑隔",
+      "literalUnpunctuated": "合六壬理訴日定日不避州隔",
+      "activityScope": "No explicit activity before 合; 理訴 is within the named day phrase. No assumed litigation advice.",
+      "disposition": "deferred-heading-and-activity",
+      "openPremises": [
+        "Image heading 刑隔 differs from running 州隔; digital heading 州鬲 follows running form.",
+        "Relation 六壬理訴日/定日 and missing independent activity."
+      ]
+    }
+  ],
+  "sourceLocalReadingAssumption": "The two short clauses are read as independent local sufficient exceptions; conjunction of external source systems is not inferred.",
+  "selectedImageDigitalDifferences": [
+    {
+      "where": "earth-planting",
+      "image": "種植合成收日",
+      "digital": "種植，合，成，收日",
+      "kind": "Digital punctuation separates governing 合; not evidence of a third day label."
+    },
+    {
+      "where": "xing-zhou-ge",
+      "imageHeading": "刑隔",
+      "imageRunning": "州隔",
+      "digitalHeading": "州鬲",
+      "kind": "Retain heading/body difference; do not emend image or merge a new tradition."
+    },
+    {
+      "where": "selected-headings",
+      "image": "隔",
+      "digital": "鬲",
+      "kind": "Graphic naming correspondence only; no calendar formula derived."
+    }
+  ],
+  "literalGlyphPolicy": "兔 is the working image reading; digital 兎 and modern kiln glyph forms are not used to infer a rule.",
+  "excludedPreviouslyImplemented": [
+    "tiange",
+    "renge"
+  ],
+  "calendarAdapter": null,
+  "overallSuitability": null,
+  "wholeWorkApplied": false
+}

@@ -1,0 +1,51 @@
+{
+  "status": "private-source-and-reference-verified-not-promoted",
+  "sourceResults": {
+    "passed": true,
+    "nativePositionsActuallyViewed": 5,
+    "selectedCropsRGBMatched": 3,
+    "digitalEditorialUnits": 12,
+    "digitalCodepoints": 439,
+    "frozenFiles": 6,
+    "newEngineCallsDuringChecks": 0,
+    "retainedActualNewTableQueries": 10,
+    "reusedPartnerQueries": 6,
+    "newHTTPBodies": 0,
+    "newContainers": 0,
+    "wholeChapterApplied": false,
+    "consumerChanged": false,
+    "privateWorkingScopeNotPromoted": true
+  },
+  "referenceResults": {
+    "passed": true,
+    "groups": 9,
+    "frozenFiles": 6,
+    "regionFrames": 286,
+    "explicitHeavenCoordinates": 20,
+    "explicitEarthCoordinates": 24,
+    "trueRegionFrames": 3721,
+    "derivedTrueRegionMatches": 60,
+    "literalFrames": 7381,
+    "literalPositiveCases": 8,
+    "literalUnknownFrames": 33,
+    "terminalFrames": 9,
+    "nullInvariants": 125367,
+    "unsupportedRequests": 29,
+    "invalidInputs": 22,
+    "retainedNewTableQueries": 10,
+    "reusedPartnerQueries": 6,
+    "newEngineCallsDuringTests": 0,
+    "wholeChapterApplied": false,
+    "consumerChanged": false,
+    "privateWorkingScopeNotPromoted": true
+  },
+  "reference": "official-context-reference.mjs",
+  "readingStateToUpdateAfterPackage": "WORK_STATE.json",
+  "currentReleasePackageContainsEarlierReadingOnly": true,
+  "releaseInputFilesLeftUnchangedDuringBuild": true,
+  "next": [
+    "Update WORK_STATE after current package build closes; do not edit existing frozen package inputs during build.",
+    "Integrate this verified private scope together with another useful source scope, not a separate full ZIP per minor change.",
+    "Keep true五行/真官鄉/真鬼 roles distinct and do not auto apply to六害."
+  ]
+}

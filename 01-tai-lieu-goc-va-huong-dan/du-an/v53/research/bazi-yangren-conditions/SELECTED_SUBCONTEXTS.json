@@ -1,0 +1,784 @@
+{
+  "date": "2026-10-28",
+  "sourceSection": "論陽刃",
+  "method": "Manually chosen exact textual subcontext anchors in8mixed editorial units; offsets are Unicode codepoints into normalized section,not UTF16. Not a full logical compiler of the book.",
+  "parentContexts": [
+    14,
+    15,
+    16,
+    17,
+    45,
+    46,
+    47,
+    48
+  ],
+  "selectedCodepoints": 1180,
+  "subcontexts": [
+    {
+      "id": "YR-14-01",
+      "parentContext": 14,
+      "digitalStartCodepoint": 1008,
+      "digitalEndCodepoint": 1020,
+      "retainedDigitalText": "又曰六甲日逄乙卯㓙辛卯吉",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-14-02",
+      "parentContext": 14,
+      "digitalStartCodepoint": 1020,
+      "digitalEndCodepoint": 1060,
+      "retainedDigitalText": "甲申丁卯不為刃申中有庚合卯中乙木為財若有財露亦㓙丁火傷官乙木奪財歲運併臨災禍不免",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-14-03",
+      "parentContext": 14,
+      "digitalStartCodepoint": 1060,
+      "digitalEndCodepoint": 1082,
+      "retainedDigitalText": "乙酉日見庚辰時非刃乙坐庚下酉中辛金制辰中乙木",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-14-04",
+      "parentContext": 14,
+      "digitalStartCodepoint": 1082,
+      "digitalEndCodepoint": 1100,
+      "retainedDigitalText": "丙子日見甲午時非刄子中癸水尅午中丁火",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-14-05",
+      "parentContext": 14,
+      "digitalStartCodepoint": 1100,
+      "digitalEndCodepoint": 1115,
+      "retainedDigitalText": "丁亥日見丁未時非刄亥中午水合丁",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-14-06",
+      "parentContext": 14,
+      "digitalStartCodepoint": 1115,
+      "digitalEndCodepoint": 1130,
+      "retainedDigitalText": "庚午日見乙酉時非刃午中丁火制辛",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-14-07",
+      "parentContext": 14,
+      "digitalStartCodepoint": 1130,
+      "digitalEndCodepoint": 1145,
+      "retainedDigitalText": "壬午日見庚子時非刃午中巳土制癸",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-14-08",
+      "parentContext": 14,
+      "digitalStartCodepoint": 1145,
+      "digitalEndCodepoint": 1160,
+      "retainedDigitalText": "辛巳日見戊戌時非刄己中丙火合辛",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-14-09",
+      "parentContext": 14,
+      "digitalStartCodepoint": 1160,
+      "digitalEndCodepoint": 1175,
+      "retainedDigitalText": "癸巳日見癸丑時非刄己中戌土合癸",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-14-10",
+      "parentContext": 14,
+      "digitalStartCodepoint": 1175,
+      "digitalEndCodepoint": 1195,
+      "retainedDigitalText": "以上諸日遇者不宜見刑衝破害無則以好命斷之",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "local-negative-coordinates-qualified"
+      ],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-15-01",
+      "parentContext": 15,
+      "digitalStartCodepoint": 1195,
+      "digitalEndCodepoint": 1231,
+      "retainedDigitalText": "又曰陽刄者天上之㓙星人間之𢙣煞喜偏官印綬忌反吟伏吟魁罡三合大率與七煞相似",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-15-02",
+      "parentContext": 15,
+      "digitalStartCodepoint": 1231,
+      "digitalEndCodepoint": 1263,
+      "retainedDigitalText": "故陽刃喜見七煞七煞喜見陽刃兩㓙互相制伏猶正官喜正印善類合善類為福",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "mutual-control"
+      ],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-15-03",
+      "parentContext": 15,
+      "digitalStartCodepoint": 1263,
+      "digitalEndCodepoint": 1292,
+      "retainedDigitalText": "經云煞無刃不顯刃無煞不威煞刃俱全常人無有更身旺不見傷官為妙",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "strong-no-hurting-officer"
+      ],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-15-04",
+      "parentContext": 15,
+      "digitalStartCodepoint": 1292,
+      "digitalEndCodepoint": 1302,
+      "retainedDigitalText": "若命元有煞刄歲運又逄",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "natal-sha-blade-repeat"
+      ],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-15-05",
+      "parentContext": 15,
+      "digitalStartCodepoint": 1302,
+      "digitalEndCodepoint": 1318,
+      "retainedDigitalText": "或有刃無煞歲運逄煞運之鄉俱發大禍",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "natal-sha-blade-repeat",
+        "blade-no-sha-luck-sha"
+      ],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-15-06",
+      "parentContext": 15,
+      "digitalStartCodepoint": 1318,
+      "digitalEndCodepoint": 1335,
+      "retainedDigitalText": "如命有刃有印無煞歲運逄煞反轉成厚福",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "blade-seal-no-sha-luck-sha"
+      ],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-15-07",
+      "parentContext": 15,
+      "digitalStartCodepoint": 1335,
+      "digitalEndCodepoint": 1367,
+      "retainedDigitalText": "若柱無刃煞命合財官歳運復遇刃煞主一歳蹇滯因財争競兄弟分居離妻去妾",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "no-natal-blade-sha-new-pair"
+      ],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-15-08",
+      "parentContext": 15,
+      "digitalStartCodepoint": 1367,
+      "digitalEndCodepoint": 1384,
+      "retainedDigitalText": "若元無刃行刃運雖不妨亦主有尅妻之事",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-15-09",
+      "parentContext": 15,
+      "digitalStartCodepoint": 1384,
+      "digitalEndCodepoint": 1399,
+      "retainedDigitalText": "元有刃歳運切不宜再見及傷官財地",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "natal-blade-repeat"
+      ],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-15-10",
+      "parentContext": 15,
+      "digitalStartCodepoint": 1399,
+      "digitalEndCodepoint": 1417,
+      "retainedDigitalText": "原帶傷官財星歳運再逄禍害極重身弱尤㓙",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "original-stars-repeat-ambiguous"
+      ],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-16-01",
+      "parentContext": 16,
+      "digitalStartCodepoint": 1417,
+      "digitalEndCodepoint": 1436,
+      "retainedDigitalText": "又曰日刄止有三日戊午丙午壬子與陽刃同法",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "day-blade-coordinate"
+      ],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-16-02",
+      "parentContext": 16,
+      "digitalStartCodepoint": 1436,
+      "digitalEndCodepoint": 1459,
+      "retainedDigitalText": "經曰赤黄馬獨卧黒䑕守空房男妨妻女妨夫指此三日也",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-16-03",
+      "parentContext": 16,
+      "digitalStartCodepoint": 1459,
+      "digitalEndCodepoint": 1469,
+      "retainedDigitalText": "不喜刑衝破害三㑹六合",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-16-04",
+      "parentContext": 16,
+      "digitalStartCodepoint": 1469,
+      "digitalEndCodepoint": 1484,
+      "retainedDigitalText": "要有七煞相制再行官印鄉便為好命",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "day-blade-sha-control-officer-seal-luck"
+      ],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-16-05",
+      "parentContext": 16,
+      "digitalStartCodepoint": 1484,
+      "digitalEndCodepoint": 1505,
+      "retainedDigitalText": "賦云日刄大忌衝合喜官煞相制合𠛬者㓙遇印者吉",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-16-06",
+      "parentContext": 16,
+      "digitalStartCodepoint": 1505,
+      "digitalEndCodepoint": 1525,
+      "retainedDigitalText": "有煞無刃施為有勇無威有刄無煞作事濁而不顯",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-16-07",
+      "parentContext": 16,
+      "digitalStartCodepoint": 1525,
+      "digitalEndCodepoint": 1535,
+      "retainedDigitalText": "無煞遇煞竊恐禍患相侵",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-16-08",
+      "parentContext": 16,
+      "digitalStartCodepoint": 1535,
+      "digitalEndCodepoint": 1545,
+      "retainedDigitalText": "有刄遇刄須忌災危相犯",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-16-09",
+      "parentContext": 16,
+      "digitalStartCodepoint": 1545,
+      "digitalEndCodepoint": 1555,
+      "retainedDigitalText": "刄生身死其年難作吉推",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-16-10",
+      "parentContext": 16,
+      "digitalStartCodepoint": 1555,
+      "digitalEndCodepoint": 1565,
+      "retainedDigitalText": "財旺官傷此歲不作㓙㫁",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "year-wealth-strong-officer-harmed"
+      ],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-17-01",
+      "parentContext": 17,
+      "digitalStartCodepoint": 1565,
+      "digitalEndCodepoint": 1580,
+      "retainedDigitalText": "又曰戊午日歲月見火多則以印綬論",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "wu-wu-fire-many-route"
+      ],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-17-02",
+      "parentContext": 17,
+      "digitalStartCodepoint": 1580,
+      "digitalEndCodepoint": 1595,
+      "retainedDigitalText": "壬子日月時見子多則以飛天禄馬論",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "ren-zi-zi-many-route"
+      ],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-17-03",
+      "parentContext": 17,
+      "digitalStartCodepoint": 1595,
+      "digitalEndCodepoint": 1619,
+      "retainedDigitalText": "丙午見午多亦以倒衝禄馬論取財官入格故日刄不為大㓙",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "bing-wu-wu-many-route"
+      ],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-17-04",
+      "parentContext": 17,
+      "digitalStartCodepoint": 1619,
+      "digitalEndCodepoint": 1652,
+      "retainedDigitalText": "此格當推提綱若月令合財官印綬或合他格或從化類當以他格斷不可拘以陽刃",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "other-pattern-priority"
+      ],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-17-05",
+      "parentContext": 17,
+      "digitalStartCodepoint": 1652,
+      "digitalEndCodepoint": 1671,
+      "retainedDigitalText": "又自刄有三日癸丑丁未巳未因坐下比肩陽刄",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-17-06",
+      "parentContext": 17,
+      "digitalStartCodepoint": 1671,
+      "digitalEndCodepoint": 1699,
+      "retainedDigitalText": "飛刃有四日丙子丁丑戊子己丑因坐下衝出陽刃與前日刃喜忌大同",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-17-07",
+      "parentContext": 17,
+      "digitalStartCodepoint": 1699,
+      "digitalEndCodepoint": 1739,
+      "retainedDigitalText": "年上陽刄與時上陽刄最重年上主破敗祖基不受父母産業平生施恩反怨時上主尅妻子晚無結果",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-17-08",
+      "parentContext": 17,
+      "digitalStartCodepoint": 1739,
+      "digitalEndCodepoint": 1755,
+      "retainedDigitalText": "四柱再逄手足災疾月上稍輕日上又輕",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-17-09",
+      "parentContext": 17,
+      "digitalStartCodepoint": 1755,
+      "digitalEndCodepoint": 1774,
+      "retainedDigitalText": "人命月日干支帶財多日干衰弱時帶陽刄無害",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "wealth-many-weak-hour-blade"
+      ],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-17-10",
+      "parentContext": 17,
+      "digitalStartCodepoint": 1774,
+      "digitalEndCodepoint": 1788,
+      "retainedDigitalText": "月帶七煞時帶陽刄日主有氣大貴",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "month-sha-hour-blade-has-qi"
+      ],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-17-11",
+      "parentContext": 17,
+      "digitalStartCodepoint": 1788,
+      "digitalEndCodepoint": 1805,
+      "retainedDigitalText": "如月帶陽刄時上微帶官星力不能制亦㓙",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "month-blade-light-officer-no-control"
+      ],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-17-12",
+      "parentContext": 17,
+      "digitalStartCodepoint": 1805,
+      "digitalEndCodepoint": 1828,
+      "retainedDigitalText": "大率最壞造化既是好命却帶刄刼制按如法須還他發福",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "good-pattern-effective-control"
+      ],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-17-13",
+      "parentContext": 17,
+      "digitalStartCodepoint": 1828,
+      "digitalEndCodepoint": 1844,
+      "retainedDigitalText": "後遇歲運併臨或在刑合之位依舊有禍",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "later-repeat-or-punishment-combination"
+      ],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-17-14",
+      "parentContext": 17,
+      "digitalStartCodepoint": 1844,
+      "digitalEndCodepoint": 1857,
+      "retainedDigitalText": "刄格福自福禍自禍兩不相掩也",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "source prose/cited經賦 as literally marked",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-45-01",
+      "parentContext": 45,
+      "digitalStartCodepoint": 2846,
+      "digitalEndCodepoint": 2878,
+      "retainedDigitalText": "(又/)刼財傷刃不堪親四柱無財一世貧出姓歸宗還俗客不然殘疾亦傷身",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "古歌 sequence; preserve poeticvoice separately",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-45-02",
+      "parentContext": 45,
+      "digitalStartCodepoint": 2878,
+      "digitalEndCodepoint": 2907,
+      "retainedDigitalText": "又日干旺盛於年月身旺專禄財官絶那堪刼刄又相逢百般機巧翻成拙",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "古歌 sequence; preserve poeticvoice separately",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-45-03",
+      "parentContext": 45,
+      "digitalStartCodepoint": 2907,
+      "digitalEndCodepoint": 2922,
+      "retainedDigitalText": "又日干旺甚無依倚却喜歳運逢財地",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "very-strong-unsupported-wealth-route"
+      ],
+      "sourceVoice": "古歌 sequence; preserve poeticvoice separately",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-45-04",
+      "parentContext": 45,
+      "digitalStartCodepoint": 2922,
+      "digitalEndCodepoint": 2929,
+      "retainedDigitalText": "元命有財見財發",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "古歌 sequence; preserve poeticvoice separately",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-45-05",
+      "parentContext": 45,
+      "digitalStartCodepoint": 2929,
+      "digitalEndCodepoint": 2936,
+      "retainedDigitalText": "無財見財夀夭折",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "古歌 sequence; preserve poeticvoice separately",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-46-01",
+      "parentContext": 46,
+      "digitalStartCodepoint": 2936,
+      "digitalEndCodepoint": 2968,
+      "retainedDigitalText": "(又/)財星輕弱刃剛強身旺之鄉大不祥鳳寡鸞孤清夜怨等閒妻尅兩三雙",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "古歌 sequence; preserve poeticvoice separately",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-46-02",
+      "parentContext": 46,
+      "digitalStartCodepoint": 2968,
+      "digitalEndCodepoint": 2997,
+      "retainedDigitalText": "又氣神元旺日干强四柱無財被尅傷重犯空亡華盖位緇袍冠冕拜虚皇",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "古歌 sequence; preserve poeticvoice separately",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-46-03",
+      "parentContext": 46,
+      "digitalStartCodepoint": 2997,
+      "digitalEndCodepoint": 3026,
+      "retainedDigitalText": "又刃逢七煞運官鄉破害刑衝貴異常切忌合逢財旺地必遭災禍反刑傷",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "古歌 sequence; preserve poeticvoice separately",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-46-04",
+      "parentContext": 46,
+      "digitalStartCodepoint": 3026,
+      "digitalEndCodepoint": 3055,
+      "retainedDigitalText": "又日中陽刃宜逢煞運轉財鄉貴必遷刑害俱全為吉地財神㑹合是災年",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "古歌 sequence; preserve poeticvoice separately",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-47-01",
+      "parentContext": 47,
+      "digitalStartCodepoint": 3055,
+      "digitalEndCodepoint": 3073,
+      "retainedDigitalText": "(又/)戊巳生逢五月中忽逢陽刃在天宫",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [],
+      "sourceVoice": "古歌 sequence; preserve poeticvoice separately",
+      "disposition": "historical-or-unresolved-source-clause-retained;no-runtime-outcome"
+    },
+    {
+      "id": "YR-47-02",
+      "parentContext": 47,
+      "digitalStartCodepoint": 3073,
+      "digitalEndCodepoint": 3080,
+      "retainedDigitalText": "金多有水方為貴",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "fifth-month-metal-water"
+      ],
+      "sourceVoice": "古歌 sequence; preserve poeticvoice separately",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-47-03",
+      "parentContext": 47,
+      "digitalStartCodepoint": 3080,
+      "digitalEndCodepoint": 3087,
+      "retainedDigitalText": "火重須逢比刼同",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "fifth-month-fire-peer"
+      ],
+      "sourceVoice": "古歌 sequence; preserve poeticvoice separately",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-48-01",
+      "parentContext": 48,
+      "digitalStartCodepoint": 3087,
+      "digitalEndCodepoint": 3119,
+      "retainedDigitalText": "(又/)春木夏火逢時旺秋金冬水一般同不宜陽刃天干露歳運相逢事事㓙",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "seasonal-stem-blade-repeat"
+      ],
+      "sourceVoice": "古歌 sequence; preserve poeticvoice separately",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-48-02",
+      "parentContext": 48,
+      "digitalStartCodepoint": 3119,
+      "digitalEndCodepoint": 3148,
+      "retainedDigitalText": "又丙丁離巽是刃根運到江湖利名真官旺喜行寅午戌無官却要申子辰",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "officer-strong-trine-route",
+        "officer-absent-trine-route"
+      ],
+      "sourceVoice": "古歌 sequence; preserve poeticvoice separately",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    },
+    {
+      "id": "YR-48-03",
+      "parentContext": 48,
+      "digitalStartCodepoint": 3148,
+      "digitalEndCodepoint": 3177,
+      "retainedDigitalText": "又秋金酉月重生旺除非火煉噐方成東南行運財名發西北相逢禍便迎",
+      "allSubordinatePremisesResolved": false,
+      "sourceOutcomesValidated": false,
+      "predicateRuleIDs": [
+        "autumn-metal-effective-fire"
+      ],
+      "sourceVoice": "古歌 sequence; preserve poeticvoice separately",
+      "disposition": "bounded-local-premise-audit;subordinateconditionsopen"
+    }
+  ],
+  "remainingEditorialContexts": 47,
+  "wholeSectionApplied": false
+}

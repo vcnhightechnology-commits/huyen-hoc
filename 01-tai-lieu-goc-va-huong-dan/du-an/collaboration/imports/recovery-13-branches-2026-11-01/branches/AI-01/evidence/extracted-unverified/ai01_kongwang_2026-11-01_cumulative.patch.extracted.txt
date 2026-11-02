@@ -1,0 +1,1000 @@
+diff --git a/collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/WYG3_KONGWANG_CROSS_AXIS.json b/collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/WYG3_KONGWANG_CROSS_AXIS.json
+new file mode 100644
+index 0000000..2d87604
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/WYG3_KONGWANG_CROSS_AXIS.json
+@@ -0,0 +1,265 @@
++{
++  "schema": "hhc.ai01.kongwang-cross-axis-63a.v1",
++  "date": "2026-11-01",
++  "evidence_level": "model_verified_source_byte_not_refetched_this_turn",
++  "context": "WYG III 論空亡 folio 003-63a, compared to WYG II 遁月時 and 六合",
++  "source_paths": {
++    "wyg2": "v53/research/bazi-relations/sources/KR3g0042_002.txt",
++    "wyg3": "v53/research/bazi-relations/sources/KR3g0042_003.txt",
++    "units": "collaboration/working-source/tmp/bazi-seal-conditions-staging/CHAPTER_UNITS.json"
++  },
++  "expected_git_blobs": {
++    "wyg2": "36f5e047e3cd2d436ccc1b26d0fc8b9b88eb1a86",
++    "wyg3": "76ceb0747fb0d7b7aee2ad7fdfaf3f5874bca3c4"
++  },
++  "chapter_excerpt_sha256": "dce428726a285befc14ca09855a639fd08edc85beb6647542456ff93dbebdedf",
++  "source_quote_pins": {
++    "wyg3_63a": [
++      "如甲午癸酉丙子壬辰時",
++      "雖空却與癸酉作六合",
++      "又庫墓夾貴所以入格"
++    ],
++    "wyg3_59b": [
++      "五陽令用一陽五陰令用一陰",
++      "甲子丙寅戊辰庚午壬申則用戌不用亥",
++      "乙丑丁卯己巳辛未癸酉則用亥不用戌",
++      "又說甲子至戊辰以戌為空亡己巳至癸酉以亥為空亡分上下五年"
++    ],
++    "wyg3_61a": [
++      "若太歲與日互換空亡更不佳"
++    ],
++    "wyg3_61b": [
++      "有空亡不宜見合合則不能空矣",
++      "有空亡却喜見合合則不能空矣"
++    ],
++    "wyg2_57b": [
++      "甲巳之年丙作首"
++    ],
++    "wyg2_98a": [
++      "辰為五陽酉為四隂"
++    ]
++  },
++  "convention": {
++    "method": "two omitted earthly branches per ten-pillar 旬 (basic 旬空 only)",
++    "month_head": "甲己年丙寅起 (named convention, not WYG II emendation)",
++    "hour_head": "丙辛日戊子起 (named convention)",
++    "wyg2_digitized_source_has_甲巳_not_甲己": true,
++    "wyg3_other_空亡_methods_not_equated": true,
++    "single_branch_陰陽_and_上下五年_are_hypothetical_extensions": true
++  },
++  "source_example": {
++    "year": "甲午",
++    "month": "癸酉",
++    "day": "丙子",
++    "hour": "壬辰"
++  },
++  "derived": {
++    "pillars": {
++      "year": "甲午",
++      "month": "癸酉",
++      "day": "丙子",
++      "hour": "壬辰"
++    },
++    "xun": {
++      "year": {
++        "index0": 30,
++        "xun_head": "甲午",
++        "void_branches": [
++          "辰",
++          "巳"
++        ]
++      },
++      "month": {
++        "index0": 9,
++        "xun_head": "甲子",
++        "void_branches": [
++          "戌",
++          "亥"
++        ]
++      },
++      "day": {
++        "index0": 12,
++        "xun_head": "甲戌",
++        "void_branches": [
++          "申",
++          "酉"
++        ]
++      },
++      "hour": {
++        "index0": 28,
++        "xun_head": "甲申",
++        "void_branches": [
++          "午",
++          "未"
++        ]
++      }
++    },
++    "month_from_year_matches": true,
++    "hour_from_day_matches": true,
++    "directional_void_links": [
++      {
++        "anchor": "year",
++        "observed": "hour",
++        "branch": "辰"
++      },
++      {
++        "anchor": "day",
++        "observed": "month",
++        "branch": "酉"
++      },
++      {
++        "anchor": "hour",
++        "observed": "year",
++        "branch": "午"
++      }
++    ],
++    "six_harmony_pairs": [
++      {
++        "a": "month",
++        "b": "hour",
++        "observed": "酉辰",
++        "named_pair": "辰酉"
++      }
++    ],
++    "six_clash_pairs": [
++      {
++        "a": "year",
++        "b": "day",
++        "observed": "午子",
++        "named_pair": "子午"
++      }
++    ],
++    "year_and_day_mutually_void": false,
++    "year_and_hour_mutually_void": true,
++    "alternative_named_method_comparison": {
++      "stem_yin_yang_one": {
++        "selected_void_branches": {
++          "year": [
++            "辰"
++          ],
++          "month": [
++            "亥"
++          ],
++          "day": [
++            "申"
++          ],
++          "hour": [
++            "午"
++          ]
++        },
++        "directional_void_links": [
++          {
++            "anchor": "year",
++            "observed": "hour",
++            "branch": "辰"
++          },
++          {
++            "anchor": "hour",
++            "observed": "year",
++            "branch": "午"
++          }
++        ],
++        "year_hour_mutual": true,
++        "day_month_void": false
++      },
++      "first_five_last_five_one": {
++        "selected_void_branches": {
++          "year": [
++            "辰"
++          ],
++          "month": [
++            "亥"
++          ],
++          "day": [
++            "申"
++          ],
++          "hour": [
++            "未"
++          ]
++        },
++        "directional_void_links": [
++          {
++            "anchor": "year",
++            "observed": "hour",
++            "branch": "辰"
++          }
++        ],
++        "year_hour_mutual": false,
++        "day_month_void": false
++      }
++    }
++  },
++  "contextual_qualifiers": {
++    "source_void_does_not_identify_axis": true,
++    "three_directed_links_are_computed_possibilities_not_authored_source_labels": true,
++    "year_hour_reciprocal_is_not_the_texts_year_day_mutual_void": true,
++    "the_example_contains_六合_and_六沖_simultaneously": true,
++    "the_source_justifies_入格_by_multiple_qualifiers_not_one_boolean": true,
++    "two_branch_旬空_not_equivalent_to_截路_四大_or_五鬼空亡": true,
++    "no_historical_birthdate_follows_from_four_pillars": true,
++    "not_an_S11_臨空印_positive_or_negative_test_case": true,
++    "not_two_independent_historical_witnesses": true,
++    "source_presents_multiple_void_branch_selection_methods": true,
++    "three_two_one_link_variation_does_not_select_a_fortune_rule": true
++  },
++  "not_claimed": {
++    "original_folio_glyphs_confirmed_this_turn": false,
++    "source_repository_refetched_this_turn": false,
++    "source_independent_historical_witness_added": false,
++    "individualized_void_operand_chosen": false,
++    "year_day_mutual_void_inferred": false,
++    "s11_臨空印_conditions_proven_sufficient": false,
++    "calendar_birthdate_verified": false,
++    "prediction_enabled": false,
++    "consumer_changed": false,
++    "coverage_promoted": false
++  },
++  "engine_admission": "blocked",
++  "engine_calls": 0,
++  "sources_for_external_text_confirmation": [
++    {
++      "url": "https://zh.wikisource.org/zh-hant/三命通會/卷三",
++      "role": "modern_online_textual_copy_not_folio_image"
++    },
++    {
++      "url": "https://www.chinese-classics.org/read/shushu/mingli/san-ming-tong-hui/003",
++      "role": "modern_online_textual_copy_not_folio_image"
++    }
++  ],
++  "pairspace": {
++    "total_ordered_60x60": 3600,
++    "directional_void_pairs": 600,
++    "reciprocal_ordered_pairs": 120,
++    "reciprocal_distinct_unordered_pairs": 60,
++    "reciprocal_neighbors_per_pillar": [
++      2
++    ],
++    "reciprocal_is_not_unique_to_quoted_year_hour": true,
++    "mathematical_counts_are_not_historical_frequencies": true
++  },
++  "alternative_pairspaces": {
++    "stem_yin_yang_one": {
++      "total_ordered_60x60": 3600,
++      "directional_void_pairs": 300,
++      "reciprocal_ordered_pairs": 60,
++      "reciprocal_distinct_unordered_pairs": 30,
++      "reciprocal_neighbors_per_pillar": [
++        1
++      ],
++      "reciprocal_is_not_unique_to_quoted_year_hour": true,
++      "mathematical_counts_are_not_historical_frequencies": true
++    },
++    "first_five_last_five_one": {
++      "total_ordered_60x60": 3600,
++      "directional_void_pairs": 300,
++      "reciprocal_ordered_pairs": 36,
++      "reciprocal_distinct_unordered_pairs": 18,
++      "reciprocal_neighbors_per_pillar": [
++        0,
++        1
++      ],
++      "reciprocal_is_not_unique_to_quoted_year_hour": true,
++      "mathematical_counts_are_not_historical_frequencies": true
++    }
++  }
++}
+diff --git a/collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/WYG3_KONGWANG_CROSS_AXIS_REPORT.md b/collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/WYG3_KONGWANG_CROSS_AXIS_REPORT.md
+new file mode 100644
+index 0000000..2db9342
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/WYG3_KONGWANG_CROSS_AXIS_REPORT.md
+@@ -0,0 +1,101 @@
++# AI-01 — Đối chiếu chéo can chi, Không Vong và Lục hợp: WYG III, 003-63a
++
++**Ngày nghiên cứu:** 2026-11-01
++
++**Tình trạng:** mô hình toán học kiểm thử được; **nguyên byte GitHub và ảnh mặt giấy chưa kiểm lại được trong lượt này**. Kết nối GitHub từ môi trường phiên hiện tại báo `HTTP 403: Sorry. Your account was suspended`; không thực hiện push, merge hoặc chỉnh engine.
++
++## 1. Câu nguồn và phạm vi
++
++Từ các hồ sơ WYG trong dự án đã kiểm ở lượt trước, thiên `論空亡`, quyển III, tờ `003-63a` đưa ra ví dụ **`甲午 癸酉 丙子 壬辰時`**, cùng chú giải `雖空却與癸酉作六合` và `又庫墓夾貴所以入格`. Đây là **câu nguồn**, không phải một ngày sinh đã được kiểm thực tế. Các bản trực tuyến cũng chứa đoạn này: [Wikisource, quyển III](https://zh.wikisource.org/zh-hant/三命通會/卷三) và [Chinese Classics, quyển III](https://www.chinese-classics.org/read/shushu/mingli/san-ming-tong-hui/003). **Hai trang web không tự tạo ra hai bản in cổ độc lập.**
++
++Đoạn `太歲與日互換空亡` ở tờ `003-61a` có chủ thể năm và **ngày**. Vì vậy, tuyệt đối **không** được dùng câu nói này để đặt tên hay luận đoán quan hệ hai chiều giữa **năm và giờ** của ví dụ trên. Thiên đó còn phân biệt `截路空亡`, `四大空亡`, `五鬼空亡`. Quan trọng hơn, **tờ `003-59b` ngay trong thiên này đưa ra hai cách CHỌN MỘT CHI từ cặp khuyết**, do đó bảng đầu tiên chỉ minh họa phương pháp cơ bản **cả hai chi còn thiếu trong mỗi tuần 10 can (旬空)**, không tự xác định phương pháp của tác giả trong mọi ví dụ.
++
++## 2. Sự thật tính toán được từ Lục thập hoa giáp
++
++Với 60 can chi hợp lệ đánh chỉ số `0..59` theo `甲子` = 0, tuần chứa một trụ được xác định bởi `index // 10` (sáu tuần). Hai chi rơi vào `旬空` là các chi đứng sau mười vị trí của tuần, không dùng cấu hình vận hạn hay mệnh chủ.
++
++| Vị trí gán theo thứ tự bốn trụ | Index 60 | Tuần | Hai chi 旬空 | Trụ trong ví dụ có chi rơi vào 旬空 |
++|---|---:|---|---|---|
++| Năm `甲午` | 30 | `甲午旬` | `辰巳` | Giờ `壬辰` (chi `辰`) |
++| Tháng `癸酉` | 9 | `甲子旬` | `戌亥` | Không có |
++| Ngày `丙子` | 12 | `甲戌旬` | `申酉` | Tháng `癸酉` (chi `酉`) |
++| Giờ `壬辰` | 28 | **`甲申旬`** | **`午未`** | Năm `甲午` (chi `午`) |
++
++### Ba liên hệ có hướng, không phải hai
++
++1. **Năm → Giờ:** chi giờ `辰` rơi vào `旬空(甲午) = {辰, 巳}`.
++2. **Ngày → Tháng:** chi tháng `酉` rơi vào `旬空(丙子) = {申, 酉}`.
++3. **Giờ → Năm:** chi năm `午` rơi vào `旬空(壬辰) = {午, 未}`.
++
++Do (1) và (3), **năm–giờ tương hỗ** theo phép toán hai chi thiếu. Lưu ý **`壬辰` thuộc `甲申旬`**, không phải `甲辰旬`; suy sai tuần này sẽ làm mất một nửa quan hệ đối ứng. **Năm–ngày không tương hỗ**: `子` không thuộc `辰巳`, còn `午` không thuộc `申酉`.
++
++### Kiểm ngay hai phương pháp một chi theo văn tờ 59b
++
++Nguồn WYG III dẫn lời *珞琭子*:
++
++- `五陽令用一陽五陰令用一陰`: với ví dụ của **甲子旬**, các trụ can dương (`甲子、丙寅、戊辰、庚午、壬申`) chọn `戌`, các trụ can âm (`乙丑、丁卯、己巳、辛未、癸酉`) chọn `亥`.
++- Cách **chia trên/dưới năm trụ** tiếp theo: `甲子` tới `戊辰` chọn `戌`; `己巳` tới `癸酉` chọn `亥`.
++
++Tôi mô hình hóa hai phát biểu thành **hai phép mở rộng GIẢ THUYẾT qua cả sáu tuần**; nguồn đang kiểm chỉ đưa ví dụ chi tiết cho **甲子旬**. Không được gọi những phép mở rộng đó là quy tắc cổ thư chung cho mọi tuần đã được chứng minh.
++
++| Trụ | Hai chi cơ bản | Chọn theo can âm/dương | Chọn theo 5 trụ đầu/cuối của tuần |
++|---|---|---|---|
++| Năm `甲午` | 辰、巳 | 辰 | 辰 |
++| Tháng `癸酉` | 戌、亥 | 亥 | 亥 |
++| Ngày `丙子` | 申、酉 | 申 | 申 |
++| Giờ `壬辰` | 午、未 | 午 | **未** |
++
++| Phương pháp tính | Những liên hệ còn giữ lại | Số liên hệ |
++|---|---|---:|
++| Hai chi tuần không | Năm→Giờ, Ngày→Tháng, Giờ→Năm | **3** |
++| Một chi theo âm/dương | Năm→Giờ, Giờ→Năm | **2** |
++| Một chi theo nhóm 5+5 | Năm→Giờ | **1** |
++
++Vì vậy **năm–giờ chỉ tương hỗ theo hai phép đầu**; theo cách 5+5, năm→giờ còn nhưng giờ→năm không còn. Quan hệ ngày→tháng cũng biến mất khi chỉ chọn một chi từ `申酉`. Đây là **kiểm độ nhạy phương pháp**, không phải lời nói cổ thư rằng có đúng một, hai hoặc ba dấu Không Vong.
++
++### Hai phép kiểm lịch độc lập theo quy ước công bố
++
++- **Từ can năm `甲`**, dùng phép khởi tháng theo quy ước `甲己年丙寅起` thì tháng `酉` là **`癸酉`**, khớp ví dụ.
++- **Từ can ngày `丙`**, dùng phép khởi giờ theo quy ước `丙辛日戊子起` thì giờ `辰` là **`壬辰`**, khớp ví dụ.
++
++**Cảnh báo văn bản:** nguồn số WYG II `論遁月時` lưu chữ **`甲巳`**, có hình thể khác `甲己`. Chương trình dùng quy ước đã *đặt tên riêng* để kiểm tính nhất quán, **không sửa chữ nguyên văn** và không chứng minh ngày sinh tương ứng với một mốc thiên văn.
++
++### Lục hợp và Lục xung đồng thời
++
++- Tháng `癸酉` (**酉**) gặp giờ `壬辰` (**辰**): `辰酉` thuộc **六合**, đúng điều nguồn nêu bằng lời.
++- Năm `甲午` (**午**) gặp ngày `丙子` (**子**): `子午` thuộc **六沖**. Đây là phép đối chiếu chi *bên cạnh*, **không** suy ra một vận hạn/điềm hay sửa kết luận `入格` của sách.
++
++Điểm quan trọng: cùng một ví dụ chứa nhiều quan hệ trái loại, và chính văn bản nêu thêm `庫墓` và `夾貴`. Không một quan hệ đơn lẻ nào là điều kiện cần–đủ cho `臨空印` S11 hoặc cho kết luận tốt/xấu.
++
++## 3. Kiểm độ đặc hiệu trên toàn bộ 60 × 60
++
++| Đối tượng xét | Số lượng |
++|---|---:|
++| Tổng cặp có thứ tự `(A, B)` với hai trụ 60 hoa giáp | **3.600** |
++| `B` có chi nằm trong `旬空` của `A` | **600** |
++| Đồng thời `A` nằm trong `旬空` của `B` | **120** cặp có thứ tự |
++| Cặp tương hỗ không phân biệt hướng | **60** |
++| Số trụ tương hỗ với một trụ bất kỳ | **2** |
++
++Thử cả ba phương pháp trên toàn bộ 3.600 cặp (giả thuyết mở rộng cho hai phương pháp chọn một chi):
++
++| Phép chọn | Quan hệ có hướng | Quan hệ tương hỗ có thứ tự | Cặp tương hỗ không phân biệt hướng |
++|---|---:|---:|---:|
++| Hai chi cơ bản | **600** | **120** | **60** |
++| Một chi âm/dương | **300** | **60** | **30** |
++| Một chi theo 5+5 | **300** | **36** | **18** |
++
++Như vậy, **một quan hệ năm–giờ tương hỗ không độc nhất với ví dụ cổ thư**, và kết quả đếm thay đổi theo đúng quy ước đặt tên. Các số liệu là **tần suất tổ hợp toán học trên bảng hoa giáp**, không phải tỷ lệ trong dân số, không phải tần suất thực tế trong lịch và không phải tỷ lệ ứng nghiệm.
++
++## 4. Kiểm thử và nguồn
++
++- `WYG3_KONGWANG_CROSS_AXIS.json`: khóa bốn trụ, sáu tuần, quan hệ có hướng, Lục hợp/Lục xung và các cổng phủ định suy luận.
++- `validate_wyg3_kongwang_cross_axis.py --model-only`: tái tính cả ba phép chọn Không Vong từ 60 trụ, kiểm biểu diễn 3/2/1 của cùng lá số, quét 3.600 cặp theo từng phép chọn và kiểm các cổng hạn chế; chạy được ngoại tuyến.
++- `validate_wyg3_kongwang_cross_axis.py` (không cờ): **bắt buộc** đọc đúng các Git blob nguồn WYG II/III, trích đúng các folio `57b`, `98a`, `59b`, `61a`, `61b`, `63a`, xác minh SHA-256 văn bản S01–S13 và đối chiếu đoạn S11. Nếu file nguồn không có hoặc checksum khác, **báo lỗi**, không nhận là đã xem gốc.
++- `test_wyg3_kongwang_cross_axis.py`: thử toàn bộ 60 trụ; sáu tuần; 720 phép khởi tháng và 720 phép khởi giờ; thử cách chọn can âm/dương và 5+5 đối chiếu câu trên tờ 59b; thay trụ để phá từng quan hệ; lỗi gần giống `已/己`, sai chẵn lẻ, giả nhận đã đọc ảnh, cố sửa chữ `甲巳` và tự nhận engine được phê duyệt.
++
++**Trạng thái kiểm thực tế 01/11/2026:** **80/80 unit tests chạy ngoại tuyến đạt**, bao gồm kiểm mẫu âm và tình trạng nguồn không có sẽ bị chặn. **Full source SHA/folio check chưa được thực thi lượt này**, vì GitHub connector trả `403` và container không truy cập DNS GitHub. Cần chạy validator ở repository có đủ byte nguồn sau khi tài khoản có quyền trở lại.
++
++## 5. Handoff và ranh giới
++
++Bản vá chỉ chứa tài liệu và mã nghiên cứu mới trong thư mục `continuation-2026-10-31`. Chưa sửa `v53`, corpus, engine, CI, release, website, coverage, ZIP dự án, hoặc PR #13. Có thể chạy test tại thư mục đã giải nén rồi chép các file mới vào nhánh `ai-01` để chạy **source-level** và CI theo hướng dẫn ở `AI01_KONGWANG_HANDOFF.md`.
+diff --git a/collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/WYG3_KONGWANG_JOINT_FINGERPRINT.json b/collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/WYG3_KONGWANG_JOINT_FINGERPRINT.json
+new file mode 100644
+index 0000000..418f261
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/WYG3_KONGWANG_JOINT_FINGERPRINT.json
+@@ -0,0 +1,891 @@
++{
++  "schema": "hhc.ai01.kongwang-joint-fourpillar-falsifiability.v1",
++  "date": "2026-11-01",
++  "status": "formal_model_not_sourced_ancient_decision_rule",
++  "parent_source_file": "WYG3_KONGWANG_CROSS_AXIS.json",
++  "parent_source_sha256": "2c26b70c1b991545b976d1590db408f11ee3f842923d6a835a5db865977d8400",
++  "quoted_four_pillars": [
++    "甲午",
++    "癸酉",
++    "丙子",
++    "壬辰"
++  ],
++  "feature_names": [
++    "year_hour_mutual",
++    "day_month_void",
++    "month_hour_liuhe",
++    "year_day_liuchong"
++  ],
++  "mode_names": [
++    "all_two",
++    "stem_yin_yang_one",
++    "first_five_last_five_one"
++  ],
++  "enumeration_constraints": {
++    "year_pillar_choices": 60,
++    "month_branch_choices_per_year": 12,
++    "day_pillar_choices": 60,
++    "hour_branch_choices_per_day": 12,
++    "month_stem_from_year_method": "甲己年丙寅起, 乙庚年戊寅起, 丙辛年庚寅起, 丁壬年壬寅起, 戊癸年甲寅起",
++    "hour_stem_from_day_method": "甲己日甲子起, 乙庚日丙子起, 丙辛日戊子起, 丁壬日庚子起, 戊癸日壬子起",
++    "true_chronological_birthdates_enumerated": false,
++    "year_month_day_solar_term_alignment_verified": false,
++    "calendar_timezone_location_verified": false,
++    "physical_manuscript_source_read_for_global_operator": false
++  },
++  "method_uncertainty": {
++    "all_two": "two omitted earthly branches are the basic ten-cycle empty positions",
++    "stem_yin_yang_one": "hypothetical extrapolation of only 甲子旬 source example: odd/even stem selects one missing branch",
++    "first_five_last_five_one": "hypothetical extrapolation of only 甲子旬 source example: first/last five stem positions select one missing branch",
++    "none_of_these_computations_prove_S11_臨空印_predicate": true,
++    "the_quote_does_not_identify_which_of_three_methods_generated_its_空": true
++  },
++  "exhaustive_result": {
++    "counts": {
++      "all_two": {
++        "total_formal_charts": 518400,
++        "year_hour_mutual": 17280,
++        "day_month_void": 86400,
++        "month_hour_liuhe": 43200,
++        "year_day_liuchong": 43200,
++        "mutual_and_liuhe": 1440,
++        "mutual_and_daymonth": 2880,
++        "mutual_and_daymonth_and_liuhe": 240,
++        "four_conditions": 20,
++        "four_conditions_exact_three_links": 4,
++        "four_conditions_exact_quoted_arrows": 4,
++        "quoted_chart_in_four_conditions": 1
++      },
++      "stem_yin_yang_one": {
++        "total_formal_charts": 518400,
++        "year_hour_mutual": 8640,
++        "day_month_void": 43200,
++        "month_hour_liuhe": 43200,
++        "year_day_liuchong": 43200,
++        "mutual_and_liuhe": 720,
++        "mutual_and_daymonth": 720,
++        "mutual_and_daymonth_and_liuhe": 60,
++        "four_conditions": 0,
++        "four_conditions_exact_three_links": 0,
++        "four_conditions_exact_quoted_arrows": 0,
++        "quoted_chart_in_four_conditions": 0
++      },
++      "first_five_last_five_one": {
++        "total_formal_charts": 518400,
++        "year_hour_mutual": 5184,
++        "day_month_void": 43200,
++        "month_hour_liuhe": 43200,
++        "year_day_liuchong": 43200,
++        "mutual_and_liuhe": 432,
++        "mutual_and_daymonth": 432,
++        "mutual_and_daymonth_and_liuhe": 36,
++        "four_conditions": 2,
++        "four_conditions_exact_three_links": 1,
++        "four_conditions_exact_quoted_arrows": 1,
++        "quoted_chart_in_four_conditions": 0
++      }
++    },
++    "candidates_with_all_four_conditions": {
++      "all_two": [
++        {
++          "pillars": [
++            "己巳",
++            "丙寅",
++            "辛亥",
++            "己亥"
++          ],
++          "directed_void_arrows": [
++            [
++              "year",
++              "day"
++            ],
++            [
++              "year",
++              "hour"
++            ],
++            [
++              "month",
++              "day"
++            ],
++            [
++              "month",
++              "hour"
++            ],
++            [
++              "day",
++              "month"
++            ],
++            [
++              "hour",
++              "year"
++            ]
++          ]
++        },
++        {
++          "pillars": [
++            "己巳",
++            "丁卯",
++            "辛亥",
++            "戊戌"
++          ],
++          "directed_void_arrows": [
++            [
++              "year",
++              "day"
++            ],
++            [
++              "year",
++              "hour"
++            ],
++            [
++              "month",
++              "day"
++            ],
++            [
++              "month",
++              "hour"
++            ],
++            [
++              "day",
++              "month"
++            ],
++            [
++              "hour",
++              "year"
++            ]
++          ]
++        },
++        {
++          "pillars": [
++            "己卯",
++            "戊辰",
++            "丁酉",
++            "己酉"
++          ],
++          "directed_void_arrows": [
++            [
++              "year",
++              "day"
++            ],
++            [
++              "year",
++              "hour"
++            ],
++            [
++              "day",
++              "month"
++            ],
++            [
++              "hour",
++              "year"
++            ]
++          ]
++        },
++        {
++          "pillars": [
++            "己卯",
++            "己巳",
++            "丁酉",
++            "戊申"
++          ],
++          "directed_void_arrows": [
++            [
++              "year",
++              "day"
++            ],
++            [
++              "year",
++              "hour"
++            ],
++            [
++              "day",
++              "month"
++            ],
++            [
++              "hour",
++              "year"
++            ]
++          ]
++        },
++        {
++          "pillars": [
++            "壬午",
++            "甲辰",
++            "庚子",
++            "乙酉"
++          ],
++          "directed_void_arrows": [
++            [
++              "year",
++              "hour"
++            ],
++            [
++              "day",
++              "month"
++            ],
++            [
++              "hour",
++              "year"
++            ]
++          ]
++        },
++        {
++          "pillars": [
++            "壬午",
++            "乙巳",
++            "庚子",
++            "甲申"
++          ],
++          "directed_void_arrows": [
++            [
++              "year",
++              "hour"
++            ],
++            [
++              "day",
++              "month"
++            ],
++            [
++              "hour",
++              "year"
++            ]
++          ]
++        },
++        {
++          "pillars": [
++            "甲申",
++            "庚午",
++            "庚寅",
++            "癸未"
++          ],
++          "directed_void_arrows": [
++            [
++              "year",
++              "month"
++            ],
++            [
++              "year",
++              "hour"
++            ],
++            [
++              "day",
++              "month"
++            ],
++            [
++              "day",
++              "hour"
++            ],
++            [
++              "hour",
++              "year"
++            ]
++          ]
++        },
++        {
++          "pillars": [
++            "甲申",
++            "辛未",
++            "庚寅",
++            "壬午"
++          ],
++          "directed_void_arrows": [
++            [
++              "year",
++              "month"
++            ],
++            [
++              "year",
++              "hour"
++            ],
++            [
++              "day",
++              "month"
++            ],
++            [
++              "day",
++              "hour"
++            ],
++            [
++              "hour",
++              "year"
++            ]
++          ]
++        },
++        {
++          "pillars": [
++            "壬辰",
++            "丙午",
++            "丙戌",
++            "乙未"
++          ],
++          "directed_void_arrows": [
++            [
++              "year",
++              "month"
++            ],
++            [
++              "year",
++              "hour"
++            ],
++            [
++              "day",
++              "month"
++            ],
++            [
++              "day",
++              "hour"
++            ],
++            [
++              "hour",
++              "year"
++            ]
++          ]
++        },
++        {
++          "pillars": [
++            "壬辰",
++            "丁未",
++            "丙戌",
++            "甲午"
++          ],
++          "directed_void_arrows": [
++            [
++              "year",
++              "month"
++            ],
++            [
++              "year",
++              "hour"
++            ],
++            [
++              "day",
++              "month"
++            ],
++            [
++              "day",
++              "hour"
++            ],
++            [
++              "hour",
++              "year"
++            ]
++          ]
++        },
++        {
++          "pillars": [
++            "甲午",
++            "壬申",
++            "丙子",
++            "癸巳"
++          ],
++          "directed_void_arrows": [
++            [
++              "year",
++              "hour"
++            ],
++            [
++              "day",
++              "month"
++            ],
++            [
++              "hour",
++              "year"
++            ]
++          ]
++        },
++        {
++          "pillars": [
++            "甲午",
++            "癸酉",
++            "丙子",
++            "壬辰"
++          ],
++          "directed_void_arrows": [
++            [
++              "year",
++              "hour"
++            ],
++            [
++              "day",
++              "month"
++            ],
++            [
++              "hour",
++              "year"
++            ]
++          ]
++        },
++        {
++          "pillars": [
++            "辛丑",
++            "丙申",
++            "癸未",
++            "丁巳"
++          ],
++          "directed_void_arrows": [
++            [
++              "year",
++              "hour"
++            ],
++            [
++              "month",
++              "hour"
++            ],
++            [
++              "day",
++              "month"
++            ],
++            [
++              "hour",
++              "year"
++            ]
++          ]
++        },
++        {
++          "pillars": [
++            "辛丑",
++            "丁酉",
++            "癸未",
++            "丙辰"
++          ],
++          "directed_void_arrows": [
++            [
++              "year",
++              "hour"
++            ],
++            [
++              "month",
++              "hour"
++            ],
++            [
++              "day",
++              "month"
++            ],
++            [
++              "hour",
++              "year"
++            ]
++          ]
++        },
++        {
++          "pillars": [
++            "辛亥",
++            "戊戌",
++            "己巳",
++            "丁卯"
++          ],
++          "directed_void_arrows": [
++            [
++              "year",
++              "hour"
++            ],
++            [
++              "month",
++              "day"
++            ],
++            [
++              "day",
++              "year"
++            ],
++            [
++              "day",
++              "month"
++            ],
++            [
++              "hour",
++              "year"
++            ],
++            [
++              "hour",
++              "month"
++            ]
++          ]
++        },
++        {
++          "pillars": [
++            "辛亥",
++            "己亥",
++            "己巳",
++            "丙寅"
++          ],
++          "directed_void_arrows": [
++            [
++              "year",
++              "hour"
++            ],
++            [
++              "month",
++              "day"
++            ],
++            [
++              "day",
++              "year"
++            ],
++            [
++              "day",
++              "month"
++            ],
++            [
++              "hour",
++              "year"
++            ],
++            [
++              "hour",
++              "month"
++            ]
++          ]
++        },
++        {
++          "pillars": [
++            "丙辰",
++            "庚子",
++            "壬戌",
++            "辛丑"
++          ],
++          "directed_void_arrows": [
++            [
++              "year",
++              "month"
++            ],
++            [
++              "year",
++              "hour"
++            ],
++            [
++              "month",
++              "year"
++            ],
++            [
++              "day",
++              "month"
++            ],
++            [
++              "day",
++              "hour"
++            ],
++            [
++              "hour",
++              "year"
++            ]
++          ]
++        },
++        {
++          "pillars": [
++            "丙辰",
++            "辛丑",
++            "壬戌",
++            "庚子"
++          ],
++          "directed_void_arrows": [
++            [
++              "year",
++              "month"
++            ],
++            [
++              "year",
++              "hour"
++            ],
++            [
++              "month",
++              "year"
++            ],
++            [
++              "day",
++              "month"
++            ],
++            [
++              "day",
++              "hour"
++            ],
++            [
++              "hour",
++              "year"
++            ]
++          ]
++        },
++        {
++          "pillars": [
++            "辛酉",
++            "庚子",
++            "乙卯",
++            "丁丑"
++          ],
++          "directed_void_arrows": [
++            [
++              "year",
++              "month"

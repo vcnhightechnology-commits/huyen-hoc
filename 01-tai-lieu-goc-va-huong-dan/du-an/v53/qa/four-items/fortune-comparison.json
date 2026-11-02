@@ -1,0 +1,2094 @@
+{
+  "version": "2.6.2",
+  "calls": 72,
+  "rows": [
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "1990-5-21",
+      "got": {
+        "age": 1,
+        "year": 6,
+        "month": 6,
+        "decade": null
+      },
+      "expected": {
+        "age": 1,
+        "year": 6,
+        "month": 6,
+        "decade": null
+      },
+      "rawEngineMonth": 6,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "1991-2-14",
+      "got": {
+        "age": 1,
+        "year": 6,
+        "month": 2,
+        "decade": null
+      },
+      "expected": {
+        "age": 1,
+        "year": 6,
+        "month": 2,
+        "decade": null
+      },
+      "rawEngineMonth": 2,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "1991-2-15",
+      "got": {
+        "age": 2,
+        "year": 7,
+        "month": 4,
+        "decade": null
+      },
+      "expected": {
+        "age": 2,
+        "year": 7,
+        "month": 4,
+        "decade": null
+      },
+      "rawEngineMonth": 4,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2000-6-1",
+      "got": {
+        "age": 11,
+        "year": 4,
+        "month": 4,
+        "decade": 5
+      },
+      "expected": {
+        "age": 11,
+        "year": 4,
+        "month": 4,
+        "decade": 5
+      },
+      "rawEngineMonth": 4,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-7-24",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 8
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 8
+      },
+      "rawEngineMonth": 7,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-7-25",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 8
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 8
+      },
+      "rawEngineMonth": 7,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-8-8",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 8
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 8
+      },
+      "rawEngineMonth": 7,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-8-9",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 8
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 8
+      },
+      "rawEngineMonth": 8,
+      "sameMonthPolicyCorrection": "native split16 month decremented by one to compare explicit same-month policy",
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2026-2-16",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 1,
+        "decade": 8
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 1,
+        "decade": 8
+      },
+      "rawEngineMonth": 1,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2026-2-17",
+      "got": {
+        "age": 37,
+        "year": 6,
+        "month": 3,
+        "decade": 8
+      },
+      "expected": {
+        "age": 37,
+        "year": 6,
+        "month": 3,
+        "decade": 8
+      },
+      "rawEngineMonth": 3,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2033-12-22",
+      "got": {
+        "age": 44,
+        "year": 1,
+        "month": 8,
+        "decade": 9
+      },
+      "expected": {
+        "age": 44,
+        "year": 1,
+        "month": 8,
+        "decade": 9
+      },
+      "rawEngineMonth": 8,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2040-6-1",
+      "got": {
+        "age": 51,
+        "year": 8,
+        "month": 8,
+        "decade": 9
+      },
+      "expected": {
+        "age": 51,
+        "year": 8,
+        "month": 8,
+        "decade": 9
+      },
+      "rawEngineMonth": 8,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "1990-5-21",
+      "got": {
+        "age": 1,
+        "year": 6,
+        "month": 10,
+        "decade": null
+      },
+      "expected": {
+        "age": 1,
+        "year": 6,
+        "month": 10,
+        "decade": null
+      },
+      "rawEngineMonth": 10,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "1991-2-14",
+      "got": {
+        "age": 1,
+        "year": 6,
+        "month": 6,
+        "decade": null
+      },
+      "expected": {
+        "age": 1,
+        "year": 6,
+        "month": 6,
+        "decade": null
+      },
+      "rawEngineMonth": 6,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "1991-2-15",
+      "got": {
+        "age": 2,
+        "year": 7,
+        "month": 8,
+        "decade": null
+      },
+      "expected": {
+        "age": 2,
+        "year": 7,
+        "month": 8,
+        "decade": null
+      },
+      "rawEngineMonth": 8,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2000-6-1",
+      "got": {
+        "age": 11,
+        "year": 4,
+        "month": 8,
+        "decade": 1
+      },
+      "expected": {
+        "age": 11,
+        "year": 4,
+        "month": 8,
+        "decade": 1
+      },
+      "rawEngineMonth": 8,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-7-24",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 11,
+        "decade": 4
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 11,
+        "decade": 4
+      },
+      "rawEngineMonth": 11,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-7-25",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 11,
+        "decade": 4
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 11,
+        "decade": 4
+      },
+      "rawEngineMonth": 11,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-8-8",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 11,
+        "decade": 4
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 11,
+        "decade": 4
+      },
+      "rawEngineMonth": 11,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-8-9",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 11,
+        "decade": 4
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 11,
+        "decade": 4
+      },
+      "rawEngineMonth": 0,
+      "sameMonthPolicyCorrection": "native split16 month decremented by one to compare explicit same-month policy",
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2026-2-16",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 5,
+        "decade": 4
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 5,
+        "decade": 4
+      },
+      "rawEngineMonth": 5,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2026-2-17",
+      "got": {
+        "age": 37,
+        "year": 6,
+        "month": 7,
+        "decade": 4
+      },
+      "expected": {
+        "age": 37,
+        "year": 6,
+        "month": 7,
+        "decade": 4
+      },
+      "rawEngineMonth": 7,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2033-12-22",
+      "got": {
+        "age": 44,
+        "year": 1,
+        "month": 0,
+        "decade": 4
+      },
+      "expected": {
+        "age": 44,
+        "year": 1,
+        "month": 0,
+        "decade": 4
+      },
+      "rawEngineMonth": 0,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2040-6-1",
+      "got": {
+        "age": 51,
+        "year": 8,
+        "month": 0,
+        "decade": 5
+      },
+      "expected": {
+        "age": 51,
+        "year": 8,
+        "month": 0,
+        "decade": 5
+      },
+      "rawEngineMonth": 0,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "1990-5-21",
+      "got": {
+        "age": 1,
+        "year": 6,
+        "month": 6,
+        "decade": null
+      },
+      "expected": {
+        "age": 1,
+        "year": 6,
+        "month": 6,
+        "decade": null
+      },
+      "rawEngineMonth": 6,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "1991-2-14",
+      "got": {
+        "age": 1,
+        "year": 6,
+        "month": 2,
+        "decade": null
+      },
+      "expected": {
+        "age": 1,
+        "year": 6,
+        "month": 2,
+        "decade": null
+      },
+      "rawEngineMonth": 2,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "1991-2-15",
+      "got": {
+        "age": 2,
+        "year": 7,
+        "month": 4,
+        "decade": null
+      },
+      "expected": {
+        "age": 2,
+        "year": 7,
+        "month": 4,
+        "decade": null
+      },
+      "rawEngineMonth": 4,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2000-6-1",
+      "got": {
+        "age": 11,
+        "year": 4,
+        "month": 4,
+        "decade": 5
+      },
+      "expected": {
+        "age": 11,
+        "year": 4,
+        "month": 4,
+        "decade": 5
+      },
+      "rawEngineMonth": 4,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-7-24",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 8
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 8
+      },
+      "rawEngineMonth": 7,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-7-25",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 8
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 8
+      },
+      "rawEngineMonth": 7,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-8-8",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 8
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 8
+      },
+      "rawEngineMonth": 7,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-8-9",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 8
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 8
+      },
+      "rawEngineMonth": 8,
+      "sameMonthPolicyCorrection": "native split16 month decremented by one to compare explicit same-month policy",
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2026-2-16",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 1,
+        "decade": 8
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 1,
+        "decade": 8
+      },
+      "rawEngineMonth": 1,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2026-2-17",
+      "got": {
+        "age": 37,
+        "year": 6,
+        "month": 3,
+        "decade": 8
+      },
+      "expected": {
+        "age": 37,
+        "year": 6,
+        "month": 3,
+        "decade": 8
+      },
+      "rawEngineMonth": 3,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2033-12-22",
+      "got": {
+        "age": 44,
+        "year": 1,
+        "month": 8,
+        "decade": 9
+      },
+      "expected": {
+        "age": 44,
+        "year": 1,
+        "month": 8,
+        "decade": 9
+      },
+      "rawEngineMonth": 8,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2040-6-1",
+      "got": {
+        "age": 51,
+        "year": 8,
+        "month": 8,
+        "decade": 9
+      },
+      "expected": {
+        "age": 51,
+        "year": 8,
+        "month": 8,
+        "decade": 9
+      },
+      "rawEngineMonth": 8,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "1990-5-21",
+      "got": {
+        "age": 1,
+        "year": 6,
+        "month": 6,
+        "decade": null
+      },
+      "expected": {
+        "age": 1,
+        "year": 6,
+        "month": 6,
+        "decade": null
+      },
+      "rawEngineMonth": 6,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "1991-2-14",
+      "got": {
+        "age": 1,
+        "year": 6,
+        "month": 2,
+        "decade": null
+      },
+      "expected": {
+        "age": 1,
+        "year": 6,
+        "month": 2,
+        "decade": null
+      },
+      "rawEngineMonth": 2,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "1991-2-15",
+      "got": {
+        "age": 2,
+        "year": 7,
+        "month": 4,
+        "decade": null
+      },
+      "expected": {
+        "age": 2,
+        "year": 7,
+        "month": 4,
+        "decade": null
+      },
+      "rawEngineMonth": 4,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2000-6-1",
+      "got": {
+        "age": 11,
+        "year": 4,
+        "month": 4,
+        "decade": 5
+      },
+      "expected": {
+        "age": 11,
+        "year": 4,
+        "month": 4,
+        "decade": 5
+      },
+      "rawEngineMonth": 4,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-7-24",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 2
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 2
+      },
+      "rawEngineMonth": 7,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-7-25",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 2
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 2
+      },
+      "rawEngineMonth": 7,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-8-8",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 2
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 2
+      },
+      "rawEngineMonth": 7,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-8-9",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 2
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 2
+      },
+      "rawEngineMonth": 8,
+      "sameMonthPolicyCorrection": "native split16 month decremented by one to compare explicit same-month policy",
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2026-2-16",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 1,
+        "decade": 2
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 1,
+        "decade": 2
+      },
+      "rawEngineMonth": 1,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2026-2-17",
+      "got": {
+        "age": 37,
+        "year": 6,
+        "month": 3,
+        "decade": 2
+      },
+      "expected": {
+        "age": 37,
+        "year": 6,
+        "month": 3,
+        "decade": 2
+      },
+      "rawEngineMonth": 3,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2033-12-22",
+      "got": {
+        "age": 44,
+        "year": 1,
+        "month": 8,
+        "decade": 1
+      },
+      "expected": {
+        "age": 44,
+        "year": 1,
+        "month": 8,
+        "decade": 1
+      },
+      "rawEngineMonth": 8,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2040-6-1",
+      "got": {
+        "age": 51,
+        "year": 8,
+        "month": 8,
+        "decade": 1
+      },
+      "expected": {
+        "age": 51,
+        "year": 8,
+        "month": 8,
+        "decade": 1
+      },
+      "rawEngineMonth": 8,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "1990-5-21",
+      "got": {
+        "age": 1,
+        "year": 6,
+        "month": 10,
+        "decade": null
+      },
+      "expected": {
+        "age": 1,
+        "year": 6,
+        "month": 10,
+        "decade": null
+      },
+      "rawEngineMonth": 10,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "1991-2-14",
+      "got": {
+        "age": 1,
+        "year": 6,
+        "month": 6,
+        "decade": null
+      },
+      "expected": {
+        "age": 1,
+        "year": 6,
+        "month": 6,
+        "decade": null
+      },
+      "rawEngineMonth": 6,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "1991-2-15",
+      "got": {
+        "age": 2,
+        "year": 7,
+        "month": 8,
+        "decade": null
+      },
+      "expected": {
+        "age": 2,
+        "year": 7,
+        "month": 8,
+        "decade": null
+      },
+      "rawEngineMonth": 8,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2000-6-1",
+      "got": {
+        "age": 11,
+        "year": 4,
+        "month": 8,
+        "decade": 1
+      },
+      "expected": {
+        "age": 11,
+        "year": 4,
+        "month": 8,
+        "decade": 1
+      },
+      "rawEngineMonth": 8,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-7-24",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 11,
+        "decade": 10
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 11,
+        "decade": 10
+      },
+      "rawEngineMonth": 11,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-7-25",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 11,
+        "decade": 10
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 11,
+        "decade": 10
+      },
+      "rawEngineMonth": 11,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-8-8",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 11,
+        "decade": 10
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 11,
+        "decade": 10
+      },
+      "rawEngineMonth": 11,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-8-9",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 11,
+        "decade": 10
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 11,
+        "decade": 10
+      },
+      "rawEngineMonth": 0,
+      "sameMonthPolicyCorrection": "native split16 month decremented by one to compare explicit same-month policy",
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2026-2-16",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 5,
+        "decade": 10
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 5,
+        "decade": 10
+      },
+      "rawEngineMonth": 5,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2026-2-17",
+      "got": {
+        "age": 37,
+        "year": 6,
+        "month": 7,
+        "decade": 10
+      },
+      "expected": {
+        "age": 37,
+        "year": 6,
+        "month": 7,
+        "decade": 10
+      },
+      "rawEngineMonth": 7,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2033-12-22",
+      "got": {
+        "age": 44,
+        "year": 1,
+        "month": 0,
+        "decade": 10
+      },
+      "expected": {
+        "age": 44,
+        "year": 1,
+        "month": 0,
+        "decade": 10
+      },
+      "rawEngineMonth": 0,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2040-6-1",
+      "got": {
+        "age": 51,
+        "year": 8,
+        "month": 0,
+        "decade": 9
+      },
+      "expected": {
+        "age": 51,
+        "year": 8,
+        "month": 0,
+        "decade": 9
+      },
+      "rawEngineMonth": 0,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "1990-5-21",
+      "got": {
+        "age": 1,
+        "year": 6,
+        "month": 6,
+        "decade": null
+      },
+      "expected": {
+        "age": 1,
+        "year": 6,
+        "month": 6,
+        "decade": null
+      },
+      "rawEngineMonth": 6,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "1991-2-14",
+      "got": {
+        "age": 1,
+        "year": 6,
+        "month": 2,
+        "decade": null
+      },
+      "expected": {
+        "age": 1,
+        "year": 6,
+        "month": 2,
+        "decade": null
+      },
+      "rawEngineMonth": 2,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "1991-2-15",
+      "got": {
+        "age": 2,
+        "year": 7,
+        "month": 4,
+        "decade": null
+      },
+      "expected": {
+        "age": 2,
+        "year": 7,
+        "month": 4,
+        "decade": null
+      },
+      "rawEngineMonth": 4,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2000-6-1",
+      "got": {
+        "age": 11,
+        "year": 4,
+        "month": 4,
+        "decade": 5
+      },
+      "expected": {
+        "age": 11,
+        "year": 4,
+        "month": 4,
+        "decade": 5
+      },
+      "rawEngineMonth": 4,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-7-24",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 2
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 2
+      },
+      "rawEngineMonth": 7,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-7-25",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 2
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 2
+      },
+      "rawEngineMonth": 7,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-8-8",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 2
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 2
+      },
+      "rawEngineMonth": 7,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2025-8-9",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 2
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 7,
+        "decade": 2
+      },
+      "rawEngineMonth": 8,
+      "sameMonthPolicyCorrection": "native split16 month decremented by one to compare explicit same-month policy",
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2026-2-16",
+      "got": {
+        "age": 36,
+        "year": 5,
+        "month": 1,
+        "decade": 2
+      },
+      "expected": {
+        "age": 36,
+        "year": 5,
+        "month": 1,
+        "decade": 2
+      },
+      "rawEngineMonth": 1,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2026-2-17",
+      "got": {
+        "age": 37,
+        "year": 6,
+        "month": 3,
+        "decade": 2
+      },
+      "expected": {
+        "age": 37,
+        "year": 6,
+        "month": 3,
+        "decade": 2
+      },
+      "rawEngineMonth": 3,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2033-12-22",
+      "got": {
+        "age": 44,
+        "year": 1,
+        "month": 8,
+        "decade": 1
+      },
+      "expected": {
+        "age": 44,
+        "year": 1,
+        "month": 8,
+        "decade": 1
+      },
+      "rawEngineMonth": 8,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "date": "2040-6-1",
+      "got": {
+        "age": 51,
+        "year": 8,
+        "month": 8,
+        "decade": 1
+      },
+      "expected": {
+        "age": 51,
+        "year": 8,
+        "month": 8,
+        "decade": 1
+      },
+      "rawEngineMonth": 8,
+      "sameMonthPolicyCorrection": null,
+      "ok": true
+    }
+  ]
+}

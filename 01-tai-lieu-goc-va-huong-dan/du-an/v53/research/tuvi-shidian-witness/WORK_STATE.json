@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-29",
+  "status": "private-digital-witness-and-provenance-ledger-verified-not-promoted",
+  "catalogueID": "T01",
+  "workDirectory": "tmp/tuvi-shidian-witness-staging",
+  "digitalSource": "Shidian SDZJ0170 public chapter",
+  "metadataAttributedLibrary": "日本内阁文库",
+  "independentEditionEstablished": false,
+  "newSourceImages": 0,
+  "selectedDigitalParagraphsInspected": 7,
+  "retainedSourceCanvasReexamined": [
+    80
+  ],
+  "wholeChapterApplied": false,
+  "wholeCatalogueCompleted": false,
+  "newEngineCalls": 0,
+  "consumerChanged": false,
+  "unresolved": [
+    "童限 tail glyph/meaning, age convention and first major-period start.",
+    "火鈴星 at子午, one/two-star choice and source birth-year anchor.",
+    "Canh/Nham transformation variant independent witness.",
+    "Physical-copy relation between this platform and retained Japanese items."
+  ],
+  "next": [
+    "Use DIGITAL_PASSAGE_LEDGER as a digital reading, never an independent facsimile correction. Keep engine and source ordinals unchanged.",
+    "If normal user-visible image access becomes available, inspect exactly the three target pageIds recorded in TARGET_PUBLIC_RECORDS; do not build/decrypt tokens or retry blocked Japanese max image.",
+    "Continue independent source conditions or institutional catalogue witnesses while these text/age premises remain open."
+  ]
+}

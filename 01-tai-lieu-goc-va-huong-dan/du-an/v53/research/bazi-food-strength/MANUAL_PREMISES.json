@@ -1,0 +1,107 @@
+{
+  "sourceID": "TMTH005-FOOD-C13",
+  "parentContext": {
+    "id": "FOOD-00-C13",
+    "unit": "FOOD-00",
+    "heading": "論食神",
+    "startCleanCodepoint": 671,
+    "endCleanCodepoint": 770,
+    "text": "又曰甲日食丙柱中無壬癸亥子方好如有水氣丙自受制屈伏於人巳身不能卓立豈能生物以養其父如無此制又要生旺向禄如丙生夏月運厯東南火土俱旺其甲用財必厚若生三春甲旺丙火雖得生不知戊巳氣薄須厯南方火土俱旺方許發福",
+    "digitalFolios": [
+      "005-86a"
+    ],
+    "digitalOnlyFoliosWithinKnownContinuityGap": [],
+    "voice": "quoted-voice",
+    "disposition": "specific-stem-season-context",
+    "readingNote": "Ví dụ 甲丙, các chữ nước/mùa/vận và Tài; không tự gán mùa là đã có đủ lực.",
+    "firstPassRead": true,
+    "allCharactersImageCollated": false,
+    "fullConditionalRuleEncoded": false,
+    "sourceOutcomeValidated": false,
+    "consumerApplied": false
+  },
+  "image": "v53/research/bazi-food-source/p173.png",
+  "folio": "005-86a",
+  "clauses": [
+    {
+      "id": "opening-literal",
+      "literal": "甲日食丙柱中無壬癸亥子方好",
+      "subjects": {
+        "day": "甲",
+        "food": "丙"
+      },
+      "literalWaterMarkers": [
+        "壬",
+        "癸",
+        "亥",
+        "子"
+      ],
+      "boundary": "Visible literal coordinates only; missing pillars do not prove absence, hidden stems and effective water are not computed."
+    },
+    {
+      "id": "water-restraint",
+      "literal": "如有水氣丙自受制",
+      "subject": "丙",
+      "boundary": "水氣 is a source functional premise, not automatically equal to any visible marker."
+    },
+    {
+      "id": "continuing",
+      "literal": "如無此制又要生旺向禄",
+      "subject": null,
+      "boundary": "Additional compound condition, not automatically resolved to丙,甲 or a specific twelve-phase label."
+    },
+    {
+      "id": "summer",
+      "literal": "如丙生夏月運厯東南火土俱旺",
+      "subjects": [
+        "丙",
+        "火",
+        "土"
+      ],
+      "boundary": "夏月 and東南 do not themselves establish火土俱旺; no conversion from a Gregorian/lunar month or luck pillar."
+    },
+    {
+      "id": "spring-contrast",
+      "literal": "若生三春甲旺丙火雖得生不知戊巳氣薄",
+      "subjects": [
+        "甲",
+        "丙火",
+        "戊巳"
+      ],
+      "boundary": "Three distinct predicates; source digital巳 is not silently changed to己."
+    },
+    {
+      "id": "spring-continuation",
+      "literal": "須厯南方火土俱旺方許發福",
+      "subjects": [
+        "火",
+        "土"
+      ],
+      "boundary": "Selected conditions only;發福 is not an implemented or validated outcome."
+    }
+  ],
+  "glyphReadings": [
+    {
+      "digital": "巳身",
+      "imageWorkingReading": "己身",
+      "status": "native-image local working reading, digital bytes unchanged"
+    },
+    {
+      "digital": "戊巳",
+      "imageWorkingReading": "戊己",
+      "status": "native-image local working reading, glyph policy explicit; no all-context emendation"
+    }
+  ],
+  "outcomePhrasesUnimplemented": [
+    "屈伏於人",
+    "不能卓立",
+    "生物以養其父",
+    "用財必厚",
+    "方許發福"
+  ],
+  "subjectBindingOfShengWangXiangLu": null,
+  "calendarAdapter": false,
+  "wholeContextApplied": false,
+  "sourceOutcomeValidated": false,
+  "consumerApplied": false
+}

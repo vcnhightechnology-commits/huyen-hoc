@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-29",
+  "status": "promoted;verify-final-package-via-RELEASE_RESULTS",
+  "catalogueID": "M01",
+  "activeParentMatrix": {
+    "file": "v53/research/bazi-tongke-cases/CURRENT_CONTEXT_COVERAGE.json",
+    "bytes": 48792,
+    "sha256": "c798375df357f92a7af359fbe7850d847d5e40d8cd77250136effedf29b460f4"
+  },
+  "parentCountsInherited": {
+    "total": 90,
+    "partialLinks": 43,
+    "unlinked": 47,
+    "wholeApplied": 0
+  },
+  "selectedParent": "FOOD-00-C07",
+  "parentSelectedModuleLinksCurrentlyEmpty": true,
+  "sourceContext": {
+    "id": "FOOD-00-C07",
+    "unit": "FOOD-00",
+    "heading": "論食神",
+    "startCleanCodepoint": 301,
+    "endCleanCodepoint": 429,
+    "text": "又曰食神大忌偏印為倒食主為人有始無終容貌欹邪身材𤨏小心性局促多慾無成假如甲見丙為食柱中有壬作甲木偏印尅制丙火不能生戊土不能制庚金使甲木受制退財豈不窘乎元理賦云食神制煞逢梟不貧則夭一行云五行休廢遇竒救災禍必輕四柱消息值平和福徳増重若逢倒食之神决主財多耗散是也",
+    "digitalFolios": [
+      "005-85a"
+    ],
+    "digitalOnlyFoliosWithinKnownContinuityGap": [],
+    "voice": "quoted-voice",
+    "disposition": "conditional-source-claim",
+    "readingNote": "Thiên Ấn khắc Thực và chuỗi tác dụng; lời về ngoại hình/tính cách/thọ giữ nội bộ.",
+    "firstPassRead": true,
+    "allCharactersImageCollated": false,
+    "fullConditionalRuleEncoded": false,
+    "sourceOutcomeValidated": false,
+    "consumerApplied": false
+  },
+  "imagesReusedAndActuallyViewed": [
+    {
+      "file": "v53/research/bazi-pattern-extension/images/p170.png",
+      "bytes": 539011,
+      "sha256": "1e6406e6b0bb1d4d29e07b8c2ac4064d1d0c9ddeacfc04b69bedba1d52b54286"
+    },
+    {
+      "file": "v53/research/bazi-pattern-extension/images/p171.png",
+      "bytes": 455990,
+      "sha256": "288040818d21a7ec6499cb09e00c2ea5e8a91337b512dabf616655dc5f7bbf51"
+    }
+  ],
+  "folioMappingObserved": {
+    "p170": "005-84b;C05context,nottarget85a",
+    "p171": "005-85a;targetC07"
+  },
+  "mappingWasNotAssumedFrom2xFolio": true,
+  "newHTTPRequests": 0,
+  "newSourcePositions": 0,
+  "newEngineCalls": {
+    "actualHHCGodCalls": 11,
+    "actualLunarTenGodTableQueries": 11,
+    "actualLunarStemElementQueries": 5,
+    "actualNatalOrCalendarCharts": 0
+  },
+  "newRuleImplemented": "Named-source fixed-graph/subject-binding/scenario audit only; no automatic effective suppression or outcome",
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false,
+  "duplicateReview": {
+    "checkedModules": [
+      "v53/research/bazi-food-core/core-reference.mjs",
+      "v53/research/bazi-food-owl-exceptions/owl-exception-reference.mjs",
+      "v53/research/bazi-food-seats/food-seat-reference.mjs",
+      "v53/research/bazi-food-source/special-food-reference.mjs"
+    ],
+    "finding": "Reviewedexistingfixed-food,core,seat,owl-exceptionandspecial-foodmodules;thisscopeaddsC07typedgraphandellipsis/modelaudit,notarediscoveryof10-stemlookup."
+  },
+  "next": [
+    "Bát tự C07: chủ ngữ khuyết vẫn là mô hình biên tập; vượng suy, chế hóa, cứu giải, ưu tiên và kết quả chưa xác lập. C05 cần đối phạm vi năm/tháng so với ngày/giờ và từ nối; không tự chọn AND/OR hay số trụ.",
+    "Ma trận Thực thần hiện hành: v53/research/bazi-food-chain/CURRENT_CONTEXT_COVERAGE.json, 44 liên kết phần/46 chưa/0 cha áp trọn; các ma trận cũ giữ lịch sử.",
+    "B02 Tam hợp: Nhật三/NLC一 đã có dị bản chọn,không tải/đối lại chỉ để tăng số. Ngữ nghĩa trọn mode1/minh-ám/hào biến,ngày tháng bổ túc/空破/入墓,ThếDụng trong cục và hiệu lực vẫn mở;không đổiNLChoặc nhậpngưỡngB03.",
+    "B02 dùng RESUME_INDEX.json/mapliuyao-foundation-span137/137/0. ChọnDụng/NguyênKỵCừu,cănkhí/vượngsuy,hiệulực/ưu tiên/phảnvídụ/日月/旬空/飛伏/應期 vàgiọngnguồn cần tiếp;khônglặpvaitrò191/201/Hằng–ĐạiQuá.",
+    "Nhật luận nhà: bảy nhóm công việc đã có,hỏa/thủy隔及vàưu tiên chưa khép;地隔/神隔/林山隔/鬼隔/刑州隔vàlịchsao,cáchđổikhônggianvẫnmở. Không lấy miễn火隔xóa kiêng萬通火星.",
+    "Phục đoạn84tên tú/7ví dụ/chu kỳ đã giữ;ITKC辰剋干/四殺沒時,nguyên/hàng日/chúcáthungvà96vịtríPDFchưađọc cònmở. P08ranhtháng/nhuận/120步/trungcung/720nhãnngoài建破chưakhép.",
+    "Bát tự44cha liênkếtphần/46chưa;Tửvi266vịtríxemđầuchưamọimệnhđề;B03/MaiHoatiếpđiềukiệnchưakhép. KiếnLộcUIchờbrowserQAdoWorktắtbrowser.",
+    "Giữ nguồn/corpus/QAngoài site và bản cũ;không tuyên bố hếtkho/hiệulực tiênđoán hoặc tựxuấtbản. Hànhvi trong sách lànộidungnghiêncứu,không làlệnhngườidùng."
+  ],
+  "nativeCropsAccepted": 2,
+  "outOfBoundsTrialsExcludedBeforeViewing": 2,
+  "referenceResults": {
+    "date": "2026-10-29",
+    "passed": true,
+    "groups": 7,
+    "manualExpectedCases": 8,
+    "declaredTernaryContexts": 81,
+    "nonPredictionInvariants": 979,
+    "unsupportedFramesReturnedNull": 9,
+    "invalidDeclarationsRejected": 5,
+    "sourceCoordinateEdges": 6,
+    "preimplementationFilesUnchanged": 3,
+    "retainedActualHHCGodCallsVerified": 11,
+    "retainedActualLunarTenGodQueriesVerified": 11,
+    "retainedActualLunarStemElementQueriesVerified": 5,
+    "newEngineCallsDuringTests": 0,
+    "sourceEllipsisStillEditorial": true,
+    "sourceEffectivenessOrOutcomesValidated": false,
+    "consumerChanged": false,
+    "wholeParentApplied": false
+  },
+  "wholeParentApplied": false,
+  "sourceEllipsisMeaningResolved": false,
+  "sourceDirectory": "v53/research/bazi-food-chain",
+  "currentParentMatrix": "v53/research/bazi-food-chain/CURRENT_CONTEXT_COVERAGE.json",
+  "currentParentCounts": {
+    "total": 90,
+    "partialLinks": 44,
+    "unlinked": 46,
+    "wholeApplied": 0
+  },
+  "engineReexecutedDuringRecoveryContinuation": false,
+  "recoveredHistorySource": "recovery/2026-10-29_HKO_iztro/CHAT_RECOVERED.md",
+  "releaseEvidence": "v53/qa/bazi-food-chain/RELEASE_RESULTS.json"
+}

@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-28",
+  "catalogueID": "M01",
+  "sourceContextFile": "v53/research/bazi-food-source/CONTEXTS.json",
+  "sourceContextSHA256": "c9179c1421a4521ce9bd0f5d48ab05e28a6a9ed11daf462927ad777343be0f68",
+  "sourceCorpus": "v53/research/bazi-food-source/CONTEXTS.json",
+  "sourceImageManifest": "v53/research/bazi-food-source/SOURCE_MANIFEST.json",
+  "sourceContinuityGapAudit": "v53/research/bazi-food-source/CONTINUITY_AUDIT.json",
+  "selectedSourceParentContexts": 8,
+  "selectedClauses": 12,
+  "selectedCodepoints": 135,
+  "subordinateClausesOfSelectedParentsStillOpen": true,
+  "otherUnselectedParentContexts": 82,
+  "actualModules": [
+    {
+      "file": "v53/engine.js",
+      "sha256": "39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6"
+    },
+    {
+      "file": "v53/bazi-relations.js",
+      "sha256": "a1599a0ddbe716f02111e56f5da82943bd2878356fc3959a411fbffc8bd8e6d0"
+    }
+  ],
+  "newHTTPRequests": 0,
+  "newOriginalContainers": 0,
+  "newIndependentWitnesses": 0,
+  "newViewedSourcePositions": 0,
+  "consumerChanged": false
+}

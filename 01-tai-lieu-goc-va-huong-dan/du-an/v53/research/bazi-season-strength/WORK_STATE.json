@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-28",
+  "status": "selected-seasonal-labels25slots24recognized1unclassified-verified",
+  "catalogueID": "M01",
+  "sourceDirectory": "v53/research/bazi-season-strength",
+  "retainedDigital": {
+    "file": "v53/research/four-items/sources/KR3g0042_002.txt",
+    "sha256": "b0f9badc8aff64ee137392277eb2f7a428c39a9d8c9faa3154f79c626c2131b4",
+    "decodedSliceFile": "RETAINED_DIGITAL_STRENGTH_SECTION.txt",
+    "sliceNotOriginalHTTPBytes": true,
+    "digitalFolios": [
+      "002-54b",
+      "002-55a",
+      "002-55b",
+      "002-56a",
+      "002-56b",
+      "002-57a"
+    ]
+  },
+  "newRepositoryContainerBytes": 10858550,
+  "newRepositoryContainerSHA256": "7a53f35982f0b946281d0e393c5d6ddcce1fd091aea83c11af6a06bcdfe6a85e",
+  "newHTTP200TLSBodies": 3,
+  "actuallyViewedPositions": [
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116
+  ],
+  "pendingIssues": [
+    "Digital 夏水因 is not silently corrected to 囚 from common formula; inspect corresponding glyph first.",
+    "Source 六月土旺 is not automatically 四季末18days or a Gregorian date rule.",
+    "Source explicitly says生旺未必吉/休囚死絶未必凶; never equate a state label with overall fortune or full natal strength."
+  ],
+  "newConsumerChange": false,
+  "wholeCatalogueCompleted": false,
+  "next": [
+    "Tìm nhân chứng hợp lệ cho夏水因nếu có,giữliteralhiện tại và24nhãnchuẩn;không tựép囚từbảngphổthông. Đọc phần季令/人元司事trước khépánhxạngàythựcvào pha,đặcbiệt六月土旺vàbốn季末.",
+    "Phânbiệt5nhãnmùavụvới12寄生vàvượngsuytoànlá số;nguồn114nóisinhvượngchưa chắc吉/休囚死絕chưa chắc凶.Phần12địnhnghĩađọclầnđầu chưaápđầyđủ,mọichươngquyển2kháccònmở.",
+    "Tiếp81ngữcảnh Thực thần chưa chọn vàđiềukiệnphụtrong9đãchọn;nhàở69ô64khớp/5mờ,交門換象初爻/ranhlịch/720ôtháng;Tửvi童限火鈴CanhNhâm/khởihạn,DịchB02/B03/MaiHoa.Nghiêncứu/QAngoàisite,khônglặptải/kiểmđãđạt,khôngxuấtbản."
+  ],
+  "chapterTargetSpan": [
+    110,
+    111,
+    112,
+    113,
+    114,
+    115
+  ],
+  "boundaryPositions": [
+    109,
+    116
+  ],
+  "manualStateSlots": 25,
+  "recognizedStateSlots": 24,
+  "unclassifiedLiteralSlots": 1,
+  "nativeCropsViewedPixelMatched": 6,
+  "latestReport": "v53/BAZI_SEASON_LABELS_REPORT.md",
+  "completedStep": "Tam Mệnh quyển2:giữ thêmDjVukhoCommons/CADAL06066038,10858550byte/232vịtrí,SHA2567a53f359…/APIkhớpSHA1/size,3HTTP200TLS.Xem8vịtrí109–116(6nộidung/2ranh) và6cropnativekhớppixel.Chéptrướcso25ô/5pha春夏六月秋冬:24nhãnchuẩn,1literal夏水因chưaphânloại;ảnhgiữnétchữ因khácbốn囚đốichứng,khôngsửatừcôngthức.Có2APItra nhãn/profilenguồn,5kiểmcuối;0lịch/HHCđượcgọivìkhôngsoenginehayđổi thuật lịch.Khôngtựgán六月vớibốn季末18ngày,haysuyvượngsuy/cáthungtoànlá số.Lời見生旺未必吉/休囚死絶未必凶đượcgiữ,các12寄生táchriêng.Toàn232vịtrí/cácthuyếtkhácchưađọc,hồsơcơquanCADALchưađộc lậpxáclập;webnguyênbyte,toànkhoactive.",
+  "completeRuntimeChecks": 5,
+  "newRepositoryContainers": 1,
+  "actualCalendarOrHHCEngineCalls": 0,
+  "sourceWholeVolumeRead": false,
+  "fullNatalStrengthEstablished": false,
+  "consumerChanged": false,
+  "sourceLookupSlots": 25
+}

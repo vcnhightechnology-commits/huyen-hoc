@@ -1,0 +1,63 @@
+{
+  "directedClashTokens": [
+    "子午",
+    "午子",
+    "丑未",
+    "未丑",
+    "寅申",
+    "申寅",
+    "卯酉",
+    "酉卯",
+    "辰戌",
+    "戌辰",
+    "巳亥",
+    "亥巳"
+  ],
+  "printedExamples": {
+    "辛巳癸亥": "衝處相生",
+    "壬申庚寅": "衝處相尅",
+    "甲子甲午": "同類相衝",
+    "己卯己酉": "同類相衝"
+  },
+  "fourGroups": {
+    "four-birth": "寅申巳亥",
+    "four-cardinal": "子午卯酉"
+  },
+  "unresolvedFourStores": "戌丑未未",
+  "declaredDirection": {
+    "吉象": "other-to-self",
+    "凶象": "self-to-other"
+  },
+  "luExample": [
+    "甲",
+    "寅",
+    "申"
+  ],
+  "horseExample": [
+    "unresolved-native-己-glyph",
+    "亥"
+  ],
+  "newNaYinExpected": {
+    "辛巳": "白蜡金",
+    "癸亥": "大海水",
+    "壬申": "剑锋金",
+    "庚寅": "松柏木",
+    "甲子": "海中金",
+    "甲午": "沙中金"
+  },
+  "newEngineQueriesExpected": 6,
+  "reason": "Reuse2specificNaYinlookupsfromverifiedtrue-ghostcontextand12actualCHONGrowsfromharm.6otherpillarNaYinvaluesarenotcoveredbytheseselectedruntimeevidencefiles;querytheseonce.",
+  "withhold": [
+    "fullPattern",
+    "efficacy",
+    "medicalRisk",
+    "morality",
+    "rankPrediction",
+    "calendarFeasibility",
+    "overallGoodBad"
+  ],
+  "reusedNaYinExpected": {
+    "己卯": "城头土",
+    "己酉": "大驿土"
+  }
+}

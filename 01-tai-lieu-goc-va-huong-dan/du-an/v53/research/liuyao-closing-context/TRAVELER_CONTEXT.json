@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-28",
+  "system": "B02-ch094-explicit-traveler-question",
+  "sourcePages": [
+    333,
+    334,
+    335,
+    336,
+    337
+  ],
+  "sourceVoices": [
+    "野鶴"
+  ],
+  "questionLabels": [
+    "return-date",
+    "traveler-condition"
+  ],
+  "subjects": [
+    {
+      "id": "father",
+      "kin": "父母"
+    },
+    {
+      "id": "mother",
+      "kin": "父母"
+    },
+    {
+      "id": "husband",
+      "kin": "官鬼"
+    },
+    {
+      "id": "unrelated-traveler",
+      "structuralRole": "應"
+    }
+  ],
+  "sourceQuestionSeparation": "若問歸期只可看卦象來與不來而斷也;askingtravelercondition differs fromreturn-date,source motherexample explicitly rejects changingthequestionafteranswer.",
+  "structuralVocabulary": {
+    "literal": "用神墓絕空破受傷謂之有病",
+    "term": "有病",
+    "namedPassageSense": "source-use-line-afflicted-by-tomb/extinction/void/break/injury",
+    "notAutomaticallyActualPersonIllness": true,
+    "notAClinicalDefinition": true
+  },
+  "calendarDateAdapterEstablished": false,
+  "clinicalOutcomeValidated": false,
+  "actualTravelSafetyValidated": false,
+  "sourceInstructionsAreData": true,
+  "fixture": {
+    "sourcePDFPage": 334,
+    "sourceHeadings": [
+      "旅",
+      "艮"
+    ],
+    "valuesBottomToTop": [
+      8,
+      8,
+      7,
+      9,
+      8,
+      7
+    ],
+    "primaryNumber": 56,
+    "changedNumber": 52,
+    "movingLines": [
+      4
+    ],
+    "sourceBaseWorkingLabelsBottomToTop": [
+      {
+        "branch": "辰",
+        "kin": "子孫"
+      },
+      {
+        "branch": "午",
+        "kin": "兄弟"
+      },
+      {
+        "branch": "申",
+        "kin": "妻財"
+      },
+      {
+        "branch": "酉",
+        "kin": "妻財"
+      },
+      {
+        "branch": "未",
+        "kin": "子孫"
+      },
+      {
+        "branch": "巳",
+        "kin": "兄弟"
+      }
+    ],
+    "sourceGraphicSiNormalizedExplicitly": true,
+    "sourceSiGraphicWorkingReading": "己/巳 at top branch,contextualbranch-normalization notdiplomaticglyphrestoration",
+    "sourceSelfLine": 1,
+    "sourceResponseLine": 4,
+    "sourceChangedLine": {
+      "line": 4,
+      "branch": "戌",
+      "kin": "子孫"
+    },
+    "sourceHiddenFatherWorkingLabel": {
+      "line": 1,
+      "branch": "卯",
+      "kin": "父母"
+    },
+    "hiddenRoleReadIsNotAutomaticallyChosenUseLine": true,
+    "historicalDateKnown": false,
+    "sourceOutcomesValidated": false
+  },
+  "consumerApplied": false,
+  "wholeChapterApplied": false
+}

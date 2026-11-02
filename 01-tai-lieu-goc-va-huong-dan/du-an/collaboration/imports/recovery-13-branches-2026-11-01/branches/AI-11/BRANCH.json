@@ -1,0 +1,18 @@
+{
+  "id": "AI-11",
+  "name": "Hán Nôm — Chỉ mục nguồn và khảo dị kinh truyện",
+  "researchTrackDirectory": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-11",
+  "historicalGitBranchRef": "codex/ai-11-han-nom",
+  "historicalPR": "10",
+  "historicalCommitSHA": "9680aa12ac66b7d9a70c0746bef59275337185f9 (mốc lịch sử)",
+  "historicalGitMetadataVerifiedAgainstCurrentRemote": false,
+  "reportedTestsHistoricalUnverified": "Theo lịch sử: 225/225 kiểm cấu trúc",
+  "reportedNextSteps": "Cần ảnh gốc/folio, SHA-256 ảnh/PDF, kiểm nhân chứng in độc lập và Node trên checkout hoàn chỉnh.",
+  "currentProjectPointers": [
+    "v53/research/library-audit",
+    "v53/research/library-current/COVERAGE.json",
+    "v53/research/yi-*"
+  ],
+  "evidenceMembers": 1,
+  "applicationPatchApplied": false
+}

@@ -1,0 +1,64 @@
+{
+  "files": [
+    {
+      "file": "v53/research/bazi-food-source/CONTEXTS.json",
+      "bytes": 82405,
+      "sha256": "c9179c1421a4521ce9bd0f5d48ab05e28a6a9ed11daf462927ad777343be0f68"
+    },
+    {
+      "file": "v53/research/bazi-food-source/p173.png",
+      "bytes": 270236,
+      "sha256": "f899933d8ce37cb204864bf883b3c23415b47012abd6730ee10fdfc16fb0c41b"
+    },
+    {
+      "file": "v53/research/bazi-food-chain/CURRENT_CONTEXT_COVERAGE.json",
+      "bytes": 49140,
+      "sha256": "0e08e128b4e3386a95da8dadc1e64fba9a6014b41617a3799f19e9fd6bdad09e"
+    },
+    {
+      "file": "v53/research/bazi-food-chain/ACTUAL_RUNTIME.json",
+      "bytes": 2626,
+      "sha256": "42958e52ca8d8fc8bed0f1a87619315cba7acc89666298b6924a3a4592a786b0"
+    },
+    {
+      "file": "v53/research/bazi-food-chain/PREIMPLEMENTATION_FREEZE.json",
+      "bytes": 572,
+      "sha256": "6d69153cf136a904754b2309da1f66a5523807ac6a6805281578ba2f68591217"
+    },
+    {
+      "file": "v53/engine.js",
+      "bytes": 42033,
+      "sha256": "39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6"
+    },
+    {
+      "file": "v53/bazi-relations.js",
+      "bytes": 7414,
+      "sha256": "a1599a0ddbe716f02111e56f5da82943bd2878356fc3959a411fbffc8bd8e6d0"
+    },
+    {
+      "file": "v46/node_modules/lunar-typescript/dist/index.cjs",
+      "bytes": 425191,
+      "sha256": "76e490b74e9913ed94b49689b90abc688ed1e2b11456312b3eb081ec63cf2fbe"
+    },
+    {
+      "file": "v53/research/bazi-food-core/core-reference.mjs",
+      "bytes": 3680,
+      "sha256": "cc4c8cab5de10199dd8042918912dc44e0d2ac1a0fe9707110abb12276a9fc30"
+    }
+  ],
+  "retainedActualPair": {
+    "root": "甲",
+    "target": "丙",
+    "actualHHCTenGod": "Thực Thần",
+    "actualLunarTenGod": "食神"
+  },
+  "reuseFrom": "v53/research/bazi-food-chain/ACTUAL_RUNTIME.json",
+  "actualNewEngineCalls": 0,
+  "actualNewCalendarObjects": 0,
+  "fixedRelationDoesNotEstablishStrength": true,
+  "parentMatrixHistoricalCounts": [
+    44,
+    46,
+    0
+  ]
+}

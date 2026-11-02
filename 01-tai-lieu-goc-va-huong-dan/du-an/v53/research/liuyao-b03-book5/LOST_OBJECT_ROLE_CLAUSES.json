@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-27",
+  "sourceID": "B03-book5",
+  "context": "B03-volume11-lost-objects",
+  "defaultWealthContextPDFPage": 12,
+  "exceptionPDFPage": 17,
+  "boundedReading": "失脫不可專以財為用神",
+  "parentObjectReading": "若失舟車衣帽文章奏疏則以父母為用爻",
+  "parentMovingCautionReading": "故忌財動",
+  "childObjectReading": "若失飛禽走獸則以子孫為用爻",
+  "childMovingCautionReading": "故忌父爻動",
+  "notEveryLostThingIsWealth": true,
+  "sourceCategories": {
+    "wealth": [
+      "cash"
+    ],
+    "父母": [
+      "boat",
+      "vehicle",
+      "garment",
+      "headwear",
+      "document",
+      "memorial"
+    ],
+    "子孫": [
+      "bird",
+      "beast"
+    ]
+  },
+  "categoryIDsAreEditorialNormalization": true,
+  "movingCautionIsNotOutcomeAdjudication": true,
+  "notEstablished": [
+    "All modern object types",
+    "Physical search location",
+    "Suspect identity",
+    "Capture outcome",
+    "Full lost-object and timing rules"
+  ],
+  "consumerApplied": false
+}

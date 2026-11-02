@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-28",
+  "previousTable": "v53/research/liuyao-b03-volume4/TRIAD_TABLES.json",
+  "previousSHA256": "a86cf36ab6992e1bfcf1145ea5023d2aac4d7a4495858ab871692c770f847fd6",
+  "previousLiteral": "三刑三合之法皆須見全有兩爻動則刑合得成",
+  "currentLiteral": "三刑三合之法必須見全有兩爻動則刑合得一爻起如一爻動則刑合不得兩爻起了如卦中刑合縱見全倘俱安靜便不成刑合了如此占驗就明白曉暢矣",
+  "correction": "Old literalBoundedReading abbreviated the image inaccurately:皆→必 and得成→得一爻起. Old >=2moving primary gate was explicitly operational, not the full wording; new clause provider separates exactly2/1/0 and leaves3active unassigned.",
+  "oldFilesPreserved": true,
+  "oldReference": "v53/research/liuyao-b03-volume4/triad-reference.mjs",
+  "oldReferenceSHA256": "0c93292b42bb55d16de754d7d3e9cb2022d5707e2de1c3490836e048597bc51f",
+  "consumerAffected": false,
+  "newProviderSupersedesOldSourceLiteralAndCountInterpretation": true
+}

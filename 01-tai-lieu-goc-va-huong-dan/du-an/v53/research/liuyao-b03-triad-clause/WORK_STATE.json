@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-28",
+  "catalogueID": "B03",
+  "status": "full-clause-corrected-and-declared-activity-predicates-verified",
+  "sourceFile": "v53/research/liuyao-b03-volume3/NLC892-GBZX0301013045-259365.pdf",
+  "sourcePDFPage": 39,
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false,
+  "sourceDirectory": "v53/research/liuyao-b03-triad-clause",
+  "latestReport": "v53/LIUYAO_B03_TRIAD_CLAUSE_REPORT.md",
+  "completedStep": "B03 Tam hình/Tam hợp: đọc mở rộng hai ảnh38–39 đã giữ, dựng lại39 ở360DPI và xem bốn crop nguyên pixel. Đính chính trích rút cũ皆須/得成 bằng ảnh必須/得一爻起; giữ nguyên byte hồ sơ cũ và ghi chỉ mục thay thế. Bộ riêng tách đủ ba chi/đúng hai hào hoạt động nâng một hào, một hào không nâng hai, cả ba bất động không qua điều kiện; ba hào hoạt động và trạng thái ám động thiếu căn cứ giữ null. 162khai báo ba giá trị/sáu nhóm cho18qua/24khôngqua/120chưaxácđịnh; nămkiểm đạt, bốn lời gọi HHCthật kiểm quẻcơhọc1/44/6/64,không phải bốn quẻ in mới. Chỉdùng chi bản quẻ,khônggộp chibiến/nhậtnguyệt;chưa thànhcục/vượngsuy/ứngkỳ/kếtquả. B02giữliteral一爻動 và ngưỡng riêng,khôngsửa thành三từB03. 0HTTP/PDF/vịtrí/nhânchứngđộclậpmới,web nguyênbyte,toànkhoactive.",
+  "next": [
+    "B03p39: giữ đủ nguyên câu得一爻起 và tách phạm vi đúng hai hoạt động với>=2gatecũ; ba hoạt động không bị kết luận không thành, chỉ chưa được câu này giải quyết. Ámđộng/cănkhí phải được xác định theo nguồn trước áp lá số; chi lặp không bù thành viên còn thiếu.",
+    "Tiếp các điều kiện vượngsuy/旬空/月破/飛伏/giải-hợp/ưu tiên theo từng giọng B03, đối chương khác và bản in có xuất xứ khi cần. Không lấy tháng/ngày/chi biến tự điền vào điều kiện thiếu của nguyên câu; chưa đủ để luận cục hoặc ứng kỳ.",
+    "B02PDF78giữ一爻動; nghĩa dạng đầu chưa xác lập. Hai nguồn có phạm vi câu khác nhau, không thay chữ từ thông lệ hay gộp mọi nhóm của cả sáu hào. Các ba ô20.3/61.2/5.1,PDF52ngày-không, chữ100, nguồn庚 và dòngthuyền B03 vẫn mở; không lặp ma trận đã đạt.",
+    "LuânphiênBáttự43cha liênkếtphần/47chưa và điều kiệnThực/Ấn/Lộc;nhàP08bảngtháng82rõ2mờ/720ô ngày/giao môn-đổi tượng;TửviCanhNhâm/童限/火鈴/khởihạn vàtập tiếp. KiếnLộcUIvẫnngoàisitechờbrowserQA;khôngxuấtbảnhoặctuyênbốtoànkhohoànthành."
+  ],
+  "nativeCropsViewedPixelMatched": 4,
+  "expandedPriorPositions": 2,
+  "newSourcePositions": 0,
+  "newHTTPBodies": 0,
+  "completeRuntimeChecks": 5,
+  "declaredContexts": 162,
+  "localPass": 18,
+  "localFail": 24,
+  "unresolved": 120,
+  "mechanicalVectors": 4,
+  "actualHHCHexNumberCalls": 4,
+  "newPrintedCasts": 0,
+  "fullSourceFormationImplemented": false,
+  "sourceOutcomesValidated": false
+}

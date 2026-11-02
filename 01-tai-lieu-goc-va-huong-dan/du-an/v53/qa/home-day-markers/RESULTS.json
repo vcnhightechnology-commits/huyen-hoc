@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-29",
+  "completeChecks": 6,
+  "checks": [
+    "Manual selected-marker grid frozen before real runtime; code and evidence hashes unchanged",
+    "720 distinct manual coordinates contain60建 and60破, without pretending600other-label cells are blank",
+    "All720 source lookups retain partial-cell status and no overall recommendation",
+    "720 actual getZhiXing calls from2560calendar-object scans match declared coordinate frames; scans are not2560birth charts",
+    "24 retained boundary illustrations show why numeric lunar month cannot be silently substituted for declared engine month branch",
+    "Unsupported month adapters rejected in2880queries; missing coordinates unknown and malformed days not accepted"
+  ],
+  "selectedMarkerCoordinates": 720,
+  "buildOccurrences": 60,
+  "breakOccurrences": 60,
+  "otherLabelsFullyTranscribed": false,
+  "sourceLookups": 720,
+  "invalidMonthBasisRejections": 2880,
+  "actualLunarObjects": 2560,
+  "actualZhiXingCalls": 720,
+  "selectedRuntimeFrames": 720,
+  "selectedMarkerMismatches": 0,
+  "boundaryIllustrations": 24,
+  "runtimeBatches": 1,
+  "testsRerunCalendarObjects": 0,
+  "actualHHCCharts": 0,
+  "actualIztroCharts": 0,
+  "sourceMonthBoundaryResolved": false,
+  "calendarAdapterImplemented": false,
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false
+}

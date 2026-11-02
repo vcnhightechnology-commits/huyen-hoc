@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-29",
+  "years": [
+    2025,
+    2026
+  ],
+  "entryPoint": "Solar.fromYmd(year,1,1).getLunar().getJieQiTable()",
+  "expectedNewLunarObjects": 2,
+  "expectedJieQiTables": 2,
+  "library": {
+    "file": "v46/node_modules/lunar-typescript/dist/index.cjs",
+    "bytes": 425191,
+    "sha256": "76e490b74e9913ed94b49689b90abc688ed1e2b11456312b3eb081ec63cf2fbe"
+  },
+  "purpose": "Show alternative interpretations of source relative days remain different even with actual engine terms; not infer source counting, timezone or calendar.",
+  "newIztroCalls": 0,
+  "sourceCalendarAdapterImplemented": false,
+  "consumerApplied": false
+}

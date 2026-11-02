@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-29",
+  "oldAuditPreserved": "v53/research/tuvi-lower-printed-cases/VOLUME_NUMBERING_AUDIT.json",
+  "oldClaim": {
+    "canvas": 60,
+    "runningTitle": "卷之六"
+  },
+  "oldClaimRetracted": true,
+  "reason": "Contiguous first-pass reading finds 五卷終 at64right, charts start64left; earliest newly directly read running title六at65. Earlier isolated60六reading must not anchor boundary.",
+  "newDirectBoundaryReadings": [
+    {
+      "canvas": 29,
+      "side": "left",
+      "literal": "卷之五",
+      "formalOpening": true
+    },
+    {
+      "canvas": 64,
+      "side": "right",
+      "literal": "五卷終",
+      "textEnd": true
+    },
+    {
+      "canvas": 64,
+      "side": "left",
+      "literal": "孔子命圖",
+      "chartStarts": true
+    },
+    {
+      "canvas": 65,
+      "runningTitle": "卷之六",
+      "formalTitleOpeningSeen": false
+    }
+  ],
+  "canvas60ReplacementLiteral": null,
+  "consumerAffected": false,
+  "allSevenBodiesFullyApplied": false
+}

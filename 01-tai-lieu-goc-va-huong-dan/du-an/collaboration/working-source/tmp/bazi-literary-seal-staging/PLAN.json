@@ -1,0 +1,331 @@
+{
+  "sources": [
+    {
+      "file": "v53/research/bazi-branch-penalty/ACTUAL_RUNTIME.json",
+      "bytes": 4134,
+      "sha256": "56fa7b4bc82471b04d51ebe79a5d5d6e8653071e6e965431eeed95b180afa6bf"
+    },
+    {
+      "file": "v53/research/bazi-branch-clash/ACTUAL_RUNTIME.json",
+      "bytes": 3296,
+      "sha256": "951f01726b6cfad48073611b76d0064ec5b9d268ffdb2e219fb46f28feed8d4e"
+    },
+    {
+      "file": "v53/research/bazi-branch-harm/ACTUAL_RUNTIME.json",
+      "bytes": 2635,
+      "sha256": "d6983fd1d33531220128dbeb8e6a275a6cfa82bf16e9e271801a8d87248cd63f"
+    },
+    {
+      "file": "v53/research/bazi-triad-stars/ACTUAL_RUNTIME.json",
+      "bytes": 1248,
+      "sha256": "62f51aeee9b54698427325f813c549ca6bb8e3fc3d6314b5ecb4c1fc78a3ef53"
+    },
+    {
+      "file": "v53/research/bazi-true-ghost-context/ACTUAL_RUNTIME.json",
+      "bytes": 1940,
+      "sha256": "685c66ddda02cc3471aa3a7c7277141ec4ddde19dc2381c61870a4229a315456"
+    },
+    {
+      "file": "v53/research/bazi-food-chain/ACTUAL_RUNTIME.json",
+      "bytes": 2626,
+      "sha256": "42958e52ca8d8fc8bed0f1a87619315cba7acc89666298b6924a3a4592a786b0"
+    },
+    {
+      "file": "v53/research/bazi-branch-union/ACTUAL_RUNTIME.json",
+      "bytes": 2533,
+      "sha256": "21de1fd5a53a9608483fd4b193d889835b93e8b5dea96a0139e458690f19ec7f"
+    }
+  ],
+  "reuseNaYin": [
+    {
+      "pillar": "戊寅",
+      "expected": "城头土",
+      "retained": {
+        "actual": "城头土",
+        "file": "v53/research/bazi-branch-penalty/ACTUAL_RUNTIME.json",
+        "array": "rows",
+        "index": 6,
+        "field": "actual"
+      }
+    },
+    {
+      "pillar": "辛巳",
+      "expected": "白蜡金",
+      "retained": {
+        "actual": "白蜡金",
+        "file": "v53/research/bazi-branch-clash/ACTUAL_RUNTIME.json",
+        "array": "rows",
+        "index": 0,
+        "field": "actual"
+      }
+    },
+    {
+      "pillar": "甲戌",
+      "expected": "山头火",
+      "retained": {
+        "actual": "山头火",
+        "file": "v53/research/bazi-branch-penalty/ACTUAL_RUNTIME.json",
+        "array": "rows",
+        "index": 4,
+        "field": "actual"
+      }
+    },
+    {
+      "pillar": "庚申",
+      "expected": "石榴木",
+      "retained": {
+        "actual": "石榴木",
+        "file": "v53/research/bazi-branch-penalty/ACTUAL_RUNTIME.json",
+        "array": "rows",
+        "index": 7,
+        "field": "actual"
+      }
+    },
+    {
+      "pillar": "乙丑",
+      "expected": "海中金",
+      "retained": {
+        "actual": "海中金",
+        "file": "v53/research/bazi-branch-penalty/ACTUAL_RUNTIME.json",
+        "array": "rows",
+        "index": 0,
+        "field": "actual"
+      }
+    },
+    {
+      "pillar": "癸亥",
+      "expected": "大海水",
+      "retained": {
+        "actual": "大海水",
+        "file": "v53/research/bazi-branch-clash/ACTUAL_RUNTIME.json",
+        "array": "rows",
+        "index": 1,
+        "field": "actual"
+      }
+    },
+    {
+      "pillar": "己卯",
+      "expected": "城头土",
+      "retained": {
+        "actual": "城头土",
+        "file": "v53/research/bazi-true-ghost-context/ACTUAL_RUNTIME.json",
+        "array": "naYin",
+        "index": 3,
+        "field": "actual"
+      }
+    }
+  ],
+  "missingNaYin": [
+    {
+      "pillar": "癸未",
+      "expected": "杨柳木"
+    },
+    {
+      "pillar": "丙辰",
+      "expected": "沙中土"
+    },
+    {
+      "pillar": "乙亥",
+      "expected": "山头火"
+    },
+    {
+      "pillar": "壬辰",
+      "expected": "长流水"
+    },
+    {
+      "pillar": "戊午",
+      "expected": "天上火"
+    },
+    {
+      "pillar": "庚子",
+      "expected": "壁上土"
+    },
+    {
+      "pillar": "丁酉",
+      "expected": "山下火"
+    },
+    {
+      "pillar": "辛酉",
+      "expected": "石榴木"
+    }
+  ],
+  "reuseStemElements": [
+    {
+      "stem": "丙",
+      "expected": "火",
+      "retained": {
+        "actual": "火",
+        "file": "v53/research/bazi-food-chain/ACTUAL_RUNTIME.json",
+        "object": "stemElements",
+        "key": "丙"
+      }
+    },
+    {
+      "stem": "乙",
+      "expected": "木",
+      "retained": {
+        "actual": "木",
+        "file": "v53/research/bazi-branch-harm/ACTUAL_RUNTIME.json",
+        "array": "pillars",
+        "index": 0,
+        "field": "actualStemElement"
+      }
+    },
+    {
+      "stem": "壬",
+      "expected": "水",
+      "retained": {
+        "actual": "水",
+        "file": "v53/research/bazi-food-chain/ACTUAL_RUNTIME.json",
+        "object": "stemElements",
+        "key": "壬"
+      }
+    },
+    {
+      "stem": "庚",
+      "expected": "金",
+      "retained": {
+        "actual": "金",
+        "file": "v53/research/bazi-triad-stars/ACTUAL_RUNTIME.json",
+        "array": "cases",
+        "index": 0,
+        "field": "actualStemElement"
+      }
+    },
+    {
+      "stem": "戊",
+      "expected": "土",
+      "retained": {
+        "actual": "土",
+        "file": "v53/research/bazi-branch-harm/ACTUAL_RUNTIME.json",
+        "array": "pillars",
+        "index": 1,
+        "field": "actualStemElement"
+      }
+    },
+    {
+      "stem": "甲",
+      "expected": "木",
+      "retained": {
+        "actual": "木",
+        "file": "v53/research/bazi-food-chain/ACTUAL_RUNTIME.json",
+        "object": "stemElements",
+        "key": "甲"
+      }
+    },
+    {
+      "stem": "辛",
+      "expected": "金",
+      "retained": {
+        "actual": "金",
+        "file": "v53/research/bazi-triad-stars/ACTUAL_RUNTIME.json",
+        "array": "cases",
+        "index": 1,
+        "field": "actualStemElement"
+      }
+    }
+  ],
+  "missingStemElements": [
+    {
+      "stem": "丁",
+      "expected": "火"
+    },
+    {
+      "stem": "己",
+      "expected": "土"
+    },
+    {
+      "stem": "癸",
+      "expected": "水"
+    }
+  ],
+  "reuseBranchPartners": [
+    {
+      "branch": "子",
+      "index": 0,
+      "actual": "丑",
+      "expected": "丑",
+      "matches": true
+    },
+    {
+      "branch": "丑",
+      "index": 1,
+      "actual": "子",
+      "expected": "子",
+      "matches": true
+    },
+    {
+      "branch": "寅",
+      "index": 2,
+      "actual": "亥",
+      "expected": "亥",
+      "matches": true
+    },
+    {
+      "branch": "卯",
+      "index": 3,
+      "actual": "戌",
+      "expected": "戌",
+      "matches": true
+    },
+    {
+      "branch": "辰",
+      "index": 4,
+      "actual": "酉",
+      "expected": "酉",
+      "matches": true
+    },
+    {
+      "branch": "巳",
+      "index": 5,
+      "actual": "申",
+      "expected": "申",
+      "matches": true
+    },
+    {
+      "branch": "午",
+      "index": 6,
+      "actual": "未",
+      "expected": "未",
+      "matches": true
+    },
+    {
+      "branch": "未",
+      "index": 7,
+      "actual": "午",
+      "expected": "午",
+      "matches": true
+    },
+    {
+      "branch": "申",
+      "index": 8,
+      "actual": "巳",
+      "expected": "巳",
+      "matches": true
+    },
+    {
+      "branch": "酉",
+      "index": 9,
+      "actual": "辰",
+      "expected": "辰",
+      "matches": true
+    },
+    {
+      "branch": "戌",
+      "index": 10,
+      "actual": "卯",
+      "expected": "卯",
+      "matches": true
+    },
+    {
+      "branch": "亥",
+      "index": 11,
+      "actual": "寅",
+      "expected": "寅",
+      "matches": true
+    }
+  ],
+  "branchPartnerPayload": "v53/research/bazi-branch-union/ACTUAL_RUNTIME.json",
+  "newBranchPartnerQueries": 0,
+  "actualNewCalendarObjects": 0
+}

@@ -1,0 +1,569 @@
+{
+  "schema": "hhc.library.current-runtime-probe.v1",
+  "createdUTC": "2026-10-26T03:31:32.052Z",
+  "product": {
+    "file": "v53/Huyen_Hoc_Cac.html",
+    "bytes": 614476,
+    "sha256": "aacb2489cb840836d72b8627c985e78717468d67cad16301599d8618da5dedf4"
+  },
+  "files": [
+    {
+      "file": "v53/engine.js",
+      "bytes": 41825,
+      "sha256": "462fb78b222f4d17b761f785b42700b4241d0f0e82723d0ff09a0e2aca551dee"
+    },
+    {
+      "file": "v53/content.js",
+      "bytes": 15723,
+      "sha256": "c4f9c12dd2fdc703909dc9ab98e26c718f11af18f5fbba3e5c4dce88f58911a1"
+    },
+    {
+      "file": "v53/yi-content.js",
+      "bytes": 18728,
+      "sha256": "406f58d741d6adaa388fd2aa16137d4ca0d9914573f651c72ee94ee807dfe9a5"
+    },
+    {
+      "file": "v53/yi-complete-data.js",
+      "bytes": 104423,
+      "sha256": "59234dd77afd5e5eaba3cd551c4509d6456c33cfc23269ae180eaf4941579f2c"
+    },
+    {
+      "file": "v53/yi-lines.js",
+      "bytes": 6540,
+      "sha256": "3d0647409d45b71e606d900c62e12910fe41bbacf8fb55881b03dafd8d29fa03"
+    },
+    {
+      "file": "v53/bazi-relations.js",
+      "bytes": 6081,
+      "sha256": "5568290d4643eb9d4f911af66a92a699c64e31a05887681c1c5a7674722b4238"
+    },
+    {
+      "file": "v53/fortune.js",
+      "bytes": 7786,
+      "sha256": "6abf42ec27ec073ddff13ffc6d389692fcacee707ab3d20c6b32d6b306ed0a1c"
+    },
+    {
+      "file": "v53/fortune-months.js",
+      "bytes": 4470,
+      "sha256": "ee1d2ce7a53407e7895bb463f6f81ac109f9d251a1bee52d6f5222b8ae992202"
+    },
+    {
+      "file": "v53/bearing-guide.js",
+      "bytes": 4026,
+      "sha256": "864bbf456ddc5a91734d6ba40ce93c19d5430fd99042985f79f01b08984507da"
+    },
+    {
+      "file": "v53/home-content.js",
+      "bytes": 11639,
+      "sha256": "47beafaf46971989e6b6a4f2fc7280af810812657cb5c2784f0cb45083e87313"
+    }
+  ],
+  "input": {
+    "y": 1990,
+    "m": 5,
+    "d": 20,
+    "hour": 8,
+    "minute": 30,
+    "tz": 7,
+    "gender": "male",
+    "calendar": "solar",
+    "dayPolicy": "current",
+    "leapPolicy": "split16"
+  },
+  "yi": {
+    "hexagrams": 64,
+    "individualOrdinaryReadings": 384,
+    "allSpecific": true,
+    "supplements": [
+      1,
+      2
+    ],
+    "lineRows": [
+      {
+        "hexagram": 1,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": true
+      },
+      {
+        "hexagram": 2,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": true
+      },
+      {
+        "hexagram": 3,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 4,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 5,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 6,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 7,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 8,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 9,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 10,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 11,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 12,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 13,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 14,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 15,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 16,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 17,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 18,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 19,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 20,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 21,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 22,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 23,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 24,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 25,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 26,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 27,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 28,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 29,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 30,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 31,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 32,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 33,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 34,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 35,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 36,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 37,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 38,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 39,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 40,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 41,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 42,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 43,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 44,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 45,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 46,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 47,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 48,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 49,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 50,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 51,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 52,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 53,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 54,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 55,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 56,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 57,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 58,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 59,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 60,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 61,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 62,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 63,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      },
+      {
+        "hexagram": 64,
+        "ordinaryLines": 6,
+        "individual": true,
+        "supplement": false
+      }
+    ],
+    "readingKind": "Individual authored practical paraphrases; no claim of literal translation or full facsimile collation."
+  },
+  "bazi": {
+    "knownPillars": 4,
+    "unknownHourPillars": 3,
+    "hiddenStemBranches": 12,
+    "uniqueRelationshipLabels": 10,
+    "relationLabels": [
+      "Tỷ Kiên",
+      "Kiếp Tài",
+      "Thực Thần",
+      "Thương Quan",
+      "Thiên Tài",
+      "Chính Tài",
+      "Thất Sát",
+      "Chính Quan",
+      "Thiên Ấn",
+      "Chính Ấn"
+    ],
+    "knownReadings": [
+      {
+        "branch": "Ngọ",
+        "visible": {
+          "name": "Canh",
+          "god": "Chính Quan",
+          "element": "Kim"
+        },
+        "hiddenCount": 2
+      },
+      {
+        "branch": "Tỵ",
+        "visible": {
+          "name": "Tân",
+          "god": "Thất Sát",
+          "element": "Kim"
+        },
+        "hiddenCount": 3
+      },
+      {
+        "branch": "Dậu",
+        "visible": {
+          "name": "Ất",
+          "god": "Nhật chủ",
+          "element": "Mộc"
+        },
+        "hiddenCount": 1
+      },
+      {
+        "branch": "Thìn",
+        "visible": {
+          "name": "Canh",
+          "god": "Chính Quan",
+          "element": "Kim"
+        },
+        "hiddenCount": 3
+      }
+    ],
+    "hasUsefulGodDiagnosis": false
+  },
+  "tuvi": {
+    "palaces": 12,
+    "natalStars": 52,
+    "coreDescriptions": 14,
+    "selectedDate": "2025-08-09",
+    "lunarYear": 2025,
+    "age": 36,
+    "majorRanges": 12,
+    "yearly": "Quan Lộc",
+    "monthly": "Huynh Đệ",
+    "minor": "Phúc Đức",
+    "annualTransformations": 4,
+    "yearReadingIntervals": 14,
+    "leapReadingIntervals": 2,
+    "fullCombinedStarPrediction": false
+  },
+  "home": {
+    "roomTypes": [
+      "entry",
+      "living",
+      "bedroom",
+      "kitchen",
+      "bathroom",
+      "study",
+      "altar"
+    ],
+    "roomCount": 7,
+    "ageDirectionCount": 8,
+    "bearingBoundaryCandidates": [
+      "Bắc",
+      "Đông Bắc"
+    ],
+    "hasMeasuredFloorplanSolver": false
+  },
+  "consumerConnections": {
+    "yi": true,
+    "bazi": true,
+    "tuvi": true,
+    "months": true,
+    "bearing": true,
+    "home": true
+  },
+  "scope": "Fresh execution of modules actually embedded in the current standalone HTML, plus code-path wiring checks. This inspects present capabilities; it is not a new independent engine parity study, browser interaction test, whole-book review or validation of divination."
+}

@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-27",
+  "sourceContainer": "v53/research/bazi-pattern-witness/CADAL06066041.djvu",
+  "sourceSHA256": "013ce4861680a2bf08b811050c45a45bb2d3ce9d164f7e2341d7070bd5cb2c1a",
+  "decoder": "v53/research/bazi-pattern-extension/tooling/djvu.js",
+  "decoderSHA256": "10a831d62cc7ced39c30c7350a11410402d082a0f0a5b073a88d3d7ca662add3",
+  "retainedDigital": [
+    {
+      "file": "v53/research/four-items/sources/KR3g0042_003.txt",
+      "sha256": "267fda36d206bfd153d9377441adb5f99f96c39a594a5f7ebdf3e4dd226e9b87"
+    },
+    {
+      "file": "v53/research/four-items/sources/KR3g0042_005.txt",
+      "sha256": "1ebdd92feaa57496b702f962ad6fafd4f19c17e98c38a94b40f626ef321dd997"
+    }
+  ],
+  "nativeImages": [
+    {
+      "image": 198,
+      "file": "v53/research/bazi-pattern-extension/images/p198.png",
+      "sha256": "aa4a0a340e4d6dcfbabee8377fbca9b31fd06d68d25c0f8032ead4eae9888ebc",
+      "directVisualQA": true
+    },
+    {
+      "image": 202,
+      "file": "v53/research/bazi-pattern-extension/images/p202.png",
+      "sha256": "29d107be838e8b86a3ca13d8944d958ae84c8bdfed8d1cdc32e4d82f04e7c87a",
+      "directVisualQA": true
+    },
+    {
+      "image": 218,
+      "file": "v53/research/bazi-pattern-extension/images/p218.png",
+      "sha256": "393f85e8548157e4442accca62110838c9a866eb46fa0616cdd50926f9587092",
+      "directVisualQA": true
+    },
+    {
+      "image": 219,
+      "file": "v53/research/bazi-pattern-extension/images/p219.png",
+      "sha256": "d1caa13cad1102b642d455207284de8ca5bbd8a8739fc68a1988e7ddfb381ef6",
+      "directVisualQA": true
+    },
+    {
+      "image": 220,
+      "file": "v53/research/bazi-pattern-extension/images/p220.png",
+      "sha256": "8551973622d664fe550e5ad803ca362fdb23646d4cf3d7b75aef47da7c469f5b",
+      "directVisualQA": true
+    },
+    {
+      "image": 221,
+      "file": "v53/research/bazi-pattern-extension/images/p221.png",
+      "sha256": "fe0d460b71845a230676ab042e2f4bc662616d205ef00309b785f65c3e5bad80",
+      "directVisualQA": true
+    },
+    {
+      "image": 222,
+      "file": "v53/research/bazi-pattern-extension/images/p222.png",
+      "sha256": "6fc6f84f5d111cbc7acc952118621de8a1aac19c9578777eed8f49e3c3ff28a5",
+      "directVisualQA": true
+    },
+    {
+      "image": 223,
+      "file": "v53/research/bazi-pattern-extension/images/p223.png",
+      "sha256": "edc8639f8adbd5157159141cafeae8f2016ee3078cbd9f311642f0e98af00f94",
+      "directVisualQA": true
+    },
+    {
+      "image": 224,
+      "file": "v53/research/bazi-pattern-extension/images/p224.png",
+      "sha256": "c2ec47da24863c2b7bfc7a76fdd63975b196843367f1ce4f3776fdb40ccc2543",
+      "directVisualQA": true
+    },
+    {
+      "image": 225,
+      "file": "v53/research/bazi-pattern-extension/images/p225.png",
+      "sha256": "24c2555417107896b9ae4919fd115aa098473e7dff12ee13343047beb3e93f40",
+      "directVisualQA": true
+    }
+  ],
+  "newEndTitlePage": {
+    "source": "v53/research/bazi-pattern-witness/CADAL06066041.djvu",
+    "sourceSHA256": "013ce4861680a2bf08b811050c45a45bb2d3ce9d164f7e2341d7070bd5cb2c1a",
+    "decoder": "v53/research/bazi-pattern-extension/tooling/djvu.js",
+    "decoderSHA256": "10a831d62cc7ced39c30c7350a11410402d082a0f0a5b073a88d3d7ca662add3",
+    "page": 226,
+    "file": "p226-ending.png",
+    "width": 2332,
+    "height": 3109,
+    "bytes": 144314,
+    "sha256": "f3bd3ade342b823dfb9c18ae8f8f00ddc479fff9f390622c8132c20e7e084628",
+    "pixelRGBA_SHA256": "acd2f9487b77412d4cb4347e8676e081d70966df59f02eec0281702865f4c8a2",
+    "newHTTPRequests": 0,
+    "newOriginalContainers": 0,
+    "newSourcePages": 1,
+    "renderedNotAutomaticallyRead": false,
+    "directVisualQA": true,
+    "classification": "ruled page with end-title三命通會卷五; confirms preceding chapter ends on225"
+  },
+  "expandedPreviouslyReadPages": 10,
+  "newSourcePages": 27,
+  "newConditionalContentPages": 24,
+  "newHTTPRequests": 2,
+  "newOriginalContainers": 1,
+  "sourceTierLimits": "Volume5 native targeted reading and 44 digital contexts; volume3 first reading of24 content positions+2 paratext/boundary. Targeted native collation only. Not whole230 pages, full chapter application, independent edition or outcome validation.",
+  "volume3": {
+    "directory": "volume3",
+    "identity": "volume3/IDENTITY.json",
+    "manualReadings": "FACSIMILE_CROSSREF_READINGS.json",
+    "sourceSHA256": "2334006e3a46b16bdbf0bf6a79512d8d0c4b87a2ce2e8e1ff503121d8f2cffdc",
+    "bytes": 10619960,
+    "actualContainerPages": 230,
+    "newSourcePages": 26,
+    "sectionContentPositions": 24
+  }
+}

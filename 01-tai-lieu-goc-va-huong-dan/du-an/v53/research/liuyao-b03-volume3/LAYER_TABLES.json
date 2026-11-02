@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-27",
+  "sourceID": "B03-book2",
+  "trigramFanYin": {
+    "pdfPages": [
+      9,
+      10
+    ],
+    "pairs": [
+      [
+        "乾",
+        "巽"
+      ],
+      [
+        "坎",
+        "離"
+      ],
+      [
+        "艮",
+        "坤"
+      ],
+      [
+        "震",
+        "兌"
+      ]
+    ],
+    "kind": "source-directional-trigram-opposition",
+    "notEquivalentToNaJiaBranchClash": true,
+    "boundedSourceDirectionNotes": [
+      "乾西北/戌亥與巽東南/辰巳相對",
+      "坎北子與離南午相對",
+      "艮東北丑寅與坤西南未申相對",
+      "震東卯與兌西酉相對"
+    ],
+    "normalizationNote": "Boundedparaphraseofsourcecompasscoordinates,notmeasuredhousebearings;notanassertionofNaJiaidentity."
+  },
+  "lineFanYin": {
+    "pdfPage": 10,
+    "pairs": [
+      [
+        "子",
+        "午"
+      ],
+      [
+        "丑",
+        "未"
+      ],
+      [
+        "寅",
+        "申"
+      ],
+      [
+        "卯",
+        "酉"
+      ],
+      [
+        "辰",
+        "戌"
+      ],
+      [
+        "巳",
+        "亥"
+      ]
+    ],
+    "scope": "Actuallymovinglinechangesbranchtoitsopposite;notall6positionsinchangedfigureannotations."
+  },
+  "fuYin": {
+    "pdfPage": 10,
+    "criterion": "A changedinner/outertrigramhasallthreematchingNaJiabranchesatsamepositions;stemidentitynotrequired. Unchangedtrigramnotautomaticallycountedas伏吟.",
+    "explicitTrigramPair": [
+      "乾",
+      "震"
+    ],
+    "notEquivalentToSameHexagram": true
+  },
+  "advanceRetreat": {
+    "pdfPages": [
+      12,
+      13
+    ],
+    "advancePairs": [
+      [
+        "亥",
+        "子"
+      ],
+      [
+        "丑",
+        "辰"
+      ],
+      [
+        "寅",
+        "卯"
+      ],
+      [
+        "辰",
+        "未"
+      ],
+      [
+        "巳",
+        "午"
+      ],
+      [
+        "未",
+        "戌"
+      ],
+      [
+        "申",
+        "酉"
+      ],
+      [
+        "戌",
+        "丑"
+      ]
+    ],
+    "retreatPairs": [
+      [
+        "子",
+        "亥"
+      ],
+      [
+        "辰",
+        "丑"
+      ],
+      [
+        "卯",
+        "寅"
+      ],
+      [
+        "未",
+        "辰"
+      ],
+      [
+        "午",
+        "巳"
+      ],
+      [
+        "戌",
+        "未"
+      ],
+      [
+        "酉",
+        "申"
+      ],
+      [
+        "丑",
+        "戌"
+      ]
+    ],
+    "scope": "Actuallymovinglineonly;structural進/退coordinate,notinherentlygood/badandnotstrengthadjudication."
+  },
+  "calendarAndStrengthAdapter": false,
+  "consumerApplied": false
+}

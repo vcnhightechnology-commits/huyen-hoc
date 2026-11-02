@@ -1,0 +1,106 @@
+{
+  "date": "2026-10-29",
+  "parentContext": "FOOD-05-C03",
+  "roleOrder": [
+    "year",
+    "month",
+    "day",
+    "hour"
+  ],
+  "roleOrderIsEditorialFourPillarReading": true,
+  "selectedRolePairsAreEditorialAnalysesNotPrintedRoleAnnotations": true,
+  "historicalBirthDatesValidated": false,
+  "sourceOutcomesValidated": false,
+  "fullClauseApplied": false,
+  "consumerApplied": false,
+  "records": [
+    {
+      "id": "han-weigong",
+      "sourceName": "韓魏公",
+      "pillars": [
+        "戊申",
+        "庚申",
+        "庚辰",
+        "庚辰"
+      ],
+      "literalSourcePositions": [
+        191
+      ],
+      "selectedPair": {
+        "rootRole": "year",
+        "targetRole": "month",
+        "rootPillar": "戊申",
+        "targetPillar": "庚申",
+        "hhcTenGod": "Thực Thần",
+        "lunarTenGod": "食神"
+      },
+      "dayRootCounterfactual": {
+        "targetRole": "month",
+        "rootPillar": "庚辰",
+        "targetPillar": "庚申",
+        "hhcTenGod": "Tỷ Kiên",
+        "lunarTenGod": "比肩",
+        "sameBranch": false
+      }
+    },
+    {
+      "id": "song-qinhui",
+      "sourceName": "宋秦檜",
+      "pillars": [
+        "庚午",
+        "己丑",
+        "乙卯",
+        "壬午"
+      ],
+      "literalSourcePositions": [
+        191,
+        192
+      ],
+      "selectedPair": {
+        "rootRole": "year",
+        "targetRole": "hour",
+        "rootPillar": "庚午",
+        "targetPillar": "壬午",
+        "hhcTenGod": "Thực Thần",
+        "lunarTenGod": "食神"
+      },
+      "dayRootCounterfactual": {
+        "targetRole": "hour",
+        "rootPillar": "乙卯",
+        "targetPillar": "壬午",
+        "hhcTenGod": "Chính Ấn",
+        "lunarTenGod": "正印",
+        "sameBranch": false
+      }
+    },
+    {
+      "id": "ming-wangchonggu",
+      "sourceName": "明王崇古少保",
+      "pillars": [
+        "乙亥",
+        "辛巳",
+        "戊申",
+        "庚申"
+      ],
+      "literalSourcePositions": [
+        192
+      ],
+      "selectedPair": {
+        "rootRole": "day",
+        "targetRole": "hour",
+        "rootPillar": "戊申",
+        "targetPillar": "庚申",
+        "hhcTenGod": "Thực Thần",
+        "lunarTenGod": "食神"
+      },
+      "dayRootCounterfactual": {
+        "targetRole": "hour",
+        "rootPillar": "戊申",
+        "targetPillar": "庚申",
+        "hhcTenGod": "Thực Thần",
+        "lunarTenGod": "食神",
+        "sameBranch": true
+      }
+    }
+  ]
+}

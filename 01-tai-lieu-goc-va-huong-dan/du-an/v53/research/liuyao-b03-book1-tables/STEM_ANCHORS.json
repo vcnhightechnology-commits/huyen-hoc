@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-27",
+  "sourceID": "B03-book1",
+  "sourcePDFPages": [
+    24,
+    25
+  ],
+  "yearMonthPairedAnchors": [
+    {
+      "anchorStems": "甲己",
+      "branch": "寅",
+      "targetStem": "丙"
+    },
+    {
+      "anchorStems": "乙庚",
+      "branch": "寅",
+      "targetStem": "戊"
+    },
+    {
+      "anchorStems": "丙辛",
+      "branch": "寅",
+      "targetStem": "庚"
+    },
+    {
+      "anchorStems": "丁壬",
+      "branch": "寅",
+      "targetStem": "壬"
+    },
+    {
+      "anchorStems": "戊癸",
+      "branch": "寅",
+      "targetStem": "甲"
+    }
+  ],
+  "dayHourPairedAnchors": [
+    {
+      "anchorStems": "甲己",
+      "branch": "子",
+      "targetStem": "甲"
+    },
+    {
+      "anchorStems": "乙庚",
+      "branch": "子",
+      "targetStem": "丙"
+    },
+    {
+      "anchorStems": "丙辛",
+      "branch": "子",
+      "targetStem": "戊"
+    },
+    {
+      "anchorStems": "丁壬",
+      "branch": "子",
+      "targetStem": "庚"
+    },
+    {
+      "anchorStems": "戊癸",
+      "branch": "子",
+      "targetStem": "壬"
+    }
+  ],
+  "fivePairedAnchorsPerTableAreDirect": true,
+  "forwardCycleExpansionIsEditorialApplicationOfPrintedRule": true,
+  "printedFull120CellTablesClaimed": false,
+  "seasonalWatchVerseAt25ConvertedToModernClock": false,
+  "calendarYearMonthBoundaryAndLateZiPolicyEstablishedByTheseVerses": false,
+  "consumerApplied": false
+}

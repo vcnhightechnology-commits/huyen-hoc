@@ -1,0 +1,659 @@
+{
+  "package": "lunar-typescript 1.8.6",
+  "pairs": [
+    {
+      "day": 0,
+      "other": 0,
+      "expected": "Tỷ Kiên",
+      "actual": "Tỷ Kiên"
+    },
+    {
+      "day": 0,
+      "other": 1,
+      "expected": "Kiếp Tài",
+      "actual": "Kiếp Tài"
+    },
+    {
+      "day": 0,
+      "other": 2,
+      "expected": "Thực Thần",
+      "actual": "Thực Thần"
+    },
+    {
+      "day": 0,
+      "other": 3,
+      "expected": "Thương Quan",
+      "actual": "Thương Quan"
+    },
+    {
+      "day": 0,
+      "other": 4,
+      "expected": "Thiên Tài",
+      "actual": "Thiên Tài"
+    },
+    {
+      "day": 0,
+      "other": 5,
+      "expected": "Chính Tài",
+      "actual": "Chính Tài"
+    },
+    {
+      "day": 0,
+      "other": 6,
+      "expected": "Thất Sát",
+      "actual": "Thất Sát"
+    },
+    {
+      "day": 0,
+      "other": 7,
+      "expected": "Chính Quan",
+      "actual": "Chính Quan"
+    },
+    {
+      "day": 0,
+      "other": 8,
+      "expected": "Thiên Ấn",
+      "actual": "Thiên Ấn"
+    },
+    {
+      "day": 0,
+      "other": 9,
+      "expected": "Chính Ấn",
+      "actual": "Chính Ấn"
+    },
+    {
+      "day": 1,
+      "other": 0,
+      "expected": "Kiếp Tài",
+      "actual": "Kiếp Tài"
+    },
+    {
+      "day": 1,
+      "other": 1,
+      "expected": "Tỷ Kiên",
+      "actual": "Tỷ Kiên"
+    },
+    {
+      "day": 1,
+      "other": 2,
+      "expected": "Thương Quan",
+      "actual": "Thương Quan"
+    },
+    {
+      "day": 1,
+      "other": 3,
+      "expected": "Thực Thần",
+      "actual": "Thực Thần"
+    },
+    {
+      "day": 1,
+      "other": 4,
+      "expected": "Chính Tài",
+      "actual": "Chính Tài"
+    },
+    {
+      "day": 1,
+      "other": 5,
+      "expected": "Thiên Tài",
+      "actual": "Thiên Tài"
+    },
+    {
+      "day": 1,
+      "other": 6,
+      "expected": "Chính Quan",
+      "actual": "Chính Quan"
+    },
+    {
+      "day": 1,
+      "other": 7,
+      "expected": "Thất Sát",
+      "actual": "Thất Sát"
+    },
+    {
+      "day": 1,
+      "other": 8,
+      "expected": "Chính Ấn",
+      "actual": "Chính Ấn"
+    },
+    {
+      "day": 1,
+      "other": 9,
+      "expected": "Thiên Ấn",
+      "actual": "Thiên Ấn"
+    },
+    {
+      "day": 2,
+      "other": 0,
+      "expected": "Thiên Ấn",
+      "actual": "Thiên Ấn"
+    },
+    {
+      "day": 2,
+      "other": 1,
+      "expected": "Chính Ấn",
+      "actual": "Chính Ấn"
+    },
+    {
+      "day": 2,
+      "other": 2,
+      "expected": "Tỷ Kiên",
+      "actual": "Tỷ Kiên"
+    },
+    {
+      "day": 2,
+      "other": 3,
+      "expected": "Kiếp Tài",
+      "actual": "Kiếp Tài"
+    },
+    {
+      "day": 2,
+      "other": 4,
+      "expected": "Thực Thần",
+      "actual": "Thực Thần"
+    },
+    {
+      "day": 2,
+      "other": 5,
+      "expected": "Thương Quan",
+      "actual": "Thương Quan"
+    },
+    {
+      "day": 2,
+      "other": 6,
+      "expected": "Thiên Tài",
+      "actual": "Thiên Tài"
+    },
+    {
+      "day": 2,
+      "other": 7,
+      "expected": "Chính Tài",
+      "actual": "Chính Tài"
+    },
+    {
+      "day": 2,
+      "other": 8,
+      "expected": "Thất Sát",
+      "actual": "Thất Sát"
+    },
+    {
+      "day": 2,
+      "other": 9,
+      "expected": "Chính Quan",
+      "actual": "Chính Quan"
+    },
+    {
+      "day": 3,
+      "other": 0,
+      "expected": "Chính Ấn",
+      "actual": "Chính Ấn"
+    },
+    {
+      "day": 3,
+      "other": 1,
+      "expected": "Thiên Ấn",
+      "actual": "Thiên Ấn"
+    },
+    {
+      "day": 3,
+      "other": 2,
+      "expected": "Kiếp Tài",
+      "actual": "Kiếp Tài"
+    },
+    {
+      "day": 3,
+      "other": 3,
+      "expected": "Tỷ Kiên",
+      "actual": "Tỷ Kiên"
+    },
+    {
+      "day": 3,
+      "other": 4,
+      "expected": "Thương Quan",
+      "actual": "Thương Quan"
+    },
+    {
+      "day": 3,
+      "other": 5,
+      "expected": "Thực Thần",
+      "actual": "Thực Thần"
+    },
+    {
+      "day": 3,
+      "other": 6,
+      "expected": "Chính Tài",
+      "actual": "Chính Tài"
+    },
+    {
+      "day": 3,
+      "other": 7,
+      "expected": "Thiên Tài",
+      "actual": "Thiên Tài"
+    },
+    {
+      "day": 3,
+      "other": 8,
+      "expected": "Chính Quan",
+      "actual": "Chính Quan"
+    },
+    {
+      "day": 3,
+      "other": 9,
+      "expected": "Thất Sát",
+      "actual": "Thất Sát"
+    },
+    {
+      "day": 4,
+      "other": 0,
+      "expected": "Thất Sát",
+      "actual": "Thất Sát"
+    },
+    {
+      "day": 4,
+      "other": 1,
+      "expected": "Chính Quan",
+      "actual": "Chính Quan"
+    },
+    {
+      "day": 4,
+      "other": 2,
+      "expected": "Thiên Ấn",
+      "actual": "Thiên Ấn"
+    },
+    {
+      "day": 4,
+      "other": 3,
+      "expected": "Chính Ấn",
+      "actual": "Chính Ấn"
+    },
+    {
+      "day": 4,
+      "other": 4,
+      "expected": "Tỷ Kiên",
+      "actual": "Tỷ Kiên"
+    },
+    {
+      "day": 4,
+      "other": 5,
+      "expected": "Kiếp Tài",
+      "actual": "Kiếp Tài"
+    },
+    {
+      "day": 4,
+      "other": 6,
+      "expected": "Thực Thần",
+      "actual": "Thực Thần"
+    },
+    {
+      "day": 4,
+      "other": 7,
+      "expected": "Thương Quan",
+      "actual": "Thương Quan"
+    },
+    {
+      "day": 4,
+      "other": 8,
+      "expected": "Thiên Tài",
+      "actual": "Thiên Tài"
+    },
+    {
+      "day": 4,
+      "other": 9,
+      "expected": "Chính Tài",
+      "actual": "Chính Tài"
+    },
+    {
+      "day": 5,
+      "other": 0,
+      "expected": "Chính Quan",
+      "actual": "Chính Quan"
+    },
+    {
+      "day": 5,
+      "other": 1,
+      "expected": "Thất Sát",
+      "actual": "Thất Sát"
+    },
+    {
+      "day": 5,
+      "other": 2,
+      "expected": "Chính Ấn",
+      "actual": "Chính Ấn"
+    },
+    {
+      "day": 5,
+      "other": 3,
+      "expected": "Thiên Ấn",
+      "actual": "Thiên Ấn"
+    },
+    {
+      "day": 5,
+      "other": 4,
+      "expected": "Kiếp Tài",
+      "actual": "Kiếp Tài"
+    },
+    {
+      "day": 5,
+      "other": 5,
+      "expected": "Tỷ Kiên",
+      "actual": "Tỷ Kiên"
+    },
+    {
+      "day": 5,
+      "other": 6,
+      "expected": "Thương Quan",
+      "actual": "Thương Quan"
+    },
+    {
+      "day": 5,
+      "other": 7,
+      "expected": "Thực Thần",
+      "actual": "Thực Thần"
+    },
+    {
+      "day": 5,
+      "other": 8,
+      "expected": "Chính Tài",
+      "actual": "Chính Tài"
+    },
+    {
+      "day": 5,
+      "other": 9,
+      "expected": "Thiên Tài",
+      "actual": "Thiên Tài"
+    },
+    {
+      "day": 6,
+      "other": 0,
+      "expected": "Thiên Tài",
+      "actual": "Thiên Tài"
+    },
+    {
+      "day": 6,
+      "other": 1,
+      "expected": "Chính Tài",
+      "actual": "Chính Tài"
+    },
+    {
+      "day": 6,
+      "other": 2,
+      "expected": "Thất Sát",
+      "actual": "Thất Sát"
+    },
+    {
+      "day": 6,
+      "other": 3,
+      "expected": "Chính Quan",
+      "actual": "Chính Quan"
+    },
+    {
+      "day": 6,
+      "other": 4,
+      "expected": "Thiên Ấn",
+      "actual": "Thiên Ấn"
+    },
+    {
+      "day": 6,
+      "other": 5,
+      "expected": "Chính Ấn",
+      "actual": "Chính Ấn"
+    },
+    {
+      "day": 6,
+      "other": 6,
+      "expected": "Tỷ Kiên",
+      "actual": "Tỷ Kiên"
+    },
+    {
+      "day": 6,
+      "other": 7,
+      "expected": "Kiếp Tài",
+      "actual": "Kiếp Tài"
+    },
+    {
+      "day": 6,
+      "other": 8,
+      "expected": "Thực Thần",
+      "actual": "Thực Thần"
+    },
+    {
+      "day": 6,
+      "other": 9,
+      "expected": "Thương Quan",
+      "actual": "Thương Quan"
+    },
+    {
+      "day": 7,
+      "other": 0,
+      "expected": "Chính Tài",
+      "actual": "Chính Tài"
+    },
+    {
+      "day": 7,
+      "other": 1,
+      "expected": "Thiên Tài",
+      "actual": "Thiên Tài"
+    },
+    {
+      "day": 7,
+      "other": 2,
+      "expected": "Chính Quan",
+      "actual": "Chính Quan"
+    },
+    {
+      "day": 7,
+      "other": 3,
+      "expected": "Thất Sát",
+      "actual": "Thất Sát"
+    },
+    {
+      "day": 7,
+      "other": 4,
+      "expected": "Chính Ấn",
+      "actual": "Chính Ấn"
+    },
+    {
+      "day": 7,
+      "other": 5,
+      "expected": "Thiên Ấn",
+      "actual": "Thiên Ấn"
+    },
+    {
+      "day": 7,
+      "other": 6,
+      "expected": "Kiếp Tài",
+      "actual": "Kiếp Tài"
+    },
+    {
+      "day": 7,
+      "other": 7,
+      "expected": "Tỷ Kiên",
+      "actual": "Tỷ Kiên"
+    },
+    {
+      "day": 7,
+      "other": 8,
+      "expected": "Thương Quan",
+      "actual": "Thương Quan"
+    },
+    {
+      "day": 7,
+      "other": 9,
+      "expected": "Thực Thần",
+      "actual": "Thực Thần"
+    },
+    {
+      "day": 8,
+      "other": 0,
+      "expected": "Thực Thần",
+      "actual": "Thực Thần"
+    },
+    {
+      "day": 8,
+      "other": 1,
+      "expected": "Thương Quan",
+      "actual": "Thương Quan"
+    },
+    {
+      "day": 8,
+      "other": 2,
+      "expected": "Thiên Tài",
+      "actual": "Thiên Tài"
+    },
+    {
+      "day": 8,
+      "other": 3,
+      "expected": "Chính Tài",
+      "actual": "Chính Tài"
+    },
+    {
+      "day": 8,
+      "other": 4,
+      "expected": "Thất Sát",
+      "actual": "Thất Sát"
+    },
+    {
+      "day": 8,
+      "other": 5,
+      "expected": "Chính Quan",
+      "actual": "Chính Quan"
+    },
+    {
+      "day": 8,
+      "other": 6,
+      "expected": "Thiên Ấn",
+      "actual": "Thiên Ấn"
+    },
+    {
+      "day": 8,
+      "other": 7,
+      "expected": "Chính Ấn",
+      "actual": "Chính Ấn"
+    },
+    {
+      "day": 8,
+      "other": 8,
+      "expected": "Tỷ Kiên",
+      "actual": "Tỷ Kiên"
+    },
+    {
+      "day": 8,
+      "other": 9,
+      "expected": "Kiếp Tài",
+      "actual": "Kiếp Tài"
+    },
+    {
+      "day": 9,
+      "other": 0,
+      "expected": "Thương Quan",
+      "actual": "Thương Quan"
+    },
+    {
+      "day": 9,
+      "other": 1,
+      "expected": "Thực Thần",
+      "actual": "Thực Thần"
+    },
+    {
+      "day": 9,
+      "other": 2,
+      "expected": "Chính Tài",
+      "actual": "Chính Tài"
+    },
+    {
+      "day": 9,
+      "other": 3,
+      "expected": "Thiên Tài",
+      "actual": "Thiên Tài"
+    },
+    {
+      "day": 9,
+      "other": 4,
+      "expected": "Chính Quan",
+      "actual": "Chính Quan"
+    },
+    {
+      "day": 9,
+      "other": 5,
+      "expected": "Thất Sát",
+      "actual": "Thất Sát"
+    },
+    {
+      "day": 9,
+      "other": 6,
+      "expected": "Chính Ấn",
+      "actual": "Chính Ấn"
+    },
+    {
+      "day": 9,
+      "other": 7,
+      "expected": "Thiên Ấn",
+      "actual": "Thiên Ấn"
+    },
+    {
+      "day": 9,
+      "other": 8,
+      "expected": "Kiếp Tài",
+      "actual": "Kiếp Tài"
+    },
+    {
+      "day": 9,
+      "other": 9,
+      "expected": "Tỷ Kiên",
+      "actual": "Tỷ Kiên"
+    }
+  ],
+  "hidden": [
+    [
+      9
+    ],
+    [
+      5,
+      9,
+      7
+    ],
+    [
+      0,
+      2,
+      4
+    ],
+    [
+      1
+    ],
+    [
+      4,
+      1,
+      9
+    ],
+    [
+      2,
+      6,
+      4
+    ],
+    [
+      3,
+      5
+    ],
+    [
+      5,
+      3,
+      1
+    ],
+    [
+      6,
+      8,
+      4
+    ],
+    [
+      7
+    ],
+    [
+      4,
+      7,
+      3
+    ],
+    [
+      8,
+      0
+    ]
+  ]
+}

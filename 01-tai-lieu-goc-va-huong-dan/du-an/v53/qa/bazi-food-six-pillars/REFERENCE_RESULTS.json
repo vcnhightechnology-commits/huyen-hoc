@@ -1,0 +1,187 @@
+{
+  "date": "2026-10-28",
+  "checks": [
+    {
+      "name": "Six printed full-pillar cases retain their distinct descriptions",
+      "ok": true
+    },
+    {
+      "name": "One actual HHC and one actual lunar query compare the sole distinct stem pair; not six independent pairs",
+      "ok": true
+    },
+    {
+      "name": "3600 canonical root/target frames expose only six directly printed cases; unlisted does not mean source-negative",
+      "ok": true
+    },
+    {
+      "name": "Named natal/calendar bases cannot borrow an unassigned source-root role",
+      "ok": true
+    },
+    {
+      "name": "Strict input domains, isolated results and unchanged consumer bytes prevent accidental semantic promotion",
+      "ok": true
+    }
+  ],
+  "uniqueRelation": {
+    "rootStem": "甲",
+    "targetStem": "丙",
+    "actualHHCTenGod": "Thực Thần",
+    "actualLunarTenGod": "食神",
+    "applicablePrintedExamples": 6,
+    "actualHHCRelationCalls": 1,
+    "actualLunarTenGodTableQueries": 1
+  },
+  "branchProbe": {
+    "rootBranch": "子",
+    "actualLunarClashPartner": "午",
+    "printedTarget": "丙午",
+    "sourceDescription": [
+      "自刑破命"
+    ],
+    "sourceSelfPunishmentMechanismAssigned": false
+  },
+  "cases": [
+    {
+      "system": "TMTH005-88a-Jiazi-six-Bing-examples",
+      "rootPillar": "甲子",
+      "targetPillar": "丙子",
+      "rootBasis": "declared-source-example",
+      "sourceExampleStatus": "directly-listed",
+      "sourceLabels": [
+        "福星之貴"
+      ],
+      "sourceLabelRole": "historical-whole-pillar-description;not-modern-Ten-God",
+      "sourceRootNatalPosition": null,
+      "modernTenGod": null,
+      "modernBranchRelation": null,
+      "remainingStemGeneralizationImplemented": false,
+      "gatheringScore": null,
+      "halfMultiplier": null,
+      "wholeFoodPatternEstablished": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "TMTH005-88a-Jiazi-six-Bing-examples",
+      "rootPillar": "甲子",
+      "targetPillar": "丙寅",
+      "rootBasis": "declared-source-example",
+      "sourceExampleStatus": "directly-listed",
+      "sourceLabels": [
+        "長生之祿",
+        "祿馬同鄉",
+        "食神學堂之貴"
+      ],
+      "sourceLabelRole": "historical-whole-pillar-description;not-modern-Ten-God",
+      "sourceRootNatalPosition": null,
+      "modernTenGod": null,
+      "modernBranchRelation": null,
+      "remainingStemGeneralizationImplemented": false,
+      "gatheringScore": null,
+      "halfMultiplier": null,
+      "wholeFoodPatternEstablished": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "TMTH005-88a-Jiazi-six-Bing-examples",
+      "rootPillar": "甲子",
+      "targetPillar": "丙辰",
+      "rootBasis": "declared-source-example",
+      "sourceExampleStatus": "directly-listed",
+      "sourceLabels": [
+        "正印"
+      ],
+      "sourceLabelRole": "historical-whole-pillar-description;not-modern-Ten-God",
+      "sourceRootNatalPosition": null,
+      "modernTenGod": null,
+      "modernBranchRelation": null,
+      "remainingStemGeneralizationImplemented": false,
+      "gatheringScore": null,
+      "halfMultiplier": null,
+      "wholeFoodPatternEstablished": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "TMTH005-88a-Jiazi-six-Bing-examples",
+      "rootPillar": "甲子",
+      "targetPillar": "丙午",
+      "rootBasis": "declared-source-example",
+      "sourceExampleStatus": "directly-listed",
+      "sourceLabels": [
+        "自刑破命"
+      ],
+      "sourceLabelRole": "historical-whole-pillar-description;not-modern-Ten-God",
+      "sourceRootNatalPosition": null,
+      "modernTenGod": null,
+      "modernBranchRelation": null,
+      "remainingStemGeneralizationImplemented": false,
+      "gatheringScore": null,
+      "halfMultiplier": null,
+      "wholeFoodPatternEstablished": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "TMTH005-88a-Jiazi-six-Bing-examples",
+      "rootPillar": "甲子",
+      "targetPillar": "丙申",
+      "rootBasis": "declared-source-example",
+      "sourceExampleStatus": "directly-listed",
+      "sourceLabels": [
+        "尅身破祿"
+      ],
+      "sourceLabelRole": "historical-whole-pillar-description;not-modern-Ten-God",
+      "sourceRootNatalPosition": null,
+      "modernTenGod": null,
+      "modernBranchRelation": null,
+      "remainingStemGeneralizationImplemented": false,
+      "gatheringScore": null,
+      "halfMultiplier": null,
+      "wholeFoodPatternEstablished": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "TMTH005-88a-Jiazi-six-Bing-examples",
+      "rootPillar": "甲子",
+      "targetPillar": "丙戌",
+      "rootBasis": "declared-source-example",
+      "sourceExampleStatus": "directly-listed",
+      "sourceLabels": [
+        "身衰破空亡"
+      ],
+      "sourceLabelRole": "historical-whole-pillar-description;not-modern-Ten-God",
+      "sourceRootNatalPosition": null,
+      "modernTenGod": null,
+      "modernBranchRelation": null,
+      "remainingStemGeneralizationImplemented": false,
+      "gatheringScore": null,
+      "halfMultiplier": null,
+      "wholeFoodPatternEstablished": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    }
+  ],
+  "summary": {
+    "directlyPrintedCases": 6,
+    "distinctComparedStemPairs": 1,
+    "actualHHCRelationCalls": 1,
+    "actualLunarTenGodTableQueries": 1,
+    "actualLunarClashTableQueries": 1,
+    "canonicalFrameQueries": 3600,
+    "unsupportedBasisNullQueries": 1440,
+    "actualHHCBaziCharts": 0,
+    "actualIztroCharts": 0,
+    "sourceWholePatternImplemented": false,
+    "sourceOutcomesValidated": false,
+    "consumerChanged": false
+  }
+}

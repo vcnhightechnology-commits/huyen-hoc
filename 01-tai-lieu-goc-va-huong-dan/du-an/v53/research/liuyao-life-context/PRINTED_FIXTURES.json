@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-27",
+  "fixtures": [
+    {
+      "id": "B02-215-Fu-to-Yi",
+      "sourcePDFPage": 215,
+      "primaryHan": "復",
+      "changedHan": "頤",
+      "primary": 24,
+      "changed": 27,
+      "valuesBottomToTop": [
+        7,
+        8,
+        8,
+        8,
+        8,
+        6
+      ],
+      "movingLine": 6,
+      "sourceBaseLabelsBottomToTop": [
+        {
+          "branch": "子",
+          "kin": "妻財"
+        },
+        {
+          "branch": "寅",
+          "kin": "官鬼"
+        },
+        {
+          "branch": "辰",
+          "kin": "兄弟"
+        },
+        {
+          "branch": "丑",
+          "kin": "兄弟"
+        },
+        {
+          "branch": "亥",
+          "kin": "妻財"
+        },
+        {
+          "branch": "酉",
+          "kin": "子孫"
+        }
+      ],
+      "changedBranch": "寅",
+      "sourceProse": "獨嫌酉金福神破而化絕",
+      "sourceClaimNotAutomaticallyDerived": "破/絕 cannot be asserted from six role labels alone; calendar and source phase premises left open.",
+      "numericEncoding": "Software6/7/8/9derivedexplicitlyfromsourcefigurelabels/headerandtopmotion;notahistoricalGregorianbirthdate.",
+      "sourceOutcomeValidated": false,
+      "calendarDateBound": false
+    }
+  ],
+  "fullOutcomeAlgorithm": false
+}

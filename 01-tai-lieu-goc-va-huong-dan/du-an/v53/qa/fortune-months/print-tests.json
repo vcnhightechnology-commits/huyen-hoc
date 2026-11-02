@@ -1,0 +1,16 @@
+{
+  "pages": 5,
+  "checks": [
+    {
+      "name": "Real browser PDF contains all twelve month labels and both leap-six reading intervals",
+      "ok": true
+    },
+    {
+      "name": "Real browser PDF retains selected date and chosen leap-month convention",
+      "ok": true
+    }
+  ],
+  "monthOverviewPageNumbers": [
+    5
+  ]
+}

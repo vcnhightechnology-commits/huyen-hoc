@@ -1,0 +1,1491 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+<!doctype html>
+<html lang="ko" class="common prod">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<title>한국고전종합DB</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+	
+	<link rel="shortcut icon" href="/resources/images/apple-touch-icon.png">
+	<link rel="apple-touch-icon" href="/resources/images/apple-touch-icon.png"> 
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" href="/resources/css/common.css?v=20261026" />
+<link rel="stylesheet" href="/resources/css/xsl_style.css?v=20261026" />
+
+<script src="/resources/libs/jquery-1.12.4.min.js"></script>
+<script src="/resources/libs/backbone/underscore-min.js"></script>
+<script src="/resources/libs/backbone/backbone-min.js"></script>
+<script src="/resources/libs/core/underscore.string.min.js"></script>
+
+<script src="/resources/libs/core/string.js"></script>
+
+<script src="/resources/js/common.js?v=20261026"></script>
+<script src="/resources/js/search.js?v=20261026"></script>
+
+<script src="/resources/libs/jquery.blockUI.js"></script>
+<script>
+	new Image().src="/resources/images/common/busy.gif";
+	$(document).ajaxStop($.unblockUI); 
+	$.blockUI.defaults.css = {}; 
+	$.blockUI.defaults.overlayCSS ={};
+</script>
+<script src="/resources/libs/jquery.cookie.js"></script>
+
+<style>
+.snb_scroll {height:calc(100vh - 183px);}
+.content_scroll {height:calc(100vh - 294px);}
+.text_body_scroll {height:calc(100vh - 349px);}
+.text_body_scroll.no_title {height:calc(100vh - 314px);} /* 349-35 */
+.pop_ku_viewer {height:calc(100vh - 104px);}
+.pop_ku_side_scroll {height:calc(100vh - 174px);}
+.cnt_list_height {height:calc(100vh - 140px);}
+
+body.search_scroll_down #subWrap .top{display:none}
+body.search_scroll_down #subWrap .sub_inner:after{display:none}
+body.search_scroll_down .search-list .page_option{display:block}
+body.search_scroll_down .search-list .path{display:block}
+body.search_scroll_down .snb_scroll {height:calc(100vh - 150px);}
+body.search_scroll_down #container .body_tree_toggle{top: 154px;}
+
+body.search_scroll_down .search-list .page_option {display:none;}
+body.search_scroll_down .search-list .path {display:none;}
+body.search_scroll_down .search-list .snb_item_top{display:grid;}
+body.search_scroll_down .content_scroll {height:calc(100vh - 261px); box-sizing: border-box;} /* 150 + 111*/
+body.search_scroll_down .content_scroll[data-grprow-num='2'] {height:calc(100vh - 226px); box-sizing: border-box;} /* 150 + 76*/
+body.search_scroll_down .content_scroll[data-grprow-num='1'] {height:calc(100vh - 191px); box-sizing: border-box;} /* 150 + 41*/
+
+body.search_scroll_down .search-list a.scroll_top_btn.bottom {display:inline-block;}
+</style>
+
+<script type="text/javascript">
+
+function resizeWindow() {
+	//css calc 함수로 대체
+	/*
+	var winH = $(window).height();
+	$(".content_scroll").css({height:winH-294+"px"});
+	$(".text_body_scroll").css({height:winH-349+"px"}); //편년류일일기사보기, 경서성독 
+	$(".text_body_scroll.no_title").css({height:winH-349+35 +"px"}); //원문번역문 동시보기
+	$(".pop_ku_viewer").css({height:winH-104+"px"});//경서성독 좌측 뷰어
+	//$(".pop_right").css({height:winH-104+"px"});//경서성독 음성 우측
+	$(".pop_ku_side_scroll").css({height:winH-174+"px"});//경서성독 음성 우측
+	$(".cnt_list_height").css({height:winH-140+"px"});//목차팝업
+	
+	$(".snb_scroll").css({height:winH-183+"px"});
+	*/
+} 
+
+$(document).ready(function(){
+
+	//main
+	$('.main_content ul li').hover(function() {
+		$(this).find('ul').stop(true,true).fadeIn('');
+	}, function() {
+		$(this).find('ul').stop(true,true).fadeOut('');
+	});
+
+	// scroll
+	$(window).resize(resizeWindow); 
+	resizeWindow();	
+
+	// gnb
+	$('.gnb ul li').click(function(){
+		$('.gnb ul li').not($(this)).removeClass('on');
+		$(this).addClass('on');
+	});
+
+
+	// tab on/off
+	$('.tab_common_ns li').click(function(){
+		$('.common_tabview').not($('.cont_'+$(this).attr("id"))).hide();
+		$('.cont_'+$(this).attr("id")).show();
+
+		$('.tab_common_ns li').not($(this)).removeClass('on');
+		$(this).addClass('on');	
+
+		return false;
+	});
+
+
+	// 체크박스 on/off
+	$('.check_toggle:not(.no-bind)').click(function(){
+		if($(this).hasClass('dis'))
+			return;
+		
+		if($(this).hasClass('on')){
+			$(this).removeClass('on');
+		}else{
+			$(this).addClass('on');
+		}
+	});
+
+	// 본문 트리 열고 닫기
+	$('.body_tree_toggle').click(function(){
+		if($('#container').hasClass('container_toggle')){
+			$('#container').removeClass('container_toggle');
+			if(localStorage) localStorage.removeItem("snb_hide");
+		}else{
+			$('#container').addClass('container_toggle');
+			if(localStorage) localStorage.setItem("snb_hide","on");
+		}
+	});
+
+
+	// 뷰어 트리 열고 닫기
+	$('.tree_toggle').click(function(){
+		if($('.viewerwrap').hasClass('viewerwrap_toggle')){
+			$('.viewerwrap').removeClass('viewerwrap_toggle');
+		}else{
+			$('.viewerwrap').addClass('viewerwrap_toggle');
+		}
+	});
+
+
+	// snb
+	$('.snb .snb_stit').click(function(){
+		$('.snb .snb_stit').not($(this)).removeClass('on');
+		$(this).addClass('on');
+	});
+
+
+	// snb2
+	$('.snb li').click(function(){
+		$('.snb li').not($(this)).removeClass('on');
+		$(this).addClass('on');
+	});
+
+
+	// 실록 날짜
+	$('.text_body_cal ul li').click(function(){
+		$('.text_body_cal ul li').not($(this)).removeClass('on');
+		$(this).addClass('on');
+	});
+
+
+	// 실록 분류색인 결과
+	$('.list_index li').click(function(){
+		$('.list_index li').not($(this)).removeClass('on');
+		$(this).addClass('on');
+	});
+
+	$("#content").on("click", ".scroll_top_btn", function(e) {//탑 버튼 클릭이동
+		if($(".scroll_area").length>0)
+			$(".scroll_area").scrollTop(0);
+		else if($(".content_scroll").length>0)
+			$(".content_scroll").scrollTop(0);
+		else
+			$(window).scrollTop(0);
+	});
+
+	/*
+	$(".totop").hide(); // 탑 버튼 숨김
+	$(window).scroll(function () {
+		if ($(this).scrollTop() > 100) { // 스크롤 내릴 표시
+			$('.totop').fadeIn();
+		} else {
+			$('.totop').fadeOut();
+		}
+	});
+			
+	$('.totop').click(function () {
+		$('body,html').animate({
+			scrollTop: 0
+		}, 500);  // 탑 이동 스크롤 속도
+		return false;
+	});
+	*/
+
+	// 서지리스트 161202
+	$('.seoji_select li a').click(function(){
+		$('.seoji_select li a').not($(this)).removeClass('on');
+		$(this).addClass('on');
+	});
+
+	/* 상세검색은 팝업창으로 변경
+	$('.btn_dsearch_open').click(function() {
+		$('.detail_search, .pop_overlay',top.document).fadeIn('');
+		$('body').css('overflow','hidden')
+	});
+	$('.btn_dsearch_close').click(function(){
+		$('.detail_search, .pop_overlay',top.document).fadeOut('');
+		$('body').css('overflow','auto')
+	});
+	*/
+
+	$('.pop_open1_btn').click(function() {
+		$('.pop_open1, .pop_overlay',top.document).fadeIn('');
+		$('body').css('overflow','hidden')
+	});
+	$('.pop_close1_btn').click(function(){
+		$('.pop_open1, .pop_overlay',top.document).fadeOut('');
+		$('body').css('overflow','auto')
+	});
+
+
+});
+</script>
+
+
+	
+	
+	
+		<script src="/resources/js/analysis-db.js?v=20250224"></script>
+	
+	
+	<script type="text/javascript" src="//wcs.naver.net/wcslog.js"></script>
+	<script type="text/javascript"> if(!wcs_add) var wcs_add = {}; wcs_add["wa"] = "644caa96e7db4c"; if(window.wcs) {wcs_do(); } </script>
+</head>
+
+<body class="body_line">
+
+<div id="wrap">
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/css/autocomlete.css" />
+<script type="text/javascript" src="/resources/webime/tinymce/tiny_mce_src.js"></script>
+<script type="text/javascript" src="/resources/webime/webime_util.js"></script>
+<script type="text/javascript">
+$(document).ready(function () {
+	
+	Wime.embedIme( { imeid:"q_query", skin:"default", value:"", init_instance_callback:selectWordSearch, autocompleteurl:'/search/suggest'} );
+});
+$(window).load(function () {
+	Wime.setFocus("q_query") ;
+});
+</script>
+
+<script type="text/javascript">
+g_contextPath = s.rtrim("/",'/');
+
+$(document).ready(function(){
+	$("#searchPane #q_opJib").click(function() {
+		if($(this).hasClass("dis"))
+			return;
+		
+		if($(this).hasClass("on")) {
+			var url_itemId = getUrlParam(window.location.href).itemId;
+			if(!url_itemId) {
+				var optJibsu = $(this).data("optJibsu");
+				if(optJibsu=='' || s.startsWith(optJibsu,"a") || s.startsWith(optJibsu,"b"))
+					url_itemId = "MO";
+				else
+					url_itemId = "KP";
+			}
+			popWin("/dir/pop_search_opt/jibsu?itemId="+url_itemId+"&ids="+$(this).data("optJibsu"), "_blank", 550, 770);
+		}
+	});
+	
+    
+    
+	var urlObj = getUrlParam(window.location.hash);
+	if(urlObj.dataId || urlObj.itemId)
+		$("#searchPane #q_opDir").removeClass("dis");
+	if(urlObj.itemId == 'MO' || urlObj.itemId == 'KP')
+		$("#searchPane #q_opJib").removeClass("dis");
+
+	
+});
+
+function getInResQuery(opInRes) {
+    
+    
+    return "";
+}
+
+function setJibsu(ids) {
+	$("#searchPane #q_opJib").data("optJibsu",ids);
+}
+
+///////////////////////////// 검색어 발자취 /////////////////////////////
+function popSearchHistory() {
+    $(".pop_fixed.search_history").hide();
+    $(".pop_fixed.search_history").empty();
+
+    $.get("/search/history",
+        function(data, textStatus, jqXHR) {
+            $(".pop_fixed.search_history").html(data);
+        }).error(function(jqXHR, textStatus, errorThrown) { alert(jqXHR.status + " : " + textStatus + " : " + errorThrown); });
+
+	$('.search_history, .pop_overlay',top.document).fadeIn('');
+	$('body').css('overflow','hidden');
+}
+
+function closeSearchHistory() {
+	$('.search_history, .pop_overlay',top.document).fadeOut('');
+	$('body').css('overflow','auto');
+}
+
+</script>
+ 
+
+
+
+<link rel="stylesheet" href="/resources/css/layout.css?v=20261026"/>
+<link rel="stylesheet" href="/resources/css/sub.css?v=20210119"/>
+<script src="/resources/js/common_design.js?v=202101191438"></script>
+<link rel="stylesheet" type="text/css" href="/resources/libs/heapbox/heapbox_sub.css"><!--210112 디자인 셀렉트박스 관련 추가 -->
+<script src="/resources/libs/heapbox/jquery.heapbox-0.9.2.js"></script><!--210112 디자인 셀렉트박스 관련 추가 -->
+
+<!-- subWrap -->
+<div id="subWrap">
+    <!-- top -->
+    <section class="top">
+   		<nav class="site_nav">
+			<a href="http://www.itkc.or.kr" class="itkc_home" target="_blank">한국고전번역원</a>
+			<a href="http://edu.itkc.or.kr" class="itkc_edu" target="_blank">고전번역교육원</a>
+			<a href="http://db.itkc.or.kr" class="this itkc_db" >한국고전종합DB</a>
+		</nav>
+
+		<nav class="util_nav">
+			
+			
+			<a href="http://www.itkc.or.kr/login.do?site=db">로그인</a>
+			
+			<a href="http://www.itkc.or.kr/member/regist.do?site=db">회원가입</a>
+			<a onclick="popWin('/etc/desc?type=intro','_blank', 1000, 900)">DB소개</a><!--201223 -->
+			<a onclick="popWin('/etc/openAPI?type=page1','_blank', 900, 900)">OpenAPI</a>
+			<!-- 201223
+			<a href="http://www.itkc.or.kr/content/contents.do?cid=20160826070116&menuId=160" target="_blank">개인정보처리방침</a>
+			 -->
+			<a href="/board/noticeList">열린마당</a>
+            <a onClick="popWin('/etc/help?type=page1_1','_blank', 950, 1020)">도움말</a> 
+			<a class="site itkc_contest" href="https://contest.itkc.or.kr/" target="_blank">공모전</a>
+			<!-- 
+            <a class="site itkc_ebook" href="http://ebook.itkc.or.kr/html/" target="_blank">전자책 라이브러리</a>
+            -->
+		</nav>
+   </section>
+   <!-- //top -->
+   
+   <!-- sub_inner -->
+   <div class="sub_inner">
+       <!-- sub_srch -->
+       <div class="sub_srch">
+	       <a href=/ class="sub_logo">
+		       <img src="/resources/images/icon/sub_logo.png" alt="한국고전종합DB"/>
+	       </a>
+           <!-- srchArea -->
+           <div class="srchArea"  id="searchPane">
+               <!-- option -->
+               <div class="option">
+                   <div class="check">
+                       <label class="ck_radio"><input type="radio" name="q_opExt" value="Y" checked><span class="checkmark"></span>확장</label>
+                       <label class="ck_radio"><input type="radio" name="q_opExt" value="N"><span class="checkmark"></span>기본</label>
+                   </div>
+                   <div class="util">
+                       <ul>
+                           <li><a class="check_toggle q_op dis" id="q_opDir" data-opt-dir="">디렉토리내(서명별)</a></li>
+                           <li><a class="check_toggle q_op dis" id="q_opJib" data-opt-jibsu="">집수별</a></li>
+                           <li><a class="check_toggle q_op dis" id="q_opInRes">결과내</a></li>
+                           <li class="line"><a class="btn_dsearch_open" onClick="openDetailSerach()">상세검색</a></li>
+                           <li><a href="javascript:openWebime('q_query');" title="문자입력기"><img src="/resources/images/btn_word.png" alt="문자입력기" /></a></li>
+                       </ul>
+                   </div>
+               </div>
+               <!-- //option -->
+               <!-- search -->
+               <div class="search">
+                   	<div class="selectWrap">
+                       	<select name="q_opSecId" id="q_opSecId">
+	                        <option value="">전체</option>
+	                        <option value="MA">서지메타검색</option>
+	                        <option value="SJ"> - 서명</option>
+	                        <option value="AU"> - 저/편/필자</option>
+	                        <option value="KW"> - 권차/문체</option>
+	                        <option value="GS"> - 기사</option>
+	                        <option value="BD">본문검색</option>
+	                        <option value="ID">자료ID</option>
+                       	</select>
+                   	</div>
+                   	<input type="text" style="width:530px;height:43px;" name="query" id="q_query" value="" onkeypress="return enterSearchKeyCheck(event)" />
+					<a href="javascript:totalSearch()" class="btn_srch"><img src="/resources/images/icon/ic_srch_nv.png" alt="" /></a>
+				</div>
+               <!-- //search -->
+           </div>
+           <!-- /srchArea -->
+       </div>
+       <!-- //sub_srch -->
+   </div>
+   <!-- //sub_inner -->
+   <!-- header -->
+   <div id="header" class="sub">
+   		
+   		<div class="loc">
+		
+			
+			
+			
+			
+			
+			
+			고전원문
+			
+			
+			
+			
+			
+		
+   		</div>
+   		
+       <!-- inner -->
+       <div class="inner">
+           <!-- menu -->
+           <ul id="gnb" class="menu">
+               <li><a><strong>고전번역</strong></a>
+                   <ul class="sub_menu">
+                       <li><a href="/dir/item?itemId=BT#/dir/list?itemId=BT&gubun=book">고전번역서</a></li>
+                       <li><a href="/dir/item?itemId=JT#/dir/list?itemId=JT&gubun=book">조선왕조실록</a></li>
+                       <li><a href="/dir/item?itemId=JR#/dir/list?itemId=JR&gubun=book">신역 조선왕조실록</a></li>
+                       
+                       <li><a href="/dir/item?itemId=ST#/dir/list?itemId=ST&gubun=book">승정원일기</a></li>
+                       <li><a href="/dir/item?itemId=IT#/dir/list?itemId=IT&gubun=book">일성록</a></li>
+                   </ul>
+               </li>
+               <li><a><strong>고전원문</strong></a>
+                   <ul class="sub_menu">
+                       <li><a href="/dir/item?itemId=GO#/dir/list?itemId=GO&gubun=book">고전원문</a></li>
+                       <li><a href="/dir/item?itemId=MO#/dir/list?itemId=MO&gubun=book">한국문집총간</a></li>
+                       <li><a href="/dir/item?itemId=KP#/dir/list?itemId=KP&gubun=book">한국고전총간</a></li>
+                       <li><a href="/dir/item?itemId=KH#/dir/list?itemId=KH&gubun=book">한국경학자료집성</a></li>
+                   </ul>
+               </li>
+               <li><a><strong>전문검색</strong></a>
+                   <ul class="sub_menu">
+                       <li><a href="http://index.itkc.or.kr" target="_blank">편목색인</a></li>
+                       <li><a href="https://life.itkc.or.kr" target="_blank">저자행력정보</a></li>
+                       <li><a href="/people" target="_blank">인물관계정보</a></li>
+                   </ul>
+               </li>
+               <li><a><strong>사전류</strong></a>
+                   <ul class="sub_menu">
+                       <li><a href="/kakju/" target="_blank">고전번역서 각주정보</a></li>
+                       <li><a href="http://thesaurus.itkc.or.kr/" target="_blank">고전용어 시소러스</a></li>
+                       <li><a href="/dch/" target="_blank">이체자 정보</a></li>
+                   </ul>
+               </li>
+               <li><a><strong>해제류</strong></a>
+                   <ul class="sub_menu">
+                       <li><a href="/dir/item?grpId=hj#/dir/list?grpId=hj&itemId=BT">고전번역서 해제</a></li>
+                       <li><a href="/dir/item?grpId=hj#/dir/list?grpId=hj&itemId=JR">신역 조선왕조실록 해제</a></li>
+                       <li><a href="/dir/item?grpId=hj#/dir/list?grpId=hj&itemId=GO">고전원문 해제</a></li>
+                       <li><a href="/dir/item?grpId=hj#/dir/list?grpId=hj&itemId=MI">한국문집총간 해제</a></li>
+                       <li><a href="/dir/item?grpId=hj#/dir/list?grpId=hj&itemId=KI">한국고전총간 해제</a></li>
+                   </ul>
+               </li>
+               <li><a><strong>부가서비스</strong></a>
+                   <ul class="sub_menu">
+                   	   <li><a href="/ebook" target="_blank">고전번역학술정보</a></li>
+                       <li><a href="/seoji/" target="_blank">고전번역서 서지정보</a></li>
+                       <li><a href="http://aitr.itkc.or.kr">한문고전자동번역</a></li>
+                       <li><a href="/dir/item?itemId=KU#/dir/list?itemId=KU&gubun=book">경서성독</a></li>
+                       <li><a onclick="popWin('/extra/yonHoPop','_blank', 1000, 900);">한중일 연호검색</a></li>
+                       <li><a href="http://ebook.itkc.or.kr" target="_blank">전자책 라이브러리</a></li>
+                   </ul>
+               </li>
+           </ul>
+           <!-- //menu -->
+           <!-- hdSrch -->
+           <div class="hdSrch">
+               <input type="text" class="ipt" id="q_query2" onkeypress="return enterSearchKeyCheck2(event)" /><a href="javascript:totalSearch2()" class="btn_srch" title="검색">검색</a>
+           </div>
+           <!-- //hdSrch -->
+           <a class="btn_allmenu" title="전체메뉴">전체메뉴</a>
+       </div>
+       <!-- //inner -->
+       <!-- allmenu -->
+       <div class="allmenu">
+           <div class="wrap">
+               <!-- 전체메뉴 -->
+           </div>
+       </div>
+       <!-- //allmenu -->
+   </div>
+   <!-- //header -->
+</div>
+<!-- subWrap -->
+
+
+
+<section class="pop_fixed search_history" style="width:830px; top:15%; left:50%; margin:0 0 0 -415px; display:none; max-height:70%; overflow:auto;">
+</section>
+
+<div class="pop_overlay"></div>
+
+
+	<section id="container">
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+<link href="/resources/libs/jquery.simple.tree/css/simpleTree.css" rel="stylesheet" type="text/css">
+<style>
+.V1.V2.V3.simpleTree li {/*background: #f2f2f2;*/ border-bottom:none; font-size:12px; font-weight:normal;}
+
+.snb .sub_gnb_tree {display:none; padding:5px 15px; border-bottom:solid 1px #d0d0d2;} /*overflow:auto;*/
+.snb .sub_gnb_tree.on {display:block;}
+ul.V1.V2.V3.simpleTree {margin:2px 5px; padding:0;}
+</style>
+
+<script type="text/javascript">
+var gTreeState = {
+	paramObj:{
+		grpId: '',
+		itemId: '',
+		gubun: '',
+		cate1: '',
+		cate2: '',
+		dataGubun: '',
+		depth: '',
+		upSeoji: '',
+		dataId: ''
+	},
+	
+	g_getPathId : function(paramObj) {
+		if(!s.isBlank(paramObj.dataId))
+			return paramObj.cate1+'_'+paramObj.cate2+'_'+paramObj.dataId;
+		else if(!s.isBlank(paramObj.cate2))
+			return paramObj.cate1+'_'+paramObj.cate2;
+		else
+			return paramObj.cate1;
+	},
+	
+	defaultCate1Param: function (paramObj) {
+		if(s.isBlank(paramObj.dataId) && s.isBlank(paramObj.upSeoji))
+			return;
+			
+		if(paramObj.grpId == 'hj' || paramObj.itemId == 'BT' || paramObj.itemId == 'GO' || paramObj.itemId == 'MO' || paramObj.itemId == 'MD' || paramObj.itemId == 'KP' || paramObj.itemId == 'KH') {
+			if(paramObj.gubun == 'book' || paramObj.gubun == 'author') {
+				if(s.isBlank(paramObj.cate1)) {
+					paramObj.cate1 = "Z";
+				}
+			}
+		}  
+	},
+
+	correctParams: function (paramObj) {
+		if(paramObj.grpId != 'hj' && (paramObj.itemId == 'JT' || paramObj.itemId == 'JR' || paramObj.itemId == 'JO') && paramObj.gubun == 'book') {
+			paramObj.cate1 = '';
+			paramObj.cate2 = '';
+		}	
+	}
+};
+
+</script>
+
+
+<script type="text/javascript">
+function updateTreeTopNavi(pageUrl) {
+	
+	var paramObj = getUrlParam(pageUrl);
+	if(s.isBlank(paramObj.dataId)) {
+		gTreeState.paramObj.upSeoji = '';
+		gTreeState.paramObj.cate1 = '';
+		gTreeState.paramObj.cate2 = '';
+	}
+	paramObj = defaultParamObj(paramObj);
+ 	
+	var treeRootGubun = getTreeGubun(paramObj.itemId, paramObj.gubun);
+	paramObj.treeRootGubun = treeRootGubun;
+	//console_log(paramObj);
+
+	$("div[data-gubun]").removeClass("on");
+	$("div[data-gubun='"+treeRootGubun+"']").addClass("on");
+	
+	$("div[data-tree-gubun]").removeClass("on");
+	$("div[data-tree-gubun='"+treeRootGubun+"']").addClass("on");
+	
+	treeSync(paramObj);
+}
+
+function getTreeGubun(itemId, gubun) {
+	var treeRootGubun = gubun;
+	
+	if("" == "hj") {
+		treeRootGubun = itemId;
+	}
+	
+	if(s.isBlank(treeRootGubun)) {
+		if("" == "hj")
+			treeRootGubun = 'MI';
+		else
+			treeRootGubun = 'book';
+	}
+	
+	return treeRootGubun;
+}
+
+
+var 상하위서지맵 = {"ITKC_GO_1351A":"ITKC_GO_1305A","ITKC_BT_1422A":"ITKC_BT_1409A","ITKC_BT_1313A":"ITKC_BT_1305A","ITKC_BT_1410A":"ITKC_BT_1409A","ITKC_GO_1513A":"ITKC_GO_1509A","ITKC_GO_1363A":"ITKC_GO_1305A","ITKC_BT_1349A":"ITKC_BT_1305A","ITKC_GO_1375A":"ITKC_GO_1373A","ITKC_GO_1387A":"ITKC_GO_1373A","ITKC_BT_1325A":"ITKC_BT_1305A","ITKC_GO_1399A":"ITKC_GO_1373A","ITKC_BT_1337A":"ITKC_BT_1305A","ITKC_GO_1429A":"ITKC_GO_1409A","ITKC_BT_1381A":"ITKC_BT_1373A","ITKC_GO_1417A":"ITKC_GO_1409A","ITKC_BT_1393A":"ITKC_BT_1373A","ITKC_GO_1405A":"ITKC_GO_1373A","ITKC_GO_1514A":"ITKC_GO_1509A","ITKC_GO_1308A":"ITKC_GO_1305A","ITKC_GO_1350A":"ITKC_GO_1305A","ITKC_GO_1362A":"ITKC_GO_1305A","ITKC_BT_1411A":"ITKC_BT_1409A","ITKC_BT_1423A":"ITKC_BT_1409A","ITKC_GO_1403A":"ITKC_GO_1373A","ITKC_GO_1374A":"ITKC_GO_1373A","ITKC_BT_1338A":"ITKC_BT_1305A","ITKC_GO_1512A":"ITKC_GO_1509A","ITKC_GO_1386A":"ITKC_GO_1373A","ITKC_GO_1398A":"ITKC_GO_1373A","ITKC_BT_1314A":"ITKC_BT_1305A","ITKC_BT_1326A":"ITKC_BT_1305A","ITKC_GO_1428A":"ITKC_GO_1409A","ITKC_BT_1382A":"ITKC_BT_1373A","ITKC_GO_1416A":"ITKC_GO_1409A","ITKC_GO_1404A":"ITKC_GO_1373A","ITKC_GO_1307A":"ITKC_GO_1305A","ITKC_BT_1394A":"ITKC_BT_1373A","ITKC_GO_1319A":"ITKC_GO_1305A","ITKC_GO_1389A":"ITKC_GO_1373A","ITKC_BT_1323A":"ITKC_BT_1305A","ITKC_BT_1335A":"ITKC_BT_1305A","ITKC_BT_1420A":"ITKC_BT_1409A","ITKC_BT_1311A":"ITKC_BT_1305A","ITKC_GO_1341A":"ITKC_GO_1305A","ITKC_GO_1353A":"ITKC_GO_1305A","ITKC_BT_1347A":"ITKC_BT_1305A","ITKC_GO_1377A":"ITKC_GO_1373A","ITKC_BT_1359A":"ITKC_BT_1305A","ITKC_GO_1407A":"ITKC_GO_1373A","ITKC_BT_1391A":"ITKC_BT_1373A","ITKC_GO_1419A":"ITKC_GO_1409A","ITKC_GO_1340A":"ITKC_GO_1305A","ITKC_BT_1312A":"ITKC_BT_1305A","ITKC_BT_1324A":"ITKC_BT_1305A","ITKC_BT_1421A":"ITKC_BT_1409A","ITKC_GO_1352A":"ITKC_GO_1305A","ITKC_GO_1364A":"ITKC_GO_1305A","ITKC_GO_1376A":"ITKC_GO_1373A","ITKC_BT_1336A":"ITKC_BT_1305A","ITKC_GO_1388A":"ITKC_GO_1373A","ITKC_BT_1348A":"ITKC_BT_1305A","ITKC_GO_1418A":"ITKC_GO_1409A","ITKC_GO_1309A":"ITKC_GO_1305A","ITKC_BT_1392A":"ITKC_BT_1373A","ITKC_GO_1406A":"ITKC_GO_1373A","ITKC_GO_1515A":"ITKC_GO_1509A","ITKC_BT_1380A":"ITKC_BT_1373A","ITKC_GO_1383A":"ITKC_GO_1373A","ITKC_GO_1395A":"ITKC_GO_1373A","ITKC_BT_1345A":"ITKC_BT_1305A","ITKC_BT_1357A":"ITKC_BT_1305A","ITKC_BT_1321A":"ITKC_BT_1305A","ITKC_GO_1315A":"ITKC_GO_1305A","ITKC_BT_1333A":"ITKC_BT_1305A","ITKC_GO_1424A":"ITKC_GO_1409A","ITKC_GO_1412A":"ITKC_GO_1409A","ITKC_GO_1400A":"ITKC_GO_1373A","ITKC_GO_1316A":"ITKC_GO_1305A","ITKC_GO_1328A":"ITKC_GO_1305A","ITKC_GO_1382A":"ITKC_GO_1373A","ITKC_GO_1394A":"ITKC_GO_1373A","ITKC_BT_1334A":"ITKC_BT_1305A","ITKC_BT_1346A":"ITKC_BT_1305A","ITKC_GO_1314A":"ITKC_GO_1305A","ITKC_BT_1310A":"ITKC_BT_1305A","ITKC_GO_1326A":"ITKC_GO_1305A","ITKC_BT_1322A":"ITKC_BT_1305A","ITKC_GO_1423A":"ITKC_GO_1409A","ITKC_BT_1358A":"ITKC_BT_1305A","ITKC_GO_1411A":"ITKC_GO_1409A","ITKC_BT_1390A":"ITKC_BT_1373A","ITKC_GO_1327A":"ITKC_GO_1305A","ITKC_GO_1339A":"ITKC_GO_1305A","ITKC_BT_1408A":"ITKC_BT_1373A","ITKC_GO_1361A":"ITKC_GO_1305A","ITKC_BT_1379A":"ITKC_BT_1373A","ITKC_BT_1343A":"ITKC_BT_1305A","ITKC_BT_1476A":"ITKC_BT_1469A","ITKC_BT_1355A":"ITKC_BT_1305A","ITKC_GO_1414A":"ITKC_GO_1409A","ITKC_GO_1385A":"ITKC_GO_1373A","ITKC_GO_1402A":"ITKC_GO_1373A","ITKC_GO_1397A":"ITKC_GO_1373A","ITKC_GO_1511A":"ITKC_GO_1509A","ITKC_GO_1427A":"ITKC_GO_1409A","ITKC_GO_1415A":"ITKC_GO_1409A","ITKC_GO_1306A":"ITKC_GO_1305A","ITKC_BT_1331A":"ITKC_BT_1305A","ITKC_GO_1318A":"ITKC_GO_1305A","ITKC_GO_1360A":"ITKC_GO_1305A","ITKC_GO_1384A":"ITKC_GO_1373A","ITKC_BT_1356A":"ITKC_BT_1305A","ITKC_BT_1332A":"ITKC_BT_1305A","ITKC_BT_1344A":"ITKC_BT_1305A","ITKC_GO_1425A":"ITKC_GO_1409A","ITKC_GO_1396A":"ITKC_GO_1373A","ITKC_GO_1413A":"ITKC_GO_1409A","ITKC_GO_1401A":"ITKC_GO_1373A","ITKC_GO_1510A":"ITKC_GO_1509A","ITKC_GO_1426A":"ITKC_GO_1409A","ITKC_GO_1317A":"ITKC_GO_1305A","ITKC_BT_1320A":"ITKC_BT_1305A","ITKC_GO_1329A":"ITKC_GO_1305A","ITKC_BT_1309A":"ITKC_BT_1305A","ITKC_BT_1406A":"ITKC_BT_1373A","ITKC_BT_1418A":"ITKC_BT_1409A","ITKC_GO_1391A":"ITKC_GO_1373A","ITKC_GO_1323A":"ITKC_GO_1305A","ITKC_BT_1389A":"ITKC_BT_1373A","ITKC_GO_1420A":"ITKC_GO_1409A","ITKC_GO_1335A":"ITKC_GO_1305A","ITKC_GO_1347A":"ITKC_GO_1305A","ITKC_GO_1359A":"ITKC_GO_1305A","ITKC_BT_1377A":"ITKC_BT_1373A","ITKC_BT_1515A":"ITKC_BT_1509A","ITKC_GO_1311A":"ITKC_GO_1305A","ITKC_BT_1341A":"ITKC_BT_1305A","ITKC_BT_1353A":"ITKC_BT_1305A","ITKC_BT_1419A":"ITKC_BT_1409A","ITKC_BT_1407A":"ITKC_BT_1373A","ITKC_GO_1390A":"ITKC_GO_1373A","ITKC_GO_1334A":"ITKC_GO_1305A","ITKC_BT_1378A":"ITKC_BT_1373A","ITKC_GO_1346A":"ITKC_GO_1305A","ITKC_GO_1358A":"ITKC_GO_1305A","ITKC_BT_1475A":"ITKC_BT_1469A","ITKC_BT_1354A":"ITKC_BT_1305A","ITKC_GO_1310A":"ITKC_GO_1305A","ITKC_GO_1322A":"ITKC_GO_1305A","ITKC_BT_1330A":"ITKC_BT_1305A","ITKC_BT_1342A":"ITKC_BT_1305A","ITKC_GO_1381A":"ITKC_GO_1373A","ITKC_GO_1393A":"ITKC_GO_1373A","ITKC_BT_1428A":"ITKC_BT_1409A","ITKC_BT_1307A":"ITKC_BT_1305A","ITKC_BT_1319A":"ITKC_BT_1305A","ITKC_GO_1410A":"ITKC_GO_1409A","ITKC_GO_1313A":"ITKC_GO_1305A","ITKC_GO_1325A":"ITKC_GO_1305A","ITKC_BT_1387A":"ITKC_BT_1373A","ITKC_GO_1337A":"ITKC_GO_1305A","ITKC_BT_1399A":"ITKC_BT_1373A","ITKC_BT_1513A":"ITKC_BT_1509A","ITKC_BT_1404A":"ITKC_BT_1373A","ITKC_BT_1416A":"ITKC_BT_1409A","ITKC_GO_1422A":"ITKC_GO_1409A","ITKC_GO_1338A":"ITKC_GO_1305A","ITKC_BT_1363A":"ITKC_BT_1305A","ITKC_BT_1375A":"ITKC_BT_1373A","ITKC_BT_1351A":"ITKC_BT_1305A","ITKC_GO_1392A":"ITKC_GO_1373A","ITKC_BT_1417A":"ITKC_BT_1409A","ITKC_BT_1429A":"ITKC_BT_1409A","ITKC_BT_1308A":"ITKC_BT_1305A","ITKC_GO_1380A":"ITKC_GO_1373A","ITKC_GO_1421A":"ITKC_GO_1409A","ITKC_GO_1312A":"ITKC_GO_1305A","ITKC_GO_1324A":"ITKC_GO_1305A","ITKC_GO_1336A":"ITKC_GO_1305A","ITKC_BT_1376A":"ITKC_BT_1373A","ITKC_GO_1348A":"ITKC_GO_1305A","ITKC_BT_1388A":"ITKC_BT_1373A","ITKC_BT_1405A":"ITKC_BT_1373A","ITKC_BT_1514A":"ITKC_BT_1509A","ITKC_GO_1349A":"ITKC_GO_1305A","ITKC_BT_1352A":"ITKC_BT_1305A","ITKC_BT_1364A":"ITKC_BT_1305A","ITKC_BT_1340A":"ITKC_BT_1305A","ITKC_BT_1329A":"ITKC_BT_1305A","ITKC_GO_1476A":"ITKC_GO_1469A","ITKC_GO_1379A":"ITKC_GO_1373A","ITKC_BT_1511A":"ITKC_BT_1509A","ITKC_BT_1426A":"ITKC_BT_1409A","ITKC_GO_1331A":"ITKC_GO_1305A","ITKC_BT_1317A":"ITKC_BT_1305A","ITKC_GO_1343A":"ITKC_GO_1305A","ITKC_BT_1402A":"ITKC_BT_1373A","ITKC_GO_1355A":"ITKC_GO_1305A","ITKC_BT_1414A":"ITKC_BT_1409A","ITKC_BT_1385A":"ITKC_BT_1373A","ITKC_BT_1397A":"ITKC_BT_1373A","ITKC_BT_1361A":"ITKC_BT_1305A","ITKC_BT_1318A":"ITKC_BT_1305A","ITKC_GO_1378A":"ITKC_GO_1373A","ITKC_GO_1475A":"ITKC_GO_1469A","ITKC_BT_1398A":"ITKC_BT_1373A","ITKC_GO_1330A":"ITKC_GO_1305A","ITKC_BT_1415A":"ITKC_BT_1409A","ITKC_GO_1342A":"ITKC_GO_1305A","ITKC_BT_1512A":"ITKC_BT_1509A","ITKC_BT_1427A":"ITKC_BT_1409A","ITKC_BT_1306A":"ITKC_BT_1305A","ITKC_GO_1354A":"ITKC_GO_1305A","ITKC_BT_1403A":"ITKC_BT_1373A","ITKC_BT_1374A":"ITKC_BT_1373A","ITKC_BT_1386A":"ITKC_BT_1373A","ITKC_BT_1350A":"ITKC_BT_1305A","ITKC_GO_1408A":"ITKC_GO_1373A","ITKC_BT_1362A":"ITKC_BT_1305A","ITKC_GO_1345A":"ITKC_GO_1305A","ITKC_BT_1400A":"ITKC_BT_1373A","ITKC_GO_1357A":"ITKC_GO_1305A","ITKC_BT_1412A":"ITKC_BT_1409A","ITKC_BT_1327A":"ITKC_BT_1305A","ITKC_BT_1339A":"ITKC_BT_1305A","ITKC_GO_1321A":"ITKC_GO_1305A","ITKC_BT_1424A":"ITKC_BT_1409A","ITKC_GO_1333A":"ITKC_GO_1305A","ITKC_BT_1315A":"ITKC_BT_1305A","ITKC_BT_1383A":"ITKC_BT_1373A","ITKC_BT_1395A":"ITKC_BT_1373A","ITKC_GO_1356A":"ITKC_GO_1305A","ITKC_BT_1401A":"ITKC_BT_1373A","ITKC_BT_1510A":"ITKC_BT_1509A","ITKC_BT_1316A":"ITKC_BT_1305A","ITKC_GO_1320A":"ITKC_GO_1305A","ITKC_BT_1328A":"ITKC_BT_1305A","ITKC_GO_1332A":"ITKC_GO_1305A","ITKC_BT_1413A":"ITKC_BT_1409A","ITKC_GO_1344A":"ITKC_GO_1305A","ITKC_BT_1425A":"ITKC_BT_1409A","ITKC_BT_1360A":"ITKC_BT_1305A","ITKC_BT_1396A":"ITKC_BT_1373A","ITKC_BT_1384A":"ITKC_BT_1373A","상위서지목록":["ITKC_BT_1305A","ITKC_BT_1373A","ITKC_BT_1409A","ITKC_BT_1469A","ITKC_BT_1509A","ITKC_GO_1305A","ITKC_GO_1373A","ITKC_GO_1409A","ITKC_GO_1469A","ITKC_GO_1509A"]};//{'ITKC_BT_1346A':'ITKC_BT_1305A','ITKC_BT_1305A':'ITKC_BT_1305A'};
+function defaultParamObj(paramObj) {
+	if(s.isBlank(paramObj.grpId)) paramObj.grpId = defaultStr(gTreeState.paramObj.grpId, "");
+	if(s.isBlank(paramObj.itemId)) paramObj.itemId = defaultStr(gTreeState.paramObj.itemId, toShortItemId(paramObj.dataId));
+	if(s.isBlank(paramObj.itemId)) paramObj.itemId = defaultStr("GO");
+	if(s.isBlank(paramObj.gubun)) paramObj.gubun = defaultStr(gTreeState.paramObj.gubun, "book");
+	if(s.isBlank(paramObj.cate1)) paramObj.cate1 = defaultStr(gTreeState.paramObj.cate1);
+	if(s.isBlank(paramObj.cate2)) paramObj.cate2 = defaultStr(gTreeState.paramObj.cate2);
+	if(s.isBlank(paramObj.dataGubun)) paramObj.dataGubun = defaultStr(gTreeState.paramObj.dataGubun);
+	if(s.isBlank(paramObj.upSeoji)) paramObj.upSeoji = defaultStr(gTreeState.paramObj.upSeoji);
+	if(s.isBlank(paramObj.depth)) paramObj.depth = defaultStr(gTreeState.paramObj.depth);
+	
+	if(!s.isBlank(paramObj.dataId) && s.isBlank(paramObj.upSeoji)) { //하위서지는 상위서지 하위에만 존재하기 때문에 반드시
+		paramObj.upSeoji = defaultStr(상하위서지맵[toSeojiId(paramObj.dataId)]);
+		if(paramObj.grpId=='hj' && !paramObj.upSeoji && _.contains(상하위서지맵["상위서지목록"],paramObj.dataId)) { //검색에서 상위서지는 내용 호출시 dataID로 상위서지 호출시 트리sync를 위해
+			paramObj.upSeoji = paramObj.dataId;
+		}
+	}
+		
+	gTreeState.defaultCate1Param(paramObj);
+	gTreeState.correctParams(paramObj);
+	
+	gTreeState.paramObj = paramObj
+
+	return paramObj;
+}
+
+var TREE = null;
+function treeSync(paramObj) {
+	TREE = $("div[data-tree-gubun='"+paramObj.treeRootGubun+"'] .root").data("treeObj");
+	//alert(JSON.stringify($TREE.option));
+	//alert($("li[data-dataId='"+paramObj.dataId+"']", TREE).attr("data-dataId"));
+	//alert($("li[data-dataId='"+paramObj.dataId+"']", TREE).html());
+
+	if(paramObj.grpId == 'hj') {
+		//console_log("[treeSync] grpId:" + paramObj.grpId +" gubun:"+paramObj.gubun);
+		openNode($(">li.root li[data-hj-gubun='"+paramObj.gubun+"']", TREE)[0]);
+	} else {
+		syncNode($(">li.root", TREE)[0]);
+	}
+}
+
+function syncNode(node) {
+	if(node==null)
+		return;
+	
+	//console_log("[syncNode] dataUrl: " + $(node).attr("data-url"));
+	var subNode = findNodeSub(node);
+	if(subNode!=null)
+		openNode(subNode);
+	else
+		scrollToVisibleNode(node, ".snb.snb_scroll"); //sync End;
+}
+
+function findNodeSub(node) {
+	var findNode = null;
+	//console_log("[findNodeSub] size:" + $('>ul>li[data-url]', node).size());
+	
+	if(!s.isBlank(gTreeState.paramObj.upSeoji)) {
+		var upSeojiNode = $('>ul>li[data-url][data-upSeoji="'+gTreeState.paramObj.upSeoji+'"]', node);
+		if(upSeojiNode.length>0) {
+			//console_log("[findNodeSub] find OK upSeoji: " + gTreeState.paramObj.upSeoji);
+			findNode = upSeojiNode.get(0);
+		}
+	} 
+	
+	if(findNode == null) {
+		$('>ul>li[data-url]', node).each(function() {
+			var dataUrl = $(this).attr("data-url");
+			var dataId = $(this).attr("data-dataId");
+			var paramObj = getUrlParam(dataUrl);
+			gTreeState.defaultCate1Param(paramObj);
+			 
+			var nodePathId = gTreeState.g_getPathId(paramObj);
+			var gPathId = gTreeState.g_getPathId(gTreeState.paramObj);
+			//console_log("[findNodeSub] gPathId:" + gPathId + " nodePathId:" + nodePathId);
+			
+			var matchWith = s.startsWith(gPathId, nodePathId+'_');
+			if(paramObj.itemId=='KP' && paramObj.gubun=='jibsu' && paramObj.depth=='1') { //yskwun 20241224 KP 집수별 그룹처리를 위하여(주의류,지리류,전기류)
+				matchWith = s.startsWith(gPathId, nodePathId);
+			}
+			
+			if(s.isBlank(paramObj.upSeoji) && (gPathId == nodePathId || matchWith)) {
+				//console_log("[findNodeSub] find OK gPathId:" + gPathId + " nodePathId:" + nodePathId);
+				findNode = this;
+				return false;
+			}
+		});
+	}
+	
+	return findNode;
+}
+
+function openNode(node) {
+	if(node==null)
+		return;
+	//console_log("[openNode] dataUrl: "+$(node).attr("data-url"));
+	
+	$('.active',TREE).attr('class','text');
+	if($(">span", node).hasClass("text"))	{
+		$(">span", node)[0].className='active';
+	}
+	
+	var childUl = $('>ul', node);
+	if(childUl==null)
+		return;
+	
+	if(!childUl.is(':visible')) {
+		//console_log("[openNode] nodeToggle");
+		var ajax = childUl.is('.ajax');
+		TREE.nodeToggle(node);
+		if(!ajax)
+			syncNode(node);
+	} else {
+		//console_log("[openNode] syncNode");
+		syncNode(node);
+	}
+}
+
+function afterNodeAjax(node) { //ul.ajax node
+	var parentNode = node.parent().get();
+	var dataUrl = $(parentNode).attr("data-url");
+	//var dataId = $(parentNode).attr("data-dataId");
+	//var paramObj = getUrlParam(dataUrl);
+	//console_log("[afterNodeAjax] dataUrl: "+ dataUrl);
+	
+	syncNode(parentNode);
+}
+</script>
+
+<script src="/resources/libs/jquery.simple.tree/js/jquery.simple.tree.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	
+	var simpleTreeCollection;
+	$(document).ready(function(){
+		simpleTreeCollection = $('.simpleTree').simpleTree({
+			autoclose: false,
+			drag: false,
+			afterClickToggle : true,
+			
+			afterClick:function(node){
+				//alert("text-"+$('span:first',node).text());
+				click_Node(node);
+			},
+			
+			afterDblClick:function(node){
+				//alert("text-"+$('span:first',node).text());
+			},
+			afterMove:function(destination, source, pos){
+				//alert("destination-"+destination.attr('id')+" source-"+source.attr('id')+" pos-"+pos);
+			},
+			afterAjax: afterNodeAjax,
+			//afterAjax:function() {
+				//alert('Loaded');
+			//},
+			animate:true,
+			//,docToFolderConvert:true
+			imageUrl : '/resources/libs/jquery.simple.tree'
+		});
+	});
+	
+	
+	function click_Node(node) {
+		var dataUrl = node.attr("data-url");
+		//var dataId = node.attr("data-dataId");
+		
+		var paramObj = getUrlParam(dataUrl);
+		var upSeojiNode = node.closest("li[data-upSeoji]");
+		//console_log("[click_Node] data-upSeoji closest length: " +upSeojiNode.length);
+		if(upSeojiNode.length>0 && s.isBlank(paramObj.upSeoji)) {
+			dataUrl +="&upSeoji="+ upSeojiNode.attr("data-upSeoji");
+		}
+		
+		paramObj = getUrlParam(dataUrl);
+		gTreeState.paramObj = paramObj;
+
+		var prevUrlObj = getUrlParam(Backbone.history.getFragment());
+		var viewSync = "";
+		if(prevUrlObj.viewSync)
+			viewSync+="&viewSync="+prevUrlObj.viewSync;
+		if(prevUrlObj.viewSync2)
+			viewSync+="&viewSync2="+prevUrlObj.viewSync2;
+		
+		if(paramObj.gubun == 'cate' || s.isBlank(paramObj.dataId)) {
+			/* yskwun 20190818 저자 가나다 서비스허용
+			if(paramObj.gubun == 'author') {
+				if(paramObj.grpId == 'hj'){
+					if(paramObj.depth == '2')//BT,GO,MO,MD
+						return;
+				} else {
+					if(paramObj.depth == '1')//BT,GO,MO,MD
+						return;
+				}
+			}
+			*/
+			if(paramObj.grpId == 'hj' && !s.isBlank(paramObj.upSeoji) && s.isBlank(paramObj.dataId)) //해제보기에서 하위서지 존재하는 경우(대동야승)
+				appRouter.navigate('/dir/node'+getChangeQueryParam(dataUrl, 'dataId', paramObj.upSeoji)+viewSync, { trigger: true });
+			else
+				appRouter.navigate('/dir/list'+dataUrl+viewSync, { trigger: true });
+		} else {
+			if(paramObj.dataGubun == '월')
+				return;
+			appRouter.navigate('/dir/node'+dataUrl+viewSync, { trigger: true });
+		}
+	}
+	
+	function clickSnbMenu(pageUrl) {
+		var paramObj = getUrlParam(pageUrl);
+		var treeRootGubun = getTreeGubun(paramObj.itemId, paramObj.gubun);
+
+		$("div[data-gubun][data-gubun]").removeClass("on");
+		$("div[data-gubun='"+treeRootGubun+"']").addClass("on");
+		
+		if($("div[data-tree-gubun='"+treeRootGubun+"']").is(":visible")) {
+			$("div[data-tree-gubun='"+treeRootGubun+"']").removeClass("on");
+		} else {
+			$("div[data-tree-gubun]").removeClass('on');
+			$("div[data-tree-gubun='"+treeRootGubun+"']").addClass("on");
+			
+			navigate(pageUrl);
+		}
+		
+		//updateTreeTopNavi(pageUrl);
+		//navigate(pageUrl);
+	}
+</script>
+
+<a class="body_tree_toggle"></a>
+
+<!-- snb -->
+<section id="snb">
+<div class="snb snb_scroll">
+
+
+	
+	
+	
+	
+	
+		<div class="snb_stit" data-gubun="book"><a onclick="clickSnbMenu('/dir/list?itemId=GO&gubun=book')">서명별</a></div>
+		<div class="sub_gnb_tree" data-tree-gubun="book">
+			<ul class="simpleTree V1 V2 V3">
+				<li class="root">
+					<ul data-rooName='book'>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=Z&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='전체'>전체</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=Z&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=A&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='가'>가</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=A&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=B&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='나'>나</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=B&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=C&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='다'>다</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=C&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=D&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='라'>라</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=D&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=E&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='마'>마</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=E&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=F&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='바'>바</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=F&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=G&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='사'>사</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=G&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=H&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='아'>아</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=H&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=I&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='자'>자</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=I&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=J&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='차'>차</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=J&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=K&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='카'>카</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=K&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=L&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='타'>타</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=L&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=M&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='파'>파</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=M&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=book&depth=1&cate1=N&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='하'>하</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=book&depth=1&cate1=N&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+</ul>
+
+				</li>
+			</ul>
+		</div>
+
+		<div class="snb_stit" data-gubun="author"><a onclick="clickSnbMenu('/dir/list?itemId=GO&gubun=author')">저자별</a></div>
+		<div class="sub_gnb_tree" data-tree-gubun="author">
+			<ul class="simpleTree V1 V2 V3">
+				<li class="root">
+					<ul data-rooName='author'>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=Z&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='전체'>전체</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=Z&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=A&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='가'>가</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=A&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=B&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='나'>나</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=B&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=C&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='다'>다</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=C&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=D&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='라'>라</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=D&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=E&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='마'>마</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=E&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=F&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='바'>바</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=F&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=G&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='사'>사</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=G&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=H&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='아'>아</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=H&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=I&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='자'>자</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=I&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=J&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='차'>차</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=J&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=K&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='카'>카</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=K&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=L&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='타'>타</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=L&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=M&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='파'>파</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=M&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+<li data-dataId='' data-url ='?grpId=&itemId=GO&gubun=author&depth=1&cate1=N&cate2=&dataGubun=&dataId='  data-lvl="0"  ><span title='하'>하</span>  <ul class='ajax'><li>{url:./treeAjax?grpId=&itemId=GO&gubun=author&depth=1&cate1=N&cate2=&dataGubun=&dataId=}</li></ul>
+</li>
+</ul>
+
+				</li>
+			</ul>
+		</div>
+	
+	
+	
+	
+	
+	
+	
+		
+	
+	
+			
+
+
+
+
+</div>
+</section>
+
+<!--// snb -->
+	
+		
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+
+
+
+
+
+
+
+
+<link rel="stylesheet" type="text/css" href="/resources/libs/selector/css/imgareaselect-default.css"/>
+<script src="/resources/libs/selector/jquery.imgareaselect.js"></script>
+<script src="/resources/js/ITKCImageViewer.js?20191202"></script>
+<script type="text/x-mathjax-config">
+MathJax.Hub.Config({
+  tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+});
+</script>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+
+<style type="text/css">
+.highlightbox {	background: #ee2222; border: 1px solid black; position: absolute; opacity:0.5; filter:alpha(opacity = 50); }
+.parallel { font-family: "돋움", Dotum, "굴림", Gulim, AppleGothic, Sans-serif; font-size: 11px; color: #808080; letter-spacing:-1px; text-align:right; position:relative; top:-3px; }
+.parallelVR { padding-left:18px; margin-left:2px; background:url(/itkcdb/ext/image/n2/bg/backVir.gif) center top no-repeat; font-size:11px; line-height:11px; }
+</style>
+
+
+<style>
+ body {overflow-y:hidden;} /*주석레이어 파업시 전체스크롤 방지*/
+</style>
+
+
+<script src="/resources/libs/jquery.scrollSync.js"></script>
+<script src="/resources/js/itkcNodeView.js?20210809"></script>
+
+<script type="text/javascript">
+	var prev_pageUrl = "";
+	var AppRouter = Backbone.Router.extend({
+	    routes: {
+	        'dir/list?*queryString': "list",
+	        'dir/node?*queryString': "node",
+	    },
+	
+	    list: function(queryString) {
+	    	var url = "/dir/list";
+    		if (typeof queryString != 'undefined')
+	    		url += "?"+queryString;
+	        this.loadAjaxData(url);
+	    },
+	    
+	    node: function(queryString) {
+	    	var url = "/dir/node";
+    		if (typeof queryString != 'undefined')
+	    		url += "?"+queryString;
+	        this.loadAjaxData(url);
+	    },
+	    
+	    loadAjaxData: function(pageUrl) {
+	    	//console_log("[loadAjaxData] encodeURI before: "+ pageUrl);
+	    	pageUrl = encodeURI(pageUrl);
+	    	//console_log("[loadAjaxData] encodeURI after: "+ pageUrl);
+	    	
+	    	if(prev_pageUrl == pageUrl) { //크롬에서 트리 클릭시(.navigate 호출) 동일이벤트 2번 발생되는 현상  https://github.com/gwynjudd/backbone/commit/9fd4c79b573a164f430072781a1a5b4c2c29f13f, https://stackoverflow.com/questions/17727495/backbone-navigate-triggers-twice-in-firefox, http://jsfiddle.net/adyz/qcged76e/2/
+	    		return;
+	    	}
+	    	prev_pageUrl = pageUrl;
+
+	    	
+	    	$.blockUI({message: '<div class="loading-pane"><img src="/resources/images/common/busy.gif" /></div>'});
+	    	$.get(pageUrl)
+	    	.done(function (data, textStatus, jqXHR) {
+	    		updateTreeTopNavi(pageUrl);
+	    		
+	    		$.unblockUI();
+	    		$("#content").html(data);
+				MathJax.Hub.Queue(["Typeset", MathJax.Hub, document.getElementById("content")]); 
+				
+		        //$("#content .content_scroll, #content .scroll_area").append('<div class="debug" style="margin:10px 0"><a href="'+pageUrl+'" target="_blank">'+pageUrl+'</a></div>');
+		        resizeWindow();
+	    		hashPageLoaded();
+				
+	    		try {
+		    		if(_PL) {_PL(location.href);} //ace count call when ajax
+		    		ga_send_pageview(); //google analysis
+				if(window.wcs) {wcs_do();} //naver analysis
+	    		} catch(err) {}
+
+	    	}).fail(function (jqXHR, textStatus, errorThrown) { alert(jqXHR.status + " : " + textStatus + " : " + errorThrown); }).always($.unblockUI);
+	    }
+	});
+
+    var appRouter = new AppRouter;
+         
+	$(function(){
+		Backbone.history.start();
+	});
+</script>
+
+<script type="text/javascript">
+var g_popup_tbl_html = '';
+function getPopupTblHml() {
+	return g_popup_tbl_html;
+}
+
+$(document).ready(function(){
+	$("#content").on("click", ".jusok-dl .link-jusok", function(e) {//연관각주클릭
+		var jusokId = $(this).closest("dl").data("jusokDescId");
+		var paramObj = getUrlParam(Backbone.history.getFragment());
+		
+	    $("#layer_link_kakju").hide();
+	    $("#layer_link_kakju").empty();
+
+	    $.get("/dir/linkJusokAjax", { 'grpId': paramObj.grpId, 'dataId': paramObj.dataId, 'jusokId': jusokId},
+	        function(data, textStatus, jqXHR) {
+	            $("#layer_link_kakju").html(data);
+	        }).error(function(jqXHR, textStatus, errorThrown) { alert(jqXHR.status + " : " + textStatus + " : " + errorThrown); });
+
+		$("#layer_link_kakju").css("top", $(this).offset().top + 20);
+		$("#layer_link_kakju").css("left", $(this).offset().left + 10);
+		$("#layer_link_kakju").show();
+		
+	});
+
+	$("#layer_link_kakju").on("click", ".closebtn", function(e) {//연관각주클릭 닫기
+		$("#layer_link_kakju").hide();
+	});
+
+	$("#content").on("click", ".nodeView_openwin", function(e) {//새창열기
+		var hasUrl = Backbone.history.getFragment();
+		hasUrl = hasUrl.replace('node?','nodeViewPop?');
+		popWin("/"+hasUrl, "_blank", 900, 900);
+	    //var winpop = window.open(location.href, "_blank");
+	    //winpop.focus();
+	});
+	
+	$("#content").on("click", ".nodeView_print", function(e) {//인쇄
+		var hasUrl = Backbone.history.getFragment();
+		hasUrl = hasUrl.replace('node?','nodeViewPrint?');
+		var dataPrintId = $(this).attr("data-print-id");
+		if(dataPrintId) {
+			hasUrl =  hasUrl.split('?')[0] + '?dataId='+dataPrintId;
+		}
+		popWin("/"+hasUrl+"&nodeViewType="+$(this).attr("data-nodeview-type"), "_blank", 900, 900);
+	    //window.print();
+	});
+	
+	$("#content").on("click", "img.xsl_page_icon", function(e) {//xsl 페이지 아이콘 클릭
+		var pageId = toViewerPageId($(this).data("pageNumber"));
+		var dataId = $(this).closest("[data-viewnode-id]").data("viewnodeId");
+		if(!dataId)
+			dataId = getUrlParam(Backbone.history.getFragment()).dataId;
+		var shortItemId = toShortItemId(dataId);
+		//var etcParam = '';
+		//if(shortItemId == 'KH') etcParam+='&chSts_kh=Y';
+		popWin("/imgviewer/item?itemId="+shortItemId+"#imgviewer/imgnode?grpId=&itemId="+shortItemId+"&dataId="+dataId+"&pageId="+pageId, "imgviewer", 1100, 900);
+	});
+	
+	$("#content").on("click", "span.xsl_tbl_open", function(e) {//표 새창열기
+		g_popup_tbl_html = $(this).parent().prev('div').find('table.xsl_table')[0].outerHTML;
+		var winpop = popWin("/dir/pop_tableView", "_popTableView", 1100, 900);
+		winpop.focus();
+	});
+	
+	$("#content").on("click", "[data-treesync-author]", function(e) {//저자별 트리 연동을 위하여
+		var url = Backbone.history.getFragment();
+		var paramObj = getUrlParam(url);
+		if(paramObj.gubun!='author')
+			return;
+		
+		var $activeNode = $('.active',TREE).parent();
+		if($activeNode.length<=0)
+			return;
+		
+		var dataUrl = $activeNode.attr("data-url"); //(가나다 노드)grpId=&itemId=BT&gubun=author&depth=1&cate1=B&cate2=&dataGubun=&dataId=
+		var paramObj = getUrlParam(dataUrl); 
+		if(paramObj.gubun!='author')
+			return;
+		if(paramObj.grpId=='hj') {
+			if(paramObj.depth!='2')
+				return;
+		} else {
+			if(paramObj.depth!='1')
+				return;
+		}
+
+		var authorName = $(this).attr("data-treesync-author");
+		if(!authorName)
+			return;
+		//console.log(authorName);
+		
+		var $openNode = $activeNode.find("ul>li>span[title='"+authorName+"']").parent();
+		if($openNode.length<=0)
+			return;
+		
+		gTreeState.paramObj = getUrlParam($openNode.attr("data-url")); //(저자명 노드)grpId=&itemId=BT&gubun=author&depth=2&cate1=B&cate2=%EB%82%A8%EA%B5%AC%EB%A7%8C(%E5%8D%97%E4%B9%9D%E8%90%AC)&dataGubun=&dataId=
+		
+		openNode($openNode[0]);
+		//e.preventDefault();
+	});
+});
+
+function hashPageLoaded() {
+	$("#layer_kakju_detial").hide();
+	$("#layer_authorWriter_detial").hide();
+
+	var hasUrl = Backbone.history.getFragment();
+	var paramObj = getUrlParam(hasUrl);
+	if(paramObj.wordHL || paramObj.solrQ) {
+		var $hlmark = $(".content_text_body em.hl1");
+		if($hlmark.size()>0) {
+			scrollToVisibleNode($hlmark[0], ".scroll_area", 10);
+		}
+	} else if(paramObj.jusokId) {
+		$("#content .focus").removeClass("focus");
+		var $node = $("#content dl[data-jusok-desc-id='"+paramObj.jusokId+"'] .jusok-dt");
+		$node.addClass("focus");
+		if($node.size()>0)
+			scrollToVisibleNode($node[0], ".scroll_area", 10, 5);
+	}
+}
+
+function changeLocationHash(paramName, paramVal, triggerYN) {
+	triggerYN = triggerYN || 'Y';
+	
+	var hasUrl = Backbone.history.getFragment();
+	hasUrl = getChangeQueryParam(hasUrl, paramName, paramVal);
+    appRouter.navigate('/'+hasUrl, { trigger: triggerYN=='N'?false:true });
+}
+
+function changeFirstIndexHash(paramName, paramVal) {
+	var hasUrl = Backbone.history.getFragment();
+	hasUrl = getChangeQueryParam(hasUrl, "pageIndex", "1"); //hasUrl = querySt2(hasUrl,"pageIndex", "1");	
+	hasUrl = getChangeQueryParam(hasUrl, paramName, paramVal);
+    appRouter.navigate('/'+hasUrl, { trigger: true });
+}
+
+function changeLocationMapHash(paramMap) {
+	var hasUrl = Backbone.history.getFragment();
+	
+	_.each(paramMap, function(value,key,list) {
+		hasUrl = getChangeQueryParam(hasUrl, key, value);
+	});
+	
+	appRouter.navigate('/'+hasUrl, { trigger: true });
+}
+
+function navigate(url) {
+	appRouter.navigate('/'+url, { trigger: true });
+}
+
+function clickJsiMonthNode(url) {
+	var paramObj = getUrlParam(url);
+	
+	$.get("/dir/firstDayAjax", { "dataId": paramObj.dataId }, null, "json")
+	.done(function (result, textStatus, jqXHR) {
+		if(!result['자료ID']) {
+			alert('하위 자료가 존재하지 않습니다.');
+		} else {
+			var hasUrl = getChangeQueryParam(url, "dataId", result['자료ID']);
+			appRouter.navigate('/'+hasUrl, { trigger: true });
+		}
+	}).fail(function (jqXHR, textStatus, errorThrown) { alert(jqXHR.status + " : " + textStatus + " : " + errorThrown); });
+}
+
+function goPrevNextView(dire) {
+	var url = Backbone.history.getFragment();
+	var paramObj = getUrlParam(url);
+	
+	$.get("/dir/nextPrevViewAjax", { "dire": dire, "dataId": paramObj.dataId }, null, "json")
+	.done(function (result, textStatus, jqXHR) {
+		if(!result['자료ID']) {
+			if(dire=='prev')
+				alert('첫번째 자료입니다.');
+			else
+				alert('마지막 자료입니다.');
+		} else {
+			var hasUrl = getChangeQueryParam(url, "dataId", result['자료ID']);
+			appRouter.navigate('/'+hasUrl, { trigger: true });
+		}
+	}).fail(function (jqXHR, textStatus, errorThrown) { alert(jqXHR.status + " : " + textStatus + " : " + errorThrown); });
+}
+
+function changeSolrNaviPos(solrQ) {
+	var hasUrl = Backbone.history.getFragment();
+	
+	$.get("/search/getDataIdBySolrQ", { "solrQ": solrQ }, null, "json")
+	.done(function (result, textStatus, jqXHR) {
+		if(!result['자료ID']) {
+			alert('관련 자료가 존재하지 않습니다.');
+		} else {
+			hasUrl = getChangeQueryParam(hasUrl, "dataId", result['자료ID']);
+			hasUrl = getChangeQueryParam(hasUrl, "solrQ", solrQ);
+			
+			if(result['검색분류']=="PC_IL") { //삽화는 아이템,해제 구분이없이 네비게이션
+				var paramObj = getUrlParam(Backbone.history.getFragment());
+				var mv_dataId = result['자료ID']
+				var mv_grpId = "";
+				if(isSeojiId(mv_dataId))
+					mv_grpId = "hj";
+				if(paramObj.grpId != mv_grpId || toShortItemId(paramObj.dataId)!=toShortItemId(mv_dataId)) {
+					hasUrl = getChangeQueryParam(hasUrl, "grpId", mv_grpId);
+					location.href="?itemId="+toShortItemId(mv_dataId)+"&grpId="+mv_grpId+"#/"+hasUrl;
+					return;
+				}
+			}
+			
+			appRouter.navigate('/'+hasUrl, { trigger: true });
+		}
+	}).fail(function (jqXHR, textStatus, errorThrown) { alert(jqXHR.status + " : " + textStatus + " : " + errorThrown); });
+}
+
+function goNextHL() {
+	var $hlmark = $(".content_text_body em.hl1");
+	if($hlmark.size()<=0)
+		return;
+	
+	var hlIndex = 0;
+	if($(".content_text_body em.hl1.focus").size()>0) {
+		hlIndex = $hlmark.index($(".content_text_body em.hl1.focus")[0]) + 1;
+		if(hlIndex>=$hlmark.size())
+			hlIndex = 0;
+		$hlmark.removeClass("focus");
+	}
+	$hlmark.eq(hlIndex).addClass("focus");
+	
+	scrollToVisibleNode($hlmark[hlIndex], ".scroll_area", 10);
+}
+
+function focusParaImage(imageId) { //삽화검색에 대한 이미지 하이라이트 및 이동
+	//alert(imageId);
+	$actImg = $("img#Img"+imageId+", img[data-img-id='"+imageId+"']"); //ITKCImageViewer 가생성하는 imageTag는 'Img'+name 형태임
+	$actImg.addClass("focus");
+	_.delay(scrollToVisibleNode, 500, $actImg[0], ".scroll_area", -1, 10);
+	//scrollToVisibleNode($actImg[0], ".scroll_area", 10);
+}
+
+function goNodeViewXsl(dataId) { //가계도 트리에서 호출됨
+	var url = "/dir/item?grpId=hj&itemId="+toShortItemId(dataId)+"#/dir/node?grpId=hj&dataId="+dataId;
+	window.open(url,"_blank");		
+}
+
+function goImageViewer(dataId) { //본문이미지 버튼호출됨
+	dataId = dataId||'';
+	var param = "";//뷰어 최초 레이아웃 상태맞춤을 위한 파라메터처리
+	var paramObj = getUrlParam(Backbone.history.getFragment());
+
+	if(dataId.startsWith('ITKC_KH')) { //경학집성
+		//param+="&chSts_kh=Y";
+		if(paramObj.viewSync == 'KW') param+="&chSts_kh_o=KW"; //원문
+		if(paramObj.viewSync2 == 'KW') param+="&chSts_kh_t=KW"; //기사모아보기
+	} else {
+		if(paramObj.viewSync == 'OT') param+="&chSts_o=Y"; //원문
+		if(paramObj.viewSync == 'TR' || paramObj.viewSync2 == 'TR') param+="&chSts_t=Y"; //번역문
+		if(paramObj.viewSync2 == 'KP') param+="&chSts_k=Y"; //교감표점
+		if(paramObj.viewSync3) param+="&viewSync3="+paramObj.viewSync3; //문장매칭
+	}
+
+	popWin("/imgviewer/item?itemId="+toShortItemId(dataId)+param+"#imgviewer/imgnode?grpId=&itemId="+toShortItemId(dataId)+"&dataId="+dataId, "imgviewer", 1100, 900);
+}
+</script>
+
+<section class="content" id="content">
+	
+</section>
+
+
+
+<section id="layer_kakju_detial" class="pop_mark" style="display:none; width:400px">
+	<header class="pophead_mark">
+		<h2 class="poptit"><strong>+</strong> <span class='kakju_type'>주석</span></h2>
+		<div class="mark_num"></div>
+	</header>
+	<div class="popcontent_mark">
+		<div class="cont_txt" style="overflow:hidden;">
+			[내용영역]
+		</div>
+	</div>
+</section>
+
+<section id="layer_dci_copy" class="pop_mark" style="width:400px; display:none;">
+	<header class="pophead_mark">
+		<h2 class="poptit"><strong>+</strong> <span>DCI복사</span></h2>
+		<div class="mark_btn"><a onclick="copyClipBoard('dci-copy-textarea')" class="small_btn">복사하기</a> <a class="small_btn closebtn">X</a></div>
+	</header>
+	<div class="popcontent_mark">
+		<textarea id="dci-copy-textarea" style="width:359px;height:35px">
+		</textarea>
+	</div>
+</section>
+
+<section id="layer_link_kakju" class="pop_mark" style="width:400px; display:none;">
+</section>
+
+<section id="layer_authorWriter_detial" class="pop_mark" style="display:none;width:200px">
+	<header class="pophead_mark">
+		<h2 class="poptit"><strong>+</strong> <span class="authorType">역자정보</span></h2>
+		<div class="mark_num"></div>
+	</header>
+	<div class="popcontent_mark">
+		[내용영역]
+	</div>
+</section>
+
+	</section>
+</div>
+
+
+
+</body>
+</html>

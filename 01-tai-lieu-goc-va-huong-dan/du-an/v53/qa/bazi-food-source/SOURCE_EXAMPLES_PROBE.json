@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-28",
+  "records": [
+    {
+      "id": "gao-controlled-jia",
+      "system": "TMTH005-zhuanshi",
+      "expectedSourcePillars": [
+        "甲戌",
+        "庚午",
+        "戊辰",
+        "庚申"
+      ],
+      "modernFeasibilityInput": {
+        "y": 1934,
+        "m": 6,
+        "d": 26,
+        "hour": 16,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualHHCPillars": [
+        "甲戌",
+        "庚午",
+        "戊辰",
+        "庚申"
+      ],
+      "actualLunarPillars": [
+        "甲戌",
+        "庚午",
+        "戊辰",
+        "庚申"
+      ],
+      "historicalBirthDateAttributed": false,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "hu-zhuanyin",
+      "system": "TMTH005-zhuanyin",
+      "expectedSourcePillars": [
+        "丁酉",
+        "甲辰",
+        "癸酉",
+        "庚申"
+      ],
+      "modernFeasibilityInput": {
+        "y": 1957,
+        "m": 5,
+        "d": 1,
+        "hour": 16,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualHHCPillars": [
+        "丁酉",
+        "甲辰",
+        "癸酉",
+        "庚申"
+      ],
+      "actualLunarPillars": [
+        "丁酉",
+        "甲辰",
+        "癸酉",
+        "庚申"
+      ],
+      "historicalBirthDateAttributed": false,
+      "sourceOutcomeValidated": false
+    }
+  ],
+  "actualLunarSearchCharts": 57,
+  "actualLunarForwardCharts": 2,
+  "actualHHCBaziCalls": 2,
+  "engineSHA256": "39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6",
+  "historicalChronologyValidated": false,
+  "sourceOutcomesValidated": false,
+  "consumerChanged": false
+}

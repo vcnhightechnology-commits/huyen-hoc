@@ -1,0 +1,51 @@
+{
+  "status": "source-and-reference-verified;package-verification-external",
+  "checks": [
+    {
+      "passed": true,
+      "frozenFiles": 6,
+      "nativeCropsRGBMatched": 3,
+      "retainedSourcePositionsReexamined": 3,
+      "sourceClassRows": 14,
+      "singleNamedDipperRows": 11,
+      "compoundLabelsNotForced": 3,
+      "textualWindows": 4,
+      "retainedActualHHCExecutions": 2,
+      "retainedActualIztroExecutions": 2,
+      "retainedMajorBranchCoordinates": 28,
+      "newEngineCalls": 0,
+      "newHTTPBodies": 0,
+      "newSourcePositions": 0,
+      "newIndependentEditions": 0,
+      "sourceWindowDatesEstablished": false,
+      "consumerChanged": false,
+      "wholeSourceMethodApplied": false
+    },
+    {
+      "passed": true,
+      "groups": 8,
+      "frozenFiles": 6,
+      "classificationRows": 14,
+      "singleDipperRows": 11,
+      "compoundDescriptorsUnresolved": 3,
+      "textualWindows": 4,
+      "inspectionFrames": 1718,
+      "nullInvariants": 13328,
+      "retainedChartCasesReused": 2,
+      "retainedHHCExecutions": 2,
+      "retainedIztroExecutions": 2,
+      "retainedMajorBranchCoordinatesReused": 28,
+      "sourceWindowOccurrenceProjections": 56,
+      "unsupportedRequests": 6,
+      "invalidInputs": 11,
+      "newEngineCallsDuringTests": 0,
+      "newCalendarObjects": 0,
+      "newHTTPBodies": 0,
+      "consumerChanged": false,
+      "wholeSourceMethodApplied": false
+    }
+  ],
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false,
+  "packageVerificationPointer": "recovery/research-release/FINAL_VERIFICATION.json"
+}

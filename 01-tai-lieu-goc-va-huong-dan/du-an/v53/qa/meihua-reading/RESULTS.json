@@ -1,0 +1,159 @@
+{
+  "checks": [
+    {
+      "name": "All123indexedsections retain exact pinned source slices and explicit partial/historical/open dispositions,not whole-book completion",
+      "ok": true
+    },
+    {
+      "name": "Eight trigram tables preserve214source fields as indexed research data without presenting every prediction as a product function",
+      "ok": true
+    },
+    {
+      "name": "Fifteen targeted image readings reproduce exact hashes,14newpages and1expanded priorpage;source PDF and six original responses are unchanged",
+      "ok": true
+    },
+    {
+      "name": "Eight source issues are anchored to real retained digital wording and qualified printed-page readings",
+      "ok": true
+    },
+    {
+      "name": "Three printed additional-number examples execute actual HHC engine with the witness4/6/21counts;27remainder3produces55→51,not moving1",
+      "ok": true
+    },
+    {
+      "name": "Two further printed observation examples and three historic word-count fixtures reproduce exact arithmetic without automatic modern stroke or tone substitution",
+      "ok": true
+    },
+    {
+      "name": "Named-transition conflicts and changed-trigram abbreviations are kept distinct:49→21has3changes,54→38needs6,6withupperDuiis47,49withlowerGenis31",
+      "ok": true,
+      "detail": {
+        "geToShihe": [
+          3,
+          5,
+          6
+        ],
+        "guimeiToKui": [
+          6
+        ],
+        "guimeiWith4": 19,
+        "songWith6": 47,
+        "plumWith1": 31
+      }
+    },
+    {
+      "name": "Research follow-up leaves released consumer HTML and every calculation/interface JS module unchanged",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "indexedDigitalSections": 123,
+    "trigramTables": 8,
+    "tableFields": 214,
+    "targetedImageReadings": 15,
+    "newContentPageReadings": 14,
+    "expandedPriorPage": 1,
+    "sourceIssues": 8,
+    "additionalNumberExamples": 3,
+    "furtherArithmeticExamples": 5,
+    "newExternalResponses": 0,
+    "consumerChanged": false,
+    "wholeBookCompleted": false
+  },
+  "additional": [
+    {
+      "name": "王",
+      "offset": 4,
+      "upperTotal": 20,
+      "lowerTotal": 27,
+      "primary": 55,
+      "changed": 51,
+      "moving": 3
+    },
+    {
+      "name": "田",
+      "offset": 6,
+      "upperTotal": 22,
+      "lowerTotal": 29,
+      "primary": 48,
+      "changed": 46,
+      "moving": 5
+    },
+    {
+      "name": "韓",
+      "offset": 21,
+      "upperTotal": 37,
+      "lowerTotal": 44,
+      "primary": 42,
+      "changed": 61,
+      "moving": 2
+    }
+  ],
+  "further": [
+    {
+      "label": "chicken",
+      "input": {
+        "method": "object-direction",
+        "objectTrigram": 5,
+        "direction": "northwest",
+        "hourBranch": 4
+      },
+      "primary": 9,
+      "changed": 1,
+      "moving": 4
+    },
+    {
+      "label": "branch",
+      "input": {
+        "method": "object-direction",
+        "objectTrigram": 3,
+        "direction": "west",
+        "hourBranch": 5
+      },
+      "primary": 38,
+      "changed": 41,
+      "moving": 4
+    },
+    {
+      "label": "historical-tone",
+      "u": 8,
+      "l": 5,
+      "line": 1,
+      "primary": 46,
+      "changed": 11
+    },
+    {
+      "label": "temple-original",
+      "u": 7,
+      "l": 8,
+      "line": 3,
+      "primary": 23,
+      "changed": 52
+    },
+    {
+      "label": "temple-added-strokes",
+      "u": 7,
+      "l": 2,
+      "line": 5,
+      "primary": 41,
+      "changed": 61
+    }
+  ],
+  "issues": {
+    "geToShihe": [
+      3,
+      5,
+      6
+    ],
+    "guimeiToKui": [
+      6
+    ],
+    "guimeiWith4": 19,
+    "songWith6": 47,
+    "plumWith1": 31
+  },
+  "indexSHA256": "aa8d255389e61329d1a9801b083c72a0a6d8b50e6450f52b4b5cee093b8c2391",
+  "manualSHA256": "372413d763a003e36accf76e544155b7ffe8cb5ea8490ef4eb5bf998e7f9bac6",
+  "tableSHA256": "2af3200586cbaee702d4733d2ed2eb16b278fcb30378b43bef72e046144e6871",
+  "htmlSHA256": "9e49791aa5b64c49d2ef5201e566ab5d83438918efce7f8ce0cc2ff887363759"
+}

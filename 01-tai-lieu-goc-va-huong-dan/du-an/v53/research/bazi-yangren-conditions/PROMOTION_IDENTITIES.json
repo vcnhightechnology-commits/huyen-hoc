@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-28",
+  "basis": "Local identity hashes recorded at byte-identical promotion,not publisher signatures. Verification reads packaged files,not the unreleased tmp directory.",
+  "records": [
+    {
+      "file": "v53/research/bazi-yangren-conditions/coordinate-reference.mjs",
+      "inheritedStagingFile": "tmp/bazi-yangren-conditions-staging/coordinate-reference.mjs",
+      "sha256": "c0c765150bbd77eddf14bdfbfb925830ce363fbe38025e3974c23bea06b77439"
+    },
+    {
+      "file": "v53/research/bazi-yangren-conditions/predicate-reference.mjs",
+      "inheritedStagingFile": "tmp/bazi-yangren-conditions-staging/predicate-reference.mjs",
+      "sha256": "e97623d6b271878ae133dcccddc108cce8b1254fff88d5ea1c92587eb49943ea"
+    },
+    {
+      "file": "v53/research/bazi-yangren-conditions/PREDICATE_MATRIX.json",
+      "inheritedStagingFile": "tmp/bazi-yangren-conditions-staging/PREDICATE_MATRIX.json",
+      "sha256": "9b9d06f975ed329c4d0b97e965f913cefb198556efbd49c78b3da42d4d3622c7"
+    },
+    {
+      "file": "v53/research/bazi-yangren-conditions/SOURCE_COORDINATES.json",
+      "inheritedStagingFile": "tmp/bazi-yangren-conditions-staging/SOURCE_COORDINATES.json",
+      "sha256": "ca82f57354e1742633d3836943ee4f18ce5ecd88330aade3c6b9255e2c9e8d7d"
+    },
+    {
+      "file": "v53/research/bazi-yangren-conditions/SELECTED_SUBCONTEXTS.json",
+      "inheritedStagingFile": "tmp/bazi-yangren-conditions-staging/SELECTED_SUBCONTEXTS.json",
+      "sha256": "929283357d96d85e73b0b61977c9016fed810ad64a2e95241eca6d1587eec524"
+    },
+    {
+      "file": "v53/qa/bazi-yangren-conditions/COORDINATE_RESULTS.json",
+      "inheritedStagingFile": "tmp/bazi-yangren-conditions-staging/COORDINATE_RESULTS.json",
+      "sha256": "0d5d6fd711ed00fa14b8170b82c724148f1d72d25e583bcc9f7ba955abd45cf5"
+    },
+    {
+      "file": "v53/qa/bazi-yangren-conditions/SOURCE_EXAMPLES_PROBE.json",
+      "inheritedStagingFile": "tmp/bazi-yangren-conditions-staging/SOURCE_EXAMPLES_PROBE.json",
+      "sha256": "ac513954a002953512f3ac94d1c205f781c81e13bd857e9900a202eed4ea6890"
+    },
+    {
+      "file": "v53/qa/bazi-yangren-conditions/RESULTS.json",
+      "inheritedStagingFile": "tmp/bazi-yangren-conditions-staging/PREDICATE_RESULTS.json",
+      "sha256": "230765257afa5e00a17e65cf26f770ca08433686e62870a8f0ed7006ee856714"
+    }
+  ]
+}

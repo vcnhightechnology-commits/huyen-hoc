@@ -1,0 +1,191 @@
+{
+  "date": "2026-10-28",
+  "clauses": [
+    {
+      "id": "103-104-medical",
+      "pages": [
+        351,
+        359
+      ],
+      "voice": "野鶴/覺子/李我平 differentiated",
+      "disposition": "historical-medical-claims-not-clinical-engine",
+      "note": "Doctor/patient/medicine andworry-reliefmeanings differbyexplicitasker. No actualprovider/drug/diagnosis/treatmentrecommendation."
+    },
+    {
+      "id": "105-critique",
+      "pages": [
+        360,
+        361
+      ],
+      "voice": "野鶴",
+      "disposition": "reject-undifferentiated-household-forecast",
+      "note": "Fatherasbuildingandparents/5thfather/4thmotheroldreadings conflict;printed乾→小畜islocalcounterexample,nofamilyoutcomevalidation."
+    },
+    {
+      "id": "106-property",
+      "pages": [
+        361,
+        362,
+        363
+      ],
+      "voice": "sourcechapter106",
+      "disposition": "explicit-house-question-projection",
+      "note": "Fatherbuilding/Selfquerentnotallfamilyforecast;buy/rentbodydistinctfromsellingTOC."
+    },
+    {
+      "id": "107-108-direction",
+      "pages": [
+        363
+      ],
+      "voice": "sourceheadings",
+      "disposition": "conditional-only-no-construction-or-compass-adapter",
+      "note": "Phaseanddirectionlabelsnotmeasuredsite/approval."
+    },
+    {
+      "id": "109-111-moving",
+      "pages": [
+        363,
+        364,
+        365
+      ],
+      "voice": "覺子/野鶴/sourcepassage",
+      "disposition": "separate-moving-question-and-person",
+      "note": "Entry/movingday/individualrelativequerydistinct;nohealthorcalendarsafetyoutcome."
+    },
+    {
+      "id": "112-livestock",
+      "pages": [
+        365,
+        366
+      ],
+      "voice": "sourcechapter112",
+      "disposition": "explicit-role-only",
+      "note": "Livestockandbuildingdualcontextnotanimalwelfareforecast."
+    },
+    {
+      "id": "113-doors",
+      "pages": [
+        366,
+        367,
+        368,
+        369,
+        370,
+        371
+      ],
+      "voice": "野鶴",
+      "disposition": "require-named-concern-not-floorplan-inference",
+      "note": "Sixlinescannotidentifyallrooms/doorsorwholefamily. Door/templewallstoriesnotverifiedsiteevidence."
+    },
+    {
+      "id": "114-cohabitation",
+      "pages": [
+        371
+      ],
+      "voice": "sourcechapter114",
+      "disposition": "explicit-relative-vs-unrelated-role",
+      "note": "UnrelatedotherResponse;kinqueriesrequireexplicitperson. Noidentity/moralinference."
+    },
+    {
+      "id": "115-117-publicbuildings",
+      "pages": [
+        371,
+        372,
+        373,
+        374
+      ],
+      "voice": "source/野鶴/李我平",
+      "disposition": "conditional-and-competing-voices-open",
+      "note": "Do nottreatsupernaturalrepair/pondexcavationasrealengineeringorsafetyguidance."
+    },
+    {
+      "id": "118-119-land",
+      "pages": [
+        374,
+        375,
+        376,
+        377,
+        378
+      ],
+      "voice": "野鶴",
+      "disposition": "historical-geomancy-claims-not-outcome-validation",
+      "note": "Wind/water/trigramconditionsandsourceanecdotesnotphysicsorintergenerationalevidence."
+    },
+    {
+      "id": "120-form",
+      "pages": [
+        378,
+        379,
+        380,
+        381
+      ],
+      "voice": "sourcechapter120",
+      "disposition": "symbolic-form-question-only",
+      "note": "Selfsite/Responseoppositemountain/interveninglinesnotrealterrain;authorrejectscombiningallfamilyandwealth/statusquestions."
+    },
+    {
+      "id": "121-122-time-place",
+      "pages": [
+        381,
+        382
+      ],
+      "voice": "野鶴/sourcepassages",
+      "disposition": "separate-when-Self-from-where-Father",
+      "note": "Noactualcalendardate/geocoding/ownershipadapter."
+    },
+    {
+      "id": "123-124-practitioner-point",
+      "pages": [
+        382,
+        383,
+        384
+      ],
+      "voice": "sourcepassages",
+      "disposition": "symbolic-provider-and-relative-height-only",
+      "note": "Noactualpractitionerrating/elevation/depth/excavationguidance."
+    },
+    {
+      "id": "125-moral",
+      "pages": [
+        384
+      ],
+      "voice": "覺子",
+      "disposition": "historical-moral-critique",
+      "note": "Notlandaccessauthorizationorjudgmentofrealpeople."
+    },
+    {
+      "id": "126-oldgrave",
+      "pages": [
+        384,
+        385,
+        386
+      ],
+      "voice": "source/野鶴",
+      "disposition": "separate-own-child-and-grave-questions",
+      "note": "旺父notblanketfavorableforchildren;nohealthorgrave-poweroutcomes."
+    },
+    {
+      "id": "127-129-repair",
+      "pages": [
+        386,
+        387,
+        388,
+        389
+      ],
+      "voice": "野鶴/覺子",
+      "disposition": "historical-symbolism-and-rituals-not-maintenance-instructions",
+      "note": "Elementalhazardmapsandritual/diggingremediesnotphysicalevidenceorsafetyproof."
+    },
+    {
+      "id": "130-coburial",
+      "pages": [
+        389,
+        390
+      ],
+      "voice": "sourcechapter130",
+      "disposition": "historical-question-role-only",
+      "note": "Norelativehealth/deathorrelocationoutcomevalidated."
+    }
+  ],
+  "allConditionalRulesEncoded": false,
+  "sourceInstructionsAreData": true
+}

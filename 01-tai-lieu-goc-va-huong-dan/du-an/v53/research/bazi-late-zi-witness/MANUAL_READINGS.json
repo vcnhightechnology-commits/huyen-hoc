@@ -1,0 +1,55 @@
+{
+  "schema": "hhc.bazi.late-zi.witness.v1",
+  "date": "2026-10-26",
+  "method": "Manual reading of full selected scan pages; no OCR. Navigation pages do not count as collated content.",
+  "identity": {
+    "title": "新命理探原",
+    "author": "袁樹珊",
+    "institutionCatalog": "https://taiwanebook.ncl.edu.tw/zh-tw/book/NCL-000002203",
+    "catalogPlace": "香港",
+    "catalogPublisher": "潤德",
+    "catalogYear": 1915,
+    "catalogPageCount": 487,
+    "actualPDFPages": 486,
+    "downloadHost": "upload.wikimedia.org",
+    "commonsTitle": "File:NCL-000002203 新命理探原.pdf",
+    "editionQualification": "Catalog year1915; p9 dated preface 民國四年/乙卯 supports a1915preface. Cover/title/colophon agree on title/author/HongKong RunDe. Colophon p485 has no imprint year read: do not identify this physical printing as a verified1915first edition. Catalog487 versus PDF486 remains a page-count discrepancy, not proof of completeness or a reconstructed missing page.",
+    "bibliographicPagesRead": [1,3,9,485,486],
+    "scanRaster": "Selected JPEG/JP2 page rasters are1017x1470or1471pixels; Commons advertised762x1104 is not the embedded page raster. Repeated JP2 overlay is separately identified; not a second book witness or a page scan."
+  },
+  "units": [
+    {
+      "id": "ordinary-hour-rule",
+      "pdfPages": [78,79],
+      "printedPages": ["三六","三七"],
+      "heading": "推時法",
+      "excerpt": "甲日己日起甲子時乙日庚日起丙子時丙日辛日起戊子時丁日壬日起庚子時戊日癸日起壬子時",
+      "ziStemByDayStem": {"甲":"甲","己":"甲","乙":"丙","庚":"丙","丙":"戊","辛":"戊","丁":"庚","壬":"庚","戊":"壬","癸":"壬"},
+      "limit": "Ordinary day-to-hour rule, not the late-Zi exception by itself. The neighboring printed table is not claimed fully cell-collated."
+    },
+    {
+      "id": "late-zi-instructions-and-examples",
+      "pdfPages": [86,87,88],
+      "printedPages": ["四四","四五","四六"],
+      "heading": "推夜子時大運交脫法",
+      "excerpt": "其生日幹枝仍屬今日生時幹枝當作明日推算",
+      "lateZiClock": "午後十一點至十二點鐘",
+      "examples": [
+        {"id":"late-zi","pdfPage":87,"calendar":"Chinese lunar","year":1914,"month":1,"day":10,"hour":23,"minuteForRuntime":30,"minuteStatus":"Representative point inside the printed23:00–24:00interval, not a minute printed in the book","pillars":["甲寅","丙寅","辛酉","庚子"]},
+        {"id":"early-zi","pdfPage":88,"calendar":"Chinese lunar","year":1914,"month":1,"day":11,"hour":0,"minuteForRuntime":30,"minuteStatus":"Representative point inside the printed00:00–01:00interval, not a minute printed in the book","pillars":["甲寅","丙寅","壬戌","庚子"]}
+      ],
+      "limit": "Only the day/hour rule and two printed pillar examples are integrated. The same pages discuss period-onset conversions; no onset date, traditional age or historical person is verified or changed from these examples."
+    },
+    {
+      "id": "direct-commentary",
+      "pdfPages": [308,309,310],
+      "printedPages": ["二六六","二六七","二六八"],
+      "heading": "論時刻及夜子時與子時正不同",
+      "excerpts": ["其人是年正月初十日下午十一點鐘後十二點前夜子時生即作甲寅年丙寅月辛酉日庚子時推","用壬日起庚子時"],
+      "conclusion": "Explicitly keeps XinYou day while using the next day's Ren stem to start GengZi hour. This directly supports an optional next-day hour rule with a midnight day boundary.",
+      "limit": "A named modern author's printed interpretation, including citations of older works. Not proof that every Ming/Qing witness or every practitioner follows the same exception. WYG text pages previously read are not retroactively image-collated by this different book."
+    }
+  ],
+  "productDecision": "Add an explicit lateZiHour=next option for23:00–23:59 with midnight day boundary. Preserve lateZiHour=day as legacy default. Both dayPolicy=zi variants use next-day day/hour already. No birth time is fabricated when unknown; old profiles retain their prior chart.",
+  "coverageLimit": "Eight targeted content pages in three reading units plus five bibliographic pages;59selected navigation/evidence pages are not59collated content pages or486pages read. One attributed scan; no claim to have exhausted the source library."
+}

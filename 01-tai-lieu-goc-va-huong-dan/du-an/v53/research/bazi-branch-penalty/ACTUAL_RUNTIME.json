@@ -1,0 +1,137 @@
+{
+  "executedUTC": "2026-10-29T13:54:37.970Z",
+  "libraryFile": "v46/node_modules/lunar-typescript/dist/index.cjs",
+  "librarySHA256": "76e490b74e9913ed94b49689b90abc688ed1e2b11456312b3eb081ec63cf2fbe",
+  "scriptSHA256": "9db003b43ce324e77cc40e232b1d80d48226e9e60d8faf6781215127e283499b",
+  "freezeSHA256": "3df5b9b9504ad3ca40f436b8c0e13a91d93c4c33ee36966b4e85cedc622fa36f",
+  "method": "Execute8previouslyuncoveredNaYinlookups;reuse戊戌lookup.Ordinaryelementcomparisonisexplicitlyeditorialanddoesnotdefineallsourceentry/control/penaltyconditions.",
+  "rows": [
+    {
+      "pillar": "乙丑",
+      "expected": "海中金",
+      "actual": "海中金"
+    },
+    {
+      "pillar": "庚戌",
+      "expected": "钗钏金",
+      "actual": "钗钏金"
+    },
+    {
+      "pillar": "丙戌",
+      "expected": "屋上土",
+      "actual": "屋上土"
+    },
+    {
+      "pillar": "壬戌",
+      "expected": "大海水",
+      "actual": "大海水"
+    },
+    {
+      "pillar": "甲戌",
+      "expected": "山头火",
+      "actual": "山头火"
+    },
+    {
+      "pillar": "癸巳",
+      "expected": "长流水",
+      "actual": "长流水"
+    },
+    {
+      "pillar": "戊寅",
+      "expected": "城头土",
+      "actual": "城头土"
+    },
+    {
+      "pillar": "庚申",
+      "expected": "石榴木",
+      "actual": "石榴木"
+    }
+  ],
+  "reusedEvidence": {
+    "file": "v53/research/bazi-branch-harm/ACTUAL_RUNTIME.json",
+    "bytes": 2635,
+    "sha256": "d6983fd1d33531220128dbeb8e6a275a6cfa82bf16e9e271801a8d87248cd63f",
+    "row": {
+      "pillar": "戊戌",
+      "naYin": "平地木",
+      "stemElement": "土",
+      "actualNaYin": "平地木",
+      "actualStemElement": "土"
+    },
+    "queriesRerun": 0,
+    "purpose": "Reuse exact戊戌NaYinquery;newcomparisonneeds8otherpillars."
+  },
+  "comparisons": [
+    {
+      "anchor": "乙丑",
+      "target": "庚戌",
+      "sourceRelation": "同類相刑",
+      "sourceLiteralEntry": null,
+      "anchorNaYinElement": "金",
+      "targetNaYinElement": "金",
+      "ordinarySameElement": true,
+      "ordinaryGenerationEitherDirection": false,
+      "ordinaryAnchorOvercomesTarget": false,
+      "ordinaryTargetOvercomesAnchor": false,
+      "entryRuleGeneralized": false
+    },
+    {
+      "anchor": "乙丑",
+      "target": "丙戌",
+      "sourceRelation": "相生相刑",
+      "sourceLiteralEntry": null,
+      "anchorNaYinElement": "金",
+      "targetNaYinElement": "土",
+      "ordinarySameElement": false,
+      "ordinaryGenerationEitherDirection": true,
+      "ordinaryAnchorOvercomesTarget": false,
+      "ordinaryTargetOvercomesAnchor": false,
+      "entryRuleGeneralized": false
+    },
+    {
+      "anchor": "乙丑",
+      "target": "壬戌",
+      "sourceRelation": "相生相刑",
+      "sourceLiteralEntry": null,
+      "anchorNaYinElement": "金",
+      "targetNaYinElement": "水",
+      "ordinarySameElement": false,
+      "ordinaryGenerationEitherDirection": true,
+      "ordinaryAnchorOvercomesTarget": false,
+      "ordinaryTargetOvercomesAnchor": false,
+      "entryRuleGeneralized": false
+    },
+    {
+      "anchor": "乙丑",
+      "target": "戊戌",
+      "sourceRelation": "相尅相刑",
+      "sourceLiteralEntry": true,
+      "anchorNaYinElement": "金",
+      "targetNaYinElement": "木",
+      "ordinarySameElement": false,
+      "ordinaryGenerationEitherDirection": false,
+      "ordinaryAnchorOvercomesTarget": true,
+      "ordinaryTargetOvercomesAnchor": false,
+      "entryRuleGeneralized": false
+    },
+    {
+      "anchor": "乙丑",
+      "target": "甲戌",
+      "sourceRelation": "相尅相刑",
+      "sourceLiteralEntry": false,
+      "anchorNaYinElement": "金",
+      "targetNaYinElement": "火",
+      "ordinarySameElement": false,
+      "ordinaryGenerationEitherDirection": false,
+      "ordinaryAnchorOvercomesTarget": false,
+      "ordinaryTargetOvercomesAnchor": true,
+      "entryRuleGeneralized": false
+    }
+  ],
+  "actualNewNaYinQueries": 8,
+  "reusedNaYinQueries": 1,
+  "actualCalendarObjects": 0,
+  "actualNatalCharts": 0,
+  "entryRuleGeneralized": false,
+  "sourcePredictionValidated": false
+}

@@ -1,0 +1,181 @@
+{
+  "date": "2026-10-27",
+  "institution": "National Archives of JAPAN",
+  "itemURL": "https://www.digital.archives.go.jp/item/4756813",
+  "viewerURL": "https://www.digital.archives.go.jp/img/4756813",
+  "manifestURL": "https://www.digital.archives.go.jp/api/iiif/4756813/manifest.json",
+  "manifestFile": "japan-volume1-manifest.json",
+  "manifestSHA256": "d87199d47ed044a6c236772c74bd75ba55b2feb3b13ce23e74cbf6720f3b3dd2",
+  "itemLabel": "増刪卜易１",
+  "referenceCode": "子０５９－０００８-0001",
+  "canvasesRegistered": 51,
+  "manifestIsWholeBookExtraction": false,
+  "parentCatalogEvidence": {
+    "file": "../liuyao-foundations/japan-zengshan-catalog.html",
+    "sha256": "67c3738538f67307ac9c096d8fa706462377fad0409d757d9a06ee74e0861691",
+    "scope": "Retained official parentcatalog identifies6冊/6巻,清乾隆/学耕堂 and former毛利高標collection;not direct imprintimage verification."
+  },
+  "transport": {
+    "ordinaryPublicHTTPSRequests": 12,
+    "retainedHTTP200Bodies": 11,
+    "retainedBodyBytes": 4810253,
+    "timeoutsWithoutBody": 1,
+    "webToolItemRequest": "403reported on2026-10-27;ordinarypublicHTTPS200withauthorizedTLSretained. No authenticationorTLSbypass.",
+    "failedFile": "japan-spread-33-original.jpg",
+    "failedRequestRetried": false,
+    "newOriginalPDFs": 0
+  },
+  "navigationOnlyImages": [
+    {
+      "file": "japan-nav-20.jpg",
+      "sha256": "1a52f279ebd32ae64b8ea21e310f5c7bdf93df924c66aaecc8e38cb54786725a",
+      "reading": "thumbnailnavigationonly;notclausetranscription"
+    },
+    {
+      "file": "japan-nav-30.jpg",
+      "sha256": "d41f9b19a7cfb29fe5e1eda4da1f429a38aebe83f981d76b3500f5f34472c643",
+      "reading": "thumbnailnavigationonly;notclausetranscription"
+    },
+    {
+      "file": "japan-nav-40.jpg",
+      "sha256": "804bf4a19d8da3cffc2e593652162ccf3899e3a8ca13e2146ea702c5d2dc50c2",
+      "reading": "thumbnailnavigationonly;notclausetranscription"
+    }
+  ],
+  "manualBoundedSpreadReadings": [
+    {
+      "sequenceCanvasOrdinal1": 30,
+      "canvasID": "https://www.digital.archives.go.jp/api/iiif/4756813/canvas/C103347726100",
+      "imageResourceURL": "https://www.digital.archives.go.jp/api/content/item/da12/C103347726100/iiif/M2021052512400415598_0030.jp2/full/max/0/native.jpg",
+      "file": "japan-spread-30-original.jpg",
+      "sha256": "4d3461f9bb5f33a1cbc5a43e4baef0a74a302fbb1a981f9754b5a0ea4670a1c2",
+      "label": "C103347726100",
+      "readingScope": "Navigation/bounded text:fiveelement interactions/use-subjectroles,not complete page transcription.",
+      "serverResponsePixels": [
+        3000,
+        2073
+      ],
+      "canvasMetadataPixels": [
+        6150,
+        4250
+      ],
+      "pixelPolicy": "Unmodified returned JPEGbytes;metadata dimensions do not prove response has original masterresolution. No upscaling asserted.",
+      "entireSpreadDiplomaticallyTranscribed": false
+    },
+    {
+      "sequenceCanvasOrdinal1": 32,
+      "canvasID": "https://www.digital.archives.go.jp/api/iiif/4756813/canvas/C103347726300",
+      "imageResourceURL": "https://www.digital.archives.go.jp/api/content/item/da12/C103347726300/iiif/M2021052512400415598_0032.jp2/full/max/0/native.jpg",
+      "file": "japan-spread-32-original.jpg",
+      "sha256": "3582dab07c1f0993d88511a246ad10e759ee5ee770c7e5c46c23c1f4a6713f38",
+      "label": "C103347726300",
+      "readingScope": "Navigation/bounded text:澤天夬→天風姤andunchangedvs changedannotations;not a new64structuretable.",
+      "serverResponsePixels": [
+        3000,
+        2073
+      ],
+      "canvasMetadataPixels": [
+        6150,
+        4250
+      ],
+      "pixelPolicy": "Unmodified returned JPEGbytes;metadata dimensions do not prove response has original masterresolution. No upscaling asserted.",
+      "entireSpreadDiplomaticallyTranscribed": false
+    },
+    {
+      "sequenceCanvasOrdinal1": 35,
+      "canvasID": "https://www.digital.archives.go.jp/api/iiif/4756813/canvas/C103347726600",
+      "imageResourceURL": "https://www.digital.archives.go.jp/api/content/item/da12/C103347726600/iiif/M2021052512400415598_0035.jp2/full/max/0/native.jpg",
+      "file": "japan-spread-35-original.jpg",
+      "sha256": "a9a2f683ccb6612e362824a4a3cd3ceccf0b9d3e282ad860a5bd5f3818e578be",
+      "label": "C103347726600",
+      "readingScope": "Boundedchapter8用神opening/subjectlists;not wholechaptercollation.",
+      "serverResponsePixels": [
+        3000,
+        2073
+      ],
+      "canvasMetadataPixels": [
+        6150,
+        4250
+      ],
+      "pixelPolicy": "Unmodified returned JPEGbytes;metadata dimensions do not prove response has original masterresolution. No upscaling asserted.",
+      "entireSpreadDiplomaticallyTranscribed": false
+    },
+    {
+      "sequenceCanvasOrdinal1": 37,
+      "canvasID": "https://www.digital.archives.go.jp/api/iiif/4756813/canvas/C103347726800",
+      "imageResourceURL": "https://www.digital.archives.go.jp/api/content/item/da12/C103347726800/iiif/M2021052512400415598_0037.jp2/full/max/0/native.jpg",
+      "file": "japan-spread-37-original.jpg",
+      "sha256": "dc194cfa14bbe20f5e4d39a0e541b88ef222bfeab3a161c1ac5f81fa74adb0f9",
+      "label": "C103347726800",
+      "readingScope": "Bounded元神5effective/6ineffectiveclausesandendpreceding忌神opening;seeQA crop. No兌→解datedexampleinside thiscorrespondingclause span.",
+      "serverResponsePixels": [
+        3000,
+        2073
+      ],
+      "canvasMetadataPixels": [
+        6150,
+        4250
+      ],
+      "pixelPolicy": "Unmodified returned JPEGbytes;metadata dimensions do not prove response has original masterresolution. No upscaling asserted.",
+      "entireSpreadDiplomaticallyTranscribed": false
+    },
+    {
+      "sequenceCanvasOrdinal1": 38,
+      "canvasID": "https://www.digital.archives.go.jp/api/iiif/4756813/canvas/C103347726900",
+      "imageResourceURL": "https://www.digital.archives.go.jp/api/content/item/da12/C103347726900/iiif/M2021052512400415598_0038.jp2/full/max/0/native.jpg",
+      "file": "japan-spread-38-original.jpg",
+      "sha256": "e04e53aab8c80ccd8f22e37e9b43b403129b613110c1e73c3848bfe823d584d2",
+      "label": "C103347726900",
+      "readingScope": "Bounded忌神5effective/7ineffectiveclausesand大過→鼎example;notwholebookabsence claim.",
+      "serverResponsePixels": [
+        3000,
+        2073
+      ],
+      "canvasMetadataPixels": [
+        6150,
+        4250
+      ],
+      "pixelPolicy": "Unmodified returned JPEGbytes;metadata dimensions do not prove response has original masterresolution. No upscaling asserted.",
+      "entireSpreadDiplomaticallyTranscribed": false
+    }
+  ],
+  "qaCrop": {
+    "file": "qa-crops/japan-37-origin-clauses.jpg",
+    "sha256": "251696eabc54c34edd461921df3aa651f9463b6ca10a8843f09cad78ba98dfe4"
+  },
+  "comparisonFindings": [
+    {
+      "id": "origin-clause-parallel",
+      "B02PDFPages": [
+        51,
+        52,
+        53
+      ],
+      "japanCanvasOrdinal1": 37,
+      "status": "parallel-five-effective-six-ineffective-clause-lists-present",
+      "limit": "No full diplomatic collation;visible wording includes動不為空/沖空實空. Shared clause lists do not prove independent textual pedigree."
+    },
+    {
+      "id": "opposing-clause-parallel",
+      "B02PDFPages": [
+        53,
+        54
+      ],
+      "japanCanvasOrdinal1": 38,
+      "status": "parallel-five-effective-seven-ineffective-and大過鼎-example-present",
+      "limit": "Historical anecdote not independently validated."
+    },
+    {
+      "id": "PDF52-date-void-conflict",
+      "dateAsReadInB02": "酉月辛卯日",
+      "standardVoid": "午未",
+      "B02proseVoid": "寅卯",
+      "status": "unresolved",
+      "finding": "No corresponding兌58→解40datedanecdote found within the directly read parallel元神clause span37. This does not establishabsenceelsewhere or justifyrewriting辛卯as辛亥.",
+      "next": "Collate exactedition additions/otherwitnesses ifneeded;keep B02literalreading and exceptionopen."
+    }
+  ],
+  "sourceClassification": "Officially hosted photographed printed-volume witness;different retained object fromB02PDF. Editiongenealogy/independence and imprint date not established by these bounded readings.",
+  "wholeBookRead": false,
+  "consumerApplied": false
+}

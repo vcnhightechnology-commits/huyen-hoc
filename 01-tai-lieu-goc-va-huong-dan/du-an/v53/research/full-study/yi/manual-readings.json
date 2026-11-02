@@ -1,0 +1,83 @@
+{
+  "schema": "hhc.full-study.yi-facsimile-readings.v1",
+  "date": "2026-10-26",
+  "reader": "Codex; direct visual reading of embedded historical scan images; not OCR",
+  "edition": {
+    "commonsTitle": "周易四卷",
+    "commentator": "朱熹; the heading in book 1 PDF page 22 says 朱熹本義",
+    "dateFromImprint": "同治十三年甲戌 (1874)",
+    "pressFromImprint": "江西書局開雕",
+    "imprintImage": "evidence/book1-pages/p004.jpg",
+    "imprintCrop": "evidence/imprint-crop.png",
+    "commonsEditionMetadata": "清同治十三年（1874）江南書局刻本",
+    "publisherConflict": "The image reads 江西, while Commons description metadata says 江南. Keep both assertions; not resolved by silently changing either.",
+    "sourceInstitutionAsCreditedByCommons": "National Center for Philosophy and Social Sciences Documentation",
+    "institutionDirectCatalogAccess": "The Commons template identifies the ncpssd.org barcode URLs; direct catalog was inaccessible to the web reader. No claim of independently downloading the PDF from the institution.",
+    "callNumberAsCataloguedOnCommons": "經104/2540",
+    "volumes": [
+      {"book": 1, "barcode": "71014695", "bookid": "GJ1152645", "pdf": "evidence/NCPSSD-71014695_周易四卷_第一册.pdf", "commonsUrl": "https://commons.wikimedia.org/wiki/File:NCPSSD-71014695_%E5%91%A8%E6%98%93%E5%9B%9B%E5%8D%B7_%E7%AC%AC%E4%B8%80%E5%86%8C.pdf", "institutionCatalogUrl": "https://www.ncpssd.org/Literature/articleinfo?type=Ancient&barcodenum=71014695"},
+      {"book": 2, "barcode": "71014696", "bookid": "GJ1152646", "pdf": "evidence/NCPSSD-71014696_周易四卷_第二册.pdf", "commonsUrl": "https://commons.wikimedia.org/wiki/File:NCPSSD-71014696_%E5%91%A8%E6%98%93%E5%9B%9B%E5%8D%B7_%E7%AC%AC%E4%BA%8C%E5%86%8C.pdf", "institutionCatalogUrl": "https://www.ncpssd.org/Literature/articleinfo?type=Ancient&barcodenum=71014696"}
+    ]
+  },
+  "countPolicy": "Only the seven complete target yao statements transcribed below count as fully read and collated. Reading a hexagram heading or short anchor does not count as reading its six yao. The 384 count excludes 乾用九 and 坤用六, which remain uncollated here.",
+  "normalizationPolicy": "Manual readings retain the printed Han forms, omit punctuation and the line label, and exclude commentary and phonetic glosses. Punctuation is not reconstructed from the app. Compare NFC Han after removing punctuation/whitespace; do not merge glyph pairs.",
+  "readings": [
+    {
+      "hexagram": 29, "han": "坎", "position": 4, "lineLabel": "六四", "book": 1, "pdfPage": 94,
+      "image": "evidence/book1-pages/p094.jpg", "region": "right half, central large-type column beginning 六四",
+      "readingHanUnpunctuated": "樽酒簋貳用缶納約自牖終无咎",
+      "glyphFocus": {"appV49": "内", "wikisourceV49": "內", "scan": "納"},
+      "finding": "This witness has 納, not either 内 or 內. It also prints 樽 instead of the app/Wikisource base 尊. Thus the prior seven-position classification describes only that earlier pair of witnesses, not this historical witness.",
+      "commentaryObservedSeparately": "The commentary discusses reading 樽酒簋 as one clause and 貳用缶 as one clause. This is not used to inject modern punctuation into the diplomatic Han transcript.",
+      "confidence": "clear"
+    },
+    {
+      "hexagram": 38, "han": "睽", "position": 6, "lineLabel": "上九", "book": 2, "pdfPage": 18,
+      "image": "evidence/book2-pages/p018.jpg", "crop": "evidence/target-38-6-crop.png", "region": "left half, large-type column beginning 上九 and continuing in next column",
+      "readingHanUnpunctuated": "睽孤見豕負塗載鬼一車先張之弧後說之弧匪寇婚媾往遇雨則吉",
+      "glyphFocus": {"appV49": "涂", "wikisourceV49": "塗", "scan": "塗"},
+      "finding": "Large-type yao prints 塗; the commentary also prints 塗. This supports the Wikisource glyph at this location in this witness only.",
+      "confidence": "clear"
+    },
+    {
+      "hexagram": 51, "han": "震", "position": 6, "lineLabel": "上六", "book": 2, "pdfPage": 45,
+      "image": "evidence/book2-pages/p045.jpg", "region": "right half, large-type column beginning 上六; 有言 continues into next column",
+      "readingHanUnpunctuated": "震索索視矍矍征凶震不于其躬于其鄰无咎婚媾有言",
+      "glyphFocus": {"appV49": "无", "wikisourceV49": "無", "scan": "无"},
+      "finding": "This pre-modern printed witness uses 无. It is not evidence of a modern simplified-character error in the app.",
+      "confidence": "clear"
+    },
+    {
+      "hexagram": 53, "han": "漸", "position": 1, "lineLabel": "初六", "book": 2, "pdfPage": 49,
+      "image": "evidence/book2-pages/p049.jpg", "region": "right half, large-type column beginning 初六",
+      "readingHanUnpunctuated": "鴻漸于干小子厲有言无咎",
+      "glyphFocus": {"appV49": "无", "wikisourceV49": "無", "scan": "无"},
+      "finding": "This witness uses 无, agreeing with the app Han after punctuation removal at this line.",
+      "confidence": "clear"
+    },
+    {
+      "hexagram": 53, "han": "漸", "position": 4, "lineLabel": "六四", "book": 2, "pdfPage": 50,
+      "image": "evidence/book2-pages/p050.jpg", "region": "right half, large-type column beginning 六四",
+      "readingHanUnpunctuated": "鴻漸于木或得其桷无咎",
+      "glyphFocus": {"appV49": "无", "wikisourceV49": "無", "scan": "无"},
+      "finding": "This witness uses 无, agreeing with the app Han after punctuation removal at this line.",
+      "confidence": "clear"
+    },
+    {
+      "hexagram": 55, "han": "豐", "position": 6, "lineLabel": "上六", "book": 2, "pdfPage": 54,
+      "image": "evidence/book2-pages/p054.jpg", "region": "left half, large-type column beginning 上六",
+      "readingHanUnpunctuated": "豐其屋蔀其家窺其戶闃其无人三歲不覿凶",
+      "glyphFocus": {"appV49": "觌", "wikisourceV49": "覿", "scan": "覿"},
+      "finding": "This witness prints 覿 and also retains 无 in 无人. Do not normalize the whole line to 無 merely because 覿 is traditional.",
+      "confidence": "clear"
+    },
+    {
+      "hexagram": 59, "han": "渙", "position": 2, "lineLabel": "九二", "book": 2, "pdfPage": 61,
+      "image": "evidence/book2-pages/p061.jpg", "region": "right half, central large-type column beginning 九二",
+      "readingHanUnpunctuated": "渙奔其机悔亡",
+      "glyphFocus": {"appV49": "机", "wikisourceV49": "機", "scan": "机"},
+      "finding": "This witness prints 机 and the adjacent phonetic note reads 机音几. Do not apply a global 机→機 conversion to this classical text.",
+      "confidence": "clear"
+    }
+  ]
+}

@@ -1,0 +1,305 @@
+{
+  "scope": "v53/qa/measured-plan",
+  "files": [
+    {
+      "file": "v53/qa/measured-plan/BROWSER_RESULTS.json",
+      "bytes": 3431,
+      "sha256": "c9e5b0c0833d4e9593cd25c22d549a3cceba3b7648e39f47996be6e88656d9d5",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c9e5b0c0833d4e9593cd25c22d549a3cceba3b7648e39f47996be6e88656d9d5",
+      "httpRange": {
+        "offset": 403515772,
+        "compressedBytes": 1105,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/GEOMETRY_RESULTS.json",
+      "bytes": 12288,
+      "sha256": "693b92a5dc2b75cd65ea7a514c28f0799b3449cbdad77ee90f8c063c052ff9c9",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/693b92a5dc2b75cd65ea7a514c28f0799b3449cbdad77ee90f8c063c052ff9c9",
+      "httpRange": {
+        "offset": 236698760,
+        "compressedBytes": 2575,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/PDF_RESULTS.json",
+      "bytes": 165,
+      "sha256": "fca4849bdf2d57e1c250222474de7df66069369c8c24acf2ca578aeff3cc83d9",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/fca4849bdf2d57e1c250222474de7df66069369c8c24acf2ca578aeff3cc83d9",
+      "httpRange": {
+        "offset": 283681088,
+        "compressedBytes": 115,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/RELEASE_RESULTS.json",
+      "bytes": 436,
+      "sha256": "66a37d1509f72f5712b75d7a2889d23494b3972cc04801feaec11dc3f8c436e8",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/66a37d1509f72f5712b75d7a2889d23494b3972cc04801feaec11dc3f8c436e8",
+      "httpRange": {
+        "offset": 203324803,
+        "compressedBytes": 296,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/browser-run.log",
+      "bytes": 1931,
+      "sha256": "e2154531a8d10ae9abe56c1756cb305903575541c1225ec287e49b3bfe5b2d6f",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e2154531a8d10ae9abe56c1756cb305903575541c1225ec287e49b3bfe5b2d6f",
+      "httpRange": {
+        "offset": 304051219,
+        "compressedBytes": 913,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/core-regression.log",
+      "bytes": 2688,
+      "sha256": "836faaadae2f71a0c51e9a036db4034be0d633bac8da343e6634c5b1656401e2",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/836faaadae2f71a0c51e9a036db4034be0d633bac8da343e6634c5b1656401e2",
+      "httpRange": {
+        "offset": 192430936,
+        "compressedBytes": 994,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/finalprint-1.png",
+      "bytes": 90076,
+      "sha256": "472e694412221a229bbf213593f6d6553f4ae20bb7aedb62d89eb3b1da4285bb",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/472e694412221a229bbf213593f6d6553f4ae20bb7aedb62d89eb3b1da4285bb",
+      "httpRange": {
+        "offset": 203175181,
+        "compressedBytes": 85910,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/finalprint-2.png",
+      "bytes": 65017,
+      "sha256": "8e9eaf83932d51442e058447974f0691586094ef1d357fe2a383397d925d1b41",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8e9eaf83932d51442e058447974f0691586094ef1d357fe2a383397d925d1b41",
+      "httpRange": {
+        "offset": 297312143,
+        "compressedBytes": 61154,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/finalprint-3.png",
+      "bytes": 43717,
+      "sha256": "fac845d2f7968b773a468150d34ceeb9b4e78a31f0328751b57fe41490fd0d7c",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/fac845d2f7968b773a468150d34ceeb9b4e78a31f0328751b57fe41490fd0d7c",
+      "httpRange": {
+        "offset": 262407952,
+        "compressedBytes": 40417,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/finalprint-contact.png",
+      "bytes": 205209,
+      "sha256": "b27abb14531f3129595dc3ceed24200a38ef06c7d491ba7cf285571e6d260b78",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b27abb14531f3129595dc3ceed24200a38ef06c7d491ba7cf285571e6d260b78",
+      "httpRange": {
+        "offset": 347351882,
+        "compressedBytes": 194995,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/home-regression.log",
+      "bytes": 3166,
+      "sha256": "45f29b9c0f7e2d30f46178bb688e36cefe7220d5017021863f48b8116fffa83f",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/45f29b9c0f7e2d30f46178bb688e36cefe7220d5017021863f48b8116fffa83f",
+      "httpRange": {
+        "offset": 199714108,
+        "compressedBytes": 1231,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/mat-bang.pdf",
+      "bytes": 113104,
+      "sha256": "6d5eaa1d01cb10c096ffc09f1d739fd0e7341dae0ed87de7218ae5d4cfbf1699",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6d5eaa1d01cb10c096ffc09f1d739fd0e7341dae0ed87de7218ae5d4cfbf1699",
+      "httpRange": {
+        "offset": 267135199,
+        "compressedBytes": 106793,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/mat-bang.svg",
+      "bytes": 2213,
+      "sha256": "5d05cfcc96a90d5cd48793c9be1982ecbc1dad5bd47af2a0740ac4b5a53a5f1f",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5d05cfcc96a90d5cd48793c9be1982ecbc1dad5bd47af2a0740ac4b5a53a5f1f",
+      "httpRange": {
+        "offset": 266539446,
+        "compressedBytes": 916,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/mat-bang.txt",
+      "bytes": 1572,
+      "sha256": "4b98bd6966a191f58c8df87d29da1d9af97614ed508cdfdce064e13575388861",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4b98bd6966a191f58c8df87d29da1d9af97614ed508cdfdce064e13575388861",
+      "httpRange": {
+        "offset": 282477365,
+        "compressedBytes": 811,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/measured-1440.png",
+      "bytes": 134289,
+      "sha256": "86a3e3462ba9b6ef21ca97c01c02a99d428b72a6e95798cdfa3c8624a3177087",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/86a3e3462ba9b6ef21ca97c01c02a99d428b72a6e95798cdfa3c8624a3177087",
+      "httpRange": {
+        "offset": 212736406,
+        "compressedBytes": 118661,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/measured-390.png",
+      "bytes": 125942,
+      "sha256": "798f054be2079b25e206b55d8ca8ddaab284113554553a15c577abacd9867f72",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/798f054be2079b25e206b55d8ca8ddaab284113554553a15c577abacd9867f72",
+      "httpRange": {
+        "offset": 6759614,
+        "compressedBytes": 114827,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/mobile-fields-crop.png",
+      "bytes": 43912,
+      "sha256": "b2c12aa474b2412be31212676172ccd91f7f9e1d97ccb6d2cbd8034cb2159d37",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b2c12aa474b2412be31212676172ccd91f7f9e1d97ccb6d2cbd8034cb2159d37",
+      "httpRange": {
+        "offset": 348756700,
+        "compressedBytes": 40260,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/mobile-result-crop.png",
+      "bytes": 52798,
+      "sha256": "72b6bb049a7d59cdc5966123db5b08102db1647eae4e4551fe9e2fceb1ccdc91",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/72b6bb049a7d59cdc5966123db5b08102db1647eae4e4551fe9e2fceb1ccdc91",
+      "httpRange": {
+        "offset": 340671701,
+        "compressedBytes": 49524,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/print-1.png",
+      "bytes": 122428,
+      "sha256": "accf9d09df01aabc2cfd29679afbfeb1e8418602f5a815a0652b741b8653c1f7",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/accf9d09df01aabc2cfd29679afbfeb1e8418602f5a815a0652b741b8653c1f7",
+      "httpRange": {
+        "offset": 286338863,
+        "compressedBytes": 121436,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/print-2.png",
+      "bytes": 75526,
+      "sha256": "5a58f2a010f9f9bc6b32538a42188daee1fc13ba863850908c63b2bc3e0a485e",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5a58f2a010f9f9bc6b32538a42188daee1fc13ba863850908c63b2bc3e0a485e",
+      "httpRange": {
+        "offset": 238560279,
+        "compressedBytes": 73601,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/print-3.png",
+      "bytes": 60749,
+      "sha256": "c1253c3f1265c2dd83ba5f4944de5e347e39fecfeece50006dff0bdfe5a6195a",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c1253c3f1265c2dd83ba5f4944de5e347e39fecfeece50006dff0bdfe5a6195a",
+      "httpRange": {
+        "offset": 258007768,
+        "compressedBytes": 58414,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/print-4.png",
+      "bytes": 34669,
+      "sha256": "e4f26f825c55c89e7240b3916c79be20fffcaaa741ba5e3bc5d7f51b472799fd",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e4f26f825c55c89e7240b3916c79be20fffcaaa741ba5e3bc5d7f51b472799fd",
+      "httpRange": {
+        "offset": 331893111,
+        "compressedBytes": 32368,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/print-5.png",
+      "bytes": 46387,
+      "sha256": "9f8ec71e23f71b83905b1d2da03ce0c5dc8458c4155180a1d3387c5f6dbdd92e",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9f8ec71e23f71b83905b1d2da03ce0c5dc8458c4155180a1d3387c5f6dbdd92e",
+      "httpRange": {
+        "offset": 140297406,
+        "compressedBytes": 44097,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/print-6.png",
+      "bytes": 32155,
+      "sha256": "bf0f626307de8921c3d51c8e29e5c3c33af8daf868c70b51d8bfe738b3849571",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bf0f626307de8921c3d51c8e29e5c3c33af8daf868c70b51d8bfe738b3849571",
+      "httpRange": {
+        "offset": 220974998,
+        "compressedBytes": 30224,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/measured-plan/print-contact.png",
+      "bytes": 398965,
+      "sha256": "c3eb579e1db18d4bd765e3115dbfa85502779b9f4327736397e0d966329d5e9c",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c3eb579e1db18d4bd765e3115dbfa85502779b9f4327736397e0d966329d5e9c",
+      "httpRange": {
+        "offset": 335915594,
+        "compressedBytes": 388115,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

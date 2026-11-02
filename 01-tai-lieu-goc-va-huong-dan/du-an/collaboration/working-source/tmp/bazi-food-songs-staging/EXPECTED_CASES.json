@@ -1,0 +1,87 @@
+{
+  "frameID": "single-verse-declared-premises",
+  "cases": [
+    {
+      "id": "unknown",
+      "element": null,
+      "food": null,
+      "mixtureAbsent": null,
+      "listed": null,
+      "premises": null
+    },
+    {
+      "id": "listed-水",
+      "element": "水",
+      "food": true,
+      "mixtureAbsent": true,
+      "listed": true,
+      "premises": true
+    },
+    {
+      "id": "listed-木",
+      "element": "木",
+      "food": true,
+      "mixtureAbsent": true,
+      "listed": true,
+      "premises": true
+    },
+    {
+      "id": "listed-土",
+      "element": "土",
+      "food": true,
+      "mixtureAbsent": true,
+      "listed": true,
+      "premises": true
+    },
+    {
+      "id": "listed-金",
+      "element": "金",
+      "food": true,
+      "mixtureAbsent": true,
+      "listed": true,
+      "premises": true
+    },
+    {
+      "id": "fire-unlisted",
+      "element": "火",
+      "food": true,
+      "mixtureAbsent": true,
+      "listed": false,
+      "premises": false
+    },
+    {
+      "id": "food-unknown",
+      "element": "木",
+      "food": null,
+      "mixtureAbsent": true,
+      "listed": true,
+      "premises": null
+    },
+    {
+      "id": "mixture-unknown",
+      "element": "土",
+      "food": true,
+      "mixtureAbsent": null,
+      "listed": true,
+      "premises": null
+    },
+    {
+      "id": "food-not-strong",
+      "element": null,
+      "food": false,
+      "mixtureAbsent": null,
+      "listed": null,
+      "premises": false
+    },
+    {
+      "id": "mixture-present",
+      "element": "水",
+      "food": true,
+      "mixtureAbsent": false,
+      "listed": true,
+      "premises": false
+    }
+  ],
+  "fireAdverseOutcomeAlwaysUnknown": true,
+  "neitherListedNorPremiseMatchValidatesFortune": true
+}

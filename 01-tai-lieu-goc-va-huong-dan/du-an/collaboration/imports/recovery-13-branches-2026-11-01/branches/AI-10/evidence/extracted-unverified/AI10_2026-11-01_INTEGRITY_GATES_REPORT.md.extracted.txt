@@ -1,0 +1,98 @@
+# AI-10 — Chặn thu hẹp test manifest và tệp phụ thuộc URL động
+
+**Ngày:** 01/11/2026
+**Nhánh dự định:** `codex/ai-10-tam-thuc` — Draft PR #11.
+**Mốc GitHub cuối cùng trước khi kết nối bị chặn:** `3fba778df2db68cd0fdbb472a271b1322dcc66ae`.
+**Trạng thái:** Hoàn thiện bản vá và kiểm thử tại máy, **CHƯA push lên GitHub**. Kết nối GitHub hiện trả 403 `Sorry. Your account was suspended`.
+
+## 1. Lỗ hổng thật đã tái hiện trước khi sửa
+
+### T1 — Thu hẹp test suite nhưng chế độ `--run-git-head` vẫn thành công
+
+Một Git repository thử nghiệm đã `commit` sẵn **hai** tệp test cùng manifest khai báo hai tệp. Khi **xóa `test-b.mjs` trong worktree** đồng thời **xóa đúng mục `test-b.mjs` khỏi `TEST_MANIFEST.json` tại worktree, không commit**, phiên bản runner cũ báo:
+
+- `AI-10 test inventory`: `pass: true`, chỉ 1 tệp được kiểm;
+- `AI-10 local Git HEAD`: `pass: true`, chỉ xác minh 1 tệp còn được khai báo;
+- `--run-git-head`: **exit code 0**, thực thi đúng một test còn lại.
+
+Đây là **false positive nghiêm trọng trong tuyên bố full inventory so với HEAD**. Mã kiểm HEAD cũ không đối chiếu chính manifest và không khám phá các test **đã được commit nhưng bị loại khỏi worktree**.
+
+**Bản sửa:** Bổ sung `auditAI10GitHeadInventory(root, manifest)`:
+
+1. Đọc trực tiếp `git ls-tree -r -z HEAD` để kiểm kê **tất cả tệp `test-*.mjs` trong vùng AI-10 ở commit**, độc lập với manifest và worktree.
+2. Đối chiếu **tập đường dẫn**, SHA Git từng test trong manifest với tree đã commit; phát hiện thiếu, tăng bất thường hoặc sửa digest.
+3. So byte **`TEST_MANIFEST.json`** và bốn tệp kiểm **`run-ai10-strict.mjs`, `ai10-test-audit.mjs`, `ai10-dependency-audit.mjs`, `ai10-git-tree-audit.mjs`** với Git HEAD; từ chối symlink/tệp thiếu.
+4. Chỉ cho phép `--verify-git-head`/`--run-git-head` thông qua khi **inventory + dependency closure + Git dependency bytes + HEAD test inventory + trusted tooling** cùng đạt.
+
+Phản chứng sau sửa: việc xóa `test-b.mjs` và thu hẹp manifest trả **exit code 1**, ghi `HEAD_TEST_OMITTED_FROM_MANIFEST` cùng `TRUSTED_FILE_DIFFERS_FROM_HEAD`, **không gọi Node test**. Sửa riêng manifest, sửa runner, thêm tệp test đã commit nhưng không khai báo, SHA test trong manifest giả, symlink tới manifest đều bị chặn.
+
+**Ranh giới:** Chứng thực **Git HEAD tại máy** không chứng thực commit của `origin` hay quyền của GitHub. Một commit mới cố ý rút gọn suite phải được người duyệt đánh giá; bộ kiểm không coi commit mới mặc định là bản nguồn lịch sử đã xác minh.
+
+### T2 — Đường dẫn URL động bị scanner phụ thuộc bỏ qua
+
+Mã thử ban đầu:
+
+```js
+import {readFileSync} from 'node:fs';
+const name = './missing.json';
+const value = readFileSync(new URL(name, import.meta.url));
+```
+
+Bộ `auditAI10DependencyClosure` cũ trả **`pass: true`**, chỉ thấy tệp JS đang xét, không thấy tệp JSON không tồn tại vì scanner chỉ thu `new URL('./literal', import.meta.url)`.
+
+**Bản sửa:** Mọi `new URL(...)` không khớp mẫu tệp hằng số đã hỗ trợ đều trả vấn đề `DYNAMIC_URL_UNINSPECTED`; không tự coi việc thiếu literal là không có dependency. Các fixture sao chép tool bằng biểu thức `new URL('./'+name, ...)` được viết lại để **liệt kê URL tĩnh** cho từng tệp, tránh phải nới lỏng kiểm nguồn. Đã thử các URL động trong mô-đun nhập bắc cầu, URL ghép chuỗi, URL hằng hợp lệ, và văn bản nằm trong comment/chuỗi.
+
+**Ranh giới:** Đây vẫn là kiểm chứng **tĩnh có giới hạn**; biểu thức file I/O phức tạp, các mẫu interpolation template literal và nội dung runtime không thể được khẳng định đã xét hoàn chỉnh. Đầu ra vẫn có `dynamicRuntimeReadsCovered=false`, `sourceTextAuthenticated=false`, `consumerReady=false`.
+
+### T3 — Manifest và Git HEAD không chứa test nào
+
+Nếu danh sách được khai báo **rỗng** và thư mục hiện có cũng rỗng, `auditAI10TestManifest()` cũ có thể trả `pass:true`. Khi đó `node --test` **không có đường dẫn tường minh** có thể tự khám phá test bên ngoài phạm vi AI-10; đây là hành vi không được chấp nhận cho một bộ kiểm nghiêm ngặt.
+
+**Bản sửa:** Trả lỗi `EMPTY_TEST_MANIFEST` nếu không còn bài test khai báo, và `EMPTY_HEAD_TEST_SUITE` nếu Git HEAD không chứa một tệp `test-*.mjs` nào trong AI-10. Đã kiểm thử bộ giả lập có manifest rỗng: runner `--run` **exit 1, không gọi Node test discovery**; khi cả cây Git mới được commit không có test, `auditAI10GitHeadInventory` cũng trả lỗi.
+
+## 2. Tệp thay đổi sau vòng vá phụ thuộc trước đó
+
+- `ai10-git-tree-audit.mjs`: thêm `auditAI10GitHeadInventory`, khóa manifest và các tệp kiểm vào HEAD; từ chối Git HEAD rỗng.
+- `run-ai10-strict.mjs`: chặn `--run-git-head` và `--verify-git-head` khi HEAD inventory chưa đạt.
+- `ai10-dependency-audit.mjs`: từ chối `new URL()` có đường dẫn không phân tích tĩnh được.
+- `test-ai10-git-tree-audit.mjs`: thêm **10 kiểm** tái hiện thu hẹp manifest, sửa tool, tệp test có trong HEAD nhưng không manifest, symlink.
+- `test-ai10-dependency-audit.mjs`: thêm **4 kiểm** URL động, URL ghép và đối chứng tĩnh.
+- `test-ai10-test-audit.mjs`: chuyển fixture file URL động thành đường dẫn tĩnh, thêm kiểm trường hợp zero-test.
+- `TEST_MANIFEST.json`: cập nhật chuẩn xác SHA Git blob/byte của ba tệp test trên; giữ nguyên **24 tệp test bắt buộc**.
+- `INTEGRITY_GATES_REPORT.md`, `INTEGRITY_GATES_STATE.json`: bằng chứng và tệp trạng thái lượt này.
+
+**Không** sửa mã S01/S02/S03 tính lịch, ứng dụng, `main`, `COVERAGE.json`, ZIP hay lane khác.
+
+## 3. Kết quả kiểm thử và giới hạn rõ ràng
+
+- Node.js **22.16.0**: chạy toàn bộ **13 tệp test có sẵn tại máy**, **118/118 ca đạt, 0 fail** = 102 ca của vòng trước + **16 ca phản chứng mới**.
+- Manifest yêu cầu **24 tệp test**, hiện chỉ có 13, còn thiếu **11 tệp**. Vì vậy `run-ai10-strict.mjs --verify-only` **vẫn trả lỗi**, là kết quả đúng; tuyệt đối **không công bố full suite pass**.
+- `--run-git-head` trên Git fixture có hai test và đủ bộ tooling đã commit: **exit 0**, đầy đủ nguồn và test.
+- `--run-git-head` khi thu hẹp manifest nhưng không commit: **exit 1, không chạy test**; trước sửa đã thấy **exit 0**.
+- `auditAI10DependencyClosure` với URL JSON động bị thiếu: **fail**, trước sửa **pass**.
+- GitHub Actions, toàn bộ 24/24 tệp AI-10, hồi quy V53, chứng cứ ảnh cổ thư và mô hình lịch/engine vẫn **chưa được kiểm đầy đủ**.
+
+## 4. Bản vá và áp dụng
+
+Bàn giao hai dạng patch Git có thể kiểm bằng `git apply --check`:
+
+- **Combined**: áp một lần trên bản nguồn đã có ở GitHub commit `3fba778d…` (gồm cả bản vá phụ thuộc của vòng trước).
+- **Incremental**: áp trên checkout đã nhận **bản vá phụ thuộc** của vòng trước; chỉ chứa sửa đổi bảo vệ manifest và URL động của vòng này.
+
+Từ root checkout đã chọn đúng nhánh AI-10:
+
+```bash
+git apply --check /path/to/AI10_integrity_hardening_combined_2026-11-01.patch
+git apply /path/to/AI10_integrity_hardening_combined_2026-11-01.patch
+# Sau khi rà nội dung, commit để --run-git-head so với HEAD mới:
+node collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/run-ai10-strict.mjs --verify-only
+```
+
+`--run-git-head` có thể chạy **sau khi commit** và sau khi khôi phục đủ 24 test cùng dependency; nó từ chối worktree chưa commit. Nếu nhánh GitHub đã thay đổi, **không áp cưỡng bức**; so diff/manifest và chạy kiểm lại trước khi đề xuất PR.
+
+## 5. Điều phối và kiến nghị
+
+**AI-10:** giữ manifest là tài sản được kiểm theo chính HEAD, kiểm dependency closure trước khi chạy, và yêu cầu suite đầy đủ trước nghiệm thu.
+**AI-11:** không xem bằng chứng kiểm chương trình là chứng thực chữ cổ.
+**AI-13:** không suy việc pass của module kiểm toán thành chứng minh lịch, ngày giờ, can chi hoặc bốn khóa.
+**PR #11:** tiếp tục Draft; **chưa push bản vá mới** do 403. Đề xuất reviewer kiểm đầu ra từ hai lỗ hổng tái hiện trước và sau khi sửa, rồi mới hợp nhất.

@@ -1,0 +1,27 @@
+{
+  "date": "2026-10-29",
+  "retainedModules": [
+    {
+      "file": "v53/research/home-hour-alignment/source-hour-reference.mjs",
+      "bytes": 2400,
+      "sha256": "b40caf5be790e93e3497aa640b4e8d7c4a7d047b9c8b37b0886899e3967db075"
+    },
+    {
+      "file": "v53/research/home-day-markers/source-day-markers.mjs",
+      "bytes": 1831,
+      "sha256": "658155952c4697a7af71fdfc756de72c9b6db31acec0f6f1c1a3913ccf58fb79"
+    },
+    {
+      "file": "v53/research/home-time-premises/repair-scope-reference.mjs",
+      "bytes": 4878,
+      "sha256": "5bd08f4028560c506bcdb368c725f34132b8d99ca7a9c721a3a991009f9e2f60"
+    }
+  ],
+  "newFunctions": [
+    "sourceDeclaredDayPattern",
+    "sourceHourParagraph"
+  ],
+  "purpose": "Evaluate only two source-declared daily pattern relations and separate named-hour paragraph restriction versus explicit conditional general-hour claim. Reuse P08 Jielu API15executions for witness comparison, not another calendar engine.",
+  "sameNamedTermDoesNotProveIdenticalSystem": true,
+  "newCalendarEngineCalls": 0
+}

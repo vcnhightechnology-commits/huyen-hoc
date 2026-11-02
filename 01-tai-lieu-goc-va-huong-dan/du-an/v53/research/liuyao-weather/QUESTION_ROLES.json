@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-27",
+  "sourceInstructionsAreData": true,
+  "methods": [
+    {
+      "id": "B02-ch035-JueZi-191",
+      "sourceVoice": "覺子曰",
+      "sourcePages": [
+        191
+      ],
+      "selectors": [
+        {
+          "question": "rain",
+          "desiredKin": [
+            "父母"
+          ]
+        },
+        {
+          "question": "clear",
+          "desiredKin": [
+            "子孫"
+          ]
+        }
+      ],
+      "sourceReading": "占雨用父爻占晴用子孫爻財爻與世應何干",
+      "qualification": "Source criticizes using財/世應 as universal premises. Keep this voice separate from the quoted verse."
+    },
+    {
+      "id": "B02-ch035-quoted-summary-201",
+      "sourceVoice": "quoted/summary passage; not silently attributed to覺子191",
+      "sourcePages": [
+        201
+      ],
+      "selectors": [
+        {
+          "question": "rain",
+          "desiredKin": [
+            "父母"
+          ]
+        },
+        {
+          "question": "clear",
+          "desiredKin": [
+            "子孫",
+            "妻財"
+          ]
+        },
+        {
+          "question": "cloud-thunder",
+          "desiredKin": [
+            "官鬼"
+          ]
+        }
+      ],
+      "sourceReading": "父母主雨官鬼主濃雲雷電子孫財爻主晴",
+      "qualification": "Historical symbolic role assignment only; no claim these roles forecast weather."
+    }
+  ],
+  "automaticQuestionParsing": false,
+  "wholeChapterApplied": false,
+  "practicalWeatherModelEstablished": false
+}

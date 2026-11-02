@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-27",
+  "checks": [
+    {
+      "name": "Previously staged API/raw PDF retained exactly with two authorized HTTPS bodies, no redownload",
+      "ok": true
+    },
+    {
+      "name": "24 actual content readings, four complete section spans and one partial; crop not counted as another page",
+      "ok": true
+    },
+    {
+      "name": "Four timing methods keep context tomb and own changed tomb separate; source conditions and historical claims retained",
+      "ok": true
+    },
+    {
+      "name": "Same synthetic fire line 午 to 戌 yields 辰 for contextual tomb but 子 for its own transformed tomb",
+      "ok": true
+    },
+    {
+      "name": "Missing source premises do not generate dates; wrong actual motion or own changed branch refutes the selected method",
+      "ok": true
+    },
+    {
+      "name": "Twelve representative source branch coordinates executed in actual HHC engine once each",
+      "ok": true
+    },
+    {
+      "name": "2880 source-coordinate contexts agree with independent branch arithmetic and five periodic sexagenary positions",
+      "ok": true
+    },
+    {
+      "name": "Explicit domain, selected line, known method and typed premises required; no cross-domain or coercion fallback",
+      "ok": true
+    },
+    {
+      "name": "Consumer and nine earlier private references preserved; new source data is absent from site",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "actualHHCHexCalls": 20,
+    "syntheticSourceMethodCases": 4,
+    "privateCoordinateContexts": 2880,
+    "sexagenaryCoordinateCandidates": 14400,
+    "graphDigest": "48209d968b68ec30160f40a1fe81d0b8be98313a77f70b15d66803fd0e76fdee",
+    "sourceTimingMethods": 4,
+    "boundedOperationalClauses": 14,
+    "manualContentPages": 24,
+    "completeFirstPassSectionSpans": 4,
+    "partialSectionSpans": 1
+  },
+  "htmlSHA256": "549cb415c1a7785e92be25b407d965ea0abd4d3affc54696b784f84d87601857",
+  "consumerChanged": false,
+  "wholeBookApplied": false
+}

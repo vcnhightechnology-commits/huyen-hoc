@@ -1,0 +1,12 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {resolve} from 'node:path';
+import assert from 'node:assert/strict';
+import {createHash} from 'node:crypto';
+const root=resolve(import.meta.dirname,'..'),html=await readFile(resolve(root,'../v52/Huyen_Hoc_Cac_V52.html'),'utf8'),scripts=[...html.matchAll(/<script([^>]*)>([\s\S]*?)<\/script>/g)],main=scripts.find(m=>m[2].startsWith("\n'use strict';\nconst BOOKS="))[2];
+const between=(s,a,b)=>{const i=s.indexOf(a),j=s.indexOf(b,i);assert.ok(i>=0&&j>i,a);return s.slice(i,j)},decl=name=>{const start=main.indexOf('const '+name+'='),end=main.indexOf(';\n',start);assert.ok(start>=0&&end>start,name);return main.slice(start,end+1)};
+const constants=['NAYIN','STEMS','BRANCHES','ZODIAC','ELEMENTS','ELEMENT_INFO','TRIG','HEX_MATRIX','KUAS','FOUR_GOOD','FOUR_BAD','BAD','TV_PALACE_NAMES','TV_NA_CUC','TV_CORE_STARS','TV_HOA'].map(decl).join('\n');
+const math=between(main,'function digitalRoot(','function calcBirth(')+between(main,'const BAZI_JIE_MIN=','function baziWhenUTC(')+between(main,'function tvJDN(','function tvSmallLog(');
+const wrapper=between(html,'const originalTV = tvChart;','// Section injected only once;').replace('source:URL_TV','source:null');
+const runtime=await readFile(resolve(root,'engine-runtime.js'),'utf8');
+const out=`/* Huyền Học Các · Computational runtime. */\n(()=>{'use strict';\nconst mod=(a,n)=>(a%n+n)%n;const M=(n,k=12)=>mod(n,k);\n${constants}\n${math}\n${wrapper}\n${runtime}\n})();\n`;
+await writeFile(resolve(root,'engine.js'),out);await writeFile(resolve(root,'scripts/engine_manifest.json'),JSON.stringify({parentSha256:createHash('sha256').update(html).digest('hex'),engineSha256:createHash('sha256').update(out).digest('hex'),extraction:'Selected arithmetic/constants only; new input validation and consumer output facade.'},null,2)+'\n');console.log('Engine',Buffer.byteLength(out));

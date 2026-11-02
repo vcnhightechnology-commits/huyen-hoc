@@ -1,0 +1,1270 @@
+{
+  "date": "2026-10-27",
+  "checks": [
+    {
+      "name": "Original container, old native pages and actual lunar runtime retain audited bytes",
+      "ok": true
+    },
+    {
+      "name": "20 printed base rows and5 explicit solstice exceptions match derived fiveZi pillar and actual NaYin",
+      "ok": true
+    },
+    {
+      "name": "All480 explicit mountain/yearstem/phase contexts match independent printedrows;40metalrows change",
+      "ok": true
+    },
+    {
+      "name": "Unknown metal phase retains alternatives; source origin and named system are never inferred",
+      "ok": true
+    },
+    {
+      "name": "All8 printed examplegroups match source overcoming relation with actual candidate NaYin",
+      "ok": true
+    },
+    {
+      "name": "Construction applicability and missing premises stay separate from arithmetic for all4 coordinate kinds",
+      "ok": true
+    },
+    {
+      "name": "384 manually read strokes match64 source names,64 actual hexNumber executions and source stage relations",
+      "ok": true
+    },
+    {
+      "name": "All64 glyphs resolve to exact sourcepalace/stage; inputorientation and missing values are explicit",
+      "ok": true
+    },
+    {
+      "name": "Earlier spelling differences preserved without altering source, model or userwebsite",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "actualLunarCharts": 28,
+    "actualHHCHexNumberCalls": 64,
+    "printedBaseRows": 20,
+    "printedSolsticeRows": 5,
+    "privateTombContexts": 480,
+    "metalAfterSolsticeChanges": 40,
+    "printedExampleGroups": 8,
+    "printedExamplePillars": 13,
+    "printedExampleMountainComparisons": 312,
+    "manualFigureGlyphs": 384,
+    "manualFigureNames": 64,
+    "ambiguousPixelSamplesManuallyResolved": 65,
+    "newSourcePages": 0,
+    "expandedPreviouslyReadPages": 13,
+    "newHTTPRequests": 0
+  },
+  "runtimeFixtures": [
+    {
+      "pillar": "戊辰",
+      "fixture": {
+        "year": 1988,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "戊辰",
+      "actualNaYin": "大林木"
+    },
+    {
+      "pillar": "庚辰",
+      "fixture": {
+        "year": 2000,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "庚辰",
+      "actualNaYin": "白蜡金"
+    },
+    {
+      "pillar": "壬辰",
+      "fixture": {
+        "year": 2012,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "壬辰",
+      "actualNaYin": "长流水"
+    },
+    {
+      "pillar": "甲辰",
+      "fixture": {
+        "year": 2024,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "甲辰",
+      "actualNaYin": "覆灯火"
+    },
+    {
+      "pillar": "丙辰",
+      "fixture": {
+        "year": 2036,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "丙辰",
+      "actualNaYin": "沙中土"
+    },
+    {
+      "pillar": "甲戌",
+      "fixture": {
+        "year": 1994,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "甲戌",
+      "actualNaYin": "山头火"
+    },
+    {
+      "pillar": "丙戌",
+      "fixture": {
+        "year": 2006,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "丙戌",
+      "actualNaYin": "屋上土"
+    },
+    {
+      "pillar": "戊戌",
+      "fixture": {
+        "year": 2018,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "戊戌",
+      "actualNaYin": "平地木"
+    },
+    {
+      "pillar": "庚戌",
+      "fixture": {
+        "year": 2030,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "庚戌",
+      "actualNaYin": "钗钏金"
+    },
+    {
+      "pillar": "壬戌",
+      "fixture": {
+        "year": 2042,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "壬戌",
+      "actualNaYin": "大海水"
+    },
+    {
+      "pillar": "辛未",
+      "fixture": {
+        "year": 1991,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "辛未",
+      "actualNaYin": "路旁土"
+    },
+    {
+      "pillar": "癸未",
+      "fixture": {
+        "year": 2003,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "癸未",
+      "actualNaYin": "杨柳木"
+    },
+    {
+      "pillar": "乙未",
+      "fixture": {
+        "year": 2015,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "乙未",
+      "actualNaYin": "沙中金"
+    },
+    {
+      "pillar": "丁未",
+      "fixture": {
+        "year": 2027,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "丁未",
+      "actualNaYin": "天河水"
+    },
+    {
+      "pillar": "己未",
+      "fixture": {
+        "year": 2039,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "己未",
+      "actualNaYin": "天上火"
+    },
+    {
+      "pillar": "乙丑",
+      "fixture": {
+        "year": 1985,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "乙丑",
+      "actualNaYin": "海中金"
+    },
+    {
+      "pillar": "丁丑",
+      "fixture": {
+        "year": 1997,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "丁丑",
+      "actualNaYin": "涧下水"
+    },
+    {
+      "pillar": "己丑",
+      "fixture": {
+        "year": 2009,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "己丑",
+      "actualNaYin": "霹雳火"
+    },
+    {
+      "pillar": "辛丑",
+      "fixture": {
+        "year": 2021,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "辛丑",
+      "actualNaYin": "壁上土"
+    },
+    {
+      "pillar": "癸丑",
+      "fixture": {
+        "year": 2033,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "癸丑",
+      "actualNaYin": "桑柘木"
+    },
+    {
+      "pillar": "甲子",
+      "fixture": {
+        "year": 1984,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "甲子",
+      "actualNaYin": "海中金"
+    },
+    {
+      "pillar": "丙寅",
+      "fixture": {
+        "year": 1986,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "丙寅",
+      "actualNaYin": "炉中火"
+    },
+    {
+      "pillar": "丁卯",
+      "fixture": {
+        "year": 1987,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "丁卯",
+      "actualNaYin": "炉中火"
+    },
+    {
+      "pillar": "己巳",
+      "fixture": {
+        "year": 1989,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "己巳",
+      "actualNaYin": "大林木"
+    },
+    {
+      "pillar": "庚午",
+      "fixture": {
+        "year": 1990,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "庚午",
+      "actualNaYin": "路旁土"
+    },
+    {
+      "pillar": "壬申",
+      "fixture": {
+        "year": 1992,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "壬申",
+      "actualNaYin": "剑锋金"
+    },
+    {
+      "pillar": "癸酉",
+      "fixture": {
+        "year": 1993,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "癸酉",
+      "actualNaYin": "剑锋金"
+    },
+    {
+      "pillar": "丙子",
+      "fixture": {
+        "year": 1996,
+        "month": 7,
+        "day": 1,
+        "hour": 12
+      },
+      "actualPillar": "丙子",
+      "actualNaYin": "涧下水"
+    }
+  ],
+  "sourceExamples": [
+    {
+      "sourceYearPillar": "甲子",
+      "candidatePillar": "甲子",
+      "actualNaYin": "海中金",
+      "sourcePeriod": "before-current-winter-solstice",
+      "expectedMountains": [
+        "甲",
+        "寅",
+        "辰",
+        "巽",
+        "戌",
+        "坎",
+        "辛",
+        "申",
+        "丑",
+        "癸",
+        "坤",
+        "庚",
+        "未"
+      ],
+      "actualMountains": [
+        "甲",
+        "寅",
+        "辰",
+        "巽",
+        "戌",
+        "坎",
+        "辛",
+        "申",
+        "丑",
+        "癸",
+        "坤",
+        "庚",
+        "未"
+      ]
+    },
+    {
+      "sourceYearPillar": "甲子",
+      "candidatePillar": "丙寅",
+      "actualNaYin": "炉中火",
+      "sourcePeriod": "before-current-winter-solstice",
+      "expectedMountains": [
+        "乾",
+        "亥",
+        "兌",
+        "丁"
+      ],
+      "actualMountains": [
+        "乾",
+        "亥",
+        "兌",
+        "丁"
+      ]
+    },
+    {
+      "sourceYearPillar": "甲子",
+      "candidatePillar": "丁卯",
+      "actualNaYin": "炉中火",
+      "sourcePeriod": "before-current-winter-solstice",
+      "expectedMountains": [
+        "乾",
+        "亥",
+        "兌",
+        "丁"
+      ],
+      "actualMountains": [
+        "乾",
+        "亥",
+        "兌",
+        "丁"
+      ]
+    },
+    {
+      "sourceYearPillar": "甲子",
+      "candidatePillar": "戊辰",
+      "actualNaYin": "大林木",
+      "sourcePeriod": "before-current-winter-solstice",
+      "expectedMountains": [
+        "震",
+        "艮",
+        "巳"
+      ],
+      "actualMountains": [
+        "震",
+        "艮",
+        "巳"
+      ]
+    },
+    {
+      "sourceYearPillar": "甲子",
+      "candidatePillar": "己巳",
+      "actualNaYin": "大林木",
+      "sourcePeriod": "before-current-winter-solstice",
+      "expectedMountains": [
+        "震",
+        "艮",
+        "巳"
+      ],
+      "actualMountains": [
+        "震",
+        "艮",
+        "巳"
+      ]
+    },
+    {
+      "sourceYearPillar": "甲子",
+      "candidatePillar": "庚午",
+      "actualNaYin": "路旁土",
+      "sourcePeriod": "before-current-winter-solstice",
+      "expectedMountains": [],
+      "actualMountains": []
+    },
+    {
+      "sourceYearPillar": "甲子",
+      "candidatePillar": "辛未",
+      "actualNaYin": "路旁土",
+      "sourcePeriod": "before-current-winter-solstice",
+      "expectedMountains": [],
+      "actualMountains": []
+    },
+    {
+      "sourceYearPillar": "甲子",
+      "candidatePillar": "壬申",
+      "actualNaYin": "剑锋金",
+      "sourcePeriod": "before-current-winter-solstice",
+      "expectedMountains": [
+        "甲",
+        "寅",
+        "辰",
+        "巽",
+        "戌",
+        "坎",
+        "辛",
+        "申",
+        "丑",
+        "癸",
+        "坤",
+        "庚",
+        "未"
+      ],
+      "actualMountains": [
+        "甲",
+        "寅",
+        "辰",
+        "巽",
+        "戌",
+        "坎",
+        "辛",
+        "申",
+        "丑",
+        "癸",
+        "坤",
+        "庚",
+        "未"
+      ]
+    },
+    {
+      "sourceYearPillar": "甲子",
+      "candidatePillar": "癸酉",
+      "actualNaYin": "剑锋金",
+      "sourcePeriod": "before-current-winter-solstice",
+      "expectedMountains": [
+        "甲",
+        "寅",
+        "辰",
+        "巽",
+        "戌",
+        "坎",
+        "辛",
+        "申",
+        "丑",
+        "癸",
+        "坤",
+        "庚",
+        "未"
+      ],
+      "actualMountains": [
+        "甲",
+        "寅",
+        "辰",
+        "巽",
+        "戌",
+        "坎",
+        "辛",
+        "申",
+        "丑",
+        "癸",
+        "坤",
+        "庚",
+        "未"
+      ]
+    },
+    {
+      "sourceYearPillar": "甲子",
+      "candidatePillar": "丙子",
+      "actualNaYin": "涧下水",
+      "sourcePeriod": "before-current-winter-solstice",
+      "expectedMountains": [
+        "離",
+        "壬",
+        "丙",
+        "乙"
+      ],
+      "actualMountains": [
+        "離",
+        "壬",
+        "丙",
+        "乙"
+      ]
+    },
+    {
+      "sourceYearPillar": "甲子",
+      "candidatePillar": "丁丑",
+      "actualNaYin": "涧下水",
+      "sourcePeriod": "before-current-winter-solstice",
+      "expectedMountains": [
+        "離",
+        "壬",
+        "丙",
+        "乙"
+      ],
+      "actualMountains": [
+        "離",
+        "壬",
+        "丙",
+        "乙"
+      ]
+    },
+    {
+      "sourceYearPillar": "壬申",
+      "candidatePillar": "壬申",
+      "actualNaYin": "剑锋金",
+      "sourcePeriod": "before-current-winter-solstice",
+      "expectedMountains": [],
+      "actualMountains": []
+    },
+    {
+      "sourceYearPillar": "壬申",
+      "candidatePillar": "壬申",
+      "actualNaYin": "剑锋金",
+      "sourcePeriod": "after-current-winter-solstice-in-source-chou-period",
+      "expectedMountains": [
+        "乾",
+        "亥",
+        "兌",
+        "丁"
+      ],
+      "actualMountains": [
+        "乾",
+        "亥",
+        "兌",
+        "丁"
+      ]
+    }
+  ],
+  "sourceFigures": [
+    {
+      "palace": "艮",
+      "stage": 0,
+      "printedName": "艮為山",
+      "manualTopToBottom": "100100",
+      "upper": "艮",
+      "lower": "艮",
+      "actualHexNumber": 52,
+      "relationMask": 0
+    },
+    {
+      "palace": "艮",
+      "stage": 1,
+      "printedName": "山火賁",
+      "manualTopToBottom": "100101",
+      "upper": "艮",
+      "lower": "離",
+      "actualHexNumber": 22,
+      "relationMask": 1
+    },
+    {
+      "palace": "艮",
+      "stage": 2,
+      "printedName": "山天大畜",
+      "manualTopToBottom": "100111",
+      "upper": "艮",
+      "lower": "乾",
+      "actualHexNumber": 26,
+      "relationMask": 3
+    },
+    {
+      "palace": "艮",
+      "stage": 3,
+      "printedName": "山澤損",
+      "manualTopToBottom": "100011",
+      "upper": "艮",
+      "lower": "兌",
+      "actualHexNumber": 41,
+      "relationMask": 7
+    },
+    {
+      "palace": "艮",
+      "stage": 4,
+      "printedName": "火澤睽",
+      "manualTopToBottom": "101011",
+      "upper": "離",
+      "lower": "兌",
+      "actualHexNumber": 38,
+      "relationMask": 6
+    },
+    {
+      "palace": "艮",
+      "stage": 5,
+      "printedName": "天澤履",
+      "manualTopToBottom": "111011",
+      "upper": "乾",
+      "lower": "兌",
+      "actualHexNumber": 10,
+      "relationMask": 4
+    },
+    {
+      "palace": "艮",
+      "stage": 6,
+      "printedName": "風澤中孚",
+      "manualTopToBottom": "110011",
+      "upper": "巽",
+      "lower": "兌",
+      "actualHexNumber": 61,
+      "relationMask": 5
+    },
+    {
+      "palace": "艮",
+      "stage": 7,
+      "printedName": "風山漸",
+      "manualTopToBottom": "110100",
+      "upper": "巽",
+      "lower": "艮",
+      "actualHexNumber": 53,
+      "relationMask": 2
+    },
+    {
+      "palace": "坎",
+      "stage": 0,
+      "printedName": "坎為水",
+      "manualTopToBottom": "010010",
+      "upper": "坎",
+      "lower": "坎",
+      "actualHexNumber": 29,
+      "relationMask": 0
+    },
+    {
+      "palace": "坎",
+      "stage": 1,
+      "printedName": "水澤節",
+      "manualTopToBottom": "010011",
+      "upper": "坎",
+      "lower": "兌",
+      "actualHexNumber": 60,
+      "relationMask": 1
+    },
+    {
+      "palace": "坎",
+      "stage": 2,
+      "printedName": "水雷屯",
+      "manualTopToBottom": "010001",
+      "upper": "坎",
+      "lower": "震",
+      "actualHexNumber": 3,
+      "relationMask": 3
+    },
+    {
+      "palace": "坎",
+      "stage": 3,
+      "printedName": "水火既濟",
+      "manualTopToBottom": "010101",
+      "upper": "坎",
+      "lower": "離",
+      "actualHexNumber": 63,
+      "relationMask": 7
+    },
+    {
+      "palace": "坎",
+      "stage": 4,
+      "printedName": "澤火革",
+      "manualTopToBottom": "011101",
+      "upper": "兌",
+      "lower": "離",
+      "actualHexNumber": 49,
+      "relationMask": 6
+    },
+    {
+      "palace": "坎",
+      "stage": 5,
+      "printedName": "雷火豐",
+      "manualTopToBottom": "001101",
+      "upper": "震",
+      "lower": "離",
+      "actualHexNumber": 55,
+      "relationMask": 4
+    },
+    {
+      "palace": "坎",
+      "stage": 6,
+      "printedName": "地火明夷",
+      "manualTopToBottom": "000101",
+      "upper": "坤",
+      "lower": "離",
+      "actualHexNumber": 36,
+      "relationMask": 5
+    },
+    {
+      "palace": "坎",
+      "stage": 7,
+      "printedName": "地水師",
+      "manualTopToBottom": "000010",
+      "upper": "坤",
+      "lower": "坎",
+      "actualHexNumber": 7,
+      "relationMask": 2
+    },
+    {
+      "palace": "乾",
+      "stage": 0,
+      "printedName": "乾為天",
+      "manualTopToBottom": "111111",
+      "upper": "乾",
+      "lower": "乾",
+      "actualHexNumber": 1,
+      "relationMask": 0
+    },
+    {
+      "palace": "乾",
+      "stage": 1,
+      "printedName": "天風姤",
+      "manualTopToBottom": "111110",
+      "upper": "乾",
+      "lower": "巽",
+      "actualHexNumber": 44,
+      "relationMask": 1
+    },
+    {
+      "palace": "乾",
+      "stage": 2,
+      "printedName": "天山遯",
+      "manualTopToBottom": "111100",
+      "upper": "乾",
+      "lower": "艮",
+      "actualHexNumber": 33,
+      "relationMask": 3
+    },
+    {
+      "palace": "乾",
+      "stage": 3,
+      "printedName": "天地否",
+      "manualTopToBottom": "111000",
+      "upper": "乾",
+      "lower": "坤",
+      "actualHexNumber": 12,
+      "relationMask": 7
+    },
+    {
+      "palace": "乾",
+      "stage": 4,
+      "printedName": "風地觀",
+      "manualTopToBottom": "110000",
+      "upper": "巽",
+      "lower": "坤",
+      "actualHexNumber": 20,
+      "relationMask": 6
+    },
+    {
+      "palace": "乾",
+      "stage": 5,
+      "printedName": "山地剝",
+      "manualTopToBottom": "100000",
+      "upper": "艮",
+      "lower": "坤",
+      "actualHexNumber": 23,
+      "relationMask": 4
+    },
+    {
+      "palace": "乾",
+      "stage": 6,
+      "printedName": "火地晉",
+      "manualTopToBottom": "101000",
+      "upper": "離",
+      "lower": "坤",
+      "actualHexNumber": 35,
+      "relationMask": 5
+    },
+    {
+      "palace": "乾",
+      "stage": 7,
+      "printedName": "火天大有",
+      "manualTopToBottom": "101111",
+      "upper": "離",
+      "lower": "乾",
+      "actualHexNumber": 14,
+      "relationMask": 2
+    },
+    {
+      "palace": "兌",
+      "stage": 0,
+      "printedName": "兌為澤",
+      "manualTopToBottom": "011011",
+      "upper": "兌",
+      "lower": "兌",
+      "actualHexNumber": 58,
+      "relationMask": 0
+    },
+    {
+      "palace": "兌",
+      "stage": 1,
+      "printedName": "澤水困",
+      "manualTopToBottom": "011010",
+      "upper": "兌",
+      "lower": "坎",
+      "actualHexNumber": 47,
+      "relationMask": 1
+    },
+    {
+      "palace": "兌",
+      "stage": 2,
+      "printedName": "澤地萃",
+      "manualTopToBottom": "011000",
+      "upper": "兌",
+      "lower": "坤",
+      "actualHexNumber": 45,
+      "relationMask": 3
+    },
+    {
+      "palace": "兌",
+      "stage": 3,
+      "printedName": "澤山咸",
+      "manualTopToBottom": "011100",
+      "upper": "兌",
+      "lower": "艮",
+      "actualHexNumber": 31,
+      "relationMask": 7
+    },
+    {
+      "palace": "兌",
+      "stage": 4,
+      "printedName": "水山蹇",
+      "manualTopToBottom": "010100",
+      "upper": "坎",
+      "lower": "艮",
+      "actualHexNumber": 39,
+      "relationMask": 6
+    },
+    {
+      "palace": "兌",
+      "stage": 5,
+      "printedName": "地山謙",
+      "manualTopToBottom": "000100",
+      "upper": "坤",
+      "lower": "艮",
+      "actualHexNumber": 15,
+      "relationMask": 4
+    },
+    {
+      "palace": "兌",
+      "stage": 6,
+      "printedName": "雷山小過",
+      "manualTopToBottom": "001100",
+      "upper": "震",
+      "lower": "艮",
+      "actualHexNumber": 62,
+      "relationMask": 5
+    },
+    {
+      "palace": "兌",
+      "stage": 7,
+      "printedName": "雷澤歸妹",
+      "manualTopToBottom": "001011",
+      "upper": "震",
+      "lower": "兌",
+      "actualHexNumber": 54,
+      "relationMask": 2
+    },
+    {
+      "palace": "坤",
+      "stage": 0,
+      "printedName": "坤為地",
+      "manualTopToBottom": "000000",
+      "upper": "坤",
+      "lower": "坤",
+      "actualHexNumber": 2,
+      "relationMask": 0
+    },
+    {
+      "palace": "坤",
+      "stage": 1,
+      "printedName": "地雷復",
+      "manualTopToBottom": "000001",
+      "upper": "坤",
+      "lower": "震",
+      "actualHexNumber": 24,
+      "relationMask": 1
+    },
+    {
+      "palace": "坤",
+      "stage": 2,
+      "printedName": "地澤臨",
+      "manualTopToBottom": "000011",
+      "upper": "坤",
+      "lower": "兌",
+      "actualHexNumber": 19,
+      "relationMask": 3
+    },
+    {
+      "palace": "坤",
+      "stage": 3,
+      "printedName": "地天泰",
+      "manualTopToBottom": "000111",
+      "upper": "坤",
+      "lower": "乾",
+      "actualHexNumber": 11,
+      "relationMask": 7
+    },
+    {
+      "palace": "坤",
+      "stage": 4,
+      "printedName": "雷天大壯",
+      "manualTopToBottom": "001111",
+      "upper": "震",
+      "lower": "乾",
+      "actualHexNumber": 34,
+      "relationMask": 6
+    },
+    {
+      "palace": "坤",
+      "stage": 5,
+      "printedName": "澤天夬",
+      "manualTopToBottom": "011111",
+      "upper": "兌",
+      "lower": "乾",
+      "actualHexNumber": 43,
+      "relationMask": 4
+    },
+    {
+      "palace": "坤",
+      "stage": 6,
+      "printedName": "水天需",
+      "manualTopToBottom": "010111",
+      "upper": "坎",
+      "lower": "乾",
+      "actualHexNumber": 5,
+      "relationMask": 5
+    },
+    {
+      "palace": "坤",
+      "stage": 7,
+      "printedName": "水地比",
+      "manualTopToBottom": "010000",
+      "upper": "坎",
+      "lower": "坤",
+      "actualHexNumber": 8,
+      "relationMask": 2
+    },
+    {
+      "palace": "離",
+      "stage": 0,
+      "printedName": "離為火",
+      "manualTopToBottom": "101101",
+      "upper": "離",
+      "lower": "離",
+      "actualHexNumber": 30,
+      "relationMask": 0
+    },
+    {
+      "palace": "離",
+      "stage": 1,
+      "printedName": "火山旅",
+      "manualTopToBottom": "101100",
+      "upper": "離",
+      "lower": "艮",
+      "actualHexNumber": 56,
+      "relationMask": 1
+    },
+    {
+      "palace": "離",
+      "stage": 2,
+      "printedName": "火風鼎",
+      "manualTopToBottom": "101110",
+      "upper": "離",
+      "lower": "巽",
+      "actualHexNumber": 50,
+      "relationMask": 3
+    },
+    {
+      "palace": "離",
+      "stage": 3,
+      "printedName": "火水未濟",
+      "manualTopToBottom": "101010",
+      "upper": "離",
+      "lower": "坎",
+      "actualHexNumber": 64,
+      "relationMask": 7
+    },
+    {
+      "palace": "離",
+      "stage": 4,
+      "printedName": "山水蒙",
+      "manualTopToBottom": "100010",
+      "upper": "艮",
+      "lower": "坎",
+      "actualHexNumber": 4,
+      "relationMask": 6
+    },
+    {
+      "palace": "離",
+      "stage": 5,
+      "printedName": "風水渙",
+      "manualTopToBottom": "110010",
+      "upper": "巽",
+      "lower": "坎",
+      "actualHexNumber": 59,
+      "relationMask": 4
+    },
+    {
+      "palace": "離",
+      "stage": 6,
+      "printedName": "天水訟",
+      "manualTopToBottom": "111010",
+      "upper": "乾",
+      "lower": "坎",
+      "actualHexNumber": 6,
+      "relationMask": 5
+    },
+    {
+      "palace": "離",
+      "stage": 7,
+      "printedName": "天火同人",
+      "manualTopToBottom": "111101",
+      "upper": "乾",
+      "lower": "離",
+      "actualHexNumber": 13,
+      "relationMask": 2
+    },
+    {
+      "palace": "巽",
+      "stage": 0,
+      "printedName": "巽為風",
+      "manualTopToBottom": "110110",
+      "upper": "巽",
+      "lower": "巽",
+      "actualHexNumber": 57,
+      "relationMask": 0
+    },
+    {
+      "palace": "巽",
+      "stage": 1,
+      "printedName": "風天小畜",
+      "manualTopToBottom": "110111",
+      "upper": "巽",
+      "lower": "乾",
+      "actualHexNumber": 9,
+      "relationMask": 1
+    },
+    {
+      "palace": "巽",
+      "stage": 2,
+      "printedName": "風火家人",
+      "manualTopToBottom": "110101",
+      "upper": "巽",
+      "lower": "離",
+      "actualHexNumber": 37,
+      "relationMask": 3
+    },
+    {
+      "palace": "巽",
+      "stage": 3,
+      "printedName": "風雷益",
+      "manualTopToBottom": "110001",
+      "upper": "巽",
+      "lower": "震",
+      "actualHexNumber": 42,
+      "relationMask": 7
+    },
+    {
+      "palace": "巽",
+      "stage": 4,
+      "printedName": "天雷无妄",
+      "manualTopToBottom": "111001",
+      "upper": "乾",
+      "lower": "震",
+      "actualHexNumber": 25,
+      "relationMask": 6
+    },
+    {
+      "palace": "巽",
+      "stage": 5,
+      "printedName": "火雷噬嗑",
+      "manualTopToBottom": "101001",
+      "upper": "離",
+      "lower": "震",
+      "actualHexNumber": 21,
+      "relationMask": 4
+    },
+    {
+      "palace": "巽",
+      "stage": 6,
+      "printedName": "山雷頤",
+      "manualTopToBottom": "100001",
+      "upper": "艮",
+      "lower": "震",
+      "actualHexNumber": 27,
+      "relationMask": 5
+    },
+    {
+      "palace": "巽",
+      "stage": 7,
+      "printedName": "山風蠱",
+      "manualTopToBottom": "100110",
+      "upper": "艮",
+      "lower": "巽",
+      "actualHexNumber": 18,
+      "relationMask": 2
+    },
+    {
+      "palace": "震",
+      "stage": 0,
+      "printedName": "震為雷",
+      "manualTopToBottom": "001001",
+      "upper": "震",
+      "lower": "震",
+      "actualHexNumber": 51,
+      "relationMask": 0
+    },
+    {
+      "palace": "震",
+      "stage": 1,
+      "printedName": "雷地豫",
+      "manualTopToBottom": "001000",
+      "upper": "震",
+      "lower": "坤",
+      "actualHexNumber": 16,
+      "relationMask": 1
+    },
+    {
+      "palace": "震",
+      "stage": 2,
+      "printedName": "雷水解",
+      "manualTopToBottom": "001010",
+      "upper": "震",
+      "lower": "坎",
+      "actualHexNumber": 40,
+      "relationMask": 3
+    },
+    {
+      "palace": "震",
+      "stage": 3,
+      "printedName": "雷風恒",
+      "manualTopToBottom": "001110",
+      "upper": "震",
+      "lower": "巽",
+      "actualHexNumber": 32,
+      "relationMask": 7
+    },
+    {
+      "palace": "震",
+      "stage": 4,
+      "printedName": "地風升",
+      "manualTopToBottom": "000110",
+      "upper": "坤",
+      "lower": "巽",
+      "actualHexNumber": 46,
+      "relationMask": 6
+    },
+    {
+      "palace": "震",
+      "stage": 5,
+      "printedName": "水風井",
+      "manualTopToBottom": "010110",
+      "upper": "坎",
+      "lower": "巽",
+      "actualHexNumber": 48,
+      "relationMask": 4
+    },
+    {
+      "palace": "震",
+      "stage": 6,
+      "printedName": "澤風大過",
+      "manualTopToBottom": "011110",
+      "upper": "兌",
+      "lower": "巽",
+      "actualHexNumber": 28,
+      "relationMask": 5
+    },
+    {
+      "palace": "震",
+      "stage": 7,
+      "printedName": "澤雷隨",
+      "manualTopToBottom": "011001",
+      "upper": "兌",
+      "lower": "震",
+      "actualHexNumber": 17,
+      "relationMask": 2
+    }
+  ],
+  "engineSHA256": "39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6",
+  "calendarAdapter": null,
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false
+}

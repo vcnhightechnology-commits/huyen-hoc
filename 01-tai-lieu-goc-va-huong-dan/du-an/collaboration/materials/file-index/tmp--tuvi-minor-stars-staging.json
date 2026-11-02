@@ -1,0 +1,509 @@
+{
+  "scope": "tmp/tuvi-minor-stars-staging",
+  "files": [
+    {
+      "file": "tmp/tuvi-minor-stars-staging/CURRENT_CANVAS_INVENTORY.json",
+      "bytes": 67980,
+      "sha256": "bd3752cc53ea553f18425d15723c627405c8d14af2f2ecd4695c8600cd75523e",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bd3752cc53ea553f18425d15723c627405c8d14af2f2ecd4695c8600cd75523e",
+      "httpRange": {
+        "offset": 201914181,
+        "compressedBytes": 6364,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/FIRST_PASS_READINGS.json",
+      "bytes": 7493,
+      "sha256": "1b1159d6dadf73cfa4051ffdd05abb5069fba8658132e543ab0bb99fd95eab02",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1b1159d6dadf73cfa4051ffdd05abb5069fba8658132e543ab0bb99fd95eab02",
+      "httpRange": {
+        "offset": 347912597,
+        "compressedBytes": 2517,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/MANUAL_READINGS.json",
+      "bytes": 1440,
+      "sha256": "a3f9934e0a5f76b5e025331715a2ae4582c0d089690efb88fd32d653fa2c7038",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a3f9934e0a5f76b5e025331715a2ae4582c0d089690efb88fd32d653fa2c7038",
+      "httpRange": {
+        "offset": 209883113,
+        "compressedBytes": 795,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/QA_IMAGES.json",
+      "bytes": 1301,
+      "sha256": "ec7e1005a253a041ae668c05bde988d0757d2fc0a227f06095d6b129bbf39ef4",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ec7e1005a253a041ae668c05bde988d0757d2fc0a227f06095d6b129bbf39ef4",
+      "httpRange": {
+        "offset": 91625413,
+        "compressedBytes": 433,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/REFERENCE_RESULTS.json",
+      "bytes": 552346,
+      "sha256": "b81853e9066333b93a772d5a280027fab119aa9143884d24599f646095bc979c",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/b81853e9066333b93a772d5a280027fab119aa9143884d24599f646095bc979c",
+      "httpRange": {
+        "offset": 169628853,
+        "compressedBytes": 26126,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/REPORT.md",
+      "bytes": 5408,
+      "sha256": "17d5b8af113278284e12c750217c03a5d4480cbe55e3b2a556af22d03cc0acf8",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/17d5b8af113278284e12c750217c03a5d4480cbe55e3b2a556af22d03cc0acf8",
+      "httpRange": {
+        "offset": 316828701,
+        "compressedBytes": 3016,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/SOURCE_DISPOSITIONS.json",
+      "bytes": 1780,
+      "sha256": "6e1b4b8140d79c3d20db41beddcb5bc17a0f5f224b955230fa212d2cf8fa598b",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6e1b4b8140d79c3d20db41beddcb5bc17a0f5f224b955230fa212d2cf8fa598b",
+      "httpRange": {
+        "offset": 273171915,
+        "compressedBytes": 504,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/SOURCE_GEOMETRY.json",
+      "bytes": 1332,
+      "sha256": "694504aa6763af6396e093a423d3c045868429fe8eb59f707d06b33c333d88e3",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/694504aa6763af6396e093a423d3c045868429fe8eb59f707d06b33c333d88e3",
+      "httpRange": {
+        "offset": 236706670,
+        "compressedBytes": 696,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/SOURCE_MANIFEST.json",
+      "bytes": 26304,
+      "sha256": "7d6eefd70c3089e7dfbfac83e390fd192e86fea99ac0503dc4888891060bc2ee",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7d6eefd70c3089e7dfbfac83e390fd192e86fea99ac0503dc4888891060bc2ee",
+      "httpRange": {
+        "offset": 52482756,
+        "compressedBytes": 3710,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/TARGETED_POSITIVE_RESULTS.json",
+      "bytes": 4294,
+      "sha256": "81ea84d1aba9380a9d57dd4f3fda744bb4258439f01e574ccfa1e1dae072ab90",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/81ea84d1aba9380a9d57dd4f3fda744bb4258439f01e574ccfa1e1dae072ab90",
+      "httpRange": {
+        "offset": 83325596,
+        "compressedBytes": 1172,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/WINDOWS_TRUST_REQUESTS.json",
+      "bytes": 25879,
+      "sha256": "7cad148dfef5d317429efc34ee99bc925b1865d169d09630d5571eb8ffbd9c2e",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7cad148dfef5d317429efc34ee99bc925b1865d169d09630d5571eb8ffbd9c2e",
+      "httpRange": {
+        "offset": 46273965,
+        "compressedBytes": 3491,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/WORK_STATE.json",
+      "bytes": 3543,
+      "sha256": "6c6558391cc3464b7925cfd0d2eca2c343e347dbed745e7c23be2e96a21ab9b5",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6c6558391cc3464b7925cfd0d2eca2c343e347dbed745e7c23be2e96a21ab9b5",
+      "httpRange": {
+        "offset": 264101818,
+        "compressedBytes": 2129,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/build-flanking.py",
+      "bytes": 4676,
+      "sha256": "5a96758c3a55f1936984acd69085d3e421b2be759cb3283582f47011f04f35b4",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5a96758c3a55f1936984acd69085d3e421b2be759cb3283582f47011f04f35b4",
+      "httpRange": {
+        "offset": 245511556,
+        "compressedBytes": 2422,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/canvas-031-native-trust.jpg",
+      "bytes": 537237,
+      "sha256": "3f0d9ab15324c7fbab0b7bfda9869d89d982e619ddc38fd9d5479812b3c8e199",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/3f0d9ab15324c7fbab0b7bfda9869d89d982e619ddc38fd9d5479812b3c8e199",
+      "httpRange": {
+        "offset": 72176652,
+        "compressedBytes": 536049,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/canvas-032-native-trust.jpg",
+      "bytes": 544340,
+      "sha256": "00b29025cd290b100ec399ef6ded8f2d0ddc2ef070fda0250b75870d92c6629c",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/00b29025cd290b100ec399ef6ded8f2d0ddc2ef070fda0250b75870d92c6629c",
+      "httpRange": {
+        "offset": 7584495,
+        "compressedBytes": 543153,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/canvas-033-native-trust.jpg",
+      "bytes": 552097,
+      "sha256": "eb56d5b10784c3cd0dda88b885bc6c1884fe4d19cca10724311b597e6b4884da",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/eb56d5b10784c3cd0dda88b885bc6c1884fe4d19cca10724311b597e6b4884da",
+      "httpRange": {
+        "offset": 69571657,
+        "compressedBytes": 550953,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/canvas-034-native-trust.jpg",
+      "bytes": 558680,
+      "sha256": "6c6aa3b5768dbc8eb94eba4495fc83e232dc45ea86e322bf954db5f8689eabe9",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6c6aa3b5768dbc8eb94eba4495fc83e232dc45ea86e322bf954db5f8689eabe9",
+      "httpRange": {
+        "offset": 264437228,
+        "compressedBytes": 557577,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/canvas-035-native-trust.jpg",
+      "bytes": 561349,
+      "sha256": "57fc153ea72fe0c1ff39c51502742be2b0c23ca028a565315bd11734e5735f98",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/57fc153ea72fe0c1ff39c51502742be2b0c23ca028a565315bd11734e5735f98",
+      "httpRange": {
+        "offset": 225283423,
+        "compressedBytes": 560321,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/canvas-036-native-trust.jpg",
+      "bytes": 538645,
+      "sha256": "f3208be856cada049fb895d784384abb04a96203fc77fe0e35aa8a5b297c34c6",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f3208be856cada049fb895d784384abb04a96203fc77fe0e35aa8a5b297c34c6",
+      "httpRange": {
+        "offset": 173188283,
+        "compressedBytes": 537507,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/canvas-037-native-trust.jpg",
+      "bytes": 528631,
+      "sha256": "531162a8b539372c9076133e6c4da3229c0c52bfe68a7a2eb378b98e97c324a7",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/531162a8b539372c9076133e6c4da3229c0c52bfe68a7a2eb378b98e97c324a7",
+      "httpRange": {
+        "offset": 119836668,
+        "compressedBytes": 527444,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/canvas-038-native-trust.jpg",
+      "bytes": 504368,
+      "sha256": "c9c8e385a45c70ea68e93284e28fed9577f6e83f93b6b77b7a55fe92b85868b0",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c9c8e385a45c70ea68e93284e28fed9577f6e83f93b6b77b7a55fe92b85868b0",
+      "httpRange": {
+        "offset": 398614549,
+        "compressedBytes": 503065,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/canvas-039-juan2-preface-native.png",
+      "bytes": 1551206,
+      "sha256": "a16f7aec861be58c281257f5551c62633654c97729b253cbad77c7c01c0613ef",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a16f7aec861be58c281257f5551c62633654c97729b253cbad77c7c01c0613ef",
+      "httpRange": {
+        "offset": 159649502,
+        "compressedBytes": 1551676,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/canvas-039-native-trust.jpg",
+      "bytes": 527741,
+      "sha256": "54fd5839954b0382dbbe7e78826a7501789a1e5aa7b298ddbb67bc72819d557c",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/54fd5839954b0382dbbe7e78826a7501789a1e5aa7b298ddbb67bc72819d557c",
+      "httpRange": {
+        "offset": 143626035,
+        "compressedBytes": 526492,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/canvas-040-flank-definition-native.png",
+      "bytes": 686297,
+      "sha256": "e3f90c2554b29bb50aac878588ccdc51dd39465df6d05e1c69a197967be2223a",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e3f90c2554b29bb50aac878588ccdc51dd39465df6d05e1c69a197967be2223a",
+      "httpRange": {
+        "offset": 325912302,
+        "compressedBytes": 686507,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/canvas-040-geometry-contrasts-native.png",
+      "bytes": 1606247,
+      "sha256": "40d9adddcf8fc251abf0389e4b6f0f8ad1e4c43328501cbe9f01af24ba1cbb45",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/40d9adddcf8fc251abf0389e4b6f0f8ad1e4c43328501cbe9f01af24ba1cbb45",
+      "httpRange": {
+        "offset": 141271113,
+        "compressedBytes": 1606727,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/canvas-040-native-trust.jpg",
+      "bytes": 545457,
+      "sha256": "4b1f8458e917f1f873999476aebddefc67d8ed09d29ecb1d5d9443ab2d7ee2ed",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4b1f8458e917f1f873999476aebddefc67d8ed09d29ecb1d5d9443ab2d7ee2ed",
+      "httpRange": {
+        "offset": 280817721,
+        "compressedBytes": 544203,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/canvas-041-native-trust.jpg",
+      "bytes": 542975,
+      "sha256": "10f12faf27e6b0e3973a57ec1ddfb4ca53267408c02459252406c8e2da3c2957",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/10f12faf27e6b0e3973a57ec1ddfb4ca53267408c02459252406c8e2da3c2957",
+      "httpRange": {
+        "offset": 232766323,
+        "compressedBytes": 541769,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/canvas-042-native-trust.jpg",
+      "bytes": 534057,
+      "sha256": "2d17e9587f86396f50d40c36ebd41776d46a9f40292f01e139ceb1e8b67758cc",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2d17e9587f86396f50d40c36ebd41776d46a9f40292f01e139ceb1e8b67758cc",
+      "httpRange": {
+        "offset": 210417341,
+        "compressedBytes": 532819,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/canvas-043-native-trust.jpg",
+      "bytes": 540745,
+      "sha256": "26637b1ce2fc3d00af2dd9981190fd7ec9736950aa4b1c8fc448a7b0723880fa",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/26637b1ce2fc3d00af2dd9981190fd7ec9736950aa4b1c8fc448a7b0723880fa",
+      "httpRange": {
+        "offset": 135481356,
+        "compressedBytes": 539500,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/canvas-044-native-trust.jpg",
+      "bytes": 525211,
+      "sha256": "a02fec478d8b4a5f5e6b2fec3192031d67244859585fcae99030a77bfc113084",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a02fec478d8b4a5f5e6b2fec3192031d67244859585fcae99030a77bfc113084",
+      "httpRange": {
+        "offset": 145628014,
+        "compressedBytes": 523962,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/canvas-045-native-trust.jpg",
+      "bytes": 521641,
+      "sha256": "567dfd0d13c0ef1230ad0484c07c5bd2f10f820c410be0625a712d1460a5a323",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/567dfd0d13c0ef1230ad0484c07c5bd2f10f820c410be0625a712d1460a5a323",
+      "httpRange": {
+        "offset": 159683841,
+        "compressedBytes": 520282,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/canvas-046-native-trust.jpg",
+      "bytes": 542919,
+      "sha256": "53c6d3b9500ad25aefc4dcf2120a1019987e30b7a159f56b4a58d73a2814a2a0",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/53c6d3b9500ad25aefc4dcf2120a1019987e30b7a159f56b4a58d73a2814a2a0",
+      "httpRange": {
+        "offset": 123289776,
+        "compressedBytes": 541759,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/canvas-047-native-trust.jpg",
+      "bytes": 526936,
+      "sha256": "8c32a74bfc1c06b92f4c96b3a97360ceb7e88e457e9ef66b2ccfc7ec78e8a2fa",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8c32a74bfc1c06b92f4c96b3a97360ceb7e88e457e9ef66b2ccfc7ec78e8a2fa",
+      "httpRange": {
+        "offset": 276277477,
+        "compressedBytes": 525643,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/canvas-048-native-trust.jpg",
+      "bytes": 519627,
+      "sha256": "5b06fd4a9076d62614e95dcd76f14e8eaecdfe8dd585567c2ab15527fea72594",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5b06fd4a9076d62614e95dcd76f14e8eaecdfe8dd585567c2ab15527fea72594",
+      "httpRange": {
+        "offset": 250706316,
+        "compressedBytes": 518291,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/fetch.ps1",
+      "bytes": 1862,
+      "sha256": "57fc1643d586da9999a301b59275a52cbcfb8c992fdafa7190936b6a239cacea",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/57fc1643d586da9999a301b59275a52cbcfb8c992fdafa7190936b6a239cacea",
+      "httpRange": {
+        "offset": 225843846,
+        "compressedBytes": 997,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/finalize-stage.py",
+      "bytes": 8788,
+      "sha256": "920dd539d922ce93b9fdcf4dd77e99bde48a77eb1664398ee8b4a6133e220c7b",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/920dd539d922ce93b9fdcf4dd77e99bde48a77eb1664398ee8b4a6133e220c7b",
+      "httpRange": {
+        "offset": 316472559,
+        "compressedBytes": 4821,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/promote.py",
+      "bytes": 5826,
+      "sha256": "11b953b3f3d3478f8138da4848660a9f27f7e7d5145f967e3ccce3471a25de1a",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/11b953b3f3d3478f8138da4848660a9f27f7e7d5145f967e3ccce3471a25de1a",
+      "httpRange": {
+        "offset": 238186728,
+        "compressedBytes": 2660,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/record-readings.py",
+      "bytes": 4516,
+      "sha256": "14ff6f83461a13ff4bde5880c61da97cbe29e7f48cd109cc8158970d4e8b0eef",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/14ff6f83461a13ff4bde5880c61da97cbe29e7f48cd109cc8158970d4e8b0eef",
+      "httpRange": {
+        "offset": 279660847,
+        "compressedBytes": 2620,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/snapshot.py",
+      "bytes": 1277,
+      "sha256": "ac4afdb41abfbdba1afa9db3b4f64afe38a711a41be18ae19251237db7f8795c",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/ac4afdb41abfbdba1afa9db3b4f64afe38a711a41be18ae19251237db7f8795c",
+      "httpRange": {
+        "offset": 283397212,
+        "compressedBytes": 662,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/source-flanking.mjs",
+      "bytes": 1811,
+      "sha256": "99ce063808e79529df72a48005f019dc699e2bfaa849cefa8cfe4d5ee07b2761",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/99ce063808e79529df72a48005f019dc699e2bfaa849cefa8cfe4d5ee07b2761",
+      "httpRange": {
+        "offset": 39832177,
+        "compressedBytes": 878,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/test-flanking.mjs",
+      "bytes": 8314,
+      "sha256": "2a3e8eb9ae83aa07da3c55326e076e70d4a1e1cf7adffae2eb81540114017301",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2a3e8eb9ae83aa07da3c55326e076e70d4a1e1cf7adffae2eb81540114017301",
+      "httpRange": {
+        "offset": 184441758,
+        "compressedBytes": 3539,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-minor-stars-staging/test-targeted-positives.mjs",
+      "bytes": 2935,
+      "sha256": "a9e4597559111a0b46f900d639ee5568e13d3a4590c869f5dca00af8e4ce31a1",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a9e4597559111a0b46f900d639ee5568e13d3a4590c869f5dca00af8e4ce31a1",
+      "httpRange": {
+        "offset": 256495829,
+        "compressedBytes": 1551,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

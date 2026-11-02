@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-29",
+  "successfulHTTPBodies": 13,
+  "successfulHTTP200Bodies": 13,
+  "knownFailedRequests": 2,
+  "newFacsimilePositions": 2,
+  "newOriginalContainers": 0,
+  "newP08SourcePositions": 0,
+  "newIndependentP08Editions": 0,
+  "relatedInstitutionalWorkWitnessGroups": 1,
+  "retainedFiles": [
+    {
+      "file": "v53/research/home-month-gods/MANUAL_MONTH_GOD_TABLES.json",
+      "bytes": 19506,
+      "sha256": "ca92e68584288d53ec9719a87686ca68cd1aaba187f8be10ae6af7d26c2d4f6c"
+    },
+    {
+      "file": "v53/research/home-month-gods/source-month-gods.mjs",
+      "bytes": 1832,
+      "sha256": "01ffdf297a9ef50e16b32785933f7f4bcb9fa7541611d321b211bc2d30f634f1"
+    },
+    {
+      "file": "v53/mountains.js",
+      "bytes": 1605,
+      "sha256": "9d91258c42295f1f4d4f0163fafa71ab145c957f4f8527ea10e445fc66878d01"
+    },
+    {
+      "file": "v53/engine.js",
+      "bytes": 42033,
+      "sha256": "39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6"
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p146.jpg",
+      "bytes": 796025,
+      "sha256": "6e2dae475bf2e2fd6706b56e1a1e4d5de808c2e4848168ffa1bfbf4918be2b40"
+    }
+  ],
+  "failedRequests": [
+    "WASEDA_TRANSPORT_FAILURE.json",
+    "SNU_TRANSPORT_FAILURE.json"
+  ],
+  "sourceScope": "ITKC institutional facsimile/readable text of another work; WSsamewording not independent proof; SNUcatalogue metadata seen through web with local EOF, not matched copy."
+}

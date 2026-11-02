@@ -1,0 +1,1961 @@
+{
+  "date": "2026-10-29",
+  "batchExecutedAt": "2026-10-29T03:00:37.719Z",
+  "freezeSHA256": "187aa99edf7e575c842552a87b5728e2fe31ebe989cc735097fe4e68ea24f427",
+  "scriptSHA256": "2b73f7a56ceed1e79881b20450c7e5209e44a8428c8782c7b44748cf26be5aa8",
+  "engineSHA256": "39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6",
+  "relationsSHA256": "a1599a0ddbe716f02111e56f5da82943bd2878356fc3959a411fbffc8bd8e6d0",
+  "lunarLibrarySHA256": "76e490b74e9913ed94b49689b90abc688ed1e2b11456312b3eb081ec63cf2fbe",
+  "pairs": [
+    {
+      "caseID": "han-weigong",
+      "rootRole": "year",
+      "targetRole": "month",
+      "rootPillar": "戊申",
+      "targetPillar": "庚申",
+      "actualHHCTenGod": "Thực Thần",
+      "actualLunarTenGod": "食神",
+      "sameBranch": true,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "戊申",
+        "expectedDerivedPillar": "庚申",
+        "targetPillar": "庚申",
+        "coordinateMatches": true,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": true
+    },
+    {
+      "caseID": "han-weigong",
+      "rootRole": "year",
+      "targetRole": "day",
+      "rootPillar": "戊申",
+      "targetPillar": "庚辰",
+      "actualHHCTenGod": "Thực Thần",
+      "actualLunarTenGod": "食神",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "戊申",
+        "expectedDerivedPillar": "庚申",
+        "targetPillar": "庚辰",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "han-weigong",
+      "rootRole": "year",
+      "targetRole": "hour",
+      "rootPillar": "戊申",
+      "targetPillar": "庚辰",
+      "actualHHCTenGod": "Thực Thần",
+      "actualLunarTenGod": "食神",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "戊申",
+        "expectedDerivedPillar": "庚申",
+        "targetPillar": "庚辰",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "han-weigong",
+      "rootRole": "month",
+      "targetRole": "year",
+      "rootPillar": "庚申",
+      "targetPillar": "戊申",
+      "actualHHCTenGod": "Thiên Ấn",
+      "actualLunarTenGod": "偏印",
+      "sameBranch": true,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "庚申",
+        "expectedDerivedPillar": "壬申",
+        "targetPillar": "戊申",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "han-weigong",
+      "rootRole": "month",
+      "targetRole": "day",
+      "rootPillar": "庚申",
+      "targetPillar": "庚辰",
+      "actualHHCTenGod": "Tỷ Kiên",
+      "actualLunarTenGod": "比肩",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "庚申",
+        "expectedDerivedPillar": "壬申",
+        "targetPillar": "庚辰",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "han-weigong",
+      "rootRole": "month",
+      "targetRole": "hour",
+      "rootPillar": "庚申",
+      "targetPillar": "庚辰",
+      "actualHHCTenGod": "Tỷ Kiên",
+      "actualLunarTenGod": "比肩",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "庚申",
+        "expectedDerivedPillar": "壬申",
+        "targetPillar": "庚辰",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "han-weigong",
+      "rootRole": "day",
+      "targetRole": "year",
+      "rootPillar": "庚辰",
+      "targetPillar": "戊申",
+      "actualHHCTenGod": "Thiên Ấn",
+      "actualLunarTenGod": "偏印",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "庚辰",
+        "expectedDerivedPillar": "壬辰",
+        "targetPillar": "戊申",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "han-weigong",
+      "rootRole": "day",
+      "targetRole": "month",
+      "rootPillar": "庚辰",
+      "targetPillar": "庚申",
+      "actualHHCTenGod": "Tỷ Kiên",
+      "actualLunarTenGod": "比肩",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "庚辰",
+        "expectedDerivedPillar": "壬辰",
+        "targetPillar": "庚申",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "han-weigong",
+      "rootRole": "day",
+      "targetRole": "hour",
+      "rootPillar": "庚辰",
+      "targetPillar": "庚辰",
+      "actualHHCTenGod": "Tỷ Kiên",
+      "actualLunarTenGod": "比肩",
+      "sameBranch": true,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "庚辰",
+        "expectedDerivedPillar": "壬辰",
+        "targetPillar": "庚辰",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "han-weigong",
+      "rootRole": "hour",
+      "targetRole": "year",
+      "rootPillar": "庚辰",
+      "targetPillar": "戊申",
+      "actualHHCTenGod": "Thiên Ấn",
+      "actualLunarTenGod": "偏印",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "庚辰",
+        "expectedDerivedPillar": "壬辰",
+        "targetPillar": "戊申",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "han-weigong",
+      "rootRole": "hour",
+      "targetRole": "month",
+      "rootPillar": "庚辰",
+      "targetPillar": "庚申",
+      "actualHHCTenGod": "Tỷ Kiên",
+      "actualLunarTenGod": "比肩",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "庚辰",
+        "expectedDerivedPillar": "壬辰",
+        "targetPillar": "庚申",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "han-weigong",
+      "rootRole": "hour",
+      "targetRole": "day",
+      "rootPillar": "庚辰",
+      "targetPillar": "庚辰",
+      "actualHHCTenGod": "Tỷ Kiên",
+      "actualLunarTenGod": "比肩",
+      "sameBranch": true,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "庚辰",
+        "expectedDerivedPillar": "壬辰",
+        "targetPillar": "庚辰",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "song-qinhui",
+      "rootRole": "year",
+      "targetRole": "month",
+      "rootPillar": "庚午",
+      "targetPillar": "己丑",
+      "actualHHCTenGod": "Chính Ấn",
+      "actualLunarTenGod": "正印",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "庚午",
+        "expectedDerivedPillar": "壬午",
+        "targetPillar": "己丑",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "song-qinhui",
+      "rootRole": "year",
+      "targetRole": "day",
+      "rootPillar": "庚午",
+      "targetPillar": "乙卯",
+      "actualHHCTenGod": "Chính Tài",
+      "actualLunarTenGod": "正财",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "庚午",
+        "expectedDerivedPillar": "壬午",
+        "targetPillar": "乙卯",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "song-qinhui",
+      "rootRole": "year",
+      "targetRole": "hour",
+      "rootPillar": "庚午",
+      "targetPillar": "壬午",
+      "actualHHCTenGod": "Thực Thần",
+      "actualLunarTenGod": "食神",
+      "sameBranch": true,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "庚午",
+        "expectedDerivedPillar": "壬午",
+        "targetPillar": "壬午",
+        "coordinateMatches": true,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": true
+    },
+    {
+      "caseID": "song-qinhui",
+      "rootRole": "month",
+      "targetRole": "year",
+      "rootPillar": "己丑",
+      "targetPillar": "庚午",
+      "actualHHCTenGod": "Thương Quan",
+      "actualLunarTenGod": "伤官",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "己丑",
+        "expectedDerivedPillar": "辛丑",
+        "targetPillar": "庚午",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "song-qinhui",
+      "rootRole": "month",
+      "targetRole": "day",
+      "rootPillar": "己丑",
+      "targetPillar": "乙卯",
+      "actualHHCTenGod": "Thất Sát",
+      "actualLunarTenGod": "七杀",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "己丑",
+        "expectedDerivedPillar": "辛丑",
+        "targetPillar": "乙卯",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "song-qinhui",
+      "rootRole": "month",
+      "targetRole": "hour",
+      "rootPillar": "己丑",
+      "targetPillar": "壬午",
+      "actualHHCTenGod": "Chính Tài",
+      "actualLunarTenGod": "正财",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "己丑",
+        "expectedDerivedPillar": "辛丑",
+        "targetPillar": "壬午",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "song-qinhui",
+      "rootRole": "day",
+      "targetRole": "year",
+      "rootPillar": "乙卯",
+      "targetPillar": "庚午",
+      "actualHHCTenGod": "Chính Quan",
+      "actualLunarTenGod": "正官",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "乙卯",
+        "expectedDerivedPillar": "丁卯",
+        "targetPillar": "庚午",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "song-qinhui",
+      "rootRole": "day",
+      "targetRole": "month",
+      "rootPillar": "乙卯",
+      "targetPillar": "己丑",
+      "actualHHCTenGod": "Thiên Tài",
+      "actualLunarTenGod": "偏财",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "乙卯",
+        "expectedDerivedPillar": "丁卯",
+        "targetPillar": "己丑",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "song-qinhui",
+      "rootRole": "day",
+      "targetRole": "hour",
+      "rootPillar": "乙卯",
+      "targetPillar": "壬午",
+      "actualHHCTenGod": "Chính Ấn",
+      "actualLunarTenGod": "正印",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "乙卯",
+        "expectedDerivedPillar": "丁卯",
+        "targetPillar": "壬午",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "song-qinhui",
+      "rootRole": "hour",
+      "targetRole": "year",
+      "rootPillar": "壬午",
+      "targetPillar": "庚午",
+      "actualHHCTenGod": "Thiên Ấn",
+      "actualLunarTenGod": "偏印",
+      "sameBranch": true,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "壬午",
+        "expectedDerivedPillar": "甲午",
+        "targetPillar": "庚午",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "song-qinhui",
+      "rootRole": "hour",
+      "targetRole": "month",
+      "rootPillar": "壬午",
+      "targetPillar": "己丑",
+      "actualHHCTenGod": "Chính Quan",
+      "actualLunarTenGod": "正官",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "壬午",
+        "expectedDerivedPillar": "甲午",
+        "targetPillar": "己丑",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "song-qinhui",
+      "rootRole": "hour",
+      "targetRole": "day",
+      "rootPillar": "壬午",
+      "targetPillar": "乙卯",
+      "actualHHCTenGod": "Thương Quan",
+      "actualLunarTenGod": "伤官",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "壬午",
+        "expectedDerivedPillar": "甲午",
+        "targetPillar": "乙卯",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "ming-wangchonggu",
+      "rootRole": "year",
+      "targetRole": "month",
+      "rootPillar": "乙亥",
+      "targetPillar": "辛巳",
+      "actualHHCTenGod": "Thất Sát",
+      "actualLunarTenGod": "七杀",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "乙亥",
+        "expectedDerivedPillar": "丁亥",
+        "targetPillar": "辛巳",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "ming-wangchonggu",
+      "rootRole": "year",
+      "targetRole": "day",
+      "rootPillar": "乙亥",
+      "targetPillar": "戊申",
+      "actualHHCTenGod": "Chính Tài",
+      "actualLunarTenGod": "正财",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "乙亥",
+        "expectedDerivedPillar": "丁亥",
+        "targetPillar": "戊申",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "ming-wangchonggu",
+      "rootRole": "year",
+      "targetRole": "hour",
+      "rootPillar": "乙亥",
+      "targetPillar": "庚申",
+      "actualHHCTenGod": "Chính Quan",
+      "actualLunarTenGod": "正官",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "乙亥",
+        "expectedDerivedPillar": "丁亥",
+        "targetPillar": "庚申",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "ming-wangchonggu",
+      "rootRole": "month",
+      "targetRole": "year",
+      "rootPillar": "辛巳",
+      "targetPillar": "乙亥",
+      "actualHHCTenGod": "Thiên Tài",
+      "actualLunarTenGod": "偏财",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "辛巳",
+        "expectedDerivedPillar": "癸巳",
+        "targetPillar": "乙亥",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "ming-wangchonggu",
+      "rootRole": "month",
+      "targetRole": "day",
+      "rootPillar": "辛巳",
+      "targetPillar": "戊申",
+      "actualHHCTenGod": "Chính Ấn",
+      "actualLunarTenGod": "正印",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "辛巳",
+        "expectedDerivedPillar": "癸巳",
+        "targetPillar": "戊申",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "ming-wangchonggu",
+      "rootRole": "month",
+      "targetRole": "hour",
+      "rootPillar": "辛巳",
+      "targetPillar": "庚申",
+      "actualHHCTenGod": "Kiếp Tài",
+      "actualLunarTenGod": "劫财",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "辛巳",
+        "expectedDerivedPillar": "癸巳",
+        "targetPillar": "庚申",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "ming-wangchonggu",
+      "rootRole": "day",
+      "targetRole": "year",
+      "rootPillar": "戊申",
+      "targetPillar": "乙亥",
+      "actualHHCTenGod": "Chính Quan",
+      "actualLunarTenGod": "正官",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "戊申",
+        "expectedDerivedPillar": "庚申",
+        "targetPillar": "乙亥",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "ming-wangchonggu",
+      "rootRole": "day",
+      "targetRole": "month",
+      "rootPillar": "戊申",
+      "targetPillar": "辛巳",
+      "actualHHCTenGod": "Thương Quan",
+      "actualLunarTenGod": "伤官",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "戊申",
+        "expectedDerivedPillar": "庚申",
+        "targetPillar": "辛巳",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "ming-wangchonggu",
+      "rootRole": "day",
+      "targetRole": "hour",
+      "rootPillar": "戊申",
+      "targetPillar": "庚申",
+      "actualHHCTenGod": "Thực Thần",
+      "actualLunarTenGod": "食神",
+      "sameBranch": true,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "戊申",
+        "expectedDerivedPillar": "庚申",
+        "targetPillar": "庚申",
+        "coordinateMatches": true,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": true
+    },
+    {
+      "caseID": "ming-wangchonggu",
+      "rootRole": "hour",
+      "targetRole": "year",
+      "rootPillar": "庚申",
+      "targetPillar": "乙亥",
+      "actualHHCTenGod": "Chính Tài",
+      "actualLunarTenGod": "正财",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "庚申",
+        "expectedDerivedPillar": "壬申",
+        "targetPillar": "乙亥",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "ming-wangchonggu",
+      "rootRole": "hour",
+      "targetRole": "month",
+      "rootPillar": "庚申",
+      "targetPillar": "辛巳",
+      "actualHHCTenGod": "Kiếp Tài",
+      "actualLunarTenGod": "劫财",
+      "sameBranch": false,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "庚申",
+        "expectedDerivedPillar": "壬申",
+        "targetPillar": "辛巳",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    },
+    {
+      "caseID": "ming-wangchonggu",
+      "rootRole": "hour",
+      "targetRole": "day",
+      "rootPillar": "庚申",
+      "targetPillar": "戊申",
+      "actualHHCTenGod": "Thiên Ấn",
+      "actualLunarTenGod": "偏印",
+      "sameBranch": true,
+      "reusedDerivedCoordinate": {
+        "system": "TMTH005-appendix-tongke-inclusive13-derived",
+        "anchorPillar": "庚申",
+        "expectedDerivedPillar": "壬申",
+        "targetPillar": "戊申",
+        "coordinateMatches": false,
+        "ordinalCounting": "inclusive13=advance12",
+        "isPrintedSixtyRowTable": false,
+        "sourceAnchorRoleEstablished": false,
+        "wholePatternEstablished": null,
+        "sourceOutcome": null,
+        "consumerApplied": false
+      },
+      "foodGodAndSameBranch": false
+    }
+  ],
+  "inspections": [
+    {
+      "caseID": "han-weigong",
+      "inputIsExplicitPrintedPillars": true,
+      "calendarBirthChart": false,
+      "actualInspection": {
+        "uncertain": false,
+        "pillars": [
+          {
+            "index": 0,
+            "branch": "Thân",
+            "visible": {
+              "name": "Mậu",
+              "god": "Thiên Ấn",
+              "element": "Thổ"
+            },
+            "hidden": [
+              {
+                "index": 6,
+                "name": "Canh",
+                "element": "Kim",
+                "god": "Tỷ Kiên",
+                "primary": true
+              },
+              {
+                "index": 8,
+                "name": "Nhâm",
+                "element": "Thủy",
+                "god": "Thực Thần",
+                "primary": false
+              },
+              {
+                "index": 4,
+                "name": "Mậu",
+                "element": "Thổ",
+                "god": "Thiên Ấn",
+                "primary": false
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "branch": "Thân",
+            "visible": {
+              "name": "Canh",
+              "god": "Tỷ Kiên",
+              "element": "Kim"
+            },
+            "hidden": [
+              {
+                "index": 6,
+                "name": "Canh",
+                "element": "Kim",
+                "god": "Tỷ Kiên",
+                "primary": true
+              },
+              {
+                "index": 8,
+                "name": "Nhâm",
+                "element": "Thủy",
+                "god": "Thực Thần",
+                "primary": false
+              },
+              {
+                "index": 4,
+                "name": "Mậu",
+                "element": "Thổ",
+                "god": "Thiên Ấn",
+                "primary": false
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "branch": "Thìn",
+            "visible": {
+              "name": "Canh",
+              "god": "Nhật chủ",
+              "element": "Kim"
+            },
+            "hidden": [
+              {
+                "index": 4,
+                "name": "Mậu",
+                "element": "Thổ",
+                "god": "Thiên Ấn",
+                "primary": true
+              },
+              {
+                "index": 1,
+                "name": "Ất",
+                "element": "Mộc",
+                "god": "Chính Tài",
+                "primary": false
+              },
+              {
+                "index": 9,
+                "name": "Quý",
+                "element": "Thủy",
+                "god": "Thương Quan",
+                "primary": false
+              }
+            ]
+          },
+          {
+            "index": 3,
+            "branch": "Thìn",
+            "visible": {
+              "name": "Canh",
+              "god": "Tỷ Kiên",
+              "element": "Kim"
+            },
+            "hidden": [
+              {
+                "index": 4,
+                "name": "Mậu",
+                "element": "Thổ",
+                "god": "Thiên Ấn",
+                "primary": true
+              },
+              {
+                "index": 1,
+                "name": "Ất",
+                "element": "Mộc",
+                "god": "Chính Tài",
+                "primary": false
+              },
+              {
+                "index": 9,
+                "name": "Quý",
+                "element": "Thủy",
+                "god": "Thương Quan",
+                "primary": false
+              }
+            ]
+          }
+        ],
+        "gods": [
+          {
+            "name": "Thiên Ấn",
+            "relation": "Sinh Nhật chủ, cùng âm dương",
+            "text": "Gợi việc học theo cách riêng, quan sát và tiếp nhận hỗ trợ gián tiếp. Không có ý khẳng định trực giác luôn đúng.",
+            "tip": "Kiểm một ý tưởng riêng bằng dữ kiện hoặc thử nghiệm nhỏ.",
+            "positions": {
+              "visible": [
+                {
+                  "pillarIndex": 0,
+                  "pillar": "năm",
+                  "stem": 4,
+                  "name": "Mậu"
+                }
+              ],
+              "hidden": [
+                {
+                  "pillarIndex": 0,
+                  "pillar": "năm",
+                  "branch": "Thân",
+                  "stem": 4,
+                  "name": "Mậu",
+                  "primary": false
+                },
+                {
+                  "pillarIndex": 1,
+                  "pillar": "tháng",
+                  "branch": "Thân",
+                  "stem": 4,
+                  "name": "Mậu",
+                  "primary": false
+                },
+                {
+                  "pillarIndex": 2,
+                  "pillar": "ngày",
+                  "branch": "Thìn",
+                  "stem": 4,
+                  "name": "Mậu",
+                  "primary": true
+                },
+                {
+                  "pillarIndex": 3,
+                  "pillar": "giờ",
+                  "branch": "Thìn",
+                  "stem": 4,
+                  "name": "Mậu",
+                  "primary": true
+                }
+              ]
+            }
+          },
+          {
+            "name": "Tỷ Kiên",
+            "relation": "Cùng hành, cùng âm dương với Nhật chủ",
+            "text": "Gợi chủ đề tự chủ, đồng đẳng và cùng góp sức. Quan sát cách bạn giữ bản sắc khi ở trong một nhóm.",
+            "tip": "Làm rõ phần việc của mình và điều có thể phối hợp.",
+            "positions": {
+              "visible": [
+                {
+                  "pillarIndex": 1,
+                  "pillar": "tháng",
+                  "stem": 6,
+                  "name": "Canh"
+                },
+                {
+                  "pillarIndex": 3,
+                  "pillar": "giờ",
+                  "stem": 6,
+                  "name": "Canh"
+                }
+              ],
+              "hidden": [
+                {
+                  "pillarIndex": 0,
+                  "pillar": "năm",
+                  "branch": "Thân",
+                  "stem": 6,
+                  "name": "Canh",
+                  "primary": true
+                },
+                {
+                  "pillarIndex": 1,
+                  "pillar": "tháng",
+                  "branch": "Thân",
+                  "stem": 6,
+                  "name": "Canh",
+                  "primary": true
+                }
+              ]
+            }
+          },
+          {
+            "name": "Thực Thần",
+            "relation": "Nhật chủ sinh ra, cùng âm dương",
+            "text": "Gợi khả năng tạo sản phẩm, nuôi dưỡng và biểu đạt đều đặn. Đây là quan hệ trong sơ đồ, không phải kết luận tài năng.",
+            "tip": "Duy trì một việc sáng tạo hoặc chăm sóc có kết quả cụ thể.",
+            "positions": {
+              "visible": [],
+              "hidden": [
+                {
+                  "pillarIndex": 0,
+                  "pillar": "năm",
+                  "branch": "Thân",
+                  "stem": 8,
+                  "name": "Nhâm",
+                  "primary": false
+                },
+                {
+                  "pillarIndex": 1,
+                  "pillar": "tháng",
+                  "branch": "Thân",
+                  "stem": 8,
+                  "name": "Nhâm",
+                  "primary": false
+                }
+              ]
+            }
+          },
+          {
+            "name": "Chính Tài",
+            "relation": "Nhật chủ khắc, khác âm dương",
+            "text": "Gợi việc tổ chức nguồn lực, giữ cam kết và chăm phần việc có thể quản lý đều đặn.",
+            "tip": "Lập một kế hoạch sử dụng thời gian hoặc nguồn lực có theo dõi.",
+            "positions": {
+              "visible": [],
+              "hidden": [
+                {
+                  "pillarIndex": 2,
+                  "pillar": "ngày",
+                  "branch": "Thìn",
+                  "stem": 1,
+                  "name": "Ất",
+                  "primary": false
+                },
+                {
+                  "pillarIndex": 3,
+                  "pillar": "giờ",
+                  "branch": "Thìn",
+                  "stem": 1,
+                  "name": "Ất",
+                  "primary": false
+                }
+              ]
+            }
+          },
+          {
+            "name": "Thương Quan",
+            "relation": "Nhật chủ sinh ra, khác âm dương",
+            "text": "Gợi cách đặt câu hỏi, biểu đạt khác biệt và cải tiến điều cũ. Tên gọi không xác định bạn gây hại cho ai.",
+            "tip": "Đưa phản biện cùng bằng chứng và một cách sửa khả thi.",
+            "positions": {
+              "visible": [],
+              "hidden": [
+                {
+                  "pillarIndex": 2,
+                  "pillar": "ngày",
+                  "branch": "Thìn",
+                  "stem": 9,
+                  "name": "Quý",
+                  "primary": false
+                },
+                {
+                  "pillarIndex": 3,
+                  "pillar": "giờ",
+                  "branch": "Thìn",
+                  "stem": 9,
+                  "name": "Quý",
+                  "primary": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    },
+    {
+      "caseID": "song-qinhui",
+      "inputIsExplicitPrintedPillars": true,
+      "calendarBirthChart": false,
+      "actualInspection": {
+        "uncertain": false,
+        "pillars": [
+          {
+            "index": 0,
+            "branch": "Ngọ",
+            "visible": {
+              "name": "Canh",
+              "god": "Chính Quan",
+              "element": "Kim"
+            },
+            "hidden": [
+              {
+                "index": 3,
+                "name": "Đinh",
+                "element": "Hỏa",
+                "god": "Thực Thần",
+                "primary": true
+              },
+              {
+                "index": 5,
+                "name": "Kỷ",
+                "element": "Thổ",
+                "god": "Thiên Tài",
+                "primary": false
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "branch": "Sửu",
+            "visible": {
+              "name": "Kỷ",
+              "god": "Thiên Tài",
+              "element": "Thổ"
+            },
+            "hidden": [
+              {
+                "index": 5,
+                "name": "Kỷ",
+                "element": "Thổ",
+                "god": "Thiên Tài",
+                "primary": true
+              },
+              {
+                "index": 9,
+                "name": "Quý",
+                "element": "Thủy",
+                "god": "Thiên Ấn",
+                "primary": false
+              },
+              {
+                "index": 7,
+                "name": "Tân",
+                "element": "Kim",
+                "god": "Thất Sát",
+                "primary": false
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "branch": "Mão",
+            "visible": {
+              "name": "Ất",
+              "god": "Nhật chủ",
+              "element": "Mộc"
+            },
+            "hidden": [
+              {
+                "index": 1,
+                "name": "Ất",
+                "element": "Mộc",
+                "god": "Tỷ Kiên",
+                "primary": true
+              }
+            ]
+          },
+          {
+            "index": 3,
+            "branch": "Ngọ",
+            "visible": {
+              "name": "Nhâm",
+              "god": "Chính Ấn",
+              "element": "Thủy"
+            },
+            "hidden": [
+              {
+                "index": 3,
+                "name": "Đinh",
+                "element": "Hỏa",
+                "god": "Thực Thần",
+                "primary": true
+              },
+              {
+                "index": 5,
+                "name": "Kỷ",
+                "element": "Thổ",
+                "god": "Thiên Tài",
+                "primary": false
+              }
+            ]
+          }
+        ],
+        "gods": [
+          {
+            "name": "Chính Quan",
+            "relation": "Khắc Nhật chủ, khác âm dương",
+            "text": "Gợi quy tắc, trách nhiệm và vai trò trong tập thể. Không đồng nghĩa sẽ có chức vụ hay thành công nghề nghiệp.",
+            "tip": "Làm rõ tiêu chuẩn và thẩm quyền khi đảm nhận việc chung.",
+            "positions": {
+              "visible": [
+                {
+                  "pillarIndex": 0,
+                  "pillar": "năm",
+                  "stem": 6,
+                  "name": "Canh"
+                }
+              ],
+              "hidden": []
+            }
+          },
+          {
+            "name": "Thực Thần",
+            "relation": "Nhật chủ sinh ra, cùng âm dương",
+            "text": "Gợi khả năng tạo sản phẩm, nuôi dưỡng và biểu đạt đều đặn. Đây là quan hệ trong sơ đồ, không phải kết luận tài năng.",
+            "tip": "Duy trì một việc sáng tạo hoặc chăm sóc có kết quả cụ thể.",
+            "positions": {
+              "visible": [],
+              "hidden": [
+                {
+                  "pillarIndex": 0,
+                  "pillar": "năm",
+                  "branch": "Ngọ",
+                  "stem": 3,
+                  "name": "Đinh",
+                  "primary": true
+                },
+                {
+                  "pillarIndex": 3,
+                  "pillar": "giờ",
+                  "branch": "Ngọ",
+                  "stem": 3,
+                  "name": "Đinh",
+                  "primary": true
+                }
+              ]
+            }
+          },
+          {
+            "name": "Thiên Tài",
+            "relation": "Nhật chủ khắc, cùng âm dương",
+            "text": "Gợi cách tiếp cận cơ hội và nguồn lực ngoài nếp thường lệ. Sự xuất hiện của nhãn này không hứa hẹn tiền bạc.",
+            "tip": "Kiểm năng lực và chi phí trước khi nhận thêm một cơ hội.",
+            "positions": {
+              "visible": [
+                {
+                  "pillarIndex": 1,
+                  "pillar": "tháng",
+                  "stem": 5,
+                  "name": "Kỷ"
+                }
+              ],
+              "hidden": [
+                {
+                  "pillarIndex": 0,
+                  "pillar": "năm",
+                  "branch": "Ngọ",
+                  "stem": 5,
+                  "name": "Kỷ",
+                  "primary": false
+                },
+                {
+                  "pillarIndex": 1,
+                  "pillar": "tháng",
+                  "branch": "Sửu",
+                  "stem": 5,
+                  "name": "Kỷ",
+                  "primary": true
+                },
+                {
+                  "pillarIndex": 3,
+                  "pillar": "giờ",
+                  "branch": "Ngọ",
+                  "stem": 5,
+                  "name": "Kỷ",
+                  "primary": false
+                }
+              ]
+            }
+          },
+          {
+            "name": "Thiên Ấn",
+            "relation": "Sinh Nhật chủ, cùng âm dương",
+            "text": "Gợi việc học theo cách riêng, quan sát và tiếp nhận hỗ trợ gián tiếp. Không có ý khẳng định trực giác luôn đúng.",
+            "tip": "Kiểm một ý tưởng riêng bằng dữ kiện hoặc thử nghiệm nhỏ.",
+            "positions": {
+              "visible": [],
+              "hidden": [
+                {
+                  "pillarIndex": 1,
+                  "pillar": "tháng",
+                  "branch": "Sửu",
+                  "stem": 9,
+                  "name": "Quý",
+                  "primary": false
+                }
+              ]
+            }
+          },
+          {
+            "name": "Thất Sát",
+            "relation": "Khắc Nhật chủ, cùng âm dương",
+            "text": "Gợi sức ép, thử thách và yêu cầu phản ứng quyết đoán. Tên gọi không dự báo tai họa hoặc bạo lực.",
+            "tip": "Chia thử thách thành bước nhỏ và xác định lúc cần hỗ trợ.",
+            "positions": {
+              "visible": [],
+              "hidden": [
+                {
+                  "pillarIndex": 1,
+                  "pillar": "tháng",
+                  "branch": "Sửu",
+                  "stem": 7,
+                  "name": "Tân",
+                  "primary": false
+                }
+              ]
+            }
+          },
+          {
+            "name": "Tỷ Kiên",
+            "relation": "Cùng hành, cùng âm dương với Nhật chủ",
+            "text": "Gợi chủ đề tự chủ, đồng đẳng và cùng góp sức. Quan sát cách bạn giữ bản sắc khi ở trong một nhóm.",
+            "tip": "Làm rõ phần việc của mình và điều có thể phối hợp.",
+            "positions": {
+              "visible": [],
+              "hidden": [
+                {
+                  "pillarIndex": 2,
+                  "pillar": "ngày",
+                  "branch": "Mão",
+                  "stem": 1,
+                  "name": "Ất",
+                  "primary": true
+                }
+              ]
+            }
+          },
+          {
+            "name": "Chính Ấn",
+            "relation": "Sinh Nhật chủ, khác âm dương",
+            "text": "Gợi học hỏi có nền tảng, sự nâng đỡ và tiếp nối kinh nghiệm. Nhãn quan hệ không xác định vai trò của người thân.",
+            "tip": "Tìm nguồn học có thể kiểm và áp dụng điều đã hiểu vào thực tế.",
+            "positions": {
+              "visible": [
+                {
+                  "pillarIndex": 3,
+                  "pillar": "giờ",
+                  "stem": 8,
+                  "name": "Nhâm"
+                }
+              ],
+              "hidden": []
+            }
+          }
+        ]
+      }
+    },
+    {
+      "caseID": "ming-wangchonggu",
+      "inputIsExplicitPrintedPillars": true,
+      "calendarBirthChart": false,
+      "actualInspection": {
+        "uncertain": false,
+        "pillars": [
+          {
+            "index": 0,
+            "branch": "Hợi",
+            "visible": {
+              "name": "Ất",
+              "god": "Chính Quan",
+              "element": "Mộc"
+            },
+            "hidden": [
+              {
+                "index": 8,
+                "name": "Nhâm",
+                "element": "Thủy",
+                "god": "Thiên Tài",
+                "primary": true
+              },
+              {
+                "index": 0,
+                "name": "Giáp",
+                "element": "Mộc",
+                "god": "Thất Sát",
+                "primary": false
+              }
+            ]
+          },
+          {
+            "index": 1,
+            "branch": "Tỵ",
+            "visible": {
+              "name": "Tân",
+              "god": "Thương Quan",
+              "element": "Kim"
+            },
+            "hidden": [
+              {
+                "index": 2,
+                "name": "Bính",
+                "element": "Hỏa",
+                "god": "Thiên Ấn",
+                "primary": true
+              },
+              {
+                "index": 6,
+                "name": "Canh",
+                "element": "Kim",
+                "god": "Thực Thần",
+                "primary": false
+              },
+              {
+                "index": 4,
+                "name": "Mậu",
+                "element": "Thổ",
+                "god": "Tỷ Kiên",
+                "primary": false
+              }
+            ]
+          },
+          {
+            "index": 2,
+            "branch": "Thân",
+            "visible": {
+              "name": "Mậu",
+              "god": "Nhật chủ",
+              "element": "Thổ"
+            },
+            "hidden": [
+              {
+                "index": 6,
+                "name": "Canh",
+                "element": "Kim",
+                "god": "Thực Thần",
+                "primary": true
+              },
+              {
+                "index": 8,
+                "name": "Nhâm",
+                "element": "Thủy",
+                "god": "Thiên Tài",
+                "primary": false
+              },
+              {
+                "index": 4,
+                "name": "Mậu",
+                "element": "Thổ",
+                "god": "Tỷ Kiên",
+                "primary": false
+              }
+            ]
+          },
+          {
+            "index": 3,
+            "branch": "Thân",
+            "visible": {
+              "name": "Canh",
+              "god": "Thực Thần",
+              "element": "Kim"
+            },
+            "hidden": [
+              {
+                "index": 6,
+                "name": "Canh",
+                "element": "Kim",
+                "god": "Thực Thần",
+                "primary": true
+              },
+              {
+                "index": 8,
+                "name": "Nhâm",
+                "element": "Thủy",
+                "god": "Thiên Tài",
+                "primary": false
+              },
+              {
+                "index": 4,
+                "name": "Mậu",
+                "element": "Thổ",
+                "god": "Tỷ Kiên",
+                "primary": false
+              }
+            ]
+          }
+        ],
+        "gods": [
+          {
+            "name": "Chính Quan",
+            "relation": "Khắc Nhật chủ, khác âm dương",
+            "text": "Gợi quy tắc, trách nhiệm và vai trò trong tập thể. Không đồng nghĩa sẽ có chức vụ hay thành công nghề nghiệp.",
+            "tip": "Làm rõ tiêu chuẩn và thẩm quyền khi đảm nhận việc chung.",
+            "positions": {
+              "visible": [
+                {
+                  "pillarIndex": 0,
+                  "pillar": "năm",
+                  "stem": 1,
+                  "name": "Ất"
+                }
+              ],
+              "hidden": []
+            }
+          },
+          {
+            "name": "Thiên Tài",
+            "relation": "Nhật chủ khắc, cùng âm dương",
+            "text": "Gợi cách tiếp cận cơ hội và nguồn lực ngoài nếp thường lệ. Sự xuất hiện của nhãn này không hứa hẹn tiền bạc.",
+            "tip": "Kiểm năng lực và chi phí trước khi nhận thêm một cơ hội.",
+            "positions": {
+              "visible": [],
+              "hidden": [
+                {
+                  "pillarIndex": 0,
+                  "pillar": "năm",
+                  "branch": "Hợi",
+                  "stem": 8,
+                  "name": "Nhâm",
+                  "primary": true
+                },
+                {
+                  "pillarIndex": 2,
+                  "pillar": "ngày",
+                  "branch": "Thân",
+                  "stem": 8,
+                  "name": "Nhâm",
+                  "primary": false
+                },
+                {
+                  "pillarIndex": 3,
+                  "pillar": "giờ",
+                  "branch": "Thân",
+                  "stem": 8,
+                  "name": "Nhâm",
+                  "primary": false
+                }
+              ]
+            }
+          },
+          {
+            "name": "Thất Sát",
+            "relation": "Khắc Nhật chủ, cùng âm dương",
+            "text": "Gợi sức ép, thử thách và yêu cầu phản ứng quyết đoán. Tên gọi không dự báo tai họa hoặc bạo lực.",
+            "tip": "Chia thử thách thành bước nhỏ và xác định lúc cần hỗ trợ.",
+            "positions": {
+              "visible": [],
+              "hidden": [
+                {
+                  "pillarIndex": 0,
+                  "pillar": "năm",
+                  "branch": "Hợi",
+                  "stem": 0,
+                  "name": "Giáp",
+                  "primary": false
+                }
+              ]
+            }
+          },
+          {
+            "name": "Thương Quan",
+            "relation": "Nhật chủ sinh ra, khác âm dương",
+            "text": "Gợi cách đặt câu hỏi, biểu đạt khác biệt và cải tiến điều cũ. Tên gọi không xác định bạn gây hại cho ai.",
+            "tip": "Đưa phản biện cùng bằng chứng và một cách sửa khả thi.",
+            "positions": {
+              "visible": [
+                {
+                  "pillarIndex": 1,
+                  "pillar": "tháng",
+                  "stem": 7,
+                  "name": "Tân"
+                }
+              ],
+              "hidden": []
+            }
+          },
+          {
+            "name": "Thiên Ấn",
+            "relation": "Sinh Nhật chủ, cùng âm dương",
+            "text": "Gợi việc học theo cách riêng, quan sát và tiếp nhận hỗ trợ gián tiếp. Không có ý khẳng định trực giác luôn đúng.",
+            "tip": "Kiểm một ý tưởng riêng bằng dữ kiện hoặc thử nghiệm nhỏ.",
+            "positions": {
+              "visible": [],
+              "hidden": [
+                {
+                  "pillarIndex": 1,
+                  "pillar": "tháng",
+                  "branch": "Tỵ",
+                  "stem": 2,
+                  "name": "Bính",
+                  "primary": true
+                }
+              ]
+            }
+          },
+          {
+            "name": "Thực Thần",
+            "relation": "Nhật chủ sinh ra, cùng âm dương",
+            "text": "Gợi khả năng tạo sản phẩm, nuôi dưỡng và biểu đạt đều đặn. Đây là quan hệ trong sơ đồ, không phải kết luận tài năng.",
+            "tip": "Duy trì một việc sáng tạo hoặc chăm sóc có kết quả cụ thể.",
+            "positions": {
+              "visible": [
+                {
+                  "pillarIndex": 3,
+                  "pillar": "giờ",
+                  "stem": 6,
+                  "name": "Canh"
+                }
+              ],
+              "hidden": [
+                {
+                  "pillarIndex": 1,
+                  "pillar": "tháng",
+                  "branch": "Tỵ",
+                  "stem": 6,
+                  "name": "Canh",
+                  "primary": false
+                },
+                {
+                  "pillarIndex": 2,
+                  "pillar": "ngày",
+                  "branch": "Thân",
+                  "stem": 6,
+                  "name": "Canh",
+                  "primary": true
+                },
+                {
+                  "pillarIndex": 3,
+                  "pillar": "giờ",
+                  "branch": "Thân",
+                  "stem": 6,
+                  "name": "Canh",
+                  "primary": true
+                }
+              ]
+            }
+          },
+          {
+            "name": "Tỷ Kiên",
+            "relation": "Cùng hành, cùng âm dương với Nhật chủ",
+            "text": "Gợi chủ đề tự chủ, đồng đẳng và cùng góp sức. Quan sát cách bạn giữ bản sắc khi ở trong một nhóm.",
+            "tip": "Làm rõ phần việc của mình và điều có thể phối hợp.",
+            "positions": {
+              "visible": [],
+              "hidden": [
+                {
+                  "pillarIndex": 1,
+                  "pillar": "tháng",
+                  "branch": "Tỵ",
+                  "stem": 4,
+                  "name": "Mậu",
+                  "primary": false
+                },
+                {
+                  "pillarIndex": 2,
+                  "pillar": "ngày",
+                  "branch": "Thân",
+                  "stem": 4,
+                  "name": "Mậu",
+                  "primary": false
+                },
+                {
+                  "pillarIndex": 3,
+                  "pillar": "giờ",
+                  "branch": "Thân",
+                  "stem": 4,
+                  "name": "Mậu",
+                  "primary": false
+                }
+              ]
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "selected": [
+    {
+      "caseID": "han-weigong",
+      "selectedEditorialRolePair": {
+        "caseID": "han-weigong",
+        "rootRole": "year",
+        "targetRole": "month",
+        "rootPillar": "戊申",
+        "targetPillar": "庚申",
+        "actualHHCTenGod": "Thực Thần",
+        "actualLunarTenGod": "食神",
+        "sameBranch": true,
+        "reusedDerivedCoordinate": {
+          "system": "TMTH005-appendix-tongke-inclusive13-derived",
+          "anchorPillar": "戊申",
+          "expectedDerivedPillar": "庚申",
+          "targetPillar": "庚申",
+          "coordinateMatches": true,
+          "ordinalCounting": "inclusive13=advance12",
+          "isPrintedSixtyRowTable": false,
+          "sourceAnchorRoleEstablished": false,
+          "wholePatternEstablished": null,
+          "sourceOutcome": null,
+          "consumerApplied": false
+        },
+        "foodGodAndSameBranch": true
+      },
+      "dayRootCounterfactual": {
+        "caseID": "han-weigong",
+        "rootRole": "day",
+        "targetRole": "month",
+        "rootPillar": "庚辰",
+        "targetPillar": "庚申",
+        "actualHHCTenGod": "Tỷ Kiên",
+        "actualLunarTenGod": "比肩",
+        "sameBranch": false,
+        "reusedDerivedCoordinate": {
+          "system": "TMTH005-appendix-tongke-inclusive13-derived",
+          "anchorPillar": "庚辰",
+          "expectedDerivedPillar": "壬辰",
+          "targetPillar": "庚申",
+          "coordinateMatches": false,
+          "ordinalCounting": "inclusive13=advance12",
+          "isPrintedSixtyRowTable": false,
+          "sourceAnchorRoleEstablished": false,
+          "wholePatternEstablished": null,
+          "sourceOutcome": null,
+          "consumerApplied": false
+        },
+        "foodGodAndSameBranch": false
+      },
+      "wholePatternEstablished": null,
+      "sourceOutcome": null,
+      "printedRolesNotExplicitlyAnnotated": true
+    },
+    {
+      "caseID": "song-qinhui",
+      "selectedEditorialRolePair": {
+        "caseID": "song-qinhui",
+        "rootRole": "year",
+        "targetRole": "hour",
+        "rootPillar": "庚午",
+        "targetPillar": "壬午",
+        "actualHHCTenGod": "Thực Thần",
+        "actualLunarTenGod": "食神",
+        "sameBranch": true,
+        "reusedDerivedCoordinate": {
+          "system": "TMTH005-appendix-tongke-inclusive13-derived",
+          "anchorPillar": "庚午",
+          "expectedDerivedPillar": "壬午",
+          "targetPillar": "壬午",
+          "coordinateMatches": true,
+          "ordinalCounting": "inclusive13=advance12",
+          "isPrintedSixtyRowTable": false,
+          "sourceAnchorRoleEstablished": false,
+          "wholePatternEstablished": null,
+          "sourceOutcome": null,
+          "consumerApplied": false
+        },
+        "foodGodAndSameBranch": true
+      },
+      "dayRootCounterfactual": {
+        "caseID": "song-qinhui",
+        "rootRole": "day",
+        "targetRole": "hour",
+        "rootPillar": "乙卯",
+        "targetPillar": "壬午",
+        "actualHHCTenGod": "Chính Ấn",
+        "actualLunarTenGod": "正印",
+        "sameBranch": false,
+        "reusedDerivedCoordinate": {
+          "system": "TMTH005-appendix-tongke-inclusive13-derived",
+          "anchorPillar": "乙卯",
+          "expectedDerivedPillar": "丁卯",
+          "targetPillar": "壬午",
+          "coordinateMatches": false,
+          "ordinalCounting": "inclusive13=advance12",
+          "isPrintedSixtyRowTable": false,
+          "sourceAnchorRoleEstablished": false,
+          "wholePatternEstablished": null,
+          "sourceOutcome": null,
+          "consumerApplied": false
+        },
+        "foodGodAndSameBranch": false
+      },
+      "wholePatternEstablished": null,
+      "sourceOutcome": null,
+      "printedRolesNotExplicitlyAnnotated": true
+    },
+    {
+      "caseID": "ming-wangchonggu",
+      "selectedEditorialRolePair": {
+        "caseID": "ming-wangchonggu",
+        "rootRole": "day",
+        "targetRole": "hour",
+        "rootPillar": "戊申",
+        "targetPillar": "庚申",
+        "actualHHCTenGod": "Thực Thần",
+        "actualLunarTenGod": "食神",
+        "sameBranch": true,
+        "reusedDerivedCoordinate": {
+          "system": "TMTH005-appendix-tongke-inclusive13-derived",
+          "anchorPillar": "戊申",
+          "expectedDerivedPillar": "庚申",
+          "targetPillar": "庚申",
+          "coordinateMatches": true,
+          "ordinalCounting": "inclusive13=advance12",
+          "isPrintedSixtyRowTable": false,
+          "sourceAnchorRoleEstablished": false,
+          "wholePatternEstablished": null,
+          "sourceOutcome": null,
+          "consumerApplied": false
+        },
+        "foodGodAndSameBranch": true
+      },
+      "dayRootCounterfactual": {
+        "caseID": "ming-wangchonggu",
+        "rootRole": "day",
+        "targetRole": "hour",
+        "rootPillar": "戊申",
+        "targetPillar": "庚申",
+        "actualHHCTenGod": "Thực Thần",
+        "actualLunarTenGod": "食神",
+        "sameBranch": true,
+        "reusedDerivedCoordinate": {
+          "system": "TMTH005-appendix-tongke-inclusive13-derived",
+          "anchorPillar": "戊申",
+          "expectedDerivedPillar": "庚申",
+          "targetPillar": "庚申",
+          "coordinateMatches": true,
+          "ordinalCounting": "inclusive13=advance12",
+          "isPrintedSixtyRowTable": false,
+          "sourceAnchorRoleEstablished": false,
+          "wholePatternEstablished": null,
+          "sourceOutcome": null,
+          "consumerApplied": false
+        },
+        "foodGodAndSameBranch": true
+      },
+      "wholePatternEstablished": null,
+      "sourceOutcome": null,
+      "printedRolesNotExplicitlyAnnotated": true
+    }
+  ],
+  "summary": {
+    "printedFourPillarCases": 3,
+    "directedRolePairs": 36,
+    "distinctStemPairs": 23,
+    "directHHCGodCalls": 36,
+    "lunarTenGodTableQueries": 36,
+    "hhcInspectCalls": 3,
+    "inspectInternalGodCallsCounted": false,
+    "selectedCandidatePairs": 3,
+    "yearRootCandidates": 2,
+    "dayRootCandidates": 1,
+    "blindDaySubstitutionsChangingCoordinate": 2,
+    "actualHHCNatalCharts": 0,
+    "actualLunarCalendarObjects": 0,
+    "actualIztroCharts": 0,
+    "newHistoricalBirthDatesEstablished": 0,
+    "wholeSourceClauseApplied": false,
+    "consumerChanged": false,
+    "runtimeBatches": 1
+  }
+}

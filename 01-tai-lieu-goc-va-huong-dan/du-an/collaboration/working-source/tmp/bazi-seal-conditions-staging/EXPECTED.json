@@ -1,0 +1,192 @@
+{
+  "cases": [
+    {
+      "id": "all-weak-no-sha",
+      "weak": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "zhengAtSeal": true,
+      "pianAtSeal": true,
+      "storage": true,
+      "strong": null,
+      "shaArrives": false,
+      "shaControlled": null,
+      "match": true
+    },
+    {
+      "id": "missing-fetal",
+      "weak": [
+        true,
+        true,
+        true,
+        true,
+        null
+      ],
+      "zhengAtSeal": true,
+      "pianAtSeal": true,
+      "storage": true,
+      "strong": false,
+      "shaArrives": false,
+      "shaControlled": null,
+      "match": null
+    },
+    {
+      "id": "one-not-weak",
+      "weak": [
+        true,
+        false,
+        true,
+        true,
+        true
+      ],
+      "zhengAtSeal": true,
+      "pianAtSeal": true,
+      "storage": true,
+      "strong": true,
+      "shaArrives": false,
+      "shaControlled": null,
+      "match": false
+    },
+    {
+      "id": "no-storage-but-strong",
+      "weak": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "zhengAtSeal": true,
+      "pianAtSeal": true,
+      "storage": false,
+      "strong": true,
+      "shaArrives": false,
+      "shaControlled": null,
+      "match": true
+    },
+    {
+      "id": "neither-storage-nor-strong",
+      "weak": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "zhengAtSeal": true,
+      "pianAtSeal": true,
+      "storage": false,
+      "strong": false,
+      "shaArrives": false,
+      "shaControlled": null,
+      "match": false
+    },
+    {
+      "id": "sha-with-control",
+      "weak": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "zhengAtSeal": true,
+      "pianAtSeal": true,
+      "storage": true,
+      "strong": false,
+      "shaArrives": true,
+      "shaControlled": true,
+      "match": true
+    },
+    {
+      "id": "sha-control-missing",
+      "weak": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "zhengAtSeal": true,
+      "pianAtSeal": true,
+      "storage": true,
+      "strong": false,
+      "shaArrives": true,
+      "shaControlled": null,
+      "match": null
+    },
+    {
+      "id": "sha-uncontrolled",
+      "weak": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "zhengAtSeal": true,
+      "pianAtSeal": true,
+      "storage": true,
+      "strong": false,
+      "shaArrives": true,
+      "shaControlled": false,
+      "match": false
+    },
+    {
+      "id": "sha-unknown-control-present",
+      "weak": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "zhengAtSeal": true,
+      "pianAtSeal": true,
+      "storage": true,
+      "strong": false,
+      "shaArrives": null,
+      "shaControlled": true,
+      "match": true
+    },
+    {
+      "id": "sha-unknown-control-missing",
+      "weak": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "zhengAtSeal": true,
+      "pianAtSeal": true,
+      "storage": true,
+      "strong": false,
+      "shaArrives": null,
+      "shaControlled": null,
+      "match": null
+    },
+    {
+      "id": "pianyin-missing",
+      "weak": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ],
+      "zhengAtSeal": true,
+      "pianAtSeal": null,
+      "storage": true,
+      "strong": true,
+      "shaArrives": false,
+      "shaControlled": null,
+      "match": null
+    }
+  ],
+  "referenceFrame": "five-source-positions-and-same-seal-declarations"
+}

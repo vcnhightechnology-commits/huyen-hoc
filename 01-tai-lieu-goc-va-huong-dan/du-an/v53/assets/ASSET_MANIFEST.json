@@ -1,0 +1,53 @@
+{
+  "operation": "Proportional downscaling and WebP encoding only; original PNG artwork retained.",
+  "assets": [
+    {
+      "name": "hero-landscape",
+      "original": "assets\\originals\\hero-landscape.png",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "originalSha256": "131708a461ecacd886ecab63437c6711ac67694e3f69223a597b5adfcdd936bc",
+      "web": "assets\\hero-landscape.webp",
+      "webSize": [
+        1024,
+        683
+      ],
+      "webBytes": 139220,
+      "webSha256": "7a8e678aa53adcfb982167c01750d51f0a7958edad98e05b4ea99c0a4f7c4775"
+    },
+    {
+      "name": "celestial-illustration",
+      "original": "assets\\originals\\celestial-illustration.png",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "originalSha256": "14b9534bfea47d672c8016ec343f26cca34ab82354e61a80c0b0700d1d7288e7",
+      "web": "assets\\celestial-illustration.webp",
+      "webSize": [
+        768,
+        512
+      ],
+      "webBytes": 25714,
+      "webSha256": "703c285fdeaabfad2f6213d862cefc81e70f5cd16acb78cc3b305a7aa371938e"
+    },
+    {
+      "name": "lotus-still-life",
+      "original": "assets\\originals\\lotus-still-life.png",
+      "originalSize": [
+        1536,
+        1024
+      ],
+      "originalSha256": "014946be7cfbf1ff1d892336d847009a7b4e0a58ee8fdcca0843b44f922e1423",
+      "web": "assets\\lotus-still-life.webp",
+      "webSize": [
+        768,
+        512
+      ],
+      "webBytes": 39128,
+      "webSha256": "f5a9bb98afa98854bc93bb8b8853597ee7846e4258de0542c90a00b8b5f8db2c"
+    }
+  ]
+}

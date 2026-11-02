@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-29",
+  "newHTTPRequests": 0,
+  "newSourcePositions": 0,
+  "expandedPositions": [
+    191,
+    192
+  ],
+  "newOriginalContainers": 0,
+  "newIndependentWitnesses": 0,
+  "containerReused": "Retained CADAL06066041 DjVu; provenance in retained REQUESTS. PNGs are decoded derivatives, not original manuscript/publisher pixels. Digital text and WYG image not treated as independent witnesses.",
+  "files": [
+    {
+      "file": "v53/research/bazi-pattern-witness/CADAL06066041.djvu",
+      "bytes": 10721582,
+      "sha256": "013ce4861680a2bf08b811050c45a45bb2d3ce9d164f7e2341d7070bd5cb2c1a"
+    },
+    {
+      "file": "v53/research/bazi-pattern-witness/REQUESTS.json",
+      "bytes": 114640,
+      "sha256": "c617333be4a210656aa8a34d45e32967fbdc3de6f37ee15053e659a6adf8cd55"
+    },
+    {
+      "file": "v53/research/bazi-food-source/p191.png",
+      "bytes": 234268,
+      "sha256": "1c8a56bb14b7ba0c49b488120296356241643d5e44368904053bc3e913389540"
+    },
+    {
+      "file": "v53/research/bazi-food-source/p192.png",
+      "bytes": 234156,
+      "sha256": "d35ecdb890695ae7fe2e9c6e444b69ad86632f1b6c9d920eadf3c4258513fefc"
+    },
+    {
+      "file": "v53/research/bazi-food-source/CONTEXTS.json",
+      "bytes": 82405,
+      "sha256": "c9179c1421a4521ce9bd0f5d48ab05e28a6a9ed11daf462927ad777343be0f68"
+    },
+    {
+      "file": "v53/research/bazi-food-source/SOURCE_MANIFEST.json",
+      "bytes": 2210,
+      "sha256": "4bb8d8e95ebfd698f04adbf1c03b10c1674b1d7b820d064b2ae8108d1dd1bb94"
+    },
+    {
+      "file": "v53/research/bazi-food-appendices/appendix-reference.mjs",
+      "bytes": 4525,
+      "sha256": "cb73e338217694e270217003750a796bff00afcec13abd196240060d2b536d9c"
+    },
+    {
+      "file": "v53/research/bazi-food-appendices/EXPLICIT_COORDINATES.json",
+      "bytes": 11516,
+      "sha256": "191d358944793bfb903fd452062164bd43f1bbc24b148670ac7e42471c4c9d62"
+    },
+    {
+      "file": "v53/engine.js",
+      "bytes": 42033,
+      "sha256": "39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6"
+    },
+    {
+      "file": "v53/bazi-relations.js",
+      "bytes": 7414,
+      "sha256": "a1599a0ddbe716f02111e56f5da82943bd2878356fc3959a411fbffc8bd8e6d0"
+    },
+    {
+      "file": "v46/node_modules/lunar-typescript/dist/index.cjs",
+      "bytes": 425191,
+      "sha256": "76e490b74e9913ed94b49689b90abc688ed1e2b11456312b3eb081ec63cf2fbe"
+    },
+    {
+      "file": "v46/node_modules/lunar-typescript/package.json",
+      "bytes": 2188,
+      "sha256": "f66f1217e67e227f77b7a35b3c5b40d3835842856920e99ebd7e10f2d940e21c"
+    }
+  ]
+}

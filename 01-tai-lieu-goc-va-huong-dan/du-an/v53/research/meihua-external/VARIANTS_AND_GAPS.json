@@ -1,0 +1,104 @@
+{
+  "schema": "hhc.meihua.external-variants.v1",
+  "records": [
+    {
+      "id": "dining-verse-prose",
+      "evidencePDFPages": [
+        68,
+        123
+      ],
+      "printedVerse": "剋用必無",
+      "printedProse": "飲食有阻",
+      "kind": "within-witness-genre-and-degree-difference",
+      "action": "Preserve both;do not turn obstruction into a universal no-food verdict."
+    },
+    {
+      "id": "dining-local-roles",
+      "evidencePDFPages": [
+        119
+      ],
+      "kind": "local-role-policy-and-punctuation",
+      "printedBoundedPhrase": "下為變為客",
+      "action": "Keep lower=self distinct from general static-body/moving-use;guest/change clause is not fully resolved,no global override."
+    },
+    {
+      "id": "object-majority-roles",
+      "evidencePDFPages": [
+        126
+      ],
+      "kind": "local-role-policy",
+      "action": "Majority-element body is object-guessing context;ties and precedence unresolved."
+    },
+    {
+      "id": "volume3-li-heading",
+      "evidencePDFPages": [
+        121
+      ],
+      "printedHeading": "離",
+      "contentDescription": "Earth/mountain attributes follow this heading.",
+      "kind": "heading-content-conflict",
+      "action": "Do not silently change to艮 without independent witness."
+    },
+    {
+      "id": "dui-digital-copy",
+      "evidencePDFPages": [
+        121
+      ],
+      "printedBoundedPhrase": "西澤",
+      "digitalCopy": "凱撒",
+      "kind": "digital-transcription-variant",
+      "action": "Retain source layers;no consumer corpus changed."
+    },
+    {
+      "id": "guanmei-heng-context",
+      "evidencePDFPages": [
+        109
+      ],
+      "printedBoundedPhrase": "觀梅恒卦",
+      "kind": "unidentified-example-context",
+      "action": "Do not equate automatically to earlier plum革example or repair恒."
+    },
+    {
+      "id": "ten-response-digital-omission",
+      "evidencePDFPages": [
+        129
+      ],
+      "kind": "digital-list-omission",
+      "printedNames": [
+        "正應",
+        "互應",
+        "變應",
+        "方應",
+        "日應",
+        "刻應",
+        "外應",
+        "天時應",
+        "地理應",
+        "人事應"
+      ],
+      "digitalOpeningNames": [
+        "正應",
+        "互應",
+        "變應",
+        "日應",
+        "刻應",
+        "外應",
+        "天時應",
+        "地理應",
+        "人事應"
+      ],
+      "printedCount": 10,
+      "digitalOpeningCount": 9,
+      "action": "Physicalopeningincludes方應;digitalopeningomitsit although its heading follows. Keep pinned digitalbytes unchanged;source reference uses10explicitphysicalnames."
+    }
+  ],
+  "remaining": [
+    "Full clause-by-clause physical/digital collation,especially tables133–143",
+    "All other external symbols and precedence/selection rules",
+    "Independent witness for conflicting diagrams,heading and example targets",
+    "Full volume1navigation and remaining volume2/4/5subsidiary clauses",
+    "Unspecified calendar boundaries,month/day priority and actual predictive validity"
+  ],
+  "consumerChanged": false,
+  "wholeBookApplied": false
+}

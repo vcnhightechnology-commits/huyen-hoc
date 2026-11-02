@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-29",
+  "detectedAfterInitialPassingTests": true,
+  "initialFreezePreserved": "TRANSCRIPTION_FREEZE.json",
+  "frozenNativeRecordPreserved": "NATIVE_CROPS.json",
+  "oldCrop": {
+    "file": "tmp/home-day-hour-staging/xunzhong-heading-complete.png",
+    "bytes": 151003,
+    "sha256": "01c1d12aaff021ca00f6b8a45813f9e67cd1c46a72bc644a6b086034205c4559"
+  },
+  "newCrop": {
+    "file": "tmp/home-day-hour-staging/xunzhong-heading-top-complete.png",
+    "bytes": 196265,
+    "sha256": "c1610d9308e5baf436757f5b5c965552586601afe7e7377d61d166941be6f8d7"
+  },
+  "correction": "Widened header-top crop margin to retain whole旬 glyph. Full source already viewed. No wording, expected case, function or runtime changed.",
+  "oldCropExcludedFromFinalEvidence": true,
+  "finalNativeManifest": "NATIVE_CROPS_REVISED.json",
+  "finalAcceptedCrops": 8,
+  "totalExcludedTrialCrops": 9,
+  "newEngineCalls": 0,
+  "consumerAffected": false
+}

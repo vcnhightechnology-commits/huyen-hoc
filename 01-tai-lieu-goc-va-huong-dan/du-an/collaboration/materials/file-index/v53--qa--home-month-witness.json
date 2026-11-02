@@ -1,0 +1,29 @@
+{
+  "scope": "v53/qa/home-month-witness",
+  "files": [
+    {
+      "file": "v53/qa/home-month-witness/RELEASE_RESULTS.json",
+      "bytes": 1667,
+      "sha256": "00805a19a11e6a1ad6bc3fe7eccc7c7fcb8b0df5ee5281be5522c955ce1d3e4c",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/00805a19a11e6a1ad6bc3fe7eccc7c7fcb8b0df5ee5281be5522c955ce1d3e4c",
+      "httpRange": {
+        "offset": 5759252,
+        "compressedBytes": 780,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/home-month-witness/SOURCE_RESULTS.json",
+      "bytes": 1163,
+      "sha256": "80915e282c1f34e663708bde75511feeed4b6968c806160221b62b2f9f19f601",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/80915e282c1f34e663708bde75511feeed4b6968c806160221b62b2f9f19f601",
+      "httpRange": {
+        "offset": 70373067,
+        "compressedBytes": 569,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

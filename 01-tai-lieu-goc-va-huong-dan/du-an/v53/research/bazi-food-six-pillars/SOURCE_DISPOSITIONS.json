@@ -1,0 +1,104 @@
+{
+  "date": "2026-10-28",
+  "sourceContainer": {
+    "file": "v53/research/bazi-pattern-witness/CADAL06066041.djvu",
+    "bytes": 10721582,
+    "sha256": "013ce4861680a2bf08b811050c45a45bb2d3ce9d164f7e2341d7070bd5cb2c1a",
+    "retainedRequestManifest": "v53/research/bazi-pattern-witness/REQUESTS.json",
+    "retainedHTTP200AndTLSAuthorized": true,
+    "newHTTPThisScope": false
+  },
+  "sourceDecoder": {
+    "file": "v53/research/bazi-pattern-extension/tooling/djvu.js",
+    "bytes": 556634,
+    "sha256": "10a831d62cc7ced39c30c7350a11410402d082a0f0a5b073a88d3d7ca662add3",
+    "retainedRequestManifest": "v53/research/bazi-pattern-extension/tooling/REQUESTS.json",
+    "retainedHTTP200AndTLSAuthorized": true,
+    "newHTTPThisScope": false
+  },
+  "digitalTranscription": {
+    "file": "v53/research/four-items/sources/KR3g0042_005.txt",
+    "bytes": 122081,
+    "sha256": "1ebdd92feaa57496b702f962ad6fafd4f19c17e98c38a94b40f626ef321dd997",
+    "kind": "retained-pinned-digital-transcription;notindependentimagewitness"
+  },
+  "sourceImages": [
+    {
+      "file": "v53/research/bazi-food-source/p176.png",
+      "bytes": 263102,
+      "sha256": "36ff38511f70423e613322ab0941ea3cffa7758ac1820e5df3f4c07cc3dde0f2",
+      "actuallyViewed": true,
+      "expandedPriorPosition": true,
+      "newSourcePosition": false,
+      "printedFolio": "005-87b"
+    },
+    {
+      "file": "v53/research/bazi-food-source/p177.png",
+      "bytes": 292400,
+      "sha256": "bd60295b8c57032d9ec30ce5a2a06cade7d86a78fdec4e6d56f60659c8281bee",
+      "actuallyViewed": true,
+      "expandedPriorPosition": true,
+      "newSourcePosition": false,
+      "printedFolio": "005-88a"
+    },
+    {
+      "file": "v53/research/bazi-food-source/p178.png",
+      "bytes": 311884,
+      "sha256": "47c6a7ac4dee8dc46ba341fecad8e1bf34d25ee4bb4523faf8b0f09b473f8efd",
+      "actuallyViewed": true,
+      "expandedPriorPosition": true,
+      "newSourcePosition": false,
+      "printedFolio": "005-88b"
+    },
+    {
+      "file": "v53/research/bazi-food-source/p179.png",
+      "bytes": 279312,
+      "sha256": "f07f7fa58c8410c6ff38935a45972703ec4f4715b34a5d8c1aa2c287adea5c3c",
+      "actuallyViewed": true,
+      "expandedPriorPosition": true,
+      "newSourcePosition": false,
+      "printedFolio": "005-89a"
+    }
+  ],
+  "imageDerivation": "Previously retained unmodified DjVu decoder / native lossless PNG; no new decode in this scope.",
+  "sameWYGFamilyNotIndependentEdition": true,
+  "sourcePageFolioMapping": "Observed page177=printed005-88a; page176=005-87b. Do not derive these by 2*folio arithmetic.",
+  "newHTTPRequests": 0,
+  "newContainers": 0,
+  "newIndependentWitnesses": 0,
+  "newSourcePositions": 0,
+  "expandedPriorSourcePositions": 4,
+  "nativeCrops": 3,
+  "runtimeProof": [
+    {
+      "file": "v53/engine.js",
+      "bytes": 42033,
+      "sha256": "39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6"
+    },
+    {
+      "file": "v53/bazi-relations.js",
+      "bytes": 7414,
+      "sha256": "a1599a0ddbe716f02111e56f5da82943bd2878356fc3959a411fbffc8bd8e6d0"
+    },
+    {
+      "file": "v46/node_modules/lunar-typescript/package.json",
+      "bytes": 2188,
+      "sha256": "f66f1217e67e227f77b7a35b3c5b40d3835842856920e99ebd7e10f2d940e21c"
+    },
+    {
+      "file": "v46/node_modules/lunar-typescript/dist/index.cjs",
+      "bytes": 425191,
+      "sha256": "76e490b74e9913ed94b49689b90abc688ed1e2b11456312b3eb081ec63cf2fbe"
+    }
+  ],
+  "runtimeVersion": "lunar-typescript1.8.6",
+  "runtimeProofKind": "Local installed file identities, not newly fetched publisher signature.",
+  "diagnosticProbe": {
+    "actualLunarSHI_SHENReads": 1,
+    "actualLunarCHONGReads": 1,
+    "notCountedAsComparedCases": true
+  },
+  "wholeSourceApplied": false,
+  "sourceOutcomesValidated": false,
+  "consumerChanged": false
+}

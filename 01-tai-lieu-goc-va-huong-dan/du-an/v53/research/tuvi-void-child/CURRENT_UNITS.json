@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-28",
+  "catalogueID": "T01",
+  "sourceItem": "NAJ4468520",
+  "scope": "Three bounded headings within one previously read canvas, not a complete book/table of contents.",
+  "units": [
+    {
+      "id": "canvas80-jielu",
+      "heading": "安截路空亡訣",
+      "status": "named-birthyear-pair-coordinates-verified-with-explicit-orthography-policy",
+      "reference": "void-reference.mjs",
+      "consumerApplied": false
+    },
+    {
+      "id": "canvas80-xunzhong",
+      "heading": "安旬中空亡訣",
+      "status": "named-birthyear-pair-coordinates-verified-with-explicit-orthography-policy",
+      "reference": "void-reference.mjs",
+      "consumerApplied": false
+    },
+    {
+      "id": "canvas80-child-ordinals",
+      "heading": "童限",
+      "status": "six-printed-ordinals-extracted-tail-and-age-semantics-open",
+      "reference": "ordinal-reference.mjs",
+      "consumerApplied": false
+    }
+  ],
+  "relatedPriorStudy": "../tuvi-masters/WORK_STATE.json",
+  "wholeBookApplied": false,
+  "remaining": [
+    "Child verse tail/age counting and link to first major period",
+    "Birth-year calendar boundary of these two source tables",
+    "Whether another independently acquired witness specifies single-star/parity selection",
+    "Body-master 火鈴星 at 子午 and anchor; Canh/Nham transformations; first-major-period variants",
+    "Remaining source combination verses and full chapter-level coverage"
+  ]
+}

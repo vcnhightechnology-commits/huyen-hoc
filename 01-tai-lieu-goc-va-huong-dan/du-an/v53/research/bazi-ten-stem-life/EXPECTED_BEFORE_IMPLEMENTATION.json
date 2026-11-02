@@ -1,0 +1,128 @@
+{
+  "beforeImplementation": true,
+  "pairs": [
+    {
+      "stem": "甲",
+      "branch": "亥",
+      "expectedSourceMarker": "长生",
+      "expectedLunarLabel": "长生"
+    },
+    {
+      "stem": "甲",
+      "branch": "午",
+      "expectedSourceMarker": "死",
+      "expectedLunarLabel": "死"
+    },
+    {
+      "stem": "乙",
+      "branch": "午",
+      "expectedSourceMarker": "长生",
+      "expectedLunarLabel": "长生"
+    },
+    {
+      "stem": "乙",
+      "branch": "亥",
+      "expectedSourceMarker": "死",
+      "expectedLunarLabel": "死"
+    },
+    {
+      "stem": "丙",
+      "branch": "寅",
+      "expectedSourceMarker": "长生",
+      "expectedLunarLabel": "长生"
+    },
+    {
+      "stem": "丙",
+      "branch": "酉",
+      "expectedSourceMarker": "死",
+      "expectedLunarLabel": "死"
+    },
+    {
+      "stem": "丁",
+      "branch": "酉",
+      "expectedSourceMarker": "长生",
+      "expectedLunarLabel": "长生"
+    },
+    {
+      "stem": "丁",
+      "branch": "寅",
+      "expectedSourceMarker": "死",
+      "expectedLunarLabel": "死"
+    },
+    {
+      "stem": "戊",
+      "branch": "寅",
+      "expectedSourceMarker": "长生",
+      "expectedLunarLabel": "长生"
+    },
+    {
+      "stem": "戊",
+      "branch": "酉",
+      "expectedSourceMarker": "死",
+      "expectedLunarLabel": "死"
+    },
+    {
+      "stem": "己",
+      "branch": "酉",
+      "expectedSourceMarker": "长生",
+      "expectedLunarLabel": "长生"
+    },
+    {
+      "stem": "己",
+      "branch": "寅",
+      "expectedSourceMarker": "死",
+      "expectedLunarLabel": "死"
+    },
+    {
+      "stem": "庚",
+      "branch": "巳",
+      "expectedSourceMarker": "长生",
+      "expectedLunarLabel": "长生"
+    },
+    {
+      "stem": "庚",
+      "branch": "子",
+      "expectedSourceMarker": "死",
+      "expectedLunarLabel": "死"
+    },
+    {
+      "stem": "辛",
+      "branch": "子",
+      "expectedSourceMarker": "长生",
+      "expectedLunarLabel": "长生"
+    },
+    {
+      "stem": "辛",
+      "branch": "巳",
+      "expectedSourceMarker": "死",
+      "expectedLunarLabel": "死"
+    },
+    {
+      "stem": "壬",
+      "branch": "申",
+      "expectedSourceMarker": "长生",
+      "expectedLunarLabel": "长生"
+    },
+    {
+      "stem": "壬",
+      "branch": "卯",
+      "expectedSourceMarker": "死",
+      "expectedLunarLabel": "死"
+    },
+    {
+      "stem": "癸",
+      "branch": "卯",
+      "expectedSourceMarker": "长生",
+      "expectedLunarLabel": "长生"
+    },
+    {
+      "stem": "癸",
+      "branch": "申",
+      "expectedSourceMarker": "死",
+      "expectedLunarLabel": "死"
+    }
+  ],
+  "unlistedCoordinatesExpected": 100,
+  "sourceCoordinateCount": 20,
+  "actualNatalChartsExpected": 0
+}

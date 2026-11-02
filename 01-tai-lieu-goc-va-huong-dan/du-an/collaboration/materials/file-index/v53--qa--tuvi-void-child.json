@@ -1,0 +1,53 @@
+{
+  "scope": "v53/qa/tuvi-void-child",
+  "files": [
+    {
+      "file": "v53/qa/tuvi-void-child/CHILD_RESULTS.json",
+      "bytes": 24345,
+      "sha256": "91dc660786d3b887ad14036ee25f0b97ce3d54d2487fa6c9ec943c8d2d77460b",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/91dc660786d3b887ad14036ee25f0b97ce3d54d2487fa6c9ec943c8d2d77460b",
+      "httpRange": {
+        "offset": 315776099,
+        "compressedBytes": 2149,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/tuvi-void-child/RELEASE_RESULTS.json",
+      "bytes": 2074,
+      "sha256": "9d4d683c1ac33c03b192242244005dc5472152f9cc7adc9ae3c080d936e2f00c",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9d4d683c1ac33c03b192242244005dc5472152f9cc7adc9ae3c080d936e2f00c",
+      "httpRange": {
+        "offset": 112582932,
+        "compressedBytes": 898,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/tuvi-void-child/SOURCE_RESULTS.json",
+      "bytes": 1154,
+      "sha256": "ec1580a21159e071e19db92054e4dd51f4a9b6f28280d39074b589578f1a445e",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ec1580a21159e071e19db92054e4dd51f4a9b6f28280d39074b589578f1a445e",
+      "httpRange": {
+        "offset": 82381172,
+        "compressedBytes": 569,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/tuvi-void-child/VOID_RESULTS.json",
+      "bytes": 72211,
+      "sha256": "2c7e1edcb5a6000233c797695eb8c72ad8d184f6f8136a73e99025df87fa4c6b",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2c7e1edcb5a6000233c797695eb8c72ad8d184f6f8136a73e99025df87fa4c6b",
+      "httpRange": {
+        "offset": 206706923,
+        "compressedBytes": 5422,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

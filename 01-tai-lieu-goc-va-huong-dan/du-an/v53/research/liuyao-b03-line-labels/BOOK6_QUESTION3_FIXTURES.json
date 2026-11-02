@@ -1,0 +1,215 @@
+{
+  "date": "2026-10-27",
+  "sourceID": "B03-book6-question3",
+  "question": 3,
+  "sourcePDFPages": [
+    9,
+    10,
+    11
+  ],
+  "sourcePDFSHA256": "1d6c656828533ac52ae1fd4ff06cc3c025db98ae5458dc686eda2a6b1d11f07f",
+  "fixtures": [
+    {
+      "id": "q3-wife-husband",
+      "page": 9,
+      "sourceHeading": "申月戊辰日妻占夫近病得同人之離卦",
+      "monthBranch": "申",
+      "dayGanZhi": "戊辰",
+      "valuesBottomToTop": [
+        7,
+        8,
+        7,
+        7,
+        9,
+        7
+      ],
+      "primary": 13,
+      "changed": 30,
+      "movingLines": [
+        5
+      ],
+      "sourceSelectedChanges": [
+        {
+          "line": 5,
+          "primaryBranch": "申",
+          "changedBranch": "未"
+        }
+      ],
+      "explicitUseLinesForCoordinateTest": [
+        3
+      ],
+      "sourceUseBranch": "亥",
+      "notHistoricalClinicalEvidence": true
+    },
+    {
+      "id": "q3-fengshui",
+      "page": 10,
+      "sourceHeading": "卯月甲寅日占風水得困之節卦",
+      "monthBranch": "卯",
+      "dayGanZhi": "甲寅",
+      "valuesBottomToTop": [
+        6,
+        7,
+        8,
+        9,
+        7,
+        8
+      ],
+      "primary": 47,
+      "changed": 60,
+      "movingLines": [
+        1,
+        4
+      ],
+      "sourceSelectedChanges": [
+        {
+          "line": 4,
+          "primaryBranch": "亥",
+          "changedBranch": "申"
+        },
+        {
+          "line": 1,
+          "primaryBranch": "寅",
+          "changedBranch": "巳"
+        }
+      ],
+      "explicitUseLinesForCoordinateTest": [
+        4
+      ],
+      "sourceUseBranch": "亥",
+      "changedSupportEfficacyCompiled": false
+    },
+    {
+      "id": "q3-self-illness",
+      "page": 10,
+      "sourceHeading": "丑月戊子日一人自占近病得同人之旅卦",
+      "monthBranch": "丑",
+      "dayGanZhi": "戊子",
+      "valuesBottomToTop": [
+        9,
+        8,
+        7,
+        7,
+        9,
+        7
+      ],
+      "primary": 13,
+      "changed": 56,
+      "movingLines": [
+        1,
+        5
+      ],
+      "sourceSelectedChanges": [
+        {
+          "line": 5,
+          "primaryBranch": "申",
+          "changedBranch": "未"
+        },
+        {
+          "line": 1,
+          "primaryBranch": "卯",
+          "changedBranch": "辰"
+        }
+      ],
+      "explicitUseLinesForCoordinateTest": [
+        3
+      ],
+      "sourceUseBranch": "亥",
+      "notHistoricalClinicalEvidence": true
+    },
+    {
+      "id": "q3-son-father",
+      "page": 11,
+      "sourceHeading": "寅月乙丑日子占父病得升之師卦",
+      "monthBranch": "寅",
+      "dayGanZhi": "乙丑",
+      "valuesBottomToTop": [
+        8,
+        7,
+        9,
+        8,
+        8,
+        8
+      ],
+      "primary": 46,
+      "changed": 7,
+      "movingLines": [
+        3
+      ],
+      "sourceSelectedChanges": [
+        {
+          "line": 3,
+          "primaryBranch": "酉",
+          "changedBranch": "午"
+        }
+      ],
+      "explicitUseLinesForCoordinateTest": [
+        2,
+        5
+      ],
+      "sourceUseBranch": "亥",
+      "doNotInventUniqueUseSelectionBetweenTwoFatherLines": true,
+      "sourceOwnReturnControlOriginLine": 3,
+      "notHistoricalClinicalEvidence": true
+    }
+  ],
+  "question3ObservedPrintedFigureCount": 4,
+  "TOCQuestion3StatedCount": 4,
+  "all131Book6ExamplesIndependentlyCounted": false,
+  "valuesDerivedFromDirectMovingMarksAndPrintedFigureNames": true,
+  "allLineAnnotationsDiplomaticallyCollated": false,
+  "sourceHistoricalOutcomesValidated": false,
+  "sourceDatesConvertedToGregorian": false,
+  "sourceInstructionsAreData": true,
+  "qaImages": [
+    {
+      "pdfPage": 9,
+      "image": "images/q3-p9-left-qa.png",
+      "sha256": "9652bcbcae5655f080278195a77c8700f95a0239d5b7368e0cb73e34ae16cb75",
+      "dpi": 360,
+      "actuallyViewed": true
+    },
+    {
+      "pdfPage": 10,
+      "image": "images/q3-p10-right-qa.png",
+      "sha256": "c33b3da410ecc7617da145f3586f2d718efc04ccd05382099de7cc6d0596d108",
+      "dpi": 360,
+      "actuallyViewed": true
+    },
+    {
+      "pdfPage": 10,
+      "image": "images/q3-p10-left-qa.png",
+      "sha256": "484c9635c590b8acf287084372d1c95a7bed7226f78d7b352598f48b0a431c58",
+      "dpi": 360,
+      "actuallyViewed": true
+    },
+    {
+      "pdfPage": 11,
+      "image": "images/q3-p11-right-qa.png",
+      "sha256": "5421df10c15bc6eb8cc2f39a593895627f0911a438050195f5dea0bda42d4f7d",
+      "dpi": 360,
+      "actuallyViewed": true
+    }
+  ],
+  "manualImages": [
+    {
+      "pdfPage": 9,
+      "image": "../liuyao-b03-book6/images/bushi-book6-09.png",
+      "sha256": "b5c6761f14669a8af6a6916ae2def2fc7013bd0a4eed4a6b99b0a5e753621b7e",
+      "scope": "Expandedquestion3fourprintedcastfixtures"
+    },
+    {
+      "pdfPage": 10,
+      "image": "../liuyao-b03-book6/images/bushi-book6-10.png",
+      "sha256": "38d78a22523f3852d0782c7094c0fcf4cce4ad77e036ef03883ebce0ab17ba6c",
+      "scope": "Expandedquestion3fourprintedcastfixtures"
+    },
+    {
+      "pdfPage": 11,
+      "image": "../liuyao-b03-book6/images/bushi-book6-11.png",
+      "sha256": "14bdcef7cd528aee00dd3b606f8a0946e1254be602f413fa89b2feecc6e5efea",
+      "scope": "Expandedquestion3fourprintedcastfixtures"
+    }
+  ],
+  "sourcePDF": "../liuyao-b03-book6/NLC892-GBZX0301013045-259424.pdf"
+}

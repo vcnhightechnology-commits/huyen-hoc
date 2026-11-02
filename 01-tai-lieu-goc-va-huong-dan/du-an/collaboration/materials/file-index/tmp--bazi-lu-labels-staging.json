@@ -1,0 +1,53 @@
+{
+  "scope": "tmp/bazi-lu-labels-staging",
+  "files": [
+    {
+      "file": "tmp/bazi-lu-labels-staging/RETAINED_DIGITAL_TABLE.txt",
+      "bytes": 1682,
+      "sha256": "6f1e444b2628b62f4b79c425fa775ed78620f2157c81ce50f8faf5f194cf582a",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6f1e444b2628b62f4b79c425fa775ed78620f2157c81ce50f8faf5f194cf582a",
+      "httpRange": {
+        "offset": 284636593,
+        "compressedBytes": 827,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-lu-labels-staging/SOURCE_MANIFEST.json",
+      "bytes": 1683,
+      "sha256": "f13f898d715e966ee01611d30379cd58550cbfad25090a5a6c6d0db430267f97",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f13f898d715e966ee01611d30379cd58550cbfad25090a5a6c6d0db430267f97",
+      "httpRange": {
+        "offset": 149033337,
+        "compressedBytes": 646,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-lu-labels-staging/SOURCE_ROWS.json",
+      "bytes": 33444,
+      "sha256": "bb3f68eb0744e78220824f2f69c8d6aa6afcd13f5c9bd8f70e412a3ba78537c5",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bb3f68eb0744e78220824f2f69c8d6aa6afcd13f5c9bd8f70e412a3ba78537c5",
+      "httpRange": {
+        "offset": 190442089,
+        "compressedBytes": 3393,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-lu-labels-staging/WORK_STATE.json",
+      "bytes": 700,
+      "sha256": "2591ab47d79e61ed63caacbd1c4082ed8e846aa4ae01ee800e146a5117748609",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2591ab47d79e61ed63caacbd1c4082ed8e846aa4ae01ee800e146a5117748609",
+      "httpRange": {
+        "offset": 130594826,
+        "compressedBytes": 432,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

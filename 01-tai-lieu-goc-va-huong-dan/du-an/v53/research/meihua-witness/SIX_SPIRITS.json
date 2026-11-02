@@ -1,0 +1,60 @@
+{
+  "schema": "hhc.meihua.six-spirits.v1",
+  "context": "卷四character/stroke-divinationappendix;not acompletedLiuYaosystem. 六神形式in卷五isadifferentglyph-formclassification.",
+  "startSourcePDFPage": 179,
+  "tableSourcePDFPage": 180,
+  "order": [
+    "青龍",
+    "朱雀",
+    "勾陳",
+    "螣蛇",
+    "白虎",
+    "玄武"
+  ],
+  "inputPremise": "Explicitdayheavenlystem;sourcewrites日,notarbitraryhourstemorbirthyear.",
+  "starts": {
+    "甲": "青龍",
+    "乙": "青龍",
+    "丙": "朱雀",
+    "丁": "朱雀",
+    "戊": "勾陳",
+    "己": "螣蛇",
+    "庚": "白虎",
+    "辛": "白虎",
+    "壬": "玄武",
+    "癸": "玄武"
+  },
+  "literalPrintedRows": [
+    {
+      "dayStems": [
+        "甲",
+        "乙"
+      ],
+      "linesBottomToTop": [
+        "青龍",
+        "朱雀",
+        "勾陳",
+        "螣蛇",
+        "白虎",
+        "玄武"
+      ]
+    },
+    {
+      "dayStems": [
+        "丙",
+        "丁"
+      ],
+      "linesBottomToTop": [
+        "朱雀",
+        "勾陳",
+        "螣蛇",
+        "白虎",
+        "玄武",
+        "青龍"
+      ]
+    }
+  ],
+  "derivedRowsArePrintedRows": false,
+  "derivation": "Continue the six-name order cyclically from the explicitly prescribed firstline;fouradditionalrotationsareimplementationinference,separatefromthetwoprintedrows.",
+  "consumerApplied": false
+}

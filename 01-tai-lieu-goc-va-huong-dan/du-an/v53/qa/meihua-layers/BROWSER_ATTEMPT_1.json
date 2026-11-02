@@ -1,0 +1,35 @@
+{
+  "checks": [
+    {
+      "name": "Default result gives a concise summary with mutual sides visible and detailed layer reading collapsed",
+      "ok": true
+    },
+    {
+      "name": "Keyboard opens an accessible four-layer reading",
+      "ok": true
+    },
+    {
+      "name": "Wang example distinguishes control from same-element support without a combined verdict",
+      "ok": true
+    },
+    {
+      "name": "Extra6: actual browser places mutual roles on the correct original Body/Use sides",
+      "ok": true
+    },
+    {
+      "name": "Extra21: actual browser places mutual roles on the correct original Body/Use sides",
+      "ok": true
+    },
+    {
+      "name": "Pure1: displayed convention and layer roles agree while original Body remains the reference",
+      "ok": true
+    },
+    {
+      "name": "Pure8: displayed convention and layer roles agree while original Body remains the reference",
+      "ok": false
+    }
+  ],
+  "errors": [],
+  "http": [],
+  "pdfCreated": true
+}

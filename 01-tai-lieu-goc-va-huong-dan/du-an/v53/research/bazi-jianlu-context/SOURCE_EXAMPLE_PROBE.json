@@ -1,0 +1,188 @@
+{
+  "date": "2026-10-27",
+  "status": "staged-source-four-pillars-feasibility-only",
+  "sourceImage": 224,
+  "sourceFolio": "005-113b",
+  "sourcePillars": [
+    "丙戌",
+    "丁酉",
+    "辛酉",
+    "乙未"
+  ],
+  "fixture": {
+    "y": 2006,
+    "m": 9,
+    "d": 29,
+    "hour": 14,
+    "minute": 0,
+    "tz": 8,
+    "gender": "male",
+    "dayPolicy": "midnight",
+    "lateZiHour": "day"
+  },
+  "actualHHCBaziCalls": 1,
+  "actualLunarLookups": 61,
+  "actualPillars": [
+    "丙戌",
+    "丁酉",
+    "辛酉",
+    "乙未"
+  ],
+  "visibleAndHiddenGodPositions": [
+    {
+      "name": "Chính Quan",
+      "relation": "Khắc Nhật chủ, khác âm dương",
+      "text": "Gợi quy tắc, trách nhiệm và vai trò trong tập thể. Không đồng nghĩa sẽ có chức vụ hay thành công nghề nghiệp.",
+      "tip": "Làm rõ tiêu chuẩn và thẩm quyền khi đảm nhận việc chung.",
+      "positions": {
+        "visible": [
+          {
+            "pillarIndex": 0,
+            "pillar": "năm",
+            "stem": 2,
+            "name": "Bính"
+          }
+        ],
+        "hidden": []
+      }
+    },
+    {
+      "name": "Chính Ấn",
+      "relation": "Sinh Nhật chủ, khác âm dương",
+      "text": "Gợi học hỏi có nền tảng, sự nâng đỡ và tiếp nối kinh nghiệm. Nhãn quan hệ không xác định vai trò của người thân.",
+      "tip": "Tìm nguồn học có thể kiểm và áp dụng điều đã hiểu vào thực tế.",
+      "positions": {
+        "visible": [],
+        "hidden": [
+          {
+            "pillarIndex": 0,
+            "pillar": "năm",
+            "branch": "Tuất",
+            "stem": 4,
+            "name": "Mậu",
+            "primary": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Tỷ Kiên",
+      "relation": "Cùng hành, cùng âm dương với Nhật chủ",
+      "text": "Gợi chủ đề tự chủ, đồng đẳng và cùng góp sức. Quan sát cách bạn giữ bản sắc khi ở trong một nhóm.",
+      "tip": "Làm rõ phần việc của mình và điều có thể phối hợp.",
+      "positions": {
+        "visible": [],
+        "hidden": [
+          {
+            "pillarIndex": 0,
+            "pillar": "năm",
+            "branch": "Tuất",
+            "stem": 7,
+            "name": "Tân",
+            "primary": false
+          },
+          {
+            "pillarIndex": 1,
+            "pillar": "tháng",
+            "branch": "Dậu",
+            "stem": 7,
+            "name": "Tân",
+            "primary": true
+          },
+          {
+            "pillarIndex": 2,
+            "pillar": "ngày",
+            "branch": "Dậu",
+            "stem": 7,
+            "name": "Tân",
+            "primary": true
+          }
+        ]
+      }
+    },
+    {
+      "name": "Thất Sát",
+      "relation": "Khắc Nhật chủ, cùng âm dương",
+      "text": "Gợi sức ép, thử thách và yêu cầu phản ứng quyết đoán. Tên gọi không dự báo tai họa hoặc bạo lực.",
+      "tip": "Chia thử thách thành bước nhỏ và xác định lúc cần hỗ trợ.",
+      "positions": {
+        "visible": [
+          {
+            "pillarIndex": 1,
+            "pillar": "tháng",
+            "stem": 3,
+            "name": "Đinh"
+          }
+        ],
+        "hidden": [
+          {
+            "pillarIndex": 0,
+            "pillar": "năm",
+            "branch": "Tuất",
+            "stem": 3,
+            "name": "Đinh",
+            "primary": false
+          },
+          {
+            "pillarIndex": 3,
+            "pillar": "giờ",
+            "branch": "Mùi",
+            "stem": 3,
+            "name": "Đinh",
+            "primary": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "Thiên Tài",
+      "relation": "Nhật chủ khắc, cùng âm dương",
+      "text": "Gợi cách tiếp cận cơ hội và nguồn lực ngoài nếp thường lệ. Sự xuất hiện của nhãn này không hứa hẹn tiền bạc.",
+      "tip": "Kiểm năng lực và chi phí trước khi nhận thêm một cơ hội.",
+      "positions": {
+        "visible": [
+          {
+            "pillarIndex": 3,
+            "pillar": "giờ",
+            "stem": 1,
+            "name": "Ất"
+          }
+        ],
+        "hidden": [
+          {
+            "pillarIndex": 3,
+            "pillar": "giờ",
+            "branch": "Mùi",
+            "stem": 1,
+            "name": "Ất",
+            "primary": false
+          }
+        ]
+      }
+    },
+    {
+      "name": "Thiên Ấn",
+      "relation": "Sinh Nhật chủ, cùng âm dương",
+      "text": "Gợi việc học theo cách riêng, quan sát và tiếp nhận hỗ trợ gián tiếp. Không có ý khẳng định trực giác luôn đúng.",
+      "tip": "Kiểm một ý tưởng riêng bằng dữ kiện hoặc thử nghiệm nhỏ.",
+      "positions": {
+        "visible": [],
+        "hidden": [
+          {
+            "pillarIndex": 3,
+            "pillar": "giờ",
+            "branch": "Mùi",
+            "stem": 5,
+            "name": "Kỷ",
+            "primary": true
+          }
+        ]
+      }
+    }
+  ],
+  "sourceClaimsAge48AndRenYinRenShen": true,
+  "sourceClaimedOutcomeValidated": false,
+  "GregorianBirthDateAttributedToHistoricalPerson": false,
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false
+}

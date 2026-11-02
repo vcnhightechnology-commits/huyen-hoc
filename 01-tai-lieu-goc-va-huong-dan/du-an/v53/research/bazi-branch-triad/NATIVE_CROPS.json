@@ -1,0 +1,139 @@
+{
+  "records": [
+    {
+      "page": 200,
+      "raw": {
+        "file": "tmp/bazi-branch-triad-staging/p200.png",
+        "bytes": 271417,
+        "sha256": "68a289c8ae86bf425ab2c4b4e233e5af4a21f8e211d701ba8983e6686bb2d22c"
+      },
+      "crop": {
+        "file": "tmp/bazi-branch-triad-staging/p200-repeated-shen-and-completeness.png",
+        "bytes": 148395,
+        "sha256": "432b2e859fd7db75993356e50d99cd39fbe698eac6d6f0d2fb1a14bff0f34562"
+      },
+      "boxXYXY": [
+        680,
+        320,
+        2050,
+        2850
+      ],
+      "viewed": true,
+      "accepted": false,
+      "reason": "Trial omitted part of the selected clause or adjacent heading; expanded before freeze."
+    },
+    {
+      "page": 201,
+      "raw": {
+        "file": "tmp/bazi-branch-triad-staging/p201.png",
+        "bytes": 266603,
+        "sha256": "5ae9799aef4ee57560d2132de78040445a16da6a06de15d47057c290275c8777"
+      },
+      "crop": {
+        "file": "tmp/bazi-branch-triad-staging/p201-five-roles-three-lu.png",
+        "bytes": 150879,
+        "sha256": "ab23e05e044594b05f88890a22f19ed92298b96d4985ff766b8192a7c962b775"
+      },
+      "boxXYXY": [
+        520,
+        320,
+        1900,
+        2850
+      ],
+      "viewed": true,
+      "accepted": false,
+      "reason": "Trial omitted part of the selected clause or adjacent heading; expanded before freeze."
+    },
+    {
+      "page": 204,
+      "raw": {
+        "file": "tmp/bazi-branch-triad-staging/p204.png",
+        "bytes": 268347,
+        "sha256": "013e1c15f8fded3525d8a264fdf833f4e499eb8c7812b973289f603e84e61a4b"
+      },
+      "crop": {
+        "file": "tmp/bazi-branch-triad-staging/p204-yujing-tail-and-next-heading.png",
+        "bytes": 80580,
+        "sha256": "5a322e36752551b952d054d6b105b11bb71f3e014dc11b4213b06b9bc8e86e46"
+      },
+      "boxXYXY": [
+        1330,
+        300,
+        2110,
+        2860
+      ],
+      "viewed": true,
+      "accepted": false,
+      "reason": "Trial omitted part of the selected clause or adjacent heading; expanded before freeze."
+    },
+    {
+      "page": 200,
+      "raw": {
+        "file": "tmp/bazi-branch-triad-staging/p200.png",
+        "bytes": 271417,
+        "sha256": "68a289c8ae86bf425ab2c4b4e233e5af4a21f8e211d701ba8983e6686bb2d22c"
+      },
+      "crop": {
+        "file": "tmp/bazi-branch-triad-staging/p200-completeness-expanded.png",
+        "bytes": 195375,
+        "sha256": "57ed6e94fc760226ff59511e534d4824e7a81b7d59f13a3a4ea4665c5397615a"
+      },
+      "boxXYXY": [
+        300,
+        300,
+        2090,
+        2870
+      ],
+      "viewed": true,
+      "accepted": true,
+      "reason": "Expanded selected clause/heading context directly inspected before freeze."
+    },
+    {
+      "page": 201,
+      "raw": {
+        "file": "tmp/bazi-branch-triad-staging/p201.png",
+        "bytes": 266603,
+        "sha256": "5ae9799aef4ee57560d2132de78040445a16da6a06de15d47057c290275c8777"
+      },
+      "crop": {
+        "file": "tmp/bazi-branch-triad-staging/p201-roles-expanded.png",
+        "bytes": 204060,
+        "sha256": "d93a0077ef14d8ef06de0422129d2e6dfb770c4375d3f8ecbcebd2fd2c8303aa"
+      },
+      "boxXYXY": [
+        300,
+        300,
+        2100,
+        2870
+      ],
+      "viewed": true,
+      "accepted": true,
+      "reason": "Expanded selected clause/heading context directly inspected before freeze."
+    },
+    {
+      "page": 204,
+      "raw": {
+        "file": "tmp/bazi-branch-triad-staging/p204.png",
+        "bytes": 268347,
+        "sha256": "013e1c15f8fded3525d8a264fdf833f4e499eb8c7812b973289f603e84e61a4b"
+      },
+      "crop": {
+        "file": "tmp/bazi-branch-triad-staging/p204-next-heading-expanded.png",
+        "bytes": 131641,
+        "sha256": "ac8a39bc97ef1e29339089fb53b7653053003a34631568de0e7f602a0bd7785e"
+      },
+      "boxXYXY": [
+        850,
+        300,
+        2130,
+        2860
+      ],
+      "viewed": true,
+      "accepted": true,
+      "reason": "Expanded selected clause/heading context directly inspected before freeze."
+    }
+  ],
+  "freezePendingDirectCropInspection": false,
+  "acceptedRGBMatched": 3,
+  "trialRGBMatched": 3
+}

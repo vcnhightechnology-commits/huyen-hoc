@@ -1,0 +1,81 @@
+{
+  "schema": "hhc.meihua.external.qa.v1",
+  "checks": [
+    {
+      "name": "42boundedvisualrecords retain originalPDF/derivative identity:41content,27newcontent,14expandedcontent+1endleaf;0HTTP/0renders",
+      "ok": true
+    },
+    {
+      "name": "26pinned digital units link all41physicalcontentpages,with143lasttext/144endleaf;fullclausecollation stays open",
+      "ok": true
+    },
+    {
+      "name": "13bounded material contrasts;ten physicalresponse names versusnine in digitalopening stay distinct fromtenactionrows andvolume2eleven-groups",
+      "ok": true
+    },
+    {
+      "name": "104actualcast/context combinations gate13materialclauses by explicit body and preserve the symbolicgraph exactly",
+      "ok": true,
+      "detail": {
+        "actualCastCases": 104,
+        "matchedMaterialClauses": 22
+      }
+    },
+    {
+      "name": "Threefiregrades,cutting/noncuttingmetal andsoil/pottery have identicalsymbolicrelations butdistinct historicalmaterial qualifications",
+      "ok": true
+    },
+    {
+      "name": "12motion/observer combinations retain separate and conflictingqualifiers;standing is not 0.5 and no datetime is calculated",
+      "ok": true
+    },
+    {
+      "name": "Quietcontext inventsnothing;weather stays outside body/use;three local role policies never silently replace the released policy",
+      "ok": true
+    },
+    {
+      "name": "Unestablishedcase/trigram,motion,date,weight,duplicateIDs and inconsistentactualcast are rejected",
+      "ok": true
+    },
+    {
+      "name": "Returnedsourcecases,contexts and evidence are isolated from caller mutation",
+      "ok": true
+    },
+    {
+      "name": "Two newly inspected printed examples use actualengine:泰11.1→46 and鼎50.6→32;provisionaltwo-linehypothesis rejected",
+      "ok": true,
+      "detail": {
+        "dingSingleLineTargets": [
+          14,
+          56,
+          64,
+          18,
+          44,
+          32
+        ]
+      }
+    },
+    {
+      "name": "Seven text/contextissues remain unresolved;private historicalreference is absentfrom703410byte releasedHTML",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "sourcePageRecords": 42,
+    "contentPages": 41,
+    "newContentPageRecords": 27,
+    "physicalUnitLinks": 26,
+    "materialClauses": 13,
+    "actualCastContexts": 104,
+    "matchedMaterialClauses": 22,
+    "motionContexts": 12,
+    "newPrintedArithmeticExamples": 2,
+    "openVariants": 7,
+    "newHTTPResponses": 0,
+    "newDerivatives": 0,
+    "consumerChanged": false,
+    "predictiveAccuracyEstablished": false,
+    "wholeBookApplied": false
+  },
+  "htmlSHA256": "3800162854742c915d60f0051c65cadb0eb9a1c803f9f937bf1b6a593c96d268"
+}

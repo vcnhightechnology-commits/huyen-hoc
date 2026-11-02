@@ -1,0 +1,145 @@
+{
+  "date": "2026-10-27",
+  "sourcePDF": "../liuyao-foundations/NLC416-12jh005345-45344.pdf",
+  "sourceSHA256": "caac111bc5c5b1c08fd27b3828e7cf6b5430503800f2427d8f2b28809022abaa",
+  "chapterSpans": {
+    "8": [
+      48,
+      49,
+      50
+    ],
+    "9": [
+      50,
+      51
+    ],
+    "10": [
+      51,
+      52,
+      53,
+      54
+    ],
+    "11": [
+      54,
+      55
+    ],
+    "12": [
+      55,
+      56
+    ]
+  },
+  "records": [
+    {
+      "pdfPage": 48,
+      "image": "images/zengshan-48.png",
+      "imageSHA256": "56a44fba28a35424f7c0091b375fe5fccf929ad8d819aecb1fb473d4a96cf2d6",
+      "readingLevel": "first-pass-complete-chapters8..12withinboundedheading-spans",
+      "fullPageDiplomaticTranscription": false
+    },
+    {
+      "pdfPage": 49,
+      "image": "images/zengshan-49.png",
+      "imageSHA256": "ce90047a4990cacb1ef700983b9fde175b1daa65bb87e5cc37f0506fda365e21",
+      "readingLevel": "first-pass-complete-chapters8..12withinboundedheading-spans",
+      "fullPageDiplomaticTranscription": false
+    },
+    {
+      "pdfPage": 50,
+      "image": "images/zengshan-50.png",
+      "imageSHA256": "df7df428c74e61729a064d833422b9c86cc0ee1184ba8d1c5d33900371e653f2",
+      "readingLevel": "first-pass-complete-chapters8..12withinboundedheading-spans",
+      "fullPageDiplomaticTranscription": false
+    },
+    {
+      "pdfPage": 51,
+      "image": "images/zengshan-51.png",
+      "imageSHA256": "7907e706328a6edd72e5accbd5aec8b001318843fb8c36d6f3491b6f39df3238",
+      "readingLevel": "first-pass-complete-chapters8..12withinboundedheading-spans",
+      "fullPageDiplomaticTranscription": false
+    },
+    {
+      "pdfPage": 52,
+      "image": "images/zengshan-52.png",
+      "imageSHA256": "f491581e1eb1d2f64a506161440c3f4473db70a7c2980f36a60ad83bec6d345b",
+      "readingLevel": "first-pass-complete-chapters8..12withinboundedheading-spans",
+      "fullPageDiplomaticTranscription": false
+    },
+    {
+      "pdfPage": 53,
+      "image": "images/zengshan-53.png",
+      "imageSHA256": "5ac129983142413998de718556280b7256b435ee6b8ca841c8c7d5c901df0633",
+      "readingLevel": "first-pass-complete-chapters8..12withinboundedheading-spans",
+      "fullPageDiplomaticTranscription": false
+    },
+    {
+      "pdfPage": 54,
+      "image": "images/zengshan-54.png",
+      "imageSHA256": "3c39c810642c490afda724c0c58f0d1b390871f7e82ff3543259d1fdd82a33ab",
+      "readingLevel": "first-pass-complete-chapters8..12withinboundedheading-spans",
+      "fullPageDiplomaticTranscription": false
+    },
+    {
+      "pdfPage": 55,
+      "image": "images/zengshan-55.png",
+      "imageSHA256": "d0baae3fcda1a3e6e5d01dda60670b7ed27bf9779c3298febcae49839030e061",
+      "readingLevel": "first-pass-complete-chapters8..12withinboundedheading-spans",
+      "fullPageDiplomaticTranscription": false
+    },
+    {
+      "pdfPage": 56,
+      "image": "images/zengshan-56.png",
+      "imageSHA256": "b81a6eb759be5a53bbdc381bf347e12887b63799b44a1077a51a2c6b7d304799",
+      "readingLevel": "first-pass-complete-chapters8..12withinboundedheading-spans",
+      "fullPageDiplomaticTranscription": false
+    },
+    {
+      "pdfPage": 60,
+      "image": "images/zengshan-60.png",
+      "imageSHA256": "5f6ab74e0eae8486a0ebd54fcf326739e0e64097c82231a2b6afc55af8393833",
+      "readingLevel": "bounded-later-context-probe-only",
+      "fullPageDiplomaticTranscription": false
+    },
+    {
+      "pdfPage": 64,
+      "image": "images/zengshan-64.png",
+      "imageSHA256": "98b1bc8afd701c4ce855a290bfd113bbdf22ffee6239a644fd81d114dbd5e58a",
+      "readingLevel": "bounded-later-context-probe-only",
+      "fullPageDiplomaticTranscription": false
+    },
+    {
+      "pdfPage": 68,
+      "image": "images/zengshan-68.png",
+      "imageSHA256": "4bf69701ddfa10c13d6b2638fbbaa561ecd818365bee8b55772efe3d8b68e3c9",
+      "readingLevel": "bounded-later-context-probe-only",
+      "fullPageDiplomaticTranscription": false
+    },
+    {
+      "pdfPage": 72,
+      "image": "images/zengshan-72.png",
+      "imageSHA256": "d170079356710e7980cb926e8c247744c45559d08ca05e59945004d4a408c34c",
+      "readingLevel": "bounded-later-context-probe-only",
+      "fullPageDiplomaticTranscription": false
+    }
+  ],
+  "qaCrop": {
+    "file": "../../qa/liuyao-use-god/need-cast-crop.png",
+    "sha256": "86de298f4f943832e0196632dd7106d3074c9107ca69597340a168b79ca0c568",
+    "purpose": "Verify four moving glyphs in5→6,includingcircleatline3andstaticline5;proseexplicitlystates五爻戌土則不變. Crop/2x enlargement inspection only."
+  },
+  "dayContextCrop": {
+    "file": "../../qa/liuyao-use-god/day-context-crop.png",
+    "sha256": "e7dd3eb3db17b68f32ebb743046a01a5d7569a1f87880cf05baed7949ed8ccca",
+    "reading": "酉月辛卯日",
+    "purpose": "Read literal date without silently replacing卯with亥tofitlater旬空prose."
+  },
+  "counts": {
+    "newRenders": 13,
+    "chapterSpanPages": 9,
+    "laterBoundedProbes": 4,
+    "chaptersFirstPassRead": 5,
+    "qaCrops": 2
+  },
+  "chapterBoundaries": "Chapter8begins48,9begins50,10begins51,11begins54,12begins55,13begins56. Boundary pages include neighboring text;do not claim chapter13orlaterchaptersfullyread.",
+  "newHTTPResponses": 0,
+  "newOriginalPDFs": 0,
+  "ocrUsed": false
+}

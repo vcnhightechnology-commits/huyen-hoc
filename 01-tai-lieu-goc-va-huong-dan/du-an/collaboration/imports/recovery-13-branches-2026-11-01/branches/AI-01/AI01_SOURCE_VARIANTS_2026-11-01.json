@@ -1,0 +1,286 @@
+{
+  "schema": "hhc.ai01.source-variant-ledger.v1",
+  "date": "2026-11-01",
+  "status": "active-partial-facsimile-collation-open",
+  "scope": [
+    "TMTH WYG volume 3: positive-seal and Kongwang passages",
+    "WXJJ volume 19: 福聚命印 / 福聚印",
+    "WXJJ internal citation map for 玉霄寶鑑"
+  ],
+  "localByteSources": [
+    {
+      "file": "v53/research/bazi-relations/sources/KR3g0042_002.txt",
+      "bytes": 123566,
+      "sha256": "b0f9badc8aff64ee137392277eb2f7a428c39a9d8c9faa3154f79c626c2131b4",
+      "manifestMatched": true,
+      "folio": "002-57b",
+      "sourceClass": "retained digital text, not facsimile"
+    },
+    {
+      "file": "v53/research/bazi-relations/sources/KR3g0042_003.txt",
+      "bytes": 118504,
+      "sha256": "267fda36d206bfd153d9377441adb5f99f96c39a594a5f7ebdf3e4dd226e9b87",
+      "manifestMatched": true,
+      "folio": "003-43b–45a; 003-59b; 003-61a–61b; 003-63a",
+      "sourceClass": "retained digital text, not facsimile"
+    }
+  ],
+  "remoteTextRecords": [
+    {
+      "id": "WXJJ-NGJ-411999013122114408",
+      "url": "https://www.shidianguji.com/zh/book/NGJ892411999013122114408/chapter/1lmyjad4zcsvn",
+      "recordTitle": "五行精紀卷第十九",
+      "reading": {
+        "heading": "福聚命印",
+        "positions": "年月日時胎",
+        "condition": "五位中，或四位"
+      },
+      "bytesAcquired": false,
+      "sha256": null,
+      "facsimileInspected": false,
+      "independentPhysicalWitnessEstablished": false
+    },
+    {
+      "id": "WXJJ-NGJ-8922621209348",
+      "url": "https://www.shidianguji.com/zh/book/NGJ8922621209348/chapter/1lnvyvqxghstk",
+      "recordTitle": "五行精紀卷第十九",
+      "reading": {
+        "heading": "福聚印",
+        "positions": "年月時胎",
+        "condition": "五位中，或四位"
+      },
+      "bytesAcquired": false,
+      "sha256": null,
+      "facsimileInspected": false,
+      "independentPhysicalWitnessEstablished": false,
+      "openVariant": "識典 transcription reads 年月時胎 without 日; a scan from the NLC 892-2621 series (part 4, containing volumes 17–22) visibly has 年月日時胎. The book ID maps numerically to part 1 (209348), while the inspected page is part 4 (209417); same digitization family is established, exact page-level source linkage of the transcription is not. Treat as a transcription/scan discrepancy, not yet an adjudicated textual variant."
+    },
+    {
+      "id": "WXJJ-CU-QING-TRANSCRIPTION",
+      "url": "https://www.shidianguji.com/book/7533808921945833506/chapter/1l9qoammfk5ki",
+      "recordTitle": "清代海虞瞿氏恬裕齋抄本;存卷01至33",
+      "reading": {
+        "heading": "福聚命印",
+        "positions": "年月日时胎",
+        "condition": "五位中，或四位"
+      },
+      "bytesAcquired": false,
+      "sha256": null,
+      "facsimileInspected": false,
+      "manuscriptDesignation": "Explicitly identified by the digital catalogue/transcription; image-level verification remains open."
+    },
+    {
+      "id": "WXJJ-LINGXI-EDITORIAL-TRANSCRIPTION",
+      "url": "https://asklingxi.com/zh-tw/books/wuxing-jingji/19-jinshen/02-zhengyin",
+      "recordTitle": "論正印 · 五行精紀",
+      "reading": {
+        "heading": "福聚印",
+        "positions": "年月日時胎",
+        "condition": "五位中，或四位"
+      },
+      "bytesAcquired": false,
+      "sha256": null,
+      "facsimileInspected": false,
+      "independentWitnessCounted": false,
+      "sourceClass": "editorial digital transcription"
+    },
+    {
+      "id": "WXJJ-NLC-892-2621-209417-VOL4",
+      "url": "https://commons.wikimedia.org/wiki/File:NLC892-2621-209417_%E4%BA%94%E8%A1%8C%E7%B2%BE%E7%B4%80_%E7%AC%AC4%E5%86%8A.pdf",
+      "recordTitle": "五行精紀 第4冊",
+      "catalogueMetadata": {
+        "edition": "抄本",
+        "publicationDate": "unknown",
+        "volumes": "17–22",
+        "pages": 68,
+        "reportedFileSize": "12.6 MB"
+      },
+      "bytesAcquired": false,
+      "sha256": null,
+      "targetFolioLocated": true,
+      "facsimileInspected": true,
+      "sourcePdfAcquired": false,
+      "inspectedPdfPages": [30, 31],
+      "visibleReadings": {
+        "page30": "Heading 福聚印; 若年月日時胎五位中或四位五行俱無氣…",
+        "page31": "Continuation includes headings 帶殺印、臨空印、刑印; not fully collated."
+      },
+      "previewDerivatives": [
+        {
+          "pdfPage": 30,
+          "localFile": "v53/research/bazi-relations/evidence/facsimiles/NLC892-2621-209417_VOL4_PAGE30_3840px.jpg",
+          "dimensions": "3840x3308",
+          "bytes": 1207853,
+          "sha256": "18d5c8fdd269cac798a7b66a63871ba65a94bc24b5dd36a204e2300a4bf8d1d4",
+          "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/NLC892-2621-209417_%E4%BA%94%E8%A1%8C%E7%B2%BE%E7%B4%80_%E7%AC%AC4%E5%86%8A.pdf/page30-3840px-NLC892-2621-209417_%E4%BA%94%E8%A1%8C%E7%B2%BE%E7%B4%80_%E7%AC%AC4%E5%86%8A.pdf.jpg",
+          "sourceClass": "Wikimedia Commons 3840px page-preview derivative, not original PDF bytes"
+        },
+        {
+          "pdfPage": 31,
+          "localFile": "v53/research/bazi-relations/evidence/facsimiles/NLC892-2621-209417_VOL4_PAGE31_3840px.jpg",
+          "dimensions": "3840x3308",
+          "bytes": 1049488,
+          "sha256": "3a64b33aada026c8b9ddb7eafe8c726a44f8a1cbebe2f4ac90072a26ded40d81",
+          "sourceUrl": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/6e/NLC892-2621-209417_%E4%BA%94%E8%A1%8C%E7%B2%BE%E7%B4%80_%E7%AC%AC4%E5%86%8A.pdf/page31-3840px-NLC892-2621-209417_%E4%BA%94%E8%A1%8C%E7%B2%BE%E7%B4%80_%E7%AC%AC4%E5%86%8A.pdf.jpg",
+          "sourceClass": "Wikimedia Commons 3840px page-preview derivative, not original PDF bytes"
+        }
+      ],
+      "catalogueRelation": "Distinct NLC catalogued scan from NLC 06857; same NLC data_892,2621 six-volume series as digital record ID NGJ8922621209348 is indicated, but exact Shidian transcription-to-page provenance is unverified.",
+      "readings": {
+        "heading": "福聚印",
+        "positions": "年月日時胎",
+        "condition": "五位中，或四位"
+      }
+    }
+  ],
+  "facsimileRecords": [
+    {
+      "id": "WXJJ-NLC-06857-VOL3-COMMONS",
+      "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999013122-114453_%E4%BA%94%E8%A1%8C%E7%B2%BE%E7%B4%80_%E7%AC%AC3%E5%86%8A.pdf",
+      "catalogueMetadataSource": "Wikimedia Commons file description; direct NLC catalogue request timed out",
+      "catalogueMetadata": {
+        "rareBookNumber": "06857",
+        "edition": "抄本",
+        "volumes": "16–24",
+        "pages": 110,
+        "copyDesignation": "海虞瞿氏恬裕齋 (as described by Commons)"
+      },
+      "localFile": "v53/research/bazi-relations/evidence/facsimiles/NLC06857_WXJJ_VOL3_20261101.pdf",
+      "bytes": 37007952,
+      "sha256": "e88387495032048b71d11196ee59861ad1bfeee4c7ca5ee80fd9686eb9d37d04",
+      "facsimileInspected": true,
+      "collatedPdfPages": [47, 48, 49, 50],
+      "collatedPrintedFolios": ["四", "五", "六", "七"],
+      "readings": {
+        "page47": "福聚命印; 年月日時胎; 五位中或四位",
+        "page48": "玉霄寶鑑有權印云假令五位中或四位五行俱無氣而一正印俱在此印上或庫或旺雖有殺神至是受制故名權印; 財庫印 begins separately afterward",
+        "page49": "主本同德為上; 帝坐為中; 胎月為下; 甲戌日得乙酉時; 木印無益",
+        "page50": "First case month stem remains visually unresolved (乙/己/已)."
+      },
+      "directNlcCatalogueVerified": false
+    },
+    {
+      "id": "WXJJ-NLC-892-2621-209417-VOL4-PREVIEW",
+      "sourcePdfUrl": "https://commons.wikimedia.org/wiki/File:NLC892-2621-209417_%E4%BA%94%E8%A1%8C%E7%B2%BE%E7%B4%80_%E7%AC%AC4%E5%86%8A.pdf",
+      "catalogueMetadataSource": "Wikimedia Commons file description and NLC digitization batch metadata; direct NLC catalogue not independently queried",
+      "catalogueMetadata": {
+        "edition": "抄本",
+        "publicationDate": "unknown",
+        "volumes": "17–22; file marked part 4/6 in nlc:data_892,2621 batch",
+        "pages": 68,
+        "reportedFileSize": "12.6 MB",
+        "lineLayout": "10行24字",
+        "holdingInstitutionAsDescribed": "National Library of China"
+      },
+      "sourcePdfAcquired": false,
+      "sourcePdfBytes": null,
+      "sourcePdfSha256": null,
+      "facsimileInspected": true,
+      "distinctCataloguedCopyFromNLC06857": true,
+      "textualStemmaticIndependenceEstablished": false,
+      "previewRecords": [
+        {
+          "pdfPage": 30,
+          "printedFolio": "not recorded; use PDF page locator",
+          "localFile": "v53/research/bazi-relations/evidence/facsimiles/NLC892-2621-209417_VOL4_PAGE30_3840px.jpg",
+          "bytes": 1207853,
+          "sha256": "18d5c8fdd269cac798a7b66a63871ba65a94bc24b5dd36a204e2300a4bf8d1d4",
+          "reading": "福聚印; 年月日時胎五位中或四位"
+        },
+        {
+          "pdfPage": 31,
+          "printedFolio": "continuation; printed-folio reading not used",
+          "localFile": "v53/research/bazi-relations/evidence/facsimiles/NLC892-2621-209417_VOL4_PAGE31_3840px.jpg",
+          "bytes": 1049488,
+          "sha256": "3a64b33aada026c8b9ddb7eafe8c726a44f8a1cbebe2f4ac90072a26ded40d81",
+          "reading": "visible headings include 帶殺印、臨空印、刑印; partial inspection"
+        }
+      ],
+      "readingLimit": "The page-30 image visibly includes 日. Shidian transcription omits it, but the exact scan-to-transcription link remains unproved; do not adjudicate the cause."
+    }
+  ],
+  "facsimileTextualParallel": {
+    "page47Fuju": "福聚命印; 若年月日時胎五位中或四位五行俱無氣衰散而得一正印偏印俱在此印上或庫或旺雖有殺神至是受制此之謂福聚印",
+    "page48Quan": "玉霄寶鑑有權印云假令五位中或四位五行俱無氣而一正印俱在此印上或庫或旺雖有殺神至是受制故名權印",
+    "sharedAnchors": ["五位中或四位五行俱無氣", "正印…此印上或庫或旺", "雖有殺神至是受制"],
+    "differences": ["福聚 adds 衰散 and 偏印", "權印 is explicitly cited to 玉霄寶鑑", "different conclusion names 福聚印 and 權印"],
+    "inference": "Strong textual parallel observed in one physical copy; whether the two labels represent a quotation, re-editing, or independent named concepts remains unresolved.",
+    "engineRulePromoted": false
+  },
+  "sourceTextFindings": {
+    "tmthWyg03Fuju": {
+      "folio": "003-44b",
+      "reading": "年月日時胎五位俱無氣衰敗",
+      "orFourPositionsPresent": false,
+      "sourceFile": "v53/research/bazi-relations/sources/KR3g0042_003.txt"
+    },
+    "tmthWyg03Kongwang": {
+      "folios": ["003-59b", "003-61a", "003-61b", "003-63a"],
+      "recorded": [
+        "Single-branch examples are explicit for 甲子旬; extending selection methods across all six 旬 is not established by that folio alone.",
+        "The mutual-empty example at 003-61a names 太歲 and 日, not a year-hour relation.",
+        "The interaction of 空亡 and 六合 is described in more than one condition; no universal good/bad output follows from 六合 alone.",
+        "The 003-63a example includes 六合, 庫墓 and 夾貴 before 入格."
+      ]
+    }
+  },
+  "bibliographicSources": [
+    {
+      "id": "SONG_HISTORY_ARTS_VOL5_YUXIAO_BAOJIANJING",
+      "sourceTitle": "宋史藝文志卷五",
+      "recordedPhrase": "通真子玉霄寶鑑經一卷",
+      "evidenceClass": "bibliographic-entry; not surviving text of 玉霄寶鑑經",
+      "digitalTextUrl": "https://www.shidianguji.com/zh/book/CADAL04201270/chapter/1l1xwxfumtuz3",
+      "scanUrl": "https://upload.wikimedia.org/wikipedia/commons/b/b6/NAJDA-297-0056_%E5%AE%8B%E5%8F%B2%E8%97%9D%E6%96%87%E5%BF%975%E3%83%BB6.pdf",
+      "localBytesAcquired": false,
+      "sha256": null,
+      "scanImageVisuallyInspected": false,
+      "editorialSegmentation": "通真子 / 玉霄寶鑑經 / 一卷",
+      "unresolved": "The bibliographic title is longer than the WXJJ citation form; identity, attribution, and textual relation are not proved."
+    },
+    {
+      "id": "WUXING_JINGJI_EIGHT_WITNESS_COLLATION_REFERENCE",
+      "title": "八種五行精紀箋訂; editors 李鏘濤、莊圓; proofreaders 丁鑫華、李玥璇",
+      "referenceUrl": "https://www.xingmao.co/blog/posts/%E6%9D%8E%E9%8F%98%E6%BF%A4%EF%BD%9C%E3%80%8A%E5%85%AB%E7%A8%AE%E4%BA%94%E8%A1%8C%E7%B2%BE%E7%B4%80%E7%AE%8B%E8%A8%82%E2%80%A7%E5%87%A1%E4%BE%8B%E3%80%8B",
+      "evidenceClass": "secondary scholarly collation reference; only online foreword/examples consulted",
+      "fullEditionInProject": false,
+      "claimsUsedAsLeads": ["Eight witness groups are distinguished", "The Qing Haiyu copy may descend from a Ming manuscript copy"],
+      "notTreatedAs": "Primary evidence or verified stemma"
+    }
+  ],
+  "additionalFacsimileCandidates": [
+    {
+      "id": "WXJJ-NCL-06584-QING-QINCHUAN-ZHANG",
+      "url": "https://commons.wikimedia.org/wiki/File:NCL-06584_%E4%BA%94%E8%A1%8C%E7%B2%BE%E7%B4%80.pdf",
+      "editionAsDescribed": "清琴川張氏小琅嬛福地精鈔本",
+      "reportedPages": 445,
+      "reportedFileSize": "240.79 MB",
+      "localBytesAcquired": false,
+      "sha256": null,
+      "volume19FolioLocated": false,
+      "facsimileInspected": false,
+      "identityCaution": "Digital Archives Taiwan record 6367905 and Commons file have similar edition metadata but differ in holding institution/call-number presentation; same physical copy is not established.",
+      "catalogueUrl": "https://catalog.digitalarchives.tw/item/00/61/2a/a1.html"
+    }
+  ],
+  "yuxiaoCitationMap": [
+    {"volume": 1, "recordId": "NGJ892411999013122114408", "context": "Nayin-water explanation for 壬戌/癸亥"},
+    {"volume": 3, "recordId": "NGJ8922621209348", "context": "stem-group and birth-month condition"},
+    {"volume": 4, "recordId": "NGJ8922621209348", "context": "真鬼刑疾"},
+    {"volume": 19, "recordId": "NGJ8922621209348", "context": "福聚印 / 權印; Shidian text has 年月時胎 while Commons scan NLC 892-2621-209417 PDF p.30 visibly has 年月日時胎; same NLC data_892,2621 series indicated, exact scan-to-transcription linkage open"},
+    {"volume": 20, "recordId": "NGJ8922621209348", "context": "並玉霄寶鑑 after 學海波深格; attachment scope unresolved"},
+    {"volume": 25, "recordId": "NGJ892411999013122114408", "context": "無恩刑 and 恃勢刑"}
+  ],
+  "adjudication": {
+    "dayCharacter": "Two distinct NLC/Commons catalogued scan copies visibly include 日 in 年月日時胎: NLC 06857 第3冊 PDF p.47 (heading 福聚命印) and NLC 892-2621-209417 第4冊 PDF p.30 (heading 福聚印). Shidian record NGJ8922621209348 transcribes 年月時胎 without 日. The NLC series mapping is established, but direct provenance from the precise p.30 scan to that transcript is not; classify this as a transcript/scan discrepancy and leave cause open, not as a proven manuscript variant or OCR error.",
+    "headingVariant": "The two visually inspected NLC copies differ in the section heading: 福聚命印 (NLC 06857 第3冊 p.47) versus 福聚印 (NLC 892-2621-209417 第4冊 p.30). Both include 日 in the five-position list. No rule is promoted.",
+    "fiveVersusFour": "The NLC/Commons volume-3 facsimile confirms 五位中或四位; preserve it separately from TMTH 五位俱 and do not convert either to a generic four-of-five predicate.",
+    "textualVariants": "The same facsimile confirms 主本, 帝坐, 甲戌日得乙酉時, and 水命人…木印無益 in its copy. The first case month glyph 乙/己/已 is still unresolved on the inspected image.",
+    "engine": "Actual project engine executed on two constructed civil-date realizations; confirms calendar consistency only. No interpretive or prediction rule was promoted.",
+    "consumerProductChanged": false,
+    "patchesApplied": false
+  },
+  "latestReport": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/AI01_PROGRESS_2026-11-01.md",
+  "latestFacsimileCollation": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/AI01_FACSIMILE_COLLATION_2026-11-01.md",
+  "latestBibliographicNote": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/AI01_YUXIAO_BIBLIOGRAPHIC_NOTE_2026-11-01.md"
+}

@@ -1,0 +1,41 @@
+{
+  "scope": "v53/qa/bazi-branch-union",
+  "files": [
+    {
+      "file": "v53/qa/bazi-branch-union/PROMOTION_IDENTITIES.json",
+      "bytes": 10190,
+      "sha256": "95fe0bf2a460ec044a952367e40b9b4ee3727e9fd2f9aecb721775c466beffb6",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/95fe0bf2a460ec044a952367e40b9b4ee3727e9fd2f9aecb721775c466beffb6",
+      "httpRange": {
+        "offset": 354577691,
+        "compressedBytes": 2585,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/bazi-branch-union/REFERENCE_RESULTS.json",
+      "bytes": 617,
+      "sha256": "2c15318ac8e5c98961467c26db7c6401e27bf37a6e7081f89a22df340901bb13",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2c15318ac8e5c98961467c26db7c6401e27bf37a6e7081f89a22df340901bb13",
+      "httpRange": {
+        "offset": 200382652,
+        "compressedBytes": 333,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/bazi-branch-union/SOURCE_RESULTS.json",
+      "bytes": 602,
+      "sha256": "2a75dda7ab1a55a7ba88d62a2b3820f5d561eeb34c7e3e7ae83d8b3a1d76d680",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2a75dda7ab1a55a7ba88d62a2b3820f5d561eeb34c7e3e7ae83d8b3a1d76d680",
+      "httpRange": {
+        "offset": 186444862,
+        "compressedBytes": 336,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

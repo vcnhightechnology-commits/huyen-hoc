@@ -1,0 +1,16 @@
+# Phép chữ, số cộng thêm và số đo — phạm vi triển khai
+
+Tiếp B01 theo bản đã lưu, không tải lại. Chỉ mở rộng `meihua.js`; `compose`, engine, app, nội dung diễn giải và các mô-đun khác giữ nguyên. Nguồn: các revision và PDF có SHA trong `../meihua/`; các số cộng thêm và khác chữ đã ghi tại `../meihua-reading/`. Không biến số ví dụ thành phép tự nhận dạng họ tên.
+
+1. **Ngày giờ và số cộng thêm**: số cộng được nhập rõ, cộng vào năm+tháng+ngày trước khi lấy thượng quái; hạ quái và hào động cộng tiếp giờ. Ba số4/6/21 của ví dụ ảnh95 cho đúng ba cặp55→51,48→46,42→61. Bản số gọi nhầm hào đầu sau dư3; giữ cách đọc ảnh3. Ngày giờ vẫn theo thành phần âm đã biết, tháng nhuận và nút UTC+7 của phương thức trước.
+2. **Một chữ**: người dùng nhập hai số nét đã phân trái/phải; tổng toàn nét lấy hào. Không suy từ hình chữ, Unicode hoặc bộ thủ. Phần nét bằng0 chưa có tiền đề nguồn đủ để tự chọn quái, nên không hỗ trợ.
+3. **Hai/ba chữ**: nhập số nét từng chữ theo thứ tự; chia1+1 hoặc1+2. Các ví dụ Tây/Lâm dùng số sách chỉ định7/8 và7/10; không thay bằng số nét hiện đại. Chọn quy ước lấy tổng hai phần, không cộng giờ theo các ví dụ chữ của bản đang dùng; lưu phiên bản riêng.
+4. **Bốn–mười chữ**: nhập các giá trị âm cổ Bình1/Thượng2/Khứ3/Nhập4 đã xác định. Chia hai nhóm bằng nhau hoặc phần trước ít hơn một chữ; cộng từng nhóm lấy quái, cộng cả hai lấy hào. Ví dụ sáu âm1/4/3/3/1/1 cho8+5=13,Thăng46→Thái11,hào1. Không nhận dấu thanh tiếng Việt hay phát âm hiện đại làm đầu vào thay thế.
+5. **Mười một–một trăm chữ**: nhập số chữ Hán đã đếm, không đếm khoảng trắng/dấu câu. Dùng quy tắc chia chữ chẵn/lẻ của đoạn chung; lấy tổng để chọn hào, không cộng giờ. Giới hạn100 bám phạm vi văn bản đang đọc; không tự mở rộng bằng phép đếm Unicode.
+6. **Trượng–thước**: hai thành phần số đo nhập riêng, bỏ phần tấc; tổng không cộng giờ. **Thước–tấc**: hai thành phần riêng, bỏ phần phân; tổng có cộng giờ. Không tự chuẩn hóa giữa các đơn vị, quy đổi mét hoặc áp một độ dài lịch sử duy nhất. Hai thành phần phải dương; trường hợp0 giữ mở. Các con số được xử lý đúng như người dùng nhập, không nhận là đã xác minh phép đo vật lý.
+
+Nguồn trực tiếp: PDF16–19 về chữ và hai phép đo;25–27 có ví dụ âm/nét;95–96 có số cộng thêm. Các ảnh đã đọc ở phạm vi trước, không cộng thành trang mới hoặc nhân chứng mới. Nhân chứng năm1925/Thiệu Ung vẫn có điều kiện như hồ sơ nguồn. Quy tắc “lấy hào thêm giờ” ở đoạn tổng quát không bị gộp với ví dụ chữ không thêm giờ: đây là lựa chọn có phiên bản và nêu rõ trong biểu mẫu/kết quả/TXT/in, không tuyên bố mọi truyền bản giống nhau.
+
+Đầu vào chuẩn giữ phương pháp, phân kiểu chữ, các số đã chọn và phiên bản. Mở hồ sơ tính lại từ dữ liệu chuẩn, bỏ sáu hào dẫn xuất nếu bị sửa. Phương pháp không có giờ không giữ giờ cũ đang ẩn; dữ liệu sai ở phân kiểu chữ đang ẩn không làm hỏng phân kiểu được chọn. Số nét giới hạn1..1000; số cộng/số đo1..1.000.000 là giới hạn sản phẩm. Danh sách nhận dấu phẩy/khoảng trắng/chấm phẩy, từ chối phân số/ký hiệu mũ/giá trị thiếu.
+
+Kết quả dùng cùng quẻ chủ/biến/hỗ và lời gợi mở đang có. Phép tính khớp ví dụ chỉ xác nhận tái tạo số học, không xác nhận những lời dự báo đi cùng sách. Cách lập mới không hoàn tất năm quyển hoặc các điều kiện mùa/ngoại ứng/ứng kỳ.

@@ -1,0 +1,861 @@
+{
+  "date": "2026-10-28",
+  "status": "staged-six-source-ordinal-alias-projections-verified-age-semantics-and-tail-open",
+  "checks": [
+    {
+      "name": "Retained source and real iztro package identities match; higher-resolution403 body is retained as rate-limit evidence,not as an image",
+      "ok": true
+    },
+    {
+      "name": "Six literal printed ordinal/palace labels are complete as a bounded subset; chart aliases are explicit modern normalization and tail/age semantics remain unresolved",
+      "ok": true
+    },
+    {
+      "name": "12 actual HHC and12 actual iztro natal charts bind72 numeric-palace alias projections to matching physical branches without using current age or changing period starts",
+      "ok": true
+    },
+    {
+      "name": "Unknown ordinal stays unknown; no extrapolation to7/15 or Gregorian/nominal-age adapter, and returned aliases cannot mutate source",
+      "ok": true
+    },
+    {
+      "name": "Released engine/HTML/site remain unchanged from the verified Yangren release",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "sourcePrintedOrdinalCoordinates": 6,
+    "actualHHCTuviCalls": 12,
+    "actualIztroNatalCalls": 12,
+    "actualNatalContexts": 12,
+    "privateOrdinalPalaceBindings": 72,
+    "expandedPriorSourcePositions": 1,
+    "newExactNativeCrops": 1,
+    "newHTTPRequests": 1,
+    "successfulImageDownloads": 0,
+    "retained403Bodies": 1,
+    "newOriginalContainers": 0,
+    "newSourcePositions": 0
+  },
+  "runtime": [
+    {
+      "input": {
+        "y": 2024,
+        "m": 4,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 0,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "2024-05-22",
+      "projections": [
+        {
+          "printedOrdinal": 1,
+          "sourceLabel": "命",
+          "modernHHCHouse": "Mệnh",
+          "modernIztroHouse": "命宫",
+          "physicalBranch": "巳",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 2,
+          "sourceLabel": "財",
+          "modernHHCHouse": "Tài Bạch",
+          "modernIztroHouse": "财帛",
+          "physicalBranch": "丑",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 3,
+          "sourceLabel": "疾厄",
+          "modernHHCHouse": "Tật Ách",
+          "modernIztroHouse": "疾厄",
+          "physicalBranch": "子",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 4,
+          "sourceLabel": "妻",
+          "modernHHCHouse": "Phu Thê",
+          "modernIztroHouse": "夫妻",
+          "physicalBranch": "卯",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 5,
+          "sourceLabel": "福",
+          "modernHHCHouse": "Phúc Đức",
+          "modernIztroHouse": "福德",
+          "physicalBranch": "未",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 6,
+          "sourceLabel": "官祿",
+          "modernHHCHouse": "Quan Lộc",
+          "modernIztroHouse": "官禄",
+          "physicalBranch": "酉",
+          "sourceAgeMeaningResolved": false
+        }
+      ],
+      "majorPeriodStartChanged": false
+    },
+    {
+      "input": {
+        "y": 2024,
+        "m": 4,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 2,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "2024-05-22",
+      "projections": [
+        {
+          "printedOrdinal": 1,
+          "sourceLabel": "命",
+          "modernHHCHouse": "Mệnh",
+          "modernIztroHouse": "命宫",
+          "physicalBranch": "辰",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 2,
+          "sourceLabel": "財",
+          "modernHHCHouse": "Tài Bạch",
+          "modernIztroHouse": "财帛",
+          "physicalBranch": "子",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 3,
+          "sourceLabel": "疾厄",
+          "modernHHCHouse": "Tật Ách",
+          "modernIztroHouse": "疾厄",
+          "physicalBranch": "亥",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 4,
+          "sourceLabel": "妻",
+          "modernHHCHouse": "Phu Thê",
+          "modernIztroHouse": "夫妻",
+          "physicalBranch": "寅",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 5,
+          "sourceLabel": "福",
+          "modernHHCHouse": "Phúc Đức",
+          "modernIztroHouse": "福德",
+          "physicalBranch": "午",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 6,
+          "sourceLabel": "官祿",
+          "modernHHCHouse": "Quan Lộc",
+          "modernIztroHouse": "官禄",
+          "physicalBranch": "申",
+          "sourceAgeMeaningResolved": false
+        }
+      ],
+      "majorPeriodStartChanged": false
+    },
+    {
+      "input": {
+        "y": 2024,
+        "m": 4,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 4,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "2024-05-22",
+      "projections": [
+        {
+          "printedOrdinal": 1,
+          "sourceLabel": "命",
+          "modernHHCHouse": "Mệnh",
+          "modernIztroHouse": "命宫",
+          "physicalBranch": "卯",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 2,
+          "sourceLabel": "財",
+          "modernHHCHouse": "Tài Bạch",
+          "modernIztroHouse": "财帛",
+          "physicalBranch": "亥",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 3,
+          "sourceLabel": "疾厄",
+          "modernHHCHouse": "Tật Ách",
+          "modernIztroHouse": "疾厄",
+          "physicalBranch": "戌",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 4,
+          "sourceLabel": "妻",
+          "modernHHCHouse": "Phu Thê",
+          "modernIztroHouse": "夫妻",
+          "physicalBranch": "丑",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 5,
+          "sourceLabel": "福",
+          "modernHHCHouse": "Phúc Đức",
+          "modernIztroHouse": "福德",
+          "physicalBranch": "巳",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 6,
+          "sourceLabel": "官祿",
+          "modernHHCHouse": "Quan Lộc",
+          "modernIztroHouse": "官禄",
+          "physicalBranch": "未",
+          "sourceAgeMeaningResolved": false
+        }
+      ],
+      "majorPeriodStartChanged": false
+    },
+    {
+      "input": {
+        "y": 2024,
+        "m": 4,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 6,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "2024-05-22",
+      "projections": [
+        {
+          "printedOrdinal": 1,
+          "sourceLabel": "命",
+          "modernHHCHouse": "Mệnh",
+          "modernIztroHouse": "命宫",
+          "physicalBranch": "寅",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 2,
+          "sourceLabel": "財",
+          "modernHHCHouse": "Tài Bạch",
+          "modernIztroHouse": "财帛",
+          "physicalBranch": "戌",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 3,
+          "sourceLabel": "疾厄",
+          "modernHHCHouse": "Tật Ách",
+          "modernIztroHouse": "疾厄",
+          "physicalBranch": "酉",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 4,
+          "sourceLabel": "妻",
+          "modernHHCHouse": "Phu Thê",
+          "modernIztroHouse": "夫妻",
+          "physicalBranch": "子",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 5,
+          "sourceLabel": "福",
+          "modernHHCHouse": "Phúc Đức",
+          "modernIztroHouse": "福德",
+          "physicalBranch": "辰",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 6,
+          "sourceLabel": "官祿",
+          "modernHHCHouse": "Quan Lộc",
+          "modernIztroHouse": "官禄",
+          "physicalBranch": "午",
+          "sourceAgeMeaningResolved": false
+        }
+      ],
+      "majorPeriodStartChanged": false
+    },
+    {
+      "input": {
+        "y": 2024,
+        "m": 4,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 8,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "2024-05-22",
+      "projections": [
+        {
+          "printedOrdinal": 1,
+          "sourceLabel": "命",
+          "modernHHCHouse": "Mệnh",
+          "modernIztroHouse": "命宫",
+          "physicalBranch": "丑",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 2,
+          "sourceLabel": "財",
+          "modernHHCHouse": "Tài Bạch",
+          "modernIztroHouse": "财帛",
+          "physicalBranch": "酉",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 3,
+          "sourceLabel": "疾厄",
+          "modernHHCHouse": "Tật Ách",
+          "modernIztroHouse": "疾厄",
+          "physicalBranch": "申",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 4,
+          "sourceLabel": "妻",
+          "modernHHCHouse": "Phu Thê",
+          "modernIztroHouse": "夫妻",
+          "physicalBranch": "亥",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 5,
+          "sourceLabel": "福",
+          "modernHHCHouse": "Phúc Đức",
+          "modernIztroHouse": "福德",
+          "physicalBranch": "卯",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 6,
+          "sourceLabel": "官祿",
+          "modernHHCHouse": "Quan Lộc",
+          "modernIztroHouse": "官禄",
+          "physicalBranch": "巳",
+          "sourceAgeMeaningResolved": false
+        }
+      ],
+      "majorPeriodStartChanged": false
+    },
+    {
+      "input": {
+        "y": 2024,
+        "m": 4,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 10,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "2024-05-22",
+      "projections": [
+        {
+          "printedOrdinal": 1,
+          "sourceLabel": "命",
+          "modernHHCHouse": "Mệnh",
+          "modernIztroHouse": "命宫",
+          "physicalBranch": "子",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 2,
+          "sourceLabel": "財",
+          "modernHHCHouse": "Tài Bạch",
+          "modernIztroHouse": "财帛",
+          "physicalBranch": "申",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 3,
+          "sourceLabel": "疾厄",
+          "modernHHCHouse": "Tật Ách",
+          "modernIztroHouse": "疾厄",
+          "physicalBranch": "未",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 4,
+          "sourceLabel": "妻",
+          "modernHHCHouse": "Phu Thê",
+          "modernIztroHouse": "夫妻",
+          "physicalBranch": "戌",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 5,
+          "sourceLabel": "福",
+          "modernHHCHouse": "Phúc Đức",
+          "modernIztroHouse": "福德",
+          "physicalBranch": "寅",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 6,
+          "sourceLabel": "官祿",
+          "modernHHCHouse": "Quan Lộc",
+          "modernIztroHouse": "官禄",
+          "physicalBranch": "辰",
+          "sourceAgeMeaningResolved": false
+        }
+      ],
+      "majorPeriodStartChanged": false
+    },
+    {
+      "input": {
+        "y": 2024,
+        "m": 4,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "2024-05-22",
+      "projections": [
+        {
+          "printedOrdinal": 1,
+          "sourceLabel": "命",
+          "modernHHCHouse": "Mệnh",
+          "modernIztroHouse": "命宫",
+          "physicalBranch": "亥",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 2,
+          "sourceLabel": "財",
+          "modernHHCHouse": "Tài Bạch",
+          "modernIztroHouse": "财帛",
+          "physicalBranch": "未",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 3,
+          "sourceLabel": "疾厄",
+          "modernHHCHouse": "Tật Ách",
+          "modernIztroHouse": "疾厄",
+          "physicalBranch": "午",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 4,
+          "sourceLabel": "妻",
+          "modernHHCHouse": "Phu Thê",
+          "modernIztroHouse": "夫妻",
+          "physicalBranch": "酉",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 5,
+          "sourceLabel": "福",
+          "modernHHCHouse": "Phúc Đức",
+          "modernIztroHouse": "福德",
+          "physicalBranch": "丑",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 6,
+          "sourceLabel": "官祿",
+          "modernHHCHouse": "Quan Lộc",
+          "modernIztroHouse": "官禄",
+          "physicalBranch": "卯",
+          "sourceAgeMeaningResolved": false
+        }
+      ],
+      "majorPeriodStartChanged": false
+    },
+    {
+      "input": {
+        "y": 2024,
+        "m": 4,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 14,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "2024-05-22",
+      "projections": [
+        {
+          "printedOrdinal": 1,
+          "sourceLabel": "命",
+          "modernHHCHouse": "Mệnh",
+          "modernIztroHouse": "命宫",
+          "physicalBranch": "戌",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 2,
+          "sourceLabel": "財",
+          "modernHHCHouse": "Tài Bạch",
+          "modernIztroHouse": "财帛",
+          "physicalBranch": "午",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 3,
+          "sourceLabel": "疾厄",
+          "modernHHCHouse": "Tật Ách",
+          "modernIztroHouse": "疾厄",
+          "physicalBranch": "巳",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 4,
+          "sourceLabel": "妻",
+          "modernHHCHouse": "Phu Thê",
+          "modernIztroHouse": "夫妻",
+          "physicalBranch": "申",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 5,
+          "sourceLabel": "福",
+          "modernHHCHouse": "Phúc Đức",
+          "modernIztroHouse": "福德",
+          "physicalBranch": "子",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 6,
+          "sourceLabel": "官祿",
+          "modernHHCHouse": "Quan Lộc",
+          "modernIztroHouse": "官禄",
+          "physicalBranch": "寅",
+          "sourceAgeMeaningResolved": false
+        }
+      ],
+      "majorPeriodStartChanged": false
+    },
+    {
+      "input": {
+        "y": 2024,
+        "m": 4,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 16,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "2024-05-22",
+      "projections": [
+        {
+          "printedOrdinal": 1,
+          "sourceLabel": "命",
+          "modernHHCHouse": "Mệnh",
+          "modernIztroHouse": "命宫",
+          "physicalBranch": "酉",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 2,
+          "sourceLabel": "財",
+          "modernHHCHouse": "Tài Bạch",
+          "modernIztroHouse": "财帛",
+          "physicalBranch": "巳",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 3,
+          "sourceLabel": "疾厄",
+          "modernHHCHouse": "Tật Ách",
+          "modernIztroHouse": "疾厄",
+          "physicalBranch": "辰",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 4,
+          "sourceLabel": "妻",
+          "modernHHCHouse": "Phu Thê",
+          "modernIztroHouse": "夫妻",
+          "physicalBranch": "未",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 5,
+          "sourceLabel": "福",
+          "modernHHCHouse": "Phúc Đức",
+          "modernIztroHouse": "福德",
+          "physicalBranch": "亥",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 6,
+          "sourceLabel": "官祿",
+          "modernHHCHouse": "Quan Lộc",
+          "modernIztroHouse": "官禄",
+          "physicalBranch": "丑",
+          "sourceAgeMeaningResolved": false
+        }
+      ],
+      "majorPeriodStartChanged": false
+    },
+    {
+      "input": {
+        "y": 2024,
+        "m": 4,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 18,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "2024-05-22",
+      "projections": [
+        {
+          "printedOrdinal": 1,
+          "sourceLabel": "命",
+          "modernHHCHouse": "Mệnh",
+          "modernIztroHouse": "命宫",
+          "physicalBranch": "申",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 2,
+          "sourceLabel": "財",
+          "modernHHCHouse": "Tài Bạch",
+          "modernIztroHouse": "财帛",
+          "physicalBranch": "辰",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 3,
+          "sourceLabel": "疾厄",
+          "modernHHCHouse": "Tật Ách",
+          "modernIztroHouse": "疾厄",
+          "physicalBranch": "卯",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 4,
+          "sourceLabel": "妻",
+          "modernHHCHouse": "Phu Thê",
+          "modernIztroHouse": "夫妻",
+          "physicalBranch": "午",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 5,
+          "sourceLabel": "福",
+          "modernHHCHouse": "Phúc Đức",
+          "modernIztroHouse": "福德",
+          "physicalBranch": "戌",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 6,
+          "sourceLabel": "官祿",
+          "modernHHCHouse": "Quan Lộc",
+          "modernIztroHouse": "官禄",
+          "physicalBranch": "子",
+          "sourceAgeMeaningResolved": false
+        }
+      ],
+      "majorPeriodStartChanged": false
+    },
+    {
+      "input": {
+        "y": 2024,
+        "m": 4,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 20,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "2024-05-22",
+      "projections": [
+        {
+          "printedOrdinal": 1,
+          "sourceLabel": "命",
+          "modernHHCHouse": "Mệnh",
+          "modernIztroHouse": "命宫",
+          "physicalBranch": "未",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 2,
+          "sourceLabel": "財",
+          "modernHHCHouse": "Tài Bạch",
+          "modernIztroHouse": "财帛",
+          "physicalBranch": "卯",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 3,
+          "sourceLabel": "疾厄",
+          "modernHHCHouse": "Tật Ách",
+          "modernIztroHouse": "疾厄",
+          "physicalBranch": "寅",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 4,
+          "sourceLabel": "妻",
+          "modernHHCHouse": "Phu Thê",
+          "modernIztroHouse": "夫妻",
+          "physicalBranch": "巳",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 5,
+          "sourceLabel": "福",
+          "modernHHCHouse": "Phúc Đức",
+          "modernIztroHouse": "福德",
+          "physicalBranch": "酉",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 6,
+          "sourceLabel": "官祿",
+          "modernHHCHouse": "Quan Lộc",
+          "modernIztroHouse": "官禄",
+          "physicalBranch": "亥",
+          "sourceAgeMeaningResolved": false
+        }
+      ],
+      "majorPeriodStartChanged": false
+    },
+    {
+      "input": {
+        "y": 2024,
+        "m": 4,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 22,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "2024-05-22",
+      "projections": [
+        {
+          "printedOrdinal": 1,
+          "sourceLabel": "命",
+          "modernHHCHouse": "Mệnh",
+          "modernIztroHouse": "命宫",
+          "physicalBranch": "午",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 2,
+          "sourceLabel": "財",
+          "modernHHCHouse": "Tài Bạch",
+          "modernIztroHouse": "财帛",
+          "physicalBranch": "寅",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 3,
+          "sourceLabel": "疾厄",
+          "modernHHCHouse": "Tật Ách",
+          "modernIztroHouse": "疾厄",
+          "physicalBranch": "丑",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 4,
+          "sourceLabel": "妻",
+          "modernHHCHouse": "Phu Thê",
+          "modernIztroHouse": "夫妻",
+          "physicalBranch": "辰",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 5,
+          "sourceLabel": "福",
+          "modernHHCHouse": "Phúc Đức",
+          "modernIztroHouse": "福德",
+          "physicalBranch": "申",
+          "sourceAgeMeaningResolved": false
+        },
+        {
+          "printedOrdinal": 6,
+          "sourceLabel": "官祿",
+          "modernHHCHouse": "Quan Lộc",
+          "modernIztroHouse": "官禄",
+          "physicalBranch": "戌",
+          "sourceAgeMeaningResolved": false
+        }
+      ],
+      "majorPeriodStartChanged": false
+    }
+  ],
+  "runtimeIdentity": [
+    {
+      "file": "v46/node_modules/iztro/lib/i18n/locales/zh-CN/palace.js",
+      "sha256": "dbc52381eaafbb3e195bf5df65bfddcff6f4d4d391fbb20dfcb02380f738a90e",
+      "bytes": 499,
+      "byteIdenticalToRetainedPackage": true
+    }
+  ],
+  "sourceAgeCountingConventionResolved": false,
+  "firstMajorPeriodStartResolved": false,
+  "GregorianAgeAdapterEstablished": false,
+  "wholePassageTranscribed": false,
+  "practicalOutcomesValidated": false,
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false
+}

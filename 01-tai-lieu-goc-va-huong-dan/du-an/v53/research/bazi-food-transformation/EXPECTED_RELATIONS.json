@@ -1,0 +1,168 @@
+{
+  "rows": [
+    {
+      "pairID": "jia-ji",
+      "root": "甲",
+      "target": "丙",
+      "expectedLunar": "食神",
+      "expectedHHC": "Thực Thần",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "jia-ji",
+      "root": "甲",
+      "target": "辛",
+      "expectedLunar": "正官",
+      "expectedHHC": "Chính Quan",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "jia-ji",
+      "root": "己",
+      "target": "丙",
+      "expectedLunar": "正印",
+      "expectedHHC": "Chính Ấn",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "jia-ji",
+      "root": "己",
+      "target": "辛",
+      "expectedLunar": "食神",
+      "expectedHHC": "Thực Thần",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "bing-xin",
+      "root": "丙",
+      "target": "戊",
+      "expectedLunar": "食神",
+      "expectedHHC": "Thực Thần",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "bing-xin",
+      "root": "丙",
+      "target": "癸",
+      "expectedLunar": "正官",
+      "expectedHHC": "Chính Quan",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "bing-xin",
+      "root": "辛",
+      "target": "戊",
+      "expectedLunar": "正印",
+      "expectedHHC": "Chính Ấn",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "bing-xin",
+      "root": "辛",
+      "target": "癸",
+      "expectedLunar": "食神",
+      "expectedHHC": "Thực Thần",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "wu-gui",
+      "root": "戊",
+      "target": "庚",
+      "expectedLunar": "食神",
+      "expectedHHC": "Thực Thần",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "wu-gui",
+      "root": "戊",
+      "target": "乙",
+      "expectedLunar": "正官",
+      "expectedHHC": "Chính Quan",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "wu-gui",
+      "root": "癸",
+      "target": "庚",
+      "expectedLunar": "正印",
+      "expectedHHC": "Chính Ấn",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "wu-gui",
+      "root": "癸",
+      "target": "乙",
+      "expectedLunar": "食神",
+      "expectedHHC": "Thực Thần",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "geng-yi",
+      "root": "庚",
+      "target": "壬",
+      "expectedLunar": "食神",
+      "expectedHHC": "Thực Thần",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "geng-yi",
+      "root": "庚",
+      "target": "丁",
+      "expectedLunar": "正官",
+      "expectedHHC": "Chính Quan",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "geng-yi",
+      "root": "乙",
+      "target": "壬",
+      "expectedLunar": "正印",
+      "expectedHHC": "Chính Ấn",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "geng-yi",
+      "root": "乙",
+      "target": "丁",
+      "expectedLunar": "食神",
+      "expectedHHC": "Thực Thần",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "ren-ding",
+      "root": "壬",
+      "target": "甲",
+      "expectedLunar": "食神",
+      "expectedHHC": "Thực Thần",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "ren-ding",
+      "root": "壬",
+      "target": "己",
+      "expectedLunar": "正官",
+      "expectedHHC": "Chính Quan",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "ren-ding",
+      "root": "丁",
+      "target": "甲",
+      "expectedLunar": "正印",
+      "expectedHHC": "Chính Ấn",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "ren-ding",
+      "root": "丁",
+      "target": "己",
+      "expectedLunar": "食神",
+      "expectedHHC": "Thực Thần",
+      "comparisonIsEditorialComponentExpansion": true
+    }
+  ],
+  "count": 20,
+  "foodGodRelations": 10,
+  "nonFoodGodRelations": 10,
+  "notTwentySourcePrintedSingleStemClaims": true
+}

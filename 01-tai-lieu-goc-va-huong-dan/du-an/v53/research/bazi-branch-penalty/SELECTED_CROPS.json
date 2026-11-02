@@ -1,0 +1,155 @@
+{
+  "records": [
+    {
+      "page": 215,
+      "raw": {
+        "file": "p215.png",
+        "bytes": 274571,
+        "sha256": "66f394295e4be2e5ee51406d10798c8e30a02accfbd301f119ef8ab22fa93811"
+      },
+      "crop": {
+        "file": "p215-unresolved-mao-yin.png",
+        "bytes": 43233,
+        "sha256": "fcb135444476e970c0366b1d7f45dccbe617a9ecd7ea6746a5fe5c12431c3a4d"
+      },
+      "boxXYXY": [
+        1740,
+        300,
+        2050,
+        2870
+      ],
+      "actuallyViewed": true,
+      "accepted": true
+    },
+    {
+      "page": 221,
+      "raw": {
+        "file": "p221.png",
+        "bytes": 247435,
+        "sha256": "acb5bfdbfffa107e65486648d8014e4cc1469a205396cc09658fd50d9be7265e"
+      },
+      "crop": {
+        "file": "p221-three-car-voice-start.png",
+        "bytes": 37006,
+        "sha256": "dbc3bfdfcfa3c44424938e1a8a6ac448f2fbd51b1aef695418d325b8d1ba7e23"
+      },
+      "boxXYXY": [
+        280,
+        300,
+        610,
+        2870
+      ],
+      "actuallyViewed": true,
+      "accepted": true
+    },
+    {
+      "page": 222,
+      "raw": {
+        "file": "p222.png",
+        "bytes": 266738,
+        "sha256": "e162178434f0fd418a2cff342f4108b3c7b1698fc6be0317d4d31d2f75ff26e4"
+      },
+      "crop": {
+        "file": "p222-three-car-voice-end.png",
+        "bytes": 35981,
+        "sha256": "e2e817492ffc4f97a8ceee6cdbd4a157908d32d64ed9c0512daa45e27e6d27a6"
+      },
+      "boxXYXY": [
+        1730,
+        300,
+        2050,
+        2860
+      ],
+      "actuallyViewed": true,
+      "accepted": true
+    },
+    {
+      "page": 224,
+      "raw": {
+        "file": "p224.png",
+        "bytes": 266165,
+        "sha256": "9d80a2c0f7234783146380468f0f95417b9313ce69133b620b82b7aac6a64a0f"
+      },
+      "crop": {
+        "file": "p224-printed-official-seal-pairs.png",
+        "bytes": 95550,
+        "sha256": "ec20ebd870df60c33b5286c9aef9b4b124a986bb509668f5aaee963043d4ca9e"
+      },
+      "boxXYXY": [
+        650,
+        300,
+        1600,
+        2860
+      ],
+      "actuallyViewed": true,
+      "accepted": true
+    },
+    {
+      "page": 225,
+      "raw": {
+        "file": "p225.png",
+        "bytes": 254859,
+        "sha256": "ae0e8839e6c3ffdc7865e29356fe62cb4438133137993b0ac175338a90ed881c"
+      },
+      "crop": {
+        "file": "p225-five-entry-pairs.png",
+        "bytes": 126937,
+        "sha256": "b9a5dcdbbd3938440f8fdec904163c660a7c89d01c952a346da0308a8e67b9dc"
+      },
+      "boxXYXY": [
+        900,
+        300,
+        2050,
+        2860
+      ],
+      "actuallyViewed": true,
+      "accepted": true
+    },
+    {
+      "page": 226,
+      "raw": {
+        "file": "p226.png",
+        "bytes": 250259,
+        "sha256": "6da00c66a6eee43ec7a33e00930c876adf5c4254d96e6ca34ccca3905f79952d"
+      },
+      "crop": {
+        "file": "p226-three-role-complete.png",
+        "bytes": 105253,
+        "sha256": "a080dfcae70903cfdcc10bbb67f473c9c99758c4d58f86e3de7aab02d976b4ed"
+      },
+      "boxXYXY": [
+        1030,
+        300,
+        2050,
+        2860
+      ],
+      "actuallyViewed": true,
+      "accepted": true
+    }
+  ],
+  "context": "NATIVE_REVIEW.json;cross-page clauses remain linked, not spliced into one independent quote.",
+  "trialRecords": [
+    {
+      "page": 226,
+      "raw": {
+        "file": "p226.png",
+        "bytes": 250259,
+        "sha256": "6da00c66a6eee43ec7a33e00930c876adf5c4254d96e6ca34ccca3905f79952d"
+      },
+      "crop": {
+        "file": "p226-three-role-control-example.png",
+        "bytes": 71805,
+        "sha256": "ba16a59967502b091bb0fce0f5287be533dd6497ce4955a9b30a3e21fc0ba218"
+      },
+      "boxXYXY": [
+        1420,
+        300,
+        2050,
+        2860
+      ],
+      "actuallyViewed": true,
+      "accepted": false,
+      "rejectionReason": "Leftmost continuation column is cut;not evidence for the complete three-role source example."
+    }
+  ]
+}

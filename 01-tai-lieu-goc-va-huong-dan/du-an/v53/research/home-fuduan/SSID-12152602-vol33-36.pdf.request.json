@@ -1,0 +1,95 @@
+{
+  "sha256": "3f6f81e7332a779dc8c43e8b69808e3f03449b8c595daea649529bea2c8d84ca",
+  "url": "https://upload.wikimedia.org/wikipedia/commons/0/0d/SSID-12152602_%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8_%E5%8D%B733-36.pdf",
+  "headers": {
+    "x-object-meta-sha1base36": [
+      "is0tirnwvbefq9hfyp1qwhi3vqf0yae"
+    ],
+    "ETag": [
+      "35957087c40f143a3d6cfb073ce5e1a6"
+    ],
+    "Accept-Ranges": [
+      "bytes"
+    ],
+    "Date": [
+      "Thu, 29 Oct 2026 05:14:11 GMT"
+    ],
+    "x-ratelimit-limit": [
+      "600000, 600000;w=60"
+    ],
+    "x-ratelimit-remaining": [
+      "599999"
+    ],
+    "x-ratelimit-reset": [
+      "49"
+    ],
+    "Server": [
+      "envoy"
+    ],
+    "Age": [
+      "0"
+    ],
+    "X-Cache": [
+      "cp2052 miss, cp2052 pass"
+    ],
+    "x-cache-status": [
+      "pass"
+    ],
+    "Server-Timing": [
+      "cache;desc=\"pass\", host;desc=\"cp2052\""
+    ],
+    "Strict-Transport-Security": [
+      "max-age=106384710; includeSubDomains; preload"
+    ],
+    "report-to": [
+      "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }"
+    ],
+    "nel": [
+      "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}"
+    ],
+    "x-client-ip": [
+      "2a02:6ea0:1806:6000:ca6d:524:be31:f00d"
+    ],
+    "X-Content-Type-Options": [
+      "nosniff"
+    ],
+    "reporting-endpoints": [
+      "csp_endpoint=\"https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json\""
+    ],
+    "content-security-policy-report-only": [
+      "default-src 'none'; script-src 'none'; style-src 'unsafe-inline' data:; font-src data:; img-src data: https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; connect-src https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; media-src data: 'self'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'self'; report-uri https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json; report-to csp_endpoint"
+    ],
+    "Access-Control-Allow-Origin": [
+      "*"
+    ],
+    "Access-Control-Expose-Headers": [
+      "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache"
+    ],
+    "Timing-Allow-Origin": [
+      "*"
+    ],
+    "Set-Cookie": [
+      "WMF-Uniq=OwShavrpBn9ih9fDIJSZ5gQIAAAAAFvdbNY6UJhvLA6Bhi-PX_c2WiJ9RJmGXtpb;Domain=upload.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Fri, 29 Oct 2027 00:00:00 GMT"
+    ],
+    "X-Request-ID": [
+      "906c302c-d3a6-4595-b356-5b7b42fadfbf"
+    ],
+    "x-analytics": [
+      ""
+    ],
+    "Content-Type": [
+      "application/pdf"
+    ],
+    "Last-Modified": [
+      "Fri, 06 Jan 2023 20:37:24 GMT"
+    ],
+    "Content-Length": [
+      "54208629"
+    ]
+  },
+  "bytes": 54208629,
+  "standardTLSValidation": true,
+  "file": "SSID-12152602-vol33-36.pdf",
+  "status": 200,
+  "downloadedAt": "2026-10-29T05:14:26.0924241Z"
+}

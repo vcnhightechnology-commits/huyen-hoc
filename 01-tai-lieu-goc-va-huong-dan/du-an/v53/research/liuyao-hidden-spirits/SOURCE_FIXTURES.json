@@ -1,0 +1,129 @@
+{
+  "date": "2026-10-27",
+  "cases": [
+    {
+      "id": "gou-hidden-wealth",
+      "pdfPages": [
+        108,
+        109
+      ],
+      "number": 44,
+      "desiredKin": "妻財",
+      "hidden": [
+        {
+          "line": 2,
+          "branch": "寅",
+          "element": "木",
+          "flyingBranch": "亥",
+          "relation": "flying-generates-hidden"
+        }
+      ],
+      "visibleLines": []
+    },
+    {
+      "id": "dun-hidden-child",
+      "pdfPages": [
+        109,
+        110
+      ],
+      "number": 33,
+      "desiredKin": "子孫",
+      "hidden": [
+        {
+          "line": 1,
+          "branch": "子",
+          "element": "水",
+          "flyingBranch": "辰",
+          "relation": "flying-controls-hidden"
+        }
+      ],
+      "visibleLines": []
+    },
+    {
+      "id": "bi-hidden-parent",
+      "pdfPages": [
+        111
+      ],
+      "number": 22,
+      "desiredKin": "父母",
+      "hidden": [
+        {
+          "line": 2,
+          "branch": "午",
+          "element": "火",
+          "flyingBranch": "丑",
+          "relation": "hidden-generates-flying"
+        }
+      ],
+      "visibleLines": []
+    },
+    {
+      "id": "sheng-hidden-child",
+      "pdfPages": [
+        112
+      ],
+      "number": 46,
+      "desiredKin": "子孫",
+      "hidden": [
+        {
+          "line": 4,
+          "branch": "午",
+          "element": "火",
+          "flyingBranch": "丑",
+          "relation": "hidden-generates-flying"
+        }
+      ],
+      "visibleLines": []
+    },
+    {
+      "id": "sun-visible-parent",
+      "pdfPages": [
+        113
+      ],
+      "number": 41,
+      "desiredKin": "父母",
+      "hidden": [
+        {
+          "line": 2,
+          "branch": "午",
+          "element": "火",
+          "flyingBranch": "卯",
+          "relation": "flying-generates-hidden"
+        }
+      ],
+      "visibleLines": [
+        1
+      ],
+      "hiddenExpectationEvidence": "Derived comparison from the pure-palace placement rule,not a printed hidden-parent annotation in this figure. Printed prose instead identifies visible巳fireparenton first line."
+    },
+    {
+      "id": "kun-to-dui-competing-fire",
+      "pdfPages": [
+        115
+      ],
+      "number": 47,
+      "movingLines": [
+        1
+      ],
+      "changedNumber": 58,
+      "desiredKin": "官鬼",
+      "hidden": [
+        {
+          "line": 1,
+          "branch": "巳",
+          "element": "火",
+          "flyingBranch": "寅",
+          "relation": "flying-generates-hidden"
+        }
+      ],
+      "visibleLines": [
+        3
+      ],
+      "changedKinLines": [
+        1
+      ],
+      "meaning": "Keep hidden/visible/changed candidates separate;not automaticuse-godselection."
+    }
+  ],
+  "readingClarification": "PDF113first figure is損41,with visible巳fireparenton first line. The later heading漸之巽is a separate recast53→57;do not assign its figure to the earlier初爻prose or invent a source position contradiction."
+}

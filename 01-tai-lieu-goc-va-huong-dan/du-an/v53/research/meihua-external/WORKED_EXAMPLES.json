@@ -1,0 +1,45 @@
+{
+  "schema": "hhc.meihua.external-examples.v1",
+  "examples": [
+    {
+      "id": "tai-sheng",
+      "evidencePDFPages": [
+        127
+      ],
+      "main": 11,
+      "upper": 8,
+      "lower": 1,
+      "moving": 1,
+      "target": 46,
+      "differentLinesBottomToTop": [
+        1
+      ],
+      "printedBoundedPhrase": "地天泰之初變升",
+      "narrativeOutcomeValidated": false
+    },
+    {
+      "id": "ding-heng",
+      "evidencePDFPages": [
+        127,
+        128
+      ],
+      "main": 50,
+      "upper": 3,
+      "lower": 5,
+      "moving": 6,
+      "target": 32,
+      "differentLinesBottomToTop": [
+        6
+      ],
+      "printedBoundedPhrase": "火風鼎之雷風恒",
+      "quotedLinePhrase": "鼎玉鉉",
+      "narrativeOutcomeValidated": false
+    }
+  ],
+  "researchCorrection": {
+    "rejectedProvisionalHypothesis": "鼎50→恒32requires4+6changesand50.6→14",
+    "actualRuntimeFinding": "50.6→32;50.1→14;onlyline6differsbetween50and32",
+    "status": "hypothesis-rejected-before-publication",
+    "consumerAffected": false
+  }
+}

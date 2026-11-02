@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-28",
+  "records": [
+    {
+      "file": "v53/research/bazi-food-core/SELECTED_PREDICATES.json",
+      "stagingFile": "tmp/bazi-food-core-staging/SELECTED_PREDICATES.json",
+      "bytes": 10066,
+      "sha256": "28336013a19aa34cee89295d5a730a0604ecf635a7202e86d02d3b67baf5e809"
+    },
+    {
+      "file": "v53/research/bazi-food-core/core-reference.mjs",
+      "stagingFile": "tmp/bazi-food-core-staging/core-reference.mjs",
+      "bytes": 3680,
+      "sha256": "cc4c8cab5de10199dd8042918912dc44e0d2ac1a0fe9707110abb12276a9fc30"
+    },
+    {
+      "file": "v53/research/bazi-food-core/STAGED_WORK_STATE.json",
+      "stagingFile": "tmp/bazi-food-core-staging/WORK_STATE.json",
+      "bytes": 1914,
+      "sha256": "d312ae4c76ff60e324bdcc9485d163f421c2e8a15922ef00e87cc1a862cb2e2c"
+    },
+    {
+      "file": "v53/research/bazi-food-core/STAGED_test-core.mjs",
+      "stagingFile": "tmp/bazi-food-core-staging/test-core.mjs",
+      "bytes": 7936,
+      "sha256": "f0d517ce9c7e3c33c86699d213ea0f8260f3327e3fe65ab9f62c84c1a5f7a9db"
+    },
+    {
+      "file": "v53/research/bazi-food-core/STAGED_test-ten-relations.mjs",
+      "stagingFile": "tmp/bazi-food-core-staging/test-ten-relations.mjs",
+      "bytes": 2273,
+      "sha256": "3d554471b5d462914b2a87ae2473bfed88d4973ae3d7747e32df2ad8fabd2dd9"
+    },
+    {
+      "file": "v53/research/bazi-food-core/STAGED_build-selected.py",
+      "stagingFile": "tmp/bazi-food-core-staging/build-selected.py",
+      "bytes": 5515,
+      "sha256": "c8a4aa5560fce43264ccc50c5af0085109a594b16bbd9e71d80a005820b75581"
+    },
+    {
+      "file": "v53/qa/bazi-food-core/RESULTS.json",
+      "stagingFile": "tmp/bazi-food-core-staging/RESULTS.json",
+      "bytes": 2803,
+      "sha256": "33ce5f13addfc73850d0cee774950876d7f0eaddde3d3f8c269bc98773c5b0fb"
+    },
+    {
+      "file": "v53/qa/bazi-food-core/TEN_RELATION_RESULTS.json",
+      "stagingFile": "tmp/bazi-food-core-staging/TEN_RELATION_RESULTS.json",
+      "bytes": 3097,
+      "sha256": "b596850a855e1c33dbc0454669a9fb4338861dce68f85985772c2b0097a594aa"
+    }
+  ],
+  "referenceModuleByteIdentical": true,
+  "testPathRelocations": [
+    {
+      "staged": "v53/research/bazi-food-core/STAGED_test-core.mjs",
+      "promoted": "v53/scripts/test-bazi-food-core.mjs",
+      "onlyImportOutputAndSnapshotPathsChanged": true
+    },
+    {
+      "staged": "v53/research/bazi-food-core/STAGED_test-ten-relations.mjs",
+      "promoted": "v53/scripts/test-bazi-food-ten-relations.mjs",
+      "onlyImportOutputAndSnapshotPathsChanged": true
+    }
+  ],
+  "passedTestsNotRerunForCounts": true,
+  "localIdentitiesNotPublisherSignatures": true
+}

@@ -1,0 +1,20 @@
+PASS Period context is not fabricated before a date is selected
+PASS Three selected period cards show three explicitly labelled natal contexts
+PASS Visible names, statuses and annual notes match actual chart membership
+PASS Year-specific transformations and natal stars are clearly separated in the reading
+PASS Editing a reference date immediately clears all previous context
+PASS A different year updates the correct contexts without changing the natal chart
+PASS Long star interpretations start collapsed while their names and statuses stay visible
+PASS TXT retains natal-star context, year scope and the selected date
+PASS TXT expands the star interpretation temporarily and restores its compact state
+PASS Reopened profile recomputes the saved year and its actual contexts
+PASS A palace without major stars explicitly identifies an opposite reference without moving its stars
+PASS Before the first major period, only year and month receive real natal contexts
+PASS Selecting an overview month recomputes both date and star context
+PASS 320px: expanded period reading fits the viewport
+PASS 390px: expanded period reading fits the viewport
+PASS 768px: expanded period reading fits the viewport
+PASS 1440px: expanded period reading fits the viewport
+PASS Print retains all three natal contexts and hides period-editing controls
+PASS The public standalone reading exposes no source panels and makes no external requests
+19/19 passed

@@ -1,0 +1,41 @@
+{
+  "scope": "v53/qa/liuyao-b03-volume5",
+  "files": [
+    {
+      "file": "v53/qa/liuyao-b03-volume5/ENGINE_RESULTS.json",
+      "bytes": 1975,
+      "sha256": "f78532d290e6b40805b46e820601647b9261d7fcd468411b1ade743557fcfd04",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f78532d290e6b40805b46e820601647b9261d7fcd468411b1ade743557fcfd04",
+      "httpRange": {
+        "offset": 221750422,
+        "compressedBytes": 951,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/liuyao-b03-volume5/RELEASE_RESULTS.json",
+      "bytes": 1358,
+      "sha256": "e7fda2ee2a64c963e91612dd1cd6b1641b6eb5d2ed03e0860368aa797edbdc31",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e7fda2ee2a64c963e91612dd1cd6b1641b6eb5d2ed03e0860368aa797edbdc31",
+      "httpRange": {
+        "offset": 389598650,
+        "compressedBytes": 714,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/liuyao-b03-volume5/SOURCE_CASE_RESULTS.json",
+      "bytes": 27227,
+      "sha256": "d44b5ae3d1c4d216c7d18b6bd85c656a30ddd12e688d19289f4081abf340462a",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d44b5ae3d1c4d216c7d18b6bd85c656a30ddd12e688d19289f4081abf340462a",
+      "httpRange": {
+        "offset": 127533587,
+        "compressedBytes": 2989,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

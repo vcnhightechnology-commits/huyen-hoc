@@ -1,0 +1,112 @@
+{
+  "cases": [
+    {
+      "id": "two-bing",
+      "pillars": [
+        "甲子",
+        "丙子",
+        "丙寅",
+        "戊辰"
+      ],
+      "exactlyTwoBing": true,
+      "exactlyThreeBing": false,
+      "sourceSurplusLiteralExample": true,
+      "sourceShortageLiteralExample": false
+    },
+    {
+      "id": "three-bing",
+      "pillars": [
+        "甲子",
+        "丙子",
+        "丙寅",
+        "丙辰"
+      ],
+      "exactlyTwoBing": false,
+      "exactlyThreeBing": true,
+      "sourceSurplusLiteralExample": true,
+      "sourceShortageLiteralExample": false
+    },
+    {
+      "id": "two-jia-one-bing",
+      "pillars": [
+        "甲子",
+        "甲寅",
+        "丙辰",
+        "戊午"
+      ],
+      "exactlyTwoBing": false,
+      "exactlyThreeBing": false,
+      "sourceSurplusLiteralExample": false,
+      "sourceShortageLiteralExample": true
+    },
+    {
+      "id": "not-day-anchor",
+      "pillars": [
+        "甲子",
+        "丙寅",
+        "乙卯",
+        "丙午"
+      ],
+      "exactlyTwoBing": true,
+      "exactlyThreeBing": false,
+      "sourceSurplusLiteralExample": true,
+      "sourceShortageLiteralExample": false
+    },
+    {
+      "id": "no-jia",
+      "pillars": [
+        "戊子",
+        "丙子",
+        "丙寅",
+        "庚辰"
+      ],
+      "exactlyTwoBing": true,
+      "exactlyThreeBing": false,
+      "sourceSurplusLiteralExample": false,
+      "sourceShortageLiteralExample": false
+    },
+    {
+      "id": "missing-slot",
+      "pillars": [
+        "甲子",
+        "丙子",
+        "丙寅",
+        null
+      ],
+      "exactlyTwoBing": null,
+      "exactlyThreeBing": null,
+      "sourceSurplusLiteralExample": true,
+      "sourceShortageLiteralExample": false
+    },
+    {
+      "id": "joint-impossible",
+      "pillars": [
+        "甲子",
+        "戊子",
+        "戊寅",
+        null
+      ],
+      "exactlyTwoBing": false,
+      "exactlyThreeBing": false,
+      "sourceSurplusLiteralExample": false,
+      "sourceShortageLiteralExample": false
+    },
+    {
+      "id": "all-unknown",
+      "pillars": [
+        null,
+        null,
+        null,
+        null
+      ],
+      "exactlyTwoBing": null,
+      "exactlyThreeBing": null,
+      "sourceSurplusLiteralExample": null,
+      "sourceShortageLiteralExample": null
+    }
+  ],
+  "frameID": "visible-literal-quantity-examples",
+  "sourceAnchorRole": "unassigned-in-source",
+  "missingPillarsConstrainRangesNotExactCounts": true,
+  "noStrengthOrFortuneThreshold": true
+}

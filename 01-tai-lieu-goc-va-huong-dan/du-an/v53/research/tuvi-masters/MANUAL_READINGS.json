@@ -1,0 +1,35 @@
+{
+  "date": "2026-10-27",
+  "locationPolicy": "One-based IIIF canvas ordinals, not printed folios or PDF pages. Native full spreads2200x1659; repository-server derivatives, not originalJP2.",
+  "readings": [
+    {
+      "canvas": 80,
+      "region": "left spread lower安命主 plusexample throughnextcanvas81right",
+      "workingReading": "貪狼子宮 巨門亥丑二宮 祿存寅戌宮 文曲卯酉宮 廉貞申辰宮 武曲未巳宮 破軍午宮",
+      "example": "假如午宮安命尋破軍星在何宮即命主星也子宮安命 / 尋貪狼星即命主也",
+      "disposition": "12directnamecoordinates;explicit命宮anchor;candidate star location can be looked up on actual chart;no outcome."
+    },
+    {
+      "canvas": 81,
+      "region": "right spread 安身主",
+      "workingReading": "子午人火鈴星 丑未人天相星 寅申人天梁星 卯酉人天同星 辰戌人文昌星 巳亥人天機主",
+      "disposition": "10unambiguoussingle-starcoordinates;2literal火鈴星 coordinatesnotresolvedbychoosingmodernsoftware;bodycalendaranchor isseparate."
+    },
+    {
+      "canvas": 80,
+      "region": "left安童限訣 adjacent",
+      "workingReading": null,
+      "disposition": "Newcontextobserved only:one-to-six agepalaceverse,余年glyph and十五大命 interpretationunresolved. Not evidence tochange currentmajorperiod start/age;needs ownwholepassage/witness."
+    },
+    {
+      "canvas": 81,
+      "region": "rightfirstcontinuation andfollowingleftsections",
+      "workingReading": "左輔隨丑至午 右弼隨亥至午",
+      "disposition": "Neighboringstatement relationship to命主 remainsuncompiled. 金鎖鐵蛇/竹羅三限/強弱宮/閒宮 sections onlylocalized, not allclausesapplied; no health/deathforecasts."
+    }
+  ],
+  "normalization": "Working readings canonicalize巳 asbranch,traditional/simplified staraliasesexplicit;notallfacsimileglyphsdiplomaticallytranscribed.",
+  "directNativeCropsViewed": 2,
+  "whole80And81Applied": false,
+  "wholeCatalogueCompleted": false
+}

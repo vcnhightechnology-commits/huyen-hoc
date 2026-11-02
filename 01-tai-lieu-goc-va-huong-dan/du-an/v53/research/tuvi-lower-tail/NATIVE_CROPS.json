@@ -1,0 +1,96 @@
+{
+  "records": [
+    {
+      "file": "115-left-chart.png",
+      "sourceFile": "canvas-115-2200.jpg",
+      "box": [
+        255,
+        320,
+        1010,
+        1440
+      ],
+      "sha256": "81f2b5805e6a495f02114a08877907c308d3d14c30e9e7457450b6cbfac240e7",
+      "sourceSHA256": "c060ffc89dabd25739060d53db0f04de5573adca79534de1abfe3267115dc940",
+      "actuallyViewed": true,
+      "acceptedForLiteralProof": true,
+      "RGBPixelMatch": true
+    },
+    {
+      "file": "111-left-chart.png",
+      "sourceFile": "canvas-111-2200.jpg",
+      "box": [
+        250,
+        310,
+        1015,
+        1455
+      ],
+      "sha256": "01bf351941023aa429acbcd66f3c8d88c93e1eeb5e36d35a974090bc0c10e4cb",
+      "sourceSHA256": "84549db8cc5c83cee42155625ff64c75169443da4eb07b4ace1f892107efc7e3",
+      "actuallyViewed": true,
+      "acceptedForLiteralProof": true,
+      "RGBPixelMatch": true
+    },
+    {
+      "file": "121-juan7-opening.png",
+      "sourceFile": "canvas-121-2200.jpg",
+      "box": [
+        240,
+        315,
+        1015,
+        1450
+      ],
+      "sha256": "17149a3a88ba268dd33a13b7647718178ab40132be0ff8495cc937b7642702f8",
+      "sourceSHA256": "516037b7ac9f99f5fae4fd6390c77da7748eb57dd475300c23f1c460507660b3",
+      "actuallyViewed": true,
+      "acceptedForLiteralProof": true,
+      "RGBPixelMatch": true
+    },
+    {
+      "file": "121-juan6-ending.png",
+      "sourceFile": "canvas-121-2200.jpg",
+      "box": [
+        1900,
+        1090,
+        1970,
+        1450
+      ],
+      "sha256": "f450f8a36ff2daaa8b01e9ded7b3e0cdd5dd2bfd51c5a417ab3ad2552b863146",
+      "sourceSHA256": "516037b7ac9f99f5fae4fd6390c77da7748eb57dd475300c23f1c460507660b3",
+      "actuallyViewed": true,
+      "acceptedForLiteralProof": false,
+      "exclusionReason": "First crop outside printed words; second printed fold remains obscured. Neither proves a formal 六終.",
+      "RGBPixelMatch": true
+    },
+    {
+      "file": "116-left-chart.png",
+      "sourceFile": "canvas-116-2200.jpg",
+      "box": [
+        250,
+        315,
+        1020,
+        1450
+      ],
+      "sha256": "c3d44d6379011cca7570714fb7b8a793ccf2855a4c72572449fc90c27bc734dc",
+      "sourceSHA256": "b4c341630f845e99b2b1168ffeb1e7e891c06dc6bcf37995cbc1943c52686246",
+      "actuallyViewed": true,
+      "acceptedForLiteralProof": true,
+      "RGBPixelMatch": true
+    },
+    {
+      "file": "121-juan6-ending-readable.png",
+      "sourceFile": "canvas-121-2200.jpg",
+      "box": [
+        1870,
+        340,
+        1950,
+        1020
+      ],
+      "sha256": "9223e53dc2a91867825fa896a11f18bd773280b60772ea59b147e754d7967abb",
+      "sourceSHA256": "516037b7ac9f99f5fae4fd6390c77da7748eb57dd475300c23f1c460507660b3",
+      "actuallyViewed": true,
+      "acceptedForLiteralProof": false,
+      "RGBPixelMatch": true,
+      "exclusionReason": "First crop outside printed words; second printed fold remains obscured. Neither proves a formal 六終."
+    }
+  ]
+}

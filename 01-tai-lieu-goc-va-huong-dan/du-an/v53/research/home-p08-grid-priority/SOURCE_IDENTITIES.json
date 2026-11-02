@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-29",
+  "records": [
+    {
+      "source": {
+        "file": "v53/research/home-yangzhai-final-spans/selection/raw-p131.jpg",
+        "bytes": 810368,
+        "sha256": "e8e587a003957124e35252d9885ba8b2ec0f4eb413a5606a10523f1e4d0408f0"
+      },
+      "sourceSize": [
+        2460,
+        1955
+      ],
+      "crop": {
+        "file": "tmp/home-p08-grid-priority-staging/p131-introduction.png",
+        "bytes": 3096902,
+        "sha256": "3866901f33bcd6cb7e6c6b3f50b77e483a76cc7b4a2bebf05f2ef25bc2e4ef93"
+      },
+      "boxXYXY": [
+        1250,
+        235,
+        2445,
+        1915
+      ],
+      "transform": "native RGB crop; no rescale, OCR or reconstruction",
+      "actuallyViewed": false
+    },
+    {
+      "source": {
+        "file": "v53/research/home-time-premises/ITKC_BT_1508A_V002_244.JPG",
+        "bytes": 1189971,
+        "sha256": "52149d671a8025b84bd90a8a3af3fe680729bcd1016299e003ff173c9f6fc053"
+      },
+      "sourceSize": [
+        1640,
+        2180
+      ],
+      "crop": {
+        "file": "tmp/home-p08-grid-priority-staging/itkc244-direction.png",
+        "bytes": 1492553,
+        "sha256": "38aad827f0682ef94032a70f553d0524ed87d9c6f16f9c5a5f942b85928b1ca9"
+      },
+      "boxXYXY": [
+        980,
+        240,
+        1530,
+        2090
+      ],
+      "transform": "native RGB crop; no rescale, OCR or reconstruction",
+      "actuallyViewed": false
+    }
+  ],
+  "newHTTPBodies": 0,
+  "newSourcePositions": 0,
+  "newIndependentWitnesses": 0
+}

@@ -1,0 +1,165 @@
+{
+  "date": "2026-10-27",
+  "status": "verified-reading-staged-not-released",
+  "sourceID": "B02",
+  "sourcePDF": "v53/research/liuyao-foundations/NLC416-12jh005345-45344.pdf",
+  "sourceSHA256": "caac111bc5c5b1c08fd27b3828e7cf6b5430503800f2427d8f2b28809022abaa",
+  "sourceUnitMap": "v53/research/liuyao-progress-conditions/B02_CURRENT_UNITS.json",
+  "sourceUnitMapSHA256": "0a58a072b67622d256821eccb8aa8735b964a25f4751ced537aa5cca22aad496",
+  "ranges": [
+    {
+      "textualVolume": 1,
+      "firstNumberedChapter": 1,
+      "lastNumberedChapter": 17,
+      "unitCountIncludingSupplements": 18
+    },
+    {
+      "textualVolume": 2,
+      "firstNumberedChapter": 18,
+      "lastNumberedChapter": 33,
+      "unitCountIncludingSupplements": 20
+    },
+    {
+      "textualVolume": 3,
+      "firstNumberedChapter": 34,
+      "lastNumberedChapter": 34,
+      "unitCountIncludingSupplements": 1
+    },
+    {
+      "textualVolume": 4,
+      "firstNumberedChapter": 35,
+      "lastNumberedChapter": 61,
+      "unitCountIncludingSupplements": 28
+    },
+    {
+      "textualVolume": 5,
+      "firstNumberedChapter": 62,
+      "lastNumberedChapter": 94,
+      "unitCountIncludingSupplements": 33
+    },
+    {
+      "textualVolume": 6,
+      "firstNumberedChapter": 95,
+      "lastNumberedChapter": 130,
+      "unitCountIncludingSupplements": 36
+    }
+  ],
+  "corrections": [
+    {
+      "id": "B02-ch034",
+      "previousLocalTOCVolume": 4,
+      "correctedTOCVolume": 3
+    }
+  ],
+  "tocReadings": [
+    {
+      "pdfPage": 13,
+      "image": "v53/research/liuyao-foundations/images/zengshan-13.png",
+      "sha256": "bb692a512087374d9142a5f5447a6e9fae6ca3fdbe207d5da7808e3d87e58378",
+      "actuallyViewed": true,
+      "scope": "expanded-TOC-volume-boundaries-only-not-new-body-reading"
+    },
+    {
+      "pdfPage": 14,
+      "image": "v53/research/liuyao-hidden-spirits/images/zengshan-14.png",
+      "sha256": "5e3df6ad6b5e2fb6a18dededcd9d173cd123de4813233aa69a29493bb6b526f6",
+      "actuallyViewed": true,
+      "scope": "expanded-TOC-volume-boundaries-only-not-new-body-reading"
+    },
+    {
+      "pdfPage": 15,
+      "image": "v53/research/liuyao-hidden-spirits/images/zengshan-15.png",
+      "sha256": "d39c186ebb5ed9721fb34ba7fcd1337719bf777093f515e8970dcfbc2eb21ba8",
+      "actuallyViewed": true,
+      "scope": "expanded-TOC-volume-boundaries-only-not-new-body-reading"
+    },
+    {
+      "pdfPage": 16,
+      "image": "v53/research/liuyao-hidden-spirits/images/zengshan-16.png",
+      "sha256": "4eabab32e3241c728a66d90c3be89e4ef6248da629cb3496062c597757a1bab9",
+      "actuallyViewed": true,
+      "scope": "expanded-TOC-volume-boundaries-only-not-new-body-reading"
+    },
+    {
+      "pdfPage": 17,
+      "image": "v53/research/liuyao-hidden-spirits/images/zengshan-17.png",
+      "sha256": "fb0d4a792b13d3e7dc867d5b76709e9dd66971fcd42be9962a643bc1e7cc5b98",
+      "actuallyViewed": true,
+      "scope": "expanded-TOC-volume-boundaries-only-not-new-body-reading"
+    },
+    {
+      "pdfPage": 18,
+      "image": "v53/research/liuyao-hidden-spirits/images/zengshan-18.png",
+      "sha256": "5f8be8346744b02d9c88ed0a542fac88c5e90275670812810406c098f513de09",
+      "actuallyViewed": true,
+      "scope": "expanded-TOC-volume-boundaries-only-not-new-body-reading"
+    },
+    {
+      "pdfPage": 19,
+      "image": "v53/research/liuyao-hidden-spirits/images/zengshan-19.png",
+      "sha256": "2fe54dbe9c3e6bbe5213db6a1954c310f2517df0f3c9b71493c97dc202559076",
+      "actuallyViewed": true,
+      "scope": "expanded-TOC-volume-boundaries-only-not-new-body-reading"
+    }
+  ],
+  "bodyReadings": [
+    {
+      "pdfPage": 141,
+      "image": "zengshan-141.png",
+      "sha256": "a710060044b20ab858269ae91a91e1a4ea12e61268634b3107a00551051f6017",
+      "actuallyViewed": true,
+      "scope": "publisher-logo-only"
+    },
+    {
+      "pdfPage": 142,
+      "image": "zengshan-142.png",
+      "sha256": "3b0df5e84d055c1476e53703ed1408b79314aac269bf5de383737e1973fd23ea",
+      "actuallyViewed": true,
+      "scope": "middle-book-cover-only"
+    },
+    {
+      "pdfPage": 143,
+      "image": "zengshan-143.png",
+      "sha256": "2028bc43eb13a7c95400907e6d46bd1dce32a67440f73908d8e393d50af41a93",
+      "actuallyViewed": true,
+      "scope": "direct-volume3/chapter34-opening-and-bounded-first-pass"
+    },
+    {
+      "pdfPage": 144,
+      "image": "zengshan-144.png",
+      "sha256": "8804e3495c3c42d9d0a6fd4dd3f7f34fe4f73474ca6d6542fd686c958d8cc7d8",
+      "actuallyViewed": true,
+      "scope": "chapter34-bounded-continuation"
+    },
+    {
+      "pdfPage": 145,
+      "image": "zengshan-145.png",
+      "sha256": "be12251e7e78f4e0fc8a920acfb0467b4b7f6973b3fb035efcb9800f7d9853bf",
+      "actuallyViewed": true,
+      "scope": "chapter34-bounded-continuation"
+    },
+    {
+      "pdfPage": 146,
+      "image": "zengshan-146.png",
+      "sha256": "099d4c82c478ec4392280e92bae22431bb658c7ba4d207db970478e5633ea897",
+      "actuallyViewed": true,
+      "scope": "chapter34-bounded-continuation"
+    }
+  ],
+  "directVolume3Opening": {
+    "pdfPage": 143,
+    "reading": "增刪卜易卷三 / 增刪黃金策千金賦第三十四"
+  },
+  "chapter34PartialReadPages": [
+    143,
+    144,
+    145,
+    146
+  ],
+  "chapter34EntireSpanRead": false,
+  "chapter34AuthorNameFormsNotIndependentlyVerified": true,
+  "chapter34EndNotYetLocated": true,
+  "newHTTPBodies": 0,
+  "newOriginalPDFs": 0,
+  "wholeCatalogueCompleted": false
+}

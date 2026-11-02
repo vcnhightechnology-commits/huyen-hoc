@@ -1,0 +1,53 @@
+{
+  "scope": "v53/qa/tuvi-lower-printed-cases",
+  "files": [
+    {
+      "file": "v53/qa/tuvi-lower-printed-cases/REFERENCE_RESULTS.json",
+      "bytes": 33183,
+      "sha256": "444e5919de01c30f083e11192bfcfd5e4ee16838eb956a151ef03a2ac90c3f8d",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/444e5919de01c30f083e11192bfcfd5e4ee16838eb956a151ef03a2ac90c3f8d",
+      "httpRange": {
+        "offset": 174426297,
+        "compressedBytes": 3116,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/tuvi-lower-printed-cases/RELEASE_RESULTS.json",
+      "bytes": 1397,
+      "sha256": "aad22b0ecf7a3881903aef65d76b0c18079bd8bacbc9effbfc48c11bb2631eb0",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/aad22b0ecf7a3881903aef65d76b0c18079bd8bacbc9effbfc48c11bb2631eb0",
+      "httpRange": {
+        "offset": 271236039,
+        "compressedBytes": 684,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/tuvi-lower-printed-cases/SOURCE_RESULTS.json",
+      "bytes": 907,
+      "sha256": "9ecb9b0d221b957b0fd7e0bc92931deb0178f9928ac443392a385864e93bdf20",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9ecb9b0d221b957b0fd7e0bc92931deb0178f9928ac443392a385864e93bdf20",
+      "httpRange": {
+        "offset": 138344338,
+        "compressedBytes": 481,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/tuvi-lower-printed-cases/VERIFIER_PREPARATION_AUDIT.json",
+      "bytes": 256,
+      "sha256": "efd64ae504421fa7745c7a4c2b4fc5031d6d0916249cc5d3a19e4be72f7ce370",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/efd64ae504421fa7745c7a4c2b4fc5031d6d0916249cc5d3a19e4be72f7ce370",
+      "httpRange": {
+        "offset": 132923624,
+        "compressedBytes": 183,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

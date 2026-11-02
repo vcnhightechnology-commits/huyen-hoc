@@ -1,0 +1,23 @@
+PASS No year overview is invented before a target date is selected
+PASS Leap year 2025 has 14 reading intervals with separate first and second halves of leap six
+PASS Clicking the second leap interval selects its exact first civil date and changes the monthly palace
+PASS Month navigation preserves an open overview, one active interval and keyboard focus
+PASS TXT includes all months and both leap intervals even when the overview is collapsed
+PASS TXT export restores the user’s collapsed overview state
+PASS Real browser PDF printing opens the complete year overview and then restores its collapsed state
+PASS January 1 overview follows lunar year 2025 instead of the Gregorian year
+PASS Ordinary lunar year 2026 has exactly 12 chronological months
+PASS A saved profile opened after changing year recomputes its selected leap interval
+PASS Changing to same clears the old year overview
+PASS same uses a single leap-month interval and keeps an explicit policy label
+PASS Changing to next clears the old year overview
+PASS next uses a single leap-month interval and keeps an explicit policy label
+PASS Calendar-sensitive intervals are visibly unavailable and cannot change the selected day
+PASS End-of-range months show a readable limit instead of a link into 2101
+PASS Birth-year view disables earlier months and begins its partial birth month on the birth date
+PASS 320px month overview fits the viewport with usable buttons
+PASS 390px month overview fits the viewport with usable buttons
+PASS 768px month overview fits the viewport with usable buttons
+PASS 1440px month overview fits the viewport with usable buttons
+PASS Standalone year navigation has no JavaScript errors, HTTP dependencies or private source panels
+22/22 passed

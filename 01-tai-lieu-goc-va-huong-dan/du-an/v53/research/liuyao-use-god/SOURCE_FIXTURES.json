@@ -1,0 +1,108 @@
+{
+  "date": "2026-10-27",
+  "cases": [
+    {
+      "id": "need-to-conflict",
+      "pdfPage": 48,
+      "values": [
+        9,
+        7,
+        9,
+        6,
+        7,
+        6
+      ],
+      "number": 5,
+      "changedNumber": 6,
+      "movingLines": [
+        1,
+        3,
+        4,
+        6
+      ],
+      "meaning": "Four moving glyphs;line5戌土explicitlystaticinprose. Originalpalace土basisretained;notanewforecastfixture."
+    },
+    {
+      "id": "qian-coactive-chain",
+      "pdfPages": [
+        50,
+        51
+      ],
+      "values": [
+        7,
+        7,
+        7,
+        9,
+        7,
+        7
+      ],
+      "number": 1,
+      "changedNumber": 9,
+      "useLine": 3,
+      "expectedUseElement": "土",
+      "originLine": 4,
+      "opposingLine": 2,
+      "originElement": "火",
+      "opposingElement": "木",
+      "sourceContext": {
+        "monthBranch": "辰",
+        "dayBranch": "申",
+        "sourceDarkMovementLine": 2
+      },
+      "sourceInterpretation": "寅wood→午fire→辰earthchain;calendar/darkmovementisassertedfromtheprintedexample,notautoderivedhere."
+    },
+    {
+      "id": "dui-to-jie",
+      "pdfPage": 52,
+      "values": [
+        9,
+        7,
+        8,
+        7,
+        9,
+        8
+      ],
+      "number": 58,
+      "changedNumber": 40,
+      "useLine": 2,
+      "originLine": 4,
+      "sourceContext": {
+        "monthBranch": "酉",
+        "dayGanzhi": "辛卯"
+      },
+      "meaning": "Printed日辛卯conflictswithlater卯財空/changed寅財空proseunderthestandard甲申旬午未空rule. Keepdate/proseconflictopen;do not infer dark movement of亥waterline4fromthisexample."
+    },
+    {
+      "id": "da-guo-origin-no-root",
+      "pdfPage": 54,
+      "values": [
+        8,
+        7,
+        7,
+        7,
+        9,
+        6
+      ],
+      "number": 28,
+      "changedNumber": 50,
+      "useLine": 4,
+      "originLine": 5,
+      "opposingLine": 6,
+      "sourceContext": {
+        "monthBranch": "巳",
+        "dayGanzhi": "乙未"
+      },
+      "meaning": "大過→鼎:亥wateruse,酉metaloriginactive,and未earthopposingactive;sourcequalifies用神根/月破/日沖,notjustpresenceoforigin."
+    }
+  ],
+  "structuralFixturesNotValidatedHistoricalOutcomes": true,
+  "sourceDateConflict": {
+    "pdfPage": 52,
+    "dateAsRead": "酉月辛卯日",
+    "laterProse": "卯木財爻空而且破;巳火化空afterchangingto寅wood",
+    "standardCycleDay": "辛卯belongs to甲申旬with午未void,not寅卯void",
+    "status": "source-date-vs-void-prose-unresolved",
+    "possibleAlternative": "辛亥wouldbeinthe甲辰旬with寅卯void,buttheprintedimagewasread辛卯. Thisisahypothesis,notsilentcorrection.",
+    "consumerChanged": false
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-25T17:42:30.682Z",
+  "checks": [
+    {
+      "name": "Selected same month convention is explicitly visible with its birth/target scope",
+      "ok": true
+    },
+    {
+      "name": "Selected next month convention is explicitly visible with its birth/target scope",
+      "ok": true
+    },
+    {
+      "name": "Selected split16 month convention is explicitly visible with its birth/target scope",
+      "ok": true
+    },
+    {
+      "name": "TXT retains selected leap policy and late-Ty policy with date and actual period results",
+      "ok": true
+    },
+    {
+      "name": "Changing an input convention invalidates every stale period result",
+      "ok": true
+    },
+    {
+      "name": "Opening the saved profile restores both selected policies and recomputes the same target",
+      "ok": true
+    },
+    {
+      "name": "Print retains policy labels while hiding both birth and target forms",
+      "ok": true
+    },
+    {
+      "name": "320px: longer explicit conventions wrap without page overflow",
+      "ok": true
+    },
+    {
+      "name": "390px: longer explicit conventions wrap without page overflow",
+      "ok": true
+    },
+    {
+      "name": "1440px: longer explicit conventions wrap without page overflow",
+      "ok": true
+    },
+    {
+      "name": "Legacy profiles without stored policy fields receive explicit existing defaults on recomputation",
+      "ok": true
+    },
+    {
+      "name": "No source/corpus panels, HTTP requests or JavaScript errors reach the consumer flow",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "requests": []
+}

@@ -1,0 +1,33 @@
+{
+  "frozenAtUTC": "2026-10-29T17:05:20.951451+00:00",
+  "scope": "Selected C13 premises and manual expected cases, before reference implementation",
+  "files": [
+    {
+      "file": "tmp/bazi-food-strength-staging/MANUAL_PREMISES.json",
+      "bytes": 3600,
+      "sha256": "2a539b635a3a9be7cf0933577f87c47fb64d61c2cc80847b6aa7d57661e6e255"
+    },
+    {
+      "file": "tmp/bazi-food-strength-staging/DECLARED_FRAME.json",
+      "bytes": 1534,
+      "sha256": "65bbbd0173a526bb972854f1e4971ec37bf187b3d5f7e19884270c957c7b6a8f"
+    },
+    {
+      "file": "tmp/bazi-food-strength-staging/EXPECTED_CASES.json",
+      "bytes": 4344,
+      "sha256": "21f1a76c53d2b3143891f47c317f5842cdc52af4f1d50d0af2d3f7ecd3bb96d2"
+    },
+    {
+      "file": "tmp/bazi-food-strength-staging/REUSE_IDENTITIES.json",
+      "bytes": 2064,
+      "sha256": "63d2263b80910a30803ae5f7b2094c27aeef9a34786cdee47c2e496a15a9e920"
+    },
+    {
+      "file": "tmp/bazi-food-strength-staging/SOURCE_IDENTITIES.json",
+      "bytes": 846,
+      "sha256": "0e282ab722f9c9868b2b00c71322447e3f54993e2322a5e56996b4c850818e7b"
+    }
+  ],
+  "referenceImplementationAbsentAtFreeze": true,
+  "wholeContextApplied": false
+}

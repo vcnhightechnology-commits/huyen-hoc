@@ -1,0 +1,68 @@
+{
+  "records": [
+    {
+      "page": 20,
+      "raw": {
+        "file": "p20.png",
+        "bytes": 262227,
+        "sha256": "bdf977820b82966d5b82f27cb8dd1869c4143f09137fee36ca7e655c12be5645"
+      },
+      "crop": {
+        "file": "p20-three-official-regions.png",
+        "bytes": 175171,
+        "sha256": "83ebbe609d4afd85360bd4a6742b07fb5e36ee3715a8c827a53bd9fbc8c10552"
+      },
+      "boxXYXY": [
+        300,
+        310,
+        2030,
+        2870
+      ],
+      "actuallyViewed": true,
+      "accepted": true
+    },
+    {
+      "page": 21,
+      "raw": {
+        "file": "p21.png",
+        "bytes": 270014,
+        "sha256": "fc6fbbeb1a3f7e397889a1d099ce30c10ae328550efc7a33a065a390453510d5"
+      },
+      "crop": {
+        "file": "p21-true-element-original-stem.png",
+        "bytes": 194587,
+        "sha256": "d5eff1bbe1eeb5b44123344fce5b0d6396c5742c9fe43bcebb8ec125658cb0b6"
+      },
+      "boxXYXY": [
+        290,
+        300,
+        2050,
+        2860
+      ],
+      "actuallyViewed": true,
+      "accepted": true
+    },
+    {
+      "page": 22,
+      "raw": {
+        "file": "p22.png",
+        "bytes": 271182,
+        "sha256": "797cd8e90d3ce8ff5a9650a74fd25e4e6c8796a9982de0d8a8b11331136b8950"
+      },
+      "crop": {
+        "file": "p22-true-ghost-conclusion.png",
+        "bytes": 35136,
+        "sha256": "ab7da9bf5489f0e983286308cbfa8f58967945812595068483a621493ad9e29a"
+      },
+      "boxXYXY": [
+        1730,
+        300,
+        2050,
+        2860
+      ],
+      "actuallyViewed": true,
+      "accepted": true
+    }
+  ],
+  "note": "New private working files after the current release package input list was frozen; not part of that release."
+}

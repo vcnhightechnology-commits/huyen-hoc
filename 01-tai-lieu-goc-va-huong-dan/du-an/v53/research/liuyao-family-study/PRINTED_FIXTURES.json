@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-28",
+  "fixtures": [
+    {
+      "id": "B02-259-Yi-to-Guan",
+      "sourcePDFPage": 259,
+      "primaryHan": "益",
+      "changedHan": "觀",
+      "primary": 42,
+      "changed": 20,
+      "valuesBottomToTop": [
+        9,
+        8,
+        8,
+        8,
+        7,
+        7
+      ],
+      "movingLines": [
+        1
+      ],
+      "sourceBaseLabelsBottomToTop": [
+        {
+          "branch": "子",
+          "kin": "父母"
+        },
+        {
+          "branch": "寅",
+          "kin": "兄弟"
+        },
+        {
+          "branch": "辰",
+          "kin": "妻財"
+        },
+        {
+          "branch": "未",
+          "kin": "妻財"
+        },
+        {
+          "branch": "巳",
+          "kin": "子孫"
+        },
+        {
+          "branch": "卯",
+          "kin": "兄弟"
+        }
+      ],
+      "sourceChangedLabels": [
+        {
+          "line": 1,
+          "branch": "未",
+          "kin": "妻財"
+        }
+      ],
+      "sourceSelfLine": 3,
+      "sourceResponseLine": 6,
+      "historicalDayLabel": "酉月丙子日",
+      "historicalDateMappedToGregorian": false,
+      "sourceOutcomeValidated": false
+    }
+  ]
+}

@@ -1,0 +1,65 @@
+{
+  "date": "2026-10-28",
+  "issue": "RGBAgetbboxdefaultmaytestalphaonly;equalalpha0afterdiffcanhideRGBdifferences.",
+  "positiveTamperControl": {
+    "RGBChangeDetected": true,
+    "RGBAdefaultWouldMiss": true
+  },
+  "correctedMethod": "ConvertbothsourceregionandcroptoRGBbeforeImageChopsdifference/getbbox.",
+  "earlierRelatedCropsRechecked": [
+    {
+      "scope": "B03triad",
+      "sourceFile": "v53/research/liuyao-b03-triad-clause/b03-book2-p39-360dpi.png",
+      "cropFile": "v53/research/liuyao-b03-triad-clause/p39-triad-clause-crop.png",
+      "cropSHA256": "1a2785d1c9741d817027e676f19a055c830f54eb786c657407439af3013059ce",
+      "RGBPixelMatch": true
+    },
+    {
+      "scope": "B03triad",
+      "sourceFile": "v53/research/liuyao-b03-triad-clause/b03-book2-p39-360dpi.png",
+      "cropFile": "v53/research/liuyao-b03-triad-clause/p39-condition-columns-native.png",
+      "cropSHA256": "f594cb76fabf9c7cb9e6fafc58052a4492a3033c7da780d7a18e9180c7d665f4",
+      "RGBPixelMatch": true
+    },
+    {
+      "scope": "B03triad",
+      "sourceFile": "v53/research/liuyao-b03-triad-clause/b03-book2-p39-360dpi.png",
+      "cropFile": "v53/research/liuyao-b03-triad-clause/p39-groups-columns-native.png",
+      "cropSHA256": "0709e0e577f6d7eb97e564663c1e67b021b3cadbeb8b49b34baecc3f8966d772",
+      "RGBPixelMatch": true
+    },
+    {
+      "scope": "B03triad",
+      "sourceFile": "v53/research/liuyao-b03-triad-clause/b03-book2-p39-360dpi.png",
+      "cropFile": "v53/research/liuyao-b03-triad-clause/p39-moving-threshold-native.png",
+      "cropSHA256": "3f93e3b686a9ae867b1c272f12210784a45253dd8d4a318153994486f5466991",
+      "RGBPixelMatch": true
+    },
+    {
+      "scope": "BaziPillars",
+      "sourceFile": "v53/research/bazi-food-source/p177.png",
+      "cropFile": "v53/research/bazi-food-six-pillars/p177-right-native.png",
+      "cropSHA256": "3b3fcdd2b7d34ccfcf99e3d5f6b78c6dc02641bf270272f795ed6bc68e82381d",
+      "RGBPixelMatch": true
+    },
+    {
+      "scope": "BaziPillars",
+      "sourceFile": "v53/research/bazi-food-source/p177.png",
+      "cropFile": "v53/research/bazi-food-six-pillars/p177-middle-native.png",
+      "cropSHA256": "26127cc7a0412ba1d82c16af0a8dce17bc1e58aad6324f25a73341e456b4b622",
+      "RGBPixelMatch": true
+    },
+    {
+      "scope": "BaziPillars",
+      "sourceFile": "v53/research/bazi-food-source/p177.png",
+      "cropFile": "v53/research/bazi-food-six-pillars/p177-left-native.png",
+      "cropSHA256": "a7f14736443e869c41381c7773ad6cb5394c2ccd79830dd68eae94d2f7908a29",
+      "RGBPixelMatch": true
+    }
+  ],
+  "earlierCropsRGBPixelMatched": 7,
+  "currentCropsRGBPixelMatched": 8,
+  "newRuntimeChartCalls": 0,
+  "consumerAffected": false,
+  "remainingAudit": "OtherhistoricRGBAcropverifiersmayneedhardenedRGBchecks;notclaimallhistoricverificationlogicfixed."
+}

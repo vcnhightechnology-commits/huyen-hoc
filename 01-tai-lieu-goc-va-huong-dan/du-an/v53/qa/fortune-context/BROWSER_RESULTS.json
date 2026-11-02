@@ -1,0 +1,103 @@
+{
+  "date": "2026-10-26T06:28:35.172Z",
+  "checks": [
+    {
+      "name": "Period context is not fabricated before a date is selected",
+      "ok": true
+    },
+    {
+      "name": "Three selected period cards show three explicitly labelled natal contexts",
+      "ok": true
+    },
+    {
+      "name": "Visible names, statuses and annual notes match actual chart membership",
+      "ok": true
+    },
+    {
+      "name": "Year-specific transformations and natal stars are clearly separated in the reading",
+      "ok": true
+    },
+    {
+      "name": "Editing a reference date immediately clears all previous context",
+      "ok": true
+    },
+    {
+      "name": "A different year updates the correct contexts without changing the natal chart",
+      "ok": true
+    },
+    {
+      "name": "Long star interpretations start collapsed while their names and statuses stay visible",
+      "ok": true
+    },
+    {
+      "name": "TXT retains natal-star context, year scope and the selected date",
+      "ok": true
+    },
+    {
+      "name": "TXT expands the star interpretation temporarily and restores its compact state",
+      "ok": true
+    },
+    {
+      "name": "Reopened profile recomputes the saved year and its actual contexts",
+      "ok": true
+    },
+    {
+      "name": "A palace without major stars explicitly identifies an opposite reference without moving its stars",
+      "ok": true
+    },
+    {
+      "name": "Before the first major period, only year and month receive real natal contexts",
+      "ok": true
+    },
+    {
+      "name": "Selecting an overview month recomputes both date and star context",
+      "ok": true
+    },
+    {
+      "name": "320px: expanded period reading fits the viewport",
+      "ok": true,
+      "detail": {
+        "page": 320,
+        "width": 320
+      }
+    },
+    {
+      "name": "390px: expanded period reading fits the viewport",
+      "ok": true,
+      "detail": {
+        "page": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "768px: expanded period reading fits the viewport",
+      "ok": true,
+      "detail": {
+        "page": 768,
+        "width": 768
+      }
+    },
+    {
+      "name": "1440px: expanded period reading fits the viewport",
+      "ok": true,
+      "detail": {
+        "page": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "name": "Print retains all three natal contexts and hides period-editing controls",
+      "ok": true
+    },
+    {
+      "name": "The public standalone reading exposes no source panels and makes no external requests",
+      "ok": true,
+      "detail": {
+        "errors": [],
+        "requests": []
+      }
+    }
+  ],
+  "errors": [],
+  "requests": []
+}

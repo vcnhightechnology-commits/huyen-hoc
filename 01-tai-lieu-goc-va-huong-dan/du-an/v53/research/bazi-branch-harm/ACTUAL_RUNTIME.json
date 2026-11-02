@@ -1,0 +1,111 @@
+{
+  "executedUTC": "2026-10-29T13:08:54.813Z",
+  "libraryFile": "v46/node_modules/lunar-typescript/dist/index.cjs",
+  "libraryVersion": "1.8.6",
+  "librarySHA256": "76e490b74e9913ed94b49689b90abc688ed1e2b11456312b3eb081ec63cf2fbe",
+  "scriptSHA256": "34f7d9532a68e5143dcbfa9aea857bcf9b436e808745bdab1482e15efa7aacae",
+  "freezeSHA256": "2c48bf19af9e31d5e28a08a4c0d1dfb4f7ebbe6373f7353bc9ecf2645a17d502",
+  "method": "Execute retained official lunar-typescript CHONG table12 times, plus2 NAYIN and2 WU_XING_GAN queries for the exact source pillars. Reuse retained12 HE_ZHI_6 results rather than querying them again.",
+  "clashes": [
+    {
+      "branch": "子",
+      "index": 0,
+      "expected": "午",
+      "actual": "午"
+    },
+    {
+      "branch": "丑",
+      "index": 1,
+      "expected": "未",
+      "actual": "未"
+    },
+    {
+      "branch": "寅",
+      "index": 2,
+      "expected": "申",
+      "actual": "申"
+    },
+    {
+      "branch": "卯",
+      "index": 3,
+      "expected": "酉",
+      "actual": "酉"
+    },
+    {
+      "branch": "辰",
+      "index": 4,
+      "expected": "戌",
+      "actual": "戌"
+    },
+    {
+      "branch": "巳",
+      "index": 5,
+      "expected": "亥",
+      "actual": "亥"
+    },
+    {
+      "branch": "午",
+      "index": 6,
+      "expected": "子",
+      "actual": "子"
+    },
+    {
+      "branch": "未",
+      "index": 7,
+      "expected": "丑",
+      "actual": "丑"
+    },
+    {
+      "branch": "申",
+      "index": 8,
+      "expected": "寅",
+      "actual": "寅"
+    },
+    {
+      "branch": "酉",
+      "index": 9,
+      "expected": "卯",
+      "actual": "卯"
+    },
+    {
+      "branch": "戌",
+      "index": 10,
+      "expected": "辰",
+      "actual": "辰"
+    },
+    {
+      "branch": "亥",
+      "index": 11,
+      "expected": "巳",
+      "actual": "巳"
+    }
+  ],
+  "pillars": [
+    {
+      "pillar": "乙酉",
+      "naYin": "泉中水",
+      "stemElement": "木",
+      "actualNaYin": "泉中水",
+      "actualStemElement": "木"
+    },
+    {
+      "pillar": "戊戌",
+      "naYin": "平地木",
+      "stemElement": "土",
+      "actualNaYin": "平地木",
+      "actualStemElement": "土"
+    }
+  ],
+  "reusedUnionEvidence": {
+    "file": "v53/research/bazi-branch-union/ACTUAL_RUNTIME.json",
+    "sha256": "21de1fd5a53a9608483fd4b193d889835b93e8b5dea96a0139e458690f19ec7f",
+    "queriesRerun": 0
+  },
+  "actualNewClashQueries": 12,
+  "actualNewNaYinQueries": 2,
+  "actualNewStemElementQueries": 2,
+  "actualCalendarObjects": 0,
+  "actualNatalCharts": 0,
+  "sourceTrueMetalFireMeaningAdjudicated": false,
+  "sourceEfficacyValidated": false
+}

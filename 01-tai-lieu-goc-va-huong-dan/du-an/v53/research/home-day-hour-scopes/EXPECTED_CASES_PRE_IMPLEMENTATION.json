@@ -1,0 +1,468 @@
+{
+  "date": "2026-10-29",
+  "preparedBeforeModule": true,
+  "cases": [
+    {
+      "function": "day",
+      "id": "spring",
+      "input": {
+        "system": "ITKC-GO1508A.日論.two-declared-patterns.v1",
+        "rule": "tiandi-turn",
+        "timeBasis": "declared-source-frame",
+        "sourceMonth": 2,
+        "sourceSeason": "spring",
+        "dayBranch": "卯",
+        "sourceMonthClass": null,
+        "dayOfficer": null
+      },
+      "expected": {
+        "sourcePatternMatched": true
+      }
+    },
+    {
+      "function": "day",
+      "id": "summer",
+      "input": {
+        "system": "ITKC-GO1508A.日論.two-declared-patterns.v1",
+        "rule": "tiandi-turn",
+        "timeBasis": "declared-source-frame",
+        "sourceMonth": 5,
+        "sourceSeason": "summer",
+        "dayBranch": "午",
+        "sourceMonthClass": null,
+        "dayOfficer": null
+      },
+      "expected": {
+        "sourcePatternMatched": true
+      }
+    },
+    {
+      "function": "day",
+      "id": "autumn",
+      "input": {
+        "system": "ITKC-GO1508A.日論.two-declared-patterns.v1",
+        "rule": "tiandi-turn",
+        "timeBasis": "declared-source-frame",
+        "sourceMonth": 8,
+        "sourceSeason": "autumn",
+        "dayBranch": "酉",
+        "sourceMonthClass": null,
+        "dayOfficer": null
+      },
+      "expected": {
+        "sourcePatternMatched": true
+      }
+    },
+    {
+      "function": "day",
+      "id": "winter",
+      "input": {
+        "system": "ITKC-GO1508A.日論.two-declared-patterns.v1",
+        "rule": "tiandi-turn",
+        "timeBasis": "declared-source-frame",
+        "sourceMonth": 11,
+        "sourceSeason": "winter",
+        "dayBranch": "子",
+        "sourceMonthClass": null,
+        "dayOfficer": null
+      },
+      "expected": {
+        "sourcePatternMatched": true
+      }
+    },
+    {
+      "function": "day",
+      "id": "wrong-branch",
+      "input": {
+        "system": "ITKC-GO1508A.日論.two-declared-patterns.v1",
+        "rule": "tiandi-turn",
+        "timeBasis": "declared-source-frame",
+        "sourceMonth": 2,
+        "sourceSeason": "spring",
+        "dayBranch": "辰",
+        "sourceMonthClass": null,
+        "dayOfficer": null
+      },
+      "expected": {
+        "sourcePatternMatched": false
+      }
+    },
+    {
+      "function": "day",
+      "id": "no-season",
+      "input": {
+        "system": "ITKC-GO1508A.日論.two-declared-patterns.v1",
+        "rule": "tiandi-turn",
+        "timeBasis": "declared-source-frame",
+        "sourceMonth": 2,
+        "sourceSeason": null,
+        "dayBranch": "卯",
+        "sourceMonthClass": null,
+        "dayOfficer": null
+      },
+      "expected": {
+        "sourcePatternMatched": null
+      }
+    },
+    {
+      "function": "day",
+      "id": "assumed-month",
+      "input": {
+        "system": "ITKC-GO1508A.日論.two-declared-patterns.v1",
+        "rule": "tiandi-turn",
+        "timeBasis": "numeric-lunar-month",
+        "sourceMonth": 2,
+        "sourceSeason": "spring",
+        "dayBranch": "卯",
+        "sourceMonthClass": null,
+        "dayOfficer": null
+      },
+      "expected": {
+        "sourcePatternMatched": null
+      }
+    },
+    {
+      "function": "day",
+      "id": "meng",
+      "input": {
+        "system": "ITKC-GO1508A.日論.two-declared-patterns.v1",
+        "rule": "tianzei",
+        "timeBasis": "declared-source-frame",
+        "sourceMonth": null,
+        "sourceSeason": null,
+        "dayBranch": null,
+        "sourceMonthClass": "meng",
+        "dayOfficer": "滿"
+      },
+      "expected": {
+        "sourcePatternMatched": true
+      }
+    },
+    {
+      "function": "day",
+      "id": "meng-wrong",
+      "input": {
+        "system": "ITKC-GO1508A.日論.two-declared-patterns.v1",
+        "rule": "tianzei",
+        "timeBasis": "declared-source-frame",
+        "sourceMonth": null,
+        "sourceSeason": null,
+        "dayBranch": null,
+        "sourceMonthClass": "meng",
+        "dayOfficer": "建"
+      },
+      "expected": {
+        "sourcePatternMatched": false
+      }
+    },
+    {
+      "function": "day",
+      "id": "zhong",
+      "input": {
+        "system": "ITKC-GO1508A.日論.two-declared-patterns.v1",
+        "rule": "tianzei",
+        "timeBasis": "declared-source-frame",
+        "sourceMonth": null,
+        "sourceSeason": null,
+        "dayBranch": null,
+        "sourceMonthClass": "zhong",
+        "dayOfficer": "破"
+      },
+      "expected": {
+        "sourcePatternMatched": true
+      }
+    },
+    {
+      "function": "day",
+      "id": "zhong-wrong",
+      "input": {
+        "system": "ITKC-GO1508A.日論.two-declared-patterns.v1",
+        "rule": "tianzei",
+        "timeBasis": "declared-source-frame",
+        "sourceMonth": null,
+        "sourceSeason": null,
+        "dayBranch": null,
+        "sourceMonthClass": "zhong",
+        "dayOfficer": "建"
+      },
+      "expected": {
+        "sourcePatternMatched": false
+      }
+    },
+    {
+      "function": "day",
+      "id": "ji",
+      "input": {
+        "system": "ITKC-GO1508A.日論.two-declared-patterns.v1",
+        "rule": "tianzei",
+        "timeBasis": "declared-source-frame",
+        "sourceMonth": null,
+        "sourceSeason": null,
+        "dayBranch": null,
+        "sourceMonthClass": "ji",
+        "dayOfficer": "開"
+      },
+      "expected": {
+        "sourcePatternMatched": true
+      }
+    },
+    {
+      "function": "day",
+      "id": "ji-wrong",
+      "input": {
+        "system": "ITKC-GO1508A.日論.two-declared-patterns.v1",
+        "rule": "tianzei",
+        "timeBasis": "declared-source-frame",
+        "sourceMonth": null,
+        "sourceSeason": null,
+        "dayBranch": null,
+        "sourceMonthClass": "ji",
+        "dayOfficer": "建"
+      },
+      "expected": {
+        "sourcePatternMatched": false
+      }
+    },
+    {
+      "function": "hour",
+      "id": "travel",
+      "input": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "hazard": "jielu",
+        "declaredHazardStatus": true,
+        "activity": "travel",
+        "generalHourPremisesConfirmed": null,
+        "readingMode": "unresolved"
+      },
+      "expected": {
+        "namedParagraphRestriction": true,
+        "combinedFinalRestriction": null
+      }
+    },
+    {
+      "function": "hour",
+      "id": "memorial",
+      "input": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "hazard": "jielu",
+        "declaredHazardStatus": true,
+        "activity": "memorial",
+        "generalHourPremisesConfirmed": null,
+        "readingMode": "unresolved"
+      },
+      "expected": {
+        "namedParagraphRestriction": true,
+        "combinedFinalRestriction": null
+      }
+    },
+    {
+      "function": "hour",
+      "id": "build",
+      "input": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "hazard": "jielu",
+        "declaredHazardStatus": true,
+        "activity": "build",
+        "generalHourPremisesConfirmed": null,
+        "readingMode": "unresolved"
+      },
+      "expected": {
+        "namedParagraphRestriction": false,
+        "combinedFinalRestriction": null
+      }
+    },
+    {
+      "function": "hour",
+      "id": "burial",
+      "input": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "hazard": "jielu",
+        "declaredHazardStatus": true,
+        "activity": "burial",
+        "generalHourPremisesConfirmed": null,
+        "readingMode": "unresolved"
+      },
+      "expected": {
+        "namedParagraphRestriction": false,
+        "combinedFinalRestriction": null
+      }
+    },
+    {
+      "function": "hour",
+      "id": "unlisted-marriage",
+      "input": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "hazard": "jielu",
+        "declaredHazardStatus": true,
+        "activity": "marriage",
+        "generalHourPremisesConfirmed": null,
+        "readingMode": "unresolved"
+      },
+      "expected": {
+        "namedParagraphRestriction": null,
+        "combinedFinalRestriction": null
+      }
+    },
+    {
+      "function": "hour",
+      "id": "unlisted-relocation",
+      "input": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "hazard": "jielu",
+        "declaredHazardStatus": true,
+        "activity": "relocation",
+        "generalHourPremisesConfirmed": null,
+        "readingMode": "unresolved"
+      },
+      "expected": {
+        "namedParagraphRestriction": null,
+        "combinedFinalRestriction": null
+      }
+    },
+    {
+      "function": "hour",
+      "id": "missing-status",
+      "input": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "hazard": "jielu",
+        "declaredHazardStatus": null,
+        "activity": "travel",
+        "generalHourPremisesConfirmed": null,
+        "readingMode": "unresolved"
+      },
+      "expected": {
+        "namedParagraphRestriction": null,
+        "combinedFinalRestriction": null
+      }
+    },
+    {
+      "function": "hour",
+      "id": "xun-marriage",
+      "input": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "hazard": "xunzhong",
+        "declaredHazardStatus": true,
+        "activity": "marriage",
+        "generalHourPremisesConfirmed": null,
+        "readingMode": "unresolved"
+      },
+      "expected": {
+        "namedParagraphRestriction": true,
+        "combinedFinalRestriction": null
+      }
+    },
+    {
+      "function": "hour",
+      "id": "xun-build",
+      "input": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "hazard": "xunzhong",
+        "declaredHazardStatus": true,
+        "activity": "build",
+        "generalHourPremisesConfirmed": null,
+        "readingMode": "unresolved"
+      },
+      "expected": {
+        "namedParagraphRestriction": true,
+        "combinedFinalRestriction": null
+      }
+    },
+    {
+      "function": "hour",
+      "id": "xun-burial-unlisted",
+      "input": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "hazard": "xunzhong",
+        "declaredHazardStatus": true,
+        "activity": "burial",
+        "generalHourPremisesConfirmed": null,
+        "readingMode": "unresolved"
+      },
+      "expected": {
+        "namedParagraphRestriction": null,
+        "combinedFinalRestriction": null
+      }
+    },
+    {
+      "function": "hour",
+      "id": "jielu-full-context",
+      "input": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "hazard": "jielu",
+        "declaredHazardStatus": true,
+        "activity": "travel",
+        "generalHourPremisesConfirmed": true,
+        "readingMode": "unresolved"
+      },
+      "expected": {
+        "conditionalGeneralOverrideClaim": true,
+        "combinedFinalRestriction": null
+      }
+    },
+    {
+      "function": "hour",
+      "id": "xun-printed",
+      "input": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "hazard": "xunzhong",
+        "declaredHazardStatus": true,
+        "activity": "travel",
+        "generalHourPremisesConfirmed": true,
+        "readingMode": "printed-ri"
+      },
+      "expected": {
+        "conditionalGeneralOverrideClaim": null,
+        "combinedFinalRestriction": null
+      }
+    },
+    {
+      "function": "hour",
+      "id": "xun-unresolved",
+      "input": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "hazard": "xunzhong",
+        "declaredHazardStatus": true,
+        "activity": "travel",
+        "generalHourPremisesConfirmed": true,
+        "readingMode": "unresolved"
+      },
+      "expected": {
+        "conditionalGeneralOverrideClaim": null,
+        "combinedFinalRestriction": null
+      }
+    },
+    {
+      "function": "hour",
+      "id": "xun-editorial",
+      "input": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "hazard": "xunzhong",
+        "declaredHazardStatus": true,
+        "activity": "travel",
+        "generalHourPremisesConfirmed": true,
+        "readingMode": "editorial-xun"
+      },
+      "expected": {
+        "conditionalGeneralOverrideClaim": true,
+        "combinedFinalRestriction": null
+      }
+    },
+    {
+      "function": "hour",
+      "id": "missing-full-context",
+      "input": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "hazard": "jielu",
+        "declaredHazardStatus": true,
+        "activity": "travel",
+        "generalHourPremisesConfirmed": null,
+        "readingMode": "unresolved"
+      },
+      "expected": {
+        "conditionalGeneralOverrideClaim": null,
+        "combinedFinalRestriction": null
+      }
+    }
+  ],
+  "sourceOutcomesNotValidated": true
+}

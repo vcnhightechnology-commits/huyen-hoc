@@ -1,0 +1,259 @@
+{
+  "checks": [
+    {
+      "name": "Third casting mode starts with blank components and no invented date",
+      "ok": true
+    },
+    {
+      "name": "Blank MaiHoa form reports validation instead of casting",
+      "ok": true
+    },
+    {
+      "name": "Printed plum example renders49→31,one moving line and ThểĐoài/DụngLy/Hỗ44",
+      "ok": true
+    },
+    {
+      "name": "Saving MaiHoa stores canonical inputs and versioned rules",
+      "ok": true
+    },
+    {
+      "name": "TXT retains input components,body/use/mutual and all six reflection positions",
+      "ok": true
+    },
+    {
+      "name": "Print keeps MaiHoa panel and complete six-line context and hides form",
+      "ok": true
+    },
+    {
+      "name": "Editing source components clears stale reading/export",
+      "ok": true
+    },
+    {
+      "name": "Printed peony example renders44→50,moving5,ThểTốn/DụngCàn/HỗCàn",
+      "ok": true
+    },
+    {
+      "name": "Count mode hides time fields and explicitly describes original-count convention",
+      "ok": true
+    },
+    {
+      "name": "Raw-count17+hour1 produces moving6 and pureCàn mutual-from-change note",
+      "ok": true
+    },
+    {
+      "name": "Fractional object count is rejected",
+      "ok": true
+    },
+    {
+      "name": "Saved count profile reopens after manual cast and restores visible fields and result",
+      "ok": true
+    },
+    {
+      "name": "Saved time profile restores exact lunar components and reflective result",
+      "ok": true
+    },
+    {
+      "name": "Entered leap-month convention is explicit in result and canonical saved input",
+      "ok": true
+    },
+    {
+      "name": "Current button uses explicit UTC+7 midnight and real lunar conversion at2026-02-17T05:00:00Z",
+      "ok": true,
+      "detail": {
+        "expected": {
+          "year": 7,
+          "month": 1,
+          "day": 1,
+          "hour": 7,
+          "leap": false
+        },
+        "actual": {
+          "year": 7,
+          "month": 1,
+          "day": 1,
+          "hour": 7,
+          "leap": false
+        }
+      }
+    },
+    {
+      "name": "Current button uses explicit UTC+7 midnight and real lunar conversion at2026-02-16T16:30:00Z",
+      "ok": true,
+      "detail": {
+        "expected": {
+          "year": 6,
+          "month": 12,
+          "day": 29,
+          "hour": 1,
+          "leap": false
+        },
+        "actual": {
+          "year": 6,
+          "month": 12,
+          "day": 29,
+          "hour": 1,
+          "leap": false
+        }
+      }
+    },
+    {
+      "name": "Current button uses explicit UTC+7 midnight and real lunar conversion at2026-02-16T17:30:00Z",
+      "ok": true,
+      "detail": {
+        "expected": {
+          "year": 7,
+          "month": 1,
+          "day": 1,
+          "hour": 1,
+          "leap": false
+        },
+        "actual": {
+          "year": 7,
+          "month": 1,
+          "day": 1,
+          "hour": 1,
+          "leap": false
+        }
+      }
+    },
+    {
+      "name": "Current button uses explicit UTC+7 midnight and real lunar conversion at2025-07-25T05:00:00Z",
+      "ok": true,
+      "detail": {
+        "expected": {
+          "year": 6,
+          "month": 6,
+          "day": 1,
+          "hour": 7,
+          "leap": true
+        },
+        "actual": {
+          "year": 6,
+          "month": 6,
+          "day": 1,
+          "hour": 7,
+          "leap": true
+        }
+      }
+    },
+    {
+      "name": "Calendar-review date is blocked by existing review guard",
+      "ok": true
+    },
+    {
+      "name": "320px: third selector,components,trigram cards and reading have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "390px: third selector,components,trigram cards and reading have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "width": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "768px: third selector,components,trigram cards and reading have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "width": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "1440px: third selector,components,trigram cards and reading have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "Legacy manual profile retains its original moving values and mode",
+      "ok": true
+    },
+    {
+      "name": "Legacy six-coin casting remains functional after reopening MaiHoa",
+      "ok": true
+    },
+    {
+      "name": "MaiHoa reopen recomputes derived lines instead of trusting stale saved values",
+      "ok": true
+    },
+    {
+      "name": "Unknown saved rule version is handled without an uncaught error or silent substitution",
+      "ok": true
+    },
+    {
+      "name": "Two sound groups reproduce printed44→57,moving4 and preserve order in reading",
+      "ok": true
+    },
+    {
+      "name": "Observed object/direction reproduces printed22→37,moving5 with explicit selected symbol and relative direction",
+      "ok": true
+    },
+    {
+      "name": "Direction-method TXT includes exact chosen symbol,direction,hour and full reflection",
+      "ok": true
+    },
+    {
+      "name": "320px: observed-symbol and eight-direction selectors fit",
+      "ok": true,
+      "detail": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "390px: observed-symbol and eight-direction selectors fit",
+      "ok": true,
+      "detail": {
+        "width": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "768px: observed-symbol and eight-direction selectors fit",
+      "ok": true,
+      "detail": {
+        "width": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "1440px: observed-symbol and eight-direction selectors fit",
+      "ok": true,
+      "detail": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "Saved sound method restores both original counts and hour after switching methods",
+      "ok": true
+    },
+    {
+      "name": "Saved observed-object method restores selected trigram,direction and result",
+      "ok": true
+    },
+    {
+      "name": "Consumer view has no research panels,source excerpts or provenance vocabulary",
+      "ok": true
+    },
+    {
+      "name": "No runtime JavaScript errors or HTTP requests",
+      "ok": true,
+      "detail": {
+        "errors": [],
+        "http": []
+      }
+    }
+  ],
+  "errors": [],
+  "http": [],
+  "pdfCreated": true
+}

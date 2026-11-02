@@ -1,0 +1,3750 @@
+{
+  "purpose": "Small per-scope source locators with hashes and HTTP byte ranges.",
+  "scopes": [
+    {
+      "scope": ".gitattributes",
+      "index": "collaboration/materials/file-index/.gitattributes.json",
+      "files": 1
+    },
+    {
+      "scope": ".gitignore",
+      "index": "collaboration/materials/file-index/.gitignore.json",
+      "files": 1
+    },
+    {
+      "scope": "AGENTS.md",
+      "index": "collaboration/materials/file-index/AGENTS.md.json",
+      "files": 1
+    },
+    {
+      "scope": "CURRENT_WORKING_FOLLOWUP.json",
+      "index": "collaboration/materials/file-index/CURRENT_WORKING_FOLLOWUP.json.json",
+      "files": 1
+    },
+    {
+      "scope": "EXHAUSTIVE_WORK_STATE.json",
+      "index": "collaboration/materials/file-index/EXHAUSTIVE_WORK_STATE.json.json",
+      "files": 1
+    },
+    {
+      "scope": "Huyen_Hoc_Cac.html",
+      "index": "collaboration/materials/file-index/Huyen_Hoc_Cac.html.json",
+      "files": 1
+    },
+    {
+      "scope": "PENDING_RESEARCH_STATE.json",
+      "index": "collaboration/materials/file-index/PENDING_RESEARCH_STATE.json.json",
+      "files": 1
+    },
+    {
+      "scope": "POST_RELEASE_WORKING_FOLLOWUP.json",
+      "index": "collaboration/materials/file-index/POST_RELEASE_WORKING_FOLLOWUP.json.json",
+      "files": 1
+    },
+    {
+      "scope": "PROJECT_RESEARCH_STATE.md",
+      "index": "collaboration/materials/file-index/PROJECT_RESEARCH_STATE.md.json",
+      "files": 1
+    },
+    {
+      "scope": "README.md",
+      "index": "collaboration/materials/file-index/README.md.json",
+      "files": 1
+    },
+    {
+      "scope": "STORAGE_POLICY.md",
+      "index": "collaboration/materials/file-index/STORAGE_POLICY.md.json",
+      "files": 1
+    },
+    {
+      "scope": "WORK_RESUME.md",
+      "index": "collaboration/materials/file-index/WORK_RESUME.md.json",
+      "files": 1
+    },
+    {
+      "scope": "collaboration",
+      "index": "collaboration/materials/file-index/collaboration.json",
+      "files": 2
+    },
+    {
+      "scope": "collaboration/working-source/tmp",
+      "index": "collaboration/materials/file-index/collaboration--working-source--tmp.json",
+      "files": 87
+    },
+    {
+      "scope": "design-research",
+      "index": "collaboration/materials/file-index/design-research.json",
+      "files": 6
+    },
+    {
+      "scope": "design-research/2026-10-25/evidence",
+      "index": "collaboration/materials/file-index/design-research--2026-10-25--evidence.json",
+      "files": 28
+    },
+    {
+      "scope": "maintenance",
+      "index": "collaboration/materials/file-index/maintenance.json",
+      "files": 31
+    },
+    {
+      "scope": "recovery",
+      "index": "collaboration/materials/file-index/recovery.json",
+      "files": 59
+    },
+    {
+      "scope": "recovery/2026-10-29_HKO_iztro/project_state",
+      "index": "collaboration/materials/file-index/recovery--2026-10-29_HKO_iztro--project_state.json",
+      "files": 6
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/00",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--00.json",
+      "files": 32
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/01",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--01.json",
+      "files": 38
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/02",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--02.json",
+      "files": 38
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/03",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--03.json",
+      "files": 32
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/04",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--04.json",
+      "files": 34
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/05",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--05.json",
+      "files": 47
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/06",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--06.json",
+      "files": 32
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/07",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--07.json",
+      "files": 40
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/08",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--08.json",
+      "files": 28
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/09",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--09.json",
+      "files": 54
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/0a",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--0a.json",
+      "files": 31
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/0b",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--0b.json",
+      "files": 39
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/0c",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--0c.json",
+      "files": 39
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/0d",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--0d.json",
+      "files": 26
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/0e",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--0e.json",
+      "files": 41
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/0f",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--0f.json",
+      "files": 33
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/10",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--10.json",
+      "files": 37
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/11",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--11.json",
+      "files": 38
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/12",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--12.json",
+      "files": 40
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/13",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--13.json",
+      "files": 35
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/14",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--14.json",
+      "files": 44
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/15",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--15.json",
+      "files": 26
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/16",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--16.json",
+      "files": 43
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/17",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--17.json",
+      "files": 46
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/18",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--18.json",
+      "files": 49
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/19",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--19.json",
+      "files": 38
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/1a",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--1a.json",
+      "files": 38
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/1b",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--1b.json",
+      "files": 38
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/1c",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--1c.json",
+      "files": 37
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/1d",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--1d.json",
+      "files": 37
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/1e",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--1e.json",
+      "files": 39
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/1f",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--1f.json",
+      "files": 44
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/20",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--20.json",
+      "files": 47
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/21",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--21.json",
+      "files": 38
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/22",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--22.json",
+      "files": 42
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/23",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--23.json",
+      "files": 40
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/24",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--24.json",
+      "files": 38
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/25",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--25.json",
+      "files": 40
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/26",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--26.json",
+      "files": 41
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/27",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--27.json",
+      "files": 38
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/28",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--28.json",
+      "files": 46
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/29",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--29.json",
+      "files": 48
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/2a",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--2a.json",
+      "files": 36
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/2b",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--2b.json",
+      "files": 36
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/2c",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--2c.json",
+      "files": 40
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/2d",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--2d.json",
+      "files": 32
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/2e",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--2e.json",
+      "files": 50
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/2f",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--2f.json",
+      "files": 38
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/30",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--30.json",
+      "files": 39
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/31",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--31.json",
+      "files": 32
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/32",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--32.json",
+      "files": 45
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/33",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--33.json",
+      "files": 33
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/34",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--34.json",
+      "files": 42
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/35",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--35.json",
+      "files": 34
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/36",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--36.json",
+      "files": 46
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/37",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--37.json",
+      "files": 28
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/38",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--38.json",
+      "files": 32
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/39",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--39.json",
+      "files": 34
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/3a",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--3a.json",
+      "files": 41
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/3b",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--3b.json",
+      "files": 43
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/3c",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--3c.json",
+      "files": 32
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/3d",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--3d.json",
+      "files": 40
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/3e",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--3e.json",
+      "files": 32
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/3f",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--3f.json",
+      "files": 37
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/40",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--40.json",
+      "files": 38
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/41",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--41.json",
+      "files": 32
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/42",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--42.json",
+      "files": 40
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/43",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--43.json",
+      "files": 42
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/44",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--44.json",
+      "files": 38
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/45",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--45.json",
+      "files": 50
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/46",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--46.json",
+      "files": 32
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/47",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--47.json",
+      "files": 50
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/48",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--48.json",
+      "files": 43
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/49",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--49.json",
+      "files": 40
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/4a",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--4a.json",
+      "files": 31
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/4b",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--4b.json",
+      "files": 44
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/4c",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--4c.json",
+      "files": 34
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/4d",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--4d.json",
+      "files": 40
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/4e",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--4e.json",
+      "files": 40
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/4f",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--4f.json",
+      "files": 36
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/50",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--50.json",
+      "files": 29
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/51",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--51.json",
+      "files": 41
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/52",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--52.json",
+      "files": 32
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/53",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--53.json",
+      "files": 34
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/54",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--54.json",
+      "files": 44
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/55",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--55.json",
+      "files": 29
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/56",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--56.json",
+      "files": 42
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/57",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--57.json",
+      "files": 35
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/58",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--58.json",
+      "files": 57
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/59",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--59.json",
+      "files": 42
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/5a",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--5a.json",
+      "files": 30
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/5b",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--5b.json",
+      "files": 47
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/5c",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--5c.json",
+      "files": 36
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/5d",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--5d.json",
+      "files": 36
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/5e",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--5e.json",
+      "files": 43
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/5f",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--5f.json",
+      "files": 38
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/60",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--60.json",
+      "files": 41
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/61",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--61.json",
+      "files": 29
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/62",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--62.json",
+      "files": 26
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/63",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--63.json",
+      "files": 41
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/64",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--64.json",
+      "files": 28
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/65",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--65.json",
+      "files": 25
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/66",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--66.json",
+      "files": 49
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/67",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--67.json",
+      "files": 50
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/68",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--68.json",
+      "files": 31
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/69",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--69.json",
+      "files": 35
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/6a",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--6a.json",
+      "files": 32
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/6b",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--6b.json",
+      "files": 52
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/6c",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--6c.json",
+      "files": 39
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/6d",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--6d.json",
+      "files": 36
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/6e",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--6e.json",
+      "files": 25
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/6f",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--6f.json",
+      "files": 48
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/70",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--70.json",
+      "files": 37
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/71",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--71.json",
+      "files": 47
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/72",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--72.json",
+      "files": 32
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/73",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--73.json",
+      "files": 40
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/74",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--74.json",
+      "files": 35
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/75",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--75.json",
+      "files": 32
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/76",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--76.json",
+      "files": 44
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/77",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--77.json",
+      "files": 30
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/78",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--78.json",
+      "files": 38
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/79",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--79.json",
+      "files": 37
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/7a",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--7a.json",
+      "files": 41
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/7b",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--7b.json",
+      "files": 35
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/7c",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--7c.json",
+      "files": 34
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/7d",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--7d.json",
+      "files": 34
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/7e",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--7e.json",
+      "files": 39
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/7f",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--7f.json",
+      "files": 44
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/80",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--80.json",
+      "files": 36
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/81",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--81.json",
+      "files": 40
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/82",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--82.json",
+      "files": 34
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/83",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--83.json",
+      "files": 48
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/84",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--84.json",
+      "files": 41
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/85",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--85.json",
+      "files": 44
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/86",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--86.json",
+      "files": 35
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/87",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--87.json",
+      "files": 27
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/88",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--88.json",
+      "files": 30
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/89",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--89.json",
+      "files": 42
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/8a",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--8a.json",
+      "files": 49
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/8b",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--8b.json",
+      "files": 50
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/8c",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--8c.json",
+      "files": 20
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/8d",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--8d.json",
+      "files": 35
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/8e",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--8e.json",
+      "files": 39
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/8f",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--8f.json",
+      "files": 33
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/90",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--90.json",
+      "files": 37
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/91",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--91.json",
+      "files": 48
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/92",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--92.json",
+      "files": 43
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/93",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--93.json",
+      "files": 46
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/94",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--94.json",
+      "files": 47
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/95",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--95.json",
+      "files": 40
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/96",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--96.json",
+      "files": 31
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/97",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--97.json",
+      "files": 47
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/98",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--98.json",
+      "files": 31
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/99",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--99.json",
+      "files": 39
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/9a",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--9a.json",
+      "files": 39
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/9b",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--9b.json",
+      "files": 40
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/9c",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--9c.json",
+      "files": 29
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/9d",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--9d.json",
+      "files": 40
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/9e",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--9e.json",
+      "files": 38
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/9f",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--9f.json",
+      "files": 33
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/a0",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--a0.json",
+      "files": 31
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/a1",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--a1.json",
+      "files": 46
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/a2",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--a2.json",
+      "files": 46
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/a3",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--a3.json",
+      "files": 31
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/a4",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--a4.json",
+      "files": 43
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/a5",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--a5.json",
+      "files": 36
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/a6",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--a6.json",
+      "files": 45
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/a7",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--a7.json",
+      "files": 29
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/a8",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--a8.json",
+      "files": 32
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/a9",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--a9.json",
+      "files": 37
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/aa",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--aa.json",
+      "files": 40
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/ab",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--ab.json",
+      "files": 36
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/ac",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--ac.json",
+      "files": 36
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/ad",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--ad.json",
+      "files": 30
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/ae",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--ae.json",
+      "files": 38
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/af",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--af.json",
+      "files": 35
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/b0",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--b0.json",
+      "files": 40
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/b1",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--b1.json",
+      "files": 39
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/b2",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--b2.json",
+      "files": 49
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/b3",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--b3.json",
+      "files": 41
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/b4",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--b4.json",
+      "files": 32
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/b5",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--b5.json",
+      "files": 32
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/b6",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--b6.json",
+      "files": 37
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/b7",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--b7.json",
+      "files": 37
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/b8",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--b8.json",
+      "files": 39
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/b9",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--b9.json",
+      "files": 31
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/ba",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--ba.json",
+      "files": 25
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/bb",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--bb.json",
+      "files": 35
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/bc",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--bc.json",
+      "files": 33
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/bd",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--bd.json",
+      "files": 43
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/be",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--be.json",
+      "files": 34
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/bf",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--bf.json",
+      "files": 45
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/c0",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--c0.json",
+      "files": 32
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/c1",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--c1.json",
+      "files": 35
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/c2",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--c2.json",
+      "files": 42
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/c3",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--c3.json",
+      "files": 42
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/c4",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--c4.json",
+      "files": 34
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/c5",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--c5.json",
+      "files": 49
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/c6",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--c6.json",
+      "files": 42
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/c7",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--c7.json",
+      "files": 44
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/c8",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--c8.json",
+      "files": 44
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/c9",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--c9.json",
+      "files": 38
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/ca",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--ca.json",
+      "files": 45
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/cb",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--cb.json",
+      "files": 38
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/cc",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--cc.json",
+      "files": 43
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/cd",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--cd.json",
+      "files": 34
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/ce",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--ce.json",
+      "files": 36
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/cf",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--cf.json",
+      "files": 46
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/d0",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--d0.json",
+      "files": 43
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/d1",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--d1.json",
+      "files": 35
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/d2",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--d2.json",
+      "files": 38
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/d3",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--d3.json",
+      "files": 33
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/d4",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--d4.json",
+      "files": 38
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/d5",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--d5.json",
+      "files": 36
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/d6",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--d6.json",
+      "files": 39
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/d7",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--d7.json",
+      "files": 42
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/d8",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--d8.json",
+      "files": 44
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/d9",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--d9.json",
+      "files": 39
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/da",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--da.json",
+      "files": 45
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/db",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--db.json",
+      "files": 43
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/dc",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--dc.json",
+      "files": 35
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/dd",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--dd.json",
+      "files": 40
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/de",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--de.json",
+      "files": 42
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/df",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--df.json",
+      "files": 29
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/e0",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--e0.json",
+      "files": 33
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/e1",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--e1.json",
+      "files": 31
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/e2",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--e2.json",
+      "files": 36
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/e3",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--e3.json",
+      "files": 38
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/e4",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--e4.json",
+      "files": 46
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/e5",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--e5.json",
+      "files": 30
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/e6",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--e6.json",
+      "files": 36
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/e7",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--e7.json",
+      "files": 29
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/e8",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--e8.json",
+      "files": 34
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/e9",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--e9.json",
+      "files": 41
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/ea",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--ea.json",
+      "files": 49
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/eb",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--eb.json",
+      "files": 34
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/ec",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--ec.json",
+      "files": 48
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/ed",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--ed.json",
+      "files": 37
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/ee",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--ee.json",
+      "files": 35
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/ef",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--ef.json",
+      "files": 41
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/f0",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--f0.json",
+      "files": 44
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/f1",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--f1.json",
+      "files": 40
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/f2",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--f2.json",
+      "files": 39
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/f3",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--f3.json",
+      "files": 44
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/f4",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--f4.json",
+      "files": 37
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/f5",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--f5.json",
+      "files": 33
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/f6",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--f6.json",
+      "files": 44
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/f7",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--f7.json",
+      "files": 39
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/f8",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--f8.json",
+      "files": 35
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/f9",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--f9.json",
+      "files": 48
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/fa",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--fa.json",
+      "files": 40
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/fb",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--fb.json",
+      "files": 37
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/fc",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--fc.json",
+      "files": 32
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/fd",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--fd.json",
+      "files": 48
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/fe",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--fe.json",
+      "files": 41
+    },
+    {
+      "scope": "recovery/consolidated-history/objects/ff",
+      "index": "collaboration/materials/file-index/recovery--consolidated-history--objects--ff.json",
+      "files": 44
+    },
+    {
+      "scope": "recovery/materials-historical-source-package/recovery",
+      "index": "collaboration/materials/file-index/recovery--materials-historical-source-package--recovery.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/acquire-home-month-witness-catalogues-rest.ps1",
+      "index": "collaboration/materials/file-index/tmp--acquire-home-month-witness-catalogues-rest.ps1.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/acquire-home-month-witness-catalogues.ps1",
+      "index": "collaboration/materials/file-index/tmp--acquire-home-month-witness-catalogues.ps1.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/acquire-home-month-witness-text.ps1",
+      "index": "collaboration/materials/file-index/tmp--acquire-home-month-witness-text.ps1.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/acquire-home-month-witness.ps1",
+      "index": "collaboration/materials/file-index/tmp--acquire-home-month-witness.ps1.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/audit-storage.py",
+      "index": "collaboration/materials/file-index/tmp--audit-storage.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/audit-tail-acquisition.py",
+      "index": "collaboration/materials/file-index/tmp--audit-tail-acquisition.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/bazi-branch-clash-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-branch-clash-staging.json",
+      "files": 32
+    },
+    {
+      "scope": "tmp/bazi-branch-harm-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-branch-harm-staging.json",
+      "files": 34
+    },
+    {
+      "scope": "tmp/bazi-branch-penalty-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-branch-penalty-staging.json",
+      "files": 43
+    },
+    {
+      "scope": "tmp/bazi-branch-triad-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-branch-triad-staging.json",
+      "files": 32
+    },
+    {
+      "scope": "tmp/bazi-branch-union-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-branch-union-staging.json",
+      "files": 37
+    },
+    {
+      "scope": "tmp/bazi-food-appendices-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-food-appendices-staging.json",
+      "files": 21
+    },
+    {
+      "scope": "tmp/bazi-food-chain-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-food-chain-staging.json",
+      "files": 15
+    },
+    {
+      "scope": "tmp/bazi-food-core-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-food-core-staging.json",
+      "files": 8
+    },
+    {
+      "scope": "tmp/bazi-food-fire-exception-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-food-fire-exception-staging.json",
+      "files": 19
+    },
+    {
+      "scope": "tmp/bazi-food-gap-witness-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-food-gap-witness-staging.json",
+      "files": 40
+    },
+    {
+      "scope": "tmp/bazi-food-label-scope-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-food-label-scope-staging.json",
+      "files": 13
+    },
+    {
+      "scope": "tmp/bazi-food-luck-subject-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-food-luck-subject-staging.json",
+      "files": 24
+    },
+    {
+      "scope": "tmp/bazi-food-owl-exceptions-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-food-owl-exceptions-staging.json",
+      "files": 21
+    },
+    {
+      "scope": "tmp/bazi-food-position-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-food-position-staging.json",
+      "files": 3
+    },
+    {
+      "scope": "tmp/bazi-food-quantity-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-food-quantity-staging.json",
+      "files": 21
+    },
+    {
+      "scope": "tmp/bazi-food-return-feeding-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-food-return-feeding-staging.json",
+      "files": 2
+    },
+    {
+      "scope": "tmp/bazi-food-seats-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-food-seats-staging.json",
+      "files": 13
+    },
+    {
+      "scope": "tmp/bazi-food-six-pillars-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-food-six-pillars-staging.json",
+      "files": 16
+    },
+    {
+      "scope": "tmp/bazi-food-songs-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-food-songs-staging.json",
+      "files": 20
+    },
+    {
+      "scope": "tmp/bazi-food-source-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-food-source-staging.json",
+      "files": 58
+    },
+    {
+      "scope": "tmp/bazi-food-strength-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-food-strength-staging.json",
+      "files": 17
+    },
+    {
+      "scope": "tmp/bazi-food-transformation-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-food-transformation-staging.json",
+      "files": 24
+    },
+    {
+      "scope": "tmp/bazi-jianlu-conditions-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-jianlu-conditions-staging.json",
+      "files": 13
+    },
+    {
+      "scope": "tmp/bazi-jianlu-hours-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-jianlu-hours-staging.json",
+      "files": 4
+    },
+    {
+      "scope": "tmp/bazi-life-stage-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-life-stage-staging.json",
+      "files": 21
+    },
+    {
+      "scope": "tmp/bazi-literary-seal-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-literary-seal-staging.json",
+      "files": 17
+    },
+    {
+      "scope": "tmp/bazi-lu-labels-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-lu-labels-staging.json",
+      "files": 4
+    },
+    {
+      "scope": "tmp/bazi-month-command-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-month-command-staging.json",
+      "files": 33
+    },
+    {
+      "scope": "tmp/bazi-seal-conditions-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-seal-conditions-staging.json",
+      "files": 17
+    },
+    {
+      "scope": "tmp/bazi-season-strength-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-season-strength-staging.json",
+      "files": 37
+    },
+    {
+      "scope": "tmp/bazi-source-seal-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-source-seal-staging.json",
+      "files": 25
+    },
+    {
+      "scope": "tmp/bazi-ten-stem-life-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-ten-stem-life-staging.json",
+      "files": 50
+    },
+    {
+      "scope": "tmp/bazi-tongke-cases-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-tongke-cases-staging.json",
+      "files": 20
+    },
+    {
+      "scope": "tmp/bazi-triad-stars-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-triad-stars-staging.json",
+      "files": 31
+    },
+    {
+      "scope": "tmp/bazi-true-ghost-context-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-true-ghost-context-staging.json",
+      "files": 31
+    },
+    {
+      "scope": "tmp/bazi-volume3-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-volume3-staging.json",
+      "files": 34
+    },
+    {
+      "scope": "tmp/bazi-yangren-conditions-staging",
+      "index": "collaboration/materials/file-index/tmp--bazi-yangren-conditions-staging.json",
+      "files": 35
+    },
+    {
+      "scope": "tmp/clarify-day-marker-provenance.py",
+      "index": "collaboration/materials/file-index/tmp--clarify-day-marker-provenance.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/complete-tail-position-map.py",
+      "index": "collaboration/materials/file-index/tmp--complete-tail-position-map.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/consolidate-storage.py",
+      "index": "collaboration/materials/file-index/tmp--consolidate-storage.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/create-home-day-glyphs.py",
+      "index": "collaboration/materials/file-index/tmp--create-home-day-glyphs.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/create-home-day-headers.py",
+      "index": "collaboration/materials/file-index/tmp--create-home-day-headers.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/create-tail-crops-next.py",
+      "index": "collaboration/materials/file-index/tmp--create-tail-crops-next.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/create-tail-crops.py",
+      "index": "collaboration/materials/file-index/tmp--create-tail-crops.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/create-tail-review-crops.py",
+      "index": "collaboration/materials/file-index/tmp--create-tail-review-crops.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/enter-home-day-markers.py",
+      "index": "collaboration/materials/file-index/tmp--enter-home-day-markers.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/fetch-home-yangzhai-shishu.mjs",
+      "index": "collaboration/materials/file-index/tmp--fetch-home-yangzhai-shishu.mjs.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/fetch-tuvi-daozang-staging.mjs",
+      "index": "collaboration/materials/file-index/tmp--fetch-tuvi-daozang-staging.mjs.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/finalize-home-day-marker-stage.py",
+      "index": "collaboration/materials/file-index/tmp--finalize-home-day-marker-stage.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/fix-courtyard-workstate-identity.py",
+      "index": "collaboration/materials/file-index/tmp--fix-courtyard-workstate-identity.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/freeze-tail-cases.py",
+      "index": "collaboration/materials/file-index/tmp--freeze-tail-cases.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/home-activity-clauses-staging",
+      "index": "collaboration/materials/file-index/tmp--home-activity-clauses-staging.json",
+      "files": 22
+    },
+    {
+      "scope": "tmp/home-calendar-premises-staging",
+      "index": "collaboration/materials/file-index/tmp--home-calendar-premises-staging.json",
+      "files": 58
+    },
+    {
+      "scope": "tmp/home-courtyard-collation-staging",
+      "index": "collaboration/materials/file-index/tmp--home-courtyard-collation-staging.json",
+      "files": 12
+    },
+    {
+      "scope": "tmp/home-day-hour-staging",
+      "index": "collaboration/materials/file-index/tmp--home-day-hour-staging.json",
+      "files": 76
+    },
+    {
+      "scope": "tmp/home-day-labels-staging",
+      "index": "collaboration/materials/file-index/tmp--home-day-labels-staging.json",
+      "files": 33
+    },
+    {
+      "scope": "tmp/home-day-marker-identities.py",
+      "index": "collaboration/materials/file-index/tmp--home-day-marker-identities.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/home-direction-tables-staging",
+      "index": "collaboration/materials/file-index/tmp--home-direction-tables-staging.json",
+      "files": 19
+    },
+    {
+      "scope": "tmp/home-fuduan-staging",
+      "index": "collaboration/materials/file-index/tmp--home-fuduan-staging.json",
+      "files": 51
+    },
+    {
+      "scope": "tmp/home-ge-exceptions-staging",
+      "index": "collaboration/materials/file-index/tmp--home-ge-exceptions-staging.json",
+      "files": 17
+    },
+    {
+      "scope": "tmp/home-hour-gouchen-staging",
+      "index": "collaboration/materials/file-index/tmp--home-hour-gouchen-staging.json",
+      "files": 20
+    },
+    {
+      "scope": "tmp/home-month-gods-staging",
+      "index": "collaboration/materials/file-index/tmp--home-month-gods-staging.json",
+      "files": 29
+    },
+    {
+      "scope": "tmp/home-month-labels-staging",
+      "index": "collaboration/materials/file-index/tmp--home-month-labels-staging.json",
+      "files": 50
+    },
+    {
+      "scope": "tmp/home-month-spatial-staging",
+      "index": "collaboration/materials/file-index/tmp--home-month-spatial-staging.json",
+      "files": 19
+    },
+    {
+      "scope": "tmp/home-month-witness-staging",
+      "index": "collaboration/materials/file-index/tmp--home-month-witness-staging.json",
+      "files": 48
+    },
+    {
+      "scope": "tmp/home-p08-gjts-grid-witness-staging",
+      "index": "collaboration/materials/file-index/tmp--home-p08-gjts-grid-witness-staging.json",
+      "files": 25
+    },
+    {
+      "scope": "tmp/home-p08-grid-priority-staging",
+      "index": "collaboration/materials/file-index/tmp--home-p08-grid-priority-staging.json",
+      "files": 16
+    },
+    {
+      "scope": "tmp/home-rings-staging",
+      "index": "collaboration/materials/file-index/tmp--home-rings-staging.json",
+      "files": 19
+    },
+    {
+      "scope": "tmp/home-tables-staging",
+      "index": "collaboration/materials/file-index/tmp--home-tables-staging.json",
+      "files": 73
+    },
+    {
+      "scope": "tmp/home-time-premises-staging",
+      "index": "collaboration/materials/file-index/tmp--home-time-premises-staging.json",
+      "files": 51
+    },
+    {
+      "scope": "tmp/home-tomb-diagrams-staging",
+      "index": "collaboration/materials/file-index/tmp--home-tomb-diagrams-staging.json",
+      "files": 22
+    },
+    {
+      "scope": "tmp/home-xuankong-context-staging",
+      "index": "collaboration/materials/file-index/tmp--home-xuankong-context-staging.json",
+      "files": 13
+    },
+    {
+      "scope": "tmp/home-xuankong-lines-staging",
+      "index": "collaboration/materials/file-index/tmp--home-xuankong-lines-staging.json",
+      "files": 16
+    },
+    {
+      "scope": "tmp/home-yangzhai-courtyard-staging",
+      "index": "collaboration/materials/file-index/tmp--home-yangzhai-courtyard-staging.json",
+      "files": 76
+    },
+    {
+      "scope": "tmp/home-yangzhai-door-water-staging",
+      "index": "collaboration/materials/file-index/tmp--home-yangzhai-door-water-staging.json",
+      "files": 48
+    },
+    {
+      "scope": "tmp/home-yangzhai-exterior-staging",
+      "index": "collaboration/materials/file-index/tmp--home-yangzhai-exterior-staging.json",
+      "files": 27
+    },
+    {
+      "scope": "tmp/home-yangzhai-final-spans-staging",
+      "index": "collaboration/materials/file-index/tmp--home-yangzhai-final-spans-staging.json",
+      "files": 6
+    },
+    {
+      "scope": "tmp/home-yangzhai-fuyuan-staging",
+      "index": "collaboration/materials/file-index/tmp--home-yangzhai-fuyuan-staging.json",
+      "files": 79
+    },
+    {
+      "scope": "tmp/home-yangzhai-selection-staging",
+      "index": "collaboration/materials/file-index/tmp--home-yangzhai-selection-staging.json",
+      "files": 64
+    },
+    {
+      "scope": "tmp/home-yangzhai-shishu-staging",
+      "index": "collaboration/materials/file-index/tmp--home-yangzhai-shishu-staging.json",
+      "files": 115
+    },
+    {
+      "scope": "tmp/home-yangzhai-talismans-staging",
+      "index": "collaboration/materials/file-index/tmp--home-yangzhai-talismans-staging.json",
+      "files": 32
+    },
+    {
+      "scope": "tmp/home-zhaijing-staging",
+      "index": "collaboration/materials/file-index/tmp--home-zhaijing-staging.json",
+      "files": 129
+    },
+    {
+      "scope": "tmp/inspect-P08-coverage.py",
+      "index": "collaboration/materials/file-index/tmp--inspect-P08-coverage.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/inspect-home-parent-sources.py",
+      "index": "collaboration/materials/file-index/tmp--inspect-home-parent-sources.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/inspect-open-bazi-contexts.py",
+      "index": "collaboration/materials/file-index/tmp--inspect-open-bazi-contexts.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/inspect-tail-previous-schemas.py",
+      "index": "collaboration/materials/file-index/tmp--inspect-tail-previous-schemas.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/inspect-zhixing-method.py",
+      "index": "collaboration/materials/file-index/tmp--inspect-zhixing-method.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/integrate-bazi-life-research.py",
+      "index": "collaboration/materials/file-index/tmp--integrate-bazi-life-research.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/integrate-branch-combinations.py",
+      "index": "collaboration/materials/file-index/tmp--integrate-branch-combinations.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/integrate-home-month-labels.py",
+      "index": "collaboration/materials/file-index/tmp--integrate-home-month-labels.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/liuyao-b02-ch29-staging",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b02-ch29-staging.json",
+      "files": 41
+    },
+    {
+      "scope": "tmp/liuyao-b02-closing-staging",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b02-closing-staging.json",
+      "files": 60
+    },
+    {
+      "scope": "tmp/liuyao-b02-effectiveness-staging",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b02-effectiveness-staging.json",
+      "files": 26
+    },
+    {
+      "scope": "tmp/liuyao-b02-exams-staging",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b02-exams-staging.json",
+      "files": 52
+    },
+    {
+      "scope": "tmp/liuyao-b02-family-staging",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b02-family-staging.json",
+      "files": 33
+    },
+    {
+      "scope": "tmp/liuyao-b02-foundation-span-staging",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b02-foundation-span-staging.json",
+      "files": 28
+    },
+    {
+      "scope": "tmp/liuyao-b02-house-family-staging",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b02-house-family-staging.json",
+      "files": 45
+    },
+    {
+      "scope": "tmp/liuyao-b02-life-staging",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b02-life-staging.json",
+      "files": 14
+    },
+    {
+      "scope": "tmp/liuyao-b02-volume-audit-staging",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b02-volume-audit-staging.json",
+      "files": 54
+    },
+    {
+      "scope": "tmp/liuyao-b02-wealth-staging",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b02-wealth-staging.json",
+      "files": 39
+    },
+    {
+      "scope": "tmp/liuyao-b02-weather-followup-20261029",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b02-weather-followup-20261029.json",
+      "files": 33
+    },
+    {
+      "scope": "tmp/liuyao-b02-weather-staging",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b02-weather-staging.json",
+      "files": 33
+    },
+    {
+      "scope": "tmp/liuyao-b02-witness-stars-staging",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b02-witness-stars-staging.json",
+      "files": 16
+    },
+    {
+      "scope": "tmp/liuyao-b03",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b03.json",
+      "files": 39
+    },
+    {
+      "scope": "tmp/liuyao-b03-all-annotations-staging",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b03-all-annotations-staging.json",
+      "files": 9
+    },
+    {
+      "scope": "tmp/liuyao-b03-book1-prefaces-staging",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b03-book1-prefaces-staging.json",
+      "files": 46
+    },
+    {
+      "scope": "tmp/liuyao-b03-book2-rest",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b03-book2-rest.json",
+      "files": 17
+    },
+    {
+      "scope": "tmp/liuyao-b03-book3-rest",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b03-book3-rest.json",
+      "files": 45
+    },
+    {
+      "scope": "tmp/liuyao-b03-book3-staging",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b03-book3-staging.json",
+      "files": 35
+    },
+    {
+      "scope": "tmp/liuyao-b03-book4-staging",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b03-book4-staging.json",
+      "files": 79
+    },
+    {
+      "scope": "tmp/liuyao-b03-book5-staging",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b03-book5-staging.json",
+      "files": 53
+    },
+    {
+      "scope": "tmp/liuyao-b03-book6-staging",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b03-book6-staging.json",
+      "files": 82
+    },
+    {
+      "scope": "tmp/liuyao-b03-question3-staging",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b03-question3-staging.json",
+      "files": 9
+    },
+    {
+      "scope": "tmp/liuyao-b03-triad-clause-staging",
+      "index": "collaboration/materials/file-index/tmp--liuyao-b03-triad-clause-staging.json",
+      "files": 20
+    },
+    {
+      "scope": "tmp/liuyao-date-void-witness-lead",
+      "index": "collaboration/materials/file-index/tmp--liuyao-date-void-witness-lead.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/liuyao-multiple-use-staging",
+      "index": "collaboration/materials/file-index/tmp--liuyao-multiple-use-staging.json",
+      "files": 46
+    },
+    {
+      "scope": "tmp/liuyao-triad-witness-staging",
+      "index": "collaboration/materials/file-index/tmp--liuyao-triad-witness-staging.json",
+      "files": 27
+    },
+    {
+      "scope": "tmp/log-tail-readings.py",
+      "index": "collaboration/materials/file-index/tmp--log-tail-readings.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/muse-handoff",
+      "index": "collaboration/materials/file-index/tmp--muse-handoff.json",
+      "files": 2
+    },
+    {
+      "scope": "tmp/package-v53-atomic.py",
+      "index": "collaboration/materials/file-index/tmp--package-v53-atomic.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/package-write-probe.zip",
+      "index": "collaboration/materials/file-index/tmp--package-write-probe.zip.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/pixel-verifier-hardening",
+      "index": "collaboration/materials/file-index/tmp--pixel-verifier-hardening.json",
+      "files": 6
+    },
+    {
+      "scope": "tmp/prepare-branch-triad.py",
+      "index": "collaboration/materials/file-index/tmp--prepare-branch-triad.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/prepare-branch-union.py",
+      "index": "collaboration/materials/file-index/tmp--prepare-branch-union.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/prepare-courtyard-release-verifier.py",
+      "index": "collaboration/materials/file-index/tmp--prepare-courtyard-release-verifier.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/prepare-food-seats-release-verifier.py",
+      "index": "collaboration/materials/file-index/tmp--prepare-food-seats-release-verifier.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/prepare-ge-exceptions.py",
+      "index": "collaboration/materials/file-index/tmp--prepare-ge-exceptions.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/prepare-home-day-labels.py",
+      "index": "collaboration/materials/file-index/tmp--prepare-home-day-labels.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/prepare-home-day-release.py",
+      "index": "collaboration/materials/file-index/tmp--prepare-home-day-release.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/prepare-home-final-metadata.py",
+      "index": "collaboration/materials/file-index/tmp--prepare-home-final-metadata.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/prepare-home-final-spans.py",
+      "index": "collaboration/materials/file-index/tmp--prepare-home-final-spans.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/prepare-hour-release-verifier.py",
+      "index": "collaboration/materials/file-index/tmp--prepare-hour-release-verifier.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/prepare-hour-snapshot.py",
+      "index": "collaboration/materials/file-index/tmp--prepare-hour-snapshot.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/prepare-life-package.py",
+      "index": "collaboration/materials/file-index/tmp--prepare-life-package.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/prepare-month-command-release-verifier.py",
+      "index": "collaboration/materials/file-index/tmp--prepare-month-command-release-verifier.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/prepare-season-labels-release-verifier.py",
+      "index": "collaboration/materials/file-index/tmp--prepare-season-labels-release-verifier.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/prepare-tail-release.py",
+      "index": "collaboration/materials/file-index/tmp--prepare-tail-release.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/prepare-tail-unit-map.py",
+      "index": "collaboration/materials/file-index/tmp--prepare-tail-unit-map.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/prepare-triad-stars.py",
+      "index": "collaboration/materials/file-index/tmp--prepare-triad-stars.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/prepare-xuankong-release-verifier.py",
+      "index": "collaboration/materials/file-index/tmp--prepare-xuankong-release-verifier.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/promote-bazi-food-chain.py",
+      "index": "collaboration/materials/file-index/tmp--promote-bazi-food-chain.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/promote-branch-union.py",
+      "index": "collaboration/materials/file-index/tmp--promote-branch-union.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/promote-ge-exceptions.py",
+      "index": "collaboration/materials/file-index/tmp--promote-ge-exceptions.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/promote-home-day-markers.py",
+      "index": "collaboration/materials/file-index/tmp--promote-home-day-markers.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/promote-liuyao-closing-context.py",
+      "index": "collaboration/materials/file-index/tmp--promote-liuyao-closing-context.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/promote-liuyao-combination-context.py",
+      "index": "collaboration/materials/file-index/tmp--promote-liuyao-combination-context.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/promote-liuyao-commodity-boundary.py",
+      "index": "collaboration/materials/file-index/tmp--promote-liuyao-commodity-boundary.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/promote-liuyao-exam-intent.py",
+      "index": "collaboration/materials/file-index/tmp--promote-liuyao-exam-intent.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/promote-liuyao-foundation-span.py",
+      "index": "collaboration/materials/file-index/tmp--promote-liuyao-foundation-span.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/promote-tuvi-lower-contexts.py",
+      "index": "collaboration/materials/file-index/tmp--promote-tuvi-lower-contexts.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/promote-tuvi-lower-tail.py",
+      "index": "collaboration/materials/file-index/tmp--promote-tuvi-lower-tail.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/promote-tuvi-void-child.py",
+      "index": "collaboration/materials/file-index/tmp--promote-tuvi-void-child.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/reconcile-tail-cases.py",
+      "index": "collaboration/materials/file-index/tmp--reconcile-tail-cases.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/reconcile-tail-state-prose.py",
+      "index": "collaboration/materials/file-index/tmp--reconcile-tail-state-prose.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/record-bazi-food-core.py",
+      "index": "collaboration/materials/file-index/tmp--record-bazi-food-core.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/record-bazi-food-source.py",
+      "index": "collaboration/materials/file-index/tmp--record-bazi-food-source.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/record-bazi-lu-labels-staging.py",
+      "index": "collaboration/materials/file-index/tmp--record-bazi-lu-labels-staging.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/record-home-yangzhai-shishu.py",
+      "index": "collaboration/materials/file-index/tmp--record-home-yangzhai-shishu.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/record-tail-final.py",
+      "index": "collaboration/materials/file-index/tmp--record-tail-final.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/record-tail-package-start.py",
+      "index": "collaboration/materials/file-index/tmp--record-tail-package-start.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/research-resume-pointer-staging",
+      "index": "collaboration/materials/file-index/tmp--research-resume-pointer-staging.json",
+      "files": 4
+    },
+    {
+      "scope": "tmp/select-bazi-open-parent.py",
+      "index": "collaboration/materials/file-index/tmp--select-bazi-open-parent.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/snapshot-before-bazi-food-owl-exceptions.py",
+      "index": "collaboration/materials/file-index/tmp--snapshot-before-bazi-food-owl-exceptions.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/snapshot-before-bazi-food-seats.py",
+      "index": "collaboration/materials/file-index/tmp--snapshot-before-bazi-food-seats.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/snapshot-before-bazi-month-command.py",
+      "index": "collaboration/materials/file-index/tmp--snapshot-before-bazi-month-command.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/snapshot-before-bazi-season-strength.py",
+      "index": "collaboration/materials/file-index/tmp--snapshot-before-bazi-season-strength.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/snapshot-before-food-core.py",
+      "index": "collaboration/materials/file-index/tmp--snapshot-before-food-core.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/snapshot-before-food.py",
+      "index": "collaboration/materials/file-index/tmp--snapshot-before-food.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/snapshot-before-home-day-markers.py",
+      "index": "collaboration/materials/file-index/tmp--snapshot-before-home-day-markers.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/snapshot-before-home-hour-alignment.py",
+      "index": "collaboration/materials/file-index/tmp--snapshot-before-home-hour-alignment.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/snapshot-before-home-xuankong-context.py",
+      "index": "collaboration/materials/file-index/tmp--snapshot-before-home-xuankong-context.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/snapshot-before-home-yangzhai-courtyards.py",
+      "index": "collaboration/materials/file-index/tmp--snapshot-before-home-yangzhai-courtyards.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/snapshot-before-home-yangzhai-door-water.py",
+      "index": "collaboration/materials/file-index/tmp--snapshot-before-home-yangzhai-door-water.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/snapshot-before-home-yangzhai-final-spans.py",
+      "index": "collaboration/materials/file-index/tmp--snapshot-before-home-yangzhai-final-spans.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/snapshot-before-home-yangzhai-fuyuan.py",
+      "index": "collaboration/materials/file-index/tmp--snapshot-before-home-yangzhai-fuyuan.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/snapshot-before-home-yangzhai-shishu.py",
+      "index": "collaboration/materials/file-index/tmp--snapshot-before-home-yangzhai-shishu.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/snapshot-before-tuvi-tail.py",
+      "index": "collaboration/materials/file-index/tmp--snapshot-before-tuvi-tail.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/start-home-day-marker-package.py",
+      "index": "collaboration/materials/file-index/tmp--start-home-day-marker-package.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/tail-promotion-identities.py",
+      "index": "collaboration/materials/file-index/tmp--tail-promotion-identities.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/tuvi-child-limit-staging",
+      "index": "collaboration/materials/file-index/tmp--tuvi-child-limit-staging.json",
+      "files": 12
+    },
+    {
+      "scope": "tmp/tuvi-daozang-staging",
+      "index": "collaboration/materials/file-index/tmp--tuvi-daozang-staging.json",
+      "files": 3
+    },
+    {
+      "scope": "tmp/tuvi-dipper-windows-staging",
+      "index": "collaboration/materials/file-index/tmp--tuvi-dipper-windows-staging.json",
+      "files": 20
+    },
+    {
+      "scope": "tmp/tuvi-full-volume-staging",
+      "index": "collaboration/materials/file-index/tmp--tuvi-full-volume-staging.json",
+      "files": 71
+    },
+    {
+      "scope": "tmp/tuvi-juan2-staging",
+      "index": "collaboration/materials/file-index/tmp--tuvi-juan2-staging.json",
+      "files": 47
+    },
+    {
+      "scope": "tmp/tuvi-lower-contiguous-staging",
+      "index": "collaboration/materials/file-index/tmp--tuvi-lower-contiguous-staging.json",
+      "files": 101
+    },
+    {
+      "scope": "tmp/tuvi-lower-item-staging",
+      "index": "collaboration/materials/file-index/tmp--tuvi-lower-item-staging.json",
+      "files": 61
+    },
+    {
+      "scope": "tmp/tuvi-lower-tail-staging",
+      "index": "collaboration/materials/file-index/tmp--tuvi-lower-tail-staging.json",
+      "files": 86
+    },
+    {
+      "scope": "tmp/tuvi-masters-staging",
+      "index": "collaboration/materials/file-index/tmp--tuvi-masters-staging.json",
+      "files": 4
+    },
+    {
+      "scope": "tmp/tuvi-minor-stars-staging",
+      "index": "collaboration/materials/file-index/tmp--tuvi-minor-stars-staging.json",
+      "files": 42
+    },
+    {
+      "scope": "tmp/tuvi-shidian-witness-staging",
+      "index": "collaboration/materials/file-index/tmp--tuvi-shidian-witness-staging.json",
+      "files": 48
+    },
+    {
+      "scope": "tmp/tuvi-upper-remaining-staging",
+      "index": "collaboration/materials/file-index/tmp--tuvi-upper-remaining-staging.json",
+      "files": 79
+    },
+    {
+      "scope": "tmp/tuvi-void-coordinates-staging",
+      "index": "collaboration/materials/file-index/tmp--tuvi-void-coordinates-staging.json",
+      "files": 8
+    },
+    {
+      "scope": "tmp/update-selection-progress.py",
+      "index": "collaboration/materials/file-index/tmp--update-selection-progress.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/verify-home-final-native.py",
+      "index": "collaboration/materials/file-index/tmp--verify-home-final-native.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/verify-home-ge-exceptions-release.py",
+      "index": "collaboration/materials/file-index/tmp--verify-home-ge-exceptions-release.py.json",
+      "files": 1
+    },
+    {
+      "scope": "tmp/withhold-small-day-token-reading.py",
+      "index": "collaboration/materials/file-index/tmp--withhold-small-day-token-reading.py.json",
+      "files": 1
+    },
+    {
+      "scope": "v46",
+      "index": "collaboration/materials/file-index/v46.json",
+      "files": 40
+    },
+    {
+      "scope": "v46/.npm-cache/_cacache",
+      "index": "collaboration/materials/file-index/v46--.npm-cache--_cacache.json",
+      "files": 24
+    },
+    {
+      "scope": "v46/.npm-cache/_logs",
+      "index": "collaboration/materials/file-index/v46--.npm-cache--_logs.json",
+      "files": 2
+    },
+    {
+      "scope": "v46/evidence/browser",
+      "index": "collaboration/materials/file-index/v46--evidence--browser.json",
+      "files": 3
+    },
+    {
+      "scope": "v46/evidence/hko",
+      "index": "collaboration/materials/file-index/v46--evidence--hko.json",
+      "files": 211
+    },
+    {
+      "scope": "v46/evidence/npm",
+      "index": "collaboration/materials/file-index/v46--evidence--npm.json",
+      "files": 5
+    },
+    {
+      "scope": "v46/node_modules/@babel",
+      "index": "collaboration/materials/file-index/v46--node_modules----babel.json",
+      "files": 249
+    },
+    {
+      "scope": "v46/node_modules/dayjs",
+      "index": "collaboration/materials/file-index/v46--node_modules--dayjs.json",
+      "files": 451
+    },
+    {
+      "scope": "v46/node_modules/i18next",
+      "index": "collaboration/materials/file-index/v46--node_modules--i18next.json",
+      "files": 19
+    },
+    {
+      "scope": "v46/node_modules/iztro",
+      "index": "collaboration/materials/file-index/v46--node_modules--iztro.json",
+      "files": 209
+    },
+    {
+      "scope": "v46/node_modules/lunar-lite",
+      "index": "collaboration/materials/file-index/v46--node_modules--lunar-lite.json",
+      "files": 21
+    },
+    {
+      "scope": "v46/node_modules/lunar-typescript",
+      "index": "collaboration/materials/file-index/v46--node_modules--lunar-typescript.json",
+      "files": 78
+    },
+    {
+      "scope": "v53",
+      "index": "collaboration/materials/file-index/v53.json",
+      "files": 678
+    },
+    {
+      "scope": "v53/assets/originals",
+      "index": "collaboration/materials/file-index/v53--assets--originals.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/bazi-branch-clash",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-branch-clash.json",
+      "files": 4
+    },
+    {
+      "scope": "v53/qa/bazi-branch-combinations",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-branch-combinations.json",
+      "files": 1
+    },
+    {
+      "scope": "v53/qa/bazi-branch-harm",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-branch-harm.json",
+      "files": 4
+    },
+    {
+      "scope": "v53/qa/bazi-branch-penalty",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-branch-penalty.json",
+      "files": 4
+    },
+    {
+      "scope": "v53/qa/bazi-branch-triad",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-branch-triad.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/bazi-branch-union",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-branch-union.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/bazi-food-appendices",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-food-appendices.json",
+      "files": 10
+    },
+    {
+      "scope": "v53/qa/bazi-food-chain",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-food-chain.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/bazi-food-core",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-food-core.json",
+      "files": 4
+    },
+    {
+      "scope": "v53/qa/bazi-food-fire-exception",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-food-fire-exception.json",
+      "files": 4
+    },
+    {
+      "scope": "v53/qa/bazi-food-gap-witness",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-food-gap-witness.json",
+      "files": 10
+    },
+    {
+      "scope": "v53/qa/bazi-food-luck-subject",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-food-luck-subject.json",
+      "files": 4
+    },
+    {
+      "scope": "v53/qa/bazi-food-owl-exceptions",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-food-owl-exceptions.json",
+      "files": 9
+    },
+    {
+      "scope": "v53/qa/bazi-food-quantity",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-food-quantity.json",
+      "files": 5
+    },
+    {
+      "scope": "v53/qa/bazi-food-seats",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-food-seats.json",
+      "files": 6
+    },
+    {
+      "scope": "v53/qa/bazi-food-six-pillars",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-food-six-pillars.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/bazi-food-source",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-food-source.json",
+      "files": 17
+    },
+    {
+      "scope": "v53/qa/bazi-food-strength",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-food-strength.json",
+      "files": 5
+    },
+    {
+      "scope": "v53/qa/bazi-food-transformation",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-food-transformation.json",
+      "files": 4
+    },
+    {
+      "scope": "v53/qa/bazi-jianlu-context",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-jianlu-context.json",
+      "files": 5
+    },
+    {
+      "scope": "v53/qa/bazi-jianlu-coordinates",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-jianlu-coordinates.json",
+      "files": 2
+    },
+    {
+      "scope": "v53/qa/bazi-late-zi-option",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-late-zi-option.json",
+      "files": 19
+    },
+    {
+      "scope": "v53/qa/bazi-life-research",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-life-research.json",
+      "files": 2
+    },
+    {
+      "scope": "v53/qa/bazi-lu-labels",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-lu-labels.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/bazi-month-command",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-month-command.json",
+      "files": 10
+    },
+    {
+      "scope": "v53/qa/bazi-month-stems",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-month-stems.json",
+      "files": 20
+    },
+    {
+      "scope": "v53/qa/bazi-pattern-extension",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-pattern-extension.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/bazi-relation-locations",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-relation-locations.json",
+      "files": 29
+    },
+    {
+      "scope": "v53/qa/bazi-season-strength",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-season-strength.json",
+      "files": 10
+    },
+    {
+      "scope": "v53/qa/bazi-tongke-cases",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-tongke-cases.json",
+      "files": 2
+    },
+    {
+      "scope": "v53/qa/bazi-triad-stars",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-triad-stars.json",
+      "files": 4
+    },
+    {
+      "scope": "v53/qa/bazi-true-ghost-context",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-true-ghost-context.json",
+      "files": 4
+    },
+    {
+      "scope": "v53/qa/bazi-yangren-conditions",
+      "index": "collaboration/materials/file-index/v53--qa--bazi-yangren-conditions.json",
+      "files": 8
+    },
+    {
+      "scope": "v53/qa/birth-time",
+      "index": "collaboration/materials/file-index/v53--qa--birth-time.json",
+      "files": 5
+    },
+    {
+      "scope": "v53/qa/experience",
+      "index": "collaboration/materials/file-index/v53--qa--experience.json",
+      "files": 6
+    },
+    {
+      "scope": "v53/qa/fortune-context",
+      "index": "collaboration/materials/file-index/v53--qa--fortune-context.json",
+      "files": 32
+    },
+    {
+      "scope": "v53/qa/fortune-followup",
+      "index": "collaboration/materials/file-index/v53--qa--fortune-followup.json",
+      "files": 4
+    },
+    {
+      "scope": "v53/qa/fortune-months",
+      "index": "collaboration/materials/file-index/v53--qa--fortune-months.json",
+      "files": 8
+    },
+    {
+      "scope": "v53/qa/four-items",
+      "index": "collaboration/materials/file-index/v53--qa--four-items.json",
+      "files": 18
+    },
+    {
+      "scope": "v53/qa/full-study",
+      "index": "collaboration/materials/file-index/v53--qa--full-study.json",
+      "files": 30
+    },
+    {
+      "scope": "v53/qa/home-activity-clauses",
+      "index": "collaboration/materials/file-index/v53--qa--home-activity-clauses.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/home-day-hour-scopes",
+      "index": "collaboration/materials/file-index/v53--qa--home-day-hour-scopes.json",
+      "files": 2
+    },
+    {
+      "scope": "v53/qa/home-day-markers",
+      "index": "collaboration/materials/file-index/v53--qa--home-day-markers.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/home-direction-tables",
+      "index": "collaboration/materials/file-index/v53--qa--home-direction-tables.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/home-fuduan",
+      "index": "collaboration/materials/file-index/v53--qa--home-fuduan.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/home-ge-exceptions",
+      "index": "collaboration/materials/file-index/v53--qa--home-ge-exceptions.json",
+      "files": 4
+    },
+    {
+      "scope": "v53/qa/home-general-premises",
+      "index": "collaboration/materials/file-index/v53--qa--home-general-premises.json",
+      "files": 2
+    },
+    {
+      "scope": "v53/qa/home-guide",
+      "index": "collaboration/materials/file-index/v53--qa--home-guide.json",
+      "files": 4
+    },
+    {
+      "scope": "v53/qa/home-hour-alignment",
+      "index": "collaboration/materials/file-index/v53--qa--home-hour-alignment.json",
+      "files": 10
+    },
+    {
+      "scope": "v53/qa/home-month-gods",
+      "index": "collaboration/materials/file-index/v53--qa--home-month-gods.json",
+      "files": 4
+    },
+    {
+      "scope": "v53/qa/home-month-labels",
+      "index": "collaboration/materials/file-index/v53--qa--home-month-labels.json",
+      "files": 4
+    },
+    {
+      "scope": "v53/qa/home-month-spatial",
+      "index": "collaboration/materials/file-index/v53--qa--home-month-spatial.json",
+      "files": 4
+    },
+    {
+      "scope": "v53/qa/home-month-witness",
+      "index": "collaboration/materials/file-index/v53--qa--home-month-witness.json",
+      "files": 2
+    },
+    {
+      "scope": "v53/qa/home-p08-grid-priority",
+      "index": "collaboration/materials/file-index/v53--qa--home-p08-grid-priority.json",
+      "files": 4
+    },
+    {
+      "scope": "v53/qa/home-p08-related-selection-locator",
+      "index": "collaboration/materials/file-index/v53--qa--home-p08-related-selection-locator.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/home-rings",
+      "index": "collaboration/materials/file-index/v53--qa--home-rings.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/home-source-tables",
+      "index": "collaboration/materials/file-index/v53--qa--home-source-tables.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/home-time-premises",
+      "index": "collaboration/materials/file-index/v53--qa--home-time-premises.json",
+      "files": 2
+    },
+    {
+      "scope": "v53/qa/home-tomb-diagrams",
+      "index": "collaboration/materials/file-index/v53--qa--home-tomb-diagrams.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/home-xuankong-context",
+      "index": "collaboration/materials/file-index/v53--qa--home-xuankong-context.json",
+      "files": 14
+    },
+    {
+      "scope": "v53/qa/home-xuankong-lines",
+      "index": "collaboration/materials/file-index/v53--qa--home-xuankong-lines.json",
+      "files": 8
+    },
+    {
+      "scope": "v53/qa/home-yangzhai-courtyards",
+      "index": "collaboration/materials/file-index/v53--qa--home-yangzhai-courtyards.json",
+      "files": 32
+    },
+    {
+      "scope": "v53/qa/home-yangzhai-door-water",
+      "index": "collaboration/materials/file-index/v53--qa--home-yangzhai-door-water.json",
+      "files": 19
+    },
+    {
+      "scope": "v53/qa/home-yangzhai-final-spans",
+      "index": "collaboration/materials/file-index/v53--qa--home-yangzhai-final-spans.json",
+      "files": 13
+    },
+    {
+      "scope": "v53/qa/home-yangzhai-fuyuan",
+      "index": "collaboration/materials/file-index/v53--qa--home-yangzhai-fuyuan.json",
+      "files": 18
+    },
+    {
+      "scope": "v53/qa/home-yangzhai-shishu",
+      "index": "collaboration/materials/file-index/v53--qa--home-yangzhai-shishu.json",
+      "files": 15
+    },
+    {
+      "scope": "v53/qa/home-you-nian",
+      "index": "collaboration/materials/file-index/v53--qa--home-you-nian.json",
+      "files": 4
+    },
+    {
+      "scope": "v53/qa/imagery",
+      "index": "collaboration/materials/file-index/v53--qa--imagery.json",
+      "files": 6
+    },
+    {
+      "scope": "v53/qa/internal-doors",
+      "index": "collaboration/materials/file-index/v53--qa--internal-doors.json",
+      "files": 18
+    },
+    {
+      "scope": "v53/qa/liuyao-b02-jinqian",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-b02-jinqian.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/liuyao-b03-book1-tables",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-b03-book1-tables.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/liuyao-b03-book3",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-b03-book3.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/liuyao-b03-book4",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-b03-book4.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/liuyao-b03-book5",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-b03-book5.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/liuyao-b03-book6",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-b03-book6.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/liuyao-b03-boundaries",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-b03-boundaries.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/liuyao-b03-figures",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-b03-figures.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/liuyao-b03-line-labels",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-b03-line-labels.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/liuyao-b03-triad-clause",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-b03-triad-clause.json",
+      "files": 4
+    },
+    {
+      "scope": "v53/qa/liuyao-b03-volume3",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-b03-volume3.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/liuyao-b03-volume4",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-b03-volume4.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/liuyao-b03-volume5",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-b03-volume5.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/liuyao-closing-context",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-closing-context.json",
+      "files": 16
+    },
+    {
+      "scope": "v53/qa/liuyao-combination-context",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-combination-context.json",
+      "files": 17
+    },
+    {
+      "scope": "v53/qa/liuyao-commodity-boundary",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-commodity-boundary.json",
+      "files": 8
+    },
+    {
+      "scope": "v53/qa/liuyao-day-month",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-day-month.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/liuyao-exam-intent",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-exam-intent.json",
+      "files": 8
+    },
+    {
+      "scope": "v53/qa/liuyao-family-study",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-family-study.json",
+      "files": 9
+    },
+    {
+      "scope": "v53/qa/liuyao-foundation-span",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-foundation-span.json",
+      "files": 15
+    },
+    {
+      "scope": "v53/qa/liuyao-foundations",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-foundations.json",
+      "files": 99
+    },
+    {
+      "scope": "v53/qa/liuyao-hidden-spirits",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-hidden-spirits.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/liuyao-life-context",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-life-context.json",
+      "files": 6
+    },
+    {
+      "scope": "v53/qa/liuyao-multiple-use",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-multiple-use.json",
+      "files": 8
+    },
+    {
+      "scope": "v53/qa/liuyao-progress-conditions",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-progress-conditions.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/liuyao-triad-witness",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-triad-witness.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/liuyao-use-god",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-use-god.json",
+      "files": 5
+    },
+    {
+      "scope": "v53/qa/liuyao-void-motion",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-void-motion.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/liuyao-weather",
+      "index": "collaboration/materials/file-index/v53--qa--liuyao-weather.json",
+      "files": 5
+    },
+    {
+      "scope": "v53/qa/measured-plan",
+      "index": "collaboration/materials/file-index/v53--qa--measured-plan.json",
+      "files": 25
+    },
+    {
+      "scope": "v53/qa/meihua",
+      "index": "collaboration/materials/file-index/v53--qa--meihua.json",
+      "files": 13
+    },
+    {
+      "scope": "v53/qa/meihua-conditions",
+      "index": "collaboration/materials/file-index/v53--qa--meihua-conditions.json",
+      "files": 2
+    },
+    {
+      "scope": "v53/qa/meihua-external",
+      "index": "collaboration/materials/file-index/v53--qa--meihua-external.json",
+      "files": 2
+    },
+    {
+      "scope": "v53/qa/meihua-hour-table",
+      "index": "collaboration/materials/file-index/v53--qa--meihua-hour-table.json",
+      "files": 31
+    },
+    {
+      "scope": "v53/qa/meihua-layers",
+      "index": "collaboration/materials/file-index/v53--qa--meihua-layers.json",
+      "files": 27
+    },
+    {
+      "scope": "v53/qa/meihua-methods",
+      "index": "collaboration/materials/file-index/v53--qa--meihua-methods.json",
+      "files": 12
+    },
+    {
+      "scope": "v53/qa/meihua-reading",
+      "index": "collaboration/materials/file-index/v53--qa--meihua-reading.json",
+      "files": 2
+    },
+    {
+      "scope": "v53/qa/meihua-table-bodies",
+      "index": "collaboration/materials/file-index/v53--qa--meihua-table-bodies.json",
+      "files": 24
+    },
+    {
+      "scope": "v53/qa/meihua-volume-map",
+      "index": "collaboration/materials/file-index/v53--qa--meihua-volume-map.json",
+      "files": 2
+    },
+    {
+      "scope": "v53/qa/meihua-volume1",
+      "index": "collaboration/materials/file-index/v53--qa--meihua-volume1.json",
+      "files": 2
+    },
+    {
+      "scope": "v53/qa/meihua-witness",
+      "index": "collaboration/materials/file-index/v53--qa--meihua-witness.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/opposite-reading",
+      "index": "collaboration/materials/file-index/v53--qa--opposite-reading.json",
+      "files": 6
+    },
+    {
+      "scope": "v53/qa/pixel-verifier-hardening",
+      "index": "collaboration/materials/file-index/v53--qa--pixel-verifier-hardening.json",
+      "files": 7
+    },
+    {
+      "scope": "v53/qa/research-resume-pointer",
+      "index": "collaboration/materials/file-index/v53--qa--research-resume-pointer.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/tuvi-dipper-windows",
+      "index": "collaboration/materials/file-index/v53--qa--tuvi-dipper-windows.json",
+      "files": 4
+    },
+    {
+      "scope": "v53/qa/tuvi-flanking",
+      "index": "collaboration/materials/file-index/v53--qa--tuvi-flanking.json",
+      "files": 8
+    },
+    {
+      "scope": "v53/qa/tuvi-lower-contexts",
+      "index": "collaboration/materials/file-index/v53--qa--tuvi-lower-contexts.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/tuvi-lower-printed-cases",
+      "index": "collaboration/materials/file-index/v53--qa--tuvi-lower-printed-cases.json",
+      "files": 4
+    },
+    {
+      "scope": "v53/qa/tuvi-lower-tail",
+      "index": "collaboration/materials/file-index/v53--qa--tuvi-lower-tail.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/tuvi-masters",
+      "index": "collaboration/materials/file-index/v53--qa--tuvi-masters.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/tuvi-ming-shen",
+      "index": "collaboration/materials/file-index/v53--qa--tuvi-ming-shen.json",
+      "files": 8
+    },
+    {
+      "scope": "v53/qa/tuvi-shidian-witness",
+      "index": "collaboration/materials/file-index/v53--qa--tuvi-shidian-witness.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/tuvi-star-offices",
+      "index": "collaboration/materials/file-index/v53--qa--tuvi-star-offices.json",
+      "files": 19
+    },
+    {
+      "scope": "v53/qa/tuvi-void-child",
+      "index": "collaboration/materials/file-index/v53--qa--tuvi-void-child.json",
+      "files": 4
+    },
+    {
+      "scope": "v53/qa/tuvi-ziwei-anchor",
+      "index": "collaboration/materials/file-index/v53--qa--tuvi-ziwei-anchor.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/qa/unknown-hour-range",
+      "index": "collaboration/materials/file-index/v53--qa--unknown-hour-range.json",
+      "files": 18
+    },
+    {
+      "scope": "v53/qa/year-helper",
+      "index": "collaboration/materials/file-index/v53--qa--year-helper.json",
+      "files": 7
+    },
+    {
+      "scope": "v53/qa/yi-commentary-context",
+      "index": "collaboration/materials/file-index/v53--qa--yi-commentary-context.json",
+      "files": 13
+    },
+    {
+      "scope": "v53/qa/yi-lines",
+      "index": "collaboration/materials/file-index/v53--qa--yi-lines.json",
+      "files": 5
+    },
+    {
+      "scope": "v53/qa/yi-second-witness",
+      "index": "collaboration/materials/file-index/v53--qa--yi-second-witness.json",
+      "files": 6
+    },
+    {
+      "scope": "v53/research/bazi-branch-clash",
+      "index": "collaboration/materials/file-index/v53--research--bazi-branch-clash.json",
+      "files": 32
+    },
+    {
+      "scope": "v53/research/bazi-branch-harm",
+      "index": "collaboration/materials/file-index/v53--research--bazi-branch-harm.json",
+      "files": 34
+    },
+    {
+      "scope": "v53/research/bazi-branch-penalty",
+      "index": "collaboration/materials/file-index/v53--research--bazi-branch-penalty.json",
+      "files": 43
+    },
+    {
+      "scope": "v53/research/bazi-branch-triad",
+      "index": "collaboration/materials/file-index/v53--research--bazi-branch-triad.json",
+      "files": 32
+    },
+    {
+      "scope": "v53/research/bazi-branch-union",
+      "index": "collaboration/materials/file-index/v53--research--bazi-branch-union.json",
+      "files": 37
+    },
+    {
+      "scope": "v53/research/bazi-food-appendices",
+      "index": "collaboration/materials/file-index/v53--research--bazi-food-appendices.json",
+      "files": 13
+    },
+    {
+      "scope": "v53/research/bazi-food-chain",
+      "index": "collaboration/materials/file-index/v53--research--bazi-food-chain.json",
+      "files": 15
+    },
+    {
+      "scope": "v53/research/bazi-food-core",
+      "index": "collaboration/materials/file-index/v53--research--bazi-food-core.json",
+      "files": 10
+    },
+    {
+      "scope": "v53/research/bazi-food-fire-exception",
+      "index": "collaboration/materials/file-index/v53--research--bazi-food-fire-exception.json",
+      "files": 19
+    },
+    {
+      "scope": "v53/research/bazi-food-gap-witness",
+      "index": "collaboration/materials/file-index/v53--research--bazi-food-gap-witness.json",
+      "files": 32
+    },
+    {
+      "scope": "v53/research/bazi-food-luck-subject",
+      "index": "collaboration/materials/file-index/v53--research--bazi-food-luck-subject.json",
+      "files": 24
+    },
+    {
+      "scope": "v53/research/bazi-food-owl-exceptions",
+      "index": "collaboration/materials/file-index/v53--research--bazi-food-owl-exceptions.json",
+      "files": 14
+    },
+    {
+      "scope": "v53/research/bazi-food-quantity",
+      "index": "collaboration/materials/file-index/v53--research--bazi-food-quantity.json",
+      "files": 21
+    },
+    {
+      "scope": "v53/research/bazi-food-seats",
+      "index": "collaboration/materials/file-index/v53--research--bazi-food-seats.json",
+      "files": 9
+    },
+    {
+      "scope": "v53/research/bazi-food-six-pillars",
+      "index": "collaboration/materials/file-index/v53--research--bazi-food-six-pillars.json",
+      "files": 15
+    },
+    {
+      "scope": "v53/research/bazi-food-source",
+      "index": "collaboration/materials/file-index/v53--research--bazi-food-source.json",
+      "files": 47
+    },
+    {
+      "scope": "v53/research/bazi-food-strength",
+      "index": "collaboration/materials/file-index/v53--research--bazi-food-strength.json",
+      "files": 17
+    },
+    {
+      "scope": "v53/research/bazi-food-transformation",
+      "index": "collaboration/materials/file-index/v53--research--bazi-food-transformation.json",
+      "files": 24
+    },
+    {
+      "scope": "v53/research/bazi-jianlu-context",
+      "index": "collaboration/materials/file-index/v53--research--bazi-jianlu-context.json",
+      "files": 57
+    },
+    {
+      "scope": "v53/research/bazi-jianlu-coordinates",
+      "index": "collaboration/materials/file-index/v53--research--bazi-jianlu-coordinates.json",
+      "files": 7
+    },
+    {
+      "scope": "v53/research/bazi-late-zi",
+      "index": "collaboration/materials/file-index/v53--research--bazi-late-zi.json",
+      "files": 2
+    },
+    {
+      "scope": "v53/research/bazi-late-zi-witness",
+      "index": "collaboration/materials/file-index/v53--research--bazi-late-zi-witness.json",
+      "files": 76
+    },
+    {
+      "scope": "v53/research/bazi-life-stage",
+      "index": "collaboration/materials/file-index/v53--research--bazi-life-stage.json",
+      "files": 20
+    },
+    {
+      "scope": "v53/research/bazi-lu-labels",
+      "index": "collaboration/materials/file-index/v53--research--bazi-lu-labels.json",
+      "files": 7
+    },
+    {
+      "scope": "v53/research/bazi-month-command",
+      "index": "collaboration/materials/file-index/v53--research--bazi-month-command.json",
+      "files": 25
+    },
+    {
+      "scope": "v53/research/bazi-pattern-extension",
+      "index": "collaboration/materials/file-index/v53--research--bazi-pattern-extension.json",
+      "files": 36
+    },
+    {
+      "scope": "v53/research/bazi-pattern-witness",
+      "index": "collaboration/materials/file-index/v53--research--bazi-pattern-witness.json",
+      "files": 40
+    },
+    {
+      "scope": "v53/research/bazi-relation-locations",
+      "index": "collaboration/materials/file-index/v53--research--bazi-relation-locations.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/research/bazi-relations",
+      "index": "collaboration/materials/file-index/v53--research--bazi-relations.json",
+      "files": 18
+    },
+    {
+      "scope": "v53/research/bazi-season-strength",
+      "index": "collaboration/materials/file-index/v53--research--bazi-season-strength.json",
+      "files": 29
+    },
+    {
+      "scope": "v53/research/bazi-ten-stem-life",
+      "index": "collaboration/materials/file-index/v53--research--bazi-ten-stem-life.json",
+      "files": 49
+    },
+    {
+      "scope": "v53/research/bazi-tongke-cases",
+      "index": "collaboration/materials/file-index/v53--research--bazi-tongke-cases.json",
+      "files": 16
+    },
+    {
+      "scope": "v53/research/bazi-triad-stars",
+      "index": "collaboration/materials/file-index/v53--research--bazi-triad-stars.json",
+      "files": 31
+    },
+    {
+      "scope": "v53/research/bazi-true-ghost-context",
+      "index": "collaboration/materials/file-index/v53--research--bazi-true-ghost-context.json",
+      "files": 31
+    },
+    {
+      "scope": "v53/research/bazi-yangren-conditions",
+      "index": "collaboration/materials/file-index/v53--research--bazi-yangren-conditions.json",
+      "files": 29
+    },
+    {
+      "scope": "v53/research/fortune-context",
+      "index": "collaboration/materials/file-index/v53--research--fortune-context.json",
+      "files": 7
+    },
+    {
+      "scope": "v53/research/fortune-followup",
+      "index": "collaboration/materials/file-index/v53--research--fortune-followup.json",
+      "files": 15
+    },
+    {
+      "scope": "v53/research/fortune-table",
+      "index": "collaboration/materials/file-index/v53--research--fortune-table.json",
+      "files": 8
+    },
+    {
+      "scope": "v53/research/four-items",
+      "index": "collaboration/materials/file-index/v53--research--four-items.json",
+      "files": 34
+    },
+    {
+      "scope": "v53/research/full-study",
+      "index": "collaboration/materials/file-index/v53--research--full-study.json",
+      "files": 411
+    },
+    {
+      "scope": "v53/research/home",
+      "index": "collaboration/materials/file-index/v53--research--home.json",
+      "files": 13
+    },
+    {
+      "scope": "v53/research/home-activity-clauses",
+      "index": "collaboration/materials/file-index/v53--research--home-activity-clauses.json",
+      "files": 23
+    },
+    {
+      "scope": "v53/research/home-day-hour-scopes",
+      "index": "collaboration/materials/file-index/v53--research--home-day-hour-scopes.json",
+      "files": 55
+    },
+    {
+      "scope": "v53/research/home-day-markers",
+      "index": "collaboration/materials/file-index/v53--research--home-day-markers.json",
+      "files": 35
+    },
+    {
+      "scope": "v53/research/home-direction-tables",
+      "index": "collaboration/materials/file-index/v53--research--home-direction-tables.json",
+      "files": 15
+    },
+    {
+      "scope": "v53/research/home-fuduan",
+      "index": "collaboration/materials/file-index/v53--research--home-fuduan.json",
+      "files": 52
+    },
+    {
+      "scope": "v53/research/home-ge-exceptions",
+      "index": "collaboration/materials/file-index/v53--research--home-ge-exceptions.json",
+      "files": 17
+    },
+    {
+      "scope": "v53/research/home-general-premises",
+      "index": "collaboration/materials/file-index/v53--research--home-general-premises.json",
+      "files": 59
+    },
+    {
+      "scope": "v53/research/home-hour-alignment",
+      "index": "collaboration/materials/file-index/v53--research--home-hour-alignment.json",
+      "files": 12
+    },
+    {
+      "scope": "v53/research/home-month-gods",
+      "index": "collaboration/materials/file-index/v53--research--home-month-gods.json",
+      "files": 27
+    },
+    {
+      "scope": "v53/research/home-month-labels",
+      "index": "collaboration/materials/file-index/v53--research--home-month-labels.json",
+      "files": 49
+    },
+    {
+      "scope": "v53/research/home-month-spatial",
+      "index": "collaboration/materials/file-index/v53--research--home-month-spatial.json",
+      "files": 19
+    },
+    {
+      "scope": "v53/research/home-month-witness",
+      "index": "collaboration/materials/file-index/v53--research--home-month-witness.json",
+      "files": 43
+    },
+    {
+      "scope": "v53/research/home-p08-grid-priority",
+      "index": "collaboration/materials/file-index/v53--research--home-p08-grid-priority.json",
+      "files": 16
+    },
+    {
+      "scope": "v53/research/home-p08-related-selection-locator",
+      "index": "collaboration/materials/file-index/v53--research--home-p08-related-selection-locator.json",
+      "files": 25
+    },
+    {
+      "scope": "v53/research/home-rings",
+      "index": "collaboration/materials/file-index/v53--research--home-rings.json",
+      "files": 16
+    },
+    {
+      "scope": "v53/research/home-source-tables",
+      "index": "collaboration/materials/file-index/v53--research--home-source-tables.json",
+      "files": 79
+    },
+    {
+      "scope": "v53/research/home-time-premises",
+      "index": "collaboration/materials/file-index/v53--research--home-time-premises.json",
+      "files": 43
+    },
+    {
+      "scope": "v53/research/home-tomb-diagrams",
+      "index": "collaboration/materials/file-index/v53--research--home-tomb-diagrams.json",
+      "files": 35
+    },
+    {
+      "scope": "v53/research/home-xuankong-context",
+      "index": "collaboration/materials/file-index/v53--research--home-xuankong-context.json",
+      "files": 13
+    },
+    {
+      "scope": "v53/research/home-xuankong-lines",
+      "index": "collaboration/materials/file-index/v53--research--home-xuankong-lines.json",
+      "files": 10
+    },
+    {
+      "scope": "v53/research/home-yangzhai-courtyards",
+      "index": "collaboration/materials/file-index/v53--research--home-yangzhai-courtyards.json",
+      "files": 47
+    },
+    {
+      "scope": "v53/research/home-yangzhai-door-water",
+      "index": "collaboration/materials/file-index/v53--research--home-yangzhai-door-water.json",
+      "files": 33
+    },
+    {
+      "scope": "v53/research/home-yangzhai-final-spans",
+      "index": "collaboration/materials/file-index/v53--research--home-yangzhai-final-spans.json",
+      "files": 119
+    },
+    {
+      "scope": "v53/research/home-yangzhai-fuyuan",
+      "index": "collaboration/materials/file-index/v53--research--home-yangzhai-fuyuan.json",
+      "files": 64
+    },
+    {
+      "scope": "v53/research/home-yangzhai-shishu",
+      "index": "collaboration/materials/file-index/v53--research--home-yangzhai-shishu.json",
+      "files": 105
+    },
+    {
+      "scope": "v53/research/home-you-nian",
+      "index": "collaboration/materials/file-index/v53--research--home-you-nian.json",
+      "files": 122
+    },
+    {
+      "scope": "v53/research/internal-doors",
+      "index": "collaboration/materials/file-index/v53--research--internal-doors.json",
+      "files": 2
+    },
+    {
+      "scope": "v53/research/library-audit",
+      "index": "collaboration/materials/file-index/v53--research--library-audit.json",
+      "files": 51
+    },
+    {
+      "scope": "v53/research/library-current",
+      "index": "collaboration/materials/file-index/v53--research--library-current.json",
+      "files": 6
+    },
+    {
+      "scope": "v53/research/liuyao-b02-jinqian",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-b02-jinqian.json",
+      "files": 73
+    },
+    {
+      "scope": "v53/research/liuyao-b03-book1-tables",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-b03-book1-tables.json",
+      "files": 55
+    },
+    {
+      "scope": "v53/research/liuyao-b03-book3",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-b03-book3.json",
+      "files": 52
+    },
+    {
+      "scope": "v53/research/liuyao-b03-book4",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-b03-book4.json",
+      "files": 83
+    },
+    {
+      "scope": "v53/research/liuyao-b03-book5",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-b03-book5.json",
+      "files": 57
+    },
+    {
+      "scope": "v53/research/liuyao-b03-book6",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-b03-book6.json",
+      "files": 80
+    },
+    {
+      "scope": "v53/research/liuyao-b03-boundaries",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-b03-boundaries.json",
+      "files": 23
+    },
+    {
+      "scope": "v53/research/liuyao-b03-figures",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-b03-figures.json",
+      "files": 31
+    },
+    {
+      "scope": "v53/research/liuyao-b03-line-labels",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-b03-line-labels.json",
+      "files": 11
+    },
+    {
+      "scope": "v53/research/liuyao-b03-triad-clause",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-b03-triad-clause.json",
+      "files": 20
+    },
+    {
+      "scope": "v53/research/liuyao-b03-volume3",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-b03-volume3.json",
+      "files": 45
+    },
+    {
+      "scope": "v53/research/liuyao-b03-volume4",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-b03-volume4.json",
+      "files": 23
+    },
+    {
+      "scope": "v53/research/liuyao-b03-volume5",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-b03-volume5.json",
+      "files": 39
+    },
+    {
+      "scope": "v53/research/liuyao-closing-context",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-closing-context.json",
+      "files": 92
+    },
+    {
+      "scope": "v53/research/liuyao-combination-context",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-combination-context.json",
+      "files": 15
+    },
+    {
+      "scope": "v53/research/liuyao-commodity-boundary",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-commodity-boundary.json",
+      "files": 36
+    },
+    {
+      "scope": "v53/research/liuyao-day-month",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-day-month.json",
+      "files": 27
+    },
+    {
+      "scope": "v53/research/liuyao-exam-intent",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-exam-intent.json",
+      "files": 50
+    },
+    {
+      "scope": "v53/research/liuyao-family-study",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-family-study.json",
+      "files": 39
+    },
+    {
+      "scope": "v53/research/liuyao-foundation-span",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-foundation-span.json",
+      "files": 17
+    },
+    {
+      "scope": "v53/research/liuyao-foundations",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-foundations.json",
+      "files": 52
+    },
+    {
+      "scope": "v53/research/liuyao-hidden-spirits",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-hidden-spirits.json",
+      "files": 28
+    },
+    {
+      "scope": "v53/research/liuyao-life-context",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-life-context.json",
+      "files": 20
+    },
+    {
+      "scope": "v53/research/liuyao-multiple-use",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-multiple-use.json",
+      "files": 46
+    },
+    {
+      "scope": "v53/research/liuyao-progress-conditions",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-progress-conditions.json",
+      "files": 42
+    },
+    {
+      "scope": "v53/research/liuyao-triad-witness",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-triad-witness.json",
+      "files": 29
+    },
+    {
+      "scope": "v53/research/liuyao-use-god",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-use-god.json",
+      "files": 21
+    },
+    {
+      "scope": "v53/research/liuyao-void-motion",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-void-motion.json",
+      "files": 48
+    },
+    {
+      "scope": "v53/research/liuyao-weather",
+      "index": "collaboration/materials/file-index/v53--research--liuyao-weather.json",
+      "files": 40
+    },
+    {
+      "scope": "v53/research/measured-plan",
+      "index": "collaboration/materials/file-index/v53--research--measured-plan.json",
+      "files": 2
+    },
+    {
+      "scope": "v53/research/meihua",
+      "index": "collaboration/materials/file-index/v53--research--meihua.json",
+      "files": 257
+    },
+    {
+      "scope": "v53/research/meihua-conditions",
+      "index": "collaboration/materials/file-index/v53--research--meihua-conditions.json",
+      "files": 8
+    },
+    {
+      "scope": "v53/research/meihua-external",
+      "index": "collaboration/materials/file-index/v53--research--meihua-external.json",
+      "files": 8
+    },
+    {
+      "scope": "v53/research/meihua-hour-table",
+      "index": "collaboration/materials/file-index/v53--research--meihua-hour-table.json",
+      "files": 6
+    },
+    {
+      "scope": "v53/research/meihua-layers",
+      "index": "collaboration/materials/file-index/v53--research--meihua-layers.json",
+      "files": 6
+    },
+    {
+      "scope": "v53/research/meihua-methods",
+      "index": "collaboration/materials/file-index/v53--research--meihua-methods.json",
+      "files": 2
+    },
+    {
+      "scope": "v53/research/meihua-reading",
+      "index": "collaboration/materials/file-index/v53--research--meihua-reading.json",
+      "files": 5
+    },
+    {
+      "scope": "v53/research/meihua-table-bodies",
+      "index": "collaboration/materials/file-index/v53--research--meihua-table-bodies.json",
+      "files": 6
+    },
+    {
+      "scope": "v53/research/meihua-volume-map",
+      "index": "collaboration/materials/file-index/v53--research--meihua-volume-map.json",
+      "files": 5
+    },
+    {
+      "scope": "v53/research/meihua-volume1",
+      "index": "collaboration/materials/file-index/v53--research--meihua-volume1.json",
+      "files": 9
+    },
+    {
+      "scope": "v53/research/meihua-witness",
+      "index": "collaboration/materials/file-index/v53--research--meihua-witness.json",
+      "files": 8
+    },
+    {
+      "scope": "v53/research/month-boundaries",
+      "index": "collaboration/materials/file-index/v53--research--month-boundaries.json",
+      "files": 3
+    },
+    {
+      "scope": "v53/research/research-resume-pointer",
+      "index": "collaboration/materials/file-index/v53--research--research-resume-pointer.json",
+      "files": 7
+    },
+    {
+      "scope": "v53/research/tuvi-dipper-windows",
+      "index": "collaboration/materials/file-index/v53--research--tuvi-dipper-windows.json",
+      "files": 20
+    },
+    {
+      "scope": "v53/research/tuvi-flanking",
+      "index": "collaboration/materials/file-index/v53--research--tuvi-flanking.json",
+      "files": 35
+    },
+    {
+      "scope": "v53/research/tuvi-lower-contexts",
+      "index": "collaboration/materials/file-index/v53--research--tuvi-lower-contexts.json",
+      "files": 102
+    },
+    {
+      "scope": "v53/research/tuvi-lower-printed-cases",
+      "index": "collaboration/materials/file-index/v53--research--tuvi-lower-printed-cases.json",
+      "files": 60
+    },
+    {
+      "scope": "v53/research/tuvi-lower-tail",
+      "index": "collaboration/materials/file-index/v53--research--tuvi-lower-tail.json",
+      "files": 87
+    },
+    {
+      "scope": "v53/research/tuvi-masters",
+      "index": "collaboration/materials/file-index/v53--research--tuvi-masters.json",
+      "files": 8
+    },
+    {
+      "scope": "v53/research/tuvi-ming-shen",
+      "index": "collaboration/materials/file-index/v53--research--tuvi-ming-shen.json",
+      "files": 41
+    },
+    {
+      "scope": "v53/research/tuvi-shidian-witness",
+      "index": "collaboration/materials/file-index/v53--research--tuvi-shidian-witness.json",
+      "files": 48
+    },
+    {
+      "scope": "v53/research/tuvi-star-offices",
+      "index": "collaboration/materials/file-index/v53--research--tuvi-star-offices.json",
+      "files": 53
+    },
+    {
+      "scope": "v53/research/tuvi-void-child",
+      "index": "collaboration/materials/file-index/v53--research--tuvi-void-child.json",
+      "files": 17
+    },
+    {
+      "scope": "v53/research/tuvi-ziwei-anchor",
+      "index": "collaboration/materials/file-index/v53--research--tuvi-ziwei-anchor.json",
+      "files": 82
+    },
+    {
+      "scope": "v53/research/unknown-hour-range",
+      "index": "collaboration/materials/file-index/v53--research--unknown-hour-range.json",
+      "files": 2
+    },
+    {
+      "scope": "v53/research/yi-commentary-context",
+      "index": "collaboration/materials/file-index/v53--research--yi-commentary-context.json",
+      "files": 4
+    },
+    {
+      "scope": "v53/research/yi-lines",
+      "index": "collaboration/materials/file-index/v53--research--yi-lines.json",
+      "files": 2
+    },
+    {
+      "scope": "v53/research/yi-second-witness",
+      "index": "collaboration/materials/file-index/v53--research--yi-second-witness.json",
+      "files": 123
+    }
+  ]
+}

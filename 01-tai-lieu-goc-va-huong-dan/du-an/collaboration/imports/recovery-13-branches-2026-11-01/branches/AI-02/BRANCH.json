@@ -1,0 +1,18 @@
+{
+  "id": "AI-02",
+  "name": "Tử Bình — Dụng Thần và phân tầng truyền bản",
+  "researchTrackDirectory": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-02",
+  "historicalGitBranchRef": "codex/ai-02-tu-binh",
+  "historicalPR": "1",
+  "historicalCommitSHA": "c7bfdc5 (mốc phát triển trước đó, không xác nhận HEAD hiện thời)",
+  "historicalGitMetadataVerifiedAgainstCurrentRemote": false,
+  "reportedTestsHistoricalUnverified": "Theo báo cáo 01/11: 96/96 nhóm kiểm Node.js trên nền cục bộ/mô phỏng",
+  "reportedNextSteps": "Chưa đẩy phiên bản tích lũy 01/11 lên nhánh; cần đối ảnh `衰右/衰中`, xác minh cơ sở chứng cứ, chạy trên checkout đầy đủ và review PR #1. Không thay engine/main.",
+  "currentProjectPointers": [
+    "v53/research/bazi-food-quantity",
+    "v53/research/bazi-food-chain",
+    "EXHAUSTIVE_WORK_STATE.json#currentWork"
+  ],
+  "evidenceMembers": 7,
+  "applicationPatchApplied": false
+}

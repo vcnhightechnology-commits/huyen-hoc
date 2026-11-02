@@ -1,0 +1,53 @@
+{
+  "date": "2026-10-29",
+  "sourcePages": [
+    131,
+    132,
+    133,
+    134
+  ],
+  "newSourcePositions": 0,
+  "newHTTPRequests": 0,
+  "newOriginalContainers": 0,
+  "dispositions": [
+    {
+      "id": "grid-structure",
+      "positions": "131left/132both/133both/134right",
+      "reading": "60 consecutive sexagenary day columns; month rows 正二三四五六七八九十十一十二, grid12x60. Headers and selected 建/破 collated from images; J/P/dot are editorial notation.",
+      "scope": "720 selected-marker presence contexts, not full720cell text."
+    },
+    {
+      "id": "build-break",
+      "positions": "all720cells",
+      "reading": "60 literal建 and60literal破,600cells without either selected glyph. Other source labels are not treated as absent, blank or auspicious.",
+      "implemented": "Private source coordinate lookup; requires explicitly declared source month. Unknown coordinates return unknown; no date adapter."
+    },
+    {
+      "id": "intro-priority",
+      "positions": "131right",
+      "reading": "Introduction names 建破魁罡 among avoidance conditions even with 吉星; severe subsequent language is a textual assertion, not proven consequences.",
+      "implemented": false,
+      "remaining": "Full identification and all simultaneous source-label rules required before overall source recommendation."
+    },
+    {
+      "id": "lexicon",
+      "positions": "131token native/caption",
+      "reading": "Caption 天皇帝星 is legible; the small table token remains uncertain. Roof/lower strokes do not suffice to identify it as 帝/寧/富. Do not use caption analogy or OCR to fill table strings.",
+      "implemented": false
+    },
+    {
+      "id": "hour-restriction-reuse",
+      "positions": "134left",
+      "reading": "Prior source already separated 截路空亡止忌出行嫁娶移徙餘皆不忌. Existing sourceJieluActivityScope implements named activities with declared status; no duplicate implementation or rerun of144hour fixtures.",
+      "implemented": "Already present in v53/research/home-hour-alignment/source-hour-reference.mjs"
+    },
+    {
+      "id": "month-basis",
+      "positions": "source month headers and new runtime boundary illustrations",
+      "reading": "Printed numeric months do not by themselves resolve lunar/seasonal/leap boundaries. Matching declared month-branch coordinates is not evidence for an automatic modern calendar adapter.",
+      "implemented": false
+    }
+  ],
+  "wholeTableLabelsTranscribed": false,
+  "wholeSourceApplied": false
+}

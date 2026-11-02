@@ -1,0 +1,77 @@
+{
+  "date": "2026-10-25T14:16:06.021Z",
+  "checks": [
+    {
+      "name": "Archived V46–V52 files remain byte-identical",
+      "ok": true,
+      "detail": {
+        "files": 605,
+        "differences": []
+      }
+    },
+    {
+      "name": "Initial form does not auto-save birth data",
+      "ok": true
+    },
+    {
+      "name": "Known calendar-sensitive window keeps a plain-language notice",
+      "ok": true
+    },
+    {
+      "name": "Print action invokes browser print",
+      "ok": true
+    },
+    {
+      "name": "Print view hides navigation and input, preserves result",
+      "ok": true
+    },
+    {
+      "name": "All 64 six-line combinations resolve to distinct complete readings",
+      "ok": true,
+      "detail": {
+        "numbers": 64,
+        "complete": true
+      }
+    },
+    {
+      "name": "Single reading section uses available desktop width",
+      "ok": true,
+      "detail": {
+        "width": 828,
+        "parent": 828
+      }
+    },
+    {
+      "name": "Final directions layout fits 320px",
+      "ok": true,
+      "detail": {
+        "page": 320,
+        "width": 320
+      }
+    },
+    {
+      "name": "Final directions layout fits 390px",
+      "ok": true,
+      "detail": {
+        "page": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "Final directions layout fits 768px",
+      "ok": true,
+      "detail": {
+        "page": 768,
+        "width": 768
+      }
+    },
+    {
+      "name": "Final directions layout fits 1440px",
+      "ok": true,
+      "detail": {
+        "page": 1440,
+        "width": 1440
+      }
+    }
+  ]
+}

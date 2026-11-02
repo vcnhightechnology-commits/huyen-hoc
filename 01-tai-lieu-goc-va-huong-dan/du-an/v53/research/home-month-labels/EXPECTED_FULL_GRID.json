@@ -1,0 +1,68 @@
+{
+  "date": "2026-10-29",
+  "frozenBeforeFourBlockImplementation": true,
+  "totalCoordinates": 720,
+  "inspectedCells": 720,
+  "readableLabels": 500,
+  "unknownLabels": 220,
+  "untranscribedCells": 0,
+  "fullTableAllGlyphsKnown": false,
+  "priorMarkersUnresolvedThisRead": [
+    {
+      "sourceMonth": 12,
+      "dayGanzhi": "乙未",
+      "previousMarker": "破",
+      "newReading": null,
+      "action": "Preserve original selected marker evidence separately; do not infer complete label from it."
+    }
+  ],
+  "fourBlockCounts": [
+    {
+      "block": 3,
+      "readable": 85,
+      "unknown": 35
+    },
+    {
+      "block": 4,
+      "readable": 82,
+      "unknown": 38
+    },
+    {
+      "block": 5,
+      "readable": 86,
+      "unknown": 34
+    },
+    {
+      "block": 6,
+      "readable": 84,
+      "unknown": 36
+    }
+  ],
+  "fixedCases": [
+    {
+      "month": 1,
+      "day": "甲申",
+      "expected": "破"
+    },
+    {
+      "month": 1,
+      "day": "乙未",
+      "expected": "墓"
+    },
+    {
+      "month": 4,
+      "day": "壬子",
+      "expected": "四廢"
+    },
+    {
+      "month": 1,
+      "day": "癸亥",
+      "expected": "河魁"
+    },
+    {
+      "month": 12,
+      "day": "乙未",
+      "expected": null
+    }
+  ]
+}

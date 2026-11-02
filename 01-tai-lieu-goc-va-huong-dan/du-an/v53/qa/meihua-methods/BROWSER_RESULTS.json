@@ -1,0 +1,259 @@
+{
+  "checks": [
+    {
+      "name": "Eight visible method choices retain the existing default and blank date components",
+      "ok": true
+    },
+    {
+      "name": "extra: real form produces expected primary/changed/moving and correct hour-control visibility",
+      "ok": true
+    },
+    {
+      "name": "split: real form produces expected primary/changed/moving and correct hour-control visibility",
+      "ok": true
+    },
+    {
+      "name": "strokes: real form produces expected primary/changed/moving and correct hour-control visibility",
+      "ok": true
+    },
+    {
+      "name": "tones: real form produces expected primary/changed/moving and correct hour-control visibility",
+      "ok": true
+    },
+    {
+      "name": "length: real form produces expected primary/changed/moving and correct hour-control visibility",
+      "ok": true
+    },
+    {
+      "name": "zhang: real form produces expected primary/changed/moving and correct hour-control visibility",
+      "ok": true
+    },
+    {
+      "name": "chi: real form produces expected primary/changed/moving and correct hour-control visibility",
+      "ok": true
+    },
+    {
+      "name": "Seven explicit saves keep the new casts as separate input profiles",
+      "ok": true
+    },
+    {
+      "name": "extra: profile reopens exact method/submode,inputs and canonical result",
+      "ok": true
+    },
+    {
+      "name": "split: profile reopens exact method/submode,inputs and canonical result",
+      "ok": true
+    },
+    {
+      "name": "strokes: profile reopens exact method/submode,inputs and canonical result",
+      "ok": true
+    },
+    {
+      "name": "tones: profile reopens exact method/submode,inputs and canonical result",
+      "ok": true
+    },
+    {
+      "name": "length: profile reopens exact method/submode,inputs and canonical result",
+      "ok": true
+    },
+    {
+      "name": "zhang: profile reopens exact method/submode,inputs and canonical result",
+      "ok": true
+    },
+    {
+      "name": "chi: profile reopens exact method/submode,inputs and canonical result",
+      "ok": true
+    },
+    {
+      "name": "Tone-method TXT retains all six named tones,no-hour convention and all six reflection positions",
+      "ok": true
+    },
+    {
+      "name": "Print keeps the method summary and complete reading while hiding all input controls",
+      "ok": true
+    },
+    {
+      "name": "Incomplete four-to-ten tone sequence is rejected and stale export removed",
+      "ok": true
+    },
+    {
+      "name": "An invented fifth historical tone is rejected",
+      "ok": true
+    },
+    {
+      "name": "Scientific notation cannot silently become a source stroke count",
+      "ok": true
+    },
+    {
+      "name": "A missing entry between punctuation separators cannot silently become a two-character cast",
+      "ok": true
+    },
+    {
+      "name": "Switching to character length ignores malformed hidden tone/stroke text",
+      "ok": true
+    },
+    {
+      "name": "Character count10outside the selected11..100method is rejected",
+      "ok": true
+    },
+    {
+      "name": "Character count101outside the selected11..100method is rejected",
+      "ok": true
+    },
+    {
+      "name": "Zero measurement component is rejected without inventing a trigram premise",
+      "ok": true
+    },
+    {
+      "name": "Chi-cun requires its own hour even though zhang-chi does not",
+      "ok": true
+    },
+    {
+      "name": "Additional-number mode requires a deliberate positive extra number",
+      "ok": true
+    },
+    {
+      "name": "Current-date helper works in additional-number mode and keeps the explicit extra count",
+      "ok": true
+    },
+    {
+      "name": "Legacytimemode preserves actual browser output after new submode switching",
+      "ok": true
+    },
+    {
+      "name": "Legacycountmode preserves actual browser output after new submode switching",
+      "ok": true
+    },
+    {
+      "name": "Legacysound-pairmode preserves actual browser output after new submode switching",
+      "ok": true
+    },
+    {
+      "name": "Legacyobject-directionmode preserves actual browser output after new submode switching",
+      "ok": true
+    },
+    {
+      "name": "320pxtones: fields,long method summary and result have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "320pxzhang: fields,long method summary and result have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "320pxextra: fields,long method summary and result have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "width": 320,
+        "scroll": 320
+      }
+    },
+    {
+      "name": "390pxtones: fields,long method summary and result have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "width": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "390pxzhang: fields,long method summary and result have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "width": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "390pxextra: fields,long method summary and result have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "width": 390,
+        "scroll": 390
+      }
+    },
+    {
+      "name": "768pxtones: fields,long method summary and result have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "width": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "768pxzhang: fields,long method summary and result have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "width": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "768pxextra: fields,long method summary and result have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "width": 768,
+        "scroll": 768
+      }
+    },
+    {
+      "name": "1440pxtones: fields,long method summary and result have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "1440pxzhang: fields,long method summary and result have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "1440pxextra: fields,long method summary and result have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "width": 1440,
+        "scroll": 1440
+      }
+    },
+    {
+      "name": "Legacy manual casting remains available with its original moving line",
+      "ok": true
+    },
+    {
+      "name": "Legacy coin casting still produces a complete result",
+      "ok": true
+    },
+    {
+      "name": "Saved new-method inputs recompute correct lines even when old derived values were corrupted",
+      "ok": true
+    },
+    {
+      "name": "No raw source,engine audit panels or research vocabulary appear in the consumer result",
+      "ok": true
+    },
+    {
+      "name": "No runtime JavaScript errors or HTTP requests",
+      "ok": true,
+      "detail": {
+        "errors": [],
+        "http": []
+      }
+    }
+  ],
+  "errors": [],
+  "http": [],
+  "pdfCreated": true
+}

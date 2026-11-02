@@ -1,0 +1,42 @@
+{
+  "schema": "hhc.home.fuduan.freeze.v1",
+  "date": "2026-10-29",
+  "referenceImplementationExists": false,
+  "files": [
+    {
+      "file": "SOURCE_CLAIMS.json",
+      "bytes": 6438,
+      "sha256": "05dc7e94cdcc39f98467cc9c446fcf27366926f9dc63c908d6c05f4678098055"
+    },
+    {
+      "file": "EXPECTED_BEFORE_IMPLEMENTATION.json",
+      "bytes": 5196,
+      "sha256": "72fe58fba3712efc882e0bec4e3ebd81916e7d326d928cd79f2869cfee3e2d69"
+    },
+    {
+      "file": "XIEJI_NATIVE_CROPS.json",
+      "bytes": 3347,
+      "sha256": "dab335a139c96479aaebbf9582d2c697f17ad77df0576ee6eeeab578f6bd608c"
+    },
+    {
+      "file": "RAW_DCT_IMAGES.json",
+      "bytes": 4087,
+      "sha256": "94f08d3ad5a0cb1d872064d1cb93f23ab8202ba61470de7a69261611737ecd46"
+    },
+    {
+      "file": "NATIVE_CROPS.json",
+      "bytes": 2226,
+      "sha256": "043c4717d247e0082653627de5656e19ad71b0fdac6564780ec2f4764b146b7e"
+    },
+    {
+      "file": "REQUESTS.json",
+      "bytes": 18486,
+      "sha256": "ca203303cd9d9cb307a06d30f8d4e7ce5f61f7e1e27338d23a9da507ab7c17ff"
+    },
+    {
+      "file": "COLLATION_PENDING.json",
+      "bytes": 649,
+      "sha256": "7aa4773f34dc7f4f030ab20c08cb2e88bf48c2ddc62028ba9968bcdf0511ec58"
+    }
+  ]
+}

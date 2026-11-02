@@ -1,0 +1,101 @@
+{
+  "scope": "v53/qa/tuvi-flanking",
+  "files": [
+    {
+      "file": "v53/qa/tuvi-flanking/QA_IMAGES.json",
+      "bytes": 1301,
+      "sha256": "ec7e1005a253a041ae668c05bde988d0757d2fc0a227f06095d6b129bbf39ef4",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ec7e1005a253a041ae668c05bde988d0757d2fc0a227f06095d6b129bbf39ef4",
+      "httpRange": {
+        "offset": 91625413,
+        "compressedBytes": 433,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/tuvi-flanking/REFERENCE_RESULTS.json",
+      "bytes": 552346,
+      "sha256": "b81853e9066333b93a772d5a280027fab119aa9143884d24599f646095bc979c",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/b81853e9066333b93a772d5a280027fab119aa9143884d24599f646095bc979c",
+      "httpRange": {
+        "offset": 169628853,
+        "compressedBytes": 26126,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/tuvi-flanking/RELEASE_RESULTS.json",
+      "bytes": 1759,
+      "sha256": "b4836bce7e7da9a272d08900968027103d4fa741d67ffc091c43f40a20ebb731",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b4836bce7e7da9a272d08900968027103d4fa741d67ffc091c43f40a20ebb731",
+      "httpRange": {
+        "offset": 371630255,
+        "compressedBytes": 792,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/tuvi-flanking/SOURCE_RESULTS.json",
+      "bytes": 1249,
+      "sha256": "cbebbc3f3a8c8d8e60bd3c08d68663e50aa0a586e969a2cd9de3a732f2341a3f",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/cbebbc3f3a8c8d8e60bd3c08d68663e50aa0a586e969a2cd9de3a732f2341a3f",
+      "httpRange": {
+        "offset": 1373227,
+        "compressedBytes": 591,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/tuvi-flanking/TARGETED_POSITIVE_RESULTS.json",
+      "bytes": 4294,
+      "sha256": "81ea84d1aba9380a9d57dd4f3fda744bb4258439f01e574ccfa1e1dae072ab90",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/81ea84d1aba9380a9d57dd4f3fda744bb4258439f01e574ccfa1e1dae072ab90",
+      "httpRange": {
+        "offset": 83325596,
+        "compressedBytes": 1172,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/tuvi-flanking/canvas-039-juan2-preface-native.png",
+      "bytes": 1551206,
+      "sha256": "a16f7aec861be58c281257f5551c62633654c97729b253cbad77c7c01c0613ef",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a16f7aec861be58c281257f5551c62633654c97729b253cbad77c7c01c0613ef",
+      "httpRange": {
+        "offset": 159649502,
+        "compressedBytes": 1551676,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/tuvi-flanking/canvas-040-flank-definition-native.png",
+      "bytes": 686297,
+      "sha256": "e3f90c2554b29bb50aac878588ccdc51dd39465df6d05e1c69a197967be2223a",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e3f90c2554b29bb50aac878588ccdc51dd39465df6d05e1c69a197967be2223a",
+      "httpRange": {
+        "offset": 325912302,
+        "compressedBytes": 686507,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/tuvi-flanking/canvas-040-geometry-contrasts-native.png",
+      "bytes": 1606247,
+      "sha256": "40d9adddcf8fc251abf0389e4b6f0f8ad1e4c43328501cbe9f01af24ba1cbb45",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/40d9adddcf8fc251abf0389e4b6f0f8ad1e4c43328501cbe9f01af24ba1cbb45",
+      "httpRange": {
+        "offset": 141271113,
+        "compressedBytes": 1606727,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

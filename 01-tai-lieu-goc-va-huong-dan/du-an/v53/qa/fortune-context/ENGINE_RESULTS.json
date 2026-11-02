@@ -1,0 +1,5385 @@
+{
+  "date": "2026-10-26T06:25:09.590Z",
+  "checks": [
+    {
+      "name": "The actual iztro2.6.2 dependency retains all209archived package files and published integrity",
+      "ok": true,
+      "detail": {
+        "files": 209,
+        "tarballSha256": "d44e96631c0506424c3aef25a7bba8e43e01729102d6a703720cbe224aec5403"
+      }
+    },
+    {
+      "name": "Three newly retained public image responses have exact recorded bytes and TLS/SHA checks",
+      "ok": true
+    },
+    {
+      "name": "All14source branch/co-star clauses are reached and match actual natal placements",
+      "ok": true,
+      "detail": {
+        "sourceConditions": 14,
+        "fieldComparisons": 1770,
+        "scope": "Geometry only; birth-stem and fate clauses are not counted as validated predictions."
+      }
+    },
+    {
+      "name": "72actual iztro horoscopes agree on216period locations and their real natal star memberships",
+      "ok": true,
+      "detail": {
+        "calls": 72,
+        "periods": 216,
+        "starSets": 216
+      }
+    },
+    {
+      "name": "Empty palaces keep a distinct opposite label and do not borrow stars as local",
+      "ok": true,
+      "detail": {
+        "empty": 41
+      }
+    },
+    {
+      "name": "Annual transformation notes belong only to targets actually located in the displayed natal palace",
+      "ok": true,
+      "detail": {
+        "annualBindings": 70
+      }
+    },
+    {
+      "name": "Context rendering preserves every natal chart and works with reversed palace arrays",
+      "ok": true
+    },
+    {
+      "name": "Nhâm keeps the chosen Phủ-Khoa convention rather than silently adopting the external Tả-Khoa table",
+      "ok": true
+    },
+    {
+      "name": "Before the first major period no natal context is fabricated for a missing decade",
+      "ok": true
+    },
+    {
+      "name": "Invalid palace references fail explicitly",
+      "ok": true
+    },
+    {
+      "name": "Calculations, existing natal interpretation, monthly overview and other tools retain their bytes",
+      "ok": true
+    }
+  ],
+  "actualIztroCalls": 72,
+  "periodComparisons": 216,
+  "emptyPalaces": 41,
+  "annualBindings": 70,
+  "sourceMappings": [
+    {
+      "star": "Tử Vi",
+      "branches": [
+        2,
+        8
+      ],
+      "companion": "Thiên Phủ",
+      "statusWord": "旺地",
+      "branch": 2
+    },
+    {
+      "star": "Tử Vi",
+      "branches": [
+        2,
+        8
+      ],
+      "companion": "Thiên Phủ",
+      "statusWord": "旺地",
+      "branch": 8
+    },
+    {
+      "star": "Tử Vi",
+      "branches": [
+        5,
+        11
+      ],
+      "companion": "Thất Sát",
+      "statusWord": "旺地",
+      "branch": 5
+    },
+    {
+      "star": "Tử Vi",
+      "branches": [
+        5,
+        11
+      ],
+      "companion": "Thất Sát",
+      "statusWord": "旺地",
+      "branch": 11
+    },
+    {
+      "star": "Tử Vi",
+      "branches": [
+        4,
+        10
+      ],
+      "companion": "Thiên Tướng",
+      "statusWord": "得地",
+      "branch": 4
+    },
+    {
+      "star": "Tử Vi",
+      "branches": [
+        4,
+        10
+      ],
+      "companion": "Thiên Tướng",
+      "statusWord": "得地",
+      "branch": 10
+    },
+    {
+      "star": "Tử Vi",
+      "branches": [
+        1,
+        7
+      ],
+      "companion": "Phá Quân",
+      "statusWord": "入廟",
+      "branch": 1
+    },
+    {
+      "star": "Tử Vi",
+      "branches": [
+        1,
+        7
+      ],
+      "companion": "Phá Quân",
+      "statusWord": "入廟",
+      "branch": 7
+    },
+    {
+      "star": "Thiên Cơ",
+      "branches": [
+        3,
+        9
+      ],
+      "companion": "Cự Môn",
+      "statusWord": "陷地",
+      "branch": 3
+    },
+    {
+      "star": "Thiên Cơ",
+      "branches": [
+        3,
+        9
+      ],
+      "companion": "Cự Môn",
+      "statusWord": "陷地",
+      "branch": 9
+    },
+    {
+      "star": "Thiên Cơ",
+      "branches": [
+        2,
+        8
+      ],
+      "companion": "Thái Âm",
+      "statusWord": "得地",
+      "branch": 2
+    },
+    {
+      "star": "Thiên Cơ",
+      "branches": [
+        2,
+        8
+      ],
+      "companion": "Thái Âm",
+      "statusWord": "得地",
+      "branch": 8
+    },
+    {
+      "star": "Thiên Cơ",
+      "branches": [
+        4,
+        10
+      ],
+      "companion": "Thiên Lương",
+      "statusWord": "利益",
+      "branch": 4
+    },
+    {
+      "star": "Thiên Cơ",
+      "branches": [
+        4,
+        10
+      ],
+      "companion": "Thiên Lương",
+      "statusWord": "利益",
+      "branch": 10
+    }
+  ],
+  "sourceFields": 1770,
+  "results": [
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 8,
+      "stars": [
+        "Tham Lang"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Vũ Khúc",
+        "Thiên Phủ"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 11,
+      "stars": [
+        "Thiên Lương"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 8,
+      "stars": [
+        "Tham Lang"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Thái Dương",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thái Âm",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 0,
+      "stars": [
+        "Thất Sát"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 8,
+      "stars": [
+        "Tham Lang"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [
+        "Thất Sát"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 5,
+      "stars": [
+        "Thiên Đồng"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 2,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 7,
+      "stars": [
+        "Thái Dương",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 2,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Vũ Khúc",
+        "Thiên Phủ"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 2,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 0,
+      "stars": [
+        "Thất Sát"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 2,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 7,
+      "stars": [
+        "Thái Dương",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thái Âm",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 2,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Thái Dương",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thái Âm",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 2,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 1,
+      "stars": [],
+      "opposite": 7,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 2,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 7,
+      "stars": [
+        "Thái Dương",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 2,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [
+        "Thất Sát"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 2,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 6,
+      "stars": [
+        "Vũ Khúc",
+        "Thiên Phủ"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Khoa",
+          "name": "Thiên Phủ",
+          "intent": "Nơi gợi việc học, làm rõ và xây tin cậy, không bảo đảm thành tích."
+        },
+        {
+          "label": "Hóa Kỵ",
+          "name": "Vũ Khúc",
+          "intent": "Nơi gợi rà soát vướng mắc và cách điều chỉnh, không có nghĩa chắc chắn gặp họa."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 4,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 6,
+      "stars": [
+        "Thiên Đồng",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thiên Đồng",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 4,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Thiên Đồng",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thiên Đồng",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 4,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 1,
+      "stars": [],
+      "opposite": 7,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 4,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 6,
+      "stars": [
+        "Thiên Đồng",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thái Âm",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        },
+        {
+          "label": "Hóa Quyền",
+          "name": "Thiên Đồng",
+          "intent": "Nơi gợi trách nhiệm và quyền chủ động, không bảo đảm địa vị."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 4,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Vũ Khúc",
+        "Tham Lang"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 4,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 2,
+      "stars": [],
+      "opposite": 8,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 4,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 6,
+      "stars": [
+        "Thiên Đồng",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 4,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [],
+      "opposite": 6,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 4,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 7,
+      "stars": [
+        "Vũ Khúc",
+        "Tham Lang"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Kỵ",
+          "name": "Vũ Khúc",
+          "intent": "Nơi gợi rà soát vướng mắc và cách điều chỉnh, không có nghĩa chắc chắn gặp họa."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 6,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 5,
+      "stars": [
+        "Thiên Phủ"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 6,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Thiên Đồng",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thiên Đồng",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 6,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 2,
+      "stars": [],
+      "opposite": 8,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 6,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 5,
+      "stars": [
+        "Thiên Phủ"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 6,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Vũ Khúc",
+        "Tham Lang"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 6,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 3,
+      "stars": [
+        "Liêm Trinh",
+        "Phá Quân"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 6,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 5,
+      "stars": [
+        "Thiên Phủ"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Khoa",
+          "name": "Thiên Phủ",
+          "intent": "Nơi gợi việc học, làm rõ và xây tin cậy, không bảo đảm thành tích."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 6,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [],
+      "opposite": 6,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 6,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 8,
+      "stars": [
+        "Thái Dương",
+        "Cự Môn"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 4,
+      "stars": [
+        "Phá Quân"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Vũ Khúc",
+        "Thiên Phủ"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Khoa",
+          "name": "Văn Xương",
+          "intent": "Nơi gợi việc học, làm rõ và xây tin cậy, không bảo đảm thành tích."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 3,
+      "stars": [],
+      "opposite": 9,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 4,
+      "stars": [
+        "Phá Quân"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Thái Dương",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thái Âm",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 4,
+      "stars": [
+        "Phá Quân"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 4,
+      "stars": [
+        "Phá Quân"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [
+        "Thất Sát"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 9,
+      "stars": [
+        "Thiên Cơ",
+        "Cự Môn"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 10,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 3,
+      "stars": [],
+      "opposite": 9,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 10,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Vũ Khúc",
+        "Thiên Phủ"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 10,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 4,
+      "stars": [
+        "Phá Quân"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 10,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 3,
+      "stars": [],
+      "opposite": 9,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 10,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Thái Dương",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thái Âm",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 10,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 5,
+      "stars": [
+        "Thiên Đồng"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Quyền",
+          "name": "Thiên Đồng",
+          "intent": "Nơi gợi trách nhiệm và quyền chủ động, không bảo đảm địa vị."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 10,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 3,
+      "stars": [],
+      "opposite": 9,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 10,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [
+        "Thất Sát"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 10,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 10,
+      "stars": [
+        "Tử Vi",
+        "Thiên Tướng"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Quyền",
+          "name": "Tử Vi",
+          "intent": "Nơi gợi trách nhiệm và quyền chủ động, không bảo đảm địa vị."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 12,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 2,
+      "stars": [],
+      "opposite": 8,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 12,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Thiên Đồng",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thiên Đồng",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 12,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 5,
+      "stars": [
+        "Thiên Phủ"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 12,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 2,
+      "stars": [],
+      "opposite": 8,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 12,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Vũ Khúc",
+        "Tham Lang"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 12,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 6,
+      "stars": [
+        "Thiên Đồng",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thái Âm",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        },
+        {
+          "label": "Hóa Quyền",
+          "name": "Thiên Đồng",
+          "intent": "Nơi gợi trách nhiệm và quyền chủ động, không bảo đảm địa vị."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 12,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 2,
+      "stars": [],
+      "opposite": 8,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 12,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [],
+      "opposite": 6,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 12,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 11,
+      "stars": [
+        "Tử Vi",
+        "Thất Sát"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Quyền",
+          "name": "Tử Vi",
+          "intent": "Nơi gợi trách nhiệm và quyền chủ động, không bảo đảm địa vị."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 14,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 1,
+      "stars": [],
+      "opposite": 7,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 14,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Thiên Đồng",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thiên Đồng",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 14,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 6,
+      "stars": [
+        "Thiên Đồng",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thiên Đồng",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 14,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 1,
+      "stars": [],
+      "opposite": 7,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 14,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Vũ Khúc",
+        "Tham Lang"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 14,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 7,
+      "stars": [
+        "Vũ Khúc",
+        "Tham Lang"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 14,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 1,
+      "stars": [],
+      "opposite": 7,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 14,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [],
+      "opposite": 6,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 14,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 0,
+      "stars": [],
+      "opposite": 6,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 16,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 0,
+      "stars": [
+        "Phá Quân"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 16,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Liêm Trinh",
+        "Thiên Tướng"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Kỵ",
+          "name": "Liêm Trinh",
+          "intent": "Nơi gợi rà soát vướng mắc và cách điều chỉnh, không có nghĩa chắc chắn gặp họa."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 16,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 7,
+      "stars": [
+        "Thiên Lương"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 16,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 0,
+      "stars": [
+        "Phá Quân"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 16,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Thiên Lương"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 16,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 8,
+      "stars": [
+        "Thất Sát"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 16,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 1,
+      "stars": [
+        "Thiên Cơ"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 16,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [
+        "Phá Quân"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 16,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 1,
+      "stars": [
+        "Thiên Cơ"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 18,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 11,
+      "stars": [
+        "Thái Dương"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 18,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Liêm Trinh",
+        "Thiên Tướng"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Kỵ",
+          "name": "Liêm Trinh",
+          "intent": "Nơi gợi rà soát vướng mắc và cách điều chỉnh, không có nghĩa chắc chắn gặp họa."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 18,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 8,
+      "stars": [
+        "Thất Sát"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 18,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 11,
+      "stars": [
+        "Thái Dương"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 18,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Thiên Lương"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 18,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 9,
+      "stars": [
+        "Thiên Đồng"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Quyền",
+          "name": "Thiên Đồng",
+          "intent": "Nơi gợi trách nhiệm và quyền chủ động, không bảo đảm địa vị."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 18,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 0,
+      "stars": [
+        "Phá Quân"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 18,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [
+        "Phá Quân"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 18,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 2,
+      "stars": [
+        "Tử Vi",
+        "Thiên Phủ"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Quyền",
+          "name": "Tử Vi",
+          "intent": "Nơi gợi trách nhiệm và quyền chủ động, không bảo đảm địa vị."
+        },
+        {
+          "label": "Hóa Khoa",
+          "name": "Thiên Phủ",
+          "intent": "Nơi gợi việc học, làm rõ và xây tin cậy, không bảo đảm thành tích."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 20,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 10,
+      "stars": [
+        "Cự Môn"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 20,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Thái Dương"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 20,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 9,
+      "stars": [
+        "Tử Vi",
+        "Tham Lang"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 20,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 10,
+      "stars": [
+        "Cự Môn"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Kỵ",
+          "name": "Cự Môn",
+          "intent": "Nơi gợi rà soát vướng mắc và cách điều chỉnh, không có nghĩa chắc chắn gặp họa."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 20,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Thiên Phủ"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 20,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 10,
+      "stars": [
+        "Cự Môn"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Kỵ",
+          "name": "Cự Môn",
+          "intent": "Nơi gợi rà soát vướng mắc và cách điều chỉnh, không có nghĩa chắc chắn gặp họa."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 20,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 11,
+      "stars": [
+        "Thiên Tướng"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 20,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [
+        "Thiên Lương"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thiên Lương",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 20,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 3,
+      "stars": [],
+      "opposite": 9,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 22,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 9,
+      "stars": [
+        "Tử Vi",
+        "Tham Lang"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 22,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Thái Dương"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 22,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 10,
+      "stars": [
+        "Cự Môn"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 22,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 9,
+      "stars": [
+        "Tử Vi",
+        "Tham Lang"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 22,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Thiên Phủ"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 22,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 11,
+      "stars": [
+        "Thiên Tướng"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 22,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 10,
+      "stars": [
+        "Cự Môn"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 22,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [
+        "Thiên Lương"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thiên Lương",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 22,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 4,
+      "stars": [
+        "Thiên Đồng"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 2,
+      "stars": [
+        "Liêm Trinh"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Kỵ",
+          "name": "Liêm Trinh",
+          "intent": "Nơi gợi rà soát vướng mắc và cách điều chỉnh, không có nghĩa chắc chắn gặp họa."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Vũ Khúc",
+        "Thiên Phủ"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 11,
+      "stars": [
+        "Thiên Lương"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 2,
+      "stars": [
+        "Liêm Trinh"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Thái Dương",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thái Âm",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 0,
+      "stars": [
+        "Thất Sát"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 2,
+      "stars": [
+        "Liêm Trinh"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [
+        "Thất Sát"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 0,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 5,
+      "stars": [
+        "Thiên Đồng"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 2,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 1,
+      "stars": [],
+      "opposite": 7,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 2,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Vũ Khúc",
+        "Thiên Phủ"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 2,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 0,
+      "stars": [
+        "Thất Sát"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 2,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 1,
+      "stars": [],
+      "opposite": 7,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 2,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Thái Dương",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thái Âm",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 2,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 1,
+      "stars": [],
+      "opposite": 7,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 2,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 1,
+      "stars": [],
+      "opposite": 7,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 2,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [
+        "Thất Sát"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 2,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 6,
+      "stars": [
+        "Vũ Khúc",
+        "Thiên Phủ"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Khoa",
+          "name": "Thiên Phủ",
+          "intent": "Nơi gợi việc học, làm rõ và xây tin cậy, không bảo đảm thành tích."
+        },
+        {
+          "label": "Hóa Kỵ",
+          "name": "Vũ Khúc",
+          "intent": "Nơi gợi rà soát vướng mắc và cách điều chỉnh, không có nghĩa chắc chắn gặp họa."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 4,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 0,
+      "stars": [],
+      "opposite": 6,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 4,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Thiên Đồng",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thiên Đồng",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 4,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 1,
+      "stars": [],
+      "opposite": 7,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 4,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 0,
+      "stars": [],
+      "opposite": 6,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 4,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Vũ Khúc",
+        "Tham Lang"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 4,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 2,
+      "stars": [],
+      "opposite": 8,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 4,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 0,
+      "stars": [],
+      "opposite": 6,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 4,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [],
+      "opposite": 6,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 4,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 7,
+      "stars": [
+        "Vũ Khúc",
+        "Tham Lang"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Kỵ",
+          "name": "Vũ Khúc",
+          "intent": "Nơi gợi rà soát vướng mắc và cách điều chỉnh, không có nghĩa chắc chắn gặp họa."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 6,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 11,
+      "stars": [
+        "Tử Vi",
+        "Thất Sát"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 6,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Thiên Đồng",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thiên Đồng",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 6,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 2,
+      "stars": [],
+      "opposite": 8,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 6,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 11,
+      "stars": [
+        "Tử Vi",
+        "Thất Sát"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 6,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Vũ Khúc",
+        "Tham Lang"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 6,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 3,
+      "stars": [
+        "Liêm Trinh",
+        "Phá Quân"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 6,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 11,
+      "stars": [
+        "Tử Vi",
+        "Thất Sát"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Quyền",
+          "name": "Tử Vi",
+          "intent": "Nơi gợi trách nhiệm và quyền chủ động, không bảo đảm địa vị."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 6,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [],
+      "opposite": 6,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 6,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 8,
+      "stars": [
+        "Thái Dương",
+        "Cự Môn"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 10,
+      "stars": [
+        "Tử Vi",
+        "Thiên Tướng"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Vũ Khúc",
+        "Thiên Phủ"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Khoa",
+          "name": "Văn Xương",
+          "intent": "Nơi gợi việc học, làm rõ và xây tin cậy, không bảo đảm thành tích."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 3,
+      "stars": [],
+      "opposite": 9,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 10,
+      "stars": [
+        "Tử Vi",
+        "Thiên Tướng"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Thái Dương",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thái Âm",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 4,
+      "stars": [
+        "Phá Quân"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 10,
+      "stars": [
+        "Tử Vi",
+        "Thiên Tướng"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Quyền",
+          "name": "Tử Vi",
+          "intent": "Nơi gợi trách nhiệm và quyền chủ động, không bảo đảm địa vị."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [
+        "Thất Sát"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 9,
+      "stars": [
+        "Thiên Cơ",
+        "Cự Môn"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 10,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 9,
+      "stars": [
+        "Thiên Cơ",
+        "Cự Môn"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Quyền",
+          "name": "Thiên Cơ",
+          "intent": "Nơi gợi trách nhiệm và quyền chủ động, không bảo đảm địa vị."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 10,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Vũ Khúc",
+        "Thiên Phủ"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 10,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 4,
+      "stars": [
+        "Phá Quân"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 10,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 9,
+      "stars": [
+        "Thiên Cơ",
+        "Cự Môn"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Khoa",
+          "name": "Thiên Cơ",
+          "intent": "Nơi gợi việc học, làm rõ và xây tin cậy, không bảo đảm thành tích."
+        },
+        {
+          "label": "Hóa Kỵ",
+          "name": "Cự Môn",
+          "intent": "Nơi gợi rà soát vướng mắc và cách điều chỉnh, không có nghĩa chắc chắn gặp họa."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 10,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Thái Dương",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thái Âm",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 10,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 5,
+      "stars": [
+        "Thiên Đồng"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Quyền",
+          "name": "Thiên Đồng",
+          "intent": "Nơi gợi trách nhiệm và quyền chủ động, không bảo đảm địa vị."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 10,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 9,
+      "stars": [
+        "Thiên Cơ",
+        "Cự Môn"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 10,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [
+        "Thất Sát"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 10,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 10,
+      "stars": [
+        "Tử Vi",
+        "Thiên Tướng"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Quyền",
+          "name": "Tử Vi",
+          "intent": "Nơi gợi trách nhiệm và quyền chủ động, không bảo đảm địa vị."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 12,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 8,
+      "stars": [
+        "Thái Dương",
+        "Cự Môn"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 12,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Thiên Đồng",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thiên Đồng",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 12,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 5,
+      "stars": [
+        "Thiên Phủ"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 12,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 8,
+      "stars": [
+        "Thái Dương",
+        "Cự Môn"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Kỵ",
+          "name": "Cự Môn",
+          "intent": "Nơi gợi rà soát vướng mắc và cách điều chỉnh, không có nghĩa chắc chắn gặp họa."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 12,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Vũ Khúc",
+        "Tham Lang"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 12,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 6,
+      "stars": [
+        "Thiên Đồng",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thái Âm",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        },
+        {
+          "label": "Hóa Quyền",
+          "name": "Thiên Đồng",
+          "intent": "Nơi gợi trách nhiệm và quyền chủ động, không bảo đảm địa vị."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 12,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 8,
+      "stars": [
+        "Thái Dương",
+        "Cự Môn"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 12,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [],
+      "opposite": 6,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 12,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 11,
+      "stars": [
+        "Tử Vi",
+        "Thất Sát"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Quyền",
+          "name": "Tử Vi",
+          "intent": "Nơi gợi trách nhiệm và quyền chủ động, không bảo đảm địa vị."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 14,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 7,
+      "stars": [
+        "Vũ Khúc",
+        "Tham Lang"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 14,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Thiên Đồng",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thiên Đồng",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 14,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 6,
+      "stars": [
+        "Thiên Đồng",
+        "Thái Âm"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thiên Đồng",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 14,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 7,
+      "stars": [
+        "Vũ Khúc",
+        "Tham Lang"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 14,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Vũ Khúc",
+        "Tham Lang"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 14,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 7,
+      "stars": [
+        "Vũ Khúc",
+        "Tham Lang"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 14,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 7,
+      "stars": [
+        "Vũ Khúc",
+        "Tham Lang"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Kỵ",
+          "name": "Vũ Khúc",
+          "intent": "Nơi gợi rà soát vướng mắc và cách điều chỉnh, không có nghĩa chắc chắn gặp họa."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 14,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [],
+      "opposite": 6,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 14,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 0,
+      "stars": [],
+      "opposite": 6,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 16,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 6,
+      "stars": [
+        "Liêm Trinh",
+        "Thiên Tướng"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Kỵ",
+          "name": "Liêm Trinh",
+          "intent": "Nơi gợi rà soát vướng mắc và cách điều chỉnh, không có nghĩa chắc chắn gặp họa."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 16,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Liêm Trinh",
+        "Thiên Tướng"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Kỵ",
+          "name": "Liêm Trinh",
+          "intent": "Nơi gợi rà soát vướng mắc và cách điều chỉnh, không có nghĩa chắc chắn gặp họa."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 16,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 7,
+      "stars": [
+        "Thiên Lương"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 16,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 6,
+      "stars": [
+        "Liêm Trinh",
+        "Thiên Tướng"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 16,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Thiên Lương"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 16,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 8,
+      "stars": [
+        "Thất Sát"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 16,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 5,
+      "stars": [
+        "Cự Môn"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 16,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [
+        "Phá Quân"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 16,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 1,
+      "stars": [
+        "Thiên Cơ"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 18,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 5,
+      "stars": [
+        "Cự Môn"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 18,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Liêm Trinh",
+        "Thiên Tướng"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Kỵ",
+          "name": "Liêm Trinh",
+          "intent": "Nơi gợi rà soát vướng mắc và cách điều chỉnh, không có nghĩa chắc chắn gặp họa."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 18,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 8,
+      "stars": [
+        "Thất Sát"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 18,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 5,
+      "stars": [
+        "Cự Môn"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Kỵ",
+          "name": "Cự Môn",
+          "intent": "Nơi gợi rà soát vướng mắc và cách điều chỉnh, không có nghĩa chắc chắn gặp họa."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 18,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Thiên Lương"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 18,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 9,
+      "stars": [
+        "Thiên Đồng"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Quyền",
+          "name": "Thiên Đồng",
+          "intent": "Nơi gợi trách nhiệm và quyền chủ động, không bảo đảm địa vị."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 18,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 4,
+      "stars": [
+        "Tham Lang"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 18,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [
+        "Phá Quân"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 18,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 2,
+      "stars": [
+        "Tử Vi",
+        "Thiên Phủ"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Quyền",
+          "name": "Tử Vi",
+          "intent": "Nơi gợi trách nhiệm và quyền chủ động, không bảo đảm địa vị."
+        },
+        {
+          "label": "Hóa Khoa",
+          "name": "Thiên Phủ",
+          "intent": "Nơi gợi việc học, làm rõ và xây tin cậy, không bảo đảm thành tích."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 20,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 4,
+      "stars": [
+        "Thiên Đồng"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thiên Đồng",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 20,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Thái Dương"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 20,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 9,
+      "stars": [
+        "Tử Vi",
+        "Tham Lang"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 20,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 4,
+      "stars": [
+        "Thiên Đồng"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Quyền",
+          "name": "Thiên Đồng",
+          "intent": "Nơi gợi trách nhiệm và quyền chủ động, không bảo đảm địa vị."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 20,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Thiên Phủ"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 20,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 10,
+      "stars": [
+        "Cự Môn"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Kỵ",
+          "name": "Cự Môn",
+          "intent": "Nơi gợi rà soát vướng mắc và cách điều chỉnh, không có nghĩa chắc chắn gặp họa."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 20,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 3,
+      "stars": [],
+      "opposite": 9,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 20,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [
+        "Thiên Lương"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thiên Lương",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 20,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 3,
+      "stars": [],
+      "opposite": 9,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 22,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "decade",
+      "idx": 3,
+      "stars": [],
+      "opposite": 9,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 22,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "yearly",
+      "idx": 6,
+      "stars": [
+        "Thái Dương"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 22,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2026-10-15",
+      "key": "monthly",
+      "idx": 10,
+      "stars": [
+        "Cự Môn"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 22,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "decade",
+      "idx": 3,
+      "stars": [],
+      "opposite": 9,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 22,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "yearly",
+      "idx": 7,
+      "stars": [
+        "Thiên Phủ"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 22,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2027-10-15",
+      "key": "monthly",
+      "idx": 11,
+      "stars": [
+        "Thiên Tướng"
+      ],
+      "opposite": null,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 22,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "decade",
+      "idx": 2,
+      "stars": [],
+      "opposite": 8,
+      "annual": []
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 22,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "yearly",
+      "idx": 0,
+      "stars": [
+        "Thiên Lương"
+      ],
+      "opposite": null,
+      "annual": [
+        {
+          "label": "Hóa Lộc",
+          "name": "Thiên Lương",
+          "intent": "Nơi gợi việc nuôi nguồn lực, không phải lời hứa thu lợi."
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 22,
+        "minute": 0,
+        "tz": 8,
+        "gender": "female",
+        "calendar": "solar",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "target": "2032-10-15",
+      "key": "monthly",
+      "idx": 4,
+      "stars": [
+        "Thiên Đồng"
+      ],
+      "opposite": null,
+      "annual": []
+    }
+  ]
+}

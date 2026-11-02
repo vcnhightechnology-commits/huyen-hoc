@@ -1,0 +1,429 @@
+{
+  "checks": [
+    {
+      "name": "Vertical partial wall uses its own topmost origin, not either whole room origin",
+      "ok": true
+    },
+    {
+      "name": "Horizontal partial wall uses leftmost common start and exact endpoints",
+      "ok": true
+    },
+    {
+      "name": "Reversing room selection leaves canonical wall and physical endpoints unchanged",
+      "ok": true
+    },
+    {
+      "name": "A full shared-wall opening and an opening exactly at its end are valid",
+      "ok": true
+    },
+    {
+      "name": "Separated rooms,corner-only contact and overlapping room areas do not invent a common wall",
+      "ok": true
+    },
+    {
+      "name": "Seventeen malformed room references,lengths,names or door lists fail explicitly",
+      "ok": true
+    },
+    {
+      "name": "Sixty internal-door rows are supported and the61st is rejected",
+      "ok": true
+    },
+    {
+      "name": "A third room sharing or covering any positive door segment blocks an ambiguous connection",
+      "ok": true
+    },
+    {
+      "name": "A third room meeting only at a door endpoint does not falsely occupy its open segment",
+      "ok": true
+    },
+    {
+      "name": "Duplicate interior segments are reported as overlap without multiplying room areas",
+      "ok": true
+    },
+    {
+      "name": "Two doors touching only at one endpoint do not create a duplicate-length warning",
+      "ok": true
+    },
+    {
+      "name": "Only the explicit1e-8m arithmetic tolerance is treated as touching,not an unmeasured physical gap",
+      "ok": true
+    },
+    {
+      "name": "Fifty orientation/uncertainty models preserve every legacy area/room/24mountain/exterior-door field; internal geometry remains in the drawing frame",
+      "ok": true
+    },
+    {
+      "name": "Legacy inputs without an internal-door field remain valid and do not invent connections",
+      "ok": true
+    },
+    {
+      "name": "Internal-door results have no invented compass normal,swing,ventilation,route or fortune score",
+      "ok": true
+    },
+    {
+      "name": "User room/door labels remain inert in result HTML,SVG titles and SVG legends",
+      "ok": true
+    },
+    {
+      "name": "TXT and accessible self-contained SVG retain internal name,room pair,dimensions and numbered purple marker",
+      "ok": true
+    },
+    {
+      "name": "Calendar/astrology engines,all room guidance and all compass calculations preserve prior release bytes",
+      "ok": true
+    },
+    {
+      "name": "Existing24mountain source/container manifests retain audited bytes; no new classical door rule is claimed",
+      "ok": true
+    },
+    {
+      "name": "Standalone embeds the new actual geometry module before the measured-plan module",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "legacyGeometryModels": 50,
+    "malformedDoorInputs": 17,
+    "invalidAdjacencyModels": 3,
+    "maxDoors": 60,
+    "newExternalResponses": 0
+  },
+  "fixtures": {
+    "base": {
+      "width": 10,
+      "depth": 8,
+      "topBearing": 0,
+      "error": 0,
+      "rooms": [
+        {
+          "type": "living",
+          "name": "Phòng khách",
+          "x": 0,
+          "y": 0,
+          "width": 5,
+          "depth": 8
+        },
+        {
+          "type": "living",
+          "name": "Phòng ngủ",
+          "x": 5,
+          "y": 2,
+          "width": 5,
+          "depth": 4
+        }
+      ],
+      "openings": []
+    },
+    "door": {
+      "a": 0,
+      "b": 1,
+      "offset": 1,
+      "length": 1,
+      "name": "Cửa thông"
+    },
+    "vertical": {
+      "house": {
+        "width": 10,
+        "depth": 8,
+        "topBearing": 0,
+        "error": 0
+      },
+      "rooms": [
+        {
+          "index": 0,
+          "type": "living",
+          "name": "Phòng khách",
+          "x": 0,
+          "y": 0,
+          "width": 5,
+          "depth": 8,
+          "area": 40,
+          "cx": 2.5,
+          "cy": 4,
+          "containsCenter": true,
+          "centerOnBoundary": true,
+          "atCenter": false,
+          "bearing": 270,
+          "direction": "Tây",
+          "possibleDirections": [
+            "Tây"
+          ],
+          "distance": 2.5
+        },
+        {
+          "index": 1,
+          "type": "living",
+          "name": "Phòng ngủ",
+          "x": 5,
+          "y": 2,
+          "width": 5,
+          "depth": 4,
+          "area": 20,
+          "cx": 7.5,
+          "cy": 4,
+          "containsCenter": true,
+          "centerOnBoundary": true,
+          "atCenter": false,
+          "bearing": 90,
+          "direction": "Đông",
+          "possibleDirections": [
+            "Đông"
+          ],
+          "distance": 2.5
+        }
+      ],
+      "openings": [],
+      "internalDoors": [
+        {
+          "index": 0,
+          "name": "Cửa thông",
+          "a": 0,
+          "b": 1,
+          "rooms": [
+            "Phòng khách",
+            "Phòng ngủ"
+          ],
+          "wall": {
+            "axis": "vertical",
+            "coordinate": 5,
+            "start": 2,
+            "end": 6,
+            "length": 4
+          },
+          "offset": 1,
+          "length": 1,
+          "x1": 5,
+          "y1": 3,
+          "x2": 5,
+          "y2": 4,
+          "cx": 5,
+          "cy": 3.5
+        }
+      ],
+      "internalDoorOverlaps": [],
+      "overlaps": [],
+      "openingOverlaps": [],
+      "area": 80,
+      "coveredArea": 60,
+      "unassignedArea": 20,
+      "summedRoomArea": 60,
+      "center": {
+        "x": 5,
+        "y": 4
+      }
+    },
+    "horizontal": {
+      "house": {
+        "width": 10,
+        "depth": 8,
+        "topBearing": 0,
+        "error": 0
+      },
+      "rooms": [
+        {
+          "index": 0,
+          "type": "living",
+          "name": "Khách",
+          "x": 0,
+          "y": 0,
+          "width": 10,
+          "depth": 3,
+          "area": 30,
+          "cx": 5,
+          "cy": 1.5,
+          "containsCenter": false,
+          "centerOnBoundary": false,
+          "atCenter": false,
+          "bearing": 0,
+          "direction": "Bắc",
+          "possibleDirections": [
+            "Bắc"
+          ],
+          "distance": 2.5
+        },
+        {
+          "index": 1,
+          "type": "living",
+          "name": "Bếp",
+          "x": 2,
+          "y": 3,
+          "width": 4,
+          "depth": 5,
+          "area": 20,
+          "cx": 4,
+          "cy": 5.5,
+          "containsCenter": true,
+          "centerOnBoundary": false,
+          "atCenter": false,
+          "bearing": 213.69006752597977,
+          "direction": "Tây Nam",
+          "possibleDirections": [
+            "Tây Nam"
+          ],
+          "distance": 1.8027756377319948
+        }
+      ],
+      "openings": [],
+      "internalDoors": [
+        {
+          "index": 0,
+          "name": "Cửa thông",
+          "a": 0,
+          "b": 1,
+          "rooms": [
+            "Khách",
+            "Bếp"
+          ],
+          "wall": {
+            "axis": "horizontal",
+            "coordinate": 3,
+            "start": 2,
+            "end": 6,
+            "length": 4
+          },
+          "offset": 1,
+          "length": 1,
+          "x1": 3,
+          "y1": 3,
+          "x2": 4,
+          "y2": 3,
+          "cx": 3.5,
+          "cy": 3
+        }
+      ],
+      "internalDoorOverlaps": [],
+      "overlaps": [],
+      "openingOverlaps": [],
+      "area": 80,
+      "coveredArea": 50,
+      "unassignedArea": 30,
+      "summedRoomArea": 50,
+      "center": {
+        "x": 5,
+        "y": 4
+      }
+    },
+    "duplicate": {
+      "house": {
+        "width": 10,
+        "depth": 8,
+        "topBearing": 0,
+        "error": 0
+      },
+      "rooms": [
+        {
+          "index": 0,
+          "type": "living",
+          "name": "Phòng khách",
+          "x": 0,
+          "y": 0,
+          "width": 5,
+          "depth": 8,
+          "area": 40,
+          "cx": 2.5,
+          "cy": 4,
+          "containsCenter": true,
+          "centerOnBoundary": true,
+          "atCenter": false,
+          "bearing": 270,
+          "direction": "Tây",
+          "possibleDirections": [
+            "Tây"
+          ],
+          "distance": 2.5
+        },
+        {
+          "index": 1,
+          "type": "living",
+          "name": "Phòng ngủ",
+          "x": 5,
+          "y": 2,
+          "width": 5,
+          "depth": 4,
+          "area": 20,
+          "cx": 7.5,
+          "cy": 4,
+          "containsCenter": true,
+          "centerOnBoundary": true,
+          "atCenter": false,
+          "bearing": 90,
+          "direction": "Đông",
+          "possibleDirections": [
+            "Đông"
+          ],
+          "distance": 2.5
+        }
+      ],
+      "openings": [],
+      "internalDoors": [
+        {
+          "index": 0,
+          "name": "Cửa thông",
+          "a": 0,
+          "b": 1,
+          "rooms": [
+            "Phòng khách",
+            "Phòng ngủ"
+          ],
+          "wall": {
+            "axis": "vertical",
+            "coordinate": 5,
+            "start": 2,
+            "end": 6,
+            "length": 4
+          },
+          "offset": 1,
+          "length": 1,
+          "x1": 5,
+          "y1": 3,
+          "x2": 5,
+          "y2": 4,
+          "cx": 5,
+          "cy": 3.5
+        },
+        {
+          "index": 1,
+          "name": "Trùng một phần",
+          "a": 1,
+          "b": 0,
+          "rooms": [
+            "Phòng ngủ",
+            "Phòng khách"
+          ],
+          "wall": {
+            "axis": "vertical",
+            "coordinate": 5,
+            "start": 2,
+            "end": 6,
+            "length": 4
+          },
+          "offset": 1.5,
+          "length": 1,
+          "x1": 5,
+          "y1": 3.5,
+          "x2": 5,
+          "y2": 4.5,
+          "cx": 5,
+          "cy": 4
+        }
+      ],
+      "internalDoorOverlaps": [
+        {
+          "a": 0,
+          "b": 1,
+          "length": 0.5
+        }
+      ],
+      "overlaps": [],
+      "openingOverlaps": [],
+      "area": 80,
+      "coveredArea": 60,
+      "unassignedArea": 20,
+      "summedRoomArea": 60,
+      "center": {
+        "x": 5,
+        "y": 4
+      }
+    }
+  }
+}

@@ -1,0 +1,605 @@
+{
+  "scope": "tmp/bazi-ten-stem-life-staging",
+  "files": [
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/ACTUAL_RUNTIME.json",
+      "bytes": 4473,
+      "sha256": "e9c7d9ea0611e762a732d62393bfc95a849b39324ed02deb527f0fcfac617fe4",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/e9c7d9ea0611e762a732d62393bfc95a849b39324ed02deb527f0fcfac617fe4",
+      "httpRange": {
+        "offset": 49671706,
+        "compressedBytes": 797,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/CHAPTER_DISPOSITIONS.json",
+      "bytes": 10384,
+      "sha256": "c56c7c1de381cc3f8bdc274b1f95d32d232b882d5b24a332d0129940f433bb3b",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c56c7c1de381cc3f8bdc274b1f95d32d232b882d5b24a332d0129940f433bb3b",
+      "httpRange": {
+        "offset": 353753911,
+        "compressedBytes": 2940,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/CLAUSE_RENDERS.json",
+      "bytes": 7026,
+      "sha256": "48b5c3e449732cdc9e68e0439fb57b35d6a2f88e13b392d92036c3d87a418e34",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/48b5c3e449732cdc9e68e0439fb57b35d6a2f88e13b392d92036c3d87a418e34",
+      "httpRange": {
+        "offset": 257147680,
+        "compressedBytes": 2260,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/DIGITAL_CHAPTER_LOCATOR.txt",
+      "bytes": 14512,
+      "sha256": "9d14fff87cd346ba21fb4b9fddb45e5fb3c03179d787b3b6739beb8200207625",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9d14fff87cd346ba21fb4b9fddb45e5fb3c03179d787b3b6739beb8200207625",
+      "httpRange": {
+        "offset": 111489281,
+        "compressedBytes": 7377,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/EVIDENCE_SUPPLEMENT.json",
+      "bytes": 404,
+      "sha256": "e5e4c8bf931b62be1c9c66e6cff3668890189c8a081eafc5ac1ac5f3d0506d81",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e5e4c8bf931b62be1c9c66e6cff3668890189c8a081eafc5ac1ac5f3d0506d81",
+      "httpRange": {
+        "offset": 370059835,
+        "compressedBytes": 281,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/EXPECTED_BEFORE_IMPLEMENTATION.json",
+      "bytes": 2903,
+      "sha256": "1bcf376aed456d15dbad9fa089b4a44acbb5eae5aab3a51cf4a78ee12a656e5a",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1bcf376aed456d15dbad9fa089b4a44acbb5eae5aab3a51cf4a78ee12a656e5a",
+      "httpRange": {
+        "offset": 355025857,
+        "compressedBytes": 418,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/LOCAL_RENDERS.json",
+      "bytes": 2264,
+      "sha256": "d40c5c83312860491de5fdbfef80290ac7b46350e70ff8cdc3c02bb191a83ff2",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d40c5c83312860491de5fdbfef80290ac7b46350e70ff8cdc3c02bb191a83ff2",
+      "httpRange": {
+        "offset": 126583941,
+        "compressedBytes": 1131,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/MANUAL_COORDINATES.json",
+      "bytes": 4015,
+      "sha256": "756776c22484e51058e0ed08d6122e8bf0f94d57513e0dcf2379fb00f67b971e",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/756776c22484e51058e0ed08d6122e8bf0f94d57513e0dcf2379fb00f67b971e",
+      "httpRange": {
+        "offset": 371490694,
+        "compressedBytes": 1096,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/PREIMPLEMENTATION_FREEZE.json",
+      "bytes": 633,
+      "sha256": "8286e2c8fe3d098d1f2c56ccf4a0c4fbe52facee9852e7e3746bd2ecf393cd1e",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8286e2c8fe3d098d1f2c56ccf4a0c4fbe52facee9852e7e3746bd2ecf393cd1e",
+      "httpRange": {
+        "offset": 88620329,
+        "compressedBytes": 368,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/REMAINING_RENDERS.json",
+      "bytes": 4141,
+      "sha256": "0576b76c136eb5ae0a2ca7a52837020c12b1c0d1c6bbc184e11c0f20d639ee0e",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0576b76c136eb5ae0a2ca7a52837020c12b1c0d1c6bbc184e11c0f20d639ee0e",
+      "httpRange": {
+        "offset": 119534354,
+        "compressedBytes": 1478,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/RESEARCH_REPORT.md",
+      "bytes": 4657,
+      "sha256": "808d1be5160c3e607309aa920ac820131b12f20275de73d66035e8c31a7f96a7",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/808d1be5160c3e607309aa920ac820131b12f20275de73d66035e8c31a7f96a7",
+      "httpRange": {
+        "offset": 70370589,
+        "compressedBytes": 2376,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/SHA256SUMS.json",
+      "bytes": 5521,
+      "sha256": "eaca1a2545647c573fb63a0088247ca0309f14a8fb601c80082e3d2c7095587b",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/eaca1a2545647c573fb63a0088247ca0309f14a8fb601c80082e3d2c7095587b",
+      "httpRange": {
+        "offset": 63190595,
+        "compressedBytes": 2179,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/SUPPLEMENTAL_RENDERS.json",
+      "bytes": 1055,
+      "sha256": "3cd69a7235b52995153a5a1331a87b7b3c26091b11f5d7c8d98546dd77fb6caa",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/3cd69a7235b52995153a5a1331a87b7b3c26091b11f5d7c8d98546dd77fb6caa",
+      "httpRange": {
+        "offset": 393835450,
+        "compressedBytes": 658,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/TEST_RESULTS.json",
+      "bytes": 427,
+      "sha256": "b8050cceae177302d5f5e3952398355ea33eb1edad23fe7de6b874f786084cd6",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/b8050cceae177302d5f5e3952398355ea33eb1edad23fe7de6b874f786084cd6",
+      "httpRange": {
+        "offset": 168823681,
+        "compressedBytes": 264,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/WORK_STATE.json",
+      "bytes": 3172,
+      "sha256": "237d3bf74e383516287cd12d13fcf9b04c5e28a9fea3d32896e56bb966d28c4e",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/237d3bf74e383516287cd12d13fcf9b04c5e28a9fea3d32896e56bb966d28c4e",
+      "httpRange": {
+        "offset": 110374092,
+        "compressedBytes": 1705,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/coordinate-reference.mjs",
+      "bytes": 1243,
+      "sha256": "f220633e213cc5314319ba321b66caa7bc496563e46c311fbb31068148e29cb4",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f220633e213cc5314319ba321b66caa7bc496563e46c311fbb31068148e29cb4",
+      "httpRange": {
+        "offset": 164650145,
+        "compressedBytes": 788,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/decode-boundaries.mjs",
+      "bytes": 2890,
+      "sha256": "1d20d5e57f3360b03c6428fceda9c1f960e4da14d049d3e7acfc032d75b32b7a",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1d20d5e57f3360b03c6428fceda9c1f960e4da14d049d3e7acfc032d75b32b7a",
+      "httpRange": {
+        "offset": 363494832,
+        "compressedBytes": 1513,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/decode-clauses.mjs",
+      "bytes": 2926,
+      "sha256": "f647c11807d559d0758be25ba8a1144d91fce89463232981608ef8357f648909",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f647c11807d559d0758be25ba8a1144d91fce89463232981608ef8357f648909",
+      "httpRange": {
+        "offset": 211855788,
+        "compressedBytes": 1542,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/decode-remaining.mjs",
+      "bytes": 2909,
+      "sha256": "b57c5acaa8e3169925a2f27e7708c3de309f2d04df5378bf108d1160ecc8f9bf",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b57c5acaa8e3169925a2f27e7708c3de309f2d04df5378bf108d1160ecc8f9bf",
+      "httpRange": {
+        "offset": 380603400,
+        "compressedBytes": 1532,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/decode-supplement.mjs",
+      "bytes": 2892,
+      "sha256": "987de8c5e176749e5258c3fb542a587c6a5fc3f6986cd93642b42b0c120fb8f0",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/987de8c5e176749e5258c3fb542a587c6a5fc3f6986cd93642b42b0c120fb8f0",
+      "httpRange": {
+        "offset": 27980028,
+        "compressedBytes": 1517,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p10.png",
+      "bytes": 275042,
+      "sha256": "7e4b0315960ce9d11e0cb48cddbc84042bc4074ce471cef29d88b3f138798dbf",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7e4b0315960ce9d11e0cb48cddbc84042bc4074ce471cef29d88b3f138798dbf",
+      "httpRange": {
+        "offset": 59201014,
+        "compressedBytes": 259257,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p11.png",
+      "bytes": 249481,
+      "sha256": "7e6f4d836b7e4dc433f437040e9fa6603957743382b1c888f34e8b4fc84ddfab",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7e6f4d836b7e4dc433f437040e9fa6603957743382b1c888f34e8b4fc84ddfab",
+      "httpRange": {
+        "offset": 60175623,
+        "compressedBytes": 233365,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p12.png",
+      "bytes": 247763,
+      "sha256": "1c6ebbe00ce68f2d1acbc84e69b02b489a3549019c7c6a71ae3cb6d7cf27bb5c",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1c6ebbe00ce68f2d1acbc84e69b02b489a3549019c7c6a71ae3cb6d7cf27bb5c",
+      "httpRange": {
+        "offset": 359757889,
+        "compressedBytes": 230449,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p13.png",
+      "bytes": 278468,
+      "sha256": "c8ab013746450e76cfdcadbf1abc2a7c60bd21147e38fb6fe27ec8b0c097105e",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c8ab013746450e76cfdcadbf1abc2a7c60bd21147e38fb6fe27ec8b0c097105e",
+      "httpRange": {
+        "offset": 386968083,
+        "compressedBytes": 263131,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p14.png",
+      "bytes": 261781,
+      "sha256": "1ae34669e408243b604d844b64457a32e78c429d12e2105183cc3120ee17a091",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1ae34669e408243b604d844b64457a32e78c429d12e2105183cc3120ee17a091",
+      "httpRange": {
+        "offset": 347000414,
+        "compressedBytes": 246014,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p15.png",
+      "bytes": 258450,
+      "sha256": "2789a61a57eca5fefb39176b6ec430842aee184f4801b13fc42201d98bd3d92e",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2789a61a57eca5fefb39176b6ec430842aee184f4801b13fc42201d98bd3d92e",
+      "httpRange": {
+        "offset": 144837818,
+        "compressedBytes": 243609,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p16.png",
+      "bytes": 270378,
+      "sha256": "9262dc9876e09ace4b8a3a6d5443a8b82346d9a29e95aeee0846b77d3c271ac9",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/9262dc9876e09ace4b8a3a6d5443a8b82346d9a29e95aeee0846b77d3c271ac9",
+      "httpRange": {
+        "offset": 323394508,
+        "compressedBytes": 255518,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p17.png",
+      "bytes": 262969,
+      "sha256": "e769af2f021ef315ef98d2d1f480a324d3064caa5a3cf7a94687714949f6372a",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e769af2f021ef315ef98d2d1f480a324d3064caa5a3cf7a94687714949f6372a",
+      "httpRange": {
+        "offset": 381185114,
+        "compressedBytes": 246637,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p18.png",
+      "bytes": 266888,
+      "sha256": "121fc67acb3a64abc5a3906a61798e9b557976eb65214e9872828e2cfcc2aefa",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/121fc67acb3a64abc5a3906a61798e9b557976eb65214e9872828e2cfcc2aefa",
+      "httpRange": {
+        "offset": 242674116,
+        "compressedBytes": 250383,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p19.png",
+      "bytes": 243398,
+      "sha256": "2103b4c0515e119b2488ea177701266c5277460cedc5ef25388229235d83644d",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2103b4c0515e119b2488ea177701266c5277460cedc5ef25388229235d83644d",
+      "httpRange": {
+        "offset": 85036978,
+        "compressedBytes": 226779,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p20.png",
+      "bytes": 254053,
+      "sha256": "1f60e8efd956f69db5c9a1a234d9a7f0937328c258ed3554df0f8d3fec6ac55d",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/1f60e8efd956f69db5c9a1a234d9a7f0937328c258ed3554df0f8d3fec6ac55d",
+      "httpRange": {
+        "offset": 72888758,
+        "compressedBytes": 236861,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p21.png",
+      "bytes": 270898,
+      "sha256": "c9e2be4b14f20bda1bddb5babc8a15d89601f5699294579d3b034bed763ccb84",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c9e2be4b14f20bda1bddb5babc8a15d89601f5699294579d3b034bed763ccb84",
+      "httpRange": {
+        "offset": 403260616,
+        "compressedBytes": 255054,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p22.png",
+      "bytes": 262341,
+      "sha256": "f26bca2f98e44f1919f14ae0b3c405ed52b0adcddfbf5447d779409a56cce1ab",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f26bca2f98e44f1919f14ae0b3c405ed52b0adcddfbf5447d779409a56cce1ab",
+      "httpRange": {
+        "offset": 167546564,
+        "compressedBytes": 246497,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p23.png",
+      "bytes": 261079,
+      "sha256": "6f1884946e6021e53630881270265ca7b06e02ced4ea4b171f632f3bb91890c8",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6f1884946e6021e53630881270265ca7b06e02ced4ea4b171f632f3bb91890c8",
+      "httpRange": {
+        "offset": 284381792,
+        "compressedBytes": 245097,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p24.png",
+      "bytes": 246248,
+      "sha256": "45140970f8c9bf4a8deae761982bd9b3e6f579e6617c9f63c226e3e24dd21275",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/45140970f8c9bf4a8deae761982bd9b3e6f579e6617c9f63c226e3e24dd21275",
+      "httpRange": {
+        "offset": 187111713,
+        "compressedBytes": 228912,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p25.png",
+      "bytes": 249613,
+      "sha256": "4f92c0e3c6a37f8ac2d7cf0e8ecbf61d2ac9c5865baeb114d10c562861a91840",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4f92c0e3c6a37f8ac2d7cf0e8ecbf61d2ac9c5865baeb114d10c562861a91840",
+      "httpRange": {
+        "offset": 343350540,
+        "compressedBytes": 233660,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p26.png",
+      "bytes": 270607,
+      "sha256": "86bea15f0566082cf25540dcfba89ee1234590010e05227086e98dff797a6307",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/86bea15f0566082cf25540dcfba89ee1234590010e05227086e98dff797a6307",
+      "httpRange": {
+        "offset": 215892055,
+        "compressedBytes": 253690,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p27.png",
+      "bytes": 244743,
+      "sha256": "64722b74dbb61234fb5611547c58ccb022f009383b0359fe9e519bb0ecbd662a",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/64722b74dbb61234fb5611547c58ccb022f009383b0359fe9e519bb0ecbd662a",
+      "httpRange": {
+        "offset": 94046943,
+        "compressedBytes": 228394,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p28.png",
+      "bytes": 283198,
+      "sha256": "144f5f3413396718c61c64071d403aa2731e1d63e4b0f729ae02fdde37166a26",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/144f5f3413396718c61c64071d403aa2731e1d63e4b0f729ae02fdde37166a26",
+      "httpRange": {
+        "offset": 266602957,
+        "compressedBytes": 266805,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p29.png",
+      "bytes": 279053,
+      "sha256": "fa1d70b1708e09a3d253c6a06679b61cb452438870bba5e650eacb622887e32f",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/fa1d70b1708e09a3d253c6a06679b61cb452438870bba5e650eacb622887e32f",
+      "httpRange": {
+        "offset": 253242387,
+        "compressedBytes": 262580,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p30.png",
+      "bytes": 250974,
+      "sha256": "fd8b8162913a80e4f6c45f93f19952fa44bb8f8ea53fa1c467f33492f2fffcca",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/fd8b8162913a80e4f6c45f93f19952fa44bb8f8ea53fa1c467f33492f2fffcca",
+      "httpRange": {
+        "offset": 291931584,
+        "compressedBytes": 234047,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p31.png",
+      "bytes": 267117,
+      "sha256": "8e7106487d23bf47dc43c5b1f547d99cb9302f515e7eeee5010acae15d40cb21",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8e7106487d23bf47dc43c5b1f547d99cb9302f515e7eeee5010acae15d40cb21",
+      "httpRange": {
+        "offset": 296178108,
+        "compressedBytes": 250509,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p32.png",
+      "bytes": 256360,
+      "sha256": "1ca0c0ae22a05e9f65cf58be381f64e5f69abb584b369c91d84d8dada1710827",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1ca0c0ae22a05e9f65cf58be381f64e5f69abb584b369c91d84d8dada1710827",
+      "httpRange": {
+        "offset": 362273590,
+        "compressedBytes": 238747,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p33.png",
+      "bytes": 274062,
+      "sha256": "0f75e7bf425d20d2f75b8e81aeebfb21c243662dc3b8ccd11d8fe925ac11ef2a",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0f75e7bf425d20d2f75b8e81aeebfb21c243662dc3b8ccd11d8fe925ac11ef2a",
+      "httpRange": {
+        "offset": 215102758,
+        "compressedBytes": 258698,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p34.png",
+      "bytes": 275160,
+      "sha256": "e148fdd30ed6c558a8f6f3264fb1a36ce2c4140c9e0888676f89e5c39981cf86",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e148fdd30ed6c558a8f6f3264fb1a36ce2c4140c9e0888676f89e5c39981cf86",
+      "httpRange": {
+        "offset": 294951033,
+        "compressedBytes": 259678,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p35.png",
+      "bytes": 239921,
+      "sha256": "387d25da6a361adf58292a79fd9b0b7b617b7ce80b71227f3679b28379aa3505",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/387d25da6a361adf58292a79fd9b0b7b617b7ce80b71227f3679b28379aa3505",
+      "httpRange": {
+        "offset": 354641020,
+        "compressedBytes": 223122,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/p9.png",
+      "bytes": 241349,
+      "sha256": "de6403129005b869e4fe9b9b33e0f5fc1fee11ac7a44ebc69d1c32e1dd0e1b27",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/de6403129005b869e4fe9b9b33e0f5fc1fee11ac7a44ebc69d1c32e1dd0e1b27",
+      "httpRange": {
+        "offset": 251027720,
+        "compressedBytes": 225905,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/prepare-table.py",
+      "bytes": 3047,
+      "sha256": "f4cf4dbaff77c9fa5b778e9c9d38b8e7521399afda052af1d8b617560103f900",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f4cf4dbaff77c9fa5b778e9c9d38b8e7521399afda052af1d8b617560103f900",
+      "httpRange": {
+        "offset": 192278450,
+        "compressedBytes": 1722,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/run-actual-once.mjs",
+      "bytes": 2169,
+      "sha256": "a44fc4fe7b9039ff8fa7ef70d806b03174b4fe8f5fac4c78e75e19fffc675b74",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a44fc4fe7b9039ff8fa7ef70d806b03174b4fe8f5fac4c78e75e19fffc675b74",
+      "httpRange": {
+        "offset": 212127792,
+        "compressedBytes": 1172,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-ten-stem-life-staging/test-coordinates.mjs",
+      "bytes": 2833,
+      "sha256": "383dd717473b44d178b3ea4079cf5b1893d7f4b59ddc8cd90943c61ad396a9d0",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/383dd717473b44d178b3ea4079cf5b1893d7f4b59ddc8cd90943c61ad396a9d0",
+      "httpRange": {
+        "offset": 350147362,
+        "compressedBytes": 1343,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

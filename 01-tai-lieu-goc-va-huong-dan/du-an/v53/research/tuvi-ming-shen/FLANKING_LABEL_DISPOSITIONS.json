@@ -1,0 +1,130 @@
+{
+  "date": "2026-10-28",
+  "canvas": 61,
+  "sourceCountClaim": {
+    "favourable": 6,
+    "adverse": 3
+  },
+  "rows": [
+    {
+      "id": "purple-fu",
+      "sourceLabel": "紫府夾命",
+      "sourceGroup": "夾貴",
+      "tokenNames": [
+        "紫微",
+        "天府"
+      ],
+      "sourceSimplePairResolved": true,
+      "geometryImplementedInThisScope": false,
+      "fullPatternImplemented": false,
+      "reason": "Explicit two named stars, full contextual conditions remain open."
+    },
+    {
+      "id": "ke-quan-lu",
+      "sourceLabel": "科權祿夾命",
+      "sourceGroup": "夾貴",
+      "tokenNames": [
+        "科",
+        "權",
+        "祿"
+      ],
+      "sourceSimplePairResolved": false,
+      "geometryImplementedInThisScope": false,
+      "fullPatternImplemented": false,
+      "reason": "Three transformation labels in six-type list; distribution/anchor/assignment cannot be inferred by choosing any two."
+    },
+    {
+      "id": "sun-moon",
+      "sourceLabel": "日月夾命",
+      "sourceGroup": "夾貴",
+      "tokenNames": [
+        "太陽",
+        "太陰"
+      ],
+      "sourceSimplePairResolved": true,
+      "geometryImplementedInThisScope": false,
+      "fullPatternImplemented": false,
+      "reason": "Geometry implemented only in previous named scope; no new runtime counted here."
+    },
+    {
+      "id": "chang-qu",
+      "sourceLabel": "昌曲夾命",
+      "sourceGroup": "夾貴",
+      "tokenNames": [
+        "文昌",
+        "文曲"
+      ],
+      "sourceSimplePairResolved": true,
+      "geometryImplementedInThisScope": false,
+      "fullPatternImplemented": false,
+      "reason": "Geometry implemented only in previous named scope; no new runtime counted here."
+    },
+    {
+      "id": "kui-yue",
+      "sourceLabel": "魁鉞夾命",
+      "sourceGroup": "夾貴",
+      "tokenNames": [
+        "天魁",
+        "天鉞"
+      ],
+      "sourceSimplePairResolved": true,
+      "geometryImplementedInThisScope": false,
+      "fullPatternImplemented": false,
+      "reason": "Names editorially expanded from printed abbreviated pair; full conditions open."
+    },
+    {
+      "id": "zuo-you",
+      "sourceLabel": "左右夾命",
+      "sourceGroup": "夾貴",
+      "tokenNames": [
+        "左輔",
+        "右弼"
+      ],
+      "sourceSimplePairResolved": true,
+      "geometryImplementedInThisScope": false,
+      "fullPatternImplemented": false,
+      "reason": "Names editorially expanded; full conditions open."
+    },
+    {
+      "id": "void-robbery",
+      "sourceLabel": "劫空夾命",
+      "sourceGroup": "夾敗",
+      "tokenNames": [
+        "地劫",
+        "天空"
+      ],
+      "sourceSimplePairResolved": false,
+      "geometryImplementedInThisScope": false,
+      "fullPatternImplemented": false,
+      "reason": "Printed 劫空 needs same-source identity mapping; do not silently choose current engine Địa Không."
+    },
+    {
+      "id": "fire-bell",
+      "sourceLabel": "火鈴夾命",
+      "sourceGroup": "夾敗",
+      "tokenNames": [
+        "火星",
+        "鈴星"
+      ],
+      "sourceSimplePairResolved": true,
+      "geometryImplementedInThisScope": false,
+      "fullPatternImplemented": false,
+      "reason": "Full conditions and source adverse outcomes not inferred."
+    },
+    {
+      "id": "yang-tuo",
+      "sourceLabel": "羊陀夾命",
+      "sourceGroup": "夾敗",
+      "tokenNames": [
+        "擎羊",
+        "陀羅"
+      ],
+      "sourceSimplePairResolved": true,
+      "geometryImplementedInThisScope": false,
+      "fullPatternImplemented": false,
+      "reason": "Source explicitly allows 吉星/廟旺/化忌 qualifications; sourceGroup does not determine result."
+    }
+  ],
+  "sourceGroupIsHistoricalLabelNotOutcome": true,
+  "wholeSectionApplied": false
+}

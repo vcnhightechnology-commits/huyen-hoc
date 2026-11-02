@@ -1,0 +1,18 @@
+{
+  "date": "2026-10-26",
+  "previousHistoricalAudit": "../library-audit/COVERAGE.json",
+  "ordinaryLinesWithIndividualReadings": 384,
+  "totalOrdinaryLines": 384,
+  "remainingOrdinaryLinesWithoutSpecificReading": 0,
+  "additionalAllMovingReadings": 2,
+  "previous12LineAudit": {
+    "file": "../yi-lines/SOURCE_AUDIT.json",
+    "sha256": "22258289927742d1baa27f69fbebc062cf365f881aaf3dc561abaaef6f5d1efa"
+  },
+  "new372LineAudit": "YI_REVIEW.json",
+  "publicDataFiles": [
+    "yi-lines.js",
+    "yi-complete-data.js"
+  ],
+  "limit": "384 individual editorial readings grounded in the archived digital witness, not 384 literal translations or a complete facsimile collation. The library as a whole is not exhausted."
+}

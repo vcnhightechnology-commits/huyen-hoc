@@ -1,0 +1,7 @@
+import{createRequire}from'node:module';import{resolve,dirname}from'node:path';import{fileURLToPath}from'node:url';import{mkdir}from'node:fs/promises';
+const require=createRequire(import.meta.url),{chromium}=require('C:/Users/Administrator.DESKTOP-98TGIBL/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/node_modules/playwright');
+const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');await mkdir(resolve(root,'qa'),{recursive:true});
+const browser=await chromium.launch({headless:true});const page=await browser.newPage({viewport:{width:1440,height:1050},deviceScaleFactor:1});const errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.goto('http://127.0.0.1:8053/');console.log('HTTP',await page.title());await page.screenshot({path:resolve(root,'qa/desktop-empty.png'),fullPage:true});
+for(const [n,v]of Object.entries({name:'Minh An',d:'20',m:'5',y:'1990',hour:'8',minute:'30'}))await page.locator(`[name="${n}"]`).fill(v);await page.getByRole('button',{name:'Xem lá số',exact:true}).click();await page.screenshot({path:resolve(root,'qa/desktop-result.png'),fullPage:true});console.log('Result',await page.locator('.result-top').innerText());console.log('Errors',errors);
+await page.setViewportSize({width:390,height:844});await page.screenshot({path:resolve(root,'qa/mobile-result.png'),fullPage:true});console.log('Overflow',await page.evaluate(()=>({body:document.body.scrollWidth,screen:innerWidth})));await browser.close();

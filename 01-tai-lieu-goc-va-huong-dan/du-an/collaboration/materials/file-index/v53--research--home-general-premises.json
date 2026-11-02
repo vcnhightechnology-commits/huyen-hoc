@@ -1,0 +1,713 @@
+{
+  "scope": "v53/research/home-general-premises",
+  "files": [
+    {
+      "file": "v53/research/home-general-premises/ACTUAL_RUNTIME.json",
+      "bytes": 2678,
+      "sha256": "c4fbdb2582acb61159d2898db1fd0d6c531b3d1028dab232fd5ade2c04ef228a",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c4fbdb2582acb61159d2898db1fd0d6c531b3d1028dab232fd5ade2c04ef228a",
+      "httpRange": {
+        "offset": 345006062,
+        "compressedBytes": 712,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/ACTUAL_RUNTIME_PLAN.json",
+      "bytes": 664,
+      "sha256": "d95ae575de7ef4f5d231a445ac3a9ecf0abad12e1cd4ec9f7e984f023db961cf",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d95ae575de7ef4f5d231a445ac3a9ecf0abad12e1cd4ec9f7e984f023db961cf",
+      "httpRange": {
+        "offset": 195907511,
+        "compressedBytes": 428,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/CONTEXT_DISPOSITIONS.json",
+      "bytes": 5185,
+      "sha256": "2e9e588c8f630279902d97f3cd6969a64143d4fb20ae2f8729774e500a71271b",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2e9e588c8f630279902d97f3cd6969a64143d4fb20ae2f8729774e500a71271b",
+      "httpRange": {
+        "offset": 220553556,
+        "compressedBytes": 1493,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/EXPECTED_CASES_PRE_IMPLEMENTATION.json",
+      "bytes": 16189,
+      "sha256": "4dab43d61ce24368bfc78babd2ecac3aa8a2bea44d5670dbda718da8f325b719",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4dab43d61ce24368bfc78babd2ecac3aa8a2bea44d5670dbda718da8f325b719",
+      "httpRange": {
+        "offset": 311853983,
+        "compressedBytes": 1721,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/EXPECTED_CASES_REVISED.json",
+      "bytes": 16303,
+      "sha256": "2096302b8ae3470665eab1043e9f568e6d0e2d5156adf01cf014d6d85f8ea294",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2096302b8ae3470665eab1043e9f568e6d0e2d5156adf01cf014d6d85f8ea294",
+      "httpRange": {
+        "offset": 79832100,
+        "compressedBytes": 1775,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/FUNCTION_REUSE_AUDIT.json",
+      "bytes": 1022,
+      "sha256": "1204f8d6854ffb85534dd48f54ceca94bdb4816860c166920b90d641b6ef6c03",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1204f8d6854ffb85534dd48f54ceca94bdb4816860c166920b90d641b6ef6c03",
+      "httpRange": {
+        "offset": 240645193,
+        "compressedBytes": 558,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/ITKC_BT_1508A_V002_257.JPG",
+      "bytes": 1323533,
+      "sha256": "9bb78b19d365a74e91999e0d60d661fc9e14ef0051244c2debaff72d57f27232",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9bb78b19d365a74e91999e0d60d661fc9e14ef0051244c2debaff72d57f27232",
+      "httpRange": {
+        "offset": 96648095,
+        "compressedBytes": 1302045,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/ITKC_BT_1508A_V002_258.JPG",
+      "bytes": 1173289,
+      "sha256": "8771f62ff59b61e85a8eba073adf54a52b0787f60a326010124b688915557dee",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8771f62ff59b61e85a8eba073adf54a52b0787f60a326010124b688915557dee",
+      "httpRange": {
+        "offset": 224940911,
+        "compressedBytes": 1150418,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/ITKC_BT_1508A_V002_259.JPG",
+      "bytes": 1223996,
+      "sha256": "5d3d11e4007cd03dbeb2fbe82c52327104f20eb50b278f6d6329270a693c4789",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5d3d11e4007cd03dbeb2fbe82c52327104f20eb50b278f6d6329270a693c4789",
+      "httpRange": {
+        "offset": 272955481,
+        "compressedBytes": 1202009,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/ITKC_BT_1508A_V002_260.JPG",
+      "bytes": 1237695,
+      "sha256": "0f3c4765d0f13b44c56f29300edbc010c1dc64060b2e01e1ef133ab363ac7257",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0f3c4765d0f13b44c56f29300edbc010c1dc64060b2e01e1ef133ab363ac7257",
+      "httpRange": {
+        "offset": 211679809,
+        "compressedBytes": 1216757,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/ITKC_BT_1508A_V002_261.JPG",
+      "bytes": 1200097,
+      "sha256": "a04b3119e939925ae7b0be240e9e5f3f33eff1bb040bc83264a02b41119c85e3",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a04b3119e939925ae7b0be240e9e5f3f33eff1bb040bc83264a02b41119c85e3",
+      "httpRange": {
+        "offset": 146962598,
+        "compressedBytes": 1177147,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/ITKC_BT_1508A_V002_262.JPG",
+      "bytes": 1191642,
+      "sha256": "086a43b364e36d83085a94cf5eda585cb0717b08040f6fe16a4d994424327b7a",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/086a43b364e36d83085a94cf5eda585cb0717b08040f6fe16a4d994424327b7a",
+      "httpRange": {
+        "offset": 138339197,
+        "compressedBytes": 1169888,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/ITKC_BT_1508A_V002_263.JPG",
+      "bytes": 1246395,
+      "sha256": "713d97626a357afd3a4a76865444955192c1b2ad24c1b850c7dcdd40d84bc3f9",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/713d97626a357afd3a4a76865444955192c1b2ad24c1b850c7dcdd40d84bc3f9",
+      "httpRange": {
+        "offset": 321204488,
+        "compressedBytes": 1226057,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/ITKC_BT_1508A_V002_264.JPG",
+      "bytes": 1228474,
+      "sha256": "69f6bf32d5569e2ab5e0d68ce26c427c68ef2426b9092803c895c82d59682935",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/69f6bf32d5569e2ab5e0d68ce26c427c68ef2426b9092803c895c82d59682935",
+      "httpRange": {
+        "offset": 240606927,
+        "compressedBytes": 1207288,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/ITKC_BT_1508A_V002_265.JPG",
+      "bytes": 1236494,
+      "sha256": "fa65a18a96020cbd8cd563d37937b2619e79319b786537e125c22852886f740b",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/fa65a18a96020cbd8cd563d37937b2619e79319b786537e125c22852886f740b",
+      "httpRange": {
+        "offset": 255500061,
+        "compressedBytes": 1214085,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/ITKC_BT_1508A_V002_266.JPG",
+      "bytes": 1052271,
+      "sha256": "78b6e481e9bf50b5892df960276a27d0dd69cc1940b6d6ca2a0923a255d6a839",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/78b6e481e9bf50b5892df960276a27d0dd69cc1940b6d6ca2a0923a255d6a839",
+      "httpRange": {
+        "offset": 2109170,
+        "compressedBytes": 1028910,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/MANUAL_PREMISES.json",
+      "bytes": 6677,
+      "sha256": "ce69d53f2f62fc0a76437fe7c4251876955c8bbb1c9bc537616391429d2b5e4d",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/ce69d53f2f62fc0a76437fe7c4251876955c8bbb1c9bc537616391429d2b5e4d",
+      "httpRange": {
+        "offset": 66589836,
+        "compressedBytes": 2825,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/MANUAL_PREMISES_REVISED.json",
+      "bytes": 6959,
+      "sha256": "cf9ea9af024aeb1b6c6f380e0efa83fb41964a2833cbe952af909d3ddf9c596c",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/cf9ea9af024aeb1b6c6f380e0efa83fb41964a2833cbe952af909d3ddf9c596c",
+      "httpRange": {
+        "offset": 88528175,
+        "compressedBytes": 2939,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/NATIVE_CROPS.json",
+      "bytes": 4705,
+      "sha256": "b0bdc96f2256368ea41b59f0dce900c9d89f6f4d0b159fec6dbfabfbce6556dc",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b0bdc96f2256368ea41b59f0dce900c9d89f6f4d0b159fec6dbfabfbce6556dc",
+      "httpRange": {
+        "offset": 325510225,
+        "compressedBytes": 1150,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/PROMOTION_IDENTITIES.json",
+      "bytes": 12089,
+      "sha256": "0876d8df9e908f533292ee898da31c373e12cf7e1102312e4a50f5b26e58fcb2",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0876d8df9e908f533292ee898da31c373e12cf7e1102312e4a50f5b26e58fcb2",
+      "httpRange": {
+        "offset": 139515285,
+        "compressedBytes": 3657,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/READING_AUDIT.json",
+      "bytes": 3592,
+      "sha256": "71edead5d88fe3c435e49d631d66c79765ee1006e0628accbb71059e8582ebad",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/71edead5d88fe3c435e49d631d66c79765ee1006e0628accbb71059e8582ebad",
+      "httpRange": {
+        "offset": 330341146,
+        "compressedBytes": 989,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/READING_CORRECTION.json",
+      "bytes": 684,
+      "sha256": "b8694cabbe92246c8aa35cd55113659d784d231b773bd7c29ea0862ee80e634d",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/b8694cabbe92246c8aa35cd55113659d784d231b773bd7c29ea0862ee80e634d",
+      "httpRange": {
+        "offset": 170903856,
+        "compressedBytes": 415,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/README.md",
+      "bytes": 528,
+      "sha256": "11652fa21d9d6c40f49b89c443983ff6c429b16993ed52b1de7c3f6924fbdf52",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/11652fa21d9d6c40f49b89c443983ff6c429b16993ed52b1de7c3f6924fbdf52",
+      "httpRange": {
+        "offset": 236904170,
+        "compressedBytes": 408,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/REFERENCE_RESULTS.json",
+      "bytes": 1615,
+      "sha256": "863300076887ba504e0683e4dae933b0ee43b4fae73bb780773591455c0cb63c",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/863300076887ba504e0683e4dae933b0ee43b4fae73bb780773591455c0cb63c",
+      "httpRange": {
+        "offset": 211351673,
+        "compressedBytes": 709,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/REQUESTS.json",
+      "bytes": 36433,
+      "sha256": "0f5e499dc6abcdd45b6a3cdc1ca2d1161590c2a42b2ee6d2706851b0e0b5e47b",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0f5e499dc6abcdd45b6a3cdc1ca2d1161590c2a42b2ee6d2706851b0e0b5e47b",
+      "httpRange": {
+        "offset": 213089041,
+        "compressedBytes": 3606,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/SOURCE_IDENTITIES.json",
+      "bytes": 1203,
+      "sha256": "cf866c8875fda3ac81f6ac8864bd69c2425d343c80581a75816214915ce23c25",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/cf866c8875fda3ac81f6ac8864bd69c2425d343c80581a75816214915ce23c25",
+      "httpRange": {
+        "offset": 88196708,
+        "compressedBytes": 657,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/STAGED_acquire-body.ps1",
+      "bytes": 1221,
+      "sha256": "a5492e8d320705a9225c7470b5fc7753e9bd9e3e46f4e9dde5b64dbcab9a5cb9",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a5492e8d320705a9225c7470b5fc7753e9bd9e3e46f4e9dde5b64dbcab9a5cb9",
+      "httpRange": {
+        "offset": 224254745,
+        "compressedBytes": 663,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/STAGED_acquire-general-span.ps1",
+      "bytes": 1662,
+      "sha256": "c40ac47c10eaca4484340f2257380697f57fdecc2de0196abbe866adc889476b",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c40ac47c10eaca4484340f2257380697f57fdecc2de0196abbe866adc889476b",
+      "httpRange": {
+        "offset": 339535635,
+        "compressedBytes": 895,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/STAGED_run-actual.mjs",
+      "bytes": 2242,
+      "sha256": "6001a706a52c324a5565a9dcc5d1c05a80612e4a5ec47d029c166ab624dc2766",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6001a706a52c324a5565a9dcc5d1c05a80612e4a5ec47d029c166ab624dc2766",
+      "httpRange": {
+        "offset": 67087833,
+        "compressedBytes": 1101,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/TRANSCRIPTION_FREEZE.json",
+      "bytes": 7187,
+      "sha256": "d3f64cf1e3ebb6265c8fdd97b5e1d82f639c6f23bdce714880759ed63e31bc9e",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d3f64cf1e3ebb6265c8fdd97b5e1d82f639c6f23bdce714880759ed63e31bc9e",
+      "httpRange": {
+        "offset": 126548014,
+        "compressedBytes": 2207,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/UNCERTAINTIES.json",
+      "bytes": 1085,
+      "sha256": "b82b746f476105acdac544499f62e65fd5e6dac4c080ea6e46bb51ac4e8b09e0",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/b82b746f476105acdac544499f62e65fd5e6dac4c080ea6e46bb51ac4e8b09e0",
+      "httpRange": {
+        "offset": 170100255,
+        "compressedBytes": 657,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/WORK_STATE.json",
+      "bytes": 18676,
+      "sha256": "38ad1959a6034399e37092112ed440991a897f4bd44d39c505be523ecdb66ecf",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/38ad1959a6034399e37092112ed440991a897f4bd44d39c505be523ecdb66ecf",
+      "httpRange": {
+        "offset": 356364006,
+        "compressedBytes": 5361,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/central-zone-and-pausing-complete.png",
+      "bytes": 1807923,
+      "sha256": "4ea501959509f2b94eaa493967a24b8694d1f8e3a8e08360dbf6217905055732",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4ea501959509f2b94eaa493967a24b8694d1f8e3a8e08360dbf6217905055732",
+      "httpRange": {
+        "offset": 323746610,
+        "compressedBytes": 1807271,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/central-zone-end.png",
+      "bytes": 360285,
+      "sha256": "2abceae6e995c2e9f79616fe40030bc6b7c2350daebc0ed4fda94eb321467d71",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2abceae6e995c2e9f79616fe40030bc6b7c2350daebc0ed4fda94eb321467d71",
+      "httpRange": {
+        "offset": 188716970,
+        "compressedBytes": 360105,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/continuous-work-end-complete.png",
+      "bytes": 723481,
+      "sha256": "000e7a06f773b9b18d372d847ff069f58407c1d7c36a4060825226d969be56df",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/000e7a06f773b9b18d372d847ff069f58407c1d7c36a4060825226d969be56df",
+      "httpRange": {
+        "offset": 2461,
+        "compressedBytes": 722625,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/continuous-work-main-complete.png",
+      "bytes": 1673402,
+      "sha256": "bf5ae4526c45af2de5801396afe3998cd1102e8a5f61020733aedb66e7d9ee82",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bf5ae4526c45af2de5801396afe3998cd1102e8a5f61020733aedb66e7d9ee82",
+      "httpRange": {
+        "offset": 223678860,
+        "compressedBytes": 1672931,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/functional-compass-anchor-complete.png",
+      "bytes": 3533147,
+      "sha256": "ea24e3963f66a43d9b04c0d86484f12a7724dae95e548fd2d87266643c7dbcf1",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ea24e3963f66a43d9b04c0d86484f12a7724dae95e548fd2d87266643c7dbcf1",
+      "httpRange": {
+        "offset": 51320244,
+        "compressedBytes": 3528132,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/general-premises-reference.mjs",
+      "bytes": 5666,
+      "sha256": "7c18863e873fce79a2fbafc15e7d8ddd2650847caadd1e44eacbd7c6f083d4a9",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7c18863e873fce79a2fbafc15e7d8ddd2650847caadd1e44eacbd7c6f083d4a9",
+      "httpRange": {
+        "offset": 45119297,
+        "compressedBytes": 2041,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/initial-qualification-omission/REFERENCE_RESULTS.json",
+      "bytes": 1516,
+      "sha256": "7f7a4d0bf5e234441e6f330af3c63164f69adc983a7fa64255fdaa383be3f44e",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7f7a4d0bf5e234441e6f330af3c63164f69adc983a7fa64255fdaa383be3f44e",
+      "httpRange": {
+        "offset": 64788865,
+        "compressedBytes": 680,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/initial-qualification-omission/general-premises-reference.mjs",
+      "bytes": 5615,
+      "sha256": "cf631f8d1543191d724c33c6a7e8a1dc58e3b15f2a92b7661ed1087b3be16255",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/cf631f8d1543191d724c33c6a7e8a1dc58e3b15f2a92b7661ed1087b3be16255",
+      "httpRange": {
+        "offset": 85599803,
+        "compressedBytes": 2028,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/initial-qualification-omission/test-reference.mjs",
+      "bytes": 7959,
+      "sha256": "97326acacbfd5f20f4113765444b978dd85fb139a8d9808118e5565585b653ee",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/97326acacbfd5f20f4113765444b978dd85fb139a8d9808118e5565585b653ee",
+      "httpRange": {
+        "offset": 18520144,
+        "compressedBytes": 2992,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/itkc-day-theory-extracted.txt",
+      "bytes": 3185,
+      "sha256": "c4887e2cd492d8a655c8868b6f5bc794cc7c79be1176047db232df0f7c3542b0",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c4887e2cd492d8a655c8868b6f5bc794cc7c79be1176047db232df0f7c3542b0",
+      "httpRange": {
+        "offset": 342123391,
+        "compressedBytes": 1726,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/itkc-day-theory.html",
+      "bytes": 9232,
+      "sha256": "497fc84e7b8ead3f3827abaed3ffb741f368df13d98be24a92f91e4dd9112da2",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/497fc84e7b8ead3f3827abaed3ffb741f368df13d98be24a92f91e4dd9112da2",
+      "httpRange": {
+        "offset": 265099705,
+        "compressedBytes": 3535,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/itkc-general-image-index-241.json",
+      "bytes": 1303,
+      "sha256": "9da5f3debb3bcd3f70aff69fa1c40043ec18b6fd48a9c8daf2ebda3277017a7b",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9da5f3debb3bcd3f70aff69fa1c40043ec18b6fd48a9c8daf2ebda3277017a7b",
+      "httpRange": {
+        "offset": 115783826,
+        "compressedBytes": 557,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/itkc-general-image-index-242.json",
+      "bytes": 1303,
+      "sha256": "1969531613dc8ff0d84cb3766eae73e5bccf6d236ed116f173f3faf52bb4946d",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1969531613dc8ff0d84cb3766eae73e5bccf6d236ed116f173f3faf52bb4946d",
+      "httpRange": {
+        "offset": 334573497,
+        "compressedBytes": 557,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/itkc-general-image-index-243.json",
+      "bytes": 1303,
+      "sha256": "229570bef91e401a6e76266c669a064c797e85cd77c5864b2dcaba38845f2b92",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/229570bef91e401a6e76266c669a064c797e85cd77c5864b2dcaba38845f2b92",
+      "httpRange": {
+        "offset": 93733173,
+        "compressedBytes": 557,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/itkc-general-image-index-244.json",
+      "bytes": 1303,
+      "sha256": "bfc4d86aae1a7b620a1966cdcf4c1201873d84635e1998ce4fac361b8b1ac88e",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bfc4d86aae1a7b620a1966cdcf4c1201873d84635e1998ce4fac361b8b1ac88e",
+      "httpRange": {
+        "offset": 232709979,
+        "compressedBytes": 558,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/itkc-general-image-index-245.json",
+      "bytes": 1303,
+      "sha256": "b26872fce03aa7a5d81954b30f0ad3fef4e8de6e63801c7c41521562958b8adf",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b26872fce03aa7a5d81954b30f0ad3fef4e8de6e63801c7c41521562958b8adf",
+      "httpRange": {
+        "offset": 346502304,
+        "compressedBytes": 558,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/itkc-general-image-index-246.json",
+      "bytes": 1303,
+      "sha256": "517c931399cdb36b1e56aa057cf3271c083cc2556b16d07c0a02bba5098b641c",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/517c931399cdb36b1e56aa057cf3271c083cc2556b16d07c0a02bba5098b641c",
+      "httpRange": {
+        "offset": 106727054,
+        "compressedBytes": 559,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/itkc-general-image-index-247.json",
+      "bytes": 1303,
+      "sha256": "09cd5e093f1e59990b3685fd18daa6545c55288714a9ccc6119d3bee381963d1",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/09cd5e093f1e59990b3685fd18daa6545c55288714a9ccc6119d3bee381963d1",
+      "httpRange": {
+        "offset": 150925748,
+        "compressedBytes": 560,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/itkc-general-image-index-248.json",
+      "bytes": 1303,
+      "sha256": "c3aea17d40dd1b5cdfc81270e179884c7b3454c918cd39773bdc35a520cffe75",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c3aea17d40dd1b5cdfc81270e179884c7b3454c918cd39773bdc35a520cffe75",
+      "httpRange": {
+        "offset": 330287391,
+        "compressedBytes": 559,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/itkc-general-image-index-249.json",
+      "bytes": 1303,
+      "sha256": "669a4f98b12b77ddefaac73f8b3e5e2427324e698458d0a369b21a069aed8690",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/669a4f98b12b77ddefaac73f8b3e5e2427324e698458d0a369b21a069aed8690",
+      "httpRange": {
+        "offset": 202728278,
+        "compressedBytes": 557,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/itkc-general-image-node.json",
+      "bytes": 1441,
+      "sha256": "9da37ad60808c0618cb7ab0397cf4b166e95b06406f3ba716dff073b9dc74f35",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9da37ad60808c0618cb7ab0397cf4b166e95b06406f3ba716dff073b9dc74f35",
+      "httpRange": {
+        "offset": 115783098,
+        "compressedBytes": 626,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/itkc-general-theory-extracted.txt",
+      "bytes": 5838,
+      "sha256": "d24c728de123253b44badf59099287cdc019049aa8ffa283b01391416d076445",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d24c728de123253b44badf59099287cdc019049aa8ffa283b01391416d076445",
+      "httpRange": {
+        "offset": 113130767,
+        "compressedBytes": 2893,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/itkc-general-theory.html",
+      "bytes": 11603,
+      "sha256": "11137bc483aed26626506d30bdb5d4d04b2d331d7e139381071e9bd4503363cb",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/11137bc483aed26626506d30bdb5d4d04b2d331d7e139381071e9bd4503363cb",
+      "httpRange": {
+        "offset": 234205342,
+        "compressedBytes": 4730,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/itkc-hour-theory-extracted.txt",
+      "bytes": 791,
+      "sha256": "000a4b61c7a27bd24d6af832dd0a96a4c6e716d8fb87bfa2cc0d40eac5dd79b6",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/000a4b61c7a27bd24d6af832dd0a96a4c6e716d8fb87bfa2cc0d40eac5dd79b6",
+      "httpRange": {
+        "offset": 102,
+        "compressedBytes": 511,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/itkc-hour-theory.html",
+      "bytes": 5119,
+      "sha256": "d55b234081eb4a0876e3ad79884230a5d335a786d830423f46e8ebd5f1393ea4",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d55b234081eb4a0876e3ad79884230a5d335a786d830423f46e8ebd5f1393ea4",
+      "httpRange": {
+        "offset": 146807018,
+        "compressedBytes": 2122,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/test-reference.mjs",
+      "bytes": 8156,
+      "sha256": "ff273b59db8ead478c68614ca06282e0c5258561dcebfb0b1537f68cfb7b4fe8",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ff273b59db8ead478c68614ca06282e0c5258561dcebfb0b1537f68cfb7b4fe8",
+      "httpRange": {
+        "offset": 309513893,
+        "compressedBytes": 3075,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-general-premises/year-officer-repair-window.png",
+      "bytes": 1843993,
+      "sha256": "432fca93b5220a3664267188ec0850d668d32a07ad50917b45b7cb328e3182d7",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/432fca93b5220a3664267188ec0850d668d32a07ad50917b45b7cb328e3182d7",
+      "httpRange": {
+        "offset": 163838090,
+        "compressedBytes": 1843292,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

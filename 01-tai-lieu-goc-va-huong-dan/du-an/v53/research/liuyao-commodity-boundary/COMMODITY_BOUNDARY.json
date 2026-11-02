@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-28",
+  "system": "B02-ch076-explicit-commodity-question",
+  "sourcePages": [
+    313,
+    314
+  ],
+  "quotedOldMappings": [
+    {
+      "element": "金",
+      "labels": [
+        "珠寶玉石"
+      ]
+    },
+    {
+      "element": "水",
+      "labels": [
+        "魚鹽"
+      ]
+    }
+  ],
+  "oldMappingsAreSelectedBoundedExcerptsNotCompleteFiveElementTable": true,
+  "authorCritique": {
+    "voice": "野鶴",
+    "workingReading": "此乃揣摩五行之論非經驗也;不可為法;指其事而占之",
+    "automaticCommodityInferenceRejected": true
+  },
+  "explicitSourceCommodityLabels": [
+    "珠寶玉石",
+    "魚鹽",
+    "檀香",
+    "翠毛"
+  ],
+  "sourceIllustrationPurchaseLiteral": "後此人買檀香翠毛而歸",
+  "illustrationIsNotEmpiricalMarketValidation": true,
+  "翠毛NotSilentlyNormalizedToModernJadeLabel翡翠": true,
+  "figureFixture": {
+    "sourcePage": 313,
+    "valuesBottomToTop": [
+      8,
+      8,
+      7,
+      7,
+      8,
+      7
+    ],
+    "primaryNumber": 56,
+    "changedNumber": 56,
+    "movingLines": [],
+    "sourceBaseLabelsBottomToTop": [
+      {
+        "branch": "辰",
+        "kin": "子孫"
+      },
+      {
+        "branch": "午",
+        "kin": "兄弟"
+      },
+      {
+        "branch": "申",
+        "kin": "妻財"
+      },
+      {
+        "branch": "酉",
+        "kin": "妻財"
+      },
+      {
+        "branch": "未",
+        "kin": "子孫"
+      },
+      {
+        "branch": "巳",
+        "kin": "兄弟"
+      }
+    ],
+    "sourceSelfLine": 1,
+    "sourceResponseLine": 4,
+    "historicalDateKnown": false,
+    "sourceOutcomeValidated": false
+  },
+  "sourceInstructionsAreData": true,
+  "consumerApplied": false,
+  "wholeChapterApplied": false
+}

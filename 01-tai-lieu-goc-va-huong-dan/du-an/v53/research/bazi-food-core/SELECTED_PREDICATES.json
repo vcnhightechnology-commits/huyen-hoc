@@ -1,0 +1,321 @@
+{
+  "date": "2026-10-28",
+  "system": "TMTH005-food-core-selected",
+  "source": "v53/research/bazi-food-source/CONTEXTS.json",
+  "clauseCount": 12,
+  "clauses": [
+    {
+      "id": "balanced",
+      "parent": "FOOD-00-C04",
+      "offsetWithinParent": 0,
+      "text": "此格要日主食神俱生旺無衝破",
+      "digitalFolios": [
+        "005-84b"
+      ],
+      "allCharactersImageCollated": false,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "declining",
+      "parent": "FOOD-00-C06",
+      "offsetWithinParent": 0,
+      "text": "怕母子俱衰絶兩皆無成",
+      "digitalFolios": [
+        "005-84b",
+        "005-85a"
+      ],
+      "allCharactersImageCollated": false,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "many",
+      "parent": "FOOD-00-C09",
+      "offsetWithinParent": 32,
+      "text": "食神多者宜行印運",
+      "digitalFolios": [
+        "005-85b"
+      ],
+      "allCharactersImageCollated": false,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "few",
+      "parent": "FOOD-00-C09",
+      "offsetWithinParent": 40,
+      "text": "食少者不宜是梟神奪食",
+      "digitalFolios": [
+        "005-85b"
+      ],
+      "allCharactersImageCollated": false,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "weak-owl",
+      "parent": "FOOD-00-C10",
+      "offsetWithinParent": 33,
+      "text": "忌身衰梟旺",
+      "digitalFolios": [
+        "005-85b"
+      ],
+      "allCharactersImageCollated": false,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "wealth-many",
+      "parent": "FOOD-00-C11",
+      "offsetWithinParent": 0,
+      "text": "柱中雖喜見財亦不宜多多則不清",
+      "digitalFolios": [
+        "005-85b"
+      ],
+      "allCharactersImageCollated": false,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "repeat-label",
+      "parent": "FOOD-00-C12",
+      "offsetWithinParent": 0,
+      "text": "食神重見變為傷官",
+      "digitalFolios": [
+        "005-85b",
+        "005-86a"
+      ],
+      "allCharactersImageCollated": false,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "restricted-void",
+      "parent": "FOOD-00-C12",
+      "offsetWithinParent": 55,
+      "text": "若食神逢尅又遇空亡則不貴",
+      "digitalFolios": [
+        "005-85b",
+        "005-86a"
+      ],
+      "allCharactersImageCollated": false,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "kill-wealth-chain",
+      "parent": "FOOD-00-C03",
+      "offsetWithinParent": 95,
+      "text": "凡命遇財煞之地食神旺相煞被食制不敢為禍財被食生充裕不竭",
+      "digitalFolios": [
+        "005-84a",
+        "005-84b"
+      ],
+      "allCharactersImageCollated": false,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "yang-hidden-officer",
+      "parent": "FOOD-00-C08",
+      "offsetWithinParent": 2,
+      "text": "陽日食神暗合官星",
+      "digitalFolios": [
+        "005-85a",
+        "005-85b"
+      ],
+      "allCharactersImageCollated": false,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "yin-hidden-seal",
+      "parent": "FOOD-00-C08",
+      "offsetWithinParent": 10,
+      "text": "隂日食神暗合正印",
+      "digitalFolios": [
+        "005-85a",
+        "005-85b"
+      ],
+      "allCharactersImageCollated": false,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "nonmanifest-pure",
+      "parent": "FOOD-00-C08",
+      "offsetWithinParent": 18,
+      "text": "官印不要明顯但得食神純粹",
+      "digitalFolios": [
+        "005-85a",
+        "005-85b"
+      ],
+      "allCharactersImageCollated": false,
+      "sourceOutcomeValidated": false
+    }
+  ],
+  "coordinateFacts": [
+    "dayIsYang",
+    "dayIsYin"
+  ],
+  "declaredResearchFactRegistry": {
+    "dayStrong": "source日主生旺;not automatically a phase,month label or visible-stem count",
+    "foodStrong": "source食神生旺;not automatically from food presence",
+    "effectiveClashOrDamageAbsent": "source無衝破;absence must be established,not supplied by missing input",
+    "dayDecliningOrExtinct": "source母衰絶;frame/effectiveness requires separate interpretation",
+    "foodDecliningOrExtinct": "source子衰絶;not simply zero visible food stems",
+    "sourceFoodMany": "source多 within explicit same research quantity frame;no rawcount threshold",
+    "sourceFoodFew": "source少 within same research quantity frame;not logical complement of多",
+    "sealLuckEffective": "行印運 within relevant source context;not merely natal seal presence",
+    "dayWeak": "source身衰;not derived as complement ofdayStrong",
+    "owlStrong": "source梟旺;not simply a偏印stem present",
+    "sourceWealthTooMany": "source財不宜多;no automatic numeric boundary",
+    "repeatedFoodPatternCriterion": "source重見變為傷官 localpattern criterion;does not remap fixedTenGod relation",
+    "foodEffectivelyRestricted": "source食神逢尅;not nominal control pair presence",
+    "foodEffectivelyVoid": "source遇空亡 with own effectiveness prerequisites",
+    "sourceWealthKillContext": "source命遇財煞之地;actual relative force/position not invented",
+    "foodEffectiveRestraintOfKill": "source煞被食制;requires effective interaction",
+    "foodEffectiveGenerationOfWealth": "source財被食生;requires effective interaction",
+    "foodEffectiveHiddenOfficerCombination": "source陽日暗合官星;not nominalstem pair",
+    "foodEffectiveHiddenSealCombination": "source陰日暗合正印;not nominalstem pair",
+    "sourceOfficerSealNonmanifestCriterion": "source官印不要明顯;not inferred from visible stems alone",
+    "foodPure": "source食神純粹;not raw count==1"
+  },
+  "rules": [
+    {
+      "id": "balanced-core",
+      "sourceClauseIDs": [
+        "balanced"
+      ],
+      "all": [
+        "dayStrong",
+        "foodStrong",
+        "effectiveClashOrDamageAbsent"
+      ],
+      "sourceLocalStance": "required-source-premises",
+      "fullSourceConditionSetEstablished": false
+    },
+    {
+      "id": "both-declining",
+      "sourceClauseIDs": [
+        "declining"
+      ],
+      "all": [
+        "dayDecliningOrExtinct",
+        "foodDecliningOrExtinct"
+      ],
+      "sourceLocalStance": "source-negative-context",
+      "fullSourceConditionSetEstablished": false
+    },
+    {
+      "id": "many-food-seal-luck",
+      "sourceClauseIDs": [
+        "many"
+      ],
+      "all": [
+        "sourceFoodMany",
+        "sealLuckEffective"
+      ],
+      "sourceLocalStance": "source-local-宜",
+      "fullSourceConditionSetEstablished": false
+    },
+    {
+      "id": "few-food-seal-luck",
+      "sourceClauseIDs": [
+        "few"
+      ],
+      "all": [
+        "sourceFoodFew",
+        "sealLuckEffective"
+      ],
+      "sourceLocalStance": "source-local-不宜",
+      "fullSourceConditionSetEstablished": false
+    },
+    {
+      "id": "weak-day-strong-owl",
+      "sourceClauseIDs": [
+        "weak-owl"
+      ],
+      "all": [
+        "dayWeak",
+        "owlStrong"
+      ],
+      "sourceLocalStance": "source-local-忌",
+      "fullSourceConditionSetEstablished": false
+    },
+    {
+      "id": "too-many-wealth",
+      "sourceClauseIDs": [
+        "wealth-many"
+      ],
+      "all": [
+        "sourceWealthTooMany"
+      ],
+      "sourceLocalStance": "source-local-不清",
+      "fullSourceConditionSetEstablished": false
+    },
+    {
+      "id": "repeat-pattern-label",
+      "sourceClauseIDs": [
+        "repeat-label"
+      ],
+      "all": [
+        "repeatedFoodPatternCriterion"
+      ],
+      "sourceLocalStance": "contextual-label-only-傷官",
+      "fullSourceConditionSetEstablished": false
+    },
+    {
+      "id": "food-restricted-and-void",
+      "sourceClauseIDs": [
+        "restricted-void"
+      ],
+      "all": [
+        "foodEffectivelyRestricted",
+        "foodEffectivelyVoid"
+      ],
+      "sourceLocalStance": "source-negative-context",
+      "fullSourceConditionSetEstablished": false
+    },
+    {
+      "id": "wealth-kill-effective-chain",
+      "sourceClauseIDs": [
+        "kill-wealth-chain"
+      ],
+      "all": [
+        "sourceWealthKillContext",
+        "foodStrong",
+        "foodEffectiveRestraintOfKill",
+        "foodEffectiveGenerationOfWealth"
+      ],
+      "sourceLocalStance": "source-positive-context",
+      "fullSourceConditionSetEstablished": false
+    },
+    {
+      "id": "yang-hidden-officer",
+      "sourceClauseIDs": [
+        "yang-hidden-officer",
+        "nonmanifest-pure"
+      ],
+      "all": [
+        "dayIsYang",
+        "foodEffectiveHiddenOfficerCombination",
+        "sourceOfficerSealNonmanifestCriterion",
+        "foodPure"
+      ],
+      "sourceLocalStance": "source-positive-context",
+      "fullSourceConditionSetEstablished": false
+    },
+    {
+      "id": "yin-hidden-seal",
+      "sourceClauseIDs": [
+        "yin-hidden-seal",
+        "nonmanifest-pure"
+      ],
+      "all": [
+        "dayIsYin",
+        "foodEffectiveHiddenSealCombination",
+        "sourceOfficerSealNonmanifestCriterion",
+        "foodPure"
+      ],
+      "sourceLocalStance": "source-positive-context",
+      "fullSourceConditionSetEstablished": false
+    }
+  ],
+  "sourceManyFewNotComplements": true,
+  "visibleCountDoesNotAdjudicateQuantityOrPurity": true,
+  "outcomesValidated": false,
+  "fullPatternCompiler": false,
+  "selectedCodepoints": 135,
+  "interpretationBoundary": "Boolean predicates audit deliberately declared research interpretations of source words. Effective interaction,source strength and量/純 criteria are not algorithms supplied by these fragments. Added explicitness is a conservative implementation condition,not proof of a complete traditional method."
+}

@@ -1,0 +1,17 @@
+# Thân216 trường vật tượng — 27/10/2026
+
+Đã chuyển từ bản đồ đầu mục sang đối chiếu **toàn216 vị trí thân bảng** của tám quái, mỗi quái27trường, PDF33–54/trang in21–42. Đọc trực tiếp22ảnh đã lưu và chép phần thân vào `research/meihua-table-bodies/PHYSICAL_READINGS.txt`; dấu phẩy là phân đoạn biên tập. Có214 bản đọc chuẩn hóa không để trống chữ, hai trường còn một chữ chưa quyết: Chấn–Ẩm thực và Ly–Thiên thời. Đây chưa phải bản hiệu khảo ngoại giao/đối chiếu nhân chứng độc lập.
+
+So từng chuỗi chỉ bỏ khoảng trắng/dấu câu: **131 trùng,81 khác chuỗi chữ,hai thiếu ở bản số,hai còn mở chữ**. Số81 gồm chữ dạng khác, đảo thứ tự, thiếu/thừa và từ khác nghĩa; không gọi là81lỗi sao chép đã chứng minh. Giữ214 thân trường số/SHA nguyên byte và giữ bản đồ đầu mục trước như mốc lịch sử. Hai mục Khảm–Động vật và Cấn–Tính tự đã biết là thiếu từ phạm vi trước; lượt này chép thân riêng, không tính thành hai phát hiện mới. Dữ liệu từng trường ở `BODY_COLLATION.json`, khác biệt trọng yếu/giới hạn ở `VARIANTS_AND_LIMITS.json`.
+
+Một số khác biệt cần giữ nguyên thay vì tự sửa theo nghĩa quen thuộc: Càn ghi `五金年月日時` so bản số`一四九年月日時`; Chấn có thêm`黑` trong Ngũ sắc; Tốn có`花果茶圃` và các nhãn tháng/`年` trong Thời tự; Khảm có`茶酒肆`, một mệnh đề hôn nhân thiếu ở bản số và`盜賊` khác`資賊`. Hàng động vật Ly không có`蟹` như bản số. Số thứ tự Ly ở Thời tự/Tính tự là`二三七`, Ngũ số là`三二七`; Đoài Ngũ số`二四九`, Tính tự`四二九`. Không lấy vị trí đầu dãy biểu tượng làm số quái, không biến các nhãn này thành thuật toán ngày/tháng. Các dạng in lạ`高九/乾九` được giữ theo nét thấy ở ảnh, chưa tự sửa`亢`.
+
+Mọi trường có quyết định sử dụng:96 liên hệ biểu tượng văn hóa,8 thời tự còn tiền đề lịch,16 tên/số biểu tượng,96 lời đoán truyền thống chưa có kiểm chứng thực nghiệm. Toàn bộ giữ ngoài site. Không áp lời đoán bệnh/sinh sản/tranh tụng/tiền bạc hoặc hình tượng nhà cửa thành lời khuyên thực tế; không nhận bản tính quan hệ ngũ hành là chứng minh các sự kiện trong sách. Các chỉ dẫn trong sách là nội dung nguồn, không phải chỉ thị của người dùng.
+
+**14/14 kiểm nguồn/runtime đạt**. Bộ tham chiếu riêng `table-reference.mjs` nối đúng2.688 vị trí quái của384 cấu trúc engine thật; tám ca phương vị cũng khớp hàng Phương đạo. Hai phản ví dụ Khảm6/Cấn7 cho thấy không được lấy số đầu tiên1/5 của Ngũ số thay số quái6/7. Kiểm214 thân trường số nguyên byte,216 khóa/27trường,hai mục thiếu/hai chữ mở,phân loại và byte mô-đun sản phẩm. Đây là kiểm phép nối và tính nhất quán, không phải kiểm độ đúng dự đoán.
+
+Không HTTP,OCR hoặc sách/trang nội dung mới:22 trang là **đọc mở rộng phần thân đã lập đầu mục**, không cộng thêm22trang mới. Bảy render Poppler300dpi và12cắt vùng chữ là dẫn xuất QA từ PDF gốc. Đã xem hai bảng ảnh tổng hợp chứa đủ12vùng; giữ SHA ảnh gốc/native/crop. Pypdf thiếu decoderJBIG2 nên không lấy ảnh qua đường đó; Poppler đã có thực thi được. Hai chữ còn khó phân định không được điền từ bản số hoặc theo ngữ cảnh.
+
+HTML **707.411byte/SHA549cb415…** và toàn JS/CSS,site,ZIPweb giữ nguyên bản bốn lớp đã qua98kiểm/PDF4trang. Chỉ nghiên cứu,trạng thái,manifest và gói nguồn cập nhật. Snapshot trước phạm vi ở `archives/v53-before-meihua-table-bodies/`, giữ sourceZIP840.933.231byte/webZIP344.047byte và manifest1.775tệp. Đồng bộ gói tại `qa/meihua-table-bodies/RELEASE_RESULTS.json`.
+
+Phạm vi thân bảng đã có bản đọc/đối chiếu bước đầu cho mọi vị trí; hai chữ,định nghĩa/dị bản và nhân chứng độc lập còn mở. Tiếp mọi mệnh đề phụ của năm quyển,720nhãn bảng giờ/tiền đề đầu vào và các nhánh khác của kho. Không lặp đầu mục/bản đồ hoặc nhận toàn bộ sách/toàn kho hoàn tất.

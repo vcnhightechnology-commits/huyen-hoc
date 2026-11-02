@@ -1,0 +1,2610 @@
+{
+  "date": "2026-10-27",
+  "hiddenCases": [
+    {
+      "id": "ge-wealth",
+      "result": {
+        "schema": "hhc.liuyao.hidden-candidates.v1",
+        "desiredKin": "妻財",
+        "chart": {
+          "schema": "hhc.liuyao.structural-chart.v1",
+          "orientation": "bottom-to-top",
+          "input": [
+            7,
+            8,
+            7,
+            7,
+            7,
+            8
+          ],
+          "primary": {
+            "number": 49,
+            "normalizedName": "澤火革",
+            "palace": "坎",
+            "palaceTrigram": 6,
+            "palaceElement": "水",
+            "stage": "四世",
+            "stageIndex": 4,
+            "shi": 4,
+            "ying": 1,
+            "bits": [
+              1,
+              0,
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          "changed": {
+            "number": 49,
+            "normalizedName": "澤火革",
+            "bits": [
+              1,
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "ownPalaceDiagnostic": "坎",
+            "ownPalaceElementDiagnostic": "水",
+            "annotationKinBasisPalace": "坎",
+            "shiYingReassigned": false
+          },
+          "dayStem": null,
+          "lines": [
+            {
+              "line": 1,
+              "stem": "己",
+              "branch": "卯",
+              "element": "木",
+              "kin": "子孫",
+              "kinBasisPalace": "坎",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "應",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 2,
+              "stem": "己",
+              "branch": "丑",
+              "element": "土",
+              "kin": "官鬼",
+              "kinBasisPalace": "坎",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 3,
+              "stem": "己",
+              "branch": "亥",
+              "element": "水",
+              "kin": "兄弟",
+              "kinBasisPalace": "坎",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 4,
+              "stem": "丁",
+              "branch": "亥",
+              "element": "水",
+              "kin": "兄弟",
+              "kinBasisPalace": "坎",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "世",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 5,
+              "stem": "丁",
+              "branch": "酉",
+              "element": "金",
+              "kin": "父母",
+              "kinBasisPalace": "坎",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 6,
+              "stem": "丁",
+              "branch": "未",
+              "element": "土",
+              "kin": "官鬼",
+              "kinBasisPalace": "坎",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            }
+          ],
+          "movingLines": [],
+          "scope": "structural-source-reference-only",
+          "consumerApplied": false,
+          "predictedEvent": null,
+          "missingPremises": [
+            "用神selection",
+            "飛伏rules",
+            "calendar month/day boundaries",
+            "旺衰/旬空conditionalrules",
+            "full source exceptions",
+            "outcome validation"
+          ]
+        },
+        "rootMatches": [
+          {
+            "line": 3,
+            "palace": "坎",
+            "pureHexagram": 29,
+            "stem": "戊",
+            "branch": "午",
+            "element": "火",
+            "kin": "妻財",
+            "flying": {
+              "stem": "己",
+              "branch": "亥",
+              "element": "水",
+              "kin": "兄弟"
+            },
+            "relation": "flying-controls-hidden",
+            "coincidesWithVisibleBranch": false,
+            "selection": null,
+            "structuralFacts": {
+              "flyingGeneratesHidden": false,
+              "flyingControlsHidden": true
+            }
+          }
+        ],
+        "visibleLines": [],
+        "changedKinLines": [],
+        "calendarCandidates": [],
+        "sourceSearchRule": "If the desired kin is not available,use original palace pure figure;availability/usefulness of visible,changed and calendar candidates remains separate.",
+        "usefulnessSelection": null,
+        "consumerApplied": false,
+        "predictedEvent": null
+      }
+    },
+    {
+      "id": "lu-wealth",
+      "result": {
+        "schema": "hhc.liuyao.hidden-candidates.v1",
+        "desiredKin": "妻財",
+        "chart": {
+          "schema": "hhc.liuyao.structural-chart.v1",
+          "orientation": "bottom-to-top",
+          "input": [
+            7,
+            7,
+            8,
+            7,
+            7,
+            7
+          ],
+          "primary": {
+            "number": 10,
+            "normalizedName": "天澤履",
+            "palace": "艮",
+            "palaceTrigram": 7,
+            "palaceElement": "土",
+            "stage": "五世",
+            "stageIndex": 5,
+            "shi": 5,
+            "ying": 2,
+            "bits": [
+              1,
+              1,
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          "changed": {
+            "number": 10,
+            "normalizedName": "天澤履",
+            "bits": [
+              1,
+              1,
+              0,
+              1,
+              1,
+              1
+            ],
+            "ownPalaceDiagnostic": "艮",
+            "ownPalaceElementDiagnostic": "土",
+            "annotationKinBasisPalace": "艮",
+            "shiYingReassigned": false
+          },
+          "dayStem": null,
+          "lines": [
+            {
+              "line": 1,
+              "stem": "丁",
+              "branch": "巳",
+              "element": "火",
+              "kin": "父母",
+              "kinBasisPalace": "艮",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 2,
+              "stem": "丁",
+              "branch": "卯",
+              "element": "木",
+              "kin": "官鬼",
+              "kinBasisPalace": "艮",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "應",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 3,
+              "stem": "丁",
+              "branch": "丑",
+              "element": "土",
+              "kin": "兄弟",
+              "kinBasisPalace": "艮",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 4,
+              "stem": "壬",
+              "branch": "午",
+              "element": "火",
+              "kin": "父母",
+              "kinBasisPalace": "艮",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 5,
+              "stem": "壬",
+              "branch": "申",
+              "element": "金",
+              "kin": "子孫",
+              "kinBasisPalace": "艮",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "世",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 6,
+              "stem": "壬",
+              "branch": "戌",
+              "element": "土",
+              "kin": "兄弟",
+              "kinBasisPalace": "艮",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            }
+          ],
+          "movingLines": [],
+          "scope": "structural-source-reference-only",
+          "consumerApplied": false,
+          "predictedEvent": null,
+          "missingPremises": [
+            "用神selection",
+            "飛伏rules",
+            "calendar month/day boundaries",
+            "旺衰/旬空conditionalrules",
+            "full source exceptions",
+            "outcome validation"
+          ]
+        },
+        "rootMatches": [
+          {
+            "line": 5,
+            "palace": "艮",
+            "pureHexagram": 52,
+            "stem": "丙",
+            "branch": "子",
+            "element": "水",
+            "kin": "妻財",
+            "flying": {
+              "stem": "壬",
+              "branch": "申",
+              "element": "金",
+              "kin": "子孫"
+            },
+            "relation": "flying-generates-hidden",
+            "coincidesWithVisibleBranch": false,
+            "selection": null,
+            "structuralFacts": {
+              "flyingGeneratesHidden": true,
+              "flyingControlsHidden": false
+            }
+          }
+        ],
+        "visibleLines": [],
+        "changedKinLines": [],
+        "calendarCandidates": [],
+        "sourceSearchRule": "If the desired kin is not available,use original palace pure figure;availability/usefulness of visible,changed and calendar candidates remains separate.",
+        "usefulnessSelection": null,
+        "consumerApplied": false,
+        "predictedEvent": null
+      }
+    },
+    {
+      "id": "jian-wealth",
+      "result": {
+        "schema": "hhc.liuyao.hidden-candidates.v1",
+        "desiredKin": "妻財",
+        "chart": {
+          "schema": "hhc.liuyao.structural-chart.v1",
+          "orientation": "bottom-to-top",
+          "input": [
+            8,
+            8,
+            7,
+            8,
+            7,
+            7
+          ],
+          "primary": {
+            "number": 53,
+            "normalizedName": "風山漸",
+            "palace": "艮",
+            "palaceTrigram": 7,
+            "palaceElement": "土",
+            "stage": "歸魂",
+            "stageIndex": 7,
+            "shi": 3,
+            "ying": 6,
+            "bits": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1
+            ]
+          },
+          "changed": {
+            "number": 53,
+            "normalizedName": "風山漸",
+            "bits": [
+              0,
+              0,
+              1,
+              0,
+              1,
+              1
+            ],
+            "ownPalaceDiagnostic": "艮",
+            "ownPalaceElementDiagnostic": "土",
+            "annotationKinBasisPalace": "艮",
+            "shiYingReassigned": false
+          },
+          "dayStem": null,
+          "lines": [
+            {
+              "line": 1,
+              "stem": "丙",
+              "branch": "辰",
+              "element": "土",
+              "kin": "兄弟",
+              "kinBasisPalace": "艮",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 2,
+              "stem": "丙",
+              "branch": "午",
+              "element": "火",
+              "kin": "父母",
+              "kinBasisPalace": "艮",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 3,
+              "stem": "丙",
+              "branch": "申",
+              "element": "金",
+              "kin": "子孫",
+              "kinBasisPalace": "艮",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "世",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 4,
+              "stem": "辛",
+              "branch": "未",
+              "element": "土",
+              "kin": "兄弟",
+              "kinBasisPalace": "艮",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 5,
+              "stem": "辛",
+              "branch": "巳",
+              "element": "火",
+              "kin": "父母",
+              "kinBasisPalace": "艮",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 6,
+              "stem": "辛",
+              "branch": "卯",
+              "element": "木",
+              "kin": "官鬼",
+              "kinBasisPalace": "艮",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "應",
+              "spirit": null,
+              "changed": null
+            }
+          ],
+          "movingLines": [],
+          "scope": "structural-source-reference-only",
+          "consumerApplied": false,
+          "predictedEvent": null,
+          "missingPremises": [
+            "用神selection",
+            "飛伏rules",
+            "calendar month/day boundaries",
+            "旺衰/旬空conditionalrules",
+            "full source exceptions",
+            "outcome validation"
+          ]
+        },
+        "rootMatches": [
+          {
+            "line": 5,
+            "palace": "艮",
+            "pureHexagram": 52,
+            "stem": "丙",
+            "branch": "子",
+            "element": "水",
+            "kin": "妻財",
+            "flying": {
+              "stem": "辛",
+              "branch": "巳",
+              "element": "火",
+              "kin": "父母"
+            },
+            "relation": "hidden-controls-flying",
+            "coincidesWithVisibleBranch": false,
+            "selection": null,
+            "structuralFacts": {
+              "flyingGeneratesHidden": false,
+              "flyingControlsHidden": false
+            }
+          }
+        ],
+        "visibleLines": [],
+        "changedKinLines": [],
+        "calendarCandidates": [],
+        "sourceSearchRule": "If the desired kin is not available,use original palace pure figure;availability/usefulness of visible,changed and calendar candidates remains separate.",
+        "usefulnessSelection": null,
+        "consumerApplied": false,
+        "predictedEvent": null
+      }
+    },
+    {
+      "id": "sheng-child",
+      "result": {
+        "schema": "hhc.liuyao.hidden-candidates.v1",
+        "desiredKin": "子孫",
+        "chart": {
+          "schema": "hhc.liuyao.structural-chart.v1",
+          "orientation": "bottom-to-top",
+          "input": [
+            8,
+            7,
+            7,
+            8,
+            8,
+            8
+          ],
+          "primary": {
+            "number": 46,
+            "normalizedName": "地風升",
+            "palace": "震",
+            "palaceTrigram": 4,
+            "palaceElement": "木",
+            "stage": "四世",
+            "stageIndex": 4,
+            "shi": 4,
+            "ying": 1,
+            "bits": [
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ]
+          },
+          "changed": {
+            "number": 46,
+            "normalizedName": "地風升",
+            "bits": [
+              0,
+              1,
+              1,
+              0,
+              0,
+              0
+            ],
+            "ownPalaceDiagnostic": "震",
+            "ownPalaceElementDiagnostic": "木",
+            "annotationKinBasisPalace": "震",
+            "shiYingReassigned": false
+          },
+          "dayStem": null,
+          "lines": [
+            {
+              "line": 1,
+              "stem": "辛",
+              "branch": "丑",
+              "element": "土",
+              "kin": "妻財",
+              "kinBasisPalace": "震",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": "應",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 2,
+              "stem": "辛",
+              "branch": "亥",
+              "element": "水",
+              "kin": "父母",
+              "kinBasisPalace": "震",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 3,
+              "stem": "辛",
+              "branch": "酉",
+              "element": "金",
+              "kin": "官鬼",
+              "kinBasisPalace": "震",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 4,
+              "stem": "癸",
+              "branch": "丑",
+              "element": "土",
+              "kin": "妻財",
+              "kinBasisPalace": "震",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": "世",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 5,
+              "stem": "癸",
+              "branch": "亥",
+              "element": "水",
+              "kin": "父母",
+              "kinBasisPalace": "震",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 6,
+              "stem": "癸",
+              "branch": "酉",
+              "element": "金",
+              "kin": "官鬼",
+              "kinBasisPalace": "震",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            }
+          ],
+          "movingLines": [],
+          "scope": "structural-source-reference-only",
+          "consumerApplied": false,
+          "predictedEvent": null,
+          "missingPremises": [
+            "用神selection",
+            "飛伏rules",
+            "calendar month/day boundaries",
+            "旺衰/旬空conditionalrules",
+            "full source exceptions",
+            "outcome validation"
+          ]
+        },
+        "rootMatches": [
+          {
+            "line": 4,
+            "palace": "震",
+            "pureHexagram": 51,
+            "stem": "庚",
+            "branch": "午",
+            "element": "火",
+            "kin": "子孫",
+            "flying": {
+              "stem": "癸",
+              "branch": "丑",
+              "element": "土",
+              "kin": "妻財"
+            },
+            "relation": "hidden-generates-flying",
+            "coincidesWithVisibleBranch": false,
+            "selection": null,
+            "structuralFacts": {
+              "flyingGeneratesHidden": false,
+              "flyingControlsHidden": false
+            }
+          }
+        ],
+        "visibleLines": [],
+        "changedKinLines": [],
+        "calendarCandidates": [],
+        "sourceSearchRule": "If the desired kin is not available,use original palace pure figure;availability/usefulness of visible,changed and calendar candidates remains separate.",
+        "usefulnessSelection": null,
+        "consumerApplied": false,
+        "predictedEvent": null
+      }
+    },
+    {
+      "id": "jiaren-officer",
+      "result": {
+        "schema": "hhc.liuyao.hidden-candidates.v1",
+        "desiredKin": "官鬼",
+        "chart": {
+          "schema": "hhc.liuyao.structural-chart.v1",
+          "orientation": "bottom-to-top",
+          "input": [
+            7,
+            8,
+            7,
+            8,
+            7,
+            7
+          ],
+          "primary": {
+            "number": 37,
+            "normalizedName": "風火家人",
+            "palace": "巽",
+            "palaceTrigram": 5,
+            "palaceElement": "木",
+            "stage": "二世",
+            "stageIndex": 2,
+            "shi": 2,
+            "ying": 5,
+            "bits": [
+              1,
+              0,
+              1,
+              0,
+              1,
+              1
+            ]
+          },
+          "changed": {
+            "number": 37,
+            "normalizedName": "風火家人",
+            "bits": [
+              1,
+              0,
+              1,
+              0,
+              1,
+              1
+            ],
+            "ownPalaceDiagnostic": "巽",
+            "ownPalaceElementDiagnostic": "木",
+            "annotationKinBasisPalace": "巽",
+            "shiYingReassigned": false
+          },
+          "dayStem": null,
+          "lines": [
+            {
+              "line": 1,
+              "stem": "己",
+              "branch": "卯",
+              "element": "木",
+              "kin": "兄弟",
+              "kinBasisPalace": "巽",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 2,
+              "stem": "己",
+              "branch": "丑",
+              "element": "土",
+              "kin": "妻財",
+              "kinBasisPalace": "巽",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": "世",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 3,
+              "stem": "己",
+              "branch": "亥",
+              "element": "水",
+              "kin": "父母",
+              "kinBasisPalace": "巽",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 4,
+              "stem": "辛",
+              "branch": "未",
+              "element": "土",
+              "kin": "妻財",
+              "kinBasisPalace": "巽",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 5,
+              "stem": "辛",
+              "branch": "巳",
+              "element": "火",
+              "kin": "子孫",
+              "kinBasisPalace": "巽",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "應",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 6,
+              "stem": "辛",
+              "branch": "卯",
+              "element": "木",
+              "kin": "兄弟",
+              "kinBasisPalace": "巽",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            }
+          ],
+          "movingLines": [],
+          "scope": "structural-source-reference-only",
+          "consumerApplied": false,
+          "predictedEvent": null,
+          "missingPremises": [
+            "用神selection",
+            "飛伏rules",
+            "calendar month/day boundaries",
+            "旺衰/旬空conditionalrules",
+            "full source exceptions",
+            "outcome validation"
+          ]
+        },
+        "rootMatches": [
+          {
+            "line": 3,
+            "palace": "巽",
+            "pureHexagram": 57,
+            "stem": "辛",
+            "branch": "酉",
+            "element": "金",
+            "kin": "官鬼",
+            "flying": {
+              "stem": "己",
+              "branch": "亥",
+              "element": "水",
+              "kin": "父母"
+            },
+            "relation": "hidden-generates-flying",
+            "coincidesWithVisibleBranch": false,
+            "selection": null,
+            "structuralFacts": {
+              "flyingGeneratesHidden": false,
+              "flyingControlsHidden": false
+            }
+          }
+        ],
+        "visibleLines": [],
+        "changedKinLines": [],
+        "calendarCandidates": [],
+        "sourceSearchRule": "If the desired kin is not available,use original palace pure figure;availability/usefulness of visible,changed and calendar candidates remains separate.",
+        "usefulnessSelection": null,
+        "consumerApplied": false,
+        "predictedEvent": null
+      }
+    },
+    {
+      "id": "yi-child",
+      "result": {
+        "schema": "hhc.liuyao.hidden-candidates.v1",
+        "desiredKin": "子孫",
+        "chart": {
+          "schema": "hhc.liuyao.structural-chart.v1",
+          "orientation": "bottom-to-top",
+          "input": [
+            7,
+            8,
+            8,
+            8,
+            8,
+            7
+          ],
+          "primary": {
+            "number": 27,
+            "normalizedName": "山雷頤",
+            "palace": "巽",
+            "palaceTrigram": 5,
+            "palaceElement": "木",
+            "stage": "遊魂",
+            "stageIndex": 6,
+            "shi": 4,
+            "ying": 1,
+            "bits": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          "changed": {
+            "number": 27,
+            "normalizedName": "山雷頤",
+            "bits": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              1
+            ],
+            "ownPalaceDiagnostic": "巽",
+            "ownPalaceElementDiagnostic": "木",
+            "annotationKinBasisPalace": "巽",
+            "shiYingReassigned": false
+          },
+          "dayStem": null,
+          "lines": [
+            {
+              "line": 1,
+              "stem": "庚",
+              "branch": "子",
+              "element": "水",
+              "kin": "父母",
+              "kinBasisPalace": "巽",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "應",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 2,
+              "stem": "庚",
+              "branch": "寅",
+              "element": "木",
+              "kin": "兄弟",
+              "kinBasisPalace": "巽",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 3,
+              "stem": "庚",
+              "branch": "辰",
+              "element": "土",
+              "kin": "妻財",
+              "kinBasisPalace": "巽",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 4,
+              "stem": "丙",
+              "branch": "戌",
+              "element": "土",
+              "kin": "妻財",
+              "kinBasisPalace": "巽",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": "世",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 5,
+              "stem": "丙",
+              "branch": "子",
+              "element": "水",
+              "kin": "父母",
+              "kinBasisPalace": "巽",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 6,
+              "stem": "丙",
+              "branch": "寅",
+              "element": "木",
+              "kin": "兄弟",
+              "kinBasisPalace": "巽",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            }
+          ],
+          "movingLines": [],
+          "scope": "structural-source-reference-only",
+          "consumerApplied": false,
+          "predictedEvent": null,
+          "missingPremises": [
+            "用神selection",
+            "飛伏rules",
+            "calendar month/day boundaries",
+            "旺衰/旬空conditionalrules",
+            "full source exceptions",
+            "outcome validation"
+          ]
+        },
+        "rootMatches": [
+          {
+            "line": 5,
+            "palace": "巽",
+            "pureHexagram": 57,
+            "stem": "辛",
+            "branch": "巳",
+            "element": "火",
+            "kin": "子孫",
+            "flying": {
+              "stem": "丙",
+              "branch": "子",
+              "element": "水",
+              "kin": "父母"
+            },
+            "relation": "flying-controls-hidden",
+            "coincidesWithVisibleBranch": false,
+            "selection": null,
+            "structuralFacts": {
+              "flyingGeneratesHidden": false,
+              "flyingControlsHidden": true
+            }
+          }
+        ],
+        "visibleLines": [],
+        "changedKinLines": [],
+        "calendarCandidates": [],
+        "sourceSearchRule": "If the desired kin is not available,use original palace pure figure;availability/usefulness of visible,changed and calendar candidates remains separate.",
+        "usefulnessSelection": null,
+        "consumerApplied": false,
+        "predictedEvent": null
+      }
+    },
+    {
+      "id": "ding-parent",
+      "result": {
+        "schema": "hhc.liuyao.hidden-candidates.v1",
+        "desiredKin": "父母",
+        "chart": {
+          "schema": "hhc.liuyao.structural-chart.v1",
+          "orientation": "bottom-to-top",
+          "input": [
+            8,
+            7,
+            7,
+            7,
+            8,
+            7
+          ],
+          "primary": {
+            "number": 50,
+            "normalizedName": "火風鼎",
+            "palace": "離",
+            "palaceTrigram": 3,
+            "palaceElement": "火",
+            "stage": "二世",
+            "stageIndex": 2,
+            "shi": 2,
+            "ying": 5,
+            "bits": [
+              0,
+              1,
+              1,
+              1,
+              0,
+              1
+            ]
+          },
+          "changed": {
+            "number": 50,
+            "normalizedName": "火風鼎",
+            "bits": [
+              0,
+              1,
+              1,
+              1,
+              0,
+              1
+            ],
+            "ownPalaceDiagnostic": "離",
+            "ownPalaceElementDiagnostic": "火",
+            "annotationKinBasisPalace": "離",
+            "shiYingReassigned": false
+          },
+          "dayStem": null,
+          "lines": [
+            {
+              "line": 1,
+              "stem": "辛",
+              "branch": "丑",
+              "element": "土",
+              "kin": "子孫",
+              "kinBasisPalace": "離",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 2,
+              "stem": "辛",
+              "branch": "亥",
+              "element": "水",
+              "kin": "官鬼",
+              "kinBasisPalace": "離",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "世",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 3,
+              "stem": "辛",
+              "branch": "酉",
+              "element": "金",
+              "kin": "妻財",
+              "kinBasisPalace": "離",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 4,
+              "stem": "己",
+              "branch": "酉",
+              "element": "金",
+              "kin": "妻財",
+              "kinBasisPalace": "離",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 5,
+              "stem": "己",
+              "branch": "未",
+              "element": "土",
+              "kin": "子孫",
+              "kinBasisPalace": "離",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": "應",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 6,
+              "stem": "己",
+              "branch": "巳",
+              "element": "火",
+              "kin": "兄弟",
+              "kinBasisPalace": "離",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            }
+          ],
+          "movingLines": [],
+          "scope": "structural-source-reference-only",
+          "consumerApplied": false,
+          "predictedEvent": null,
+          "missingPremises": [
+            "用神selection",
+            "飛伏rules",
+            "calendar month/day boundaries",
+            "旺衰/旬空conditionalrules",
+            "full source exceptions",
+            "outcome validation"
+          ]
+        },
+        "rootMatches": [
+          {
+            "line": 1,
+            "palace": "離",
+            "pureHexagram": 30,
+            "stem": "己",
+            "branch": "卯",
+            "element": "木",
+            "kin": "父母",
+            "flying": {
+              "stem": "辛",
+              "branch": "丑",
+              "element": "土",
+              "kin": "子孫"
+            },
+            "relation": "hidden-controls-flying",
+            "coincidesWithVisibleBranch": false,
+            "selection": null,
+            "structuralFacts": {
+              "flyingGeneratesHidden": false,
+              "flyingControlsHidden": false
+            }
+          }
+        ],
+        "visibleLines": [],
+        "changedKinLines": [],
+        "calendarCandidates": [],
+        "sourceSearchRule": "If the desired kin is not available,use original palace pure figure;availability/usefulness of visible,changed and calendar candidates remains separate.",
+        "usefulnessSelection": null,
+        "consumerApplied": false,
+        "predictedEvent": null
+      }
+    },
+    {
+      "id": "meng-wealth",
+      "result": {
+        "schema": "hhc.liuyao.hidden-candidates.v1",
+        "desiredKin": "妻財",
+        "chart": {
+          "schema": "hhc.liuyao.structural-chart.v1",
+          "orientation": "bottom-to-top",
+          "input": [
+            8,
+            7,
+            8,
+            8,
+            8,
+            7
+          ],
+          "primary": {
+            "number": 4,
+            "normalizedName": "山水蒙",
+            "palace": "離",
+            "palaceTrigram": 3,
+            "palaceElement": "火",
+            "stage": "四世",
+            "stageIndex": 4,
+            "shi": 4,
+            "ying": 1,
+            "bits": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          "changed": {
+            "number": 4,
+            "normalizedName": "山水蒙",
+            "bits": [
+              0,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "ownPalaceDiagnostic": "離",
+            "ownPalaceElementDiagnostic": "火",
+            "annotationKinBasisPalace": "離",
+            "shiYingReassigned": false
+          },
+          "dayStem": null,
+          "lines": [
+            {
+              "line": 1,
+              "stem": "戊",
+              "branch": "寅",
+              "element": "木",
+              "kin": "父母",
+              "kinBasisPalace": "離",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": "應",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 2,
+              "stem": "戊",
+              "branch": "辰",
+              "element": "土",
+              "kin": "子孫",
+              "kinBasisPalace": "離",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 3,
+              "stem": "戊",
+              "branch": "午",
+              "element": "火",
+              "kin": "兄弟",
+              "kinBasisPalace": "離",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 4,
+              "stem": "丙",
+              "branch": "戌",
+              "element": "土",
+              "kin": "子孫",
+              "kinBasisPalace": "離",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": "世",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 5,
+              "stem": "丙",
+              "branch": "子",
+              "element": "水",
+              "kin": "官鬼",
+              "kinBasisPalace": "離",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 6,
+              "stem": "丙",
+              "branch": "寅",
+              "element": "木",
+              "kin": "父母",
+              "kinBasisPalace": "離",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            }
+          ],
+          "movingLines": [],
+          "scope": "structural-source-reference-only",
+          "consumerApplied": false,
+          "predictedEvent": null,
+          "missingPremises": [
+            "用神selection",
+            "飛伏rules",
+            "calendar month/day boundaries",
+            "旺衰/旬空conditionalrules",
+            "full source exceptions",
+            "outcome validation"
+          ]
+        },
+        "rootMatches": [
+          {
+            "line": 4,
+            "palace": "離",
+            "pureHexagram": 30,
+            "stem": "己",
+            "branch": "酉",
+            "element": "金",
+            "kin": "妻財",
+            "flying": {
+              "stem": "丙",
+              "branch": "戌",
+              "element": "土",
+              "kin": "子孫"
+            },
+            "relation": "flying-generates-hidden",
+            "coincidesWithVisibleBranch": false,
+            "selection": null,
+            "structuralFacts": {
+              "flyingGeneratesHidden": true,
+              "flyingControlsHidden": false
+            }
+          }
+        ],
+        "visibleLines": [],
+        "changedKinLines": [],
+        "calendarCandidates": [],
+        "sourceSearchRule": "If the desired kin is not available,use original palace pure figure;availability/usefulness of visible,changed and calendar candidates remains separate.",
+        "usefulnessSelection": null,
+        "consumerApplied": false,
+        "predictedEvent": null
+      }
+    },
+    {
+      "id": "song-officer",
+      "result": {
+        "schema": "hhc.liuyao.hidden-candidates.v1",
+        "desiredKin": "官鬼",
+        "chart": {
+          "schema": "hhc.liuyao.structural-chart.v1",
+          "orientation": "bottom-to-top",
+          "input": [
+            8,
+            7,
+            8,
+            7,
+            7,
+            7
+          ],
+          "primary": {
+            "number": 6,
+            "normalizedName": "天水訟",
+            "palace": "離",
+            "palaceTrigram": 3,
+            "palaceElement": "火",
+            "stage": "遊魂",
+            "stageIndex": 6,
+            "shi": 4,
+            "ying": 1,
+            "bits": [
+              0,
+              1,
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          "changed": {
+            "number": 6,
+            "normalizedName": "天水訟",
+            "bits": [
+              0,
+              1,
+              0,
+              1,
+              1,
+              1
+            ],
+            "ownPalaceDiagnostic": "離",
+            "ownPalaceElementDiagnostic": "火",
+            "annotationKinBasisPalace": "離",
+            "shiYingReassigned": false
+          },
+          "dayStem": null,
+          "lines": [
+            {
+              "line": 1,
+              "stem": "戊",
+              "branch": "寅",
+              "element": "木",
+              "kin": "父母",
+              "kinBasisPalace": "離",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": "應",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 2,
+              "stem": "戊",
+              "branch": "辰",
+              "element": "土",
+              "kin": "子孫",
+              "kinBasisPalace": "離",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 3,
+              "stem": "戊",
+              "branch": "午",
+              "element": "火",
+              "kin": "兄弟",
+              "kinBasisPalace": "離",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 4,
+              "stem": "壬",
+              "branch": "午",
+              "element": "火",
+              "kin": "兄弟",
+              "kinBasisPalace": "離",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "世",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 5,
+              "stem": "壬",
+              "branch": "申",
+              "element": "金",
+              "kin": "妻財",
+              "kinBasisPalace": "離",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 6,
+              "stem": "壬",
+              "branch": "戌",
+              "element": "土",
+              "kin": "子孫",
+              "kinBasisPalace": "離",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            }
+          ],
+          "movingLines": [],
+          "scope": "structural-source-reference-only",
+          "consumerApplied": false,
+          "predictedEvent": null,
+          "missingPremises": [
+            "用神selection",
+            "飛伏rules",
+            "calendar month/day boundaries",
+            "旺衰/旬空conditionalrules",
+            "full source exceptions",
+            "outcome validation"
+          ]
+        },
+        "rootMatches": [
+          {
+            "line": 3,
+            "palace": "離",
+            "pureHexagram": 30,
+            "stem": "己",
+            "branch": "亥",
+            "element": "水",
+            "kin": "官鬼",
+            "flying": {
+              "stem": "戊",
+              "branch": "午",
+              "element": "火",
+              "kin": "兄弟"
+            },
+            "relation": "hidden-controls-flying",
+            "coincidesWithVisibleBranch": false,
+            "selection": null,
+            "structuralFacts": {
+              "flyingGeneratesHidden": false,
+              "flyingControlsHidden": false
+            }
+          }
+        ],
+        "visibleLines": [],
+        "changedKinLines": [],
+        "calendarCandidates": [],
+        "sourceSearchRule": "If the desired kin is not available,use original palace pure figure;availability/usefulness of visible,changed and calendar candidates remains separate.",
+        "usefulnessSelection": null,
+        "consumerApplied": false,
+        "predictedEvent": null
+      }
+    },
+    {
+      "id": "fu-parent",
+      "result": {
+        "schema": "hhc.liuyao.hidden-candidates.v1",
+        "desiredKin": "父母",
+        "chart": {
+          "schema": "hhc.liuyao.structural-chart.v1",
+          "orientation": "bottom-to-top",
+          "input": [
+            7,
+            8,
+            8,
+            8,
+            8,
+            8
+          ],
+          "primary": {
+            "number": 24,
+            "normalizedName": "地雷復",
+            "palace": "坤",
+            "palaceTrigram": 8,
+            "palaceElement": "土",
+            "stage": "一世",
+            "stageIndex": 1,
+            "shi": 1,
+            "ying": 4,
+            "bits": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ]
+          },
+          "changed": {
+            "number": 24,
+            "normalizedName": "地雷復",
+            "bits": [
+              1,
+              0,
+              0,
+              0,
+              0,
+              0
+            ],
+            "ownPalaceDiagnostic": "坤",
+            "ownPalaceElementDiagnostic": "土",
+            "annotationKinBasisPalace": "坤",
+            "shiYingReassigned": false
+          },
+          "dayStem": null,
+          "lines": [
+            {
+              "line": 1,
+              "stem": "庚",
+              "branch": "子",
+              "element": "水",
+              "kin": "妻財",
+              "kinBasisPalace": "坤",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "世",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 2,
+              "stem": "庚",
+              "branch": "寅",
+              "element": "木",
+              "kin": "官鬼",
+              "kinBasisPalace": "坤",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 3,
+              "stem": "庚",
+              "branch": "辰",
+              "element": "土",
+              "kin": "兄弟",
+              "kinBasisPalace": "坤",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 4,
+              "stem": "癸",
+              "branch": "丑",
+              "element": "土",
+              "kin": "兄弟",
+              "kinBasisPalace": "坤",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": "應",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 5,
+              "stem": "癸",
+              "branch": "亥",
+              "element": "水",
+              "kin": "妻財",
+              "kinBasisPalace": "坤",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 6,
+              "stem": "癸",
+              "branch": "酉",
+              "element": "金",
+              "kin": "子孫",
+              "kinBasisPalace": "坤",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            }
+          ],
+          "movingLines": [],
+          "scope": "structural-source-reference-only",
+          "consumerApplied": false,
+          "predictedEvent": null,
+          "missingPremises": [
+            "用神selection",
+            "飛伏rules",
+            "calendar month/day boundaries",
+            "旺衰/旬空conditionalrules",
+            "full source exceptions",
+            "outcome validation"
+          ]
+        },
+        "rootMatches": [
+          {
+            "line": 2,
+            "palace": "坤",
+            "pureHexagram": 2,
+            "stem": "乙",
+            "branch": "巳",
+            "element": "火",
+            "kin": "父母",
+            "flying": {
+              "stem": "庚",
+              "branch": "寅",
+              "element": "木",
+              "kin": "官鬼"
+            },
+            "relation": "flying-generates-hidden",
+            "coincidesWithVisibleBranch": false,
+            "selection": null,
+            "structuralFacts": {
+              "flyingGeneratesHidden": true,
+              "flyingControlsHidden": false
+            }
+          }
+        ],
+        "visibleLines": [],
+        "changedKinLines": [],
+        "calendarCandidates": [],
+        "sourceSearchRule": "If the desired kin is not available,use original palace pure figure;availability/usefulness of visible,changed and calendar candidates remains separate.",
+        "usefulnessSelection": null,
+        "consumerApplied": false,
+        "predictedEvent": null
+      }
+    },
+    {
+      "id": "xian-wealth",
+      "result": {
+        "schema": "hhc.liuyao.hidden-candidates.v1",
+        "desiredKin": "妻財",
+        "chart": {
+          "schema": "hhc.liuyao.structural-chart.v1",
+          "orientation": "bottom-to-top",
+          "input": [
+            8,
+            8,
+            7,
+            7,
+            7,
+            8
+          ],
+          "primary": {
+            "number": 31,
+            "normalizedName": "澤山咸",
+            "palace": "兌",
+            "palaceTrigram": 2,
+            "palaceElement": "金",
+            "stage": "三世",
+            "stageIndex": 3,
+            "shi": 3,
+            "ying": 6,
+            "bits": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              0
+            ]
+          },
+          "changed": {
+            "number": 31,
+            "normalizedName": "澤山咸",
+            "bits": [
+              0,
+              0,
+              1,
+              1,
+              1,
+              0
+            ],
+            "ownPalaceDiagnostic": "兌",
+            "ownPalaceElementDiagnostic": "金",
+            "annotationKinBasisPalace": "兌",
+            "shiYingReassigned": false
+          },
+          "dayStem": null,
+          "lines": [
+            {
+              "line": 1,
+              "stem": "丙",
+              "branch": "辰",
+              "element": "土",
+              "kin": "父母",
+              "kinBasisPalace": "兌",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 2,
+              "stem": "丙",
+              "branch": "午",
+              "element": "火",
+              "kin": "官鬼",
+              "kinBasisPalace": "兌",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 3,
+              "stem": "丙",
+              "branch": "申",
+              "element": "金",
+              "kin": "兄弟",
+              "kinBasisPalace": "兌",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "世",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 4,
+              "stem": "丁",
+              "branch": "亥",
+              "element": "水",
+              "kin": "子孫",
+              "kinBasisPalace": "兌",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 5,
+              "stem": "丁",
+              "branch": "酉",
+              "element": "金",
+              "kin": "兄弟",
+              "kinBasisPalace": "兌",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 6,
+              "stem": "丁",
+              "branch": "未",
+              "element": "土",
+              "kin": "父母",
+              "kinBasisPalace": "兌",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": "應",
+              "spirit": null,
+              "changed": null
+            }
+          ],
+          "movingLines": [],
+          "scope": "structural-source-reference-only",
+          "consumerApplied": false,
+          "predictedEvent": null,
+          "missingPremises": [
+            "用神selection",
+            "飛伏rules",
+            "calendar month/day boundaries",
+            "旺衰/旬空conditionalrules",
+            "full source exceptions",
+            "outcome validation"
+          ]
+        },
+        "rootMatches": [
+          {
+            "line": 2,
+            "palace": "兌",
+            "pureHexagram": 58,
+            "stem": "丁",
+            "branch": "卯",
+            "element": "木",
+            "kin": "妻財",
+            "flying": {
+              "stem": "丙",
+              "branch": "午",
+              "element": "火",
+              "kin": "官鬼"
+            },
+            "relation": "hidden-generates-flying",
+            "coincidesWithVisibleBranch": false,
+            "selection": null,
+            "structuralFacts": {
+              "flyingGeneratesHidden": false,
+              "flyingControlsHidden": false
+            }
+          }
+        ],
+        "visibleLines": [],
+        "changedKinLines": [],
+        "calendarCandidates": [],
+        "sourceSearchRule": "If the desired kin is not available,use original palace pure figure;availability/usefulness of visible,changed and calendar candidates remains separate.",
+        "usefulnessSelection": null,
+        "consumerApplied": false,
+        "predictedEvent": null
+      }
+    },
+    {
+      "id": "xiaoguo-child",
+      "result": {
+        "schema": "hhc.liuyao.hidden-candidates.v1",
+        "desiredKin": "子孫",
+        "chart": {
+          "schema": "hhc.liuyao.structural-chart.v1",
+          "orientation": "bottom-to-top",
+          "input": [
+            8,
+            8,
+            7,
+            7,
+            8,
+            8
+          ],
+          "primary": {
+            "number": 62,
+            "normalizedName": "雷山小過",
+            "palace": "兌",
+            "palaceTrigram": 2,
+            "palaceElement": "金",
+            "stage": "遊魂",
+            "stageIndex": 6,
+            "shi": 4,
+            "ying": 1,
+            "bits": [
+              0,
+              0,
+              1,
+              1,
+              0,
+              0
+            ]
+          },
+          "changed": {
+            "number": 62,
+            "normalizedName": "雷山小過",
+            "bits": [
+              0,
+              0,
+              1,
+              1,
+              0,
+              0
+            ],
+            "ownPalaceDiagnostic": "兌",
+            "ownPalaceElementDiagnostic": "金",
+            "annotationKinBasisPalace": "兌",
+            "shiYingReassigned": false
+          },
+          "dayStem": null,
+          "lines": [
+            {
+              "line": 1,
+              "stem": "丙",
+              "branch": "辰",
+              "element": "土",
+              "kin": "父母",
+              "kinBasisPalace": "兌",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": "應",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 2,
+              "stem": "丙",
+              "branch": "午",
+              "element": "火",
+              "kin": "官鬼",
+              "kinBasisPalace": "兌",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 3,
+              "stem": "丙",
+              "branch": "申",
+              "element": "金",
+              "kin": "兄弟",
+              "kinBasisPalace": "兌",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 4,
+              "stem": "庚",
+              "branch": "午",
+              "element": "火",
+              "kin": "官鬼",
+              "kinBasisPalace": "兌",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "世",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 5,
+              "stem": "庚",
+              "branch": "申",
+              "element": "金",
+              "kin": "兄弟",
+              "kinBasisPalace": "兌",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 6,
+              "stem": "庚",
+              "branch": "戌",
+              "element": "土",
+              "kin": "父母",
+              "kinBasisPalace": "兌",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            }
+          ],
+          "movingLines": [],
+          "scope": "structural-source-reference-only",
+          "consumerApplied": false,
+          "predictedEvent": null,
+          "missingPremises": [
+            "用神selection",
+            "飛伏rules",
+            "calendar month/day boundaries",
+            "旺衰/旬空conditionalrules",
+            "full source exceptions",
+            "outcome validation"
+          ]
+        },
+        "rootMatches": [
+          {
+            "line": 4,
+            "palace": "兌",
+            "pureHexagram": 58,
+            "stem": "丁",
+            "branch": "亥",
+            "element": "水",
+            "kin": "子孫",
+            "flying": {
+              "stem": "庚",
+              "branch": "午",
+              "element": "火",
+              "kin": "官鬼"
+            },
+            "relation": "hidden-controls-flying",
+            "coincidesWithVisibleBranch": false,
+            "selection": null,
+            "structuralFacts": {
+              "flyingGeneratesHidden": false,
+              "flyingControlsHidden": false
+            }
+          }
+        ],
+        "visibleLines": [],
+        "changedKinLines": [],
+        "calendarCandidates": [],
+        "sourceSearchRule": "If the desired kin is not available,use original palace pure figure;availability/usefulness of visible,changed and calendar candidates remains separate.",
+        "usefulnessSelection": null,
+        "consumerApplied": false,
+        "predictedEvent": null
+      }
+    },
+    {
+      "id": "guimei-child",
+      "result": {
+        "schema": "hhc.liuyao.hidden-candidates.v1",
+        "desiredKin": "子孫",
+        "chart": {
+          "schema": "hhc.liuyao.structural-chart.v1",
+          "orientation": "bottom-to-top",
+          "input": [
+            7,
+            7,
+            8,
+            7,
+            8,
+            8
+          ],
+          "primary": {
+            "number": 54,
+            "normalizedName": "雷澤歸妹",
+            "palace": "兌",
+            "palaceTrigram": 2,
+            "palaceElement": "金",
+            "stage": "歸魂",
+            "stageIndex": 7,
+            "shi": 3,
+            "ying": 6,
+            "bits": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "changed": {
+            "number": 54,
+            "normalizedName": "雷澤歸妹",
+            "bits": [
+              1,
+              1,
+              0,
+              1,
+              0,
+              0
+            ],
+            "ownPalaceDiagnostic": "兌",
+            "ownPalaceElementDiagnostic": "金",
+            "annotationKinBasisPalace": "兌",
+            "shiYingReassigned": false
+          },
+          "dayStem": null,
+          "lines": [
+            {
+              "line": 1,
+              "stem": "丁",
+              "branch": "巳",
+              "element": "火",
+              "kin": "官鬼",
+              "kinBasisPalace": "兌",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 2,
+              "stem": "丁",
+              "branch": "卯",
+              "element": "木",
+              "kin": "妻財",
+              "kinBasisPalace": "兌",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 3,
+              "stem": "丁",
+              "branch": "丑",
+              "element": "土",
+              "kin": "父母",
+              "kinBasisPalace": "兌",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": "世",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 4,
+              "stem": "庚",
+              "branch": "午",
+              "element": "火",
+              "kin": "官鬼",
+              "kinBasisPalace": "兌",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 5,
+              "stem": "庚",
+              "branch": "申",
+              "element": "金",
+              "kin": "兄弟",
+              "kinBasisPalace": "兌",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 6,
+              "stem": "庚",
+              "branch": "戌",
+              "element": "土",
+              "kin": "父母",
+              "kinBasisPalace": "兌",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": "應",
+              "spirit": null,
+              "changed": null
+            }
+          ],
+          "movingLines": [],
+          "scope": "structural-source-reference-only",
+          "consumerApplied": false,
+          "predictedEvent": null,
+          "missingPremises": [
+            "用神selection",
+            "飛伏rules",
+            "calendar month/day boundaries",
+            "旺衰/旬空conditionalrules",
+            "full source exceptions",
+            "outcome validation"
+          ]
+        },
+        "rootMatches": [
+          {
+            "line": 4,
+            "palace": "兌",
+            "pureHexagram": 58,
+            "stem": "丁",
+            "branch": "亥",
+            "element": "水",
+            "kin": "子孫",
+            "flying": {
+              "stem": "庚",
+              "branch": "午",
+              "element": "火",
+              "kin": "官鬼"
+            },
+            "relation": "hidden-controls-flying",
+            "coincidesWithVisibleBranch": false,
+            "selection": null,
+            "structuralFacts": {
+              "flyingGeneratesHidden": false,
+              "flyingControlsHidden": false
+            }
+          }
+        ],
+        "visibleLines": [],
+        "changedKinLines": [],
+        "calendarCandidates": [],
+        "sourceSearchRule": "If the desired kin is not available,use original palace pure figure;availability/usefulness of visible,changed and calendar candidates remains separate.",
+        "usefulnessSelection": null,
+        "consumerApplied": false,
+        "predictedEvent": null
+      }
+    }
+  ],
+  "printedChanged": {
+    "schema": "hhc.liuyao.B03-figure-availability.v1",
+    "sourceID": "B03",
+    "sourcePDFPage": 59,
+    "desiredKin": "妻財",
+    "chart": {
+      "schema": "hhc.liuyao.structural-chart.v1",
+      "orientation": "bottom-to-top",
+      "input": [
+        6,
+        8,
+        7,
+        7,
+        7,
+        7
+      ],
+      "primary": {
+        "number": 33,
+        "normalizedName": "天山遯",
+        "palace": "乾",
+        "palaceTrigram": 1,
+        "palaceElement": "金",
+        "stage": "二世",
+        "stageIndex": 2,
+        "shi": 2,
+        "ying": 5,
+        "bits": [
+          0,
+          0,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      "changed": {
+        "number": 13,
+        "normalizedName": "天火同人",
+        "bits": [
+          1,
+          0,
+          1,
+          1,
+          1,
+          1
+        ],
+        "ownPalaceDiagnostic": "離",
+        "ownPalaceElementDiagnostic": "火",
+        "annotationKinBasisPalace": "乾",
+        "shiYingReassigned": false
+      },
+      "dayStem": null,
+      "lines": [
+        {
+          "line": 1,
+          "stem": "丙",
+          "branch": "辰",
+          "element": "土",
+          "kin": "父母",
+          "kinBasisPalace": "乾",
+          "value": 6,
+          "polarity": 0,
+          "moving": true,
+          "role": null,
+          "spirit": null,
+          "changed": {
+            "line": 1,
+            "stem": "己",
+            "branch": "卯",
+            "element": "木",
+            "kin": "妻財",
+            "kinBasisPalace": "乾",
+            "polarity": 1
+          }
+        },
+        {
+          "line": 2,
+          "stem": "丙",
+          "branch": "午",
+          "element": "火",
+          "kin": "官鬼",
+          "kinBasisPalace": "乾",
+          "value": 8,
+          "polarity": 0,
+          "moving": false,
+          "role": "世",
+          "spirit": null,
+          "changed": null
+        },
+        {
+          "line": 3,
+          "stem": "丙",
+          "branch": "申",
+          "element": "金",
+          "kin": "兄弟",
+          "kinBasisPalace": "乾",
+          "value": 7,
+          "polarity": 1,
+          "moving": false,
+          "role": null,
+          "spirit": null,
+          "changed": null
+        },
+        {
+          "line": 4,
+          "stem": "壬",
+          "branch": "午",
+          "element": "火",
+          "kin": "官鬼",
+          "kinBasisPalace": "乾",
+          "value": 7,
+          "polarity": 1,
+          "moving": false,
+          "role": null,
+          "spirit": null,
+          "changed": null
+        },
+        {
+          "line": 5,
+          "stem": "壬",
+          "branch": "申",
+          "element": "金",
+          "kin": "兄弟",
+          "kinBasisPalace": "乾",
+          "value": 7,
+          "polarity": 1,
+          "moving": false,
+          "role": "應",
+          "spirit": null,
+          "changed": null
+        },
+        {
+          "line": 6,
+          "stem": "壬",
+          "branch": "戌",
+          "element": "土",
+          "kin": "父母",
+          "kinBasisPalace": "乾",
+          "value": 7,
+          "polarity": 1,
+          "moving": false,
+          "role": null,
+          "spirit": null,
+          "changed": null
+        }
+      ],
+      "movingLines": [
+        1
+      ],
+      "scope": "structural-source-reference-only",
+      "consumerApplied": false,
+      "predictedEvent": null,
+      "missingPremises": [
+        "用神selection",
+        "飛伏rules",
+        "calendar month/day boundaries",
+        "旺衰/旬空conditionalrules",
+        "full source exceptions",
+        "outcome validation"
+      ]
+    },
+    "visibleCandidates": [],
+    "changedCandidates": [
+      {
+        "line": 1,
+        "kind": "changed",
+        "branch": "卯",
+        "kin": "妻財"
+      }
+    ],
+    "structuralHiddenSearchNeeded": false,
+    "sourceDefaultHiddenSearch": "not-requested-kin-shown",
+    "hiddenSearchCandidates": [],
+    "purePalaceDiagnostic": [
+      {
+        "line": 2,
+        "palace": "乾",
+        "pureHexagram": 1,
+        "stem": "甲",
+        "branch": "寅",
+        "element": "木",
+        "kin": "妻財",
+        "flying": {
+          "stem": "丙",
+          "branch": "午",
+          "element": "火",
+          "kin": "官鬼"
+        },
+        "relation": "hidden-generates-flying",
+        "coincidesWithVisibleBranch": false,
+        "selection": null,
+        "structuralFacts": {
+          "flyingGeneratesHidden": false,
+          "flyingControlsHidden": false
+        }
+      }
+    ],
+    "shownCandidateSelection": {
+      "line": 1,
+      "kind": "changed",
+      "branch": "卯",
+      "kin": "妻財",
+      "basis": "unique-shown-kin-coordinate-not-effectiveness"
+    },
+    "precedenceBetweenMultipleShownCandidates": null,
+    "calendarAvailability": null,
+    "overallSearchDecision": null,
+    "effectiveUseGodSelection": null,
+    "卦身Method": null,
+    "predictedEvent": null,
+    "consumerApplied": false
+  },
+  "sourceOutcomesValidated": false
+}

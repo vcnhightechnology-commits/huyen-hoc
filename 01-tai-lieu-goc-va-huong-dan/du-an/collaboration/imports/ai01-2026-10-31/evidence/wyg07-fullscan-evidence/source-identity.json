@@ -1,0 +1,32 @@
+{
+  "schema": "hhc.wyg07.public-native-candidate-byte-audit.v1",
+  "sourceCount": 2,
+  "results": [
+    {
+      "id": "CADAL06066043",
+      "bytes": 9793070,
+      "sha1": "eeb9f80eb97fd385a580aa5bfda28c292aa7761c",
+      "sha256": "406704d9095a6bf3635a9557dfcd27a93e051fb4ebbffe1c252ddfe4294f1d1a",
+      "expectedPagesFromCommons": 198,
+      "originalSourceSHA1Verified": true,
+      "declaredFolioImageIdentityVerified": false,
+      "nativeFolioImagesActuallyRead": false,
+      "storedInTemporaryDestinationOnly": true
+    },
+    {
+      "id": "CADAL06056483",
+      "bytes": 10403483,
+      "sha1": "87834f5ff930189c57a5031af2dfa1e6a6a43676",
+      "sha256": "debf222f9448e447217d21e11f116c285eb3ab57debdcd2c6c5acf8af2b351bd",
+      "expectedPagesFromCommons": 206,
+      "originalSourceSHA1Verified": true,
+      "declaredFolioImageIdentityVerified": false,
+      "nativeFolioImagesActuallyRead": false,
+      "storedInTemporaryDestinationOnly": true
+    }
+  ],
+  "nativeFolio0074bPresenceDetermined": false,
+  "independentPrintedEditionsCount": 0,
+  "consumerChanged": false,
+  "engineCalls": 0
+}

@@ -1,0 +1,153 @@
+{
+  "schema": "hhc.bazi.branch-union.chapter.v1",
+  "chapter": "論支元六合",
+  "sourceDigital": {
+    "file": "v53/research/four-items/sources/KR3g0042_002.txt",
+    "bytes": 123566,
+    "sha256": "b0f9badc8aff64ee137392277eb2f7a428c39a9d8c9faa3154f79c626c2131b4"
+  },
+  "derivedLocator": {
+    "file": "tmp/bazi-branch-union-staging/DIGITAL_CHAPTER_LOCATOR.txt",
+    "bytes": 3688,
+    "sha256": "405090e722e64af8fc488e61a8740f0bd91763c86d3a7eaacbe3f49ee372907b"
+  },
+  "cleanFile": "CHAPTER_CLEAN.txt",
+  "cleanSHA256": "3d52dfaa2639b45a5b67734fef99832edf9bafd180c29862c57fba52c65c1265",
+  "cleanCodepoints": 1087,
+  "cleanUTF16Units": 1090,
+  "offsetBasis": "Unicode codepoints after removing pb tags, whitespace and ¶; no glyph normalization.",
+  "records": [
+    {
+      "id": "U01",
+      "startCodepoint": 0,
+      "endCodepointExclusive": 202,
+      "literalDigital": "論支元六合夫合者和也乃隂陽相和其氣自合子寅辰午申戍六者為陽丑卯巳未酉亥六者為隂是以一隂一陽和而謂之合子合丑寅合亥却不子合亥寅合丑夫何故造物中雖是隂陽為合氣數中要占陽氣為尊子為一陽丑為二陽一二成三數寅為三陽亥是六隂二六成九數卯為四陽戍是五隂四五得九數辰為五陽酉為四隂五四得九數已為六陽申為二隂六三得九數午為一隂未為二陽一二得三數子丑午未各得三者三生萬物餘皆得九者乃陽數極也當聞論甲乙者如何子與丑合皆莫知其故",
+      "disposition": "opening-numerical-explanation-not-modern-strength",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "U02",
+      "startCodepoint": 202,
+      "endCodepointExclusive": 289,
+      "literalDigital": "因偏覽羣書以觀大運乃知壬亥之間日月十二辰交㑹之所凡月之㑹朔日之璧於此位謂之㑹劣謂之集十二月之辰如𤣥枵星紀之類與之同在焉一嵗十二㑹太隂太陽隔液坎離之妙此生萬轉圖而放㑹合得可見也",
+      "disposition": "reported-astronomical-rationale-not-ephemeris",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "U03",
+      "startCodepoint": 289,
+      "endCodepointExclusive": 562,
+      "literalDigital": "十二月建丑是時𤣥枵同在壬亥之間以𤣥枵在子之辰此其所以為子丑之合正月建寅是時娵訾在壬亥之間以娵訾在亥之辰此其所以為寅亥之合二月建卯此時降婁在壬亥之間降婁戌故卯與戍合三月建辰此時大梁在壬亥之間大梁酉故辰與酉合四月建巳是時實沈在壬亥之間實沈申此巳與申合之數五月建午是時鶉首在壬亥之間鶉首在未六月建未是時鶉火在壬亥之間鶉火在午此午與未合之數七月建申是時鶉尾在壬亥之間鶉尾在巳故巳與申合八月建酉是時夀星在壬亥之間夀星辰故辰與酉合九月建戍是時大火在壬亥之間大火卯故卯與戍合十月建亥是時析木在壬亥之間析木寅故寅與亥合十一月建子是時星紀在壬亥之間星紀丑故子與丑合",
+      "disposition": "twelve-declared-month-coordinate-lookups",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "U04",
+      "startCodepoint": 562,
+      "endCodepointExclusive": 594,
+      "literalDigital": "得日月㑹同之數則其相合之用如日月彌漫六合矣人命逢六合造化豈不羙哉",
+      "disposition": "source-encomium-not-validated-outcome",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "U05",
+      "startCodepoint": 594,
+      "endCodepointExclusive": 794,
+      "literalDigital": "觀周禮春官之屬曰太師樂其所掌之職乃奏黄鍾歌大吕舞雲門以祭天神黄鍾子大吕丑取其子丑之合以召天地之和氣也奏太簇歌應鍾舞咸池以祀地祇太簇寅應鍾亥取其寅亥之合奏無射歌夾鍾舞大武以享祖先無射戍夾鍾卯取其卯戍之合奏姑洗歌南吕舞大罄以祀四望姑洗辰南吕酉取其酉辰之合奏夷則歌仲吕舞大濩以享先妣夷則申仲吕巳葢巳與申合奏㽔賔歌林鍾舞大夏以祀山川㽔賔午林鍾未葢午與未合成王周公之制作也因取乎律吕相合然後可格三才之體其理㣲哉",
+      "disposition": "nested-ritual-attribution-not-independently-acquired-source",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "U06",
+      "startCodepoint": 794,
+      "endCodepointExclusive": 878,
+      "literalDigital": "廣録云寅午往來有甲巳土氣子巳往來有戊癸火氣巳酉往來有丙辛水氣卯申往來有乙庚金氣亥午往來有丁壬木氣皆在禄上子巳午亥亦謂之隔六合葢一陽至六陽一隂至六隂更得天干納音有交涉尢吉",
+      "disposition": "reported-five-往來-pairs-and-隔六合-no-effective-transformation",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "U07",
+      "startCodepoint": 878,
+      "endCodepointExclusive": 911,
+      "literalDigital": "夫合有合禄合馬合貴之説珞琭子云是從無而立有謂見不見之形也從無立有喻",
+      "disposition": "three-labels-and-reported-珞琭子-maxim",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "U08",
+      "startCodepoint": 911,
+      "endCodepointExclusive": 929,
+      "literalDigital": "如甲生人以寅為禄不見寅而見亥謂之合禄",
+      "disposition": "selected-declared-absence-presence-pattern",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "U09",
+      "startCodepoint": 929,
+      "endCodepointExclusive": 946,
+      "literalDigital": "寅生人以申為馬不見申而見巳謂之合馬",
+      "disposition": "selected-declared-absence-presence-pattern",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "U10",
+      "startCodepoint": 946,
+      "endCodepointExclusive": 967,
+      "literalDigital": "甲戍庚人以丑未為貴不見丑未而見子午謂之合貴",
+      "disposition": "deferred-anchor-glyph-and-list-join",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "U11",
+      "startCodepoint": 967,
+      "endCodepointExclusive": 985,
+      "literalDigital": "經云明合不如暗合拱實不如拱虚此之謂也",
+      "disposition": "reported-maxim-no-measured-ordering",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "U12",
+      "startCodepoint": 985,
+      "endCodepointExclusive": 1052,
+      "literalDigital": "天元變化書云子合丑福輕丑合子福盛寅合亥福清亥合寅福慢戍合夘福虚卯合戌福厚辰合酉福弱酉合辰大利午合未福慢未合午大利巳合申福慢申合巳官氣盛",
+      "disposition": "twelve-directional-source-phrases-not-fortune-scores",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "U13",
+      "startCodepoint": 1052,
+      "endCodepointExclusive": 1075,
+      "literalDigital": "如甲午辛未只是身旺却命禄弱如乙未壬午雖禄弱粗得",
+      "disposition": "two-two-pillar-source-examples-no-complete-chart",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "U14",
+      "startCodepoint": 1075,
+      "endCodepointExclusive": 1087,
+      "literalDigital": "又曰男子忌合絶女人忌合貴",
+      "disposition": "historical-gender-claim-not-product-rule",
+      "wholeUnitApplied": false
+    }
+  ],
+  "firstPassChapterPositions": [
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199
+  ],
+  "outsideBoundaryViewed": [
+    191
+  ],
+  "adjacentDecodedNotRead": [
+    200,
+    201,
+    202
+  ],
+  "firstPassNotFullDiplomaticTranscription": true,
+  "wholeChapterApplied": false
+}

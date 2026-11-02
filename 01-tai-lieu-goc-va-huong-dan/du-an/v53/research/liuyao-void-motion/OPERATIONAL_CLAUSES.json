@@ -1,0 +1,506 @@
+{
+  "date": "2026-10-27",
+  "clauses": [
+    {
+      "id": "SPIRIT-QUALIFY",
+      "pdfPages": [
+        72,
+        73
+      ],
+      "boundedParaphrase": "六神屬附和，吉神不救已凶之卦、白虎等不毀已吉之卦；須兼五行/用神。",
+      "effectLabel": "spirits-not-independent-verdict",
+      "requiresAll": [],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "CLASH-USE",
+      "pdfPages": [
+        80,
+        83
+      ],
+      "boundedParaphrase": "六沖不是統一吉凶；沖散、所占情境和用神旺衰須分開。",
+      "effectLabel": "no-universal-clash-score",
+      "requiresAll": [],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "PUNISH-QUALIFY",
+      "pdfPages": [
+        83,
+        84
+      ],
+      "boundedParaphrase": "列三刑/自刑，但作者稱獨三刑驗者少，常兼用神休囚/他爻之克；不可僅刑即斷。",
+      "effectLabel": "punishment-not-independent-verdict",
+      "requiresAll": [],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "DARK-STRONG",
+      "pdfPages": [
+        84
+      ],
+      "boundedParaphrase": "靜爻旺相遇日沖為暗動；強弱是沖之前提。",
+      "effectLabel": "dark-movement",
+      "requiresAll": [
+        "static",
+        "strongBeforeDay",
+        "dayClash"
+      ],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "DARK-WEAK",
+      "pdfPages": [
+        84
+      ],
+      "boundedParaphrase": "靜爻休囚遇日沖為日破。",
+      "effectLabel": "day-break",
+      "requiresAll": [
+        "static",
+        "weakBeforeDay",
+        "dayClash"
+      ],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "DARK-ORIGIN",
+      "pdfPages": [
+        84
+      ],
+      "boundedParaphrase": "用休囚而元神暗動生用稱喜，忌神暗動傷用稱忌；不可暗動一律吉。",
+      "effectLabel": "role-dependent-effect",
+      "requiresAll": [],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "SCATTER-STRONG",
+      "pdfPages": [
+        85
+      ],
+      "boundedParaphrase": "旺相或有氣的動爻沖之不散；休囚沖散亦非每例。",
+      "effectLabel": "not-scattered-qualification",
+      "requiresAll": [
+        "moving",
+        "strongBeforeDay",
+        "dayClash"
+      ],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "SCATTER-WEAK",
+      "pdfPages": [
+        85
+      ],
+      "boundedParaphrase": "休囚動爻有沖散之例，作者說極少；若今日受制後逢值日可不散。",
+      "effectLabel": "scatter-possible-not-certain",
+      "requiresAll": [
+        "moving",
+        "weakBeforeDay",
+        "dayClash"
+      ],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "SCATTER-REBUTTAL",
+      "pdfPages": [
+        86
+      ],
+      "boundedParaphrase": "渙之坎例卯木動生世、化子回生；酉月沖之不即散；作者反對把空亡當重沖散。",
+      "effectLabel": "month-clash-not-day-scatter",
+      "requiresAll": [],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "TRIGRAM-RETURN",
+      "pdfPages": [
+        86,
+        87,
+        88
+      ],
+      "boundedParaphrase": "章24談卦變生克/墓絕而非僅單爻；另有回頭克主張，與爻層及子女象例分存。",
+      "effectLabel": "whole-trigram-framework-not-compiled",
+      "requiresAll": [],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "FAN-FU",
+      "pdfPages": [
+        88,
+        89,
+        90,
+        91,
+        92,
+        93
+      ],
+      "boundedParaphrase": "反吟可內外一側或兩側，伏吟亦然；用神旺衰/回頭沖克與問事不可略。",
+      "effectLabel": "fan-fu-not-universal-verdict",
+      "requiresAll": [],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "VOID-STRONG",
+      "pdfPages": [
+        93
+      ],
+      "boundedParaphrase": "旺不為空。保留後文旬內/出旬及大象限制。",
+      "effectLabel": "not-void-qualification",
+      "requiresAll": [
+        "rawVoid",
+        "strongBeforeDay"
+      ],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "VOID-MOVING",
+      "pdfPages": [
+        93
+      ],
+      "boundedParaphrase": "動不為空。不能據此抹去後文動化空和所占遠近。",
+      "effectLabel": "not-void-qualification",
+      "requiresAll": [
+        "rawVoid",
+        "moving"
+      ],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "VOID-SUPPORTED",
+      "pdfPages": [
+        93
+      ],
+      "boundedParaphrase": "有日建或動爻生扶亦不為空。",
+      "effectLabel": "not-void-qualification",
+      "requiresAll": [
+        "rawVoid",
+        "receivesDayOrMovingSupport"
+      ],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "VOID-CHANGED",
+      "pdfPages": [
+        93
+      ],
+      "boundedParaphrase": "動而化空列不為空；僅是作者限定命題，不免除變爻條件。",
+      "effectLabel": "changed-void-qualification",
+      "requiresAll": [
+        "moving",
+        "changedRawVoid"
+      ],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "VOID-HIDDEN-STRONG",
+      "pdfPages": [
+        93
+      ],
+      "boundedParaphrase": "伏而旺相皆不為空。",
+      "effectLabel": "not-void-qualification",
+      "requiresAll": [
+        "rawVoid",
+        "hidden",
+        "strongBeforeDay"
+      ],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "VOID-MONTH-BROKEN",
+      "pdfPages": [
+        93
+      ],
+      "boundedParaphrase": "月破為空。其後月破章又論動、值、合、出月的條件。",
+      "effectLabel": "adverse-void-qualification",
+      "requiresAll": [
+        "rawVoid",
+        "monthBroken"
+      ],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "VOID-QI-STATIC",
+      "pdfPages": [
+        93
+      ],
+      "boundedParaphrase": "本影印明讀有氣不動亦為空；不改成無氣，與旺不為空同存待條件釐清。",
+      "effectLabel": "literal-qualification-conflict-open",
+      "requiresAll": [
+        "rawVoid",
+        "hasQi",
+        "static"
+      ],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "VOID-HIDDEN-CONTROLLED",
+      "pdfPages": [
+        93
+      ],
+      "boundedParaphrase": "伏而被克亦為空。",
+      "effectLabel": "adverse-void-qualification",
+      "requiresAll": [
+        "rawVoid",
+        "hidden",
+        "controlled"
+      ],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "VOID-TRUE",
+      "pdfPages": [
+        93,
+        94
+      ],
+      "boundedParaphrase": "真空列春土夏金秋木冬火，隨即討論再占/大象與到底全空；不當作通用無條件演算。",
+      "effectLabel": "seasonal-true-void-not-compiled",
+      "requiresAll": [],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "VOID-HORIZON",
+      "pdfPages": [
+        96
+      ],
+      "boundedParaphrase": "近事旬內/遠事出旬要分；大象吉而未定應期仍可待出空，大象不吉不保出空即成。",
+      "effectLabel": "question-horizon-and-overall-chart-required",
+      "requiresAll": [],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "VOID-RECAST",
+      "pdfPages": [
+        94,
+        95,
+        96
+      ],
+      "boundedParaphrase": "作者以後占及多占合決，屬本書方法；未將選擇重占後結果當獨立預測驗證。",
+      "effectLabel": "historical-recasting-not-user-instruction",
+      "requiresAll": [],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "PHASE-FOUR",
+      "pdfPages": [
+        96,
+        97
+      ],
+      "boundedParaphrase": "作者僅取生旺墓絕，其餘階段稱不驗；不由此補全十二階段或實證斷言。",
+      "effectLabel": "four-coordinate-framework",
+      "requiresAll": [],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "PHASE-GOLD",
+      "pdfPages": [
+        98
+      ],
+      "boundedParaphrase": "金生巳須旺相/日月動爻生扶；休囚遇巳午火可論克而不論生。",
+      "effectLabel": "birth-requires-support",
+      "requiresAll": [
+        "metalTarget",
+        "weakBeforeDay",
+        "fireControls"
+      ],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "PHASE-EARTH",
+      "pdfPages": [
+        98
+      ],
+      "boundedParaphrase": "土絕巳須休囚無氣；旺土或日月動爻生扶遇巳火可論生而不論絕。",
+      "effectLabel": "extinction-qualified-by-strength",
+      "requiresAll": [
+        "earthTarget",
+        "strongBeforeDay",
+        "receivesDayOrMovingSupport"
+      ],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "PHASE-EARTH-FRAME",
+      "pdfPages": [
+        99
+      ],
+      "boundedParaphrase": "作者採土生申，與所引火土生寅分明；兩者不能混成同一無註明表。",
+      "effectLabel": "identified-transmission-frame",
+      "requiresAll": [],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "TOMB-THREE",
+      "pdfPages": [
+        100
+      ],
+      "boundedParaphrase": "日墓、動墓、動而化墓三類；主事爻是顯明對象，不取另算卦身。",
+      "effectLabel": "three-tomb-relations-only",
+      "requiresAll": [],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "TOMB-STRONG",
+      "pdfPages": [
+        101
+      ],
+      "boundedParaphrase": "太旺入墓喜沖開；弱者喜生旺。火爻墓戌待辰沖為例，非自動列某日事件。",
+      "effectLabel": "tomb-opening-needs-premises",
+      "requiresAll": [],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "COMBINATION-OPEN",
+      "pdfPages": [
+        101
+      ],
+      "boundedParaphrase": "日月/動/動化合有待沖開；同時要分吉凶和所占。",
+      "effectLabel": "combination-timing-not-prediction",
+      "requiresAll": [],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "TIMING-HORIZON",
+      "pdfPages": [
+        102
+      ],
+      "boundedParaphrase": "遠近應期有例外，不可定每遠事必年/月或每近事必日/時；不明可再占為本書主張。",
+      "effectLabel": "no-universal-time-unit-mapping",
+      "requiresAll": [],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "SOUL-USE",
+      "pdfPages": [
+        103
+      ],
+      "boundedParaphrase": "歸魂為各宮第八、遊魂為第七。作者仍要求用神為主，不可捨用神執魂名。",
+      "effectLabel": "soul-stage-no-forecast",
+      "requiresAll": [],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "MONTH-RAW",
+      "pdfPages": [
+        103,
+        104
+      ],
+      "boundedParaphrase": "月建所沖為月破，原表十二月逐支列明；日期月界未由此成立。",
+      "effectLabel": "raw-month-break-coordinate",
+      "requiresAll": [],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "MONTH-MOVING",
+      "pdfPages": [
+        104
+      ],
+      "boundedParaphrase": "作者說月破動可作用、變可傷動；目下雖破，出月/實破日/逢合有條件不破。",
+      "effectLabel": "moving-month-break-qualified",
+      "requiresAll": [
+        "monthBroken",
+        "moving"
+      ],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "MONTH-STATIC",
+      "pdfPages": [
+        104
+      ],
+      "boundedParaphrase": "惟靜不動又無日辰動爻生助，作者稱到底而破。",
+      "effectLabel": "terminal-break-claim-premises",
+      "requiresAll": [
+        "monthBroken",
+        "static",
+        "noDayOrMovingSupport"
+      ],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "MONTH-OLD-OPINION",
+      "pdfPages": [
+        104,
+        105
+      ],
+      "boundedParaphrase": "所引諸書以月破無用，野鶴反對；保留引文/作者立場，不能合成單一規則。",
+      "effectLabel": "quoted-opponent-vs-author",
+      "requiresAll": [],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    },
+    {
+      "id": "MONTH-ANNUAL",
+      "pdfPages": [
+        106,
+        107,
+        108
+      ],
+      "boundedParaphrase": "長期例涉及太歲、出空、合值、入墓，不能把月破坐標直接換成職業或疾病結果。",
+      "effectLabel": "long-horizon-uncompiled-conditions",
+      "requiresAll": [],
+      "application": "premise matching only;no forecast or global precedence inferred",
+      "consumerApplied": false
+    }
+  ],
+  "explicitBooleanPremises": [
+    "changedRawVoid",
+    "controlled",
+    "dayClash",
+    "earthTarget",
+    "fireControls",
+    "hasQi",
+    "hidden",
+    "metalTarget",
+    "monthBroken",
+    "moving",
+    "noDayOrMovingSupport",
+    "rawVoid",
+    "receivesDayOrMovingSupport",
+    "static",
+    "strongBeforeDay",
+    "weakBeforeDay"
+  ],
+  "matchingSemantics": "Only requiresAll clauses evaluate three-valued premise presence. True means inputs supplied satisfy listed conjunction,not verified causal effect. Empty requiresAll remains narrative-not-compiled.",
+  "conflictPolicy": "Keep opposing/overlapping source qualifications together;no winner,global precedence or score fabricated.",
+  "notEstablished": [
+    "Fullstrengthclassifier",
+    "Completefunctionalvoid/truevoidadjudication",
+    "Fire旺/絕coordinatesfromthisspan",
+    "Gregorianmonth/dayboundaryadapter",
+    "FanFucompletecompiler",
+    "Anecdoteoutcomesverified",
+    "IndependentwitnessforPDF52dateconflict"
+  ]
+}

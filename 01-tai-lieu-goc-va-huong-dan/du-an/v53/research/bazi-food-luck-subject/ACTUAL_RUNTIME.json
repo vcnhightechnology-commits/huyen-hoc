@@ -1,0 +1,72 @@
+{
+  "executedUTC": "2026-10-29T16:41:11.142Z",
+  "libraryFile": "v46/node_modules/lunar-typescript/dist/index.cjs",
+  "librarySHA256": "76e490b74e9913ed94b49689b90abc688ed1e2b11456312b3eb081ec63cf2fbe",
+  "scriptSHA256": "b072201cfe20dd156dad14a39fc0d2fc9d9b9db719cf4c1311e27b3c36fb8dbc",
+  "freezeSHA256": "44a158b76f7b974a97e9311c6476c417549b72a0cdf876e1e9bca8ef0473c2c8",
+  "method": "Actual exported EightChar.getDiShi called4times on explicitly declared stem carriers and branch indices; no calendar date or natal instance. Reuse2recorded coordinates rather than reexecute.",
+  "rows": [
+    {
+      "id": "ren-you",
+      "stem": "壬",
+      "branch": "酉",
+      "expectedLunar": "沐浴",
+      "sourceStatus": "explicit-subject;named-lexical-alias-comparison",
+      "actual": "沐浴",
+      "newCall": true
+    },
+    {
+      "id": "jia-zi",
+      "stem": "甲",
+      "branch": "子",
+      "expectedLunar": "沐浴",
+      "sourceStatus": "explicit-subject;named-lexical-alias-comparison",
+      "actual": "沐浴",
+      "newCall": true
+    },
+    {
+      "id": "jia-chou",
+      "stem": "甲",
+      "branch": "丑",
+      "expectedLunar": "冠带",
+      "sourceStatus": "explicit-subject-and-context-branch",
+      "actual": "冠带",
+      "newCall": true
+    },
+    {
+      "id": "alternative-geng-shen",
+      "stem": "庚",
+      "branch": "申",
+      "expectedLunar": "临官",
+      "sourceStatus": "editorial-alternative-query;not-source-assertion",
+      "actual": "临官",
+      "newCall": true
+    }
+  ],
+  "reused": [
+    {
+      "id": "possible-ren-shen",
+      "stem": "壬",
+      "branch": "申",
+      "expectedLunar": "长生",
+      "sourceStatus": "editorial-possible-implicit-subject;not-grammatical-resolution",
+      "actual": "长生",
+      "newCall": false
+    },
+    {
+      "id": "geng-zi",
+      "stem": "庚",
+      "branch": "子",
+      "expectedLunar": "死",
+      "sourceStatus": "explicit-source-subject",
+      "actual": "死",
+      "newCall": false
+    }
+  ],
+  "actualNewCoordinateCalls": 4,
+  "actualReusedCoordinateCalls": 2,
+  "actualCalendarObjects": 0,
+  "actualNatalCharts": 0,
+  "implicitSourceSubjectResolved": false,
+  "sourceEfficacyValidated": false
+}

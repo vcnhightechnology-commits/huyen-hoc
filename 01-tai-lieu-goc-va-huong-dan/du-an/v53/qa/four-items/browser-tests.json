@@ -1,0 +1,263 @@
+{
+  "date": "2026-10-26T06:26:42.069Z",
+  "checks": [
+    {
+      "name": "Vận hạn is discoverable directly below the natal reading",
+      "ok": true
+    },
+    {
+      "name": "A shortcut at the top of the result focuses the period date field",
+      "ok": true
+    },
+    {
+      "name": "No reference date or period is fabricated before a user chooses it",
+      "ok": true
+    },
+    {
+      "name": "Chosen date produces three period cards with lunar year and nominal age",
+      "ok": true
+    },
+    {
+      "name": "Year transformations and all 12 decade ranges are available as readable details",
+      "ok": true
+    },
+    {
+      "name": "TXT contains the chosen date, age and actual period reading",
+      "ok": true
+    },
+    {
+      "name": "Editing target date clears old period output and saved selection",
+      "ok": true
+    },
+    {
+      "name": "Day before lunar New Year uses the preceding year and age",
+      "ok": true
+    },
+    {
+      "name": "A target before birth is visibly rejected and leaves no stale result",
+      "ok": true
+    },
+    {
+      "name": "Opening a saved natal profile recomputes the saved period from its selected date",
+      "ok": true
+    },
+    {
+      "name": "Changing natal birth data invalidates the entire old period output",
+      "ok": true
+    },
+    {
+      "name": "Before first decade the period card states it has not started",
+      "ok": true
+    },
+    {
+      "name": "Bazi exposes visible stems and full branch hidden stems in four columns",
+      "ok": true
+    },
+    {
+      "name": "Relation meanings explain their element/polarity relationship without strength diagnosis",
+      "ok": true
+    },
+    {
+      "name": "Bazi TXT includes branch hidden stems and clearly labeled relationships",
+      "ok": true
+    },
+    {
+      "name": "Unknown stable birth hour does not create hour hidden stems",
+      "ok": true
+    },
+    {
+      "name": "Unknown-hour boundary ambiguity suppresses relationship readings",
+      "ok": true
+    },
+    {
+      "name": "Degree-based direction tool is available alongside age-based directions",
+      "ok": true
+    },
+    {
+      "name": "A measurement crossing the sector edge keeps both direction candidates",
+      "ok": true
+    },
+    {
+      "name": "Magnetic north requires an explicit declination input",
+      "ok": true
+    },
+    {
+      "name": "East-positive declination is added to magnetic bearing and wraps to true north",
+      "ok": true
+    },
+    {
+      "name": "Restored direction profile retains measurement object, north reference and declination",
+      "ok": true
+    },
+    {
+      "name": "Direction TXT records the measured object and interpreted true bearing",
+      "ok": true
+    },
+    {
+      "name": "Hexagram 3: its first moving line has distinct source-based reading",
+      "ok": true
+    },
+    {
+      "name": "Hexagram 25: its first moving line has distinct source-based reading",
+      "ok": true
+    },
+    {
+      "name": "Hexagram 38: its first moving line has distinct source-based reading",
+      "ok": true
+    },
+    {
+      "name": "Hexagram 54: its first moving line has distinct source-based reading",
+      "ok": true
+    },
+    {
+      "name": "Hexagram 64: its first moving line has distinct source-based reading",
+      "ok": true
+    },
+    {
+      "name": "New line readings export their specific motif and practical prompt",
+      "ok": true
+    },
+    {
+      "name": "320px yi: extended reading fits viewport",
+      "ok": true,
+      "detail": {
+        "page": 320,
+        "width": 320
+      }
+    },
+    {
+      "name": "320px bazi: extended reading fits viewport",
+      "ok": true,
+      "detail": {
+        "page": 320,
+        "width": 320
+      }
+    },
+    {
+      "name": "320px directions: extended reading fits viewport",
+      "ok": true,
+      "detail": {
+        "page": 320,
+        "width": 320
+      }
+    },
+    {
+      "name": "320px tuvi: extended reading fits viewport",
+      "ok": true,
+      "detail": {
+        "page": 320,
+        "width": 320
+      }
+    },
+    {
+      "name": "390px yi: extended reading fits viewport",
+      "ok": true,
+      "detail": {
+        "page": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "390px bazi: extended reading fits viewport",
+      "ok": true,
+      "detail": {
+        "page": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "390px directions: extended reading fits viewport",
+      "ok": true,
+      "detail": {
+        "page": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "390px tuvi: extended reading fits viewport",
+      "ok": true,
+      "detail": {
+        "page": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "768px yi: extended reading fits viewport",
+      "ok": true,
+      "detail": {
+        "page": 768,
+        "width": 768
+      }
+    },
+    {
+      "name": "768px bazi: extended reading fits viewport",
+      "ok": true,
+      "detail": {
+        "page": 768,
+        "width": 768
+      }
+    },
+    {
+      "name": "768px directions: extended reading fits viewport",
+      "ok": true,
+      "detail": {
+        "page": 768,
+        "width": 768
+      }
+    },
+    {
+      "name": "768px tuvi: extended reading fits viewport",
+      "ok": true,
+      "detail": {
+        "page": 768,
+        "width": 768
+      }
+    },
+    {
+      "name": "1440px yi: extended reading fits viewport",
+      "ok": true,
+      "detail": {
+        "page": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "name": "1440px bazi: extended reading fits viewport",
+      "ok": true,
+      "detail": {
+        "page": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "name": "1440px directions: extended reading fits viewport",
+      "ok": true,
+      "detail": {
+        "page": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "name": "1440px tuvi: extended reading fits viewport",
+      "ok": true,
+      "detail": {
+        "page": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "name": "Print includes selected period but hides date input and form",
+      "ok": true
+    },
+    {
+      "name": "No JavaScript errors, HTTP requests or private source panels in the standalone product",
+      "ok": true,
+      "detail": {
+        "errors": [],
+        "requests": []
+      }
+    }
+  ],
+  "errors": [],
+  "requests": []
+}

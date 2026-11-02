@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-28",
+  "records": [
+    {
+      "file": "v53/scripts/verify-bazi-food-six-pillars-sources.py",
+      "beforeFile": "BEFORE_verify-bazi-food-six-pillars-sources.py",
+      "beforeBytes": 5886,
+      "beforeSHA256": "495603661edd12749287f1f28ffacba7401ced96a001b9515fa87899a58bd425",
+      "afterFile": "AFTER_verify-bazi-food-six-pillars-sources.py",
+      "afterBytes": 5902,
+      "afterSHA256": "5b86351aca5aeb9f55502f42589756cc103efc959a5213a0bf175fa88810a844",
+      "changedImageDifferenceCalls": 1,
+      "changeKind": "Explicitallchannelbbox;onlygetbboxkeywordargumentchanged."
+    },
+    {
+      "file": "v53/scripts/verify-liuyao-b03-triad-clause-sources.py",
+      "beforeFile": "BEFORE_verify-liuyao-b03-triad-clause-sources.py",
+      "beforeBytes": 6748,
+      "beforeSHA256": "672159d25e3d798ce30159c83c3513e3adc4e1404be3640571d2540116ec68ac",
+      "afterFile": "AFTER_verify-liuyao-b03-triad-clause-sources.py",
+      "afterBytes": 6780,
+      "afterSHA256": "3415b2c4a20a4d112ba99dcc8e88ac8b5fdd8e1d8919ed7b6bdaaf48c2d921fd",
+      "changedImageDifferenceCalls": 2,
+      "changeKind": "Explicitallchannelbbox;onlygetbboxkeywordargumentchanged."
+    }
+  ],
+  "consumerChanged": false,
+  "sourceImagesChanged": false,
+  "engineCallsRequired": 0
+}

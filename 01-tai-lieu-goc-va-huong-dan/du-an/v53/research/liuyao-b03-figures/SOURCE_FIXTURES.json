@@ -1,0 +1,164 @@
+{
+  "date": "2026-10-27",
+  "hiddenCases": [
+    {
+      "id": "ge-wealth",
+      "pdfPage": 39,
+      "number": 49,
+      "desiredKin": "妻財",
+      "line": 3,
+      "branch": "午",
+      "flyingBranch": "亥",
+      "relation": "flying-controls-hidden"
+    },
+    {
+      "id": "lu-wealth",
+      "pdfPage": 42,
+      "number": 10,
+      "desiredKin": "妻財",
+      "line": 5,
+      "branch": "子",
+      "flyingBranch": "申",
+      "relation": "flying-generates-hidden"
+    },
+    {
+      "id": "jian-wealth",
+      "pdfPage": 43,
+      "number": 53,
+      "desiredKin": "妻財",
+      "line": 5,
+      "branch": "子",
+      "flyingBranch": "巳",
+      "relation": "hidden-controls-flying"
+    },
+    {
+      "id": "sheng-child",
+      "pdfPage": 45,
+      "number": 46,
+      "desiredKin": "子孫",
+      "line": 4,
+      "branch": "午",
+      "flyingBranch": "丑",
+      "relation": "hidden-generates-flying"
+    },
+    {
+      "id": "jiaren-officer",
+      "pdfPage": 48,
+      "number": 37,
+      "desiredKin": "官鬼",
+      "line": 3,
+      "branch": "酉",
+      "flyingBranch": "亥",
+      "relation": "hidden-generates-flying"
+    },
+    {
+      "id": "yi-child",
+      "pdfPage": 49,
+      "number": 27,
+      "desiredKin": "子孫",
+      "line": 5,
+      "branch": "巳",
+      "flyingBranch": "子",
+      "relation": "flying-controls-hidden"
+    },
+    {
+      "id": "ding-parent",
+      "pdfPage": 51,
+      "number": 50,
+      "desiredKin": "父母",
+      "line": 1,
+      "branch": "卯",
+      "flyingBranch": "丑",
+      "relation": "hidden-controls-flying"
+    },
+    {
+      "id": "meng-wealth",
+      "pdfPage": 52,
+      "number": 4,
+      "desiredKin": "妻財",
+      "line": 4,
+      "branch": "酉",
+      "flyingBranch": "戌",
+      "relation": "flying-generates-hidden"
+    },
+    {
+      "id": "song-officer",
+      "pdfPage": 53,
+      "number": 6,
+      "desiredKin": "官鬼",
+      "line": 3,
+      "branch": "亥",
+      "flyingBranch": "午",
+      "relation": "hidden-controls-flying"
+    },
+    {
+      "id": "fu-parent",
+      "pdfPage": 54,
+      "number": 24,
+      "desiredKin": "父母",
+      "line": 2,
+      "branch": "巳",
+      "flyingBranch": "寅",
+      "relation": "flying-generates-hidden"
+    },
+    {
+      "id": "xian-wealth",
+      "pdfPage": 57,
+      "number": 31,
+      "desiredKin": "妻財",
+      "line": 2,
+      "branch": "卯",
+      "flyingBranch": "午",
+      "relation": "hidden-generates-flying"
+    },
+    {
+      "id": "xiaoguo-child",
+      "pdfPage": 58,
+      "number": 62,
+      "desiredKin": "子孫",
+      "line": 4,
+      "branch": "亥",
+      "flyingBranch": "午",
+      "relation": "hidden-controls-flying"
+    },
+    {
+      "id": "guimei-child",
+      "pdfPage": 59,
+      "number": 54,
+      "desiredKin": "子孫",
+      "line": 4,
+      "branch": "亥",
+      "flyingBranch": "午",
+      "relation": "hidden-controls-flying"
+    }
+  ],
+  "changedAvailabilityCase": {
+    "id": "dun-to-tongren-prefers-shown-wealth",
+    "pdfPage": 59,
+    "values": [
+      6,
+      8,
+      7,
+      7,
+      7,
+      7
+    ],
+    "number": 33,
+    "changedNumber": 13,
+    "desiredKin": "妻財",
+    "originalLine1": {
+      "branch": "辰",
+      "kin": "父母"
+    },
+    "changedLine1": {
+      "branch": "卯",
+      "kin": "妻財"
+    },
+    "purePalaceHiddenWealth": {
+      "line": 2,
+      "branch": "寅"
+    },
+    "meaning": "Sourceexplicitlyuseschanged卯wealthratherthanhidden寅inthiscase. Notpermissiontoinferallprioritybetweenmultipleprimary/changedlines."
+  },
+  "noHistoricalOutcomeValidation": true
+}

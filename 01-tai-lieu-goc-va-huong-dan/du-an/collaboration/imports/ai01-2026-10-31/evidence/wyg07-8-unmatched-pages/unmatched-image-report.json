@@ -1,0 +1,122 @@
+{
+  "schema": "hhc.wyg07.unmatched-image-source-audit.v1",
+  "passed": true,
+  "sourceFilesSHA1Verified": 2,
+  "nativeImagesRendered": 12,
+  "sources": [
+    {
+      "id": "CADAL06066043",
+      "originalSHA256": "406704d9095a6bf3635a9557dfcd27a93e051fb4ebbffe1c252ddfe4294f1d1a",
+      "pageCount": 198,
+      "images": [
+        {
+          "containerPage": 112,
+          "sha256": "43d5a829671a42df0ea69434777c8f63710b2a0a0b58fcf3d6f7e9d0d47d7115",
+          "width": 2317,
+          "height": 3158,
+          "imageHasUniqueMainTextVerified": false,
+          "printedFolioVerified": false
+        },
+        {
+          "containerPage": 113,
+          "sha256": "e2aaff0452fccf0d4ec974ec91d8cf7ef4558795b594d8b0edc434dcb308ead1",
+          "width": 2353,
+          "height": 3140,
+          "imageHasUniqueMainTextVerified": false,
+          "printedFolioVerified": false
+        },
+        {
+          "containerPage": 124,
+          "sha256": "4628d0ba6ff1cfe6013401ca75cab9c575510badbb3e2c216b029c20346eeb17",
+          "width": 2318,
+          "height": 3113,
+          "imageHasUniqueMainTextVerified": false,
+          "printedFolioVerified": false
+        },
+        {
+          "containerPage": 125,
+          "sha256": "7ec5abff2cc00b1f59d7e23bcfac57ed4f9ff1cc9dcf01ff47a779b740146e3f",
+          "width": 2336,
+          "height": 3106,
+          "imageHasUniqueMainTextVerified": false,
+          "printedFolioVerified": false
+        }
+      ]
+    },
+    {
+      "id": "CADAL06056483",
+      "originalSHA256": "debf222f9448e447217d21e11f116c285eb3ab57debdcd2c6c5acf8af2b351bd",
+      "pageCount": 206,
+      "images": [
+        {
+          "containerPage": 113,
+          "sha256": "4349dbc35b966178021b3d900859085cc2935ff403d0f5f7767bee865c1891ed",
+          "width": 2407,
+          "height": 3265,
+          "imageHasUniqueMainTextVerified": false,
+          "printedFolioVerified": false
+        },
+        {
+          "containerPage": 114,
+          "sha256": "22b8e555593ae4a20ccb23ba731368868df6568e357eef5b885fa1c972dd6daf",
+          "width": 2443,
+          "height": 3284,
+          "imageHasUniqueMainTextVerified": false,
+          "printedFolioVerified": false
+        },
+        {
+          "containerPage": 115,
+          "sha256": "e0beef924f216546a76b14232ee6dcf4652024f0a70b38d63044ef86b829a983",
+          "width": 2409,
+          "height": 3280,
+          "imageHasUniqueMainTextVerified": false,
+          "printedFolioVerified": false
+        },
+        {
+          "containerPage": 116,
+          "sha256": "4829949f0a4b3bae5e8d7a915801bbf2ca2ddece2e3a14e813863a9e9651e79f",
+          "width": 2442,
+          "height": 3283,
+          "imageHasUniqueMainTextVerified": false,
+          "printedFolioVerified": false
+        },
+        {
+          "containerPage": 129,
+          "sha256": "9219f73b2fcf05f705a63778298ce5d19ff261afcd015d632a2a4f729bff079e",
+          "width": 2426,
+          "height": 3239,
+          "imageHasUniqueMainTextVerified": false,
+          "printedFolioVerified": false
+        },
+        {
+          "containerPage": 130,
+          "sha256": "d3f25a20e0cb6cef24705166af35d03a284cb2ec31784c7817fbb34604bf2855",
+          "width": 2410,
+          "height": 3243,
+          "imageHasUniqueMainTextVerified": false,
+          "printedFolioVerified": false
+        },
+        {
+          "containerPage": 131,
+          "sha256": "9b4b2ec4656c500beb7883e64e62f6939d712511d2d949e7a8c8e4e531520579",
+          "width": 2457,
+          "height": 3257,
+          "imageHasUniqueMainTextVerified": false,
+          "printedFolioVerified": false
+        },
+        {
+          "containerPage": 132,
+          "sha256": "db5b84a8b2c149bb754a8b751d97911f537296ac68819c16531f74c25ff45b14",
+          "width": 2391,
+          "height": 3265,
+          "imageHasUniqueMainTextVerified": false,
+          "printedFolioVerified": false
+        }
+      ]
+    }
+  ],
+  "eightLongOnlyFacesHaveUniqueMainTextVerified": false,
+  "physicalPageLossProven": false,
+  "consumerChanged": false,
+  "engineCalls": 0
+}

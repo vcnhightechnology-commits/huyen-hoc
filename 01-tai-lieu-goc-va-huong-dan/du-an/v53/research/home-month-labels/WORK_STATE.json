@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-29",
+  "status": "six-blocks720positions-checked;500readable220unresolved;ready-internal-promotion",
+  "catalogueID": "P08",
+  "sourcePagesReexamined": [
+    131,
+    132,
+    133,
+    134
+  ],
+  "newHTTPBodies": 0,
+  "newSourcePositions": 0,
+  "newEngineCalls": 0,
+  "sourceCellsInspected": 720,
+  "readableCellLabels": 500,
+  "unresolvedCellLabels": 220,
+  "otherCellsUntranscribed": 0,
+  "nativeCropsRGBMatched": 11,
+  "sourceVerification": "SOURCE_RESULTS.json",
+  "referenceResults": "TEST_RESULTS.json",
+  "unknownGlyphStillUnresolved": true,
+  "newAcceptedIndependentWitnesses": 0,
+  "full720CellLabelsTranscribed": false,
+  "calendarMonthBoundaryEstablished": false,
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false,
+  "provenanceCaveat": "SECOND_BLOCK_FREEZE recorded after module edit, before first successful execution; not claimed blind before implementation.",
+  "next": [
+    "Find legitimate facsimile context/witnesses for220unresolved cell labels without guessing repeated values or substitutingOCR.",
+    "Keep source month basis/leap/seasonal/calendar adapter and joint source priority open.",
+    "Promote private source-coordinate lookup and uncertainty data; no consumer recommendation or new calendarcalls."
+  ],
+  "remainingBlocks": [
+    {
+      "file": "132-third-ten.png",
+      "page": 132,
+      "panel": "left",
+      "days": "甲申乙酉丙戌丁亥戊子己丑庚寅辛卯壬辰癸巳"
+    },
+    {
+      "file": "133-fourth-ten.png",
+      "page": 133,
+      "panel": "right",
+      "days": "甲午乙未丙申丁酉戊戌己亥庚子辛丑壬寅癸卯"
+    },
+    {
+      "file": "133-fifth-ten.png",
+      "page": 133,
+      "panel": "left",
+      "days": "甲辰乙巳丙午丁未戊申己酉庚戌辛亥壬子癸丑"
+    },
+    {
+      "file": "134-sixth-ten.png",
+      "page": 134,
+      "panel": "right",
+      "days": "甲寅乙卯丙辰丁巳戊午己未庚申辛酉壬戌癸亥"
+    }
+  ],
+  "sixthCropMarginCorrection": "SIXTH_CROP_MARGIN_AUDIT.json"
+}

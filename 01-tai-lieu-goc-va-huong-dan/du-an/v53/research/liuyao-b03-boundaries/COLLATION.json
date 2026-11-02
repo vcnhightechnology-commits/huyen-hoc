@@ -1,0 +1,134 @@
+{
+  "date": "2026-10-27",
+  "sourceID": "B03",
+  "comparisons": [
+    {
+      "id": "six-xun",
+      "B03PDFPage": 33,
+      "B02PDFPage": 93,
+      "literalRows": [
+        {
+          "xunHead": "甲子",
+          "voidBranches": [
+            "戌",
+            "亥"
+          ]
+        },
+        {
+          "xunHead": "甲戌",
+          "voidBranches": [
+            "申",
+            "酉"
+          ]
+        },
+        {
+          "xunHead": "甲申",
+          "voidBranches": [
+            "午",
+            "未"
+          ]
+        },
+        {
+          "xunHead": "甲午",
+          "voidBranches": [
+            "辰",
+            "巳"
+          ]
+        },
+        {
+          "xunHead": "甲辰",
+          "voidBranches": [
+            "寅",
+            "卯"
+          ]
+        },
+        {
+          "xunHead": "甲寅",
+          "voidBranches": [
+            "子",
+            "丑"
+          ]
+        }
+      ],
+      "finding": "sixcoordinatesagree;B03textalsoexplains甲子..癸酉ten-daycycle. DoesnotindependentlyverifyGregoriandayepoch."
+    },
+    {
+      "id": "moving-void",
+      "B03PDFPages": [
+        29,
+        30
+      ],
+      "B02PDFPages": [
+        93,
+        94,
+        95,
+        96
+      ],
+      "literalAnchors": [
+        "發動逢沖不謂空",
+        "靜空遇剋卻為空",
+        "忌神最喜逢空吉",
+        "用與原神不可空"
+      ],
+      "finding": "Namedactor/motion/control/horizonconditionsmuststayseparate;not universaldirectbooleanvoid. No silentmergewithB02有氣不動亦為空."
+    },
+    {
+      "id": "moving-use",
+      "B03PDFPage": 30,
+      "literalAnchors": [
+        "用爻發動在宮中",
+        "縱值休囚亦不凶",
+        "更得生扶兼旺相"
+      ],
+      "finding": "Preservesomeverseclaimsasconditionalnarrative;notan automaticreal-worldverdictfrommovingflag."
+    },
+    {
+      "id": "spirits-condition",
+      "B03PDFPages": [
+        31,
+        32
+      ],
+      "B02PDFPages": [
+        72,
+        73
+      ],
+      "finding": "B03六獸歌斷and日月建傳符retainmanyimages;B02explicitlywarnsagainstindependent六神judgment. Identifiedtextscope,notfalseuniversalconsensus."
+    },
+    {
+      "id": "hidden-structure",
+      "B03PDFPages": [
+        34,
+        35,
+        36,
+        37,
+        38
+      ],
+      "B02PDFPages": [
+        108,
+        109,
+        110,
+        111,
+        112,
+        113,
+        114,
+        115,
+        116
+      ],
+      "finding": "Pure-palacehiddenpositionsagreeonselected乾palacecases. Usefulness/timing/spirit/卦身claimsnotfullycollated;B03prints卦身whereB02rejectsit."
+    },
+    {
+      "id": "earth-phase",
+      "B03PDFPage": 23,
+      "B02PDFPages": [
+        97,
+        98,
+        99
+      ],
+      "finding": "B03handdiagramlabels水土長生;onlyboundeddiagramview,notnew12stagealgorithm. KeepB02identifiedearthwaterframeandunknownfireslotsunchanged."
+    }
+  ],
+  "fullVerseApplication": false,
+  "fullBookApplication": false,
+  "fullTransmissionAgreement": false,
+  "empiricalPredictionValidation": false
+}

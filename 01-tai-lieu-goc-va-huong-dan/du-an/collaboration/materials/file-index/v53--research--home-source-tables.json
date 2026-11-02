@@ -1,0 +1,953 @@
+{
+  "scope": "v53/research/home-source-tables",
+  "files": [
+    {
+      "file": "v53/research/home-source-tables/CURRENT_VOLUME_UNITS.json",
+      "bytes": 6821,
+      "sha256": "6beaf3cf9ba064c88755016e419032d2a66939c8d7e6e6ccd73f93473f7e8309",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6beaf3cf9ba064c88755016e419032d2a66939c8d7e6e6ccd73f93473f7e8309",
+      "httpRange": {
+        "offset": 263035923,
+        "compressedBytes": 2353,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/FIGURE_NAMES.json",
+      "bytes": 2862,
+      "sha256": "017686983ed54225f8620b21ac25f45c9751d55a16077921ebbd854aca6c46f0",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/017686983ed54225f8620b21ac25f45c9751d55a16077921ebbd854aca6c46f0",
+      "httpRange": {
+        "offset": 26693161,
+        "compressedBytes": 1028,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/MANUAL_FIGURES.json",
+      "bytes": 87949,
+      "sha256": "22acc86c1778cc114167e07a4e3fb00edf4bb961e354c92a8417c8deb36f9f7f",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/22acc86c1778cc114167e07a4e3fb00edf4bb961e354c92a8417c8deb36f9f7f",
+      "httpRange": {
+        "offset": 93820001,
+        "compressedBytes": 11570,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/MANUAL_READINGS.json",
+      "bytes": 5032,
+      "sha256": "91f37dbea5df1713f268268da004cecdbab045c20effba0ac7f6725f629cbc58",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/91f37dbea5df1713f268268da004cecdbab045c20effba0ac7f6725f629cbc58",
+      "httpRange": {
+        "offset": 315876887,
+        "compressedBytes": 1455,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/OVERCOMING_RULE.json",
+      "bytes": 2976,
+      "sha256": "fef6d79e7d6dd04d80155162960cc2164a2da642692455a7ce54b05b47714c96",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/fef6d79e7d6dd04d80155162960cc2164a2da642692455a7ce54b05b47714c96",
+      "httpRange": {
+        "offset": 308859681,
+        "compressedBytes": 929,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/PRIOR_NAME_PROBE.json",
+      "bytes": 19826,
+      "sha256": "ff9adbb0658a6e2e3e4b71932aa848008297ee7362ad8265e449cecfb3b2bb00",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ff9adbb0658a6e2e3e4b71932aa848008297ee7362ad8265e449cecfb3b2bb00",
+      "httpRange": {
+        "offset": 312708012,
+        "compressedBytes": 3009,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/PRIOR_TOMB_PROBE.json",
+      "bytes": 6883,
+      "sha256": "d6faedc6c73684755b488e8249d2940abdbe7341aa48183dbd1ec8de3e4e9c11",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d6faedc6c73684755b488e8249d2940abdbe7341aa48183dbd1ec8de3e4e9c11",
+      "httpRange": {
+        "offset": 160288249,
+        "compressedBytes": 1012,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/TOMB_MOVEMENT_ROWS.json",
+      "bytes": 6866,
+      "sha256": "5d097eadf76d5d8512a3e7371d9e7ba325e13afec3136556e735ee3be2d4883a",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5d097eadf76d5d8512a3e7371d9e7ba325e13afec3136556e735ee3be2d4883a",
+      "httpRange": {
+        "offset": 266541172,
+        "compressedBytes": 1639,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/WORK_STATE.json",
+      "bytes": 3160,
+      "sha256": "1df57fe76d4104cd63ee8c585d508e72745f10141f4e6604d53e671abcd78ba9",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/1df57fe76d4104cd63ee8c585d508e72745f10141f4e6604d53e671abcd78ba9",
+      "httpRange": {
+        "offset": 57294998,
+        "compressedBytes": 1833,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/eight-palace-reference.mjs",
+      "bytes": 1912,
+      "sha256": "d1b545ab2a07edb2ae445ea83123ab4c433f58168ac4eac9987830ff57bc3703",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d1b545ab2a07edb2ae445ea83123ab4c433f58168ac4eac9987830ff57bc3703",
+      "httpRange": {
+        "offset": 110076792,
+        "compressedBytes": 959,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures-107-sheet.png",
+      "bytes": 52992,
+      "sha256": "1f6ce024b010080144d2f7af1d58365861f3d802942b9e227fd3e553a5487849",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/1f6ce024b010080144d2f7af1d58365861f3d802942b9e227fd3e553a5487849",
+      "httpRange": {
+        "offset": 73125939,
+        "compressedBytes": 47891,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures-108-sheet.png",
+      "bytes": 82320,
+      "sha256": "7c09968eeb950233fe322b69d306be03927ac36f002a150b434003e0527374df",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7c09968eeb950233fe322b69d306be03927ac36f002a150b434003e0527374df",
+      "httpRange": {
+        "offset": 44720438,
+        "compressedBytes": 77385,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-乾-0.png",
+      "bytes": 1899,
+      "sha256": "64e462330845b0a72fed30fb0aa77f369884181d3f1c32435f732703c36befe3",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/64e462330845b0a72fed30fb0aa77f369884181d3f1c32435f732703c36befe3",
+      "httpRange": {
+        "offset": 99192962,
+        "compressedBytes": 1784,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-乾-1.png",
+      "bytes": 1968,
+      "sha256": "89ace6ca9d782caf290218a39dac84b1968563ac0a24fa998c802807c0803366",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/89ace6ca9d782caf290218a39dac84b1968563ac0a24fa998c802807c0803366",
+      "httpRange": {
+        "offset": 248261481,
+        "compressedBytes": 1869,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-乾-2.png",
+      "bytes": 1896,
+      "sha256": "e7272d0289f2569ff1f6b783554d0de6c6944de24e2455b4714873668ee73721",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e7272d0289f2569ff1f6b783554d0de6c6944de24e2455b4714873668ee73721",
+      "httpRange": {
+        "offset": 377696094,
+        "compressedBytes": 1809,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-乾-3.png",
+      "bytes": 1894,
+      "sha256": "40b51d1748415052857e4302a5444615bb1927eff499cf009509219d6747218d",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/40b51d1748415052857e4302a5444615bb1927eff499cf009509219d6747218d",
+      "httpRange": {
+        "offset": 141115032,
+        "compressedBytes": 1742,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-乾-4.png",
+      "bytes": 1879,
+      "sha256": "0c0a32e8d59528c9bb1952af600d3ae28bbcc9e8cc5d917dd6a4ae25284a8e34",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0c0a32e8d59528c9bb1952af600d3ae28bbcc9e8cc5d917dd6a4ae25284a8e34",
+      "httpRange": {
+        "offset": 174770764,
+        "compressedBytes": 1733,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-乾-5.png",
+      "bytes": 1897,
+      "sha256": "22c745aa1a696f9691bd5b86d199f6ab11fee5755eaf8b571f733c666b6ac31f",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/22c745aa1a696f9691bd5b86d199f6ab11fee5755eaf8b571f733c666b6ac31f",
+      "httpRange": {
+        "offset": 93843102,
+        "compressedBytes": 1748,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-乾-6.png",
+      "bytes": 1882,
+      "sha256": "2629d40a8487989b9f1e9aba9014bbf5a7807e7b4954b0fa322bfaf6bd274797",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2629d40a8487989b9f1e9aba9014bbf5a7807e7b4954b0fa322bfaf6bd274797",
+      "httpRange": {
+        "offset": 134253264,
+        "compressedBytes": 1752,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-乾-7.png",
+      "bytes": 1713,
+      "sha256": "05e221dd6470686c0350ae6a82c3213d4b7673affc0c5b4a1837e31238eb7e88",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/05e221dd6470686c0350ae6a82c3213d4b7673affc0c5b4a1837e31238eb7e88",
+      "httpRange": {
+        "offset": 120796829,
+        "compressedBytes": 1552,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-兌-0.png",
+      "bytes": 2006,
+      "sha256": "7d08a6d63659c8cb30eb679ae1ccb654bf125dd6613b7c238c83f8908db4527e",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7d08a6d63659c8cb30eb679ae1ccb654bf125dd6613b7c238c83f8908db4527e",
+      "httpRange": {
+        "offset": 49594701,
+        "compressedBytes": 1918,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-兌-1.png",
+      "bytes": 1848,
+      "sha256": "290d47380ad94f34bbae301ec48c880d2cde41b4ecd2a627a4da4a5547abaf3e",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/290d47380ad94f34bbae301ec48c880d2cde41b4ecd2a627a4da4a5547abaf3e",
+      "httpRange": {
+        "offset": 162607155,
+        "compressedBytes": 1718,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-兌-2.png",
+      "bytes": 1777,
+      "sha256": "09814c90f2b79ba4b832b323a73df42b90106b6d35bb7d478f5a6f44674b01b1",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/09814c90f2b79ba4b832b323a73df42b90106b6d35bb7d478f5a6f44674b01b1",
+      "httpRange": {
+        "offset": 146753570,
+        "compressedBytes": 1656,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-兌-3.png",
+      "bytes": 1953,
+      "sha256": "80ca5754ab9477841e87c0fff3b5974478dda5a05b86e4e4bf0afe30e8ec2bb6",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/80ca5754ab9477841e87c0fff3b5974478dda5a05b86e4e4bf0afe30e8ec2bb6",
+      "httpRange": {
+        "offset": 71465786,
+        "compressedBytes": 1805,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-兌-4.png",
+      "bytes": 1802,
+      "sha256": "cce45204c3bb96bba433fc6b827e928225420c237c777e43782e7f7e9b839108",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/cce45204c3bb96bba433fc6b827e928225420c237c777e43782e7f7e9b839108",
+      "httpRange": {
+        "offset": 50543624,
+        "compressedBytes": 1655,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-兌-5.png",
+      "bytes": 1827,
+      "sha256": "2ff758f627e4b6849dc0005c44ec3266ea8490bdfce6d6d3728329fa7dbc05de",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2ff758f627e4b6849dc0005c44ec3266ea8490bdfce6d6d3728329fa7dbc05de",
+      "httpRange": {
+        "offset": 238095978,
+        "compressedBytes": 1702,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-兌-6.png",
+      "bytes": 1843,
+      "sha256": "229c81541c733ebcaf0919426adadf6fed95ad1ae024b42f1f63b3811ec74047",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/229c81541c733ebcaf0919426adadf6fed95ad1ae024b42f1f63b3811ec74047",
+      "httpRange": {
+        "offset": 93738907,
+        "compressedBytes": 1726,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-兌-7.png",
+      "bytes": 1888,
+      "sha256": "d39370e7a15847bd880aa6d24db49e8b9edf03c6f5423172675b4a3c96a6b323",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d39370e7a15847bd880aa6d24db49e8b9edf03c6f5423172675b4a3c96a6b323",
+      "httpRange": {
+        "offset": 125315134,
+        "compressedBytes": 1755,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-坎-0.png",
+      "bytes": 1921,
+      "sha256": "5f9e825bc7f8d88a5c6b7b6ac212f767769cc5388d63c3df9159095d32433561",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/5f9e825bc7f8d88a5c6b7b6ac212f767769cc5388d63c3df9159095d32433561",
+      "httpRange": {
+        "offset": 58932543,
+        "compressedBytes": 1817,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-坎-1.png",
+      "bytes": 1999,
+      "sha256": "2bce2914a2283d14aaa1977038dede1468519fe795e9489b1ec1090e96b6ef90",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2bce2914a2283d14aaa1977038dede1468519fe795e9489b1ec1090e96b6ef90",
+      "httpRange": {
+        "offset": 199606873,
+        "compressedBytes": 1883,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-坎-2.png",
+      "bytes": 1845,
+      "sha256": "6a183688a97581bdabaa9e7eb04708f094267886371751db14329a404aae02c1",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6a183688a97581bdabaa9e7eb04708f094267886371751db14329a404aae02c1",
+      "httpRange": {
+        "offset": 246633116,
+        "compressedBytes": 1730,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-坎-3.png",
+      "bytes": 2048,
+      "sha256": "6917c9234b92846f102f8d86cc1dc6160ca31e962681fe606914afd7b5a8203f",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6917c9234b92846f102f8d86cc1dc6160ca31e962681fe606914afd7b5a8203f",
+      "httpRange": {
+        "offset": 235341071,
+        "compressedBytes": 1942,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-坎-4.png",
+      "bytes": 1895,
+      "sha256": "2f50502595edd44b8a53bb06d4c6386078c4ad255c9bba977e50fbbcfaf5b7a4",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2f50502595edd44b8a53bb06d4c6386078c4ad255c9bba977e50fbbcfaf5b7a4",
+      "httpRange": {
+        "offset": 228733960,
+        "compressedBytes": 1790,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-坎-5.png",
+      "bytes": 1776,
+      "sha256": "52d1d9d3a437574ca9c006f47657949a208e571eabba8ce0cc8d31eba900dd6f",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/52d1d9d3a437574ca9c006f47657949a208e571eabba8ce0cc8d31eba900dd6f",
+      "httpRange": {
+        "offset": 114993202,
+        "compressedBytes": 1635,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-坎-6.png",
+      "bytes": 1964,
+      "sha256": "3f238f313a4d4ef65f4db91871f9c7b995aaaa3b5ab6f87325df2f91e4d3e5ce",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/3f238f313a4d4ef65f4db91871f9c7b995aaaa3b5ab6f87325df2f91e4d3e5ce",
+      "httpRange": {
+        "offset": 72741501,
+        "compressedBytes": 1825,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-坎-7.png",
+      "bytes": 1943,
+      "sha256": "eab2b767367ccd03c5838bef6543d95c3bbbc17fa6ce6c87bd4352f54aa670d5",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/eab2b767367ccd03c5838bef6543d95c3bbbc17fa6ce6c87bd4352f54aa670d5",
+      "httpRange": {
+        "offset": 63169004,
+        "compressedBytes": 1825,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-坤-0.png",
+      "bytes": 2080,
+      "sha256": "932582630a4879e0c987d240e9ac8f9334f9bcdd00ba76a80e216b073e01842e",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/932582630a4879e0c987d240e9ac8f9334f9bcdd00ba76a80e216b073e01842e",
+      "httpRange": {
+        "offset": 330263887,
+        "compressedBytes": 1982,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-坤-1.png",
+      "bytes": 1892,
+      "sha256": "26197959b46789b4378f363987048798227f03f0df6e7d5914a1b73c7bd135df",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/26197959b46789b4378f363987048798227f03f0df6e7d5914a1b73c7bd135df",
+      "httpRange": {
+        "offset": 133734083,
+        "compressedBytes": 1801,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-坤-2.png",
+      "bytes": 1938,
+      "sha256": "6ba62ca7e3a092a49582a1f6b36b4692d3058db5b4e430cc4fd9436587f60029",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6ba62ca7e3a092a49582a1f6b36b4692d3058db5b4e430cc4fd9436587f60029",
+      "httpRange": {
+        "offset": 259852845,
+        "compressedBytes": 1845,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-坤-3.png",
+      "bytes": 1873,
+      "sha256": "0a71a53ed8d10bdd39c355ee4360d9c5d3b3c690e7a845a514a41e6c767d3172",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0a71a53ed8d10bdd39c355ee4360d9c5d3b3c690e7a845a514a41e6c767d3172",
+      "httpRange": {
+        "offset": 157796167,
+        "compressedBytes": 1771,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-坤-4.png",
+      "bytes": 1905,
+      "sha256": "ff96deeac4bd9fa9bf53ce22cee77890c8a69fecf491c6b782a753e8199dda84",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ff96deeac4bd9fa9bf53ce22cee77890c8a69fecf491c6b782a753e8199dda84",
+      "httpRange": {
+        "offset": 312657838,
+        "compressedBytes": 1773,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-坤-5.png",
+      "bytes": 1849,
+      "sha256": "c9ce4f2ff1c65e7245549ca01abde1eca5462e4878cd1ba1a4e745f898f7c4c7",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c9ce4f2ff1c65e7245549ca01abde1eca5462e4878cd1ba1a4e745f898f7c4c7",
+      "httpRange": {
+        "offset": 399117716,
+        "compressedBytes": 1725,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-坤-6.png",
+      "bytes": 1871,
+      "sha256": "744becad34cdda043dcec10253f257c75a321b3f23a29e191a634f4b36b15b87",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/744becad34cdda043dcec10253f257c75a321b3f23a29e191a634f4b36b15b87",
+      "httpRange": {
+        "offset": 351739483,
+        "compressedBytes": 1739,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-坤-7.png",
+      "bytes": 1852,
+      "sha256": "0229dc0fcc5720be0ca3ae1ae8181e438f3259f0921724701924906d22286b60",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0229dc0fcc5720be0ca3ae1ae8181e438f3259f0921724701924906d22286b60",
+      "httpRange": {
+        "offset": 95148460,
+        "compressedBytes": 1743,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-巽-0.png",
+      "bytes": 2089,
+      "sha256": "a68fff8d97c41e21dcb5fc9be9946c71d0e7fe877b2576ded8ed1de0d0e6d837",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a68fff8d97c41e21dcb5fc9be9946c71d0e7fe877b2576ded8ed1de0d0e6d837",
+      "httpRange": {
+        "offset": 228463233,
+        "compressedBytes": 2028,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-巽-1.png",
+      "bytes": 2011,
+      "sha256": "6e642936ca5be1f9bea284e7504855ce75efeca4cd64dfe57a15af8d7ef6549c",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6e642936ca5be1f9bea284e7504855ce75efeca4cd64dfe57a15af8d7ef6549c",
+      "httpRange": {
+        "offset": 276656266,
+        "compressedBytes": 1928,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-巽-2.png",
+      "bytes": 1930,
+      "sha256": "a6d7d2bfffec2c1e6184a797dfdb4205171f3406bb9f85c4a93f5e69696d81c2",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a6d7d2bfffec2c1e6184a797dfdb4205171f3406bb9f85c4a93f5e69696d81c2",
+      "httpRange": {
+        "offset": 229935584,
+        "compressedBytes": 1844,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-巽-3.png",
+      "bytes": 1946,
+      "sha256": "769cfdb9f9a5002e1bc7ba66c3ce212de387e5805043b5da354a3648816753cd",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/769cfdb9f9a5002e1bc7ba66c3ce212de387e5805043b5da354a3648816753cd",
+      "httpRange": {
+        "offset": 380191748,
+        "compressedBytes": 1850,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-巽-4.png",
+      "bytes": 2013,
+      "sha256": "047e2ceb4ae9817a12c2f4c827af17e3b01289addc6661f4ca86604e3f8dec61",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/047e2ceb4ae9817a12c2f4c827af17e3b01289addc6661f4ca86604e3f8dec61",
+      "httpRange": {
+        "offset": 111886574,
+        "compressedBytes": 1891,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-巽-5.png",
+      "bytes": 2064,
+      "sha256": "89d257057d28359a274b3e4a35f08a8cc992180db72537a8e3f17c92d6d8d8c3",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/89d257057d28359a274b3e4a35f08a8cc992180db72537a8e3f17c92d6d8d8c3",
+      "httpRange": {
+        "offset": 249979977,
+        "compressedBytes": 1988,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-巽-6.png",
+      "bytes": 2063,
+      "sha256": "39e3793fafcb19feba49f1f8f7f513ad0bfa5038294793fe1b88fea5a2249f32",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/39e3793fafcb19feba49f1f8f7f513ad0bfa5038294793fe1b88fea5a2249f32",
+      "httpRange": {
+        "offset": 373392844,
+        "compressedBytes": 1976,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-巽-7.png",
+      "bytes": 1896,
+      "sha256": "fb61213b4e3deab8deef6513853d4a63d4395a1f102c5b7fdf4ca89e3a4cbca1",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/fb61213b4e3deab8deef6513853d4a63d4395a1f102c5b7fdf4ca89e3a4cbca1",
+      "httpRange": {
+        "offset": 266527440,
+        "compressedBytes": 1826,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-艮-0.png",
+      "bytes": 1988,
+      "sha256": "11c957672f9874b9518ff1b32744a858c22161c3fece596a8251b209f21b2550",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/11c957672f9874b9518ff1b32744a858c22161c3fece596a8251b209f21b2550",
+      "httpRange": {
+        "offset": 238991690,
+        "compressedBytes": 1891,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-艮-1.png",
+      "bytes": 1976,
+      "sha256": "67a948f2441a2ece654cb29c0c559bc7925e615693ab29ff544b01e9a29d12c2",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/67a948f2441a2ece654cb29c0c559bc7925e615693ab29ff544b01e9a29d12c2",
+      "httpRange": {
+        "offset": 220873243,
+        "compressedBytes": 1844,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-艮-2.png",
+      "bytes": 1958,
+      "sha256": "b76a29eb8a409acb437a90b5586a688fed8dcc931bf8ee4f81dc22e93cf64d8f",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/b76a29eb8a409acb437a90b5586a688fed8dcc931bf8ee4f81dc22e93cf64d8f",
+      "httpRange": {
+        "offset": 162249515,
+        "compressedBytes": 1890,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-艮-3.png",
+      "bytes": 1965,
+      "sha256": "af6e29f08e49a3d31bd5f9f5f8ee5f0bf4aea47d013088355930c4975213c138",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/af6e29f08e49a3d31bd5f9f5f8ee5f0bf4aea47d013088355930c4975213c138",
+      "httpRange": {
+        "offset": 316061167,
+        "compressedBytes": 1833,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-艮-4.png",
+      "bytes": 1918,
+      "sha256": "c9a1b947dac6b221fe3f3cf78c32dcff491696c8a7c7ef853cea0ed7918122e2",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c9a1b947dac6b221fe3f3cf78c32dcff491696c8a7c7ef853cea0ed7918122e2",
+      "httpRange": {
+        "offset": 396026549,
+        "compressedBytes": 1776,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-艮-5.png",
+      "bytes": 1822,
+      "sha256": "3bec7a6d013b0875c936da8b82b5bc21d475e068539550528ed2d69a55f1cb18",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/3bec7a6d013b0875c936da8b82b5bc21d475e068539550528ed2d69a55f1cb18",
+      "httpRange": {
+        "offset": 388754742,
+        "compressedBytes": 1722,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-艮-6.png",
+      "bytes": 1848,
+      "sha256": "c6ac05a162e115f9735311225a2fef2f135131d221c7ad54aa4e972bf3ad7b56",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c6ac05a162e115f9735311225a2fef2f135131d221c7ad54aa4e972bf3ad7b56",
+      "httpRange": {
+        "offset": 368235142,
+        "compressedBytes": 1746,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-艮-7.png",
+      "bytes": 1767,
+      "sha256": "865f7713e9f40330594c07b972b6d11e4ae2fd50d76191c01e8b444a6024a8cc",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/865f7713e9f40330594c07b972b6d11e4ae2fd50d76191c01e8b444a6024a8cc",
+      "httpRange": {
+        "offset": 211937001,
+        "compressedBytes": 1650,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-離-0.png",
+      "bytes": 2047,
+      "sha256": "51d42bc03122e9aac2a9c69aee65acb0781b9f38e844af865835932cb86e4e1b",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/51d42bc03122e9aac2a9c69aee65acb0781b9f38e844af865835932cb86e4e1b",
+      "httpRange": {
+        "offset": 106977644,
+        "compressedBytes": 1971,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-離-1.png",
+      "bytes": 1962,
+      "sha256": "55964824ce02617ae13c9857b3a317d868524315247ac4feda619269cb54126c",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/55964824ce02617ae13c9857b3a317d868524315247ac4feda619269cb54126c",
+      "httpRange": {
+        "offset": 150291706,
+        "compressedBytes": 1872,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-離-2.png",
+      "bytes": 1996,
+      "sha256": "a7a30e0dac05e717081597e81703ca769efcaa4636156d98f9a46dcc4517e53f",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a7a30e0dac05e717081597e81703ca769efcaa4636156d98f9a46dcc4517e53f",
+      "httpRange": {
+        "offset": 244481854,
+        "compressedBytes": 1914,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-離-3.png",
+      "bytes": 1981,
+      "sha256": "f7f03bb6d73b076f4addaba995769ca08c3e45f7663d021a00d2f668ea385873",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f7f03bb6d73b076f4addaba995769ca08c3e45f7663d021a00d2f668ea385873",
+      "httpRange": {
+        "offset": 223707543,
+        "compressedBytes": 1885,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-離-4.png",
+      "bytes": 1841,
+      "sha256": "c383053e5dd052d13f64a0bdae1322b4138c6d48cb44dccab1851c17883dc537",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c383053e5dd052d13f64a0bdae1322b4138c6d48cb44dccab1851c17883dc537",
+      "httpRange": {
+        "offset": 325295767,
+        "compressedBytes": 1734,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-離-5.png",
+      "bytes": 1791,
+      "sha256": "73acd0ffce849628b2e6e731dc3eaea480bbdac6d8cb47f9cf9bbf8267b2865a",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/73acd0ffce849628b2e6e731dc3eaea480bbdac6d8cb47f9cf9bbf8267b2865a",
+      "httpRange": {
+        "offset": 347670981,
+        "compressedBytes": 1653,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-離-6.png",
+      "bytes": 1868,
+      "sha256": "b3455d4cba7f801ddf605a58bf9c6ef9bbe9c0259d8bdcc7c73224ef5345f0c7",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b3455d4cba7f801ddf605a58bf9c6ef9bbe9c0259d8bdcc7c73224ef5345f0c7",
+      "httpRange": {
+        "offset": 358491297,
+        "compressedBytes": 1762,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-離-7.png",
+      "bytes": 1629,
+      "sha256": "39e4bfc72c74d8b332b3c1fe42a2df4d1f2bee9cc789e014ece4be3123bc29f8",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/39e4bfc72c74d8b332b3c1fe42a2df4d1f2bee9cc789e014ece4be3123bc29f8",
+      "httpRange": {
+        "offset": 373394922,
+        "compressedBytes": 1505,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-震-0.png",
+      "bytes": 2062,
+      "sha256": "7619ea903fcbe3fc487afa2dd8884103461b60ebba7a563743c8b24f9fd7cab2",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/7619ea903fcbe3fc487afa2dd8884103461b60ebba7a563743c8b24f9fd7cab2",
+      "httpRange": {
+        "offset": 377391700,
+        "compressedBytes": 2002,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-震-1.png",
+      "bytes": 1949,
+      "sha256": "252f1afef8f8045f5866a6018dbf483a62436100359b5b8fe9b31fb7dce782e3",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/252f1afef8f8045f5866a6018dbf483a62436100359b5b8fe9b31fb7dce782e3",
+      "httpRange": {
+        "offset": 129061773,
+        "compressedBytes": 1842,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-震-2.png",
+      "bytes": 1967,
+      "sha256": "388be065e7acb77ce3f9329fd009f1aaeba1170af01fbf5a8d82a3184b441f9a",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/388be065e7acb77ce3f9329fd009f1aaeba1170af01fbf5a8d82a3184b441f9a",
+      "httpRange": {
+        "offset": 354864755,
+        "compressedBytes": 1904,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-震-3.png",
+      "bytes": 1857,
+      "sha256": "8f1d8ebc09a3d75f893a87ccc66408c5b29a154b7a5ef34f0f6df04a97e0288a",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8f1d8ebc09a3d75f893a87ccc66408c5b29a154b7a5ef34f0f6df04a97e0288a",
+      "httpRange": {
+        "offset": 297788053,
+        "compressedBytes": 1751,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-震-4.png",
+      "bytes": 1950,
+      "sha256": "bf1df4a96c8e28dc9aa68381069aa51f906f3b23c85fd6db3e2e42316ce12e6b",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bf1df4a96c8e28dc9aa68381069aa51f906f3b23c85fd6db3e2e42316ce12e6b",
+      "httpRange": {
+        "offset": 221006617,
+        "compressedBytes": 1801,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-震-5.png",
+      "bytes": 1964,
+      "sha256": "ea663aa56d3cad69d21a33d86f6e9e6f547615634dc769e3cf972b2179a6deb4",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ea663aa56d3cad69d21a33d86f6e9e6f547615634dc769e3cf972b2179a6deb4",
+      "httpRange": {
+        "offset": 57571898,
+        "compressedBytes": 1830,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-震-6.png",
+      "bytes": 2014,
+      "sha256": "18dcbc9b851d29989004db127aa8ea0bd06f6750e8da81c2a2dbc2ce76764561",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/18dcbc9b851d29989004db127aa8ea0bd06f6750e8da81c2a2dbc2ce76764561",
+      "httpRange": {
+        "offset": 332261661,
+        "compressedBytes": 1991,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/figures/figure-震-7.png",
+      "bytes": 2074,
+      "sha256": "1684aee3055e686a6ccbdbc2e173a0577f52682760580f77682b59d18c8fda00",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1684aee3055e686a6ccbdbc2e173a0577f52682760580f77682b59d18c8fda00",
+      "httpRange": {
+        "offset": 297055258,
+        "compressedBytes": 2040,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/p49-upright.png",
+      "bytes": 260078,
+      "sha256": "3c39b087b24f72f307cc054acbf210b968e902df04d7ffc85616b803853e0ebb",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/3c39b087b24f72f307cc054acbf210b968e902df04d7ffc85616b803853e0ebb",
+      "httpRange": {
+        "offset": 389346200,
+        "compressedBytes": 233052,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/p50-upright.png",
+      "bytes": 362419,
+      "sha256": "d11293dd1763b9085e726a96c5bc30ffb7df3f224a2847cfcbffa72e16b009f6",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d11293dd1763b9085e726a96c5bc30ffb7df3f224a2847cfcbffa72e16b009f6",
+      "httpRange": {
+        "offset": 105969833,
+        "compressedBytes": 349454,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-source-tables/tomb-reference.mjs",
+      "bytes": 3345,
+      "sha256": "609c8d33a9ca557b6d4a70155ff7fab802b0a973759b13ce27ce38b5b8bef33e",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/609c8d33a9ca557b6d4a70155ff7fab802b0a973759b13ce27ce38b5b8bef33e",
+      "httpRange": {
+        "offset": 67874053,
+        "compressedBytes": 1415,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

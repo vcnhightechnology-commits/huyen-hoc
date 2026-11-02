@@ -1,0 +1,124 @@
+{
+  "date": "2026-10-27",
+  "cases": [
+    {
+      "id": "kun-static-spring-generation",
+      "pdfPage": 57,
+      "number": 2,
+      "values": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "changedNumber": 2,
+      "monthBranch": "寅",
+      "dayBranch": "卯",
+      "focusLine": 3,
+      "targetLine": 2,
+      "expectedBranch": "卯",
+      "focusStrengthBeforeDay": "旺相",
+      "meaning": "Static卯wood3generates巳fireparent2inprintedpure坤example;source supplies springcontext,not Gregorianadapter."
+    },
+    {
+      "id": "dui-weak-moving-controls-strong",
+      "pdfPage": 58,
+      "number": 58,
+      "values": [
+        7,
+        7,
+        8,
+        7,
+        9,
+        8
+      ],
+      "changedNumber": 54,
+      "monthBranch": "寅",
+      "dayBranch": null,
+      "focusLine": 5,
+      "targetLine": 2,
+      "meaning": "酉metalexplicitmovingcancontrolstrong卯woodunderprintedexample;do not apply staticweakness prohibition to all movinglines."
+    },
+    {
+      "id": "kun-return-control-layer",
+      "pdfPages": [
+        58,
+        59
+      ],
+      "number": 2,
+      "values": [
+        8,
+        8,
+        8,
+        6,
+        8,
+        6
+      ],
+      "changedNumber": 35,
+      "monthBranch": "子",
+      "dayBranch": "卯",
+      "focusLine": 6,
+      "expectedChangedElement": "火",
+      "expectedOriginalElement": "金",
+      "meaning": "Changed巳fire6controlsown酉metal6,notchanged酉metal4.Primary丑earth4can generateprimary酉metal6butnotchanged酉metal4.Month子watercancontrolchanged巳fire6;day卯canclashchanged酉4."
+    },
+    {
+      "id": "day-dark-movement-source",
+      "pdfPage": 63,
+      "number": 52,
+      "values": [
+        6,
+        8,
+        9,
+        8,
+        8,
+        7
+      ],
+      "changedNumber": 27,
+      "monthBranch": "寅",
+      "dayBranch": "申",
+      "focusLine": 6,
+      "meaning": "寅wood官line2matchesmonthandisdayclashed;strong static→暗動. Printedinterpretationalsohasreturn-control/three-combinationpremiseskeptseparate."
+    },
+    {
+      "id": "qian-day-strength-not-destroyed",
+      "pdfPage": 68,
+      "number": 33,
+      "values": [
+        8,
+        6,
+        7,
+        7,
+        7,
+        7
+      ],
+      "changedNumber": 44,
+      "monthBranch": "申",
+      "dayBranch": "午",
+      "focusLine": 4,
+      "meaning": "午fireline4matchesdaydespite申month. Targetcannotbeclassifiedweakfrommonthalone. Exactmovingglyphscheckedseparately."
+    },
+    {
+      "id": "guai-clashed-month-day-occupancy",
+      "pdfPage": 69,
+      "number": 43,
+      "values": [
+        7,
+        7,
+        9,
+        7,
+        7,
+        6
+      ],
+      "changedNumber": 10,
+      "monthBranch": "巳",
+      "dayBranch": "亥",
+      "focusLine": 4,
+      "meaning": "Printed夬43→履10financialstory;亥water4isclashedbymonthbutoccupiesday.Hour/late-Zi/calendarpremisesnotderived,andoutcomeisnotvalidation."
+    }
+  ],
+  "syntheticControlsAreNotPrintedCases": true,
+  "historicalOutcomesValidated": false
+}

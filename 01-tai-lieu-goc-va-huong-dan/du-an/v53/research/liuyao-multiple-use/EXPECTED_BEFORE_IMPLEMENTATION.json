@@ -1,0 +1,84 @@
+{
+  "candidateFields": [
+    "candidateID",
+    "declaredUse",
+    "sourceStrength",
+    "sourceMotion",
+    "sourceMonthBroken",
+    "sourceVoid",
+    "sourceInjured"
+  ],
+  "cases": [
+    {
+      "name": "five-agree-A",
+      "A": {
+        "declaredUse": true,
+        "sourceStrength": "旺相",
+        "sourceMotion": "動",
+        "sourceMonthBroken": false,
+        "sourceVoid": false,
+        "sourceInjured": false
+      },
+      "B": {
+        "declaredUse": true,
+        "sourceStrength": "休囚",
+        "sourceMotion": "靜",
+        "sourceMonthBroken": true,
+        "sourceVoid": true,
+        "sourceInjured": true
+      },
+      "prefersA": 5,
+      "prefersB": 0,
+      "conflictingKnownDirections": false
+    },
+    {
+      "name": "strength-A-motion-B",
+      "A": {
+        "declaredUse": true,
+        "sourceStrength": "旺相",
+        "sourceMotion": "靜",
+        "sourceMonthBroken": false,
+        "sourceVoid": false,
+        "sourceInjured": false
+      },
+      "B": {
+        "declaredUse": true,
+        "sourceStrength": "休囚",
+        "sourceMotion": "動",
+        "sourceMonthBroken": false,
+        "sourceVoid": false,
+        "sourceInjured": false
+      },
+      "prefersA": 1,
+      "prefersB": 1,
+      "conflictingKnownDirections": true
+    }
+  ],
+  "comparisonTruth": {
+    "worse-better": {
+      "preferLeft": false,
+      "preferRight": true
+    },
+    "better-worse": {
+      "preferLeft": true,
+      "preferRight": false
+    },
+    "same-known": {
+      "preferLeft": false,
+      "preferRight": false
+    },
+    "both-unknown": {
+      "preferLeft": null,
+      "preferRight": null
+    }
+  },
+  "doNotResolve": [
+    "allfivevotesagree-doesnotestablishselecteduse",
+    "quotedmethodvscounterexamples",
+    "three-usecandidates",
+    "recasthistoricaloutcomes",
+    "strength/functionalvoid/monthbreak/injuryfacts"
+  ],
+  "newEngineCallsExpected": 0,
+  "reason": "Newmoduleacceptsexplicitsourcepremisesandcomparesquotedrules;doesnotcalculatecharts,calendarorcompareareimplementedengine."
+}

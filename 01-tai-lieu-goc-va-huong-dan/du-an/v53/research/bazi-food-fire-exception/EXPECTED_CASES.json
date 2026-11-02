@@ -1,0 +1,63 @@
+{
+  "cases": [
+    {
+      "day": "戊子",
+      "hour": "庚子",
+      "fire": true,
+      "roleMatch": true,
+      "fireContraindication": true
+    },
+    {
+      "day": "戊寅",
+      "hour": "庚辰",
+      "fire": false,
+      "roleMatch": true,
+      "fireContraindication": false
+    },
+    {
+      "day": "戊辰",
+      "hour": "庚午",
+      "fire": null,
+      "roleMatch": true,
+      "fireContraindication": null
+    },
+    {
+      "day": "庚子",
+      "hour": "戊子",
+      "fire": true,
+      "roleMatch": false,
+      "fireContraindication": false
+    },
+    {
+      "day": "甲子",
+      "hour": "庚子",
+      "fire": true,
+      "roleMatch": false,
+      "fireContraindication": false
+    },
+    {
+      "day": null,
+      "hour": "庚子",
+      "fire": true,
+      "roleMatch": null,
+      "fireContraindication": null
+    },
+    {
+      "day": null,
+      "hour": "甲子",
+      "fire": null,
+      "roleMatch": false,
+      "fireContraindication": false
+    },
+    {
+      "day": null,
+      "hour": null,
+      "fire": false,
+      "roleMatch": null,
+      "fireContraindication": false
+    }
+  ],
+  "sourceID": "TMTH005-FOOD-C31-Mijue",
+  "frameID": "source-explicit-day-hour-fire-premise",
+  "booleanFalseIsNotGoodFortune": true
+}

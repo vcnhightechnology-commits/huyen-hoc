@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-29",
+  "acceptedCropsActuallyViewed": ["p131-introduction.png", "itkc244-direction.png"],
+  "fullRetainedImagesActuallyViewed": ["P08 raw-p131.jpg", "ITKC_BT_1508A_V002_244.JPG"],
+  "viewBeforeOrAfterFreeze": "Full retained pages and first caption crop viewed before freeze; ITKC selected native crop viewed after freeze, before implementation.",
+  "preparationActuallyViewedFalseMeans": "Crop preparation itself did not establish viewing. This separate audit records subsequent visual inspection; frozen preparation metadata is unchanged.",
+  "glyphAmendment": {
+    "frozenManualForm": "陽龍陰兔",
+    "imageGlyphForm": "陽龍陰兎",
+    "acceptedLiteralSelected": "其殺止占方道若得三奇祿馬陽龍陰兎走馬六壬等吉星到方宅舍修作尤宜用之",
+    "reason": "The manual used modern 兔. The source image has the variant 兎. Neither the frozen fixture predicates nor implemented logic depend on this glyph.",
+    "wholePassageDiplomaticallyCollated": false
+  },
+  "P08SmallCellGlyphsResolved": false,
+  "P08UnresolvedLabelsStill": 220,
+  "newSourcePositions": 0,
+  "newIndependentWitnesses": 0,
+  "sourceOutcomeValidated": false,
+  "consumerChanged": false
+}

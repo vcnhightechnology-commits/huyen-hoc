@@ -1,0 +1,62 @@
+{
+  "schema": "hhc.bazi.pattern-facsimile.v1",
+  "date": "2026-10-26",
+  "witness": "Commons CADAL06066041 三命通會·卷五.djvu, attributed to CADAL/Zhejiang; title imagep2 confirms 欽定四庫全書/三命通會卷五. No independent institutional catalog fetch, imprint-date verification or independent textual lineage claim.",
+  "digitalComparator": "research/four-items/sources/KR3g0042_005.txt, pinned Kanripo WYG; image and digital transcription are separate artifacts in the same named textual family, not two independent confirmations of prediction.",
+  "method": "Targeted full-image manual reading, no OCR. Paragraph/phrase comparisons are separately counted; downloaded pages are not automatically fully collated pages.",
+  "readings": [
+    {
+      "id": "official-month-hidden",
+      "section": "論正官",
+      "images": [11,12,13,14,15,16],
+      "pageMarkers": ["005-5a","005-5b","005-6a","005-6b","005-7a","005-7b"],
+      "collatedClauses": [
+        {"image":11,"page":"005-5a","text":"正官先看月令然後方看其餘","comparison":"Image看 versus retaineddigital㸔 is a graphic normalization, not an omitted rule."},
+        {"image":12,"page":"005-5b","text":"謂之支藏干透","comparison":"Exact excerpt matches retaineddigital."},
+        {"image":13,"page":"005-6a","text":"官止一二無財有印身弱無妨","comparison":"Exact excerpt matches retaineddigital; conditional exception, no universal strength algorithm inferred."},
+        {"image":15,"page":"005-7a","text":"取官星不必專泥月令支辰","comparison":"Exact excerpt matches retaineddigital; source itself includes alternatives outside monthbranch."},
+        {"image":16,"page":"005-7b","text":"大要看官食虚實何如","comparison":"Image看 versus digital㸔 normalized only for comparison; no automaticbinary food-plus-official verdict."}
+      ],
+      "monthExamplesImage":12,
+      "monthExamples": [
+        {"dayStem":"甲","monthBranches":["酉"],"officialStem":"辛"},
+        {"dayStem":"乙","monthBranches":["申","巳"],"officialStem":"庚"},
+        {"dayStem":"丙","monthBranches":["子"],"officialStem":"癸"},
+        {"dayStem":"丁","monthBranches":["亥"],"officialStem":"壬"},
+        {"dayStem":"戊","monthBranches":["卯"],"officialStem":"乙"},
+        {"dayStem":"己","monthBranches":["寅"],"officialStem":"甲"},
+        {"dayStem":"庚","monthBranches":["午"],"officialStem":"丁"},
+        {"dayStem":"辛","monthBranches":["寅","巳"],"officialStem":"丙"},
+        {"dayStem":"壬","monthBranches":["午","未","丑"],"officialStem":"己"},
+        {"dayStem":"癸","monthBranches":["辰","巳","戌"],"officialStem":"戊"}
+      ],
+      "glyphPolicy": "Transcribe clear stem己 and branch巳 from image by their printed role; retaineddigital has several巳/己forms. These are source examples of daystem/monthbranch only, not full four-pillar birth charts or a whole pattern verdict.",
+      "integration": "Show all monthbranch hidden stems with explicit day-relative relations and exact visible-year/month/hour matches. The sixteen examples are not collapsed to the primary hidden stem. Main stem is labeled, never used as the sole pattern criterion."
+    },
+    {
+      "id": "partial-officer-conditions",
+      "section": "論偏官",
+      "images": [46,47,48],
+      "pageMarkers": ["005-22b","005-23a","005-23b"],
+      "collatedClauses": [
+        {"image":46,"page":"005-22b","text":"偏官者乃甲見庚乙見辛之例","comparison":"Exact clause matches digital."},
+        {"image":47,"page":"005-23a","text":"有制謂之偏官無制謂之七煞","comparison":"Exact clause matches digital; chapter's contextual naming does not rename every fixed ThấtSát relation in the product."},
+        {"image":48,"page":"005-23b","text":"倘運再遇制伏則盡法無民","comparison":"Exact clause matches digital; more control is not unconditionally better under this paragraph."}
+      ],
+      "integration": "No classifier or auspiciousness verdict added; conditions and exceptions retained internally."
+    },
+    {
+      "id": "indirect-food-partial",
+      "section": "論倒食",
+      "images": [136,137],
+      "pageMarkers": ["005-67b","005-68a"],
+      "collatedClauses": [
+        {"image":136,"page":"005-67b","text":"倒食即偏印之謂","comparison":"Exact clause matches digital; read with the rest of paragraph."},
+        {"image":137,"page":"005-68a","text":"若有制合","comparison":"Exact conditional phrase matches digital. Later 生可取為福助身 follows 柱中身旺財官俱, not this phrase; do not splice noncontiguous columns into a single quote. No automatic harmed-food verdict from mere co-presence."}
+      ],
+      "notImageCollated": "The specific005-68b柱中無食只以偏印論clause remains digital-only. Request for page138API returned429and was retained as failure, not retried or used as image evidence.",
+      "integration": "No change to fixed ThiênẤn naming or consumer predictions from this partial reading."
+    }
+  ],
+  "scopeLimits": "Three targeted sections, ten short collated clauses and16daystem/monthbranchexamples; not exhaustive extraction of three chapters or alltenpatternsections. Images11–16readascontext, but onlylistedclausesandexamplesclaimedcollated. No claim to have read226pages or independently verifiedCADALcatalog/imprint."
+}

@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-29",
+  "summary": {
+    "completeChecks": 8,
+    "frozenIdentities": 34,
+    "manualAdjudicationCases": 34,
+    "unchangedPreImplementationCases": 33,
+    "postReadingCorrectionCases": 1,
+    "continuityFrames": 3888,
+    "centralFrames": 81,
+    "anchorFrames": 24,
+    "windowFrames": 540,
+    "unsupportedFramesKeptUnknown": 3348,
+    "invalidCasesRejected": 21,
+    "newCalendarCallsDuringReplay": 0,
+    "cachedActualLunarObjects": 2,
+    "cachedActualJieQiTables": 2,
+    "consumerChanged": false,
+    "wholeSourceMethodApplied": false
+  },
+  "tests": [
+    {
+      "name": "Pre-implementation source/crop/adjudication freeze unchanged",
+      "passed": true
+    },
+    {
+      "name": "33 pre-implementation and one post-reading-correction adjudication",
+      "passed": true
+    },
+    {
+      "name": "Continuity finite premises: context, pause veto and unsupported frames",
+      "passed": true
+    },
+    {
+      "name": "Central no-harm AND benefic plus distinct restart warning, no merged permission",
+      "passed": true
+    },
+    {
+      "name": "Eight source building configurations: no unconfirmed anchor or automatic coordinates",
+      "passed": true
+    },
+    {
+      "name": "Relative-day window: no adopted civil/hour frame, early permission or missing-veto override",
+      "passed": true
+    },
+    {
+      "name": "Wrong systems, coercion, missing/extra fields, invented configuration rejected",
+      "passed": true
+    },
+    {
+      "name": "Cached actual engine terms demonstrate counting ambiguity; no new execution in replay",
+      "passed": true
+    }
+  ]
+}

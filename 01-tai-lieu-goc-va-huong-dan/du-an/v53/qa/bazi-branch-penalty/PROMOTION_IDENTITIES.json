@@ -1,0 +1,263 @@
+{
+  "byteExactFiles": [
+    {
+      "source": "tmp/bazi-branch-penalty-staging/ACTUAL_RUNTIME.json",
+      "target": "v53/research/bazi-branch-penalty/ACTUAL_RUNTIME.json",
+      "bytes": 4134,
+      "sha256": "56fa7b4bc82471b04d51ebe79a5d5d6e8653071e6e965431eeed95b180afa6bf"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/CHAPTER_CLEAN.txt",
+      "target": "v53/research/bazi-branch-penalty/CHAPTER_CLEAN.txt",
+      "bytes": 6404,
+      "sha256": "7dac02df8d3d87385c2027991d9ce23894f7f5b310ef809d0af41d8ed67f168f"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/CHAPTER_DISPOSITIONS.json",
+      "target": "v53/research/bazi-branch-penalty/CHAPTER_DISPOSITIONS.json",
+      "bytes": 19538,
+      "sha256": "a6e96a3c46fd531975e381f759b69eb812599628971d547088f7dc05f221c735"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/decode-candidates.mjs",
+      "target": "v53/research/bazi-branch-penalty/decode-candidates.mjs",
+      "bytes": 2935,
+      "sha256": "4dbc619ae635685b8b64af4a87efc5876a7e04a41194085fc02d2a32edde3f91"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/DIGITAL_CHAPTER_LOCATOR.txt",
+      "target": "v53/research/bazi-branch-penalty/DIGITAL_CHAPTER_LOCATOR.txt",
+      "bytes": 7234,
+      "sha256": "79606660c31987a53aa471cb15ff82a74f4ece4b9f9ea02bdbc53400d572b34d"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/EXPECTED_BEFORE_IMPLEMENTATION.json",
+      "target": "v53/research/bazi-branch-penalty/EXPECTED_BEFORE_IMPLEMENTATION.json",
+      "bytes": 2300,
+      "sha256": "1e19146c8f75aca2c36e868c5851491b5250d8f6f8bc712d11217647b502eaed"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/LOCAL_RENDERS.json",
+      "target": "v53/research/bazi-branch-penalty/LOCAL_RENDERS.json",
+      "bytes": 4924,
+      "sha256": "b29f7ede4f2a14dc1208a3c78005f59498a3285f481a1301cd4738fbd830a5bb"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/MANUAL_SOURCE_TABLES.json",
+      "target": "v53/research/bazi-branch-penalty/MANUAL_SOURCE_TABLES.json",
+      "bytes": 4581,
+      "sha256": "81f09ac9a432785bdd069fd9010d1fd6b625927264b2a3b5e579a903aa30d200"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/NATIVE_REVIEW.json",
+      "target": "v53/research/bazi-branch-penalty/NATIVE_REVIEW.json",
+      "bytes": 5766,
+      "sha256": "f87e5699585ff3ee9ab0c25e839efda4dcce18f076911e2d7bde0e7a4de9c900"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/p214.png",
+      "target": "v53/research/bazi-branch-penalty/p214.png",
+      "bytes": 267740,
+      "sha256": "3f84c6cfff8b8f353b50b2754a76db9ba20a029d5b3e6660f3081af045dde301"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/p215-unresolved-mao-yin.png",
+      "target": "v53/research/bazi-branch-penalty/p215-unresolved-mao-yin.png",
+      "bytes": 43233,
+      "sha256": "fcb135444476e970c0366b1d7f45dccbe617a9ecd7ea6746a5fe5c12431c3a4d"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/p215.png",
+      "target": "v53/research/bazi-branch-penalty/p215.png",
+      "bytes": 274571,
+      "sha256": "66f394295e4be2e5ee51406d10798c8e30a02accfbd301f119ef8ab22fa93811"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/p216.png",
+      "target": "v53/research/bazi-branch-penalty/p216.png",
+      "bytes": 287882,
+      "sha256": "f0a3512c9c529a2168b38d93e074096ac2d190fa0cf5a90222dac50489137a0c"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/p217.png",
+      "target": "v53/research/bazi-branch-penalty/p217.png",
+      "bytes": 281113,
+      "sha256": "9bc04d619dd61c63d4504cf2058de572ca4de7e5f8ea5cbe2c4200eca4d33f4f"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/p218.png",
+      "target": "v53/research/bazi-branch-penalty/p218.png",
+      "bytes": 282670,
+      "sha256": "6950992c0ff0a3ca44f0c08c33e53d3330c63c5242706dd555b549fc882bd245"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/p219.png",
+      "target": "v53/research/bazi-branch-penalty/p219.png",
+      "bytes": 275356,
+      "sha256": "96f6f5b059ece6e72f927140f3b8df0ca7c139a1466f5cd49dbafa1e5a38e8bd"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/p220.png",
+      "target": "v53/research/bazi-branch-penalty/p220.png",
+      "bytes": 276061,
+      "sha256": "668f745cdfc9fe42d7b280b73e1f05d068491d11f56e5969ff7c5d1430e0cfe7"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/p221-three-car-voice-start.png",
+      "target": "v53/research/bazi-branch-penalty/p221-three-car-voice-start.png",
+      "bytes": 37006,
+      "sha256": "dbc3bfdfcfa3c44424938e1a8a6ac448f2fbd51b1aef695418d325b8d1ba7e23"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/p221.png",
+      "target": "v53/research/bazi-branch-penalty/p221.png",
+      "bytes": 247435,
+      "sha256": "acb5bfdbfffa107e65486648d8014e4cc1469a205396cc09658fd50d9be7265e"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/p222-three-car-voice-end.png",
+      "target": "v53/research/bazi-branch-penalty/p222-three-car-voice-end.png",
+      "bytes": 35981,
+      "sha256": "e2e817492ffc4f97a8ceee6cdbd4a157908d32d64ed9c0512daa45e27e6d27a6"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/p222.png",
+      "target": "v53/research/bazi-branch-penalty/p222.png",
+      "bytes": 266738,
+      "sha256": "e162178434f0fd418a2cff342f4108b3c7b1698fc6be0317d4d31d2f75ff26e4"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/p223.png",
+      "target": "v53/research/bazi-branch-penalty/p223.png",
+      "bytes": 254634,
+      "sha256": "34a797d228955a3411f1097a242e9f6f338457fdff229580a7680e30610b4df1"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/p224-printed-official-seal-pairs.png",
+      "target": "v53/research/bazi-branch-penalty/p224-printed-official-seal-pairs.png",
+      "bytes": 95550,
+      "sha256": "ec20ebd870df60c33b5286c9aef9b4b124a986bb509668f5aaee963043d4ca9e"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/p224.png",
+      "target": "v53/research/bazi-branch-penalty/p224.png",
+      "bytes": 266165,
+      "sha256": "9d80a2c0f7234783146380468f0f95417b9313ce69133b620b82b7aac6a64a0f"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/p225-five-entry-pairs.png",
+      "target": "v53/research/bazi-branch-penalty/p225-five-entry-pairs.png",
+      "bytes": 126937,
+      "sha256": "b9a5dcdbbd3938440f8fdec904163c660a7c89d01c952a346da0308a8e67b9dc"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/p225.png",
+      "target": "v53/research/bazi-branch-penalty/p225.png",
+      "bytes": 254859,
+      "sha256": "ae0e8839e6c3ffdc7865e29356fe62cb4438133137993b0ac175338a90ed881c"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/p226-three-role-complete.png",
+      "target": "v53/research/bazi-branch-penalty/p226-three-role-complete.png",
+      "bytes": 105253,
+      "sha256": "a080dfcae70903cfdcc10bbb67f473c9c99758c4d58f86e3de7aab02d976b4ed"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/p226-three-role-control-example.png",
+      "target": "v53/research/bazi-branch-penalty/p226-three-role-control-example.png",
+      "bytes": 71805,
+      "sha256": "ba16a59967502b091bb0fce0f5287be533dd6497ce4955a9b30a3e21fc0ba218"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/p226.png",
+      "target": "v53/research/bazi-branch-penalty/p226.png",
+      "bytes": 250259,
+      "sha256": "6da00c66a6eee43ec7a33e00930c876adf5c4254d96e6ca34ccca3905f79952d"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/p227.png",
+      "target": "v53/research/bazi-branch-penalty/p227.png",
+      "bytes": 242802,
+      "sha256": "45a829941d1d375f153749d7ab1c5c7f5507c1e36d9ff220f61f313fff99a058"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/penalty-reference.mjs",
+      "target": "v53/research/bazi-branch-penalty/penalty-reference.mjs",
+      "bytes": 6081,
+      "sha256": "c2bb2615c03e8c8f75a5d14463c178ff98c7166da7c77aaa36bc6c7dc47bfaa7"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/PREIMPLEMENTATION_FREEZE.json",
+      "target": "v53/research/bazi-branch-penalty/PREIMPLEMENTATION_FREEZE.json",
+      "bytes": 1190,
+      "sha256": "3df5b9b9504ad3ca40f436b8c0e13a91d93c4c33ee36966b4e85cedc622fa36f"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/prepare-evidence.py",
+      "target": "v53/research/bazi-branch-penalty/prepare-evidence.py",
+      "bytes": 7319,
+      "sha256": "f9af6b1a05d4908d67745b34caf760190c16d96f00b9dfcdfdf4dd9147289431"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/prepare-manual.py",
+      "target": "v53/research/bazi-branch-penalty/prepare-manual.py",
+      "bytes": 5992,
+      "sha256": "de86f6f01b5a4e2baacfe4e6a63e0a4c89e0642873f0e729c7f1f81efd79387e"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/README.md",
+      "target": "v53/research/bazi-branch-penalty/README.md",
+      "bytes": 2244,
+      "sha256": "eb40f550dc3ff0149070af3000bad753227aa8c89c641bf01b18533154cf8c88"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/REFERENCE_RESULTS.json",
+      "target": "v53/research/bazi-branch-penalty/REFERENCE_RESULTS.json",
+      "bytes": 634,
+      "sha256": "7d51905d63f64d68d664d7791aa148962417acd1cf02cecce7e6552feb430686"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/REUSED_ACTUAL_EVIDENCE.json",
+      "target": "v53/research/bazi-branch-penalty/REUSED_ACTUAL_EVIDENCE.json",
+      "bytes": 430,
+      "sha256": "e9afab91eff4121b2f7996fa5f8af64e4b429cb7668b665acf4e5a3cff98709e"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/run-actual-once.mjs",
+      "target": "v53/research/bazi-branch-penalty/run-actual-once.mjs",
+      "bytes": 2944,
+      "sha256": "9db003b43ce324e77cc40e232b1d80d48226e9e60d8faf6781215127e283499b"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/SELECTED_CROPS.json",
+      "target": "v53/research/bazi-branch-penalty/SELECTED_CROPS.json",
+      "bytes": 4020,
+      "sha256": "af630d1e1bd3c960870f0e71a2486a7a3dbce1306594319bcc166a1bfa0639a0"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/SOURCE_RESULTS.json",
+      "target": "v53/research/bazi-branch-penalty/SOURCE_RESULTS.json",
+      "bytes": 601,
+      "sha256": "cb8a9290a63858bf044101ff402a635ad71389e74297722e13903a88807ae003"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/test-penalty-reference.mjs",
+      "target": "v53/research/bazi-branch-penalty/test-penalty-reference.mjs",
+      "bytes": 9276,
+      "sha256": "53091018ce0b9dbdbabd43fe175e1e7cef37530f48e0f2857cff7a1eeed4904c"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/verify-source.py",
+      "target": "v53/research/bazi-branch-penalty/verify-source.py",
+      "bytes": 3588,
+      "sha256": "f66d5995ef29690b3a6451925388deca0df3082aa6a5544f9657bb7ed9c81ebb"
+    },
+    {
+      "source": "tmp/bazi-branch-penalty-staging/WORK_STATE.json",
+      "target": "v53/research/bazi-branch-penalty/WORK_STATE.json",
+      "bytes": 1858,
+      "sha256": "fb5659af8f58064f47aae2b4ac994a0d4d8b3d61c19490f7947bb3a69c25efdf"
+    }
+  ],
+  "noFullSnapshotCreated": true
+}

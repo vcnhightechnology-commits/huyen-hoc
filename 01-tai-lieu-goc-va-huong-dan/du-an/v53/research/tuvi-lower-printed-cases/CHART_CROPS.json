@@ -1,0 +1,42 @@
+{
+  "records": [
+    {
+      "file": "canvas080-left-chart-native.png",
+      "sourceFile": "canvas-080-3000.jpg",
+      "sourceSHA256": "0da236e3f2d66ebab6e2fbb710e8fe8145258110f7b02294474fa71135512ece",
+      "cropBox": [
+        320,
+        380,
+        1460,
+        1990
+      ],
+      "width": 1140,
+      "height": 1610,
+      "bytes": 2659661,
+      "sha256": "750af41b33635a102f5d32fb03dc983822b0873059df661f9256c930763f6451",
+      "resampled": false,
+      "actuallyViewed": true,
+      "pixelMatch": true,
+      "RGBPixelMatch": true
+    },
+    {
+      "file": "canvas080-right-chart-native.png",
+      "sourceFile": "canvas-080-3000.jpg",
+      "sourceSHA256": "0da236e3f2d66ebab6e2fbb710e8fe8145258110f7b02294474fa71135512ece",
+      "cropBox": [
+        1620,
+        380,
+        2740,
+        1990
+      ],
+      "width": 1120,
+      "height": 1610,
+      "bytes": 2706273,
+      "sha256": "eca3a8904014fd41116890a6f2cfc737fb1018832c0e7d058f211ce8047f5034",
+      "resampled": false,
+      "actuallyViewed": true,
+      "pixelMatch": true,
+      "RGBPixelMatch": true
+    }
+  ]
+}

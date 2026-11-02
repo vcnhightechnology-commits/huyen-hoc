@@ -1,0 +1,79 @@
+{
+  "scope": "Sixboundedpageobservationsbeyondthe15targetedvariantreadings;not counted in8QAchecksorclaimedaswholechapterreading.",
+  "records": [
+    {
+      "pdfPage": 130,
+      "printedVolume": "三",
+      "printedPage": "28",
+      "image": "../meihua/images/p130.png",
+      "imageSHA256": "636474aa652e900bceadbf69b2372c13c672802e58ba8fd6004fc409e601bc62",
+      "note": "Directional/day/instant/external-response paragraphs. Day-branchfiveelementgroups retained;not a fullstrengthalgorithm."
+    },
+    {
+      "pdfPage": 140,
+      "printedVolume": "三",
+      "printedPage": "38",
+      "image": "../meihua/images/p140.png",
+      "imageSHA256": "55f91db906a5b5198f45ea4d3d9cb35fef088bb9bb2086c57c25f0663f1e9fbb",
+      "note": "CorrespondencecataloguecontinuationLi→Gen. Thisisfullerthan thethree-volume digital終section;requires explicitmapping,not aconstantpageoffset acrossbook."
+    },
+    {
+      "pdfPage": 150,
+      "printedVolume": "四",
+      "printedPage": "6",
+      "image": "../meihua/images/p150.png",
+      "imageSHA256": "b913ea00a035687b61b1cb83e53bdc0e002f67b633180eb2d7ca2b63dd6e1fab",
+      "note": "花押賦 introduction:stroke/formfiveelements andsixspiritsrequire observation/classification ofwrittenforms. No deterministic moderntextclassifierlicensed."
+    },
+    {
+      "pdfPage": 180,
+      "printedVolume": "四",
+      "printedPage": "36",
+      "image": "../meihua/images/p180.png",
+      "imageSHA256": "2a51d69dc6ba57c236bf1ea71d608f26eda0c78a50127c7f1088186876e8e9fb",
+      "note": "Sixspiritstable shows甲乙/丙丁dayrows then辨別五行歌. Theseareappendixrules,not automatically MaiHoa body/use;otherstemrowsneedreading."
+    },
+    {
+      "pdfPage": 200,
+      "printedVolume": "五",
+      "printedPage": "12",
+      "image": "../meihua/images/p200.png",
+      "imageSHA256": "1a0e8269e17164b8d6c7b6a627d28bec4abe2dfebd1bb12a6238e9e1f81bfcc6",
+      "note": "Character-divinationanecdotesandwordplay,narrativepremisesnotdeterministicforecast.",
+      "historicalPrintedPage": "13",
+      "correctionEvidence": "../meihua-witness/EDITION_IDENTITY.json"
+    },
+    {
+      "pdfPage": 220,
+      "printedVolume": "五",
+      "printedPage": "32",
+      "image": "../meihua/images/p220.png",
+      "imageSHA256": "3ea99aade6306d2517cfcc3b21ede4f57814657177ed1913d0ce1e83a7fc7f84",
+      "note": "Character/strokeobjectinterpretations including正/邪 framing. Do not turnmoral/socialstereotypes ormedicaloutcomes intoautomaticuserjudgments.",
+      "historicalPrintedPage": "33",
+      "correctionEvidence": "../meihua-witness/EDITION_IDENTITY.json"
+    }
+  ],
+  "candidateVolumeStarts": [
+    {
+      "volume": 4,
+      "pdfPageCandidate": 145,
+      "basis": "150printed6and180printed36",
+      "verifiedTitlePage": true,
+      "verifiedTitlePDFPage": 145,
+      "evidence": "../meihua-witness/EDITION_IDENTITY.json"
+    },
+    {
+      "volume": 5,
+      "pdfPageCandidate": 189,
+      "basis": "Direct title atPDF189;PDF188 is卷四終44. PrintedPDF200=12,220=32.",
+      "verifiedTitlePage": true,
+      "historicalPDFPageCandidate": 188,
+      "verifiedTitlePDFPage": 189,
+      "evidence": "../meihua-witness/EDITION_IDENTITY.json"
+    }
+  ],
+  "newFunctionsApplied": false,
+  "wholeBookCompleted": false,
+  "latestCorrection": "2026-10-26: direct title/endleaf/margin reading supersedes earlier inferred volume5 offset;historical values retained."
+}

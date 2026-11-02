@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-29",
+  "executedUTC": "2026-10-29T08:04:52.654Z",
+  "libraryVersion": "1.8.6",
+  "librarySHA256": "76e490b74e9913ed94b49689b90abc688ed1e2b11456312b3eb081ec63cf2fbe",
+  "scriptSHA256": "42c8fce3e1ab2285cf0554bace6d247c921b8c8a8d9e4fae970f0c3d475f4614",
+  "freezeSHA256": "f3b351e1069baae7b55bff65120a7a48ca330dd74ee3b469fd5ef7fe0f6a66a1",
+  "actualLabels": [
+    "长生",
+    "沐浴",
+    "冠带",
+    "临官",
+    "帝旺",
+    "衰",
+    "病",
+    "死",
+    "墓",
+    "绝",
+    "胎",
+    "养"
+  ],
+  "comparisons": [
+    {
+      "index": 0,
+      "lunarLabel": "长生",
+      "comparisonLabel": "長生",
+      "normalization": "explicit-comparison-only-Simplified-to-retained-Traditional",
+      "sourceMainName": "長生",
+      "matchesSourceMainOrder": true
+    },
+    {
+      "index": 1,
+      "lunarLabel": "沐浴",
+      "comparisonLabel": "沐浴",
+      "normalization": "none",
+      "sourceMainName": "沐浴",
+      "matchesSourceMainOrder": true
+    },
+    {
+      "index": 2,
+      "lunarLabel": "冠带",
+      "comparisonLabel": "冠帶",
+      "normalization": "explicit-comparison-only-Simplified-to-retained-Traditional",
+      "sourceMainName": "冠帶",
+      "matchesSourceMainOrder": true
+    },
+    {
+      "index": 3,
+      "lunarLabel": "临官",
+      "comparisonLabel": "臨官",
+      "normalization": "explicit-comparison-only-Simplified-to-retained-Traditional",
+      "sourceMainName": "臨官",
+      "matchesSourceMainOrder": true
+    },
+    {
+      "index": 4,
+      "lunarLabel": "帝旺",
+      "comparisonLabel": "帝旺",
+      "normalization": "none",
+      "sourceMainName": "帝旺",
+      "matchesSourceMainOrder": true
+    },
+    {
+      "index": 5,
+      "lunarLabel": "衰",
+      "comparisonLabel": "衰",
+      "normalization": "none",
+      "sourceMainName": "衰",
+      "matchesSourceMainOrder": true
+    },
+    {
+      "index": 6,
+      "lunarLabel": "病",
+      "comparisonLabel": "病",
+      "normalization": "none",
+      "sourceMainName": "病",
+      "matchesSourceMainOrder": true
+    },
+    {
+      "index": 7,
+      "lunarLabel": "死",
+      "comparisonLabel": "死",
+      "normalization": "none",
+      "sourceMainName": "死",
+      "matchesSourceMainOrder": true
+    },
+    {
+      "index": 8,
+      "lunarLabel": "墓",
+      "comparisonLabel": "墓",
+      "normalization": "none",
+      "sourceMainName": "墓",
+      "matchesSourceMainOrder": true
+    },
+    {
+      "index": 9,
+      "lunarLabel": "绝",
+      "comparisonLabel": "絶",
+      "normalization": "explicit-comparison-only-Simplified-to-retained-Traditional",
+      "sourceMainName": "絶",
+      "matchesSourceMainOrder": true
+    },
+    {
+      "index": 10,
+      "lunarLabel": "胎",
+      "comparisonLabel": "胎",
+      "normalization": "none",
+      "sourceMainName": "胎",
+      "matchesSourceMainOrder": true
+    },
+    {
+      "index": 11,
+      "lunarLabel": "养",
+      "comparisonLabel": "養",
+      "normalization": "explicit-comparison-only-Simplified-to-retained-Traditional",
+      "sourceMainName": "養",
+      "matchesSourceMainOrder": true
+    }
+  ],
+  "summary": {
+    "actualLunarLifeStageTableReads": 1,
+    "labelsInTable": 12,
+    "actualCalendarObjects": 0,
+    "actualEightCharObjects": 0,
+    "actualHHCCharts": 0,
+    "actualIztroCharts": 0,
+    "sourceQuotedOrderComparedAsSameOrdinal": false,
+    "sourceAliasesOrStrengthValidated": false,
+    "consumerChanged": false
+  }
+}

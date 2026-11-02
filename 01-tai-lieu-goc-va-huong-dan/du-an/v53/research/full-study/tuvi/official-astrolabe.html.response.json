@@ -1,0 +1,29 @@
+{
+  "url": "https://docs.iztro.com/en_US/learn/astrolabe",
+  "status": 200,
+  "headers": {
+    "date": "Mon, 26 Oct 2026 04:20:40 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "x-content-type-options": "nosniff",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=0CD7adISi%2Fy45LQtFXEZLw4H5AF0RnEZDeai%2FikIwm8UzK9jpO9r3W3MxOe0WFAMjJcDuHPv1hyXJy1R7bYZqN6nXrba0GDHL%2F8q6etTEKamoFf6rd7pBAdUgbVT0KEwglq2%2BlWXo%2BmdZ0fXiw%3D%3D\"}]}",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "access-control-allow-origin": "*",
+    "cache-control": "public, max-age=0, must-revalidate",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "link": "</assets/style.ddd4f68c.css>; rel=\"preload stylesheet\"; as=style, </assets/chunks/framework.7fab6bae.js>; rel=\"modulepreload\", </assets/chunks/theme.132a76fd.js>; rel=\"modulepreload\", </assets/chunks/palace@2x.07328b4c.js>; rel=\"modulepreload\", </assets/chunks/donate.3a95be8c.js>; rel=\"modulepreload\", </assets/chunks/wcpay.d0e1a780.js>; rel=\"modulepreload\", </assets/en_US_learn_astrolabe.md.7a23c65c.lean.js>; rel=\"modulepreload\"",
+    "server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=30,cfOrigin;dur=70",
+    "server": "cloudflare",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a506ab7ad9a82b4f-LAX",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "receivedUTC": "2026-10-26T04:20:45.853Z",
+  "tls": {
+    "authorized": true,
+    "authorizationError": null
+  },
+  "bytes": 71975,
+  "sha256": "895f0e11a0acf4f4cdeb039ee6cf49d715227f2e016957faafb556d2ed6ba0ad"
+}

@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-27",
+  "sixClashes": {
+    "pdfPage": 80,
+    "pairs": [
+      [
+        "子",
+        "午"
+      ],
+      [
+        "丑",
+        "未"
+      ],
+      [
+        "寅",
+        "申"
+      ],
+      [
+        "卯",
+        "酉"
+      ],
+      [
+        "辰",
+        "戌"
+      ],
+      [
+        "巳",
+        "亥"
+      ]
+    ]
+  },
+  "sixCombinations": {
+    "pdfPage": 73,
+    "pairs": [
+      [
+        "子",
+        "丑"
+      ],
+      [
+        "寅",
+        "亥"
+      ],
+      [
+        "卯",
+        "戌"
+      ],
+      [
+        "辰",
+        "酉"
+      ],
+      [
+        "巳",
+        "申"
+      ],
+      [
+        "午",
+        "未"
+      ]
+    ]
+  },
+  "threeCombinations": {
+    "pdfPage": 77,
+    "records": [
+      {
+        "branches": [
+          "申",
+          "子",
+          "辰"
+        ],
+        "element": "水"
+      },
+      {
+        "branches": [
+          "巳",
+          "酉",
+          "丑"
+        ],
+        "element": "金"
+      },
+      {
+        "branches": [
+          "寅",
+          "午",
+          "戌"
+        ],
+        "element": "火"
+      },
+      {
+        "branches": [
+          "亥",
+          "卯",
+          "未"
+        ],
+        "element": "木"
+      }
+    ],
+    "implementation": "Table identity only. Full合局applicationdepends on motion/void/tomb/use-lineconditions;not automatically a transformation or good outcome."
+  },
+  "chapter19SixNamedKinds": {
+    "pdfPages": [
+      73,
+      74,
+      76
+    ],
+    "kinds": [
+      "日月合爻",
+      "爻與爻合",
+      "動爻化合",
+      "卦逢六合",
+      "六沖變六合",
+      "六合變六合"
+    ],
+    "scope": "Classification retained separately;no generic合=auspicious score. Source itself distinguishes useful-god vitality,question context and有凶有吉."
+  },
+  "pairDirection": "Symmetric relation;not evidence of automatic element transformation or causal priority."
+}

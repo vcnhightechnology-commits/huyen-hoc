@@ -1,0 +1,31 @@
+{
+  "frozenAtUTC": "2026-10-29T13:07:59.609169+00:00",
+  "purpose": "Native reading, source dispositions, manual tables and expectations frozen before new runtime or reference implementation.",
+  "files": [
+    {
+      "file": "NATIVE_REVIEW.json",
+      "bytes": 3722,
+      "sha256": "9a238e1e200f05bb5e19fa583814fb10406465efb6e3f111e3479b6de9c8fc6c"
+    },
+    {
+      "file": "NATIVE_CROPS.json",
+      "bytes": 1305,
+      "sha256": "f4a2ab79920e4b54d052dcdd5bacbadd64a2eff373b3e1204007b403d4976741"
+    },
+    {
+      "file": "CHAPTER_DISPOSITIONS.json",
+      "bytes": 11604,
+      "sha256": "b574dc88aab22fd4a591ef482a96df8f30c7659650578619dd717fb116593408"
+    },
+    {
+      "file": "MANUAL_TABLES.json",
+      "bytes": 4795,
+      "sha256": "e1fb430b10622c29a2447867bf730e7a2d2eb1171280d2e64d309d9e03fc4937"
+    },
+    {
+      "file": "EXPECTED_BEFORE_IMPLEMENTATION.json",
+      "bytes": 1743,
+      "sha256": "1aa8bf6322a25481cf0d484ad6626ab4fe8f352f5b0058c7615b40fa2f1897b7"
+    }
+  ]
+}

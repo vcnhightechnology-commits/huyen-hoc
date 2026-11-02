@@ -1,0 +1,110 @@
+{
+  "date": "2026-10-27",
+  "pdfPage": 33,
+  "heading": "月破定例",
+  "rows": [
+    {
+      "jieAsPrinted": "立春",
+      "runtimeSimplifiedAlias": "立春",
+      "sourceMonthOrdinal": 1,
+      "monthBranch": "寅",
+      "monthBreakBranch": "申",
+      "printedMonthLabel": "1月節建寅破申"
+    },
+    {
+      "jieAsPrinted": "驚蟄",
+      "runtimeSimplifiedAlias": "惊蛰",
+      "sourceMonthOrdinal": 2,
+      "monthBranch": "卯",
+      "monthBreakBranch": "酉",
+      "printedMonthLabel": "2月節建卯破酉"
+    },
+    {
+      "jieAsPrinted": "清明",
+      "runtimeSimplifiedAlias": "清明",
+      "sourceMonthOrdinal": 3,
+      "monthBranch": "辰",
+      "monthBreakBranch": "戌",
+      "printedMonthLabel": "3月節建辰破戌"
+    },
+    {
+      "jieAsPrinted": "立夏",
+      "runtimeSimplifiedAlias": "立夏",
+      "sourceMonthOrdinal": 4,
+      "monthBranch": "巳",
+      "monthBreakBranch": "亥",
+      "printedMonthLabel": "4月節建巳破亥"
+    },
+    {
+      "jieAsPrinted": "芒種",
+      "runtimeSimplifiedAlias": "芒种",
+      "sourceMonthOrdinal": 5,
+      "monthBranch": "午",
+      "monthBreakBranch": "子",
+      "printedMonthLabel": "5月節建午破子"
+    },
+    {
+      "jieAsPrinted": "小暑",
+      "runtimeSimplifiedAlias": "小暑",
+      "sourceMonthOrdinal": 6,
+      "monthBranch": "未",
+      "monthBreakBranch": "丑",
+      "printedMonthLabel": "6月節建未破丑"
+    },
+    {
+      "jieAsPrinted": "立秋",
+      "runtimeSimplifiedAlias": "立秋",
+      "sourceMonthOrdinal": 7,
+      "monthBranch": "申",
+      "monthBreakBranch": "寅",
+      "printedMonthLabel": "7月節建申破寅"
+    },
+    {
+      "jieAsPrinted": "白露",
+      "runtimeSimplifiedAlias": "白露",
+      "sourceMonthOrdinal": 8,
+      "monthBranch": "酉",
+      "monthBreakBranch": "卯",
+      "printedMonthLabel": "8月節建酉破卯"
+    },
+    {
+      "jieAsPrinted": "寒露",
+      "runtimeSimplifiedAlias": "寒露",
+      "sourceMonthOrdinal": 9,
+      "monthBranch": "戌",
+      "monthBreakBranch": "辰",
+      "printedMonthLabel": "9月節建戌破辰"
+    },
+    {
+      "jieAsPrinted": "立冬",
+      "runtimeSimplifiedAlias": "立冬",
+      "sourceMonthOrdinal": 10,
+      "monthBranch": "亥",
+      "monthBreakBranch": "巳",
+      "printedMonthLabel": "10月節建亥破巳"
+    },
+    {
+      "jieAsPrinted": "大雪",
+      "runtimeSimplifiedAlias": "大雪",
+      "sourceMonthOrdinal": 11,
+      "monthBranch": "子",
+      "monthBreakBranch": "午",
+      "printedMonthLabel": "11月節建子破午"
+    },
+    {
+      "jieAsPrinted": "小寒",
+      "runtimeSimplifiedAlias": "小寒",
+      "sourceMonthOrdinal": 12,
+      "monthBranch": "丑",
+      "monthBreakBranch": "未",
+      "printedMonthLabel": "12月節建丑破未"
+    }
+  ],
+  "sourceWordingQualification": "Printed正月/二月etc are explicitly節建 rows here. Do not substitute lunar day1. Labels3..12normalizednumeric;not pretendingoriginalcharacters.",
+  "sourceBoundaryType": "named12jie—not24termsandnotlunarnewmonth",
+  "gregorianTimezoneSpecifiedBySource": false,
+  "namedJieInputSupported": true,
+  "solarDateAdapterImplemented": false,
+  "comparisonWithB02": "MonthclashbranchpaircoordinatesagreewithB02PDF103..104. B03adds12namedjieanchors;doesnotproveB02authorusedallidenticaldateboundaries.",
+  "consumerApplied": false
+}

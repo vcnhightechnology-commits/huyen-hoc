@@ -1,0 +1,39 @@
+{
+  "records": [
+    {
+      "file": "131-token-compare.png",
+      "sourceFile": "v53/research/home-yangzhai-final-spans/selection/raw-p131.jpg",
+      "sourceSHA256": "e8e587a003957124e35252d9885ba8b2ec0f4eb413a5606a10523f1e4d0408f0",
+      "cropBox": [
+        870,
+        940,
+        1070,
+        1140
+      ],
+      "sha256": "10f6f2f6707c5f4fb6fcccdb04eabea418f2432419c38c2dd68b3e047f669eab",
+      "bytes": 67666,
+      "actuallyViewed": true,
+      "resampled": false,
+      "RGBPixelMatch": true,
+      "acceptedForLiteralProof": false,
+      "exclusionReason": "Small table token glyph still uncertain. Legible 帝 in the caption does not identify this token; do not substitute a modern/OCR lexicon."
+    },
+    {
+      "file": "131-caption-imperial.png",
+      "sourceFile": "v53/research/home-yangzhai-final-spans/selection/raw-p131.jpg",
+      "sourceSHA256": "e8e587a003957124e35252d9885ba8b2ec0f4eb413a5606a10523f1e4d0408f0",
+      "cropBox": [
+        1760,
+        1030,
+        2000,
+        1520
+      ],
+      "sha256": "00973565a5e84e7adfdea82a6489997063c6b247dcd3b240934e4795dc885abf",
+      "bytes": 201697,
+      "actuallyViewed": true,
+      "resampled": false,
+      "RGBPixelMatch": true,
+      "acceptedForLiteralProof": true
+    }
+  ]
+}

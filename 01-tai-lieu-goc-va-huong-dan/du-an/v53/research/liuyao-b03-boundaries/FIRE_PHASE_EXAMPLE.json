@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-27",
+  "sourceID": "B03",
+  "pdfPages": [
+    22,
+    23
+  ],
+  "printedPhaseOrder": [
+    "長生",
+    "沐浴",
+    "冠帶",
+    "臨官",
+    "帝旺",
+    "衰",
+    "病",
+    "死",
+    "墓",
+    "絕",
+    "胎",
+    "養"
+  ],
+  "explicitFireExample": {
+    "birthBranch": "寅",
+    "direction": "順行",
+    "printedExamples": [
+      {
+        "branch": "寅",
+        "phase": "長生"
+      },
+      {
+        "branch": "卯",
+        "phase": "沐浴"
+      },
+      {
+        "branch": "辰",
+        "phase": "冠帶"
+      }
+    ]
+  },
+  "derivationPolicy": "Remainingninefirecoordinatesderivedfromexplicit12phaseorderandforwardbranchsequence. Notclaimedtwelvefirecellsprintedindividually.",
+  "framework": "B03fire-example-forward-twelve-phase;separatefromB02fourphase-authorrestriction",
+  "otherElementBirthAnchors": "Handdiagramotherlabelsnotcompiledfromthisboundedview;do not borrowB02anchorsandcallthemB03proof.",
+  "sourceToOutcomeClaim": false,
+  "consumerApplied": false
+}

@@ -1,0 +1,385 @@
+{
+  "schema": "hhc.source.http.v1",
+  "records": [
+    {
+      "file": "japan-volume1-item.html",
+      "url": "https://www.digital.archives.go.jp/item/4756813",
+      "executed": true,
+      "status": 200,
+      "headers": {
+        "content-type": "text/html;charset=UTF-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "date": "Tue, 27 Oct 2026 02:40:42 GMT",
+        "set-cookie": [
+          "AWSALB=cGlHJB1OEqUqd2U5dj87gehn2bYW8w7NjVIcR5asn3iemKjys5XiZeDz1cCB3PvfriWgUD2rBuvPtnJKtVJNnrkze51DkmnE701BNAdNQpdEr9OZkFbs7yO6yN+7; Expires=Tue, 03 Nov 2026 02:40:41 GMT; Path=/;HttpOnly;Secure",
+          "AWSALBCORS=cGlHJB1OEqUqd2U5dj87gehn2bYW8w7NjVIcR5asn3iemKjys5XiZeDz1cCB3PvfriWgUD2rBuvPtnJKtVJNnrkze51DkmnE701BNAdNQpdEr9OZkFbs7yO6yN+7; Expires=Tue, 03 Nov 2026 02:40:41 GMT; Path=/; SameSite=None;HttpOnly;Secure",
+          "JSESSIONID=452B225FAAAF1537078FA35F94C7AE34; Path=/; HttpOnly;HttpOnly;Secure",
+          "amladConsumerLang=ja; Path=/;HttpOnly;Secure"
+        ],
+        "strict-transport-security": "max-age=31536000",
+        "server": "Apache",
+        "x-frame-options": "SAMEORIGIN",
+        "pragma": "no-cache",
+        "cache-control": "no-cache, no-store",
+        "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+        "content-security-policy": "frame-ancestors 'self'",
+        "content-language": "ja",
+        "x-cache": "Miss from cloudfront",
+        "via": "1.1 93861fd9f578d34ecf5dd630e7a5d840.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "LAX53-P5",
+        "x-amz-cf-id": "2FK-eebidJNMjIcfnXDmjxxdyBcXVUo5FaY4TVaOrfB0rkIPfkkkVA=="
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "bytes": 74916,
+      "sha256": "27fabcd24e09bb29711bc77dafd61a682ce6d2977a9c1bcd22419954db4754b3",
+      "retrievedUTC": "2026-10-27T02:40:47.232Z"
+    },
+    {
+      "file": "japan-volume1-viewer.html",
+      "url": "https://www.digital.archives.go.jp/img/4756813",
+      "executed": true,
+      "status": 200,
+      "headers": {
+        "content-type": "text/html;charset=UTF-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "date": "Tue, 27 Oct 2026 02:41:06 GMT",
+        "set-cookie": [
+          "AWSALB=vs6Ctjmjbk5KQON3BMJ0N6Qgq8A3JNiQCN0566Lli7Ue1tjKjKqZFpGrsMnvTz8jHCW9aoPpJBTRU1SqVQZ3PGsZXj1N5+lVJg6/5NiMcC/xJBupI6DNpG3nl/Mz; Expires=Tue, 03 Nov 2026 02:41:04 GMT; Path=/;HttpOnly;Secure",
+          "AWSALBCORS=vs6Ctjmjbk5KQON3BMJ0N6Qgq8A3JNiQCN0566Lli7Ue1tjKjKqZFpGrsMnvTz8jHCW9aoPpJBTRU1SqVQZ3PGsZXj1N5+lVJg6/5NiMcC/xJBupI6DNpG3nl/Mz; Expires=Tue, 03 Nov 2026 02:41:04 GMT; Path=/; SameSite=None;HttpOnly;Secure",
+          "JSESSIONID=409809A8471C7430D0AAC8D7CFF1120E; Path=/; HttpOnly;HttpOnly;Secure",
+          "amladConsumerLang=ja; Path=/;HttpOnly;Secure"
+        ],
+        "strict-transport-security": "max-age=31536000",
+        "server": "Apache",
+        "x-frame-options": "SAMEORIGIN",
+        "pragma": "no-cache",
+        "cache-control": "no-cache, no-store",
+        "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+        "content-security-policy": "frame-ancestors 'self'",
+        "content-language": "ja",
+        "x-cache": "Miss from cloudfront",
+        "via": "1.1 156c1c95a1447a435e96e947286eecc8.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "LAX53-P5",
+        "x-amz-cf-id": "K8mDaeR2sAPHHNeMrxfTHOJ-6XCaFwUtF_aKdGAGhWTUWFQEcCnx4w=="
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "bytes": 124338,
+      "sha256": "2c346505609cd5b4b4e62e9df1289069106b39cf6ba18133a5fe536500c671b9",
+      "retrievedUTC": "2026-10-27T02:41:11.509Z"
+    },
+    {
+      "file": "japan-volume1-manifest.json",
+      "url": "https://www.digital.archives.go.jp/api/iiif/4756813/manifest.json",
+      "executed": true,
+      "status": 200,
+      "headers": {
+        "content-type": "application/json;charset=UTF-8",
+        "content-length": "47027",
+        "connection": "keep-alive",
+        "date": "Tue, 27 Oct 2026 02:41:29 GMT",
+        "strict-transport-security": "max-age=31536000",
+        "server": "Apache",
+        "x-frame-options": "SAMEORIGIN",
+        "pragma": "no-cache",
+        "cache-control": "no-cache, no-store",
+        "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+        "content-security-policy": "frame-ancestors 'self'",
+        "x-content-type-options": "nosniff",
+        "access-control-allow-origin": "*",
+        "content-language": "ja",
+        "set-cookie": [
+          "AWSALB=apYKKV8ZlTh5GHARyxv3qAd1fDWe6skjPiEYxcj1kABUoAs2kndNEMucC7Y2lN717fyt0KE8v4dFllkiwGZUNjNFZqacWZZwtDjL+qUIN0hJl927yvMSXME/Frme; Expires=Tue, 03 Nov 2026 02:41:27 GMT; Path=/;HttpOnly;Secure",
+          "AWSALBCORS=apYKKV8ZlTh5GHARyxv3qAd1fDWe6skjPiEYxcj1kABUoAs2kndNEMucC7Y2lN717fyt0KE8v4dFllkiwGZUNjNFZqacWZZwtDjL+qUIN0hJl927yvMSXME/Frme; Expires=Tue, 03 Nov 2026 02:41:27 GMT; Path=/; SameSite=None;HttpOnly;Secure",
+          "JSESSIONID=AF87E6DEC4296D9A9817121E3023BD10; Path=/; HttpOnly;HttpOnly;Secure",
+          "amladConsumerLang=ja; Path=/;HttpOnly;Secure"
+        ],
+        "x-cache": "Miss from cloudfront",
+        "via": "1.1 06d59977fe0d9b197a714e6cf88d11ca.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "LAX53-P5",
+        "x-amz-cf-id": "b_IBfTUX8QZrqrKU61zK1IWY7jk3cxEmU3f6hvbHvdVU8o5gMjM2Cg=="
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "bytes": 47027,
+      "sha256": "d87199d47ed044a6c236772c74bd75ba55b2feb3b13ce23e74cbf6720f3b3dd2",
+      "retrievedUTC": "2026-10-27T02:41:34.192Z"
+    },
+    {
+      "file": "japan-nav-20.jpg",
+      "url": "https://www.digital.archives.go.jp/api/content/item/da12/C103347725100/cover/M2021052512400415598_0020.jp2.jpg",
+      "executed": true,
+      "status": 200,
+      "headers": {
+        "content-type": "image/jpeg;charset=UTF-8",
+        "content-length": "13403",
+        "connection": "keep-alive",
+        "date": "Tue, 27 Oct 2026 02:42:01 GMT",
+        "strict-transport-security": "max-age=31536000",
+        "server": "Apache",
+        "x-frame-options": "SAMEORIGIN",
+        "pragma": "no-cache",
+        "cache-control": "no-cache, no-store",
+        "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+        "content-security-policy": "frame-ancestors 'self'",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-language": "ja",
+        "x-cache": "Miss from cloudfront",
+        "via": "1.1 156c1c95a1447a435e96e947286eecc8.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "LAX53-P5",
+        "x-amz-cf-id": "qMBLnyoMQZEmcU-1X-PnjUb3msFHiarhslzINMhQdRxiKY43XsE7SA=="
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "bytes": 13403,
+      "sha256": "1a52f279ebd32ae64b8ea21e310f5c7bdf93df924c66aaecc8e38cb54786725a",
+      "retrievedUTC": "2026-10-27T02:42:06.534Z"
+    },
+    {
+      "file": "japan-nav-30.jpg",
+      "url": "https://www.digital.archives.go.jp/api/content/item/da12/C103347726100/cover/M2021052512400415598_0030.jp2.jpg",
+      "executed": true,
+      "status": 200,
+      "headers": {
+        "content-type": "image/jpeg;charset=UTF-8",
+        "content-length": "12341",
+        "connection": "keep-alive",
+        "date": "Tue, 27 Oct 2026 02:42:03 GMT",
+        "strict-transport-security": "max-age=31536000",
+        "server": "Apache",
+        "x-frame-options": "SAMEORIGIN",
+        "pragma": "no-cache",
+        "cache-control": "no-cache, no-store",
+        "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+        "content-security-policy": "frame-ancestors 'self'",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-language": "ja",
+        "x-cache": "Miss from cloudfront",
+        "via": "1.1 791112ac4f59f6c41c045c01bebdcbfc.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "LAX53-P5",
+        "x-amz-cf-id": "s2LXJz66MM2Mco452GirVz8J6X6B_x2DPbOF7wDGHzVgeRj1z-VQkw=="
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "bytes": 12341,
+      "sha256": "d41f9b19a7cfb29fe5e1eda4da1f429a38aebe83f981d76b3500f5f34472c643",
+      "retrievedUTC": "2026-10-27T02:42:07.848Z"
+    },
+    {
+      "file": "japan-nav-40.jpg",
+      "url": "https://www.digital.archives.go.jp/api/content/item/da12/C103347727100/cover/M2021052512400415598_0040.jp2.jpg",
+      "executed": true,
+      "status": 200,
+      "headers": {
+        "content-type": "image/jpeg;charset=UTF-8",
+        "content-length": "12069",
+        "connection": "keep-alive",
+        "date": "Tue, 27 Oct 2026 02:42:04 GMT",
+        "strict-transport-security": "max-age=31536000",
+        "server": "Apache",
+        "x-frame-options": "SAMEORIGIN",
+        "pragma": "no-cache",
+        "cache-control": "no-cache, no-store",
+        "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+        "content-security-policy": "frame-ancestors 'self'",
+        "accept-ranges": "bytes",
+        "access-control-allow-origin": "*",
+        "content-language": "ja",
+        "x-cache": "Miss from cloudfront",
+        "via": "1.1 f9dd0591c3cff00622aed9c3c625d64a.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "LAX53-P5",
+        "x-amz-cf-id": "maWXW53wGqw7aF_9DmGJTuCM7J3UE_heI5NRMA-i_pru7Lrz34940Q=="
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "bytes": 12069,
+      "sha256": "804bf4a19d8da3cffc2e593652162ccf3899e3a8ca13e2146ea702c5d2dc50c2",
+      "retrievedUTC": "2026-10-27T02:42:08.958Z"
+    },
+    {
+      "file": "japan-spread-30-original.jpg",
+      "url": "https://www.digital.archives.go.jp/api/content/item/da12/C103347726100/iiif/M2021052512400415598_0030.jp2/full/max/0/native.jpg",
+      "executed": true,
+      "status": 200,
+      "headers": {
+        "content-type": "image/jpeg;charset=UTF-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "date": "Tue, 27 Oct 2026 02:42:29 GMT",
+        "content-language": "ja",
+        "strict-transport-security": "max-age=31536000",
+        "server": "Apache",
+        "x-frame-options": "SAMEORIGIN",
+        "pragma": "no-cache",
+        "cache-control": "no-cache, no-store",
+        "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+        "content-security-policy": "frame-ancestors 'self'",
+        "access-control-allow-origin": "*",
+        "x-cache": "Miss from cloudfront",
+        "via": "1.1 9543852a33ab0793b0fff7e28c175f98.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "LAX53-P5",
+        "x-amz-cf-id": "b0ts-T9EuRvqAgqz0eblTEtOBeKd0JI5zjREO7PRnu9uGV0Oep67ug=="
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "bytes": 898286,
+      "sha256": "4d3461f9bb5f33a1cbc5a43e4baef0a74a302fbb1a981f9754b5a0ea4670a1c2",
+      "retrievedUTC": "2026-10-27T02:42:35.130Z"
+    },
+    {
+      "file": "japan-spread-32-original.jpg",
+      "url": "https://www.digital.archives.go.jp/api/content/item/da12/C103347726300/iiif/M2021052512400415598_0032.jp2/full/max/0/native.jpg",
+      "executed": true,
+      "status": 200,
+      "headers": {
+        "content-type": "image/jpeg;charset=UTF-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "date": "Tue, 27 Oct 2026 02:42:52 GMT",
+        "content-language": "ja",
+        "strict-transport-security": "max-age=31536000",
+        "server": "Apache",
+        "x-frame-options": "SAMEORIGIN",
+        "pragma": "no-cache",
+        "cache-control": "no-cache, no-store",
+        "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+        "content-security-policy": "frame-ancestors 'self'",
+        "access-control-allow-origin": "*",
+        "x-cache": "Miss from cloudfront",
+        "via": "1.1 156c1c95a1447a435e96e947286eecc8.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "LAX53-P5",
+        "x-amz-cf-id": "Bx2opzTSXfHr9D6_k9IerRYcEQgqD4QV4H5EyZ4fKf2mms6NL39-UQ=="
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "bytes": 893953,
+      "sha256": "3582dab07c1f0993d88511a246ad10e759ee5ee770c7e5c46c23c1f4a6713f38",
+      "retrievedUTC": "2026-10-27T02:42:57.969Z"
+    },
+    {
+      "file": "japan-spread-33-original.jpg",
+      "url": "https://www.digital.archives.go.jp/api/content/item/da12/C103347726400/iiif/M2021052512400415598_0033.jp2/full/max/0/native.jpg",
+      "executed": true,
+      "error": "timeout",
+      "responseBodyRetained": false,
+      "retrievedUTC": "2026-10-27T02:43:34.789Z"
+    },
+    {
+      "file": "japan-spread-35-original.jpg",
+      "url": "https://www.digital.archives.go.jp/api/content/item/da12/C103347726600/iiif/M2021052512400415598_0035.jp2/full/max/0/native.jpg",
+      "executed": true,
+      "status": 200,
+      "headers": {
+        "content-type": "image/jpeg;charset=UTF-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "date": "Tue, 27 Oct 2026 02:52:22 GMT",
+        "content-language": "ja",
+        "strict-transport-security": "max-age=31536000",
+        "server": "Apache",
+        "x-frame-options": "SAMEORIGIN",
+        "pragma": "no-cache",
+        "cache-control": "no-cache, no-store",
+        "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+        "content-security-policy": "frame-ancestors 'self'",
+        "access-control-allow-origin": "*",
+        "x-cache": "Miss from cloudfront",
+        "via": "1.1 b5999a49733240fb7bd6caef4dc80e24.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "LAX53-P5",
+        "x-amz-cf-id": "xCKUJSe4cEfBYjTqPvkTHP6wKSjaBHvRy3hkD9HAPTGeAQ1ZYXnu4w=="
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "bytes": 906046,
+      "sha256": "a9a2f683ccb6612e362824a4a3cd3ceccf0b9d3e282ad860a5bd5f3818e578be",
+      "retrievedUTC": "2026-10-27T02:52:28.116Z"
+    },
+    {
+      "file": "japan-spread-38-original.jpg",
+      "url": "https://www.digital.archives.go.jp/api/content/item/da12/C103347726900/iiif/M2021052512400415598_0038.jp2/full/max/0/native.jpg",
+      "executed": true,
+      "status": 200,
+      "headers": {
+        "content-type": "image/jpeg;charset=UTF-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "date": "Tue, 27 Oct 2026 02:52:34 GMT",
+        "content-language": "ja",
+        "strict-transport-security": "max-age=31536000",
+        "server": "Apache",
+        "x-frame-options": "SAMEORIGIN",
+        "pragma": "no-cache",
+        "cache-control": "no-cache, no-store",
+        "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+        "content-security-policy": "frame-ancestors 'self'",
+        "access-control-allow-origin": "*",
+        "x-cache": "Miss from cloudfront",
+        "via": "1.1 1074b5c7053d44ab6a4a7f4ef4e37af8.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "LAX53-P5",
+        "x-amz-cf-id": "wmN4-9R0fnvwYc2Y2H6-zWz_bjmUcOJKGpekSsmwDFqDh0XLDxXFFA=="
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "bytes": 907728,
+      "sha256": "e04e53aab8c80ccd8f22e37e9b43b403129b613110c1e73c3848bfe823d584d2",
+      "retrievedUTC": "2026-10-27T02:52:40.365Z"
+    },
+    {
+      "file": "japan-spread-37-original.jpg",
+      "url": "https://www.digital.archives.go.jp/api/content/item/da12/C103347726800/iiif/M2021052512400415598_0037.jp2/full/max/0/native.jpg",
+      "executed": true,
+      "status": 200,
+      "headers": {
+        "content-type": "image/jpeg;charset=UTF-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "date": "Tue, 27 Oct 2026 02:52:48 GMT",
+        "content-language": "ja",
+        "strict-transport-security": "max-age=31536000",
+        "server": "Apache",
+        "x-frame-options": "SAMEORIGIN",
+        "pragma": "no-cache",
+        "cache-control": "no-cache, no-store",
+        "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+        "content-security-policy": "frame-ancestors 'self'",
+        "access-control-allow-origin": "*",
+        "x-cache": "Miss from cloudfront",
+        "via": "1.1 f9dd0591c3cff00622aed9c3c625d64a.cloudfront.net (CloudFront)",
+        "x-amz-cf-pop": "LAX53-P5",
+        "x-amz-cf-id": "_WJbftpoXQhi9rhfuk23Rou8yQJJ4DNdT_IrvTuHQ_D0vSSu52TohA=="
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "bytes": 920146,
+      "sha256": "dc194cfa14bbe20f5e4d39a0e541b88ef222bfeab3a161c1ac5f81fa74adb0f9",
+      "retrievedUTC": "2026-10-27T02:52:53.590Z"
+    }
+  ]
+}

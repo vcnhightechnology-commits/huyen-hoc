@@ -1,0 +1,2162 @@
+{
+  "date": "2026-10-28",
+  "checks": [
+    {
+      "name": "Manual entry has 11 columns and 132 literal cells; unresolved last column stays open",
+      "ok": true
+    },
+    {
+      "name": "Literal printed coordinates remain distinguishable from editorial aliases",
+      "ok": true
+    },
+    {
+      "name": "Actual lunar-typescript executions compare all 132 entered coordinates without rewriting source differences",
+      "ok": true
+    },
+    {
+      "name": "Unknown and uncovered hour rows never become unlucky defaults",
+      "ok": true
+    },
+    {
+      "name": "Source restriction applies only to three named activities, with unknown kept unknown",
+      "ok": true
+    },
+    {
+      "name": "Strict input rejects implicit calendar, aliases and coercion",
+      "ok": true
+    },
+    {
+      "name": "Results cannot mutate the preserved manual table",
+      "ok": true
+    },
+    {
+      "name": "Consumer HTML and engine preserve the verified release bytes",
+      "ok": true
+    }
+  ],
+  "actualLunarObjects": 144,
+  "actualHourLabelQueries": 132,
+  "dateBranchProbeObjects": 12,
+  "manualCellsCompared": 132,
+  "matchesAfterExplicitAliases": 120,
+  "matchesUsingTuTangAlias": 12,
+  "literalSimingDifferencesRetained": 12,
+  "untranscribedGouChenCells": 12,
+  "newHHCExecutions": 0,
+  "noConsumerChange": true,
+  "overallRecommendationValidated": false,
+  "fixtures": [
+    {
+      "dayBranch": "子",
+      "sourceLabel": "青龍",
+      "sourceHour": "申",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 5,
+        "hour": 16,
+        "minute": 0
+      },
+      "actualEngineLabel": "青龙",
+      "comparisonAlias": "青龙",
+      "match": true
+    },
+    {
+      "dayBranch": "丑",
+      "sourceLabel": "青龍",
+      "sourceHour": "戌",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 6,
+        "hour": 20,
+        "minute": 0
+      },
+      "actualEngineLabel": "青龙",
+      "comparisonAlias": "青龙",
+      "match": true
+    },
+    {
+      "dayBranch": "寅",
+      "sourceLabel": "青龍",
+      "sourceHour": "子",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 7,
+        "hour": 0,
+        "minute": 0
+      },
+      "actualEngineLabel": "青龙",
+      "comparisonAlias": "青龙",
+      "match": true
+    },
+    {
+      "dayBranch": "卯",
+      "sourceLabel": "青龍",
+      "sourceHour": "寅",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 8,
+        "hour": 4,
+        "minute": 0
+      },
+      "actualEngineLabel": "青龙",
+      "comparisonAlias": "青龙",
+      "match": true
+    },
+    {
+      "dayBranch": "辰",
+      "sourceLabel": "青龍",
+      "sourceHour": "辰",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 9,
+        "hour": 8,
+        "minute": 0
+      },
+      "actualEngineLabel": "青龙",
+      "comparisonAlias": "青龙",
+      "match": true
+    },
+    {
+      "dayBranch": "巳",
+      "sourceLabel": "青龍",
+      "sourceHour": "午",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 10,
+        "hour": 12,
+        "minute": 0
+      },
+      "actualEngineLabel": "青龙",
+      "comparisonAlias": "青龙",
+      "match": true
+    },
+    {
+      "dayBranch": "午",
+      "sourceLabel": "青龍",
+      "sourceHour": "申",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 11,
+        "hour": 16,
+        "minute": 0
+      },
+      "actualEngineLabel": "青龙",
+      "comparisonAlias": "青龙",
+      "match": true
+    },
+    {
+      "dayBranch": "未",
+      "sourceLabel": "青龍",
+      "sourceHour": "戌",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 12,
+        "hour": 20,
+        "minute": 0
+      },
+      "actualEngineLabel": "青龙",
+      "comparisonAlias": "青龙",
+      "match": true
+    },
+    {
+      "dayBranch": "申",
+      "sourceLabel": "青龍",
+      "sourceHour": "子",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 1,
+        "hour": 0,
+        "minute": 0
+      },
+      "actualEngineLabel": "青龙",
+      "comparisonAlias": "青龙",
+      "match": true
+    },
+    {
+      "dayBranch": "酉",
+      "sourceLabel": "青龍",
+      "sourceHour": "寅",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 2,
+        "hour": 4,
+        "minute": 0
+      },
+      "actualEngineLabel": "青龙",
+      "comparisonAlias": "青龙",
+      "match": true
+    },
+    {
+      "dayBranch": "戌",
+      "sourceLabel": "青龍",
+      "sourceHour": "辰",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 3,
+        "hour": 8,
+        "minute": 0
+      },
+      "actualEngineLabel": "青龙",
+      "comparisonAlias": "青龙",
+      "match": true
+    },
+    {
+      "dayBranch": "亥",
+      "sourceLabel": "青龍",
+      "sourceHour": "午",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 4,
+        "hour": 12,
+        "minute": 0
+      },
+      "actualEngineLabel": "青龙",
+      "comparisonAlias": "青龙",
+      "match": true
+    },
+    {
+      "dayBranch": "子",
+      "sourceLabel": "明堂",
+      "sourceHour": "酉",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 5,
+        "hour": 18,
+        "minute": 0
+      },
+      "actualEngineLabel": "明堂",
+      "comparisonAlias": "明堂",
+      "match": true
+    },
+    {
+      "dayBranch": "丑",
+      "sourceLabel": "明堂",
+      "sourceHour": "亥",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 6,
+        "hour": 22,
+        "minute": 0
+      },
+      "actualEngineLabel": "明堂",
+      "comparisonAlias": "明堂",
+      "match": true
+    },
+    {
+      "dayBranch": "寅",
+      "sourceLabel": "明堂",
+      "sourceHour": "丑",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 7,
+        "hour": 2,
+        "minute": 0
+      },
+      "actualEngineLabel": "明堂",
+      "comparisonAlias": "明堂",
+      "match": true
+    },
+    {
+      "dayBranch": "卯",
+      "sourceLabel": "明堂",
+      "sourceHour": "卯",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 8,
+        "hour": 6,
+        "minute": 0
+      },
+      "actualEngineLabel": "明堂",
+      "comparisonAlias": "明堂",
+      "match": true
+    },
+    {
+      "dayBranch": "辰",
+      "sourceLabel": "明堂",
+      "sourceHour": "巳",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 9,
+        "hour": 10,
+        "minute": 0
+      },
+      "actualEngineLabel": "明堂",
+      "comparisonAlias": "明堂",
+      "match": true
+    },
+    {
+      "dayBranch": "巳",
+      "sourceLabel": "明堂",
+      "sourceHour": "未",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 10,
+        "hour": 14,
+        "minute": 0
+      },
+      "actualEngineLabel": "明堂",
+      "comparisonAlias": "明堂",
+      "match": true
+    },
+    {
+      "dayBranch": "午",
+      "sourceLabel": "明堂",
+      "sourceHour": "酉",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 11,
+        "hour": 18,
+        "minute": 0
+      },
+      "actualEngineLabel": "明堂",
+      "comparisonAlias": "明堂",
+      "match": true
+    },
+    {
+      "dayBranch": "未",
+      "sourceLabel": "明堂",
+      "sourceHour": "亥",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 12,
+        "hour": 22,
+        "minute": 0
+      },
+      "actualEngineLabel": "明堂",
+      "comparisonAlias": "明堂",
+      "match": true
+    },
+    {
+      "dayBranch": "申",
+      "sourceLabel": "明堂",
+      "sourceHour": "丑",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 1,
+        "hour": 2,
+        "minute": 0
+      },
+      "actualEngineLabel": "明堂",
+      "comparisonAlias": "明堂",
+      "match": true
+    },
+    {
+      "dayBranch": "酉",
+      "sourceLabel": "明堂",
+      "sourceHour": "卯",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 2,
+        "hour": 6,
+        "minute": 0
+      },
+      "actualEngineLabel": "明堂",
+      "comparisonAlias": "明堂",
+      "match": true
+    },
+    {
+      "dayBranch": "戌",
+      "sourceLabel": "明堂",
+      "sourceHour": "巳",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 3,
+        "hour": 10,
+        "minute": 0
+      },
+      "actualEngineLabel": "明堂",
+      "comparisonAlias": "明堂",
+      "match": true
+    },
+    {
+      "dayBranch": "亥",
+      "sourceLabel": "明堂",
+      "sourceHour": "未",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 4,
+        "hour": 14,
+        "minute": 0
+      },
+      "actualEngineLabel": "明堂",
+      "comparisonAlias": "明堂",
+      "match": true
+    },
+    {
+      "dayBranch": "子",
+      "sourceLabel": "天刑",
+      "sourceHour": "戌",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 5,
+        "hour": 20,
+        "minute": 0
+      },
+      "actualEngineLabel": "天刑",
+      "comparisonAlias": "天刑",
+      "match": true
+    },
+    {
+      "dayBranch": "丑",
+      "sourceLabel": "天刑",
+      "sourceHour": "子",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 6,
+        "hour": 0,
+        "minute": 0
+      },
+      "actualEngineLabel": "天刑",
+      "comparisonAlias": "天刑",
+      "match": true
+    },
+    {
+      "dayBranch": "寅",
+      "sourceLabel": "天刑",
+      "sourceHour": "寅",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 7,
+        "hour": 4,
+        "minute": 0
+      },
+      "actualEngineLabel": "天刑",
+      "comparisonAlias": "天刑",
+      "match": true
+    },
+    {
+      "dayBranch": "卯",
+      "sourceLabel": "天刑",
+      "sourceHour": "辰",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 8,
+        "hour": 8,
+        "minute": 0
+      },
+      "actualEngineLabel": "天刑",
+      "comparisonAlias": "天刑",
+      "match": true
+    },
+    {
+      "dayBranch": "辰",
+      "sourceLabel": "天刑",
+      "sourceHour": "午",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 9,
+        "hour": 12,
+        "minute": 0
+      },
+      "actualEngineLabel": "天刑",
+      "comparisonAlias": "天刑",
+      "match": true
+    },
+    {
+      "dayBranch": "巳",
+      "sourceLabel": "天刑",
+      "sourceHour": "申",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 10,
+        "hour": 16,
+        "minute": 0
+      },
+      "actualEngineLabel": "天刑",
+      "comparisonAlias": "天刑",
+      "match": true
+    },
+    {
+      "dayBranch": "午",
+      "sourceLabel": "天刑",
+      "sourceHour": "戌",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 11,
+        "hour": 20,
+        "minute": 0
+      },
+      "actualEngineLabel": "天刑",
+      "comparisonAlias": "天刑",
+      "match": true
+    },
+    {
+      "dayBranch": "未",
+      "sourceLabel": "天刑",
+      "sourceHour": "子",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 12,
+        "hour": 0,
+        "minute": 0
+      },
+      "actualEngineLabel": "天刑",
+      "comparisonAlias": "天刑",
+      "match": true
+    },
+    {
+      "dayBranch": "申",
+      "sourceLabel": "天刑",
+      "sourceHour": "寅",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 1,
+        "hour": 4,
+        "minute": 0
+      },
+      "actualEngineLabel": "天刑",
+      "comparisonAlias": "天刑",
+      "match": true
+    },
+    {
+      "dayBranch": "酉",
+      "sourceLabel": "天刑",
+      "sourceHour": "辰",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 2,
+        "hour": 8,
+        "minute": 0
+      },
+      "actualEngineLabel": "天刑",
+      "comparisonAlias": "天刑",
+      "match": true
+    },
+    {
+      "dayBranch": "戌",
+      "sourceLabel": "天刑",
+      "sourceHour": "午",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 3,
+        "hour": 12,
+        "minute": 0
+      },
+      "actualEngineLabel": "天刑",
+      "comparisonAlias": "天刑",
+      "match": true
+    },
+    {
+      "dayBranch": "亥",
+      "sourceLabel": "天刑",
+      "sourceHour": "申",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 4,
+        "hour": 16,
+        "minute": 0
+      },
+      "actualEngineLabel": "天刑",
+      "comparisonAlias": "天刑",
+      "match": true
+    },
+    {
+      "dayBranch": "子",
+      "sourceLabel": "朱雀",
+      "sourceHour": "亥",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 5,
+        "hour": 22,
+        "minute": 0
+      },
+      "actualEngineLabel": "朱雀",
+      "comparisonAlias": "朱雀",
+      "match": true
+    },
+    {
+      "dayBranch": "丑",
+      "sourceLabel": "朱雀",
+      "sourceHour": "丑",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 6,
+        "hour": 2,
+        "minute": 0
+      },
+      "actualEngineLabel": "朱雀",
+      "comparisonAlias": "朱雀",
+      "match": true
+    },
+    {
+      "dayBranch": "寅",
+      "sourceLabel": "朱雀",
+      "sourceHour": "卯",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 7,
+        "hour": 6,
+        "minute": 0
+      },
+      "actualEngineLabel": "朱雀",
+      "comparisonAlias": "朱雀",
+      "match": true
+    },
+    {
+      "dayBranch": "卯",
+      "sourceLabel": "朱雀",
+      "sourceHour": "巳",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 8,
+        "hour": 10,
+        "minute": 0
+      },
+      "actualEngineLabel": "朱雀",
+      "comparisonAlias": "朱雀",
+      "match": true
+    },
+    {
+      "dayBranch": "辰",
+      "sourceLabel": "朱雀",
+      "sourceHour": "未",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 9,
+        "hour": 14,
+        "minute": 0
+      },
+      "actualEngineLabel": "朱雀",
+      "comparisonAlias": "朱雀",
+      "match": true
+    },
+    {
+      "dayBranch": "巳",
+      "sourceLabel": "朱雀",
+      "sourceHour": "酉",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 10,
+        "hour": 18,
+        "minute": 0
+      },
+      "actualEngineLabel": "朱雀",
+      "comparisonAlias": "朱雀",
+      "match": true
+    },
+    {
+      "dayBranch": "午",
+      "sourceLabel": "朱雀",
+      "sourceHour": "亥",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 11,
+        "hour": 22,
+        "minute": 0
+      },
+      "actualEngineLabel": "朱雀",
+      "comparisonAlias": "朱雀",
+      "match": true
+    },
+    {
+      "dayBranch": "未",
+      "sourceLabel": "朱雀",
+      "sourceHour": "丑",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 12,
+        "hour": 2,
+        "minute": 0
+      },
+      "actualEngineLabel": "朱雀",
+      "comparisonAlias": "朱雀",
+      "match": true
+    },
+    {
+      "dayBranch": "申",
+      "sourceLabel": "朱雀",
+      "sourceHour": "卯",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 1,
+        "hour": 6,
+        "minute": 0
+      },
+      "actualEngineLabel": "朱雀",
+      "comparisonAlias": "朱雀",
+      "match": true
+    },
+    {
+      "dayBranch": "酉",
+      "sourceLabel": "朱雀",
+      "sourceHour": "巳",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 2,
+        "hour": 10,
+        "minute": 0
+      },
+      "actualEngineLabel": "朱雀",
+      "comparisonAlias": "朱雀",
+      "match": true
+    },
+    {
+      "dayBranch": "戌",
+      "sourceLabel": "朱雀",
+      "sourceHour": "未",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 3,
+        "hour": 14,
+        "minute": 0
+      },
+      "actualEngineLabel": "朱雀",
+      "comparisonAlias": "朱雀",
+      "match": true
+    },
+    {
+      "dayBranch": "亥",
+      "sourceLabel": "朱雀",
+      "sourceHour": "酉",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 4,
+        "hour": 18,
+        "minute": 0
+      },
+      "actualEngineLabel": "朱雀",
+      "comparisonAlias": "朱雀",
+      "match": true
+    },
+    {
+      "dayBranch": "子",
+      "sourceLabel": "金匱",
+      "sourceHour": "子",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 5,
+        "hour": 0,
+        "minute": 0
+      },
+      "actualEngineLabel": "金匮",
+      "comparisonAlias": "金匮",
+      "match": true
+    },
+    {
+      "dayBranch": "丑",
+      "sourceLabel": "金匱",
+      "sourceHour": "寅",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 6,
+        "hour": 4,
+        "minute": 0
+      },
+      "actualEngineLabel": "金匮",
+      "comparisonAlias": "金匮",
+      "match": true
+    },
+    {
+      "dayBranch": "寅",
+      "sourceLabel": "金匱",
+      "sourceHour": "辰",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 7,
+        "hour": 8,
+        "minute": 0
+      },
+      "actualEngineLabel": "金匮",
+      "comparisonAlias": "金匮",
+      "match": true
+    },
+    {
+      "dayBranch": "卯",
+      "sourceLabel": "金匱",
+      "sourceHour": "午",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 8,
+        "hour": 12,
+        "minute": 0
+      },
+      "actualEngineLabel": "金匮",
+      "comparisonAlias": "金匮",
+      "match": true
+    },
+    {
+      "dayBranch": "辰",
+      "sourceLabel": "金匱",
+      "sourceHour": "申",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 9,
+        "hour": 16,
+        "minute": 0
+      },
+      "actualEngineLabel": "金匮",
+      "comparisonAlias": "金匮",
+      "match": true
+    },
+    {
+      "dayBranch": "巳",
+      "sourceLabel": "金匱",
+      "sourceHour": "戌",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 10,
+        "hour": 20,
+        "minute": 0
+      },
+      "actualEngineLabel": "金匮",
+      "comparisonAlias": "金匮",
+      "match": true
+    },
+    {
+      "dayBranch": "午",
+      "sourceLabel": "金匱",
+      "sourceHour": "子",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 11,
+        "hour": 0,
+        "minute": 0
+      },
+      "actualEngineLabel": "金匮",
+      "comparisonAlias": "金匮",
+      "match": true
+    },
+    {
+      "dayBranch": "未",
+      "sourceLabel": "金匱",
+      "sourceHour": "寅",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 12,
+        "hour": 4,
+        "minute": 0
+      },
+      "actualEngineLabel": "金匮",
+      "comparisonAlias": "金匮",
+      "match": true
+    },
+    {
+      "dayBranch": "申",
+      "sourceLabel": "金匱",
+      "sourceHour": "辰",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 1,
+        "hour": 8,
+        "minute": 0
+      },
+      "actualEngineLabel": "金匮",
+      "comparisonAlias": "金匮",
+      "match": true
+    },
+    {
+      "dayBranch": "酉",
+      "sourceLabel": "金匱",
+      "sourceHour": "午",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 2,
+        "hour": 12,
+        "minute": 0
+      },
+      "actualEngineLabel": "金匮",
+      "comparisonAlias": "金匮",
+      "match": true
+    },
+    {
+      "dayBranch": "戌",
+      "sourceLabel": "金匱",
+      "sourceHour": "申",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 3,
+        "hour": 16,
+        "minute": 0
+      },
+      "actualEngineLabel": "金匮",
+      "comparisonAlias": "金匮",
+      "match": true
+    },
+    {
+      "dayBranch": "亥",
+      "sourceLabel": "金匱",
+      "sourceHour": "戌",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 4,
+        "hour": 20,
+        "minute": 0
+      },
+      "actualEngineLabel": "金匮",
+      "comparisonAlias": "金匮",
+      "match": true
+    },
+    {
+      "dayBranch": "子",
+      "sourceLabel": "天德",
+      "sourceHour": "丑",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 5,
+        "hour": 2,
+        "minute": 0
+      },
+      "actualEngineLabel": "天德",
+      "comparisonAlias": "天德",
+      "match": true
+    },
+    {
+      "dayBranch": "丑",
+      "sourceLabel": "天德",
+      "sourceHour": "卯",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 6,
+        "hour": 6,
+        "minute": 0
+      },
+      "actualEngineLabel": "天德",
+      "comparisonAlias": "天德",
+      "match": true
+    },
+    {
+      "dayBranch": "寅",
+      "sourceLabel": "天德",
+      "sourceHour": "巳",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 7,
+        "hour": 10,
+        "minute": 0
+      },
+      "actualEngineLabel": "天德",
+      "comparisonAlias": "天德",
+      "match": true
+    },
+    {
+      "dayBranch": "卯",
+      "sourceLabel": "天德",
+      "sourceHour": "未",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 8,
+        "hour": 14,
+        "minute": 0
+      },
+      "actualEngineLabel": "天德",
+      "comparisonAlias": "天德",
+      "match": true
+    },
+    {
+      "dayBranch": "辰",
+      "sourceLabel": "天德",
+      "sourceHour": "酉",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 9,
+        "hour": 18,
+        "minute": 0
+      },
+      "actualEngineLabel": "天德",
+      "comparisonAlias": "天德",
+      "match": true
+    },
+    {
+      "dayBranch": "巳",
+      "sourceLabel": "天德",
+      "sourceHour": "亥",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 10,
+        "hour": 22,
+        "minute": 0
+      },
+      "actualEngineLabel": "天德",
+      "comparisonAlias": "天德",
+      "match": true
+    },
+    {
+      "dayBranch": "午",
+      "sourceLabel": "天德",
+      "sourceHour": "丑",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 11,
+        "hour": 2,
+        "minute": 0
+      },
+      "actualEngineLabel": "天德",
+      "comparisonAlias": "天德",
+      "match": true
+    },
+    {
+      "dayBranch": "未",
+      "sourceLabel": "天德",
+      "sourceHour": "卯",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 12,
+        "hour": 6,
+        "minute": 0
+      },
+      "actualEngineLabel": "天德",
+      "comparisonAlias": "天德",
+      "match": true
+    },
+    {
+      "dayBranch": "申",
+      "sourceLabel": "天德",
+      "sourceHour": "巳",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 1,
+        "hour": 10,
+        "minute": 0
+      },
+      "actualEngineLabel": "天德",
+      "comparisonAlias": "天德",
+      "match": true
+    },
+    {
+      "dayBranch": "酉",
+      "sourceLabel": "天德",
+      "sourceHour": "未",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 2,
+        "hour": 14,
+        "minute": 0
+      },
+      "actualEngineLabel": "天德",
+      "comparisonAlias": "天德",
+      "match": true
+    },
+    {
+      "dayBranch": "戌",
+      "sourceLabel": "天德",
+      "sourceHour": "酉",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 3,
+        "hour": 18,
+        "minute": 0
+      },
+      "actualEngineLabel": "天德",
+      "comparisonAlias": "天德",
+      "match": true
+    },
+    {
+      "dayBranch": "亥",
+      "sourceLabel": "天德",
+      "sourceHour": "亥",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 4,
+        "hour": 22,
+        "minute": 0
+      },
+      "actualEngineLabel": "天德",
+      "comparisonAlias": "天德",
+      "match": true
+    },
+    {
+      "dayBranch": "子",
+      "sourceLabel": "白虎",
+      "sourceHour": "寅",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 5,
+        "hour": 4,
+        "minute": 0
+      },
+      "actualEngineLabel": "白虎",
+      "comparisonAlias": "白虎",
+      "match": true
+    },
+    {
+      "dayBranch": "丑",
+      "sourceLabel": "白虎",
+      "sourceHour": "辰",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 6,
+        "hour": 8,
+        "minute": 0
+      },
+      "actualEngineLabel": "白虎",
+      "comparisonAlias": "白虎",
+      "match": true
+    },
+    {
+      "dayBranch": "寅",
+      "sourceLabel": "白虎",
+      "sourceHour": "午",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 7,
+        "hour": 12,
+        "minute": 0
+      },
+      "actualEngineLabel": "白虎",
+      "comparisonAlias": "白虎",
+      "match": true
+    },
+    {
+      "dayBranch": "卯",
+      "sourceLabel": "白虎",
+      "sourceHour": "申",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 8,
+        "hour": 16,
+        "minute": 0
+      },
+      "actualEngineLabel": "白虎",
+      "comparisonAlias": "白虎",
+      "match": true
+    },
+    {
+      "dayBranch": "辰",
+      "sourceLabel": "白虎",
+      "sourceHour": "戌",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 9,
+        "hour": 20,
+        "minute": 0
+      },
+      "actualEngineLabel": "白虎",
+      "comparisonAlias": "白虎",
+      "match": true
+    },
+    {
+      "dayBranch": "巳",
+      "sourceLabel": "白虎",
+      "sourceHour": "子",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 10,
+        "hour": 0,
+        "minute": 0
+      },
+      "actualEngineLabel": "白虎",
+      "comparisonAlias": "白虎",
+      "match": true
+    },
+    {
+      "dayBranch": "午",
+      "sourceLabel": "白虎",
+      "sourceHour": "寅",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 11,
+        "hour": 4,
+        "minute": 0
+      },
+      "actualEngineLabel": "白虎",
+      "comparisonAlias": "白虎",
+      "match": true
+    },
+    {
+      "dayBranch": "未",
+      "sourceLabel": "白虎",
+      "sourceHour": "辰",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 12,
+        "hour": 8,
+        "minute": 0
+      },
+      "actualEngineLabel": "白虎",
+      "comparisonAlias": "白虎",
+      "match": true
+    },
+    {
+      "dayBranch": "申",
+      "sourceLabel": "白虎",
+      "sourceHour": "午",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 1,
+        "hour": 12,
+        "minute": 0
+      },
+      "actualEngineLabel": "白虎",
+      "comparisonAlias": "白虎",
+      "match": true
+    },
+    {
+      "dayBranch": "酉",
+      "sourceLabel": "白虎",
+      "sourceHour": "申",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 2,
+        "hour": 16,
+        "minute": 0
+      },
+      "actualEngineLabel": "白虎",
+      "comparisonAlias": "白虎",
+      "match": true
+    },
+    {
+      "dayBranch": "戌",
+      "sourceLabel": "白虎",
+      "sourceHour": "戌",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 3,
+        "hour": 20,
+        "minute": 0
+      },
+      "actualEngineLabel": "白虎",
+      "comparisonAlias": "白虎",
+      "match": true
+    },
+    {
+      "dayBranch": "亥",
+      "sourceLabel": "白虎",
+      "sourceHour": "子",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 4,
+        "hour": 0,
+        "minute": 0
+      },
+      "actualEngineLabel": "白虎",
+      "comparisonAlias": "白虎",
+      "match": true
+    },
+    {
+      "dayBranch": "子",
+      "sourceLabel": "土堂",
+      "sourceHour": "卯",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 5,
+        "hour": 6,
+        "minute": 0
+      },
+      "actualEngineLabel": "玉堂",
+      "comparisonAlias": "玉堂",
+      "match": true
+    },
+    {
+      "dayBranch": "丑",
+      "sourceLabel": "土堂",
+      "sourceHour": "巳",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 6,
+        "hour": 10,
+        "minute": 0
+      },
+      "actualEngineLabel": "玉堂",
+      "comparisonAlias": "玉堂",
+      "match": true
+    },
+    {
+      "dayBranch": "寅",
+      "sourceLabel": "土堂",
+      "sourceHour": "未",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 7,
+        "hour": 14,
+        "minute": 0
+      },
+      "actualEngineLabel": "玉堂",
+      "comparisonAlias": "玉堂",
+      "match": true
+    },
+    {
+      "dayBranch": "卯",
+      "sourceLabel": "土堂",
+      "sourceHour": "酉",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 8,
+        "hour": 18,
+        "minute": 0
+      },
+      "actualEngineLabel": "玉堂",
+      "comparisonAlias": "玉堂",
+      "match": true
+    },
+    {
+      "dayBranch": "辰",
+      "sourceLabel": "土堂",
+      "sourceHour": "亥",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 9,
+        "hour": 22,
+        "minute": 0
+      },
+      "actualEngineLabel": "玉堂",
+      "comparisonAlias": "玉堂",
+      "match": true
+    },
+    {
+      "dayBranch": "巳",
+      "sourceLabel": "土堂",
+      "sourceHour": "丑",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 10,
+        "hour": 2,
+        "minute": 0
+      },
+      "actualEngineLabel": "玉堂",
+      "comparisonAlias": "玉堂",
+      "match": true
+    },
+    {
+      "dayBranch": "午",
+      "sourceLabel": "土堂",
+      "sourceHour": "卯",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 11,
+        "hour": 6,
+        "minute": 0
+      },
+      "actualEngineLabel": "玉堂",
+      "comparisonAlias": "玉堂",
+      "match": true
+    },
+    {
+      "dayBranch": "未",
+      "sourceLabel": "土堂",
+      "sourceHour": "巳",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 12,
+        "hour": 10,
+        "minute": 0
+      },
+      "actualEngineLabel": "玉堂",
+      "comparisonAlias": "玉堂",
+      "match": true
+    },
+    {
+      "dayBranch": "申",
+      "sourceLabel": "土堂",
+      "sourceHour": "未",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 1,
+        "hour": 14,
+        "minute": 0
+      },
+      "actualEngineLabel": "玉堂",
+      "comparisonAlias": "玉堂",
+      "match": true
+    },
+    {
+      "dayBranch": "酉",
+      "sourceLabel": "土堂",
+      "sourceHour": "酉",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 2,
+        "hour": 18,
+        "minute": 0
+      },
+      "actualEngineLabel": "玉堂",
+      "comparisonAlias": "玉堂",
+      "match": true
+    },
+    {
+      "dayBranch": "戌",
+      "sourceLabel": "土堂",
+      "sourceHour": "亥",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 3,
+        "hour": 22,
+        "minute": 0
+      },
+      "actualEngineLabel": "玉堂",
+      "comparisonAlias": "玉堂",
+      "match": true
+    },
+    {
+      "dayBranch": "亥",
+      "sourceLabel": "土堂",
+      "sourceHour": "丑",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 4,
+        "hour": 2,
+        "minute": 0
+      },
+      "actualEngineLabel": "玉堂",
+      "comparisonAlias": "玉堂",
+      "match": true
+    },
+    {
+      "dayBranch": "子",
+      "sourceLabel": "天牢",
+      "sourceHour": "辰",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 5,
+        "hour": 8,
+        "minute": 0
+      },
+      "actualEngineLabel": "天牢",
+      "comparisonAlias": "天牢",
+      "match": true
+    },
+    {
+      "dayBranch": "丑",
+      "sourceLabel": "天牢",
+      "sourceHour": "午",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 6,
+        "hour": 12,
+        "minute": 0
+      },
+      "actualEngineLabel": "天牢",
+      "comparisonAlias": "天牢",
+      "match": true
+    },
+    {
+      "dayBranch": "寅",
+      "sourceLabel": "天牢",
+      "sourceHour": "申",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 7,
+        "hour": 16,
+        "minute": 0
+      },
+      "actualEngineLabel": "天牢",
+      "comparisonAlias": "天牢",
+      "match": true
+    },
+    {
+      "dayBranch": "卯",
+      "sourceLabel": "天牢",
+      "sourceHour": "戌",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 8,
+        "hour": 20,
+        "minute": 0
+      },
+      "actualEngineLabel": "天牢",
+      "comparisonAlias": "天牢",
+      "match": true
+    },
+    {
+      "dayBranch": "辰",
+      "sourceLabel": "天牢",
+      "sourceHour": "子",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 9,
+        "hour": 0,
+        "minute": 0
+      },
+      "actualEngineLabel": "天牢",
+      "comparisonAlias": "天牢",
+      "match": true
+    },
+    {
+      "dayBranch": "巳",
+      "sourceLabel": "天牢",
+      "sourceHour": "寅",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 10,
+        "hour": 4,
+        "minute": 0
+      },
+      "actualEngineLabel": "天牢",
+      "comparisonAlias": "天牢",
+      "match": true
+    },
+    {
+      "dayBranch": "午",
+      "sourceLabel": "天牢",
+      "sourceHour": "辰",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 11,
+        "hour": 8,
+        "minute": 0
+      },
+      "actualEngineLabel": "天牢",
+      "comparisonAlias": "天牢",
+      "match": true
+    },
+    {
+      "dayBranch": "未",
+      "sourceLabel": "天牢",
+      "sourceHour": "午",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 12,
+        "hour": 12,
+        "minute": 0
+      },
+      "actualEngineLabel": "天牢",
+      "comparisonAlias": "天牢",
+      "match": true
+    },
+    {
+      "dayBranch": "申",
+      "sourceLabel": "天牢",
+      "sourceHour": "申",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 1,
+        "hour": 16,
+        "minute": 0
+      },
+      "actualEngineLabel": "天牢",
+      "comparisonAlias": "天牢",
+      "match": true
+    },
+    {
+      "dayBranch": "酉",
+      "sourceLabel": "天牢",
+      "sourceHour": "戌",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 2,
+        "hour": 20,
+        "minute": 0
+      },
+      "actualEngineLabel": "天牢",
+      "comparisonAlias": "天牢",
+      "match": true
+    },
+    {
+      "dayBranch": "戌",
+      "sourceLabel": "天牢",
+      "sourceHour": "子",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 3,
+        "hour": 0,
+        "minute": 0
+      },
+      "actualEngineLabel": "天牢",
+      "comparisonAlias": "天牢",
+      "match": true
+    },
+    {
+      "dayBranch": "亥",
+      "sourceLabel": "天牢",
+      "sourceHour": "寅",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 4,
+        "hour": 4,
+        "minute": 0
+      },
+      "actualEngineLabel": "天牢",
+      "comparisonAlias": "天牢",
+      "match": true
+    },
+    {
+      "dayBranch": "子",
+      "sourceLabel": "玄武",
+      "sourceHour": "巳",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 5,
+        "hour": 10,
+        "minute": 0
+      },
+      "actualEngineLabel": "玄武",
+      "comparisonAlias": "玄武",
+      "match": true
+    },
+    {
+      "dayBranch": "丑",
+      "sourceLabel": "玄武",
+      "sourceHour": "未",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 6,
+        "hour": 14,
+        "minute": 0
+      },
+      "actualEngineLabel": "玄武",
+      "comparisonAlias": "玄武",
+      "match": true
+    },
+    {
+      "dayBranch": "寅",
+      "sourceLabel": "玄武",
+      "sourceHour": "酉",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 7,
+        "hour": 18,
+        "minute": 0
+      },
+      "actualEngineLabel": "玄武",
+      "comparisonAlias": "玄武",
+      "match": true
+    },
+    {
+      "dayBranch": "卯",
+      "sourceLabel": "玄武",
+      "sourceHour": "亥",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 8,
+        "hour": 22,
+        "minute": 0
+      },
+      "actualEngineLabel": "玄武",
+      "comparisonAlias": "玄武",
+      "match": true
+    },
+    {
+      "dayBranch": "辰",
+      "sourceLabel": "玄武",
+      "sourceHour": "丑",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 9,
+        "hour": 2,
+        "minute": 0
+      },
+      "actualEngineLabel": "玄武",
+      "comparisonAlias": "玄武",
+      "match": true
+    },
+    {
+      "dayBranch": "巳",
+      "sourceLabel": "玄武",
+      "sourceHour": "卯",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 10,
+        "hour": 6,
+        "minute": 0
+      },
+      "actualEngineLabel": "玄武",
+      "comparisonAlias": "玄武",
+      "match": true
+    },
+    {
+      "dayBranch": "午",
+      "sourceLabel": "玄武",
+      "sourceHour": "巳",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 11,
+        "hour": 10,
+        "minute": 0
+      },
+      "actualEngineLabel": "玄武",
+      "comparisonAlias": "玄武",
+      "match": true
+    },
+    {
+      "dayBranch": "未",
+      "sourceLabel": "玄武",
+      "sourceHour": "未",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 12,
+        "hour": 14,
+        "minute": 0
+      },
+      "actualEngineLabel": "玄武",
+      "comparisonAlias": "玄武",
+      "match": true
+    },
+    {
+      "dayBranch": "申",
+      "sourceLabel": "玄武",
+      "sourceHour": "酉",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 1,
+        "hour": 18,
+        "minute": 0
+      },
+      "actualEngineLabel": "玄武",
+      "comparisonAlias": "玄武",
+      "match": true
+    },
+    {
+      "dayBranch": "酉",
+      "sourceLabel": "玄武",
+      "sourceHour": "亥",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 2,
+        "hour": 22,
+        "minute": 0
+      },
+      "actualEngineLabel": "玄武",
+      "comparisonAlias": "玄武",
+      "match": true
+    },
+    {
+      "dayBranch": "戌",
+      "sourceLabel": "玄武",
+      "sourceHour": "丑",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 3,
+        "hour": 2,
+        "minute": 0
+      },
+      "actualEngineLabel": "玄武",
+      "comparisonAlias": "玄武",
+      "match": true
+    },
+    {
+      "dayBranch": "亥",
+      "sourceLabel": "玄武",
+      "sourceHour": "卯",
+      "sourceType": "黑道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 4,
+        "hour": 6,
+        "minute": 0
+      },
+      "actualEngineLabel": "玄武",
+      "comparisonAlias": "玄武",
+      "match": true
+    },
+    {
+      "dayBranch": "子",
+      "sourceLabel": "司命",
+      "sourceHour": "未",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 5,
+        "hour": 14,
+        "minute": 0
+      },
+      "actualEngineLabel": "勾陈",
+      "comparisonAlias": "司命",
+      "match": false
+    },
+    {
+      "dayBranch": "丑",
+      "sourceLabel": "司命",
+      "sourceHour": "酉",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 6,
+        "hour": 18,
+        "minute": 0
+      },
+      "actualEngineLabel": "勾陈",
+      "comparisonAlias": "司命",
+      "match": false
+    },
+    {
+      "dayBranch": "寅",
+      "sourceLabel": "司命",
+      "sourceHour": "亥",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 7,
+        "hour": 22,
+        "minute": 0
+      },
+      "actualEngineLabel": "勾陈",
+      "comparisonAlias": "司命",
+      "match": false
+    },
+    {
+      "dayBranch": "卯",
+      "sourceLabel": "司命",
+      "sourceHour": "丑",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 8,
+        "hour": 2,
+        "minute": 0
+      },
+      "actualEngineLabel": "勾陈",
+      "comparisonAlias": "司命",
+      "match": false
+    },
+    {
+      "dayBranch": "辰",
+      "sourceLabel": "司命",
+      "sourceHour": "卯",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 9,
+        "hour": 6,
+        "minute": 0
+      },
+      "actualEngineLabel": "勾陈",
+      "comparisonAlias": "司命",
+      "match": false
+    },
+    {
+      "dayBranch": "巳",
+      "sourceLabel": "司命",
+      "sourceHour": "巳",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 10,
+        "hour": 10,
+        "minute": 0
+      },
+      "actualEngineLabel": "勾陈",
+      "comparisonAlias": "司命",
+      "match": false
+    },
+    {
+      "dayBranch": "午",
+      "sourceLabel": "司命",
+      "sourceHour": "未",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 11,
+        "hour": 14,
+        "minute": 0
+      },
+      "actualEngineLabel": "勾陈",
+      "comparisonAlias": "司命",
+      "match": false
+    },
+    {
+      "dayBranch": "未",
+      "sourceLabel": "司命",
+      "sourceHour": "酉",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 12,
+        "hour": 18,
+        "minute": 0
+      },
+      "actualEngineLabel": "勾陈",
+      "comparisonAlias": "司命",
+      "match": false
+    },
+    {
+      "dayBranch": "申",
+      "sourceLabel": "司命",
+      "sourceHour": "亥",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 1,
+        "hour": 22,
+        "minute": 0
+      },
+      "actualEngineLabel": "勾陈",
+      "comparisonAlias": "司命",
+      "match": false
+    },
+    {
+      "dayBranch": "酉",
+      "sourceLabel": "司命",
+      "sourceHour": "丑",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 2,
+        "hour": 2,
+        "minute": 0
+      },
+      "actualEngineLabel": "勾陈",
+      "comparisonAlias": "司命",
+      "match": false
+    },
+    {
+      "dayBranch": "戌",
+      "sourceLabel": "司命",
+      "sourceHour": "卯",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 3,
+        "hour": 6,
+        "minute": 0
+      },
+      "actualEngineLabel": "勾陈",
+      "comparisonAlias": "司命",
+      "match": false
+    },
+    {
+      "dayBranch": "亥",
+      "sourceLabel": "司命",
+      "sourceHour": "巳",
+      "sourceType": "黃道",
+      "solar": {
+        "year": 2026,
+        "month": 10,
+        "day": 4,
+        "hour": 10,
+        "minute": 0
+      },
+      "actualEngineLabel": "勾陈",
+      "comparisonAlias": "司命",
+      "match": false
+    }
+  ]
+}

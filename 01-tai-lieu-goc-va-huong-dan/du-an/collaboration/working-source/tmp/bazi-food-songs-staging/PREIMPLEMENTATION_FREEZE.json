@@ -1,0 +1,39 @@
+{
+  "frozenAtUTC": "2026-10-30T03:35:35.796534+00:00",
+  "referenceAbsentAtFreeze": true,
+  "files": [
+    {
+      "file": "tmp/bazi-food-songs-staging/VERSE_PARTITION.json",
+      "bytes": 11116,
+      "sha256": "fc6426d73103a5311378dcc2df877dcda11552134e70db1d26ae4463ed1fc384"
+    },
+    {
+      "file": "tmp/bazi-food-songs-staging/SELECTED_V05_PREMISES.json",
+      "bytes": 792,
+      "sha256": "03f2dab26db9c8206e4d384b8d669dd29ac2ba723ddfd69461f43c410eb7f692"
+    },
+    {
+      "file": "tmp/bazi-food-songs-staging/EXPECTED_CASES.json",
+      "bytes": 1844,
+      "sha256": "6d37f028dcc528b9b0474a42e3f327c4e6b8a6909404c0627e85f411ec5c6fb8"
+    },
+    {
+      "file": "tmp/bazi-food-songs-staging/REUSE_IDENTITIES.json",
+      "bytes": 1675,
+      "sha256": "39793bcf88a363695feeb6a405344ad6a49d78fc2b4802575b49aa2cda42914c"
+    },
+    {
+      "file": "tmp/bazi-food-songs-staging/SOURCE_IDENTITIES.json",
+      "bytes": 577,
+      "sha256": "ec8e2758f1dc53655b16f66185b356d1b0ed9c77ea36bf3626d495caded84403"
+    },
+    {
+      "file": "tmp/bazi-food-songs-staging/SOURCE_BOUNDARIES.json",
+      "bytes": 718,
+      "sha256": "40937b21896b57abc7819562464580892351a5fcfd64f651136ed56724e79ba6"
+    }
+  ],
+  "manualCases": 10,
+  "newEngineCalls": 0,
+  "wholeContextApplied": false
+}

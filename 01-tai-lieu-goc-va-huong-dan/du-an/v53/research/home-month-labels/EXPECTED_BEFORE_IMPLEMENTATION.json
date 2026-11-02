@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-29",
+  "sourceCoordinateCount": 120,
+  "readableCellCount": 83,
+  "unresolvedCellCount": 37,
+  "codeCounts": {
+    "T": 17,
+    "X": 37,
+    "J": 10,
+    "D": 16,
+    "R": 14,
+    "P": 10,
+    "S": 5,
+    "Q": 11
+  },
+  "fixedCases": [
+    {
+      "month": 1,
+      "day": "甲子",
+      "expected": "天和"
+    },
+    {
+      "month": 1,
+      "day": "乙丑",
+      "expected": null
+    },
+    {
+      "month": 2,
+      "day": "戊辰",
+      "expected": "受死"
+    },
+    {
+      "month": 2,
+      "day": "庚午",
+      "expected": "河魁"
+    },
+    {
+      "month": 11,
+      "day": "甲子",
+      "expected": "建"
+    }
+  ],
+  "other600CellsUnknown": true,
+  "wholeCalendarRecommendationAlwaysNull": true,
+  "newEngineCallsExpected": 0
+}

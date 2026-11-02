@@ -1,0 +1,44 @@
+{
+  "schema": "hhc.ndl.hattaku-eight-directions.manual-reading.v1",
+  "source": {
+    "title": "八宅明鏡図解",
+    "authorAsCatalogued": "松浦琴鶴",
+    "editionAsCatalogued": "東京 : 靖康堂, 1881 (明14.4)",
+    "catalogue": "https://ndlsearch.ndl.go.jp/books/R100000039-I760737",
+    "manifest": "https://dl.ndl.go.jp/api/iiif/760737/manifest.json",
+    "identifier": "info:ndljp/pid/760737"
+  },
+  "method": "Manual visual reading of the eight main outer direction labels of four printed charts. Diagram has South at the top, East at the left, North at the bottom, West at the right. Direction names below were mapped explicitly from that printed orientation. Expected labels were transcribed before comparison with the HHC engine, not generated from its table.",
+  "limits": "Japanese edition/adaptation, not the Chinese original Ba Zhai Ming Jing. This checks 32 eight-direction labels only; not 24-mountain subdivisions, birth-year-to-kua arithmetic, room placement, the entire book, or predictive effects. Canvas numbers are viewer identifiers, not physical leaf numbers. Images 03 and 23 returned HTTP 400 and do not count as saved facsimile pages.",
+  "readings": [
+    {
+      "kua": 6,
+      "name": "乾宅 / 六白宅之圖",
+      "file": "new-sources/ndl-760737-12.jpg",
+      "region": "right chart",
+      "directions": {"Bắc":"六煞","Đông Bắc":"天醫","Đông":"五鬼","Đông Nam":"禍害","Nam":"絶命","Tây Nam":"延年","Tây":"生氣","Tây Bắc":"伏位"}
+    },
+    {
+      "kua": 2,
+      "name": "坤宅 / 五黄宅之圖",
+      "file": "new-sources/ndl-760737-12.jpg",
+      "region": "left chart",
+      "numericCaution": "Printed 九星 number 五黄 is not the engine kua number 2. The comparison matches the named 坤 trigram only; it does not equate those numbering systems.",
+      "directions": {"Bắc":"絶命","Đông Bắc":"生氣","Đông":"禍害","Đông Nam":"五鬼","Nam":"六煞","Tây Nam":"伏位","Tây":"天醫","Tây Bắc":"延年"}
+    },
+    {
+      "kua": 7,
+      "name": "兌宅 / 七赤宅之圖",
+      "file": "new-sources/ndl-760737-11.jpg",
+      "region": "left chart",
+      "directions": {"Bắc":"禍害","Đông Bắc":"延年","Đông":"絶命","Đông Nam":"六煞","Nam":"五鬼","Tây Nam":"天醫","Tây":"伏位","Tây Bắc":"生氣"}
+    },
+    {
+      "kua": 8,
+      "name": "艮宅 / 八白宅之圖",
+      "file": "new-sources/ndl-760737-11.jpg",
+      "region": "right chart",
+      "directions": {"Bắc":"五鬼","Đông Bắc":"伏位","Đông":"六煞","Đông Nam":"絶命","Nam":"禍害","Tây Nam":"生氣","Tây":"延年","Tây Bắc":"天醫"}
+    }
+  ]
+}

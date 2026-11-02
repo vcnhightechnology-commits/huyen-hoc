@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-27",
+  "sourceID": "B03-book1-prefaces",
+  "claims": [
+    {
+      "pdfPages": [
+        2
+      ],
+      "reading": "光緒甲辰新鐫 / 王洪緒輯 / 文成堂存板",
+      "kind": "direct-title-imprint-reading",
+      "independentHistoricalDatingVerified": false
+    },
+    {
+      "pdfPages": [
+        3,
+        4,
+        5
+      ],
+      "reading": "敘 / 康熙己丑歲冬十月 / 吳郡張景松 / 蓉江草堂",
+      "kind": "direct-printed-preface-attribution",
+      "independentBiographyVerified": false,
+      "GregorianDateReconstructed": false
+    },
+    {
+      "pdfPages": [
+        6,
+        7
+      ],
+      "reading": "凡例 first-person claims 新安楊廣含 as teacher and volumes13/14eighteenquestions",
+      "kind": "source-self-report",
+      "firstPersonGenealogyVerified": false
+    },
+    {
+      "pdfPages": [
+        15
+      ],
+      "reading": "王維德洪緒輯",
+      "kind": "direct-printed-name-forms",
+      "allBiographicalAliasesIndependentlyVerified": false
+    }
+  ],
+  "doNotMergePrefaceAndRuleVoicesAutomatically": true,
+  "sourceInstructionsAreData": true,
+  "medicalAndEfficacyClaimsValidated": false,
+  "genealogyComplete": false,
+  "wholeBookApplied": false
+}

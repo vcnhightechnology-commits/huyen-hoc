@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-28",
+  "checks": [
+    {
+      "name": "24 source mountain rows retain46 main literal target entries and16 separate marginal entries",
+      "ok": true
+    },
+    {
+      "name": "Source-specific12/12 polarity covers24 mountains with four declared cardinal aliases",
+      "ok": true
+    },
+    {
+      "name": "72 mountain/flow contexts prevent reversing outflow instructions into incoming-water guidance",
+      "ok": true
+    },
+    {
+      "name": "72 alternate-anchor contexts do not substitute birth-gua or gate-facing for source mountain-dragon frame",
+      "ok": true
+    },
+    {
+      "name": "Native-crop difficult rows keep main/marginal stars separate and absent targets are not bad outcomes",
+      "ok": true
+    },
+    {
+      "name": "Strict API rejects degree/year/implicit context and keeps unknown mountain unresolved",
+      "ok": true
+    },
+    {
+      "name": "Eight actual HHC direction calls match source95 four printed opposite room pairs in both declared orders",
+      "ok": true
+    },
+    {
+      "name": "Consumer HTML remains byte identical and excludes all new private lookups",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "manualMainRows": 24,
+    "mainTargetEntries": 46,
+    "marginalRows": 8,
+    "marginalTargetEntries": 16,
+    "sourcePolarityMarks": 24,
+    "flowContexts": 72,
+    "alternateAnchorContexts": 72,
+    "printedOppositeRoomPairs": 4,
+    "projectedRoomContexts": 8,
+    "actualHHCDirectionsExecutions": 8,
+    "newCalendarExecutions": 0
+  },
+  "engineSHA256": "39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6",
+  "roomFixtures": [
+    {
+      "origin": "乾",
+      "target": "坤",
+      "sourcePDFPage": 95,
+      "printedRelation": "延年",
+      "engineInput": {
+        "year": 1904,
+        "gender": "male"
+      },
+      "actual": "Diên Niên",
+      "scope": "Conditional relation projection; source room identity is explicitly declared, not a modern plan or birth-date validation."
+    },
+    {
+      "origin": "坤",
+      "target": "乾",
+      "sourcePDFPage": 95,
+      "printedRelation": "延年",
+      "engineInput": {
+        "year": 1905,
+        "gender": "male"
+      },
+      "actual": "Diên Niên",
+      "scope": "Conditional relation projection; source room identity is explicitly declared, not a modern plan or birth-date validation."
+    },
+    {
+      "origin": "震",
+      "target": "巽",
+      "sourcePDFPage": 95,
+      "printedRelation": "延年",
+      "engineInput": {
+        "year": 1907,
+        "gender": "male"
+      },
+      "actual": "Diên Niên",
+      "scope": "Conditional relation projection; source room identity is explicitly declared, not a modern plan or birth-date validation."
+    },
+    {
+      "origin": "巽",
+      "target": "震",
+      "sourcePDFPage": 95,
+      "printedRelation": "延年",
+      "engineInput": {
+        "year": 1906,
+        "gender": "male"
+      },
+      "actual": "Diên Niên",
+      "scope": "Conditional relation projection; source room identity is explicitly declared, not a modern plan or birth-date validation."
+    },
+    {
+      "origin": "坎",
+      "target": "離",
+      "sourcePDFPage": 95,
+      "printedRelation": "延年",
+      "engineInput": {
+        "year": 1900,
+        "gender": "male"
+      },
+      "actual": "Diên Niên",
+      "scope": "Conditional relation projection; source room identity is explicitly declared, not a modern plan or birth-date validation."
+    },
+    {
+      "origin": "離",
+      "target": "坎",
+      "sourcePDFPage": 95,
+      "printedRelation": "延年",
+      "engineInput": {
+        "year": 1901,
+        "gender": "male"
+      },
+      "actual": "Diên Niên",
+      "scope": "Conditional relation projection; source room identity is explicitly declared, not a modern plan or birth-date validation."
+    },
+    {
+      "origin": "艮",
+      "target": "兌",
+      "sourcePDFPage": 95,
+      "printedRelation": "延年",
+      "engineInput": {
+        "year": 1902,
+        "gender": "male"
+      },
+      "actual": "Diên Niên",
+      "scope": "Conditional relation projection; source room identity is explicitly declared, not a modern plan or birth-date validation."
+    },
+    {
+      "origin": "兌",
+      "target": "艮",
+      "sourcePDFPage": 95,
+      "printedRelation": "延年",
+      "engineInput": {
+        "year": 1903,
+        "gender": "male"
+      },
+      "actual": "Diên Niên",
+      "scope": "Conditional relation projection; source room identity is explicitly declared, not a modern plan or birth-date validation."
+    }
+  ],
+  "scope": "Literal outflow table with explicit source frame/flow and main/marginal distinction; source-specific polarity. Actual-engine comparison only for four source95 room pairs in both orders. Not comparing drainage star labels to an assumed modern palace origin.",
+  "notValidated": [
+    "Complete first-draw exchange",
+    "Modern directions/north/plan/degree conversion",
+    "Door ruler units/face/dimensions",
+    "Annual/monthly/daily door date conditions",
+    "Hydraulic engineering or source efficacy"
+  ],
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false
+}

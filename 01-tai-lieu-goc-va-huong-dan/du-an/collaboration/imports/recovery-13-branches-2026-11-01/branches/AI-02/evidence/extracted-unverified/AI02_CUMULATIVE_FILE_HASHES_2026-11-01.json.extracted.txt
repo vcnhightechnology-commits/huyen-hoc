@@ -1,0 +1,165 @@
+{
+  "schema": "hhc.ai02.offline-distribution.v1",
+  "date": "2026-11-01",
+  "branchTarget": "codex/ai-02-tu-binh",
+  "pushState": "not-pushed-GitHub-account-403",
+  "baselineGitBlobSHA1": "6e7b87c3e3cd310b685b784e2c45a577905fc37f",
+  "sourceGitBlobSHA1": "3625caa7f7bf7ca8e5798c7b5c61cfa883e10209",
+  "testSuiteGroupsAfterApply": {
+    "run-ai02-evidence-gates": 44,
+    "test-gate-transcript-validation": 13,
+    "test-evidence-runner-hardening": 13,
+    "test-pre-import-lock": 6,
+    "test-gate-dependency-closure": 12,
+    "test-m03-translation-layer": 8
+  },
+  "allGroupsPassed": 96,
+  "testingMethod": "Local synthetic baseline matching reviewed runner blob, git apply --check and bytewise comparison, then Node.js v22.16.0 suites",
+  "artifacts": [
+    {
+      "path": "AI02_CUMULATIVE_QA_AND_M03_2026-11-01.patch",
+      "bytes": 57804,
+      "sha256": "f2b04f3205bdeb1626d8345cb10fbba9c76f3669c3c643f870bfba3cf62cc61a"
+    },
+    {
+      "path": "README_APPLY_AI02_CUMULATIVE_2026-11-01.md",
+      "bytes": 4297,
+      "sha256": "6a8be59f7eefdfded26f1f3c7995e8841eaecb21a3b167a1d53e7d781c43db6e"
+    },
+    {
+      "path": "logs/after-apply/run-ai02-evidence-gates.log",
+      "bytes": 4769,
+      "sha256": "f48cd2d48c529962e9a51ee6e2b4c9a877dffc0a4226da2fe9e5c6392c55d8f1"
+    },
+    {
+      "path": "logs/after-apply/test-evidence-runner-hardening.log",
+      "bytes": 890,
+      "sha256": "d9a780ac933da23d83e668843cb87c71c4fa94248bc5973d6a459aa64a6c1c54"
+    },
+    {
+      "path": "logs/after-apply/test-gate-dependency-closure.log",
+      "bytes": 1009,
+      "sha256": "d14aa710b417bfb3d1ea0118144fc6a0c917991eff6308f7762ffb32c998bf9d"
+    },
+    {
+      "path": "logs/after-apply/test-gate-transcript-validation.log",
+      "bytes": 529,
+      "sha256": "8636930f357ae1a98c1d58de043455055e4a5e64ce21274c8a1213cdf8a3779c"
+    },
+    {
+      "path": "logs/after-apply/test-m03-translation-layer.log",
+      "bytes": 659,
+      "sha256": "630854753bf21430a8ce7967d1fa062f89a6f6ab77615983e0cc48b18f63ac60"
+    },
+    {
+      "path": "logs/after-apply/test-pre-import-lock.log",
+      "bytes": 672,
+      "sha256": "31d2958de8f02cda1de9bfb45d455c81c903292d21c051fbc27aeb47f0353ca3"
+    },
+    {
+      "path": "logs/initial-verified/run-ai02-evidence-gates.log",
+      "bytes": 4769,
+      "sha256": "f48cd2d48c529962e9a51ee6e2b4c9a877dffc0a4226da2fe9e5c6392c55d8f1"
+    },
+    {
+      "path": "logs/initial-verified/test-evidence-runner-hardening.log",
+      "bytes": 890,
+      "sha256": "d9a780ac933da23d83e668843cb87c71c4fa94248bc5973d6a459aa64a6c1c54"
+    },
+    {
+      "path": "logs/initial-verified/test-gate-dependency-closure.log",
+      "bytes": 1009,
+      "sha256": "d14aa710b417bfb3d1ea0118144fc6a0c917991eff6308f7762ffb32c998bf9d"
+    },
+    {
+      "path": "logs/initial-verified/test-gate-transcript-validation.log",
+      "bytes": 529,
+      "sha256": "8636930f357ae1a98c1d58de043455055e4a5e64ce21274c8a1213cdf8a3779c"
+    },
+    {
+      "path": "logs/initial-verified/test-m03-translation-layer.log",
+      "bytes": 659,
+      "sha256": "630854753bf21430a8ce7967d1fa062f89a6f6ab77615983e0cc48b18f63ac60"
+    },
+    {
+      "path": "logs/initial-verified/test-pre-import-lock.log",
+      "bytes": 672,
+      "sha256": "31d2958de8f02cda1de9bfb45d455c81c903292d21c051fbc27aeb47f0353ca3"
+    },
+    {
+      "path": "reports/AI02_DEPENDENCY_CLOSURE_REVIEW_2026-11-01.md",
+      "bytes": 5286,
+      "sha256": "4844354ea756ac27bb1d1af75c84f8db6db216986ac5c3db52d6ed7c4d1916ad"
+    },
+    {
+      "path": "reports/AI02_DEPENDENCY_CLOSURE_TEST_RESULTS_2026-11-01.json",
+      "bytes": 3211,
+      "sha256": "ebbfc0cd97ed1b2d1a83af8b35b42c267b5d27bf3bc1ea65e4b0121af1577e15"
+    },
+    {
+      "path": "reports/M03_TRANSLATION_LAYER_REVIEW_2026-11-01.md",
+      "bytes": 3632,
+      "sha256": "db9a27e5648d9e7aea47f7950e6b95beba4e18299b4d457e535507ed7695f4e4"
+    },
+    {
+      "path": "snapshots/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/AI02_DEPENDENCY_CLOSURE_REVIEW_2026-11-01.md",
+      "bytes": 5286,
+      "sha256": "4844354ea756ac27bb1d1af75c84f8db6db216986ac5c3db52d6ed7c4d1916ad"
+    },
+    {
+      "path": "snapshots/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/AI02_DEPENDENCY_CLOSURE_TEST_RESULTS_2026-11-01.json",
+      "bytes": 3211,
+      "sha256": "ebbfc0cd97ed1b2d1a83af8b35b42c267b5d27bf3bc1ea65e4b0121af1577e15"
+    },
+    {
+      "path": "snapshots/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/AI02_PREIMPORT_INTEGRITY_REPAIR_2026-11-01.md",
+      "bytes": 6043,
+      "sha256": "46cb0f5869905335d31dc1009ed0ceff8d1173b7b3eb68bf061cc050916a2f94"
+    },
+    {
+      "path": "snapshots/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/AI02_PREIMPORT_TEST_RESULTS_2026-11-01.json",
+      "bytes": 1894,
+      "sha256": "063b1dafec61f2b52da162b752701f10bcac6d0c240687aa9d0aaabdd1739b36"
+    },
+    {
+      "path": "snapshots/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/M03_DIGITAL_WITNESS_DEPENDENCY_NOTE_2026-11-01.md",
+      "bytes": 4373,
+      "sha256": "284bef2c80012d267b1efb956478e854ee256b6324bdb45c96e269a97aabb146"
+    },
+    {
+      "path": "snapshots/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/M03_TRANSLATION_LAYER_ADDENDUM_2026-11-01.json",
+      "bytes": 2572,
+      "sha256": "be8a3fda4481f7712dcaf7cdcce57462afd8141aabcf685db0c6c4c21d0f4a39"
+    },
+    {
+      "path": "snapshots/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/M03_TRANSLATION_LAYER_REVIEW_2026-11-01.md",
+      "bytes": 3632,
+      "sha256": "db9a27e5648d9e7aea47f7950e6b95beba4e18299b4d457e535507ed7695f4e4"
+    },
+    {
+      "path": "snapshots/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/audit-m03-translation-layer.mjs",
+      "bytes": 4522,
+      "sha256": "f388fa96ef9807f843eb217053c336649d5c2ce50898228ae671cea1d84c4643"
+    },
+    {
+      "path": "snapshots/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/run-ai02-evidence-gates.mjs",
+      "bytes": 7139,
+      "sha256": "04f4eb5cf4dfc3e80ab8e7d971ec3fd9e6ecd6fa4df4e63688d3f230c2a38932"
+    },
+    {
+      "path": "snapshots/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/test-gate-dependency-closure.mjs",
+      "bytes": 6122,
+      "sha256": "a57bc7a15adecf856999657c2a8d497c029a6633c525782d0d1b1633f5f33cdb"
+    },
+    {
+      "path": "snapshots/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/test-m03-translation-layer.mjs",
+      "bytes": 3813,
+      "sha256": "b2748ae67400a458f79c12e2290e59fed94ee20f04a5b706dcb52034ca82dbc0"
+    },
+    {
+      "path": "snapshots/collaboration/parallel-research/submissions/AI-02/zi-ping-source-boundaries/test-pre-import-lock.mjs",
+      "bytes": 4061,
+      "sha256": "c96231073f49d3c33a7a06d00b534aa9fb8b6459f426828d77609a7e6d60a0c9"
+    }
+  ]
+}

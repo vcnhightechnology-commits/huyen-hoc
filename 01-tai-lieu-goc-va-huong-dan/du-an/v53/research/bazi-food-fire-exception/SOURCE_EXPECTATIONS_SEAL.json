@@ -1,0 +1,42 @@
+{
+  "sealedAtUTC": "2026-10-30T03:21:45.056434+00:00",
+  "files": [
+    {
+      "file": "tmp/bazi-food-fire-exception-staging/MANUAL_CONTEXT.json",
+      "bytes": 2264,
+      "sha256": "420725cb2e722a15fd1b340a4f5f9f43e5eae7ed8df56994605952fb5fd1da16"
+    },
+    {
+      "file": "tmp/bazi-food-fire-exception-staging/EXPECTED_CASES.json",
+      "bytes": 1331,
+      "sha256": "fbc2f47de949f5a153851daecbd84b89bc0bd356dd901d38d5f0a3528353aafc"
+    },
+    {
+      "file": "tmp/bazi-food-fire-exception-staging/REUSE_IDENTITIES.json",
+      "bytes": 1022,
+      "sha256": "e7bba535faf66a4cbd6848cd898eed5e846b9e34ebe6706ceac1fef99f53693d"
+    },
+    {
+      "file": "tmp/bazi-food-fire-exception-staging/SOURCE_IDENTITIES.json",
+      "bytes": 497,
+      "sha256": "8e67a3a6d54958d45eef5faafe5727141fc51bf701365ee59fd8ba759946bad9"
+    },
+    {
+      "file": "tmp/bazi-food-fire-exception-staging/SEQUENCE_EXCEPTION.json",
+      "bytes": 2732,
+      "sha256": "0a9792b1de4af18d9e417d04b55207b3757bbc799541b208bdabd43c9a9aae5b"
+    },
+    {
+      "file": "tmp/bazi-food-fire-exception-staging/fire-exception-reference.mjs",
+      "bytes": 2131,
+      "sha256": "d897991e6d923d7558da4c013c67ffcb9a11ce8abd93a6a274058b7bd5a75ad9"
+    }
+  ],
+  "preimplementationFreezeEstablished": false,
+  "referenceExistedAndHadBeenExecutedAtSeal": true,
+  "sequenceException": "SEQUENCE_EXCEPTION.json",
+  "actualCalendarPremisesAbsent": true,
+  "inputScope": "Declared day/hour stems only; no date or hour-branch mapping.",
+  "newEngineCalls": 0,
+  "wholeContextApplied": false
+}

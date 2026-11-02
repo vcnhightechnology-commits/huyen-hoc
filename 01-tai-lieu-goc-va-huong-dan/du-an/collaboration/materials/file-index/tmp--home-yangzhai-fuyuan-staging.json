@@ -1,0 +1,953 @@
+{
+  "scope": "tmp/home-yangzhai-fuyuan-staging",
+  "files": [
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/CONTEXT_READINGS.json",
+      "bytes": 14355,
+      "sha256": "bfbe18ba7774355ad8d81592be7e16844d5bdfe7859f78b940640237d38c5573",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bfbe18ba7774355ad8d81592be7e16844d5bdfe7859f78b940640237d38c5573",
+      "httpRange": {
+        "offset": 231920125,
+        "compressedBytes": 3931,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/MANUAL_FUYUAN_TABLE.json",
+      "bytes": 103427,
+      "sha256": "3aad29290d25eae3d96332dbca69a8aa52030af272d2a9eb7504fa61d230c80d",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/3aad29290d25eae3d96332dbca69a8aa52030af272d2a9eb7504fa61d230c80d",
+      "httpRange": {
+        "offset": 380072693,
+        "compressedBytes": 4312,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/MANUAL_YOUNIAN_SEQUENCES.json",
+      "bytes": 2827,
+      "sha256": "f53c37f1e7a94af2116ab7b13938706d11a284556021dcf02afdf2346aa4922a",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f53c37f1e7a94af2116ab7b13938706d11a284556021dcf02afdf2346aa4922a",
+      "httpRange": {
+        "offset": 202591354,
+        "compressedBytes": 943,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/NATIVE_RESULTS.json",
+      "bytes": 508,
+      "sha256": "272327a52842f72d3216d8b26a26ed317877bb41a29ea4f2364fd1125b14b0f8",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/272327a52842f72d3216d8b26a26ed317877bb41a29ea4f2364fd1125b14b0f8",
+      "httpRange": {
+        "offset": 141435339,
+        "compressedBytes": 327,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/QA_IMAGES.json",
+      "bytes": 3969,
+      "sha256": "cfd8252abf811882352b72232cdfdc8ca7363044962f4c163c4ea0438844f8a7",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/cfd8252abf811882352b72232cdfdc8ca7363044962f4c163c4ea0438844f8a7",
+      "httpRange": {
+        "offset": 89653276,
+        "compressedBytes": 774,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/RAW_IMAGES.json",
+      "bytes": 24450,
+      "sha256": "8101d75611ac65712ed2251b709c4127ba60a8d761027c92390d93139f403a47",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8101d75611ac65712ed2251b709c4127ba60a8d761027c92390d93139f403a47",
+      "httpRange": {
+        "offset": 73657839,
+        "compressedBytes": 3679,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/READING_CORRECTION_AUDIT.json",
+      "bytes": 786,
+      "sha256": "63441dbf40fba532170cd4864bab34247a4da7c76a727ab0ccbce344ccaf6f65",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/63441dbf40fba532170cd4864bab34247a4da7c76a727ab0ccbce344ccaf6f65",
+      "httpRange": {
+        "offset": 88783658,
+        "compressedBytes": 454,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/REFERENCE_RESULTS.json",
+      "bytes": 525508,
+      "sha256": "a6ad846f3397bc75accab20f6d563ca8e96fa2134a0ba3ae405dafcc4022512d",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a6ad846f3397bc75accab20f6d563ca8e96fa2134a0ba3ae405dafcc4022512d",
+      "httpRange": {
+        "offset": 228506412,
+        "compressedBytes": 27100,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/REPORT.md",
+      "bytes": 8728,
+      "sha256": "877ae5cec4108e45e8ab8ad088f89025a69a3fdcaf27672841d99a9a7ac77d5f",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/877ae5cec4108e45e8ab8ad088f89025a69a3fdcaf27672841d99a9a7ac77d5f",
+      "httpRange": {
+        "offset": 227062017,
+        "compressedBytes": 4395,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/TEST_FAILURE_AUDIT.json",
+      "bytes": 916,
+      "sha256": "e4d615f360ceb97aa15bdabe7c46c6f8e4351eefeedabb8c212afd0e9b7f50fa",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e4d615f360ceb97aa15bdabe7c46c6f8e4351eefeedabb8c212afd0e9b7f50fa",
+      "httpRange": {
+        "offset": 331515659,
+        "compressedBytes": 511,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/UNIT_MAP.json",
+      "bytes": 4979,
+      "sha256": "dfbe93753582e091782e0f9300961d6d7e5db117afca6a316a0c35a880a425af",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/dfbe93753582e091782e0f9300961d6d7e5db117afca6a316a0c35a880a425af",
+      "httpRange": {
+        "offset": 280988598,
+        "compressedBytes": 1509,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/WORK_STATE.json",
+      "bytes": 3675,
+      "sha256": "c93a3883c2672e22d28e1237cc6762da5e90c09efab5fd59ac83621c112e8f40",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c93a3883c2672e22d28e1237cc6762da5e90c09efab5fd59ac83621c112e8f40",
+      "httpRange": {
+        "offset": 392817055,
+        "compressedBytes": 1971,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/extract-raw.py",
+      "bytes": 1686,
+      "sha256": "423e38c2ffb00741c890a6f7d86e4055e31e0fb767bb676d95380dd853d64997",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/423e38c2ffb00741c890a6f7d86e4055e31e0fb767bb676d95380dd853d64997",
+      "httpRange": {
+        "offset": 150469129,
+        "compressedBytes": 966,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/fuyuan-younian-reference.mjs",
+      "bytes": 4382,
+      "sha256": "4527a59a20daad4677a47787ec79b34100ae6fd280a7c2970d7f6337bfd0095d",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4527a59a20daad4677a47787ec79b34100ae6fd280a7c2970d7f6337bfd0095d",
+      "httpRange": {
+        "offset": 187865185,
+        "compressedBytes": 1953,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/promote.py",
+      "bytes": 2446,
+      "sha256": "555af3f70fec3d71033cc0548762ff3ee36bc1f9f3964f3d60da431b965342db",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/555af3f70fec3d71033cc0548762ff3ee36bc1f9f3964f3d60da431b965342db",
+      "httpRange": {
+        "offset": 146659668,
+        "compressedBytes": 1157,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/qa/p036-right.png",
+      "bytes": 3018170,
+      "sha256": "df1a4d95cbb7246a7e917f4d54c1ec005932489a8bc59d72ac7e0366ed3d7b3a",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/df1a4d95cbb7246a7e917f4d54c1ec005932489a8bc59d72ac7e0366ed3d7b3a",
+      "httpRange": {
+        "offset": 264801993,
+        "compressedBytes": 3019080,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/qa/p038-left.png",
+      "bytes": 3148630,
+      "sha256": "29f5f6eb4b79f9eba89e1d882a7be1ef3a5fe98d457ba61eaae0a94c5e550102",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/29f5f6eb4b79f9eba89e1d882a7be1ef3a5fe98d457ba61eaae0a94c5e550102",
+      "httpRange": {
+        "offset": 176380256,
+        "compressedBytes": 3149580,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/qa/p038-right.png",
+      "bytes": 3146481,
+      "sha256": "0db65158d750d980b04210acd987442755d5edadbeee68acc3f97090adb85e68",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0db65158d750d980b04210acd987442755d5edadbeee68acc3f97090adb85e68",
+      "httpRange": {
+        "offset": 198003248,
+        "compressedBytes": 3147431,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/qa/p039-left.png",
+      "bytes": 3186390,
+      "sha256": "0cf1880d550ebc3c1a94cb9965ab08c3ac26dabc7efe31776c92bcda8c6f0c04",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0cf1880d550ebc3c1a94cb9965ab08c3ac26dabc7efe31776c92bcda8c6f0c04",
+      "httpRange": {
+        "offset": 186517538,
+        "compressedBytes": 3187350,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/qa/p039-right.png",
+      "bytes": 3158999,
+      "sha256": "1810407848053caf2353d540e01db6e2e0f5e577a198d6a7f8388fe193226af6",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1810407848053caf2353d540e01db6e2e0f5e577a198d6a7f8388fe193226af6",
+      "httpRange": {
+        "offset": 322395709,
+        "compressedBytes": 3159954,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/qa/p040-left.png",
+      "bytes": 3246547,
+      "sha256": "da0aa576ea1254fbd4f158d18e1592131abd24a7fea7099d5cfc120c60a50947",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/da0aa576ea1254fbd4f158d18e1592131abd24a7fea7099d5cfc120c60a50947",
+      "httpRange": {
+        "offset": 202983256,
+        "compressedBytes": 3247503,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/qa/p040-right.png",
+      "bytes": 3242829,
+      "sha256": "32e2e5470e98d7c6c3353aa18a9954a1b29f2ada5a1104ccfbebc9f2b9434af1",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/32e2e5470e98d7c6c3353aa18a9954a1b29f2ada5a1104ccfbebc9f2b9434af1",
+      "httpRange": {
+        "offset": 262016742,
+        "compressedBytes": 3243809,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/qa/p041-right.png",
+      "bytes": 3219763,
+      "sha256": "7b59ff08b5ddb03c14277b8398a616f49d5f5a25b50d9f83da9e29a00140988a",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7b59ff08b5ddb03c14277b8398a616f49d5f5a25b50d9f83da9e29a00140988a",
+      "httpRange": {
+        "offset": 36874082,
+        "compressedBytes": 3220728,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/qa/p058-left.png",
+      "bytes": 2923729,
+      "sha256": "960296da01a380782d3e05041004cbe609f479a37eea197b6114f600bfabe050",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/960296da01a380782d3e05041004cbe609f479a37eea197b6114f600bfabe050",
+      "httpRange": {
+        "offset": 354580378,
+        "compressedBytes": 2924609,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/qa/p058-right.png",
+      "bytes": 2939515,
+      "sha256": "eb7a377334c7f1a5ac07d0aada843138ad784a61e5b7a5378dadb50146ed6a59",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/eb7a377334c7f1a5ac07d0aada843138ad784a61e5b7a5378dadb50146ed6a59",
+      "httpRange": {
+        "offset": 74148825,
+        "compressedBytes": 2940400,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/qa/p074-left.png",
+      "bytes": 3091796,
+      "sha256": "d4bebb21d2ed519250f9d2c6ac2b44b3e13c2b540d34ed00c5f93f7df28316dd",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d4bebb21d2ed519250f9d2c6ac2b44b3e13c2b540d34ed00c5f93f7df28316dd",
+      "httpRange": {
+        "offset": 132434571,
+        "compressedBytes": 3092731,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/qa/p074-right.png",
+      "bytes": 3071606,
+      "sha256": "6e70fa6b92f2350b0c89a27fc827fbe57105d5a41508f6ba8a271af2acf44ee9",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6e70fa6b92f2350b0c89a27fc827fbe57105d5a41508f6ba8a271af2acf44ee9",
+      "httpRange": {
+        "offset": 276728565,
+        "compressedBytes": 3072531,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p034.jpg",
+      "bytes": 814791,
+      "sha256": "ca1f1ea2ac75470764dd2efacc10b810f2aabf6fa1a4c943d1f7cbdd912863d2",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/ca1f1ea2ac75470764dd2efacc10b810f2aabf6fa1a4c943d1f7cbdd912863d2",
+      "httpRange": {
+        "offset": 404488864,
+        "compressedBytes": 812624,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p035.jpg",
+      "bytes": 777291,
+      "sha256": "bf76de8930fb99b18b3370afc1b61b52bbf20f4c23f9c4c710b308d4f831bdaa",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bf76de8930fb99b18b3370afc1b61b52bbf20f4c23f9c4c710b308d4f831bdaa",
+      "httpRange": {
+        "offset": 225772961,
+        "compressedBytes": 776296,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p036.jpg",
+      "bytes": 801250,
+      "sha256": "4a87cded1804b161dac3c71efa5fad280d6a4dbf211f6d3eb7e9291ddfe7a89e",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4a87cded1804b161dac3c71efa5fad280d6a4dbf211f6d3eb7e9291ddfe7a89e",
+      "httpRange": {
+        "offset": 275366896,
+        "compressedBytes": 800996,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p037.jpg",
+      "bytes": 807855,
+      "sha256": "a2b0bc634b14803f642708d121123478a22b7640cb12623878e69268c35ddc0d",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a2b0bc634b14803f642708d121123478a22b7640cb12623878e69268c35ddc0d",
+      "httpRange": {
+        "offset": 169293414,
+        "compressedBytes": 806229,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p038.jpg",
+      "bytes": 807089,
+      "sha256": "51721491651512769444f725c7730b1b2b42061042eeb764515d9ed21908cf56",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/51721491651512769444f725c7730b1b2b42061042eeb764515d9ed21908cf56",
+      "httpRange": {
+        "offset": 105919242,
+        "compressedBytes": 805537,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p039.jpg",
+      "bytes": 820374,
+      "sha256": "d1146a15d01ea5733027ff0fba53f3f2a2356941116275b23278455cad54b5e5",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d1146a15d01ea5733027ff0fba53f3f2a2356941116275b23278455cad54b5e5",
+      "httpRange": {
+        "offset": 106319807,
+        "compressedBytes": 818173,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p040.jpg",
+      "bytes": 844947,
+      "sha256": "a2484a4a755612a3ef77edd07cc21783bec90290e0c9692fe7c22064e26465ce",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a2484a4a755612a3ef77edd07cc21783bec90290e0c9692fe7c22064e26465ce",
+      "httpRange": {
+        "offset": 165498987,
+        "compressedBytes": 843096,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p041.jpg",
+      "bytes": 818438,
+      "sha256": "89753bee336d3a4ea4549a746fcdc661f42337ef5ab9f3bc4668a0fd54cd3cbf",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/89753bee336d3a4ea4549a746fcdc661f42337ef5ab9f3bc4668a0fd54cd3cbf",
+      "httpRange": {
+        "offset": 244712827,
+        "compressedBytes": 816784,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p042.jpg",
+      "bytes": 770069,
+      "sha256": "4c85e5bc012a30e18bdfa638053f681cae8191ed10e6ad28595b80871ce4cc92",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4c85e5bc012a30e18bdfa638053f681cae8191ed10e6ad28595b80871ce4cc92",
+      "httpRange": {
+        "offset": 291476105,
+        "compressedBytes": 768253,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p043.jpg",
+      "bytes": 750453,
+      "sha256": "a022c742a613034aeccb7eb247e64fa05cf2bc5d1bc8ab432601332b1041f14d",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a022c742a613034aeccb7eb247e64fa05cf2bc5d1bc8ab432601332b1041f14d",
+      "httpRange": {
+        "offset": 144819469,
+        "compressedBytes": 749513,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p044.jpg",
+      "bytes": 765135,
+      "sha256": "eb1578bff5478e211a8b7525190e11318a9197248a7b2372f7e62514b6398b6a",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/eb1578bff5478e211a8b7525190e11318a9197248a7b2372f7e62514b6398b6a",
+      "httpRange": {
+        "offset": 68643981,
+        "compressedBytes": 763737,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p045.jpg",
+      "bytes": 773070,
+      "sha256": "7bca22db95874dd03b2bc25d8b1ae60783b0eafcb5bf238c90ef6f3a904cbc6f",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7bca22db95874dd03b2bc25d8b1ae60783b0eafcb5bf238c90ef6f3a904cbc6f",
+      "httpRange": {
+        "offset": 41187303,
+        "compressedBytes": 771716,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p046.jpg",
+      "bytes": 772628,
+      "sha256": "e3f1d77578a4ad32a245cd2d929a955f389db00ace2ac74a9cf4d3156c86691b",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e3f1d77578a4ad32a245cd2d929a955f389db00ace2ac74a9cf4d3156c86691b",
+      "httpRange": {
+        "offset": 325138749,
+        "compressedBytes": 772435,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p047.jpg",
+      "bytes": 729954,
+      "sha256": "dee2bd1bfc9d38933c70cca1f1edc4365b6ddf9031e2a638bdfa2ef618b8870b",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/dee2bd1bfc9d38933c70cca1f1edc4365b6ddf9031e2a638bdfa2ef618b8870b",
+      "httpRange": {
+        "offset": 257835010,
+        "compressedBytes": 728959,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p048.jpg",
+      "bytes": 809421,
+      "sha256": "9fefdadecb8d11d1da8a2f45f02aab0cf730aafdc93a761446dacc9cbc6935b7",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9fefdadecb8d11d1da8a2f45f02aab0cf730aafdc93a761446dacc9cbc6935b7",
+      "httpRange": {
+        "offset": 142695493,
+        "compressedBytes": 808285,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p049.jpg",
+      "bytes": 732068,
+      "sha256": "f83f8311a77b502d12a32089bda3f876dd5b672487b90d8fb381a382019c42da",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f83f8311a77b502d12a32089bda3f876dd5b672487b90d8fb381a382019c42da",
+      "httpRange": {
+        "offset": 226647226,
+        "compressedBytes": 731759,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p050.jpg",
+      "bytes": 791178,
+      "sha256": "beb381d9777d27d50f369dfe0d5801e790691c4b45a41233c4984678c1878955",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/beb381d9777d27d50f369dfe0d5801e790691c4b45a41233c4984678c1878955",
+      "httpRange": {
+        "offset": 216801089,
+        "compressedBytes": 789158,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p051.jpg",
+      "bytes": 772889,
+      "sha256": "e5256deaa959f7c5838a2692e0ad2c74657d5f47be419fce04b321bfa2edbb41",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e5256deaa959f7c5838a2692e0ad2c74657d5f47be419fce04b321bfa2edbb41",
+      "httpRange": {
+        "offset": 336473561,
+        "compressedBytes": 772104,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p052.jpg",
+      "bytes": 805329,
+      "sha256": "c3ccb0409798e5fc964f6a04e8169654a5964058dba90c76b83a8998e45ae116",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c3ccb0409798e5fc964f6a04e8169654a5964058dba90c76b83a8998e45ae116",
+      "httpRange": {
+        "offset": 330420178,
+        "compressedBytes": 803984,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p053.jpg",
+      "bytes": 814027,
+      "sha256": "f629d05ab393821fe9b89d6cdf127fb91115d5d686050554ec46d223bae93cd7",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f629d05ab393821fe9b89d6cdf127fb91115d5d686050554ec46d223bae93cd7",
+      "httpRange": {
+        "offset": 209488864,
+        "compressedBytes": 811912,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p054.jpg",
+      "bytes": 716613,
+      "sha256": "206dbb6e6cf767cc03e10b70c0d0f41e286106010ad0e231e91492a9ecadfe44",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/206dbb6e6cf767cc03e10b70c0d0f41e286106010ad0e231e91492a9ecadfe44",
+      "httpRange": {
+        "offset": 79107519,
+        "compressedBytes": 715224,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p055.jpg",
+      "bytes": 771434,
+      "sha256": "9e55ba76086fc32738f9c1a2de0d3759e22fc8028d4bb367f7073a00540ab501",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9e55ba76086fc32738f9c1a2de0d3759e22fc8028d4bb367f7073a00540ab501",
+      "httpRange": {
+        "offset": 121942247,
+        "compressedBytes": 770502,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p056.jpg",
+      "bytes": 771028,
+      "sha256": "169f87493f1f1c3aae8286af98fd3b87a610b0ef6c42bcc9c2132104af7973bf",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/169f87493f1f1c3aae8286af98fd3b87a610b0ef6c42bcc9c2132104af7973bf",
+      "httpRange": {
+        "offset": 297505636,
+        "compressedBytes": 770378,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p057.jpg",
+      "bytes": 662375,
+      "sha256": "f6a7babfa1a365c06f02a6d2bc5f0406ffc9cd30f269b5d04c606d7a76bdef02",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f6a7babfa1a365c06f02a6d2bc5f0406ffc9cd30f269b5d04c606d7a76bdef02",
+      "httpRange": {
+        "offset": 212995223,
+        "compressedBytes": 662460,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p058.jpg",
+      "bytes": 759227,
+      "sha256": "bf77ad53ffa3a9d3f82f8f1819d2569b86bc82f273b8ac791ff34b77e9bf8d1d",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bf77ad53ffa3a9d3f82f8f1819d2569b86bc82f273b8ac791ff34b77e9bf8d1d",
+      "httpRange": {
+        "offset": 226557605,
+        "compressedBytes": 759235,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p059.jpg",
+      "bytes": 641364,
+      "sha256": "72b60ef0c992b072cdf66ff47ae8036757bb0b87709bb24817acc9a92ce4cba1",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/72b60ef0c992b072cdf66ff47ae8036757bb0b87709bb24817acc9a92ce4cba1",
+      "httpRange": {
+        "offset": 340030357,
+        "compressedBytes": 641242,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p060.jpg",
+      "bytes": 637933,
+      "sha256": "91af1ace810434b86c214bc461664629e3ddfbe60fabed90dc60e29ce5806aea",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/91af1ace810434b86c214bc461664629e3ddfbe60fabed90dc60e29ce5806aea",
+      "httpRange": {
+        "offset": 312833054,
+        "compressedBytes": 637709,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p061.jpg",
+      "bytes": 643402,
+      "sha256": "f90244c43bce3cb81166999415b87eaafdc957dee60aff20c8e61c2d730ade06",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f90244c43bce3cb81166999415b87eaafdc957dee60aff20c8e61c2d730ade06",
+      "httpRange": {
+        "offset": 240077374,
+        "compressedBytes": 643430,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p062.jpg",
+      "bytes": 615213,
+      "sha256": "e21223f32a48a7775689b6f894a7be619263d3d102c2b4d85cf8af148a014f77",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e21223f32a48a7775689b6f894a7be619263d3d102c2b4d85cf8af148a014f77",
+      "httpRange": {
+        "offset": 303437029,
+        "compressedBytes": 614088,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p063.jpg",
+      "bytes": 616011,
+      "sha256": "8153d249cf36cd7f72ce9d6da93a476979602f210d30e2672bc0e937c3796fa5",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8153d249cf36cd7f72ce9d6da93a476979602f210d30e2672bc0e937c3796fa5",
+      "httpRange": {
+        "offset": 75972842,
+        "compressedBytes": 615944,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p064.jpg",
+      "bytes": 633580,
+      "sha256": "ca8092fe2f57bf8ed1861eb22c4bb38ab1ea6f483797dcf84f766094d95f358a",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/ca8092fe2f57bf8ed1861eb22c4bb38ab1ea6f483797dcf84f766094d95f358a",
+      "httpRange": {
+        "offset": 408682883,
+        "compressedBytes": 633453,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p065.jpg",
+      "bytes": 607986,
+      "sha256": "ad32a122564253e8ea06410e17e3b69cfa240398cb263a7cd5a64b135375b6ed",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/ad32a122564253e8ea06410e17e3b69cfa240398cb263a7cd5a64b135375b6ed",
+      "httpRange": {
+        "offset": 293085348,
+        "compressedBytes": 607900,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p066.jpg",
+      "bytes": 801783,
+      "sha256": "543f863de20471645334c1631cfcd21a42498c974a4b5213bc34f9dee7cc927f",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/543f863de20471645334c1631cfcd21a42498c974a4b5213bc34f9dee7cc927f",
+      "httpRange": {
+        "offset": 132531321,
+        "compressedBytes": 800226,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p067.jpg",
+      "bytes": 767626,
+      "sha256": "41db0ab510e8cac4055a365ca293787f2661efcfeaf2cda81ccda44bcf95ae19",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/41db0ab510e8cac4055a365ca293787f2661efcfeaf2cda81ccda44bcf95ae19",
+      "httpRange": {
+        "offset": 146158780,
+        "compressedBytes": 767192,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p068.jpg",
+      "bytes": 774677,
+      "sha256": "423feb4719c8c1ca872465597c43aa86e9a685beae2b039a1a6b6861615242d3",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/423feb4719c8c1ca872465597c43aa86e9a685beae2b039a1a6b6861615242d3",
+      "httpRange": {
+        "offset": 150985674,
+        "compressedBytes": 773973,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p069.jpg",
+      "bytes": 756280,
+      "sha256": "d63f64759970eaea18e25e63b8f91e9ec6af1bb887df729b5d5482817e8de938",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d63f64759970eaea18e25e63b8f91e9ec6af1bb887df729b5d5482817e8de938",
+      "httpRange": {
+        "offset": 153917435,
+        "compressedBytes": 755259,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p070.jpg",
+      "bytes": 801275,
+      "sha256": "0e522353c8a9cdcd1e5ddb22adc83966cf0b66fb5c49e21a84a45b5d365d3ef4",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0e522353c8a9cdcd1e5ddb22adc83966cf0b66fb5c49e21a84a45b5d365d3ef4",
+      "httpRange": {
+        "offset": 205215977,
+        "compressedBytes": 799758,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p071.jpg",
+      "bytes": 802746,
+      "sha256": "bec829f43b882c321c03856a71f91d8756ccedd876738b5909648534fde96e90",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bec829f43b882c321c03856a71f91d8756ccedd876738b5909648534fde96e90",
+      "httpRange": {
+        "offset": 217650778,
+        "compressedBytes": 801327,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p072.jpg",
+      "bytes": 778670,
+      "sha256": "177d26da800b03a0ae32046a0878eef65362a543f284c94171ea07dd87ff401c",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/177d26da800b03a0ae32046a0878eef65362a543f284c94171ea07dd87ff401c",
+      "httpRange": {
+        "offset": 313874990,
+        "compressedBytes": 778139,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p073.jpg",
+      "bytes": 774029,
+      "sha256": "c69d5db4433431848e11b4f06afcdd71372edb4a963eb71e9a707b3ce2a6f3d3",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c69d5db4433431848e11b4f06afcdd71372edb4a963eb71e9a707b3ce2a6f3d3",
+      "httpRange": {
+        "offset": 367360152,
+        "compressedBytes": 772634,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p074.jpg",
+      "bytes": 790273,
+      "sha256": "8bcf603fbc353e9665413202b0bf91615bfb7edd17b496d1347ed6a3254a62a4",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8bcf603fbc353e9665413202b0bf91615bfb7edd17b496d1347ed6a3254a62a4",
+      "httpRange": {
+        "offset": 268176328,
+        "compressedBytes": 789182,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p075.jpg",
+      "bytes": 803434,
+      "sha256": "2ecadb417cfb77fd58849ff8bb0d91897b423b5296f53e8448c56accf198dd96",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2ecadb417cfb77fd58849ff8bb0d91897b423b5296f53e8448c56accf198dd96",
+      "httpRange": {
+        "offset": 225196867,
+        "compressedBytes": 802554,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p076.jpg",
+      "bytes": 825431,
+      "sha256": "53ad16b1a2b037fad3322318e559733cac6e1a9e45f359f78f7c47aa7004299c",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/53ad16b1a2b037fad3322318e559733cac6e1a9e45f359f78f7c47aa7004299c",
+      "httpRange": {
+        "offset": 122455614,
+        "compressedBytes": 824448,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p077.jpg",
+      "bytes": 806628,
+      "sha256": "40550cfaa0b1c36d3cd18cae884b712f4a5b6cfedd0efc6cfb7b60ba3eea5155",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/40550cfaa0b1c36d3cd18cae884b712f4a5b6cfedd0efc6cfb7b60ba3eea5155",
+      "httpRange": {
+        "offset": 136943446,
+        "compressedBytes": 804914,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p078.jpg",
+      "bytes": 842693,
+      "sha256": "a4fe5b0c39e991f11af68044d49045d6d8b4caadd2b187fcad7e44e7ce8acfa9",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a4fe5b0c39e991f11af68044d49045d6d8b4caadd2b187fcad7e44e7ce8acfa9",
+      "httpRange": {
+        "offset": 221662440,
+        "compressedBytes": 841454,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p079.jpg",
+      "bytes": 821078,
+      "sha256": "dc8d7b1299518632d2e786e5f982397ec2c231f2c74a0e50ed762c8ddb2c42c4",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/dc8d7b1299518632d2e786e5f982397ec2c231f2c74a0e50ed762c8ddb2c42c4",
+      "httpRange": {
+        "offset": 232527631,
+        "compressedBytes": 819987,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p080.jpg",
+      "bytes": 846366,
+      "sha256": "03e31a37cf38ae491c14a5d3ed687606e5165a07898776615dd12f7377efd5a3",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/03e31a37cf38ae491c14a5d3ed687606e5165a07898776615dd12f7377efd5a3",
+      "httpRange": {
+        "offset": 105820011,
+        "compressedBytes": 845673,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/raw-p081.jpg",
+      "bytes": 841221,
+      "sha256": "b49306fa80657abfa5c50d5b33039d01ac0162838ea4f1b1aca3ddf736cb7718",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b49306fa80657abfa5c50d5b33039d01ac0162838ea4f1b1aca3ddf736cb7718",
+      "httpRange": {
+        "offset": 373011148,
+        "compressedBytes": 839831,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/record-readings.py",
+      "bytes": 14300,
+      "sha256": "f1bf3fb6faecd405cadc522b6e8c5d6aca0a866c48ad63f15a4e78e38b701841",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f1bf3fb6faecd405cadc522b6e8c5d6aca0a866c48ad63f15a4e78e38b701841",
+      "httpRange": {
+        "offset": 161975762,
+        "compressedBytes": 6672,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/test-reference-before-import-fix.mjs",
+      "bytes": 9510,
+      "sha256": "6f19d5c5e2934da9426692faa694319b6f854886518afdba82c2ff5a12780566",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6f19d5c5e2934da9426692faa694319b6f854886518afdba82c2ff5a12780566",
+      "httpRange": {
+        "offset": 284626991,
+        "compressedBytes": 4095,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/test-reference.mjs",
+      "bytes": 9669,
+      "sha256": "b259fa0084cfcb7f0ae8a46f2bf8a7fa9a2dfa00a5187156c701161986f75dc6",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b259fa0084cfcb7f0ae8a46f2bf8a7fa9a2dfa00a5187156c701161986f75dc6",
+      "httpRange": {
+        "offset": 346122732,
+        "compressedBytes": 4140,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-yangzhai-fuyuan-staging/verify-native.py",
+      "bytes": 1924,
+      "sha256": "50979c112ebed918a91945dc24a41591d797892284aa0823c59d053a10d0fdf7",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/50979c112ebed918a91945dc24a41591d797892284aa0823c59d053a10d0fdf7",
+      "httpRange": {
+        "offset": 351182904,
+        "compressedBytes": 969,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

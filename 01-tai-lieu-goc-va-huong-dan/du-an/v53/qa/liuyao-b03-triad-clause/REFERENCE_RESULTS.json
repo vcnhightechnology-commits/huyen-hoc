@@ -1,0 +1,4962 @@
+{
+  "date": "2026-10-28",
+  "checks": [
+    {
+      "name": "162 ternary activity declarations keep exact-two pass,zero/one fail,three and unknown unresolved across six named groups",
+      "ok": true
+    },
+    {
+      "name": "Four mechanical Qian vectors reproduce source-coordinate motion cases with four actual HHC hexNumber calls",
+      "ok": true
+    },
+    {
+      "name": "Static glyph is not silently equated with confirmed inactivity; dark status must be declared",
+      "ok": true
+    },
+    {
+      "name": "Previous >=2 operational gate is explicitly superseded for three-mover interpretation; old source files preserved",
+      "ok": true
+    },
+    {
+      "name": "Missing distinct members,strict frames and copies cannot fabricate a source formation or consumer result",
+      "ok": true
+    }
+  ],
+  "declarations": [
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": false
+        },
+        {
+          "branch": "子",
+          "active": false
+        },
+        {
+          "branch": "辰",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 0,
+      "status": "all-inactive-local-clause-fails",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": true
+        },
+        {
+          "branch": "子",
+          "active": false
+        },
+        {
+          "branch": "辰",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 0,
+      "status": "one-active-does-not-raise-two",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": null
+        },
+        {
+          "branch": "子",
+          "active": false
+        },
+        {
+          "branch": "辰",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": false
+        },
+        {
+          "branch": "子",
+          "active": true
+        },
+        {
+          "branch": "辰",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 0,
+      "status": "one-active-does-not-raise-two",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": true
+        },
+        {
+          "branch": "子",
+          "active": true
+        },
+        {
+          "branch": "辰",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 0,
+      "status": "two-active-raises-one-coordinate",
+      "localPremisePass": true,
+      "sourceRaisedMemberCoordinate": "辰",
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": null
+        },
+        {
+          "branch": "子",
+          "active": true
+        },
+        {
+          "branch": "辰",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": false
+        },
+        {
+          "branch": "子",
+          "active": null
+        },
+        {
+          "branch": "辰",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": true
+        },
+        {
+          "branch": "子",
+          "active": null
+        },
+        {
+          "branch": "辰",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": null
+        },
+        {
+          "branch": "子",
+          "active": null
+        },
+        {
+          "branch": "辰",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": false
+        },
+        {
+          "branch": "子",
+          "active": false
+        },
+        {
+          "branch": "辰",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 0,
+      "status": "one-active-does-not-raise-two",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": true
+        },
+        {
+          "branch": "子",
+          "active": false
+        },
+        {
+          "branch": "辰",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 0,
+      "status": "two-active-raises-one-coordinate",
+      "localPremisePass": true,
+      "sourceRaisedMemberCoordinate": "子",
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": null
+        },
+        {
+          "branch": "子",
+          "active": false
+        },
+        {
+          "branch": "辰",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": false
+        },
+        {
+          "branch": "子",
+          "active": true
+        },
+        {
+          "branch": "辰",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 0,
+      "status": "two-active-raises-one-coordinate",
+      "localPremisePass": true,
+      "sourceRaisedMemberCoordinate": "申",
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": true
+        },
+        {
+          "branch": "子",
+          "active": true
+        },
+        {
+          "branch": "辰",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 3,
+      "unknownActiveCount": 0,
+      "status": "three-active-not-addressed-here",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": null
+        },
+        {
+          "branch": "子",
+          "active": true
+        },
+        {
+          "branch": "辰",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": false
+        },
+        {
+          "branch": "子",
+          "active": null
+        },
+        {
+          "branch": "辰",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": true
+        },
+        {
+          "branch": "子",
+          "active": null
+        },
+        {
+          "branch": "辰",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": null
+        },
+        {
+          "branch": "子",
+          "active": null
+        },
+        {
+          "branch": "辰",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": false
+        },
+        {
+          "branch": "子",
+          "active": false
+        },
+        {
+          "branch": "辰",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": true
+        },
+        {
+          "branch": "子",
+          "active": false
+        },
+        {
+          "branch": "辰",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": null
+        },
+        {
+          "branch": "子",
+          "active": false
+        },
+        {
+          "branch": "辰",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": false
+        },
+        {
+          "branch": "子",
+          "active": true
+        },
+        {
+          "branch": "辰",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": true
+        },
+        {
+          "branch": "子",
+          "active": true
+        },
+        {
+          "branch": "辰",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": null
+        },
+        {
+          "branch": "子",
+          "active": true
+        },
+        {
+          "branch": "辰",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": false
+        },
+        {
+          "branch": "子",
+          "active": null
+        },
+        {
+          "branch": "辰",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": true
+        },
+        {
+          "branch": "子",
+          "active": null
+        },
+        {
+          "branch": "辰",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "water-trine",
+      "members": [
+        {
+          "branch": "申",
+          "active": null
+        },
+        {
+          "branch": "子",
+          "active": null
+        },
+        {
+          "branch": "辰",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 3,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": false
+        },
+        {
+          "branch": "午",
+          "active": false
+        },
+        {
+          "branch": "戌",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 0,
+      "status": "all-inactive-local-clause-fails",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": true
+        },
+        {
+          "branch": "午",
+          "active": false
+        },
+        {
+          "branch": "戌",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 0,
+      "status": "one-active-does-not-raise-two",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": null
+        },
+        {
+          "branch": "午",
+          "active": false
+        },
+        {
+          "branch": "戌",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": false
+        },
+        {
+          "branch": "午",
+          "active": true
+        },
+        {
+          "branch": "戌",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 0,
+      "status": "one-active-does-not-raise-two",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": true
+        },
+        {
+          "branch": "午",
+          "active": true
+        },
+        {
+          "branch": "戌",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 0,
+      "status": "two-active-raises-one-coordinate",
+      "localPremisePass": true,
+      "sourceRaisedMemberCoordinate": "戌",
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": null
+        },
+        {
+          "branch": "午",
+          "active": true
+        },
+        {
+          "branch": "戌",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": false
+        },
+        {
+          "branch": "午",
+          "active": null
+        },
+        {
+          "branch": "戌",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": true
+        },
+        {
+          "branch": "午",
+          "active": null
+        },
+        {
+          "branch": "戌",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": null
+        },
+        {
+          "branch": "午",
+          "active": null
+        },
+        {
+          "branch": "戌",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": false
+        },
+        {
+          "branch": "午",
+          "active": false
+        },
+        {
+          "branch": "戌",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 0,
+      "status": "one-active-does-not-raise-two",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": true
+        },
+        {
+          "branch": "午",
+          "active": false
+        },
+        {
+          "branch": "戌",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 0,
+      "status": "two-active-raises-one-coordinate",
+      "localPremisePass": true,
+      "sourceRaisedMemberCoordinate": "午",
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": null
+        },
+        {
+          "branch": "午",
+          "active": false
+        },
+        {
+          "branch": "戌",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": false
+        },
+        {
+          "branch": "午",
+          "active": true
+        },
+        {
+          "branch": "戌",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 0,
+      "status": "two-active-raises-one-coordinate",
+      "localPremisePass": true,
+      "sourceRaisedMemberCoordinate": "寅",
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": true
+        },
+        {
+          "branch": "午",
+          "active": true
+        },
+        {
+          "branch": "戌",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 3,
+      "unknownActiveCount": 0,
+      "status": "three-active-not-addressed-here",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": null
+        },
+        {
+          "branch": "午",
+          "active": true
+        },
+        {
+          "branch": "戌",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": false
+        },
+        {
+          "branch": "午",
+          "active": null
+        },
+        {
+          "branch": "戌",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": true
+        },
+        {
+          "branch": "午",
+          "active": null
+        },
+        {
+          "branch": "戌",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": null
+        },
+        {
+          "branch": "午",
+          "active": null
+        },
+        {
+          "branch": "戌",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": false
+        },
+        {
+          "branch": "午",
+          "active": false
+        },
+        {
+          "branch": "戌",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": true
+        },
+        {
+          "branch": "午",
+          "active": false
+        },
+        {
+          "branch": "戌",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": null
+        },
+        {
+          "branch": "午",
+          "active": false
+        },
+        {
+          "branch": "戌",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": false
+        },
+        {
+          "branch": "午",
+          "active": true
+        },
+        {
+          "branch": "戌",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": true
+        },
+        {
+          "branch": "午",
+          "active": true
+        },
+        {
+          "branch": "戌",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": null
+        },
+        {
+          "branch": "午",
+          "active": true
+        },
+        {
+          "branch": "戌",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": false
+        },
+        {
+          "branch": "午",
+          "active": null
+        },
+        {
+          "branch": "戌",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": true
+        },
+        {
+          "branch": "午",
+          "active": null
+        },
+        {
+          "branch": "戌",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "fire-trine",
+      "members": [
+        {
+          "branch": "寅",
+          "active": null
+        },
+        {
+          "branch": "午",
+          "active": null
+        },
+        {
+          "branch": "戌",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 3,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": false
+        },
+        {
+          "branch": "酉",
+          "active": false
+        },
+        {
+          "branch": "丑",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 0,
+      "status": "all-inactive-local-clause-fails",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": true
+        },
+        {
+          "branch": "酉",
+          "active": false
+        },
+        {
+          "branch": "丑",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 0,
+      "status": "one-active-does-not-raise-two",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": null
+        },
+        {
+          "branch": "酉",
+          "active": false
+        },
+        {
+          "branch": "丑",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": false
+        },
+        {
+          "branch": "酉",
+          "active": true
+        },
+        {
+          "branch": "丑",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 0,
+      "status": "one-active-does-not-raise-two",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": true
+        },
+        {
+          "branch": "酉",
+          "active": true
+        },
+        {
+          "branch": "丑",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 0,
+      "status": "two-active-raises-one-coordinate",
+      "localPremisePass": true,
+      "sourceRaisedMemberCoordinate": "丑",
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": null
+        },
+        {
+          "branch": "酉",
+          "active": true
+        },
+        {
+          "branch": "丑",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": false
+        },
+        {
+          "branch": "酉",
+          "active": null
+        },
+        {
+          "branch": "丑",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": true
+        },
+        {
+          "branch": "酉",
+          "active": null
+        },
+        {
+          "branch": "丑",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": null
+        },
+        {
+          "branch": "酉",
+          "active": null
+        },
+        {
+          "branch": "丑",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": false
+        },
+        {
+          "branch": "酉",
+          "active": false
+        },
+        {
+          "branch": "丑",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 0,
+      "status": "one-active-does-not-raise-two",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": true
+        },
+        {
+          "branch": "酉",
+          "active": false
+        },
+        {
+          "branch": "丑",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 0,
+      "status": "two-active-raises-one-coordinate",
+      "localPremisePass": true,
+      "sourceRaisedMemberCoordinate": "酉",
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": null
+        },
+        {
+          "branch": "酉",
+          "active": false
+        },
+        {
+          "branch": "丑",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": false
+        },
+        {
+          "branch": "酉",
+          "active": true
+        },
+        {
+          "branch": "丑",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 0,
+      "status": "two-active-raises-one-coordinate",
+      "localPremisePass": true,
+      "sourceRaisedMemberCoordinate": "巳",
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": true
+        },
+        {
+          "branch": "酉",
+          "active": true
+        },
+        {
+          "branch": "丑",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 3,
+      "unknownActiveCount": 0,
+      "status": "three-active-not-addressed-here",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": null
+        },
+        {
+          "branch": "酉",
+          "active": true
+        },
+        {
+          "branch": "丑",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": false
+        },
+        {
+          "branch": "酉",
+          "active": null
+        },
+        {
+          "branch": "丑",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": true
+        },
+        {
+          "branch": "酉",
+          "active": null
+        },
+        {
+          "branch": "丑",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": null
+        },
+        {
+          "branch": "酉",
+          "active": null
+        },
+        {
+          "branch": "丑",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": false
+        },
+        {
+          "branch": "酉",
+          "active": false
+        },
+        {
+          "branch": "丑",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": true
+        },
+        {
+          "branch": "酉",
+          "active": false
+        },
+        {
+          "branch": "丑",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": null
+        },
+        {
+          "branch": "酉",
+          "active": false
+        },
+        {
+          "branch": "丑",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": false
+        },
+        {
+          "branch": "酉",
+          "active": true
+        },
+        {
+          "branch": "丑",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": true
+        },
+        {
+          "branch": "酉",
+          "active": true
+        },
+        {
+          "branch": "丑",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": null
+        },
+        {
+          "branch": "酉",
+          "active": true
+        },
+        {
+          "branch": "丑",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": false
+        },
+        {
+          "branch": "酉",
+          "active": null
+        },
+        {
+          "branch": "丑",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": true
+        },
+        {
+          "branch": "酉",
+          "active": null
+        },
+        {
+          "branch": "丑",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "metal-trine",
+      "members": [
+        {
+          "branch": "巳",
+          "active": null
+        },
+        {
+          "branch": "酉",
+          "active": null
+        },
+        {
+          "branch": "丑",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 3,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": false
+        },
+        {
+          "branch": "卯",
+          "active": false
+        },
+        {
+          "branch": "未",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 0,
+      "status": "all-inactive-local-clause-fails",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": true
+        },
+        {
+          "branch": "卯",
+          "active": false
+        },
+        {
+          "branch": "未",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 0,
+      "status": "one-active-does-not-raise-two",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": null
+        },
+        {
+          "branch": "卯",
+          "active": false
+        },
+        {
+          "branch": "未",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": false
+        },
+        {
+          "branch": "卯",
+          "active": true
+        },
+        {
+          "branch": "未",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 0,
+      "status": "one-active-does-not-raise-two",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": true
+        },
+        {
+          "branch": "卯",
+          "active": true
+        },
+        {
+          "branch": "未",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 0,
+      "status": "two-active-raises-one-coordinate",
+      "localPremisePass": true,
+      "sourceRaisedMemberCoordinate": "未",
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": null
+        },
+        {
+          "branch": "卯",
+          "active": true
+        },
+        {
+          "branch": "未",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": false
+        },
+        {
+          "branch": "卯",
+          "active": null
+        },
+        {
+          "branch": "未",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": true
+        },
+        {
+          "branch": "卯",
+          "active": null
+        },
+        {
+          "branch": "未",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": null
+        },
+        {
+          "branch": "卯",
+          "active": null
+        },
+        {
+          "branch": "未",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": false
+        },
+        {
+          "branch": "卯",
+          "active": false
+        },
+        {
+          "branch": "未",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 0,
+      "status": "one-active-does-not-raise-two",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": true
+        },
+        {
+          "branch": "卯",
+          "active": false
+        },
+        {
+          "branch": "未",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 0,
+      "status": "two-active-raises-one-coordinate",
+      "localPremisePass": true,
+      "sourceRaisedMemberCoordinate": "卯",
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": null
+        },
+        {
+          "branch": "卯",
+          "active": false
+        },
+        {
+          "branch": "未",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": false
+        },
+        {
+          "branch": "卯",
+          "active": true
+        },
+        {
+          "branch": "未",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 0,
+      "status": "two-active-raises-one-coordinate",
+      "localPremisePass": true,
+      "sourceRaisedMemberCoordinate": "亥",
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": true
+        },
+        {
+          "branch": "卯",
+          "active": true
+        },
+        {
+          "branch": "未",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 3,
+      "unknownActiveCount": 0,
+      "status": "three-active-not-addressed-here",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": null
+        },
+        {
+          "branch": "卯",
+          "active": true
+        },
+        {
+          "branch": "未",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": false
+        },
+        {
+          "branch": "卯",
+          "active": null
+        },
+        {
+          "branch": "未",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": true
+        },
+        {
+          "branch": "卯",
+          "active": null
+        },
+        {
+          "branch": "未",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": null
+        },
+        {
+          "branch": "卯",
+          "active": null
+        },
+        {
+          "branch": "未",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": false
+        },
+        {
+          "branch": "卯",
+          "active": false
+        },
+        {
+          "branch": "未",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": true
+        },
+        {
+          "branch": "卯",
+          "active": false
+        },
+        {
+          "branch": "未",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": null
+        },
+        {
+          "branch": "卯",
+          "active": false
+        },
+        {
+          "branch": "未",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": false
+        },
+        {
+          "branch": "卯",
+          "active": true
+        },
+        {
+          "branch": "未",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": true
+        },
+        {
+          "branch": "卯",
+          "active": true
+        },
+        {
+          "branch": "未",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": null
+        },
+        {
+          "branch": "卯",
+          "active": true
+        },
+        {
+          "branch": "未",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": false
+        },
+        {
+          "branch": "卯",
+          "active": null
+        },
+        {
+          "branch": "未",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": true
+        },
+        {
+          "branch": "卯",
+          "active": null
+        },
+        {
+          "branch": "未",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "wood-trine",
+      "members": [
+        {
+          "branch": "亥",
+          "active": null
+        },
+        {
+          "branch": "卯",
+          "active": null
+        },
+        {
+          "branch": "未",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 3,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": false
+        },
+        {
+          "branch": "巳",
+          "active": false
+        },
+        {
+          "branch": "申",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 0,
+      "status": "all-inactive-local-clause-fails",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": true
+        },
+        {
+          "branch": "巳",
+          "active": false
+        },
+        {
+          "branch": "申",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 0,
+      "status": "one-active-does-not-raise-two",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": null
+        },
+        {
+          "branch": "巳",
+          "active": false
+        },
+        {
+          "branch": "申",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": false
+        },
+        {
+          "branch": "巳",
+          "active": true
+        },
+        {
+          "branch": "申",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 0,
+      "status": "one-active-does-not-raise-two",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": true
+        },
+        {
+          "branch": "巳",
+          "active": true
+        },
+        {
+          "branch": "申",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 0,
+      "status": "two-active-raises-one-coordinate",
+      "localPremisePass": true,
+      "sourceRaisedMemberCoordinate": "申",
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": null
+        },
+        {
+          "branch": "巳",
+          "active": true
+        },
+        {
+          "branch": "申",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": false
+        },
+        {
+          "branch": "巳",
+          "active": null
+        },
+        {
+          "branch": "申",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": true
+        },
+        {
+          "branch": "巳",
+          "active": null
+        },
+        {
+          "branch": "申",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": null
+        },
+        {
+          "branch": "巳",
+          "active": null
+        },
+        {
+          "branch": "申",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": false
+        },
+        {
+          "branch": "巳",
+          "active": false
+        },
+        {
+          "branch": "申",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 0,
+      "status": "one-active-does-not-raise-two",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": true
+        },
+        {
+          "branch": "巳",
+          "active": false
+        },
+        {
+          "branch": "申",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 0,
+      "status": "two-active-raises-one-coordinate",
+      "localPremisePass": true,
+      "sourceRaisedMemberCoordinate": "巳",
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": null
+        },
+        {
+          "branch": "巳",
+          "active": false
+        },
+        {
+          "branch": "申",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": false
+        },
+        {
+          "branch": "巳",
+          "active": true
+        },
+        {
+          "branch": "申",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 0,
+      "status": "two-active-raises-one-coordinate",
+      "localPremisePass": true,
+      "sourceRaisedMemberCoordinate": "寅",
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": true
+        },
+        {
+          "branch": "巳",
+          "active": true
+        },
+        {
+          "branch": "申",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 3,
+      "unknownActiveCount": 0,
+      "status": "three-active-not-addressed-here",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": null
+        },
+        {
+          "branch": "巳",
+          "active": true
+        },
+        {
+          "branch": "申",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": false
+        },
+        {
+          "branch": "巳",
+          "active": null
+        },
+        {
+          "branch": "申",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": true
+        },
+        {
+          "branch": "巳",
+          "active": null
+        },
+        {
+          "branch": "申",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": null
+        },
+        {
+          "branch": "巳",
+          "active": null
+        },
+        {
+          "branch": "申",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": false
+        },
+        {
+          "branch": "巳",
+          "active": false
+        },
+        {
+          "branch": "申",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": true
+        },
+        {
+          "branch": "巳",
+          "active": false
+        },
+        {
+          "branch": "申",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": null
+        },
+        {
+          "branch": "巳",
+          "active": false
+        },
+        {
+          "branch": "申",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": false
+        },
+        {
+          "branch": "巳",
+          "active": true
+        },
+        {
+          "branch": "申",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": true
+        },
+        {
+          "branch": "巳",
+          "active": true
+        },
+        {
+          "branch": "申",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": null
+        },
+        {
+          "branch": "巳",
+          "active": true
+        },
+        {
+          "branch": "申",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": false
+        },
+        {
+          "branch": "巳",
+          "active": null
+        },
+        {
+          "branch": "申",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": true
+        },
+        {
+          "branch": "巳",
+          "active": null
+        },
+        {
+          "branch": "申",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "tiger-snake-monkey",
+      "members": [
+        {
+          "branch": "寅",
+          "active": null
+        },
+        {
+          "branch": "巳",
+          "active": null
+        },
+        {
+          "branch": "申",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 3,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": false
+        },
+        {
+          "branch": "戌",
+          "active": false
+        },
+        {
+          "branch": "未",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 0,
+      "status": "all-inactive-local-clause-fails",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": true
+        },
+        {
+          "branch": "戌",
+          "active": false
+        },
+        {
+          "branch": "未",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 0,
+      "status": "one-active-does-not-raise-two",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": null
+        },
+        {
+          "branch": "戌",
+          "active": false
+        },
+        {
+          "branch": "未",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": false
+        },
+        {
+          "branch": "戌",
+          "active": true
+        },
+        {
+          "branch": "未",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 0,
+      "status": "one-active-does-not-raise-two",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": true
+        },
+        {
+          "branch": "戌",
+          "active": true
+        },
+        {
+          "branch": "未",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 0,
+      "status": "two-active-raises-one-coordinate",
+      "localPremisePass": true,
+      "sourceRaisedMemberCoordinate": "未",
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": null
+        },
+        {
+          "branch": "戌",
+          "active": true
+        },
+        {
+          "branch": "未",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": false
+        },
+        {
+          "branch": "戌",
+          "active": null
+        },
+        {
+          "branch": "未",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": true
+        },
+        {
+          "branch": "戌",
+          "active": null
+        },
+        {
+          "branch": "未",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": null
+        },
+        {
+          "branch": "戌",
+          "active": null
+        },
+        {
+          "branch": "未",
+          "active": false
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": false
+        },
+        {
+          "branch": "戌",
+          "active": false
+        },
+        {
+          "branch": "未",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 0,
+      "status": "one-active-does-not-raise-two",
+      "localPremisePass": false,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": true
+        },
+        {
+          "branch": "戌",
+          "active": false
+        },
+        {
+          "branch": "未",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 0,
+      "status": "two-active-raises-one-coordinate",
+      "localPremisePass": true,
+      "sourceRaisedMemberCoordinate": "戌",
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": null
+        },
+        {
+          "branch": "戌",
+          "active": false
+        },
+        {
+          "branch": "未",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": false
+        },
+        {
+          "branch": "戌",
+          "active": true
+        },
+        {
+          "branch": "未",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 0,
+      "status": "two-active-raises-one-coordinate",
+      "localPremisePass": true,
+      "sourceRaisedMemberCoordinate": "丑",
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": true
+        },
+        {
+          "branch": "戌",
+          "active": true
+        },
+        {
+          "branch": "未",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 3,
+      "unknownActiveCount": 0,
+      "status": "three-active-not-addressed-here",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": null
+        },
+        {
+          "branch": "戌",
+          "active": true
+        },
+        {
+          "branch": "未",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": false
+        },
+        {
+          "branch": "戌",
+          "active": null
+        },
+        {
+          "branch": "未",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": true
+        },
+        {
+          "branch": "戌",
+          "active": null
+        },
+        {
+          "branch": "未",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": null
+        },
+        {
+          "branch": "戌",
+          "active": null
+        },
+        {
+          "branch": "未",
+          "active": true
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": false
+        },
+        {
+          "branch": "戌",
+          "active": false
+        },
+        {
+          "branch": "未",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": true
+        },
+        {
+          "branch": "戌",
+          "active": false
+        },
+        {
+          "branch": "未",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": null
+        },
+        {
+          "branch": "戌",
+          "active": false
+        },
+        {
+          "branch": "未",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": false
+        },
+        {
+          "branch": "戌",
+          "active": true
+        },
+        {
+          "branch": "未",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": true
+        },
+        {
+          "branch": "戌",
+          "active": true
+        },
+        {
+          "branch": "未",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 2,
+      "unknownActiveCount": 1,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": null
+        },
+        {
+          "branch": "戌",
+          "active": true
+        },
+        {
+          "branch": "未",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": false
+        },
+        {
+          "branch": "戌",
+          "active": null
+        },
+        {
+          "branch": "未",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": true
+        },
+        {
+          "branch": "戌",
+          "active": null
+        },
+        {
+          "branch": "未",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 1,
+      "unknownActiveCount": 2,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    },
+    {
+      "system": "B03-book2-p39-two-moving-raises-one",
+      "groupID": "ox-dog-goat",
+      "members": [
+        {
+          "branch": "丑",
+          "active": null
+        },
+        {
+          "branch": "戌",
+          "active": null
+        },
+        {
+          "branch": "未",
+          "active": null
+        }
+      ],
+      "completeDistinctMembership": true,
+      "knownActiveCount": 0,
+      "unknownActiveCount": 3,
+      "status": "activity-premise-unknown",
+      "localPremisePass": null,
+      "sourceRaisedMemberCoordinate": null,
+      "activityBasis": "declared-research-fact;not-automaticcalendar",
+      "sourceFormation": null,
+      "strength": null,
+      "practicalOutcome": null,
+      "consumerApplied": false
+    }
+  ],
+  "vectors": [
+    {
+      "kind": "editorial-mechanical-test-vector;notprintedsourcecast",
+      "values": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "declaredDarkActivity": {
+        "1": false,
+        "2": false,
+        "3": false,
+        "4": false,
+        "5": false,
+        "6": false
+      },
+      "actualHHCPrimaryNumber": 1,
+      "actualHHCChangedNumber": 1,
+      "sourceWitness": {
+        "system": "B03-book2-p39-two-moving-raises-one",
+        "groupID": "water-trine",
+        "members": [
+          {
+            "branch": "申",
+            "active": false
+          },
+          {
+            "branch": "子",
+            "active": false
+          },
+          {
+            "branch": "辰",
+            "active": false
+          }
+        ],
+        "completeDistinctMembership": true,
+        "knownActiveCount": 0,
+        "unknownActiveCount": 0,
+        "status": "all-inactive-local-clause-fails",
+        "localPremisePass": false,
+        "sourceRaisedMemberCoordinate": null,
+        "activityBasis": "declared-research-fact;not-automaticcalendar",
+        "sourceFormation": null,
+        "strength": null,
+        "practicalOutcome": null,
+        "consumerApplied": false,
+        "lines": [
+          5,
+          1,
+          3
+        ],
+        "visibleMovingCount": 0,
+        "raisedLine": null
+      }
+    },
+    {
+      "kind": "editorial-mechanical-test-vector;notprintedsourcecast",
+      "values": [
+        9,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "declaredDarkActivity": {
+        "2": false,
+        "3": false,
+        "4": false,
+        "5": false,
+        "6": false
+      },
+      "actualHHCPrimaryNumber": 1,
+      "actualHHCChangedNumber": 44,
+      "sourceWitness": {
+        "system": "B03-book2-p39-two-moving-raises-one",
+        "groupID": "water-trine",
+        "members": [
+          {
+            "branch": "申",
+            "active": false
+          },
+          {
+            "branch": "子",
+            "active": true
+          },
+          {
+            "branch": "辰",
+            "active": false
+          }
+        ],
+        "completeDistinctMembership": true,
+        "knownActiveCount": 1,
+        "unknownActiveCount": 0,
+        "status": "one-active-does-not-raise-two",
+        "localPremisePass": false,
+        "sourceRaisedMemberCoordinate": null,
+        "activityBasis": "declared-research-fact;not-automaticcalendar",
+        "sourceFormation": null,
+        "strength": null,
+        "practicalOutcome": null,
+        "consumerApplied": false,
+        "lines": [
+          5,
+          1,
+          3
+        ],
+        "visibleMovingCount": 1,
+        "raisedLine": null
+      }
+    },
+    {
+      "kind": "editorial-mechanical-test-vector;notprintedsourcecast",
+      "values": [
+        9,
+        7,
+        9,
+        7,
+        7,
+        7
+      ],
+      "declaredDarkActivity": {
+        "2": false,
+        "4": false,
+        "5": false,
+        "6": false
+      },
+      "actualHHCPrimaryNumber": 1,
+      "actualHHCChangedNumber": 6,
+      "sourceWitness": {
+        "system": "B03-book2-p39-two-moving-raises-one",
+        "groupID": "water-trine",
+        "members": [
+          {
+            "branch": "申",
+            "active": false
+          },
+          {
+            "branch": "子",
+            "active": true
+          },
+          {
+            "branch": "辰",
+            "active": true
+          }
+        ],
+        "completeDistinctMembership": true,
+        "knownActiveCount": 2,
+        "unknownActiveCount": 0,
+        "status": "two-active-raises-one-coordinate",
+        "localPremisePass": true,
+        "sourceRaisedMemberCoordinate": "申",
+        "activityBasis": "declared-research-fact;not-automaticcalendar",
+        "sourceFormation": null,
+        "strength": null,
+        "practicalOutcome": null,
+        "consumerApplied": false,
+        "lines": [
+          5,
+          1,
+          3
+        ],
+        "visibleMovingCount": 2,
+        "raisedLine": 5
+      }
+    },
+    {
+      "kind": "editorial-mechanical-test-vector;notprintedsourcecast",
+      "values": [
+        9,
+        7,
+        9,
+        7,
+        9,
+        7
+      ],
+      "declaredDarkActivity": {
+        "2": false,
+        "4": false,
+        "6": false
+      },
+      "actualHHCPrimaryNumber": 1,
+      "actualHHCChangedNumber": 64,
+      "sourceWitness": {
+        "system": "B03-book2-p39-two-moving-raises-one",
+        "groupID": "water-trine",
+        "members": [
+          {
+            "branch": "申",
+            "active": true
+          },
+          {
+            "branch": "子",
+            "active": true
+          },
+          {
+            "branch": "辰",
+            "active": true
+          }
+        ],
+        "completeDistinctMembership": true,
+        "knownActiveCount": 3,
+        "unknownActiveCount": 0,
+        "status": "three-active-not-addressed-here",
+        "localPremisePass": null,
+        "sourceRaisedMemberCoordinate": null,
+        "activityBasis": "declared-research-fact;not-automaticcalendar",
+        "sourceFormation": null,
+        "strength": null,
+        "practicalOutcome": null,
+        "consumerApplied": false,
+        "lines": [
+          5,
+          1,
+          3
+        ],
+        "visibleMovingCount": 3,
+        "raisedLine": null
+      }
+    }
+  ],
+  "summary": {
+    "declarationContexts": 162,
+    "pass": 18,
+    "fail": 24,
+    "unknown": 120,
+    "mechanicalVectors": 4,
+    "printedSourceCastsNew": 0,
+    "actualHHCHexNumberCalls": 4,
+    "actualIztroCalls": 0,
+    "oldOperationalGateComparedOnce": true,
+    "fullSourceFormationImplemented": false,
+    "consumerChanged": false
+  }
+}

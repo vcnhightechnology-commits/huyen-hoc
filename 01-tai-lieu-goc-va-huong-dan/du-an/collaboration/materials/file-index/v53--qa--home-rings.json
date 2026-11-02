@@ -1,0 +1,41 @@
+{
+  "scope": "v53/qa/home-rings",
+  "files": [
+    {
+      "file": "v53/qa/home-rings/RELEASE_RESULTS.json",
+      "bytes": 968,
+      "sha256": "27bae42c1f94cd2b1af0c27180155689caf39862e4687618e9be6826b6380058",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/27bae42c1f94cd2b1af0c27180155689caf39862e4687618e9be6826b6380058",
+      "httpRange": {
+        "offset": 147775389,
+        "compressedBytes": 516,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/home-rings/RESULTS.json",
+      "bytes": 15037,
+      "sha256": "07b33d1a7fc023b372e3d90d963757c258515d6f5c498172a154e8a430f20725",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/07b33d1a7fc023b372e3d90d963757c258515d6f5c498172a154e8a430f20725",
+      "httpRange": {
+        "offset": 134133767,
+        "compressedBytes": 2370,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/home-rings/SOURCE_RESULTS.json",
+      "bytes": 486,
+      "sha256": "9304aeb89ec25749d0af5da0ca5c9181c584de0840ebbc43c3aaf90023c9fc06",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/9304aeb89ec25749d0af5da0ca5c9181c584de0840ebbc43c3aaf90023c9fc06",
+      "httpRange": {
+        "offset": 328072255,
+        "compressedBytes": 309,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

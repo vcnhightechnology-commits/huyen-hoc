@@ -1,0 +1,532 @@
+{
+  "fireFrames": [
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": false,
+        "wholeAnnualBingDingArrival": false,
+        "noMaleficConfirmed": false
+      },
+      "expectedActivationCondition": false,
+      "expectedSeparateNoMaleficClaim": false
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": false,
+        "wholeAnnualBingDingArrival": false,
+        "noMaleficConfirmed": null
+      },
+      "expectedActivationCondition": false,
+      "expectedSeparateNoMaleficClaim": null
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": false,
+        "wholeAnnualBingDingArrival": false,
+        "noMaleficConfirmed": true
+      },
+      "expectedActivationCondition": false,
+      "expectedSeparateNoMaleficClaim": true
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": false,
+        "wholeAnnualBingDingArrival": null,
+        "noMaleficConfirmed": false
+      },
+      "expectedActivationCondition": null,
+      "expectedSeparateNoMaleficClaim": false
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": false,
+        "wholeAnnualBingDingArrival": null,
+        "noMaleficConfirmed": null
+      },
+      "expectedActivationCondition": null,
+      "expectedSeparateNoMaleficClaim": null
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": false,
+        "wholeAnnualBingDingArrival": null,
+        "noMaleficConfirmed": true
+      },
+      "expectedActivationCondition": null,
+      "expectedSeparateNoMaleficClaim": true
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": false,
+        "wholeAnnualBingDingArrival": true,
+        "noMaleficConfirmed": false
+      },
+      "expectedActivationCondition": true,
+      "expectedSeparateNoMaleficClaim": false
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": false,
+        "wholeAnnualBingDingArrival": true,
+        "noMaleficConfirmed": null
+      },
+      "expectedActivationCondition": true,
+      "expectedSeparateNoMaleficClaim": null
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": false,
+        "wholeAnnualBingDingArrival": true,
+        "noMaleficConfirmed": true
+      },
+      "expectedActivationCondition": true,
+      "expectedSeparateNoMaleficClaim": true
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": null,
+        "wholeAnnualBingDingArrival": false,
+        "noMaleficConfirmed": false
+      },
+      "expectedActivationCondition": null,
+      "expectedSeparateNoMaleficClaim": false
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": null,
+        "wholeAnnualBingDingArrival": false,
+        "noMaleficConfirmed": null
+      },
+      "expectedActivationCondition": null,
+      "expectedSeparateNoMaleficClaim": null
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": null,
+        "wholeAnnualBingDingArrival": false,
+        "noMaleficConfirmed": true
+      },
+      "expectedActivationCondition": null,
+      "expectedSeparateNoMaleficClaim": true
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": null,
+        "wholeAnnualBingDingArrival": null,
+        "noMaleficConfirmed": false
+      },
+      "expectedActivationCondition": null,
+      "expectedSeparateNoMaleficClaim": false
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": null,
+        "wholeAnnualBingDingArrival": null,
+        "noMaleficConfirmed": null
+      },
+      "expectedActivationCondition": null,
+      "expectedSeparateNoMaleficClaim": null
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": null,
+        "wholeAnnualBingDingArrival": null,
+        "noMaleficConfirmed": true
+      },
+      "expectedActivationCondition": null,
+      "expectedSeparateNoMaleficClaim": true
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": null,
+        "wholeAnnualBingDingArrival": true,
+        "noMaleficConfirmed": false
+      },
+      "expectedActivationCondition": true,
+      "expectedSeparateNoMaleficClaim": false
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": null,
+        "wholeAnnualBingDingArrival": true,
+        "noMaleficConfirmed": null
+      },
+      "expectedActivationCondition": true,
+      "expectedSeparateNoMaleficClaim": null
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": null,
+        "wholeAnnualBingDingArrival": true,
+        "noMaleficConfirmed": true
+      },
+      "expectedActivationCondition": true,
+      "expectedSeparateNoMaleficClaim": true
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": true,
+        "wholeAnnualBingDingArrival": false,
+        "noMaleficConfirmed": false
+      },
+      "expectedActivationCondition": true,
+      "expectedSeparateNoMaleficClaim": false
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": true,
+        "wholeAnnualBingDingArrival": false,
+        "noMaleficConfirmed": null
+      },
+      "expectedActivationCondition": true,
+      "expectedSeparateNoMaleficClaim": null
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": true,
+        "wholeAnnualBingDingArrival": false,
+        "noMaleficConfirmed": true
+      },
+      "expectedActivationCondition": true,
+      "expectedSeparateNoMaleficClaim": true
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": true,
+        "wholeAnnualBingDingArrival": null,
+        "noMaleficConfirmed": false
+      },
+      "expectedActivationCondition": true,
+      "expectedSeparateNoMaleficClaim": false
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": true,
+        "wholeAnnualBingDingArrival": null,
+        "noMaleficConfirmed": null
+      },
+      "expectedActivationCondition": true,
+      "expectedSeparateNoMaleficClaim": null
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": true,
+        "wholeAnnualBingDingArrival": null,
+        "noMaleficConfirmed": true
+      },
+      "expectedActivationCondition": true,
+      "expectedSeparateNoMaleficClaim": true
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": true,
+        "wholeAnnualBingDingArrival": true,
+        "noMaleficConfirmed": false
+      },
+      "expectedActivationCondition": true,
+      "expectedSeparateNoMaleficClaim": false
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": true,
+        "wholeAnnualBingDingArrival": true,
+        "noMaleficConfirmed": null
+      },
+      "expectedActivationCondition": true,
+      "expectedSeparateNoMaleficClaim": null
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-location-context",
+        "monthlyDatouCoLocation": true,
+        "wholeAnnualBingDingArrival": true,
+        "noMaleficConfirmed": true
+      },
+      "expectedActivationCondition": true,
+      "expectedSeparateNoMaleficClaim": true
+    }
+  ],
+  "dailyFrames": [
+    {
+      "label": "月遊火",
+      "coLocation": false,
+      "expectedActivationCondition": false
+    },
+    {
+      "label": "月遊火",
+      "coLocation": null,
+      "expectedActivationCondition": null
+    },
+    {
+      "label": "月遊火",
+      "coLocation": true,
+      "expectedActivationCondition": true
+    },
+    {
+      "label": "飛天獨火",
+      "coLocation": false,
+      "expectedActivationCondition": false
+    },
+    {
+      "label": "飛天獨火",
+      "coLocation": null,
+      "expectedActivationCondition": null
+    },
+    {
+      "label": "飛天獨火",
+      "coLocation": true,
+      "expectedActivationCondition": true
+    }
+  ],
+  "arrivalCases": [
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-direction-repair-context",
+        "actor": "飛宮",
+        "activity": "repair-at-declared-place",
+        "affectedPlaceConfirmed": true,
+        "candidateSetComplete": null,
+        "observations": [
+          {
+            "id": "one",
+            "eligibleBeneficConfirmed": true,
+            "atAffectedPlaceConfirmed": true
+          }
+        ]
+      },
+      "expectedLocalClaim": true
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-direction-repair-context",
+        "actor": "地軸",
+        "activity": "repair-at-declared-place",
+        "affectedPlaceConfirmed": true,
+        "candidateSetComplete": true,
+        "observations": []
+      },
+      "expectedLocalClaim": false
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-direction-repair-context",
+        "actor": "帝舍",
+        "activity": "repair-at-declared-place",
+        "affectedPlaceConfirmed": true,
+        "candidateSetComplete": false,
+        "observations": []
+      },
+      "expectedLocalClaim": null
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-direction-repair-context",
+        "actor": "帝車",
+        "activity": "repair-at-declared-place",
+        "affectedPlaceConfirmed": true,
+        "candidateSetComplete": null,
+        "observations": [
+          {
+            "id": "one",
+            "eligibleBeneficConfirmed": false,
+            "atAffectedPlaceConfirmed": true
+          }
+        ]
+      },
+      "expectedLocalClaim": null
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-direction-repair-context",
+        "actor": "帝輅",
+        "activity": "repair-at-declared-place",
+        "affectedPlaceConfirmed": true,
+        "candidateSetComplete": true,
+        "observations": [
+          {
+            "id": "one",
+            "eligibleBeneficConfirmed": false,
+            "atAffectedPlaceConfirmed": true
+          }
+        ]
+      },
+      "expectedLocalClaim": false
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-direction-repair-context",
+        "actor": "飛宮",
+        "activity": "repair-at-declared-place",
+        "affectedPlaceConfirmed": true,
+        "candidateSetComplete": true,
+        "observations": [
+          {
+            "id": "one",
+            "eligibleBeneficConfirmed": null,
+            "atAffectedPlaceConfirmed": true
+          }
+        ]
+      },
+      "expectedLocalClaim": null
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-direction-repair-context",
+        "actor": "飛宮",
+        "activity": "repair-at-declared-place",
+        "affectedPlaceConfirmed": true,
+        "candidateSetComplete": true,
+        "observations": [
+          {
+            "id": "one",
+            "eligibleBeneficConfirmed": true,
+            "atAffectedPlaceConfirmed": false
+          }
+        ]
+      },
+      "expectedLocalClaim": false
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-direction-repair-context",
+        "actor": "飛宮",
+        "activity": "repair-at-declared-place",
+        "affectedPlaceConfirmed": null,
+        "candidateSetComplete": true,
+        "observations": [
+          {
+            "id": "one",
+            "eligibleBeneficConfirmed": true,
+            "atAffectedPlaceConfirmed": true
+          }
+        ]
+      },
+      "expectedLocalClaim": null
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-direction-repair-context",
+        "actor": "飛宮",
+        "activity": "repair-at-declared-place",
+        "affectedPlaceConfirmed": false,
+        "candidateSetComplete": null,
+        "observations": [
+          {
+            "id": "one",
+            "eligibleBeneficConfirmed": true,
+            "atAffectedPlaceConfirmed": true
+          }
+        ]
+      },
+      "expectedLocalClaim": false
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-direction-repair-context",
+        "actor": "飛宮",
+        "activity": "repair-at-declared-place",
+        "affectedPlaceConfirmed": true,
+        "candidateSetComplete": false,
+        "observations": [
+          {
+            "id": "one",
+            "eligibleBeneficConfirmed": true,
+            "atAffectedPlaceConfirmed": null
+          },
+          {
+            "id": "two",
+            "eligibleBeneficConfirmed": true,
+            "atAffectedPlaceConfirmed": true
+          }
+        ]
+      },
+      "expectedLocalClaim": true
+    },
+    {
+      "input": {
+        "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+        "frameID": "declared-monthly-direction-repair-context",
+        "actor": "飛宮",
+        "activity": "repair-at-declared-place",
+        "affectedPlaceConfirmed": true,
+        "candidateSetComplete": true,
+        "observations": [
+          {
+            "id": "one",
+            "eligibleBeneficConfirmed": null,
+            "atAffectedPlaceConfirmed": false
+          }
+        ]
+      },
+      "expectedLocalClaim": false
+    }
+  ],
+  "allPracticalOutcomes": null,
+  "allOverallSourceVerdicts": null,
+  "newCalendarObjects": 0,
+  "newEngineCalls": 0,
+  "sourcePrintedExampleCount": 0,
+  "casesAreDeclaredPremiseFramesNotHistoricalEvents": true
+}

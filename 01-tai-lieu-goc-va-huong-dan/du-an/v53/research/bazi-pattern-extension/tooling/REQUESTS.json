@@ -1,0 +1,70 @@
+{
+  "records": [
+    {
+      "file": "official-downloads.html",
+      "url": "https://djvu.js.org/downloads",
+      "status": 200,
+      "tlsAuthorized": true,
+      "bytes": 14747,
+      "sha256": "f9fc6d9de38177b7202c0eedcfafcc4fe68aa572b78011ee61bd1f9b300910bb",
+      "headers": {
+        "connection": "keep-alive",
+        "content-length": "14747",
+        "server": "GitHub.com",
+        "content-type": "text/html; charset=utf-8",
+        "last-modified": "Tue, 26 Dec 2023 15:46:58 GMT",
+        "access-control-allow-origin": "*",
+        "etag": "\"658af572-399b\"",
+        "expires": "Mon, 26 Oct 2026 10:36:36 GMT",
+        "cache-control": "max-age=600",
+        "x-proxy-cache": "MISS",
+        "x-github-request-id": "DAA0:E4E6B:350586:3C5B12:6ADF2ADC",
+        "x-github-edge-region": "westus3",
+        "accept-ranges": "bytes",
+        "age": "0",
+        "date": "Mon, 26 Oct 2026 10:26:36 GMT",
+        "via": "1.1 varnish",
+        "x-served-by": "cache-bur-kbur8200064-BUR",
+        "x-cache": "MISS",
+        "x-cache-hits": "0",
+        "x-timer": "S1793010397.587328,VS0,VE89",
+        "vary": "Accept-Encoding",
+        "x-fastly-request-id": "4c6656941310e8c7dd0fdaaf48c22468d6ab8edc"
+      },
+      "retrievedUTC": "2026-10-26T10:26:41.591Z"
+    },
+    {
+      "file": "djvu.js",
+      "url": "https://djvu.js.org/assets/dist/djvu.js",
+      "status": 200,
+      "tlsAuthorized": true,
+      "bytes": 556634,
+      "sha256": "10a831d62cc7ced39c30c7350a11410402d082a0f0a5b073a88d3d7ca662add3",
+      "headers": {
+        "connection": "keep-alive",
+        "content-length": "556634",
+        "server": "GitHub.com",
+        "content-type": "application/javascript; charset=utf-8",
+        "last-modified": "Tue, 26 Dec 2023 15:46:58 GMT",
+        "access-control-allow-origin": "*",
+        "etag": "\"658af572-87e5a\"",
+        "expires": "Mon, 26 Oct 2026 10:36:52 GMT",
+        "cache-control": "max-age=600",
+        "x-proxy-cache": "MISS",
+        "x-github-request-id": "35E4:2A2B2D:34CF42:3C23D0:6ADF2AEC",
+        "x-github-edge-region": "westus3",
+        "accept-ranges": "bytes",
+        "age": "0",
+        "date": "Mon, 26 Oct 2026 10:26:52 GMT",
+        "via": "1.1 varnish",
+        "x-served-by": "cache-bur-kbur8200100-BUR",
+        "x-cache": "MISS",
+        "x-cache-hits": "0",
+        "x-timer": "S1793010413.858648,VS0,VE114",
+        "vary": "Accept-Encoding",
+        "x-fastly-request-id": "ba9447c86111acb2390cac9a91d1696c290fb698"
+      },
+      "retrievedUTC": "2026-10-26T10:26:57.926Z"
+    }
+  ]
+}

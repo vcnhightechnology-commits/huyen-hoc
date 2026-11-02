@@ -1,0 +1,53 @@
+{
+  "scope": "v53/qa/tuvi-dipper-windows",
+  "files": [
+    {
+      "file": "v53/qa/tuvi-dipper-windows/PROMOTION_IDENTITIES.json",
+      "bytes": 5506,
+      "sha256": "57dbe7ea3d650df8601a380141918d6e22cae7d2380fa96f86cfb82c9b7ef435",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/57dbe7ea3d650df8601a380141918d6e22cae7d2380fa96f86cfb82c9b7ef435",
+      "httpRange": {
+        "offset": 224618950,
+        "compressedBytes": 1509,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/tuvi-dipper-windows/REFERENCE_RESULTS.json",
+      "bytes": 609,
+      "sha256": "436e3422dd50ff7b9a75deaf04dac2bc03addc408ba37183d6a18d4698030dd0",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/436e3422dd50ff7b9a75deaf04dac2bc03addc408ba37183d6a18d4698030dd0",
+      "httpRange": {
+        "offset": 166974421,
+        "compressedBytes": 337,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/tuvi-dipper-windows/RELEASE_RESULTS.json",
+      "bytes": 1626,
+      "sha256": "96955bd481b5670999066aaf1d8c4844874b49ff264cbdff745db86c2986188a",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/96955bd481b5670999066aaf1d8c4844874b49ff264cbdff745db86c2986188a",
+      "httpRange": {
+        "offset": 368401031,
+        "compressedBytes": 639,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/tuvi-dipper-windows/SOURCE_RESULTS.json",
+      "bytes": 567,
+      "sha256": "ca67a29db9dbfeb656b1cc1bc9eea69069141bf74e2d514008f4f8a007b947dd",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/ca67a29db9dbfeb656b1cc1bc9eea69069141bf74e2d514008f4f8a007b947dd",
+      "httpRange": {
+        "offset": 408463398,
+        "compressedBytes": 304,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

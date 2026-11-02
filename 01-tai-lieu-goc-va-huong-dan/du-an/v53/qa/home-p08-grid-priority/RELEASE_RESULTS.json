@@ -1,0 +1,35 @@
+{
+  "status": "source-and-reference-verified;package-verification-external",
+  "scope": "home-p08-grid-priority",
+  "checks": [
+    {
+      "passed": true,
+      "retainedSourcePositionsReexamined": 2,
+      "nativeCropsRGBMatched": 2,
+      "newSourcePositions": 0,
+      "newHTTPBodies": 0,
+      "newEngineCalls": 0,
+      "smallTableGlyphsResolved": false,
+      "wholeSourceMethodApplied": false,
+      "consumerChanged": false
+    },
+    {
+      "passed": true,
+      "groups": 6,
+      "frozenFiles": 3,
+      "sourceContextFrames": 36,
+      "nullInvariants": 252,
+      "unsupportedContexts": 4,
+      "invalidInputs": 7,
+      "newEngineCalls": 0,
+      "newEngineCallsDuringTests": 0,
+      "newCalendarObjects": 0,
+      "newHTTPBodies": 0,
+      "consumerChanged": false,
+      "wholeSourceMethodApplied": false
+    }
+  ],
+  "consumerChanged": false,
+  "wholeSourceMethodApplied": false,
+  "packageVerificationPointer": "recovery/research-release/FINAL_VERIFICATION.json"
+}

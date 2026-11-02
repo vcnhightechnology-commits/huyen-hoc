@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-25T17:13:26.399Z",
+  "checks": [
+    {
+      "name": "Existing engine/calendar/star positions remain byte-identical",
+      "ok": true
+    },
+    {
+      "name": "All 384 ordinary lines have individual readings and useful prompts",
+      "ok": true
+    },
+    {
+      "name": "All 4096 ordinary moving-line subsets select correct positions without extra supplements",
+      "ok": true
+    },
+    {
+      "name": "Executed iztro 2.6.2 matches all 209 archived package files",
+      "ok": true
+    },
+    {
+      "name": "All 12 hidden stem sets and primary-stem order match the actually executed lunar-typescript table",
+      "ok": true
+    },
+    {
+      "name": "All 100 stem relationships match the independent installed relation table",
+      "ok": true
+    },
+    {
+      "name": "Bazi unknown-time date ambiguity suppresses all relative interpretations",
+      "ok": true
+    },
+    {
+      "name": "Known time has four relation pillars; unknown stable time has three and no invented hour",
+      "ok": true
+    },
+    {
+      "name": "All 64 manually read diagram labels match real direction engine output",
+      "ok": true
+    },
+    {
+      "name": "Bearing wrap, exact boundary, uncertainty and magnetic correction remain distinct",
+      "ok": true
+    },
+    {
+      "name": "Unknown magnetic declination is rejected rather than silently treated as zero",
+      "ok": true
+    },
+    {
+      "name": "Date, nominal age, physical decade/year/month indices align on 72 real iztro horoscope calls",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "Target year changes on lunar New Year and pre-birth dates fail",
+      "ok": true
+    },
+    {
+      "name": "Sensitive-calendar targets fail explicitly rather than inventing a period",
+      "ok": true
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "schema": "hhc.ai10.delivery.integrity-gates.v2",
+  "date": "2026-11-01",
+  "branch": "codex/ai-10-tam-thuc",
+  "lastVerifiedRemoteCommit": "3fba778df2db68cd0fdbb472a271b1322dcc66ae",
+  "githubConnector": "HTTP 403 / Sorry. Your account was suspended",
+  "githubPushCompletedThisTurn": false,
+  "githubPRUpdatedThisTurn": false,
+  "localTestCases": {
+    "passed": 118,
+    "failed": 0,
+    "executed": 118,
+    "new": 16,
+    "localTestFiles": 13,
+    "manifestFiles": 24,
+    "missing": 11
+  },
+  "patchValidation": {
+    "combinedGitApplyCheck": true,
+    "incrementalGitApplyCheck": true,
+    "bothApplied": true,
+    "verifiedModifiedFileCount": 12,
+    "byteEqualToDevelopment": true,
+    "testsPassedAfterCombinedPatch": 118
+  },
+  "artifacts": [
+    {
+      "filename": "AI10_integrity_hardening_combined_2026-11-01.patch",
+      "bytes": 76366,
+      "sha256": "a271dc66f6df9b37cf34714840799facf9e26c09407f54eec86000da310d9f9a"
+    },
+    {
+      "filename": "AI10_integrity_hardening_incremental_2026-11-01.patch",
+      "bytes": 43351,
+      "sha256": "a105ff5e1eee44aa9e1eb4f1834d6bdbf5abefa949186c733119b54a07dd0043"
+    },
+    {
+      "filename": "AI10_integrity_hardening_2026-11-01_tests.tap",
+      "bytes": 26468,
+      "sha256": "d452c8745ae3d0542fca52937a5dfc27ea3d5139ef57bd4ce3334914c0cfe755"
+    },
+    {
+      "filename": "AI10_2026-11-01_INTEGRITY_GATES_REPORT.md",
+      "bytes": 9024,
+      "sha256": "d10a4d8032e63d4fe5c26f00fe4ce07c87183fd8176067ac85008ef7eaadea1a"
+    },
+    {
+      "filename": "AI10_2026-11-01_INTEGRITY_GATES_STATE.json",
+      "bytes": 1768,
+      "sha256": "024e9eb8e8d715a69c922fef4a306461e0ee0c7c1e87449d3e0611d44398ee0c"
+    }
+  ]
+}

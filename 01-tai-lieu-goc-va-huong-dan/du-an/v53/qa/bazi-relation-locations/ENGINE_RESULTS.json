@@ -1,0 +1,80 @@
+{
+  "checks": [
+    {
+      "name": "Retained book, three page renders, catalog and pinned digital text keep their byte identity",
+      "ok": true
+    },
+    {
+      "name": "Visible/hidden and no-food qualifications are found at the exact cited WYG page markers",
+      "ok": true
+    },
+    {
+      "name": "The actually executed lunar-typescript1.8.6 runtime matches the previously retained source audit",
+      "ok": true
+    },
+    {
+      "name": "Eleven newly read relation pairs agree with HHC and the real library table",
+      "ok": true
+    },
+    {
+      "name": "All240 actual natal charts match real library pillars before relation-position comparison",
+      "ok": true
+    },
+    {
+      "name": "Every visible and hidden relation position matches the actual library API, including primary order",
+      "ok": true,
+      "detail": {
+        "fieldOccurrences": 3020
+      }
+    },
+    {
+      "name": "Sample covers all ten relations in both visible and hidden contexts",
+      "ok": true
+    },
+    {
+      "name": "Day master is excluded from visible Tỷ Kiên; genuine same-stem positions remain",
+      "ok": true
+    },
+    {
+      "name": "Four actual counterexamples prevent conflating relation identity, visible placement and full patterns",
+      "ok": true
+    },
+    {
+      "name": "Unknown-hour results keep only positions in the three known pillars",
+      "ok": true
+    },
+    {
+      "name": "Ambiguous first three pillars suppress relation interpretations and locations",
+      "ok": true
+    },
+    {
+      "name": "Inspection and consumer edits cannot mutate natal chart or later inspection results",
+      "ok": true
+    },
+    {
+      "name": "The23h convention difference is retained openly instead of forcing a reference match",
+      "ok": true
+    },
+    {
+      "name": "All preexisting relation fields and authored meanings retain the prior behavior",
+      "ok": true
+    },
+    {
+      "name": "The revised module and styles are fully embedded in the standalone HTML",
+      "ok": true
+    },
+    {
+      "name": "All calculations and unrelated interpretations retain the snapshot bytes",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "realCharts": 240,
+    "occurrenceFields": 3020,
+    "relationLayerCoverage": 20,
+    "manualPairs": 11,
+    "counterexamples": 4,
+    "unknownHourCases": 3,
+    "lateZiDifferencesRetained": 1
+  }
+}

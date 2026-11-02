@@ -1,0 +1,26 @@
+PASS New plan is optional, initially closed and does not fabricate a measurement
+PASS A filled room yields a true-north diagram,20m² footprint and northwest center
+PASS Adding a room clears prior output immediately
+PASS Two rooms and two different perimeter openings have separate, correct results
+PASS Editing orientation clears a previously drawn north arrow and output
+PASS Rotating the plan preserves40m² coverage and correctly changes the opening directions
+PASS A late change event with identical values preserves the freshly calculated result
+PASS TXT preserves house/room/opening dimensions, actual orientation and boundaries of interpretation
+PASS Downloaded SVG is independent and contains north arrow, dimensions and both opening lines
+PASS A room beyond house boundary shows a clear error and removes the prior diagram
+PASS An overlapping footprint is reported and its area counted only once
+PASS Changing the room advice does not discard the separately entered measured plan
+PASS Switching between age directions and room guide preserves in-session geometry
+PASS Print opens an existing plan and keeps measurement controls out of print
+PASS The plan is visible in print while all its editing controls are hidden
+PASS After printing restores the prior collapsed state
+PASS 320px: form, vector plan and long room text fit the page
+PASS 390px: form, vector plan and long room text fit the page
+PASS 768px: form, vector plan and long room text fit the page
+PASS 1440px: form, vector plan and long room text fit the page
+PASS Geometry is not automatically written to browser storage
+PASS Markup-like labels display as text without inserting elements
+PASS Removing a perimeter opening invalidates its old result
+PASS Reload starts clean without invented dimensions or recovered private measurements
+PASS No JavaScript errors, external requests or research data panels are introduced
+25/25 passed

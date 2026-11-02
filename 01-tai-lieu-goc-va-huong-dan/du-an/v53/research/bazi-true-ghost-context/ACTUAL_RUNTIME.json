@@ -1,0 +1,71 @@
+{
+  "executedUTC": "2026-10-29T13:36:50.338Z",
+  "libraryFile": "v46/node_modules/lunar-typescript/dist/index.cjs",
+  "librarySHA256": "76e490b74e9913ed94b49689b90abc688ed1e2b11456312b3eb081ec63cf2fbe",
+  "scriptSHA256": "41b983c2ec30c2bbff2f070c3160a7b6f02f848c0d6beec5636bcdd3aceae22d",
+  "freezeSHA256": "36449ea02087602706e5603eb46405562d8b4a06308e1dd685003c481f360edb",
+  "method": "Execute only4 previously missing HE_GAN_5 partners and6 exact source-pillar NAYIN lookups; reuse6 retained partner results. These are mechanical table identities,not source true-five-element meanings.",
+  "partners": [
+    {
+      "stem": "甲",
+      "expected": "己",
+      "actual": "己"
+    },
+    {
+      "stem": "己",
+      "expected": "甲",
+      "actual": "甲"
+    },
+    {
+      "stem": "乙",
+      "expected": "庚",
+      "actual": "庚"
+    },
+    {
+      "stem": "庚",
+      "expected": "乙",
+      "actual": "乙"
+    }
+  ],
+  "naYin": [
+    {
+      "pillar": "甲寅",
+      "expected": "大溪水",
+      "actual": "大溪水"
+    },
+    {
+      "pillar": "己亥",
+      "expected": "平地木",
+      "actual": "平地木"
+    },
+    {
+      "pillar": "己酉",
+      "expected": "大驿土",
+      "actual": "大驿土"
+    },
+    {
+      "pillar": "己卯",
+      "expected": "城头土",
+      "actual": "城头土"
+    },
+    {
+      "pillar": "壬子",
+      "expected": "桑柘木",
+      "actual": "桑柘木"
+    },
+    {
+      "pillar": "壬午",
+      "expected": "杨柳木",
+      "actual": "杨柳木"
+    }
+  ],
+  "reusedEvidence": "v53/qa/bazi-food-appendices/REFERENCE_RESULTS.json",
+  "reusedEvidenceSHA256": "824b75c19144483f214e4ad8f8a3310b7130bcaeb0de4bb670d612a1d87995c0",
+  "actualNewPartnerQueries": 4,
+  "actualNewNaYinQueries": 6,
+  "reusedPartnerQueries": 6,
+  "actualCalendarObjects": 0,
+  "actualNatalCharts": 0,
+  "trueFiveElementMappingEstablished": false,
+  "sourcePredictionValidated": false
+}

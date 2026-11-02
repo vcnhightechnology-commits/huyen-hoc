@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-29",
+  "priorCorrection": "v53/research/tuvi-lower-contexts/VOLUME_CORRECTION.json",
+  "boundaries": [
+    {
+      "position": "29left",
+      "literal": "卷之五",
+      "evidence": "v53/research/tuvi-lower-contexts/VOLUME_CORRECTION.json",
+      "status": "previously-verified"
+    },
+    {
+      "position": "64right",
+      "literal": "五卷終",
+      "status": "previously-verified"
+    },
+    {
+      "position": "64left",
+      "literal": "孔子命圖",
+      "status": "first-diagram-panel-previously-viewed"
+    },
+    {
+      "position": "65fold",
+      "literal": "卷之六",
+      "status": "previously-viewed-running-title;not-formal-opening"
+    },
+    {
+      "position": "121right",
+      "literal": null,
+      "status": "final-diagram;no-separate-readable-formal六終-established"
+    },
+    {
+      "position": "121left",
+      "literal": "新鐫紫微斗數全書譚命活套卷之七",
+      "evidence": "121-juan7-opening.png",
+      "status": "directly-viewed-accepted-crop"
+    },
+    {
+      "position": "136right",
+      "literal": "新鐫陳希夷先生紫微斗數全書卷之七終",
+      "evidence": "v53/research/tuvi-lower-printed-cases/canvas-136-2200.jpg",
+      "status": "prior-and-current-direct-view"
+    }
+  ],
+  "physicalFirstPassComplete": true,
+  "wholeBodyDiplomaticallyTranscribed": false,
+  "allClausesApplied": false,
+  "originalJP2Retained": false,
+  "independentEditionAdded": false,
+  "formalJuan6OpeningEstablished": false,
+  "datedColophonEstablished": false,
+  "provisionalSixEndWithdrawnBeforeRuntime": true
+}

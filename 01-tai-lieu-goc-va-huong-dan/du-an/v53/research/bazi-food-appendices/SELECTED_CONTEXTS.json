@@ -1,0 +1,350 @@
+{
+  "date": "2026-10-28",
+  "source": "v53/research/bazi-food-source/CONTEXTS.json",
+  "sha256": "c9179c1421a4521ce9bd0f5d48ab05e28a6a9ed11daf462927ad777343be0f68",
+  "records": [
+    {
+      "id": "FOOD-03-C01",
+      "unit": "FOOD-03",
+      "heading": "天衝食禄",
+      "startCleanCodepoint": 0,
+      "endCleanCodepoint": 4,
+      "text": "天衝食禄",
+      "digitalFolios": [
+        "005-96b"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "heading",
+      "disposition": "editorial-heading",
+      "readingNote": "Giữ đúng đề bản số, không đổi thành một tên cách khác.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-03-C02",
+      "unit": "FOOD-03",
+      "heading": "天衝食禄",
+      "startCleanCodepoint": 4,
+      "endCleanCodepoint": 63,
+      "text": "乃甲食丙丙禄在巳乃食神位上就見禄曰天厨禄須干支全見者方是若有丙無巳有巳無丙則非此不拘年月時又不専以戊日論所以與合禄不同",
+      "digitalFolios": [
+        "005-96b"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "main",
+      "disposition": "explicit-coordinate-and-negative-cases",
+      "readingNote": "Ví dụ 甲/丙/巳, cần cả can và chi; có một thiếu một không phải, không hạn năm/tháng/giờ và không chỉ 戊日.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-03-C03",
+      "unit": "FOOD-03",
+      "heading": "天衝食禄",
+      "startCleanCodepoint": 63,
+      "endCleanCodepoint": 101,
+      "text": "人命五行有厨月令上純粹四柱順食主福慧優游更與財庫相會主享父母財帛居官食禄豐厚",
+      "digitalFolios": [
+        "005-96b"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "main",
+      "disposition": "conditional-source-claim",
+      "readingNote": "Thuần tháng/thuận thực/Tài khố cùng điều kiện; kết quả hưởng tài/quan lộc chưa xác minh.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-04-C01",
+      "unit": "FOOD-04",
+      "heading": "福星貴人",
+      "startCleanCodepoint": 0,
+      "endCleanCodepoint": 4,
+      "text": "福星貴人",
+      "digitalFolios": [
+        "005-96b"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "heading",
+      "disposition": "editorial-heading",
+      "readingNote": "Mục Phúc tinh của nguồn này riêng với các bảng Phúc tinh khác.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-04-C02",
+      "unit": "FOOD-04",
+      "heading": "福星貴人",
+      "startCleanCodepoint": 4,
+      "endCleanCodepoint": 41,
+      "text": "乃甲人見丙寅丙子乙人見丁亥丁丑遁得本旬中真食神主享受自然遇者非貴亦富餘例推",
+      "digitalFolios": [
+        "005-97a"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "main",
+      "disposition": "explicit-two-stem-examples",
+      "readingNote": "甲→丙寅/丙子,乙→丁亥/丁丑; các can khác chỉ được yêu cầu suy, chưa là bảng mười hàng trực tiếp.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-04-C03",
+      "unit": "FOOD-04",
+      "heading": "福星貴人",
+      "startCleanCodepoint": 41,
+      "endCleanCodepoint": 68,
+      "text": "前人作甲丙相邀入虎鄉歌是以年論故有丙寅丙子若以日遁則非",
+      "digitalFolios": [
+        "005-97a"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "compiler-commentary",
+      "disposition": "explicit-year-anchor",
+      "readingNote": "Nguồn nói 以年論/若以日遁則非; không mặc định theo nhật can.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-05-C01",
+      "unit": "FOOD-05",
+      "heading": "食神同窠",
+      "startCleanCodepoint": 0,
+      "endCleanCodepoint": 4,
+      "text": "食神同窠",
+      "digitalFolios": [
+        "005-97a"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "heading",
+      "disposition": "editorial-heading",
+      "readingNote": "Mục Đồng khoa/tổ hợp riêng, không tự thành nhãn hiện đại phổ quát.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-05-C02",
+      "unit": "FOOD-05",
+      "heading": "食神同窠",
+      "startCleanCodepoint": 4,
+      "endCleanCodepoint": 26,
+      "text": "謂甲食丙甲子人見丙子之類十三位即同乃本家物也",
+      "digitalFolios": [
+        "005-97a"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "main",
+      "disposition": "thirteen-position-example",
+      "readingNote": "十三位 và 甲子→丙子; không tự gắn mọi anchor là ngày/năm nếu chưa xác lập phạm vi.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-05-C03",
+      "unit": "FOOD-05",
+      "heading": "食神同窠",
+      "startCleanCodepoint": 26,
+      "endCleanCodepoint": 92,
+      "text": "得此者不貴即富月不如日日不如時若互換生旺帶禄貴者大貴如韓魏公戊申庚申庚辰庚辰宋秦檜庚午己丑乙卯壬午又明王崇古少保乙亥辛巳戊申庚申是也",
+      "digitalFolios": [
+        "005-97a",
+        "005-97b"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "main",
+      "disposition": "position-and-source-examples",
+      "readingNote": "月不如日/日不如時, hỗ hoán/sinh vượng/lộc quý và ba ví dụ bốn trụ; thành tựu lịch sử chưa kiểm.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-05-C04",
+      "unit": "FOOD-05",
+      "heading": "食神同窠",
+      "startCleanCodepoint": 92,
+      "endCleanCodepoint": 116,
+      "text": "如倒食本家甲子年見壬子時庚子年見戊子時亦貴但損子",
+      "digitalFolios": [
+        "005-97b"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "main",
+      "disposition": "explicit-year-hour-counterexample",
+      "readingNote": "Đoạn này nêu rõ năm/giờ và đảo thực vẫn quý nhưng tổn con; không áp kết quả gia đình.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-06-C01",
+      "unit": "FOOD-06",
+      "heading": "食神帶合",
+      "startCleanCodepoint": 0,
+      "endCleanCodepoint": 4,
+      "text": "食神帶合",
+      "digitalFolios": [
+        "005-97b"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "heading",
+      "disposition": "editorial-heading",
+      "readingNote": "Mục Thực thần đới hợp riêng.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-06-C02",
+      "unit": "FOOD-06",
+      "heading": "食神帶合",
+      "startCleanCodepoint": 4,
+      "endCleanCodepoint": 43,
+      "text": "謂甲人見丙有辛合巳人見辛有丙合乙見丁壬庚見壬丁丙見戊癸辛見癸戊之例主為官有權印",
+      "digitalFolios": [
+        "005-97b"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "main",
+      "disposition": "six-visible-stem-coordinates",
+      "readingNote": "Sáu bộ 甲丙辛/己辛丙/乙丁壬/庚壬丁/丙戊癸/辛癸戊. Ảnh192đọc己,bản số巳; giữ dị tự tường minh, hợp có hiệu lực chưa xác lập.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-08-C01",
+      "unit": "FOOD-08",
+      "heading": "紅鸞天印",
+      "startCleanCodepoint": 0,
+      "endCleanCodepoint": 4,
+      "text": "紅鸞天印",
+      "digitalFolios": [
+        "005-99a"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "heading",
+      "disposition": "editorial-heading",
+      "readingNote": "Tên riêng trong mục Thực, không coi Hồng loan phổ quát.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-08-C02",
+      "unit": "FOOD-08",
+      "heading": "紅鸞天印",
+      "startCleanCodepoint": 4,
+      "endCleanCodepoint": 32,
+      "text": "謂丙食戊而得戊戌辛食癸而得癸丑壬甲辰乙丁未日時得之主富貴",
+      "digitalFolios": [
+        "005-99a"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "main",
+      "disposition": "four-day-hour-target-examples",
+      "readingNote": "Bốn hàng 丙戊戌/辛癸丑/壬甲辰/乙丁未, mục tiêu ở ngày/giờ; gốc can không tự gán năm hay ngày. Kết quả chưa kiểm.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-09-C01",
+      "unit": "FOOD-09",
+      "heading": "墨池涌泉",
+      "startCleanCodepoint": 0,
+      "endCleanCodepoint": 4,
+      "text": "墨池涌泉",
+      "digitalFolios": [
+        "005-99b"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "heading",
+      "disposition": "editorial-heading",
+      "readingNote": "Tên riêng, không suy ngành nghề/học vị.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-09-C02",
+      "unit": "FOOD-09",
+      "heading": "墨池涌泉",
+      "startCleanCodepoint": 4,
+      "endCleanCodepoint": 26,
+      "text": "謂辛巳得癸巳癸亥如陳朝議辛巳壬辰癸巳癸亥是也",
+      "digitalFolios": [
+        "005-99b"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "main-example",
+      "disposition": "example-and-target-role-open",
+      "readingNote": "Ví dụ 辛巳壬辰癸巳癸亥; 癸巳/癸亥 cần cả hay từng mục tiêu không được tự chọn.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-09-C03",
+      "unit": "FOOD-09",
+      "heading": "墨池涌泉",
+      "startCleanCodepoint": 26,
+      "endCleanCodepoint": 66,
+      "text": "推此類丙寅愛戊寅戊申愛庚申己巳愛辛亥庚午愛壬申甲戌愛丙寅壬辰愛甲申皆同此格主文貴",
+      "digitalFolios": [
+        "005-99b"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "main",
+      "disposition": "six-further-pillar-pairs",
+      "readingNote": "Sáu cặp khác, vị trí gốc/mục tiêu và yêu cầu thành cách còn mở; không thành bảng dự báo văn quý.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    }
+  ],
+  "exactSourceContextsNotAtomicRuleCount": true,
+  "allCharactersImageCollated": false
+}

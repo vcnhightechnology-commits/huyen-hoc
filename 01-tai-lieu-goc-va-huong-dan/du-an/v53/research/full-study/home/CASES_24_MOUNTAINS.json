@@ -1,0 +1,1446 @@
+{
+  "schema": "hhc.home.24-mountains.cases.v1",
+  "caseCount": 105,
+  "note": "Expected results are fixtures for integration, not evidence that a production engine was executed. Centers and groups are transcribed; numeric bounds and tie cases instantiate explicit digital conventions.",
+  "cases": [
+    {
+      "id": "center-0",
+      "kind": "center",
+      "input": {
+        "angle": 0,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "子",
+      "expectedCandidates": [
+        "子"
+      ],
+      "expectedTrigram": "坎",
+      "expectedOpposite": "午"
+    },
+    {
+      "id": "center-1",
+      "kind": "center",
+      "input": {
+        "angle": 15,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "癸",
+      "expectedCandidates": [
+        "癸"
+      ],
+      "expectedTrigram": "坎",
+      "expectedOpposite": "丁"
+    },
+    {
+      "id": "center-2",
+      "kind": "center",
+      "input": {
+        "angle": 30,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "丑",
+      "expectedCandidates": [
+        "丑"
+      ],
+      "expectedTrigram": "艮",
+      "expectedOpposite": "未"
+    },
+    {
+      "id": "center-3",
+      "kind": "center",
+      "input": {
+        "angle": 45,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "艮",
+      "expectedCandidates": [
+        "艮"
+      ],
+      "expectedTrigram": "艮",
+      "expectedOpposite": "坤"
+    },
+    {
+      "id": "center-4",
+      "kind": "center",
+      "input": {
+        "angle": 60,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "寅",
+      "expectedCandidates": [
+        "寅"
+      ],
+      "expectedTrigram": "艮",
+      "expectedOpposite": "申"
+    },
+    {
+      "id": "center-5",
+      "kind": "center",
+      "input": {
+        "angle": 75,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "甲",
+      "expectedCandidates": [
+        "甲"
+      ],
+      "expectedTrigram": "震",
+      "expectedOpposite": "庚"
+    },
+    {
+      "id": "center-6",
+      "kind": "center",
+      "input": {
+        "angle": 90,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "卯",
+      "expectedCandidates": [
+        "卯"
+      ],
+      "expectedTrigram": "震",
+      "expectedOpposite": "酉"
+    },
+    {
+      "id": "center-7",
+      "kind": "center",
+      "input": {
+        "angle": 105,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "乙",
+      "expectedCandidates": [
+        "乙"
+      ],
+      "expectedTrigram": "震",
+      "expectedOpposite": "辛"
+    },
+    {
+      "id": "center-8",
+      "kind": "center",
+      "input": {
+        "angle": 120,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "辰",
+      "expectedCandidates": [
+        "辰"
+      ],
+      "expectedTrigram": "巽",
+      "expectedOpposite": "戌"
+    },
+    {
+      "id": "center-9",
+      "kind": "center",
+      "input": {
+        "angle": 135,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "巽",
+      "expectedCandidates": [
+        "巽"
+      ],
+      "expectedTrigram": "巽",
+      "expectedOpposite": "乾"
+    },
+    {
+      "id": "center-10",
+      "kind": "center",
+      "input": {
+        "angle": 150,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "巳",
+      "expectedCandidates": [
+        "巳"
+      ],
+      "expectedTrigram": "巽",
+      "expectedOpposite": "亥"
+    },
+    {
+      "id": "center-11",
+      "kind": "center",
+      "input": {
+        "angle": 165,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "丙",
+      "expectedCandidates": [
+        "丙"
+      ],
+      "expectedTrigram": "離",
+      "expectedOpposite": "壬"
+    },
+    {
+      "id": "center-12",
+      "kind": "center",
+      "input": {
+        "angle": 180,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "午",
+      "expectedCandidates": [
+        "午"
+      ],
+      "expectedTrigram": "離",
+      "expectedOpposite": "子"
+    },
+    {
+      "id": "center-13",
+      "kind": "center",
+      "input": {
+        "angle": 195,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "丁",
+      "expectedCandidates": [
+        "丁"
+      ],
+      "expectedTrigram": "離",
+      "expectedOpposite": "癸"
+    },
+    {
+      "id": "center-14",
+      "kind": "center",
+      "input": {
+        "angle": 210,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "未",
+      "expectedCandidates": [
+        "未"
+      ],
+      "expectedTrigram": "坤",
+      "expectedOpposite": "丑"
+    },
+    {
+      "id": "center-15",
+      "kind": "center",
+      "input": {
+        "angle": 225,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "坤",
+      "expectedCandidates": [
+        "坤"
+      ],
+      "expectedTrigram": "坤",
+      "expectedOpposite": "艮"
+    },
+    {
+      "id": "center-16",
+      "kind": "center",
+      "input": {
+        "angle": 240,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "申",
+      "expectedCandidates": [
+        "申"
+      ],
+      "expectedTrigram": "坤",
+      "expectedOpposite": "寅"
+    },
+    {
+      "id": "center-17",
+      "kind": "center",
+      "input": {
+        "angle": 255,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "庚",
+      "expectedCandidates": [
+        "庚"
+      ],
+      "expectedTrigram": "兌",
+      "expectedOpposite": "甲"
+    },
+    {
+      "id": "center-18",
+      "kind": "center",
+      "input": {
+        "angle": 270,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "酉",
+      "expectedCandidates": [
+        "酉"
+      ],
+      "expectedTrigram": "兌",
+      "expectedOpposite": "卯"
+    },
+    {
+      "id": "center-19",
+      "kind": "center",
+      "input": {
+        "angle": 285,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "辛",
+      "expectedCandidates": [
+        "辛"
+      ],
+      "expectedTrigram": "兌",
+      "expectedOpposite": "乙"
+    },
+    {
+      "id": "center-20",
+      "kind": "center",
+      "input": {
+        "angle": 300,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "戌",
+      "expectedCandidates": [
+        "戌"
+      ],
+      "expectedTrigram": "乾",
+      "expectedOpposite": "辰"
+    },
+    {
+      "id": "center-21",
+      "kind": "center",
+      "input": {
+        "angle": 315,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "乾",
+      "expectedCandidates": [
+        "乾"
+      ],
+      "expectedTrigram": "乾",
+      "expectedOpposite": "巽"
+    },
+    {
+      "id": "center-22",
+      "kind": "center",
+      "input": {
+        "angle": 330,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "亥",
+      "expectedCandidates": [
+        "亥"
+      ],
+      "expectedTrigram": "乾",
+      "expectedOpposite": "巳"
+    },
+    {
+      "id": "center-23",
+      "kind": "center",
+      "input": {
+        "angle": 345,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "壬",
+      "expectedCandidates": [
+        "壬"
+      ],
+      "expectedTrigram": "坎",
+      "expectedOpposite": "丙"
+    },
+    {
+      "id": "boundary-0",
+      "kind": "boundary",
+      "input": {
+        "angle": 7.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "癸",
+      "expectedCandidates": [
+        "癸"
+      ]
+    },
+    {
+      "id": "boundary-below-0",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 7.499990000000025,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "子",
+      "expectedCandidates": [
+        "子"
+      ]
+    },
+    {
+      "id": "boundary-above-0",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 7.500009999999975,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "癸",
+      "expectedCandidates": [
+        "癸"
+      ]
+    },
+    {
+      "id": "boundary-1",
+      "kind": "boundary",
+      "input": {
+        "angle": 22.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "丑",
+      "expectedCandidates": [
+        "丑"
+      ]
+    },
+    {
+      "id": "boundary-below-1",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 22.499990000000025,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "癸",
+      "expectedCandidates": [
+        "癸"
+      ]
+    },
+    {
+      "id": "boundary-above-1",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 22.500009999999975,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "丑",
+      "expectedCandidates": [
+        "丑"
+      ]
+    },
+    {
+      "id": "boundary-2",
+      "kind": "boundary",
+      "input": {
+        "angle": 37.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "艮",
+      "expectedCandidates": [
+        "艮"
+      ]
+    },
+    {
+      "id": "boundary-below-2",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 37.499990000000025,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "丑",
+      "expectedCandidates": [
+        "丑"
+      ]
+    },
+    {
+      "id": "boundary-above-2",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 37.500009999999975,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "艮",
+      "expectedCandidates": [
+        "艮"
+      ]
+    },
+    {
+      "id": "boundary-3",
+      "kind": "boundary",
+      "input": {
+        "angle": 52.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "寅",
+      "expectedCandidates": [
+        "寅"
+      ]
+    },
+    {
+      "id": "boundary-below-3",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 52.499990000000025,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "艮",
+      "expectedCandidates": [
+        "艮"
+      ]
+    },
+    {
+      "id": "boundary-above-3",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 52.500009999999975,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "寅",
+      "expectedCandidates": [
+        "寅"
+      ]
+    },
+    {
+      "id": "boundary-4",
+      "kind": "boundary",
+      "input": {
+        "angle": 67.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "甲",
+      "expectedCandidates": [
+        "甲"
+      ]
+    },
+    {
+      "id": "boundary-below-4",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 67.49999000000003,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "寅",
+      "expectedCandidates": [
+        "寅"
+      ]
+    },
+    {
+      "id": "boundary-above-4",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 67.50000999999997,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "甲",
+      "expectedCandidates": [
+        "甲"
+      ]
+    },
+    {
+      "id": "boundary-5",
+      "kind": "boundary",
+      "input": {
+        "angle": 82.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "卯",
+      "expectedCandidates": [
+        "卯"
+      ]
+    },
+    {
+      "id": "boundary-below-5",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 82.49999000000003,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "甲",
+      "expectedCandidates": [
+        "甲"
+      ]
+    },
+    {
+      "id": "boundary-above-5",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 82.50000999999997,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "卯",
+      "expectedCandidates": [
+        "卯"
+      ]
+    },
+    {
+      "id": "boundary-6",
+      "kind": "boundary",
+      "input": {
+        "angle": 97.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "乙",
+      "expectedCandidates": [
+        "乙"
+      ]
+    },
+    {
+      "id": "boundary-below-6",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 97.49999000000003,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "卯",
+      "expectedCandidates": [
+        "卯"
+      ]
+    },
+    {
+      "id": "boundary-above-6",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 97.50000999999997,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "乙",
+      "expectedCandidates": [
+        "乙"
+      ]
+    },
+    {
+      "id": "boundary-7",
+      "kind": "boundary",
+      "input": {
+        "angle": 112.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "辰",
+      "expectedCandidates": [
+        "辰"
+      ]
+    },
+    {
+      "id": "boundary-below-7",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 112.49999000000003,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "乙",
+      "expectedCandidates": [
+        "乙"
+      ]
+    },
+    {
+      "id": "boundary-above-7",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 112.50000999999997,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "辰",
+      "expectedCandidates": [
+        "辰"
+      ]
+    },
+    {
+      "id": "boundary-8",
+      "kind": "boundary",
+      "input": {
+        "angle": 127.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "巽",
+      "expectedCandidates": [
+        "巽"
+      ]
+    },
+    {
+      "id": "boundary-below-8",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 127.49999000000003,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "辰",
+      "expectedCandidates": [
+        "辰"
+      ]
+    },
+    {
+      "id": "boundary-above-8",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 127.50000999999997,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "巽",
+      "expectedCandidates": [
+        "巽"
+      ]
+    },
+    {
+      "id": "boundary-9",
+      "kind": "boundary",
+      "input": {
+        "angle": 142.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "巳",
+      "expectedCandidates": [
+        "巳"
+      ]
+    },
+    {
+      "id": "boundary-below-9",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 142.49999000000003,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "巽",
+      "expectedCandidates": [
+        "巽"
+      ]
+    },
+    {
+      "id": "boundary-above-9",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 142.50000999999997,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "巳",
+      "expectedCandidates": [
+        "巳"
+      ]
+    },
+    {
+      "id": "boundary-10",
+      "kind": "boundary",
+      "input": {
+        "angle": 157.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "丙",
+      "expectedCandidates": [
+        "丙"
+      ]
+    },
+    {
+      "id": "boundary-below-10",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 157.49999000000003,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "巳",
+      "expectedCandidates": [
+        "巳"
+      ]
+    },
+    {
+      "id": "boundary-above-10",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 157.50000999999997,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "丙",
+      "expectedCandidates": [
+        "丙"
+      ]
+    },
+    {
+      "id": "boundary-11",
+      "kind": "boundary",
+      "input": {
+        "angle": 172.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "午",
+      "expectedCandidates": [
+        "午"
+      ]
+    },
+    {
+      "id": "boundary-below-11",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 172.49999000000003,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "丙",
+      "expectedCandidates": [
+        "丙"
+      ]
+    },
+    {
+      "id": "boundary-above-11",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 172.50000999999997,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "午",
+      "expectedCandidates": [
+        "午"
+      ]
+    },
+    {
+      "id": "boundary-12",
+      "kind": "boundary",
+      "input": {
+        "angle": 187.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "丁",
+      "expectedCandidates": [
+        "丁"
+      ]
+    },
+    {
+      "id": "boundary-below-12",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 187.49999000000003,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "午",
+      "expectedCandidates": [
+        "午"
+      ]
+    },
+    {
+      "id": "boundary-above-12",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 187.50000999999997,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "丁",
+      "expectedCandidates": [
+        "丁"
+      ]
+    },
+    {
+      "id": "boundary-13",
+      "kind": "boundary",
+      "input": {
+        "angle": 202.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "未",
+      "expectedCandidates": [
+        "未"
+      ]
+    },
+    {
+      "id": "boundary-below-13",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 202.49999000000003,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "丁",
+      "expectedCandidates": [
+        "丁"
+      ]
+    },
+    {
+      "id": "boundary-above-13",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 202.50000999999997,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "未",
+      "expectedCandidates": [
+        "未"
+      ]
+    },
+    {
+      "id": "boundary-14",
+      "kind": "boundary",
+      "input": {
+        "angle": 217.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "坤",
+      "expectedCandidates": [
+        "坤"
+      ]
+    },
+    {
+      "id": "boundary-below-14",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 217.49999000000003,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "未",
+      "expectedCandidates": [
+        "未"
+      ]
+    },
+    {
+      "id": "boundary-above-14",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 217.50000999999997,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "坤",
+      "expectedCandidates": [
+        "坤"
+      ]
+    },
+    {
+      "id": "boundary-15",
+      "kind": "boundary",
+      "input": {
+        "angle": 232.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "申",
+      "expectedCandidates": [
+        "申"
+      ]
+    },
+    {
+      "id": "boundary-below-15",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 232.49999000000003,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "坤",
+      "expectedCandidates": [
+        "坤"
+      ]
+    },
+    {
+      "id": "boundary-above-15",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 232.50000999999997,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "申",
+      "expectedCandidates": [
+        "申"
+      ]
+    },
+    {
+      "id": "boundary-16",
+      "kind": "boundary",
+      "input": {
+        "angle": 247.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "庚",
+      "expectedCandidates": [
+        "庚"
+      ]
+    },
+    {
+      "id": "boundary-below-16",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 247.49999000000003,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "申",
+      "expectedCandidates": [
+        "申"
+      ]
+    },
+    {
+      "id": "boundary-above-16",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 247.50000999999997,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "庚",
+      "expectedCandidates": [
+        "庚"
+      ]
+    },
+    {
+      "id": "boundary-17",
+      "kind": "boundary",
+      "input": {
+        "angle": 262.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "酉",
+      "expectedCandidates": [
+        "酉"
+      ]
+    },
+    {
+      "id": "boundary-below-17",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 262.49999,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "庚",
+      "expectedCandidates": [
+        "庚"
+      ]
+    },
+    {
+      "id": "boundary-above-17",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 262.50001,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "酉",
+      "expectedCandidates": [
+        "酉"
+      ]
+    },
+    {
+      "id": "boundary-18",
+      "kind": "boundary",
+      "input": {
+        "angle": 277.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "辛",
+      "expectedCandidates": [
+        "辛"
+      ]
+    },
+    {
+      "id": "boundary-below-18",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 277.49999,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "酉",
+      "expectedCandidates": [
+        "酉"
+      ]
+    },
+    {
+      "id": "boundary-above-18",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 277.50001,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "辛",
+      "expectedCandidates": [
+        "辛"
+      ]
+    },
+    {
+      "id": "boundary-19",
+      "kind": "boundary",
+      "input": {
+        "angle": 292.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "戌",
+      "expectedCandidates": [
+        "戌"
+      ]
+    },
+    {
+      "id": "boundary-below-19",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 292.49999,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "辛",
+      "expectedCandidates": [
+        "辛"
+      ]
+    },
+    {
+      "id": "boundary-above-19",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 292.50001,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "戌",
+      "expectedCandidates": [
+        "戌"
+      ]
+    },
+    {
+      "id": "boundary-20",
+      "kind": "boundary",
+      "input": {
+        "angle": 307.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "乾",
+      "expectedCandidates": [
+        "乾"
+      ]
+    },
+    {
+      "id": "boundary-below-20",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 307.49999,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "戌",
+      "expectedCandidates": [
+        "戌"
+      ]
+    },
+    {
+      "id": "boundary-above-20",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 307.50001,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "乾",
+      "expectedCandidates": [
+        "乾"
+      ]
+    },
+    {
+      "id": "boundary-21",
+      "kind": "boundary",
+      "input": {
+        "angle": 322.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "亥",
+      "expectedCandidates": [
+        "亥"
+      ]
+    },
+    {
+      "id": "boundary-below-21",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 322.49999,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "乾",
+      "expectedCandidates": [
+        "乾"
+      ]
+    },
+    {
+      "id": "boundary-above-21",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 322.50001,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "亥",
+      "expectedCandidates": [
+        "亥"
+      ]
+    },
+    {
+      "id": "boundary-22",
+      "kind": "boundary",
+      "input": {
+        "angle": 337.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "壬",
+      "expectedCandidates": [
+        "壬"
+      ]
+    },
+    {
+      "id": "boundary-below-22",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 337.49999,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "亥",
+      "expectedCandidates": [
+        "亥"
+      ]
+    },
+    {
+      "id": "boundary-above-22",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 337.50001,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "壬",
+      "expectedCandidates": [
+        "壬"
+      ]
+    },
+    {
+      "id": "boundary-23",
+      "kind": "boundary",
+      "input": {
+        "angle": 352.5,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "子",
+      "expectedCandidates": [
+        "子"
+      ]
+    },
+    {
+      "id": "boundary-below-23",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 352.49999,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "壬",
+      "expectedCandidates": [
+        "壬"
+      ]
+    },
+    {
+      "id": "boundary-above-23",
+      "kind": "near-boundary",
+      "input": {
+        "angle": 352.50001,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "子",
+      "expectedCandidates": [
+        "子"
+      ]
+    },
+    {
+      "id": "uncertainty-touches-from-left",
+      "input": {
+        "angle": 5,
+        "error": 2.5,
+        "north": "true"
+      },
+      "expectedNominal": "子",
+      "expectedCandidates": [
+        "子",
+        "癸"
+      ],
+      "comparison": "set"
+    },
+    {
+      "id": "uncertainty-touches-from-right",
+      "input": {
+        "angle": 10,
+        "error": 2.5,
+        "north": "true"
+      },
+      "expectedNominal": "癸",
+      "expectedCandidates": [
+        "子",
+        "癸"
+      ],
+      "comparison": "set"
+    },
+    {
+      "id": "uncertainty-three-near-north",
+      "input": {
+        "angle": 0,
+        "error": 8,
+        "north": "true"
+      },
+      "expectedNominal": "子",
+      "expectedCandidates": [
+        "壬",
+        "子",
+        "癸"
+      ],
+      "comparison": "set"
+    },
+    {
+      "id": "uncertainty-zero-wrap",
+      "input": {
+        "angle": 359,
+        "error": 9,
+        "north": "true"
+      },
+      "expectedNominal": "子",
+      "expectedCandidates": [
+        "壬",
+        "子",
+        "癸"
+      ],
+      "comparison": "set"
+    },
+    {
+      "id": "north360-normalized",
+      "input": {
+        "angle": 360,
+        "error": 0,
+        "north": "true"
+      },
+      "expectedNominal": "子",
+      "expectedCandidates": [
+        "子"
+      ]
+    },
+    {
+      "id": "magnetic-east-declination",
+      "input": {
+        "angle": 350,
+        "error": 0,
+        "north": "magnetic",
+        "declination": 10
+      },
+      "expectedTrueBearing": 0,
+      "expectedNominal": "子",
+      "expectedCandidates": [
+        "子"
+      ]
+    },
+    {
+      "id": "magnetic-west-declination",
+      "input": {
+        "angle": 10,
+        "error": 0,
+        "north": "magnetic",
+        "declination": -10
+      },
+      "expectedTrueBearing": 0,
+      "expectedNominal": "子",
+      "expectedCandidates": [
+        "子"
+      ]
+    },
+    {
+      "id": "magnetic-no-declination",
+      "input": {
+        "angle": 0,
+        "error": 0,
+        "north": "magnetic"
+      },
+      "expectedRejected": true
+    },
+    {
+      "id": "full-semicircle-error",
+      "input": {
+        "angle": 0,
+        "error": 180,
+        "north": "true"
+      },
+      "expectedNominal": "子",
+      "expectedCandidates": [
+        "子",
+        "癸",
+        "丑",
+        "艮",
+        "寅",
+        "甲",
+        "卯",
+        "乙",
+        "辰",
+        "巽",
+        "巳",
+        "丙",
+        "午",
+        "丁",
+        "未",
+        "坤",
+        "申",
+        "庚",
+        "酉",
+        "辛",
+        "戌",
+        "乾",
+        "亥",
+        "壬"
+      ],
+      "comparison": "set"
+    }
+  ]
+}

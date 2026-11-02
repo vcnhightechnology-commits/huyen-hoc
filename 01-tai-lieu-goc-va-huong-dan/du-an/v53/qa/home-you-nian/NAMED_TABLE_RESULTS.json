@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-27",
+  "checks": [
+    {
+      "name": "Two explicit source inventories each contain24unique coordinates; 48referenceassignments match",
+      "ok": true
+    },
+    {
+      "name": "Examples prevent universal mountain element substitution",
+      "ok": true
+    },
+    {
+      "name": "All12monthly transcription rows match coordinate-only reference and keep calendar premises null",
+      "ok": true
+    },
+    {
+      "name": "Explicit systems/months required; missing stays null and HFL glyph unresolved",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "namedMountainAssignments": 48,
+    "monthlySourceRows": 12,
+    "calendarAdapters": 0,
+    "actualHHCEngineCalls": 0
+  },
+  "consumerChanged": false,
+  "allAtomicClausesApplied": false
+}

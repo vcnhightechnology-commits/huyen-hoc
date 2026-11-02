@@ -1,0 +1,953 @@
+{
+  "scope": "tmp/liuyao-b03-book4-staging",
+  "files": [
+    {
+      "file": "tmp/liuyao-b03-book4-staging/ACQUISITION.json",
+      "bytes": 1036,
+      "sha256": "cea26b639566b0f755abc9720bd4df7ae6a8d1abb46c65f659820c806ee84efc",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/cea26b639566b0f755abc9720bd4df7ae6a8d1abb46c65f659820c806ee84efc",
+      "httpRange": {
+        "offset": 74461002,
+        "compressedBytes": 569,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/ACQUISITION_CHECKS.json",
+      "bytes": 479,
+      "sha256": "1bfa5e94c3152bb3285b47027b27b9015078e4b1db735134250c732e7af3db5d",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1bfa5e94c3152bb3285b47027b27b9015078e4b1db735134250c732e7af3db5d",
+      "httpRange": {
+        "offset": 356185932,
+        "compressedBytes": 316,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/LEADS.md",
+      "bytes": 1204,
+      "sha256": "cf3544e4a070974dc821ad7b4b2c8217a49d61e88759239b34b2cec5f45bd045",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/cf3544e4a070974dc821ad7b4b2c8217a49d61e88759239b34b2cec5f45bd045",
+      "httpRange": {
+        "offset": 85069722,
+        "compressedBytes": 836,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/MANUAL_READINGS.json",
+      "bytes": 8478,
+      "sha256": "8b12c7b8121d5bbd5c54ed8f0299d59e88e0cfeaa206eb5eede1774d51e22e81",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8b12c7b8121d5bbd5c54ed8f0299d59e88e0cfeaa206eb5eede1774d51e22e81",
+      "httpRange": {
+        "offset": 264070768,
+        "compressedBytes": 2432,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/NLC892-GBZX0301013045-259367.pdf",
+      "bytes": 57017134,
+      "sha256": "5f8bb92f28120fa4c2c4d629ae8bad9f785dc02324f15f285085c99ab7ffadaf",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/5f8bb92f28120fa4c2c4d629ae8bad9f785dc02324f15f285085c99ab7ffadaf",
+      "httpRange": {
+        "offset": 1989526,
+        "compressedBytes": 56812816,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/PDF_CONTAINER_CHECKS.json",
+      "bytes": 68,
+      "sha256": "b29261c029cd4230b564a5cf13884fe1718eb42d151a545da2f6c0806be31441",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b29261c029cd4230b564a5cf13884fe1718eb42d151a545da2f6c0806be31441",
+      "httpRange": {
+        "offset": 347897620,
+        "compressedBytes": 56,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/REQUESTS.json",
+      "bytes": 6029,
+      "sha256": "8b726a7682b88555dbf6130dad43913106824d567425d4bb28d01f848e3fdc65",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8b726a7682b88555dbf6130dad43913106824d567425d4bb28d01f848e3fdc65",
+      "httpRange": {
+        "offset": 266099577,
+        "compressedBytes": 2366,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/WORK_STATE.json",
+      "bytes": 3233,
+      "sha256": "3ce2c93d3409c8f18ad5a611f67f8a1265ef42ec5dc4bba7aaac90878f4e4e07",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/3ce2c93d3409c8f18ad5a611f67f8a1265ef42ec5dc4bba7aaac90878f4e4e07",
+      "httpRange": {
+        "offset": 394003754,
+        "compressedBytes": 1663,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/b03-book4-commons-api.json",
+      "bytes": 13332,
+      "sha256": "adf4829c02615127767dfa20832eeb6a5a9b090c439a5849daac80c99e138377",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/adf4829c02615127767dfa20832eeb6a5a9b090c439a5849daac80c99e138377",
+      "httpRange": {
+        "offset": 298758918,
+        "compressedBytes": 2476,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-1.png",
+      "bytes": 1119496,
+      "sha256": "197f9bdd7212fe8fac1a0c3958aac94f0f4e862f502c0941110cd9860bad83ed",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/197f9bdd7212fe8fac1a0c3958aac94f0f4e862f502c0941110cd9860bad83ed",
+      "httpRange": {
+        "offset": 335530527,
+        "compressedBytes": 1118857,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-10.png",
+      "bytes": 2010433,
+      "sha256": "a08a298da6723a719e0fa71cb9cdc80b4f515020c3ea5a0a32d18ad61cc1e9af",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a08a298da6723a719e0fa71cb9cdc80b4f515020c3ea5a0a32d18ad61cc1e9af",
+      "httpRange": {
+        "offset": 152497247,
+        "compressedBytes": 2009689,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-11.png",
+      "bytes": 2012630,
+      "sha256": "8e0b3c8c003493277fae7dbf27f261fda36e29ecf28a75097269aa6c82e8c1cf",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8e0b3c8c003493277fae7dbf27f261fda36e29ecf28a75097269aa6c82e8c1cf",
+      "httpRange": {
+        "offset": 292165232,
+        "compressedBytes": 2011834,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-12.png",
+      "bytes": 2028048,
+      "sha256": "09106efa3e4d37c3e9430ccb5a5739e6fd39f97e9d3466f5b3026bba5410326e",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/09106efa3e4d37c3e9430ccb5a5739e6fd39f97e9d3466f5b3026bba5410326e",
+      "httpRange": {
+        "offset": 143517792,
+        "compressedBytes": 2026692,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-13.png",
+      "bytes": 2028378,
+      "sha256": "e57a79cfd7f61886f2f88adbc696932ee88c03e49f829d0d79507cce22798c05",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e57a79cfd7f61886f2f88adbc696932ee88c03e49f829d0d79507cce22798c05",
+      "httpRange": {
+        "offset": 338398332,
+        "compressedBytes": 2027462,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-14.png",
+      "bytes": 2010990,
+      "sha256": "dd52b1536c83cfed6a7846583350c586fec117a07d7b1c8c45ceaf7d399e012a",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/dd52b1536c83cfed6a7846583350c586fec117a07d7b1c8c45ceaf7d399e012a",
+      "httpRange": {
+        "offset": 240878752,
+        "compressedBytes": 2010658,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-15.png",
+      "bytes": 2012802,
+      "sha256": "c9d8b20d64b02bbc427312e3981be67d19142454f80e2a6c8faf3906a5affeb8",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c9d8b20d64b02bbc427312e3981be67d19142454f80e2a6c8faf3906a5affeb8",
+      "httpRange": {
+        "offset": 399246672,
+        "compressedBytes": 2011904,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-16.png",
+      "bytes": 2047242,
+      "sha256": "f982f7f2bb4fdca414395e9c54997dc1b068aecb7560802671979af780039fb4",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f982f7f2bb4fdca414395e9c54997dc1b068aecb7560802671979af780039fb4",
+      "httpRange": {
+        "offset": 242817138,
+        "compressedBytes": 2046035,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-17.png",
+      "bytes": 2039265,
+      "sha256": "4e7894631f9010a5e67df0991cd383e374cdf6a3457409d964cbcf17ac3c8463",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4e7894631f9010a5e67df0991cd383e374cdf6a3457409d964cbcf17ac3c8463",
+      "httpRange": {
+        "offset": 321017385,
+        "compressedBytes": 2037877,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-18.png",
+      "bytes": 2027183,
+      "sha256": "4be858c267a1b24203413ec9b7818b3ce727e4d01327c85b248afb4dd9372d17",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4be858c267a1b24203413ec9b7818b3ce727e4d01327c85b248afb4dd9372d17",
+      "httpRange": {
+        "offset": 284495386,
+        "compressedBytes": 2026540,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-19.png",
+      "bytes": 2020077,
+      "sha256": "f1424d1946f89ff38ca60a7a5dd949d51ac3a1f0c7a5cd9ac9e91840ee67df67",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f1424d1946f89ff38ca60a7a5dd949d51ac3a1f0c7a5cd9ac9e91840ee67df67",
+      "httpRange": {
+        "offset": 149034085,
+        "compressedBytes": 2019397,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-2.png",
+      "bytes": 2076211,
+      "sha256": "3ceee11abea9f0a17a07caa5ca3ae84cf7532fa84b178154c2f6f97523f6fac8",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/3ceee11abea9f0a17a07caa5ca3ae84cf7532fa84b178154c2f6f97523f6fac8",
+      "httpRange": {
+        "offset": 394005519,
+        "compressedBytes": 2071595,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-20.png",
+      "bytes": 2024882,
+      "sha256": "2f9fb101982c39e1a9984c91083cbdcf54da1fc4fdac1e12e1ce1b711c92fd4e",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2f9fb101982c39e1a9984c91083cbdcf54da1fc4fdac1e12e1ce1b711c92fd4e",
+      "httpRange": {
+        "offset": 230793583,
+        "compressedBytes": 2023735,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-21.png",
+      "bytes": 2042370,
+      "sha256": "965bbd4e40e0c153c0760c5bdbc5a94566f7c1184a1269e34f2cd79077a5176a",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/965bbd4e40e0c153c0760c5bdbc5a94566f7c1184a1269e34f2cd79077a5176a",
+      "httpRange": {
+        "offset": 361891876,
+        "compressedBytes": 2039997,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-22.png",
+      "bytes": 1990283,
+      "sha256": "b09fabb7ba809459dfdea0635f0fcc770580323f3f98c3350e3b5c3a73dfb30e",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b09fabb7ba809459dfdea0635f0fcc770580323f3f98c3350e3b5c3a73dfb30e",
+      "httpRange": {
+        "offset": 323445798,
+        "compressedBytes": 1989040,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-23.png",
+      "bytes": 2010305,
+      "sha256": "6ef448922ca49830b74349195265b21db480d95067edfcd661575c535ea7f418",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6ef448922ca49830b74349195265b21db480d95067edfcd661575c535ea7f418",
+      "httpRange": {
+        "offset": 282354207,
+        "compressedBytes": 2009411,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-24.png",
+      "bytes": 2040494,
+      "sha256": "3d088ad278b309eea2c546ca7a1378166d33e8c7c274445a20ca992458c9b651",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/3d088ad278b309eea2c546ca7a1378166d33e8c7c274445a20ca992458c9b651",
+      "httpRange": {
+        "offset": 396758569,
+        "compressedBytes": 2038882,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-25.png",
+      "bytes": 2017228,
+      "sha256": "d849ad545d8e9a7259417ed4fe72633314edae4357411048c678e98454bf7d47",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d849ad545d8e9a7259417ed4fe72633314edae4357411048c678e98454bf7d47",
+      "httpRange": {
+        "offset": 179501913,
+        "compressedBytes": 2016075,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-26.png",
+      "bytes": 2025084,
+      "sha256": "5a42dd69bd703f62edd0dd3756494f2bf3049c92fdeea408f9ab9be4aa31831c",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5a42dd69bd703f62edd0dd3756494f2bf3049c92fdeea408f9ab9be4aa31831c",
+      "httpRange": {
+        "offset": 236528159,
+        "compressedBytes": 2024173,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-27.png",
+      "bytes": 2034655,
+      "sha256": "0a063f1bc8fb9e8f661b695aecb2cf7f2379b8c9a4d596f558047a37529a230f",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0a063f1bc8fb9e8f661b695aecb2cf7f2379b8c9a4d596f558047a37529a230f",
+      "httpRange": {
+        "offset": 153116724,
+        "compressedBytes": 2033382,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-28.png",
+      "bytes": 2039719,
+      "sha256": "aebba9e71ea9a875a07cd9fff0e8fa20c0da97beeb62f718e2dcc6c6df49d166",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/aebba9e71ea9a875a07cd9fff0e8fa20c0da97beeb62f718e2dcc6c6df49d166",
+      "httpRange": {
+        "offset": 306237535,
+        "compressedBytes": 2037478,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-29.png",
+      "bytes": 2017457,
+      "sha256": "350f94504b9981f2274024793eb84b37e44a0a0c0aeef7533e70c5dd15630eb0",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/350f94504b9981f2274024793eb84b37e44a0a0c0aeef7533e70c5dd15630eb0",
+      "httpRange": {
+        "offset": 316035532,
+        "compressedBytes": 2016398,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-3.png",
+      "bytes": 2046943,
+      "sha256": "55c390d9aa44970a45b2a521edeebfd048e16b11d1749e98342851da851f630c",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/55c390d9aa44970a45b2a521edeebfd048e16b11d1749e98342851da851f630c",
+      "httpRange": {
+        "offset": 151531944,
+        "compressedBytes": 2045611,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-30.png",
+      "bytes": 2015229,
+      "sha256": "56c49c5ae67d67e220106db04367d194b138f5bce34e26b4728b5d6fc08f464d",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/56c49c5ae67d67e220106db04367d194b138f5bce34e26b4728b5d6fc08f464d",
+      "httpRange": {
+        "offset": 164984445,
+        "compressedBytes": 2014173,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-31.png",
+      "bytes": 2004217,
+      "sha256": "77c5b0afe9eb744a5d4ed226a30425becd6ab55c391808e352d745b972bb28f3",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/77c5b0afe9eb744a5d4ed226a30425becd6ab55c391808e352d745b972bb28f3",
+      "httpRange": {
+        "offset": 385495278,
+        "compressedBytes": 2003609,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-32.png",
+      "bytes": 2011894,
+      "sha256": "ec0da4ee77eb9e2ab0d96f4f608f6314b5f99bbbfed7dc8b65fc6fb363faaa44",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ec0da4ee77eb9e2ab0d96f4f608f6314b5f99bbbfed7dc8b65fc6fb363faaa44",
+      "httpRange": {
+        "offset": 80368993,
+        "compressedBytes": 2011532,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-33.png",
+      "bytes": 2048856,
+      "sha256": "bbe47995be92a2808dd7e4d7f29b1e5e4caa3aae16187964b14dba42274aca27",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bbe47995be92a2808dd7e4d7f29b1e5e4caa3aae16187964b14dba42274aca27",
+      "httpRange": {
+        "offset": 193303839,
+        "compressedBytes": 2047395,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-34.png",
+      "bytes": 2015371,
+      "sha256": "9a811e81e8e1869790fd3bc9aec8a384fa08cf5b20f8de35501e802915eb6773",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9a811e81e8e1869790fd3bc9aec8a384fa08cf5b20f8de35501e802915eb6773",
+      "httpRange": {
+        "offset": 82918054,
+        "compressedBytes": 2014402,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-35.png",
+      "bytes": 2023646,
+      "sha256": "3d359451772e1788f2e72164ae3d7fef0921d73f3683d4c115bb42168cdde3f1",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/3d359451772e1788f2e72164ae3d7fef0921d73f3683d4c115bb42168cdde3f1",
+      "httpRange": {
+        "offset": 399157016,
+        "compressedBytes": 2022252,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-36.png",
+      "bytes": 2012975,
+      "sha256": "db33c61978ff40a4ec19764178cbb38814b235f57dbd2dc207c0c186306f50c7",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/db33c61978ff40a4ec19764178cbb38814b235f57dbd2dc207c0c186306f50c7",
+      "httpRange": {
+        "offset": 214849425,
+        "compressedBytes": 2012183,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-37.png",
+      "bytes": 2020190,
+      "sha256": "a7377e2e4f3d0de920acb8fdfc65ac2ae39d2cf52a7ad9a8bc1ceef88811e6b6",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a7377e2e4f3d0de920acb8fdfc65ac2ae39d2cf52a7ad9a8bc1ceef88811e6b6",
+      "httpRange": {
+        "offset": 235369747,
+        "compressedBytes": 2019359,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-38.png",
+      "bytes": 1998322,
+      "sha256": "14c37116c3ab56e98e27839d22edf6fa7a7ccc6631448efbe5d336180de7356a",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/14c37116c3ab56e98e27839d22edf6fa7a7ccc6631448efbe5d336180de7356a",
+      "httpRange": {
+        "offset": 277603144,
+        "compressedBytes": 1997855,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-39.png",
+      "bytes": 2017423,
+      "sha256": "6a286c6b94be3c1567f2b532857eb1ff3740637a188a6d1e6f20b108a9914022",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6a286c6b94be3c1567f2b532857eb1ff3740637a188a6d1e6f20b108a9914022",
+      "httpRange": {
+        "offset": 246815421,
+        "compressedBytes": 2016996,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-4.png",
+      "bytes": 2033959,
+      "sha256": "f16389c13adb389796076703851b474a2d9fed84394d308c74d1be54cba2f3e0",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f16389c13adb389796076703851b474a2d9fed84394d308c74d1be54cba2f3e0",
+      "httpRange": {
+        "offset": 152684150,
+        "compressedBytes": 2032419,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-40.png",
+      "bytes": 2009413,
+      "sha256": "291980c6234413522caa76bf3afce780b5b266d47bbd6b75c28dcad9eafa5f89",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/291980c6234413522caa76bf3afce780b5b266d47bbd6b75c28dcad9eafa5f89",
+      "httpRange": {
+        "offset": 162612860,
+        "compressedBytes": 2008298,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-41.png",
+      "bytes": 1992546,
+      "sha256": "0f60f81a5b7401f03089caff1b9250f8c6bd6ba5ebaba15edf983757e1b5d8c4",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0f60f81a5b7401f03089caff1b9250f8c6bd6ba5ebaba15edf983757e1b5d8c4",
+      "httpRange": {
+        "offset": 213103997,
+        "compressedBytes": 1992460,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-42.png",
+      "bytes": 2009422,
+      "sha256": "8801685fc5d27279dbd8630837e50157866d77b601cb1ffc85f6312a1cb32003",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8801685fc5d27279dbd8630837e50157866d77b601cb1ffc85f6312a1cb32003",
+      "httpRange": {
+        "offset": 228830781,
+        "compressedBytes": 2008536,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-43.png",
+      "bytes": 2052308,
+      "sha256": "52f478ca5e2cddf1e1f5153bf841a08fad7e43e18bf13d56c928da4fdac3e350",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/52f478ca5e2cddf1e1f5153bf841a08fad7e43e18bf13d56c928da4fdac3e350",
+      "httpRange": {
+        "offset": 115026000,
+        "compressedBytes": 2051514,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-44.png",
+      "bytes": 2033630,
+      "sha256": "eb770a7edee53227276c554af9096460c16d2ec4326887665c8298687c92244b",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/eb770a7edee53227276c554af9096460c16d2ec4326887665c8298687c92244b",
+      "httpRange": {
+        "offset": 72117483,
+        "compressedBytes": 2031240,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-45.png",
+      "bytes": 2024943,
+      "sha256": "238e9a401ba46f213ed82134fc25a8fa96e24be035fc4503547f9267dc0570d8",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/238e9a401ba46f213ed82134fc25a8fa96e24be035fc4503547f9267dc0570d8",
+      "httpRange": {
+        "offset": 112841968,
+        "compressedBytes": 2023358,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-46.png",
+      "bytes": 2021961,
+      "sha256": "7a0385c27544350842f56546158b4f6afe6574b5cb24c6989c5caa49e372aa45",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7a0385c27544350842f56546158b4f6afe6574b5cb24c6989c5caa49e372aa45",
+      "httpRange": {
+        "offset": 8144349,
+        "compressedBytes": 2021191,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-47.png",
+      "bytes": 2044011,
+      "sha256": "138db4adfc3387a4faa21ba58bf134e11b483d0f57571448ae4f7f94ca2215ca",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/138db4adfc3387a4faa21ba58bf134e11b483d0f57571448ae4f7f94ca2215ca",
+      "httpRange": {
+        "offset": 254810803,
+        "compressedBytes": 2043472,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-48.png",
+      "bytes": 2032691,
+      "sha256": "22ced6aff498a298af0fee762e96b54b155acaa028c01a48a13df3fa7c84e7b5",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/22ced6aff498a298af0fee762e96b54b155acaa028c01a48a13df3fa7c84e7b5",
+      "httpRange": {
+        "offset": 93844952,
+        "compressedBytes": 2032552,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-49.png",
+      "bytes": 2050564,
+      "sha256": "81972ebd2747080425ffb84e964f7775d42ee5d32de7bd51704c03761cec264d",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/81972ebd2747080425ffb84e964f7775d42ee5d32de7bd51704c03761cec264d",
+      "httpRange": {
+        "offset": 80004931,
+        "compressedBytes": 2049079,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-5.png",
+      "bytes": 2016394,
+      "sha256": "5fcc298c3f40f71311a247f55812240c7284d0ab54f09b478922f078bf2d824c",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/5fcc298c3f40f71311a247f55812240c7284d0ab54f09b478922f078bf2d824c",
+      "httpRange": {
+        "offset": 64546572,
+        "compressedBytes": 2015777,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-50.png",
+      "bytes": 2046179,
+      "sha256": "d78f5e5eb4d5c56aaf125904c6d421689ba70082e4c5f6f881b7d776649a8ce6",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d78f5e5eb4d5c56aaf125904c6d421689ba70082e4c5f6f881b7d776649a8ce6",
+      "httpRange": {
+        "offset": 168155924,
+        "compressedBytes": 2044844,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-51.png",
+      "bytes": 2010205,
+      "sha256": "68e2fa3211752b69136a0a42222d521b1fc6f74ff1d2ad90b53722891e6dabc0",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/68e2fa3211752b69136a0a42222d521b1fc6f74ff1d2ad90b53722891e6dabc0",
+      "httpRange": {
+        "offset": 231114244,
+        "compressedBytes": 2009718,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-52.png",
+      "bytes": 2024006,
+      "sha256": "7a61bb0288a55add7a1c9d3ebd718fc6fecbbf7d488f95fc93e729f572bb57fc",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7a61bb0288a55add7a1c9d3ebd718fc6fecbbf7d488f95fc93e729f572bb57fc",
+      "httpRange": {
+        "offset": 25281262,
+        "compressedBytes": 2023198,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-53.png",
+      "bytes": 2056448,
+      "sha256": "b2390f38f35e00b5d44ff5329e0c8ee33cd8ae6d293f6bd98ca4fd191a5263b2",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b2390f38f35e00b5d44ff5329e0c8ee33cd8ae6d293f6bd98ca4fd191a5263b2",
+      "httpRange": {
+        "offset": 343148407,
+        "compressedBytes": 2055014,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-54.png",
+      "bytes": 2014763,
+      "sha256": "eae5f6e5c73ff241023943edecd152f68d79ad841d5ab981b45d8e1310296f89",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/eae5f6e5c73ff241023943edecd152f68d79ad841d5ab981b45d8e1310296f89",
+      "httpRange": {
+        "offset": 63923675,
+        "compressedBytes": 2013829,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-55.png",
+      "bytes": 2041617,
+      "sha256": "5c6327260d03f4b32ee290ab3204cf3a8913232b60af28deacbd73949dbbf3d5",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5c6327260d03f4b32ee290ab3204cf3a8913232b60af28deacbd73949dbbf3d5",
+      "httpRange": {
+        "offset": 259632749,
+        "compressedBytes": 2041296,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-56.png",
+      "bytes": 2002685,
+      "sha256": "c8d5aaa7c02c205d9e74189e84eecaae4739a8c6d31a4f8c8b3f91b111fbc750",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c8d5aaa7c02c205d9e74189e84eecaae4739a8c6d31a4f8c8b3f91b111fbc750",
+      "httpRange": {
+        "offset": 387580060,
+        "compressedBytes": 2002405,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-57.png",
+      "bytes": 2014198,
+      "sha256": "a067591ff36db6dc351cd1ef6a49fab65119206b43039a8bec6f837acaa5327b",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a067591ff36db6dc351cd1ef6a49fab65119206b43039a8bec6f837acaa5327b",
+      "httpRange": {
+        "offset": 148689382,
+        "compressedBytes": 2013519,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-58.png",
+      "bytes": 2025204,
+      "sha256": "4cf1edf362f77e142ab7483235ddcf263aef6c927a956e7dbe3bceafff9a4844",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4cf1edf362f77e142ab7483235ddcf263aef6c927a956e7dbe3bceafff9a4844",
+      "httpRange": {
+        "offset": 299077892,
+        "compressedBytes": 2025047,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-59.png",
+      "bytes": 2004578,
+      "sha256": "eb10f58e45892b9f7a68346f26351243726fbf58979a147626d077872c109574",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/eb10f58e45892b9f7a68346f26351243726fbf58979a147626d077872c109574",
+      "httpRange": {
+        "offset": 66029959,
+        "compressedBytes": 2004479,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-6.png",
+      "bytes": 2021304,
+      "sha256": "3f5ea2533e9af48e2a1070271ab164bef9f3c08a9e042b442f445831592dfd65",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/3f5ea2533e9af48e2a1070271ab164bef9f3c08a9e042b442f445831592dfd65",
+      "httpRange": {
+        "offset": 72901670,
+        "compressedBytes": 2021122,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-60.png",
+      "bytes": 2013935,
+      "sha256": "d4dd529e25d341148ec9d8ebd81a7b5435b34e1f5b5d5f3e2916958618a13a3f",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d4dd529e25d341148ec9d8ebd81a7b5435b34e1f5b5d5f3e2916958618a13a3f",
+      "httpRange": {
+        "offset": 136013840,
+        "compressedBytes": 2013276,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-61.png",
+      "bytes": 2042580,
+      "sha256": "4c9bc5931af49d24cbdf65c78fb6e119ad42c56890d26d2c654f41845daa3c16",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4c9bc5931af49d24cbdf65c78fb6e119ad42c56890d26d2c654f41845daa3c16",
+      "httpRange": {
+        "offset": 292528604,
+        "compressedBytes": 2041003,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-62.png",
+      "bytes": 2015980,
+      "sha256": "565341c02b8377340157c0abce15ba01381fbf79d93b7f884d54668ec19faa55",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/565341c02b8377340157c0abce15ba01381fbf79d93b7f884d54668ec19faa55",
+      "httpRange": {
+        "offset": 156293986,
+        "compressedBytes": 2014109,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-63.png",
+      "bytes": 2034727,
+      "sha256": "acd134daf92c2dcbce33353a87cb15d0c711d0cdfa38c78a8fd569ef2ea4991f",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/acd134daf92c2dcbce33353a87cb15d0c711d0cdfa38c78a8fd569ef2ea4991f",
+      "httpRange": {
+        "offset": 286460401,
+        "compressedBytes": 2034330,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-64.png",
+      "bytes": 2005845,
+      "sha256": "3e2f11133750e3784e90c2a3458ddc0b22b78b896219dc594e8a5f6d452d57cc",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/3e2f11133750e3784e90c2a3458ddc0b22b78b896219dc594e8a5f6d452d57cc",
+      "httpRange": {
+        "offset": 61048421,
+        "compressedBytes": 2005493,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-65.png",
+      "bytes": 2027060,
+      "sha256": "047abc55a58e4769b9132e580172f85cf794f6f7411c54872a7ab5dc5d2a8fdf",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/047abc55a58e4769b9132e580172f85cf794f6f7411c54872a7ab5dc5d2a8fdf",
+      "httpRange": {
+        "offset": 109859820,
+        "compressedBytes": 2026652,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-66.png",
+      "bytes": 2030406,
+      "sha256": "fd5d72829c619c6435b933ad8c9ba9a13a637d5cd922e65aa458445837f9d76b",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/fd5d72829c619c6435b933ad8c9ba9a13a637d5cd922e65aa458445837f9d76b",
+      "httpRange": {
+        "offset": 289224842,
+        "compressedBytes": 2028677,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-67.png",
+      "bytes": 1114978,
+      "sha256": "6a98ba6c2b846da07b09ffc0a65cf6819ccbbd466d633a573b4fa7fd6531ddb7",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6a98ba6c2b846da07b09ffc0a65cf6819ccbbd466d633a573b4fa7fd6531ddb7",
+      "httpRange": {
+        "offset": 254426246,
+        "compressedBytes": 1114458,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-7.png",
+      "bytes": 2019116,
+      "sha256": "11621c27a2f4ce26d997c155de4c81fa50178337e0c5b133a58b2ca4cec210f6",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/11621c27a2f4ce26d997c155de4c81fa50178337e0c5b133a58b2ca4cec210f6",
+      "httpRange": {
+        "offset": 234885764,
+        "compressedBytes": 2018304,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-8.png",
+      "bytes": 2014641,
+      "sha256": "f1a93de9acba31bbbedffb39a3ed2fc3b0bccd610f2b73cd7da3f05b180987d2",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f1a93de9acba31bbbedffb39a3ed2fc3b0bccd610f2b73cd7da3f05b180987d2",
+      "httpRange": {
+        "offset": 159957322,
+        "compressedBytes": 2013532,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/bushi-book4-9.png",
+      "bytes": 2031275,
+      "sha256": "94430f1ed4ffa2e862720364b894ae12fa234bd0aef18288d8c4fd4742b7ddd6",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/94430f1ed4ffa2e862720364b894ae12fa234bd0aef18288d8c4fd4742b7ddd6",
+      "httpRange": {
+        "offset": 336544982,
+        "compressedBytes": 2030308,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/fetch-book4.mjs",
+      "bytes": 3611,
+      "sha256": "9f6a3e2441cbcd2e0bdca94340afe762be5e91b9736b9c4967038f468151fc95",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9f6a3e2441cbcd2e0bdca94340afe762be5e91b9736b9c4967038f468151fc95",
+      "httpRange": {
+        "offset": 140266988,
+        "compressedBytes": 1789,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/home-p40-qa.png",
+      "bytes": 3087843,
+      "sha256": "94c21a3668cac556d70c56a4cbfed5c8c488ff2dcc70d516ce3c599f235efda0",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/94c21a3668cac556d70c56a4cbfed5c8c488ff2dcc70d516ce3c599f235efda0",
+      "httpRange": {
+        "offset": 340375225,
+        "compressedBytes": 3085879,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b03-book4-staging/home-p41-qa.png",
+      "bytes": 2550460,
+      "sha256": "8d8504f177967e197d8acfa0bad3ff0084e61a04df8d2b2c36b2ec3218169659",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8d8504f177967e197d8acfa0bad3ff0084e61a04df8d2b2c36b2ec3218169659",
+      "httpRange": {
+        "offset": 284509100,
+        "compressedBytes": 2549487,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

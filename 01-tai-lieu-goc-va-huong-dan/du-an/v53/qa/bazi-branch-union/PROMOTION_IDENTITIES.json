@@ -1,0 +1,239 @@
+{
+  "date": "2026-10-29",
+  "byteExactFiles": [
+    {
+      "source": "tmp/bazi-branch-union-staging/ACTUAL_RUNTIME.json",
+      "target": "v53/research/bazi-branch-union/ACTUAL_RUNTIME.json",
+      "bytes": 2533,
+      "sha256": "21de1fd5a53a9608483fd4b193d889835b93e8b5dea96a0139e458690f19ec7f"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/CHAPTER_CLEAN.txt",
+      "target": "v53/research/bazi-branch-union/CHAPTER_CLEAN.txt",
+      "bytes": 3264,
+      "sha256": "3d52dfaa2639b45a5b67734fef99832edf9bafd180c29862c57fba52c65c1265"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/CHAPTER_DISPOSITIONS.json",
+      "target": "v53/research/bazi-branch-union/CHAPTER_DISPOSITIONS.json",
+      "bytes": 7671,
+      "sha256": "b891dbf118e251c2bdc9eb8cb393336172251de05ae5d7fd1fa4af5a1c6a189a"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/decode-candidates.mjs",
+      "target": "v53/research/bazi-branch-union/decode-candidates.mjs",
+      "bytes": 2912,
+      "sha256": "a9cfd93b489cd967e9d2ea28dded08dcdb55fccb137a84aea7fc915e16ddfd36"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/decode-start-supplement.mjs",
+      "target": "v53/research/bazi-branch-union/decode-start-supplement.mjs",
+      "bytes": 2903,
+      "sha256": "926ed54b5dcf05d5180f61e3d1edcc4effd4f3587019190c0829a8264bd5e32d"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/DIGITAL_CHAPTER_LOCATOR.txt",
+      "target": "v53/research/bazi-branch-union/DIGITAL_CHAPTER_LOCATOR.txt",
+      "bytes": 3688,
+      "sha256": "405090e722e64af8fc488e61a8740f0bd91763c86d3a7eaacbe3f49ee372907b"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/EXPECTED_BEFORE_IMPLEMENTATION.json",
+      "target": "v53/research/bazi-branch-union/EXPECTED_BEFORE_IMPLEMENTATION.json",
+      "bytes": 4671,
+      "sha256": "99176f17522a66c5366f30ef0d4b3c0c9346bfba5641ed4605c1fd394c9b7ee1"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/LOCAL_RENDERS.json",
+      "target": "v53/research/bazi-branch-union/LOCAL_RENDERS.json",
+      "bytes": 3264,
+      "sha256": "c2785d3606436301df63620458c01062c8abe2b534de1b4725939302dca8a441"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/MANUAL_TABLES.json",
+      "target": "v53/research/bazi-branch-union/MANUAL_TABLES.json",
+      "bytes": 6026,
+      "sha256": "f1efbf04561fe7ce017d06ab731d7864fc0ccae761e688657ce1b2127706529e"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/NATIVE_CROPS.json",
+      "target": "v53/research/bazi-branch-union/NATIVE_CROPS.json",
+      "bytes": 2652,
+      "sha256": "1b52100c23722fc8277a0e300326f80dab0450253ba0ca99f82afa2ba05676af"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/NATIVE_REVIEW.json",
+      "target": "v53/research/bazi-branch-union/NATIVE_REVIEW.json",
+      "bytes": 4946,
+      "sha256": "17a12682f3d3f8bcd88a6cd61924476c4de28f9950301c97bfcfd700f61e9bcc"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/p191.png",
+      "target": "v53/research/bazi-branch-union/p191.png",
+      "bytes": 191570,
+      "sha256": "9dd176919fa110d79fdb9184c5503d22c0fc99378fac54596f44ac33fdf935c4"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/p192.png",
+      "target": "v53/research/bazi-branch-union/p192.png",
+      "bytes": 217650,
+      "sha256": "39faa9a4b16091f353a1f19322778b3863b494b3a2a049f3947d1bda98de6deb"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/p193-pair-arguments.png",
+      "target": "v53/research/bazi-branch-union/p193-pair-arguments.png",
+      "bytes": 191655,
+      "sha256": "be60aae8fc332f82e75a12807305964e707b128df13f28358f0689a05c519997"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/p193.png",
+      "target": "v53/research/bazi-branch-union/p193.png",
+      "bytes": 259192,
+      "sha256": "66080b357b94485d8b43ae7709932cd068082b5263163fcbcb5cb3dfeba80671"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/p194.png",
+      "target": "v53/research/bazi-branch-union/p194.png",
+      "bytes": 259387,
+      "sha256": "6133a321060cdd97b69d4938bcbb9ff24e4ab250e48b3d58e9adcd3647946af5"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/p195.png",
+      "target": "v53/research/bazi-branch-union/p195.png",
+      "bytes": 253715,
+      "sha256": "058ed6a55f2182490f41d9f85e265eb5547934db2a6b93fb6aeaa493ea8edd27"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/p196.png",
+      "target": "v53/research/bazi-branch-union/p196.png",
+      "bytes": 264520,
+      "sha256": "a09ea568c3221d61e3dc8e4fbe335ffb1128c154bec9b2a6cb5f05c7b10a3257"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/p197.png",
+      "target": "v53/research/bazi-branch-union/p197.png",
+      "bytes": 277532,
+      "sha256": "f100c0bc986aeb00db252119596571073817836d8bfa0615be56f799edcb79fe"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/p198-hidden-and-directed.png",
+      "target": "v53/research/bazi-branch-union/p198-hidden-and-directed.png",
+      "bytes": 185367,
+      "sha256": "701b6c3a3f96e78ba8728498347742fd01081f5862b0db96cc9fc5e5050455da"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/p198-hidden-directed-expanded.png",
+      "target": "v53/research/bazi-branch-union/p198-hidden-directed-expanded.png",
+      "bytes": 209831,
+      "sha256": "e0e3a7ef92d06894bebf23d8c35a30e9ff479c8faad9729b2a34599099054811"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/p198.png",
+      "target": "v53/research/bazi-branch-union/p198.png",
+      "bytes": 273581,
+      "sha256": "53873a7997a5aae6883c6e2ebf66b60e0da8cdd13bdc4f57ca63214b30c9aea3"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/p199-directed-tail-boundary.png",
+      "target": "v53/research/bazi-branch-union/p199-directed-tail-boundary.png",
+      "bytes": 59135,
+      "sha256": "5f409686e78afb16dc4c5f4282c05d50bf2ac2d19634eb9111cf8fb2e9757f49"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/p199.png",
+      "target": "v53/research/bazi-branch-union/p199.png",
+      "bytes": 231492,
+      "sha256": "519679a6bdfecf8afcf823f5709c1585f5f888b3fe262d4cedc6d37836561b0a"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/p200.png",
+      "target": "v53/research/bazi-branch-union/p200.png",
+      "bytes": 271417,
+      "sha256": "68a289c8ae86bf425ab2c4b4e233e5af4a21f8e211d701ba8983e6686bb2d22c"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/p201.png",
+      "target": "v53/research/bazi-branch-union/p201.png",
+      "bytes": 266603,
+      "sha256": "5ae9799aef4ee57560d2132de78040445a16da6a06de15d47057c290275c8777"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/p202.png",
+      "target": "v53/research/bazi-branch-union/p202.png",
+      "bytes": 289390,
+      "sha256": "04b80033a63465ee93e30b16cba36fba101cbacceb9da526ee8c79a5f809bd43"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/PREIMPLEMENTATION_FREEZE.json",
+      "target": "v53/research/bazi-branch-union/PREIMPLEMENTATION_FREEZE.json",
+      "bytes": 971,
+      "sha256": "4b2adf2ad4df6203d305601cdf7bfef74f49a5f01a48aa000c76d73785482ba9"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/README.md",
+      "target": "v53/research/bazi-branch-union/README.md",
+      "bytes": 4002,
+      "sha256": "93053ce86432785fd351c8c97d0d23c08b45899d91c779881fcaa389cccb8175"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/REFERENCE_RESULTS.json",
+      "target": "v53/research/bazi-branch-union/REFERENCE_RESULTS.json",
+      "bytes": 617,
+      "sha256": "2c15318ac8e5c98961467c26db7c6401e27bf37a6e7081f89a22df340901bb13"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/run-actual-once.mjs",
+      "target": "v53/research/bazi-branch-union/run-actual-once.mjs",
+      "bytes": 2449,
+      "sha256": "321f8732489954b9ac8b18d210b41377da9a6f927cbb8d5645b38d2f5beb4172"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/SOURCE_RESULTS.json",
+      "target": "v53/research/bazi-branch-union/SOURCE_RESULTS.json",
+      "bytes": 602,
+      "sha256": "2a75dda7ab1a55a7ba88d62a2b3820f5d561eeb34c7e3e7ae83d8b3a1d76d680"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/SUPPLEMENTAL_RENDERS.json",
+      "target": "v53/research/bazi-branch-union/SUPPLEMENTAL_RENDERS.json",
+      "bytes": 1936,
+      "sha256": "ecfd7003ed0d1fee72a208ff85cc2dbd22fcb5429eaa7750196f512447905589"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/test-union-reference.mjs",
+      "target": "v53/research/bazi-branch-union/test-union-reference.mjs",
+      "bytes": 6496,
+      "sha256": "c4c999383255129e90d626f5cc4e3bfdfc5ad13d2f48dc4ddf786850f887795d"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/union-reference.mjs",
+      "target": "v53/research/bazi-branch-union/union-reference.mjs",
+      "bytes": 3359,
+      "sha256": "ca6c1d8341c53198f95baf3c116f7438e286ddb036f16889a930650e727fb31a"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/verify-source.py",
+      "target": "v53/research/bazi-branch-union/verify-source.py",
+      "bytes": 3260,
+      "sha256": "c4c529f3821222ed24990365286c10a163815000d77e5a0bfa310b5cc8ec8abe"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/WORK_STATE.json",
+      "target": "v53/research/bazi-branch-union/WORK_STATE.json",
+      "bytes": 2730,
+      "sha256": "964f0edb113f5cbde47eeee559207c78ba4ee30b9ba5945b7cd711a21add9177"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/SOURCE_RESULTS.json",
+      "target": "v53/qa/bazi-branch-union/SOURCE_RESULTS.json",
+      "bytes": 602,
+      "sha256": "2a75dda7ab1a55a7ba88d62a2b3820f5d561eeb34c7e3e7ae83d8b3a1d76d680"
+    },
+    {
+      "source": "tmp/bazi-branch-union-staging/REFERENCE_RESULTS.json",
+      "target": "v53/qa/bazi-branch-union/REFERENCE_RESULTS.json",
+      "bytes": 617,
+      "sha256": "2c15318ac8e5c98961467c26db7c6401e27bf37a6e7081f89a22df340901bb13"
+    }
+  ]
+}

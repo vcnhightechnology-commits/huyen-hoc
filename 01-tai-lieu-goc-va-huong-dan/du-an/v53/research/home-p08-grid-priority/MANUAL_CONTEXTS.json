@@ -1,0 +1,29 @@
+{
+  "scope": "Two selected passages, not complete source priority or all table labels.",
+  "records": [
+    {
+      "system": "P08-DAY-INTRO-131",
+      "source": "陽宅十書",
+      "frame": "declared-day-table-context",
+      "position": 131,
+      "literalSelected": "若值建破魁罡等雖有吉星固當迴避",
+      "literalImperialClause": "若遇玉皇帝星天皇帝星紫微帝星直日則不避年月方向凶忌造作無礙",
+      "disposition": "The named-day avoidance and imperial-star claim are retained separately. Their simultaneous priority and full imperial predicates remain unresolved. The inspector only evaluates the selected avoidance clause.",
+      "smallCellGlyphsResolved": false,
+      "wholeClauseApplied": false
+    },
+    {
+      "system": "ITKC-MONTH-DIRECTION-244",
+      "source": "選擇要略",
+      "frame": "declared-monthly-direction-context",
+      "position": 244,
+      "heading": "建破魁罡方",
+      "literalSelected": "其殺止占方道若得三奇祿馬陽龍陰兔走馬六壬等吉星到方宅舍修作尤宜用之",
+      "disposition": "A direction-only passage and a whole declared star-condition predicate. No AND/OR between named star systems is inferred; generic benefic presence is insufficient. No derivation of occupied direction, star arrival, month or date.",
+      "wholeClauseApplied": false
+    }
+  ],
+  "newCalendarObjects": 0,
+  "newEngineCalls": 0,
+  "consumerChanged": false
+}

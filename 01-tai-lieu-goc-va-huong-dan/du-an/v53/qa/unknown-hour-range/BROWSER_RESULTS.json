@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-26T05:45:07.473Z",
+  "checks": [
+    {
+      "name": "Unknown hour renders ten onset intervals without a single invented start instant",
+      "ok": true,
+      "detail": {
+        "firstResultMs": 145.88969999999995
+      }
+    },
+    {
+      "name": "Hour fields stay empty and disabled while intervals are computed",
+      "ok": true
+    },
+    {
+      "name": "Explicitly saved unknown-hour profile stores no fabricated clock or precomputed interval",
+      "ok": true
+    },
+    {
+      "name": "TXT retains both bounds, all ten cycles and interval limitations",
+      "ok": true
+    },
+    {
+      "name": "Supplying a known clock replaces every range with the regular single-onset reading",
+      "ok": true
+    },
+    {
+      "name": "Reopening the saved profile recomputes the same interval and retains an unknown clock",
+      "ok": true
+    },
+    {
+      "name": "A solar-term boundary day does not combine incompatible year/month charts into one range",
+      "ok": true
+    },
+    {
+      "name": "Late-Zi day ambiguity is still suppressed when birth hour is unknown",
+      "ok": true
+    },
+    {
+      "name": "Returning to midnight policy restores the valid interval without retaining stale uncertainty",
+      "ok": true
+    },
+    {
+      "name": "320px: interval table scrolls internally without widening the page",
+      "ok": true,
+      "detail": {
+        "width": 320,
+        "page": 320
+      }
+    },
+    {
+      "name": "390px: interval table scrolls internally without widening the page",
+      "ok": true,
+      "detail": {
+        "width": 390,
+        "page": 390
+      }
+    },
+    {
+      "name": "On mobile the interval dates can be revealed by internal table scrolling",
+      "ok": true
+    },
+    {
+      "name": "768px: interval table scrolls internally without widening the page",
+      "ok": true,
+      "detail": {
+        "width": 768,
+        "page": 768
+      }
+    },
+    {
+      "name": "1440px: interval table scrolls internally without widening the page",
+      "ok": true,
+      "detail": {
+        "width": 1440,
+        "page": 1440
+      }
+    },
+    {
+      "name": "Print keeps both onset bounds while hiding the input panel and actions",
+      "ok": true
+    },
+    {
+      "name": "No JavaScript error or external request is introduced in the standalone product",
+      "ok": true,
+      "detail": {
+        "errors": [],
+        "requests": []
+      }
+    }
+  ],
+  "errors": [],
+  "requests": []
+}

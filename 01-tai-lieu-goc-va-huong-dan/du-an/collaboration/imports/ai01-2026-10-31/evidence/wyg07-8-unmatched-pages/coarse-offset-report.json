@@ -1,0 +1,125 @@
+{
+  "schema": "hhc.wyg07.coarse-offset-source-image-probes.v1",
+  "passed": true,
+  "originalSourcesVerifiedSHA1": 2,
+  "calibration": [
+    {
+      "short": 9,
+      "long": 9,
+      "goodFeatures": 202
+    },
+    {
+      "short": 195,
+      "long": 203,
+      "goodFeatures": 251
+    }
+  ],
+  "probes": [
+    {
+      "shortPage": 20,
+      "longUnshifted": 20,
+      "longShifted": 28,
+      "scoreOffset0": 271,
+      "scoreOffset8": 33,
+      "preferredOffset": 0,
+      "strongEvidence": true,
+      "matchCountIsNotCharacterCount": true
+    },
+    {
+      "shortPage": 40,
+      "longUnshifted": 40,
+      "longShifted": 48,
+      "scoreOffset0": 285,
+      "scoreOffset8": 30,
+      "preferredOffset": 0,
+      "strongEvidence": true,
+      "matchCountIsNotCharacterCount": true
+    },
+    {
+      "shortPage": 60,
+      "longUnshifted": 60,
+      "longShifted": 68,
+      "scoreOffset0": 207,
+      "scoreOffset8": 27,
+      "preferredOffset": 0,
+      "strongEvidence": true,
+      "matchCountIsNotCharacterCount": true
+    },
+    {
+      "shortPage": 80,
+      "longUnshifted": 80,
+      "longShifted": 88,
+      "scoreOffset0": 261,
+      "scoreOffset8": 37,
+      "preferredOffset": 0,
+      "strongEvidence": true,
+      "matchCountIsNotCharacterCount": true
+    },
+    {
+      "shortPage": 100,
+      "longUnshifted": 100,
+      "longShifted": 108,
+      "scoreOffset0": 203,
+      "scoreOffset8": 28,
+      "preferredOffset": 0,
+      "strongEvidence": true,
+      "matchCountIsNotCharacterCount": true
+    },
+    {
+      "shortPage": 120,
+      "longUnshifted": 120,
+      "longShifted": 128,
+      "scoreOffset0": 28,
+      "scoreOffset8": 25,
+      "preferredOffset": null,
+      "strongEvidence": false,
+      "matchCountIsNotCharacterCount": true
+    },
+    {
+      "shortPage": 140,
+      "longUnshifted": 140,
+      "longShifted": 148,
+      "scoreOffset0": 22,
+      "scoreOffset8": 278,
+      "preferredOffset": 8,
+      "strongEvidence": true,
+      "matchCountIsNotCharacterCount": true
+    },
+    {
+      "shortPage": 160,
+      "longUnshifted": 160,
+      "longShifted": 168,
+      "scoreOffset0": 32,
+      "scoreOffset8": 283,
+      "preferredOffset": 8,
+      "strongEvidence": true,
+      "matchCountIsNotCharacterCount": true
+    },
+    {
+      "shortPage": 180,
+      "longUnshifted": 180,
+      "longShifted": 188,
+      "scoreOffset0": 34,
+      "scoreOffset8": 300,
+      "preferredOffset": 8,
+      "strongEvidence": true,
+      "matchCountIsNotCharacterCount": true
+    },
+    {
+      "shortPage": 190,
+      "longUnshifted": 190,
+      "longShifted": 198,
+      "scoreOffset0": 23,
+      "scoreOffset8": 252,
+      "preferredOffset": 8,
+      "strongEvidence": true,
+      "matchCountIsNotCharacterCount": true
+    }
+  ],
+  "firstOffsetChangeExactPageProven": false,
+  "physicalMissingPagesEstablished": false,
+  "sourceVersionsAreIndependentPrintedEditions": false,
+  "OCR": false,
+  "consumerChanged": false,
+  "engineCalls": 0
+}

@@ -1,0 +1,54 @@
+{
+  "date": "2026-10-29",
+  "frozenAt": "2026-10-29T03:00:37.517988+00:00",
+  "beforeFirstActualBatch": true,
+  "allManualExpectedCasesFrozen": true,
+  "sourceDerivedRoleAssignmentKeptEditorial": true,
+  "files": [
+    {
+      "file": "tmp/bazi-tongke-cases-staging/MANUAL_PRINTED_CASES.json",
+      "bytes": 2606,
+      "sha256": "4a47387962962daa32370e01d58d28717375261f3093aab8b0f0bcfc1cf455d7"
+    },
+    {
+      "file": "tmp/bazi-tongke-cases-staging/SELECTED_CONTEXTS.json",
+      "bytes": 2364,
+      "sha256": "e497f96a3bc65129a3500ae0225c0d0d0d4c796c95e22d0d37e0c3da90b922ce"
+    },
+    {
+      "file": "tmp/bazi-tongke-cases-staging/SOURCE_IDENTITIES.json",
+      "bytes": 2647,
+      "sha256": "102607699450a6ce245d9a780242f4cb27f1728c467479d396095a73c53050c4"
+    },
+    {
+      "file": "tmp/bazi-tongke-cases-staging/CLAUSE_DISPOSITIONS.json",
+      "bytes": 1411,
+      "sha256": "297288fe0867d0e7ffd675bb5279fd31d2d8452cf1cb7b8cb4a9d043da66c4d3"
+    },
+    {
+      "file": "tmp/bazi-tongke-cases-staging/NATIVE_CROPS.json",
+      "bytes": 2616,
+      "sha256": "56550e03903c5406cb682be07e0c2cfa63f4f6df5c8e217d31c77d2e3824e901"
+    },
+    {
+      "file": "tmp/bazi-tongke-cases-staging/definition-complete.png",
+      "bytes": 27978,
+      "sha256": "2fa0622b6f955ae7059e0556bc6dd5b9a542c7690caf9fa1b82b7004856adc19"
+    },
+    {
+      "file": "tmp/bazi-tongke-cases-staging/ranking-and-han-complete.png",
+      "bytes": 56285,
+      "sha256": "9c13c9c3a29a11fa87b5dc5ebbe9b136931bbe236e19df66c4ca6ff2f30061ab"
+    },
+    {
+      "file": "tmp/bazi-tongke-cases-staging/qin-and-wang-complete.png",
+      "bytes": 52064,
+      "sha256": "94020782b3a46270000a85b8c8fd268354757f96e93b6076a5b3d861f4d2b0ca"
+    },
+    {
+      "file": "tmp/bazi-tongke-cases-staging/run-actual-once.mjs",
+      "bytes": 5049,
+      "sha256": "2b73f7a56ceed1e79881b20450c7e5209e44a8428c8782c7b44748cf26be5aa8"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+PASS Twelve unknown-hour cases match all17,280 actual known-minute calculations across eleven boundaries
+PASS Every cycle uses its own date-clamped range and joins the next range exactly
+PASS Pillar changes during a day suppress intervals instead of merging incompatible charts
+PASS The complete range is independent of any internal unknown-hour anchor
+PASS Cached intervals cannot be corrupted by mutating a previous result
+PASS Two complete birth-day sweeps also agree with2,880 real lunar-typescript sect2 onsets when solar-term minutes agree
+PASS Consumer copy labels an interval without inventing a unique onset or a missing hour pillar
+PASS Existing engines remain unchanged and every reused source byte/hash is verified
+8/8 passed

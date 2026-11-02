@@ -1,0 +1,448 @@
+{
+  "date": "2026-10-26",
+  "scope": "Seven complete image spreads acquired; only the explicitly listed passages manually transcribed/compared. Not a whole-book collation.",
+  "locationAndTranscriptionPolicy": "Page numbers in this JSON are one-based IIIF sequence ordinals, not physical leaf or PDF page numbers. Chinese running-text readings are normalized working transcriptions (including graphic variants of the earthly-branch Si), not diplomatic character-by-character editions. Decisive Canh/Nham readings are preserved separately; dark or illegible patches are not reconstructed.",
+  "institutionalCatalogue": {
+    "url": "https://www.digital.archives.go.jp/file/1078787",
+    "file": "official-catalog.html",
+    "sha256": "4074095900b967e53edf35995558a04f41eb480b4f57df7f53387cc28792f2ec",
+    "title": "新鋟希夷陳先生紫微斗数全書",
+    "referenceCode": "子０６０－０００１",
+    "formerHolding": "紅葉山文庫",
+    "personsAsCatalogued": [
+      "選者:陳搏（宋）",
+      "補訂者:潘希尹（明）"
+    ],
+    "publicationAsCatalogued": "刊本:明:::",
+    "quantity": "2冊",
+    "volumes": "７巻",
+    "access": "公開",
+    "limits": "Official metadata independently confirms these fields; it does not by itself prove historic authorship, a precise publication year, or the Nanyangtang/Baohetang imprint details claimed elsewhere."
+  },
+  "officialImages": {
+    "item": "https://www.digital.archives.go.jp/item/4468520",
+    "viewer": "https://www.digital.archives.go.jp/img/4468520",
+    "manifest": "official-manifest.json",
+    "manifestSHA256": "732991ca47aefc323ea2095a93202fd301421ad8b92994c63caae2a94acf75af",
+    "canvasCount": 129,
+    "publicRestrictionFlag": false,
+    "pages": [
+      {
+        "sequenceNumber": 74,
+        "canvas": "https://www.digital.archives.go.jp/api/iiif/4468520/canvas/C102812185700",
+        "canvasLabel": "C102812185700",
+        "sourceDimensions": [
+          6300,
+          4750
+        ],
+        "request": {
+          "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102812185700/iiif/M2019050811103249305_0074.jp2/full/2200,/0/native.jpg",
+          "file": "official-074.jpg",
+          "status": 200,
+          "headers": {
+            "content-type": "image/jpeg;charset=UTF-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "date": "Sun, 25 Oct 2026 17:34:55 GMT",
+            "content-language": "ja",
+            "strict-transport-security": "max-age=31536000",
+            "server": "Apache",
+            "x-frame-options": "SAMEORIGIN",
+            "pragma": "no-cache",
+            "cache-control": "no-cache, no-store",
+            "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+            "content-security-policy": "frame-ancestors 'self'",
+            "access-control-allow-origin": "*",
+            "x-cache": "Miss from cloudfront",
+            "via": "1.1 2a03d2711471724998d148d52c90bedc.cloudfront.net (CloudFront)",
+            "x-amz-cf-pop": "LAX53-P5",
+            "x-amz-cf-id": "fUHHV5oOe4xtiR9wTo8Zvk3djzQyrwXeJt8YS5K5Vm4-2MVyrf0y-A=="
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3"
+          },
+          "bytes": 544567,
+          "sha256": "19c5702824f20655548d4f8af47728f991d643ef8e06c8c04803821f894a5e07",
+          "retrievedUTC": "2026-10-25T17:35:01.460Z"
+        },
+        "imageDerivative": "Server-rendered IIIF JPEG at 2200 px width, full uncropped spread; not a downloaded original JP2 or a retouched image."
+      },
+      {
+        "sequenceNumber": 75,
+        "canvas": "https://www.digital.archives.go.jp/api/iiif/4468520/canvas/C102812185800",
+        "canvasLabel": "C102812185800",
+        "sourceDimensions": [
+          6300,
+          4750
+        ],
+        "request": {
+          "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102812185800/iiif/M2019050811103249305_0075.jp2/full/2200,/0/native.jpg",
+          "file": "official-075.jpg",
+          "status": 200,
+          "headers": {
+            "content-type": "image/jpeg;charset=UTF-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "date": "Sun, 25 Oct 2026 17:34:56 GMT",
+            "content-language": "ja",
+            "strict-transport-security": "max-age=31536000",
+            "server": "Apache",
+            "x-frame-options": "SAMEORIGIN",
+            "pragma": "no-cache",
+            "cache-control": "no-cache, no-store",
+            "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+            "content-security-policy": "frame-ancestors 'self'",
+            "access-control-allow-origin": "*",
+            "x-cache": "Miss from cloudfront",
+            "via": "1.1 2a03d2711471724998d148d52c90bedc.cloudfront.net (CloudFront)",
+            "x-amz-cf-pop": "LAX53-P5",
+            "x-amz-cf-id": "yzS2CiePHx16kZgcEmHSOEtKK8oFlEkCk_kSrE2NvLkYw63x1QapDQ=="
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3"
+          },
+          "bytes": 534327,
+          "sha256": "4d838ad248f0adf04e15637aa2f8fae5e9f5a1d33d6ab020cf58dd9275e700b2",
+          "retrievedUTC": "2026-10-25T17:35:02.873Z"
+        },
+        "imageDerivative": "Server-rendered IIIF JPEG at 2200 px width, full uncropped spread; not a downloaded original JP2 or a retouched image."
+      },
+      {
+        "sequenceNumber": 76,
+        "canvas": "https://www.digital.archives.go.jp/api/iiif/4468520/canvas/C102812185900",
+        "canvasLabel": "C102812185900",
+        "sourceDimensions": [
+          6300,
+          4750
+        ],
+        "request": {
+          "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102812185900/iiif/M2019050811103249305_0076.jp2/full/2200,/0/native.jpg",
+          "file": "official-076.jpg",
+          "status": 200,
+          "headers": {
+            "content-type": "image/jpeg;charset=UTF-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "date": "Sun, 25 Oct 2026 17:34:57 GMT",
+            "content-language": "ja",
+            "strict-transport-security": "max-age=31536000",
+            "server": "Apache",
+            "x-frame-options": "SAMEORIGIN",
+            "pragma": "no-cache",
+            "cache-control": "no-cache, no-store",
+            "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+            "content-security-policy": "frame-ancestors 'self'",
+            "access-control-allow-origin": "*",
+            "x-cache": "Miss from cloudfront",
+            "via": "1.1 2a03d2711471724998d148d52c90bedc.cloudfront.net (CloudFront)",
+            "x-amz-cf-pop": "LAX53-P5",
+            "x-amz-cf-id": "qwQp9lPpSst-XLYGiPtNie9nECWoOgiVeG1KuDXGCAht9NC_ULENGw=="
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3"
+          },
+          "bytes": 526856,
+          "sha256": "22041681d4d47375d296d82b7872667cb0417c209d1078e549ce0ab53d5c6d50",
+          "retrievedUTC": "2026-10-25T17:35:04.397Z"
+        },
+        "imageDerivative": "Server-rendered IIIF JPEG at 2200 px width, full uncropped spread; not a downloaded original JP2 or a retouched image."
+      },
+      {
+        "sequenceNumber": 77,
+        "canvas": "https://www.digital.archives.go.jp/api/iiif/4468520/canvas/C102812186000",
+        "canvasLabel": "C102812186000",
+        "sourceDimensions": [
+          6300,
+          4750
+        ],
+        "request": {
+          "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102812186000/iiif/M2019050811103249305_0077.jp2/full/2200,/0/native.jpg",
+          "file": "official-077.jpg",
+          "status": 200,
+          "headers": {
+            "content-type": "image/jpeg;charset=UTF-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "date": "Sun, 25 Oct 2026 17:36:36 GMT",
+            "content-language": "ja",
+            "strict-transport-security": "max-age=31536000",
+            "server": "Apache",
+            "x-frame-options": "SAMEORIGIN",
+            "pragma": "no-cache",
+            "cache-control": "no-cache, no-store",
+            "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+            "content-security-policy": "frame-ancestors 'self'",
+            "access-control-allow-origin": "*",
+            "x-cache": "Miss from cloudfront",
+            "via": "1.1 07d9077f3449135d04c033a5467c80bc.cloudfront.net (CloudFront)",
+            "x-amz-cf-pop": "LAX53-P5",
+            "x-amz-cf-id": "xgPN_e4Ez4sd7epQ4CyD1E3LkpDfofi3RddbwEY4V9vixxsAq26TkA=="
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3"
+          },
+          "bytes": 533092,
+          "sha256": "5dfaa4db50a55f188506c16de424e537ab8fdfcb27064279995296fc788d6f78",
+          "retrievedUTC": "2026-10-25T17:36:42.891Z"
+        },
+        "imageDerivative": "Server-rendered IIIF JPEG at 2200 px width, full uncropped spread; not a downloaded original JP2 or a retouched image."
+      },
+      {
+        "sequenceNumber": 78,
+        "canvas": "https://www.digital.archives.go.jp/api/iiif/4468520/canvas/C102812186100",
+        "canvasLabel": "C102812186100",
+        "sourceDimensions": [
+          6300,
+          4750
+        ],
+        "request": {
+          "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102812186100/iiif/M2019050811103249305_0078.jp2/full/2200,/0/native.jpg",
+          "file": "official-078.jpg",
+          "status": 200,
+          "headers": {
+            "content-type": "image/jpeg;charset=UTF-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "date": "Sun, 25 Oct 2026 17:36:37 GMT",
+            "content-language": "ja",
+            "strict-transport-security": "max-age=31536000",
+            "server": "Apache",
+            "x-frame-options": "SAMEORIGIN",
+            "pragma": "no-cache",
+            "cache-control": "no-cache, no-store",
+            "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+            "content-security-policy": "frame-ancestors 'self'",
+            "access-control-allow-origin": "*",
+            "x-cache": "Miss from cloudfront",
+            "via": "1.1 07d9077f3449135d04c033a5467c80bc.cloudfront.net (CloudFront)",
+            "x-amz-cf-pop": "LAX53-P5",
+            "x-amz-cf-id": "LTHtE8MGASQ14m89dgV3Y_-CGIJVpqWScfwuLSd2Y2DxbQSjIb_yrA=="
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3"
+          },
+          "bytes": 520771,
+          "sha256": "7289c219aa05b173491005ea260b2c557ec04492900d14a5ba716793f3c04eb1",
+          "retrievedUTC": "2026-10-25T17:36:43.827Z"
+        },
+        "imageDerivative": "Server-rendered IIIF JPEG at 2200 px width, full uncropped spread; not a downloaded original JP2 or a retouched image."
+      },
+      {
+        "sequenceNumber": 79,
+        "canvas": "https://www.digital.archives.go.jp/api/iiif/4468520/canvas/C102812186200",
+        "canvasLabel": "C102812186200",
+        "sourceDimensions": [
+          6300,
+          4750
+        ],
+        "request": {
+          "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102812186200/iiif/M2019050811103249305_0079.jp2/full/2200,/0/native.jpg",
+          "file": "official-079.jpg",
+          "status": 200,
+          "headers": {
+            "content-type": "image/jpeg;charset=UTF-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "date": "Sun, 25 Oct 2026 17:36:38 GMT",
+            "content-language": "ja",
+            "strict-transport-security": "max-age=31536000",
+            "server": "Apache",
+            "x-frame-options": "SAMEORIGIN",
+            "pragma": "no-cache",
+            "cache-control": "no-cache, no-store",
+            "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+            "content-security-policy": "frame-ancestors 'self'",
+            "access-control-allow-origin": "*",
+            "x-cache": "Miss from cloudfront",
+            "via": "1.1 07d9077f3449135d04c033a5467c80bc.cloudfront.net (CloudFront)",
+            "x-amz-cf-pop": "LAX53-P5",
+            "x-amz-cf-id": "4B7sMiqjes8J81OMGhDJ8sPm2tZoS7DApM9UXG8uebGjikK_9ADVaA=="
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3"
+          },
+          "bytes": 531133,
+          "sha256": "ffe458a8a627a580a4f3d76dd176c7ec91c9ee9ac9ce4994144dcba7f30a4787",
+          "retrievedUTC": "2026-10-25T17:36:45.311Z"
+        },
+        "imageDerivative": "Server-rendered IIIF JPEG at 2200 px width, full uncropped spread; not a downloaded original JP2 or a retouched image."
+      },
+      {
+        "sequenceNumber": 80,
+        "canvas": "https://www.digital.archives.go.jp/api/iiif/4468520/canvas/C102812186300",
+        "canvasLabel": "C102812186300",
+        "sourceDimensions": [
+          6300,
+          4750
+        ],
+        "request": {
+          "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102812186300/iiif/M2019050811103249305_0080.jp2/full/2200,/0/native.jpg",
+          "file": "official-080.jpg",
+          "status": 200,
+          "headers": {
+            "content-type": "image/jpeg;charset=UTF-8",
+            "transfer-encoding": "chunked",
+            "connection": "keep-alive",
+            "date": "Sun, 25 Oct 2026 17:36:40 GMT",
+            "content-language": "ja",
+            "strict-transport-security": "max-age=31536000",
+            "server": "Apache",
+            "x-frame-options": "SAMEORIGIN",
+            "pragma": "no-cache",
+            "cache-control": "no-cache, no-store",
+            "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+            "content-security-policy": "frame-ancestors 'self'",
+            "access-control-allow-origin": "*",
+            "x-cache": "Miss from cloudfront",
+            "via": "1.1 07d9077f3449135d04c033a5467c80bc.cloudfront.net (CloudFront)",
+            "x-amz-cf-pop": "LAX53-P5",
+            "x-amz-cf-id": "eAMMUT4-u3txhNyDlODJgCK4_y12PxEUqnjEWZK-hGXk5eXtKetr7g=="
+          },
+          "tls": {
+            "authorized": true,
+            "protocol": "TLSv1.3"
+          },
+          "bytes": 509972,
+          "sha256": "ef453337cd2255b4539053c78c89556ca47536ec9bd3cf476730532e63b32e37",
+          "retrievedUTC": "2026-10-25T17:36:46.570Z"
+        },
+        "imageDerivative": "Server-rendered IIIF JPEG at 2200 px width, full uncropped spread; not a downloaded original JP2 or a retouched image."
+      }
+    ]
+  },
+  "passages": [
+    {
+      "id": "chang-qu",
+      "page": 75,
+      "region": "right half, below heading 安文昌文曲星訣",
+      "reading": "文昌星從戌上起子時如人生子時就在戌宮安之丑時逆至酉宮安之文曲星從辰上起子時若人生子時就在辰宮安之丑時順去巳宮安之餘宮仿此",
+      "finding": "Both explanatory columns are legible. They independently support Chang from Xu backwards and Qu from Chen forwards by birth hour. A dark patch above affects an adjacent verse column; no reconstruction of that patch is claimed."
+    },
+    {
+      "id": "zuo-you",
+      "page": 75,
+      "region": "right final heading and left first columns 安左輔右弼星訣",
+      "reading": "左輔從辰上起正月順行如正月生者就辰宮安之二月在巳宮右弼從戌宮逆轉如正月就在戌宮安之二月在酉宮餘依此",
+      "finding": "Normal-month direction and starting branches support the current formula. No leap-month extension inferred from this paragraph."
+    },
+    {
+      "id": "four-transformations",
+      "pages": [
+        76,
+        77
+      ],
+      "region": "76 left lower section 安祿權科忌四星變化訣, continuation 77 right top",
+      "heading": "論生年干 挾火而化",
+      "rowsByStem": [
+        [
+          "Liêm Trinh",
+          "Phá Quân",
+          "Vũ Khúc",
+          "Thái Dương"
+        ],
+        [
+          "Thiên Cơ",
+          "Thiên Lương",
+          "Tử Vi",
+          "Thái Âm"
+        ],
+        [
+          "Thiên Đồng",
+          "Thiên Cơ",
+          "Văn Xương",
+          "Liêm Trinh"
+        ],
+        [
+          "Thái Âm",
+          "Thiên Đồng",
+          "Thiên Cơ",
+          "Cự Môn"
+        ],
+        [
+          "Tham Lang",
+          "Thái Âm",
+          "Hữu Bật",
+          "Thiên Cơ"
+        ],
+        [
+          "Vũ Khúc",
+          "Tham Lang",
+          "Thiên Lương",
+          "Văn Khúc"
+        ],
+        [
+          "Thái Dương",
+          "Vũ Khúc",
+          "Thiên Đồng",
+          "Thiên Tướng"
+        ],
+        [
+          "Cự Môn",
+          "Thái Dương",
+          "Văn Khúc",
+          "Văn Xương"
+        ],
+        [
+          "Thiên Lương",
+          "Tử Vi",
+          "Thiên Phủ",
+          "Vũ Khúc"
+        ],
+        [
+          "Phá Quân",
+          "Cự Môn",
+          "Thái Âm",
+          "Tham Lang"
+        ]
+      ],
+      "labelsInOrder": [
+        "Hóa Lộc",
+        "Hóa Quyền",
+        "Hóa Khoa",
+        "Hóa Kỵ"
+      ],
+      "decisiveReadings": {
+        "Canh": "庚日武同相為首",
+        "Nham": "壬梁紫府武宿是"
+      },
+      "finding": "Manual expansion of the forty abbreviated star references. Canh Khoa/Ky differs from the retained digital transcription and selected engine table. Nham Khoa explicitly reads Phu, corroborating Thien Phu in the selected table. This one passage is not evidence that every table or paragraph in the same book agrees."
+    },
+    {
+      "id": "dou-jun",
+      "page": 79,
+      "region": "right lower half 安斗君訣 即月將星 and continued verse left top",
+      "reading": "於流年太歲宮起正月逆至本生月又從本生月起子順數至本生時安斗君",
+      "verse": "太歲宮中便起正逆尋生月即留停又從生月宮輪子順到生時鎮斗星",
+      "finding": "Supports first-lunar-month anchor by annual branch, birth month and hour. Counting later months forward and applying same/next/split16 are separately declared implementation conventions."
+    },
+    {
+      "id": "major-period",
+      "page": 80,
+      "region": "right half 安大限訣",
+      "reading": "陽男陰女從命前一宮起是父母宮陰男陽女從命後一宮起是兄弟宮",
+      "finding": "Adjacent-palace wording is present in the original image, not merely an apparent transcription typo. It differs from the current engine first-decade-at-Menh convention. Do not silently switch the chart or claim the image verifies the current start palace/age."
+    },
+    {
+      "id": "minor-period",
+      "page": 80,
+      "region": "left top 安小限訣",
+      "reading": "不論陰陽男俱順數不論陰陽女俱逆數寅午戌人起辰宮申子辰人起戌宮巳酉丑人起未宮亥卯未人起丑宮",
+      "finding": "Confirms four starting branches and gender-based direction. First-age/nominal-age indexing remains the implementation convention tested separately."
+    }
+  ],
+  "notVerified": [
+    "Other parts of the 129 canvases",
+    "All Tứ Hóa tables and internal consistency of this witness",
+    "Historic authorship and exact printing date",
+    "Full-star prediction validity",
+    "A universal leap-month or major-period convention"
+  ],
+  "transportNote": "Web rendering tool returned 403 for the catalogue during this turn; ordinary authenticated HTTPS subsequently returned 200 for catalogue, viewer, manifest and unrestricted image services, without challenge solving, cookie tricks or access-control bypass.",
+  "publicProductPolicy": "Keep evidence/corpus outside site. Current default chart and period indices are unchanged. Consumer period output now retains actual selected leap/day conventions in on-screen, TXT and print content."
+}

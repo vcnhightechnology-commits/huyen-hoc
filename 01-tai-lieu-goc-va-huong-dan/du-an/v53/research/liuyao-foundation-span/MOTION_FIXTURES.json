@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-28",
+  "threeLinePDFPage": 47,
+  "orientation": "bottom-to-top",
+  "threeLineExamples": [
+    {
+      "id": "qian-first",
+      "values": [
+        9,
+        7,
+        7
+      ],
+      "primary": "乾",
+      "changed": "巽"
+    },
+    {
+      "id": "qian-both-ends",
+      "values": [
+        9,
+        7,
+        9
+      ],
+      "primary": "乾",
+      "changed": "坎"
+    },
+    {
+      "id": "kun-middle",
+      "values": [
+        8,
+        6,
+        8
+      ],
+      "primary": "坤",
+      "changed": "坎"
+    },
+    {
+      "id": "kun-all-three",
+      "values": [
+        6,
+        6,
+        6
+      ],
+      "primary": "坤",
+      "changed": "乾"
+    }
+  ],
+  "sixLineExample": {
+    "id": "xu-to-song",
+    "pdfPage": 48,
+    "values": [
+      9,
+      7,
+      9,
+      6,
+      7,
+      6
+    ],
+    "primaryNumber": 5,
+    "changedNumber": 6,
+    "primaryPalace": "坤",
+    "primaryBranchKinBottomToTop": [
+      [
+        "子",
+        "妻財"
+      ],
+      [
+        "寅",
+        "官鬼"
+      ],
+      [
+        "辰",
+        "兄弟"
+      ],
+      [
+        "申",
+        "子孫"
+      ],
+      [
+        "戌",
+        "兄弟"
+      ],
+      [
+        "子",
+        "妻財"
+      ]
+    ],
+    "baseLine1MatchesReferenceButDiffersFromTable33": true,
+    "baseLine1ReferenceKin": "妻財",
+    "changedBranchKin": [
+      {
+        "line": 1,
+        "branch": "寅",
+        "kin": "官鬼"
+      },
+      {
+        "line": 3,
+        "branch": "午",
+        "kin": "父母"
+      },
+      {
+        "line": 4,
+        "branch": "午",
+        "kin": "父母"
+      },
+      {
+        "line": 6,
+        "branch": "戌",
+        "kin": "兄弟"
+      }
+    ],
+    "changedOwnPalaceIsNotKinAnchor": true
+  },
+  "threeLineEmbeddingsAreDerivedNotPrintedSixLineFixtures": true,
+  "priorCastReference": "v53/research/liuyao-use-god/SOURCE_FIXTURES.json#need-to-conflict",
+  "priorEngineEvidence": "v53/qa/liuyao-use-god/ENGINE_RESULTS.json",
+  "independentNewPrintedCasts": 0,
+  "currentScopePurpose": "Expanded label collation and new3/6line reader verification,not first-ever recognition of this cast."
+}

@@ -1,0 +1,38 @@
+{
+  "date": "2026-10-29",
+  "sourceCanvas": 35,
+  "heading": "論行限分南北斗",
+  "transcription": "陽男陰女南斗為福 陰男陽女北斗為福 北斗諸星吉凶大限斷上五年應小限斷上半年應 南斗諸星吉凶大限斷下五年應小限斷下半年應",
+  "punctuationIsEditorial": true,
+  "sourceInstructionsAreData": true,
+  "sourceOnlyDisposition": "Historical declared-class timing claim, not computed transition or evidence of event timing",
+  "normalizedWindows": [
+    {
+      "dipper": "北斗",
+      "period": "大限",
+      "literal": "上五年"
+    },
+    {
+      "dipper": "北斗",
+      "period": "小限",
+      "literal": "上半年"
+    },
+    {
+      "dipper": "南斗",
+      "period": "大限",
+      "literal": "下五年"
+    },
+    {
+      "dipper": "南斗",
+      "period": "小限",
+      "literal": "下半年"
+    }
+  ],
+  "notImplemented": [
+    "Star-classification adapter",
+    "Mixed 北斗/南斗 rule precedence",
+    "Exact civil dates and half-year boundary/calendar model",
+    "Score or event/timing predictions"
+  ],
+  "consumerChanged": false
+}

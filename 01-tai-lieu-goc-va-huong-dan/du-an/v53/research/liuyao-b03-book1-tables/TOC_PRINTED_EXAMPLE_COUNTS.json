@@ -1,0 +1,157 @@
+{
+  "date": "2026-10-27",
+  "sourceID": "B03-book1-prefaces",
+  "pdfPages": [
+    13,
+    14
+  ],
+  "rows": [
+    {
+      "question": 1,
+      "textualVolume": 13,
+      "sourceStatedPrintedExamples": 5,
+      "pdfPage": 13
+    },
+    {
+      "question": 2,
+      "textualVolume": 13,
+      "sourceStatedPrintedExamples": 11,
+      "pdfPage": 13
+    },
+    {
+      "question": 3,
+      "textualVolume": 13,
+      "sourceStatedPrintedExamples": 4,
+      "pdfPage": 13
+    },
+    {
+      "question": 4,
+      "textualVolume": 13,
+      "sourceStatedPrintedExamples": 12,
+      "pdfPage": 13
+    },
+    {
+      "question": 5,
+      "textualVolume": 13,
+      "sourceStatedPrintedExamples": 5,
+      "pdfPage": 13
+    },
+    {
+      "question": 6,
+      "textualVolume": 13,
+      "sourceStatedPrintedExamples": 4,
+      "pdfPage": 13
+    },
+    {
+      "question": 7,
+      "textualVolume": 13,
+      "sourceStatedPrintedExamples": 14,
+      "pdfPage": 13
+    },
+    {
+      "question": 8,
+      "textualVolume": 13,
+      "sourceStatedPrintedExamples": 7,
+      "pdfPage": 13
+    },
+    {
+      "question": 9,
+      "textualVolume": 13,
+      "sourceStatedPrintedExamples": 6,
+      "pdfPage": 14
+    },
+    {
+      "question": 10,
+      "textualVolume": 14,
+      "sourceStatedPrintedExamples": 5,
+      "pdfPage": 14
+    },
+    {
+      "question": 11,
+      "textualVolume": 14,
+      "sourceStatedPrintedExamples": 8,
+      "pdfPage": 14
+    },
+    {
+      "question": 12,
+      "textualVolume": 14,
+      "sourceStatedPrintedExamples": 13,
+      "pdfPage": 14
+    },
+    {
+      "question": 13,
+      "textualVolume": 14,
+      "sourceStatedPrintedExamples": 11,
+      "pdfPage": 14
+    },
+    {
+      "question": 14,
+      "textualVolume": 14,
+      "sourceStatedPrintedExamples": 4,
+      "pdfPage": 14
+    },
+    {
+      "question": 15,
+      "textualVolume": 14,
+      "sourceStatedPrintedExamples": 7,
+      "pdfPage": 14
+    },
+    {
+      "question": 16,
+      "textualVolume": 14,
+      "sourceStatedPrintedExamples": 4,
+      "pdfPage": 14
+    },
+    {
+      "question": 17,
+      "textualVolume": 14,
+      "sourceStatedPrintedExamples": 5,
+      "pdfPage": 14
+    },
+    {
+      "question": 18,
+      "textualVolume": 14,
+      "sourceStatedPrintedExamples": 6,
+      "pdfPage": 14
+    }
+  ],
+  "totalSourceStatedExamples": 131,
+  "classification": "TOC stated count, not independent count of actual printed diagrams",
+  "book6BodyDiagramsCountedToTotal": false,
+  "book6ReleasedPrintedStructureChecks": 2,
+  "allExamplesVerified": false,
+  "needs": [
+    "Keep cast/date/selected-annotation checks distinct from historical-outcome claims"
+  ],
+  "all18CountRowsViewedWithQA": true,
+  "qaImages": [
+    {
+      "pdfPage": 13,
+      "image": "images/preface-p13-qa.png",
+      "sha256": "c3d9eb543755524ea2bafb6b820670dd00c368b42642339f99cdd4fa42ed146c",
+      "dpi": 360,
+      "actuallyViewed": true
+    },
+    {
+      "pdfPage": 14,
+      "image": "images/preface-p14-qa.png",
+      "sha256": "edda201f969814dc5a2b9df1561a0a50a92f1e37aa7d690522d041d44ad724d4",
+      "dpi": 360,
+      "actuallyViewed": true
+    },
+    {
+      "pdfPage": 14,
+      "image": "images/preface-p14-ending-qa.png",
+      "sha256": "1c82c8fac149c37f0a1d26697b86ecc6b6133c76d911126f8caab6a9d064595f",
+      "dpi": 360,
+      "actuallyViewed": true
+    },
+    {
+      "pdfPage": 14,
+      "image": "images/preface-p14-count-qa.png",
+      "sha256": "0ecde5bc14ea0d0b9469e747c92cacf6a38dec9cbb5bb87094a073466a7a1c20",
+      "dpi": 360,
+      "actuallyViewed": true
+    }
+  ]
+}

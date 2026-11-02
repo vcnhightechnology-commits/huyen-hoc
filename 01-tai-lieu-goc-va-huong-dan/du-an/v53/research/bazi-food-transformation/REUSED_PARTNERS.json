@@ -1,0 +1,89 @@
+{
+  "rows": [
+    {
+      "stem": "甲",
+      "actualPartner": "己",
+      "file": "v53/research/bazi-true-ghost-context/ACTUAL_RUNTIME.json",
+      "array": "partners",
+      "index": 0
+    },
+    {
+      "stem": "己",
+      "actualPartner": "甲",
+      "file": "v53/research/bazi-true-ghost-context/ACTUAL_RUNTIME.json",
+      "array": "partners",
+      "index": 1
+    },
+    {
+      "stem": "乙",
+      "actualPartner": "庚",
+      "file": "v53/research/bazi-true-ghost-context/ACTUAL_RUNTIME.json",
+      "array": "partners",
+      "index": 2
+    },
+    {
+      "stem": "庚",
+      "actualPartner": "乙",
+      "file": "v53/research/bazi-true-ghost-context/ACTUAL_RUNTIME.json",
+      "array": "partners",
+      "index": 3
+    },
+    {
+      "stem": "丙",
+      "actualPartner": "辛",
+      "file": "v53/qa/bazi-food-appendices/REFERENCE_RESULTS.json",
+      "array": "mechanisms",
+      "index": 1
+    },
+    {
+      "stem": "辛",
+      "actualPartner": "丙",
+      "file": "v53/qa/bazi-food-appendices/REFERENCE_RESULTS.json",
+      "array": "mechanisms",
+      "index": 2
+    },
+    {
+      "stem": "丁",
+      "actualPartner": "壬",
+      "file": "v53/qa/bazi-food-appendices/REFERENCE_RESULTS.json",
+      "array": "mechanisms",
+      "index": 3
+    },
+    {
+      "stem": "壬",
+      "actualPartner": "丁",
+      "file": "v53/qa/bazi-food-appendices/REFERENCE_RESULTS.json",
+      "array": "mechanisms",
+      "index": 4
+    },
+    {
+      "stem": "戊",
+      "actualPartner": "癸",
+      "file": "v53/qa/bazi-food-appendices/REFERENCE_RESULTS.json",
+      "array": "mechanisms",
+      "index": 5
+    },
+    {
+      "stem": "癸",
+      "actualPartner": "戊",
+      "file": "v53/qa/bazi-food-appendices/REFERENCE_RESULTS.json",
+      "array": "mechanisms",
+      "index": 6
+    }
+  ],
+  "identities": [
+    {
+      "file": "v53/research/bazi-true-ghost-context/ACTUAL_RUNTIME.json",
+      "bytes": 1940,
+      "sha256": "685c66ddda02cc3471aa3a7c7277141ec4ddde19dc2381c61870a4229a315456"
+    },
+    {
+      "file": "v53/qa/bazi-food-appendices/REFERENCE_RESULTS.json",
+      "bytes": 12967,
+      "sha256": "824b75c19144483f214e4ad8f8a3310b7130bcaeb0de4bb670d612a1d87995c0"
+    }
+  ],
+  "newPartnerQueries": 0,
+  "sourceTransformedElementValidatedByPartnerTable": false,
+  "pairIdentityDoesNotEstablishEffectiveNatalCombination": true
+}

@@ -1,0 +1,14 @@
+{
+ "schema":"hhc.full-study.yi-review-notes.v1",
+ "date":"2026-10-26",
+ "reviewer":"Codex visual reading; one reader, no independent human review",
+ "method":"Read full-size extracted JPEG page images; right-to-left columns, top-to-bottom in column; transcribe only large-type original yao statement. Compare Han after NFC and removal of punctuation/spacing; do not collapse variant characters.",
+ "corrections":[{"position":"52.3","previousDraft":"艮其限列其夤厲薰心","finalReading":"艮其限列其夤厲熏心","reason":"Second visual inspection of original page and enlarged crop confirms 熏 without the 艹 component; draft misreading corrected before final audit.","book":2,"pdfPage":46,"crop":"evidence/review-52-3.png"}],
+ "targetedSecondLook":[
+  {"position":"44.1","book":2,"pdfPage":30,"confirmed":"繫于金柅","note":"Full-page second look confirms the traditional 繫 form; no global replacement of 系."},
+  {"position":"45.6","book":2,"pdfPage":33,"confirmed":"齎咨涕洟无咎","note":"Consultation character is 咨 in the large-type statement; compare electronic 資."},
+  {"position":"59.1","book":2,"pdfPage":61,"confirmed":"用拯馬壯吉","note":"Large-type statement ends after 吉. 悔亡 occurs in next yao, not appended to initial yao."},
+  {"position":"26.3","book":1,"pdfPage":88,"confirmed":"良馬逐利艱貞曰閑輿衞利有攸往","note":"Printed 曰 followed by gloss 曰讀為日; keep printed 曰 in diplomatic transcript, and do not insert the electronic extra 吉."}
+ ],
+ "limitations":["All 384 statements have been visually read and transcribed once, with targeted second looks. This is not two-reader adjudication.","Original printed allographs are represented by available Unicode characters; typography and punctuation are not facsimile-encoded.","The two PDFs are two volumes of one edition, not two independent historical witnesses.","Public corpus and interpretations were not changed by this research.","Reading all yao statements does not equal extracting all commentary, all 十翼, or all knowledge in the work."]
+}

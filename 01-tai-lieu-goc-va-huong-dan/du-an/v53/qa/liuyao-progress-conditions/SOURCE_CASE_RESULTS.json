@@ -1,0 +1,292 @@
+{
+  "date": "2026-10-27",
+  "printed": [
+    {
+      "id": "b02-progress-exam",
+      "pdfPage": 117,
+      "primary": 32,
+      "changed": 28,
+      "movingLines": [
+        5
+      ],
+      "historicalOutcomeValidated": false
+    },
+    {
+      "id": "b02-single-motion-rain",
+      "pdfPage": 131,
+      "primary": 13,
+      "changed": 49,
+      "movingLines": [
+        6
+      ],
+      "historicalOutcomeValidated": false
+    }
+  ],
+  "luCases": [
+    {
+      "noonEnumerationDate": [
+        2026,
+        1,
+        1
+      ],
+      "day": "乙亥",
+      "actualLunarDayLu": "卯命互禄 壬命进禄",
+      "sourceSalary": {
+        "status": "explicit-printed-stem",
+        "branch": "卯"
+      },
+      "historicalDateReconstructed": false
+    },
+    {
+      "noonEnumerationDate": [
+        2026,
+        1,
+        2
+      ],
+      "day": "丙子",
+      "actualLunarDayLu": "巳命互禄 癸命进禄",
+      "sourceSalary": {
+        "status": "explicit-printed-stem",
+        "branch": "巳"
+      },
+      "historicalDateReconstructed": false
+    },
+    {
+      "noonEnumerationDate": [
+        2026,
+        1,
+        3
+      ],
+      "day": "丁丑",
+      "actualLunarDayLu": "午命互禄",
+      "sourceSalary": {
+        "status": "not-explicit-in-retained-six-stem-lines",
+        "branch": null
+      },
+      "historicalDateReconstructed": false
+    },
+    {
+      "noonEnumerationDate": [
+        2026,
+        1,
+        4
+      ],
+      "day": "戊寅",
+      "actualLunarDayLu": "巳命互禄 甲命进禄",
+      "sourceSalary": {
+        "status": "not-explicit-in-retained-six-stem-lines",
+        "branch": null
+      },
+      "historicalDateReconstructed": false
+    },
+    {
+      "noonEnumerationDate": [
+        2026,
+        1,
+        5
+      ],
+      "day": "己卯",
+      "actualLunarDayLu": "午命互禄 乙命进禄",
+      "sourceSalary": {
+        "status": "explicit-printed-stem",
+        "branch": "午"
+      },
+      "historicalDateReconstructed": false
+    },
+    {
+      "noonEnumerationDate": [
+        2026,
+        1,
+        6
+      ],
+      "day": "庚辰",
+      "actualLunarDayLu": "申命互禄",
+      "sourceSalary": {
+        "status": "explicit-printed-stem",
+        "branch": "申"
+      },
+      "historicalDateReconstructed": false
+    },
+    {
+      "noonEnumerationDate": [
+        2026,
+        1,
+        7
+      ],
+      "day": "辛巳",
+      "actualLunarDayLu": "酉命互禄 丙,戊命进禄",
+      "sourceSalary": {
+        "status": "explicit-printed-stem",
+        "branch": "酉"
+      },
+      "historicalDateReconstructed": false
+    },
+    {
+      "noonEnumerationDate": [
+        2026,
+        1,
+        8
+      ],
+      "day": "壬午",
+      "actualLunarDayLu": "亥命互禄 丁,己命进禄",
+      "sourceSalary": {
+        "status": "not-explicit-in-retained-six-stem-lines",
+        "branch": null
+      },
+      "historicalDateReconstructed": false
+    },
+    {
+      "noonEnumerationDate": [
+        2026,
+        1,
+        9
+      ],
+      "day": "癸未",
+      "actualLunarDayLu": "子命互禄",
+      "sourceSalary": {
+        "status": "not-explicit-in-retained-six-stem-lines",
+        "branch": null
+      },
+      "historicalDateReconstructed": false
+    },
+    {
+      "noonEnumerationDate": [
+        2026,
+        1,
+        10
+      ],
+      "day": "甲申",
+      "actualLunarDayLu": "寅命互禄 庚命进禄",
+      "sourceSalary": {
+        "status": "explicit-printed-stem",
+        "branch": "寅"
+      },
+      "historicalDateReconstructed": false
+    }
+  ],
+  "representativeLayerConflict": {
+    "schema": "hhc.B02-ch029.clause-matches.v2",
+    "selectedLine": 5,
+    "primaryBranch": "申",
+    "changedBranch": "酉",
+    "structuralPair": "申酉",
+    "structuralKind": "advance",
+    "clauses": [
+      {
+        "id": "advance1",
+        "result": null,
+        "sourcePDFPage": 123,
+        "sourceLayer": "printed-list-introduced-by-野鶴曰",
+        "sourceQualitativeTiming": "乘勢而進"
+      },
+      {
+        "id": "advance2",
+        "result": null,
+        "sourcePDFPage": 123,
+        "sourceLayer": "printed-list-introduced-by-野鶴曰",
+        "sourceQualitativeTiming": "待時而進"
+      },
+      {
+        "id": "advance3",
+        "result": null,
+        "sourcePDFPage": 123,
+        "sourceLayer": "printed-list-introduced-by-野鶴曰",
+        "sourceQualitativeTiming": "待旺相之日而進"
+      },
+      {
+        "id": "advance4",
+        "result": true,
+        "sourcePDFPage": 123,
+        "sourceLayer": "printed-list-introduced-by-野鶴曰",
+        "sourceQualitativeTiming": "待填實之日而進"
+      }
+    ],
+    "matchedClauseIDs": [
+      "advance4"
+    ],
+    "unknownClauseIDs": [
+      "advance1",
+      "advance2",
+      "advance3"
+    ],
+    "assertedPremises": {
+      "originalStrength": null,
+      "changedStrength": null,
+      "originalVoid": null,
+      "changedVoid": true,
+      "originalBroken": null,
+      "changedBroken": null,
+      "nearTerm": null,
+      "hasDayMonthOrMovingSupport": null,
+      "originalAtDayOrMonth": true
+    },
+    "exclusiveClassification": false,
+    "youYiReadInclusivelyForResearch": true,
+    "laterCommentaryCautions": [
+      {
+        "id": "do-not-veto-from-transformed-void-break-alone",
+        "sourcePDFPages": [
+          123,
+          124
+        ],
+        "sourceLayer": "later-commentary-introduced-by-李我平日",
+        "result": true,
+        "boundedMeaning": "A day/month-aligned original moving line must not be denied progression solely because its own change is void/broken.",
+        "effect": "retain-original-strength-and-later-context;no-automatic-override"
+      }
+    ],
+    "laterCommentaryCautionMatched": true,
+    "concurrentListAndLaterCaution": true,
+    "laterEditorialCritiqueApplied": "bounded-caution-matches-only",
+    "sourcePriorityInvented": false,
+    "fullChapterReconciliationComplete": false,
+    "effectiveProgression": null,
+    "predictedDate": null,
+    "predictedEvent": null,
+    "consumerApplied": false
+  },
+  "gengSourceConflict": {
+    "sourceID": "B02-ch033",
+    "sourcePDFPages": [
+      136,
+      137
+    ],
+    "dayStem": "庚",
+    "dayBranch": null,
+    "season": null,
+    "nobleman": {
+      "status": "within-page-conflict",
+      "branches": null,
+      "alternatives": [
+        {
+          "layer": "verse",
+          "branches": [
+            "午",
+            "寅"
+          ]
+        },
+        {
+          "layer": "worked-example",
+          "branches": [
+            "丑",
+            "未"
+          ]
+        }
+      ],
+      "effectiveChoice": null
+    },
+    "salary": {
+      "status": "explicit-printed-stem",
+      "branch": "申"
+    },
+    "horse": null,
+    "joy": null,
+    "calendarAdapter": false,
+    "missingSalaryStemsNotFilled": true,
+    "effectiveStrength": null,
+    "positiveScore": null,
+    "predictedEvent": null,
+    "consumerApplied": false
+  },
+  "historicalOutcomesValidated": false
+}

@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-27",
+  "status": "private-lost-object-roles-complete-book5-first-pass-pages-complete-full-clauses-active",
+  "sourceID": "B03-book5",
+  "latestReport": "v53/LIUYAO_B03_BOOK5_REPORT.md",
+  "privateReference": "lost-object-reference.mjs",
+  "unitMap": "BOOK5_CURRENT_UNITS.json",
+  "completedStep": "Sách đóng 5 B03 đã giữ 35113503 byte/42 trang/SHA cca4c2ce…; API revision 754088953, hai body 200/TLS khớp size/SHA1, một PDF mới. Đã xem 40 trang nội dung và hai bìa, hai crop QA; quyển 11 mở2/kết22, quyển12 mở23/kết41, 12 khoảng mục đọc lần đầu, chưa áp dụng hết từng mục. 13 mệnh đề có giới hạn và tham chiếu riêng mất đồ: chín loại tường minh/ba nhóm Tài–Phụ–Tử, không mặc định mọi vật đều lấy Tài; giữ cờ Tài động/Phụ động đúng nhóm nguồn, chưa xét hiệu lực hoặc kết cục. 9 kiểm đạt; 64 HHC thật kiểm chỉ số quẻ, 576 ngữ cảnh vật tĩnh và 12288 ngữ cảnh riêng/quẻ–động–nhóm vật, 36864 chú động, 4128 ngữ cảnh/4992 cờ kỵ động theo cấu trúc. Chữ đầu/đuôi thuyền tại34 giữ mở, không tự sửa. Lời bệnh/ma/trộm giữ lịch sử, không kết luận người dùng. HTML707411 byte/site/ZIP web và12 tham chiếu trước giữ nguyên. Toàn kho vẫn chưa hoàn tất.",
+  "all42PagesViewedByRecordedScope": true,
+  "unviewedPages": [],
+  "firstPassMainUnits": 12,
+  "allBook5ClausesApplied": false,
+  "newHTTPBodiesThisRun": 2,
+  "retainedHTTPBodiesNewToRelease": 2,
+  "newOriginalPDFsToRelease": 1,
+  "contentPages": 40,
+  "coverPages": 2,
+  "QAOnlyRenders": 2,
+  "boundedOperationalClauses": 13,
+  "explicitObjectKinds": 9,
+  "sourceKinGroups": 3,
+  "openTextIssues": 1,
+  "effectiveUseGodAdjudicator": false,
+  "consumerChanged": false,
+  "next": [
+    "Complete clause-level conditions in book5 all12units, especially lost-object premises/timing, object-purpose exceptions and source quotation roles. Nine explicit normalized IDs cover only three source groups; no open-ended semantic classifier or recovery forecast.",
+    "Resolve boat wording with context and an independent witness: page34 初當船尾 versus 青龍初是船頭, plus book5page31cabin grouping. Do not silently emend or generalize into a physical boat plan.",
+    "Acquire identified physicalbook6 once using book5API next link, retaining TLS/APIrevision/rawsize/SHA, then directly locate textualvolumes13/14 and remaining printed material. Avoid redownloading books1..5.",
+    "All clauses of books1..5,book1full384annotations/prefaces,fullstrength/functionalvoid/fulltiming/automaticUseGod and supplement genealogy remain. B02PDF52and103heading-onlyunits, MaiHoa/Bazi/Tuvi/Home and40-source catalogue remain active."
+  ],
+  "wholeBookApplied": false,
+  "wholeCatalogueCompleted": false
+}

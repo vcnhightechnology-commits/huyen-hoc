@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-28",
+  "records": [
+    {
+      "id": "carry-pair",
+      "sourcePDFPage": 94,
+      "selectedReading": "自乾方移至巽則先得一陽爻後得一陰爻自坤方移至艮則先得一陰爻後得一陽爻",
+      "disposition": "Two printed examples and named symbolic polarity family only; final line positions after gate insertion not established."
+    },
+    {
+      "id": "first-room",
+      "sourcePDFPage": 94,
+      "selectedReading": "既移入宅所修第一口房則為三爻",
+      "disposition": "Retained source ordinal, not an implemented less-than-five-room phase."
+    },
+    {
+      "id": "fixed-gate",
+      "sourcePDFPage": 94,
+      "selectedReading": "氣口首門為初爻永不變更",
+      "disposition": "Gate is distinct initial line; its bit is supplied explicitly, not inferred or auto complemented."
+    },
+    {
+      "id": "room-sides",
+      "sourcePDFPage": 94,
+      "selectedReading": "凡修蓋東房北房一口則畫一陽爻修蓋西房南房一口則畫一陰爻",
+      "disposition": "Declared cardinal source-room sides only; no modern measured diagonal plan/floor/area conversion."
+    },
+    {
+      "id": "five-units",
+      "sourcePDFPage": 95,
+      "selectedReading": "任修蓋房十座二十座只以五座次序為上五爻門為初爻其餘五座以前俱除起不筭",
+      "disposition": "Explicit editorial model retains last five declared distinct source units in established sequence above gate; not proof of whole exchange method."
+    },
+    {
+      "id": "old-new-unit",
+      "sourcePDFPage": 95,
+      "selectedReading": "或修舊或創新俱筭一座",
+      "disposition": "Each declared distinct source unit can be old-repair or new. No automatic claim that repeated work on one physical room creates multiple source units."
+    },
+    {
+      "id": "poem-flip",
+      "sourcePDFPage": 95,
+      "selectedReading": "先房返卦初爻定初陽返陰陰返陽次選門路四爻法",
+      "disposition": "Poem return/complement phase and relation to prior fixed-gate prose unresolved; no gate-bit flip automatically applied."
+    }
+  ],
+  "selectedReadingsAreEditorialNotWholeGlyphDiplomaticCollation": true,
+  "rawBytesAndGlyphVariantsNotOverwritten": true,
+  "sourcePhysicalPlanInferenceValidated": false,
+  "wholeExchangeMethodApplied": false
+}

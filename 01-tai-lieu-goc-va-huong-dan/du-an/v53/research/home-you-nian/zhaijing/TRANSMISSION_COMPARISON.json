@@ -1,0 +1,236 @@
+{
+  "date": "2026-10-27",
+  "scope": "Ten new boundedpairedcontexts(9differences/1sharedinventoryissue);notwholebookcollation.",
+  "comparisonNormalization": "Removewhitespace/paragraphmarks/inlinecommentlinewrapslash;do notmapChinesevariantcharacters. Boundedreadingsarenotdiplomaticwholepagetranscriptions.",
+  "WYGRevision": "306f7650b38ab309e648b7a64ecd3b3d8cd5884a",
+  "HFLRevision": "c4a5508d8d672dd4e62713f577f90ed64a17c3c5",
+  "HFLArtifacts": [
+    {
+      "file": "v53/research/library-audit/new-sources/KR5a0294-KR5a0294_000.txt",
+      "bytes": 252,
+      "sha256": "b28d77f538821a536bcf261344d54e7d7ad94e89c7f148b9819edb02286655d7",
+      "pageMarkers": [],
+      "digitalTextActuallyRead": true,
+      "facsimileCollated": false
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/KR5a0294-KR5a0294_001.txt",
+      "bytes": 10201,
+      "sha256": "36999623ec17df47c746d09aef90671b0a8de44d112151bab7e75000306ca242",
+      "pageMarkers": [
+        "001-001a",
+        "001-001b",
+        "001-002a",
+        "001-002b",
+        "001-003a",
+        "001-003b",
+        "001-004a",
+        "001-004b",
+        "001-005a",
+        "001-005b",
+        "001-006a",
+        "001-006b",
+        "001-007a",
+        "001-007b",
+        "001-008a",
+        "001-008b",
+        "001-009a",
+        "001-009b"
+      ],
+      "digitalTextActuallyRead": true,
+      "facsimileCollated": false
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/KR5a0294-KR5a0294_002.txt",
+      "bytes": 8422,
+      "sha256": "ccadc3644ea912f85645bf6a1b3e59bcb45590601fee2e13e5d5fd224b8ac03e",
+      "pageMarkers": [
+        "002-001a",
+        "002-001b",
+        "002-002a",
+        "002-002b",
+        "002-003a",
+        "002-003b",
+        "002-004a",
+        "002-004b",
+        "002-005a",
+        "002-005b",
+        "002-006a",
+        "002-006b",
+        "002-007a",
+        "002-007b",
+        "002-008a",
+        "002-008b"
+      ],
+      "digitalTextActuallyRead": true,
+      "facsimileCollated": false
+    }
+  ],
+  "comparisons": [
+    {
+      "id": "route-inventory",
+      "WYG": {
+        "file": "KR3g0019-KR3g0019_001.txt",
+        "folio": "001-2b",
+        "boundedReading": "十干十二支乾艮坤巽共為二十四路"
+      },
+      "HFL": {
+        "file": "KR5a0294-KR5a0294_001.txt",
+        "folio": "001-002b",
+        "boundedReading": "十干十二支乾艮坤巽共爲二十四路"
+      },
+      "note": "Shared10+12+4versus24;noemendation.",
+      "facsimileResolved": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "occupancy",
+      "WYG": {
+        "file": "KR3g0019-KR3g0019_001.txt",
+        "folio": "001-5a",
+        "boundedReading": "計口半造必得夀考"
+      },
+      "HFL": {
+        "file": "KR5a0294-KR5a0294_001.txt",
+        "folio": "001-005a",
+        "boundedReading": "計只半造必得壽考"
+      },
+      "note": "口/只;donotbuildoccupantformula.",
+      "facsimileResolved": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "solstice",
+      "WYG": {
+        "file": "KR3g0019-KR3g0019_001.txt",
+        "folio": "001-6b",
+        "boundedReading": "冬至巳夏至亥"
+      },
+      "HFL": {
+        "file": "KR5a0294-KR5a0294_001.txt",
+        "folio": "001-006b",
+        "boundedReading": "冬至巳聖至亥"
+      },
+      "note": "夏/聖;needimagebeforecalendaradapter.",
+      "facsimileResolved": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "first-heaven-gate",
+      "WYG": {
+        "file": "KR3g0019-KR3g0019_002.txt",
+        "folio": "002-2a",
+        "boundedReading": "天門陽首宜平穏實"
+      },
+      "HFL": {
+        "file": "KR5a0294-KR5a0294_002.txt",
+        "folio": "002-001b",
+        "boundedReading": "天門首陽宜平穩實"
+      },
+      "note": "Order/graph;diagramunresolved.",
+      "facsimileResolved": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "first-chou",
+      "WYG": {
+        "file": "KR3g0019-KR3g0019_002.txt",
+        "folio": "002-2a",
+        "boundedReading": "丑為官獄少子婦命座"
+      },
+      "HFL": {
+        "file": "KR5a0294-KR5a0294_002.txt",
+        "folio": "002-002a",
+        "boundedReading": "丑爲縣獄少子婦命座"
+      },
+      "note": "官/縣.",
+      "facsimileResolved": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "first-jia",
+      "WYG": {
+        "file": "KR3g0019-KR3g0019_002.txt",
+        "folio": "002-2b",
+        "boundedReading": "甲為宅刑次女孫男"
+      },
+      "HFL": {
+        "file": "KR5a0294-KR5a0294_002.txt",
+        "folio": "002-002a",
+        "boundedReading": "甲爲宅形次女孫男"
+      },
+      "note": "刑/形.",
+      "facsimileResolved": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "day-prohibition",
+      "WYG": {
+        "file": "KR3g0019-KR3g0019_002.txt",
+        "folio": "002-2b",
+        "boundedReading": "東方不用甲子己巳日"
+      },
+      "HFL": {
+        "file": "KR5a0294-KR5a0294_002.txt",
+        "folio": "002-002a",
+        "boundedReading": "東卯日用甲子己巳日"
+      },
+      "note": "Prohibitiondifference;no repairdateadvice.",
+      "facsimileResolved": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "first-wumen",
+      "WYG": {
+        "file": "KR3g0019-KR3g0019_002.txt",
+        "folio": "002-3a",
+        "boundedReading": "亦陽極陰首"
+      },
+      "HFL": {
+        "file": "KR5a0294-KR5a0294_002.txt",
+        "folio": "002-002b",
+        "boundedReading": "亦名陽極陰"
+      },
+      "note": "Boundarytextdiffers;no diagramrestored.",
+      "facsimileResolved": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "second-gate-store",
+      "WYG": {
+        "file": "KR3g0019-KR3g0019_002.txt",
+        "folio": "002-6a",
+        "boundedReading": "艮鬼門龍腹福嚢"
+      },
+      "HFL": {
+        "file": "KR5a0294-KR5a0294_002.txt",
+        "folio": "002-005b",
+        "boundedReading": "艮鬼門龍腹德囊"
+      },
+      "note": "福/德.",
+      "facsimileResolved": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "last-month-death",
+      "WYG": {
+        "file": "KR3g0019-KR3g0019_001.txt",
+        "folio": "001-9a",
+        "boundedReading": "生氣在亥壬死氣在巳丙"
+      },
+      "HFL": {
+        "file": "KR5a0294-KR5a0294_001.txt",
+        "folio": "001-009a",
+        "boundedReading": "生氣在亥壬死氣在已丙"
+      },
+      "note": "巳/已 atbranchslot;notfacsimile-corrected.",
+      "facsimileResolved": false,
+      "consumerApplied": false
+    }
+  ],
+  "priorThreeComparisonsUnmodified": true,
+  "HFLvsSOURCE1988MetadataIssueUnresolved": true,
+  "independentTextualGenealogyEstablished": false,
+  "wholeBookApplied": false,
+  "allSourceClausesCompared": false
+}

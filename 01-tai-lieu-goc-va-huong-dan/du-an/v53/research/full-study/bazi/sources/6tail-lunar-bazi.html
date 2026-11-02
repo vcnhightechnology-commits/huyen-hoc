@@ -1,0 +1,932 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>lunar</title>
+<meta name="keywords" content="lunar,阳历,阴历,公历,农历" />
+<meta name="description" content="lunar是一个无依赖的支持阳历和阴历的日历工具库。" />
+<meta name="author" content="6tail" />
+<link rel="stylesheet" href="common.css">
+<link rel="stylesheet" href="highlight.min.css">
+<link rel="stylesheet" href="markdown.css">
+<link rel="stylesheet" href="page.css">
+</head>
+<body>
+<div class="article">
+<textarea class="md">
+## 八字
+
+所谓八字，就是年、月、日、时辰的干支，得到的结果为8个字。
+
+    注意：八字的年干支，必须以立春节气交接的时刻来准确划分；月干支也必须以当月节交接的时刻来准确划分。
+
+时辰天干，以日的天干和时辰的地支按下表规则进行计算而得，但是需要注意的是子时跨天。有人说23:00-23:59为晚子时日柱应算作明天，而00:00-00:59为早子时，算作当天，也有人说日柱都按当天算，只是晚子时时柱按明天算。
+
+<table>
+  <tbody>
+    <tr>
+      <td></td>
+      <td colspan="5">日干</td>
+    </tr>
+    <tr>
+      <td>时支</td>
+      <td>甲/己</td>
+      <td>乙/庚</td>
+      <td>丙/辛</td>
+      <td>丁/壬</td>
+      <td>戊/癸</td>
+    </tr>
+    <tr>
+      <td>子</td>
+      <td>甲子</td>
+      <td>丙子</td>
+      <td>戊子</td>
+      <td>庚子</td>
+      <td>壬子</td>
+    </tr>
+    <tr>
+      <td>丑</td>
+      <td>乙丑</td>
+      <td>丁丑</td>
+      <td>己丑</td>
+      <td>辛丑</td>
+      <td>癸丑</td>
+    </tr>
+    <tr>
+      <td>寅</td>
+      <td>丙寅</td>
+      <td>戊寅</td>
+      <td>庚寅</td>
+      <td>壬寅</td>
+      <td>甲寅</td>
+    </tr>
+    <tr>
+      <td>卯</td>
+      <td>丁卯</td>
+      <td>己卯</td>
+      <td>辛卯</td>
+      <td>癸卯</td>
+      <td>乙卯</td>
+    </tr>
+    <tr>
+      <td>辰</td>
+      <td>戊辰</td>
+      <td>庚辰</td>
+      <td>壬辰</td>
+      <td>甲辰</td>
+      <td>丙辰</td>
+    </tr>
+    <tr>
+      <td>巳</td>
+      <td>己巳</td>
+      <td>辛巳</td>
+      <td>癸巳</td>
+      <td>乙巳</td>
+      <td>丁巳</td>
+    </tr>
+    <tr>
+      <td>午</td>
+      <td>庚午</td>
+      <td>壬午</td>
+      <td>甲午</td>
+      <td>丙午</td>
+      <td>戊午</td>
+    </tr>
+    <tr>
+      <td>未</td>
+      <td>辛未</td>
+      <td>癸未</td>
+      <td>乙未</td>
+      <td>丁未</td>
+      <td>己未</td>
+    </tr>
+    <tr>
+      <td>申</td>
+      <td>壬申</td>
+      <td>甲申</td>
+      <td>丙申</td>
+      <td>戊申</td>
+      <td>庚申</td>
+    </tr>
+    <tr>
+      <td>酉</td>
+      <td>癸酉</td>
+      <td>乙酉</td>
+      <td>丁酉</td>
+      <td>己酉</td>
+      <td>辛酉</td>
+    </tr>
+    <tr>
+      <td>戌</td>
+      <td>甲戌</td>
+      <td>丙戌</td>
+      <td>戊戌</td>
+      <td>庚戌</td>
+      <td>壬戌</td>
+    </tr>
+    <tr>
+      <td>亥</td>
+      <td>乙亥</td>
+      <td>丁亥</td>
+      <td>己亥</td>
+      <td>辛亥</td>
+      <td>癸亥</td>
+    </tr>
+  </tbody>
+</table>
+
+四柱：“年柱”、“月柱”、“日柱”、“时柱”，由“年干，年支”、“月干，月支”、“日干，日支”、“时干，时支”，共八个干支所组成，每一个组合称为“柱”，故八字又称为“四柱”或“四柱八字”。
+
+五行，包括木火土金水。
+
+由于天干和地支对应五行，所以我们可以根据八字得出五行，也就知道了缺什么，给小孩取名时，往往根据五行缺什么来补充。
+
+<table>
+ <tbody>
+  <tr>
+   <td>
+    五行
+   </td>
+   <td>
+    天干
+   </td>
+   <td>
+    地支
+   </td>
+  </tr>
+  <tr>
+   <td>
+    木
+   </td>
+   <td>
+    甲、乙
+   </td>
+   <td>
+    寅、卯
+   </td>
+  </tr>
+  <tr>
+   <td>
+    火
+   </td>
+   <td>
+    丙、丁
+   </td>
+   <td>
+    巳、午
+   </td>
+  </tr>
+  <tr>
+   <td>
+    土
+   </td>
+   <td>
+    戊、己
+   </td>
+   <td>
+    辰、丑、戌、未
+   </td>
+  </tr>
+  <tr>
+   <td>
+    金
+   </td>
+   <td>
+    庚、辛
+   </td>
+   <td>
+    申、酉
+   </td>
+  </tr>
+  <tr>
+   <td>
+    水
+   </td>
+   <td>
+    壬、癸
+   </td>
+   <td>
+    亥、子
+   </td>
+  </tr>
+ </tbody>
+</table>
+
+一个男性的生辰八字也称为“乾造”，意思是男命。《周易》中乾为男。“造”：造化。整体即：（一个）男人的造化。
+
+同理女性的生辰八字也称为“坤造”。
+
+### 地势
+
+八字中地势，也称长生十二神，包括：
+
+    长生、沐浴、冠带、临官、帝旺、衰、病、死、墓、绝、胎、养
+
+长生十二神的排法参考下表：
+
+  <table>
+    <tbody>
+      <tr>
+        <td></td>
+        <td colspan="4">五阳干</td>
+        <td colspan="4">五阴干</td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>甲</td>
+        <td>丙戊</td>
+        <td>庚</td>
+        <td>壬</td>
+        <td>乙</td>
+        <td>丁己</td>
+        <td>辛</td>
+        <td>癸</td>
+      </tr>
+      <tr>
+        <td>长生</td>
+        <td>亥</td>
+        <td>寅</td>
+        <td>巳</td>
+        <td>申</td>
+        <td>午</td>
+        <td>酉</td>
+        <td>子</td>
+        <td>卯</td>
+      </tr>
+      <tr>
+        <td>沐浴</td>
+        <td>子</td>
+        <td>卯</td>
+        <td>午</td>
+        <td>酉</td>
+        <td>巳</td>
+        <td>申</td>
+        <td>亥</td>
+        <td>寅</td>
+      </tr>
+      <tr>
+        <td>冠带</td>
+        <td>丑</td>
+        <td>辰</td>
+        <td>未</td>
+        <td>戌</td>
+        <td>辰</td>
+        <td>未</td>
+        <td>戌</td>
+        <td>丑</td>
+      </tr>
+      <tr>
+        <td>临官</td>
+        <td>寅</td>
+        <td>巳</td>
+        <td>申</td>
+        <td>亥</td>
+        <td>卯</td>
+        <td>午</td>
+        <td>酉</td>
+        <td>子</td>
+      </tr>
+      <tr>
+        <td>帝旺</td>
+        <td>卯</td>
+        <td>午</td>
+        <td>酉</td>
+        <td>子</td>
+        <td>寅</td>
+        <td>巳</td>
+        <td>申</td>
+        <td>亥</td>
+      </tr>
+      <tr>
+        <td>衰</td>
+        <td>辰</td>
+        <td>未</td>
+        <td>戌</td>
+        <td>丑</td>
+        <td>丑</td>
+        <td>辰</td>
+        <td>未</td>
+        <td>戌</td>
+      </tr>
+      <tr>
+        <td>病</td>
+        <td>巳</td>
+        <td>申</td>
+        <td>亥</td>
+        <td>寅</td>
+        <td>子</td>
+        <td>卯</td>
+        <td>午</td>
+        <td>酉</td>
+      </tr>
+      <tr>
+        <td>死</td>
+        <td>午</td>
+        <td>酉</td>
+        <td>子</td>
+        <td>卯</td>
+        <td>亥</td>
+        <td>寅</td>
+        <td>巳</td>
+        <td>申</td>
+      </tr>
+      <tr>
+        <td>墓</td>
+        <td>未</td>
+        <td>戌</td>
+        <td>丑</td>
+        <td>辰</td>
+        <td>戌</td>
+        <td>丑</td>
+        <td>辰</td>
+        <td>未</td>
+      </tr>
+      <tr>
+        <td>绝</td>
+        <td>申</td>
+        <td>亥</td>
+        <td>寅</td>
+        <td>巳</td>
+        <td>酉</td>
+        <td>子</td>
+        <td>卯</td>
+        <td>午</td>
+      </tr>
+      <tr>
+        <td>胎</td>
+        <td>酉</td>
+        <td>子</td>
+        <td>卯</td>
+        <td>午</td>
+        <td>申</td>
+        <td>亥</td>
+        <td>寅</td>
+        <td>巳</td>
+      </tr>
+      <tr>
+        <td>养</td>
+        <td>戌</td>
+        <td>丑</td>
+        <td>辰</td>
+        <td>未</td>
+        <td>未</td>
+        <td>戌</td>
+        <td>丑</td>
+        <td>辰</td>
+      </tr>
+    </tbody>
+  </table>
+
+固定用日干与四柱地支进行查表可得到长生十二神；也可以根据长生对应的地支对沐浴、冠带等进行推算，阳干对应的地支顺推，阴干逆推。
+
+以下调用方法已过时，仅为兼容老版本保留，请使用getEightChar()获取八字对象。
+
+1. .getBaZi()
+> [已过时] 获取八字，返回4个元素的数组，分别对应[年柱, 月柱, 日柱, 时柱]
+
+2. .getBaZiWuXing()
+> [已过时] 获取五行，返回4个元素的数组
+
+3. .getBaZiNaYin()
+> [已过时] 获取八字<a href="lunar.nayin.html">纳音</a>，返回4个元素的数组
+
+4. .getBaZiShiShenGan()
+> [已过时] 获取八字天干<a href="lunar.shishen.html">十神</a>，返回4个元素的数组
+
+5. .getBaZiShiShenZhi()
+> [已过时] 获取八字地支<a href="lunar.shishen.html">十神</a>，返回4个元素的数组（这里仅返回本气）
+
+通过以下方法可获取年、月、日、时的地支十神（地支藏干包含本气、中气、杂气，所以返回列表可能包含1到3个元素）：
+
+1. .getBaZiShiShenYearZhi()
+> [已过时] 获取八字年柱地支<a href="lunar.shishen.html">十神</a>列表
+
+2. .getBaZiShiShenMonthZhi()
+> [已过时] 获取八字月柱地支<a href="lunar.shishen.html">十神</a>列表
+
+3. .getBaZiShiShenDayZhi()
+> [已过时] 获取八字日柱地支<a href="lunar.shishen.html">十神</a>列表
+
+4. .getBaZiShiShenTimeZhi()
+> [已过时] 获取八字时柱地支<a href="lunar.shishen.html">十神</a>列表
+
+### 调用方法
+
+由于八字涉及的信息较多，Lunar已经越来越臃肿，故将八字单独提出，所有八字相关内容请使用EightChar。
+
+1. .getEightChar()
+> 获取八字对象EightChar
+
+### 流派
+
+为了兼容日柱的不同划分方式，这里八字分为2种流派，其中流派1认为晚子时日柱算明天，流派2认为晚子时日柱算当天，两种流派都认为晚子时时柱算明天。当不设置流派时，默认采用流派2。使用EightChar的下属方法可获知或切换流派：
+
+1. .getSect()
+> 获取流派，数字1或2
+
+2. .setSect(sect)
+> 设置流派，<code>sect(数字)</code>为流派，1代表流派1，2代表流派2。调用该方法切换流派后，重新获取与日柱相关的信息将按新的方案计算。
+
+### 年柱
+
+八字中的年柱以立春交接时刻为准，请使用EightChar的下属方法获得八字年柱相关信息：
+
+1. .getYear()
+> 获取年柱，如辛亥
+
+2. .getYearGan()
+> 获取年柱天干，如辛
+
+3. .getYearHideGan()
+> 获取年柱地支藏干，由于藏干分本气、中气、余气，所以返回结果可能为1到3个元素
+
+4. .getYearZhi()
+> 获取年柱地支，如亥
+
+5. .getYearWuXing()
+> 获取年柱五行，如金木
+
+6. .getYearNaYin()
+> 获取年柱<a href="lunar.nayin.html">纳音</a>，如杨柳木
+
+7. .getYearShiShenGan()
+> 获取年柱天干<a href="lunar.shishen.html">十神</a>
+
+8. .getYearShiShenZhi()
+> 获取年柱地支<a href="lunar.shishen.html">十神</a>，由于藏干分本气、中气、余气，所以返回结果可能为1到3个元素
+
+9. .getYearDiShi()
+> 获取年柱地势(长生十二神)
+
+10. .getYearXun()
+> 获取年柱所在<a href="lunar.xun.html">旬</a>
+
+11. .getYearXunKong()
+> 获取年柱<a href="lunar.xun.html">旬空(空亡)</a>
+
+### 月柱
+
+八字中的年柱以节交接时刻为准，请使用EightChar的下属方法获得八字月柱相关信息：
+
+1. .getMonth()
+> 获取月柱，如辛亥
+
+2. .getMonthGan()
+> 获取月柱天干，如辛
+
+3. .getMonthHideGan()
+> 获取月柱地支藏干，由于藏干分本气、中气、余气，所以返回结果可能为1到3个元素
+
+4. .getMonthZhi()
+> 获取月柱地支，如亥
+
+5. .getMonthWuXing()
+> 获取月柱五行，如金木
+
+6. .getMonthNaYin()
+> 获取月柱<a href="lunar.nayin.html">纳音</a>，如杨柳木
+
+7. .getMonthShiShenGan()
+> 获取月柱天干<a href="lunar.shishen.html">十神</a>
+
+8. .getMonthShiShenZhi()
+> 获取月柱地支<a href="lunar.shishen.html">十神</a>，由于藏干分本气、中气、余气，所以返回结果可能为1到3个元素
+
+9. .getMonthDiShi()
+> 获取月柱地势(长生十二神)
+
+10. .getMonthXun()
+> 获取月柱所在<a href="lunar.xun.html">旬</a>
+
+11. .getMonthXunKong()
+> 获取月柱<a href="lunar.xun.html">旬空(空亡)</a>
+
+### 日柱
+
+八字中的日柱区分早晚子时，请注意流派，使用EightChar的下属方法获得八字日柱相关信息：
+
+1. .getDay()
+> 获取日柱，如辛亥
+
+2. .getDayGan()
+> 获取日柱天干，如辛
+
+3. .getDayHideGan()
+> 获取日柱地支藏干，由于藏干分本气、中气、余气，所以返回结果可能为1到3个元素
+
+4. .getDayZhi()
+> 获取日柱地支，如亥
+
+5. .getDayWuXing()
+> 获取日柱五行，如金木
+
+6. .getDayNaYin()
+> 获取日柱<a href="lunar.nayin.html">纳音</a>，如杨柳木
+
+7. .getDayShiShenGan()
+> 获取日柱天干<a href="lunar.shishen.html">十神</a>，日柱天干十神固定为：日主，也称日元、日干
+
+8. .getDayShiShenZhi()
+> 获取日柱地支<a href="lunar.shishen.html">十神</a>，由于藏干分本气、中气、余气，所以返回结果可能为1到3个元素
+
+9. .getDayDiShi()
+> 获取日柱地势(长生十二神)
+
+10. .getDayXun()
+> 获取日柱所在<a href="lunar.xun.html">旬</a>
+
+11. .getDayXunKong()
+> 获取日柱<a href="lunar.xun.html">旬空(空亡)</a>
+
+### 时柱
+
+请使用EightChar的下属方法获得八字时柱相关信息：
+
+1. .getTime()
+> 获取时柱，如辛亥
+
+2. .getTimeGan()
+> 获取时柱天干，如辛
+
+3. .getTimeHideGan()
+> 获取时柱地支藏干，由于藏干分本气、中气、余气，所以返回结果可能为1到3个元素
+
+4. .getTimeZhi()
+> 获取时柱地支，如亥
+
+5. .getTimeWuXing()
+> 获取时柱五行，如金木
+
+6. .getTimeNaYin()
+> 获取时柱<a href="lunar.nayin.html">纳音</a>，如杨柳木
+
+7. .getTimeShiShenGan()
+> 获取时柱天干<a href="lunar.shishen.html">十神</a>
+
+8. .getTimeShiShenZhi()
+> 获取时柱地支<a href="lunar.shishen.html">十神</a>，由于藏干分本气、中气、余气，所以返回结果可能为1到3个元素
+
+9. .getTimeDiShi()
+> 获取时柱地势(长生十二神)
+
+10. .getTimeXun()
+> 获取时柱所在<a href="lunar.xun.html">旬</a>
+
+11. .getTimeXunKong()
+> 获取时柱<a href="lunar.xun.html">旬空(空亡)</a>
+
+### 胎元、命宫、身宫
+
+1. .getTaiYuan()
+> 获取胎元
+
+2. .getMingGong()
+> 获取命宫
+
+3. .getShenGong()
+> 获取身宫
+
+### 起运
+
+起运算法流派很多，各流派之间计算会存在误差，目前支持2个流派：
+
+流派1：阳年(年干为甲、丙、戊、庚、壬为阳)生男、阴年(年干为乙、丁、己、辛、癸为阴)生女从出生时辰开始往后推至下一个节令时辰，阴年(年干为乙、丁、己、辛、癸为阴)生男、阳年(年干为甲、丙、戊、庚、壬为阳)生女从出生时辰开始往前倒推至上一个节令时辰，计算经历的天数和时辰数，按3天为1年，1天为4个月，1个时辰为10天进行换算，得到出生几年几个月几天后起运。
+
+流派2：阳年(年干为甲、丙、戊、庚、壬为阳)生男、阴年(年干为乙、丁、己、辛、癸为阴)生女从出生时辰开始往后推至下一个节令时辰，阴年(年干为乙、丁、己、辛、癸为阴)生男、阳年(年干为甲、丙、戊、庚、壬为阳)生女从出生时辰开始往前倒推至上一个节令时辰，计算经历的分钟数，按4320分钟为1年，360分钟为1个月，12分钟为1天，1分钟为2小时进行换算，得到出生几年几个月几天几小时后起运。
+
+要得到起运数，需要先获取运：
+
+1. .getYun(gender, sect)
+> 获取运。<code>gender(数字)</code>为性别，1为男，0为女。<code>sect(数字)</code>为流派，1为流派1，2为流派2，不传则默认使用流派1。
+
+然后通过运的方法，获取起运相关信息：
+
+1. .getStartYear()
+> 获取起运年数。
+
+2. .getStartMonth()
+> 获取起运月数。
+
+3. .getStartDay()
+> 获取起运天数。
+
+4. .getStartHour()
+> 获取起运小时数。流派1目前不支持小时，返回0。流派2可支持到小时。
+
+5. .getStartSolar()
+> 获取起运的阳历日期。返回<code>Solar</code>对象。
+
+### 大运
+
+以月柱为基准，从起运年开始，每隔10年排1大运，即按阳男阴女顺排、阴男阳女逆排的规则，和60甲子顺序依次排布干支，一般排9轮。
+
+大运也是先获取运，再调用运的方法得到大运表：
+
+1. .getDaYun()
+> 获取大运排布表。返回一个数组，第1个元素为出生年份，第2个元素为起大运年份，后续均间隔10年，共10个元素。
+
+大运表中每个元素，均包含一些细节信息：
+
+1. .getStartYear()
+> 获取大运起始年(包含)。
+
+2. .getEndYear()
+> 获取大运结束年(包含)。
+
+3. .getStartAge()
+> 获取大运起始年龄(即岁数，包含)。
+
+4. .getEndAge()
+> 获取大运结束年龄(即岁数，包含)。
+
+5. .getIndex()
+> 获取第几轮大运(数字，0-9，0为出生年份，1为起大运)。
+
+6. .getGanZhi()
+> 获取干支。
+
+7. .getLiuNian()
+> 获取流年表（数组）。
+
+8. .getXiaoYun()
+> 获取小运表（数组）。
+
+9. .getXun()
+> 获取所在<a href="lunar.xun.html">旬</a>。
+
+10. .getXunKong()
+> 获取<a href="lunar.xun.html">旬空(空亡)</a>。
+
+### 流年
+
+流年实际上就是从出生年开始，按60甲子顺序依次排布每一年的干支，按大运的起始年和结束年分别划分到对应大运区间中。也即每一年的干支排布。
+
+流年表需要从大运信息中获取，流年包含的细节信息如下：
+
+1. .getYear()
+> 获取年份。
+
+2. .getAge()
+> 获取年龄。
+
+3. .getIndex()
+> 获取位于当前大运中的序号(数字，0-9)。
+
+4. .getGanZhi()
+> 获取干支。
+
+5. .getLiuYue()
+> 获取流月表（数组）。
+
+6. .getXun()
+> 获取所在<a href="lunar.xun.html">旬</a>。
+
+7. .getXunKong()
+> 获取<a href="lunar.xun.html">旬空(空亡)</a>。
+
+### 小运
+
+以时柱为基准，按阳男阴女顺排、阴男阳女逆排的规则，和60甲子顺序依次排布干支，按大运的起始年和结束年分别划分到对应大运区间中的每一年。
+
+小运表需要从大运信息中获取，小运包含的细节信息如下：
+
+1. .getYear()
+> 获取年份。
+
+2. .getAge()
+> 获取年龄。
+
+3. .getIndex()
+> 获取位于当前大运中的序号(数字，0-9)。
+
+4. .getGanZhi()
+> 获取干支。
+
+5. .getXun()
+> 获取所在<a href="lunar.xun.html">旬</a>。
+
+6. .getXunKong()
+> 获取<a href="lunar.xun.html">旬空(空亡)</a>。
+
+### 流月
+
+流月指流年中每一月的干支排布。
+
+流月表需要从流年信息中获取，小运包含的细节信息如下：
+
+1. .getMonthInChinese()
+> 获取中文月份。
+
+2. .getIndex()
+> 获取月序号(数字，0-11)。
+
+3. .getGanZhi()
+> 获取干支。
+
+4. .getXun()
+> 获取所在<a href="lunar.xun.html">旬</a>。
+
+5. .getXunKong()
+> 获取<a href="lunar.xun.html">旬空(空亡)</a>。
+
+注：如果需要通过八字反推阳历，请参考<a href="solar.new.html">阳历实例化</a>
+
+### 示例代码
+<div class="codes">
+  <a class="active" href="javascript:void(0);">javascript</a>
+  <a href="javascript:void(0);">java</a>
+  <a href="javascript:void(0);">csharp</a>
+</div>
+<div id="javascript">
+
+    // 今日八字
+    var lunar = Lunar.fromDate(new Date());
+    var d = lunar.getEightChar();
+     
+    console.log(d);
+    console.log(d.getYearWuXing() + ', ' + d.getMonthWuXing() + ', ' + d.getDayWuXing() + ', ' + d.getTimeWuXing());
+    console.log(d.getYearNaYin() + ', ' + d.getMonthNaYin() + ', ' + d.getDayNaYin() + ', ' + d.getTimeNaYin());
+    console.log(d.getYearShiShenGan() + ', ' + d.getMonthShiShenGan() + ', ' + d.getDayShiShenGan() + ', ' + d.getTimeShiShenGan());
+     
+    // 年支十神
+    console.log('年支十神 = ' + d.getYearShiShenZhi());
+     
+    // 月支十神
+    console.log('月支十神 = ' + d.getMonthShiShenZhi());
+     
+    // 日支十神
+    console.log('日支十神 = ' + d.getDayShiShenZhi());
+     
+    // 时支十神
+    console.log('时支十神 = ' + d.getTimeShiShenZhi());
+     
+    // 获取男运
+    var yun = d.getYun(1);
+     
+    // 起运
+    console.log('出生' + yun.getStartYear() + '年' + yun.getStartMonth() + '个月' + yun.getStartDay() + '天后起运');
+     
+    // 获取大运表
+    var daYunArr = yun.getDaYun();
+    for (var i=0, j=daYunArr.length; i&lt;j; i++) {
+      var daYun = daYunArr[i];
+      console.log('大运[' + i + '] = ' + daYun.getStartYear() + '年 ' + daYun.getStartAge() + '岁 ' + daYun.getGanZhi());
+    }
+     
+    // 第1次大运流年
+    var LiuNianArr = daYunArr[1].getLiuNian();
+    for (var i=0, j=LiuNianArr.length; i&lt;j; i++) {
+      var liuNian = LiuNianArr[i];
+      console.log('流年[' + i + '] = ' + liuNian.getYear() + '年 ' + liuNian.getAge() + '岁 ' + liuNian.getGanZhi());
+    }
+
+</div>
+<div id="java" style="display:none">
+
+    //今日八字
+    Lunar lunar = Lunar.fromDate(new Date());
+    EightChar d = lunar.getEightChar();
+     
+    System.out.println(d);
+    System.out.println(d.getYearWuXing() + ", " + d.getMonthWuXing() + ", " + d.getDayWuXing() + ", " + d.getTimeWuXing());
+    System.out.println(d.getYearNaYin() + ", " + d.getMonthNaYin() + ", " + d.getDayNaYin() + ", " + d.getTimeNaYin());
+    System.out.println(d.getYearShiShenGan() + ", " + d.getMonthShiShenGan() + ", " + d.getDayShiShenGan() + ", " + d.getTimeShiShenGan());
+     
+    // 年支十神
+    System.out.println("年支十神 = " + d.getYearShiShenZhi());
+     
+    // 月支十神
+    System.out.println("月支十神 = " + d.getMonthShiShenZhi());
+     
+    // 日支十神
+    System.out.println("日支十神 = " + d.getDayShiShenZhi());
+     
+    // 时支十神
+    System.out.println("时支十神 = " + d.getTimeShiShenZhi());
+     
+    // 获取男运
+    Yun yun = d.getYun(1);
+     
+    // 起运
+    System.out.println("出生" + yun.getStartYear() + "年" + yun.getStartMonth() + "个月" + yun.getStartDay() + "天后起运");
+     
+    // 获取大运表
+    DaYun[] daYunArr = yun.getDaYun();
+    for (int i=0, j=daYunArr.length; i&lt;j; i++) {
+      DaYun daYun = daYunArr[i];
+      System.out.println("大运[" + i + "] = " + daYun.getStartYear() + "年 " + daYun.getStartAge() + "岁 " + daYun.getGanZhi());
+    }
+     
+    // 第1次大运流年
+    LiuNian[] LiuNianArr = daYunArr[1].getLiuNian();
+    for (int i=0, j=LiuNianArr.length; i&lt;j; i++) {
+      LiuNian liuNian = LiuNianArr[i];
+      System.out.println("流年[" + i + "] = " + liuNian.getYear() + "年 " + liuNian.getAge() + "岁 " + liuNian.getGanZhi());
+    }
+
+</div>
+<div id="csharp" style="display:none">
+
+    //今日八字
+    Lunar lunar = Lunar.fromDate(DateTime.Now);
+    EightChar d = lunar.getEightChar();
+     
+    Console.WriteLine(d);
+    Console.WriteLine(d.getYearWuXing() + ", " + d.getMonthWuXing() + ", " + d.getDayWuXing() + ", " + d.getTimeWuXing());
+    Console.WriteLine(d.getYearNaYin() + ", " + d.getMonthNaYin() + ", " + d.getDayNaYin() + ", " + d.getTimeNaYin());
+    Console.WriteLine(d.getYearShiShenGan() + ", " + d.getMonthShiShenGan() + ", " + d.getDayShiShenGan() + ", " + d.getTimeShiShenGan());
+     
+    // 年支十神
+    Console.WriteLine("年支十神 = " + d.getYearShiShenZhi());
+     
+    // 月支十神
+    Console.WriteLine("月支十神 = " + d.getMonthShiShenZhi());
+     
+    // 日支十神
+    Console.WriteLine("日支十神 = " + d.getDayShiShenZhi());
+     
+    // 时支十神
+    Console.WriteLine("时支十神 = " + d.getTimeShiShenZhi());
+
+    // 获取男运
+    Yun yun = d.getYun(1);
+     
+    // 起运
+    Console.WriteLine("出生" + yun.getStartYear() + "年" + yun.getStartMonth() + "个月" + yun.getStartDay() + "天后起运");
+     
+    // 获取大运表
+    DaYun[] daYunArr = yun.getDaYun();
+    for (int i=0, j=daYunArr.Length; i&lt;j; i++) {
+      DaYun daYun = daYunArr[i];
+      Console.WriteLine("大运[" + i + "] = " + daYun.getStartYear() + "年 " + daYun.getStartAge() + "岁 " + daYun.getGanZhi());
+    }
+     
+    // 第1次大运流年
+    LiuNian[] LiuNianArr = daYunArr[1].getLiuNian();
+    for (int i=0, j=LiuNianArr.Length; i&lt;j; i++) {
+      LiuNian liuNian = LiuNianArr[i];
+      Console.WriteLine("流年[" + i + "] = " + liuNian.getYear() + "年 " + liuNian.getAge() + "岁 " + liuNian.getGanZhi());
+    }
+</div>
+
+
+### 输出
+</textarea>
+<div id="output"></div>
+</div>
+<script src="libs/jquery/1.11.3/jquery.min.js"></script>
+<script src="libs/highlight.js/9.7.0/highlight.min.js"></script>
+<script src="libs/marked/0.8.2/marked.min.js"></script>
+<script src="common.js"></script>
+<script src="lunar.js"></script>
+<script>
+mdr('.md');
+</script>
+<script>
+    //今日八字
+    var lunar = Lunar.fromDate(new Date());
+    var d = lunar.getEightChar();
+     
+    output(d);
+    output(d.getYearWuXing() + ', ' + d.getMonthWuXing() + ', ' + d.getDayWuXing() + ', ' + d.getTimeWuXing());
+    output(d.getYearNaYin() + ', ' + d.getMonthNaYin() + ', ' + d.getDayNaYin() + ', ' + d.getTimeNaYin());
+    output(d.getYearShiShenGan() + ', ' + d.getMonthShiShenGan() + ', ' + d.getDayShiShenGan() + ', ' + d.getTimeShiShenGan());
+     
+    output('<br>');
+     
+    // 年支十神
+    output('年支十神 = ' + d.getYearShiShenZhi());
+     
+    // 月支十神
+    output('月支十神 = ' + d.getMonthShiShenZhi());
+     
+    // 日支十神
+    output('日支十神 = ' + d.getDayShiShenZhi());
+     
+    // 时支十神
+    output('时支十神 = ' + d.getTimeShiShenZhi());
+    
+    // 获取男运
+    var yun = d.getYun(1);
+     
+    output('<br>');
+    // 起运
+    output('出生' + yun.getStartYear() + '年' + yun.getStartMonth() + '个月' + yun.getStartDay() + '天后起运');
+     
+    // 获取大运表
+    var daYunArr = yun.getDaYun();
+    for (var i=0, j=daYunArr.length; i<j; i++) {
+      var daYun = daYunArr[i];
+      output('大运[' + i + '] = ' + daYun.getStartYear() + '年 ' + daYun.getStartAge() + '岁 ' + daYun.getGanZhi());
+    }
+     
+    output('<br>');
+    // 第1次大运流年
+    var LiuNianArr = daYunArr[1].getLiuNian();
+    for (var i=0, j=LiuNianArr.length; i<j; i++) {
+      var liuNian = LiuNianArr[i];
+      output('流年[' + i + '] = ' + liuNian.getYear() + '年 ' + liuNian.getAge() + '岁 ' + liuNian.getGanZhi());
+    }
+</script>
+</body>
+</html>

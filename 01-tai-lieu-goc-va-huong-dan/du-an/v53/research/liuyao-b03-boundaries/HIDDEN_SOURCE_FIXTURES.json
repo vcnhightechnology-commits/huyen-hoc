@@ -1,0 +1,96 @@
+{
+  "date": "2026-10-27",
+  "orientation": "bottom-to-top;staticfiguresarenotmovingstories",
+  "cases": [
+    {
+      "id": "qian-complete",
+      "pdfPage": 34,
+      "number": 1,
+      "expectedStageIndex": 0,
+      "desiredKin": null,
+      "meaning": "八純乾六親俱全，不自動另選伏神。"
+    },
+    {
+      "id": "gou-hidden-wealth",
+      "pdfPage": 35,
+      "number": 44,
+      "expectedStageIndex": 1,
+      "desiredKin": "妻財",
+      "line": 2,
+      "branch": "寅",
+      "flyingBranch": "亥",
+      "relation": "flying-generates-hidden"
+    },
+    {
+      "id": "dun-hidden-child",
+      "pdfPage": 35,
+      "number": 33,
+      "expectedStageIndex": 2,
+      "desiredKin": "子孫",
+      "line": 1,
+      "branch": "子",
+      "flyingBranch": "辰",
+      "relation": "flying-controls-hidden"
+    },
+    {
+      "id": "pi-hidden-child",
+      "pdfPages": [
+        35,
+        36
+      ],
+      "number": 12,
+      "expectedStageIndex": 3,
+      "desiredKin": "子孫",
+      "line": 1,
+      "branch": "子",
+      "flyingBranch": "未",
+      "relation": "flying-controls-hidden"
+    },
+    {
+      "id": "guan-hidden-brother",
+      "pdfPage": 36,
+      "number": 20,
+      "expectedStageIndex": 4,
+      "desiredKin": "兄弟",
+      "line": 5,
+      "branch": "申",
+      "flyingBranch": "巳",
+      "relation": "flying-controls-hidden",
+      "sourceQualification": "Textalsosays金長生在巳;branchcontrolaloneisnotfinalusability."
+    },
+    {
+      "id": "bo-hidden-brother",
+      "pdfPage": 36,
+      "number": 23,
+      "expectedStageIndex": 5,
+      "desiredKin": "兄弟",
+      "line": 5,
+      "branch": "申",
+      "flyingBranch": "子",
+      "relation": "hidden-generates-flying"
+    },
+    {
+      "id": "jin-hidden-child",
+      "pdfPage": 37,
+      "number": 35,
+      "expectedStageIndex": 6,
+      "desiredKin": "子孫",
+      "line": 1,
+      "branch": "子",
+      "flyingBranch": "未",
+      "relation": "flying-controls-hidden"
+    },
+    {
+      "id": "dayou-complete",
+      "pdfPage": 37,
+      "number": 14,
+      "expectedStageIndex": 7,
+      "desiredKin": null,
+      "meaning": "歸魂大有財官父兄子俱全，不自動另選伏神。"
+    }
+  ],
+  "B03KanContinuationPage38": "Pure坎29,節60and屯3examplesstart,but64palacefulldiagramsnotread;do notcountwhole卷二.",
+  "unresolved": "B03卦身frameworkandpositionsprintedbesidefiguresarenotimportedintoB02reference;B02PDF100rejectsbodyseparately.",
+  "wholeBookApplied": false,
+  "consumerApplied": false
+}

@@ -1,0 +1,44 @@
+{
+  "schema": "hhc.liuyao-foundations.work-state.v1",
+  "date": "2026-10-27",
+  "status": "foundation-complete-deeper-study-active",
+  "catalogueIDs": [
+    "B02",
+    "B03"
+  ],
+  "sourcePDFs": [
+    {
+      "file": "NLC416-12jh005345-45344.pdf",
+      "bytes": 11089308,
+      "pages": 394,
+      "sha256": "caac111bc5c5b1c08fd27b3828e7cf6b5430503800f2427d8f2b28809022abaa"
+    },
+    {
+      "file": "NLC892-GBZX0301013045-259368.pdf",
+      "bytes": 50191031,
+      "pages": 60,
+      "sha256": "5dcd7b5005b1e86f441a9350eefb7c0e9e628c47ab926b2a7d1bdd6691a4773d"
+    }
+  ],
+  "currentTarget": "Enumerate full source units and extract complete PhiPhuc/hidden-spirit rules and printed cases;then named date/strength/conditional reading premises.",
+  "sourceCriticalExample": "ZengShanPDF44–45:43→44withlines1and6moving;changed丑土/戌土remain兄弟relative to original坤土,not父母from changed乾金.",
+  "sourceLimits": [
+    "BushiWikisource卷01redlink,notfulltext",
+    "CommonsAPI byte identity does not establish independent textual pedigree",
+    "Japaneseinstitutioncatalog ordinaryHTTPS200,onlybibliography so far;do not count as read text",
+    "Both directNLCcatalog TLS attempts failed and remain failed"
+  ],
+  "next": [
+    "Full actual chapter mapping,not headings-as-full-reading",
+    "Hidden spirits and source examples",
+    "Calendar/strength/useful-god conditions and counterexamples",
+    "Consumer feature only after complete supported result/interpretation flow and integration QA"
+  ],
+  "consumerChanged": false,
+  "wholeBookApplied": false,
+  "wholeCatalogueCompleted": false,
+  "foundationComplete": true,
+  "latestResearchReport": "v53/LIUYAO_FOUNDATIONS_REPORT.md",
+  "completedStep": "B02/B03 có hai PDF gốc394/60trang,6phản hồi200/TLS/hash và2lỗiTLS NLC giữ riêng;28bản ghi đọc ảnh có giới hạn,84ảnh nhỏ chỉ định vị. Bộ tham chiếu nội bộ đủ64cung/48NạpGiáp/25Lục thân/8ThếỨng/sáu thần với can ngày rõ,chú chỉ hào động vàgiữ Lục thân theo cung gốc. 16kiểm đạt,8260lời gọiHHCthật/4096cặp/12288chú hào động;43→44hai hào Thổ vẫn Huynhđệ theo KhônThổ. Hai hình63/64đầu sách là nhận dạng quẻ chính,không phải cặp biến. HTML707411byte/site/ZIPweb giữ byte;chưa có tính năng LụcHào công khai,chưa áp hết hai sách/toàn kho. Tiếp bản đồ chương,Phục thần vàđiều kiện NhậtNguyệt/vượng suy/DụngNguyênKỵtheo từng bản.",
+  "privateReference": "liuyao-reference.mjs"
+}

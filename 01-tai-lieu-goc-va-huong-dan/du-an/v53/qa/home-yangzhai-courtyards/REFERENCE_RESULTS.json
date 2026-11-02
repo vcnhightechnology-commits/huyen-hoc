@@ -1,0 +1,638 @@
+{
+  "date": "2026-10-28",
+  "checks": [
+    {
+      "name": "Twelve direct diagrams contain69 numbered cells and preserve four unlabelled star cells",
+      "ok": true
+    },
+    {
+      "name": "Same gate cannot select a unique first element across distinct source sitting and facing cases",
+      "ok": true
+    },
+    {
+      "name": "Existing layer component executes69 literal-first-seed contexts; C84 inconsistencies are retained",
+      "ok": true
+    },
+    {
+      "name": "Height, size and unlabelled data are preserved without practical building advice",
+      "ok": true
+    },
+    {
+      "name": "Unknown inputs stay explicit; unmatched labels never receive an invented diagram or verdict",
+      "ok": true
+    },
+    {
+      "name": "Returned arrays and cells cannot mutate the source table",
+      "ok": true
+    }
+  ],
+  "manualCells": 69,
+  "actualExistingLayerComponentCalls": 75,
+  "literalFirstSeedContexts": 69,
+  "alternativeHypothesisContexts": 6,
+  "selfSeedMatches": 65,
+  "selfSeedDifferencesRetained": 4,
+  "alternativeWaterSeedDifferencesRetained": 2,
+  "alternativeHypothesisDoesNotEmendSource": true,
+  "newCalendarOrHHCEngineCalls": 0,
+  "consumerChanged": false,
+  "allSourceConditionsApplied": false,
+  "comparisons": [
+    {
+      "caseID": "YZSS-C82",
+      "ordinal": 1,
+      "firstLiteralElement": "水",
+      "literalElement": "水",
+      "existingComponentElement": "水",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C82",
+      "ordinal": 2,
+      "firstLiteralElement": "水",
+      "literalElement": "木",
+      "existingComponentElement": "木",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C82",
+      "ordinal": 3,
+      "firstLiteralElement": "水",
+      "literalElement": "火",
+      "existingComponentElement": "火",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C82",
+      "ordinal": 4,
+      "firstLiteralElement": "水",
+      "literalElement": "土",
+      "existingComponentElement": "土",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C82",
+      "ordinal": 5,
+      "firstLiteralElement": "水",
+      "literalElement": "金",
+      "existingComponentElement": "金",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C83",
+      "ordinal": 1,
+      "firstLiteralElement": "金",
+      "literalElement": "金",
+      "existingComponentElement": "金",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C83",
+      "ordinal": 2,
+      "firstLiteralElement": "金",
+      "literalElement": "水",
+      "existingComponentElement": "水",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C83",
+      "ordinal": 3,
+      "firstLiteralElement": "金",
+      "literalElement": "木",
+      "existingComponentElement": "木",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C83",
+      "ordinal": 4,
+      "firstLiteralElement": "金",
+      "literalElement": "火",
+      "existingComponentElement": "火",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C83",
+      "ordinal": 5,
+      "firstLiteralElement": "金",
+      "literalElement": "土",
+      "existingComponentElement": "土",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C83",
+      "ordinal": 6,
+      "firstLiteralElement": "金",
+      "literalElement": "金",
+      "existingComponentElement": "金",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C84",
+      "ordinal": 1,
+      "firstLiteralElement": "木",
+      "literalElement": "木",
+      "existingComponentElement": "木",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C84",
+      "ordinal": 2,
+      "firstLiteralElement": "木",
+      "literalElement": "木",
+      "existingComponentElement": "火",
+      "match": false
+    },
+    {
+      "caseID": "YZSS-C84",
+      "ordinal": 3,
+      "firstLiteralElement": "木",
+      "literalElement": "火",
+      "existingComponentElement": "土",
+      "match": false
+    },
+    {
+      "caseID": "YZSS-C84",
+      "ordinal": 4,
+      "firstLiteralElement": "木",
+      "literalElement": "土",
+      "existingComponentElement": "金",
+      "match": false
+    },
+    {
+      "caseID": "YZSS-C84",
+      "ordinal": 5,
+      "firstLiteralElement": "木",
+      "literalElement": "金",
+      "existingComponentElement": "水",
+      "match": false
+    },
+    {
+      "caseID": "YZSS-C84",
+      "ordinal": 6,
+      "firstLiteralElement": "木",
+      "literalElement": "木",
+      "existingComponentElement": "木",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C85",
+      "ordinal": 1,
+      "firstLiteralElement": "金",
+      "literalElement": "金",
+      "existingComponentElement": "金",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C85",
+      "ordinal": 2,
+      "firstLiteralElement": "金",
+      "literalElement": "水",
+      "existingComponentElement": "水",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C85",
+      "ordinal": 3,
+      "firstLiteralElement": "金",
+      "literalElement": "木",
+      "existingComponentElement": "木",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C85",
+      "ordinal": 4,
+      "firstLiteralElement": "金",
+      "literalElement": "火",
+      "existingComponentElement": "火",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C85",
+      "ordinal": 5,
+      "firstLiteralElement": "金",
+      "literalElement": "土",
+      "existingComponentElement": "土",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C85",
+      "ordinal": 6,
+      "firstLiteralElement": "金",
+      "literalElement": "金",
+      "existingComponentElement": "金",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C86",
+      "ordinal": 1,
+      "firstLiteralElement": "土",
+      "literalElement": "土",
+      "existingComponentElement": "土",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C86",
+      "ordinal": 2,
+      "firstLiteralElement": "土",
+      "literalElement": "金",
+      "existingComponentElement": "金",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C86",
+      "ordinal": 3,
+      "firstLiteralElement": "土",
+      "literalElement": "水",
+      "existingComponentElement": "水",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C86",
+      "ordinal": 4,
+      "firstLiteralElement": "土",
+      "literalElement": "木",
+      "existingComponentElement": "木",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C86",
+      "ordinal": 5,
+      "firstLiteralElement": "土",
+      "literalElement": "火",
+      "existingComponentElement": "火",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C87",
+      "ordinal": 1,
+      "firstLiteralElement": "金",
+      "literalElement": "金",
+      "existingComponentElement": "金",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C87",
+      "ordinal": 2,
+      "firstLiteralElement": "金",
+      "literalElement": "水",
+      "existingComponentElement": "水",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C87",
+      "ordinal": 3,
+      "firstLiteralElement": "金",
+      "literalElement": "木",
+      "existingComponentElement": "木",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C87",
+      "ordinal": 4,
+      "firstLiteralElement": "金",
+      "literalElement": "火",
+      "existingComponentElement": "火",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C87",
+      "ordinal": 5,
+      "firstLiteralElement": "金",
+      "literalElement": "土",
+      "existingComponentElement": "土",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C87",
+      "ordinal": 6,
+      "firstLiteralElement": "金",
+      "literalElement": "金",
+      "existingComponentElement": "金",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C88",
+      "ordinal": 1,
+      "firstLiteralElement": "金",
+      "literalElement": "金",
+      "existingComponentElement": "金",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C88",
+      "ordinal": 2,
+      "firstLiteralElement": "金",
+      "literalElement": "水",
+      "existingComponentElement": "水",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C88",
+      "ordinal": 3,
+      "firstLiteralElement": "金",
+      "literalElement": "木",
+      "existingComponentElement": "木",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C88",
+      "ordinal": 4,
+      "firstLiteralElement": "金",
+      "literalElement": "火",
+      "existingComponentElement": "火",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C88",
+      "ordinal": 5,
+      "firstLiteralElement": "金",
+      "literalElement": "土",
+      "existingComponentElement": "土",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C88",
+      "ordinal": 6,
+      "firstLiteralElement": "金",
+      "literalElement": "金",
+      "existingComponentElement": "金",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C89",
+      "ordinal": 1,
+      "firstLiteralElement": "土",
+      "literalElement": "土",
+      "existingComponentElement": "土",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C89",
+      "ordinal": 2,
+      "firstLiteralElement": "土",
+      "literalElement": "金",
+      "existingComponentElement": "金",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C89",
+      "ordinal": 3,
+      "firstLiteralElement": "土",
+      "literalElement": "水",
+      "existingComponentElement": "水",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C89",
+      "ordinal": 4,
+      "firstLiteralElement": "土",
+      "literalElement": "木",
+      "existingComponentElement": "木",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C89",
+      "ordinal": 5,
+      "firstLiteralElement": "土",
+      "literalElement": "火",
+      "existingComponentElement": "火",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C89",
+      "ordinal": 6,
+      "firstLiteralElement": "土",
+      "literalElement": "土",
+      "existingComponentElement": "土",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C90",
+      "ordinal": 1,
+      "firstLiteralElement": "水",
+      "literalElement": "水",
+      "existingComponentElement": "水",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C90",
+      "ordinal": 2,
+      "firstLiteralElement": "水",
+      "literalElement": "木",
+      "existingComponentElement": "木",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C90",
+      "ordinal": 3,
+      "firstLiteralElement": "水",
+      "literalElement": "火",
+      "existingComponentElement": "火",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C90",
+      "ordinal": 4,
+      "firstLiteralElement": "水",
+      "literalElement": "土",
+      "existingComponentElement": "土",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C90",
+      "ordinal": 5,
+      "firstLiteralElement": "水",
+      "literalElement": "金",
+      "existingComponentElement": "金",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C90",
+      "ordinal": 6,
+      "firstLiteralElement": "水",
+      "literalElement": "水",
+      "existingComponentElement": "水",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C91",
+      "ordinal": 1,
+      "firstLiteralElement": "火",
+      "literalElement": "火",
+      "existingComponentElement": "火",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C91",
+      "ordinal": 2,
+      "firstLiteralElement": "火",
+      "literalElement": "土",
+      "existingComponentElement": "土",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C91",
+      "ordinal": 3,
+      "firstLiteralElement": "火",
+      "literalElement": "金",
+      "existingComponentElement": "金",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C91",
+      "ordinal": 4,
+      "firstLiteralElement": "火",
+      "literalElement": "水",
+      "existingComponentElement": "水",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C91",
+      "ordinal": 5,
+      "firstLiteralElement": "火",
+      "literalElement": "木",
+      "existingComponentElement": "木",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C91",
+      "ordinal": 6,
+      "firstLiteralElement": "火",
+      "literalElement": "火",
+      "existingComponentElement": "火",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C92",
+      "ordinal": 1,
+      "firstLiteralElement": "木",
+      "literalElement": "木",
+      "existingComponentElement": "木",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C92",
+      "ordinal": 2,
+      "firstLiteralElement": "木",
+      "literalElement": "火",
+      "existingComponentElement": "火",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C92",
+      "ordinal": 3,
+      "firstLiteralElement": "木",
+      "literalElement": "土",
+      "existingComponentElement": "土",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C92",
+      "ordinal": 4,
+      "firstLiteralElement": "木",
+      "literalElement": "金",
+      "existingComponentElement": "金",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C92",
+      "ordinal": 5,
+      "firstLiteralElement": "木",
+      "literalElement": "水",
+      "existingComponentElement": "水",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C93",
+      "ordinal": 1,
+      "firstLiteralElement": "金",
+      "literalElement": "金",
+      "existingComponentElement": "金",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C93",
+      "ordinal": 2,
+      "firstLiteralElement": "金",
+      "literalElement": "水",
+      "existingComponentElement": "水",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C93",
+      "ordinal": 3,
+      "firstLiteralElement": "金",
+      "literalElement": "木",
+      "existingComponentElement": "木",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C93",
+      "ordinal": 4,
+      "firstLiteralElement": "金",
+      "literalElement": "火",
+      "existingComponentElement": "火",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C93",
+      "ordinal": 5,
+      "firstLiteralElement": "金",
+      "literalElement": "土",
+      "existingComponentElement": "土",
+      "match": true
+    },
+    {
+      "caseID": "YZSS-C93",
+      "ordinal": 6,
+      "firstLiteralElement": "金",
+      "literalElement": "金",
+      "existingComponentElement": "金",
+      "match": true
+    }
+  ],
+  "alternative": [
+    {
+      "ordinal": 1,
+      "declaredAlternativeFirstElement": "水",
+      "literalElement": "木",
+      "componentElement": "水",
+      "match": false
+    },
+    {
+      "ordinal": 2,
+      "declaredAlternativeFirstElement": "水",
+      "literalElement": "木",
+      "componentElement": "木",
+      "match": true
+    },
+    {
+      "ordinal": 3,
+      "declaredAlternativeFirstElement": "水",
+      "literalElement": "火",
+      "componentElement": "火",
+      "match": true
+    },
+    {
+      "ordinal": 4,
+      "declaredAlternativeFirstElement": "水",
+      "literalElement": "土",
+      "componentElement": "土",
+      "match": true
+    },
+    {
+      "ordinal": 5,
+      "declaredAlternativeFirstElement": "水",
+      "literalElement": "金",
+      "componentElement": "金",
+      "match": true
+    },
+    {
+      "ordinal": 6,
+      "declaredAlternativeFirstElement": "水",
+      "literalElement": "木",
+      "componentElement": "水",
+      "match": false
+    }
+  ]
+}

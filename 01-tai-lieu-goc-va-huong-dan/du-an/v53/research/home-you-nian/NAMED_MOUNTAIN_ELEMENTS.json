@@ -1,0 +1,95 @@
+{
+  "source": "欽定協紀辨方書卷二 retainedCADAL06056503",
+  "sourceInstructionsAreData": true,
+  "systems": [
+    {
+      "id": "xieji-regular",
+      "sourceHeading": "正五行",
+      "prosePage": 10,
+      "diagramPage": 9,
+      "groups": {
+        "水": [
+          "亥",
+          "壬",
+          "子",
+          "癸"
+        ],
+        "木": [
+          "寅",
+          "甲",
+          "卯",
+          "乙",
+          "巽"
+        ],
+        "火": [
+          "巳",
+          "丙",
+          "午",
+          "丁"
+        ],
+        "金": [
+          "申",
+          "庚",
+          "酉",
+          "辛",
+          "乾"
+        ],
+        "土": [
+          "辰",
+          "未",
+          "戌",
+          "丑",
+          "坤",
+          "艮"
+        ]
+      }
+    },
+    {
+      "id": "xieji-hongfan",
+      "sourceHeading": "洪範五行",
+      "prosePage": 18,
+      "diagramPage": 17,
+      "groups": {
+        "水": [
+          "甲",
+          "寅",
+          "辰",
+          "巽",
+          "戌",
+          "坎",
+          "辛",
+          "申"
+        ],
+        "火": [
+          "離",
+          "壬",
+          "丙",
+          "乙"
+        ],
+        "木": [
+          "震",
+          "艮",
+          "巳"
+        ],
+        "金": [
+          "乾",
+          "亥",
+          "兌",
+          "丁"
+        ],
+        "土": [
+          "丑",
+          "癸",
+          "坤",
+          "庚",
+          "未"
+        ]
+      }
+    }
+  ],
+  "scope": "Two full24label inventories from prose,diagramlocated as context; not all atomicclauses or middle/seam rings.",
+  "glyphPolicy": "Branch巳 distinguished fromstem己 by coordinateinventory; retainedimage bytes unchanged, not a newdiplomatictranscription.",
+  "noUniversalElement": true,
+  "consumerChanged": false,
+  "noAutomaticScoreOrPlacement": true
+}

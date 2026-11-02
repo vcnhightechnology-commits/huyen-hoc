@@ -1,0 +1,41 @@
+{
+  "scope": "v53/research/month-boundaries",
+  "files": [
+    {
+      "file": "v53/research/month-boundaries/VERIFICATION.json",
+      "bytes": 58080,
+      "sha256": "0541f0192fdabfbd33f355f17d3028b09867d0315c5ba33427380db103637ba1",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0541f0192fdabfbd33f355f17d3028b09867d0315c5ba33427380db103637ba1",
+      "httpRange": {
+        "offset": 119375637,
+        "compressedBytes": 13962,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/month-boundaries/before.json",
+      "bytes": 778427,
+      "sha256": "6e3a97c76fff9bdf4dcff872d54c8ddbe93652981ca7efafb7cdc8c11c50fb9e",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6e3a97c76fff9bdf4dcff872d54c8ddbe93652981ca7efafb7cdc8c11c50fb9e",
+      "httpRange": {
+        "offset": 274721014,
+        "compressedBytes": 59750,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/month-boundaries/roundtrip.json",
+      "bytes": 556,
+      "sha256": "5b884c39fac370ec6b209b98680544de14abddf027c89ce3c884123fadeec876",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5b884c39fac370ec6b209b98680544de14abddf027c89ce3c884123fadeec876",
+      "httpRange": {
+        "offset": 256360329,
+        "compressedBytes": 285,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

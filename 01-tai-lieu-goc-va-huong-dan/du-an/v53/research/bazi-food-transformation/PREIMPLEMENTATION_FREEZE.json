@@ -1,0 +1,52 @@
+{
+  "frozenAtUTC": "2026-10-29T17:16:22.621738+00:00",
+  "files": [
+    {
+      "file": "tmp/bazi-food-transformation-staging/SOURCE_CONTEXT.json",
+      "bytes": 1289,
+      "sha256": "45aa45b1f5400f3bd798b2d7590709d4cf13d5a527ab498f6450639c82f7dcbd"
+    },
+    {
+      "file": "tmp/bazi-food-transformation-staging/MANUAL_PAIR_CYCLE.json",
+      "bytes": 3233,
+      "sha256": "4a66bb4e7973118d063dc58e5e539e66da131ea969bac8ecaa3022886d28ea74"
+    },
+    {
+      "file": "tmp/bazi-food-transformation-staging/EXPECTED_RELATIONS.json",
+      "bytes": 4467,
+      "sha256": "ab65135952b05222117888637f67af8094a0d95c8b3aa51cc20bd75936075fac"
+    },
+    {
+      "file": "tmp/bazi-food-transformation-staging/RUNTIME_PLAN.json",
+      "bytes": 9004,
+      "sha256": "1b8a0c54c22c0fb7144c0c515147545ad7d83a32375b6faa75888db59f59fdba"
+    },
+    {
+      "file": "tmp/bazi-food-transformation-staging/SOURCE_IDENTITIES.json",
+      "bytes": 618,
+      "sha256": "3e0276a33214ede7d1a287dda968ff8f2066ba6f984366fcafb527de6612a35f"
+    },
+    {
+      "file": "tmp/bazi-food-transformation-staging/REUSED_PARTNERS.json",
+      "bytes": 2454,
+      "sha256": "013a64377b9d3d35305cb680988ff506f45692738bbbaf9cf45d19ffd7888df9"
+    },
+    {
+      "file": "tmp/bazi-food-transformation-staging/EXPECTED_INSPECTIONS.json",
+      "bytes": 3651,
+      "sha256": "f94bb4c0835407053a1dbdef864177f2600bcaf1df01f3b0554d2a435561d7f4"
+    },
+    {
+      "file": "tmp/bazi-food-transformation-staging/ENGINE_IDENTITIES.json",
+      "bytes": 1433,
+      "sha256": "748f7dc1dee68d7d6557e8f2510c9f65130326d02573fb747646347b9884bfd4"
+    }
+  ],
+  "referenceAndActualRuntimeAbsentAtFreeze": true,
+  "newHHCRelationCallsPlanned": 6,
+  "newLunarTenGodTableQueriesPlanned": 6,
+  "retainedPairsPlanned": 14,
+  "retainedPartnerCoordinates": 10,
+  "consumerChanged": false,
+  "wholeContextApplied": false
+}

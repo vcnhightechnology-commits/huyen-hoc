@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-29",
+  "catalogueIDs": [
+    "P08-relatedITKC",
+    "L01",
+    "L02"
+  ],
+  "status": "source-selected-reference-verified;see-release-QA-for-package",
+  "sourceBodies": [
+    {
+      "file": "tmp/home-fuduan-staging/commons-file.html",
+      "bytes": 104463,
+      "sha256": "df53801cdc445492b065631aa1446abbeb7d6f0e11f1b1aa3ff89d4fd01dc753"
+    },
+    {
+      "file": "tmp/home-fuduan-staging/SSID-12152602-vol33-36.pdf",
+      "bytes": 54208629,
+      "sha256": "3f6f81e7332a779dc8c43e8b69808e3f03449b8c595daea649529bea2c8d84ca"
+    },
+    {
+      "file": "tmp/home-fuduan-staging/wikisource-vol36.html",
+      "bytes": 103265,
+      "sha256": "0be2c5640c3fb7f50c6076c4bd6d1e9048b05b544f287cb25b1a2e6f0b2bc54b"
+    }
+  ],
+  "newHTTP200Bodies": 3,
+  "newPDFContainers": 1,
+  "newOriginalAncientMasterConfirmed": false,
+  "newPDFPages": 107,
+  "newPDFPositionsActuallyViewed": 11,
+  "all107Read": false,
+  "reusedITKCPosition249Expanded": true,
+  "newNativeITKCCropsAccepted": 1,
+  "excludedITKCTrialCrops": 2,
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false,
+  "newEngineCalls": 0,
+  "newRuleImplemented": "Private conditional sequence arithmetic only; no consumer rule",
+  "sourcePDF": {
+    "bytes": 54208629,
+    "sha256": "3f6f81e7332a779dc8c43e8b69808e3f03449b8c595daea649529bea2c8d84ca",
+    "pages": 107,
+    "metadata": {
+      "/CreationDate": "D:20230106023353Z",
+      "/ModDate": "D:20230106023353Z"
+    },
+    "firstPageMediaBox": [
+      0.0,
+      0.0,
+      362.88,
+      558.72
+    ],
+    "firstPageExtractTextChars": 0
+  },
+  "digitalRevision": 627179,
+  "metadataDatesAreDigitalNotOriginalPrintDates": true,
+  "next": [
+    "Retain compiler criticism and ITKC separate clause; no shared-name merge.",
+    "Resolve calendar epoch and printed-row meaning before any date adapter; annotations/efficacy remain unimplemented.",
+    "Read remaining96PDFpositions only when source-scope warrants; no whole107read claim.",
+    "Other day/hour clauses and source branches remain open; consult COVERAGE and current B02 index before new scope."
+  ],
+  "localDependencyNote": "DefaultPython lackedpypdf;bundledPythonreadcontainer successfully. No newdependency installed.",
+  "overallPartialResearchOnly": true,
+  "rawDCTSourcePositionsExpanded": [
+    1,
+    98,
+    99
+  ],
+  "allRawDCT1512x2328": true,
+  "pypdfPageImagesNotRawByteWarning": "Three earlierpage.images JPEGoutputs differfromoriginalDCT; retained/excluded; assertion failure before nativecropswritten. Raw_dctfiles now final sourceevidence.",
+  "sourceSelectedITKCExceptionReadMatched": true,
+  "selectedPrivateFunctions": 2,
+  "sourceMansionCellsRead": 84,
+  "sourceProseExamples": 7,
+  "manualModularBoundaryExpectations": 7,
+  "sourceCritiqueNotRecommendation": true,
+  "finalAcceptedNativeCrops": 5,
+  "excludedNativeTrialCrops": 2,
+  "previousReencodedPDFJPEGsExcluded": 3,
+  "sourceFrameAdapterEstablished": false,
+  "referenceResults": {
+    "passed": true,
+    "groups": 8,
+    "manualTableMansionCells": 84,
+    "sourceProseExamples": 7,
+    "boundaryExpectations": 7,
+    "finiteFrames": 5040,
+    "sevenDayPeriodPairs": 4452,
+    "twentyEightStepPeriodPairs": 4844,
+    "unsupportedFramesReturnedNull": 19,
+    "invalidInputsRejected": 14,
+    "preimplementationFilesUnchanged": 7,
+    "calendarEngineCalls": 0,
+    "chartEngineCalls": 0,
+    "printedRowsAreLiteralCoordinatesOnly": true,
+    "compilerCritiqueNotAdoptedAsRecommendation": true
+  }
+}

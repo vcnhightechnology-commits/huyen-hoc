@@ -1,0 +1,748 @@
+{
+  "date": "2026-10-27",
+  "status": "44-contiguous-digital-contexts-with-native-span-anchors-and-explicit-dispositions",
+  "sourceInstructionsAreData": true,
+  "sourceNativePages": [
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225
+  ],
+  "boundaryEndTitlePage": 226,
+  "sourceHeadingAsRetainedDigital": "論建禄(此與前論禄同叅/)",
+  "normalizedRetainedDigitalBodyCharacters": 1223,
+  "sourceContextUnits": 44,
+  "units": [
+    {
+      "id": "definition",
+      "anchorInRetainedDigital": "建禄者",
+      "digitalStart": 0,
+      "digitalEndExclusive": 47,
+      "retainedDigitalText": "建禄者乃甲日寅月乙日卯月五行臨官之位是也甲用金為官金絶在寅用土為財土病於寅以身旺太過財官俱不得",
+      "disposition": "Definition and day/month anchors; existing private matcher only.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-110b"
+      ],
+      "sourceImages": [
+        218
+      ],
+      "dispositionStatus": "bounded-structural-projection-in-functional-candidate",
+      "implementation": "Definition/year-hour projection is a functionally tested candidate, not deployed. Prior ten-hour matcher remains private. No full pattern or outcome classifier."
+    },
+    {
+      "id": "no-wealth-official-peers",
+      "anchorInRetainedDigital": "若别無財官",
+      "digitalStart": 47,
+      "digitalEndExclusive": 70,
+      "retainedDigitalText": "若别無財官可取再遇刼奪馬既不扶禄又不養多主貧賤",
+      "disposition": "Claim conditioned on absent alternatives and additional peer competition.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-110b",
+        "005-111a"
+      ],
+      "sourceImages": [
+        218,
+        219
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "visible-year-hour",
+      "anchorInRetainedDigital": "頗宜時帶偏官",
+      "digitalStart": 70,
+      "digitalEndExclusive": 91,
+      "retainedDigitalText": "頗宜時帶偏官偏財或食神更㸔年時上露多者取用",
+      "disposition": "Explicit year/hour placement and comparative visibility; strength not specified.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-111a"
+      ],
+      "sourceImages": [
+        219
+      ],
+      "dispositionStatus": "bounded-structural-projection-in-functional-candidate",
+      "implementation": "Definition/year-hour projection is a functionally tested candidate, not deployed. Prior ten-hour matcher remains private. No full pattern or outcome classifier."
+    },
+    {
+      "id": "small-wealth-official",
+      "anchorInRetainedDigital": "若略見財官",
+      "digitalStart": 91,
+      "digitalEndExclusive": 101,
+      "retainedDigitalText": "若略見財官反爭奪不吉",
+      "disposition": "A little wealth/official does not alone satisfy the source argument.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-111a"
+      ],
+      "sourceImages": [
+        219
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "generic-source-outcomes",
+      "anchorInRetainedDigital": "凡命月令建禄",
+      "digitalStart": 101,
+      "digitalEndExclusive": 124,
+      "retainedDigitalText": "凡命月令建禄難招祖業必主平生見財不聚却病少夀長",
+      "disposition": "Historical inheritance/health/longevity claims retained privately, not validated forecasts.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-111a"
+      ],
+      "sourceImages": [
+        219
+      ],
+      "dispositionStatus": "source-history-and-unvalidated-outcome-retained-private"
+    },
+    {
+      "id": "luck-peer-claim",
+      "anchorInRetainedDigital": "行運再見比肩",
+      "digitalStart": 124,
+      "digitalEndExclusive": 149,
+      "retainedDigitalText": "行運再見比肩尅妻妨父損子或官非破財或因妻孥財帛争奪",
+      "disposition": "Source outcome claim with luck-cycle premise; no universal consumer verdict.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-111a"
+      ],
+      "sourceImages": [
+        219
+      ],
+      "dispositionStatus": "source-history-and-unvalidated-outcome-retained-private"
+    },
+    {
+      "id": "supported-official-wealth",
+      "anchorInRetainedDigital": "如八字内外元有財官",
+      "digitalStart": 149,
+      "digitalEndExclusive": 188,
+      "retainedDigitalText": "如八字内外元有財官引旺得地官星有助運臨官星有氣之地亦貴財星有助運臨財旺之地亦富",
+      "disposition": "Original support/root and later luck are conjunctive, not presence alone.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-111a"
+      ],
+      "sourceImages": [
+        219
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "both-wealth-official",
+      "anchorInRetainedDigital": "財官俱旺",
+      "digitalStart": 188,
+      "digitalEndExclusive": 197,
+      "retainedDigitalText": "財官俱旺乃富貴之命",
+      "disposition": "Undefined source strength qualifier; cannot turn counts into 旺.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-111a"
+      ],
+      "sourceImages": [
+        219
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "hour-storehouse",
+      "anchorInRetainedDigital": "若時逢財庫",
+      "digitalStart": 197,
+      "digitalEndExclusive": 212,
+      "retainedDigitalText": "若時逢財庫運至財鄉必主晚年大富",
+      "disposition": "Hour storehouse and later wealth context; no age/date adapter.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-111a"
+      ],
+      "sourceImages": [
+        219
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "year-support",
+      "anchorInRetainedDigital": "年上財官有助",
+      "digitalStart": 212,
+      "digitalEndExclusive": 222,
+      "retainedDigitalText": "年上財官有助必享祖蔭",
+      "disposition": "Year placement and support; inheritance assertion not empirically verified.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-111a"
+      ],
+      "sourceImages": [
+        219
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "absence-in-natal",
+      "anchorInRetainedDigital": "若四柱元無財官",
+      "digitalStart": 222,
+      "digitalEndExclusive": 242,
+      "retainedDigitalText": "若四柱元無財官縦運行財官之地亦止虚花而已",
+      "disposition": "Natal absence versus later luck; must read beside 戊fire/seal exception.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-111a",
+        "005-111b"
+      ],
+      "sourceImages": [
+        219,
+        220
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "absence-plus-peer-luck",
+      "anchorInRetainedDigital": "命無財官",
+      "digitalStart": 242,
+      "digitalEndExclusive": 256,
+      "retainedDigitalText": "命無財官嵗運乂行比肩一生貧蹇",
+      "disposition": "Conjunction in source; not all Jianlu charts.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-111b"
+      ],
+      "sourceImages": [
+        220
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "root-flower-quote",
+      "anchorInRetainedDigital": "賦云根在苗先",
+      "digitalStart": 256,
+      "digitalEndExclusive": 280,
+      "retainedDigitalText": "賦云根在苗先實在花後言先有根然後長苗有花然後結果",
+      "disposition": "Quoted metaphor, no numerical weight rule.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-111b"
+      ],
+      "sourceImages": [
+        220
+      ],
+      "dispositionStatus": "quoted-source-voice-retained-private-not-universal-rule"
+    },
+    {
+      "id": "original-year-absence",
+      "anchorInRetainedDigital": "若當生嵗元無財官",
+      "digitalStart": 280,
+      "digitalEndExclusive": 298,
+      "retainedDigitalText": "若當生嵗元無財官雖遇財官吉運發福不大",
+      "disposition": "Original-versus-luck distinction; source outcome only.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-111b"
+      ],
+      "sourceImages": [
+        220
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "jia-yin-case",
+      "anchorInRetainedDigital": "假如甲日寅月",
+      "digitalStart": 298,
+      "digitalEndExclusive": 330,
+      "retainedDigitalText": "假如甲日寅月柱中乙卯未字多主無祖財尅妻一世孤貧作事虚詐為人大模様",
+      "disposition": "Day/month branch-cluster case; printed adverse social claims not consumer guidance.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-111b"
+      ],
+      "sourceImages": [
+        220
+      ],
+      "dispositionStatus": "source-history-and-unvalidated-outcome-retained-private"
+    },
+    {
+      "id": "yi-mao-support",
+      "anchorInRetainedDigital": "乙日生卯月",
+      "digitalStart": 330,
+      "digitalEndExclusive": 357,
+      "retainedDigitalText": "乙日生卯月柱有庚辛巳酉丑申及戊巳巳午辰戌等字財官多則貴",
+      "disposition": "Wealth/official coordinate list; 己/巳 must be compared to native image220.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-111b"
+      ],
+      "sourceImages": [
+        220
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "yi-water-seal",
+      "anchorInRetainedDigital": "壬癸申子辰亥水印成局",
+      "digitalStart": 357,
+      "digitalEndExclusive": 386,
+      "retainedDigitalText": "壬癸申子辰亥水印成局亦佳更運逢之尤妙若柱不見財官印食同前㫁",
+      "disposition": "Alternative 印 group and luck support; absence clause includes 財官印食.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-111b"
+      ],
+      "sourceImages": [
+        220
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "bing-si",
+      "anchorInRetainedDigital": "丙生巳月",
+      "digitalStart": 386,
+      "digitalEndExclusive": 408,
+      "retainedDigitalText": "丙生巳月嵗時干支水金成局運歴財官旺地亦主富貴",
+      "disposition": "Year/hour water-metal grouping and luck strength; no automatic transformation inferred.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-111b",
+        "005-112a"
+      ],
+      "sourceImages": [
+        220,
+        221
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "ding-wu-baseline",
+      "anchorInRetainedDigital": "丁生午月",
+      "digitalStart": 408,
+      "digitalEndExclusive": 429,
+      "retainedDigitalText": "丁生午月金敗水絶財官俱背順運尅妻逆運尅三妻",
+      "disposition": "Source baseline and directional luck claim, not a universal verdict.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-112a"
+      ],
+      "sourceImages": [
+        221
+      ],
+      "dispositionStatus": "source-history-and-unvalidated-outcome-retained-private"
+    },
+    {
+      "id": "ding-wu-alternatives",
+      "anchorInRetainedDigital": "若柱有巳酉丑",
+      "digitalStart": 429,
+      "digitalEndExclusive": 467,
+      "retainedDigitalText": "若柱有巳酉丑庚辛壬癸亥申子辰運臨財官旺地亦發用煞或印以多為貴若止建禄亦同前㫁",
+      "disposition": "Alternative coordinate groups and 煞/印 use; strength/quantity criteria unspecified.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-112a"
+      ],
+      "sourceImages": [
+        221
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "wu-si-baseline",
+      "anchorInRetainedDigital": "戊日巳月",
+      "digitalStart": 467,
+      "digitalEndExclusive": 500,
+      "retainedDigitalText": "戊日巳月年日時無水主尅妻無祖業子多不肖柱中多有官則吉如見偏官主尊貴",
+      "disposition": "Water absence and visible official/kill conditions need separate branches.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-112a"
+      ],
+      "sourceImages": [
+        221
+      ],
+      "dispositionStatus": "source-history-and-unvalidated-outcome-retained-private"
+    },
+    {
+      "id": "wu-fire-seal-exception",
+      "anchorInRetainedDigital": "歳月若是火多",
+      "digitalStart": 500,
+      "digitalEndExclusive": 516,
+      "retainedDigitalText": "歳月若是火多及或印綬雖無財官主吉",
+      "disposition": "Explicit 無財官 yet source 主吉: blocks unconditional 財官-required logic.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-112a"
+      ],
+      "sourceImages": [
+        221
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "wu-water-wood",
+      "anchorInRetainedDigital": "若柱内隠顯壬癸",
+      "digitalStart": 516,
+      "digitalEndExclusive": 550,
+      "retainedDigitalText": "若柱内隠顯壬癸亥申子辰水局晚子一二有甲寅乙卯亥未木局運至財官旺地亦發",
+      "disposition": "Hidden/visible and water/wood combinations; no actual outcome validation.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-112a"
+      ],
+      "sourceImages": [
+        221
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "ji-wu",
+      "anchorInRetainedDigital": "巳生午月",
+      "digitalStart": 550,
+      "digitalEndExclusive": 590,
+      "retainedDigitalText": "巳生午月以壬水為財五月水囚主無祖業尅妻子亦不多嵗時透出寅甲為正官五月甲死官必卑小",
+      "disposition": "Retained digital has 巳; native221 reads 己 day stem. Keep variant, do not global-replace.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-112a",
+        "005-112b"
+      ],
+      "sourceImages": [
+        221,
+        222
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "ji-wu-branches",
+      "anchorInRetainedDigital": "喜見亥卯未乙",
+      "digitalStart": 590,
+      "digitalEndExclusive": 607,
+      "retainedDigitalText": "喜見亥卯未乙身旺見官煞為妙偏財亦美",
+      "disposition": "Body strength and 官煞/偏財 qualifiers; not bare branch occurrence.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-112b"
+      ],
+      "sourceImages": [
+        222
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "geng-shen-upper-period",
+      "anchorInRetainedDigital": "庚日申月上旬",
+      "digitalStart": 607,
+      "digitalEndExclusive": 646,
+      "retainedDigitalText": "庚日申月上旬生近木餘氣畧無祖財雖節氣臨水絶之鄉尚有三四分庫財為福運至丙戌財盡矣",
+      "disposition": "Source 木餘氣 retained; month 上旬 origin/calendar adapter open, no Gregorian day1–10 shortcut.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-112b"
+      ],
+      "sourceImages": [
+        222
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "geng-year-hour",
+      "anchorInRetainedDigital": "若年日時多帶財",
+      "digitalStart": 646,
+      "digitalEndExclusive": 688,
+      "retainedDigitalText": "若年日時多帶財好命㸔見丙丁巳午寅戌火局則有官以煞化官也官小亦不清顯怕壬癸亥子尅官不成",
+      "disposition": "Quantity/location and fire 官/煞化官 claim; no chemical/strength inference.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-112b"
+      ],
+      "sourceImages": [
+        222
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "xin-you-baseline",
+      "anchorInRetainedDigital": "辛日酉月",
+      "digitalStart": 688,
+      "digitalEndExclusive": 710,
+      "retainedDigitalText": "辛日酉月無祖財柱中多見分奪孤貧無妻或尅妻無財",
+      "disposition": "Peer-competition baseline with historical social claims held privately.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-112b"
+      ],
+      "sourceImages": [
+        222
+      ],
+      "dispositionStatus": "source-history-and-unvalidated-outcome-retained-private"
+    },
+    {
+      "id": "xin-wood-fire",
+      "anchorInRetainedDigital": "若帶木火生旺",
+      "digitalStart": 710,
+      "digitalEndExclusive": 733,
+      "retainedDigitalText": "若帶木火生旺又當富貴原無財官又行生地其刼禍尤重",
+      "disposition": "Conditional support exception and 生旺 needed; cannot infer from mere presence.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-112b"
+      ],
+      "sourceImages": [
+        222
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "xin-special-lu",
+      "anchorInRetainedDigital": "或見辛酉",
+      "digitalStart": 733,
+      "digitalEndExclusive": 769,
+      "retainedDigitalText": "或見辛酉則為専禄更有財官印食之神嵗運再逢尤好逆運南方則吉順運北方百事無成",
+      "disposition": "專禄 case includes 財官印食, luck and directional claims; source glyph 専 retained here.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-112b",
+        "005-113a"
+      ],
+      "sourceImages": [
+        222,
+        223
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "xin-mao-wei",
+      "anchorInRetainedDigital": "若辛卯辛未日",
+      "digitalStart": 769,
+      "digitalEndExclusive": 783,
+      "retainedDigitalText": "若辛卯辛未日身自坐財可許衣禄",
+      "disposition": "Separate self-seated wealth case; no income inference.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-113a"
+      ],
+      "sourceImages": [
+        223
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "xin-si",
+      "anchorInRetainedDigital": "辛巳日有貴",
+      "digitalStart": 783,
+      "digitalEndExclusive": 792,
+      "retainedDigitalText": "辛巳日有貴官禄亦輕",
+      "disposition": "Separate source allowance; short statement not full classifier.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-113a"
+      ],
+      "sourceImages": [
+        223
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "ren-hai-gui-zi",
+      "anchorInRetainedDigital": "壬日亥月癸日子月",
+      "digitalStart": 792,
+      "digitalEndExclusive": 828,
+      "retainedDigitalText": "壬日亥月癸日子月俱無祖業柱中多見火土主自成立有官如見水多泛濫無成尅妻貧薄",
+      "disposition": "Fire/earth versus overflowing water branches; outcomes not validated.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-113a"
+      ],
+      "sourceImages": [
+        223
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "ten-hour-alternatives",
+      "anchorInRetainedDigital": "又曰甲日寅月",
+      "digitalStart": 828,
+      "digitalEndExclusive": 910,
+      "retainedDigitalText": "又曰甲日寅月宜壬申時乙日卯月宜辛巳時丙日巳月宜巳亥時丁日午月宜庚子時戊日巳月宜甲寅時巳日午月宜乙丑時庚日申月宜丙戌時辛日酉月宜丁酉時壬日亥月宜戊申時癸日子月宜巳未時",
+      "disposition": "Ten day/month/hour coordinates already compiled; do not rerun120 unchanged charts.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-113a",
+        "005-113b"
+      ],
+      "sourceImages": [
+        223,
+        224
+      ],
+      "dispositionStatus": "bounded-structural-projection-in-functional-candidate",
+      "implementation": "Definition/year-hour projection is a functionally tested candidate, not deployed. Prior ten-hour matcher remains private. No full pattern or outcome classifier."
+    },
+    {
+      "id": "too-many-kills",
+      "anchorInRetainedDigital": "是見煞取貴",
+      "digitalStart": 910,
+      "digitalEndExclusive": 930,
+      "retainedDigitalText": "是見煞取貴然亦不可太多嵗運再逢煞地主夭折",
+      "disposition": "宜 qualified by 不可太多 and further luck context; exact threshold absent.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-113b"
+      ],
+      "sourceImages": [
+        224
+      ],
+      "dispositionStatus": "explicit-conditional-branch-retained-unquantified-premises-open"
+    },
+    {
+      "id": "printed-example",
+      "anchorInRetainedDigital": "如一命丙戌丁酉辛酉乙未",
+      "digitalStart": 930,
+      "digitalEndExclusive": 984,
+      "retainedDigitalText": "如一命丙戌丁酉辛酉乙未月令建禄又是専禄日主夀止四十八壬寅運壬申年不禄嵗運衝且㑹傷官煞也建禄用財官傷去丙火故夭",
+      "disposition": "Four-pillar feasibility probed; claimed age48/壬寅運壬申年 not an empirically validated event.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-113b"
+      ],
+      "sourceImages": [
+        224
+      ],
+      "dispositionStatus": "source-history-and-unvalidated-outcome-retained-private"
+    },
+    {
+      "id": "dubu-quote",
+      "anchorInRetainedDigital": "獨歩云",
+      "digitalStart": 984,
+      "digitalEndExclusive": 1003,
+      "retainedDigitalText": "獨歩云月令建禄多無祖屋一見財官自然成福",
+      "disposition": "Named quoted verse; source attribution not independent witness.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-113b"
+      ],
+      "sourceImages": [
+        224
+      ],
+      "dispositionStatus": "quoted-source-voice-retained-private-not-universal-rule"
+    },
+    {
+      "id": "another-verse",
+      "anchorInRetainedDigital": "又云建禄生提月",
+      "digitalStart": 1003,
+      "digitalEndExclusive": 1025,
+      "retainedDigitalText": "又云建禄生提月財官喜透天不宜身再旺惟喜茂財元",
+      "disposition": "Visible wealth/official and not excessive 旺; no numeric algorithm.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-113b"
+      ],
+      "sourceImages": [
+        224
+      ],
+      "dispositionStatus": "quoted-source-voice-retained-private-not-universal-rule"
+    },
+    {
+      "id": "baizhang-quote",
+      "anchorInRetainedDigital": "百章歌云",
+      "digitalStart": 1025,
+      "digitalEndExclusive": 1057,
+      "retainedDigitalText": "百章歌云提綱建禄將何取須㸔年時多透露局中六格自分明莫泥提綱反為悮",
+      "disposition": "Year/hour visibility and six-pattern alternatives; do not fixate on month alone.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-113b"
+      ],
+      "sourceImages": [
+        224
+      ],
+      "dispositionStatus": "quoted-source-voice-retained-private-not-universal-rule"
+    },
+    {
+      "id": "gui-winter-verse",
+      "anchorInRetainedDigital": "(又/)癸禄居子",
+      "digitalStart": 1057,
+      "digitalEndExclusive": 1088,
+      "retainedDigitalText": "(又/)癸禄居子生冬月天干最喜透財官如行火土興財禄水取堤防破貴",
+      "disposition": "Winter source verse with fire/earth-water metaphor; historical outcome held privately.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-113b",
+        "005-114a"
+      ],
+      "sourceImages": [
+        224,
+        225
+      ],
+      "dispositionStatus": "quoted-source-voice-retained-private-not-universal-rule"
+    },
+    {
+      "id": "yuanming-quote",
+      "anchorInRetainedDigital": "元明通賦云",
+      "digitalStart": 1088,
+      "digitalEndExclusive": 1110,
+      "retainedDigitalText": "元明通賦云建禄坐禄或居禄獨遇財官印綬富貴長年",
+      "disposition": "Named quoted verse; cannot collapse into one rule with all other source voices.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-114a"
+      ],
+      "sourceImages": [
+        225
+      ],
+      "dispositionStatus": "quoted-source-voice-retained-private-not-universal-rule"
+    },
+    {
+      "id": "comparative-school-comment",
+      "anchorInRetainedDigital": "合諸說觀之",
+      "digitalStart": 1110,
+      "digitalEndExclusive": 1132,
+      "retainedDigitalText": "合諸說觀之子平論建禄與古人論禄其取用逈不同矣",
+      "disposition": "Author distinguishes ZiPing Jianlu from older Lu in use; keep school context.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-114a"
+      ],
+      "sourceImages": [
+        225
+      ],
+      "dispositionStatus": "source-history-and-unvalidated-outcome-retained-private"
+    },
+    {
+      "id": "same-family-comment",
+      "anchorInRetainedDigital": "余按陽刃比肩",
+      "digitalStart": 1132,
+      "digitalEndExclusive": 1185,
+      "retainedDigitalText": "余按陽刃比肩敗財建禄名雖不同實一家同氣之神在地支者曰刄曰禄在天干者曰比曰刼其取用大畧相同故以建禄繼陽刄之後",
+      "disposition": "Author groups blade/peer/lu while distinguishing stem/branch location; no automatic identity.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-114a"
+      ],
+      "sourceImages": [
+        225
+      ],
+      "dispositionStatus": "source-history-and-unvalidated-outcome-retained-private"
+    },
+    {
+      "id": "recent-pattern-comment",
+      "anchorInRetainedDigital": "建禄舊無格",
+      "digitalStart": 1185,
+      "digitalEndExclusive": 1223,
+      "retainedDigitalText": "建禄舊無格近亦取以月支無可取之格而天干倘有財官貴氣故取建禄若比刼特發明其義耳",
+      "disposition": "Historical author claim and exceptional classification; not proof of historical chronology.",
+      "functionalConditionsFullyCompiled": false,
+      "retainedDigitalFolios": [
+        "005-114a"
+      ],
+      "sourceImages": [
+        225
+      ],
+      "dispositionStatus": "source-history-and-unvalidated-outcome-retained-private"
+    }
+  ],
+  "partitionCoverageOfRetainedDigitalBody": 1,
+  "allSourceImageCharactersCollated": false,
+  "sourceOutcomesValidated": false,
+  "wholeSectionApplied": false,
+  "wholeCatalogueCompleted": false,
+  "structuralProjectionUnits": 3
+}

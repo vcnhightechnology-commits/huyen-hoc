@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-29",
+  "records": [
+    {
+      "pdfPage": 1,
+      "images": [
+        {
+          "file": "tmp/home-fuduan-staging/pdf1-native-image0-Im0.jpg",
+          "bytes": 164540,
+          "sha256": "45a0217676e0338ac3badeb23976b6961de7e1270c26c22a7adbe6cbb66d152c",
+          "pixelDimensions": [
+            1512,
+            2328
+          ],
+          "format": "JPEG",
+          "pdfSourceImageName": "Im0.jpg",
+          "reference": "{'/BitsPerComponent': 8, '/ColorSpace': '/DeviceRGB', '/Filter': '/DCTDecode', '/Height': 2328, '/Subtype': '/Image', '/Type': '/XObject', '/Width': 1512}",
+          "extractedBy": "pypdf page.images:decodedimage,notoriginalPDFcontainerstreamidentity",
+          "viewed": true,
+          "rawDCTStreamByteMatched": false,
+          "finalEvidenceExcluded": true,
+          "reason": "pypdf page.images bytes differ from embedded original DCT stream; raw extracted separately for final native evidence."
+        }
+      ],
+      "mediaBox": [
+        0.0,
+        0.0,
+        362.88,
+        558.72
+      ]
+    },
+    {
+      "pdfPage": 98,
+      "images": [
+        {
+          "file": "tmp/home-fuduan-staging/pdf98-native-image0-Im0.jpg",
+          "bytes": 550945,
+          "sha256": "bed33a4bedfdd974365a24ec14a452287a1b32db9e7ed71bb4d1d7c6bb3cc6cb",
+          "pixelDimensions": [
+            1512,
+            2328
+          ],
+          "format": "JPEG",
+          "pdfSourceImageName": "Im0.jpg",
+          "reference": "{'/BitsPerComponent': 8, '/ColorSpace': '/DeviceGray', '/Filter': '/DCTDecode', '/Height': 2328, '/Subtype': '/Image', '/Type': '/XObject', '/Width': 1512}",
+          "extractedBy": "pypdf page.images:decodedimage,notoriginalPDFcontainerstreamidentity",
+          "viewed": true,
+          "rawDCTStreamByteMatched": false,
+          "finalEvidenceExcluded": true,
+          "reason": "pypdf page.images bytes differ from embedded original DCT stream; raw extracted separately for final native evidence."
+        }
+      ],
+      "mediaBox": [
+        0.0,
+        0.0,
+        362.88,
+        558.72
+      ]
+    },
+    {
+      "pdfPage": 99,
+      "images": [
+        {
+          "file": "tmp/home-fuduan-staging/pdf99-native-image0-Im0.jpg",
+          "bytes": 537660,
+          "sha256": "5f3921fcec71838753ba4117ed4d82ba83f4cd997f82ff9d5073ea70bdcae973",
+          "pixelDimensions": [
+            1512,
+            2328
+          ],
+          "format": "JPEG",
+          "pdfSourceImageName": "Im0.jpg",
+          "reference": "{'/BitsPerComponent': 8, '/ColorSpace': '/DeviceGray', '/Filter': '/DCTDecode', '/Height': 2328, '/Subtype': '/Image', '/Type': '/XObject', '/Width': 1512}",
+          "extractedBy": "pypdf page.images:decodedimage,notoriginalPDFcontainerstreamidentity",
+          "viewed": true,
+          "rawDCTStreamByteMatched": false,
+          "finalEvidenceExcluded": true,
+          "reason": "pypdf page.images bytes differ from embedded original DCT stream; raw extracted separately for final native evidence."
+        }
+      ],
+      "mediaBox": [
+        0.0,
+        0.0,
+        362.88,
+        558.72
+      ]
+    }
+  ],
+  "newSourcePositions": 0,
+  "originalContainerRetained": true
+}

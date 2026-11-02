@@ -1,0 +1,80 @@
+{
+  "schema": "hhc.home.kua.readings.v1",
+  "source": {
+    "catalogue": "https://commons.wikimedia.org/wiki/File:NLC892-GBZX0301012368-287543_%E4%B9%BE%E9%9A%86%E6%B3%95%E7%AB%85_%E4%B8%89%E5%8D%B7_%E7%AC%AC7%E5%86%8A.pdf",
+    "containerTitleAsCatalogued": "乾隆法竅 三卷 第7冊",
+    "actualScannedTitle": "八宅明鏡 卷上",
+    "imprintRead": "埽葉山房刊",
+    "sourceID": "NLC892-GBZX0301012368-287543",
+    "repositoryAttribution": "Commons catalogue attributes the scan to Tianjin Library / National Library of China; no independent custody comparison",
+    "prefaceDateRead": "乾隆五十五年歲次庚戌仲春花朝",
+    "publicationDate": "Not inferred from the1790preface; catalogue says Qing print",
+    "wholePDFPages": 58,
+    "wholePDFRead": false,
+    "decisivePDFPages": [
+      11,
+      17,
+      23,
+      24
+    ],
+    "supportingPDFPages": [
+      2,
+      4,
+      5,
+      7
+    ],
+    "yearAnchor": {
+      "text": "康熙二十三年上元甲子",
+      "gregorian": 1684,
+      "page": 24,
+      "conversionSource": "https://www.dpm.org.cn/court/lineage/226256.html"
+    }
+  },
+  "method": "Direct visual reading of downloaded Commons JPEG and locally renderedPDF pages. Rendered contact sheets only navigate; not all rendered pages were read.",
+  "facts": [
+    {
+      "page": 2,
+      "claim": "Scanned cover identifies 八宅明鏡 and 埽葉山房刊, despite broader catalogue title乾隆法竅."
+    },
+    {
+      "page": 4,
+      "claim": "Preface dated乾隆55庚戌; not assumed date of this later printing."
+    },
+    {
+      "page": 5,
+      "claim": "凡例 gives upper甲子 male坎1/female艮8(after寄), middle甲子 male巽4/female坤2, lower甲子 male兌7/female艮8. This contradicts unverified online summaries saying middlemale2/female7; scan takes priority."
+    },
+    {
+      "page": 7,
+      "claim": "Contents names上/中/下元男命入中寄坤 and corresponding female入中寄艮."
+    },
+    {
+      "page": 11,
+      "printedLeaf": "一",
+      "section": "論男女生命",
+      "claim": "Upper/middle/lower male甲子 starts坎/巽/兌, female starts中/坤/艮; male reverse order and遇中寄坤, female forward order and遇中寄艮."
+    },
+    {
+      "page": 17,
+      "printedLeaf": "七",
+      "section": "排山掌上起三元甲子訣",
+      "claim": "Mnemonic gives male上1中4下7, female上5中2下8; 男逆女順. This is命卦, not a building flying-star chart."
+    },
+    {
+      "page": 23,
+      "printedLeaf": "十三",
+      "section": "捷訣 and examples",
+      "shortExtract": "男五寄二女寄八",
+      "claim": "Repeats male5→2/female5→8; nine甲子/乙丑/丙寅 examples across allthree元. Read and transcribed separately below."
+    },
+    {
+      "page": 24,
+      "printedLeaf": "十四",
+      "section": "入中寄宮 tables",
+      "shortExtract": "康熙二十三年上元甲子",
+      "claim": "Explicit absolute-year anchor. Separate tables show each元 male中寄坤 and female中寄艮; this supports substitution, not a new temporal boundary."
+    }
+  ],
+  "notFound": "No Lunar New Year versus Li Chun boundary found in these relevant passages. Not a claim that the whole work has no such sentence.",
+  "notRead": "Remaining pages of the58pagePDF; second fascicle; full XiangZhai corpus"
+}

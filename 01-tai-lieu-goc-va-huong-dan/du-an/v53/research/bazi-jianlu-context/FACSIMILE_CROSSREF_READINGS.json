@@ -1,0 +1,418 @@
+{
+  "date": "2026-10-27",
+  "sourceInstructionsAreData": true,
+  "container": "volume3/CADAL06066039.djvu",
+  "containerSHA256": "2334006e3a46b16bdbf0bf6a79512d8d0c4b87a2ce2e8e1ff503121d8f2cffdc",
+  "sourceTier": "native-facsimile-with-identified-digital-crossreference",
+  "downloadRecord": "volume3/REQUESTS.json",
+  "renderRecord": "volume3/RENDERS.json",
+  "manualReadingFollowsRenderLogs": true,
+  "directVisualPositions": 26,
+  "sectionContentPositions": 24,
+  "paratextOrBoundaryPositions": 2,
+  "readings": [
+    {
+      "page": 2,
+      "folio": null,
+      "file": "images/p002.png",
+      "sha256": "28d8906023492d22a162c2404bb2b9ce3856eb3c045053f35fead1b76b5442ab",
+      "directVisualRead": true,
+      "classification": "title-and-proofreader-paratext",
+      "readScope": "三命通會卷三 / 四庫全書 title; not proof of historical authorship",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 3,
+      "folio": "003-1a",
+      "file": "images/p003.png",
+      "sha256": "f6c9d7d2d9d1b0386c96de427138ae0d3f215f541478394851cc2d095c7325ce",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論十干祿 first whole-range reading; not every character or condition compiled",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 4,
+      "folio": "003-1b",
+      "file": "images/p004.png",
+      "sha256": "6e72028c187be2b81de2cd9a4dabbc7704d0b9bcf4a72d58a4eb49cbe7efd365",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論十干祿 first whole-range reading; not every character or condition compiled",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 5,
+      "folio": "003-2a",
+      "file": "images/p005.png",
+      "sha256": "60ce9478e6da921b3e6a9f2dca256ab9e826d0c88b4d54169d528011ca3ccfb5",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論十干祿 first whole-range reading; not every character or condition compiled",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 6,
+      "folio": "003-2b",
+      "file": "images/p006.png",
+      "sha256": "6a09c06ef911d4e8a6c456380e5edd7ac0e202f6261749ab72a0aeacb2541442",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論十干祿 first whole-range reading; not every character or condition compiled",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 7,
+      "folio": "003-3a",
+      "file": "images/p007.png",
+      "sha256": "5eff2e70343b35a9eadfe7bd3a790f9c1bb6ad9f30715525ee37e154e9c06130",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論十干祿 first whole-range reading; not every character or condition compiled",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 8,
+      "folio": "003-3b",
+      "file": "images/p008.png",
+      "sha256": "c7bd0796a2890744b9ed6ac6b350229ccaaf3e1f9404f19c4fc79cd7483108cc",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論十干祿 first whole-range reading; not every character or condition compiled",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 9,
+      "folio": "003-4a",
+      "file": "images/p009.png",
+      "sha256": "a55e7cb86304c3f115ad77a7b5e42ab99212fda57141826aec967beaf500e04a",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論十干祿 first whole-range reading; not every character or condition compiled",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 10,
+      "folio": "003-4b",
+      "file": "images/p010.png",
+      "sha256": "86fa713855e42a597e6d8353ef81a4f0b535cc91fea0ad4c79745f037fb9afe0",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論十干祿 first whole-range reading; not every character or condition compiled",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 11,
+      "folio": "003-5a",
+      "file": "images/p011.png",
+      "sha256": "20dfbca5a74f81bef44464c237c7d3e864d4035396641fcf3b5ce1f2535b942f",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論十干祿 first whole-range reading; not every character or condition compiled",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 12,
+      "folio": "003-5b",
+      "file": "images/p012.png",
+      "sha256": "4bf6ac099c9bee5af5a567b9d26d179ea8cad995701134070e0cd57810f130a3",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論十干祿 first whole-range reading; not every character or condition compiled",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 13,
+      "folio": "003-6a",
+      "file": "images/p013.png",
+      "sha256": "53113763e551168636ebe7de4de955cf6938b73aea32814c49a93e9374a5e1a6",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論十干祿 first whole-range reading; not every character or condition compiled",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 14,
+      "folio": "003-6b",
+      "file": "images/p014.png",
+      "sha256": "77cec99991acc5d35871ba63efa057022dafa237656d5a3999f4900666363d13",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論十干祿 first whole-range reading; not every character or condition compiled",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 15,
+      "folio": "003-7a",
+      "file": "images/p015.png",
+      "sha256": "0713edaa06d11f94af771dbfaadb7236e4ddbb8bd81564280c99b7b5a4f62968",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論十干祿 first whole-range reading; not every character or condition compiled",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 16,
+      "folio": "003-7b",
+      "file": "images/p016.png",
+      "sha256": "b59e7db9ac621b777d129d7da64da5d876ed4b53a3a2134800c61eda98943c0f",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論十干祿 first whole-range reading; not every character or condition compiled",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 17,
+      "folio": "003-8a",
+      "file": "images/p017.png",
+      "sha256": "47682cbb6c979bb31414cd606ff4a473f114d9cd8fe8db1f7e7dc7423dd4eee3",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論十干祿 first whole-range reading; not every character or condition compiled",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 18,
+      "folio": "003-8b",
+      "file": "images/p018.png",
+      "sha256": "8c06cef3acc5205aa24871aa89bfd690bb6d698d096a5bfc9a67cbd81cf064c5",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論十干祿 first whole-range reading; not every character or condition compiled",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 19,
+      "folio": "003-9a",
+      "file": "images/p019.png",
+      "sha256": "7093f904f09ed580317faf37afb9c580eca57708dd6619f5830dd1da79ff1497",
+      "directVisualRead": true,
+      "classification": "next-heading-boundary",
+      "readScope": "論金轝 begins; no claim its whole contents were applied",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 112,
+      "folio": "003-55b",
+      "file": "images/p112.png",
+      "sha256": "a3798a6d68d6ac28f66139eb083f62fb85cf85cfc81da22b828355c97ac073c3",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論羊刃 first whole-range reading; p119 includes next論空亡 heading, not its contents",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 113,
+      "folio": "003-56a",
+      "file": "images/p113.png",
+      "sha256": "143ca85f389171b63bc1ef006f69e913993fd455e7502286c88fdb3844f6269e",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論羊刃 first whole-range reading; p119 includes next論空亡 heading, not its contents",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 114,
+      "folio": "003-56b",
+      "file": "images/p114.png",
+      "sha256": "ee1c4da74ec34e09a6c4529aef2a63978e1721d251e1a435cb96660270a22052",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論羊刃 first whole-range reading; p119 includes next論空亡 heading, not its contents",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 115,
+      "folio": "003-57a",
+      "file": "images/p115.png",
+      "sha256": "53e5b84551152bf55f8b64f3248f70b5dc13193db7ffa326522cda9be038e849",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論羊刃 first whole-range reading; p119 includes next論空亡 heading, not its contents",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 116,
+      "folio": "003-57b",
+      "file": "images/p116.png",
+      "sha256": "337532fa126412ba70a1fefc2cb954c37739f21d8fbf3b4566ffca188a468731",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論羊刃 first whole-range reading; p119 includes next論空亡 heading, not its contents",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 117,
+      "folio": "003-58a",
+      "file": "images/p117.png",
+      "sha256": "8dcd40637197064f10e3e11264b978b5f702c9f9239a69a459e47fa858f90674",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論羊刃 first whole-range reading; p119 includes next論空亡 heading, not its contents",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 118,
+      "folio": "003-58b",
+      "file": "images/p118.png",
+      "sha256": "aae3d6e15286ed2438cda1460d0ea2a8df93a7e6cc2c613e4ef49d58f42c7810",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論羊刃 first whole-range reading; p119 includes next論空亡 heading, not its contents",
+      "allCharactersCollated": false
+    },
+    {
+      "page": 119,
+      "folio": "003-59a",
+      "file": "images/p119.png",
+      "sha256": "e73453d5c0e56e4aa8dca9aadb762b0af60247bec50c056473f7b5a11e22ca0f",
+      "directVisualRead": true,
+      "classification": "section-content",
+      "readScope": "論羊刃 first whole-range reading; p119 includes next論空亡 heading, not its contents",
+      "allCharactersCollated": false
+    }
+  ],
+  "sectionRanges": [
+    {
+      "heading": "論十干祿",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18
+      ],
+      "firstFolio": "003-1a",
+      "lastFolio": "003-8b",
+      "wholeRangeFirstRead": true,
+      "wholeSectionApplied": false
+    },
+    {
+      "heading": "論羊刃",
+      "pages": [
+        112,
+        113,
+        114,
+        115,
+        116,
+        117,
+        118,
+        119
+      ],
+      "firstFolio": "003-55b",
+      "lastFolio": "003-59a",
+      "wholeRangeFirstRead": true,
+      "wholeSectionApplied": false
+    }
+  ],
+  "targetedCollations": [
+    {
+      "id": "lu-ten-coordinates",
+      "pages": [
+        3,
+        4
+      ],
+      "reading": "甲寅 乙卯 丙巳 丁午 戊巳 己午 庚申 辛酉 壬亥 癸子",
+      "normalization": "Role-aware canonical 巳 branch / 己 stem; preserve raw digital bytes and log variants separately.",
+      "disposition": "Ten coordinates corroborate existing source table; not another date/strength validation."
+    },
+    {
+      "id": "lu-element-referents",
+      "pages": [
+        4
+      ],
+      "reading": "如甲見丙寅甲土尅丙水為財",
+      "disposition": "Literal 甲土/丙水 preserved. Do not substitute modern 甲木/丙火 or equate 財 with the modern day-stem TenGod automatically.",
+      "transformedElementsExplanationEstablished": false
+    },
+    {
+      "id": "lu-illustrated-combinations",
+      "pages": [
+        13,
+        14
+      ],
+      "reading": "甲祿寅+亥明合;無寅得亥暗合;無寅見丑卯兩傍虛拱;寅又見丑卯兩傍實拱",
+      "disposition": "Private branch-membership projection for explicitly illustrated 甲 only; source phrase兩傍 positional sufficiency remains unverified; no extension to ten stems or outcome."
+    },
+    {
+      "id": "lu-not-automatic-outcome",
+      "pages": [
+        14,
+        18
+      ],
+      "discontinuousExtracts": [
+        "凡人命帶祿或吉或凶或貴或賤未可全靠便為吉論",
+        "大抵命入格合造化亦不專在祿上"
+      ],
+      "disposition": "Blocks unconditional good/bad outcome implementation."
+    },
+    {
+      "id": "eight-blade-coordinates",
+      "pages": [
+        113
+      ],
+      "reading": "甲卯 乙辰 丙午 丁未 庚酉 辛戌 壬子 癸丑",
+      "explicitRows": 8,
+      "unstatedStems": [
+        "戊",
+        "己"
+      ],
+      "disposition": "Native confirmation of eight sentences quoted under希尹; not inferred ten-stem completion."
+    },
+    {
+      "id": "school-distinction",
+      "pages": [
+        118,
+        119
+      ],
+      "reading": "子平以甲丙戊庚壬五陽干有刃乙丁己辛癸五陰干無刃",
+      "continuation": "其義見後論陽刃格中",
+      "disposition": "Named source voice explains two tables; not independent historical attribution or a merged coordinate system."
+    }
+  ],
+  "entityCollation": {
+    "retainedDigitalFile": "DIGITAL_CROSSREF_LU.txt",
+    "retainedEntity": "&KR0339;",
+    "page": 18,
+    "folio": "003-8b",
+    "nativeReading": "嗤",
+    "context": "虛名虛譽足堪嗤是嫌亡也",
+    "nativeCrop": "volume3/p018-entity-crop.png",
+    "cropBox": [
+      450,
+      1300,
+      850,
+      2820
+    ],
+    "cropSHA256": "9ec1282fb2ba368927de2eada4416ba62b3fb4c35c6de21c6c06cd5d6474b95e",
+    "rawDigitalUnchanged": true,
+    "otherWitnessesCollated": false
+  },
+  "remaining": [
+    "50 Lu-pillar labelled entries and their qualifiers have been seen in pages5–8 but not completely transcribed/compiled.",
+    "Other subsidiary clauses, strength, interacting source methods and actual positional semantics remain open.",
+    "Same WYG source family; independent edition/genealogy not established."
+  ],
+  "independentEditionEstablished": false,
+  "all230PagesRead": false,
+  "allSourceImageCharactersCollated": false,
+  "wholeWorkApplied": false,
+  "newHTTPResponses": 2,
+  "httpStatuses": [
+    200,
+    200
+  ],
+  "newOriginalContainers": 1,
+  "normalTLSVerified": true
+}

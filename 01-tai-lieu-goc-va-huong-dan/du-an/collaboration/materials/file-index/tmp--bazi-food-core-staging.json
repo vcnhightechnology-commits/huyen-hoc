@@ -1,0 +1,101 @@
+{
+  "scope": "tmp/bazi-food-core-staging",
+  "files": [
+    {
+      "file": "tmp/bazi-food-core-staging/RESULTS.json",
+      "bytes": 2803,
+      "sha256": "33ce5f13addfc73850d0cee774950876d7f0eaddde3d3f8c269bc98773c5b0fb",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/33ce5f13addfc73850d0cee774950876d7f0eaddde3d3f8c269bc98773c5b0fb",
+      "httpRange": {
+        "offset": 273834781,
+        "compressedBytes": 1181,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-food-core-staging/SELECTED_PREDICATES.json",
+      "bytes": 10066,
+      "sha256": "28336013a19aa34cee89295d5a730a0604ecf635a7202e86d02d3b67baf5e809",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/28336013a19aa34cee89295d5a730a0604ecf635a7202e86d02d3b67baf5e809",
+      "httpRange": {
+        "offset": 155153201,
+        "compressedBytes": 2606,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-food-core-staging/TEN_RELATION_RESULTS.json",
+      "bytes": 3097,
+      "sha256": "b596850a855e1c33dbc0454669a9fb4338861dce68f85985772c2b0097a594aa",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b596850a855e1c33dbc0454669a9fb4338861dce68f85985772c2b0097a594aa",
+      "httpRange": {
+        "offset": 383108057,
+        "compressedBytes": 576,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-food-core-staging/WORK_STATE.json",
+      "bytes": 1914,
+      "sha256": "d312ae4c76ff60e324bdcc9485d163f421c2e8a15922ef00e87cc1a862cb2e2c",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d312ae4c76ff60e324bdcc9485d163f421c2e8a15922ef00e87cc1a862cb2e2c",
+      "httpRange": {
+        "offset": 118689192,
+        "compressedBytes": 1003,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-food-core-staging/build-selected.py",
+      "bytes": 5515,
+      "sha256": "c8a4aa5560fce43264ccc50c5af0085109a594b16bbd9e71d80a005820b75581",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c8a4aa5560fce43264ccc50c5af0085109a594b16bbd9e71d80a005820b75581",
+      "httpRange": {
+        "offset": 386959107,
+        "compressedBytes": 2434,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-food-core-staging/core-reference.mjs",
+      "bytes": 3680,
+      "sha256": "cc4c8cab5de10199dd8042918912dc44e0d2ac1a0fe9707110abb12276a9fc30",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/cc4c8cab5de10199dd8042918912dc44e0d2ac1a0fe9707110abb12276a9fc30",
+      "httpRange": {
+        "offset": 4909249,
+        "compressedBytes": 1852,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-food-core-staging/test-core.mjs",
+      "bytes": 7936,
+      "sha256": "f0d517ce9c7e3c33c86699d213ea0f8260f3327e3fe65ab9f62c84c1a5f7a9db",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f0d517ce9c7e3c33c86699d213ea0f8260f3327e3fe65ab9f62c84c1a5f7a9db",
+      "httpRange": {
+        "offset": 147226704,
+        "compressedBytes": 3314,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-food-core-staging/test-ten-relations.mjs",
+      "bytes": 2273,
+      "sha256": "3d554471b5d462914b2a87ae2473bfed88d4973ae3d7747e32df2ad8fabd2dd9",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/3d554471b5d462914b2a87ae2473bfed88d4973ae3d7747e32df2ad8fabd2dd9",
+      "httpRange": {
+        "offset": 402330944,
+        "compressedBytes": 1254,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

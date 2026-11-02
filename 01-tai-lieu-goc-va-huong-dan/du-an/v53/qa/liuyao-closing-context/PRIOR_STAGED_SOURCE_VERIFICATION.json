@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-28",
+  "sourcePDFSHA256": "caac111bc5c5b1c08fd27b3828e7cf6b5430503800f2427d8f2b28809022abaa",
+  "sourceImagesVerified": 26,
+  "contentPositions": 25,
+  "nonRuleLeaves": 1,
+  "nativeCropsPixelVerified": [
+    {
+      "record": "DETAIL_CROP.json",
+      "pixelMatch": true
+    },
+    {
+      "record": "CHART_CROP.json",
+      "pixelMatch": true
+    }
+  ],
+  "pixelReproductions": [
+    {
+      "pdfPage": 325,
+      "dpi": 144,
+      "file": "redecode-325-144.png",
+      "sha256": "cf425e07742e7733e8accdc2e528952311fb14ce64beeb034d1b578c2c0ad183",
+      "pixelMatch": true,
+      "notNewSourcePosition": true
+    },
+    {
+      "pdfPage": 334,
+      "dpi": 360,
+      "file": "redecode-334-360.png",
+      "sha256": "b78eb5566ed840c368972b34f00aa04645efb5e9f479a2a3263da1d0a87ee60c",
+      "pixelMatch": true,
+      "notNewSourcePosition": true
+    }
+  ],
+  "allImageCharactersCollated": false,
+  "clinicalOrLegalOrTravelOutcomesValidated": false,
+  "newHTTPRequests": 0,
+  "newOriginalContainers": 0,
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false
+}

@@ -1,0 +1,1341 @@
+{
+  "schema": "hhc.recovered-research-13-import.v1",
+  "date": "2026-11-01",
+  "status": "organized-for-future-research; application-code-unchanged",
+  "sourceArchive": {
+    "filename": "HUYEN_HOC_01_13_NOI_DUNG_NGHIEN_CUU_KHOI_PHUC_2026-11-01.zip",
+    "userProvidedPath": "C:\\Users\\Administrator.DESKTOP-98TGIBL\\Downloads\\HUYEN_HOC_01_13_NOI_DUNG_NGHIEN_CUU_KHOI_PHUC_2026-11-01.zip",
+    "preservedLocalPath": "recovery/research-recovery/2026-11-01/HUYEN_HOC_01_13_NOI_DUNG_NGHIEN_CUU_KHOI_PHUC_2026-11-01.zip",
+    "bytes": 229738,
+    "sha256": "6330ab6e1fbd3736bb3c7bc7e076e4cd105f9bbca106bc13b7cb451cca117483",
+    "zipTestzip": null,
+    "members": 50,
+    "uncompressedMemberBytes": 677816,
+    "sha256ManifestVerifiedMembers": 49,
+    "sha256ManifestLines": 49,
+    "sha256ManifestSelfSHA256": "7c77ca284d2626fb449f85ae710ca91b8ba99af6421e844dfad6b35720b75b65"
+  },
+  "supplementalStandaloneDocument": {
+    "filename": "NOI_DUNG_13_NHANH_KHOI_PHUC.md",
+    "userProvidedPath": "C:\\Users\\Administrator.DESKTOP-98TGIBL\\Downloads\\NOI_DUNG_13_NHANH_KHOI_PHUC.md",
+    "bytes": 32263,
+    "sha256": "e70d16957aec036145a8d101664ef0b7f5ab54336afec11533f4e25fa91f1022",
+    "byteIdenticalToArchiveMember": "00_TONG_QUAN/NOI_DUNG_13_NHANH_KHOI_PHUC.md",
+    "separateCopyStored": false
+  },
+  "declaredHistoricalAssets": {
+    "count": 33,
+    "exactOriginalBytes": 3,
+    "textExtractionUnverifiedBytes": 25,
+    "originalUnavailable": 5
+  },
+  "researchTracks": [
+    {
+      "id": "AI-01",
+      "name": "Bát Tự — Tứ Trụ, Chính Ấn và Không Vong",
+      "researchTrackDirectory": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01",
+      "historicalGitBranchRef": "ai-01",
+      "historicalPR": "13",
+      "historicalCommitSHA": "c5a630583d96f4a55a56924bd141b193e600a694 (mốc lịch sử, không phải HEAD đã xác minh)",
+      "historicalGitMetadataVerifiedAgainstCurrentRemote": false,
+      "reportedTestsHistoricalUnverified": "17/17 test trong ZIP gốc đã chạy lại ở lần tổng hợp trước; báo cáo riêng ghi 80/80 test Không Vong ngoại tuyến",
+      "reportedNextSteps": "Chưa kiểm lại ảnh gốc WYG II/III, NLC các tập, không được tự chốt chữ dị bản hoặc đưa logic phán đoán vào engine. Patch Không Vong ngày 01/11 chưa push do GitHub 403; PR #13 chỉ là trạng thái lịch sử.",
+      "currentProjectPointers": [
+        "v53/research/bazi-branch-union",
+        "v53/research/bazi-branch-clash",
+        "collaboration/imports/ai01-2026-10-31"
+      ],
+      "evidenceMembers": 12,
+      "applicationPatchApplied": false
+    },
+    {
+      "id": "AI-02",
+      "name": "Tử Bình — Dụng Thần và phân tầng truyền bản",
+      "researchTrackDirectory": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-02",
+      "historicalGitBranchRef": "codex/ai-02-tu-binh",
+      "historicalPR": "1",
+      "historicalCommitSHA": "c7bfdc5 (mốc phát triển trước đó, không xác nhận HEAD hiện thời)",
+      "historicalGitMetadataVerifiedAgainstCurrentRemote": false,
+      "reportedTestsHistoricalUnverified": "Theo báo cáo 01/11: 96/96 nhóm kiểm Node.js trên nền cục bộ/mô phỏng",
+      "reportedNextSteps": "Chưa đẩy phiên bản tích lũy 01/11 lên nhánh; cần đối ảnh `衰右/衰中`, xác minh cơ sở chứng cứ, chạy trên checkout đầy đủ và review PR #1. Không thay engine/main.",
+      "currentProjectPointers": [
+        "v53/research/bazi-food-quantity",
+        "v53/research/bazi-food-chain",
+        "EXHAUSTIVE_WORK_STATE.json#currentWork"
+      ],
+      "evidenceMembers": 7,
+      "applicationPatchApplied": false
+    },
+    {
+      "id": "AI-03",
+      "name": "Tử Vi — Đại hạn, Tiểu hạn và Tứ Hóa",
+      "researchTrackDirectory": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-03",
+      "historicalGitBranchRef": "codex/ai-03-tu-vi",
+      "historicalPR": "2",
+      "historicalCommitSHA": "712aa2ae9160c917c6a8021fa84b51389e75f0b0 (theo lịch sử)",
+      "historicalGitMetadataVerifiedAgainstCurrentRemote": false,
+      "reportedTestsHistoricalUnverified": "Theo cuộc nghiên cứu trước: 279 ca kiểm; 1.578 bất biến/điểm không xác định được giữ lại",
+      "reportedNextSteps": "Cần đối ảnh nguồn Tứ Hóa Canh, xác minh quy tắc tháng nhuận an Mệnh–Thân, Thân chủ Hỏa–Linh, miếu/vượng/hãm và khởi Đại hạn; chưa kiểm lại CI hoặc trình duyệt.",
+      "currentProjectPointers": [
+        "v53/research/tuvi-dipper-windows",
+        "v53/research/tuvi-shidian-witness",
+        "v53/research/tuvi-*"
+      ],
+      "evidenceMembers": 1,
+      "applicationPatchApplied": false
+    },
+    {
+      "id": "AI-04",
+      "name": "Lục Hào — Nạp Giáp, Quái Thân và cách chọn Dụng Thần",
+      "researchTrackDirectory": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-04",
+      "historicalGitBranchRef": "Nhánh AI-04 (tên ref chính xác chưa xác minh lại)",
+      "historicalPR": "4",
+      "historicalCommitSHA": "fb3be4e (mốc lịch sử rút gọn)",
+      "historicalGitMetadataVerifiedAgainstCurrentRemote": false,
+      "reportedTestsHistoricalUnverified": "Q09: 9/9 hoặc 10/10 bài kiểm dữ liệu ở các vòng khác nhau; quét 8.748 tổ hợp theo báo cáo",
+      "reportedNextSteps": "Q05 (Không, Phá, Phi Phục, Dụng thần), hình thành bảng nguồn/điều kiện cho Nguyên–Kỵ–Cừu thần, đối ảnh cổ thư và kiểm toàn checkout.",
+      "currentProjectPointers": [
+        "v53/research/liuyao-multiple-use",
+        "v53/research/liuyao-use-god",
+        "v53/research/liuyao-b02-jinqian"
+      ],
+      "evidenceMembers": 1,
+      "applicationPatchApplied": false
+    },
+    {
+      "id": "AI-05",
+      "name": "Mai Hoa Dịch Số — Lục thần, Thể–Dụng, ngoại ứng",
+      "researchTrackDirectory": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-05",
+      "historicalGitBranchRef": "codex/ai-05-mai-hoa",
+      "historicalPR": "6",
+      "historicalCommitSHA": "Không có SHA cuối được xác minh lại",
+      "historicalGitMetadataVerifiedAgainstCurrentRemote": false,
+      "reportedTestsHistoricalUnverified": "Theo lịch sử: 18 chủ đề/85 mệnh đề; 12/12 nhóm kiểm, 25 mùa–ngũ hành và 60 chi–ngũ hành",
+      "reportedNextSteps": "Dị bản lập quẻ, điều kiện Thể/Dụng và Hậu thiên thời-phương, ngoại ứng, đoán chữ; không gắn suy luận khi chưa xác định bản và ngữ cảnh.",
+      "currentProjectPointers": [
+        "v53/research/meihua",
+        "v53/research/meihua-methods",
+        "v53/research/meihua-reading",
+        "EXHAUSTIVE_WORK_STATE.json#previousMaiHoaWork"
+      ],
+      "evidenceMembers": 1,
+      "applicationPatchApplied": false
+    },
+    {
+      "id": "AI-06",
+      "name": "Chu Dịch — Kinh văn, Thập Dực và khảo dị",
+      "researchTrackDirectory": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-06",
+      "historicalGitBranchRef": "codex/ai-06-chu-dich",
+      "historicalPR": "PR nháp có ghi nhận, chưa xác định số",
+      "historicalCommitSHA": "Không kiểm được SHA HEAD hiện thời",
+      "historicalGitMetadataVerifiedAgainstCurrentRemote": false,
+      "reportedTestsHistoricalUnverified": "Theo lịch sử: 384 vị trí hào, 61 dị văn, 16 liên kết đối chiếu; 15/16 khớp chữ",
+      "reportedNextSteps": "Cần đối lại chữ với ảnh in/đồ hình và nguồn độc lập, chạy validator trên checkout đầy đủ và đánh dấu phân biệt chính kinh/truyện/chú.",
+      "currentProjectPointers": [
+        "v53/research/yi-complete",
+        "v53/research/yi-lines",
+        "v53/research/yi-second-witness"
+      ],
+      "evidenceMembers": 1,
+      "applicationPatchApplied": false
+    },
+    {
+      "id": "AI-07",
+      "name": "Âm Trạch — Táng Thư, Nhân Tử Tu Tri, Địa Lý Đại Thành",
+      "researchTrackDirectory": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-07",
+      "historicalGitBranchRef": "codex/ai-07-am-trach",
+      "historicalPR": "5",
+      "historicalCommitSHA": "Không kiểm được SHA HEAD hiện thời",
+      "historicalGitMetadataVerifiedAgainstCurrentRemote": false,
+      "reportedTestsHistoricalUnverified": "Theo lịch sử: 234/234 kiểm dữ liệu và 14/14 bài unit mẫu",
+      "reportedNextSteps": "Đối ảnh từng quyển và xác minh nhân chứng bản in độc lập; chưa đưa phép luận âm trạch vào bộ tính.",
+      "currentProjectPointers": [
+        "v53/research/home-tomb-diagrams (chỉ đầu mối theo chủ đề)",
+        "v53/research/library-current/COVERAGE.json"
+      ],
+      "evidenceMembers": 1,
+      "applicationPatchApplied": false
+    },
+    {
+      "id": "AI-08",
+      "name": "Dương Trạch — 24 Sơn, Song Sơn và Phóng Thủy",
+      "researchTrackDirectory": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-08",
+      "historicalGitBranchRef": "codex/ai-08-duong-trach",
+      "historicalPR": "7",
+      "historicalCommitSHA": "Không kiểm được SHA HEAD hiện thời",
+      "historicalGitMetadataVerifiedAgainstCurrentRemote": false,
+      "reportedTestsHistoricalUnverified": "Theo lịch sử: 7/7 Python unit tests đạt",
+      "reportedNextSteps": "Đối ảnh trang 107 (âm dương), 109 (điều kiện), 110 (hàng 未); không gộp song sơn hoặc suy quy tắc duy nhất khi các truyền bản khác nhau.",
+      "currentProjectPointers": [
+        "v53/research/home-yangzhai-shishu",
+        "v53/research/home-yangzhai-courtyards",
+        "v53/research/home-yangzhai-door-water",
+        "v53/research/home-yangzhai-fuyuan"
+      ],
+      "evidenceMembers": 1,
+      "applicationPatchApplied": false
+    },
+    {
+      "id": "AI-09",
+      "name": "Trạch Nhật — Khâm Định Hiệp Kỷ Biện Phương Thư",
+      "researchTrackDirectory": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-09",
+      "historicalGitBranchRef": "codex/ai-09-trach-nhat",
+      "historicalPR": "8",
+      "historicalCommitSHA": "9afb4c2cdd2 (mốc lịch sử rút gọn)",
+      "historicalGitMetadataVerifiedAgainstCurrentRemote": false,
+      "reportedTestsHistoricalUnverified": "Theo lịch sử: kiểm 4.096 cấu hình × 13 mốc = 53.248 đối chiếu",
+      "reportedNextSteps": "Đối ảnh CADAL và NDL/CiNii, xác định truyền bản, giới hạn theo Dụng sự; chưa nhập engine.",
+      "currentProjectPointers": [
+        "v53/research/home-month-labels",
+        "v53/research/home-month-spatial",
+        "v53/research/home-day-markers"
+      ],
+      "evidenceMembers": 1,
+      "applicationPatchApplied": false
+    },
+    {
+      "id": "AI-10",
+      "name": "Tam Thức — Kỳ Môn Độn Giáp, Lục Nhâm, Thái Ất",
+      "researchTrackDirectory": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10",
+      "historicalGitBranchRef": "codex/ai-10-tam-thuc",
+      "historicalPR": "11",
+      "historicalCommitSHA": "3fba778df2db68cd0fdbb472a271b1322dcc66ae (mốc cuối ghi nhận trước lỗi 403)",
+      "historicalGitMetadataVerifiedAgainstCurrentRemote": false,
+      "reportedTestsHistoricalUnverified": "118/118 ca cục bộ trong 13 tệp hiện có; manifest bắt buộc 24 tệp, thiếu 11; full suite CHƯA đạt",
+      "reportedNextSteps": "Cần khôi phục đủ 24 test, chạy GitHub Actions và V53, đối nguồn S01/S02/S03 và rà người duyệt. PR #11 tiếp tục Draft.",
+      "currentProjectPointers": [
+        "v53/research/library-current/COVERAGE.json (chưa xác định thư mục triển khai tương đương)"
+      ],
+      "evidenceMembers": 10,
+      "applicationPatchApplied": false
+    },
+    {
+      "id": "AI-11",
+      "name": "Hán Nôm — Chỉ mục nguồn và khảo dị kinh truyện",
+      "researchTrackDirectory": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-11",
+      "historicalGitBranchRef": "codex/ai-11-han-nom",
+      "historicalPR": "10",
+      "historicalCommitSHA": "9680aa12ac66b7d9a70c0746bef59275337185f9 (mốc lịch sử)",
+      "historicalGitMetadataVerifiedAgainstCurrentRemote": false,
+      "reportedTestsHistoricalUnverified": "Theo lịch sử: 225/225 kiểm cấu trúc",
+      "reportedNextSteps": "Cần ảnh gốc/folio, SHA-256 ảnh/PDF, kiểm nhân chứng in độc lập và Node trên checkout hoàn chỉnh.",
+      "currentProjectPointers": [
+        "v53/research/library-audit",
+        "v53/research/library-current/COVERAGE.json",
+        "v53/research/yi-*"
+      ],
+      "evidenceMembers": 1,
+      "applicationPatchApplied": false
+    },
+    {
+      "id": "AI-12",
+      "name": "Nhân Tướng — Thần Tướng Toàn Biên, Ma Y Tướng Pháp",
+      "researchTrackDirectory": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-12",
+      "historicalGitBranchRef": "codex/ai-12-nhan-tuong",
+      "historicalPR": "9",
+      "historicalCommitSHA": "Không xác minh SHA cuối hiện thời",
+      "historicalGitMetadataVerifiedAgainstCurrentRemote": false,
+      "reportedTestsHistoricalUnverified": "Theo lịch sử: 22/22 kiểm hồ sơ dữ liệu",
+      "reportedNextSteps": "Đối ảnh trang sách/PDF, SHA-256 và tính độc lập của truyền bản; thử Node CLI trên checkout đầy đủ.",
+      "currentProjectPointers": [
+        "v53/research/library-current/COVERAGE.json (chưa xác định nhánh chức năng tương đương)"
+      ],
+      "evidenceMembers": 1,
+      "applicationPatchApplied": false
+    },
+    {
+      "id": "AI-13",
+      "name": "Lịch Pháp — Tiết Khí, Can Chi và quy ước lịch Việt Nam",
+      "researchTrackDirectory": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-13",
+      "historicalGitBranchRef": "codex/ai-13-lich-phap",
+      "historicalPR": "12",
+      "historicalCommitSHA": "a6c925f44fd7 (mốc trước, chưa kiểm HEAD)",
+      "historicalGitMetadataVerifiedAgainstCurrentRemote": false,
+      "reportedTestsHistoricalUnverified": "Theo lịch sử: 12/12 tiết Jie HKO 2026 đến phút; 48/48 kiểm ranh; 5/5 nhãn Can Chi; các vòng riêng báo 36/36 mốc và 2.412 mốc khảo sát",
+      "reportedNextSteps": "Cần chứng thực lịch hành chính gốc 1975 miền Nam, đối ảnh/PDF HKO và SHA, chạy đầy đủ CI và hồi quy chuyển ngày; chưa tự chọn lá số khi nguồn lịch mơ hồ.",
+      "currentProjectPointers": [
+        "v53/research/month-boundaries",
+        "v53/engine.js",
+        "v53/research/library-current/COVERAGE.json"
+      ],
+      "evidenceMembers": 3,
+      "applicationPatchApplied": false
+    }
+  ],
+  "archiveMembers": [
+    {
+      "archivePath": "00_TONG_QUAN/DANH_MUC_33_TEP_VA_TINH_TRANG_KHOI_PHUC.csv",
+      "bytes": 7492,
+      "sha256": "39c842a5918ca0aa758a1cbd287188b0e330b20b39b76e84b2dfa1424f87624e",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/source-materials/overview/DANH_MUC_33_TEP_VA_TINH_TRANG_KHOI_PHUC.csv",
+      "category": "source-overview",
+      "inventoryStatus": null,
+      "originalSourceName": null,
+      "originalSourceBytes": null,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "00_TONG_QUAN/DANH_MUC_33_TEP_VA_TINH_TRANG_KHOI_PHUC.json",
+      "bytes": 14771,
+      "sha256": "0f1dada8825e68d3f2d222301793e06ec43879a78792c136e410ba3be424df8b",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/source-materials/overview/DANH_MUC_33_TEP_VA_TINH_TRANG_KHOI_PHUC.json",
+      "category": "source-overview",
+      "inventoryStatus": null,
+      "originalSourceName": null,
+      "originalSourceBytes": null,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "00_TONG_QUAN/NOI_DUNG_13_NHANH_KHOI_PHUC.md",
+      "bytes": 32263,
+      "sha256": "e70d16957aec036145a8d101664ef0b7f5ab54336afec11533f4e25fa91f1022",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/source-materials/overview/NOI_DUNG_13_NHANH_KHOI_PHUC.md",
+      "category": "source-overview",
+      "inventoryStatus": null,
+      "originalSourceName": null,
+      "originalSourceBytes": null,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "00_TONG_QUAN/THONG_TIN_13_NHANH.json",
+      "bytes": 24130,
+      "sha256": "46a925e80b6443141de7d0ea4a2f5012c6e29678fe03bd9194b0a3dadd040a09",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/source-materials/overview/THONG_TIN_13_NHANH.json",
+      "category": "source-overview",
+      "inventoryStatus": null,
+      "originalSourceName": null,
+      "originalSourceBytes": null,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "01_HO_SO_NGHIEN_CUU_13_NHANH/AI-01_HO_SO_KHOI_PHUC.md",
+      "bytes": 3005,
+      "sha256": "aaac545bc174a4ee4a5f5aaa77a6437edf5ee8110e42a70104d3565bf9be547e",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/HANDOFF.md",
+      "category": "branch-handoff",
+      "inventoryStatus": null,
+      "originalSourceName": null,
+      "originalSourceBytes": null,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "01_HO_SO_NGHIEN_CUU_13_NHANH/AI-02_HO_SO_KHOI_PHUC.md",
+      "bytes": 2973,
+      "sha256": "efafd53d0ee0860d22424b10d9a6f76cd794f6f9ebe9e26d96ec1ca99853d5c1",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-02/HANDOFF.md",
+      "category": "branch-handoff",
+      "inventoryStatus": null,
+      "originalSourceName": null,
+      "originalSourceBytes": null,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "01_HO_SO_NGHIEN_CUU_13_NHANH/AI-03_HO_SO_KHOI_PHUC.md",
+      "bytes": 2387,
+      "sha256": "1e96e8f9bdc7ee6d0f46233d132d9952f4abfb5581e660190ace34483db636c9",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-03/HANDOFF.md",
+      "category": "branch-handoff",
+      "inventoryStatus": null,
+      "originalSourceName": null,
+      "originalSourceBytes": null,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "01_HO_SO_NGHIEN_CUU_13_NHANH/AI-04_HO_SO_KHOI_PHUC.md",
+      "bytes": 2132,
+      "sha256": "5803fd3e6a5d0627e43c4a866069568111ba6f60ce2f3898ca5c7408b151d6fd",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-04/HANDOFF.md",
+      "category": "branch-handoff",
+      "inventoryStatus": null,
+      "originalSourceName": null,
+      "originalSourceBytes": null,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "01_HO_SO_NGHIEN_CUU_13_NHANH/AI-05_HO_SO_KHOI_PHUC.md",
+      "bytes": 2225,
+      "sha256": "3310631849778922b214448a35a593321476a44aa94450637c03e3cf3ab4f94e",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-05/HANDOFF.md",
+      "category": "branch-handoff",
+      "inventoryStatus": null,
+      "originalSourceName": null,
+      "originalSourceBytes": null,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "01_HO_SO_NGHIEN_CUU_13_NHANH/AI-06_HO_SO_KHOI_PHUC.md",
+      "bytes": 2329,
+      "sha256": "c3c33f3387d72dff25b4f9356e4fb4ce43f66a859c0d5bc37cb560d2ab0c5aef",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-06/HANDOFF.md",
+      "category": "branch-handoff",
+      "inventoryStatus": null,
+      "originalSourceName": null,
+      "originalSourceBytes": null,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "01_HO_SO_NGHIEN_CUU_13_NHANH/AI-07_HO_SO_KHOI_PHUC.md",
+      "bytes": 2237,
+      "sha256": "62ce86eef591d1760f46e22f87946c7407f5e25de4443865d199c34ef0e3588d",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-07/HANDOFF.md",
+      "category": "branch-handoff",
+      "inventoryStatus": null,
+      "originalSourceName": null,
+      "originalSourceBytes": null,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "01_HO_SO_NGHIEN_CUU_13_NHANH/AI-08_HO_SO_KHOI_PHUC.md",
+      "bytes": 2020,
+      "sha256": "0ea96b2a9308784d61b96639178d6e60e96654d5607ac52f7465935bbe99b197",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-08/HANDOFF.md",
+      "category": "branch-handoff",
+      "inventoryStatus": null,
+      "originalSourceName": null,
+      "originalSourceBytes": null,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "01_HO_SO_NGHIEN_CUU_13_NHANH/AI-09_HO_SO_KHOI_PHUC.md",
+      "bytes": 2228,
+      "sha256": "6de37d02954da857d6da617f9d98eff84facc6fd8401e1292e35cc83c6822e44",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-09/HANDOFF.md",
+      "category": "branch-handoff",
+      "inventoryStatus": null,
+      "originalSourceName": null,
+      "originalSourceBytes": null,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "01_HO_SO_NGHIEN_CUU_13_NHANH/AI-10_HO_SO_KHOI_PHUC.md",
+      "bytes": 2944,
+      "sha256": "8d30e08e3be5f15938ea61b07df32854c27740ccd4b73d4e9ff763595dbcd2ba",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10/HANDOFF.md",
+      "category": "branch-handoff",
+      "inventoryStatus": null,
+      "originalSourceName": null,
+      "originalSourceBytes": null,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "01_HO_SO_NGHIEN_CUU_13_NHANH/AI-11_HO_SO_KHOI_PHUC.md",
+      "bytes": 1943,
+      "sha256": "e798315fe539d6eda10ee39391ea8b21837bb4812e59ad55859ea71af5e1d6ca",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-11/HANDOFF.md",
+      "category": "branch-handoff",
+      "inventoryStatus": null,
+      "originalSourceName": null,
+      "originalSourceBytes": null,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "01_HO_SO_NGHIEN_CUU_13_NHANH/AI-12_HO_SO_KHOI_PHUC.md",
+      "bytes": 2004,
+      "sha256": "4f516f86b6a6abccc9359ba9e65ea2e0801735042ad189293960e965056b7f24",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-12/HANDOFF.md",
+      "category": "branch-handoff",
+      "inventoryStatus": null,
+      "originalSourceName": null,
+      "originalSourceBytes": null,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "01_HO_SO_NGHIEN_CUU_13_NHANH/AI-13_HO_SO_KHOI_PHUC.md",
+      "bytes": 2887,
+      "sha256": "df28995d75ef5bf7757e69543f9cc6e72e907ccf9cc7a324f5e230c7bd6dd4ff",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-13/HANDOFF.md",
+      "category": "branch-handoff",
+      "inventoryStatus": null,
+      "originalSourceName": null,
+      "originalSourceBytes": null,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "02_TEP_GOC_DA_LAY_DUOC/AI-01/AI01_CONTINUATION_PATCH_2026-10-31.zip",
+      "bytes": 16722,
+      "sha256": "9e6d7de8be5f9c32b738db140c243b8357cc357b9ed105e43f0b1b205c212b61",
+      "checksumManifestVerified": true,
+      "projectPath": null,
+      "category": "exact-original-binary-preserved-in-original-archive-only",
+      "inventoryStatus": "original_bytes",
+      "originalSourceName": "AI01_CONTINUATION_PATCH_2026-10-31.zip",
+      "originalSourceBytes": 16722,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": true
+    },
+    {
+      "archivePath": "02_TEP_GOC_DA_LAY_DUOC/AI-01/AI01_CONTINUATION_REPORT.md",
+      "bytes": 14108,
+      "sha256": "38e6fae0fcec9ed904a8a1a90f567d8d89240913b2beeac07106d0117bd4f399",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/evidence/AI01_CONTINUATION_REPORT.md",
+      "category": "exact-original-text",
+      "inventoryStatus": "original_bytes",
+      "originalSourceName": "AI01_CONTINUATION_REPORT.md",
+      "originalSourceBytes": 14108,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "02_TEP_GOC_DA_LAY_DUOC/AI-01/AI01_TEST_RESULTS.txt",
+      "bytes": 1997,
+      "sha256": "4b09acc4a48b0ef3cb3cac7656b96aa26dfc2ee9188126febc8a4e73a1cd2ed2",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/evidence/AI01_TEST_RESULTS.txt",
+      "category": "exact-original-text",
+      "inventoryStatus": "original_bytes",
+      "originalSourceName": "AI01_TEST_RESULTS.txt",
+      "originalSourceBytes": 1997,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-01/AI01_KONGWANG_HANDOFF_2026-11-01_EXTENDED.md.extracted.txt",
+      "bytes": 4729,
+      "sha256": "8384e586e0839f37da062885c5168116b18463cdd27d3ac88b3fcf6edaa76dc2",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/evidence/extracted-unverified/AI01_KONGWANG_HANDOFF_2026-11-01_EXTENDED.md.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "AI01_KONGWANG_HANDOFF_2026-11-01_EXTENDED.md",
+      "originalSourceBytes": 4730,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-01/WYG3_KONGWANG_CROSS_AXIS_REPORT.md.extracted.txt",
+      "bytes": 9782,
+      "sha256": "8ba923daad5f7bc5883f67d82b1a5dbaf996c85057ad2cd8566e15985a8ac6dd",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/evidence/extracted-unverified/WYG3_KONGWANG_CROSS_AXIS_REPORT.md.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "WYG3_KONGWANG_CROSS_AXIS_REPORT.md",
+      "originalSourceBytes": 9783,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-01/WYG3_KONGWANG_JOINT_FINGERPRINT_REPORT.md.extracted.txt",
+      "bytes": 8229,
+      "sha256": "31aabdf181abc86c6522a0bf607e0b096741f9c0797a4ba94bcff3ba6fd9ae20",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/evidence/extracted-unverified/WYG3_KONGWANG_JOINT_FINGERPRINT_REPORT.md.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "WYG3_KONGWANG_JOINT_FINGERPRINT_REPORT.md",
+      "originalSourceBytes": 8230,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-01/ai01_kongwang_2026-11-01.patch.extracted.txt",
+      "bytes": 46383,
+      "sha256": "2d6a94718ad82dbb24335eebfc8ac26ff7ae3332880b3b3fb8a64ff8c5ed6c59",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/evidence/extracted-unverified/ai01_kongwang_2026-11-01.patch.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "ai01_kongwang_2026-11-01.patch",
+      "originalSourceBytes": 59165,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-01/ai01_kongwang_2026-11-01_addon.patch.extracted.txt",
+      "bytes": 29801,
+      "sha256": "caada63b93c7dc992735cc15790c91e69229fd4726247dd3deb000054ba5c084",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/evidence/extracted-unverified/ai01_kongwang_2026-11-01_addon.patch.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "ai01_kongwang_2026-11-01_addon.patch",
+      "originalSourceBytes": 56956,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-01/ai01_kongwang_2026-11-01_cumulative.patch.extracted.txt",
+      "bytes": 32799,
+      "sha256": "a1693917e781ab44b20b5e1976d1c03af387e0cd88837bacc40f0ba329a93d75",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/evidence/extracted-unverified/ai01_kongwang_2026-11-01_cumulative.patch.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "ai01_kongwang_2026-11-01_cumulative.patch",
+      "originalSourceBytes": 115857,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-01/ai01_kongwang_2026-11-01_extended_tests.txt.extracted.txt",
+      "bytes": 16793,
+      "sha256": "907dfef60a60be1a9da35149d458a4cf4b8dd916fc148f15e3faf2e4a145d1b4",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/evidence/extracted-unverified/ai01_kongwang_2026-11-01_extended_tests.txt.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "ai01_kongwang_2026-11-01_extended_tests.txt",
+      "originalSourceBytes": 16794,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-01/ai01_kongwang_test_output.txt.extracted.txt",
+      "bytes": 11053,
+      "sha256": "13698c9189331ee1b24b895875579bab4b87772911b53d018b4109434739bc3a",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/evidence/extracted-unverified/ai01_kongwang_test_output.txt.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "ai01_kongwang_test_output.txt",
+      "originalSourceBytes": 11054,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-02/AI02_CUMULATIVE_FILE_HASHES_2026-11-01.json.extracted.txt",
+      "bytes": 7010,
+      "sha256": "0ea8bdd4944eaeca48bbf7e84b66efe4a9f541e4edc00266aeee509d7c03ee51",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-02/evidence/extracted-unverified/AI02_CUMULATIVE_FILE_HASHES_2026-11-01.json.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "AI02_CUMULATIVE_FILE_HASHES_2026-11-01.json",
+      "originalSourceBytes": 7011,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-02/AI02_CUMULATIVE_QA_AND_M03_2026-11-01.patch.extracted.txt",
+      "bytes": 57803,
+      "sha256": "56a46435de11a2f8557b3ddcf6381c24275df4783d63a98d17752d74d04cdccb",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-02/evidence/extracted-unverified/AI02_CUMULATIVE_QA_AND_M03_2026-11-01.patch.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "AI02_CUMULATIVE_QA_AND_M03_2026-11-01.patch",
+      "originalSourceBytes": 57804,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-02/AI02_PREIMPORT_LOCK_PATCH_2026-11-01(1).patch.extracted.txt",
+      "bytes": 20919,
+      "sha256": "55d610779b45ef00d15223eddc56870022d85d83e891f4204a555764ee77dcac",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-02/evidence/extracted-unverified/AI02_PREIMPORT_LOCK_PATCH_2026-11-01.patch.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "AI02_PREIMPORT_LOCK_PATCH_2026-11-01(1).patch",
+      "originalSourceBytes": 20920,
+      "deduplicatedTo": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-02/evidence/extracted-unverified/AI02_PREIMPORT_LOCK_PATCH_2026-11-01.patch.extracted.txt",
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-02/AI02_PREIMPORT_LOCK_PATCH_2026-11-01.patch.extracted.txt",
+      "bytes": 20919,
+      "sha256": "55d610779b45ef00d15223eddc56870022d85d83e891f4204a555764ee77dcac",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-02/evidence/extracted-unverified/AI02_PREIMPORT_LOCK_PATCH_2026-11-01.patch.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "AI02_PREIMPORT_LOCK_PATCH_2026-11-01.patch",
+      "originalSourceBytes": 20920,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-02/README_APPLY_AI02_2026-11-01.md.extracted.txt",
+      "bytes": 2767,
+      "sha256": "d91c3e25b1b8bab93f321a06322e32aadd582a5e5055aae98a8edcd72fc8d783",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-02/evidence/extracted-unverified/README_APPLY_AI02_2026-11-01.md.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "README_APPLY_AI02_2026-11-01.md",
+      "originalSourceBytes": 2768,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-02/README_APPLY_AI02_CUMULATIVE_2026-11-01.md.extracted.txt",
+      "bytes": 4296,
+      "sha256": "9488022e26a9c9a4df3c2347b9f32536b79524abea724f5cbeddcbb8b960028f",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-02/evidence/extracted-unverified/README_APPLY_AI02_CUMULATIVE_2026-11-01.md.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "README_APPLY_AI02_CUMULATIVE_2026-11-01.md",
+      "originalSourceBytes": 4297,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-10/AI10_2026-11-01_INTEGRITY_GATES_REPORT.md.extracted.txt",
+      "bytes": 9023,
+      "sha256": "c2a00515a2854cf196d127646f1345b4f9e4ac9011d9a59ef646e1d5f8a74ee8",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10/evidence/extracted-unverified/AI10_2026-11-01_INTEGRITY_GATES_REPORT.md.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "AI10_2026-11-01_INTEGRITY_GATES_REPORT.md",
+      "originalSourceBytes": 9024,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-10/AI10_2026-11-01_INTEGRITY_GATES_STATE.json.extracted.txt",
+      "bytes": 1767,
+      "sha256": "078343f371aad96bddad921de0aa52e38fd290256e6d42d882fae4e41ba23b5e",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10/evidence/extracted-unverified/AI10_2026-11-01_INTEGRITY_GATES_STATE.json.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "AI10_2026-11-01_INTEGRITY_GATES_STATE.json",
+      "originalSourceBytes": 1768,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-10/AI10_dependency_hardening_2026-11-01.patch.extracted.txt",
+      "bytes": 45169,
+      "sha256": "d60de616965a2752366142e4b12ce22585c11de86036aeec39805a0d5887bbc5",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10/evidence/extracted-unverified/AI10_dependency_hardening_2026-11-01.patch.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "AI10_dependency_hardening_2026-11-01.patch",
+      "originalSourceBytes": 45170,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-10/AI10_dependency_hardening_2026-11-01_report.md.extracted.txt",
+      "bytes": 7124,
+      "sha256": "d33cd976ae7dee2f15dd600fb5d674c74728ce23af204da369a1a963be078506",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10/evidence/extracted-unverified/AI10_dependency_hardening_2026-11-01_report.md.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "AI10_dependency_hardening_2026-11-01_report.md",
+      "originalSourceBytes": 7125,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-10/AI10_dependency_hardening_2026-11-01_test.tap.extracted.txt",
+      "bytes": 22882,
+      "sha256": "f9a100928f06749f4440549d6f51dcfc51c78e8fb000621ccfe817785eb94c25",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10/evidence/extracted-unverified/AI10_dependency_hardening_2026-11-01_test.tap.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "AI10_dependency_hardening_2026-11-01_test.tap",
+      "originalSourceBytes": 22883,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-10/AI10_integrity_delivery_manifest_2026-11-01.json.extracted.txt",
+      "bytes": 1691,
+      "sha256": "da1e8403272586af02735cf69dc9e93d14190b01df30cded93998dcd2ec1a257",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10/evidence/extracted-unverified/AI10_integrity_delivery_manifest_2026-11-01.json.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "AI10_integrity_delivery_manifest_2026-11-01.json",
+      "originalSourceBytes": 1692,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-10/AI10_integrity_hardening_2026-11-01_tests.tap.extracted.txt",
+      "bytes": 26467,
+      "sha256": "82db08e9daa8c16340008597f592029563fe73c6434a12b707dd669a8e36c039",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10/evidence/extracted-unverified/AI10_integrity_hardening_2026-11-01_tests.tap.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "AI10_integrity_hardening_2026-11-01_tests.tap",
+      "originalSourceBytes": 26468,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-10/AI10_integrity_hardening_combined_2026-11-01.patch.extracted.txt",
+      "bytes": 62070,
+      "sha256": "52b78feee023e40f1a749757d30161276a75a4fe920d98c3536aadd3fdf5fa62",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10/evidence/extracted-unverified/AI10_integrity_hardening_combined_2026-11-01.patch.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "AI10_integrity_hardening_combined_2026-11-01.patch",
+      "originalSourceBytes": 76366,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-10/AI10_integrity_hardening_incremental_2026-11-01.patch.extracted.txt",
+      "bytes": 43350,
+      "sha256": "4b41f57afca3752a3fd32b2d76f3cbfb14743d39f5a52c75794e591ceb565966",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10/evidence/extracted-unverified/AI10_integrity_hardening_incremental_2026-11-01.patch.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "AI10_integrity_hardening_incremental_2026-11-01.patch",
+      "originalSourceBytes": 43351,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-13/calendar-authority-policy(1).mjs.extracted.txt",
+      "bytes": 9179,
+      "sha256": "94c97f7961feb88f02485fc454716a137788a35dfda649d982dd4f7ba0a9cc87",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-13/evidence/extracted-unverified/calendar-authority-policy.mjs.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "calendar-authority-policy(1).mjs",
+      "originalSourceBytes": 9180,
+      "deduplicatedTo": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-13/evidence/extracted-unverified/calendar-authority-policy.mjs.extracted.txt",
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "03_BAN_VAN_BAN_TRICH_XUAT/AI-13/calendar-authority-policy.mjs.extracted.txt",
+      "bytes": 9179,
+      "sha256": "94c97f7961feb88f02485fc454716a137788a35dfda649d982dd4f7ba0a9cc87",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-13/evidence/extracted-unverified/calendar-authority-policy.mjs.extracted.txt",
+      "category": "lossy-text-extraction",
+      "inventoryStatus": "text_extraction_unverified_bytes",
+      "originalSourceName": "calendar-authority-policy.mjs",
+      "originalSourceBytes": 9180,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "04_BAO_CAO_CU/BAO_CAO_TONG_HOP_CU.md",
+      "bytes": 5850,
+      "sha256": "39923c2d634f7c3c495bd58369fbd93a01b5f3a93b5c0799a8279aba99328c4d",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/source-materials/historical/BAO_CAO_TONG_HOP_CU.md",
+      "category": "historical-source-summary",
+      "inventoryStatus": null,
+      "originalSourceName": null,
+      "originalSourceBytes": null,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "04_BAO_CAO_CU/DANH_MUC_33_TEP_CU.csv",
+      "bytes": 6787,
+      "sha256": "91ca789a288677dfd230aaf538a81503e67e2e9cec7fad77620be8baa2c6f192",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/source-materials/historical/DANH_MUC_33_TEP_CU.csv",
+      "category": "historical-source-summary",
+      "inventoryStatus": null,
+      "originalSourceName": null,
+      "originalSourceBytes": null,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "05_KIEM_TRA/AI01_local_retest_previous.log",
+      "bytes": 1997,
+      "sha256": "f0bbafec7d165fd8b7a32cdbe9c4a554d73da70af4e2cbda6a5d40f32c32ee30",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/evidence/AI01_local_retest_previous.log",
+      "category": "historical-local-test-log",
+      "inventoryStatus": null,
+      "originalSourceName": null,
+      "originalSourceBytes": null,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "README_BAT_DAU.md",
+      "bytes": 2566,
+      "sha256": "86cc7c2d8962f58b12e5e783ed74e3ff4c422f5b1ee9e7c47a30ed50a7a5f897",
+      "checksumManifestVerified": true,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/source-materials/README_BAT_DAU.md",
+      "category": "source-readme",
+      "inventoryStatus": null,
+      "originalSourceName": null,
+      "originalSourceBytes": null,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    },
+    {
+      "archivePath": "SHA256SUMS.txt",
+      "bytes": 6635,
+      "sha256": "7c77ca284d2626fb449f85ae710ca91b8ba99af6421e844dfad6b35720b75b65",
+      "checksumManifestVerified": false,
+      "projectPath": "collaboration/imports/recovery-13-branches-2026-11-01/source-materials/SHA256SUMS.txt",
+      "category": "member-checksum-manifest",
+      "inventoryStatus": null,
+      "originalSourceName": null,
+      "originalSourceBytes": null,
+      "deduplicatedTo": null,
+      "preservedWithinLocalOriginalArchive": false
+    }
+  ],
+  "curatedFiles": [
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/BRANCH_INDEX.md",
+      "bytes": 4436,
+      "sha256": "9acbcc083ed85f0b47b30a7d54f3872cf623811cc6dfae66bffcf005c0ed2bf5"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/BRANCH.json",
+      "bytes": 1123,
+      "sha256": "6691b758bd5564277da327845ab41a0a42780937f73f624dcf10019805dc61e6"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/evidence/AI01_CONTINUATION_REPORT.md",
+      "bytes": 14108,
+      "sha256": "38e6fae0fcec9ed904a8a1a90f567d8d89240913b2beeac07106d0117bd4f399"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/evidence/AI01_local_retest_previous.log",
+      "bytes": 1997,
+      "sha256": "f0bbafec7d165fd8b7a32cdbe9c4a554d73da70af4e2cbda6a5d40f32c32ee30"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/evidence/AI01_TEST_RESULTS.txt",
+      "bytes": 1997,
+      "sha256": "4b09acc4a48b0ef3cb3cac7656b96aa26dfc2ee9188126febc8a4e73a1cd2ed2"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/evidence/extracted-unverified/ai01_kongwang_2026-11-01.patch.extracted.txt",
+      "bytes": 46383,
+      "sha256": "2d6a94718ad82dbb24335eebfc8ac26ff7ae3332880b3b3fb8a64ff8c5ed6c59"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/evidence/extracted-unverified/ai01_kongwang_2026-11-01_addon.patch.extracted.txt",
+      "bytes": 29801,
+      "sha256": "caada63b93c7dc992735cc15790c91e69229fd4726247dd3deb000054ba5c084"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/evidence/extracted-unverified/ai01_kongwang_2026-11-01_cumulative.patch.extracted.txt",
+      "bytes": 32799,
+      "sha256": "a1693917e781ab44b20b5e1976d1c03af387e0cd88837bacc40f0ba329a93d75"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/evidence/extracted-unverified/ai01_kongwang_2026-11-01_extended_tests.txt.extracted.txt",
+      "bytes": 16793,
+      "sha256": "907dfef60a60be1a9da35149d458a4cf4b8dd916fc148f15e3faf2e4a145d1b4"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/evidence/extracted-unverified/AI01_KONGWANG_HANDOFF_2026-11-01_EXTENDED.md.extracted.txt",
+      "bytes": 4729,
+      "sha256": "8384e586e0839f37da062885c5168116b18463cdd27d3ac88b3fcf6edaa76dc2"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/evidence/extracted-unverified/ai01_kongwang_test_output.txt.extracted.txt",
+      "bytes": 11053,
+      "sha256": "13698c9189331ee1b24b895875579bab4b87772911b53d018b4109434739bc3a"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/evidence/extracted-unverified/WYG3_KONGWANG_CROSS_AXIS_REPORT.md.extracted.txt",
+      "bytes": 9782,
+      "sha256": "8ba923daad5f7bc5883f67d82b1a5dbaf996c85057ad2cd8566e15985a8ac6dd"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/evidence/extracted-unverified/WYG3_KONGWANG_JOINT_FINGERPRINT_REPORT.md.extracted.txt",
+      "bytes": 8229,
+      "sha256": "31aabdf181abc86c6522a0bf607e0b096741f9c0797a4ba94bcff3ba6fd9ae20"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/HANDOFF.md",
+      "bytes": 3005,
+      "sha256": "aaac545bc174a4ee4a5f5aaa77a6437edf5ee8110e42a70104d3565bf9be547e"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/NEXT_RESEARCH.md",
+      "bytes": 1482,
+      "sha256": "7e39385b20a71ece59fd4f641b001f2c6a9cdb50546f2487126e4b7625f378f7"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-02/BRANCH.json",
+      "bytes": 1029,
+      "sha256": "e58022f0ca272cdf1942518634035f8cc6c8c9bbf865c6775c54b7c115b012eb"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-02/evidence/extracted-unverified/AI02_CUMULATIVE_FILE_HASHES_2026-11-01.json.extracted.txt",
+      "bytes": 7010,
+      "sha256": "0ea8bdd4944eaeca48bbf7e84b66efe4a9f541e4edc00266aeee509d7c03ee51"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-02/evidence/extracted-unverified/AI02_CUMULATIVE_QA_AND_M03_2026-11-01.patch.extracted.txt",
+      "bytes": 57803,
+      "sha256": "56a46435de11a2f8557b3ddcf6381c24275df4783d63a98d17752d74d04cdccb"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-02/evidence/extracted-unverified/AI02_PREIMPORT_LOCK_PATCH_2026-11-01.patch.extracted.txt",
+      "bytes": 20919,
+      "sha256": "55d610779b45ef00d15223eddc56870022d85d83e891f4204a555764ee77dcac"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-02/evidence/extracted-unverified/README_APPLY_AI02_2026-11-01.md.extracted.txt",
+      "bytes": 2767,
+      "sha256": "d91c3e25b1b8bab93f321a06322e32aadd582a5e5055aae98a8edcd72fc8d783"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-02/evidence/extracted-unverified/README_APPLY_AI02_CUMULATIVE_2026-11-01.md.extracted.txt",
+      "bytes": 4296,
+      "sha256": "9488022e26a9c9a4df3c2347b9f32536b79524abea724f5cbeddcbb8b960028f"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-02/HANDOFF.md",
+      "bytes": 2973,
+      "sha256": "efafd53d0ee0860d22424b10d9a6f76cd794f6f9ebe9e26d96ec1ca99853d5c1"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-02/NEXT_RESEARCH.md",
+      "bytes": 1443,
+      "sha256": "dc6d5ddf673c5896e8b73d3c4ca0760c829efa8bd48ca25f54469978aa8ee288"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-03/BRANCH.json",
+      "bytes": 1029,
+      "sha256": "fee8cac3ef243c470848202faad88904c140deb97deb8dffab984e8a961c68b8"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-03/HANDOFF.md",
+      "bytes": 2387,
+      "sha256": "1e96e8f9bdc7ee6d0f46233d132d9952f4abfb5581e660190ace34483db636c9"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-03/NEXT_RESEARCH.md",
+      "bytes": 1433,
+      "sha256": "2ac7e7e0cac5969ee59a35b5a1e3bfccdfd920c6dfa1744078d8ca9d9022ec30"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-04/BRANCH.json",
+      "bytes": 1025,
+      "sha256": "d78d4efa68c7a411bdcc6c619fccc69df5debed5f15e137248607ab2115e5032"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-04/HANDOFF.md",
+      "bytes": 2132,
+      "sha256": "5803fd3e6a5d0627e43c4a866069568111ba6f60ce2f3898ca5c7408b151d6fd"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-04/NEXT_RESEARCH.md",
+      "bytes": 1418,
+      "sha256": "884148bc8f09e45748d794f1e6c3424d580be05b3ef5e7db68752cd567338095"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-05/BRANCH.json",
+      "bytes": 1044,
+      "sha256": "7c9c7c91193a9160f6a892497091942ccd950cd82d58e707b5e79f2d8983a9aa"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-05/HANDOFF.md",
+      "bytes": 2225,
+      "sha256": "3310631849778922b214448a35a593321476a44aa94450637c03e3cf3ab4f94e"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-05/NEXT_RESEARCH.md",
+      "bytes": 1459,
+      "sha256": "11b63f7b226e29c9d7c87800beb3b926f5381588cb8ca7c78b98ab987ceb184a"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-06/BRANCH.json",
+      "bytes": 1007,
+      "sha256": "bb808bb7861087908e71d3f08afb277e83a1255a26a491a81746b4e1fafedf7d"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-06/HANDOFF.md",
+      "bytes": 2329,
+      "sha256": "c3c33f3387d72dff25b4f9356e4fb4ce43f66a859c0d5bc37cb560d2ab0c5aef"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-06/NEXT_RESEARCH.md",
+      "bytes": 1392,
+      "sha256": "05367532b32cceec1931cc0f06d6f10ae2ad75aebca29f9f3b751c97a650c419"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-07/BRANCH.json",
+      "bytes": 926,
+      "sha256": "a15dff0eca228548518802324e252b46e5cb8d85c8e1ec9d9e9f2ef05f83c3ee"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-07/HANDOFF.md",
+      "bytes": 2237,
+      "sha256": "62ce86eef591d1760f46e22f87946c7407f5e25de4443865d199c34ef0e3588d"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-07/NEXT_RESEARCH.md",
+      "bytes": 1393,
+      "sha256": "920362bd1ef8d72a18ab5a70fc2646bdbc1b7077ad9cadb7f1bcb37e4f533c81"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-08/BRANCH.json",
+      "bytes": 972,
+      "sha256": "2a227dd583100ddf5781aa564abb2f088821eac850e8efb1ac21637bfaae67c5"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-08/HANDOFF.md",
+      "bytes": 2020,
+      "sha256": "0ea96b2a9308784d61b96639178d6e60e96654d5607ac52f7465935bbe99b197"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-08/NEXT_RESEARCH.md",
+      "bytes": 1452,
+      "sha256": "c206571a6047f124f991707d2d1457119d9a5e50a68c621ad85bcc6ea2f83869"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-09/BRANCH.json",
+      "bytes": 897,
+      "sha256": "94ec793cf59eeee29c77c8312d6cb54629ab8525f7fb3a5ff5d6e7e1dd08c096"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-09/HANDOFF.md",
+      "bytes": 2228,
+      "sha256": "6de37d02954da857d6da617f9d98eff84facc6fd8401e1292e35cc83c6822e44"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-09/NEXT_RESEARCH.md",
+      "bytes": 1353,
+      "sha256": "5df3e612b46572757984690d0b86bade764a1f29aee91c2f552a98cb376fa5a3"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10/BRANCH.json",
+      "bytes": 1001,
+      "sha256": "8839d290143843e61bf2c9d0d1e1ee4e879087b3641ed515d3a802e2588ded4c"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10/evidence/extracted-unverified/AI10_2026-11-01_INTEGRITY_GATES_REPORT.md.extracted.txt",
+      "bytes": 9023,
+      "sha256": "c2a00515a2854cf196d127646f1345b4f9e4ac9011d9a59ef646e1d5f8a74ee8"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10/evidence/extracted-unverified/AI10_2026-11-01_INTEGRITY_GATES_STATE.json.extracted.txt",
+      "bytes": 1767,
+      "sha256": "078343f371aad96bddad921de0aa52e38fd290256e6d42d882fae4e41ba23b5e"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10/evidence/extracted-unverified/AI10_dependency_hardening_2026-11-01.patch.extracted.txt",
+      "bytes": 45169,
+      "sha256": "d60de616965a2752366142e4b12ce22585c11de86036aeec39805a0d5887bbc5"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10/evidence/extracted-unverified/AI10_dependency_hardening_2026-11-01_report.md.extracted.txt",
+      "bytes": 7124,
+      "sha256": "d33cd976ae7dee2f15dd600fb5d674c74728ce23af204da369a1a963be078506"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10/evidence/extracted-unverified/AI10_dependency_hardening_2026-11-01_test.tap.extracted.txt",
+      "bytes": 22882,
+      "sha256": "f9a100928f06749f4440549d6f51dcfc51c78e8fb000621ccfe817785eb94c25"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10/evidence/extracted-unverified/AI10_integrity_delivery_manifest_2026-11-01.json.extracted.txt",
+      "bytes": 1691,
+      "sha256": "da1e8403272586af02735cf69dc9e93d14190b01df30cded93998dcd2ec1a257"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10/evidence/extracted-unverified/AI10_integrity_hardening_2026-11-01_tests.tap.extracted.txt",
+      "bytes": 26467,
+      "sha256": "82db08e9daa8c16340008597f592029563fe73c6434a12b707dd669a8e36c039"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10/evidence/extracted-unverified/AI10_integrity_hardening_combined_2026-11-01.patch.extracted.txt",
+      "bytes": 62070,
+      "sha256": "52b78feee023e40f1a749757d30161276a75a4fe920d98c3536aadd3fdf5fa62"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10/evidence/extracted-unverified/AI10_integrity_hardening_incremental_2026-11-01.patch.extracted.txt",
+      "bytes": 43350,
+      "sha256": "4b41f57afca3752a3fd32b2d76f3cbfb14743d39f5a52c75794e591ceb565966"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10/HANDOFF.md",
+      "bytes": 2944,
+      "sha256": "8d30e08e3be5f15938ea61b07df32854c27740ccd4b73d4e9ff763595dbcd2ba"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-10/NEXT_RESEARCH.md",
+      "bytes": 1384,
+      "sha256": "80a8831b7547b7336a71920b2578611ee9946d15a3a771ad07f2dd91ecc68a9a"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-11/BRANCH.json",
+      "bytes": 877,
+      "sha256": "6b7664d91b1750fdc0426ead17191b3e6f5129fed201a6757201f2e2a23ad13a"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-11/HANDOFF.md",
+      "bytes": 1943,
+      "sha256": "e798315fe539d6eda10ee39391ea8b21837bb4812e59ad55859ea71af5e1d6ca"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-11/NEXT_RESEARCH.md",
+      "bytes": 1351,
+      "sha256": "11fa52304ddf7f8abfe2cc68151156aaba3ec0ee8a692d46f5498c2e6059aaee"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-12/BRANCH.json",
+      "bytes": 875,
+      "sha256": "e1c9b424473bd217a0be9346807d8be3be8d21265d414f9417d8655310888bea"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-12/HANDOFF.md",
+      "bytes": 2004,
+      "sha256": "4f516f86b6a6abccc9359ba9e65ea2e0801735042ad189293960e965056b7f24"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-12/NEXT_RESEARCH.md",
+      "bytes": 1367,
+      "sha256": "32270c5bc24a74e0a1ffcde31cb812a0de6d51589e9479bed3f6b82ec8108f8b"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-13/BRANCH.json",
+      "bytes": 1070,
+      "sha256": "ddbce7e7515cbb30b0a2391d75aa02a113851cac3a6066cb1c687f34714861a8"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-13/evidence/extracted-unverified/calendar-authority-policy.mjs.extracted.txt",
+      "bytes": 9179,
+      "sha256": "94c97f7961feb88f02485fc454716a137788a35dfda649d982dd4f7ba0a9cc87"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-13/HANDOFF.md",
+      "bytes": 2887,
+      "sha256": "df28995d75ef5bf7757e69543f9cc6e72e907ccf9cc7a324f5e230c7bd6dd4ff"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-13/NEXT_RESEARCH.md",
+      "bytes": 1440,
+      "sha256": "804f947840485b83f7511b4142d7af23f525f4e63d23557fa6d3691c4f12b2a6"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/source-materials/historical/BAO_CAO_TONG_HOP_CU.md",
+      "bytes": 5850,
+      "sha256": "39923c2d634f7c3c495bd58369fbd93a01b5f3a93b5c0799a8279aba99328c4d"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/source-materials/historical/DANH_MUC_33_TEP_CU.csv",
+      "bytes": 6787,
+      "sha256": "91ca789a288677dfd230aaf538a81503e67e2e9cec7fad77620be8baa2c6f192"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/source-materials/overview/DANH_MUC_33_TEP_VA_TINH_TRANG_KHOI_PHUC.csv",
+      "bytes": 7492,
+      "sha256": "39c842a5918ca0aa758a1cbd287188b0e330b20b39b76e84b2dfa1424f87624e"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/source-materials/overview/DANH_MUC_33_TEP_VA_TINH_TRANG_KHOI_PHUC.json",
+      "bytes": 14771,
+      "sha256": "0f1dada8825e68d3f2d222301793e06ec43879a78792c136e410ba3be424df8b"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/source-materials/overview/NOI_DUNG_13_NHANH_KHOI_PHUC.md",
+      "bytes": 32263,
+      "sha256": "e70d16957aec036145a8d101664ef0b7f5ab54336afec11533f4e25fa91f1022"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/source-materials/overview/THONG_TIN_13_NHANH.json",
+      "bytes": 24130,
+      "sha256": "46a925e80b6443141de7d0ea4a2f5012c6e29678fe03bd9194b0a3dadd040a09"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/source-materials/README_BAT_DAU.md",
+      "bytes": 2566,
+      "sha256": "86cc7c2d8962f58b12e5e783ed74e3ff4c422f5b1ee9e7c47a30ed50a7a5f897"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/source-materials/SHA256SUMS.txt",
+      "bytes": 6635,
+      "sha256": "7c77ca284d2626fb449f85ae710ca91b8ba99af6421e844dfad6b35720b75b65"
+    },
+    {
+      "path": "collaboration/imports/recovery-13-branches-2026-11-01/SOURCE_IMPORT_REVIEW.md",
+      "bytes": 4101,
+      "sha256": "87cbbd61566c16876e92fb7556656526283fe577514a4a4f9f2cfa32df35d79b"
+    }
+  ],
+  "integrityChecks": {
+    "zipCRC": true,
+    "all49Sha256LinesMatched": true,
+    "allPathsSafeAndUnique": true,
+    "thirteenHandoffsMapped": true,
+    "noSecretPatternHits": true,
+    "unverifiedPatchApplied": false,
+    "applicationCodeChanged": false,
+    "consumerSiteChanged": false,
+    "currentProjectWorkStateOverwritten": false
+  },
+  "staticValidation": {
+    "branchFoldersAndNavigation": "passed: 13/13 handoff, metadata and continuation files; relative verification links resolve",
+    "recoveredJSONTranscripts": "passed: 3/3 extracted JSON documents parse; this does not prove byte completeness",
+    "AI13CalendarModule": "node --check passed on extracted text copy; parse-only, not executed, and not treated as original source",
+    "secretPatternScan": "no matches for checked GitHub token/private-key/API-key patterns in 50 archive members or curated branch files"
+  },
+  "repositoryPublication": {
+    "repository": "https://github.com/dedaithien-sudo/huyen-hoc",
+    "branch": "main",
+    "localCommit": "14fec7f82a84a0a2aec9ecebd343a2300fbebd89",
+    "remoteMainBeforeAttempt": "621d3c7e11098dd34269714d5acd7ed7a67fdfee",
+    "status": "blocked-http-403-account-suspended",
+    "error": "GitHub remote returned HTTP 403: Your account is suspended.",
+    "binaryArchivePushed": false
+  },
+  "sourcePackageSelection": {
+    "builder": "maintenance/package-latest.py",
+    "temporaryDuplicateDirsExcluded": [
+      "tmp/materials-handoff",
+      "tmp/materials-remote-check",
+      "tmp/materials-http-check",
+      "tmp/materials-local-check",
+      "tmp/materials-range-check",
+      "tmp/github-tools"
+    ],
+    "oldManifestMembersInsideExcludedDirs": 0,
+    "oldTmpEvidencePreserved": true,
+    "oldTmpMemberCountPreserved": 3724,
+    "previousLatestZipPreservedUntilVerifiedReplacement": true,
+    "previewSelectedFiles": 22712,
+    "previewAddedFiles": 1203,
+    "previewAddedBytes": 52176414,
+    "previewRemovedPriorFiles": 0,
+    "previousTmpEvidenceBytesSelected": 2179673801,
+    "duplicateTransferBytesExcluded": 3939553357
+  }
+}

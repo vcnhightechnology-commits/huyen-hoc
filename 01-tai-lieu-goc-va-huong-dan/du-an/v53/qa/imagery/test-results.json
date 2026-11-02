@@ -1,0 +1,276 @@
+{
+  "date": "2026-10-25T14:31:27.198Z",
+  "checks": [
+    {
+      "name": "Three original artworks and optimized encodings match asset hashes",
+      "ok": true
+    },
+    {
+      "name": "Hero and initial illustration decode entirely from embedded images",
+      "ok": true
+    },
+    {
+      "name": "Decorative images are skipped by assistive technology",
+      "ok": true
+    },
+    {
+      "name": "1440px tuvi: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 1440,
+        "width": 1440,
+        "hero": 395
+      }
+    },
+    {
+      "name": "1440px bazi: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 1440,
+        "width": 1440,
+        "hero": 395
+      }
+    },
+    {
+      "name": "1440px destiny: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 1440,
+        "width": 1440,
+        "hero": 395
+      }
+    },
+    {
+      "name": "1440px directions: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 1440,
+        "width": 1440,
+        "hero": 395
+      }
+    },
+    {
+      "name": "1440px yi: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 1440,
+        "width": 1440,
+        "hero": 395
+      }
+    },
+    {
+      "name": "1024px tuvi: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 1024,
+        "width": 1024,
+        "hero": 345
+      }
+    },
+    {
+      "name": "1024px bazi: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 1024,
+        "width": 1024,
+        "hero": 345
+      }
+    },
+    {
+      "name": "1024px destiny: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 1024,
+        "width": 1024,
+        "hero": 345
+      }
+    },
+    {
+      "name": "1024px directions: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 1024,
+        "width": 1024,
+        "hero": 345
+      }
+    },
+    {
+      "name": "1024px yi: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 1024,
+        "width": 1024,
+        "hero": 345
+      }
+    },
+    {
+      "name": "768px tuvi: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 768,
+        "width": 768,
+        "hero": 298.359375
+      }
+    },
+    {
+      "name": "768px bazi: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 768,
+        "width": 768,
+        "hero": 298.359375
+      }
+    },
+    {
+      "name": "768px destiny: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 768,
+        "width": 768,
+        "hero": 298.359375
+      }
+    },
+    {
+      "name": "768px directions: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 768,
+        "width": 768,
+        "hero": 298.359375
+      }
+    },
+    {
+      "name": "768px yi: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 768,
+        "width": 768,
+        "hero": 298.359375
+      }
+    },
+    {
+      "name": "390px tuvi: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 390,
+        "width": 390,
+        "hero": 104
+      }
+    },
+    {
+      "name": "390px bazi: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 390,
+        "width": 390,
+        "hero": 104
+      }
+    },
+    {
+      "name": "390px destiny: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 390,
+        "width": 390,
+        "hero": 104
+      }
+    },
+    {
+      "name": "390px directions: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 390,
+        "width": 390,
+        "hero": 104
+      }
+    },
+    {
+      "name": "390px yi: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 390,
+        "width": 390,
+        "hero": 104
+      }
+    },
+    {
+      "name": "320px tuvi: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 320,
+        "width": 320,
+        "hero": 92
+      }
+    },
+    {
+      "name": "320px bazi: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 320,
+        "width": 320,
+        "hero": 92
+      }
+    },
+    {
+      "name": "320px destiny: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 320,
+        "width": 320,
+        "hero": 92
+      }
+    },
+    {
+      "name": "320px directions: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 320,
+        "width": 320,
+        "hero": 92
+      }
+    },
+    {
+      "name": "320px yi: illustration displays without page overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 320,
+        "width": 320,
+        "hero": 92
+      }
+    },
+    {
+      "name": "All five tools select the appropriate illustration",
+      "ok": true
+    },
+    {
+      "name": "Mobile hero picture stays clear of the headline and description",
+      "ok": true
+    },
+    {
+      "name": "Calculated reading and twelve-palace chart remain available",
+      "ok": true
+    },
+    {
+      "name": "Decorative art stays out of calculated charts and interpretations",
+      "ok": true
+    },
+    {
+      "name": "Print hides decorative hero while keeping the reading",
+      "ok": true
+    },
+    {
+      "name": "No JavaScript errors or external requests introduced",
+      "ok": true,
+      "detail": {
+        "errors": [],
+        "requests": []
+      }
+    },
+    {
+      "name": "Modular source page also loads local artwork",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "requests": []
+}

@@ -1,0 +1,9 @@
+{
+  "case": "missing-slot",
+  "earlierProvisionalSurplusLiteralMatch": null,
+  "reviewedExpectedValue": true,
+  "reason": "Known甲+two丙 with one unknown always has甲 and exactlytwo orthree丙; the two uncertain exact-count predicates share the same unknown slot. Do not use independent null-OR.",
+  "jointImpossibleCaseAdded": "Known甲+twootherstems+oneunknown cannot simultaneously reach exactlytwo甲andone丙.",
+  "reviewedBeforeReferenceImplementation": true,
+  "newEngineCalls": 0
+}

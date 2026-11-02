@@ -1,0 +1,297 @@
+{
+  "date": "2026-10-28",
+  "records": [
+    {
+      "file": "v53/research/home-yangzhai-door-water/CONTEXT_READINGS.json",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/CONTEXT_READINGS.json",
+      "bytes": 6650,
+      "sha256": "58d8eb2a7a8c3629f4918e3d618f2dcf643f04976f9e688f2a1feb7ec1c9d65c"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-door-water/CROP_TARGET_AUDIT.json",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/CROP_TARGET_AUDIT.json",
+      "bytes": 253,
+      "sha256": "eb660eebd76348afa8f35f45983614deba5ecd8be5153e3fef5168e5db2702a6"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/STAGED_extract-raw.py",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/extract-raw.py",
+      "bytes": 1728,
+      "sha256": "ed85ee5c1b23e2d26545804d01cc30e2900f512f009373da56648fc1ce30a801"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/MANUAL_ROOM_PAIR_ANCHORS.json",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/MANUAL_ROOM_PAIR_ANCHORS.json",
+      "bytes": 1137,
+      "sha256": "53426301f7d3c0add83f841686a0e19c53fcf9192ae2bd1a06d5fec7d78f5696"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/MANUAL_SOURCE_POLARITY.json",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/MANUAL_SOURCE_POLARITY.json",
+      "bytes": 952,
+      "sha256": "2250f96a92f885f5cdcd4148ec18d275d55cfdf97fa66e916331fb69241a5001"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/MANUAL_WATER_TABLE.json",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/MANUAL_WATER_TABLE.json",
+      "bytes": 9564,
+      "sha256": "570c3653ca73c16a6bf9e4f11d08388542afb730734bcbc8ab252067e043d89b"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-door-water/NATIVE_RESULTS.json",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/NATIVE_RESULTS.json",
+      "bytes": 510,
+      "sha256": "ef1ba218b049e253d1969adde66d7dee83d982c2710f232b08bf786ae05d8c2e"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/STAGED_promote.py",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/promote.py",
+      "bytes": 2500,
+      "sha256": "270b7f79e3d9b7125dd542228c17c08ccbb65f9270af235159c01cfe60b22bc1"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-door-water/QA_IMAGES.json",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/QA_IMAGES.json",
+      "bytes": 3088,
+      "sha256": "91a42365167d767f00aebffe7b3761487c5c2d7cf726281c5eb1da883ff57f94"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p094.jpg",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/raw-p094.jpg",
+      "bytes": 817482,
+      "sha256": "d709b9efc3d68e73fc351684bd7f98dd926b760da601b220bac017c5c95c21d1"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p095.jpg",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/raw-p095.jpg",
+      "bytes": 813020,
+      "sha256": "c9f53166a9c6d5686e3ac085da7880962342cc32e601f4381b30cf2f2aa3a1e5"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p096.jpg",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/raw-p096.jpg",
+      "bytes": 823121,
+      "sha256": "66da10e94f670cfad955ba9588ef6ad449c32ce6430b2fbf31395684ee46607a"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p097.jpg",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/raw-p097.jpg",
+      "bytes": 791936,
+      "sha256": "0483021a57a56d0ec4c865c5785caa86c44e8ed82a11735ae4b7504bf8799389"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p098.jpg",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/raw-p098.jpg",
+      "bytes": 767960,
+      "sha256": "416c696ac365e8f71ff01b089213350c1419698902ef6e8ad6d0331152a4eb57"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p099.jpg",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/raw-p099.jpg",
+      "bytes": 768455,
+      "sha256": "fac22d6946754c11012056f5de021314f43fe0711930504bfff36fce8af83e37"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p100.jpg",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/raw-p100.jpg",
+      "bytes": 768827,
+      "sha256": "aa1bf5d225cd866cb1212047ee4f1be45536b93ae89ea6df1ab47529c58153c4"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p101.jpg",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/raw-p101.jpg",
+      "bytes": 747978,
+      "sha256": "456141b764346b220d3da3084d127a5d32285b6d4274a2dac0835a580461d592"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p102.jpg",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/raw-p102.jpg",
+      "bytes": 847455,
+      "sha256": "30aa9d146a9af72baf3b335f7a7ddec8292be63d83231ec99ffee47bf9d17e35"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p103.jpg",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/raw-p103.jpg",
+      "bytes": 774364,
+      "sha256": "69e34c1d6580b6ce87eded41b3d142881f7a0cfbbb9459e89a5b3d20acff2929"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p104.jpg",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/raw-p104.jpg",
+      "bytes": 773321,
+      "sha256": "271c3fe2a82263e745c9ba7043dd8f5e023bfc1b2403aaec638e77e75799e969"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p105.jpg",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/raw-p105.jpg",
+      "bytes": 759741,
+      "sha256": "2705934f36ac33a123bd12b350e4a2dd53518ab82b9f53f017a3f9fccdd3057c"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p106.jpg",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/raw-p106.jpg",
+      "bytes": 739967,
+      "sha256": "b858e6e29059702f0f50ab8798c6becbaa9cec316ba7b4870559dc183fbe3cdf"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p107.jpg",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/raw-p107.jpg",
+      "bytes": 758030,
+      "sha256": "2958024daf97162121775c136f4b5006af232055c24631aba2434eb4b43783f5"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p108.jpg",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/raw-p108.jpg",
+      "bytes": 748581,
+      "sha256": "5459801c1e32c7ad65485f672520b0fedf4a32a549240b9edfe0a9e7d416c613"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p109.jpg",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/raw-p109.jpg",
+      "bytes": 785914,
+      "sha256": "818d865a5cec57e6ccf138577fdefc28e849161a6228e45b929ae12ead99cbe0"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p110.jpg",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/raw-p110.jpg",
+      "bytes": 771991,
+      "sha256": "492314ee05f6e5dac34c6813cc45ec369d1b9e9390522d31212264deddde03f0"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p111.jpg",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/raw-p111.jpg",
+      "bytes": 730475,
+      "sha256": "e0a19b88a9f5d47d3ac79117130a17f0541b89c62a3a861bba08825b0fa6e26c"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/RAW_IMAGES.json",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/RAW_IMAGES.json",
+      "bytes": 9432,
+      "sha256": "1dff523f5b740e91c5d5f1ea93837236db2a3662676d7eecd6f35e37ac6135a1"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/STAGED_record-readings.py",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/record-readings.py",
+      "bytes": 8959,
+      "sha256": "39f17eadb886f51976cced561891027e515bc18d4c7eb52590d609fbeda208b2"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-door-water/REFERENCE_RESULTS.json",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/REFERENCE_RESULTS.json",
+      "bytes": 5179,
+      "sha256": "47556e437d59ba56e4e374ccbfea36786337081cb13dffe4e766fa52864fef50"
+    },
+    {
+      "file": "v53/HOME_DOOR_WATER_REPORT.md",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/REPORT.md",
+      "bytes": 7364,
+      "sha256": "b1975a9e97ab7ec363173dfcee33151a9bfdf9142e58556c144f50c8026ff66d"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/source-water-reference.mjs",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/source-water-reference.mjs",
+      "bytes": 3407,
+      "sha256": "8335dd8174d951e1f09a5744e6bacd25e9557662535ab8f7acba044572de66dd"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/STAGED_test-water-reference.mjs",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/test-water-reference.mjs",
+      "bytes": 8131,
+      "sha256": "8e5377216ed8a289b328926e9e23aace94724a0da29b76d5637b9ffe5c5fcf88"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/UNIT_MAP.json",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/UNIT_MAP.json",
+      "bytes": 5549,
+      "sha256": "4883e7fcc434c6c7a3fc8d9679be4ad904782d5198a6dcfcea23bfab93218123"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/STAGED_verify-native.py",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/verify-native.py",
+      "bytes": 1959,
+      "sha256": "e57af1e76ed95f76f6e1d4e9511097b6ba17ac19fff314cfed7711e48c6bfa57"
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/STAGED_WORK_STATE.json",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/WORK_STATE.json",
+      "bytes": 2246,
+      "sha256": "341cca0c876d29985035e79c252688a416bbaf6318fffc74a468982159151f0b"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-door-water/p094-left.png",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/qa/p094-left.png",
+      "bytes": 3248057,
+      "sha256": "a7133f57d875977fe40d6e4198259dd40595b6d3a85c58a277f1c8eccfef9adb"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-door-water/p094-right.png",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/qa/p094-right.png",
+      "bytes": 3207879,
+      "sha256": "e7881b5a2ad311e0b60ebeca9a51e215e47fad56cc39f49abb5e0fb83a209154"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-door-water/p095-left.png",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/qa/p095-left.png",
+      "bytes": 3196433,
+      "sha256": "50ab49ed82a2dee45f4b6d8d16a42cec6cfa8542f432af76506dd42a76bc3aff"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-door-water/p095-right.png",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/qa/p095-right.png",
+      "bytes": 3280052,
+      "sha256": "1e7ef645a60b30168ed788167f856c4d38309378a332fde3ac4dd889b9998552"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-door-water/p109-gen-native.png",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/qa/p109-gen-native.png",
+      "bytes": 441046,
+      "sha256": "3e2885dd50e5d6c78d3f0cca8d4695ccbc095a6003b7f05ef8e6a89fe876720b"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-door-water/p109-left.png",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/qa/p109-left.png",
+      "bytes": 3141366,
+      "sha256": "139d8ab40f1b0f7272fa9e820d30581336fd598b976e945adb2b00a1a75aa3b8"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-door-water/p109-right.png",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/qa/p109-right.png",
+      "bytes": 3090902,
+      "sha256": "47755bf10201dc826f15e9fd6a475307dc7b7703186b379166d6b80ee9ab201f"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-door-water/p109-yin-native.png",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/qa/p109-yin-native.png",
+      "bytes": 664671,
+      "sha256": "4e4e361df207a2b7d5d4b9a0a4ae00f910e3a1dbe64311c5568f76df602b1628"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-door-water/p110-left.png",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/qa/p110-left.png",
+      "bytes": 3036670,
+      "sha256": "5dac2f6811f0fcb69dcbffbbc38ceef566c63612d2757fbe9177d7b9e6523e49"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-door-water/p110-right.png",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/qa/p110-right.png",
+      "bytes": 3075338,
+      "sha256": "f45ec71e352d32331573444300d4378a344c382d98553d7a30eae8239742145c"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-door-water/p110-xun-native.png",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/qa/p110-xun-native.png",
+      "bytes": 569242,
+      "sha256": "9826153816f63918bf7d653e9f38f1b4d1641d5320cc884d90b991bbd8e44a33"
+    },
+    {
+      "file": "v53/qa/home-yangzhai-door-water/p110-xun-si-native-correct.png",
+      "stagingFile": "tmp/home-yangzhai-door-water-staging/qa/p110-xun-si-native-correct.png",
+      "bytes": 686792,
+      "sha256": "8b8da2cd78dc0d312132299a385c47ec0dfe46de24c9cc95a408839eb601e591"
+    }
+  ],
+  "moduleByteIdenticalToStaging": true,
+  "testOnlyThreePathRelocations": true,
+  "passedRuntimeTestsNotRerunOnPromotion": true,
+  "localIdentitiesNotPublisherSignatures": true
+}

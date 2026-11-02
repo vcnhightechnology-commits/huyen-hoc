@@ -1,0 +1,57 @@
+{
+  "recordedUTC": "2026-10-30T03:21:43.585345+00:00",
+  "status": "implementation-was-written-before-freeze-command;preimplementation-freeze-not-established",
+  "observedFailure": "freeze-source.py correctly refused because fire-exception-reference.mjs already existed. The shell continued to test; its final group failed because the expected freeze did not exist. No passing REFERENCE_RESULTS was written.",
+  "manualCasesWereWrittenBeforeCodeInThisToolSequence": true,
+  "manualCasesCryptographicallyFrozenBeforeCode": false,
+  "referenceHasAlreadyBeenExecutedBeforeSeal": true,
+  "sourceIdentityLedgerWillBePostImplementationSeal": true,
+  "initialFiles": [
+    {
+      "file": "tmp/bazi-food-fire-exception-staging/MANUAL_CONTEXT.json",
+      "bytes": 2264,
+      "sha256": "420725cb2e722a15fd1b340a4f5f9f43e5eae7ed8df56994605952fb5fd1da16",
+      "mtimeNS": 1793330311174029700
+    },
+    {
+      "file": "tmp/bazi-food-fire-exception-staging/EXPECTED_CASES.json",
+      "bytes": 1331,
+      "sha256": "fbc2f47de949f5a153851daecbd84b89bc0bd356dd901d38d5f0a3528353aafc",
+      "mtimeNS": 1793330311174987900
+    },
+    {
+      "file": "tmp/bazi-food-fire-exception-staging/REUSE_IDENTITIES.json",
+      "bytes": 1022,
+      "sha256": "e7bba535faf66a4cbd6848cd898eed5e846b9e34ebe6706ceac1fef99f53693d",
+      "mtimeNS": 1793330311320597400
+    },
+    {
+      "file": "tmp/bazi-food-fire-exception-staging/fire-exception-reference.mjs",
+      "bytes": 2131,
+      "sha256": "d897991e6d923d7558da4c013c67ffcb9a11ce8abd93a6a274058b7bd5a75ad9",
+      "mtimeNS": 1793330402477763100
+    },
+    {
+      "file": "tmp/bazi-food-fire-exception-staging/test-fire-exception-reference.mjs",
+      "bytes": 4071,
+      "sha256": "74a73f6de0e612bb97663ad4b47e80cb11280a12f5019e353c3a7aeb473095da",
+      "mtimeNS": 1793330402745052800
+    },
+    {
+      "file": "tmp/bazi-food-fire-exception-staging/freeze-source.py",
+      "bytes": 1162,
+      "sha256": "f8e5a1d14a57fafb74e3ca00760c39c38c1c2a300286198f487b707e72b03b41",
+      "mtimeNS": 1793330402200997700
+    },
+    {
+      "file": "tmp/bazi-food-fire-exception-staging/verify-source.py",
+      "bytes": 1880,
+      "sha256": "230df32f1b2f6a2c84dcbfd0e2acb88a6b67eabd539b2579c976a18eb66f7731",
+      "mtimeNS": 1793330403006934100
+    }
+  ],
+  "initialVerifierAndTestRevisionsPreservedInConsolidatedSHAIndex": true,
+  "correction": "Preserve original script bytes; use a truthfully dated post-implementation source-expectation seal, independent exhaustive domain checks and an explicit sequencing exception. Do not delete or move code to make an absence guard pass.",
+  "consumerChanged": false,
+  "wholeContextApplied": false
+}

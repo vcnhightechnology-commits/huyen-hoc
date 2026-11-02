@@ -1,0 +1,4288 @@
+{
+  "date": "2026-10-28",
+  "checks": [
+    {
+      "name": "Five manual family groups keep20 branch memberships; paired stems are not a cross product",
+      "ok": true
+    },
+    {
+      "name": "100 actual HHC Ten-God calls validate fixed relation across all ten day and ten target stems",
+      "ok": true
+    },
+    {
+      "name": "600 valid coordinate contexts retain20 selected memberships without asserting strength from a miss",
+      "ok": true
+    },
+    {
+      "name": "Two actual source-example HHC charts project new seat criteria without inventing historical dates",
+      "ok": true
+    },
+    {
+      "name": "Unknown or wrong anchor stays unknown, and strict input/copies protect source facts",
+      "ok": true
+    }
+  ],
+  "actualHHCTenGodCalls": 100,
+  "actualHHCBaziChartCalls": 2,
+  "newLunarOrIztroCalls": 0,
+  "abstractValidCoordinates": 600,
+  "selectedMemberships": 20,
+  "relationChecks": [
+    {
+      "dayStem": "甲",
+      "targetStem": "甲",
+      "actualHHCTenGod": "Tỷ Kiên",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "甲",
+      "targetStem": "乙",
+      "actualHHCTenGod": "Kiếp Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "甲",
+      "targetStem": "丙",
+      "actualHHCTenGod": "Thực Thần",
+      "sourceFoodRelation": true
+    },
+    {
+      "dayStem": "甲",
+      "targetStem": "丁",
+      "actualHHCTenGod": "Thương Quan",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "甲",
+      "targetStem": "戊",
+      "actualHHCTenGod": "Thiên Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "甲",
+      "targetStem": "己",
+      "actualHHCTenGod": "Chính Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "甲",
+      "targetStem": "庚",
+      "actualHHCTenGod": "Thất Sát",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "甲",
+      "targetStem": "辛",
+      "actualHHCTenGod": "Chính Quan",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "甲",
+      "targetStem": "壬",
+      "actualHHCTenGod": "Thiên Ấn",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "甲",
+      "targetStem": "癸",
+      "actualHHCTenGod": "Chính Ấn",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "乙",
+      "targetStem": "甲",
+      "actualHHCTenGod": "Kiếp Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "乙",
+      "targetStem": "乙",
+      "actualHHCTenGod": "Tỷ Kiên",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "乙",
+      "targetStem": "丙",
+      "actualHHCTenGod": "Thương Quan",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "乙",
+      "targetStem": "丁",
+      "actualHHCTenGod": "Thực Thần",
+      "sourceFoodRelation": true
+    },
+    {
+      "dayStem": "乙",
+      "targetStem": "戊",
+      "actualHHCTenGod": "Chính Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "乙",
+      "targetStem": "己",
+      "actualHHCTenGod": "Thiên Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "乙",
+      "targetStem": "庚",
+      "actualHHCTenGod": "Chính Quan",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "乙",
+      "targetStem": "辛",
+      "actualHHCTenGod": "Thất Sát",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "乙",
+      "targetStem": "壬",
+      "actualHHCTenGod": "Chính Ấn",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "乙",
+      "targetStem": "癸",
+      "actualHHCTenGod": "Thiên Ấn",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "丙",
+      "targetStem": "甲",
+      "actualHHCTenGod": "Thiên Ấn",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "丙",
+      "targetStem": "乙",
+      "actualHHCTenGod": "Chính Ấn",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "丙",
+      "targetStem": "丙",
+      "actualHHCTenGod": "Tỷ Kiên",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "丙",
+      "targetStem": "丁",
+      "actualHHCTenGod": "Kiếp Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "丙",
+      "targetStem": "戊",
+      "actualHHCTenGod": "Thực Thần",
+      "sourceFoodRelation": true
+    },
+    {
+      "dayStem": "丙",
+      "targetStem": "己",
+      "actualHHCTenGod": "Thương Quan",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "丙",
+      "targetStem": "庚",
+      "actualHHCTenGod": "Thiên Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "丙",
+      "targetStem": "辛",
+      "actualHHCTenGod": "Chính Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "丙",
+      "targetStem": "壬",
+      "actualHHCTenGod": "Thất Sát",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "丙",
+      "targetStem": "癸",
+      "actualHHCTenGod": "Chính Quan",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "丁",
+      "targetStem": "甲",
+      "actualHHCTenGod": "Chính Ấn",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "丁",
+      "targetStem": "乙",
+      "actualHHCTenGod": "Thiên Ấn",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "丁",
+      "targetStem": "丙",
+      "actualHHCTenGod": "Kiếp Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "丁",
+      "targetStem": "丁",
+      "actualHHCTenGod": "Tỷ Kiên",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "丁",
+      "targetStem": "戊",
+      "actualHHCTenGod": "Thương Quan",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "丁",
+      "targetStem": "己",
+      "actualHHCTenGod": "Thực Thần",
+      "sourceFoodRelation": true
+    },
+    {
+      "dayStem": "丁",
+      "targetStem": "庚",
+      "actualHHCTenGod": "Chính Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "丁",
+      "targetStem": "辛",
+      "actualHHCTenGod": "Thiên Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "丁",
+      "targetStem": "壬",
+      "actualHHCTenGod": "Chính Quan",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "丁",
+      "targetStem": "癸",
+      "actualHHCTenGod": "Thất Sát",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "戊",
+      "targetStem": "甲",
+      "actualHHCTenGod": "Thất Sát",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "戊",
+      "targetStem": "乙",
+      "actualHHCTenGod": "Chính Quan",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "戊",
+      "targetStem": "丙",
+      "actualHHCTenGod": "Thiên Ấn",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "戊",
+      "targetStem": "丁",
+      "actualHHCTenGod": "Chính Ấn",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "戊",
+      "targetStem": "戊",
+      "actualHHCTenGod": "Tỷ Kiên",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "戊",
+      "targetStem": "己",
+      "actualHHCTenGod": "Kiếp Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "戊",
+      "targetStem": "庚",
+      "actualHHCTenGod": "Thực Thần",
+      "sourceFoodRelation": true
+    },
+    {
+      "dayStem": "戊",
+      "targetStem": "辛",
+      "actualHHCTenGod": "Thương Quan",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "戊",
+      "targetStem": "壬",
+      "actualHHCTenGod": "Thiên Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "戊",
+      "targetStem": "癸",
+      "actualHHCTenGod": "Chính Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "己",
+      "targetStem": "甲",
+      "actualHHCTenGod": "Chính Quan",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "己",
+      "targetStem": "乙",
+      "actualHHCTenGod": "Thất Sát",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "己",
+      "targetStem": "丙",
+      "actualHHCTenGod": "Chính Ấn",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "己",
+      "targetStem": "丁",
+      "actualHHCTenGod": "Thiên Ấn",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "己",
+      "targetStem": "戊",
+      "actualHHCTenGod": "Kiếp Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "己",
+      "targetStem": "己",
+      "actualHHCTenGod": "Tỷ Kiên",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "己",
+      "targetStem": "庚",
+      "actualHHCTenGod": "Thương Quan",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "己",
+      "targetStem": "辛",
+      "actualHHCTenGod": "Thực Thần",
+      "sourceFoodRelation": true
+    },
+    {
+      "dayStem": "己",
+      "targetStem": "壬",
+      "actualHHCTenGod": "Chính Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "己",
+      "targetStem": "癸",
+      "actualHHCTenGod": "Thiên Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "庚",
+      "targetStem": "甲",
+      "actualHHCTenGod": "Thiên Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "庚",
+      "targetStem": "乙",
+      "actualHHCTenGod": "Chính Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "庚",
+      "targetStem": "丙",
+      "actualHHCTenGod": "Thất Sát",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "庚",
+      "targetStem": "丁",
+      "actualHHCTenGod": "Chính Quan",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "庚",
+      "targetStem": "戊",
+      "actualHHCTenGod": "Thiên Ấn",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "庚",
+      "targetStem": "己",
+      "actualHHCTenGod": "Chính Ấn",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "庚",
+      "targetStem": "庚",
+      "actualHHCTenGod": "Tỷ Kiên",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "庚",
+      "targetStem": "辛",
+      "actualHHCTenGod": "Kiếp Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "庚",
+      "targetStem": "壬",
+      "actualHHCTenGod": "Thực Thần",
+      "sourceFoodRelation": true
+    },
+    {
+      "dayStem": "庚",
+      "targetStem": "癸",
+      "actualHHCTenGod": "Thương Quan",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "辛",
+      "targetStem": "甲",
+      "actualHHCTenGod": "Chính Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "辛",
+      "targetStem": "乙",
+      "actualHHCTenGod": "Thiên Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "辛",
+      "targetStem": "丙",
+      "actualHHCTenGod": "Chính Quan",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "辛",
+      "targetStem": "丁",
+      "actualHHCTenGod": "Thất Sát",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "辛",
+      "targetStem": "戊",
+      "actualHHCTenGod": "Chính Ấn",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "辛",
+      "targetStem": "己",
+      "actualHHCTenGod": "Thiên Ấn",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "辛",
+      "targetStem": "庚",
+      "actualHHCTenGod": "Kiếp Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "辛",
+      "targetStem": "辛",
+      "actualHHCTenGod": "Tỷ Kiên",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "辛",
+      "targetStem": "壬",
+      "actualHHCTenGod": "Thương Quan",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "辛",
+      "targetStem": "癸",
+      "actualHHCTenGod": "Thực Thần",
+      "sourceFoodRelation": true
+    },
+    {
+      "dayStem": "壬",
+      "targetStem": "甲",
+      "actualHHCTenGod": "Thực Thần",
+      "sourceFoodRelation": true
+    },
+    {
+      "dayStem": "壬",
+      "targetStem": "乙",
+      "actualHHCTenGod": "Thương Quan",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "壬",
+      "targetStem": "丙",
+      "actualHHCTenGod": "Thiên Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "壬",
+      "targetStem": "丁",
+      "actualHHCTenGod": "Chính Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "壬",
+      "targetStem": "戊",
+      "actualHHCTenGod": "Thất Sát",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "壬",
+      "targetStem": "己",
+      "actualHHCTenGod": "Chính Quan",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "壬",
+      "targetStem": "庚",
+      "actualHHCTenGod": "Thiên Ấn",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "壬",
+      "targetStem": "辛",
+      "actualHHCTenGod": "Chính Ấn",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "壬",
+      "targetStem": "壬",
+      "actualHHCTenGod": "Tỷ Kiên",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "壬",
+      "targetStem": "癸",
+      "actualHHCTenGod": "Kiếp Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "癸",
+      "targetStem": "甲",
+      "actualHHCTenGod": "Thương Quan",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "癸",
+      "targetStem": "乙",
+      "actualHHCTenGod": "Thực Thần",
+      "sourceFoodRelation": true
+    },
+    {
+      "dayStem": "癸",
+      "targetStem": "丙",
+      "actualHHCTenGod": "Chính Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "癸",
+      "targetStem": "丁",
+      "actualHHCTenGod": "Thiên Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "癸",
+      "targetStem": "戊",
+      "actualHHCTenGod": "Chính Quan",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "癸",
+      "targetStem": "己",
+      "actualHHCTenGod": "Thất Sát",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "癸",
+      "targetStem": "庚",
+      "actualHHCTenGod": "Chính Ấn",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "癸",
+      "targetStem": "辛",
+      "actualHHCTenGod": "Thiên Ấn",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "癸",
+      "targetStem": "壬",
+      "actualHHCTenGod": "Kiếp Tài",
+      "sourceFoodRelation": false
+    },
+    {
+      "dayStem": "癸",
+      "targetStem": "癸",
+      "actualHHCTenGod": "Tỷ Kiên",
+      "sourceFoodRelation": false
+    }
+  ],
+  "coordinates": [
+    {
+      "dayStem": "甲",
+      "targetPillar": "甲子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "甲寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "甲辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "甲午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "甲申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "甲戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "乙丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "乙卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "乙巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "乙未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "乙酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "乙亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "丙子",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "丙寅",
+      "food": true,
+      "member": true
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "丙辰",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "丙午",
+      "food": true,
+      "member": true
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "丙申",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "丙戌",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "丁丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "丁卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "丁巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "丁未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "丁酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "丁亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "戊子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "戊寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "戊辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "戊午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "戊申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "戊戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "己丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "己卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "己巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "己未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "己酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "己亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "庚子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "庚寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "庚辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "庚午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "庚申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "庚戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "辛丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "辛卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "辛巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "辛未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "辛酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "辛亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "壬子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "壬寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "壬辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "壬午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "壬申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "壬戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "癸丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "癸卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "癸巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "癸未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "癸酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "甲",
+      "targetPillar": "癸亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "甲子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "甲寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "甲辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "甲午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "甲申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "甲戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "乙丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "乙卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "乙巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "乙未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "乙酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "乙亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "丙子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "丙寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "丙辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "丙午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "丙申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "丙戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "丁丑",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "丁卯",
+      "food": true,
+      "member": true
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "丁巳",
+      "food": true,
+      "member": true
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "丁未",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "丁酉",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "丁亥",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "戊子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "戊寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "戊辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "戊午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "戊申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "戊戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "己丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "己卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "己巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "己未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "己酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "己亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "庚子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "庚寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "庚辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "庚午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "庚申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "庚戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "辛丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "辛卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "辛巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "辛未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "辛酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "辛亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "壬子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "壬寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "壬辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "壬午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "壬申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "壬戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "癸丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "癸卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "癸巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "癸未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "癸酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "乙",
+      "targetPillar": "癸亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "甲子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "甲寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "甲辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "甲午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "甲申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "甲戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "乙丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "乙卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "乙巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "乙未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "乙酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "乙亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "丙子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "丙寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "丙辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "丙午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "丙申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "丙戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "丁丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "丁卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "丁巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "丁未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "丁酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "丁亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "戊子",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "戊寅",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "戊辰",
+      "food": true,
+      "member": true
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "戊午",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "戊申",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "戊戌",
+      "food": true,
+      "member": true
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "己丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "己卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "己巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "己未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "己酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "己亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "庚子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "庚寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "庚辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "庚午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "庚申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "庚戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "辛丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "辛卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "辛巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "辛未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "辛酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "辛亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "壬子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "壬寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "壬辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "壬午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "壬申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "壬戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "癸丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "癸卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "癸巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "癸未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "癸酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丙",
+      "targetPillar": "癸亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "甲子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "甲寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "甲辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "甲午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "甲申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "甲戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "乙丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "乙卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "乙巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "乙未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "乙酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "乙亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "丙子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "丙寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "丙辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "丙午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "丙申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "丙戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "丁丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "丁卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "丁巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "丁未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "丁酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "丁亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "戊子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "戊寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "戊辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "戊午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "戊申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "戊戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "己丑",
+      "food": true,
+      "member": true
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "己卯",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "己巳",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "己未",
+      "food": true,
+      "member": true
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "己酉",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "己亥",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "庚子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "庚寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "庚辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "庚午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "庚申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "庚戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "辛丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "辛卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "辛巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "辛未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "辛酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "辛亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "壬子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "壬寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "壬辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "壬午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "壬申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "壬戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "癸丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "癸卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "癸巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "癸未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "癸酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "丁",
+      "targetPillar": "癸亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "甲子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "甲寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "甲辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "甲午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "甲申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "甲戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "乙丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "乙卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "乙巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "乙未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "乙酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "乙亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "丙子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "丙寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "丙辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "丙午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "丙申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "丙戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "丁丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "丁卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "丁巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "丁未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "丁酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "丁亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "戊子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "戊寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "戊辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "戊午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "戊申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "戊戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "己丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "己卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "己巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "己未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "己酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "己亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "庚子",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "庚寅",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "庚辰",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "庚午",
+      "food": true,
+      "member": true
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "庚申",
+      "food": true,
+      "member": true
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "庚戌",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "辛丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "辛卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "辛巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "辛未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "辛酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "辛亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "壬子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "壬寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "壬辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "壬午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "壬申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "壬戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "癸丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "癸卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "癸巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "癸未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "癸酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "戊",
+      "targetPillar": "癸亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "甲子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "甲寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "甲辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "甲午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "甲申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "甲戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "乙丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "乙卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "乙巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "乙未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "乙酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "乙亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "丙子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "丙寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "丙辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "丙午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "丙申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "丙戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "丁丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "丁卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "丁巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "丁未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "丁酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "丁亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "戊子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "戊寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "戊辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "戊午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "戊申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "戊戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "己丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "己卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "己巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "己未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "己酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "己亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "庚子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "庚寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "庚辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "庚午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "庚申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "庚戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "辛丑",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "辛卯",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "辛巳",
+      "food": true,
+      "member": true
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "辛未",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "辛酉",
+      "food": true,
+      "member": true
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "辛亥",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "壬子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "壬寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "壬辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "壬午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "壬申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "壬戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "癸丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "癸卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "癸巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "癸未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "癸酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "己",
+      "targetPillar": "癸亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "甲子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "甲寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "甲辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "甲午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "甲申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "甲戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "乙丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "乙卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "乙巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "乙未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "乙酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "乙亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "丙子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "丙寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "丙辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "丙午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "丙申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "丙戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "丁丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "丁卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "丁巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "丁未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "丁酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "丁亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "戊子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "戊寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "戊辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "戊午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "戊申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "戊戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "己丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "己卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "己巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "己未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "己酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "己亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "庚子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "庚寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "庚辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "庚午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "庚申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "庚戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "辛丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "辛卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "辛巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "辛未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "辛酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "辛亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "壬子",
+      "food": true,
+      "member": true
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "壬寅",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "壬辰",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "壬午",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "壬申",
+      "food": true,
+      "member": true
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "壬戌",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "癸丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "癸卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "癸巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "癸未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "癸酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "庚",
+      "targetPillar": "癸亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "甲子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "甲寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "甲辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "甲午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "甲申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "甲戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "乙丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "乙卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "乙巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "乙未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "乙酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "乙亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "丙子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "丙寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "丙辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "丙午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "丙申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "丙戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "丁丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "丁卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "丁巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "丁未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "丁酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "丁亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "戊子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "戊寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "戊辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "戊午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "戊申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "戊戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "己丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "己卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "己巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "己未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "己酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "己亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "庚子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "庚寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "庚辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "庚午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "庚申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "庚戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "辛丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "辛卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "辛巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "辛未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "辛酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "辛亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "壬子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "壬寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "壬辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "壬午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "壬申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "壬戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "癸丑",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "癸卯",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "癸巳",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "癸未",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "癸酉",
+      "food": true,
+      "member": true
+    },
+    {
+      "dayStem": "辛",
+      "targetPillar": "癸亥",
+      "food": true,
+      "member": true
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "甲子",
+      "food": true,
+      "member": true
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "甲寅",
+      "food": true,
+      "member": true
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "甲辰",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "甲午",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "甲申",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "甲戌",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "乙丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "乙卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "乙巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "乙未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "乙酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "乙亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "丙子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "丙寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "丙辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "丙午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "丙申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "丙戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "丁丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "丁卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "丁巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "丁未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "丁酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "丁亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "戊子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "戊寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "戊辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "戊午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "戊申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "戊戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "己丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "己卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "己巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "己未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "己酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "己亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "庚子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "庚寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "庚辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "庚午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "庚申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "庚戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "辛丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "辛卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "辛巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "辛未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "辛酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "辛亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "壬子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "壬寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "壬辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "壬午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "壬申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "壬戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "癸丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "癸卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "癸巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "癸未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "癸酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "壬",
+      "targetPillar": "癸亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "甲子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "甲寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "甲辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "甲午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "甲申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "甲戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "乙丑",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "乙卯",
+      "food": true,
+      "member": true
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "乙巳",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "乙未",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "乙酉",
+      "food": true,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "乙亥",
+      "food": true,
+      "member": true
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "丙子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "丙寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "丙辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "丙午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "丙申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "丙戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "丁丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "丁卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "丁巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "丁未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "丁酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "丁亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "戊子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "戊寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "戊辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "戊午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "戊申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "戊戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "己丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "己卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "己巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "己未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "己酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "己亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "庚子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "庚寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "庚辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "庚午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "庚申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "庚戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "辛丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "辛卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "辛巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "辛未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "辛酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "辛亥",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "壬子",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "壬寅",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "壬辰",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "壬午",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "壬申",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "壬戌",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "癸丑",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "癸卯",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "癸巳",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "癸未",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "癸酉",
+      "food": false,
+      "member": false
+    },
+    {
+      "dayStem": "癸",
+      "targetPillar": "癸亥",
+      "food": false,
+      "member": false
+    }
+  ],
+  "chartProjections": [
+    {
+      "modernFeasibilityInput": {
+        "y": 1934,
+        "m": 6,
+        "d": 26,
+        "hour": 16,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "甲戌",
+        "庚午",
+        "戊辰",
+        "庚申"
+      ],
+      "matchingPillarIndices": [
+        1,
+        3
+      ],
+      "fullStrength": null,
+      "historicalBirthDateAttributed": false,
+      "sourceOutcomesValidated": false
+    },
+    {
+      "modernFeasibilityInput": {
+        "y": 1957,
+        "m": 5,
+        "d": 1,
+        "hour": 16,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "丁酉",
+        "甲辰",
+        "癸酉",
+        "庚申"
+      ],
+      "matchingPillarIndices": [],
+      "fullStrength": null,
+      "historicalBirthDateAttributed": false,
+      "sourceOutcomesValidated": false
+    }
+  ],
+  "consumerChanged": false,
+  "fullStrengthEstablished": false,
+  "fullC20ClauseConditionsApplied": false
+}

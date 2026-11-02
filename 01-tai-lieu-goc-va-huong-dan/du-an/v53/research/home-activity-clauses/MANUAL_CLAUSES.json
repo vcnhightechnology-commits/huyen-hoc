@@ -1,0 +1,123 @@
+{
+  "schema": "hhc.home.activity.clauses.v1",
+  "date": "2026-10-29",
+  "sourceID": "itkc-1508A-vol2-daily-selected",
+  "frameID": "source-declared-day-and-symbolic-activity",
+  "sourcePositionsReused": [
+    248,
+    249,
+    250,
+    251,
+    252,
+    253
+  ],
+  "newSourcePositions": 0,
+  "newHTTPBodies": 0,
+  "nativeCropsAccepted": 8,
+  "trialCropsExcluded": 5,
+  "readings": {
+    "white-tiger": {
+      "pages": [
+        248,
+        249
+      ],
+      "literal": [
+        "凡大殺白虎入中宮止忌廳堂中間修整其餘無妨",
+        "如雷霆白虎在中宮亦忌修整廳堂其餘無妨",
+        "又云大殺白虎雷霆白虎如其日在中宮吉凶二事廳堂中間忌用皷樂會客諠譁"
+      ],
+      "distinctions": [
+        "大殺repair限定廳堂中間;雷霆repairreads廳堂, notsilentlysamegeometry",
+        "又云noiseclaim separatevoice;notallroomsconverse",
+        "乙未/乙卯narratives are notpermanentcalendarclassification"
+      ],
+      "calendarClassifier": null
+    },
+    "four-waste": {
+      "pages": [
+        250
+      ],
+      "literal": [
+        "傍四廢吉神倂可用",
+        "正四廢日則凶惟忌起造雜用",
+        "如傍四廢正四廢只宜制棺木立生墳吉"
+      ],
+      "scope": "Only applylateral+beneficpermission to named 起造 context; 雜用 remainsunexpanded. Coffin/livingtombhistoricalnote not productadvice.",
+      "calendarClassifier": null
+    },
+    "wantong-fire": {
+      "pages": [
+        250
+      ],
+      "literal": [
+        "止忌起造竪柱作火焙結茅寮",
+        "縱遇諸吉不能壓制定見火殃"
+      ],
+      "scope": "4namedactivitiesonly; sourceclaimedfireoutcomenotvalidated; benefics do notcancelthisclause.",
+      "calendarClassifier": null
+    },
+    "tianhuo": {
+      "pages": [
+        250
+      ],
+      "literal": [
+        "官曆止忌苫蓋",
+        "諸曆書並云忌蓋屋蓋寮舍蓋船"
+      ],
+      "attribution": "官曆vsanonymous諸曆書reportedbyITKC;notacquiredindependentbooks.",
+      "digitalDifference": "Digital諸書omitsimage曆in諸曆書;recordliteralimagewithoutemendinghistoricaldigital.",
+      "calendarClassifier": null
+    },
+    "received-death": {
+      "pages": [
+        250,
+        251
+      ],
+      "literal": [
+        "大忌襲爵受封上官赴任納表進章",
+        "若竪造日合吉神却犯受死",
+        "至如埋葬則亦不忌"
+      ],
+      "scope": "4specificoffice/investiture/memorialactivities;burialexception. Constructionwithbeneficpointsritual,notautomaticnoavoidance;donotimplementritual.",
+      "calendarClassifier": null,
+      "ritualTermDiplomaticReadingNotUsed": "Exactexorcismglyphnotneededforthisfunction;donotquoteasnewlyresolved."
+    },
+    "tiange": {
+      "pages": [
+        251
+      ],
+      "literal": [
+        "出行求官納表進章合得黃道不避天隔"
+      ],
+      "scope": "4namedactivitieswithHuangdaopremise;falseHuangdaodoesnotproveopposite.",
+      "glyphNote": "image隔vsdigital鬲;namealiasonlynoformulaemendation",
+      "calendarClassifier": null
+    },
+    "renge": {
+      "pages": [
+        253
+      ],
+      "literal": [
+        "娶婦進口合嫁娶日則不避人隔"
+      ],
+      "scope": "2namedactivitiesonly;source-qualifiedmarriagedaypremise;notgenericfamilycompatibility.",
+      "calendarClassifier": null
+    },
+    "fire-water-ge": {
+      "pages": [
+        252
+      ],
+      "literal": [
+        "爐冶窯竈合寅午戌納音屬火日及萬通火星日不避火隔",
+        "忌開塘放魚合得申子辰日納音屬水及建日不避水隔"
+      ],
+      "scope": "及binding/unifiedprioritynotresolved;noAND/ORchosen.萬通火星localfire隔exceptiondoesnotcancelitsownprohibition.",
+      "implementedPredicate": null
+    }
+  },
+  "sourceEfficacyValidated": false,
+  "sourceCalendarAdapter": null,
+  "modernGeometryAdapter": null,
+  "independentBooksAcquired": 0,
+  "compilerCitationsNotUserInstructions": true
+}

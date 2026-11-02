@@ -1,0 +1,91 @@
+{
+  "records": [
+    {
+      "id": "FOOD-00-C19",
+      "unit": "FOOD-00",
+      "heading": "論食神",
+      "startCleanCodepoint": 1371,
+      "endCleanCodepoint": 1447,
+      "text": "若遇生旺庫印天乙天官華葢文星學堂官印禄馬之類為福聚之地遇尅破空亡惡煞刑害休敗死絶為禍聚之地若有華葢正印雖少増培無學堂驛馬雖多減半清貴之家驕奢之族以是别之",
+      "digitalFolios": [
+        "005-88a"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "main",
+      "disposition": "conditional-compound-open",
+      "readingNote": "Tập các nhãn phụ còn có điều kiện; chưa hợp thành điểm phúc/họa.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-00-C21",
+      "unit": "FOOD-00",
+      "heading": "論食神",
+      "startCleanCodepoint": 1541,
+      "endCleanCodepoint": 1609,
+      "text": "食神與禄全見四柱順當為妙指迷賦云食神一處當用一代於三若遇休閑三重不逮於一食分三二財如落葉秋風梟遇一重福若朝菌暮落食神若遇空閑大扺難逃憔悴",
+      "digitalFolios": [
+        "005-88b"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "main-plus-Zhimi-citation",
+      "disposition": "conditional-quotation",
+      "readingNote": "四柱順當 và so một/bội Thực; không đồng nhất phép đếm thô với khí lực.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-00-C23",
+      "unit": "FOOD-00",
+      "heading": "論食神",
+      "startCleanCodepoint": 1662,
+      "endCleanCodepoint": 1764,
+      "text": "壺中子云食神嫌倒爭啜爭哺忽併臨之乏漿乏乳有餘則食前方丈不足則簞食豆羮又云犯倒食在命多被人撓重叠帶者在㓜兒則言乏乳在老人則言缺食正食而有餘者富貴爭食而不足者貧賤有餘如甲人得兩丙三丙不足如柱中兩甲止有一丙之類",
+      "digitalFolios": [
+        "005-89a"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "Huzhongzi",
+      "disposition": "quantity-contrast",
+      "readingNote": "Có dư/thiếu và ví dụ hai ba 丙 so hai 甲/một 丙; không bỏ bối cảnh sức lực.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    }
+  ],
+  "sourceID": "TMTH005-FOOD-C23-Huzhongzi",
+  "sourceVoice": "壺中子",
+  "selectedQuantityPhrases": [
+    "有餘如甲人得兩丙三丙",
+    "不足如柱中兩甲止有一丙之類"
+  ],
+  "sourceAnchorStem": "甲",
+  "sourceAnchorRole": null,
+  "notAutomaticallyDayStem": true,
+  "C21SeparateVoice": {
+    "name": "指迷賦",
+    "literal": "食神一處當用一代於三若遇休閑三重不逮於一",
+    "usableAndIdleAreAdditionalSourcePremises": true,
+    "notNumericalMultiplierThree": true,
+    "implementedAsQuantityRule": false
+  },
+  "C19OpenLists": {
+    "literal": "若遇生旺庫印天乙天官華葢文星學堂官印禄馬之類為福聚之地遇尅破空亡惡煞刑害休敗死絶為禍聚之地若有華葢正印雖少増培無學堂驛馬雖多減半清貴之家驕奢之族以是别之",
+    "listSegmentationFullyAdjudicated": false,
+    "neitherWealthScoreNorMoralRank": true,
+    "implemented": false
+  },
+  "literalQuantityMatchIsNotGeneralSurplusShortageDefinition": true,
+  "C23EffectiveFoodSufficiencyCalculated": false,
+  "sourceOutcomeValidated": false,
+  "wholeContextApplied": false,
+  "consumerApplied": false
+}

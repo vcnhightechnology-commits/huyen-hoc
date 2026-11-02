@@ -1,0 +1,16 @@
+{
+  "schema": "hhc.yi-reading.coverage-update.v1",
+  "date": "2026-10-25",
+  "previousAudit": "../library-audit/COVERAGE.json",
+  "reviewedOrdinaryLines": 12,
+  "totalOrdinaryLines": 384,
+  "remainingOrdinaryLinesWithoutSpecificReading": 372,
+  "additionalAllMovingReadings": 2,
+  "specificHexagrams": [
+    1,
+    2
+  ],
+  "sourceAudit": "SOURCE_AUDIT.json",
+  "note": "Current consumer coverage following the historical library audit. Source text is not shipped in the consumer interface. Practical paraphrases are authored, not full literal translations.",
+  "contentSHA256": "034088210f2a6e7e4f5e87d60c2996e5030c618b652c31deb86abcf815efe222"
+}

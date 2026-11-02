@@ -1,0 +1,942 @@
+{
+  "date": "2026-10-28",
+  "system": "TMTH005-selected-explicit-predicate-audit",
+  "sourceSection": "論陽刃",
+  "sourceSHA256": "013ce4861680a2bf08b811050c45a45bb2d3ce9d164f7e2341d7070bd5cb2c1a",
+  "selectedParentContexts": [
+    14,
+    15,
+    16,
+    17,
+    45,
+    46,
+    47,
+    48
+  ],
+  "selectedSubcontexts": 59,
+  "selectedCodepoints": 1180,
+  "coordinateFactKeys": [
+    "dayIsWuWu",
+    "dayIsRenZi",
+    "dayIsBingWu",
+    "dayStemIsWuJi",
+    "listedDayBlade",
+    "listedNegativeDayHour"
+  ],
+  "factRegistry": {
+    "dayIsBingWu": {
+      "basis": "canonical-day/hour-coordinate",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "dayIsRenZi": {
+      "basis": "canonical-day/hour-coordinate",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "dayIsWuWu": {
+      "basis": "canonical-day/hour-coordinate",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "dayStemIsWuJi": {
+      "basis": "canonical-day/hour-coordinate",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "listedDayBlade": {
+      "basis": "canonical-day/hour-coordinate",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "listedNegativeDayHour": {
+      "basis": "canonical-day/hour-coordinate",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceAutumnMetalYouFrameEstablished": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceBingDingLiXunFrameEstablished": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceBladeTianGongEstablished": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceBodyStrong": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceBodyVeryStrong": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceConflictFrameEstablished": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceDayHasQi": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceDayWeak": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceEffectiveBladePeerControl": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceEffectiveFireRefinement": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceEffectiveMutualControl": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceEffectiveShaControl": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceFifthMonthEstablished": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceFireHeavy": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceFollowingTransformationEstablished": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceGoodPatternEstablished": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceHourBlade": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceHourOfficerSlight": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceLuckOfficerSeal": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceLuckSha": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceLuckShaBladePair": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceLuckWealth": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceMetalMany": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceMonthBlade": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceMonthDayWealthMany": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceMonthHourZiMany": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceMonthPatternEstablished": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceMonthSha": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceNatalBlade": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceNatalHurtingOfficer": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceNatalSeal": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceNatalSha": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceNatalWealth": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceNatalWealthOfficerPattern": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceNoSupport": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceNoXingChongPoHai": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceOfficerCannotControl": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceOfficerHarmed": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceOfficerPresent": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceOfficerStrong": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceOtherPatternEstablished": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourcePeerCompanion": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourcePunishmentCombinationPosition": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceSeasonalProsperityEstablished": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceStemBladeExposed": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceStemBladeMeaningEstablished": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceWaterPresent": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceWealthStrong": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceWuMany": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceYearFrameEstablished": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceYearLuckBladeRepeat": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceYearLuckConcurrentRepeat": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceYearLuckShaBladeRepeat": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceYearLuckStarRepeat": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    },
+    "sourceYearMonthFireMany": {
+      "basis": "explicit-research-declaration-only",
+      "unknownIfNotDeclared": true,
+      "automaticThresholdOrStrengthMethodEstablished": false,
+      "realPersonValidityEstablished": false
+    }
+  },
+  "rules": [
+    {
+      "id": "local-negative-coordinates-qualified",
+      "sourceSubcontextIDs": [
+        "YR-14-10"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "listedNegativeDayHour",
+            "sourceConflictFrameEstablished",
+            "sourceNoXingChongPoHai"
+          ]
+        }
+      ],
+      "sourceLocalStance": "qualified-local-claim",
+      "scopeNote": "Localdenialcoordinates do notremove all bladeclasses; subsequentsourceframe/absenceconditionsnotcomputed.",
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "mutual-control",
+      "sourceSubcontextIDs": [
+        "YR-15-02"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "sourceNatalBlade",
+            "sourceNatalSha",
+            "sourceEffectiveMutualControl"
+          ]
+        }
+      ],
+      "sourceLocalStance": "positive",
+      "scopeNote": "Presenceand有效互制different; no automatic effectivecontrolfrom coexistence.",
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "strong-no-hurting-officer",
+      "sourceSubcontextIDs": [
+        "YR-15-03"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "sourceNatalBlade",
+            "sourceNatalSha",
+            "sourceBodyStrong",
+            {
+              "not": "sourceNatalHurtingOfficer"
+            }
+          ]
+        }
+      ],
+      "sourceLocalStance": "positive",
+      "scopeNote": "更身旺不見傷官qualifies this quotedline; bodystrong methodunestablished.",
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "natal-sha-blade-repeat",
+      "sourceSubcontextIDs": [
+        "YR-15-04",
+        "YR-15-05"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "sourceNatalBlade",
+            "sourceNatalSha",
+            "sourceYearLuckShaBladeRepeat"
+          ]
+        }
+      ],
+      "sourceLocalStance": "negative",
+      "scopeNote": "Shared俱發大禍consequent residesin15-05; preservecross-subcontext binding.",
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "blade-no-sha-luck-sha",
+      "sourceSubcontextIDs": [
+        "YR-15-05"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "sourceNatalBlade",
+            {
+              "not": "sourceNatalSha"
+            },
+            "sourceLuckSha"
+          ]
+        }
+      ],
+      "sourceLocalStance": "negative",
+      "scopeNote": "Generalbranch coexists withfollowingsealqualification; do notresolve byrule order.",
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "blade-seal-no-sha-luck-sha",
+      "sourceSubcontextIDs": [
+        "YR-15-06"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "sourceNatalBlade",
+            "sourceNatalSeal",
+            {
+              "not": "sourceNatalSha"
+            },
+            "sourceLuckSha"
+          ]
+        }
+      ],
+      "sourceLocalStance": "positive",
+      "scopeNote": "Narrowersealpremise in同段;sourceeffectiveness/precedence remainsunestablished.",
+      "sourceOutcomeValidated": false,
+      "mayQualifyRule": "blade-no-sha-luck-sha"
+    },
+    {
+      "id": "no-natal-blade-sha-new-pair",
+      "sourceSubcontextIDs": [
+        "YR-15-07"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            {
+              "not": "sourceNatalBlade"
+            },
+            {
+              "not": "sourceNatalSha"
+            },
+            "sourceNatalWealthOfficerPattern",
+            "sourceLuckShaBladePair"
+          ]
+        }
+      ],
+      "sourceLocalStance": "negative",
+      "scopeNote": "財官pattern factnotinferredfroma starcount; excludesfamilyoutcomeclassification.",
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "natal-blade-repeat",
+      "sourceSubcontextIDs": [
+        "YR-15-09"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "sourceNatalBlade",
+            "sourceYearLuckBladeRepeat"
+          ]
+        }
+      ],
+      "sourceLocalStance": "negative",
+      "scopeNote": "再見and傷官財地 subsidiaryclauses remain separate; this predicate coversonlyrepeat.",
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "original-stars-repeat-ambiguous",
+      "sourceSubcontextIDs": [
+        "YR-15-10"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            {
+              "all": [
+                "sourceNatalHurtingOfficer",
+                "sourceNatalWealth"
+              ]
+            },
+            "sourceYearLuckStarRepeat"
+          ]
+        },
+        {
+          "all": [
+            {
+              "any": [
+                "sourceNatalHurtingOfficer",
+                "sourceNatalWealth"
+              ]
+            },
+            "sourceYearLuckStarRepeat"
+          ]
+        }
+      ],
+      "sourceLocalStance": "negative",
+      "scopeNote": "傷官財星 juxtaposition retainsAND/OReditorialalternatives,not restoration; sourceframe/repeatmeaningunestablished.",
+      "sourceOutcomeValidated": false,
+      "sourceReadingResolved": false
+    },
+    {
+      "id": "day-blade-coordinate",
+      "sourceSubcontextIDs": [
+        "YR-16-01"
+      ],
+      "predicateAlternatives": [
+        "listedDayBlade"
+      ],
+      "sourceLocalStance": "coordinate-label",
+      "scopeNote": "Three literaldaylabels only; not wholepattern or outcome.",
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "day-blade-sha-control-officer-seal-luck",
+      "sourceSubcontextIDs": [
+        "YR-16-04"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "listedDayBlade",
+            "sourceEffectiveShaControl",
+            "sourceLuckOfficerSeal"
+          ]
+        }
+      ],
+      "sourceLocalStance": "positive",
+      "scopeNote": "Earlier不喜刑衝...andotherqualifiersremainopen; matchedlocalpremisesnot sufficientfullrule.",
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "year-wealth-strong-officer-harmed",
+      "sourceSubcontextIDs": [
+        "YR-16-10"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "sourceYearFrameEstablished",
+            "sourceWealthStrong",
+            "sourceOfficerHarmed"
+          ]
+        }
+      ],
+      "sourceLocalStance": "withheld-negative-judgment",
+      "scopeNote": "不作凶斷 is not a verifiedpositiveoutcome;yearframe/strengthunestablished.",
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "wu-wu-fire-many-route",
+      "sourceSubcontextIDs": [
+        "YR-17-01"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "dayIsWuWu",
+            "sourceYearMonthFireMany"
+          ]
+        }
+      ],
+      "sourceLocalStance": "source-method-route",
+      "scopeNote": "火多 qualitative thresholdunknown; source印綬route notestablishedbyfirecount.",
+      "sourceOutcomeValidated": false,
+      "sourceRouteLabel": "印綬"
+    },
+    {
+      "id": "ren-zi-zi-many-route",
+      "sourceSubcontextIDs": [
+        "YR-17-02"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "dayIsRenZi",
+            "sourceMonthHourZiMany"
+          ]
+        }
+      ],
+      "sourceLocalStance": "source-method-route",
+      "scopeNote": "月時見子多 remains sourcepremise,not automatic threshold.",
+      "sourceOutcomeValidated": false,
+      "sourceRouteLabel": "飛天祿馬"
+    },
+    {
+      "id": "bing-wu-wu-many-route",
+      "sourceSubcontextIDs": [
+        "YR-17-03"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "dayIsBingWu",
+            "sourceWuMany"
+          ]
+        }
+      ],
+      "sourceLocalStance": "source-method-route",
+      "scopeNote": "午多/取財官入格 qualifiersunestablished.",
+      "sourceOutcomeValidated": false,
+      "sourceRouteLabel": "倒衝祿馬"
+    },
+    {
+      "id": "other-pattern-priority",
+      "sourceSubcontextIDs": [
+        "YR-17-04"
+      ],
+      "predicateAlternatives": [
+        {
+          "any": [
+            "sourceMonthPatternEstablished",
+            "sourceOtherPatternEstablished",
+            "sourceFollowingTransformationEstablished"
+          ]
+        }
+      ],
+      "sourceLocalStance": "source-method-route",
+      "scopeNote": "不可拘以陽刃:route considerationonly,not automatic methodvalidation.",
+      "sourceOutcomeValidated": false,
+      "sourceRouteLabel": "另按來源已成立的格局"
+    },
+    {
+      "id": "wealth-many-weak-hour-blade",
+      "sourceSubcontextIDs": [
+        "YR-17-09"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "sourceMonthDayWealthMany",
+            "sourceDayWeak",
+            "sourceHourBlade"
+          ]
+        }
+      ],
+      "sourceLocalStance": "withheld-negative-judgment",
+      "scopeNote": "Counts do notprove財多/衰弱;historical無害 claimnotforecast.",
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "month-sha-hour-blade-has-qi",
+      "sourceSubcontextIDs": [
+        "YR-17-10"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "sourceMonthSha",
+            "sourceHourBlade",
+            "sourceDayHasQi"
+          ]
+        }
+      ],
+      "sourceLocalStance": "positive",
+      "scopeNote": "日主有氣 not inferredfrompresence; no socialrankprediction.",
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "month-blade-light-officer-no-control",
+      "sourceSubcontextIDs": [
+        "YR-17-11"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "sourceMonthBlade",
+            "sourceHourOfficerSlight",
+            "sourceOfficerCannotControl"
+          ]
+        }
+      ],
+      "sourceLocalStance": "negative",
+      "scopeNote": "微帶and力不能制 not the same as merepresence orabsence.",
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "good-pattern-effective-control",
+      "sourceSubcontextIDs": [
+        "YR-17-12"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "sourceGoodPatternEstablished",
+            "sourceNatalBlade",
+            "sourceEffectiveBladePeerControl"
+          ]
+        }
+      ],
+      "sourceLocalStance": "positive",
+      "scopeNote": "既是好命 and制按如法 require sourcepremises; no fullpatternclassifier.",
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "later-repeat-or-punishment-combination",
+      "sourceSubcontextIDs": [
+        "YR-17-13"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "sourceNatalBlade",
+            {
+              "any": [
+                "sourceYearLuckConcurrentRepeat",
+                "sourcePunishmentCombinationPosition"
+              ]
+            }
+          ]
+        }
+      ],
+      "sourceLocalStance": "negative",
+      "scopeNote": "後遇 sourceframe not translated toactualcalendar; nofortuneclassification.",
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "very-strong-unsupported-wealth-route",
+      "sourceSubcontextIDs": [
+        "YR-45-03"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "sourceBodyVeryStrong",
+            "sourceNoSupport",
+            "sourceLuckWealth"
+          ]
+        }
+      ],
+      "sourceLocalStance": "source-preference",
+      "scopeNote": "Keeps poemvoice distinctfromprecedingprose忌財 andsubsequenthistoricalharmclaims.",
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "fifth-month-metal-water",
+      "sourceSubcontextIDs": [
+        "YR-47-02"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "dayStemIsWuJi",
+            "sourceFifthMonthEstablished",
+            "sourceBladeTianGongEstablished",
+            "sourceMetalMany",
+            "sourceWaterPresent"
+          ]
+        }
+      ],
+      "sourceLocalStance": "positive",
+      "scopeNote": "Native戊己 vsdigital戊巳 preserved;五月/天宮/金多 notautomatic moderncalendar/strength.",
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "fifth-month-fire-peer",
+      "sourceSubcontextIDs": [
+        "YR-47-03"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "dayStemIsWuJi",
+            "sourceFifthMonthEstablished",
+            "sourceBladeTianGongEstablished",
+            "sourceFireHeavy",
+            "sourcePeerCompanion"
+          ]
+        }
+      ],
+      "sourceLocalStance": "source-preference",
+      "scopeNote": "Fireheavy and比劫scope qualitative; no addednumericalthreshold.",
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "seasonal-stem-blade-repeat",
+      "sourceSubcontextIDs": [
+        "YR-48-01"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "sourceSeasonalProsperityEstablished",
+            "sourceStemBladeMeaningEstablished",
+            "sourceStemBladeExposed",
+            "sourceYearLuckConcurrentRepeat"
+          ]
+        }
+      ],
+      "sourceLocalStance": "negative",
+      "scopeNote": "天干露 needs a namedsemanticblade category; notfilledfromordinarybranchtable.",
+      "sourceOutcomeValidated": false
+    },
+    {
+      "id": "officer-strong-trine-route",
+      "sourceSubcontextIDs": [
+        "YR-48-02"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "sourceBingDingLiXunFrameEstablished",
+            "sourceOfficerStrong"
+          ]
+        }
+      ],
+      "sourceLocalStance": "source-method-route",
+      "scopeNote": "官旺 and無官 are notlogicalcomplements; presencebutweak mayfitneither.",
+      "sourceOutcomeValidated": false,
+      "sourceRouteLabel": "寅午戌"
+    },
+    {
+      "id": "officer-absent-trine-route",
+      "sourceSubcontextIDs": [
+        "YR-48-02"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "sourceBingDingLiXunFrameEstablished",
+            {
+              "not": "sourceOfficerPresent"
+            }
+          ]
+        }
+      ],
+      "sourceLocalStance": "source-method-route",
+      "scopeNote": "Requires explicitabsence,not simply failed旺premise.",
+      "sourceOutcomeValidated": false,
+      "sourceRouteLabel": "申子辰"
+    },
+    {
+      "id": "autumn-metal-effective-fire",
+      "sourceSubcontextIDs": [
+        "YR-48-03"
+      ],
+      "predicateAlternatives": [
+        {
+          "all": [
+            "sourceAutumnMetalYouFrameEstablished",
+            "sourceEffectiveFireRefinement"
+          ]
+        }
+      ],
+      "sourceLocalStance": "source-preference",
+      "scopeNote": "火煉器 is a sourceeffectivenesspremise,not merelyan exposedfirestem.",
+      "sourceOutcomeValidated": false
+    }
+  ],
+  "sourceInstructionsAreData": true,
+  "sourceLocalStanceIsValidatedOutcome": false,
+  "automaticPrecedenceEstablished": false,
+  "strengthMethodValidated": false,
+  "allConditionalRulesCompiled": false,
+  "practicalOutcomesValidated": false,
+  "wholeCatalogueCompleted": false
+}

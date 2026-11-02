@@ -1,0 +1,18 @@
+{
+  "id": "AI-13",
+  "name": "Lịch Pháp — Tiết Khí, Can Chi và quy ước lịch Việt Nam",
+  "researchTrackDirectory": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-13",
+  "historicalGitBranchRef": "codex/ai-13-lich-phap",
+  "historicalPR": "12",
+  "historicalCommitSHA": "a6c925f44fd7 (mốc trước, chưa kiểm HEAD)",
+  "historicalGitMetadataVerifiedAgainstCurrentRemote": false,
+  "reportedTestsHistoricalUnverified": "Theo lịch sử: 12/12 tiết Jie HKO 2026 đến phút; 48/48 kiểm ranh; 5/5 nhãn Can Chi; các vòng riêng báo 36/36 mốc và 2.412 mốc khảo sát",
+  "reportedNextSteps": "Cần chứng thực lịch hành chính gốc 1975 miền Nam, đối ảnh/PDF HKO và SHA, chạy đầy đủ CI và hồi quy chuyển ngày; chưa tự chọn lá số khi nguồn lịch mơ hồ.",
+  "currentProjectPointers": [
+    "v53/research/month-boundaries",
+    "v53/engine.js",
+    "v53/research/library-current/COVERAGE.json"
+  ],
+  "evidenceMembers": 3,
+  "applicationPatchApplied": false
+}

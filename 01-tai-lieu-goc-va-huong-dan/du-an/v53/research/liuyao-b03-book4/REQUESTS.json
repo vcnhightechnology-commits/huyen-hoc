@@ -1,0 +1,95 @@
+{
+  "schema": "hhc.source.http.v1",
+  "records": [
+    {
+      "file": "b03-book4-commons-api.json",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=imageinfo%7Crevisions&titles=File%3ANLC892-GBZX0301013045-259367+%E5%8D%9C%E7%AD%AE%E6%AD%A3%E5%AE%97+%E5%8D%81%E5%9B%9B%E5%8D%B7+%E7%AC%AC4%E5%86%8A.pdf&iiprop=url%7Csize%7Csha1%7Cmetadata%7Cextmetadata&rvprop=ids%7Ctimestamp%7Ccontent&rvslots=main",
+      "executed": true,
+      "status": 200,
+      "headers": {
+        "date": "Tue, 27 Oct 2026 07:25:37 GMT",
+        "server": "mw-api-ext.eqiad.main-78f5945d58-fn9d5",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src 'self'; script-src 'none'; object-src 'none'",
+        "x-frame-options": "DENY",
+        "content-disposition": "inline; filename=api-result.json",
+        "expires": "Tue, 27 Oct 2026 08:25:37 GMT",
+        "cache-control": "max-age=3600, s-maxage=3600, public",
+        "content-type": "application/json; charset=utf-8",
+        "age": "0",
+        "accept-ranges": "bytes",
+        "x-cache": "cp1114 miss, cp1114 miss",
+        "x-cache-status": "miss",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "set-cookie": [
+          "WMF-Last-Access=27-Oct-2026;Path=/;HttpOnly;secure;Expires=Sat, 28 Nov 2026 00:00:00 GMT",
+          "GeoIP=US:CA:Los_Angeles:34.05:-118.24:v4; Path=/; secure; Domain=.wikimedia.org",
+          "NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600",
+          "WMF-Uniq=K7vNcobEQ2hiUT9q949_eAQGAAAAAFvdNKwGz6wRedi7XML39IGvzgdZIdNrwSVc;Domain=commons.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Wed, 27 Oct 2027 00:00:00 GMT"
+        ],
+        "x-client-ip": "2a02:6ea0:1806:d000:4902:34f9:c51c:edb3",
+        "vary": "Accept-Encoding,X-Subdomain,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization,User-Agent",
+        "transfer-encoding": "chunked",
+        "x-request-id": "3ff42b1e-02c3-4081-b907-1b9a621cf617",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"miss\", host;desc=\"cp1114\",co_id;desc=\"3751374560\""
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "bytes": 13332,
+      "sha256": "adf4829c02615127767dfa20832eeb6a5a9b090c439a5849daac80c99e138377",
+      "sha1": "5fc8596664a0d10f76fcbbefb6a3e4b7a0544833",
+      "retrievedUTC": "2026-10-27T07:25:42.604Z"
+    },
+    {
+      "file": "NLC892-GBZX0301013045-259367.pdf",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/a/a5/NLC892-GBZX0301013045-259367_%E5%8D%9C%E7%AD%AE%E6%AD%A3%E5%AE%97_%E5%8D%81%E5%9B%9B%E5%8D%B7_%E7%AC%AC4%E5%86%8A.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "executed": true,
+      "status": 200,
+      "headers": {
+        "content-type": "application/pdf",
+        "x-object-meta-sha1base36": "f654l6xkn8p5e3942axdxmpitdvi6os",
+        "etag": "984ab9998252f629d498a97ad4f73d2d",
+        "last-modified": "Fri, 24 Mar 2023 13:29:44 GMT",
+        "accept-ranges": "bytes",
+        "content-length": "57017134",
+        "date": "Tue, 27 Oct 2026 07:25:38 GMT",
+        "x-ratelimit-limit": "600000, 600000;w=60",
+        "x-ratelimit-remaining": "599999",
+        "x-ratelimit-reset": "22",
+        "server": "envoy",
+        "age": "0",
+        "x-cache": "cp1105 miss, cp1105 pass",
+        "x-cache-status": "pass",
+        "server-timing": "cache;desc=\"pass\", host;desc=\"cp1105\"",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "x-client-ip": "2a02:6ea0:1806:d000:4902:34f9:c51c:edb3",
+        "x-content-type-options": "nosniff",
+        "reporting-endpoints": "csp_endpoint=\"https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json\"",
+        "content-security-policy-report-only": "default-src 'none'; script-src 'none'; style-src 'unsafe-inline' data:; font-src data:; img-src data: https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; connect-src https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; media-src data: 'self'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'self'; report-uri https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json; report-to csp_endpoint",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+        "timing-allow-origin": "*",
+        "set-cookie": [
+          "WMF-Uniq=CtvEHh5hK9pSBow4BmjOswQGAAAAAFvdXzHn5OsAluXglQ8eTQvwCDro609nebET;Domain=upload.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Wed, 27 Oct 2027 00:00:00 GMT"
+        ],
+        "x-request-id": "0cf781c6-1f52-4964-90db-5f39cd4b5267",
+        "x-analytics": ""
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "bytes": 57017134,
+      "sha256": "5f8bb92f28120fa4c2c4d629ae8bad9f785dc02324f15f285085c99ab7ffadaf",
+      "sha1": "81df815ecbbfac0526e6b630c73533bafc08155c",
+      "retrievedUTC": "2026-10-27T07:25:46.703Z"
+    }
+  ]
+}

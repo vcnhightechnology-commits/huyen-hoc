@@ -1,0 +1,56 @@
+{
+  "date": "2026-10-29",
+  "frozenBeforeActualEngineCalls": true,
+  "modernTestYear": 1985,
+  "modernTestDay": 15,
+  "calendar": "lunar",
+  "leap": false,
+  "tz": 8,
+  "hourPolicy": "center of declared branch, current day",
+  "gender": "male",
+  "historicalBirthDateAttribution": false,
+  "records": [
+    {
+      "id": "month9-ming-chou",
+      "month": 9,
+      "hourIndex": 9,
+      "hour": 18,
+      "expectedMingBranch": "丑",
+      "expectedUnorderedPair": [
+        "子",
+        "寅"
+      ],
+      "expectedGeometry": true,
+      "expectedNamedAssignment": {
+        "左輔": "子",
+        "右弼": "寅"
+      },
+      "namedAssignmentBasis": "literal printed example; not extrapolated to month11"
+    },
+    {
+      "id": "month11-ming-chou",
+      "month": 11,
+      "hourIndex": 11,
+      "hour": 22,
+      "expectedMingBranch": "丑",
+      "expectedUnorderedPair": [
+        "子",
+        "寅"
+      ],
+      "expectedGeometry": true,
+      "expectedNamedAssignment": null,
+      "namedAssignmentBasis": "not assumed; test unordered geometry only"
+    },
+    {
+      "id": "month4-same-palace-negative",
+      "month": 4,
+      "hourIndex": 10,
+      "hour": 20,
+      "expectedMingBranch": null,
+      "expectedUnorderedPair": null,
+      "expectedGeometry": false,
+      "expectedNamedAssignment": null,
+      "namedAssignmentBasis": "editorial counterexample for same-palace vs flanking, not an additional printed chart"
+    }
+  ]
+}

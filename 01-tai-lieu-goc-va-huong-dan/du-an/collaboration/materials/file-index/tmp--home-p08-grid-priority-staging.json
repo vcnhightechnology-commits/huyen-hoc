@@ -1,0 +1,197 @@
+{
+  "scope": "tmp/home-p08-grid-priority-staging",
+  "files": [
+    {
+      "file": "tmp/home-p08-grid-priority-staging/EXPECTED_CONTEXTS.json",
+      "bytes": 14663,
+      "sha256": "8953d78b0531c8e1547371dba3a55c635c5d17fd835461d33892940821725ffb",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8953d78b0531c8e1547371dba3a55c635c5d17fd835461d33892940821725ffb",
+      "httpRange": {
+        "offset": 244664367,
+        "compressedBytes": 752,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-p08-grid-priority-staging/MANUAL_CONTEXTS.json",
+      "bytes": 1486,
+      "sha256": "919e612773a5cbcc06894370b846343b98f61980285296eeffd70a681277e963",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/919e612773a5cbcc06894370b846343b98f61980285296eeffd70a681277e963",
+      "httpRange": {
+        "offset": 312240950,
+        "compressedBytes": 862,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-p08-grid-priority-staging/NEXT_WITNESS.json",
+      "bytes": 558,
+      "sha256": "c0e8177a40a1caf41ab436241bb5c7ca408a809188de8efd9f65ca83513461c0",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c0e8177a40a1caf41ab436241bb5c7ca408a809188de8efd9f65ca83513461c0",
+      "httpRange": {
+        "offset": 254196036,
+        "compressedBytes": 362,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-p08-grid-priority-staging/PREIMPLEMENTATION_FREEZE.json",
+      "bytes": 710,
+      "sha256": "225333952ecb791ff971cfd9ed86d337c2594aeb028036fa1d5dd93fe2ec32c3",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/225333952ecb791ff971cfd9ed86d337c2594aeb028036fa1d5dd93fe2ec32c3",
+      "httpRange": {
+        "offset": 90316010,
+        "compressedBytes": 370,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-p08-grid-priority-staging/READING_AUDIT.json",
+      "bytes": 1212,
+      "sha256": "f22acba08c217fed0f0eaab42cfc4536f8fe7ba0d9316de26acf3769f474a077",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f22acba08c217fed0f0eaab42cfc4536f8fe7ba0d9316de26acf3769f474a077",
+      "httpRange": {
+        "offset": 164766473,
+        "compressedBytes": 752,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-p08-grid-priority-staging/README.md",
+      "bytes": 2751,
+      "sha256": "706ac855cc67536315684980c6291d64629e9b07852c521e1526bc39c30c0899",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/706ac855cc67536315684980c6291d64629e9b07852c521e1526bc39c30c0899",
+      "httpRange": {
+        "offset": 317426163,
+        "compressedBytes": 1599,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-p08-grid-priority-staging/SOURCE_IDENTITIES.json",
+      "bytes": 1552,
+      "sha256": "dff2f1cd45b7c3ed1cf9a7bbcec4b7a8fa56fedffb351d703ed2f44d5dae8a18",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/dff2f1cd45b7c3ed1cf9a7bbcec4b7a8fa56fedffb351d703ed2f44d5dae8a18",
+      "httpRange": {
+        "offset": 281527019,
+        "compressedBytes": 675,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-p08-grid-priority-staging/SOURCE_RESULTS.json",
+      "bytes": 278,
+      "sha256": "bb32b99c6b0c19cb16f0928c2e6583959ce04aa94d7ced7bfef8847a0ad2d59b",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bb32b99c6b0c19cb16f0928c2e6583959ce04aa94d7ced7bfef8847a0ad2d59b",
+      "httpRange": {
+        "offset": 190439800,
+        "compressedBytes": 169,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-p08-grid-priority-staging/TEST_RESULTS.json",
+      "bytes": 331,
+      "sha256": "f8c8386e860338cbfbd1a894d278590021a18b81aa2e0a5c5150aac99b95e8c7",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f8c8386e860338cbfbd1a894d278590021a18b81aa2e0a5c5150aac99b95e8c7",
+      "httpRange": {
+        "offset": 239536885,
+        "compressedBytes": 203,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-p08-grid-priority-staging/WORK_STATE.json",
+      "bytes": 1441,
+      "sha256": "f1267f3a342b68424d05a10e156b5f01b3fe2e729b8711b3ec8326aba3327d2e",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f1267f3a342b68424d05a10e156b5f01b3fe2e729b8711b3ec8326aba3327d2e",
+      "httpRange": {
+        "offset": 148937100,
+        "compressedBytes": 808,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-p08-grid-priority-staging/context-reference.mjs",
+      "bytes": 2173,
+      "sha256": "b3dae695b177048eda55d4bb94bac840f6c9d87108f7b07964f5c4fb9454685f",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b3dae695b177048eda55d4bb94bac840f6c9d87108f7b07964f5c4fb9454685f",
+      "httpRange": {
+        "offset": 360367738,
+        "compressedBytes": 1040,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-p08-grid-priority-staging/itkc244-direction.png",
+      "bytes": 1492553,
+      "sha256": "38aad827f0682ef94032a70f553d0524ed87d9c6f16f9c5a5f942b85928b1ca9",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/38aad827f0682ef94032a70f553d0524ed87d9c6f16f9c5a5f942b85928b1ca9",
+      "httpRange": {
+        "offset": 354871262,
+        "compressedBytes": 1492642,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-p08-grid-priority-staging/p131-introduction.png",
+      "bytes": 3096902,
+      "sha256": "3866901f33bcd6cb7e6c6b3f50b77e483a76cc7b4a2bebf05f2ef25bc2e4ef93",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/3866901f33bcd6cb7e6c6b3f50b77e483a76cc7b4a2bebf05f2ef25bc2e4ef93",
+      "httpRange": {
+        "offset": 351257160,
+        "compressedBytes": 3097837,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-p08-grid-priority-staging/prepare.py",
+      "bytes": 3826,
+      "sha256": "391df941a0ecf5bb765f92d225fb4efc74dfa54e9b8dc7efdaaff01b25cfc0e3",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/391df941a0ecf5bb765f92d225fb4efc74dfa54e9b8dc7efdaaff01b25cfc0e3",
+      "httpRange": {
+        "offset": 366593827,
+        "compressedBytes": 2112,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-p08-grid-priority-staging/test-context.mjs",
+      "bytes": 3276,
+      "sha256": "968d6013571cc0503d8d9bcc86047dfe26b58f14c9610df0397b33c26f426738",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/968d6013571cc0503d8d9bcc86047dfe26b58f14c9610df0397b33c26f426738",
+      "httpRange": {
+        "offset": 368390720,
+        "compressedBytes": 1400,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-p08-grid-priority-staging/verify-source.py",
+      "bytes": 1218,
+      "sha256": "e53d7645a52ff035dcfe764b6774297c7c05adb4a95accb0c6dd1de4f1ce5a82",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e53d7645a52ff035dcfe764b6774297c7c05adb4a95accb0c6dd1de4f1ce5a82",
+      "httpRange": {
+        "offset": 338001614,
+        "compressedBytes": 667,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

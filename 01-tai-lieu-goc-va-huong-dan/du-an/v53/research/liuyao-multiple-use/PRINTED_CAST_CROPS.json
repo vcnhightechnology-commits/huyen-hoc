@@ -1,0 +1,93 @@
+{
+  "records": [
+    {
+      "page": 134,
+      "raw": {
+        "file": "v53/research/liuyao-progress-conditions/images/zengshan-134.png",
+        "bytes": 69247,
+        "sha256": "1b6bca60ad1955f9a5b249d9a4e1a10d60adbafa12bb89bb03f3440ab1037756"
+      },
+      "crop": {
+        "file": "tmp/liuyao-multiple-use-staging/p134-literal-cast-xiaoxu.png",
+        "bytes": 18921,
+        "sha256": "c2f32dda15beb3577b3873863679a392dafd8f720c87d828d0d756a5a13a11a2"
+      },
+      "boxXYXY": [
+        325,
+        570,
+        650,
+        1190
+      ],
+      "actuallyViewed": true,
+      "accepted": true
+    },
+    {
+      "page": 135,
+      "raw": {
+        "file": "v53/research/liuyao-progress-conditions/images/zengshan-135.png",
+        "bytes": 88413,
+        "sha256": "656d5327c7974402d6a26c607e2b3d50b0c53094723691bd92b1f46fec68875d"
+      },
+      "crop": {
+        "file": "tmp/liuyao-multiple-use-staging/p135-literal-cast-shi-huan-complete.png",
+        "bytes": 36810,
+        "sha256": "bcb0b53f52ee0b75ee8a62615364983ec68d5369206d61d60038ca59180a9765"
+      },
+      "boxXYXY": [
+        540,
+        185,
+        880,
+        1210
+      ],
+      "actuallyViewed": true,
+      "accepted": true,
+      "castMotionPolicy": "Named師之渙pairusedforpolaritydifference;thiscropdoesnotestablishprinted6/9castmarks."
+    },
+    {
+      "page": 135,
+      "raw": {
+        "file": "v53/research/liuyao-progress-conditions/images/zengshan-135.png",
+        "bytes": 88413,
+        "sha256": "656d5327c7974402d6a26c607e2b3d50b0c53094723691bd92b1f46fec68875d"
+      },
+      "crop": {
+        "file": "tmp/liuyao-multiple-use-staging/p135-literal-cast-yu-guimei.png",
+        "bytes": 19139,
+        "sha256": "36db54384592e454393e47ad95a08124b2af753765c9cb98bc2c941e9061a885"
+      },
+      "boxXYXY": [
+        275,
+        650,
+        610,
+        1200
+      ],
+      "actuallyViewed": true,
+      "accepted": true
+    }
+  ],
+  "scope": "Separatepost-implementationfixtureevidence;notpartoftheearliercomparison-freeze.",
+  "trialRecords": [
+    {
+      "page": 135,
+      "raw": {
+        "file": "v53/research/liuyao-progress-conditions/images/zengshan-135.png",
+        "bytes": 88413,
+        "sha256": "656d5327c7974402d6a26c607e2b3d50b0c53094723691bd92b1f46fec68875d"
+      },
+      "crop": {
+        "file": "tmp/liuyao-multiple-use-staging/p135-literal-cast-shi-huan.png",
+        "bytes": 35070,
+        "sha256": "bee731302acf4125b8714b4bd699a5be527b1ac6441607c5260826d071ebc19c"
+      },
+      "boxXYXY": [
+        550,
+        185,
+        820,
+        1185
+      ],
+      "actuallyViewed": true,
+      "accepted": false,
+      "rejectionReason": "Right-sidecontexttoosmall;notacceptedforthecompletefirstcastparagraph."
+    }
+  ]
+}

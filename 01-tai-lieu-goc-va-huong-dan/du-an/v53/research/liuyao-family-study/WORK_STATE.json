@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-28",
+  "status": "chapter39-49-first-pass-spans-private-explicit-question-contexts-verified-full-conditions-active",
+  "latestReport": "v53/LIUYAO_FAMILY_STUDY_REPORT.md",
+  "completedStep": "B02: đọc tiếp 31 vị trí PDF233–263, mở rộng hai vị trí15/232; khép lượt đọc đầu các khoảng chương39–49, chương50 mới mở263. Sửa nhãn mục lục làm việc chương40 từ 超遷 sang 趨避 theo cả ảnh15/235, giữ nguyên PDF và các hồ sơ cũ. Trích35mệnh đề giới hạn,10ngữ cảnh hỏi riêng/5tọa độ ngũ kinh; bộ riêng yêu cầu chủ thể/nội dung/tác phẩm hoặc cấp thi tường minh, giữ hai nghĩa thầy/sách cùng 父母 và không tự nhận dạng người thân. 8kiểm đạt:2lượt HHC thật cho益→觀,6nhãn chi-Lục thân/ThếỨng/子父→未財 khớp;5120ngữ cảnh cấu trúc riêng,7168mục vai trò nằm trong chúng. 33ảnh nguồn xác minhSHA,2QAđộphângiảicao đãxem/4táirender khớppixel;0HTTP/PDFgốc mới/nhân chứng mới. Map136/81chỉđềmục/47khoảngđọclầnđầu/7nềnmộtphần/1mở50/0áphết. Khôngkếtluận sứckhỏe/sinhcon/hônnhân/thiđỗ;web/site/ZIPweb nguyênbyte,toànkhochưa xong.",
+  "summary": {
+    "actualHHCHexCalls": 2,
+    "printedCastFixtures": 1,
+    "sourceKinBranchLabels": 6,
+    "namedSourceContexts": 10,
+    "sourceClassicCoordinates": 5,
+    "enumeratedPrivateFigureMotionContexts": 5120,
+    "roleEntriesWithinEnumeratedContexts": 7168,
+    "boundedClauses": 35,
+    "viewedSourcePositions": 33,
+    "newSourceReadPositions": 31,
+    "expandedPriorReadPositions": 2,
+    "newNativeContentRenders": 31,
+    "newHighResolutionQARenders": 2,
+    "completeFirstPassChapterSpans": 11,
+    "workingTOCLabelsCorrected": 1,
+    "newHTTPRequests": 0,
+    "newOriginalContainers": 0
+  },
+  "sourceVerification": {
+    "date": "2026-10-28",
+    "sourcePDFSHA256": "caac111bc5c5b1c08fd27b3828e7cf6b5430503800f2427d8f2b28809022abaa",
+    "sourceImageHashesVerified": 33,
+    "newSourceReadPositions": 31,
+    "expandedPriorReadPositions": 2,
+    "newNativeContentRenders": 31,
+    "newHighResolutionQARenders": 2,
+    "highResolutionQAViewed": true,
+    "pixelReproductions": [
+      {
+        "sourcePage": 233,
+        "dpi": 144,
+        "file": "redecode-233-144-233.png",
+        "sha256": "c8576ea80bc7edd5bc62d1a94f77d33b03d69a7986af4fc95372fce06514e66a",
+        "pixelMatch": true,
+        "notNewSourcePosition": true
+      },
+      {
+        "sourcePage": 259,
+        "dpi": 144,
+        "file": "redecode-259-144-259.png",
+        "sha256": "f58563bae64fe0baea8e259c228013b7c53234b8dc15bb32fd2d76eb45be1d0c",
+        "pixelMatch": true,
+        "notNewSourcePosition": true
+      },
+      {
+        "sourcePage": 15,
+        "dpi": 240,
+        "file": "redecode-15-240-015.png",
+        "sha256": "259011988148c0f2c6dbb20bb1f0ef17bd66e42704a24bb3e73e7b54d66d2a0c",
+        "pixelMatch": true,
+        "notNewSourcePosition": true
+      },
+      {
+        "sourcePage": 259,
+        "dpi": 360,
+        "file": "redecode-259-360-259.png",
+        "sha256": "85e937ea59c970fe09d5063138e9a7fac11100e425b5db211111c199377fb8f6",
+        "pixelMatch": true,
+        "notNewSourcePosition": true
+      }
+    ],
+    "completeFirstPassSpans": 11,
+    "chapter50OpeningOnly": true,
+    "workingTOCLabelsCorrected": 1,
+    "correctionEvidencePDFPages": [
+      15,
+      235
+    ],
+    "sourceEmended": false,
+    "newHTTPRequests": 0,
+    "newOriginalContainers": 0,
+    "independentNewWitnesses": 0,
+    "allSourceImageCharactersCollated": false,
+    "sourceOutcomesValidated": false,
+    "wholeChaptersApplied": false,
+    "wholeCatalogueCompleted": false
+  },
+  "sourceUnitMap": "v53/research/liuyao-family-study/B02_CURRENT_UNITS.json",
+  "next": [
+    "B02 chương50 mới đầu263; nếu nối đọc, tiếp264. Các chương39–49 mới khép khoảng đọc đầu,35mệnh đề chưa phải toàn bộ điều kiện. Giữ giọng nguồn và phạm vi câu hỏi; không máy đoán tuổi thọ, bệnh, sinh con, quan hệ gia đình hoặc kết quả thi.",
+    "B02 current map là liuyao-family-study/B02_CURRENT_UNITS.json:136đơn vị/81chỉđềmục/47khoảngđọclầnđầu/7nềnmộtphần/1mở50/0áphết. 超遷 là lỗi chép mục lục trước,không phải dịbản;cácmapcũ giữ lịch sử. B03/MaiHoa/cácmệnhđềphụ và chữmở226 chưa khép.",
+    "Bát tự còn điều kiện cách/vượng suy/dụng thần/陽刃格 và tiền đề đầy đủ, không lặp bảng Lộc đã đạt. Tử vi còn 火鈴星/Canh–Nhâm/khởi hạn và nhân chứng độc lập. Nhà ở còn Trạch Kinh ảnh/Phi Tinh/chuẩn Bắc thực và nối lịch; đồ49 một bộ tháng chưa rõ, giữ hai khả năng12 hoặc11–12.",
+    "Ứng viên UI Kiến Lộc vẫn ngoài site vì browser bị vô hiệu hóa, không vượt setting; giữ lead T02/403 riêng. Nguồn, corpus, suy luận và QA ngoài site; không xuất bản mạng. Danh mục40/whole0 và bốn lĩnh vực vẫn active."
+  ],
+  "consumerChanged": false,
+  "wholeChaptersApplied": false,
+  "sourceOutcomesValidated": false,
+  "wholeCatalogueCompleted": false
+}

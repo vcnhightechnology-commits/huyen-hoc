@@ -1,0 +1,631 @@
+{
+  "schema": "hhc.yi.second-scan.audit.v1",
+  "date": "2026-10-26",
+  "summary": {
+    "targetPositions": 16,
+    "completeSecondCollation": false,
+    "blackCommentaryPassages": 5,
+    "selectedRasters": 90,
+    "exactMatchesFirst": 15,
+    "exactMatchesApp": 0,
+    "exactMatchesWikisource": 0,
+    "consumerRefinements": 4,
+    "realEngineCasts": 4096
+  },
+  "firstWitnessQueue": {
+    "file": "research/full-study/yi/yao-384-collation-queue.json",
+    "sha256": "ed46b5bffe29e2d8ee2479ca6c083014d26b9741f302d9b9ef5b1c97f72beaa9"
+  },
+  "provenance": "PROVENANCE.md",
+  "comparisons": [
+    {
+      "hexagram": 9,
+      "position": 3,
+      "pdfPages": [
+        78
+      ],
+      "han": "輿說輻夫妻反目",
+      "focus": "輿說輻",
+      "impact": "A failed vehicle connection and discord; neither wording identifies a person's actual mechanical or marital event.",
+      "sourceImages": [
+        {
+          "pdfPage": 78,
+          "image": "evidence/p078.jpg",
+          "sourceImageName": "Im0.jpg",
+          "bytes": 306714,
+          "sha256": "b538670af151a096f160a2b01b9312c551a2c0dd759a9d746ed848a3df7cd3a0",
+          "size": [
+            1713,
+            1240
+          ],
+          "extractedTextLength": 0
+        }
+      ],
+      "firstWitness": "輿說輻夫妻反目",
+      "firstWitnessImages": [
+        {
+          "book": 1,
+          "pdfPage": 53,
+          "image": "evidence/book1-pages/p053.jpg",
+          "sha256": "1100daf307ef38854c3632830ead13434b9c52b7bb4f2a0c051b698c4346b134"
+        }
+      ],
+      "electronicApp": "車說輹，夫妻反目。",
+      "electronicWikisource": "車說輹，夫妻反目。",
+      "exactMatchesFirst": true,
+      "exactMatchesApp": false,
+      "exactMatchesWikisource": false
+    },
+    {
+      "hexagram": 9,
+      "position": 6,
+      "pdfPages": [
+        79
+      ],
+      "han": "既雨既處尚德載婦貞厲月幾望君子征凶",
+      "focus": "尚德載",
+      "impact": "Accumulation and a stopping point; retain contextual reading without prescribing gender roles.",
+      "sourceImages": [
+        {
+          "pdfPage": 79,
+          "image": "evidence/p079.jpg",
+          "sourceImageName": "Im0.jpg",
+          "bytes": 302816,
+          "sha256": "b969466a41222ca4349d70676403deb60c9c23cde6ec376f6da7d53832981087",
+          "size": [
+            1713,
+            1240
+          ],
+          "extractedTextLength": 0
+        }
+      ],
+      "firstWitness": "既雨既處尚德載婦貞厲月幾望君子征凶",
+      "firstWitnessImages": [
+        {
+          "book": 1,
+          "pdfPage": 54,
+          "image": "evidence/book1-pages/p054.jpg",
+          "sha256": "a0af85f01806f8685d23d7f75e9721f849f5237f46a169a1e64eb910b99dfe0b"
+        }
+      ],
+      "electronicApp": "既雨既處，尚得載，婦貞厲，月幾望，君子征凶。",
+      "electronicWikisource": "既雨既處，尚得載，婦貞厲，月幾望，君子征凶。",
+      "exactMatchesFirst": true,
+      "exactMatchesApp": false,
+      "exactMatchesWikisource": false
+    },
+    {
+      "hexagram": 14,
+      "position": 4,
+      "pdfPages": [
+        93
+      ],
+      "han": "匪其彭无咎",
+      "focus": "匪其彭",
+      "impact": "Commentary discusses fullness/excess and proximity to the fifth line; the existing modesty prompt remains editorial.",
+      "sourceImages": [
+        {
+          "pdfPage": 93,
+          "image": "evidence/p093.jpg",
+          "sourceImageName": "Im0.jpg",
+          "bytes": 296448,
+          "sha256": "24b9bdd15a0da310c16eecdb3c1878684fc6a1eeffaee6f1df2a1e7b9f717e31",
+          "size": [
+            1713,
+            1240
+          ],
+          "extractedTextLength": 0
+        }
+      ],
+      "firstWitness": "匪其彭无咎",
+      "firstWitnessImages": [
+        {
+          "book": 1,
+          "pdfPage": 64,
+          "image": "evidence/book1-pages/p064.jpg",
+          "sha256": "5ee9fc33aa71f43d8485f575706ed8cfa9702d5af9ed3e97f17beea3b54d3a65"
+        }
+      ],
+      "electronicApp": "匪其尫，无咎。",
+      "electronicWikisource": "匪其尫，无咎。",
+      "exactMatchesFirst": true,
+      "exactMatchesApp": false,
+      "exactMatchesWikisource": false
+    },
+    {
+      "hexagram": 16,
+      "position": 4,
+      "pdfPages": [
+        106
+      ],
+      "han": "由豫大有得勿疑朋盍簪",
+      "focus": "朋盍簪",
+      "impact": "Friends joining together rather than reading 戠 as an unrelated object.",
+      "sourceImages": [
+        {
+          "pdfPage": 106,
+          "image": "evidence/p106.jpg",
+          "sourceImageName": "Im0.jpg",
+          "bytes": 286820,
+          "sha256": "bd2c14b36ca233404a6153f6c0e742976bc2e31ddc0a59143eec8425b194152e",
+          "size": [
+            1713,
+            1240
+          ],
+          "extractedTextLength": 0
+        }
+      ],
+      "firstWitness": "由豫大有得勿疑朋盍簪",
+      "firstWitnessImages": [
+        {
+          "book": 1,
+          "pdfPage": 68,
+          "image": "evidence/book1-pages/p068.jpg",
+          "sha256": "2efd5ff37516cb9c24f15035832b75c5e267a86267e4a57555176d860808ea2a"
+        }
+      ],
+      "electronicApp": "由豫，大有得。勿疑。朋盍戠。",
+      "electronicWikisource": "由豫，大有得。勿疑。朋盍戠。",
+      "exactMatchesFirst": true,
+      "exactMatchesApp": false,
+      "exactMatchesWikisource": false
+    },
+    {
+      "hexagram": 23,
+      "position": 6,
+      "pdfPages": [
+        127
+      ],
+      "han": "碩果不食君子得輿小人剝廬",
+      "focus": "君子得輿",
+      "impact": "Restore the omitted support/vehicle motif in the consumer paraphrase while keeping the remaining-fruit and shelter images.",
+      "sourceImages": [
+        {
+          "pdfPage": 127,
+          "image": "evidence/p127.jpg",
+          "sourceImageName": "Im0.jpg",
+          "bytes": 309216,
+          "sha256": "684503c35bc6bda0d1d90067502434101e28bfb79b02e20370f1545270ae4244",
+          "size": [
+            1713,
+            1240
+          ],
+          "extractedTextLength": 0
+        }
+      ],
+      "firstWitness": "碩果不食君子得輿小人剝廬",
+      "firstWitnessImages": [
+        {
+          "book": 1,
+          "pdfPage": 82,
+          "image": "evidence/book1-pages/p082.jpg",
+          "sha256": "1692b7b339c009b035b04eb98ed0f34843474ed55531863c608462f98b72d4a8"
+        }
+      ],
+      "electronicApp": "碩果不食，君子德車，小人剝廬。",
+      "electronicWikisource": "碩果不食，君子德車，小人剝廬。",
+      "exactMatchesFirst": true,
+      "exactMatchesApp": false,
+      "exactMatchesWikisource": false
+    },
+    {
+      "hexagram": 26,
+      "position": 3,
+      "pdfPages": [
+        135
+      ],
+      "han": "良馬逐利艱貞日閑輿衞利有攸往",
+      "focus": "日閑輿衞",
+      "glyphNote": "Diplomatic reading retains 日 in the yao; adjacent printed commentary explicitly says 日當為曰. Do not silently substitute the gloss into the base text. Compare the earlier 1874 transcription 曰 separately, without claiming a critical edition has been settled.",
+      "impact": "Practice and precautions accompany proceeding. No extra 吉 appears after 貞; do not turn the line into an unconditional permission to advance.",
+      "sourceImages": [
+        {
+          "pdfPage": 135,
+          "image": "evidence/p135.jpg",
+          "sourceImageName": "Im0.jpg",
+          "bytes": 300034,
+          "sha256": "3b0805e9c991ce87cdd87a432b237fe34a8bf7d32e3dfc21c03d73ee182fa023",
+          "size": [
+            1713,
+            1240
+          ],
+          "extractedTextLength": 0
+        }
+      ],
+      "firstWitness": "良馬逐利艱貞曰閑輿衞利有攸往",
+      "firstWitnessImages": [
+        {
+          "book": 1,
+          "pdfPage": 88,
+          "image": "evidence/book1-pages/p088.jpg",
+          "sha256": "8b72b443f9689e81cd40ac42488abe89b5fc4c384458ccc0d0122f5f71479d54"
+        }
+      ],
+      "electronicApp": "良馬逐，利艱貞，吉。日閑輿衛，利有攸往。",
+      "electronicWikisource": "良馬逐，利艱貞，吉。日閑輿衛，利有攸往。",
+      "exactMatchesFirst": false,
+      "exactMatchesApp": false,
+      "exactMatchesWikisource": false
+    },
+    {
+      "hexagram": 29,
+      "position": 4,
+      "pdfPages": [
+        143
+      ],
+      "han": "樽酒簋貳用缶納約自牖終无咎",
+      "focus": "樽酒簋貳用缶納約",
+      "impact": "Simple offerings and sincere access; several character forms differ from electronic corpus, not a mandate to model an event.",
+      "sourceImages": [
+        {
+          "pdfPage": 143,
+          "image": "evidence/p143.jpg",
+          "sourceImageName": "Im0.jpg",
+          "bytes": 296326,
+          "sha256": "18f365d6df20146059ec3a9234a6342116c6fd9385b4f3f3688294c85e5b05e1",
+          "size": [
+            1713,
+            1240
+          ],
+          "extractedTextLength": 0
+        }
+      ],
+      "firstWitness": "樽酒簋貳用缶納約自牖終无咎",
+      "firstWitnessImages": [
+        {
+          "book": 1,
+          "pdfPage": 94,
+          "image": "evidence/book1-pages/p094.jpg",
+          "sha256": "01a632291ebf4284091400a749f7acbf39c9445cf0a2c68622ed34f662c2f8fb"
+        }
+      ],
+      "electronicApp": "尊酒簋，貳用缶。内約自牖，終无咎。",
+      "electronicWikisource": "尊酒簋，貳用缶。內約自牖，終无咎。",
+      "exactMatchesFirst": true,
+      "exactMatchesApp": false,
+      "exactMatchesWikisource": false
+    },
+    {
+      "hexagram": 34,
+      "position": 4,
+      "pdfPages": [
+        163
+      ],
+      "han": "貞吉悔亡藩決不羸壯于大輿之輹",
+      "focus": "大輿之輹",
+      "impact": "Vehicle support; do not derive an abdominal/body reading from 腹 in the electronic string.",
+      "sourceImages": [
+        {
+          "pdfPage": 163,
+          "image": "evidence/p163.jpg",
+          "sourceImageName": "Im0.jpg",
+          "bytes": 304819,
+          "sha256": "91141caca0ad61968f24c238de1e96110fe2f544bf1ca2ac56e3294cdcbd3e7d",
+          "size": [
+            1713,
+            1240
+          ],
+          "extractedTextLength": 0
+        }
+      ],
+      "firstWitness": "貞吉悔亡藩決不羸壯于大輿之輹",
+      "firstWitnessImages": [
+        {
+          "book": 2,
+          "pdfPage": 10,
+          "image": "evidence/book2-pages/p010.jpg",
+          "sha256": "3db3795b24ddffc30cac406aeec0d20fdd12ab63ef096dc0796ea101871b3d08"
+        }
+      ],
+      "electronicApp": "貞吉悔亡，藩決不羸，壯于大轝之腹。",
+      "electronicWikisource": "貞吉悔亡，藩決不羸，壯于大轝之腹。",
+      "exactMatchesFirst": true,
+      "exactMatchesApp": false,
+      "exactMatchesWikisource": false
+    },
+    {
+      "hexagram": 35,
+      "position": 5,
+      "pdfPages": [
+        166
+      ],
+      "han": "悔亡失得勿恤往吉无不利",
+      "focus": "失得勿恤",
+      "impact": "Loss/gain concerns, not an arrow image inferred from 矢.",
+      "sourceImages": [
+        {
+          "pdfPage": 166,
+          "image": "evidence/p166.jpg",
+          "sourceImageName": "Im0.jpg",
+          "bytes": 303643,
+          "sha256": "e3bfa0970f1dff3d5b599292872233aa2edca8a750ff4db34e3cbc5832644328",
+          "size": [
+            1713,
+            1240
+          ],
+          "extractedTextLength": 0
+        }
+      ],
+      "firstWitness": "悔亡失得勿恤往吉无不利",
+      "firstWitnessImages": [
+        {
+          "book": 2,
+          "pdfPage": 12,
+          "image": "evidence/book2-pages/p012.jpg",
+          "sha256": "4cf3db60423e457a080e257cdf3caae045f64ed129754f5535573c17a056e00b"
+        }
+      ],
+      "electronicApp": "悔亡，矢得勿恤，往吉无不利。",
+      "electronicWikisource": "悔亡，矢得勿恤，往吉无不利。",
+      "exactMatchesFirst": true,
+      "exactMatchesApp": false,
+      "exactMatchesWikisource": false
+    },
+    {
+      "hexagram": 41,
+      "position": 1,
+      "pdfPages": [
+        181
+      ],
+      "han": "已事遄往无咎酌損之",
+      "focus": "已事遄往",
+      "impact": "Stopping one's own undertaking and responding promptly; printed commentary also requires weighing the depth of the contribution. Modern help/boundaries is an authored adaptation, not a literal translation of the hierarchy.",
+      "sourceImages": [
+        {
+          "pdfPage": 181,
+          "image": "evidence/p181.jpg",
+          "sourceImageName": "Im0.jpg",
+          "bytes": 298633,
+          "sha256": "2dff7b7ab587ff90f10120146ea13806707b5d206fa5c06b4f3cc230be1c7a94",
+          "size": [
+            1713,
+            1240
+          ],
+          "extractedTextLength": 0
+        }
+      ],
+      "firstWitness": "已事遄往无咎酌損之",
+      "firstWitnessImages": [
+        {
+          "book": 2,
+          "pdfPage": 23,
+          "image": "evidence/book2-pages/p023.jpg",
+          "sha256": "12e05ada4169760275e78ecdc4a2907f3be367b496eb31055192c9f1a0321414"
+        }
+      ],
+      "electronicApp": "祀事遄往，无咎，酌損之。",
+      "electronicWikisource": "祀事遄往，无咎，酌損之。",
+      "exactMatchesFirst": true,
+      "exactMatchesApp": false,
+      "exactMatchesWikisource": false
+    },
+    {
+      "hexagram": 47,
+      "position": 4,
+      "pdfPages": [
+        207
+      ],
+      "han": "來徐徐困于金車吝有終",
+      "focus": "來徐徐",
+      "impact": "Slow arrival and obstruction; keep reflective language rather than a predicted duration.",
+      "sourceImages": [
+        {
+          "pdfPage": 207,
+          "image": "evidence/p207.jpg",
+          "sourceImageName": "Im0.jpg",
+          "bytes": 302871,
+          "sha256": "70124a4e23dd82d447567b4a7455a32ded2debb14a42515706f47261942cf528",
+          "size": [
+            1713,
+            1240
+          ],
+          "extractedTextLength": 0
+        }
+      ],
+      "firstWitness": "來徐徐困于金車吝有終",
+      "firstWitnessImages": [
+        {
+          "book": 2,
+          "pdfPage": 36,
+          "image": "evidence/book2-pages/p036.jpg",
+          "sha256": "3097ed08f77d6aeba4a2e0ab2011006f960e56203efe597c52a7213056013f1e"
+        }
+      ],
+      "electronicApp": "來荼荼，困于金轝，吝，有終。",
+      "electronicWikisource": "來荼荼，困于金轝，吝，有終。",
+      "exactMatchesFirst": true,
+      "exactMatchesApp": false,
+      "exactMatchesWikisource": false
+    },
+    {
+      "hexagram": 50,
+      "position": 4,
+      "pdfPages": [
+        217
+      ],
+      "han": "鼎折足覆公餗其形渥凶",
+      "focus": "其形渥",
+      "impact": "Capacity and a spilled burden. Printed commentary notes 形渥者本作刑剭謂重刑也今從之; base text and commentator's preference must remain separate.",
+      "sourceImages": [
+        {
+          "pdfPage": 217,
+          "image": "evidence/p217.jpg",
+          "sourceImageName": "Im0.jpg",
+          "bytes": 302450,
+          "sha256": "f02de5e91c693ced45a568a3b42a165c1ea8245e8da0bae48c639eef2a468df1",
+          "size": [
+            1713,
+            1240
+          ],
+          "extractedTextLength": 0
+        }
+      ],
+      "firstWitness": "鼎折足覆公餗其形渥凶",
+      "firstWitnessImages": [
+        {
+          "book": 2,
+          "pdfPage": 42,
+          "image": "evidence/book2-pages/p042.jpg",
+          "sha256": "aa11bdfb248f312eb157a57187cfa938033d82e7f9b26fb7c4a094a645254a93"
+        }
+      ],
+      "electronicApp": "鼎折足，覆公餗，其刑渥，凶。",
+      "electronicWikisource": "鼎折足，覆公餗，其刑渥，凶。",
+      "exactMatchesFirst": true,
+      "exactMatchesApp": false,
+      "exactMatchesWikisource": false
+    },
+    {
+      "hexagram": 52,
+      "position": 3,
+      "pdfPages": [
+        222
+      ],
+      "han": "艮其限列其夤厲熏心",
+      "focus": "列其夤厲熏心",
+      "impact": "Read together with the following commentary about inability to bend/stretch and extreme unease; consumer text should not state a literal muscle injury or diagnose a condition.",
+      "sourceImages": [
+        {
+          "pdfPage": 222,
+          "image": "evidence/p222.jpg",
+          "sourceImageName": "Im0.jpg",
+          "bytes": 306297,
+          "sha256": "0a2a5949d9000f2785f962abd32e865f69947a60a884c603fc7198e8b5632bbc",
+          "size": [
+            1713,
+            1240
+          ],
+          "extractedTextLength": 0
+        }
+      ],
+      "firstWitness": "艮其限列其夤厲熏心",
+      "firstWitnessImages": [
+        {
+          "book": 2,
+          "pdfPage": 46,
+          "image": "evidence/book2-pages/p046.jpg",
+          "sha256": "c8dc65b8f29093f33f6e1cda43fa72dcbe694ceb402df331101f7cab9ca018f9"
+        }
+      ],
+      "electronicApp": "艮其限，裂其夤，厲閽心。",
+      "electronicWikisource": "艮其限，裂其夤，厲閽心。",
+      "exactMatchesFirst": true,
+      "exactMatchesApp": false,
+      "exactMatchesWikisource": false
+    },
+    {
+      "hexagram": 52,
+      "position": 5,
+      "pdfPages": [
+        223
+      ],
+      "han": "艮其輔言有序悔亡",
+      "focus": "言有序",
+      "impact": "Ordered speech; consumer wording already follows this motif, unlike the stored electronic 言有孚 string.",
+      "sourceImages": [
+        {
+          "pdfPage": 223,
+          "image": "evidence/p223.jpg",
+          "sourceImageName": "Im0.jpg",
+          "bytes": 297089,
+          "sha256": "88494a7f1cc184f88670244643f633d43cd325e28bccab66d692fecc9fbace65",
+          "size": [
+            1713,
+            1240
+          ],
+          "extractedTextLength": 0
+        }
+      ],
+      "firstWitness": "艮其輔言有序悔亡",
+      "firstWitnessImages": [
+        {
+          "book": 2,
+          "pdfPage": 48,
+          "image": "evidence/book2-pages/p048.jpg",
+          "sha256": "f0f8a61dc2a542786dfb2c25b996c5232829420742c317e56b774d35dec4149a"
+        }
+      ],
+      "electronicApp": "艮其輔，言有孚，悔亡。",
+      "electronicWikisource": "艮其輔，言有孚，悔亡。",
+      "exactMatchesFirst": true,
+      "exactMatchesApp": false,
+      "exactMatchesWikisource": false
+    },
+    {
+      "hexagram": 59,
+      "position": 1,
+      "pdfPages": [
+        241
+      ],
+      "han": "用拯馬壯吉",
+      "focus": "用拯馬壯吉",
+      "impact": "The yao ends at 吉 before commentary starts; no added 悔亡 in this scan.",
+      "sourceImages": [
+        {
+          "pdfPage": 241,
+          "image": "evidence/p241.jpg",
+          "sourceImageName": "Im0.jpg",
+          "bytes": 311677,
+          "sha256": "a23d3cfb693370ba9530def24d0659c293758d1f72476ee4a5b6d3d2d09bec1a",
+          "size": [
+            1713,
+            1240
+          ],
+          "extractedTextLength": 0
+        }
+      ],
+      "firstWitness": "用拯馬壯吉",
+      "firstWitnessImages": [
+        {
+          "book": 2,
+          "pdfPage": 61,
+          "image": "evidence/book2-pages/p061.jpg",
+          "sha256": "3d8a7f16a6068536f886e57d987b793ff37aa3fc0e9962496a20afb881c5e211"
+        }
+      ],
+      "electronicApp": "用拯馬壯，吉，悔亡。",
+      "electronicWikisource": "用拯馬壯，吉，悔亡。",
+      "exactMatchesFirst": true,
+      "exactMatchesApp": false,
+      "exactMatchesWikisource": false
+    },
+    {
+      "hexagram": 61,
+      "position": 4,
+      "pdfPages": [
+        246
+      ],
+      "han": "月幾望馬匹亡无咎",
+      "focus": "月幾望",
+      "impact": "Near-full moon; current consumer wording already says gần tròn.",
+      "sourceImages": [
+        {
+          "pdfPage": 246,
+          "image": "evidence/p246.jpg",
+          "sourceImageName": "Im0.jpg",
+          "bytes": 304886,
+          "sha256": "fe9e47c7928ce2f09edf158549550aaadc0fbd746e6b26d4756faa6cd612d976",
+          "size": [
+            1713,
+            1240
+          ],
+          "extractedTextLength": 0
+        }
+      ],
+      "firstWitness": "月幾望馬匹亡无咎",
+      "firstWitnessImages": [
+        {
+          "book": 2,
+          "pdfPage": 65,
+          "image": "evidence/book2-pages/p065.jpg",
+          "sha256": "900271276632f5fa3d8c67e19f41afe04c15c7cb0ee33e1e9c52dfbce7957ece"
+        }
+      ],
+      "electronicApp": "月既望，馬匹亡，无咎。",
+      "electronicWikisource": "月既望，馬匹亡，无咎。",
+      "exactMatchesFirst": true,
+      "exactMatchesApp": false,
+      "exactMatchesWikisource": false
+    }
+  ]
+}

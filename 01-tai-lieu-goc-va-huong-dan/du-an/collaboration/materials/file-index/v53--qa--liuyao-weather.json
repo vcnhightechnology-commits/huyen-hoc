@@ -1,0 +1,65 @@
+{
+  "scope": "v53/qa/liuyao-weather",
+  "files": [
+    {
+      "file": "v53/qa/liuyao-weather/RELEASE_RESULTS.json",
+      "bytes": 1117,
+      "sha256": "2e00b38e4a61ce7736f2066ab142d20b3c0b42d2b01522444c796c1430b791ce",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2e00b38e4a61ce7736f2066ab142d20b3c0b42d2b01522444c796c1430b791ce",
+      "httpRange": {
+        "offset": 219483376,
+        "compressedBytes": 584,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/liuyao-weather/RESULTS.json",
+      "bytes": 1836,
+      "sha256": "88607d1e7d5ad64174862daeb32cc1b14bcdb534a1f34b2f133c13b2e2efc8ec",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/88607d1e7d5ad64174862daeb32cc1b14bcdb534a1f34b2f133c13b2e2efc8ec",
+      "httpRange": {
+        "offset": 232554580,
+        "compressedBytes": 886,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/liuyao-weather/SOURCE_RESULTS.json",
+      "bytes": 1376,
+      "sha256": "36a0ede7598f451d7509fd073518ed61668b845c625db94d8de1ee0e4f6ce710",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/36a0ede7598f451d7509fd073518ed61668b845c625db94d8de1ee0e4f6ce710",
+      "httpRange": {
+        "offset": 332184710,
+        "compressedBytes": 672,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/liuyao-weather/redecode-144-191.png",
+      "bytes": 91763,
+      "sha256": "46c7b6e7dc87e60c5cec534f50e123e8d5a45e9e7e3a69d237adabe592bda186",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/46c7b6e7dc87e60c5cec534f50e123e8d5a45e9e7e3a69d237adabe592bda186",
+      "httpRange": {
+        "offset": 202338652,
+        "compressedBytes": 88572,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/liuyao-weather/redecode-360-191.png",
+      "bytes": 704105,
+      "sha256": "e2222102af4f20242c3aa751d3b115e76ef8f53ea091d73907db97b33caec3bb",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e2222102af4f20242c3aa751d3b115e76ef8f53ea091d73907db97b33caec3bb",
+      "httpRange": {
+        "offset": 304052234,
+        "compressedBytes": 593903,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

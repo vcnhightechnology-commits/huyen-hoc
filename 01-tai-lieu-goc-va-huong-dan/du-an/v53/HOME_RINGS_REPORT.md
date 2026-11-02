@@ -1,0 +1,29 @@
+# Nhà ở: trung châm, phùng châm và hệ tọa độ đôi sơn
+
+Ngày 27/10/2026. Đã hoàn tất kiểm tra hai mục nguồn trong phạm vi bảng và tọa độ: 10 kiểm chức năng đạt, đối byte/pixel nguồn đạt. Bộ tham chiếu riêng phân biệt ba vòng, tra 48 vị trí sơn–hành trên trung châm/phùng châm và giữ các khả năng tại ranh. Chưa đưa phép này thành tư vấn bố trí phòng hoặc hiệu quả thực tế. Toàn kho và cả bốn hướng nghiên cứu vẫn chưa hoàn tất.
+
+## Chứng cứ đọc trực tiếp
+
+Dùng lại 欽定協紀辨方書卷二/CADAL06056503.djvu, 3.433.014 byte, SHA-256 `bfd3b76c55d62324919ab161c8c2ba2ecb129b3b2c59a3ab0428807e8f8278db`. Sáu ảnh11–16 đã có trong lần đọc trước được đọc mở rộng; không HTTP, container hoặc trang nguồn mới. Hai crop native và sáu bản xoay90/180/270° giữ nguyên pixel, được kiểm lại từ ảnh nguồn. Không OCR, nội suy hoặc lấy đáp án engine để điền chữ.
+
+Đủ96 nhãn của hai vòng trên hai đồ11/13 và24 cung nối đôi được đọc trực tiếp. Đã liệt kê toàn bộ phần văn của hai tiêu đề 中針雙山五行/縫針三合五行 thành15 đoạn, kể cả bốn chữ kết ởảnh16. Các đường tam hợp giao nhau trong tâm hình chưa được lần theo toàn bộ; thành viên bốn nhóm lấy từ lời văn rõ ởảnh14–15, không gọi các đường giao là đã hiệu khảo từng nét.
+
+## Tọa độ và phép tính
+
+Ảnh12: vòng ngoài là chính châm, vòng trong là trung châm; Tý trung châm nằm giữa Nhâm/Tý chính châm, đi trước nửa vị trí; nguồn nói dùng 格龍. Ảnh14–15: Tý phùng châm nằm giữa Tý/Quý chính châm, đi sau nửa vị trí; dùng 消砂納水. Chính châm dùng 定向. Hai vòng trong lệch nhau một vị trí. Lý do đến/đi, khí/chất là giải thích truyền thống được ghi riêng, chưa phải cơ chế thực nghiệm.
+
+Cả hai dùng các đôi壬子、癸丑、艮寅、甲卯、乙辰、巽巳、丙午、丁未、坤申、庚酉、辛戌、乾亥 theo **tên tọa độ của vòng được chọn**. Bốn nhóm sáu sơn: thủy坤申壬子乙辰; mộc乾亥甲卯丁未; hỏa艮寅丙午辛戌; kim巽巳庚酉癸丑. Không có nhóm thổ trong bảng này. Cùng chữ sơn chưa đồng nghĩa cùng hành: bảng đôi khác Chính ngũ hành16/24 và Hồng phạm17/24; các thay tên chi/quẻ khi so Hồng phạm được khai báo rõ.
+
+`pairedElement` yêu cầu tên hệ và vòng; không nhận nhầm chính châm như một tọa độ đôi sơn. `namedCenter`/`ringCoordinates` yêu cầu mô hình góc, vòng, quy ước ranh và bất định tường minh. Mô hình đều24 vị trí, Tý=0°, tăng theo Tý→Quý→Sửu dẫn đến15°/vị trí, trung châm−7,5° và phùng châm+7,5°; **các con số độ là phép dựng hình phần mềm**, không là số độ nguyên văn trong sáu ảnh. Chưa xác định chuẩn Bắc vật lý hoặc phép nối số đo la bàn thực từ đoạn này.
+
+Ví dụ trong mô hình, góc10° cho Quý/kim ở trung châm và Tý/thủy ở phùng châm. Góc0° trung châm chạm Tý/Quý nên giữ cả thủy/kim; góc0° phùng châm chạm Nhâm/Tý cùng đôi thủy nên có thể biết hành dù chưa có một tên sơn duy nhất. Đầu vào chưa biết trảnull; bất định không bị ép thành một kết luận thuận/nghịch. Không gắn dự báo sức khỏe, tiền tài, sự kiện hoặc tự chọn cách bố trí phòng.
+
+## Kiểm chứng và giới hạn
+
+10 kiểm đạt. Đối48 gán sơn–hành; 72 tâm (ba vòng×24),72 ranh,144 phía ranh và72 khoảng bất định. Thực thi **288 lần HHC_MOUNTAINS.inspect thật**, đúng module đang nhúng HTML; đây là đối tọa độ sau phép chuyển vòng đã khai báo, không là288 phép hiệu chuẩn độc lập. Bộ đang dùng có quy ước ranh nửa mở theo chiều kim đồng hồ; tham chiếu riêng cố ý giữ cả hai khi chạm ranh, và kiểm rõ khác biệt quy ước đó. Khoảng180° giữ đủ24 khả năng; 0°/360° đồng nhất. Không cần chạy lại iztro/lịch vì không sửa hai engine đó.
+
+HTML gốc/V53/site707411 byte giữ SHA `549cb415c1a7785e92be25b407d965ea0abd4d3affc54696b784f84d87601857`; ZIP web344047 byte giữ nguyên, site chỉindex.html. Tài liệu nghiên cứu và bộ tham chiếu ngoài site. Snapshot `archives/v53-before-home-rings/` giữ bản nguồn trước3139 tệp/ZIP2037105170 byte; gói mới và manifest được kiểm từng byte ở`qa/home-rings/RELEASE_RESULTS.json`. Không tăng phiên bản hoặc xuất bản mạng.
+
+Hai tiêu đề đã được liệt kê đủ phần văn/bảng trong phạm vi này; bộ nối phép đo thực và ứng dụng địa lý vẫn mở. Không suy ra đã áp dụng hết cả110ảnh, P03Trạch Kinh hoặc40 hồ sơ. Tiếp bảng tiết khí/phương vị ảnh53–54 và nạp giáp địa lý ảnh55–57; không lẫn nạp giáp theo hướng với nạp giáp từng hào. Mộ vận, Hồng phạm, Du Niên, ba lĩnh vực khác và các nhân chứng còn mở được giữ trong bản đồ hiện hành.
+
+Tái kiểm: `node v53/scripts/test-home-rings.mjs`; `python v53/scripts/verify-home-rings-sources.py`; `python v53/scripts/verify-home-rings-release.py --no-write`. Bản đồ12 mục mới kế thừa mọi kết quả trước ở`research/home-rings/CURRENT_VOLUME_UNITS.json`; lịch sử giữ nguyên byte.

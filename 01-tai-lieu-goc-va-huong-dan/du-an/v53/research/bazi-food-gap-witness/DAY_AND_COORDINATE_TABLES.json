@@ -1,0 +1,242 @@
+{
+  "date": "2026-10-28",
+  "systemPrefix": "TMTH005-",
+  "daySets": [
+    {
+      "id": "feitian-four-prose",
+      "parent": "FOOD-01-C02",
+      "days": [
+        "庚子",
+        "壬子",
+        "辛亥",
+        "癸亥"
+      ],
+      "kind": "four-day-prose",
+      "additionalConditionsNotAutomaticallyEvaluated": [
+        "十月十一月",
+        "冬水純陰",
+        "柱無財官",
+        "effective-repeated-branch-clash",
+        "effective-attraction-and-no-restraint"
+      ]
+    },
+    {
+      "id": "daochong-two-prose",
+      "parent": "FOOD-02-C02",
+      "days": [
+        "丙午",
+        "丁巳"
+      ],
+      "kind": "two-day-prose",
+      "additionalConditionsNotAutomaticallyEvaluated": [
+        "夏月純陽",
+        "多有力",
+        "effective-clash-and-binding",
+        "priority-over-officer-kill-alternative"
+      ]
+    },
+    {
+      "id": "daochong-six-quoted",
+      "parent": "FOOD-02-C05",
+      "days": [
+        "丙午",
+        "丙寅",
+        "丙戌",
+        "丁巳",
+        "丁未",
+        "丁卯"
+      ],
+      "kind": "another-quoted-six-day-voice",
+      "additionalConditionsNotAutomaticallyEvaluated": [
+        "陽倒衝陰正衝",
+        "三合寅午戌全或三丙字",
+        "喜印生助忌煞混雜"
+      ]
+    }
+  ],
+  "mechanismCases": [
+    {
+      "id": "fei-gengzi",
+      "day": "庚子",
+      "repeatedBranch": "子",
+      "virtualTargetBranch": "午",
+      "sourceOfficerStem": "丁",
+      "printedAttractionBranchPool": [
+        "未",
+        "寅",
+        "戌"
+      ],
+      "printedRestraintBranchPool": [
+        "丑"
+      ],
+      "parentContext": "FOOD-01-C04",
+      "canonicalStemRoleReadingsEditorial": true,
+      "sourceVirtualTargetIsNotActualPillar": true,
+      "attractionScope": "case-specific",
+      "visibleStemMentions": [
+        "丁",
+        "丙",
+        "戊"
+      ],
+      "stemMentionScope": "sourcecase4-not-universal-category-ban"
+    },
+    {
+      "id": "fei-renzi",
+      "day": "壬子",
+      "repeatedBranch": "子",
+      "virtualTargetBranch": "午",
+      "sourceOfficerStem": "己",
+      "printedAttractionBranchPool": [
+        "未",
+        "寅",
+        "戌"
+      ],
+      "printedRestraintBranchPool": [
+        "丑"
+      ],
+      "parentContext": "FOOD-01-C05",
+      "canonicalStemRoleReadingsEditorial": true,
+      "sourceVirtualTargetIsNotActualPillar": true,
+      "attractionScope": "editorial-coordinate-reference-from喜忌同庚子;notallconditionsinherited",
+      "visibleStemMentions": [
+        "丁"
+      ],
+      "stemMentionScope": "laterC07specific丁wealthmention;notallwealthtokens"
+    },
+    {
+      "id": "fei-xinhai",
+      "day": "辛亥",
+      "repeatedBranch": "亥",
+      "virtualTargetBranch": "巳",
+      "sourceOfficerStem": "丙",
+      "printedAttractionBranchPool": [
+        "申",
+        "酉",
+        "丑"
+      ],
+      "printedRestraintBranchPool": [
+        "寅"
+      ],
+      "parentContext": "FOOD-01-C06",
+      "canonicalStemRoleReadingsEditorial": true,
+      "sourceVirtualTargetIsNotActualPillar": true,
+      "attractionScope": "joint辛癸sourceparagraph",
+      "visibleStemMentions": [
+        "丙",
+        "戊"
+      ],
+      "stemMentionScope": "jointC06mentions;C07focuskeptseparate",
+      "laterFocusedStem": "丙",
+      "laterFocusedBranch": "巳",
+      "severityPriorityAutomaticallyResolved": false
+    },
+    {
+      "id": "fei-guihai",
+      "day": "癸亥",
+      "repeatedBranch": "亥",
+      "virtualTargetBranch": "巳",
+      "sourceOfficerStem": "戊",
+      "printedAttractionBranchPool": [
+        "申",
+        "酉",
+        "丑"
+      ],
+      "printedRestraintBranchPool": [
+        "寅"
+      ],
+      "parentContext": "FOOD-01-C06",
+      "canonicalStemRoleReadingsEditorial": true,
+      "sourceVirtualTargetIsNotActualPillar": true,
+      "attractionScope": "joint辛癸sourceparagraph",
+      "visibleStemMentions": [
+        "丙",
+        "戊"
+      ],
+      "stemMentionScope": "jointC06mentions;C07focuskeptseparate",
+      "laterFocusedStem": "戊",
+      "laterFocusedBranch": "巳",
+      "severityPriorityAutomaticallyResolved": false
+    },
+    {
+      "id": "dao-bingwu",
+      "day": "丙午",
+      "repeatedBranch": "午",
+      "virtualTargetBranch": "子",
+      "sourceOfficerStem": "癸",
+      "printedAttractionBranchPool": [
+        "丑",
+        "寅",
+        "申",
+        "辰",
+        "卯",
+        "未"
+      ],
+      "printedRestraintBranchPool": [
+        "未"
+      ],
+      "parentContext": "FOOD-02-C02",
+      "canonicalStemRoleReadingsEditorial": true,
+      "sourceVirtualTargetIsNotActualPillar": true,
+      "attractionScope": "unassigned-collective-pool;notpartitionedintocase-specificbindingrules",
+      "visibleStemMentions": [
+        "壬",
+        "癸"
+      ],
+      "stemMentionScope": "joint亥壬子癸clause;notfinalpatternrejection",
+      "separateC04OfficerKillAlternativePriorityUnresolved": true
+    },
+    {
+      "id": "dao-dingsi",
+      "day": "丁巳",
+      "repeatedBranch": "巳",
+      "virtualTargetBranch": "亥",
+      "sourceOfficerStem": "壬",
+      "printedAttractionBranchPool": [
+        "丑",
+        "寅",
+        "申",
+        "辰",
+        "卯",
+        "未"
+      ],
+      "printedRestraintBranchPool": [
+        "申",
+        "辰"
+      ],
+      "parentContext": "FOOD-02-C02",
+      "canonicalStemRoleReadingsEditorial": true,
+      "sourceVirtualTargetIsNotActualPillar": true,
+      "attractionScope": "unassigned-collective-pool;notpartitionedintocase-specificbindingrules",
+      "visibleStemMentions": [
+        "壬",
+        "癸"
+      ],
+      "stemMentionScope": "joint亥壬子癸clause;notfinalpatternrejection",
+      "separateC04OfficerKillAlternativePriorityUnresolved": true
+    }
+  ],
+  "finalDaoComment": {
+    "parent": "FOOD-02-C07",
+    "days": [
+      "丙午",
+      "丁巳"
+    ],
+    "sourcePreference": "此二日倒衝為正",
+    "notAutomaticallyDeletingSixDayQuote": true
+  },
+  "finalFeiComment": {
+    "parent": "FOOD-01-C10",
+    "label": "傷官",
+    "positive": [
+      "庚子",
+      "辛亥"
+    ],
+    "negative": [
+      "壬子",
+      "癸亥"
+    ],
+    "notAnAlternativeTwoDayEligibilityList": true
+  },
+  "allConditionsApplied": false,
+  "sourceOutcomeValidated": false
+}

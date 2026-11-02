@@ -1,0 +1,189 @@
+{
+  "date": "2026-10-27",
+  "controls": [
+    {
+      "syntheticNotPrintedCast": true,
+      "values": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "water": {
+        "id": "water-trine",
+        "kind": "三合",
+        "members": [
+          "申",
+          "子",
+          "辰"
+        ],
+        "positionsByMember": [
+          {
+            "branch": "申",
+            "lines": [
+              5
+            ]
+          },
+          {
+            "branch": "子",
+            "lines": [
+              1
+            ]
+          },
+          {
+            "branch": "辰",
+            "lines": [
+              3
+            ]
+          }
+        ],
+        "missingMembers": [],
+        "witnesses": [
+          {
+            "lines": [
+              5,
+              1,
+              3
+            ],
+            "movingLines": [],
+            "movingCount": 0,
+            "structuralPrerequisitesPresent": false
+          }
+        ],
+        "completePrimaryMembership": true,
+        "preliminaryGate": "moving-premise-not-present",
+        "qualifyingWitnesses": 0,
+        "effectiveFormation": null,
+        "transformedElement": null,
+        "auspicious": null
+      }
+    },
+    {
+      "syntheticNotPrintedCast": true,
+      "values": [
+        9,
+        7,
+        7,
+        7,
+        7,
+        7
+      ],
+      "water": {
+        "id": "water-trine",
+        "kind": "三合",
+        "members": [
+          "申",
+          "子",
+          "辰"
+        ],
+        "positionsByMember": [
+          {
+            "branch": "申",
+            "lines": [
+              5
+            ]
+          },
+          {
+            "branch": "子",
+            "lines": [
+              1
+            ]
+          },
+          {
+            "branch": "辰",
+            "lines": [
+              3
+            ]
+          }
+        ],
+        "missingMembers": [],
+        "witnesses": [
+          {
+            "lines": [
+              5,
+              1,
+              3
+            ],
+            "movingLines": [
+              1
+            ],
+            "movingCount": 1,
+            "structuralPrerequisitesPresent": false
+          }
+        ],
+        "completePrimaryMembership": true,
+        "preliminaryGate": "moving-premise-not-present",
+        "qualifyingWitnesses": 0,
+        "effectiveFormation": null,
+        "transformedElement": null,
+        "auspicious": null
+      }
+    },
+    {
+      "syntheticNotPrintedCast": true,
+      "values": [
+        9,
+        7,
+        9,
+        7,
+        7,
+        7
+      ],
+      "water": {
+        "id": "water-trine",
+        "kind": "三合",
+        "members": [
+          "申",
+          "子",
+          "辰"
+        ],
+        "positionsByMember": [
+          {
+            "branch": "申",
+            "lines": [
+              5
+            ]
+          },
+          {
+            "branch": "子",
+            "lines": [
+              1
+            ]
+          },
+          {
+            "branch": "辰",
+            "lines": [
+              3
+            ]
+          }
+        ],
+        "missingMembers": [],
+        "witnesses": [
+          {
+            "lines": [
+              5,
+              1,
+              3
+            ],
+            "movingLines": [
+              1,
+              3
+            ],
+            "movingCount": 2,
+            "structuralPrerequisitesPresent": true
+          }
+        ],
+        "completePrimaryMembership": true,
+        "preliminaryGate": "structural-prerequisites-present",
+        "qualifyingWitnesses": 1,
+        "effectiveFormation": null,
+        "transformedElement": null,
+        "auspicious": null
+      }
+    }
+  ],
+  "sourceExamplesAreBranchGroupsNotPrintedCoinCasts": true,
+  "historicalOutcomesValidated": false
+}

@@ -1,0 +1,195 @@
+{
+  "date": "2026-10-26T11:42:05.110Z",
+  "checks": [
+    {
+      "name": "Existing calendar, chart, directions and reading engines remain byte-identical",
+      "ok": true
+    },
+    {
+      "name": "Seven distinct spaces include doors, shared space, sleep, cooking and wet areas",
+      "ok": true
+    },
+    {
+      "name": "Unobserved conditions never produce a favorable assessment",
+      "ok": true
+    },
+    {
+      "name": "Blocked exits, missing exterior exhaust and water leakage produce actionable priorities",
+      "ok": true
+    },
+    {
+      "name": "Presence and absence questions have correct polarity",
+      "ok": true
+    },
+    {
+      "name": "Position alone never supplies a room fortune or assumes window exposure",
+      "ok": true
+    },
+    {
+      "name": "Saved source bodies match their byte counts and SHA-256, including labeled failed responses",
+      "ok": true
+    },
+    {
+      "name": "Direct link opens room guide under the existing Hướng nhà tool without birth input",
+      "ok": true
+    },
+    {
+      "name": "Every room begins with unknown position and unknown conditions",
+      "ok": true
+    },
+    {
+      "name": "Zone button synchronizes dropdown, active selection and conditional advice",
+      "ok": true
+    },
+    {
+      "name": "Reported obstacle produces a specific action with no overall house score",
+      "ok": true
+    },
+    {
+      "name": "Multiple rooms may share one sector without being labeled an overlap error",
+      "ok": true
+    },
+    {
+      "name": "Changing rooms preserves each room’s position and answers",
+      "ok": true
+    },
+    {
+      "name": "Clearing a position affects only the selected room and restores unknown",
+      "ok": true
+    },
+    {
+      "name": "House type updates relevant advice without changing observations",
+      "ok": true
+    },
+    {
+      "name": "TXT includes selected room, all recorded positions, answers, suggestions and limits",
+      "ok": true
+    },
+    {
+      "name": "Room print contains suggestions and position summary, hides interactive and age panels",
+      "ok": true
+    },
+    {
+      "name": "Existing direction calculation still returns eight labeled directions",
+      "ok": true
+    },
+    {
+      "name": "Returning to room mode preserves the current room and observations",
+      "ok": true
+    },
+    {
+      "name": "Opening a saved directions profile from room mode restores visible calculated result",
+      "ok": true
+    },
+    {
+      "name": "Switching tools hides home tabs and guide and restores ordinary forms",
+      "ok": true
+    },
+    {
+      "name": "Browser back restores room route",
+      "ok": true
+    },
+    {
+      "name": "Room entry: title, placement, neighbors, cultural note and three-state questions render",
+      "ok": true
+    },
+    {
+      "name": "Room living: title, placement, neighbors, cultural note and three-state questions render",
+      "ok": true
+    },
+    {
+      "name": "Room bedroom: title, placement, neighbors, cultural note and three-state questions render",
+      "ok": true
+    },
+    {
+      "name": "Room kitchen: title, placement, neighbors, cultural note and three-state questions render",
+      "ok": true
+    },
+    {
+      "name": "Room bathroom: title, placement, neighbors, cultural note and three-state questions render",
+      "ok": true
+    },
+    {
+      "name": "Room study: title, placement, neighbors, cultural note and three-state questions render",
+      "ok": true
+    },
+    {
+      "name": "Room altar: title, placement, neighbors, cultural note and three-state questions render",
+      "ok": true
+    },
+    {
+      "name": "320px: room view and occupied map have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "page": 320,
+        "width": 320
+      }
+    },
+    {
+      "name": "390px: room view and occupied map have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "page": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "650px: room view and occupied map have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "page": 650,
+        "width": 650
+      }
+    },
+    {
+      "name": "768px: room view and occupied map have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "page": 768,
+        "width": 768
+      }
+    },
+    {
+      "name": "1024px: room view and occupied map have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "page": 1024,
+        "width": 1024
+      }
+    },
+    {
+      "name": "1440px: room view and occupied map have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "page": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "name": "Room guide does not persist layout data automatically",
+      "ok": true
+    },
+    {
+      "name": "Mobile starts with optional map collapsed and room advice directly accessible",
+      "ok": true
+    },
+    {
+      "name": "Mobile map opens with a keyboard-accessible native control",
+      "ok": true
+    },
+    {
+      "name": "Reload keeps the deep link but clears room observations",
+      "ok": true
+    },
+    {
+      "name": "Standalone HTML has no runtime errors, HTTP requests or research/source links",
+      "ok": true,
+      "detail": {
+        "errors": [],
+        "requests": []
+      }
+    }
+  ],
+  "errors": [],
+  "requests": []
+}

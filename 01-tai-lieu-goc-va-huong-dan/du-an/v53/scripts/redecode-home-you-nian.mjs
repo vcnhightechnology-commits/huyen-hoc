@@ -1,0 +1,8 @@
+// Reproduce two native pixel arrays without rewriting the source or retained PNGs.
+import{readFile,writeFile}from'node:fs/promises';import{resolve}from'node:path';import{createHash}from'node:crypto';import vm from'node:vm';import assert from'node:assert/strict';
+const r=resolve(import.meta.dirname,'..'),w=resolve(r,'..'),b=resolve(r,'research/home-you-nian'),d=JSON.parse(await readFile(resolve(b,'RENDERS.json'),'utf8')),sha=x=>createHash('sha256').update(x).digest('hex');
+const raw=await readFile(resolve(w,d.source)),code=await readFile(resolve(w,d.decoder));assert.equal(sha(raw),d.sourceSHA256);assert.equal(sha(code),d.decoderSHA256);
+globalThis.self=globalThis;globalThis.document={};globalThis.ImageData=class{constructor(a,b,c){if(typeof a==='number'){this.width=a;this.height=b;this.data=new Uint8ClampedArray(a*b*4)}else{this.data=a;this.width=b;this.height=c}}};
+vm.runInThisContext(code.toString());const doc=new DjVu.Document(raw.buffer.slice(raw.byteOffset,raw.byteOffset+raw.byteLength));assert.equal(doc.getPagesQuantity(),110);
+const checks=[];for(const page of [58,101]){const im=(await doc.getPage(page)).getImageData(),ref=d.records.find(x=>x.page===page);assert.equal(sha(Buffer.from(im.data)),ref.pixelRGBA_SHA256);assert.deepEqual([im.width,im.height],[ref.width,ref.height]);checks.push({page,width:im.width,height:im.height,pixelRGBA_SHA256:ref.pixelRGBA_SHA256,match:true});}
+await writeFile(resolve(b,'REDECODE_CHECK.json'),JSON.stringify({date:'2026-10-27',decoderSHA256:d.decoderSHA256,sourceSHA256:d.sourceSHA256,checks,newPNGFiles:0,newSourcePages:0,networkRequests:0},null,2)+'\n');console.log('Two unmodified-decoder pixel arrays reproduced; no new PNG/source pages.');

@@ -1,0 +1,46 @@
+{
+  "schema": "hhc.meihua-layers.source-application.v1",
+  "date": "2026-10-27",
+  "newHTTPResponses": 0,
+  "newPageReadings": 0,
+  "reusedImages": [
+    {
+      "pdfPage": 95,
+      "sourceImage": "../meihua/images/p095.png",
+      "imageSHA256": "040fed791677918d4f5e010c95a6f239322b7e7cc90b0eb5b59c22acb0666b0d",
+      "note": "卷二41:王4/田6/韓21 additional-number examples. Printed27remainder3says三為爻,unlike digital初爻. These are prescribed source counts,not modern automatic strokes.",
+      "newContentPageReading": true
+    },
+    {
+      "pdfPage": 96,
+      "sourceImage": "../meihua/images/p096.png",
+      "imageSHA256": "20a26b7278f2c681580e73114d6a9e92005c4fe8d3c9347e1decebb916b7ad68",
+      "note": "卷二42:House narrative for田/王 and response-time examples. Full forecasts not adopted as construction,lifespan,finance or medical advice.",
+      "newContentPageReading": true
+    },
+    {
+      "pdfPage": 108,
+      "sourceImage": "../meihua/images/p108.png",
+      "imageSHA256": "20f372b492f1b8d4e735f1c390cbf9f5ff2a1ec99b1821b36f53909653114d4f",
+      "note": "卷三6:卜卦訣 and beginning mutual-role explanation;use/mutual/change ordering. Dates and outcomes remain historical interpretive claims.",
+      "newContentPageReading": true
+    },
+    {
+      "pdfPage": 109,
+      "sourceImage": "../meihua/images/p109.png",
+      "imageSHA256": "f64b7e715dfd96a9be20a99e860ed6609fda5df21d3dec9bae3e83ab405361f2",
+      "note": "卷三7:Mutualbody/use halves follow mainbody/use locations. Printed觀梅恒卦 retained as an unidentified context. Body/usegeneration/control description distinguishes real objects and symbolic colors.",
+      "newContentPageReading": true
+    }
+  ],
+  "sourceRule": "Mutual Body/Use sides follow original main Body/Use sides;original Body is the reference. Existing pure-Qian/Khun changed-nuclear convention is retained.",
+  "implemented": "Four separately named relationships and editorial reflection prompts;no combined score,priority rule or prediction date.",
+  "editorialNotLiteralTranslation": true,
+  "unresolvedPrintedContext": "觀梅恒卦 is not identified with the earlier plum-story49 or used as an oracle.",
+  "notEstablished": [
+    "predictive accuracy",
+    "universal seasonal priority",
+    "full-book application",
+    "independent witness pedigree"
+  ]
+}

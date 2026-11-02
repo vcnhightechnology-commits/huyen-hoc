@@ -1,0 +1,26 @@
+{
+  "stage": "manual source roles and explicit expected coordinates before new engine calls",
+  "files": [
+    {
+      "file": "tmp/bazi-food-luck-subject-staging/SOURCE_READINGS.json",
+      "bytes": 3509,
+      "sha256": "189c7f08792db5f8a2352d2a287f7c5a14c1a37f6535877ae5238743ac5f9e12"
+    },
+    {
+      "file": "tmp/bazi-food-luck-subject-staging/SOURCE_IDENTITIES.json",
+      "bytes": 2030,
+      "sha256": "32fc3241b80233949013e0f663b99caeb2156a77d43ea05be3ba0f1600452872"
+    },
+    {
+      "file": "tmp/bazi-food-luck-subject-staging/EXPECTED_COORDINATES.json",
+      "bytes": 1325,
+      "sha256": "bfc8744d0f63d0dbcaa7a401aa7520752cca22ad0fd47f9161b52bfe73894904"
+    },
+    {
+      "file": "tmp/bazi-food-luck-subject-staging/REUSE_IDENTITIES.json",
+      "bytes": 1726,
+      "sha256": "c41dfcfd87de3091b241f65f38c4213180ffbec054fe86020abb15d18f0e990c"
+    }
+  ],
+  "date": "2026-10-29"
+}

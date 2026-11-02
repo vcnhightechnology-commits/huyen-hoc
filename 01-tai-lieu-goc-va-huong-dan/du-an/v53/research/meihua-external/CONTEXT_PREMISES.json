@@ -1,0 +1,161 @@
+{
+  "schema": "hhc.meihua.external-context.v1",
+  "motion": {
+    "evidencePDFPages": [
+      111,
+      112
+    ],
+    "external": {
+      "still": "later-or-not-yet-apparent",
+      "carried-or-moving": "earlier",
+      "unknown": null
+    },
+    "observer": {
+      "seated": "slower",
+      "walking": "faster",
+      "standing": "intermediate",
+      "unknown": null
+    },
+    "separateEvidenceOnly": true,
+    "combinedPriorityResolved": false,
+    "standingIsNumericalHalf": false,
+    "predictedDate": null,
+    "examples": {
+      "still": [
+        "well/pond/lake",
+        "mountain/rock"
+      ],
+      "carried-or-moving": [
+        "carried water",
+        "carried soil/stone",
+        "moving animals"
+      ]
+    },
+    "scope": "Qualitative traditional response pace;still does not mean a physical event is impossible and moving does not establish an event date."
+  },
+  "rolePolicies": [
+    {
+      "id": "general-static-body-moving-use",
+      "evidencePDFPages": [
+        105,
+        108,
+        109
+      ],
+      "policy": "Static trigram body/moving trigram use;mutual sides follow main body position.",
+      "consumerPolicy": true
+    },
+    {
+      "id": "volume3-dining-local",
+      "evidencePDFPages": [
+        119
+      ],
+      "policy": "lower=self,upper=other,mutual upper=wine,mutual lower=food;guest/change wording remains local and punctuation-sensitive",
+      "printedGuestPhrase": "下為變為客",
+      "guestClauseFullyResolved": false,
+      "consumerPolicy": false
+    },
+    {
+      "id": "volume3-object-majority-local",
+      "evidencePDFPages": [
+        126
+      ],
+      "policy": "Repeated-element trigrams can be body for object hypotheses;tie/aggregation rule not fully defined.",
+      "consumerPolicy": false
+    },
+    {
+      "id": "volume3-object-changed-line-local",
+      "evidencePDFPages": [
+        126,
+        127
+      ],
+      "policy": "Changed line/change are emphasized for object hypotheses;not a replacement general body/use mapping.",
+      "consumerPolicy": false
+    }
+  ],
+  "tenResponseCategories": [
+    {
+      "heading": "正應",
+      "evidencePDFPages": [
+        129
+      ]
+    },
+    {
+      "heading": "互應",
+      "evidencePDFPages": [
+        129
+      ]
+    },
+    {
+      "heading": "變應",
+      "evidencePDFPages": [
+        129
+      ]
+    },
+    {
+      "heading": "方應",
+      "evidencePDFPages": [
+        129,
+        130
+      ]
+    },
+    {
+      "heading": "日應",
+      "evidencePDFPages": [
+        130
+      ]
+    },
+    {
+      "heading": "刻應",
+      "evidencePDFPages": [
+        130
+      ]
+    },
+    {
+      "heading": "外應",
+      "evidencePDFPages": [
+        130
+      ]
+    },
+    {
+      "heading": "天時應",
+      "evidencePDFPages": [
+        131
+      ]
+    },
+    {
+      "heading": "地理應",
+      "evidencePDFPages": [
+        131
+      ]
+    },
+    {
+      "heading": "人事應",
+      "evidencePDFPages": [
+        131,
+        132
+      ]
+    }
+  ],
+  "tenResponseCount": 10,
+  "separateNumberedActionRows": {
+    "heading": "論事十大應",
+    "evidencePDFPages": [
+      132,
+      133
+    ],
+    "count": 10,
+    "fullyTranscribed": false
+  },
+  "volume2ElevenResponseGroupsUnchanged": true,
+  "timing": {
+    "evidencePDFPages": [
+      108,
+      113,
+      114,
+      115
+    ],
+    "uniqueUnitConversionEstablished": false,
+    "calendarDateInferred": false,
+    "scope": "Subject/material/observer context changes scale. Do not derive a unique date,building expiry or human lifespan from sums."
+  }
+}

@@ -1,0 +1,1 @@
+(()=>{'use strict';const celestial='assets/celestial-illustration.webp',lotus='assets/lotus-still-life.webp';window.HHC_ART={tuvi:celestial,bazi:celestial,yi:celestial,destiny:lotus,directions:lotus};})();

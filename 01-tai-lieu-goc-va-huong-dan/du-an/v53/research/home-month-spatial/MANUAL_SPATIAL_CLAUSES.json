@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-29",
+  "source": "選擇要略, institution ITKC retained facsimile; not an independent P08 edition.",
+  "sourceID": "ITKC-GO1508A-MONTH-SPATIAL",
+  "records": [
+    {
+      "id": "monthly-duhuo",
+      "parent": "MONTH-03",
+      "position": 241,
+      "heading": "月獨火",
+      "literal": "若與打頭火同位或年獨火飛得丙丁二字同到方道則其火方發無凶神倂不妨",
+      "implementedJoin": "Explicit 或 between local 打頭火 co-location and whole annual 丙丁二字同到方道 clause.",
+      "unresolved": [
+        "The annual clause remains one indivisible declared predicate: do not equate only 丙 or only 丁 with the complete two-character wording.",
+        "No calendar/flight/location calculation. 無凶神 is a separately declared source statement, not inferred by negating the two selected triggers.",
+        "Historical fire-event assertion is not physical fire prediction."
+      ],
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "monthly-daily-datou",
+      "parent": "MONTH-12",
+      "position": 245,
+      "heading": "月遊火飛天獨火",
+      "literal": "若與日家打頭火同位則其火便發",
+      "implementedJoin": "Two monthly labels share this passage. The counterpart is specifically 日家打頭火; do not substitute the monthly/unspecified counterpart of MONTH-03.",
+      "unresolved": [
+        "No date/day classification or occupied-place adapter.",
+        "The two heading labels are not claimed two independent printed cases."
+      ],
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "one-benefic-arrival",
+      "parent": "MONTH-13",
+      "position": 245,
+      "heading": "飛宮地軸帝舍帝車帝輅",
+      "actors": [
+        "飛宮",
+        "地軸",
+        "帝舍",
+        "帝車",
+        "帝輅"
+      ],
+      "literal": "逐年各月所占之方如欲修作求三奇陽龍陰兎帝星走馬六壬年轉運行衙帝星其中但得一位吉神到修作不妨",
+      "implementedJoin": "At least one individually confirmed eligible 吉神 arriving at the declared affected repair place is sufficient for this local textual claim.",
+      "unresolved": [
+        "Exact segmentation and individual membership of the named star systems are not inferred from a generic benefic flag.",
+        "A finite list without completeness evidence cannot establish absence.",
+        "No original enumerated fixed star count, common star-join or whole-work priority asserted."
+      ],
+      "wholeUnitApplied": false
+    }
+  ],
+  "sourceOutcomeValidated": false,
+  "consumerChanged": false
+}

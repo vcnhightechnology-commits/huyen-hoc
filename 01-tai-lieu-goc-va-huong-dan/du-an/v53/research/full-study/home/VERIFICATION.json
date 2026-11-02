@@ -1,0 +1,15 @@
+{
+  "schema": "hhc.home.source-verification.v1",
+  "verifiedUTC": "2026-10-26T04:07:49.628Z",
+  "savedBodyHashesVerified": 23,
+  "http200": 15,
+  "failedHttp400": 8,
+  "allTLSValidated": true,
+  "djvuSHA256": "bfd3b76c55d62324919ab161c8c2ba2ecb129b3b2c59a3ab0428807e8f8278db",
+  "djvuSHA1": "96c3d1b9cdf5889ca88938b161b5f330b37c12b6",
+  "catalogSHA1": "96c3d1b9cdf5889ca88938b161b5f330b37c12b6",
+  "fixtures": 105,
+  "production24MountainEngineExecuted": false,
+  "conditionalDirectionsEngineExecution": "Recorded separately in DAYOUNIAN_ENGINE_CHECK.json",
+  "scope": "Archived-byte integrity, catalogue SHA1 agreement, direct visual source readings, mapping and integration fixtures only"
+}

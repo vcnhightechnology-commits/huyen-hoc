@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-27",
+  "attempts": [
+    {
+      "attempt": 1,
+      "executedChecks": 7,
+      "passedChecks": 6,
+      "interpretation": "Wrong pure-Khun fixture:count8/hour1 is11;corrected to count8/hour8=2. pdfCreated:true was a runner metadata bug;no PDF existed at this failure."
+    },
+    {
+      "attempt": 2,
+      "executedChecks": 21,
+      "passedChecks": 20,
+      "interpretation": "Artificial beforeprint followed immediately by PDF caused duplicate beforeprint. Runner now finishes manual lifecycle before the independent actual PDF lifecycle;app.js unchanged."
+    },
+    {
+      "attempt": 3,
+      "executedChecks": 34,
+      "passedChecks": 34,
+      "interpretation": "34checks passed but PDF used screen media and had5pages. Visual QA caught this;retained as attempt3,not the final print artifact."
+    }
+  ],
+  "finalAttempt": {
+    "checks": 34,
+    "passed": 34,
+    "pdfCreated": true,
+    "pages": 4,
+    "pdfSHA256": "210768dad70380f68fa687eaf92f16169ce589db3af53a388857e3ea6135045b",
+    "printMedia": true,
+    "allRenderedPagesVisuallyReviewed": true
+  },
+  "candidateBytesUnchangedAcrossAttempts": true,
+  "productDefectFound": false,
+  "approvalReview": "Earlier usage-limit block retained historically;current require_escalated browser commands were reviewed and executed without bypass.",
+  "counting": "Final14calculation+34candidatebrowser+50integratedcore=98primarychecks. PDFcontent assertions and packaging identity counted separately;failed/superseded attempts not added."
+}

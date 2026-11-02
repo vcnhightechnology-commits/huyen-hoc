@@ -1,0 +1,29 @@
+{
+  "url": "https://docs.iztro.com/posts/star",
+  "status": 200,
+  "headers": {
+    "date": "Mon, 26 Oct 2026 04:20:41 GMT",
+    "content-type": "text/html; charset=utf-8",
+    "transfer-encoding": "chunked",
+    "connection": "keep-alive",
+    "x-content-type-options": "nosniff",
+    "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=N%2Ba2LcRG4hfNvN58d3uncIkN77LyjCsSqm%2Bj3eXzevxsqoEnJMSxP%2ByDJLenWYAIOid5UIhSHr5ZYjF0uTZnrDdcMbRb19Ejxf7bU%2FdYGkefQlxhlNWTBcNMrF6H1hZ4CXPb%2BpTh98fLgN%2FWwA%3D%3D\"}]}",
+    "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+    "access-control-allow-origin": "*",
+    "cache-control": "public, max-age=0, must-revalidate",
+    "referrer-policy": "strict-origin-when-cross-origin",
+    "link": "</assets/style.ddd4f68c.css>; rel=\"preload stylesheet\"; as=style, </assets/chunks/framework.7fab6bae.js>; rel=\"modulepreload\", </assets/chunks/theme.132a76fd.js>; rel=\"modulepreload\", </assets/posts_star.md.775b09ee.lean.js>; rel=\"modulepreload\"",
+    "server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=6,cfOrigin;dur=65",
+    "server": "cloudflare",
+    "cf-cache-status": "DYNAMIC",
+    "cf-ray": "a506ab7d7bd02b4f-LAX",
+    "alt-svc": "h3=\":443\"; ma=86400"
+  },
+  "receivedUTC": "2026-10-26T04:20:46.251Z",
+  "tls": {
+    "authorized": true,
+    "authorizationError": null
+  },
+  "bytes": 92030,
+  "sha256": "57e633bcd874e5b105b993ecfea8c89e873912ea3fd7d42150200028648919aa"
+}

@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-28",
+  "stage": "Before promotion or any engine/consumer use",
+  "initialStagingNote": "36maleupper1,middle6,lower8reverse",
+  "reason": "Misread hand-position words 巳/兌 as palace numerals and conflated coordinate systems.",
+  "rawSourceReading": {
+    "page36": [
+      "男上元甲子起一位即坎即寅",
+      "中元甲子起巳位即巽",
+      "下元甲子起兌位即申"
+    ],
+    "page41": "上元男一;中元男四;下元男兌;女五/二/八;五位男坤女艮"
+  },
+  "correctPalaceNumbers": {
+    "male": [
+      1,
+      4,
+      7
+    ],
+    "female": [
+      5,
+      2,
+      8
+    ]
+  },
+  "sourceChanged": false,
+  "engineChanged": false,
+  "consumerChanged": false,
+  "initialMisreadingRetained": true
+}

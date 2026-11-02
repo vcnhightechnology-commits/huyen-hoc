@@ -1,0 +1,77 @@
+{
+  "scope": "recovery/2026-10-29_HKO_iztro/project_state",
+  "files": [
+    {
+      "file": "recovery/2026-10-29_HKO_iztro/project_state/EXHAUSTIVE_WORK_STATE.json",
+      "bytes": 95656,
+      "sha256": "d58ce5c82b319bef150f02a7ade2c58dbc75a0e0e3c9d34b7268ebbb73597dc9",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d58ce5c82b319bef150f02a7ade2c58dbc75a0e0e3c9d34b7268ebbb73597dc9",
+      "httpRange": {
+        "offset": 148385757,
+        "compressedBytes": 37626,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "recovery/2026-10-29_HKO_iztro/project_state/PENDING_RESEARCH_STATE.json",
+      "bytes": 6647,
+      "sha256": "ced38ee130c9f045d6b3a760ac057cd3ca0792c3240e13796b60cd3a2e17d6b3",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/ced38ee130c9f045d6b3a760ac057cd3ca0792c3240e13796b60cd3a2e17d6b3",
+      "httpRange": {
+        "offset": 76645919,
+        "compressedBytes": 3451,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "recovery/2026-10-29_HKO_iztro/project_state/PROJECT_RESEARCH_STATE.md",
+      "bytes": 159587,
+      "sha256": "c5efe648add2b15307574508a6e6b7f27ad7de5bd7324a3bfd4079c5fd37bbbf",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c5efe648add2b15307574508a6e6b7f27ad7de5bd7324a3bfd4079c5fd37bbbf",
+      "httpRange": {
+        "offset": 357148696,
+        "compressedBytes": 68111,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "recovery/2026-10-29_HKO_iztro/project_state/tmp/bazi-food-chain-staging/WORK_STATE.json",
+      "bytes": 4480,
+      "sha256": "15a2395ed8465952bb148f3794fa35825b4afed84547e40f3765ec0f00465d0e",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/15a2395ed8465952bb148f3794fa35825b4afed84547e40f3765ec0f00465d0e",
+      "httpRange": {
+        "offset": 289204817,
+        "compressedBytes": 2383,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "recovery/2026-10-29_HKO_iztro/project_state/v53/NEXT_STEPS.md",
+      "bytes": 130503,
+      "sha256": "acd560f1e056aee40086df8cd44ffed07d60d2bd85e215a306258e640691a91d",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/acd560f1e056aee40086df8cd44ffed07d60d2bd85e215a306258e640691a91d",
+      "httpRange": {
+        "offset": 288494833,
+        "compressedBytes": 55735,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "recovery/2026-10-29_HKO_iztro/project_state/v53/PACKAGE_MANIFEST.json",
+      "bytes": 1080506,
+      "sha256": "ee66bd504d0ddff0a573838588b8c1a85af650985fc7a220144338b6113676e2",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ee66bd504d0ddff0a573838588b8c1a85af650985fc7a220144338b6113676e2",
+      "httpRange": {
+        "offset": 112662249,
+        "compressedBytes": 323194,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

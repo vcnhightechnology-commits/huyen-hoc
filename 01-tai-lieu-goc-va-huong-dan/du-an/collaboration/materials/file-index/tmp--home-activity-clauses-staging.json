@@ -1,0 +1,269 @@
+{
+  "scope": "tmp/home-activity-clauses-staging",
+  "files": [
+    {
+      "file": "tmp/home-activity-clauses-staging/EXPECTED_BEFORE_IMPLEMENTATION.json",
+      "bytes": 15466,
+      "sha256": "7bfcfc0c504e0377f6960a78143b0fd7d60f78e8225ff54b954e7db358506074",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7bfcfc0c504e0377f6960a78143b0fd7d60f78e8225ff54b954e7db358506074",
+      "httpRange": {
+        "offset": 44717299,
+        "compressedBytes": 2181,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-activity-clauses-staging/MANUAL_CLAUSES.json",
+      "bytes": 4119,
+      "sha256": "c13e1557515643ffbe693768cdf1e9fb738a2dd7101dfbabf319c85a6f8b7c86",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c13e1557515643ffbe693768cdf1e9fb738a2dd7101dfbabf319c85a6f8b7c86",
+      "httpRange": {
+        "offset": 258538927,
+        "compressedBytes": 1907,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-activity-clauses-staging/NATIVE_CROPS.json",
+      "bytes": 9117,
+      "sha256": "7c4ccd98f84453f4fccaaf578360c08828e8759576016e7fffe254db21821301",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7c4ccd98f84453f4fccaaf578360c08828e8759576016e7fffe254db21821301",
+      "httpRange": {
+        "offset": 45131243,
+        "compressedBytes": 1785,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-activity-clauses-staging/PREIMPLEMENTATION_FREEZE.json",
+      "bytes": 575,
+      "sha256": "993cb77df93bf8583db6647d967076fd3a35827a03b02dd7e2baeed71bb3057d",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/993cb77df93bf8583db6647d967076fd3a35827a03b02dd7e2baeed71bb3057d",
+      "httpRange": {
+        "offset": 36459053,
+        "compressedBytes": 329,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-activity-clauses-staging/REFERENCE_RESULTS.json",
+      "bytes": 447,
+      "sha256": "2d192ca928f4d3338b0aaeb2b1e46a2bfb62ba7715c750c795090b8e2e7b2c2e",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2d192ca928f4d3338b0aaeb2b1e46a2bfb62ba7715c750c795090b8e2e7b2c2e",
+      "httpRange": {
+        "offset": 210950262,
+        "compressedBytes": 264,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-activity-clauses-staging/SOURCE_REUSE.json",
+      "bytes": 2337,
+      "sha256": "40e32a05bef5475d2c33c055778546277243e81608366ffc4bfe625836664493",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/40e32a05bef5475d2c33c055778546277243e81608366ffc4bfe625836664493",
+      "httpRange": {
+        "offset": 142880831,
+        "compressedBytes": 1003,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-activity-clauses-staging/WORK_STATE.json",
+      "bytes": 1990,
+      "sha256": "fa7568f514839ffb572514a942075ecb84b855e8c2af531b764c13f6f46f4a56",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/fa7568f514839ffb572514a942075ecb84b855e8c2af531b764c13f6f46f4a56",
+      "httpRange": {
+        "offset": 257440063,
+        "compressedBytes": 1051,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-activity-clauses-staging/activity-clause-reference.mjs",
+      "bytes": 4972,
+      "sha256": "7ba44c30f663d04dc2e8c6b41ef4f1227d2941c73c8730dbd46517115b4a9326",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7ba44c30f663d04dc2e8c6b41ef4f1227d2941c73c8730dbd46517115b4a9326",
+      "httpRange": {
+        "offset": 40857249,
+        "compressedBytes": 1980,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-activity-clauses-staging/fire-water-ge-complete.png",
+      "bytes": 2004439,
+      "sha256": "67ed63dbe81a6370eb92fa2fd48cafd190b1d95f40548baee31dc0c21443dd27",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/67ed63dbe81a6370eb92fa2fd48cafd190b1d95f40548baee31dc0c21443dd27",
+      "httpRange": {
+        "offset": 223489602,
+        "compressedBytes": 2004400,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-activity-clauses-staging/fire-water-ge.png",
+      "bytes": 1904192,
+      "sha256": "6e73363ce1cdb530b37ab6abc6a626ed45f11b8ae3ec4473527b04aabba478c1",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6e73363ce1cdb530b37ab6abc6a626ed45f11b8ae3ec4473527b04aabba478c1",
+      "httpRange": {
+        "offset": 280053888,
+        "compressedBytes": 1904120,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-activity-clauses-staging/four-waste-complete.png",
+      "bytes": 1141401,
+      "sha256": "007e0a4ef84df8a3be99c8d7313439be5de019a5652a6dd2a5eea9b00d3be824",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/007e0a4ef84df8a3be99c8d7313439be5de019a5652a6dd2a5eea9b00d3be824",
+      "httpRange": {
+        "offset": 4618011,
+        "compressedBytes": 1141139,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-activity-clauses-staging/four-waste.png",
+      "bytes": 1030996,
+      "sha256": "5e0b0f141baff9c94e5f83b39dd4a3baffdb361871ac2af8c1708edd3f59f537",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5e0b0f141baff9c94e5f83b39dd4a3baffdb361871ac2af8c1708edd3f59f537",
+      "httpRange": {
+        "offset": 329555763,
+        "compressedBytes": 1030603,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-activity-clauses-staging/human-ge.png",
+      "bytes": 649906,
+      "sha256": "ea5e2a738911411a175f1c658431f967f30a10bc37fa8dc9e518882c79d87595",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ea5e2a738911411a175f1c658431f967f30a10bc37fa8dc9e518882c79d87595",
+      "httpRange": {
+        "offset": 56640980,
+        "compressedBytes": 649566,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-activity-clauses-staging/received-death-continuation-tiange-complete.png",
+      "bytes": 1970416,
+      "sha256": "fb70cadd0ba2e3a788fceda385f777d324602e043509b41cee104ff011617dc8",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/fb70cadd0ba2e3a788fceda385f777d324602e043509b41cee104ff011617dc8",
+      "httpRange": {
+        "offset": 266563412,
+        "compressedBytes": 1969746,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-activity-clauses-staging/received-death-continuation-tiange.png",
+      "bytes": 1341376,
+      "sha256": "6162bc1b2d46184a67633fe4aed7881ba60e6981d8b7c9f672c7754ef240e2d4",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6162bc1b2d46184a67633fe4aed7881ba60e6981d8b7c9f672c7754ef240e2d4",
+      "httpRange": {
+        "offset": 75045476,
+        "compressedBytes": 1340554,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-activity-clauses-staging/received-death-start.png",
+      "bytes": 749728,
+      "sha256": "7b64d821252a2cb4d7b890ce2c75fb6064b609190135cb581af5c024bb9f08a4",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7b64d821252a2cb4d7b890ce2c75fb6064b609190135cb581af5c024bb9f08a4",
+      "httpRange": {
+        "offset": 40094912,
+        "compressedBytes": 749854,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-activity-clauses-staging/test-activity-clause-reference.mjs",
+      "bytes": 5597,
+      "sha256": "213802bcf28189fe7556e8d123e57f74bb34719874e98f6386ac3eeea01ba3b1",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/213802bcf28189fe7556e8d123e57f74bb34719874e98f6386ac3eeea01ba3b1",
+      "httpRange": {
+        "offset": 86310837,
+        "compressedBytes": 2094,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-activity-clauses-staging/tianhuo-voices.png",
+      "bytes": 1064044,
+      "sha256": "92222dd5bc25c08c84a689c8f45ee2a947f71a33f7a06878015f8cfb8991f858",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/92222dd5bc25c08c84a689c8f45ee2a947f71a33f7a06878015f8cfb8991f858",
+      "httpRange": {
+        "offset": 321389916,
+        "compressedBytes": 1064263,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-activity-clauses-staging/wantong-fire-complete.png",
+      "bytes": 1134488,
+      "sha256": "7485d713806fdf2584d7d4352b17ccc49beee4940abb10c8a51f3ed4f7c58358",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/7485d713806fdf2584d7d4352b17ccc49beee4940abb10c8a51f3ed4f7c58358",
+      "httpRange": {
+        "offset": 352506540,
+        "compressedBytes": 1134689,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-activity-clauses-staging/wantong-fire.png",
+      "bytes": 1080039,
+      "sha256": "47cde128834c73675fdcc420c7749f9b9730c69350d319087a6892e352bffbd9",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/47cde128834c73675fdcc420c7749f9b9730c69350d319087a6892e352bffbd9",
+      "httpRange": {
+        "offset": 244226811,
+        "compressedBytes": 1080182,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-activity-clauses-staging/white-tiger-qualified-complete.png",
+      "bytes": 2583195,
+      "sha256": "a837c446c5c455f90406cef44d92ebcf92d49493ad058bc9cc8c5b33f300e231",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a837c446c5c455f90406cef44d92ebcf92d49493ad058bc9cc8c5b33f300e231",
+      "httpRange": {
+        "offset": 247412671,
+        "compressedBytes": 2583367,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-activity-clauses-staging/white-tiger-qualified.png",
+      "bytes": 1956842,
+      "sha256": "ee96dfe088787434015dabea9c53ea7a47c6649ede3b00314983dd62dacc3521",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ee96dfe088787434015dabea9c53ea7a47c6649ede3b00314983dd62dacc3521",
+      "httpRange": {
+        "offset": 113461243,
+        "compressedBytes": 1956929,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

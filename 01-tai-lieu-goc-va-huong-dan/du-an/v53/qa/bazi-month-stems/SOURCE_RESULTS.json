@@ -1,0 +1,310 @@
+{
+  "checks": [
+    {
+      "name": "All38response bodies retain exact byte/hash/TLS records,including one failed429",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "DjVu container matches public API size/SHA1 and records local SHA256",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Source metadata remains qualified as Commons attribution rather than an independently verified institutional scan",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Seventeen rendered page images match their actual API URLs and dimensions;page1is500px,others960px",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "All11targeted context images exist;title and navigation pages are not counted as collated content",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Rate-limit failure is retained and excluded;digital-only68bqualification is not promoted to image evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Pinned digital comparator retains its pre-scope byte identity",
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "summary": {
+    "responses": 38,
+    "successfulResponses": 37,
+    "failed429": 1,
+    "containerBytes": 10721582,
+    "containerSHA256": "013ce4861680a2bf08b811050c45a45bb2d3ce9d164f7e2341d7070bd5cb2c1a",
+    "metadataPageCount": 226,
+    "renderedPages": 17,
+    "targetedContextPages": 11,
+    "targetedSections": 3,
+    "collatedClauses": 10,
+    "manualSourcePairs": 16
+  },
+  "pages": [
+    {
+      "page": 1,
+      "file": "p001.jpg",
+      "size": [
+        500,
+        710
+      ],
+      "apiDeclaredSize": [
+        960,
+        1363
+      ],
+      "dimensionsMatchAPI": false,
+      "sha256": "aae44f3b561c2baf7fa8ea0ed545e344bdfc5545060d263ae84458a90eecfc51",
+      "kind": "Commons rendered derivative,not original DjVu pagebytes"
+    },
+    {
+      "page": 2,
+      "file": "p002.jpg",
+      "size": [
+        960,
+        979
+      ],
+      "apiDeclaredSize": [
+        960,
+        979
+      ],
+      "dimensionsMatchAPI": true,
+      "sha256": "3d112db8e5d9fa12e52ee8b2c0296faa8cb56020d60b53f2055821924bd3e31a",
+      "kind": "Commons rendered derivative,not original DjVu pagebytes"
+    },
+    {
+      "page": 3,
+      "file": "p003.jpg",
+      "size": [
+        960,
+        1317
+      ],
+      "apiDeclaredSize": [
+        960,
+        1317
+      ],
+      "dimensionsMatchAPI": true,
+      "sha256": "d4d2c5fdd58105fa26be87258c1baf9ac2eb5d1881ef9a0a5bd47f9be41fc7a7",
+      "kind": "Commons rendered derivative,not original DjVu pagebytes"
+    },
+    {
+      "page": 4,
+      "file": "p004.jpg",
+      "size": [
+        960,
+        1301
+      ],
+      "apiDeclaredSize": [
+        960,
+        1301
+      ],
+      "dimensionsMatchAPI": true,
+      "sha256": "7ea5b3eecd3a1bc5c4f26075cc2f1d1e17a7509c8de07a05bec49a9b76c09ea3",
+      "kind": "Commons rendered derivative,not original DjVu pagebytes"
+    },
+    {
+      "page": 10,
+      "file": "p010.jpg",
+      "size": [
+        960,
+        1295
+      ],
+      "apiDeclaredSize": [
+        960,
+        1295
+      ],
+      "dimensionsMatchAPI": true,
+      "sha256": "91a1b42d5a42339b4b9fc6f958461fc4507ce2804121682617e2550637be0483",
+      "kind": "Commons rendered derivative,not original DjVu pagebytes"
+    },
+    {
+      "page": 11,
+      "file": "p011.jpg",
+      "size": [
+        960,
+        1294
+      ],
+      "apiDeclaredSize": [
+        960,
+        1294
+      ],
+      "dimensionsMatchAPI": true,
+      "sha256": "b55dc4c58273e1523c9bbbfc4accf10f6c4407d729f4795ded2eec0a85595904",
+      "kind": "Commons rendered derivative,not original DjVu pagebytes"
+    },
+    {
+      "page": 12,
+      "file": "p012.jpg",
+      "size": [
+        960,
+        1295
+      ],
+      "apiDeclaredSize": [
+        960,
+        1295
+      ],
+      "dimensionsMatchAPI": true,
+      "sha256": "1b2b3d5be6b47ffc7e6f3a4878ad98e25474c2bc6b4a3730bb9a299915daff9b",
+      "kind": "Commons rendered derivative,not original DjVu pagebytes"
+    },
+    {
+      "page": 13,
+      "file": "p013.jpg",
+      "size": [
+        960,
+        1276
+      ],
+      "apiDeclaredSize": [
+        960,
+        1276
+      ],
+      "dimensionsMatchAPI": true,
+      "sha256": "8165cc9e6d41661f5204ad513de1ba282e5376b478ebea912a5e18a418744694",
+      "kind": "Commons rendered derivative,not original DjVu pagebytes"
+    },
+    {
+      "page": 14,
+      "file": "p014.jpg",
+      "size": [
+        960,
+        1301
+      ],
+      "apiDeclaredSize": [
+        960,
+        1301
+      ],
+      "dimensionsMatchAPI": true,
+      "sha256": "4d1cc81ee2ff77cf2d9198d94c6385bc711152c0927e239bfe70faef07ed84ef",
+      "kind": "Commons rendered derivative,not original DjVu pagebytes"
+    },
+    {
+      "page": 15,
+      "file": "p015.jpg",
+      "size": [
+        960,
+        1285
+      ],
+      "apiDeclaredSize": [
+        960,
+        1285
+      ],
+      "dimensionsMatchAPI": true,
+      "sha256": "1ce969ab9ae2fe504b308e601ed117f65972c2e786e8c781c214c4ae3c8111a5",
+      "kind": "Commons rendered derivative,not original DjVu pagebytes"
+    },
+    {
+      "page": 16,
+      "file": "p016.jpg",
+      "size": [
+        960,
+        1301
+      ],
+      "apiDeclaredSize": [
+        960,
+        1301
+      ],
+      "dimensionsMatchAPI": true,
+      "sha256": "a5d1e0030c8bdccc908cac3e887262930ef4d4c16f66917b07d6128d4adc2ff9",
+      "kind": "Commons rendered derivative,not original DjVu pagebytes"
+    },
+    {
+      "page": 45,
+      "file": "p045.jpg",
+      "size": [
+        960,
+        1271
+      ],
+      "apiDeclaredSize": [
+        960,
+        1271
+      ],
+      "dimensionsMatchAPI": true,
+      "sha256": "da522e49bc7a73581db67845ccf56970dcbb2d0d2bb7e2f4ace86662b9887103",
+      "kind": "Commons rendered derivative,not original DjVu pagebytes"
+    },
+    {
+      "page": 46,
+      "file": "p046.jpg",
+      "size": [
+        960,
+        1301
+      ],
+      "apiDeclaredSize": [
+        960,
+        1301
+      ],
+      "dimensionsMatchAPI": true,
+      "sha256": "5e7adaba5de551261a1e79b195c15a4f9ee0e36ecd654bd73cf5c9491271c444",
+      "kind": "Commons rendered derivative,not original DjVu pagebytes"
+    },
+    {
+      "page": 47,
+      "file": "p047.jpg",
+      "size": [
+        960,
+        1284
+      ],
+      "apiDeclaredSize": [
+        960,
+        1284
+      ],
+      "dimensionsMatchAPI": true,
+      "sha256": "ad276c28c83698be474a30daca1ae8c05410433e8db4336cafd19febd70a0556",
+      "kind": "Commons rendered derivative,not original DjVu pagebytes"
+    },
+    {
+      "page": 48,
+      "file": "p048.jpg",
+      "size": [
+        960,
+        1300
+      ],
+      "apiDeclaredSize": [
+        960,
+        1300
+      ],
+      "dimensionsMatchAPI": true,
+      "sha256": "976b6a98fe54a13e60e5eaa9db03143d2ddcf27987a5660b5a7167b6c64a65c6",
+      "kind": "Commons rendered derivative,not original DjVu pagebytes"
+    },
+    {
+      "page": 136,
+      "file": "p136.jpg",
+      "size": [
+        960,
+        1302
+      ],
+      "apiDeclaredSize": [
+        960,
+        1302
+      ],
+      "dimensionsMatchAPI": true,
+      "sha256": "f48198bf7bebcb0907b76e5d48e5de62f57ec78b6b1a84c8bc4365301b46a694",
+      "kind": "Commons rendered derivative,not original DjVu pagebytes"
+    },
+    {
+      "page": 137,
+      "file": "p137.jpg",
+      "size": [
+        960,
+        1310
+      ],
+      "apiDeclaredSize": [
+        960,
+        1310
+      ],
+      "dimensionsMatchAPI": true,
+      "sha256": "505e47dd996e745003f44f31daa7e5ffd07bd71e6e602ecfebd14834a220e0c0",
+      "kind": "Commons rendered derivative,not original DjVu pagebytes"
+    }
+  ],
+  "manualSHA256": "ec26bd9855294d699cc0117c2f9a6689e43bfa9506184e505662b0bef26a21f0"
+}

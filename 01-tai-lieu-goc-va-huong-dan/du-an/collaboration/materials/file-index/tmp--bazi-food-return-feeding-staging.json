@@ -1,0 +1,29 @@
+{
+  "scope": "tmp/bazi-food-return-feeding-staging",
+  "files": [
+    {
+      "file": "tmp/bazi-food-return-feeding-staging/SOURCE_DIRECTION_REVIEW.json",
+      "bytes": 4987,
+      "sha256": "1094d0deafaebef9f71e4278ac8bf268840e1afcd4fd889b00619cca421d0a9c",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1094d0deafaebef9f71e4278ac8bf268840e1afcd4fd889b00619cca421d0a9c",
+      "httpRange": {
+        "offset": 230374880,
+        "compressedBytes": 2229,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-food-return-feeding-staging/review-source.py",
+      "bytes": 3658,
+      "sha256": "89bb149f97d3c7d3acfeb95e2958f9213898cf6c0e2b9aebaa46547ec589fb8f",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/89bb149f97d3c7d3acfeb95e2958f9213898cf6c0e2b9aebaa46547ec589fb8f",
+      "httpRange": {
+        "offset": 249055323,
+        "compressedBytes": 1924,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "date": "2026-10-27",
+  "status": "weatherchapter-first-span-and-named-role-candidates-verified-fullconditions-active",
+  "latestReport": "v53/LIUYAO_WEATHER_ROLES_REPORT.md",
+  "completedStep": "B02: khép lượt đọc đầu chương35 Thiên thời/PDF188–211, thêm21trang nội dung191–211 vàhai vịtrí212kếtquyển3/213mởquyển4-chương36. Đối mục tiêu16mệnhđề,giữ2giọngchọnvai trò/5câuhỏi;覺子191nắnglấyTửtônkhácđoạntóm201choTửtônhoặcTài. 7kiểm đạt/2HHC thật cho恒→大過,mộtquẻin/sáunhãnchi-Lụcthân;20480ngữcảnhriêng,3072bốicảnhnắngkháccandidate. 30vịtrírenders/23đãxem/7ảnh214–220chưaxem,1renderQA360và2táirenderkhớppixel;0HTTP/PDFgốcmới. Địnhvị213mởquyển4nhưnggiữmâu thuẫnmụclụcxếp35vào4;map136/95chỉđềmục/33đọckhoảng/7nềnmộtphần/1mộtphầnkhác/0áphết. Khôngdựbáokhítượng/tínhngàyhoặcđồngnhấtlờicổ. HTML/site/ZIPwebnguyênbyte;toànkhochưahoàntất.",
+  "summary": {
+    "actualHHCHexCalls": 2,
+    "printedCastFixtures": 1,
+    "sourceBranchKinLabels": 6,
+    "namedSourceMethods": 2,
+    "namedQuestionSelectors": 5,
+    "privateMotionQuestionContexts": 20480,
+    "clearCandidateContrastContexts": 3072,
+    "boundedClauses": 16,
+    "fullChapter35BodyPositions": 24,
+    "newWeatherContentPositionsRead": 21,
+    "newParatextPositionsRead": 1,
+    "newNextChapterOpeningPositionsRead": 1,
+    "renderedNotReadPositions": 7,
+    "highResolutionQARenders": 1,
+    "newHTTPRequests": 0,
+    "newOriginalContainers": 0
+  },
+  "sourceVerification": {
+    "date": "2026-10-27",
+    "sourcePDFBytes": 11089308,
+    "sourcePDFSHA256": "caac111bc5c5b1c08fd27b3828e7cf6b5430503800f2427d8f2b28809022abaa",
+    "newHTTPRequests": 0,
+    "newOriginalContainers": 0,
+    "promotedRenderedPositions": 30,
+    "promotedViewedPositions": 23,
+    "newWeatherContentPositionsRead": 21,
+    "newParatextPositionsRead": 1,
+    "newNextChapterOpeningPositionsRead": 1,
+    "expandedPriorBodyPositions": 3,
+    "renderedNotReadPositions": 7,
+    "sourceImageHashesVerified": 34,
+    "reproductions": [
+      {
+        "sourcePage": 191,
+        "dpi": 144,
+        "file": "redecode-144-191.png",
+        "sha256": "46c7b6e7dc87e60c5cec534f50e123e8d5a45e9e7e3a69d237adabe592bda186",
+        "pixelRGB_SHA256": "897ff7f2590c03b3a25b85486f63101a9706521115c661af14a3e9ac7049145e",
+        "pixelMatch": true,
+        "notNewSourcePosition": true
+      },
+      {
+        "sourcePage": 191,
+        "dpi": 360,
+        "file": "redecode-360-191.png",
+        "sha256": "e2222102af4f20242c3aa751d3b115e76ef8f53ea091d73907db97b33caec3bb",
+        "pixelRGB_SHA256": "082a9caea169914cd85662bb15dca3d49459b2e062724010af55418bfd98e8ac",
+        "pixelMatch": true,
+        "notNewSourcePosition": true
+      }
+    ],
+    "namedRoleVoices": 2,
+    "namedSelectors": 5,
+    "allSourceImageCharactersCollated": false,
+    "wholeChapterApplied": false,
+    "wholeCatalogueCompleted": false
+  },
+  "next": [
+    "B02 chương36 身命 mớiđọctrang213;214–220đãrender ởresearch/liuyao-weather/images nhưngchưaxem. Tiếpđọctoànkhoảng,liệtkêđiềukiệnvàgiọngnguồn;khôngluậntrọnđờitừmộtquẻ hoặcđưa lời bệnh/thọyểu thànhkếtquảngườidùng.",
+    "Chương35đãđọckhoảng188–211,có16mệnhđềgiớihạn/5selector;chưa mọicâu/phụchú/vượngsuy/ứngkỳ. Khônglặp20480contexts/2HHC nếu logicchưađổi;quẻin khác cầntríchđộc lập,khôngđiềnnét từengine. Mụclục35quyển4 khác thânquyển3,4mở213.",
+    "B03cácmệnhđềphụ/MaiHoa/chữmở;Tửvi火鈴星/CanhNhâm/khởihạn/dịbản;Báttựđầycách/vượngsuy/dụngthần;NhàởPhiTinh/đoreal/TrạchKinhảnh đều cònmở. T02ĐạoTạngleadriêng ởtmp/tuvi-daozang-staging,403khônggọilàđãtảisách/khôngvượtchặn.",
+    "ỨngviênUIKiếnLộc ởresearch/bazi-jianlu-context/consumer-candidate vẫnđợibrowserQA/TXT/in/PDF. Nguồn/corpus/suyluậnngoàisite;40hồsơwhole0;khôngxuấtbảnmạng."
+  ],
+  "currentTOC": "v53/research/liuyao-weather/B02_CURRENT_UNITS.json",
+  "consumerChanged": false,
+  "meteorologicalModelValidated": false,
+  "wholeChapterApplied": false,
+  "wholeCatalogueCompleted": false
+}

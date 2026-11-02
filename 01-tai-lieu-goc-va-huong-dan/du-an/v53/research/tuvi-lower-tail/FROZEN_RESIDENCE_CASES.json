@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-29",
+  "records": [
+    {
+      "id": "chang-guogong-empty",
+      "sourceCanvas": 111,
+      "panel": "left",
+      "sourceLabel": "常國公",
+      "sourceYearPillar": "辛卯",
+      "sourceMonth": 2,
+      "sourceDay": 12,
+      "sourceHour": "未",
+      "modernTestYear": 1951,
+      "hourCenter": 14,
+      "hourIndex": 7,
+      "expectedMing": "申",
+      "expectedCuc": 6,
+      "expectedResidentMajor": [],
+      "expectedOpposite": "寅",
+      "expectedOppositeMajor": [
+        "天機",
+        "太陰"
+      ],
+      "literalClause": "命宮雖無正曜但得三方吉拱",
+      "sourceHistoricalDateValidated": false
+    },
+    {
+      "id": "linsheng-empty",
+      "sourceCanvas": 115,
+      "panel": "left",
+      "sourceLabel": "廩生之命",
+      "sourceYearPillar": "甲午",
+      "sourceMonth": 4,
+      "sourceDay": 20,
+      "sourceHour": "子",
+      "modernTestYear": 1954,
+      "hourCenter": 0,
+      "hourIndex": 0,
+      "expectedMing": "巳",
+      "expectedCuc": 3,
+      "expectedResidentMajor": [],
+      "expectedOpposite": "亥",
+      "expectedOppositeMajor": [
+        "巨門"
+      ],
+      "literalClause": "此命無正曜",
+      "sourceHistoricalDateValidated": false
+    },
+    {
+      "id": "xiucai-occupied",
+      "sourceCanvas": 116,
+      "panel": "left",
+      "sourceLabel": "秀才之命",
+      "sourceYearPillar": "庚申",
+      "sourceMonth": 9,
+      "sourceDay": 10,
+      "sourceHour": "寅",
+      "modernTestYear": 1980,
+      "hourCenter": 4,
+      "hourIndex": 2,
+      "expectedMing": "申",
+      "expectedCuc": 2,
+      "expectedResidentMajor": [
+        "破軍"
+      ],
+      "expectedOpposite": "寅",
+      "expectedOppositeMajor": [
+        "武曲",
+        "天相"
+      ],
+      "literalClause": "此破軍得地",
+      "sourceHistoricalDateValidated": false
+    }
+  ],
+  "branchFrame": "Editorial chart frame 巳午未申 top row; 寅丑子亥 bottom row; traditional twelve branches. Not printed modern year.",
+  "calendarAssumptions": {
+    "calendar": "lunar",
+    "leap": false,
+    "tz": 8,
+    "dayPolicy": "current"
+  },
+  "premise": "Only natal major residents and opposite palace, not complete chart/pattern/period/outcome",
+  "preRuntimeManualClarification": "111 bottom-left is 天機太陰, not 太陽. Resolved by crop before freeze and any engine call. 121 obscured 六終 provisional reading withdrawn."
+}

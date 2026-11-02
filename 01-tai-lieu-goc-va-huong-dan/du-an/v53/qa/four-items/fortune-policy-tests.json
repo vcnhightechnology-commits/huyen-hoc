@@ -1,0 +1,2885 @@
+{
+  "date": "2026-10-25T17:21:20.496Z",
+  "checks": [
+    {
+      "name": "72 actual iztro calls cover leap birth days 15/16/29, target days 14/15/16, both genders and all three explicit policies",
+      "ok": true
+    },
+    {
+      "name": "All 24 split16 cases agree directly, with zero policy adjustment",
+      "ok": true
+    },
+    {
+      "name": "All three policies wrap a leap twelfth month to a valid 1–12 month without changing its lunar year",
+      "ok": true
+    },
+    {
+      "name": "24 actual iztro calls independently confirm minor-period direction for all 12 birth branches and both genders",
+      "ok": true
+    },
+    {
+      "name": "Annual four-transformations comparison records exactly the known Nham Khoa variant instead of forcing agreement",
+      "ok": true
+    },
+    {
+      "name": "Retained source explicitly attests Nham Thien Phu and the four minor-period starting branches",
+      "ok": true
+    },
+    {
+      "name": "Late-Ty next-day selection propagates its effective lunar birth year/month/hour into all period indices",
+      "ok": true
+    }
+  ],
+  "actualIztroCalls": 106,
+  "leapPolicyRows": [
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 14,
+        "leap": true
+      },
+      "date": "2025-08-07",
+      "policy": "same",
+      "rawMonth": 1,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 15,
+        "leap": true
+      },
+      "date": "2025-08-08",
+      "policy": "same",
+      "rawMonth": 1,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 16,
+        "leap": true
+      },
+      "date": "2025-08-09",
+      "policy": "same",
+      "rawMonth": 2,
+      "birthAdjustment": 0,
+      "targetAdjustment": -1,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2026,
+        "m": 1,
+        "d": 1,
+        "leap": false
+      },
+      "date": "2026-02-17",
+      "policy": "same",
+      "rawMonth": 9,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 9,
+      "actual": 9,
+      "age": 23,
+      "engineAge": 23,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 14,
+        "leap": true
+      },
+      "date": "2025-08-07",
+      "policy": "next",
+      "rawMonth": 1,
+      "birthAdjustment": -1,
+      "targetAdjustment": 1,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 15,
+        "leap": true
+      },
+      "date": "2025-08-08",
+      "policy": "next",
+      "rawMonth": 1,
+      "birthAdjustment": -1,
+      "targetAdjustment": 1,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 16,
+        "leap": true
+      },
+      "date": "2025-08-09",
+      "policy": "next",
+      "rawMonth": 2,
+      "birthAdjustment": -1,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2026,
+        "m": 1,
+        "d": 1,
+        "leap": false
+      },
+      "date": "2026-02-17",
+      "policy": "next",
+      "rawMonth": 9,
+      "birthAdjustment": -1,
+      "targetAdjustment": 0,
+      "expected": 8,
+      "actual": 8,
+      "age": 23,
+      "engineAge": 23,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 14,
+        "leap": true
+      },
+      "date": "2025-08-07",
+      "policy": "split16",
+      "rawMonth": 1,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 15,
+        "leap": true
+      },
+      "date": "2025-08-08",
+      "policy": "split16",
+      "rawMonth": 1,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 16,
+        "leap": true
+      },
+      "date": "2025-08-09",
+      "policy": "split16",
+      "rawMonth": 2,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 2,
+      "actual": 2,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2026,
+        "m": 1,
+        "d": 1,
+        "leap": false
+      },
+      "date": "2026-02-17",
+      "policy": "split16",
+      "rawMonth": 9,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 9,
+      "actual": 9,
+      "age": 23,
+      "engineAge": 23,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 14,
+        "leap": true
+      },
+      "date": "2025-08-07",
+      "policy": "same",
+      "rawMonth": 0,
+      "birthAdjustment": 1,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 15,
+        "leap": true
+      },
+      "date": "2025-08-08",
+      "policy": "same",
+      "rawMonth": 0,
+      "birthAdjustment": 1,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 16,
+        "leap": true
+      },
+      "date": "2025-08-09",
+      "policy": "same",
+      "rawMonth": 1,
+      "birthAdjustment": 1,
+      "targetAdjustment": -1,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2026,
+        "m": 1,
+        "d": 1,
+        "leap": false
+      },
+      "date": "2026-02-17",
+      "policy": "same",
+      "rawMonth": 8,
+      "birthAdjustment": 1,
+      "targetAdjustment": 0,
+      "expected": 9,
+      "actual": 9,
+      "age": 23,
+      "engineAge": 23,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 14,
+        "leap": true
+      },
+      "date": "2025-08-07",
+      "policy": "next",
+      "rawMonth": 0,
+      "birthAdjustment": 0,
+      "targetAdjustment": 1,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 15,
+        "leap": true
+      },
+      "date": "2025-08-08",
+      "policy": "next",
+      "rawMonth": 0,
+      "birthAdjustment": 0,
+      "targetAdjustment": 1,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 16,
+        "leap": true
+      },
+      "date": "2025-08-09",
+      "policy": "next",
+      "rawMonth": 1,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2026,
+        "m": 1,
+        "d": 1,
+        "leap": false
+      },
+      "date": "2026-02-17",
+      "policy": "next",
+      "rawMonth": 8,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 8,
+      "actual": 8,
+      "age": 23,
+      "engineAge": 23,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 14,
+        "leap": true
+      },
+      "date": "2025-08-07",
+      "policy": "split16",
+      "rawMonth": 0,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 0,
+      "actual": 0,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 15,
+        "leap": true
+      },
+      "date": "2025-08-08",
+      "policy": "split16",
+      "rawMonth": 0,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 0,
+      "actual": 0,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 16,
+        "leap": true
+      },
+      "date": "2025-08-09",
+      "policy": "split16",
+      "rawMonth": 1,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2026,
+        "m": 1,
+        "d": 1,
+        "leap": false
+      },
+      "date": "2026-02-17",
+      "policy": "split16",
+      "rawMonth": 8,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 8,
+      "actual": 8,
+      "age": 23,
+      "engineAge": 23,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 14,
+        "leap": true
+      },
+      "date": "2025-08-07",
+      "policy": "same",
+      "rawMonth": 0,
+      "birthAdjustment": 1,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 15,
+        "leap": true
+      },
+      "date": "2025-08-08",
+      "policy": "same",
+      "rawMonth": 0,
+      "birthAdjustment": 1,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 16,
+        "leap": true
+      },
+      "date": "2025-08-09",
+      "policy": "same",
+      "rawMonth": 1,
+      "birthAdjustment": 1,
+      "targetAdjustment": -1,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2026,
+        "m": 1,
+        "d": 1,
+        "leap": false
+      },
+      "date": "2026-02-17",
+      "policy": "same",
+      "rawMonth": 8,
+      "birthAdjustment": 1,
+      "targetAdjustment": 0,
+      "expected": 9,
+      "actual": 9,
+      "age": 23,
+      "engineAge": 23,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 14,
+        "leap": true
+      },
+      "date": "2025-08-07",
+      "policy": "next",
+      "rawMonth": 0,
+      "birthAdjustment": 0,
+      "targetAdjustment": 1,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 15,
+        "leap": true
+      },
+      "date": "2025-08-08",
+      "policy": "next",
+      "rawMonth": 0,
+      "birthAdjustment": 0,
+      "targetAdjustment": 1,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 16,
+        "leap": true
+      },
+      "date": "2025-08-09",
+      "policy": "next",
+      "rawMonth": 1,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2026,
+        "m": 1,
+        "d": 1,
+        "leap": false
+      },
+      "date": "2026-02-17",
+      "policy": "next",
+      "rawMonth": 8,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 8,
+      "actual": 8,
+      "age": 23,
+      "engineAge": 23,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 14,
+        "leap": true
+      },
+      "date": "2025-08-07",
+      "policy": "split16",
+      "rawMonth": 0,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 0,
+      "actual": 0,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 15,
+        "leap": true
+      },
+      "date": "2025-08-08",
+      "policy": "split16",
+      "rawMonth": 0,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 0,
+      "actual": 0,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 16,
+        "leap": true
+      },
+      "date": "2025-08-09",
+      "policy": "split16",
+      "rawMonth": 1,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2026,
+        "m": 1,
+        "d": 1,
+        "leap": false
+      },
+      "date": "2026-02-17",
+      "policy": "split16",
+      "rawMonth": 8,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 8,
+      "actual": 8,
+      "age": 23,
+      "engineAge": 23,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 14,
+        "leap": true
+      },
+      "date": "2025-08-07",
+      "policy": "same",
+      "rawMonth": 1,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 15,
+        "leap": true
+      },
+      "date": "2025-08-08",
+      "policy": "same",
+      "rawMonth": 1,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 16,
+        "leap": true
+      },
+      "date": "2025-08-09",
+      "policy": "same",
+      "rawMonth": 2,
+      "birthAdjustment": 0,
+      "targetAdjustment": -1,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2026,
+        "m": 1,
+        "d": 1,
+        "leap": false
+      },
+      "date": "2026-02-17",
+      "policy": "same",
+      "rawMonth": 9,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 9,
+      "actual": 9,
+      "age": 23,
+      "engineAge": 23,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 14,
+        "leap": true
+      },
+      "date": "2025-08-07",
+      "policy": "next",
+      "rawMonth": 1,
+      "birthAdjustment": -1,
+      "targetAdjustment": 1,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 15,
+        "leap": true
+      },
+      "date": "2025-08-08",
+      "policy": "next",
+      "rawMonth": 1,
+      "birthAdjustment": -1,
+      "targetAdjustment": 1,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 16,
+        "leap": true
+      },
+      "date": "2025-08-09",
+      "policy": "next",
+      "rawMonth": 2,
+      "birthAdjustment": -1,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2026,
+        "m": 1,
+        "d": 1,
+        "leap": false
+      },
+      "date": "2026-02-17",
+      "policy": "next",
+      "rawMonth": 9,
+      "birthAdjustment": -1,
+      "targetAdjustment": 0,
+      "expected": 8,
+      "actual": 8,
+      "age": 23,
+      "engineAge": 23,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 14,
+        "leap": true
+      },
+      "date": "2025-08-07",
+      "policy": "split16",
+      "rawMonth": 1,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 15,
+        "leap": true
+      },
+      "date": "2025-08-08",
+      "policy": "split16",
+      "rawMonth": 1,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 16,
+        "leap": true
+      },
+      "date": "2025-08-09",
+      "policy": "split16",
+      "rawMonth": 2,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 2,
+      "actual": 2,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2026,
+        "m": 1,
+        "d": 1,
+        "leap": false
+      },
+      "date": "2026-02-17",
+      "policy": "split16",
+      "rawMonth": 9,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 9,
+      "actual": 9,
+      "age": 23,
+      "engineAge": 23,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 14,
+        "leap": true
+      },
+      "date": "2025-08-07",
+      "policy": "same",
+      "rawMonth": 0,
+      "birthAdjustment": 1,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 15,
+        "leap": true
+      },
+      "date": "2025-08-08",
+      "policy": "same",
+      "rawMonth": 0,
+      "birthAdjustment": 1,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 16,
+        "leap": true
+      },
+      "date": "2025-08-09",
+      "policy": "same",
+      "rawMonth": 1,
+      "birthAdjustment": 1,
+      "targetAdjustment": -1,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2026,
+        "m": 1,
+        "d": 1,
+        "leap": false
+      },
+      "date": "2026-02-17",
+      "policy": "same",
+      "rawMonth": 8,
+      "birthAdjustment": 1,
+      "targetAdjustment": 0,
+      "expected": 9,
+      "actual": 9,
+      "age": 23,
+      "engineAge": 23,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 14,
+        "leap": true
+      },
+      "date": "2025-08-07",
+      "policy": "next",
+      "rawMonth": 0,
+      "birthAdjustment": 0,
+      "targetAdjustment": 1,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 15,
+        "leap": true
+      },
+      "date": "2025-08-08",
+      "policy": "next",
+      "rawMonth": 0,
+      "birthAdjustment": 0,
+      "targetAdjustment": 1,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 16,
+        "leap": true
+      },
+      "date": "2025-08-09",
+      "policy": "next",
+      "rawMonth": 1,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2026,
+        "m": 1,
+        "d": 1,
+        "leap": false
+      },
+      "date": "2026-02-17",
+      "policy": "next",
+      "rawMonth": 8,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 8,
+      "actual": 8,
+      "age": 23,
+      "engineAge": 23,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 14,
+        "leap": true
+      },
+      "date": "2025-08-07",
+      "policy": "split16",
+      "rawMonth": 0,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 0,
+      "actual": 0,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 15,
+        "leap": true
+      },
+      "date": "2025-08-08",
+      "policy": "split16",
+      "rawMonth": 0,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 0,
+      "actual": 0,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 16,
+        "leap": true
+      },
+      "date": "2025-08-09",
+      "policy": "split16",
+      "rawMonth": 1,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 16,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2026,
+        "m": 1,
+        "d": 1,
+        "leap": false
+      },
+      "date": "2026-02-17",
+      "policy": "split16",
+      "rawMonth": 8,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 8,
+      "actual": 8,
+      "age": 23,
+      "engineAge": 23,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 14,
+        "leap": true
+      },
+      "date": "2025-08-07",
+      "policy": "same",
+      "rawMonth": 0,
+      "birthAdjustment": 1,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 15,
+        "leap": true
+      },
+      "date": "2025-08-08",
+      "policy": "same",
+      "rawMonth": 0,
+      "birthAdjustment": 1,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 16,
+        "leap": true
+      },
+      "date": "2025-08-09",
+      "policy": "same",
+      "rawMonth": 1,
+      "birthAdjustment": 1,
+      "targetAdjustment": -1,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "same"
+      },
+      "target": {
+        "y": 2026,
+        "m": 1,
+        "d": 1,
+        "leap": false
+      },
+      "date": "2026-02-17",
+      "policy": "same",
+      "rawMonth": 8,
+      "birthAdjustment": 1,
+      "targetAdjustment": 0,
+      "expected": 9,
+      "actual": 9,
+      "age": 23,
+      "engineAge": 23,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 14,
+        "leap": true
+      },
+      "date": "2025-08-07",
+      "policy": "next",
+      "rawMonth": 0,
+      "birthAdjustment": 0,
+      "targetAdjustment": 1,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 15,
+        "leap": true
+      },
+      "date": "2025-08-08",
+      "policy": "next",
+      "rawMonth": 0,
+      "birthAdjustment": 0,
+      "targetAdjustment": 1,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 16,
+        "leap": true
+      },
+      "date": "2025-08-09",
+      "policy": "next",
+      "rawMonth": 1,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "next"
+      },
+      "target": {
+        "y": 2026,
+        "m": 1,
+        "d": 1,
+        "leap": false
+      },
+      "date": "2026-02-17",
+      "policy": "next",
+      "rawMonth": 8,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 8,
+      "actual": 8,
+      "age": 23,
+      "engineAge": 23,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 14,
+        "leap": true
+      },
+      "date": "2025-08-07",
+      "policy": "split16",
+      "rawMonth": 0,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 0,
+      "actual": 0,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 15,
+        "leap": true
+      },
+      "date": "2025-08-08",
+      "policy": "split16",
+      "rawMonth": 0,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 0,
+      "actual": 0,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2025,
+        "m": 6,
+        "d": 16,
+        "leap": true
+      },
+      "date": "2025-08-09",
+      "policy": "split16",
+      "rawMonth": 1,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 1,
+      "actual": 1,
+      "age": 22,
+      "engineAge": 22,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2004,
+        "m": 2,
+        "d": 29,
+        "calendar": "lunar",
+        "leap": true,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "dayPolicy": "current",
+        "leapPolicy": "split16"
+      },
+      "target": {
+        "y": 2026,
+        "m": 1,
+        "d": 1,
+        "leap": false
+      },
+      "date": "2026-02-17",
+      "policy": "split16",
+      "rawMonth": 8,
+      "birthAdjustment": 0,
+      "targetAdjustment": 0,
+      "expected": 8,
+      "actual": 8,
+      "age": 23,
+      "engineAge": 23,
+      "ok": true
+    }
+  ],
+  "minorRows": [
+    {
+      "birth": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 6,
+      "age": 51,
+      "expected": 6,
+      "actual": 6,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 6,
+      "age": 51,
+      "expected": 2,
+      "actual": 2,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 1991,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 7,
+      "age": 50,
+      "expected": 2,
+      "actual": 2,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 1991,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 7,
+      "age": 50,
+      "expected": 0,
+      "actual": 0,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 1992,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 8,
+      "age": 49,
+      "expected": 10,
+      "actual": 10,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 1992,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 8,
+      "age": 49,
+      "expected": 10,
+      "actual": 10,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 1993,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 9,
+      "age": 48,
+      "expected": 6,
+      "actual": 6,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 1993,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 9,
+      "age": 48,
+      "expected": 8,
+      "actual": 8,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 1994,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 10,
+      "age": 47,
+      "expected": 2,
+      "actual": 2,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 1994,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 10,
+      "age": 47,
+      "expected": 6,
+      "actual": 6,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 1995,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 11,
+      "age": 46,
+      "expected": 10,
+      "actual": 10,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 1995,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 11,
+      "age": 46,
+      "expected": 4,
+      "actual": 4,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 1996,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 0,
+      "age": 45,
+      "expected": 6,
+      "actual": 6,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 1996,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 0,
+      "age": 45,
+      "expected": 2,
+      "actual": 2,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 1997,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 1,
+      "age": 44,
+      "expected": 2,
+      "actual": 2,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 1997,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 1,
+      "age": 44,
+      "expected": 0,
+      "actual": 0,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 1998,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 2,
+      "age": 43,
+      "expected": 10,
+      "actual": 10,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 1998,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 2,
+      "age": 43,
+      "expected": 10,
+      "actual": 10,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 1999,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 3,
+      "age": 42,
+      "expected": 6,
+      "actual": 6,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 1999,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 3,
+      "age": 42,
+      "expected": 8,
+      "actual": 8,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2000,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 4,
+      "age": 41,
+      "expected": 2,
+      "actual": 2,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2000,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 4,
+      "age": 41,
+      "expected": 6,
+      "actual": 6,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2001,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 5,
+      "age": 40,
+      "expected": 10,
+      "actual": 10,
+      "ok": true
+    },
+    {
+      "birth": {
+        "y": 2001,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "female",
+        "leapPolicy": "same",
+        "dayPolicy": "current"
+      },
+      "birthBranch": 5,
+      "age": 40,
+      "expected": 4,
+      "actual": 4,
+      "ok": true
+    }
+  ],
+  "annualTransformations": [
+    {
+      "year": 2020,
+      "yearName": "Canh Tý",
+      "actual": [
+        "Thái Dương",
+        "Vũ Khúc",
+        "Thái Âm",
+        "Thiên Đồng"
+      ],
+      "iztro": [
+        "Thái Dương",
+        "Vũ Khúc",
+        "Thái Âm",
+        "Thiên Đồng"
+      ],
+      "differences": []
+    },
+    {
+      "year": 2021,
+      "yearName": "Tân Sửu",
+      "actual": [
+        "Cự Môn",
+        "Thái Dương",
+        "Văn Khúc",
+        "Văn Xương"
+      ],
+      "iztro": [
+        "Cự Môn",
+        "Thái Dương",
+        "Văn Khúc",
+        "Văn Xương"
+      ],
+      "differences": []
+    },
+    {
+      "year": 2022,
+      "yearName": "Nhâm Dần",
+      "actual": [
+        "Thiên Lương",
+        "Tử Vi",
+        "Thiên Phủ",
+        "Vũ Khúc"
+      ],
+      "iztro": [
+        "Thiên Lương",
+        "Tử Vi",
+        "Tả Phù",
+        "Vũ Khúc"
+      ],
+      "differences": [
+        {
+          "position": 2,
+          "hhc": "Thiên Phủ",
+          "iztro": "Tả Phù"
+        }
+      ]
+    },
+    {
+      "year": 2023,
+      "yearName": "Quý Mão",
+      "actual": [
+        "Phá Quân",
+        "Cự Môn",
+        "Thái Âm",
+        "Tham Lang"
+      ],
+      "iztro": [
+        "Phá Quân",
+        "Cự Môn",
+        "Thái Âm",
+        "Tham Lang"
+      ],
+      "differences": []
+    },
+    {
+      "year": 2024,
+      "yearName": "Giáp Thìn",
+      "actual": [
+        "Liêm Trinh",
+        "Phá Quân",
+        "Vũ Khúc",
+        "Thái Dương"
+      ],
+      "iztro": [
+        "Liêm Trinh",
+        "Phá Quân",
+        "Vũ Khúc",
+        "Thái Dương"
+      ],
+      "differences": []
+    },
+    {
+      "year": 2025,
+      "yearName": "Ất Tỵ",
+      "actual": [
+        "Thiên Cơ",
+        "Thiên Lương",
+        "Tử Vi",
+        "Thái Âm"
+      ],
+      "iztro": [
+        "Thiên Cơ",
+        "Thiên Lương",
+        "Tử Vi",
+        "Thái Âm"
+      ],
+      "differences": []
+    },
+    {
+      "year": 2026,
+      "yearName": "Bính Ngọ",
+      "actual": [
+        "Thiên Đồng",
+        "Thiên Cơ",
+        "Văn Xương",
+        "Liêm Trinh"
+      ],
+      "iztro": [
+        "Thiên Đồng",
+        "Thiên Cơ",
+        "Văn Xương",
+        "Liêm Trinh"
+      ],
+      "differences": []
+    },
+    {
+      "year": 2027,
+      "yearName": "Đinh Mùi",
+      "actual": [
+        "Thái Âm",
+        "Thiên Đồng",
+        "Thiên Cơ",
+        "Cự Môn"
+      ],
+      "iztro": [
+        "Thái Âm",
+        "Thiên Đồng",
+        "Thiên Cơ",
+        "Cự Môn"
+      ],
+      "differences": []
+    },
+    {
+      "year": 2028,
+      "yearName": "Mậu Thân",
+      "actual": [
+        "Tham Lang",
+        "Thái Âm",
+        "Hữu Bật",
+        "Thiên Cơ"
+      ],
+      "iztro": [
+        "Tham Lang",
+        "Thái Âm",
+        "Hữu Bật",
+        "Thiên Cơ"
+      ],
+      "differences": []
+    },
+    {
+      "year": 2029,
+      "yearName": "Kỷ Dậu",
+      "actual": [
+        "Vũ Khúc",
+        "Tham Lang",
+        "Thiên Lương",
+        "Văn Khúc"
+      ],
+      "iztro": [
+        "Vũ Khúc",
+        "Tham Lang",
+        "Thiên Lương",
+        "Văn Khúc"
+      ],
+      "differences": []
+    }
+  ],
+  "source": {
+    "file": "v47/tuvi/sources/quanshu-juan2.html",
+    "sha256": "540c0f88768048d5946576b530296a11dc1200993fac94d6cffdd9a21cbdefb2"
+  },
+  "scope": "Policy-normalized index comparison. Split16 compares raw output; same/next corrections are logged. Nham Khoa is an explicit retained textual variant. No claim of predictive validity or complete facsimile collation."
+}

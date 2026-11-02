@@ -1,0 +1,232 @@
+{
+  "schema": "hhc.bazi.branch-union.tables.v1",
+  "date": "2026-10-29",
+  "sourceID": "tmth002-cadal06066038-branch-union",
+  "pairFrame": "declared-branch-pair",
+  "monthFrame": "declared-source-month",
+  "hiddenFrame": "declared-source-anchor-and-seen-premises",
+  "pairs": [
+    [
+      "子",
+      "丑"
+    ],
+    [
+      "寅",
+      "亥"
+    ],
+    [
+      "卯",
+      "戌"
+    ],
+    [
+      "辰",
+      "酉"
+    ],
+    [
+      "巳",
+      "申"
+    ],
+    [
+      "午",
+      "未"
+    ]
+  ],
+  "monthRows": [
+    {
+      "month": 12,
+      "builtBranch": "丑",
+      "stationLiteral": "𤣥枵",
+      "stationBranch": "子"
+    },
+    {
+      "month": 1,
+      "builtBranch": "寅",
+      "stationLiteral": "娵訾",
+      "stationBranch": "亥"
+    },
+    {
+      "month": 2,
+      "builtBranch": "卯",
+      "stationLiteral": "降婁",
+      "stationBranch": "戌"
+    },
+    {
+      "month": 3,
+      "builtBranch": "辰",
+      "stationLiteral": "大梁",
+      "stationBranch": "酉"
+    },
+    {
+      "month": 4,
+      "builtBranch": "巳",
+      "stationLiteral": "實沈",
+      "stationBranch": "申"
+    },
+    {
+      "month": 5,
+      "builtBranch": "午",
+      "stationLiteral": "鶉首",
+      "stationBranch": "未"
+    },
+    {
+      "month": 6,
+      "builtBranch": "未",
+      "stationLiteral": "鶉火",
+      "stationBranch": "午"
+    },
+    {
+      "month": 7,
+      "builtBranch": "申",
+      "stationLiteral": "鶉尾",
+      "stationBranch": "巳"
+    },
+    {
+      "month": 8,
+      "builtBranch": "酉",
+      "stationLiteral": "夀星",
+      "stationBranch": "辰"
+    },
+    {
+      "month": 9,
+      "builtBranch": "戌",
+      "stationLiteral": "大火",
+      "stationBranch": "卯"
+    },
+    {
+      "month": 10,
+      "builtBranch": "亥",
+      "stationLiteral": "析木",
+      "stationBranch": "寅"
+    },
+    {
+      "month": 11,
+      "builtBranch": "子",
+      "stationLiteral": "星紀",
+      "stationBranch": "丑"
+    }
+  ],
+  "monthLimit": "Source month ordinal only; no modern month/solar-term/historical astronomy adapter. Station wording preserved, not recomputed from modern celestial coordinates.",
+  "directedVoice": "天元變化書云",
+  "directedRows": [
+    {
+      "from": "子",
+      "to": "丑",
+      "sourcePhrase": "福輕"
+    },
+    {
+      "from": "丑",
+      "to": "子",
+      "sourcePhrase": "福盛"
+    },
+    {
+      "from": "寅",
+      "to": "亥",
+      "sourcePhrase": "福清"
+    },
+    {
+      "from": "亥",
+      "to": "寅",
+      "sourcePhrase": "福慢"
+    },
+    {
+      "from": "戌",
+      "to": "卯",
+      "sourcePhrase": "福虚"
+    },
+    {
+      "from": "卯",
+      "to": "戌",
+      "sourcePhrase": "福厚"
+    },
+    {
+      "from": "辰",
+      "to": "酉",
+      "sourcePhrase": "福弱"
+    },
+    {
+      "from": "酉",
+      "to": "辰",
+      "sourcePhrase": "大利"
+    },
+    {
+      "from": "午",
+      "to": "未",
+      "sourcePhrase": "福慢"
+    },
+    {
+      "from": "未",
+      "to": "午",
+      "sourcePhrase": "大利"
+    },
+    {
+      "from": "巳",
+      "to": "申",
+      "sourcePhrase": "福慢"
+    },
+    {
+      "from": "申",
+      "to": "巳",
+      "sourcePhrase": "官氣盛"
+    }
+  ],
+  "directedLimit": "Ordered source claim; never collapsed into an unordered fortune score or outcome. The naming of a work is nested attribution, not an acquired independent witness.",
+  "hiddenRows": [
+    {
+      "id": "hidden-lu-jia",
+      "anchorKind": "stem",
+      "anchor": "甲",
+      "absentTarget": "寅",
+      "seenPartner": "亥",
+      "sourceLabel": "合禄",
+      "literal": "如甲生人以寅為禄不見寅而見亥謂之合禄"
+    },
+    {
+      "id": "hidden-horse-yin",
+      "anchorKind": "branch",
+      "anchor": "寅",
+      "absentTarget": "申",
+      "seenPartner": "巳",
+      "sourceLabel": "合馬",
+      "literal": "寅生人以申為馬不見申而見巳謂之合馬"
+    }
+  ],
+  "hiddenLimit": "Only source-declared anchor identity and seen/absent premises. Birth year vs day anchor and full observation horizon are not determined; chart arrays or dates are not accepted.",
+  "selectedGlyphNotes": [
+    {
+      "where": "U01",
+      "literalDigital": "申為二隂六三得九數",
+      "imageWorking": "申為二陰六三得九數",
+      "disposition": "Keep conflicting named number and sum expression; do not silently replace 二 with 三 or treat as proved arithmetic."
+    },
+    {
+      "where": "U01/U03/U12",
+      "literalDigitalVariants": [
+        "戍",
+        "已",
+        "夘"
+      ],
+      "lookupCoordinates": [
+        "戌",
+        "巳",
+        "卯"
+      ],
+      "disposition": "Explicit editorial coordinate normalization only; clean digital transcription remains unchanged."
+    },
+    {
+      "where": "U10",
+      "literalDigital": "甲戍庚人",
+      "imageWorkingAnchor": "甲?庚人",
+      "disposition": "Middle glyph may be 戊 rather than digital 戍; not resolved or used as an anchor. 丑未/子午 list joining and birth basis also unresolved."
+    }
+  ],
+  "deferred": [
+    "U06 廣録 five 往來 pairs, 纳音交涉 and 隔六合: no automatic effective transformation.",
+    "U10 合貴 anchor glyph, 丑未/子午 list AND/OR, complete source birth anchor and precedence.",
+    "U11 明合/暗合 and 拱實/拱虚 comparison is not a numeric strength model.",
+    "U13 甲午辛未/乙未壬午 are two-pillar phrases; no fabricated year-month-day-hour or historical birth dates.",
+    "U14 男女禁忌 remain historical claims; no sex-based fortune classifier.",
+    "All complete efficacy, strength, transformation, natal outcome and inter-source priority remain open."
+  ],
+  "wholeChapterApplied": false,
+  "outcomesValidated": false
+}

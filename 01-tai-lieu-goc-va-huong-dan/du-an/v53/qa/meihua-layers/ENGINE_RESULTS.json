@@ -1,0 +1,426 @@
+{
+  "checks": [
+    {
+      "name": "All384six-line structures preserve previous exact cast data while all1536layer relations match independent bit and element oracles",
+      "ok": true,
+      "detail": {
+        "layerComparisons": 1536
+      }
+    },
+    {
+      "name": "Body-side and Use-side mutual roles follow the original static/moving halves in both orientations",
+      "ok": true,
+      "detail": {
+        "upper": 192,
+        "lower": 192
+      }
+    },
+    {
+      "name": "All12pure-Qian/Khun cases derive mutual bits from changed lines while retaining original Body and side roles",
+      "ok": true
+    },
+    {
+      "name": "Allfive relation classes occur and mixed contexts remain separate without an overall score",
+      "ok": true,
+      "detail": {
+        "mixedCases": 370,
+        "relationKeys": [
+          "same",
+          "body-controls-use",
+          "use-controls-body",
+          "body-generates-use",
+          "use-generates-body"
+        ]
+      }
+    },
+    {
+      "name": "Three reused surname examples retain exact mutual trigrams and same-side role attribution;story outcomes are not asserted",
+      "ok": true
+    },
+    {
+      "name": "Synthetic32case has upper Dui/lower Qian but is not equated to the unresolved printed plum-story context",
+      "ok": true
+    },
+    {
+      "name": "All input validation,casting,form adapters and existing relation arithmetic remain byte-identical functions",
+      "ok": true
+    },
+    {
+      "name": "All12previous source/numeric method fixtures retain canonical values and profile adapters",
+      "ok": true
+    },
+    {
+      "name": "New layer API returns copied trigram objects and bit arrays",
+      "ok": true
+    },
+    {
+      "name": "New layer API rejects invalid trigram or moving-line parameters through the existing validator",
+      "ok": true
+    },
+    {
+      "name": "Consumer explanations distinguish four named layers and mixed relations,are export-expandable and contain no raw research text",
+      "ok": true
+    },
+    {
+      "name": "Four reused local scan derivatives retain the recorded hashes;no new source download or new page reading claimed",
+      "ok": true
+    },
+    {
+      "name": "All other root product JS/CSS modules preserve the last completed release bytes",
+      "ok": true
+    },
+    {
+      "name": "Portable HTML embeds the exact current module and styles",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "structures": 384,
+    "layerComparisons": 1536,
+    "pureCases": 12,
+    "sideCounts": {
+      "upper": 192,
+      "lower": 192
+    },
+    "mixedCases": 370,
+    "relationClasses": 5,
+    "sourceSurnameExamples": 3,
+    "priorMethodFixtures": 12,
+    "inputAndCastingFunctionsUnchanged": true,
+    "newExternalResponses": 0,
+    "newImageReadings": 0
+  },
+  "candidate": true,
+  "fixtures": [
+    {
+      "name": "王",
+      "extra": 4,
+      "body": 4,
+      "mutualBody": 2,
+      "mutualUse": 5,
+      "changed": 4,
+      "actual": {
+        "body": {
+          "n": 4,
+          "name": "Chấn",
+          "element": "Mộc",
+          "bits": [
+            1,
+            0,
+            0
+          ]
+        },
+        "bodySide": "upper",
+        "useSide": "lower",
+        "mutualFromChanged": false,
+        "steps": [
+          {
+            "id": "use",
+            "title": "Điểm đang xét",
+            "subject": "Dụng",
+            "trigram": {
+              "n": 3,
+              "name": "Ly",
+              "element": "Hỏa",
+              "bits": [
+                1,
+                0,
+                1
+              ]
+            },
+            "side": "lower",
+            "relation": {
+              "key": "body-generates-use",
+              "label": "Thể sinh Dụng",
+              "prompt": "Cân mức đóng góp và nguồn lực cần giữ trước khi nhận thêm trách nhiệm."
+            }
+          },
+          {
+            "id": "mutual-body",
+            "title": "Lớp hỗ · cùng phía Thể",
+            "subject": "Hỗ phía Thể",
+            "trigram": {
+              "n": 2,
+              "name": "Đoài",
+              "element": "Kim",
+              "bits": [
+                1,
+                1,
+                0
+              ]
+            },
+            "side": "upper",
+            "relation": {
+              "key": "use-controls-body",
+              "label": "Dụng khắc Thể",
+              "prompt": "Khi gặp lực cản, làm rõ giới hạn và cách hỗ trợ trước khi tiếp tục."
+            }
+          },
+          {
+            "id": "mutual-use",
+            "title": "Lớp hỗ · cùng phía Dụng",
+            "subject": "Hỗ phía Dụng",
+            "trigram": {
+              "n": 5,
+              "name": "Tốn",
+              "element": "Mộc",
+              "bits": [
+                0,
+                1,
+                1
+              ]
+            },
+            "side": "lower",
+            "relation": {
+              "key": "same",
+              "label": "Thể–Dụng đồng hành",
+              "prompt": "Tìm điểm chung và thống nhất cách phối hợp, đồng thời giữ rõ phần việc của mỗi bên."
+            }
+          },
+          {
+            "id": "changed-use",
+            "title": "Sau khi đổi hào",
+            "subject": "Dụng sau đổi hào",
+            "trigram": {
+              "n": 4,
+              "name": "Chấn",
+              "element": "Mộc",
+              "bits": [
+                1,
+                0,
+                0
+              ]
+            },
+            "side": "lower",
+            "relation": {
+              "key": "same",
+              "label": "Thể–Dụng đồng hành",
+              "prompt": "Tìm điểm chung và thống nhất cách phối hợp, đồng thời giữ rõ phần việc của mỗi bên."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "田",
+      "extra": 6,
+      "body": 5,
+      "mutualBody": 2,
+      "mutualUse": 3,
+      "changed": 8,
+      "actual": {
+        "body": {
+          "n": 5,
+          "name": "Tốn",
+          "element": "Mộc",
+          "bits": [
+            0,
+            1,
+            1
+          ]
+        },
+        "bodySide": "lower",
+        "useSide": "upper",
+        "mutualFromChanged": false,
+        "steps": [
+          {
+            "id": "use",
+            "title": "Điểm đang xét",
+            "subject": "Dụng",
+            "trigram": {
+              "n": 6,
+              "name": "Khảm",
+              "element": "Thủy",
+              "bits": [
+                0,
+                1,
+                0
+              ]
+            },
+            "side": "upper",
+            "relation": {
+              "key": "use-generates-body",
+              "label": "Dụng sinh Thể",
+              "prompt": "Nhìn lại sự hỗ trợ đang có và cách tiếp nhận để làm việc vững hơn."
+            }
+          },
+          {
+            "id": "mutual-body",
+            "title": "Lớp hỗ · cùng phía Thể",
+            "subject": "Hỗ phía Thể",
+            "trigram": {
+              "n": 2,
+              "name": "Đoài",
+              "element": "Kim",
+              "bits": [
+                1,
+                1,
+                0
+              ]
+            },
+            "side": "lower",
+            "relation": {
+              "key": "use-controls-body",
+              "label": "Dụng khắc Thể",
+              "prompt": "Khi gặp lực cản, làm rõ giới hạn và cách hỗ trợ trước khi tiếp tục."
+            }
+          },
+          {
+            "id": "mutual-use",
+            "title": "Lớp hỗ · cùng phía Dụng",
+            "subject": "Hỗ phía Dụng",
+            "trigram": {
+              "n": 3,
+              "name": "Ly",
+              "element": "Hỏa",
+              "bits": [
+                1,
+                0,
+                1
+              ]
+            },
+            "side": "upper",
+            "relation": {
+              "key": "body-generates-use",
+              "label": "Thể sinh Dụng",
+              "prompt": "Cân mức đóng góp và nguồn lực cần giữ trước khi nhận thêm trách nhiệm."
+            }
+          },
+          {
+            "id": "changed-use",
+            "title": "Sau khi đổi hào",
+            "subject": "Dụng sau đổi hào",
+            "trigram": {
+              "n": 8,
+              "name": "Khôn",
+              "element": "Thổ",
+              "bits": [
+                0,
+                0,
+                0
+              ]
+            },
+            "side": "upper",
+            "relation": {
+              "key": "body-controls-use",
+              "label": "Thể khắc Dụng",
+              "prompt": "Làm rõ điều có thể chủ động điều chỉnh, rồi chọn một bước vừa sức."
+            }
+          }
+        ]
+      }
+    },
+    {
+      "name": "韓",
+      "extra": 21,
+      "body": 5,
+      "mutualBody": 7,
+      "mutualUse": 8,
+      "changed": 2,
+      "actual": {
+        "body": {
+          "n": 5,
+          "name": "Tốn",
+          "element": "Mộc",
+          "bits": [
+            0,
+            1,
+            1
+          ]
+        },
+        "bodySide": "upper",
+        "useSide": "lower",
+        "mutualFromChanged": false,
+        "steps": [
+          {
+            "id": "use",
+            "title": "Điểm đang xét",
+            "subject": "Dụng",
+            "trigram": {
+              "n": 4,
+              "name": "Chấn",
+              "element": "Mộc",
+              "bits": [
+                1,
+                0,
+                0
+              ]
+            },
+            "side": "lower",
+            "relation": {
+              "key": "same",
+              "label": "Thể–Dụng đồng hành",
+              "prompt": "Tìm điểm chung và thống nhất cách phối hợp, đồng thời giữ rõ phần việc của mỗi bên."
+            }
+          },
+          {
+            "id": "mutual-body",
+            "title": "Lớp hỗ · cùng phía Thể",
+            "subject": "Hỗ phía Thể",
+            "trigram": {
+              "n": 7,
+              "name": "Cấn",
+              "element": "Thổ",
+              "bits": [
+                0,
+                0,
+                1
+              ]
+            },
+            "side": "upper",
+            "relation": {
+              "key": "body-controls-use",
+              "label": "Thể khắc Dụng",
+              "prompt": "Làm rõ điều có thể chủ động điều chỉnh, rồi chọn một bước vừa sức."
+            }
+          },
+          {
+            "id": "mutual-use",
+            "title": "Lớp hỗ · cùng phía Dụng",
+            "subject": "Hỗ phía Dụng",
+            "trigram": {
+              "n": 8,
+              "name": "Khôn",
+              "element": "Thổ",
+              "bits": [
+                0,
+                0,
+                0
+              ]
+            },
+            "side": "lower",
+            "relation": {
+              "key": "body-controls-use",
+              "label": "Thể khắc Dụng",
+              "prompt": "Làm rõ điều có thể chủ động điều chỉnh, rồi chọn một bước vừa sức."
+            }
+          },
+          {
+            "id": "changed-use",
+            "title": "Sau khi đổi hào",
+            "subject": "Dụng sau đổi hào",
+            "trigram": {
+              "n": 2,
+              "name": "Đoài",
+              "element": "Kim",
+              "bits": [
+                1,
+                1,
+                0
+              ]
+            },
+            "side": "lower",
+            "relation": {
+              "key": "use-controls-body",
+              "label": "Dụng khắc Thể",
+              "prompt": "Khi gặp lực cản, làm rõ giới hạn và cách hỗ trợ trước khi tiếp tục."
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "htmlSHA256": "549cb415c1a7785e92be25b407d965ea0abd4d3affc54696b784f84d87601857",
+  "moduleSHA256": "9f9eeb319b53bc54103193008ee9476d607185a020377dc4cf1f527bd3d2376e",
+  "styleSHA256": "35929c7ef4252fdc5df0ad7f17724b198dfa2bd6fe201e891bc02197e41d13d0"
+}

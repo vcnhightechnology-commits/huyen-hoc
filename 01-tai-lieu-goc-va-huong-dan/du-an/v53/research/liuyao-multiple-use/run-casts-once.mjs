@@ -1,0 +1,17 @@
+import fs from'node:fs';import path from'node:path';import vm from'node:vm';import assert from'node:assert/strict';import{createHash}from'node:crypto';import{pathToFileURL}from'node:url';
+const b=import.meta.dirname,w=path.resolve(b,'../..'),sha=x=>createHash('sha256').update(x).digest('hex'),read=n=>JSON.parse(fs.readFileSync(path.join(b,n),'utf8')),out=path.join(b,'ACTUAL_CAST_RUNTIME.json');assert(!fs.existsSync(out),'Existingactualfixturebatchmustbereused.');
+for(const x of read('PRINTED_CAST_FREEZE.json').files){const raw=fs.readFileSync(path.join(b,x.file));assert.equal(raw.length,x.bytes);assert.equal(sha(raw),x.sha256);}
+const file='v53/engine.js',raw=fs.readFileSync(path.join(w,file));assert.equal(sha(raw),'39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6');const ctx={};ctx.window=ctx;vm.createContext(ctx);vm.runInContext(raw.toString('utf8'),ctx);
+const {compile}=await import(pathToFileURL(path.join(w,'v53/research/liuyao-foundations/liuyao-reference.mjs')).href);
+let actualCalls=0;const cases=read('PRINTED_CAST_EXPECTED.json').records.map(row=>{
+ const actualPrimary=ctx.HHC_ENGINE.hexNumber(row.values);actualCalls++;
+ const changedValues=row.values.map(v=>v===6?7:v===9?8:v),actualChanged=row.movingLines.length?ctx.HHC_ENGINE.hexNumber(changedValues):actualPrimary;if(row.movingLines.length)actualCalls++;
+ const chart=compile(row.values),selectedMain=row.selectedMain.map(x=>({...x,actualBranch:chart.lines[x.line-1].branch,actualKin:chart.lines[x.line-1].kin}));
+ const selectedChanged=(row.selectedChanged??[]).map(x=>({...x,actualBranch:chart.lines[x.line-1].changed?.branch??null,actualKin:chart.lines[x.line-1].changed?.kin??null}));
+ const children=[...chart.lines.filter(x=>x.kin==='子孫').map(x=>({kind:'primary',line:x.line,branch:x.branch})),...chart.lines.filter(x=>x.changed?.kin==='子孫').map(x=>({kind:'own-moving-change',line:x.line,branch:x.changed.branch}))];
+ return{id:row.id,page:row.page,expectedPrimary:row.primary,expectedChanged:row.changed,actualPrimary,actualChanged,actualMovingLines:chart.movingLines,expectedMovingLines:row.movingLines,selectedMain,selectedChanged,sourceSaysUseCount:row.sourceSaysUseCount??null,structuralChildren:row.sourceSaysUseCount===3?children:null,sourceHistoricalOutcomeValidated:false,calendarDate:null};
+});
+const refs=['v53/research/liuyao-foundations/liuyao-reference.mjs','v53/research/liuyao-foundations/RULES.json'].map(file=>({file,sha256:sha(fs.readFileSync(path.join(w,file)))}));
+const result={executedUTC:new Date().toISOString(),engineFile:file,engineSHA256:sha(raw),readerFiles:refs,scriptSHA256:sha(fs.readFileSync(import.meta.filename)),freezeSHA256:sha(fs.readFileSync(path.join(b,'PRINTED_CAST_FREEZE.json'))),actualHHCHexNumberCalls:actualCalls,printedCasts:3,actualCalendarObjects:0,cases,sourceOutcomesValidated:false};fs.writeFileSync(out,JSON.stringify(result,null,2)+'\n');
+for(const c of cases){assert.equal(c.actualPrimary,c.expectedPrimary);assert.equal(c.actualChanged,c.expectedChanged);assert.deepEqual(c.actualMovingLines,c.expectedMovingLines);assert(c.selectedMain.concat(c.selectedChanged).every(x=>x.branch===x.actualBranch&&x.kin===x.actualKin));if(c.sourceSaysUseCount===3)assert.equal(c.structuralChildren.length,3);}
+assert.equal(actualCalls,5);console.log(JSON.stringify({actualHHCHexNumberCalls:5,printedCasts:3,selectedMainLabels:6,selectedChangedLabels:1,threeUseSourceCaseCount:3,actualCalendarObjects:0}));

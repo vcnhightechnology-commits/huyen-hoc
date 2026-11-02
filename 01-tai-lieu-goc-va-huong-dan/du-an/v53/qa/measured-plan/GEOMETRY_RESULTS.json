@@ -1,0 +1,505 @@
+{
+  "date": "2026-10-26T05:30:01.567Z",
+  "checks": [
+    {
+      "name": "Known rectangle has 80m² total,20m² covered and60m² unassigned",
+      "ok": true
+    },
+    {
+      "name": "Upper-left room center uses true northwest from the house center",
+      "ok": true
+    },
+    {
+      "name": "Room position does not silently assign good/bad, a personal kua or a whole-room sector",
+      "ok": true
+    },
+    {
+      "name": "Coincident centers have no invented bearing",
+      "ok": true
+    },
+    {
+      "name": "A room can contain house center although its own center points elsewhere",
+      "ok": true
+    },
+    {
+      "name": "Shared walls do not count as area overlap; house center on a room edge stays explicit",
+      "ok": true
+    },
+    {
+      "name": "Triple overlap uses geometric union, avoiding double counting of pair intersections",
+      "ok": true,
+      "detail": {
+        "union": 36,
+        "sum": 60
+      }
+    },
+    {
+      "name": "Nested room footprint contributes no duplicate covered area",
+      "ok": true
+    },
+    {
+      "name": "Nine rotations change orientation but preserve area and the planar input coordinates",
+      "ok": true
+    },
+    {
+      "name": "Orientation uncertainty preserves both directions at every one of eight boundaries",
+      "ok": true
+    },
+    {
+      "name": "Four perimeter openings have correct endpoints and outward directions",
+      "ok": true
+    },
+    {
+      "name": "Opening bearings reuse the verified24mountain module",
+      "ok": true
+    },
+    {
+      "name": "Overlapping perimeter openings are reported only on the same side",
+      "ok": true
+    },
+    {
+      "name": "Thirteen invalid geometries or non-finite values fail explicitly",
+      "ok": true
+    },
+    {
+      "name": "Markup-like names remain inert escaped text in rendered output",
+      "ok": true
+    },
+    {
+      "name": "SVG has accessible description and self-contained vector content",
+      "ok": true
+    },
+    {
+      "name": "Plain-text export keeps actual dimensions, orientation and uncertainty",
+      "ok": true
+    },
+    {
+      "name": "Existing calendar, room guidance, compass and consumer input flows retain their prior bytes",
+      "ok": true
+    }
+  ],
+  "samples": {
+    "rectangle": {
+      "house": {
+        "width": 10,
+        "depth": 8,
+        "topBearing": 0,
+        "error": 0
+      },
+      "rooms": [
+        {
+          "index": 0,
+          "type": "living",
+          "name": "Phòng khách",
+          "x": 0,
+          "y": 0,
+          "width": 5,
+          "depth": 4,
+          "area": 20,
+          "cx": 2.5,
+          "cy": 2,
+          "containsCenter": true,
+          "centerOnBoundary": true,
+          "atCenter": false,
+          "bearing": 308.6598082540901,
+          "direction": "Tây Bắc",
+          "possibleDirections": [
+            "Tây Bắc"
+          ],
+          "distance": 3.2015621187164243
+        }
+      ],
+      "openings": [],
+      "overlaps": [],
+      "openingOverlaps": [],
+      "area": 80,
+      "coveredArea": 20,
+      "unassignedArea": 60,
+      "summedRoomArea": 20,
+      "center": {
+        "x": 5,
+        "y": 4
+      }
+    },
+    "overlap": {
+      "house": {
+        "width": 10,
+        "depth": 8,
+        "topBearing": 0,
+        "error": 0
+      },
+      "rooms": [
+        {
+          "index": 0,
+          "type": "living",
+          "name": "Phòng khách",
+          "x": 0,
+          "y": 0,
+          "width": 5,
+          "depth": 4,
+          "area": 20,
+          "cx": 2.5,
+          "cy": 2,
+          "containsCenter": true,
+          "centerOnBoundary": true,
+          "atCenter": false,
+          "bearing": 308.6598082540901,
+          "direction": "Tây Bắc",
+          "possibleDirections": [
+            "Tây Bắc"
+          ],
+          "distance": 3.2015621187164243
+        },
+        {
+          "index": 1,
+          "type": "kitchen",
+          "name": "Bếp & bàn ăn",
+          "x": 2,
+          "y": 0,
+          "width": 5,
+          "depth": 4,
+          "area": 20,
+          "cx": 4.5,
+          "cy": 2,
+          "containsCenter": true,
+          "centerOnBoundary": true,
+          "atCenter": false,
+          "bearing": 345.96375653207355,
+          "direction": "Bắc",
+          "possibleDirections": [
+            "Bắc"
+          ],
+          "distance": 2.0615528128088303
+        },
+        {
+          "index": 2,
+          "type": "study",
+          "name": "Góc làm việc",
+          "x": 4,
+          "y": 0,
+          "width": 5,
+          "depth": 4,
+          "area": 20,
+          "cx": 6.5,
+          "cy": 2,
+          "containsCenter": true,
+          "centerOnBoundary": true,
+          "atCenter": false,
+          "bearing": 36.86989764584405,
+          "direction": "Đông Bắc",
+          "possibleDirections": [
+            "Đông Bắc"
+          ],
+          "distance": 2.5
+        }
+      ],
+      "openings": [],
+      "overlaps": [
+        {
+          "a": 0,
+          "b": 1,
+          "area": 12
+        },
+        {
+          "a": 0,
+          "b": 2,
+          "area": 4
+        },
+        {
+          "a": 1,
+          "b": 2,
+          "area": 12
+        }
+      ],
+      "openingOverlaps": [],
+      "area": 80,
+      "coveredArea": 36,
+      "unassignedArea": 44,
+      "summedRoomArea": 60,
+      "center": {
+        "x": 5,
+        "y": 4
+      }
+    },
+    "openings": {
+      "house": {
+        "width": 10,
+        "depth": 8,
+        "topBearing": 90,
+        "error": 0
+      },
+      "rooms": [
+        {
+          "index": 0,
+          "type": "living",
+          "name": "Phòng khách",
+          "x": 0,
+          "y": 0,
+          "width": 5,
+          "depth": 4,
+          "area": 20,
+          "cx": 2.5,
+          "cy": 2,
+          "containsCenter": true,
+          "centerOnBoundary": true,
+          "atCenter": false,
+          "bearing": 38.65980825409008,
+          "direction": "Đông Bắc",
+          "possibleDirections": [
+            "Đông Bắc"
+          ],
+          "distance": 3.2015621187164243
+        }
+      ],
+      "openings": [
+        {
+          "kind": "door",
+          "name": "Cửa đi 1",
+          "side": "top",
+          "offset": 1,
+          "length": 2,
+          "x1": 1,
+          "y1": 0,
+          "x2": 3,
+          "y2": 0,
+          "cx": 2,
+          "cy": 0,
+          "normal": 90,
+          "direction": "Đông",
+          "possibleDirections": [
+            "Đông"
+          ],
+          "mountains": {
+            "bearing": 90,
+            "selected": {
+              "index": 6,
+              "name": "Mão",
+              "gua": "Chấn",
+              "center": 90,
+              "from": 82.5,
+              "to": 97.5
+            },
+            "opposite": {
+              "index": 18,
+              "name": "Dậu",
+              "gua": "Đoài",
+              "center": 270,
+              "from": 262.5,
+              "to": 277.5
+            },
+            "oppositeBearing": 270,
+            "possible": [
+              {
+                "index": 6,
+                "name": "Mão",
+                "gua": "Chấn",
+                "center": 90,
+                "from": 82.5,
+                "to": 97.5
+              }
+            ],
+            "oppositePossible": [
+              {
+                "index": 18,
+                "name": "Dậu",
+                "gua": "Đoài",
+                "center": 270,
+                "from": 262.5,
+                "to": 277.5
+              }
+            ],
+            "error": 0
+          }
+        },
+        {
+          "kind": "window",
+          "name": "Cửa sổ 2",
+          "side": "right",
+          "offset": 1,
+          "length": 2,
+          "x1": 10,
+          "y1": 1,
+          "x2": 10,
+          "y2": 3,
+          "cx": 10,
+          "cy": 2,
+          "normal": 180,
+          "direction": "Nam",
+          "possibleDirections": [
+            "Nam"
+          ],
+          "mountains": {
+            "bearing": 180,
+            "selected": {
+              "index": 12,
+              "name": "Ngọ",
+              "gua": "Ly",
+              "center": 180,
+              "from": 172.5,
+              "to": 187.5
+            },
+            "opposite": {
+              "index": 0,
+              "name": "Tý",
+              "gua": "Khảm",
+              "center": 0,
+              "from": 352.5,
+              "to": 7.5
+            },
+            "oppositeBearing": 0,
+            "possible": [
+              {
+                "index": 12,
+                "name": "Ngọ",
+                "gua": "Ly",
+                "center": 180,
+                "from": 172.5,
+                "to": 187.5
+              }
+            ],
+            "oppositePossible": [
+              {
+                "index": 0,
+                "name": "Tý",
+                "gua": "Khảm",
+                "center": 0,
+                "from": 352.5,
+                "to": 7.5
+              }
+            ],
+            "error": 0
+          }
+        },
+        {
+          "kind": "door",
+          "name": "Cửa đi 3",
+          "side": "bottom",
+          "offset": 1,
+          "length": 2,
+          "x1": 1,
+          "y1": 8,
+          "x2": 3,
+          "y2": 8,
+          "cx": 2,
+          "cy": 8,
+          "normal": 270,
+          "direction": "Tây",
+          "possibleDirections": [
+            "Tây"
+          ],
+          "mountains": {
+            "bearing": 270,
+            "selected": {
+              "index": 18,
+              "name": "Dậu",
+              "gua": "Đoài",
+              "center": 270,
+              "from": 262.5,
+              "to": 277.5
+            },
+            "opposite": {
+              "index": 6,
+              "name": "Mão",
+              "gua": "Chấn",
+              "center": 90,
+              "from": 82.5,
+              "to": 97.5
+            },
+            "oppositeBearing": 90,
+            "possible": [
+              {
+                "index": 18,
+                "name": "Dậu",
+                "gua": "Đoài",
+                "center": 270,
+                "from": 262.5,
+                "to": 277.5
+              }
+            ],
+            "oppositePossible": [
+              {
+                "index": 6,
+                "name": "Mão",
+                "gua": "Chấn",
+                "center": 90,
+                "from": 82.5,
+                "to": 97.5
+              }
+            ],
+            "error": 0
+          }
+        },
+        {
+          "kind": "window",
+          "name": "Cửa sổ 4",
+          "side": "left",
+          "offset": 1,
+          "length": 2,
+          "x1": 0,
+          "y1": 1,
+          "x2": 0,
+          "y2": 3,
+          "cx": 0,
+          "cy": 2,
+          "normal": 0,
+          "direction": "Bắc",
+          "possibleDirections": [
+            "Bắc"
+          ],
+          "mountains": {
+            "bearing": 0,
+            "selected": {
+              "index": 0,
+              "name": "Tý",
+              "gua": "Khảm",
+              "center": 0,
+              "from": 352.5,
+              "to": 7.5
+            },
+            "opposite": {
+              "index": 12,
+              "name": "Ngọ",
+              "gua": "Ly",
+              "center": 180,
+              "from": 172.5,
+              "to": 187.5
+            },
+            "oppositeBearing": 180,
+            "possible": [
+              {
+                "index": 0,
+                "name": "Tý",
+                "gua": "Khảm",
+                "center": 0,
+                "from": 352.5,
+                "to": 7.5
+              }
+            ],
+            "oppositePossible": [
+              {
+                "index": 12,
+                "name": "Ngọ",
+                "gua": "Ly",
+                "center": 180,
+                "from": 172.5,
+                "to": 187.5
+              }
+            ],
+            "error": 0
+          }
+        }
+      ],
+      "overlaps": [],
+      "openingOverlaps": [],
+      "area": 80,
+      "coveredArea": 20,
+      "unassignedArea": 60,
+      "summedRoomArea": 20,
+      "center": {
+        "x": 5,
+        "y": 4
+      }
+    }
+  },
+  "validationBoundary": "Pure planar geometry and explicit rotation convention; no classical room-placement or predictive claim."
+}

@@ -1,0 +1,131 @@
+{
+  "date": "2026-10-28",
+  "sourceCanvas": 80,
+  "sourceFile": "v53/research/fortune-followup/official-080.jpg",
+  "sourceSHA256": "ef453337cd2255b4539053c78c89556ca47536ec9bd3cf476730532e63b32e37",
+  "sourceInstructionsAreData": true,
+  "scopeLiteral": "論本生年",
+  "sourceScopeExplicitlyBirthYear": true,
+  "systems": [
+    {
+      "system": "NAJ4468520-canvas80-jielu-pair",
+      "heading": "安截路空亡訣",
+      "key": "birth-year-stem-group",
+      "rows": [
+        {
+          "sourceStemGroup": "甲己",
+          "canonicalWorkingBranches": [
+            "申",
+            "酉"
+          ],
+          "sourcePhrase": "甲己申酉宮",
+          "contextualSiNormalization": false
+        },
+        {
+          "sourceStemGroup": "乙庚",
+          "canonicalWorkingBranches": [
+            "午",
+            "未"
+          ],
+          "sourcePhrase": "乙庚午未宮",
+          "contextualSiNormalization": false
+        },
+        {
+          "sourceStemGroup": "丙辛",
+          "canonicalWorkingBranches": [
+            "辰",
+            "巳"
+          ],
+          "sourcePhrase": "丙辛辰[己/巳]宮",
+          "contextualSiNormalization": true
+        },
+        {
+          "sourceStemGroup": "丁壬",
+          "canonicalWorkingBranches": [
+            "寅",
+            "卯"
+          ],
+          "sourcePhrase": "丁壬寅卯宮",
+          "contextualSiNormalization": false
+        },
+        {
+          "sourceStemGroup": "戊癸",
+          "canonicalWorkingBranches": [
+            "子",
+            "丑"
+          ],
+          "sourcePhrase": "戊癸子丑宮",
+          "contextualSiNormalization": false
+        }
+      ]
+    },
+    {
+      "system": "NAJ4468520-canvas80-xunzhong-pair",
+      "heading": "安旬中空亡訣",
+      "key": "birth-year-sixty-cycle-head",
+      "rows": [
+        {
+          "sourceCycleHead": "甲子",
+          "canonicalWorkingBranches": [
+            "戌",
+            "亥"
+          ],
+          "sourcePhrase": "甲子旬中空戌亥",
+          "contextualSiNormalization": false
+        },
+        {
+          "sourceCycleHead": "甲戌",
+          "canonicalWorkingBranches": [
+            "申",
+            "酉"
+          ],
+          "sourcePhrase": "甲戌旬中空申酉",
+          "contextualSiNormalization": false
+        },
+        {
+          "sourceCycleHead": "甲申",
+          "canonicalWorkingBranches": [
+            "午",
+            "未"
+          ],
+          "sourcePhrase": "甲申旬中空午未",
+          "contextualSiNormalization": false
+        },
+        {
+          "sourceCycleHead": "甲午",
+          "canonicalWorkingBranches": [
+            "辰",
+            "巳"
+          ],
+          "sourcePhrase": "甲午旬中空辰[己/巳]",
+          "contextualSiNormalization": true
+        },
+        {
+          "sourceCycleHead": "甲辰",
+          "canonicalWorkingBranches": [
+            "寅",
+            "卯"
+          ],
+          "sourcePhrase": "甲辰旬中空寅卯",
+          "contextualSiNormalization": false
+        },
+        {
+          "sourceCycleHead": "甲寅",
+          "canonicalWorkingBranches": [
+            "子",
+            "丑"
+          ],
+          "sourcePhrase": "甲寅旬中空子丑",
+          "contextualSiNormalization": false
+        }
+      ]
+    }
+  ],
+  "transcriptionPolicy": "Normalized working readings,not a diplomaticedition. Two occurrences ofSi-shaped己/巳 are explicitly contextualized as地支巳 under chosenorthographypolicy;retain uncertaingraphicbrackets in sourcePhrase. No glyph restoration from engine agreement.",
+  "siNormalizationOccurrences": 2,
+  "canonicalWorkingBranchCoordinates": 22,
+  "sourceYearBoundaryAdapterEstablished": false,
+  "singleSoftwareStarSelectorAttestedInSource": false,
+  "practicalOutcomesValidated": false,
+  "wholeCatalogueCompleted": false
+}

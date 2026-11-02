@@ -1,0 +1,208 @@
+{
+  "date": "2026-10-28",
+  "checks": [
+    {
+      "name": "Three named voices preserve literal four/two/six day sets without treating the Shangguan comment as a different eligibility list",
+      "ok": true
+    },
+    {
+      "name": "Six real HHC Officer relations and eighteen real lunar hidden/conflict/combine table queries support source coordinates without virtual pillar insertion",
+      "ok": true
+    },
+    {
+      "name": "Four actual HHC relations to fixed principal month-hidden stems reproduce two Shangguan and two KiepTai coordinate labels only",
+      "ok": true
+    },
+    {
+      "name": "Raw printed attraction and restraint can coexist; shared Dao pool is not automatically partitioned and no raw hit rejects a full pattern",
+      "ok": true
+    },
+    {
+      "name": "Source-first-party visible count is not silently converted into 多/有力 or hidden/filled-pillar verdict",
+      "ok": true
+    },
+    {
+      "name": "Two-day and six-day voices remain separate; literal extra days do not inherit earlier day mechanisms or become an automatic six-case rule",
+      "ok": true
+    },
+    {
+      "name": "Joint 辛癸 mentions retain later focused 丙/戊 conditions without inventing severity or deleting the other source token",
+      "ok": true
+    },
+    {
+      "name": "Unknown pillars, impossible cycle pairs, extra calendar/strength keys and output mutation never establish a birth-chart rule",
+      "ok": true
+    }
+  ],
+  "officers": [
+    {
+      "caseID": "fei-gengzi",
+      "day": "庚子",
+      "sourceOfficer": "丁",
+      "actualTenGod": "Chính Quan"
+    },
+    {
+      "caseID": "fei-renzi",
+      "day": "壬子",
+      "sourceOfficer": "己",
+      "actualTenGod": "Chính Quan"
+    },
+    {
+      "caseID": "fei-xinhai",
+      "day": "辛亥",
+      "sourceOfficer": "丙",
+      "actualTenGod": "Chính Quan"
+    },
+    {
+      "caseID": "fei-guihai",
+      "day": "癸亥",
+      "sourceOfficer": "戊",
+      "actualTenGod": "Chính Quan"
+    },
+    {
+      "caseID": "dao-bingwu",
+      "day": "丙午",
+      "sourceOfficer": "癸",
+      "actualTenGod": "Chính Quan"
+    },
+    {
+      "caseID": "dao-dingsi",
+      "day": "丁巳",
+      "sourceOfficer": "壬",
+      "actualTenGod": "Chính Quan"
+    }
+  ],
+  "labels": [
+    {
+      "day": "庚子",
+      "declaredSourceMonthBranch": "子",
+      "actualFixedPrincipalHiddenStem": "癸",
+      "actualTenGod": "Thương Quan",
+      "actualBirthCalendarEstablished": false
+    },
+    {
+      "day": "壬子",
+      "declaredSourceMonthBranch": "子",
+      "actualFixedPrincipalHiddenStem": "癸",
+      "actualTenGod": "Kiếp Tài",
+      "actualBirthCalendarEstablished": false
+    },
+    {
+      "day": "辛亥",
+      "declaredSourceMonthBranch": "亥",
+      "actualFixedPrincipalHiddenStem": "壬",
+      "actualTenGod": "Thương Quan",
+      "actualBirthCalendarEstablished": false
+    },
+    {
+      "day": "癸亥",
+      "declaredSourceMonthBranch": "亥",
+      "actualFixedPrincipalHiddenStem": "壬",
+      "actualTenGod": "Kiếp Tài",
+      "actualBirthCalendarEstablished": false
+    }
+  ],
+  "mechanisms": [
+    {
+      "caseID": "fei-gengzi",
+      "actualHiddenStems": [
+        "丁",
+        "己"
+      ],
+      "actualClashTarget": "午",
+      "actualSixCombinePartner": "丑",
+      "additionalPrintedRestraintTokens": [],
+      "noSourceEfficacyProven": true
+    },
+    {
+      "caseID": "fei-renzi",
+      "actualHiddenStems": [
+        "丁",
+        "己"
+      ],
+      "actualClashTarget": "午",
+      "actualSixCombinePartner": "丑",
+      "additionalPrintedRestraintTokens": [],
+      "noSourceEfficacyProven": true
+    },
+    {
+      "caseID": "fei-xinhai",
+      "actualHiddenStems": [
+        "丙",
+        "庚",
+        "戊"
+      ],
+      "actualClashTarget": "巳",
+      "actualSixCombinePartner": "寅",
+      "additionalPrintedRestraintTokens": [],
+      "noSourceEfficacyProven": true
+    },
+    {
+      "caseID": "fei-guihai",
+      "actualHiddenStems": [
+        "丙",
+        "庚",
+        "戊"
+      ],
+      "actualClashTarget": "巳",
+      "actualSixCombinePartner": "寅",
+      "additionalPrintedRestraintTokens": [],
+      "noSourceEfficacyProven": true
+    },
+    {
+      "caseID": "dao-bingwu",
+      "actualHiddenStems": [
+        "癸"
+      ],
+      "actualClashTarget": "子",
+      "actualSixCombinePartner": "未",
+      "additionalPrintedRestraintTokens": [],
+      "noSourceEfficacyProven": true
+    },
+    {
+      "caseID": "dao-dingsi",
+      "actualHiddenStems": [
+        "壬",
+        "甲"
+      ],
+      "actualClashTarget": "亥",
+      "actualSixCombinePartner": "申",
+      "additionalPrintedRestraintTokens": [
+        "辰"
+      ],
+      "noSourceEfficacyProven": true
+    }
+  ],
+  "summary": {
+    "completeChecks": 8,
+    "namedDaySets": 3,
+    "validDayMembershipCoordinates": 180,
+    "literalMechanismCases": 6,
+    "actualHHCTenGodQueries": 10,
+    "officerHHCTenGodQueries": 6,
+    "principalMonthHHCTenGodQueries": 4,
+    "actualLunarHiddenStemTableQueries": 10,
+    "actualLunarClashTableQueries": 6,
+    "actualLunarSixCombineTableQueries": 6,
+    "additionalLiteralRestraintNotStandardSixCombine": [
+      "丁巳:辰"
+    ],
+    "newCalendarChartCalls": 0,
+    "newHHCBaziCalls": 0,
+    "newIztroCalls": 0,
+    "fullPatternMethodsApplied": false,
+    "virtualTargetAddedToActualPillars": false,
+    "consumerChanged": false,
+    "wholeCatalogueCompleted": false
+  },
+  "actualModules": [
+    {
+      "file": "v53/engine.js",
+      "sha256": "39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6"
+    },
+    {
+      "file": "v53/bazi-relations.js",
+      "sha256": "a1599a0ddbe716f02111e56f5da82943bd2878356fc3959a411fbffc8bd8e6d0"
+    }
+  ]
+}

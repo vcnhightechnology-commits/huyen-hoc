@@ -1,0 +1,313 @@
+{
+  "method": "Reuse explicit retained actual coordinate payloads; run only missing component comparisons after manual freeze.",
+  "reuse": [
+    {
+      "pairID": "jia-ji",
+      "root": "甲",
+      "target": "丙",
+      "expectedLunar": "食神",
+      "expectedHHC": "Thực Thần",
+      "comparisonIsEditorialComponentExpansion": true,
+      "retained": {
+        "root": "甲",
+        "target": "丙",
+        "actualHHC": "Thực Thần",
+        "actualLunar": "食神",
+        "file": "v53/qa/bazi-food-core/TEN_RELATION_RESULTS.json",
+        "array": "records",
+        "index": 0
+      }
+    },
+    {
+      "pairID": "jia-ji",
+      "root": "己",
+      "target": "辛",
+      "expectedLunar": "食神",
+      "expectedHHC": "Thực Thần",
+      "comparisonIsEditorialComponentExpansion": true,
+      "retained": {
+        "root": "己",
+        "target": "辛",
+        "actualHHC": "Thực Thần",
+        "actualLunar": "食神",
+        "file": "v53/qa/bazi-food-core/TEN_RELATION_RESULTS.json",
+        "array": "records",
+        "index": 5
+      }
+    },
+    {
+      "pairID": "bing-xin",
+      "root": "丙",
+      "target": "戊",
+      "expectedLunar": "食神",
+      "expectedHHC": "Thực Thần",
+      "comparisonIsEditorialComponentExpansion": true,
+      "retained": {
+        "root": "丙",
+        "target": "戊",
+        "actualHHC": "Thực Thần",
+        "actualLunar": "食神",
+        "file": "v53/qa/bazi-food-core/TEN_RELATION_RESULTS.json",
+        "array": "records",
+        "index": 2
+      }
+    },
+    {
+      "pairID": "bing-xin",
+      "root": "辛",
+      "target": "戊",
+      "expectedLunar": "正印",
+      "expectedHHC": "Chính Ấn",
+      "comparisonIsEditorialComponentExpansion": true,
+      "retained": {
+        "root": "辛",
+        "target": "戊",
+        "actualHHC": "Chính Ấn",
+        "actualLunar": "正印",
+        "file": "v53/research/bazi-tongke-cases/ACTUAL_RUNTIME.json",
+        "array": "pairs",
+        "index": 28
+      }
+    },
+    {
+      "pairID": "bing-xin",
+      "root": "辛",
+      "target": "癸",
+      "expectedLunar": "食神",
+      "expectedHHC": "Thực Thần",
+      "comparisonIsEditorialComponentExpansion": true,
+      "retained": {
+        "root": "辛",
+        "target": "癸",
+        "actualHHC": "Thực Thần",
+        "actualLunar": "食神",
+        "file": "v53/qa/bazi-food-core/TEN_RELATION_RESULTS.json",
+        "array": "records",
+        "index": 7
+      }
+    },
+    {
+      "pairID": "wu-gui",
+      "root": "戊",
+      "target": "庚",
+      "expectedLunar": "食神",
+      "expectedHHC": "Thực Thần",
+      "comparisonIsEditorialComponentExpansion": true,
+      "retained": {
+        "root": "戊",
+        "target": "庚",
+        "actualHHC": "Thực Thần",
+        "actualLunar": "食神",
+        "file": "v53/qa/bazi-food-core/TEN_RELATION_RESULTS.json",
+        "array": "records",
+        "index": 4
+      }
+    },
+    {
+      "pairID": "wu-gui",
+      "root": "戊",
+      "target": "乙",
+      "expectedLunar": "正官",
+      "expectedHHC": "Chính Quan",
+      "comparisonIsEditorialComponentExpansion": true,
+      "retained": {
+        "root": "戊",
+        "target": "乙",
+        "actualHHC": "Chính Quan",
+        "actualLunar": "正官",
+        "file": "v53/research/bazi-tongke-cases/ACTUAL_RUNTIME.json",
+        "array": "pairs",
+        "index": 30
+      }
+    },
+    {
+      "pairID": "wu-gui",
+      "root": "癸",
+      "target": "乙",
+      "expectedLunar": "食神",
+      "expectedHHC": "Thực Thần",
+      "comparisonIsEditorialComponentExpansion": true,
+      "retained": {
+        "root": "癸",
+        "target": "乙",
+        "actualHHC": "Thực Thần",
+        "actualLunar": "食神",
+        "file": "v53/qa/bazi-food-core/TEN_RELATION_RESULTS.json",
+        "array": "records",
+        "index": 9
+      }
+    },
+    {
+      "pairID": "geng-yi",
+      "root": "庚",
+      "target": "壬",
+      "expectedLunar": "食神",
+      "expectedHHC": "Thực Thần",
+      "comparisonIsEditorialComponentExpansion": true,
+      "retained": {
+        "root": "庚",
+        "target": "壬",
+        "actualHHC": "Thực Thần",
+        "actualLunar": "食神",
+        "file": "v53/qa/bazi-food-core/TEN_RELATION_RESULTS.json",
+        "array": "records",
+        "index": 6
+      }
+    },
+    {
+      "pairID": "geng-yi",
+      "root": "乙",
+      "target": "壬",
+      "expectedLunar": "正印",
+      "expectedHHC": "Chính Ấn",
+      "comparisonIsEditorialComponentExpansion": true,
+      "retained": {
+        "root": "乙",
+        "target": "壬",
+        "actualHHC": "Chính Ấn",
+        "actualLunar": "正印",
+        "file": "v53/research/bazi-tongke-cases/ACTUAL_RUNTIME.json",
+        "array": "pairs",
+        "index": 20
+      }
+    },
+    {
+      "pairID": "geng-yi",
+      "root": "乙",
+      "target": "丁",
+      "expectedLunar": "食神",
+      "expectedHHC": "Thực Thần",
+      "comparisonIsEditorialComponentExpansion": true,
+      "retained": {
+        "root": "乙",
+        "target": "丁",
+        "actualHHC": "Thực Thần",
+        "actualLunar": "食神",
+        "file": "v53/qa/bazi-food-core/TEN_RELATION_RESULTS.json",
+        "array": "records",
+        "index": 1
+      }
+    },
+    {
+      "pairID": "ren-ding",
+      "root": "壬",
+      "target": "甲",
+      "expectedLunar": "食神",
+      "expectedHHC": "Thực Thần",
+      "comparisonIsEditorialComponentExpansion": true,
+      "retained": {
+        "root": "壬",
+        "target": "甲",
+        "actualHHC": "Thực Thần",
+        "actualLunar": "食神",
+        "file": "v53/qa/bazi-food-core/TEN_RELATION_RESULTS.json",
+        "array": "records",
+        "index": 8
+      }
+    },
+    {
+      "pairID": "ren-ding",
+      "root": "壬",
+      "target": "己",
+      "expectedLunar": "正官",
+      "expectedHHC": "Chính Quan",
+      "comparisonIsEditorialComponentExpansion": true,
+      "retained": {
+        "root": "壬",
+        "target": "己",
+        "actualHHC": "Chính Quan",
+        "actualLunar": "正官",
+        "file": "v53/research/bazi-tongke-cases/ACTUAL_RUNTIME.json",
+        "array": "pairs",
+        "index": 22
+      }
+    },
+    {
+      "pairID": "ren-ding",
+      "root": "丁",
+      "target": "己",
+      "expectedLunar": "食神",
+      "expectedHHC": "Thực Thần",
+      "comparisonIsEditorialComponentExpansion": true,
+      "retained": {
+        "root": "丁",
+        "target": "己",
+        "actualHHC": "Thực Thần",
+        "actualLunar": "食神",
+        "file": "v53/qa/bazi-food-core/TEN_RELATION_RESULTS.json",
+        "array": "records",
+        "index": 3
+      }
+    }
+  ],
+  "missing": [
+    {
+      "pairID": "jia-ji",
+      "root": "甲",
+      "target": "辛",
+      "expectedLunar": "正官",
+      "expectedHHC": "Chính Quan",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "jia-ji",
+      "root": "己",
+      "target": "丙",
+      "expectedLunar": "正印",
+      "expectedHHC": "Chính Ấn",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "bing-xin",
+      "root": "丙",
+      "target": "癸",
+      "expectedLunar": "正官",
+      "expectedHHC": "Chính Quan",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "wu-gui",
+      "root": "癸",
+      "target": "庚",
+      "expectedLunar": "正印",
+      "expectedHHC": "Chính Ấn",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "geng-yi",
+      "root": "庚",
+      "target": "丁",
+      "expectedLunar": "正官",
+      "expectedHHC": "Chính Quan",
+      "comparisonIsEditorialComponentExpansion": true
+    },
+    {
+      "pairID": "ren-ding",
+      "root": "丁",
+      "target": "甲",
+      "expectedLunar": "正印",
+      "expectedHHC": "Chính Ấn",
+      "comparisonIsEditorialComponentExpansion": true
+    }
+  ],
+  "retainedPayloadIdentities": [
+    {
+      "file": "v53/qa/bazi-food-core/TEN_RELATION_RESULTS.json",
+      "bytes": 3097,
+      "sha256": "b596850a855e1c33dbc0454669a9fb4338861dce68f85985772c2b0097a594aa"
+    },
+    {
+      "file": "v53/research/bazi-food-chain/ACTUAL_RUNTIME.json",
+      "bytes": 2626,
+      "sha256": "42958e52ca8d8fc8bed0f1a87619315cba7acc89666298b6924a3a4592a786b0"
+    },
+    {
+      "file": "v53/research/bazi-tongke-cases/ACTUAL_RUNTIME.json",
+      "bytes": 64622,
+      "sha256": "61906f10602f3f6215854ba5243682932fcc94c47c8819888f4825fc5e717d0a"
+    }
+  ],
+  "noNewCalendarObjects": true,
+  "newHHCRelationCallsPlanned": 6,
+  "newLunarTenGodTableQueriesPlanned": 6
+}

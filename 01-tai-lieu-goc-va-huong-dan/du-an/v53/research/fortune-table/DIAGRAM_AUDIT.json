@@ -1,0 +1,33 @@
+{
+  "date": "2026-10-26",
+  "scope": "Targeted search for the diagram referred to as Loc/Quyen/Khoa/Ky, after the six-passage witness study. Six image spreads saved; only diagram 88 right half is classified here. Other images are localization probes, not six newly collated texts.",
+  "institution": "National Archives of Japan",
+  "item": "https://www.digital.archives.go.jp/item/4468520",
+  "requests": "REQUESTS.json",
+  "responseCount": 6,
+  "allResponseBytesSHA256Verified": true,
+  "imageFormat": "Full-spread 2200-pixel IIIF JPEG responses, not original JP2 bytes.",
+  "positionPolicy": "Numbers are one-based canvas sequence ordinals, not physical leaf or PDF page numbers.",
+  "target": {
+    "sequenceNumber": 88,
+    "file": "official-088.jpg",
+    "sha256": "4606f782e1966017dbdbe390f9cf81f4dc368f425050e808e4d8acb4382c6b9c",
+    "region": "Right half, upper two-by-two square and smaller text panels below",
+    "visibleQuadrantLabels": {
+      "upperRight": "祿",
+      "lowerRight": "權",
+      "upperLeft": "科",
+      "lowerLeft": "忌"
+    },
+    "manualFinding": "This is an arrangement/combination diagram with smaller condition panels, not a ten-heavenly-stem to four-stars placement table. No new forty-cell stem mapping was transcribed from it. Do not use its title or four large labels as independent corroboration of the Canh verse variant.",
+    "notAdopted": "No strength score, auspiciousness score, new transformation table or interpretation rule is inferred from the smaller panels."
+  },
+  "retainedEarlierFinding": {
+    "file": "../fortune-followup/WITNESS_AUDIT.json",
+    "sha256": "b92729d0be7d827e5ac928048406b9bb662e8a8daeff8f6a727e32f7302726b5",
+    "Canh": "Verse image reads Thien Dong Khoa / Thien Tuong Ky; current selected digital table reads Thai Am Khoa / Thien Dong Ky. Still a retained difference; the diagram does not resolve it.",
+    "majorPeriod": "Image adjacent-palace starting wording remains distinct from the selected Menh/cuc convention. No automatic chart change."
+  },
+  "publicChange": "Lunar-month overview uses the existing selected calendar/period engine. It does not apply this diagram or add source/corpus to the consumer interface.",
+  "remaining": "Compare other witnesses and relevant prose passages to determine Canh variants and the major-period starting convention. Do not search the same diagram again expecting a ten-stem table."
+}

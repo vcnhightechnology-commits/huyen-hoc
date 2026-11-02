@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-29",
+  "records": [
+    {
+      "position": 247,
+      "section": "天地轉殺",
+      "imageReading": "並忌此日",
+      "digitalReading": "並起此日",
+      "scope": "Polarity-changing digital transcription discrepancy; raw digital not overwritten.",
+      "consumerAffected": false
+    },
+    {
+      "position": 253,
+      "imageHeading": "刑隔",
+      "imageRunningText": "州隔",
+      "digitalHeading": "州鬲",
+      "digitalRunningText": "州鬲",
+      "scope": "Internal image heading/body variation AND digital normalization; no silent preferred reading or formula derived.",
+      "consumerAffected": false
+    },
+    {
+      "position": 256,
+      "imageReading": "日中空亡",
+      "digitalLiteral": "日中空亡",
+      "institutionalEditorialCorrection": "旬中空亡",
+      "scope": "Keep printed 日 versus editorial 旬. Do not apply general-hour override to 旬中 automatically without explicit reading mode.",
+      "consumerAffected": false
+    },
+    {
+      "section": "截路空亡",
+      "ITKCImagePosition": 255,
+      "ITKCRestrictedList": "納表進章出行遠迴",
+      "ITKCExplicitNotAvoided": "修造安葬",
+      "P08Literal": "截路空亡止忌出行嫁娶移徙餘皆不忌",
+      "P08Evidence": "v53/research/home-yangzhai-final-spans/selection/READING_CORRECTION_AUDIT.json",
+      "scope": "Different activity lists in related compilations; preserve witness-specific semantics. Same named term is not proof of identical system or that either list controls every other factor."
+    }
+  ],
+  "allSourceWordingReconciled": false,
+  "wholeWorkApplied": false
+}

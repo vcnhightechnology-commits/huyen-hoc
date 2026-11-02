@@ -1,0 +1,185 @@
+{
+  "scope": "tmp/bazi-food-chain-staging",
+  "files": [
+    {
+      "file": "tmp/bazi-food-chain-staging/ACTUAL_RUNTIME.json",
+      "bytes": 2626,
+      "sha256": "42958e52ca8d8fc8bed0f1a87619315cba7acc89666298b6924a3a4592a786b0",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/42958e52ca8d8fc8bed0f1a87619315cba7acc89666298b6924a3a4592a786b0",
+      "httpRange": {
+        "offset": 154712387,
+        "compressedBytes": 894,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-food-chain-staging/EXPECTED_BEFORE_IMPLEMENTATION.json",
+      "bytes": 4858,
+      "sha256": "9608d47fafc95896810ed8f28418826cec55bb0ba35fce08e6f66d622b9ab695",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/9608d47fafc95896810ed8f28418826cec55bb0ba35fce08e6f66d622b9ab695",
+      "httpRange": {
+        "offset": 357505383,
+        "compressedBytes": 915,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-food-chain-staging/MANUAL_CHAIN.json",
+      "bytes": 3421,
+      "sha256": "70babcb3afd8420d6d60f1d78665135cdc6b44774b01bc29990456e2f3e8c985",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/70babcb3afd8420d6d60f1d78665135cdc6b44774b01bc29990456e2f3e8c985",
+      "httpRange": {
+        "offset": 318465602,
+        "compressedBytes": 1446,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-food-chain-staging/NATIVE_CROPS.json",
+      "bytes": 3331,
+      "sha256": "dbac17b6c3a928a9f5fd28555884212bcc87dcc74cf545b0a6cfecdc96cf5c19",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/dbac17b6c3a928a9f5fd28555884212bcc87dcc74cf545b0a6cfecdc96cf5c19",
+      "httpRange": {
+        "offset": 219146824,
+        "compressedBytes": 815,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-food-chain-staging/PREIMPLEMENTATION_FREEZE.json",
+      "bytes": 572,
+      "sha256": "6d69153cf136a904754b2309da1f66a5523807ac6a6805281578ba2f68591217",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6d69153cf136a904754b2309da1f66a5523807ac6a6805281578ba2f68591217",
+      "httpRange": {
+        "offset": 267260195,
+        "compressedBytes": 329,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-food-chain-staging/SOURCE_IDENTITIES.json",
+      "bytes": 2017,
+      "sha256": "d8726977c148e99df10c8411ff75d686c3e2c141ce59bcaeb9ed134e930b7398",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d8726977c148e99df10c8411ff75d686c3e2c141ce59bcaeb9ed134e930b7398",
+      "httpRange": {
+        "offset": 186133802,
+        "compressedBytes": 852,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-food-chain-staging/TEST_RESULTS.json",
+      "bytes": 650,
+      "sha256": "b37a06b97a9ecd5c67aecdd70d35df818f3d383a601af9df2fc898b1c199a87e",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b37a06b97a9ecd5c67aecdd70d35df818f3d383a601af9df2fc898b1c199a87e",
+      "httpRange": {
+        "offset": 359576247,
+        "compressedBytes": 359,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-food-chain-staging/WORK_STATE.json",
+      "bytes": 4480,
+      "sha256": "15a2395ed8465952bb148f3794fa35825b4afed84547e40f3765ec0f00465d0e",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/15a2395ed8465952bb148f3794fa35825b4afed84547e40f3765ec0f00465d0e",
+      "httpRange": {
+        "offset": 289204817,
+        "compressedBytes": 2383,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-food-chain-staging/food-chain-reference.mjs",
+      "bytes": 3013,
+      "sha256": "580af834c42e3d20051db3e279689bb1a3fe6abf8e290a2b35351893b93b594c",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/580af834c42e3d20051db3e279689bb1a3fe6abf8e290a2b35351893b93b594c",
+      "httpRange": {
+        "offset": 225850186,
+        "compressedBytes": 1497,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-food-chain-staging/run-actual-once.mjs",
+      "bytes": 3111,
+      "sha256": "84a342c585ac526f830aca67ae550a4969eb1fcbebd3bd4c18e77b574547b7ae",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/84a342c585ac526f830aca67ae550a4969eb1fcbebd3bd4c18e77b574547b7ae",
+      "httpRange": {
+        "offset": 200536546,
+        "compressedBytes": 1480,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-food-chain-staging/source-chain-main-bounded.png",
+      "bytes": 69851,
+      "sha256": "f20d5504cc59ad98a9f7572786642fccbaa938e48f3ac5fd5cfd8f23f8c88ead",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f20d5504cc59ad98a9f7572786642fccbaa938e48f3ac5fd5cfd8f23f8c88ead",
+      "httpRange": {
+        "offset": 164269450,
+        "compressedBytes": 68720,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-food-chain-staging/source-chain-main.png",
+      "bytes": 71064,
+      "sha256": "d90d4cf73741a4c118f9cbb6ff7fbfb2bed92bd496fa6481ff89b9bbdcafcdcb",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d90d4cf73741a4c118f9cbb6ff7fbfb2bed92bd496fa6481ff89b9bbdcafcdcb",
+      "httpRange": {
+        "offset": 190130094,
+        "compressedBytes": 68808,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-food-chain-staging/source-qualification-voices-bounded.png",
+      "bytes": 53376,
+      "sha256": "b84f2e14903fd166015e4caac95435af24b580703729010b581b2d7866671acb",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/b84f2e14903fd166015e4caac95435af24b580703729010b581b2d7866671acb",
+      "httpRange": {
+        "offset": 170106410,
+        "compressedBytes": 52492,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-food-chain-staging/source-qualification-voices.png",
+      "bytes": 54339,
+      "sha256": "a68ba445fe73108d7e79cc42ab0350cd312438e00b34710818eb9572491b7c9f",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a68ba445fe73108d7e79cc42ab0350cd312438e00b34710818eb9572491b7c9f",
+      "httpRange": {
+        "offset": 228408419,
+        "compressedBytes": 52525,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-food-chain-staging/test-food-chain.mjs",
+      "bytes": 5062,
+      "sha256": "0b25232a1e1b13380221afbee321ac84edc41572572a1ba1f5405f82228e5ca5",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0b25232a1e1b13380221afbee321ac84edc41572572a1ba1f5405f82228e5ca5",
+      "httpRange": {
+        "offset": 161632876,
+        "compressedBytes": 1940,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

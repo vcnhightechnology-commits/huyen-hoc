@@ -1,0 +1,24 @@
+{
+  "records": [
+    {
+      "source": "v53/research/bazi-relations/sources/KR3g0042_005.txt",
+      "sourceBytes": 122081,
+      "sourceSHA256": "1ebdd92feaa57496b702f962ad6fafd4f19c17e98c38a94b40f626ef321dd997",
+      "extract": "DIGITAL_LEAD_005.txt",
+      "extractSHA256": "e604ac6e0f75a68018572b523ebcb3e85e7129d4f5a22c92540335c54137211c",
+      "imageCollated": false,
+      "status": "digital-text-lead-only;no-harm-predicate-adopted"
+    },
+    {
+      "source": "v53/research/bazi-relations/sources/KR3g0042_010.txt",
+      "sourceBytes": 111678,
+      "sourceSHA256": "96a21e103990f0fc792251167e2431f3d934f4217d4234dfda1f8e5ab27d5659",
+      "extract": "DIGITAL_LEAD_010.txt",
+      "extractSHA256": "29cc07e7b8e89168ca7d783c711351d90bea406430c9d0bdfd8b50f37f751222",
+      "imageCollated": false,
+      "status": "digital-text-lead-only;no-harm-predicate-adopted"
+    }
+  ],
+  "note": "Volume5 distinguishes NaYin overcome and original stem also overcome, whereas the harm example labels乙as真金and戊as真火. Do not silently merge these systems. Full source context and images required.",
+  "fullMappingEstablished": false
+}

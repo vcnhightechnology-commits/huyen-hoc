@@ -1,0 +1,8 @@
+{
+  "date": "2026-10-29",
+  "file": "v53/research/home-hour-alignment/source-hour-reference.mjs",
+  "sha256": "b40caf5be790e93e3497aa640b4e8d7c4a7d047b9c8b37b0886899e3967db075",
+  "existingExport": "sourceJieluActivityScope",
+  "decision": "Reuse retained clause-specific activity restriction; do not add another API just to count a feature. Existing144calendar fixtures not rerun.",
+  "newActualHourCalls": 0
+}

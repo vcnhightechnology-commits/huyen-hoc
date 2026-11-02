@@ -1,0 +1,642 @@
+{
+  "schema": "hhc.wyg.positive-seal-six-clauses-observed.v1",
+  "passed": true,
+  "originalPrimarySHA256": "267fda36d206bfd153d9377441adb5f99f96c39a594a5f7ebdf3e4dd226e9b87",
+  "sameWorkVol6SHA256": "17ed9b106fe07f18e0fb56b9351507c68e22eaf700005659adca9dda436d674f",
+  "fullOriginalChapterCodepoints": 690,
+  "supplementaryCodepointsBeforePrimaryChapter": 8,
+  "supplementaryCodepointsBeforeParallelExample": 15,
+  "editorialUnitsInChapter": 13,
+  "targetUnitCount": 6,
+  "literallyVerifiedFragments": 36,
+  "matchedSameWorkVol6Example": true,
+  "crossSourceEvidenceClass": "same-work-digital-repetition-not-independent-printed-witness",
+  "crossSourcePosition": {
+    "folios": [
+      "006-92b"
+    ],
+    "firstFolioOffsetCodepoints": 130,
+    "crossFolio": false
+  },
+  "sourceWitnessesEstablishedAsIndependentPrintedEditions": 0,
+  "ruleBooleanOperatorsEstablished": 0,
+  "astrologicalRulesEnabled": 0,
+  "rulesAppliedToPeople": 0,
+  "originalCharactersEmended": 0,
+  "engineCalls": 0,
+  "consumerChanged": false,
+  "units": [
+    {
+      "unit": "S06",
+      "opening": "有年時見印",
+      "chapterStartCodepoint": 405,
+      "chapterEndCodepoint": 429,
+      "sourceFirstFolio": "003-44b",
+      "sourceLastFolio": "003-44b",
+      "sourceOnly": true,
+      "wholeUnitApplied": false,
+      "clauses": [
+        {
+          "id": "S06-01",
+          "text": "有年時見印",
+          "role": "source-trigger-phrase",
+          "startCodepointInChapter": 405,
+          "endCodepointInChapter": 410,
+          "folios": [
+            "003-44b"
+          ],
+          "firstFolioOffsetCodepoints": 113,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S06-02",
+          "text": "名鳯凰啣印",
+          "role": "source-label",
+          "startCodepointInChapter": 410,
+          "endCodepointInChapter": 415,
+          "folios": [
+            "003-44b"
+          ],
+          "firstFolioOffsetCodepoints": 118,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S06-03",
+          "text": "如虞尚書癸未甲寅戊午丙辰是也",
+          "role": "example-literal",
+          "startCodepointInChapter": 415,
+          "endCodepointInChapter": 429,
+          "folios": [
+            "003-44b"
+          ],
+          "firstFolioOffsetCodepoints": 123,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        }
+      ]
+    },
+    {
+      "unit": "S08",
+      "opening": "有禍聚印",
+      "chapterStartCodepoint": 475,
+      "chapterEndCodepoint": 518,
+      "sourceFirstFolio": "003-45a",
+      "sourceLastFolio": "003-45a",
+      "sourceOnly": true,
+      "wholeUnitApplied": false,
+      "clauses": [
+        {
+          "id": "S08-01",
+          "text": "有禍聚印",
+          "role": "source-label",
+          "startCodepointInChapter": 475,
+          "endCodepointInChapter": 479,
+          "folios": [
+            "003-45a"
+          ],
+          "firstFolioOffsetCodepoints": 46,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S08-02",
+          "text": "如癸巳人帶壬辰印",
+          "role": "example-literal",
+          "startCodepointInChapter": 479,
+          "endCodepointInChapter": 487,
+          "folios": [
+            "003-45a"
+          ],
+          "firstFolioOffsetCodepoints": 50,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S08-03",
+          "text": "柱多逢水俱墓於辰",
+          "role": "descriptive-premise",
+          "startCodepointInChapter": 487,
+          "endCodepointInChapter": 495,
+          "folios": [
+            "003-45a"
+          ],
+          "firstFolioOffsetCodepoints": 58,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S08-04",
+          "text": "則癸巳受煞",
+          "role": "source-inference",
+          "startCodepointInChapter": 495,
+          "endCodepointInChapter": 500,
+          "folios": [
+            "003-45a"
+          ],
+          "firstFolioOffsetCodepoints": 66,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S08-05",
+          "text": "以巳為命",
+          "role": "source-anchor",
+          "startCodepointInChapter": 500,
+          "endCodepointInChapter": 504,
+          "folios": [
+            "003-45a"
+          ],
+          "firstFolioOffsetCodepoints": 71,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S08-06",
+          "text": "巳火遇多則本命病",
+          "role": "source-interpretation",
+          "startCodepointInChapter": 504,
+          "endCodepointInChapter": 512,
+          "folios": [
+            "003-45a"
+          ],
+          "firstFolioOffsetCodepoints": 75,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S08-07",
+          "text": "此之謂禍聚印",
+          "role": "source-label",
+          "startCodepointInChapter": 512,
+          "endCodepointInChapter": 518,
+          "folios": [
+            "003-45a"
+          ],
+          "firstFolioOffsetCodepoints": 83,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        }
+      ]
+    },
+    {
+      "unit": "S09",
+      "opening": "有破福成禍印",
+      "chapterStartCodepoint": 518,
+      "chapterEndCodepoint": 551,
+      "sourceFirstFolio": "003-45a",
+      "sourceLastFolio": "003-45a",
+      "sourceOnly": true,
+      "wholeUnitApplied": false,
+      "clauses": [
+        {
+          "id": "S09-01",
+          "text": "有破福成禍印",
+          "role": "source-label",
+          "startCodepointInChapter": 518,
+          "endCodepointInChapter": 524,
+          "folios": [
+            "003-45a"
+          ],
+          "firstFolioOffsetCodepoints": 89,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S09-02",
+          "text": "如水人得水印",
+          "role": "example-literal",
+          "startCodepointInChapter": 524,
+          "endCodepointInChapter": 530,
+          "folios": [
+            "003-45a"
+          ],
+          "firstFolioOffsetCodepoints": 95,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S09-03",
+          "text": "或月日時胎多帶土來",
+          "role": "ambiguous-alternative",
+          "startCodepointInChapter": 530,
+          "endCodepointInChapter": 539,
+          "folios": [
+            "003-45a"
+          ],
+          "firstFolioOffsetCodepoints": 101,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S09-04",
+          "text": "本家印見鬼盛",
+          "role": "descriptive-premise",
+          "startCodepointInChapter": 539,
+          "endCodepointInChapter": 545,
+          "folios": [
+            "003-45a"
+          ],
+          "firstFolioOffsetCodepoints": 110,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S09-05",
+          "text": "是謂破福成禍",
+          "role": "source-label",
+          "startCodepointInChapter": 545,
+          "endCodepointInChapter": 551,
+          "folios": [
+            "003-45a"
+          ],
+          "firstFolioOffsetCodepoints": 116,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        }
+      ]
+    },
+    {
+      "unit": "S10",
+      "opening": "有帶煞印",
+      "chapterStartCodepoint": 551,
+      "chapterEndCodepoint": 598,
+      "sourceFirstFolio": "003-45b",
+      "sourceLastFolio": "003-45b",
+      "sourceOnly": true,
+      "wholeUnitApplied": false,
+      "clauses": [
+        {
+          "id": "S10-01",
+          "text": "有帶煞印",
+          "role": "source-label",
+          "startCodepointInChapter": 551,
+          "endCodepointInChapter": 555,
+          "folios": [
+            "003-45b"
+          ],
+          "firstFolioOffsetCodepoints": 0,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S10-02",
+          "text": "印中見貴煞",
+          "role": "descriptive-premise",
+          "startCodepointInChapter": 555,
+          "endCodepointInChapter": 560,
+          "folios": [
+            "003-45b"
+          ],
+          "firstFolioOffsetCodepoints": 4,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S10-03",
+          "text": "如壬子見壬辰丙辰",
+          "role": "example-literal",
+          "startCodepointInChapter": 560,
+          "endCodepointInChapter": 568,
+          "folios": [
+            "003-45b"
+          ],
+          "firstFolioOffsetCodepoints": 9,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S10-04",
+          "text": "子至辰謂之華蓋",
+          "role": "source-inference",
+          "startCodepointInChapter": 568,
+          "endCodepointInChapter": 575,
+          "folios": [
+            "003-45b"
+          ],
+          "firstFolioOffsetCodepoints": 17,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S10-05",
+          "text": "壬人見辰為貴",
+          "role": "source-inference",
+          "startCodepointInChapter": 575,
+          "endCodepointInChapter": 581,
+          "folios": [
+            "003-45b"
+          ],
+          "firstFolioOffsetCodepoints": 24,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S10-06",
+          "text": "若印中反尅本命",
+          "role": "descriptive-premise",
+          "startCodepointInChapter": 581,
+          "endCodepointInChapter": 588,
+          "folios": [
+            "003-45b"
+          ],
+          "firstFolioOffsetCodepoints": 30,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S10-07",
+          "text": "無福神往還",
+          "role": "ambiguous-connection",
+          "startCodepointInChapter": 588,
+          "endCodepointInChapter": 593,
+          "folios": [
+            "003-45b"
+          ],
+          "firstFolioOffsetCodepoints": 37,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S10-08",
+          "text": "名帶煞主㓙",
+          "role": "source-judgment",
+          "startCodepointInChapter": 593,
+          "endCodepointInChapter": 598,
+          "folios": [
+            "003-45b"
+          ],
+          "firstFolioOffsetCodepoints": 42,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        }
+      ]
+    },
+    {
+      "unit": "S11",
+      "opening": "有臨空印",
+      "chapterStartCodepoint": 598,
+      "chapterEndCodepoint": 620,
+      "sourceFirstFolio": "003-45b",
+      "sourceLastFolio": "003-45b",
+      "sourceOnly": true,
+      "wholeUnitApplied": false,
+      "clauses": [
+        {
+          "id": "S11-01",
+          "text": "有臨空印",
+          "role": "source-label",
+          "startCodepointInChapter": 598,
+          "endCodepointInChapter": 602,
+          "folios": [
+            "003-45b"
+          ],
+          "firstFolioOffsetCodepoints": 47,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S11-02",
+          "text": "乃印落空亡",
+          "role": "descriptive-premise",
+          "startCodepointInChapter": 602,
+          "endCodepointInChapter": 607,
+          "folios": [
+            "003-45b"
+          ],
+          "firstFolioOffsetCodepoints": 51,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S11-03",
+          "text": "支無六合",
+          "role": "descriptive-premise",
+          "startCodepointInChapter": 607,
+          "endCodepointInChapter": 611,
+          "folios": [
+            "003-45b"
+          ],
+          "firstFolioOffsetCodepoints": 56,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S11-04",
+          "text": "見官貴",
+          "role": "ambiguous-connection",
+          "startCodepointInChapter": 611,
+          "endCodepointInChapter": 614,
+          "folios": [
+            "003-45b"
+          ],
+          "firstFolioOffsetCodepoints": 60,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S11-05",
+          "text": "至賤而無成也",
+          "role": "source-judgment",
+          "startCodepointInChapter": 614,
+          "endCodepointInChapter": 620,
+          "folios": [
+            "003-45b"
+          ],
+          "firstFolioOffsetCodepoints": 63,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        }
+      ]
+    },
+    {
+      "unit": "S12",
+      "opening": "有自刑印",
+      "chapterStartCodepoint": 620,
+      "chapterEndCodepoint": 662,
+      "sourceFirstFolio": "003-45b",
+      "sourceLastFolio": "003-45b",
+      "sourceOnly": true,
+      "wholeUnitApplied": false,
+      "clauses": [
+        {
+          "id": "S12-01",
+          "text": "有自刑印",
+          "role": "source-label",
+          "startCodepointInChapter": 620,
+          "endCodepointInChapter": 624,
+          "folios": [
+            "003-45b"
+          ],
+          "firstFolioOffsetCodepoints": 69,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S12-02",
+          "text": "如庚戌人帶乙丑",
+          "role": "example-literal",
+          "startCodepointInChapter": 624,
+          "endCodepointInChapter": 631,
+          "folios": [
+            "003-45b"
+          ],
+          "firstFolioOffsetCodepoints": 73,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S12-03",
+          "text": "金人見金印固好",
+          "role": "source-interpretation",
+          "startCodepointInChapter": 631,
+          "endCodepointInChapter": 638,
+          "folios": [
+            "003-45b"
+          ],
+          "firstFolioOffsetCodepoints": 80,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S12-04",
+          "text": "丑戌相刑",
+          "role": "example-relationship",
+          "startCodepointInChapter": 638,
+          "endCodepointInChapter": 642,
+          "folios": [
+            "003-45b"
+          ],
+          "firstFolioOffsetCodepoints": 87,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S12-05",
+          "text": "以金刑金",
+          "role": "source-inference",
+          "startCodepointInChapter": 642,
+          "endCodepointInChapter": 646,
+          "folios": [
+            "003-45b"
+          ],
+          "firstFolioOffsetCodepoints": 91,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S12-06",
+          "text": "此類不如無",
+          "role": "source-judgment",
+          "startCodepointInChapter": 646,
+          "endCodepointInChapter": 651,
+          "folios": [
+            "003-45b"
+          ],
+          "firstFolioOffsetCodepoints": 95,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S12-07",
+          "text": "雖有少福亦終賤",
+          "role": "source-judgment",
+          "startCodepointInChapter": 651,
+          "endCodepointInChapter": 658,
+          "folios": [
+            "003-45b"
+          ],
+          "firstFolioOffsetCodepoints": 100,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        },
+        {
+          "id": "S12-08",
+          "text": "餘准此推",
+          "role": "source-extension",
+          "startCodepointInChapter": 658,
+          "endCodepointInChapter": 662,
+          "folios": [
+            "003-45b"
+          ],
+          "firstFolioOffsetCodepoints": 107,
+          "crossFolio": false,
+          "textualProvenanceVerified": true,
+          "formalRuleOperatorBound": false,
+          "historicalPredictionValidated": false
+        }
+      ]
+    }
+  ]
+}

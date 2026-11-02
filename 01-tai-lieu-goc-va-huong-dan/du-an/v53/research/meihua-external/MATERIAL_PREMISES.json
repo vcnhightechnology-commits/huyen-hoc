@@ -1,0 +1,241 @@
+{
+  "schema": "hhc.meihua.material-premises.v1",
+  "cases": [
+    {
+      "id": "large-fire",
+      "bodyElement": "Kim",
+      "otherElement": "Hỏa",
+      "evidencePDFPages": [
+        109
+      ],
+      "printedBoundedPhrase": "真火能剋金",
+      "observationClass": "literal-large-fire",
+      "historicalQualification": "stronger-asserted-control",
+      "examples": [
+        "kiln/furnace fire",
+        "large flame"
+      ],
+      "automaticObjectRecognition": false,
+      "numericWeight": null,
+      "empiricalEffectEstablished": false
+    },
+    {
+      "id": "fire-colour-form",
+      "bodyElement": "Kim",
+      "otherElement": "Hỏa",
+      "evidencePDFPages": [
+        109
+      ],
+      "printedBoundedPhrase": "形色則不能剋",
+      "observationClass": "colour-or-form-symbol",
+      "historicalQualification": "literal-control-not-asserted",
+      "examples": [
+        "red/purple colour",
+        "hollow/dry-wood form"
+      ],
+      "automaticObjectRecognition": false,
+      "numericWeight": null,
+      "empiricalEffectEstablished": false
+    },
+    {
+      "id": "small-fire",
+      "bodyElement": "Kim",
+      "otherElement": "Hỏa",
+      "evidencePDFPages": [
+        110
+      ],
+      "printedBoundedPhrase": "微細而輕小不利耳",
+      "observationClass": "literal-small-fire",
+      "historicalQualification": "small-adverse-qualification",
+      "examples": [
+        "one lamp",
+        "one candle"
+      ],
+      "automaticObjectRecognition": false,
+      "numericWeight": null,
+      "empiricalEffectEstablished": false
+    },
+    {
+      "id": "noncutting-metal",
+      "bodyElement": "Mộc",
+      "otherElement": "Kim",
+      "evidencePDFPages": [
+        110
+      ],
+      "printedBoundedPhrase": "此等之金豈能剋木",
+      "observationClass": "noncutting-metal-symbol",
+      "historicalQualification": "literal-cutting-not-asserted",
+      "examples": [
+        "jewellery",
+        "gold/silver ingots",
+        "silver cup/plate",
+        "tin",
+        "copper/iron scraps"
+      ],
+      "automaticObjectRecognition": false,
+      "numericWeight": null,
+      "empiricalEffectEstablished": false
+    },
+    {
+      "id": "cutting-metal",
+      "bodyElement": "Mộc",
+      "otherElement": "Kim",
+      "evidencePDFPages": [
+        110
+      ],
+      "printedBoundedPhrase": "快刀銳刃巨斧大鋸",
+      "observationClass": "cutting-implement",
+      "historicalQualification": "stronger-asserted-control",
+      "examples": [
+        "sharp blade",
+        "large axe",
+        "large saw"
+      ],
+      "automaticObjectRecognition": false,
+      "numericWeight": null,
+      "empiricalEffectEstablished": false
+    },
+    {
+      "id": "true-water-fire",
+      "bodyElement": "Hỏa",
+      "otherElement": "Thủy",
+      "evidencePDFPages": [
+        110
+      ],
+      "printedBoundedPhrase": "見真水能剋",
+      "observationClass": "literal-water",
+      "historicalQualification": "asserted-control",
+      "examples": [
+        "true water"
+      ],
+      "automaticObjectRecognition": false,
+      "numericWeight": null,
+      "empiricalEffectEstablished": false
+    },
+    {
+      "id": "water-colour-form",
+      "bodyElement": "Hỏa",
+      "otherElement": "Thủy",
+      "evidencePDFPages": [
+        110
+      ],
+      "printedBoundedPhrase": "黑者見體之濕者與夫血之類",
+      "observationClass": "water-associated-symbol",
+      "historicalQualification": "not-deep-harm-assertion",
+      "examples": [
+        "black colour",
+        "wet form",
+        "blood"
+      ],
+      "automaticObjectRecognition": false,
+      "numericWeight": null,
+      "empiricalEffectEstablished": false
+    },
+    {
+      "id": "soil-metal",
+      "bodyElement": "Kim",
+      "otherElement": "Thổ",
+      "evidencePDFPages": [
+        110
+      ],
+      "printedBoundedPhrase": "土能生金",
+      "observationClass": "soil",
+      "historicalQualification": "asserted-support",
+      "examples": [
+        "soil"
+      ],
+      "automaticObjectRecognition": false,
+      "numericWeight": null,
+      "empiricalEffectEstablished": false
+    },
+    {
+      "id": "pottery-metal",
+      "bodyElement": "Kim",
+      "otherElement": "Thổ",
+      "evidencePDFPages": [
+        110
+      ],
+      "printedBoundedPhrase": "瓦不能生也",
+      "observationClass": "pottery-earth-symbol",
+      "historicalQualification": "literal-support-not-asserted",
+      "examples": [
+        "pottery/tile"
+      ],
+      "automaticObjectRecognition": false,
+      "numericWeight": null,
+      "empiricalEffectEstablished": false
+    },
+    {
+      "id": "firewood-fire",
+      "bodyElement": "Hỏa",
+      "otherElement": "Mộc",
+      "evidencePDFPages": [
+        110
+      ],
+      "printedBoundedPhrase": "柴薪生火之捷",
+      "observationClass": "cut-firewood",
+      "historicalQualification": "quicker-support-assertion",
+      "examples": [
+        "firewood"
+      ],
+      "automaticObjectRecognition": false,
+      "numericWeight": null,
+      "empiricalEffectEstablished": false
+    },
+    {
+      "id": "uncut-tree-fire",
+      "bodyElement": "Hỏa",
+      "otherElement": "Mộc",
+      "evidencePDFPages": [
+        110
+      ],
+      "printedBoundedPhrase": "樹木之未伐者生火之遲",
+      "observationClass": "uncut-standing-tree",
+      "historicalQualification": "delayed-support-assertion",
+      "examples": [
+        "uncut tree"
+      ],
+      "automaticObjectRecognition": false,
+      "numericWeight": null,
+      "empiricalEffectEstablished": false
+    },
+    {
+      "id": "true-water-wood",
+      "bodyElement": "Mộc",
+      "otherElement": "Thủy",
+      "evidencePDFPages": [
+        110
+      ],
+      "printedBoundedPhrase": "真水生木之福重",
+      "observationClass": "literal-water",
+      "historicalQualification": "greater-support-assertion",
+      "examples": [
+        "true water"
+      ],
+      "automaticObjectRecognition": false,
+      "numericWeight": null,
+      "empiricalEffectEstablished": false
+    },
+    {
+      "id": "pig-blood-wood",
+      "bodyElement": "Mộc",
+      "otherElement": "Thủy",
+      "evidencePDFPages": [
+        110
+      ],
+      "printedBoundedPhrase": "如豕如血雖坎之屬生木之類輕",
+      "observationClass": "water-associated-symbol",
+      "historicalQualification": "lighter-support-assertion",
+      "examples": [
+        "pig symbol",
+        "blood"
+      ],
+      "automaticObjectRecognition": false,
+      "numericWeight": null,
+      "empiricalEffectEstablished": false
+    }
+  ],
+  "scope": "Selected explicit contrasts from體用生剋之訣,not all external observations or an exhaustive material taxonomy. No scientific/medical/outcome validity inferred.",
+  "consumerApplied": false,
+  "completeExternalResponseRules": false
+}

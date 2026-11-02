@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-27",
+  "institution": "National ArchivesofJapan",
+  "catalogue": "https://www.digital.archives.go.jp/file/1078787",
+  "item": "https://www.digital.archives.go.jp/item/4468520",
+  "images": [
+    {
+      "canvas": 80,
+      "file": "v53/research/fortune-followup/official-080.jpg",
+      "sha256": "ef453337cd2255b4539053c78c89556ca47536ec9bd3cf476730532e63b32e37",
+      "retainedRequest": {
+        "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102812186300/iiif/M2019050811103249305_0080.jp2/full/2200,/0/native.jpg",
+        "file": "official-080.jpg",
+        "status": 200,
+        "headers": {
+          "content-type": "image/jpeg;charset=UTF-8",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive",
+          "date": "Sun, 25 Oct 2026 17:36:40 GMT",
+          "content-language": "ja",
+          "strict-transport-security": "max-age=31536000",
+          "server": "Apache",
+          "x-frame-options": "SAMEORIGIN",
+          "pragma": "no-cache",
+          "cache-control": "no-cache, no-store",
+          "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+          "content-security-policy": "frame-ancestors 'self'",
+          "access-control-allow-origin": "*",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 07d9077f3449135d04c033a5467c80bc.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LAX53-P5",
+          "x-amz-cf-id": "eAMMUT4-u3txhNyDlODJgCK4_y12PxEUqnjEWZK-hGXk5eXtKetr7g=="
+        },
+        "tls": {
+          "authorized": true,
+          "protocol": "TLSv1.3"
+        },
+        "bytes": 509972,
+        "sha256": "ef453337cd2255b4539053c78c89556ca47536ec9bd3cf476730532e63b32e37",
+        "retrievedUTC": "2026-10-25T17:36:46.570Z"
+      }
+    },
+    {
+      "canvas": 81,
+      "file": "v53/research/fortune-table/official-081.jpg",
+      "sha256": "423f7c53bebe9829452f172645dc73d5abfc31bf4e5ccb29f031edf3f5fa8151",
+      "retainedRequest": {
+        "file": "official-081.jpg",
+        "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102812186400/iiif/M2019050811103249305_0081.jp2/full/2200,/0/native.jpg",
+        "status": 200,
+        "headers": {
+          "content-type": "image/jpeg;charset=UTF-8",
+          "transfer-encoding": "chunked",
+          "connection": "keep-alive",
+          "date": "Mon, 26 Oct 2026 02:46:09 GMT",
+          "content-language": "ja",
+          "strict-transport-security": "max-age=31536000",
+          "server": "Apache",
+          "x-frame-options": "SAMEORIGIN",
+          "pragma": "no-cache",
+          "cache-control": "no-cache, no-store",
+          "expires": "Thu, 01 Dec 1994 16:00:00 GMT",
+          "content-security-policy": "frame-ancestors 'self'",
+          "access-control-allow-origin": "*",
+          "x-cache": "Miss from cloudfront",
+          "via": "1.1 07d9077f3449135d04c033a5467c80bc.cloudfront.net (CloudFront)",
+          "x-amz-cf-pop": "LAX53-P5",
+          "x-amz-cf-id": "Gr3iz6xg7Ot7co5RFMjDJNMyKpiRwOAV_D4kMJWmhAow6xnRUVCKvQ=="
+        },
+        "tls": {
+          "authorized": true,
+          "protocol": "TLSv1.3"
+        },
+        "bytes": 516697,
+        "sha256": "423f7c53bebe9829452f172645dc73d5abfc31bf4e5ccb29f031edf3f5fa8151",
+        "retrievedUTC": "2026-10-26T02:46:14.726Z",
+        "sequenceNumber": 81,
+        "canvas": "https://www.digital.archives.go.jp/api/iiif/4468520/canvas/C102812186400",
+        "unrestricted": true,
+        "derivative": "Full spread rendered by the institution IIIF service at 2200 pixels width; not original JP2 bytes."
+      }
+    }
+  ],
+  "retainedManifest": "v53/research/fortune-followup/official-manifest.json",
+  "retainedManifestSHA256": "732991ca47aefc323ea2095a93202fd301421ad8b92994c63caae2a94acf75af",
+  "runtimeTarball": "v46/evidence/npm/iztro-2.6.2.tgz",
+  "runtimeTarballSHA256": "d44e96631c0506424c3aef25a7bba8e43e01729102d6a703720cbe224aec5403",
+  "runtime": [
+    {
+      "file": "v46/node_modules/iztro/lib/astro/astro.js",
+      "bytes": 23054,
+      "sha256": "f22ef4e13902c489fcbbc340bb685ed5dce350f7794f2856daf43aa3308a1100",
+      "byteIdenticalToRetainedPackage": true
+    },
+    {
+      "file": "v46/node_modules/iztro/lib/data/earthlyBranches.js",
+      "bytes": 4128,
+      "sha256": "010ebb6525d01221e65beac172051b6ad5502d65d936912092f452d68c87fc52",
+      "byteIdenticalToRetainedPackage": true
+    },
+    {
+      "file": "v46/node_modules/iztro/lib/data/stars.js",
+      "bytes": 3827,
+      "sha256": "b091a7b3a6bbf75ebba20e41d352bf023068a3a449303f75acec2b2bae8831c0",
+      "byteIdenticalToRetainedPackage": true
+    },
+    {
+      "file": "v46/node_modules/iztro/package.json",
+      "bytes": 2650,
+      "sha256": "e0250813ee16ed518ab358bcadd7efb4412f86dde3d47d12a8392009d5488cff",
+      "byteIdenticalToRetainedPackage": true
+    }
+  ],
+  "newHTTPRequests": 0,
+  "newOriginalContainers": 0,
+  "newSourcePages": 0,
+  "expandedPreviouslyReadPages": 2,
+  "nativeQACrops": 2,
+  "sourceTier": "Targeted readingofretainedinstitutionalimage-derivatives;noindependentneweditionororiginalJP2.",
+  "publicWebsiteChanged": false,
+  "sourceOutcomesValidated": false
+}

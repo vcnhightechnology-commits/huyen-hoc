@@ -1,0 +1,283 @@
+{
+  "date": "2026-10-28",
+  "status": "staged-bounded-question-intent-reference-and19further-first-pass-spans-verified",
+  "checks": [
+    {
+      "name": "Retained PDF,37 actual inspected positions and3 high-resolution QA images preserve exact recorded hashes and non-rule leaf distinctions",
+      "ok": true
+    },
+    {
+      "name": "Printed 臨→師 executes2 actual HHC figure calls and independently matches6 source kin/branch labels,Self2/Response5 and first-line巳→寅",
+      "ok": true
+    },
+    {
+      "name": "School/stipend/court/military/recruitment contexts distinguish intended role and local priority without adopting blanket presence rules",
+      "ok": true
+    },
+    {
+      "name": "Practitioner asking own status differs from explicit other practitioner;five listed petition motives remain unencoded instead of silently inheriting status rules",
+      "ok": true
+    },
+    {
+      "name": "Every named context requires explicit subject/question/intent;named ranks require explicit source question and never yield actual rank or a numeric element adapter",
+      "ok": true
+    },
+    {
+      "name": "Malformed/aliased/implicit premises are rejected;source roles project original and changed coordinates separately without mutating caller or adding strength/outcome guesses",
+      "ok": true
+    },
+    {
+      "name": "19 further chapter spans preserve repeated55 and volume4/5 boundary;chapter68 and all conditional application stay open",
+      "ok": true
+    },
+    {
+      "name": "Released3549-file research package and consumer engine/HTML retain byte-identical intended behavior;source-only staging is absent from site",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "actualHHCHexCalls": 2,
+    "printedCastFixtures": 1,
+    "sourceKinBranchLabels": 6,
+    "sourceChangedBranchLabels": 1,
+    "namedSourceContexts": 19,
+    "listedPetitionIntentsNotEncoded": 5,
+    "explicitMissingScopeCases": 58,
+    "newViewedSourcePositions": 37,
+    "contentPositions": 34,
+    "nonRuleLeaves": 3,
+    "firstPassSpansAdded": 19,
+    "boundedSourceClauses": 31,
+    "highResolutionQAViewed": 3,
+    "newHTTPRequests": 0,
+    "newOriginalContainers": 0
+  },
+  "fixtureProjection": {
+    "system": "b02-ch055-literary",
+    "subject": "self",
+    "question": "provincial-metropolitan-examination",
+    "intent": "examination",
+    "rank": null,
+    "sourcePages": [
+      267,
+      268,
+      269,
+      270,
+      271,
+      272,
+      273,
+      274
+    ],
+    "sourceVoice": "source heading and nearby passage",
+    "questionScope": {
+      "complete": true,
+      "missing": []
+    },
+    "chart": {
+      "schema": "hhc.liuyao.structural-chart.v1",
+      "orientation": "bottom-to-top",
+      "input": [
+        9,
+        7,
+        8,
+        8,
+        8,
+        8
+      ],
+      "primary": {
+        "number": 19,
+        "normalizedName": "地澤臨",
+        "palace": "坤",
+        "palaceTrigram": 8,
+        "palaceElement": "土",
+        "stage": "二世",
+        "stageIndex": 2,
+        "shi": 2,
+        "ying": 5,
+        "bits": [
+          1,
+          1,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "changed": {
+        "number": 7,
+        "normalizedName": "地水師",
+        "bits": [
+          0,
+          1,
+          0,
+          0,
+          0,
+          0
+        ],
+        "ownPalaceDiagnostic": "坎",
+        "ownPalaceElementDiagnostic": "水",
+        "annotationKinBasisPalace": "坤",
+        "shiYingReassigned": false
+      },
+      "dayStem": null,
+      "lines": [
+        {
+          "line": 1,
+          "stem": "丁",
+          "branch": "巳",
+          "element": "火",
+          "kin": "父母",
+          "kinBasisPalace": "坤",
+          "value": 9,
+          "polarity": 1,
+          "moving": true,
+          "role": null,
+          "spirit": null,
+          "changed": {
+            "line": 1,
+            "stem": "戊",
+            "branch": "寅",
+            "element": "木",
+            "kin": "官鬼",
+            "kinBasisPalace": "坤",
+            "polarity": 0
+          }
+        },
+        {
+          "line": 2,
+          "stem": "丁",
+          "branch": "卯",
+          "element": "木",
+          "kin": "官鬼",
+          "kinBasisPalace": "坤",
+          "value": 7,
+          "polarity": 1,
+          "moving": false,
+          "role": "世",
+          "spirit": null,
+          "changed": null
+        },
+        {
+          "line": 3,
+          "stem": "丁",
+          "branch": "丑",
+          "element": "土",
+          "kin": "兄弟",
+          "kinBasisPalace": "坤",
+          "value": 8,
+          "polarity": 0,
+          "moving": false,
+          "role": null,
+          "spirit": null,
+          "changed": null
+        },
+        {
+          "line": 4,
+          "stem": "癸",
+          "branch": "丑",
+          "element": "土",
+          "kin": "兄弟",
+          "kinBasisPalace": "坤",
+          "value": 8,
+          "polarity": 0,
+          "moving": false,
+          "role": null,
+          "spirit": null,
+          "changed": null
+        },
+        {
+          "line": 5,
+          "stem": "癸",
+          "branch": "亥",
+          "element": "水",
+          "kin": "妻財",
+          "kinBasisPalace": "坤",
+          "value": 8,
+          "polarity": 0,
+          "moving": false,
+          "role": "應",
+          "spirit": null,
+          "changed": null
+        },
+        {
+          "line": 6,
+          "stem": "癸",
+          "branch": "酉",
+          "element": "金",
+          "kin": "子孫",
+          "kinBasisPalace": "坤",
+          "value": 8,
+          "polarity": 0,
+          "moving": false,
+          "role": null,
+          "spirit": null,
+          "changed": null
+        }
+      ],
+      "movingLines": [
+        1
+      ],
+      "scope": "structural-source-reference-only",
+      "consumerApplied": false,
+      "predictedEvent": null,
+      "missingPremises": [
+        "用神selection",
+        "飛伏rules",
+        "calendar month/day boundaries",
+        "旺衰/旬空conditionalrules",
+        "full source exceptions",
+        "outcome validation"
+      ]
+    },
+    "candidateRoleGroups": [
+      {
+        "id": "writing",
+        "kin": "父母",
+        "purpose": "literary examination",
+        "sourceLocalPriority": "unspecified",
+        "originalLines": [
+          1
+        ],
+        "changedLines": []
+      },
+      {
+        "id": "exam-status",
+        "kin": "官鬼",
+        "purpose": "exam status",
+        "sourceLocalPriority": "unspecified",
+        "originalLines": [
+          2
+        ],
+        "changedLines": [
+          1
+        ]
+      }
+    ],
+    "sourceSubcontextRolesExtracted": true,
+    "unknownReason": null,
+    "sourceNamedRankQuestion": null,
+    "sourceGeographyAdapter": null,
+    "sourceBodySymbolEqualsSelf": null,
+    "sourceStrength": null,
+    "effectiveActivity": null,
+    "useLineSelected": null,
+    "practicalOutcome": null,
+    "examResult": null,
+    "officeResult": null,
+    "actualRank": null,
+    "financialResult": null,
+    "healthResult": null,
+    "lifespan": null,
+    "legalResult": null,
+    "engineeringSafety": null,
+    "chronologicalDateAdapter": null,
+    "symbolicKinIsBiologicalIdentity": false,
+    "automaticIntentInference": false,
+    "occupationInferred": false,
+    "consumerApplied": false
+  },
+  "fullConditionalRulesEncoded": false,
+  "sourceOutcomesValidated": false,
+  "wholeCatalogueCompleted": false,
+  "consumerChanged": false
+}

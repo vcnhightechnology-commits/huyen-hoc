@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-29",
+  "source": "v53/research/bazi-food-source/CONTEXTS.json",
+  "sourceSHA256": "c9179c1421a4521ce9bd0f5d48ab05e28a6a9ed11daf462927ad777343be0f68",
+  "records": [
+    {
+      "id": "FOOD-05-C02",
+      "unit": "FOOD-05",
+      "heading": "食神同窠",
+      "startCleanCodepoint": 4,
+      "endCleanCodepoint": 26,
+      "text": "謂甲食丙甲子人見丙子之類十三位即同乃本家物也",
+      "digitalFolios": [
+        "005-97a"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "main",
+      "disposition": "thirteen-position-example",
+      "readingNote": "十三位 và 甲子→丙子; không tự gắn mọi anchor là ngày/năm nếu chưa xác lập phạm vi.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-05-C03",
+      "unit": "FOOD-05",
+      "heading": "食神同窠",
+      "startCleanCodepoint": 26,
+      "endCleanCodepoint": 92,
+      "text": "得此者不貴即富月不如日日不如時若互換生旺帶禄貴者大貴如韓魏公戊申庚申庚辰庚辰宋秦檜庚午己丑乙卯壬午又明王崇古少保乙亥辛巳戊申庚申是也",
+      "digitalFolios": [
+        "005-97a",
+        "005-97b"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "main",
+      "disposition": "position-and-source-examples",
+      "readingNote": "月不如日/日不如時, hỗ hoán/sinh vượng/lộc quý và ba ví dụ bốn trụ; thành tựu lịch sử chưa kiểm.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    }
+  ],
+  "manualImageC03": "得此者不貴即富月不如日日不如時若互換生旺帶祿貴者大貴如韓魏公戊申庚申庚辰庚辰宋秦檜庚午己丑乙卯壬午又明王崇古少保乙亥辛巳戊申庚申是也",
+  "imageDigitalGlyphDifference": [
+    {
+      "image": "祿",
+      "digital": "禄",
+      "normalizationAppliedToCorpus": false
+    }
+  ],
+  "allC03TextImageCollatedInThisScope": true,
+  "allC03ConditionsImplemented": false
+}

@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-29",
+  "tests": {
+    "bazi-life-stage": {
+      "date": "2026-10-29",
+      "passed": true,
+      "groups": 8,
+      "sourceOrders": 2,
+      "definedQuotedStages": 12,
+      "mainAndQuotedLiteralTermQueries": 24,
+      "explicitAliasQueries": 4,
+      "acceptedAliasTokens": 4,
+      "editorialAlignmentsNotAcceptedAsAliases": 2,
+      "unsupportedQueriesReturnedNull": 19,
+      "nonPredictionInvariants": 300,
+      "sourceOrdinalAlignmentChecks": 12,
+      "preimplementationFilesUnchanged": 3,
+      "retainedActualLunarTableReads": 1,
+      "newEngineCallsDuringTests": 0,
+      "consumerChanged": false,
+      "wholeChapterApplied": false
+    },
+    "bazi-ten-stem-life": {
+      "date": "2026-10-29",
+      "passed": true,
+      "groups": 6,
+      "declaredStemBranchFrames": 120,
+      "explicitlyListedSourceCoordinates": 20,
+      "unlistedNotFalse": 100,
+      "unsupportedFramesRejected": 8,
+      "retainedActualMethodCallsVerified": 20,
+      "newEngineCallsDuringTests": 0,
+      "actualNatalCharts": 0,
+      "fullTwelveStageMatrixInferred": false,
+      "sourceAlternateVoicesMerged": false,
+      "consumerChanged": false
+    }
+  },
+  "continuousFirstPassPages": 27,
+  "editorialUnits": 16,
+  "wholeChapterApplied": false,
+  "wholeCatalogueCompleted": false,
+  "consumerChanged": false,
+  "oldV53FilesUnchanged": 5785,
+  "manifestFiles": 5863,
+  "sourceZIPEntries": 5864,
+  "newEngineCallsDuringVerification": 0
+}

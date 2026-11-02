@@ -1,0 +1,88 @@
+{
+  "date": "2026-10-28",
+  "system": "B03-book2-p39-two-moving-raises-one",
+  "sourcePDFPage": 39,
+  "literalReading": "三刑三合之法必須見全有兩爻動則刑合得一爻起如一爻動則刑合不得兩爻起了如卦中刑合縱見全倘俱安靜便不成刑合了如此占驗就明白曉暢矣",
+  "sourcePunctuationEditorial": true,
+  "groups": [
+    {
+      "id": "water-trine",
+      "kind": "三合",
+      "members": [
+        "申",
+        "子",
+        "辰"
+      ]
+    },
+    {
+      "id": "fire-trine",
+      "kind": "三合",
+      "members": [
+        "寅",
+        "午",
+        "戌"
+      ]
+    },
+    {
+      "id": "metal-trine",
+      "kind": "三合",
+      "members": [
+        "巳",
+        "酉",
+        "丑"
+      ]
+    },
+    {
+      "id": "wood-trine",
+      "kind": "三合",
+      "members": [
+        "亥",
+        "卯",
+        "未"
+      ]
+    },
+    {
+      "id": "tiger-snake-monkey",
+      "kind": "三刑",
+      "members": [
+        "寅",
+        "巳",
+        "申"
+      ]
+    },
+    {
+      "id": "ox-dog-goat",
+      "kind": "三刑",
+      "members": [
+        "丑",
+        "戌",
+        "未"
+      ]
+    }
+  ],
+  "clauses": [
+    {
+      "id": "complete",
+      "literal": "必須見全",
+      "operation": "three distinct members required within the declared witness"
+    },
+    {
+      "id": "two",
+      "literal": "有兩爻動則刑合得一爻起",
+      "operation": "two active and one inactive coordinate only; target is the inactive member"
+    },
+    {
+      "id": "one",
+      "literal": "如一爻動則刑合不得兩爻起了",
+      "operation": "one active cannot raise two inactive members by this clause"
+    },
+    {
+      "id": "zero",
+      "literal": "倘俱安靜便不成刑合了",
+      "operation": "all confirmed inactive do not pass this local clause"
+    }
+  ],
+  "allThreeActiveAddressedByThisPassage": false,
+  "activeFactsAutomaticallyComputedFromCalendar": false,
+  "fullStrengthOrFormationImplemented": false
+}

@@ -1,0 +1,432 @@
+{
+  "date": "2026-10-27",
+  "clauses": [
+    {
+      "id": "M1",
+      "role": "元神",
+      "kind": "effective",
+      "pdfPage": 52,
+      "boundedParaphrase": "Strong,atday/month,or supported by day/month/moving lines.",
+      "expression": {
+        "any": [
+          "strong",
+          "atDayMonth",
+          "supportedByDayMonthOrMoving"
+        ]
+      },
+      "consumerApplied": false
+    },
+    {
+      "id": "M2",
+      "role": "元神",
+      "kind": "effective",
+      "pdfPage": 52,
+      "boundedParaphrase": "Moving into return-generation or advancement.",
+      "expression": {
+        "all": [
+          "active",
+          {
+            "any": [
+              "changedReturnGeneration",
+              "changedAdvance"
+            ]
+          }
+        ]
+      },
+      "consumerApplied": false
+    },
+    {
+      "id": "M3",
+      "role": "元神",
+      "kind": "effective",
+      "pdfPage": 52,
+      "boundedParaphrase": "Long-life or imperial-prosperity phase relative to the day.",
+      "expression": "dayLongLifeOrImperialProsperity",
+      "consumerApplied": false
+    },
+    {
+      "id": "M4",
+      "role": "元神",
+      "kind": "effective",
+      "pdfPage": 52,
+      "boundedParaphrase": "元神and忌神bothactive.",
+      "expression": {
+        "all": [
+          "active",
+          "opposingActive"
+        ]
+      },
+      "consumerApplied": false
+    },
+    {
+      "id": "M5",
+      "role": "元神",
+      "kind": "effective",
+      "pdfPage": 52,
+      "boundedParaphrase": "Strong and active while void or changing to void.",
+      "expression": {
+        "all": [
+          "strong",
+          "active",
+          {
+            "any": [
+              "void",
+              "changedVoid"
+            ]
+          }
+        ]
+      },
+      "consumerApplied": false
+    },
+    {
+      "id": "MN1",
+      "role": "元神",
+      "kind": "ineffective",
+      "pdfPage": 53,
+      "boundedParaphrase": "Weak and inactive,or active/weak/attacked.",
+      "expression": {
+        "any": [
+          {
+            "all": [
+              "weak",
+              {
+                "not": "active"
+              }
+            ]
+          },
+          {
+            "all": [
+              "active",
+              "weak",
+              "attackedByDayMonthOrMoving"
+            ]
+          }
+        ]
+      },
+      "consumerApplied": false
+    },
+    {
+      "id": "MN2",
+      "role": "元神",
+      "kind": "ineffective",
+      "pdfPage": 53,
+      "boundedParaphrase": "Weak and void or month-broken.",
+      "expression": {
+        "all": [
+          "weak",
+          {
+            "any": [
+              "void",
+              "monthBroken"
+            ]
+          }
+        ]
+      },
+      "consumerApplied": false
+    },
+    {
+      "id": "MN3",
+      "role": "元神",
+      "kind": "ineffective",
+      "pdfPage": 53,
+      "boundedParaphrase": "Weak active line changes into retreat.",
+      "expression": {
+        "all": [
+          "weak",
+          "active",
+          "changedRetreat"
+        ]
+      },
+      "consumerApplied": false
+    },
+    {
+      "id": "MN4",
+      "role": "元神",
+      "kind": "ineffective",
+      "pdfPage": 53,
+      "boundedParaphrase": "Weak and extinct.",
+      "expression": {
+        "all": [
+          "weak",
+          "extinct"
+        ]
+      },
+      "consumerApplied": false
+    },
+    {
+      "id": "MN5",
+      "role": "元神",
+      "kind": "ineffective",
+      "pdfPage": 53,
+      "boundedParaphrase": "Entering one of the three tomb contexts.",
+      "expression": "inThreeTombs",
+      "consumerApplied": false
+    },
+    {
+      "id": "MN6",
+      "role": "元神",
+      "kind": "ineffective",
+      "pdfPage": 53,
+      "boundedParaphrase": "Weak active line changes into extinction,control,break orscatter.",
+      "expression": {
+        "all": [
+          "weak",
+          "active",
+          {
+            "any": [
+              "changedExtinction",
+              "changedReturnControl",
+              "changedBreak",
+              "changedScatter"
+            ]
+          }
+        ]
+      },
+      "consumerApplied": false
+    },
+    {
+      "id": "K1",
+      "role": "忌神",
+      "kind": "effective",
+      "pdfPage": 53,
+      "boundedParaphrase": "Strong,supported,or atday/month.",
+      "expression": {
+        "any": [
+          "strong",
+          "supportedByDayMonthOrMoving",
+          "atDayMonth"
+        ]
+      },
+      "consumerApplied": false
+    },
+    {
+      "id": "K2",
+      "role": "忌神",
+      "kind": "effective",
+      "pdfPage": 53,
+      "boundedParaphrase": "Moving into return-generation or advancement.",
+      "expression": {
+        "all": [
+          "active",
+          {
+            "any": [
+              "changedReturnGeneration",
+              "changedAdvance"
+            ]
+          }
+        ]
+      },
+      "consumerApplied": false
+    },
+    {
+      "id": "K3",
+      "role": "忌神",
+      "kind": "effective",
+      "pdfPage": 53,
+      "boundedParaphrase": "Strong active line is void or changing to void.",
+      "expression": {
+        "all": [
+          "strong",
+          "active",
+          {
+            "any": [
+              "void",
+              "changedVoid"
+            ]
+          }
+        ]
+      },
+      "consumerApplied": false
+    },
+    {
+      "id": "K4",
+      "role": "忌神",
+      "kind": "effective",
+      "pdfPage": 53,
+      "boundedParaphrase": "Day-relative long-life/imperial-prosperity phase.",
+      "expression": "dayLongLifeOrImperialProsperity",
+      "consumerApplied": false
+    },
+    {
+      "id": "K5",
+      "role": "忌神",
+      "kind": "effective",
+      "pdfPage": 53,
+      "boundedParaphrase": "忌神and仇神bothactive.",
+      "expression": {
+        "all": [
+          "active",
+          "enemyActive"
+        ]
+      },
+      "consumerApplied": false
+    },
+    {
+      "id": "KN1",
+      "role": "忌神",
+      "kind": "ineffective",
+      "pdfPage": 53,
+      "boundedParaphrase": "Weak inactive,or moving weak and attacked.",
+      "expression": {
+        "any": [
+          {
+            "all": [
+              "weak",
+              {
+                "not": "active"
+              }
+            ]
+          },
+          {
+            "all": [
+              "active",
+              "weak",
+              "attackedByDayMonthOrMoving"
+            ]
+          }
+        ]
+      },
+      "consumerApplied": false
+    },
+    {
+      "id": "KN2",
+      "role": "忌神",
+      "kind": "ineffective",
+      "pdfPage": 53,
+      "boundedParaphrase": "Inactive and void or month-broken.",
+      "expression": {
+        "all": [
+          {
+            "not": "active"
+          },
+          {
+            "any": [
+              "void",
+              "monthBroken"
+            ]
+          }
+        ]
+      },
+      "consumerApplied": false
+    },
+    {
+      "id": "KN3",
+      "role": "忌神",
+      "kind": "ineffective",
+      "pdfPage": 53,
+      "boundedParaphrase": "Entering one of the three tomb contexts.",
+      "expression": "inThreeTombs",
+      "consumerApplied": false
+    },
+    {
+      "id": "KN4",
+      "role": "忌神",
+      "kind": "ineffective",
+      "pdfPage": 53,
+      "boundedParaphrase": "Weak active line changing into retreat.",
+      "expression": {
+        "all": [
+          "weak",
+          "active",
+          "changedRetreat"
+        ]
+      },
+      "consumerApplied": false
+    },
+    {
+      "id": "KN5",
+      "role": "忌神",
+      "kind": "ineffective",
+      "pdfPage": 53,
+      "boundedParaphrase": "Weak and extinct.",
+      "expression": {
+        "all": [
+          "weak",
+          "extinct"
+        ]
+      },
+      "consumerApplied": false
+    },
+    {
+      "id": "KN6",
+      "role": "忌神",
+      "kind": "ineffective",
+      "pdfPage": 53,
+      "boundedParaphrase": "Active line changes into extinction,control,break orscatter.",
+      "expression": {
+        "all": [
+          "active",
+          {
+            "any": [
+              "changedExtinction",
+              "changedReturnControl",
+              "changedBreak",
+              "changedScatter"
+            ]
+          }
+        ]
+      },
+      "consumerApplied": false
+    },
+    {
+      "id": "KN7",
+      "role": "忌神",
+      "kind": "ineffective",
+      "pdfPage": 53,
+      "boundedParaphrase": "忌神and元神bothactive.",
+      "expression": {
+        "all": [
+          "active",
+          "originActive"
+        ]
+      },
+      "consumerApplied": false
+    }
+  ],
+  "factualInputs": [
+    "strong",
+    "atDayMonth",
+    "supportedByDayMonthOrMoving",
+    "dayLongLifeOrImperialProsperity",
+    "void",
+    "weak",
+    "attackedByDayMonthOrMoving",
+    "monthBroken",
+    "extinct",
+    "inThreeTombs",
+    "changedAdvance",
+    "changedRetreat",
+    "changedBreak",
+    "changedScatter",
+    "changedExtinction",
+    "darkMovement",
+    "originActive",
+    "opposingActive",
+    "enemyActive",
+    "useHasQi",
+    "changedVoid"
+  ],
+  "derivedInputs": [
+    "active",
+    "changedReturnGeneration",
+    "changedReturnControl"
+  ],
+  "changedVoidPolicy": "Notderivedfromunchartedcalendar;providedseparatelyasresearchfactwhereanactualmovinglineexists.",
+  "counterexample": {
+    "pdfPages": [
+      50,
+      51
+    ],
+    "meaning": "忌神寅wood暗動and元神午firemoving canformwood→fire→earthusechain;notwooddirectlyharmsuseinallcontexts."
+  },
+  "globalQualification": {
+    "pdfPages": [
+      53,
+      54
+    ],
+    "meaning": "Effectiveness of元/忌stilldepends on用神有氣/無根;conditions do not imply an outcome when useful-god root/qi is unspecified."
+  },
+  "unknownPolicy": "Missingpremiseisunknown. Concurrenteffective/ineffective matches stay unresolved;no source priority/score invented.",
+  "calendarAndStrengthClassifiersImplemented": false,
+  "outcomeAccuracyEstablished": false
+}

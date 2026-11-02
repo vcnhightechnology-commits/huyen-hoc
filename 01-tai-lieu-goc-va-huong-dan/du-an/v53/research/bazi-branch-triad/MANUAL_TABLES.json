@@ -1,0 +1,117 @@
+{
+  "schema": "hhc.bazi.branch-triad.tables.v1",
+  "date": "2026-10-29",
+  "sourceID": "tmth002-cadal06066038-branch-triad",
+  "frameID": "declared-four-branch-slots-no-birth-date",
+  "groups": [
+    {
+      "id": "water",
+      "branches": [
+        "申",
+        "子",
+        "辰"
+      ],
+      "element": "水",
+      "sourceRoleForBingDing": "官局",
+      "threeBranchGroup": true
+    },
+    {
+      "id": "metal",
+      "branches": [
+        "巳",
+        "酉",
+        "丑"
+      ],
+      "element": "金",
+      "sourceRoleForBingDing": "財",
+      "threeBranchGroup": true
+    },
+    {
+      "id": "fire",
+      "branches": [
+        "寅",
+        "午",
+        "戌"
+      ],
+      "element": "火",
+      "sourceRoleForBingDing": "本局",
+      "threeBranchGroup": true
+    },
+    {
+      "id": "wood",
+      "branches": [
+        "亥",
+        "卯",
+        "未"
+      ],
+      "element": "木",
+      "sourceRoleForBingDing": "印",
+      "threeBranchGroup": true
+    },
+    {
+      "id": "four-earth",
+      "branches": [
+        "辰",
+        "戌",
+        "丑",
+        "未"
+      ],
+      "element": "土",
+      "sourceRoleForBingDing": "傷局",
+      "threeBranchGroup": false
+    }
+  ],
+  "completenessLiteral": "若三字缺其一則化不成局不可以三合化局論",
+  "completenessLimit": "Missing a required branch excludes the selected three-branch reading in this source; complete coordinate presence is necessary and does not determine effective transformation. Earth is a separately named four-branch group.",
+  "earthLiteral": "若辰戌丑未全自作土局論",
+  "stemRoleScope": [
+    "丙",
+    "丁"
+  ],
+  "stemRoleAnchorBasis": "source-declared-birth-stem",
+  "sourceRoleLimit": "Source broad labels 印/財/本局/官局/傷局 are retained verbatim. They are not automatic equivalents of the polarity-specific TenGod names, especially 傷局 vs 食神/傷官.",
+  "threeLuClauses": [
+    {
+      "id": "bing-metal-three-lu",
+      "anchorStem": "丙",
+      "groupID": "metal",
+      "luBranch": "巳",
+      "literal": "丙人見巳酉丑"
+    },
+    {
+      "id": "ding-fire-three-lu",
+      "anchorStem": "丁",
+      "groupID": "fire",
+      "luBranch": "午",
+      "literal": "丁人見寅午戍為三位禄格"
+    }
+  ],
+  "selectedLiteralAnomalies": [
+    {
+      "where": "T03/image200",
+      "digital": "故申子申為水局",
+      "image": "故申子申為水局",
+      "disposition": "Repeated申 preserved; not silently emended to辰. Coordinate group is separately explicit in header199 and role table201."
+    },
+    {
+      "where": "T01",
+      "digital": "寅午戊",
+      "imageWorking": "寅午戌",
+      "disposition": "Selected digital/image difference; coordinate戌 also explicit in role table201. No silent change of clean text."
+    },
+    {
+      "where": "T03",
+      "digital": "辰乃子之子申乃水生子乃水旺辰乃水氣生即産",
+      "disposition": "Keep literal digital sequence; do not fill a missing stage or rewrite alleged source support to a modern formula."
+    }
+  ],
+  "deferred": [
+    "Complete effective transformation, benefic/adverse-star identification, strength, priority and real outcomes.",
+    "The source birth-stem basis is not silently the day stem or year stem; no calendar adapter.",
+    "T22 玉井 hidden-stem interaction requires strength/多見/巳宫破壞 and effective combination; no presence-only rule.",
+    "Source clock units and 精氣神 explanation do not define modern time or natal energy.",
+    "No sex, morality, appearance or class prediction on the consumer site."
+  ],
+  "wholeChapterApplied": false,
+  "sourceEfficacyValidated": false
+}

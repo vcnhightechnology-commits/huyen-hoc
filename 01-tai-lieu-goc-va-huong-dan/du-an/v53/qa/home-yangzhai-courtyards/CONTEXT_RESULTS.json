@@ -1,0 +1,447 @@
+{
+  "date": "2026-10-28",
+  "checks": [
+    {
+      "name": "Facing changes actual source ordinal; outward first layer remains unspecified",
+      "ok": true
+    },
+    {
+      "name": "Wall and door together change origin; mixed and unknown boundaries cannot seed coordinates",
+      "ok": true
+    },
+    {
+      "name": "Ten other diagrams, uncertain facing and modern storeys do not silently inherit the two clauses",
+      "ok": true
+    },
+    {
+      "name": "Explicit facts and returned copies protect source data",
+      "ok": true
+    }
+  ],
+  "cases": [
+    {
+      "caseID": "YZSS-C82",
+      "inside": {
+        "system": "YZSS-Tianyige-12-printed-courtyards",
+        "caseID": "YZSS-C82",
+        "requiredOrigin": "outer-main-gate",
+        "originMatches": true,
+        "firstRoomFacing": "inward",
+        "caseHasExplicitFacingClause": true,
+        "selectedLiteralCoordinates": [
+          {
+            "ordinal": 1,
+            "sourceElement": "水",
+            "sourceLabel": "六煞",
+            "sourceStar": "文曲",
+            "sourceSizeHeightWord": "低",
+            "evidenceKind": "literal-diagram"
+          },
+          {
+            "ordinal": 2,
+            "sourceElement": "木",
+            "sourceLabel": "生氣",
+            "sourceStar": "貪狼",
+            "sourceSizeHeightWord": "高",
+            "evidenceKind": "literal-diagram"
+          },
+          {
+            "ordinal": 3,
+            "sourceElement": "火",
+            "sourceLabel": "五鬼",
+            "sourceStar": "廉貞",
+            "sourceSizeHeightWord": "小",
+            "evidenceKind": "literal-diagram"
+          },
+          {
+            "ordinal": 4,
+            "sourceElement": "土",
+            "sourceLabel": "天乙",
+            "sourceStar": "巨門",
+            "sourceSizeHeightWord": "高",
+            "evidenceKind": "literal-diagram"
+          },
+          {
+            "ordinal": 5,
+            "sourceElement": "金",
+            "sourceLabel": "延年",
+            "sourceStar": "武曲",
+            "sourceSizeHeightWord": "高",
+            "evidenceKind": "literal-diagram"
+          }
+        ],
+        "outwardFirstLayerSpecified": false,
+        "outwardLayerOne": null,
+        "extendAfterSixth": null,
+        "unresolvedDiagramCells": [],
+        "allProseAndGeometryConditionsApplied": false,
+        "roomCenterOrSidePalaceEstablished": false,
+        "modernVerticalFloorAdapter": null,
+        "practicalHeightAdvice": null,
+        "overallRecommendation": null,
+        "consumerApplied": false
+      },
+      "outside": {
+        "system": "YZSS-Tianyige-12-printed-courtyards",
+        "caseID": "YZSS-C82",
+        "requiredOrigin": "outer-main-gate",
+        "originMatches": true,
+        "firstRoomFacing": "all-outward",
+        "caseHasExplicitFacingClause": true,
+        "selectedLiteralCoordinates": [
+          {
+            "ordinal": 2,
+            "sourceElement": "水",
+            "sourceLabel": "六煞",
+            "sourceStar": "文曲",
+            "sourceSizeHeightWord": null,
+            "evidenceKind": "literal-prose-second-through-sixth"
+          },
+          {
+            "ordinal": 3,
+            "sourceElement": "木",
+            "sourceLabel": "貪狼",
+            "sourceStar": "貪狼",
+            "sourceSizeHeightWord": null,
+            "evidenceKind": "literal-prose-second-through-sixth"
+          },
+          {
+            "ordinal": 4,
+            "sourceElement": "火",
+            "sourceLabel": "五鬼",
+            "sourceStar": "廉貞",
+            "sourceSizeHeightWord": null,
+            "evidenceKind": "literal-prose-second-through-sixth"
+          },
+          {
+            "ordinal": 5,
+            "sourceElement": "土",
+            "sourceLabel": "天乙",
+            "sourceStar": "巨門",
+            "sourceSizeHeightWord": null,
+            "evidenceKind": "literal-prose-second-through-sixth"
+          },
+          {
+            "ordinal": 6,
+            "sourceElement": "金",
+            "sourceLabel": "延年",
+            "sourceStar": "武曲",
+            "sourceSizeHeightWord": null,
+            "evidenceKind": "literal-prose-second-through-sixth"
+          }
+        ],
+        "outwardFirstLayerSpecified": false,
+        "outwardLayerOne": null,
+        "extendAfterSixth": null,
+        "unresolvedDiagramCells": [],
+        "allProseAndGeometryConditionsApplied": false,
+        "roomCenterOrSidePalaceEstablished": false,
+        "modernVerticalFloorAdapter": null,
+        "practicalHeightAdvice": null,
+        "overallRecommendation": null,
+        "consumerApplied": false
+      }
+    },
+    {
+      "caseID": "YZSS-C84",
+      "inside": {
+        "system": "YZSS-Tianyige-12-printed-courtyards",
+        "caseID": "YZSS-C84",
+        "requiredOrigin": "outer-main-gate",
+        "originMatches": true,
+        "firstRoomFacing": "inward",
+        "caseHasExplicitFacingClause": true,
+        "selectedLiteralCoordinates": [
+          {
+            "ordinal": 1,
+            "sourceElement": "木",
+            "sourceLabel": "六煞",
+            "sourceStar": "文曲",
+            "sourceSizeHeightWord": "低",
+            "evidenceKind": "literal-diagram"
+          },
+          {
+            "ordinal": 2,
+            "sourceElement": "木",
+            "sourceLabel": "生氣",
+            "sourceStar": "貪狼",
+            "sourceSizeHeightWord": "高",
+            "evidenceKind": "literal-diagram"
+          },
+          {
+            "ordinal": 3,
+            "sourceElement": "火",
+            "sourceLabel": "五鬼",
+            "sourceStar": "廉貞",
+            "sourceSizeHeightWord": "小",
+            "evidenceKind": "literal-diagram"
+          },
+          {
+            "ordinal": 4,
+            "sourceElement": "土",
+            "sourceLabel": "天乙",
+            "sourceStar": "巨門",
+            "sourceSizeHeightWord": "高",
+            "evidenceKind": "literal-diagram"
+          },
+          {
+            "ordinal": 5,
+            "sourceElement": "金",
+            "sourceLabel": "延年",
+            "sourceStar": "武曲",
+            "sourceSizeHeightWord": "高",
+            "evidenceKind": "literal-diagram"
+          },
+          {
+            "ordinal": 6,
+            "sourceElement": "木",
+            "sourceLabel": "六煞",
+            "sourceStar": "文曲",
+            "sourceSizeHeightWord": "低",
+            "evidenceKind": "literal-diagram"
+          }
+        ],
+        "outwardFirstLayerSpecified": false,
+        "outwardLayerOne": null,
+        "extendAfterSixth": null,
+        "unresolvedDiagramCells": [
+          1,
+          6
+        ],
+        "allProseAndGeometryConditionsApplied": false,
+        "roomCenterOrSidePalaceEstablished": false,
+        "modernVerticalFloorAdapter": null,
+        "practicalHeightAdvice": null,
+        "overallRecommendation": null,
+        "consumerApplied": false
+      },
+      "outside": {
+        "system": "YZSS-Tianyige-12-printed-courtyards",
+        "caseID": "YZSS-C84",
+        "requiredOrigin": "outer-main-gate",
+        "originMatches": true,
+        "firstRoomFacing": "all-outward",
+        "caseHasExplicitFacingClause": true,
+        "selectedLiteralCoordinates": [
+          {
+            "ordinal": 2,
+            "sourceElement": "水",
+            "sourceLabel": "六煞",
+            "sourceStar": "文曲",
+            "sourceSizeHeightWord": null,
+            "evidenceKind": "literal-prose-second-through-sixth"
+          },
+          {
+            "ordinal": 3,
+            "sourceElement": "木",
+            "sourceLabel": "貪狼",
+            "sourceStar": "貪狼",
+            "sourceSizeHeightWord": null,
+            "evidenceKind": "literal-prose-second-through-sixth"
+          },
+          {
+            "ordinal": 4,
+            "sourceElement": "火",
+            "sourceLabel": "五鬼",
+            "sourceStar": "廉貞",
+            "sourceSizeHeightWord": null,
+            "evidenceKind": "literal-prose-second-through-sixth"
+          },
+          {
+            "ordinal": 5,
+            "sourceElement": "土",
+            "sourceLabel": "天乙",
+            "sourceStar": "巨門",
+            "sourceSizeHeightWord": null,
+            "evidenceKind": "literal-prose-second-through-sixth"
+          },
+          {
+            "ordinal": 6,
+            "sourceElement": "金",
+            "sourceLabel": "延年",
+            "sourceStar": "武曲",
+            "sourceSizeHeightWord": null,
+            "evidenceKind": "literal-prose-second-through-sixth"
+          }
+        ],
+        "outwardFirstLayerSpecified": false,
+        "outwardLayerOne": null,
+        "extendAfterSixth": null,
+        "unresolvedDiagramCells": [],
+        "allProseAndGeometryConditionsApplied": false,
+        "roomCenterOrSidePalaceEstablished": false,
+        "modernVerticalFloorAdapter": null,
+        "practicalHeightAdvice": null,
+        "overallRecommendation": null,
+        "consumerApplied": false
+      }
+    },
+    {
+      "hasWall": true,
+      "hasDoor": true,
+      "declaredOrigin": "current-enclosure",
+      "selected": true
+    },
+    {
+      "hasWall": true,
+      "hasDoor": true,
+      "declaredOrigin": "outer-main-gate",
+      "selected": false
+    },
+    {
+      "hasWall": true,
+      "hasDoor": true,
+      "declaredOrigin": "unknown",
+      "selected": false
+    },
+    {
+      "hasWall": true,
+      "hasDoor": false,
+      "declaredOrigin": "current-enclosure",
+      "selected": false
+    },
+    {
+      "hasWall": true,
+      "hasDoor": false,
+      "declaredOrigin": "outer-main-gate",
+      "selected": false
+    },
+    {
+      "hasWall": true,
+      "hasDoor": false,
+      "declaredOrigin": "unknown",
+      "selected": false
+    },
+    {
+      "hasWall": true,
+      "hasDoor": null,
+      "declaredOrigin": "current-enclosure",
+      "selected": false
+    },
+    {
+      "hasWall": true,
+      "hasDoor": null,
+      "declaredOrigin": "outer-main-gate",
+      "selected": false
+    },
+    {
+      "hasWall": true,
+      "hasDoor": null,
+      "declaredOrigin": "unknown",
+      "selected": false
+    },
+    {
+      "hasWall": false,
+      "hasDoor": true,
+      "declaredOrigin": "current-enclosure",
+      "selected": false
+    },
+    {
+      "hasWall": false,
+      "hasDoor": true,
+      "declaredOrigin": "outer-main-gate",
+      "selected": false
+    },
+    {
+      "hasWall": false,
+      "hasDoor": true,
+      "declaredOrigin": "unknown",
+      "selected": false
+    },
+    {
+      "hasWall": false,
+      "hasDoor": false,
+      "declaredOrigin": "current-enclosure",
+      "selected": false
+    },
+    {
+      "hasWall": false,
+      "hasDoor": false,
+      "declaredOrigin": "outer-main-gate",
+      "selected": true
+    },
+    {
+      "hasWall": false,
+      "hasDoor": false,
+      "declaredOrigin": "unknown",
+      "selected": false
+    },
+    {
+      "hasWall": false,
+      "hasDoor": null,
+      "declaredOrigin": "current-enclosure",
+      "selected": false
+    },
+    {
+      "hasWall": false,
+      "hasDoor": null,
+      "declaredOrigin": "outer-main-gate",
+      "selected": false
+    },
+    {
+      "hasWall": false,
+      "hasDoor": null,
+      "declaredOrigin": "unknown",
+      "selected": false
+    },
+    {
+      "hasWall": null,
+      "hasDoor": true,
+      "declaredOrigin": "current-enclosure",
+      "selected": false
+    },
+    {
+      "hasWall": null,
+      "hasDoor": true,
+      "declaredOrigin": "outer-main-gate",
+      "selected": false
+    },
+    {
+      "hasWall": null,
+      "hasDoor": true,
+      "declaredOrigin": "unknown",
+      "selected": false
+    },
+    {
+      "hasWall": null,
+      "hasDoor": false,
+      "declaredOrigin": "current-enclosure",
+      "selected": false
+    },
+    {
+      "hasWall": null,
+      "hasDoor": false,
+      "declaredOrigin": "outer-main-gate",
+      "selected": false
+    },
+    {
+      "hasWall": null,
+      "hasDoor": false,
+      "declaredOrigin": "unknown",
+      "selected": false
+    },
+    {
+      "hasWall": null,
+      "hasDoor": null,
+      "declaredOrigin": "current-enclosure",
+      "selected": false
+    },
+    {
+      "hasWall": null,
+      "hasDoor": null,
+      "declaredOrigin": "outer-main-gate",
+      "selected": false
+    },
+    {
+      "hasWall": null,
+      "hasDoor": null,
+      "declaredOrigin": "unknown",
+      "selected": false
+    }
+  ],
+  "actualExistingLayerComponentCalls": 0,
+  "actualHHCChartCalls": 0,
+  "calendarEngineCalls": 0,
+  "consumerChanged": false,
+  "fullMethodApplied": false
+}

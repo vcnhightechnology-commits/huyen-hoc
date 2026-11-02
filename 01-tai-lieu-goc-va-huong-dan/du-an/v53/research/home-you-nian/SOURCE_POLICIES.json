@@ -1,0 +1,39 @@
+{
+  "pages": [
+    57,
+    58,
+    59
+  ],
+  "namesAreSourceContextsNotEmpiricalValidation": true,
+  "policies": [
+    {
+      "id": "geography-from-dragon",
+      "sourceTerm": "地理家從龍上起",
+      "auspiciousStars": [
+        "貪狼",
+        "巨門",
+        "武曲",
+        "廉貞"
+      ],
+      "otherFour": "凶"
+    },
+    {
+      "id": "date-selection-from-facing",
+      "sourceTerm": "選擇家從向上起",
+      "auspiciousStars": [
+        "貪狼",
+        "巨門",
+        "武曲",
+        "文曲"
+      ],
+      "otherFour": "凶"
+    }
+  ],
+  "contrastDiagramLayer": "小遊年 comparison diagrams mark 五鬼/廉貞凶 and 遊魂/文曲凶. This differs from one favorable star in each named use; do not merge into one universal score.",
+  "noDefaultOrigin": "No adapter chooses龍,坐山,立向 or birth year from a modern dwelling.",
+  "sourceAttributesNotEstablishedAsHistoricalFacts": [
+    "青囊經 attribution",
+    "邱公頌 transmission",
+    "author identity of 黃帝宅經"
+  ]
+}

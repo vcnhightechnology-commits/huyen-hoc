@@ -1,0 +1,39 @@
+{
+  "date": "2026-10-28",
+  "system": "NAJ-4468520-juan3-declared-month-hour-ming-shen",
+  "canvas": 73,
+  "records": [
+    {
+      "id": "month-anchor",
+      "literal": "大抵入命俱從寅上起正月順數至本生月上"
+    },
+    {
+      "id": "ming-hour",
+      "literal": "又自人生月上起子時逆至本生時安命"
+    },
+    {
+      "id": "shen-hour",
+      "literal": "順至本生時安身"
+    },
+    {
+      "id": "examples",
+      "literal": "假如正月生子時就在寅宮安命身丑時逆轉丑安命順去卯安身寅時逆轉子安命順至辰安身餘宮倣此"
+    },
+    {
+      "id": "leap-premise",
+      "literal": "又若閏正月生寅時逆轉子安命順至辰安身"
+    },
+    {
+      "id": "leap-general",
+      "literal": "凡有閏月俱要依此為例"
+    }
+  ],
+  "selectedClausesActuallyViewed": true,
+  "allGlyphsCollated": false,
+  "leapFirstMonthHourYinExampleAttested": true,
+  "generalLeapMonthMappingForAllMonthsResolved": false,
+  "monthSourceRole": "birth lunar month ordinal",
+  "hourRole": "declared hour branch, conversion from clock unimplemented",
+  "numericalBranchIndexIsEditorial": true,
+  "sourceOutcomeValidated": false
+}

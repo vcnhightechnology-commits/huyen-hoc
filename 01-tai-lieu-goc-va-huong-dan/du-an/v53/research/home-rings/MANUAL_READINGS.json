@@ -1,0 +1,115 @@
+{
+  "date": "2026-10-27",
+  "sourceContainer": "v53/research/full-study/home/CADAL06056503.djvu",
+  "sourceSHA256": "bfd3b76c55d62324919ab161c8c2ba2ecb129b3b2c59a3ab0428807e8f8278db",
+  "readings": [
+    {
+      "page": 11,
+      "file": "v53/research/home-you-nian/images/p011.png",
+      "sha256": "3a53c5e331a30eec9d03756d52fbeb3231769a4c596b077b33d13a9cc2abdf14",
+      "directVisualQA": true
+    },
+    {
+      "page": 12,
+      "file": "v53/research/home-you-nian/images/p012.png",
+      "sha256": "8704799fc1122ffd713647135e184a8da4cf079b90508363403de1a2eeeb1663",
+      "directVisualQA": true
+    },
+    {
+      "page": 13,
+      "file": "v53/research/home-you-nian/images/p013.png",
+      "sha256": "6b00eef9e222033053543529de4e64ee3ff1f9a81783be5989d3cfe3a01cdd99",
+      "directVisualQA": true
+    },
+    {
+      "page": 14,
+      "file": "v53/research/home-you-nian/images/p014.png",
+      "sha256": "8344a75fec9cb00c6ebcdec58be277041386e30000bb8906fec23802f113a22f",
+      "directVisualQA": true
+    },
+    {
+      "page": 15,
+      "file": "v53/research/home-you-nian/images/p015.png",
+      "sha256": "9725c592b9a7066124264024302a7a9b5c4a42bbef98650023af9f3100d2a536",
+      "directVisualQA": true
+    },
+    {
+      "page": 16,
+      "file": "v53/research/home-you-nian/images/p016.png",
+      "sha256": "fd258c21cbc9e952c8e9f2ae07f00d17345544879c20804fe8b4ca63c4310bdd",
+      "directVisualQA": true
+    }
+  ],
+  "qaDerivatives": [
+    {
+      "file": "p011-native-ring.png",
+      "sourceFile": "v53/research/home-you-nian/images/p011.png",
+      "cropBox": [
+        680,
+        1170,
+        1670,
+        2170
+      ],
+      "operation": "native-crop",
+      "sha256": "bdcb64d7d0a4fc05da120fea552f413a5604a6e2e752e8cbb763f3c56a8fdd23"
+    },
+    {
+      "file": "p011-native-ring-rot90.png",
+      "sourceCrop": "p011-native-ring.png",
+      "operation": "transposeROTATE_90",
+      "sha256": "b59cd4e4e89e59eae021b690545791f2d944a1dd65bf5527c4dbf6cf4e8ff3fd"
+    },
+    {
+      "file": "p011-native-ring-rot180.png",
+      "sourceCrop": "p011-native-ring.png",
+      "operation": "transposeROTATE_180",
+      "sha256": "c90a64e9af3211ab247f712f82fa827969264f79225bc9d7952365c688e3af4f"
+    },
+    {
+      "file": "p011-native-ring-rot270.png",
+      "sourceCrop": "p011-native-ring.png",
+      "operation": "transposeROTATE_270",
+      "sha256": "beba4ef2a093c2e76fcb13aa9890ea21891bc374ee0d9059d78bb05601430ff8"
+    },
+    {
+      "file": "p013-native-ring.png",
+      "sourceFile": "v53/research/home-you-nian/images/p013.png",
+      "cropBox": [
+        630,
+        1110,
+        1730,
+        2240
+      ],
+      "operation": "native-crop",
+      "sha256": "acfea8d227063dceb54f8c459d57b43868cc8d63e7159807f76715e5bb7cafa1"
+    },
+    {
+      "file": "p013-native-ring-rot90.png",
+      "sourceCrop": "p013-native-ring.png",
+      "operation": "transposeROTATE_90",
+      "sha256": "883a3cf31cf208e41947c2aea0a289f19ca93633376115bc4b0f6ec9fee74aea"
+    },
+    {
+      "file": "p013-native-ring-rot180.png",
+      "sourceCrop": "p013-native-ring.png",
+      "operation": "transposeROTATE_180",
+      "sha256": "948bfa0f7c4690c843f0e614d9cdda10306891e5a10409de902075cd476255ab"
+    },
+    {
+      "file": "p013-native-ring-rot270.png",
+      "sourceCrop": "p013-native-ring.png",
+      "operation": "transposeROTATE_270",
+      "sha256": "d70701210ad12ebd48ebd222652510ceb9bf7aeaf781baac6b1ae3a502029b66"
+    }
+  ],
+  "expandedPreviouslyReadPages": 6,
+  "newSourcePages": 0,
+  "newHTTPRequests": 0,
+  "newOriginalContainers": 0,
+  "manualDiagramLabels": 96,
+  "manualPairArcs": 24,
+  "sourceProseSegments": 15,
+  "allSourceClausesApplied": false,
+  "wholeCatalogueCompleted": false,
+  "limits": "Two source headings enumerated; interior crossing paths not all traced. Degree/north/date/outcome adapters not supplied by these six pages."
+}

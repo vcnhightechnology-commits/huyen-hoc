@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "tests": 4,
+  "runner": "python maintenance/test-materials.py",
+  "scope": [
+    "exact bytes and duplicate paths",
+    "preflight conflict prevents overwriting",
+    "bundle and object corruption rejected",
+    "source selection and path traversal rejection"
+  ],
+  "environmentNote": "Windows restricted execution denied tempfile child-directory access. The same tests passed under approved normal host permissions.",
+  "fullResearchOrReleaseTestsRerun": false
+}

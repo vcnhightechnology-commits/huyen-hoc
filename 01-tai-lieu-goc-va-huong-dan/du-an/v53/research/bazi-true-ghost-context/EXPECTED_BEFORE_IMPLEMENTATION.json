@@ -1,0 +1,100 @@
+{
+  "heavenExpectedByStem": {
+    "甲": "午未",
+    "乙": "辰巳",
+    "丙": "辰巳",
+    "丁": "寅卯",
+    "戊": "寅卯",
+    "己": "戌亥",
+    "庚": "戌亥",
+    "辛": "申酉",
+    "壬": "申酉",
+    "癸": "午未"
+  },
+  "earthExpectedByStem": {
+    "甲": "申酉",
+    "乙": "申酉",
+    "丙": "亥子",
+    "丁": "亥子",
+    "戊": "寅卯",
+    "己": "寅卯",
+    "庚": "巳午",
+    "辛": "巳午",
+    "壬": "辰戌丑未",
+    "癸": "辰戌丑未"
+  },
+  "printedTrueRegionExample": [
+    "丙子",
+    "辛卯"
+  ],
+  "counterexamples": [
+    {
+      "anchor": "己酉",
+      "seen": [
+        "丁",
+        "壬"
+      ]
+    },
+    {
+      "anchor": "己卯",
+      "seen": [
+        "丁",
+        "壬"
+      ]
+    },
+    {
+      "anchor": "壬子",
+      "seen": [
+        "乙",
+        "庚"
+      ]
+    },
+    {
+      "anchor": "壬午",
+      "seen": [
+        "乙",
+        "庚"
+      ]
+    }
+  ],
+  "declaredTerminalExamples": [
+    {
+      "naYinOvercome": true,
+      "originalStemAlsoOvercome": true,
+      "selectedLabel": "真鬼"
+    },
+    {
+      "naYinOvercome": true,
+      "originalStemAlsoOvercome": false,
+      "selectedLabel": "真官"
+    },
+    {
+      "naYinOvercome": true,
+      "originalStemAlsoOvercome": null,
+      "selectedLabel": null
+    },
+    {
+      "naYinOvercome": false,
+      "originalStemAlsoOvercome": true,
+      "selectedLabel": null
+    }
+  ],
+  "newLibraryExpected": {
+    "missingStemPartnerQueries": {
+      "甲": "己",
+      "己": "甲",
+      "乙": "庚",
+      "庚": "乙"
+    },
+    "newNaYinQueries": {
+      "甲寅": "大溪水",
+      "己亥": "平地木",
+      "己酉": "大驿土",
+      "己卯": "城头土",
+      "壬子": "桑柘木",
+      "壬午": "杨柳木"
+    }
+  },
+  "unknownPolicy": "Quantify all completions of canonical nulls for coordinate gates; declared terminal remains unresolved when a required predicate is unknown.",
+  "natalAndOutcomeAlwaysNull": true
+}

@@ -1,0 +1,77 @@
+{
+  "scope": "v53/qa/yi-second-witness",
+  "files": [
+    {
+      "file": "v53/qa/yi-second-witness/BROWSER_RESULTS.json",
+      "bytes": 5234,
+      "sha256": "444b5294bc22d3a9d471f9f9c631c96985e6d5c9973b75e8b7f582cf554afc7b",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/444b5294bc22d3a9d471f9f9c631c96985e6d5c9973b75e8b7f582cf554afc7b",
+      "httpRange": {
+        "offset": 174423237,
+        "compressedBytes": 1440,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/yi-second-witness/ENGINE_RESULTS.json",
+      "bytes": 2616,
+      "sha256": "96759a8dc5e442c96fcac3d1315679366040ee1b985f673d8610b338b83a8881",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/96759a8dc5e442c96fcac3d1315679366040ee1b985f673d8610b338b83a8881",
+      "httpRange": {
+        "offset": 367989195,
+        "compressedBytes": 1083,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/yi-second-witness/RELEASE_RESULTS.json",
+      "bytes": 591,
+      "sha256": "a6a1aa1f7dacbf54a0719684e82cd30c7d91a7c1fbcab2f6745cebe1679285a3",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a6a1aa1f7dacbf54a0719684e82cd30c7d91a7c1fbcab2f6745cebe1679285a3",
+      "httpRange": {
+        "offset": 228504745,
+        "compressedBytes": 371,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/yi-second-witness/can-refined.txt",
+      "bytes": 3456,
+      "sha256": "b21f9eeb5e41bfb40feddabef413d9167b0460142855a2fc4a9becf7438404cf",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b21f9eeb5e41bfb40feddabef413d9167b0460142855a2fc4a9becf7438404cf",
+      "httpRange": {
+        "offset": 342388866,
+        "compressedBytes": 1547,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/yi-second-witness/refined-1440.png",
+      "bytes": 478893,
+      "sha256": "97f67271de30fe31f601aec1658c9638a1e608f070fedc567b27141069228754",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/97f67271de30fe31f601aec1658c9638a1e608f070fedc567b27141069228754",
+      "httpRange": {
+        "offset": 25236037,
+        "compressedBytes": 456512,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/yi-second-witness/refined-390.png",
+      "bytes": 287896,
+      "sha256": "8bf52711a67d465cebacddc4f16fe5b048a9d6b558542fbe704575f559643d69",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8bf52711a67d465cebacddc4f16fe5b048a9d6b558542fbe704575f559643d69",
+      "httpRange": {
+        "offset": 269574858,
+        "compressedBytes": 271771,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

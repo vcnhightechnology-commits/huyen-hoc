@@ -1,0 +1,134 @@
+{
+  "sourceImages": [
+    50,
+    51,
+    52
+  ],
+  "sourceHeading": "年月尅山家",
+  "correctedSourceTerm": "尅",
+  "supersedesPreviousResearchTerm": "冠/crown",
+  "sourceConditions": [
+    {
+      "code": "new-dwelling",
+      "source": "新建宅舍",
+      "applicable": true
+    },
+    {
+      "code": "new-grave",
+      "source": "新立墳塋",
+      "applicable": true
+    },
+    {
+      "code": "repair-foundation-unchanged",
+      "source": "拆修豎造不動地基",
+      "applicable": false
+    },
+    {
+      "code": "burial-existing-grave",
+      "source": "舊塋附葬",
+      "applicable": false
+    }
+  ],
+  "rule": "Explicit year/month/day/hourpillar NaYin element controls the selectedmountain movementelement. Elements andcalendarcoordinates mustbeexplicit; no dateadapter orpracticaloutcome.",
+  "printedExamples": [
+    {
+      "yearPillar": "甲子",
+      "candidatePillars": [
+        "甲子"
+      ],
+      "context": "year",
+      "expectedMountainGroup": "water-earth",
+      "pages": [
+        50
+      ]
+    },
+    {
+      "yearPillar": "甲子",
+      "candidatePillars": [
+        "丙寅",
+        "丁卯"
+      ],
+      "context": "month",
+      "expectedMountainGroup": "metal",
+      "pages": [
+        50
+      ]
+    },
+    {
+      "yearPillar": "甲子",
+      "candidatePillars": [
+        "戊辰",
+        "己巳"
+      ],
+      "context": "month",
+      "expectedMountainGroup": "wood",
+      "pages": [
+        50,
+        51
+      ]
+    },
+    {
+      "yearPillar": "甲子",
+      "candidatePillars": [
+        "庚午",
+        "辛未"
+      ],
+      "context": "month",
+      "expectedMountainGroup": null,
+      "pages": [
+        51
+      ]
+    },
+    {
+      "yearPillar": "甲子",
+      "candidatePillars": [
+        "壬申",
+        "癸酉"
+      ],
+      "context": "month",
+      "expectedMountainGroup": "water-earth",
+      "pages": [
+        51
+      ]
+    },
+    {
+      "yearPillar": "甲子",
+      "candidatePillars": [
+        "丙子",
+        "丁丑"
+      ],
+      "context": "month",
+      "expectedMountainGroup": "fire",
+      "pages": [
+        51
+      ]
+    },
+    {
+      "yearPillar": "壬申",
+      "candidatePillars": [
+        "壬申"
+      ],
+      "context": "year-before-solstice",
+      "expectedMountainGroup": null,
+      "pages": [
+        51
+      ]
+    },
+    {
+      "yearPillar": "壬申",
+      "candidatePillars": [
+        "壬申"
+      ],
+      "context": "year-after-solstice-source-chou",
+      "expectedMountainGroup": "metal",
+      "pages": [
+        51,
+        52
+      ]
+    }
+  ],
+  "dayHourExtension": "Page52 says日尅時尅山家俱倣此; only relation with explicitly supplied NaYin,not a newcalendaradapter.",
+  "diagram49WholeCellCollation": false,
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false
+}

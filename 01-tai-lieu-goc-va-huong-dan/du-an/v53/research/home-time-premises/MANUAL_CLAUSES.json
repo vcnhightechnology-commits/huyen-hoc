@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-29",
+  "system": "ITKC-GO1508A.月論.local-repair-scope.v1",
+  "selectedPredicatesOnly": true,
+  "sourceHeadingFollowsInstitutionTranscription": true,
+  "calendarBoundaryTimestampResolved": false,
+  "leapMonthTreatmentResolved": false,
+  "sourceUsesNoJieqiForAllRules": false,
+  "sourceMonthAutomaticallyEqualsNumericLunarMonth": false,
+  "sourceEffectsValidated": false,
+  "records": [
+    {
+      "id": "qiu-angdao",
+      "parent": "MONTH-05",
+      "title": "丘公暗刀殺",
+      "sourcePositions": [
+        242
+      ],
+      "selectedLiterals": [
+        "止忌修換",
+        "若鼎新造作則不避忌",
+        "又論其殺止論月分不問節氣"
+      ],
+      "calendarClaim": "month-division-explicitly-not-jieqi-local-only",
+      "existingRepairOnly": true,
+      "newBuildExplicitException": true,
+      "hasTugongBaiDayException": false
+    },
+    {
+      "id": "monthly-hao",
+      "parent": "MONTH-15",
+      "title": "大小耗星",
+      "sourcePositions": [
+        245,
+        246
+      ],
+      "selectedLiterals": [
+        "其殺止論月分",
+        "如正月在門戶只忌正月內修整門戶"
+      ],
+      "calendarClaim": "month-division-stated;notexplicitno-jieqiinthisparagraph",
+      "existingRepairOnly": true,
+      "newBuildExplicitException": false,
+      "hasTugongBaiDayException": false
+    },
+    {
+      "id": "tugong",
+      "parent": "MONTH-16",
+      "title": "土公",
+      "sourcePositions": [
+        246
+      ],
+      "selectedLiterals": [
+        "其殺止論月分",
+        "如正月在竈正月之內只忌修整竈",
+        "如用土公敗日則不忌"
+      ],
+      "calendarClaim": "month-division-stated;notexplicitno-jieqiinthisparagraph",
+      "existingRepairOnly": true,
+      "newBuildExplicitException": false,
+      "hasTugongBaiDayException": true
+    },
+    {
+      "id": "youlong-fulong",
+      "parent": "MONTH-17",
+      "title": "遊龍伏龍",
+      "sourcePositions": [
+        246
+      ],
+      "selectedLiterals": [
+        "各月所值之處止忌修換只論月分並不問節氣",
+        "如用土公敗日動土則不避忌"
+      ],
+      "calendarClaim": "month-division-explicitly-not-jieqi-local-only",
+      "existingRepairOnly": true,
+      "newBuildExplicitException": false,
+      "hasTugongBaiDayException": true
+    }
+  ]
+}

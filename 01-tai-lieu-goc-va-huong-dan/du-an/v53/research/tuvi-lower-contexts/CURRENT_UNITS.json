@@ -1,0 +1,227 @@
+{
+  "date": "2026-10-29",
+  "indexLevel": "section-level disposition, not exhaustive clause inventory or independent-rule count",
+  "units": [
+    {
+      "id": "juan4-palace-2",
+      "heading": "兄弟",
+      "range": [
+        2,
+        4
+      ],
+      "disposition": "first-pass-read;full-clauses-open",
+      "sourceInstructionsAreData": true,
+      "consumerApplied": false,
+      "fullUnitApplied": false
+    },
+    {
+      "id": "juan4-palace-3",
+      "heading": "妻妾",
+      "range": [
+        4,
+        6
+      ],
+      "disposition": "first-pass-read;full-clauses-open",
+      "sourceInstructionsAreData": true,
+      "consumerApplied": false,
+      "fullUnitApplied": false
+    },
+    {
+      "id": "juan4-palace-4",
+      "heading": "子女",
+      "range": [
+        6,
+        10
+      ],
+      "disposition": "first-pass-read;full-clauses-open",
+      "sourceInstructionsAreData": true,
+      "consumerApplied": false,
+      "fullUnitApplied": false
+    },
+    {
+      "id": "juan4-palace-5",
+      "heading": "財帛",
+      "range": [
+        10,
+        12
+      ],
+      "disposition": "first-pass-read;full-clauses-open",
+      "sourceInstructionsAreData": true,
+      "consumerApplied": false,
+      "fullUnitApplied": false
+    },
+    {
+      "id": "juan4-palace-6",
+      "heading": "疾厄",
+      "range": [
+        12,
+        14
+      ],
+      "disposition": "first-pass-read;full-clauses-open",
+      "sourceInstructionsAreData": true,
+      "consumerApplied": false,
+      "fullUnitApplied": false
+    },
+    {
+      "id": "juan4-palace-7",
+      "heading": "遷移",
+      "range": [
+        14,
+        16
+      ],
+      "disposition": "first-pass-read;full-clauses-open",
+      "sourceInstructionsAreData": true,
+      "consumerApplied": false,
+      "fullUnitApplied": false
+    },
+    {
+      "id": "juan4-palace-8",
+      "heading": "奴僕",
+      "range": [
+        16,
+        18
+      ],
+      "disposition": "first-pass-read;full-clauses-open",
+      "sourceInstructionsAreData": true,
+      "consumerApplied": false,
+      "fullUnitApplied": false
+    },
+    {
+      "id": "juan4-palace-9",
+      "heading": "官祿",
+      "range": [
+        18,
+        22
+      ],
+      "disposition": "first-pass-read;full-clauses-open",
+      "sourceInstructionsAreData": true,
+      "consumerApplied": false,
+      "fullUnitApplied": false
+    },
+    {
+      "id": "juan4-palace-10",
+      "heading": "田宅",
+      "range": [
+        22,
+        24
+      ],
+      "disposition": "first-pass-read;full-clauses-open",
+      "sourceInstructionsAreData": true,
+      "consumerApplied": false,
+      "fullUnitApplied": false
+    },
+    {
+      "id": "juan4-palace-11",
+      "heading": "福德",
+      "range": [
+        24,
+        26
+      ],
+      "disposition": "first-pass-read;full-clauses-open",
+      "sourceInstructionsAreData": true,
+      "consumerApplied": false,
+      "fullUnitApplied": false
+    },
+    {
+      "id": "juan4-palace-12",
+      "heading": "父母",
+      "range": [
+        26,
+        29
+      ],
+      "disposition": "first-pass-read;full-clauses-open",
+      "sourceInstructionsAreData": true,
+      "consumerApplied": false,
+      "fullUnitApplied": false
+    },
+    {
+      "id": "method-sequence",
+      "heading": "譚星要論/入格/高下/性格/男女",
+      "range": [
+        29,
+        32
+      ],
+      "disposition": "conditional-method-context-indexed",
+      "fullUnitApplied": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "birth-time",
+      "heading": "小兒/定小兒生時/人生時要審的確",
+      "range": [
+        32,
+        33
+      ],
+      "disposition": "historical-posture-and-lifespan-inference-not-implemented",
+      "fullUnitApplied": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "period-context",
+      "heading": "大限十年/二限太歲/流年/羊陀迭併/七殺重逢",
+      "range": [
+        34,
+        38
+      ],
+      "disposition": "multi-layer-premises-open",
+      "fullUnitApplied": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "north-south",
+      "heading": "論行限分南北斗",
+      "range": [
+        35,
+        35
+      ],
+      "disposition": "four-textual-windows-retained;no-calendar-adapter",
+      "fullUnitApplied": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "annual-twelve",
+      "heading": "太歲小限十二宮",
+      "range": [
+        38,
+        45
+      ],
+      "disposition": "twelve-branch-groups-firstpass;full-condition-transcription-open",
+      "fullUnitApplied": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "star-combinations",
+      "heading": "諸星同位垣/正輔曜/身命/納音/各宮",
+      "range": [
+        45,
+        64
+      ],
+      "disposition": "full-star-rings-and-conditions-open;repetitions-audited",
+      "fullUnitApplied": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "left-right-flanking",
+      "heading": "左右夾命",
+      "range": [
+        59,
+        59
+      ],
+      "disposition": "geometry-reference-plus-actual-engine-projections-verified;full-pattern-open",
+      "fullUnitApplied": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "printed-charts",
+      "heading": "命圖",
+      "range": [
+        64,
+        73
+      ],
+      "disposition": "nineteen-panels-firstpass-only;no-birthglyph-or-engine-match-claim",
+      "fullUnitApplied": false,
+      "consumerApplied": false
+    }
+  ],
+  "wholeWorkApplied": false
+}

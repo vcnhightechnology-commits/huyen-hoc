@@ -1,0 +1,33 @@
+{
+  "frozenAtUTC": "2026-10-29T17:24:37.086073+00:00",
+  "files": [
+    {
+      "file": "tmp/bazi-food-quantity-staging/MANUAL_CONTEXTS.json",
+      "bytes": 4015,
+      "sha256": "f6af5082360c4b9361b39aec6356e4ed2d77e4678874617497ea585c1c9a4793"
+    },
+    {
+      "file": "tmp/bazi-food-quantity-staging/EXPECTED_CASES.json",
+      "bytes": 2617,
+      "sha256": "4c69ad343bfcb88a4aeb564c6190bbbde74570b17300f612112ba8ec3f2606a4"
+    },
+    {
+      "file": "tmp/bazi-food-quantity-staging/REUSE_IDENTITIES.json",
+      "bytes": 1039,
+      "sha256": "ea17d924e8319a8fbfaeb842b4cdac26123c253001710b13929fb953c7eb60c7"
+    },
+    {
+      "file": "tmp/bazi-food-quantity-staging/SOURCE_IDENTITIES.json",
+      "bytes": 1712,
+      "sha256": "9f18f7f0d48d90b8056b58664d02705cff0c11c0dd5ad1c431091f1cc1e71aee"
+    },
+    {
+      "file": "tmp/bazi-food-quantity-staging/PRE_FREEZE_REVIEW.json",
+      "bytes": 502,
+      "sha256": "1d0659816a779e7ed9dcee3774d3b35bc84afcbdd59c35590d6f673e6559b29c"
+    }
+  ],
+  "referenceAbsentAtFreeze": true,
+  "manualCases": 8,
+  "sourceOutcomesImplemented": false
+}

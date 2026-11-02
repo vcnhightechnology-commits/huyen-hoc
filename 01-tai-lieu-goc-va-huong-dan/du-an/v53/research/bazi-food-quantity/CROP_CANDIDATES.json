@@ -1,0 +1,60 @@
+{
+  "records": [
+    {
+      "source": {
+        "file": "v53/research/bazi-food-source/p178.png",
+        "bytes": 311884,
+        "sha256": "47c6a7ac4dee8dc46ba341fecad8e1bf34d25ee4bb4523faf8b0f09b473f8efd"
+      },
+      "crop": {
+        "file": "tmp/bazi-food-quantity-staging/C21-native.png",
+        "bytes": 118377,
+        "sha256": "e92259515946b619a52dd8387010eb60eeca1fa344e5bc91534a8abe420a2fe1"
+      },
+      "boxXYXY": [
+        330,
+        300,
+        1160,
+        2860
+      ],
+      "actuallyViewed": false
+    },
+    {
+      "source": {
+        "file": "v53/research/bazi-food-source/p179.png",
+        "bytes": 279312,
+        "sha256": "f07f7fa58c8410c6ff38935a45972703ec4f4715b34a5d8c1aa2c287adea5c3c"
+      },
+      "crop": {
+        "file": "tmp/bazi-food-quantity-staging/C23-native.png",
+        "bytes": 135694,
+        "sha256": "695c508f26abeb19ed5db58ceca007a09a29768a894f5ee6f9cba9d6e84665ac"
+      },
+      "boxXYXY": [
+        550,
+        290,
+        1810,
+        2860
+      ],
+      "actuallyViewed": false
+    }
+  ],
+  "fullSourceImagesActuallyViewed": [
+    {
+      "file": "v53/research/bazi-food-source/p177.png",
+      "bytes": 292400,
+      "sha256": "bd60295b8c57032d9ec30ce5a2a06cade7d86a78fdec4e6d56f60659c8281bee"
+    },
+    {
+      "file": "v53/research/bazi-food-source/p178.png",
+      "bytes": 311884,
+      "sha256": "47c6a7ac4dee8dc46ba341fecad8e1bf34d25ee4bb4523faf8b0f09b473f8efd"
+    },
+    {
+      "file": "v53/research/bazi-food-source/p179.png",
+      "bytes": 279312,
+      "sha256": "f07f7fa58c8410c6ff38935a45972703ec4f4715b34a5d8c1aa2c287adea5c3c"
+    }
+  ],
+  "newSourcePositions": 0
+}

@@ -1,0 +1,14 @@
+{
+  "records": [
+    {
+      "standardTLSValidation": true,
+      "transportFailure": "A parameter cannot be found that matches parameter name 'SkipHttpErrorCheck'.",
+      "observedAt": "2026-10-29T04:22:54.1612479Z",
+      "originalResponseBytesRetained": false,
+      "requestedFile": "itkc-day-image-node.json",
+      "url": "https://db.itkc.or.kr/imgviewer/imgnode?grpId=&itemId=GO&dataId=ITKC_GO_1508A_0020_000_0070"
+    }
+  ],
+  "reason": "Called WindowsPowerShell5, which rejected SkipHttpErrorCheck locally before request. Corrected invocation uses active PowerShell; original record retained. No TLS bypass or non200 challenge retry.",
+  "HTTPResponseRetainedForFailure": false
+}

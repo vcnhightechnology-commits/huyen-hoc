@@ -1,0 +1,662 @@
+{
+  "date": "2026-10-27",
+  "status": "staged-not-in-release",
+  "actualHHCMountainCalls": 24,
+  "actualHHCPureHexCalls": 8,
+  "actualLunarTermTableExecutions": 1,
+  "actualPrivateLiuyaoContrasts": 2,
+  "geographicalAssignments": 24,
+  "manualGlyphs": 24,
+  "termRows": 24,
+  "positions": [
+    {
+      "sourceTerm": "冬至",
+      "sourceMountain": "坎",
+      "libraryName": "冬至",
+      "actualMountain": "Tý",
+      "derivedModelDegrees": 0
+    },
+    {
+      "sourceTerm": "小寒",
+      "sourceMountain": "癸",
+      "libraryName": "小寒",
+      "actualMountain": "Quý",
+      "derivedModelDegrees": 15
+    },
+    {
+      "sourceTerm": "大寒",
+      "sourceMountain": "丑",
+      "libraryName": "大寒",
+      "actualMountain": "Sửu",
+      "derivedModelDegrees": 30
+    },
+    {
+      "sourceTerm": "立春",
+      "sourceMountain": "艮",
+      "libraryName": "立春",
+      "actualMountain": "Cấn",
+      "derivedModelDegrees": 45
+    },
+    {
+      "sourceTerm": "雨水",
+      "sourceMountain": "寅",
+      "libraryName": "雨水",
+      "actualMountain": "Dần",
+      "derivedModelDegrees": 60
+    },
+    {
+      "sourceTerm": "驚蟄",
+      "sourceMountain": "甲",
+      "libraryName": "惊蛰",
+      "actualMountain": "Giáp",
+      "derivedModelDegrees": 75
+    },
+    {
+      "sourceTerm": "春分",
+      "sourceMountain": "震",
+      "libraryName": "春分",
+      "actualMountain": "Mão",
+      "derivedModelDegrees": 90
+    },
+    {
+      "sourceTerm": "清明",
+      "sourceMountain": "乙",
+      "libraryName": "清明",
+      "actualMountain": "Ất",
+      "derivedModelDegrees": 105
+    },
+    {
+      "sourceTerm": "穀雨",
+      "sourceMountain": "辰",
+      "libraryName": "谷雨",
+      "actualMountain": "Thìn",
+      "derivedModelDegrees": 120
+    },
+    {
+      "sourceTerm": "立夏",
+      "sourceMountain": "巽",
+      "libraryName": "立夏",
+      "actualMountain": "Tốn",
+      "derivedModelDegrees": 135
+    },
+    {
+      "sourceTerm": "小滿",
+      "sourceMountain": "巳",
+      "libraryName": "小满",
+      "actualMountain": "Tỵ",
+      "derivedModelDegrees": 150
+    },
+    {
+      "sourceTerm": "芒種",
+      "sourceMountain": "丙",
+      "libraryName": "芒种",
+      "actualMountain": "Bính",
+      "derivedModelDegrees": 165
+    },
+    {
+      "sourceTerm": "夏至",
+      "sourceMountain": "離",
+      "libraryName": "夏至",
+      "actualMountain": "Ngọ",
+      "derivedModelDegrees": 180
+    },
+    {
+      "sourceTerm": "小暑",
+      "sourceMountain": "丁",
+      "libraryName": "小暑",
+      "actualMountain": "Đinh",
+      "derivedModelDegrees": 195
+    },
+    {
+      "sourceTerm": "大暑",
+      "sourceMountain": "未",
+      "libraryName": "大暑",
+      "actualMountain": "Mùi",
+      "derivedModelDegrees": 210
+    },
+    {
+      "sourceTerm": "立秋",
+      "sourceMountain": "坤",
+      "libraryName": "立秋",
+      "actualMountain": "Khôn",
+      "derivedModelDegrees": 225
+    },
+    {
+      "sourceTerm": "處暑",
+      "sourceMountain": "申",
+      "libraryName": "处暑",
+      "actualMountain": "Thân",
+      "derivedModelDegrees": 240
+    },
+    {
+      "sourceTerm": "白露",
+      "sourceMountain": "庚",
+      "libraryName": "白露",
+      "actualMountain": "Canh",
+      "derivedModelDegrees": 255
+    },
+    {
+      "sourceTerm": "秋分",
+      "sourceMountain": "兌",
+      "libraryName": "秋分",
+      "actualMountain": "Dậu",
+      "derivedModelDegrees": 270
+    },
+    {
+      "sourceTerm": "寒露",
+      "sourceMountain": "辛",
+      "libraryName": "寒露",
+      "actualMountain": "Tân",
+      "derivedModelDegrees": 285
+    },
+    {
+      "sourceTerm": "霜降",
+      "sourceMountain": "戌",
+      "libraryName": "霜降",
+      "actualMountain": "Tuất",
+      "derivedModelDegrees": 300
+    },
+    {
+      "sourceTerm": "立冬",
+      "sourceMountain": "乾",
+      "libraryName": "立冬",
+      "actualMountain": "Càn",
+      "derivedModelDegrees": 315
+    },
+    {
+      "sourceTerm": "小雪",
+      "sourceMountain": "亥",
+      "libraryName": "小雪",
+      "actualMountain": "Hợi",
+      "derivedModelDegrees": 330
+    },
+    {
+      "sourceTerm": "大雪",
+      "sourceMountain": "壬",
+      "libraryName": "大雪",
+      "actualMountain": "Nhâm",
+      "derivedModelDegrees": 345
+    }
+  ],
+  "guaGlyphs": [
+    {
+      "gua": "乾",
+      "manualGlyphTopToBottom": "111",
+      "actualPureHexNumber": 1
+    },
+    {
+      "gua": "坤",
+      "manualGlyphTopToBottom": "000",
+      "actualPureHexNumber": 2
+    },
+    {
+      "gua": "艮",
+      "manualGlyphTopToBottom": "100",
+      "actualPureHexNumber": 52
+    },
+    {
+      "gua": "巽",
+      "manualGlyphTopToBottom": "110",
+      "actualPureHexNumber": 57
+    },
+    {
+      "gua": "震",
+      "manualGlyphTopToBottom": "001",
+      "actualPureHexNumber": 51
+    },
+    {
+      "gua": "兌",
+      "manualGlyphTopToBottom": "011",
+      "actualPureHexNumber": 58
+    },
+    {
+      "gua": "坎",
+      "manualGlyphTopToBottom": "010",
+      "actualPureHexNumber": 29
+    },
+    {
+      "gua": "離",
+      "manualGlyphTopToBottom": "101",
+      "actualPureHexNumber": 30
+    }
+  ],
+  "assignments": [
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "乾",
+      "gua": "乾",
+      "relatedCoordinates": [
+        "乾",
+        "甲"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    },
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "甲",
+      "gua": "乾",
+      "relatedCoordinates": [
+        "乾",
+        "甲"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    },
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "坤",
+      "gua": "坤",
+      "relatedCoordinates": [
+        "坤",
+        "乙"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    },
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "乙",
+      "gua": "坤",
+      "relatedCoordinates": [
+        "坤",
+        "乙"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    },
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "艮",
+      "gua": "艮",
+      "relatedCoordinates": [
+        "艮",
+        "丙"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    },
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "丙",
+      "gua": "艮",
+      "relatedCoordinates": [
+        "艮",
+        "丙"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    },
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "巽",
+      "gua": "巽",
+      "relatedCoordinates": [
+        "巽",
+        "辛"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    },
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "辛",
+      "gua": "巽",
+      "relatedCoordinates": [
+        "巽",
+        "辛"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    },
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "震",
+      "gua": "震",
+      "relatedCoordinates": [
+        "震",
+        "庚",
+        "亥",
+        "未"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    },
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "庚",
+      "gua": "震",
+      "relatedCoordinates": [
+        "震",
+        "庚",
+        "亥",
+        "未"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    },
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "亥",
+      "gua": "震",
+      "relatedCoordinates": [
+        "震",
+        "庚",
+        "亥",
+        "未"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    },
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "未",
+      "gua": "震",
+      "relatedCoordinates": [
+        "震",
+        "庚",
+        "亥",
+        "未"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    },
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "兌",
+      "gua": "兌",
+      "relatedCoordinates": [
+        "兌",
+        "丁",
+        "巳",
+        "丑"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    },
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "丁",
+      "gua": "兌",
+      "relatedCoordinates": [
+        "兌",
+        "丁",
+        "巳",
+        "丑"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    },
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "巳",
+      "gua": "兌",
+      "relatedCoordinates": [
+        "兌",
+        "丁",
+        "巳",
+        "丑"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    },
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "丑",
+      "gua": "兌",
+      "relatedCoordinates": [
+        "兌",
+        "丁",
+        "巳",
+        "丑"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    },
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "坎",
+      "gua": "坎",
+      "relatedCoordinates": [
+        "坎",
+        "癸",
+        "申",
+        "辰"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    },
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "癸",
+      "gua": "坎",
+      "relatedCoordinates": [
+        "坎",
+        "癸",
+        "申",
+        "辰"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    },
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "申",
+      "gua": "坎",
+      "relatedCoordinates": [
+        "坎",
+        "癸",
+        "申",
+        "辰"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    },
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "辰",
+      "gua": "坎",
+      "relatedCoordinates": [
+        "坎",
+        "癸",
+        "申",
+        "辰"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    },
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "離",
+      "gua": "離",
+      "relatedCoordinates": [
+        "離",
+        "壬",
+        "寅",
+        "戌"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    },
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "壬",
+      "gua": "離",
+      "relatedCoordinates": [
+        "離",
+        "壬",
+        "寅",
+        "戌"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    },
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "寅",
+      "gua": "離",
+      "relatedCoordinates": [
+        "離",
+        "壬",
+        "寅",
+        "戌"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    },
+    {
+      "system": "xieji-geographical-najia",
+      "sourceCoordinate": "戌",
+      "gua": "離",
+      "relatedCoordinates": [
+        "離",
+        "壬",
+        "寅",
+        "戌"
+      ],
+      "sourcePages": [
+        55,
+        56
+      ],
+      "sourceOriginEstablished": false,
+      "lineStemBranches": null,
+      "practicalOutcome": null
+    }
+  ],
+  "liuyaoContrasts": [
+    {
+      "gua": "坎",
+      "geographicalStem": "癸",
+      "actualPrivateLiuyaoStems": [
+        "戊"
+      ]
+    },
+    {
+      "gua": "離",
+      "geographicalStem": "壬",
+      "actualPrivateLiuyaoStems": [
+        "己"
+      ]
+    }
+  ],
+  "newHTTPRequests": 0,
+  "newSourcePages": 0,
+  "astronomicalInstantsVerifiedBySource": false,
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false
+}

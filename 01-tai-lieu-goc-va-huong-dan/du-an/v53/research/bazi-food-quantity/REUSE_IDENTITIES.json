@@ -1,0 +1,37 @@
+{
+  "files": [
+    {
+      "file": "v53/research/bazi-food-source/CONTEXTS.json",
+      "bytes": 82405,
+      "sha256": "c9179c1421a4521ce9bd0f5d48ab05e28a6a9ed11daf462927ad777343be0f68"
+    },
+    {
+      "file": "v53/qa/bazi-food-core/TEN_RELATION_RESULTS.json",
+      "bytes": 3097,
+      "sha256": "b596850a855e1c33dbc0454669a9fb4338861dce68f85985772c2b0097a594aa"
+    },
+    {
+      "file": "v53/research/bazi-food-strength/CURRENT_CONTEXT_COVERAGE.json",
+      "bytes": 49918,
+      "sha256": "d851d1db093dc273db1f36e7c1ee22c41d5a4ac26e942c3480c33bb2b140ffbf"
+    }
+  ],
+  "actualRetainedPair": {
+    "declaredCoordinatePair": [
+      "甲子",
+      "丙子"
+    ],
+    "actualHHCTenGod": "Thực Thần",
+    "actualLunarTenGod": "食神",
+    "sourceQuantityNotInferred": true,
+    "realCalendarDateValidated": false
+  },
+  "newEngineCalls": 0,
+  "newCalendarObjects": 0,
+  "relationCoordinateDoesNotDefineEffectiveQuantity": true,
+  "currentMatrixCountsRemain": [
+    46,
+    44,
+    0
+  ]
+}

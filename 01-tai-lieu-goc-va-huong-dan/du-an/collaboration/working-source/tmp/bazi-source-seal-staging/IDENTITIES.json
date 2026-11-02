@@ -1,0 +1,65 @@
+{
+  "files": [
+    {
+      "file": "tmp/bazi-source-seal-staging/EXPECTED.json",
+      "bytes": 903,
+      "sha256": "4aee02f473311b8da4a8b00948c60b1fcb76b49e3f15a8a7d0d0caec4af548ff"
+    },
+    {
+      "file": "tmp/bazi-source-seal-staging/FREEZE.json",
+      "bytes": 731,
+      "sha256": "6fca030599b5e63e0b607aa12a96f8cfd599948108da50e3d18689d545781357"
+    },
+    {
+      "file": "tmp/bazi-source-seal-staging/MANUAL.json",
+      "bytes": 1203,
+      "sha256": "67ff629878a3ad3427113ab80a2b54574da2797e2d9c192bba7688139d5d34b8"
+    },
+    {
+      "file": "tmp/bazi-source-seal-staging/prepare.py",
+      "bytes": 3140,
+      "sha256": "8934806727d78c7a2c8d5c0e852944ab26ea59bd44714262dbe06639b536186f"
+    },
+    {
+      "file": "tmp/bazi-source-seal-staging/RESULTS.json",
+      "bytes": 234,
+      "sha256": "3404c16b827e1e676c864b2382a2bd0c7b13941ee069e29181ac26357100bd1a"
+    },
+    {
+      "file": "tmp/bazi-source-seal-staging/RETAINED_EXCERPT.txt",
+      "bytes": 984,
+      "sha256": "1bc6e743c1bb790858ad3f3538d2860e23fe28e3f51c2a2bebf1f916e262545f"
+    },
+    {
+      "file": "tmp/bazi-source-seal-staging/source-seal.mjs",
+      "bytes": 1444,
+      "sha256": "f313c421f7f49165e0efc965082231a3257652a9ac7627ba8abdd508970a7353"
+    },
+    {
+      "file": "tmp/bazi-source-seal-staging/SOURCE_IDENTITIES.json",
+      "bytes": 1261,
+      "sha256": "e53c5e388f251bd00d97433f3f20c691dbf122288a19a6e98ded06c17f33b754"
+    },
+    {
+      "file": "tmp/bazi-source-seal-staging/SOURCE_RESULTS.json",
+      "bytes": 205,
+      "sha256": "dbe2c8d30d69c56f52ff89ffed13a82a58dfe864b3dbbb4c391577ea757277d4"
+    },
+    {
+      "file": "tmp/bazi-source-seal-staging/test-source-seal.mjs",
+      "bytes": 2455,
+      "sha256": "0eb3154eff25c5a75275bdcaca84e18d057bfc34c1214d59bf6eb3b7d3de86de"
+    },
+    {
+      "file": "tmp/bazi-source-seal-staging/verify-record.py",
+      "bytes": 3734,
+      "sha256": "708eff718d6f72a31860a47a5ec58db171d0ea7e98934f80d9558d803d8cb304"
+    },
+    {
+      "file": "tmp/bazi-source-seal-staging/WORK_STATE.json",
+      "bytes": 1310,
+      "sha256": "44024dbe3cca985ab1206f3dcd17502c021838e3d95b86df64149d73ff02e4ea"
+    }
+  ],
+  "privateAfterReleaseInventory": true
+}

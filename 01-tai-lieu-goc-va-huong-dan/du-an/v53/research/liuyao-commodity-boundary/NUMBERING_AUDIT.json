@@ -1,0 +1,51 @@
+{
+  "date": "2026-10-28",
+  "sourcePDF": "v53/research/liuyao-foundations/NLC416-12jh005345-45344.pdf",
+  "sourceSHA256": "caac111bc5c5b1c08fd27b3828e7cf6b5430503800f2427d8f2b28809022abaa",
+  "sourceInstructionsAreData": true,
+  "corrections": [
+    {
+      "kind": "misbound-and-missing-working-chapter",
+      "oldWorkingRecord": "B02-ch082 行險求財",
+      "newWorkingRecords": [
+        "B02-ch081-supp-a 行險求財",
+        "B02-ch082 婚姻"
+      ],
+      "sourceTOCPage": 17,
+      "sourceBodyPages": [
+        317,
+        318
+      ],
+      "sourceMarriageNumberLiteral": "第又八十二",
+      "registeredUnitsBefore": 136,
+      "registeredUnitsAfter": 137,
+      "sourceEmended": false
+    },
+    {
+      "kind": "working-title-transcription",
+      "record": "B02-ch075",
+      "old": "在何方買賣",
+      "new": "往何方買賣",
+      "sourceTOCPage": 17,
+      "sourceBodyPage": 312,
+      "sourceEmended": false
+    }
+  ],
+  "tocBodyHeadingDifference": {
+    "record": "B02-ch073",
+    "toc17": "買貨賣貨",
+    "body308": "囤貨賣貨",
+    "disposition": "retainbothsourceheadings;notaworkingtranscriptioncorrection"
+  },
+  "newViewedSourcePositions": 24,
+  "expandedPriorReadSourcePositions": [
+    17
+  ],
+  "qaEvidence": [
+    "TOC_QA.json",
+    "QA_RENDERS.json"
+  ],
+  "historicalMapsRetained": true,
+  "wholeBookCoverageEstablished": false,
+  "wholeCatalogueCompleted": false
+}

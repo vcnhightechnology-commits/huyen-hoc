@@ -1,0 +1,435 @@
+{
+  "date": "2026-10-27",
+  "checks": [
+    {
+      "name": "Original source identities, actual lunar dependency and unchanged engine/relations bytes",
+      "ok": true
+    },
+    {
+      "name": "Ten actual charts match all four pillars, actual 临官 month status and year/hour relation locations",
+      "ok": true
+    },
+    {
+      "name": "120 explicit day/month contexts use source month coordinates rather than peer counts or day branch",
+      "ok": true
+    },
+    {
+      "name": "Unknown birth hour keeps a known month reading without inventing an hour; ambiguous or unmatched charts have no new reading",
+      "ok": true
+    },
+    {
+      "name": "Candidate rendering recomputes from canonical chart and does not infer useful god or outcomes",
+      "ok": true
+    },
+    {
+      "name": "Two named blade tables preserve eight direct versus five direct coordinates and explicit unknown/excluded states over240 contexts",
+      "ok": true
+    },
+    {
+      "name": "The explicit 甲 Lu illustration preserves four overlapping membership projections and unknown positional semantics",
+      "ok": true
+    },
+    {
+      "name": "All44 source contexts cover1223 retained digital characters; exceptions, voices and incomplete strength premises remain explicit",
+      "ok": true
+    },
+    {
+      "name": "Printed four-pillar example remains a feasibility fixture and all existing cycle calculation code is unchanged",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "actualHHCBaziCalls": 14,
+    "actualLunarCalls": 10,
+    "actualRuntimeFixtures": 10,
+    "syntheticMonthContexts": 120,
+    "privateBladeContexts": 240,
+    "privateLuIllustrationMasks": 16,
+    "directBladeRows": 13,
+    "sourceContextUnits": 44,
+    "retainedDigitalBodyCharacters": 1223,
+    "expandedPreviouslyReadPages": 10,
+    "newSourcePages": 27,
+    "newConditionalContentPages": 24,
+    "newHTTPRequests": 2,
+    "newOriginalContainers": 1
+  },
+  "runtime": [
+    {
+      "input": {
+        "y": 2020,
+        "m": 2,
+        "d": 21,
+        "hour": 16,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualPillars": [
+        "庚子",
+        "戊寅",
+        "甲午",
+        "壬申"
+      ],
+      "actualMonthStage": "临官",
+      "consumer": {
+        "known": true,
+        "matched": true,
+        "dayStem": "Giáp",
+        "monthBranch": "Dần",
+        "year": {
+          "stem": "Canh",
+          "relation": "Thất Sát"
+        },
+        "hour": {
+          "stem": "Nhâm",
+          "relation": "Thiên Ấn"
+        },
+        "completeChart": true,
+        "patternEstablished": null,
+        "usefulGodSelected": null
+      }
+    },
+    {
+      "input": {
+        "y": 2020,
+        "m": 3,
+        "d": 23,
+        "hour": 10,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualPillars": [
+        "庚子",
+        "己卯",
+        "乙丑",
+        "辛巳"
+      ],
+      "actualMonthStage": "临官",
+      "consumer": {
+        "known": true,
+        "matched": true,
+        "dayStem": "Ất",
+        "monthBranch": "Mão",
+        "year": {
+          "stem": "Canh",
+          "relation": "Chính Quan"
+        },
+        "hour": {
+          "stem": "Tân",
+          "relation": "Thất Sát"
+        },
+        "completeChart": true,
+        "patternEstablished": null,
+        "usefulGodSelected": null
+      }
+    },
+    {
+      "input": {
+        "y": 2020,
+        "m": 5,
+        "d": 23,
+        "hour": 22,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualPillars": [
+        "庚子",
+        "辛巳",
+        "丙寅",
+        "己亥"
+      ],
+      "actualMonthStage": "临官",
+      "consumer": {
+        "known": true,
+        "matched": true,
+        "dayStem": "Bính",
+        "monthBranch": "Tỵ",
+        "year": {
+          "stem": "Canh",
+          "relation": "Thiên Tài"
+        },
+        "hour": {
+          "stem": "Kỷ",
+          "relation": "Thương Quan"
+        },
+        "completeChart": true,
+        "patternEstablished": null,
+        "usefulGodSelected": null
+      }
+    },
+    {
+      "input": {
+        "y": 2020,
+        "m": 6,
+        "d": 23,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualPillars": [
+        "庚子",
+        "壬午",
+        "丁酉",
+        "庚子"
+      ],
+      "actualMonthStage": "临官",
+      "consumer": {
+        "known": true,
+        "matched": true,
+        "dayStem": "Đinh",
+        "monthBranch": "Ngọ",
+        "year": {
+          "stem": "Canh",
+          "relation": "Chính Tài"
+        },
+        "hour": {
+          "stem": "Canh",
+          "relation": "Chính Tài"
+        },
+        "completeChart": true,
+        "patternEstablished": null,
+        "usefulGodSelected": null
+      }
+    },
+    {
+      "input": {
+        "y": 2020,
+        "m": 5,
+        "d": 15,
+        "hour": 4,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualPillars": [
+        "庚子",
+        "辛巳",
+        "戊午",
+        "甲寅"
+      ],
+      "actualMonthStage": "临官",
+      "consumer": {
+        "known": true,
+        "matched": true,
+        "dayStem": "Mậu",
+        "monthBranch": "Tỵ",
+        "year": {
+          "stem": "Canh",
+          "relation": "Thực Thần"
+        },
+        "hour": {
+          "stem": "Giáp",
+          "relation": "Thất Sát"
+        },
+        "completeChart": true,
+        "patternEstablished": null,
+        "usefulGodSelected": null
+      }
+    },
+    {
+      "input": {
+        "y": 2020,
+        "m": 6,
+        "d": 15,
+        "hour": 2,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualPillars": [
+        "庚子",
+        "壬午",
+        "己丑",
+        "乙丑"
+      ],
+      "actualMonthStage": "临官",
+      "consumer": {
+        "known": true,
+        "matched": true,
+        "dayStem": "Kỷ",
+        "monthBranch": "Ngọ",
+        "year": {
+          "stem": "Canh",
+          "relation": "Thương Quan"
+        },
+        "hour": {
+          "stem": "Ất",
+          "relation": "Thất Sát"
+        },
+        "completeChart": true,
+        "patternEstablished": null,
+        "usefulGodSelected": null
+      }
+    },
+    {
+      "input": {
+        "y": 2020,
+        "m": 8,
+        "d": 15,
+        "hour": 20,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualPillars": [
+        "庚子",
+        "甲申",
+        "庚寅",
+        "丙戌"
+      ],
+      "actualMonthStage": "临官",
+      "consumer": {
+        "known": true,
+        "matched": true,
+        "dayStem": "Canh",
+        "monthBranch": "Thân",
+        "year": {
+          "stem": "Canh",
+          "relation": "Tỷ Kiên"
+        },
+        "hour": {
+          "stem": "Bính",
+          "relation": "Thất Sát"
+        },
+        "completeChart": true,
+        "patternEstablished": null,
+        "usefulGodSelected": null
+      }
+    },
+    {
+      "input": {
+        "y": 2020,
+        "m": 9,
+        "d": 15,
+        "hour": 18,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualPillars": [
+        "庚子",
+        "乙酉",
+        "辛酉",
+        "丁酉"
+      ],
+      "actualMonthStage": "临官",
+      "consumer": {
+        "known": true,
+        "matched": true,
+        "dayStem": "Tân",
+        "monthBranch": "Dậu",
+        "year": {
+          "stem": "Canh",
+          "relation": "Kiếp Tài"
+        },
+        "hour": {
+          "stem": "Đinh",
+          "relation": "Thất Sát"
+        },
+        "completeChart": true,
+        "patternEstablished": null,
+        "usefulGodSelected": null
+      }
+    },
+    {
+      "input": {
+        "y": 2020,
+        "m": 11,
+        "d": 15,
+        "hour": 16,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualPillars": [
+        "庚子",
+        "丁亥",
+        "壬戌",
+        "戊申"
+      ],
+      "actualMonthStage": "临官",
+      "consumer": {
+        "known": true,
+        "matched": true,
+        "dayStem": "Nhâm",
+        "monthBranch": "Hợi",
+        "year": {
+          "stem": "Canh",
+          "relation": "Thiên Ấn"
+        },
+        "hour": {
+          "stem": "Mậu",
+          "relation": "Thất Sát"
+        },
+        "completeChart": true,
+        "patternEstablished": null,
+        "usefulGodSelected": null
+      }
+    },
+    {
+      "input": {
+        "y": 2020,
+        "m": 12,
+        "d": 16,
+        "hour": 14,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualPillars": [
+        "庚子",
+        "戊子",
+        "癸巳",
+        "己未"
+      ],
+      "actualMonthStage": "临官",
+      "consumer": {
+        "known": true,
+        "matched": true,
+        "dayStem": "Quý",
+        "monthBranch": "Tý",
+        "year": {
+          "stem": "Canh",
+          "relation": "Chính Ấn"
+        },
+        "hour": {
+          "stem": "Kỷ",
+          "relation": "Thất Sát"
+        },
+        "completeChart": true,
+        "patternEstablished": null,
+        "usefulGodSelected": null
+      }
+    }
+  ],
+  "consumerChanged": false,
+  "candidateChanged": true,
+  "visualQAComplete": false,
+  "fullPatternClassifier": false,
+  "strengthMethodValidated": false,
+  "wholeCatalogueCompleted": false
+}

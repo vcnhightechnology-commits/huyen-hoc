@@ -1,0 +1,91 @@
+{
+  "checks": [
+    {
+      "name": "PDF bytes and both hashes match the retained public API metadata",
+      "ok": true
+    },
+    {
+      "name": "All five original HTTP response bodies are retained with successful TLS",
+      "ok": true
+    },
+    {
+      "name": "Conflicting catalog years remain explicit; scan date is not claimed as an imprint reading",
+      "ok": true
+    },
+    {
+      "name": "Every selected raster has its own byte identity; extracted dimensions are separate from metadata",
+      "ok": true,
+      "detail": {
+        "selectedRasters": 90
+      }
+    },
+    {
+      "name": "Only sixteen unique targeted yao positions are marked read in this second scan",
+      "ok": true
+    },
+    {
+      "name": "Each comparison points to the actually verified first and second source images",
+      "ok": true,
+      "detail": {
+        "matchesFirst": 15,
+        "matchesApp": 0
+      }
+    },
+    {
+      "name": "Five black-commentary excerpts retain references; base and gloss remain distinct",
+      "ok": true
+    },
+    {
+      "name": "The six Yi modules tested are the exact source embedded in the current standalone HTML",
+      "ok": true
+    },
+    {
+      "name": "Only the four reviewed consumer positions changed; all other readings and every title are preserved",
+      "ok": true,
+      "detail": {
+        "changed": [
+          "23.6",
+          "26.3",
+          "41.1",
+          "52.3"
+        ]
+      }
+    },
+    {
+      "name": "All4096 real engine casts keep exact moving-line positions and the two supplements",
+      "ok": true
+    },
+    {
+      "name": "All384 ordinary reading titles remain unique and nonempty",
+      "ok": true
+    },
+    {
+      "name": "Selected reading and complete-six-line context deliver the same four refinements",
+      "ok": true
+    },
+    {
+      "name": "Calculation, export/profile logic, source Chinese text and all unrelated feature modules retain byte identity",
+      "ok": true
+    },
+    {
+      "name": "Neither the new research nor the Chinese variant strings enter the consumer HTML",
+      "ok": true
+    },
+    {
+      "name": "Consumer Cấn reading no longer turns the image into a literal torn-muscle assertion",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "targetPositions": 16,
+    "completeSecondCollation": false,
+    "blackCommentaryPassages": 5,
+    "selectedRasters": 90,
+    "exactMatchesFirst": 15,
+    "exactMatchesApp": 0,
+    "exactMatchesWikisource": 0,
+    "consumerRefinements": 4,
+    "realEngineCasts": 4096
+  },
+  "htmlSHA256": "676f0d26584810df0509b43065c5031a5ea26afa930679745f4bf8407e54a9d3"
+}

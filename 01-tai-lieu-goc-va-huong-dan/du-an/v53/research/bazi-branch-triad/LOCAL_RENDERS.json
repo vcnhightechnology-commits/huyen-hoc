@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-29",
+  "source": "v53/research/bazi-season-strength/CADAL06066038.djvu",
+  "sourceSHA256": "7a53f35982f0b946281d0e393c5d6ddcce1fd091aea83c11af6a06bcdfe6a85e",
+  "decoder": "v53/research/bazi-pattern-extension/tooling/djvu.js",
+  "decoderSHA256": "10a831d62cc7ced39c30c7350a11410402d082a0f0a5b073a88d3d7ca662add3",
+  "containerPages": 232,
+  "method": "Unmodified retained decoder in NodeVM with ImageData value holder; native RGBA to lossless PNG via local zlib/CRC chunks. No browser, DOM canvas, OCR or HTTP.",
+  "records": [
+    {
+      "page": 203,
+      "file": "p203.png",
+      "bytes": 279282,
+      "sha256": "d3b4b92693919260ed2de40b6afe29c7c58b859dbb5d7efba34ff5522bf1bab1",
+      "width": 2329,
+      "height": 3158,
+      "pixelRGBA_SHA256": "d196473e986a628a1c658444b51f9729e27e1557489c95cbd1197ede848b8418",
+      "actuallyViewed": false
+    },
+    {
+      "page": 204,
+      "file": "p204.png",
+      "bytes": 268347,
+      "sha256": "013e1c15f8fded3525d8a264fdf833f4e499eb8c7812b973289f603e84e61a4b",
+      "width": 2337,
+      "height": 3144,
+      "pixelRGBA_SHA256": "843dbf77deb78ccf2f8ab0a8df61bc593edd263baa7e2201ea708f0835ec0e02",
+      "actuallyViewed": false
+    },
+    {
+      "page": 205,
+      "file": "p205.png",
+      "bytes": 257894,
+      "sha256": "4ffc9ca999d7ab9793d39b20c0291d4689d234835c05e04a172f264deaac2d27",
+      "width": 2317,
+      "height": 3134,
+      "pixelRGBA_SHA256": "9535441937da96e3e784b0ac099874be02e98d0e60bcbb2f07ace1586b88dbfc",
+      "actuallyViewed": false
+    }
+  ],
+  "newHTTPRequests": 0,
+  "newOriginalContainers": 0
+}

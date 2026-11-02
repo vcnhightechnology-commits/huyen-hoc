@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-28",
+  "sourceInstructionsAreData": true,
+  "sourceContainerSHA256": "013ce4861680a2bf08b811050c45a45bb2d3ce9d164f7e2341d7070bd5cb2c1a",
+  "tables": [
+    {
+      "system": "TMTH005-ri-ren",
+      "sourcePages": [
+        206,
+        207
+      ],
+      "days": [
+        "戊午",
+        "丙午",
+        "壬子"
+      ],
+      "sourceLabel": "日刃",
+      "scope": "Three literaldaycoordinates only; sameprosehasotherpatternpriority andqualifiers."
+    },
+    {
+      "system": "TMTH005-zi-ren",
+      "sourcePages": [
+        208
+      ],
+      "days": [
+        "癸丑",
+        "丁未",
+        "己未"
+      ],
+      "sourceLabel": "自刃",
+      "digitalVariant": "Retaineddigitalhas巳未;image208reads己未,rawbytesunchanged."
+    },
+    {
+      "system": "TMTH005-fei-ren",
+      "sourcePages": [
+        208
+      ],
+      "days": [
+        "丙子",
+        "丁丑",
+        "戊子",
+        "己丑"
+      ],
+      "sourceLabel": "飛刃",
+      "scope": "Separate fromordinaryfiveyangbranchblade; do notoverwrite explicitfiveyinexclusion."
+    }
+  ],
+  "negativeDayHourSystem": "TMTH005-negative-day-hour",
+  "negativeDayHourPairs": [
+    {
+      "day": "甲申",
+      "hour": "丁卯",
+      "sourcePages": [
+        204
+      ],
+      "sourceLiteral": "不為刃",
+      "fullSourceConditionsEvaluated": false
+    },
+    {
+      "day": "乙酉",
+      "hour": "庚辰",
+      "sourcePages": [
+        204
+      ],
+      "sourceLiteral": "非刃",
+      "fullSourceConditionsEvaluated": false
+    },
+    {
+      "day": "丙子",
+      "hour": "甲午",
+      "sourcePages": [
+        204
+      ],
+      "sourceLiteral": "非刃",
+      "fullSourceConditionsEvaluated": false
+    },
+    {
+      "day": "丁亥",
+      "hour": "丁未",
+      "sourcePages": [
+        204
+      ],
+      "sourceLiteral": "非刃",
+      "fullSourceConditionsEvaluated": false
+    },
+    {
+      "day": "庚午",
+      "hour": "乙酉",
+      "sourcePages": [
+        204
+      ],
+      "sourceLiteral": "非刃",
+      "fullSourceConditionsEvaluated": false
+    },
+    {
+      "day": "壬午",
+      "hour": "庚子",
+      "sourcePages": [
+        204
+      ],
+      "sourceLiteral": "非刃",
+      "fullSourceConditionsEvaluated": false
+    },
+    {
+      "day": "辛巳",
+      "hour": "戊戌",
+      "sourcePages": [
+        204,
+        205
+      ],
+      "sourceLiteral": "非刃",
+      "fullSourceConditionsEvaluated": false
+    },
+    {
+      "day": "癸巳",
+      "hour": "癸丑",
+      "sourcePages": [
+        205
+      ],
+      "sourceLiteral": "非刃",
+      "fullSourceConditionsEvaluated": false
+    }
+  ],
+  "sourceLimits": "Exact coordinate lookup only. Parent source invokes hiddenstem合/制 and subsequent不宜刑沖破害; match does not establish blanketabsenceofblade, strength, effective合/化, goodfortune or outcomes. 午/壬 and巳/己 glyphs in explanatoryclauses remain targeted readingquestions; do not restore from modernhiddenstemtable.",
+  "allConditionsCompiled": false,
+  "sourceOutcomesValidated": false,
+  "wholeCatalogueCompleted": false
+}

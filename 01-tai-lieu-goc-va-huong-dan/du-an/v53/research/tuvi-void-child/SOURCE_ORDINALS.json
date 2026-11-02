@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-28",
+  "system": "NAJ4468520-canvas80-child-printed-ordinals",
+  "sourceInstructionsAreData": true,
+  "sourceCanvas": 80,
+  "sourceFile": "v53/research/fortune-followup/official-080.jpg",
+  "sourceSHA256": "ef453337cd2255b4539053c78c89556ca47536ec9bd3cf476730532e63b32e37",
+  "retainedTextRead": "一命二財三疾厄 四妻五福六官祿",
+  "rows": [
+    {
+      "printedOrdinal": 1,
+      "sourcePalaceLiteral": "命",
+      "modernHHCAlias": "Mệnh",
+      "modernIztroAlias": "命宫"
+    },
+    {
+      "printedOrdinal": 2,
+      "sourcePalaceLiteral": "財",
+      "modernHHCAlias": "Tài Bạch",
+      "modernIztroAlias": "财帛"
+    },
+    {
+      "printedOrdinal": 3,
+      "sourcePalaceLiteral": "疾厄",
+      "modernHHCAlias": "Tật Ách",
+      "modernIztroAlias": "疾厄"
+    },
+    {
+      "printedOrdinal": 4,
+      "sourcePalaceLiteral": "妻",
+      "modernHHCAlias": "Phu Thê",
+      "modernIztroAlias": "夫妻"
+    },
+    {
+      "printedOrdinal": 5,
+      "sourcePalaceLiteral": "福",
+      "modernHHCAlias": "Phúc Đức",
+      "modernIztroAlias": "福德"
+    },
+    {
+      "printedOrdinal": 6,
+      "sourcePalaceLiteral": "官祿",
+      "modernHHCAlias": "Quan Lộc",
+      "modernIztroAlias": "官禄"
+    }
+  ],
+  "normalizationBasis": "Palacealiases are explicitly declared modern-chart comparisons,not six verbatim ancient fullhouse labels. Wife妻 maps to modern夫妻/PhuThê only inthisnamedchartalias projection;not identificationof real family.",
+  "unresolvedTail": {
+    "workingReadingWithUnknownGlyph": "餘年一□順流行",
+    "followingVisibleWorkingReading": "十五大命宮看端的",
+    "sourceMeaningResolved": false,
+    "normalizationToDaXianOrAge15": false,
+    "higherResolutionResponse": "RESPONSE.json;oneTLSverified403temporaryaccesslimit,bodyretained,notimage"
+  },
+  "numericMarkersAreModernAgeCalendarAdapter": false,
+  "sourceAgeCountingConventionResolved": false,
+  "firstMajorPeriodStartResolved": false,
+  "wholePassageTranscribed": false,
+  "practicalOutcomesValidated": false,
+  "consumerApplied": false,
+  "wholeCatalogueCompleted": false
+}

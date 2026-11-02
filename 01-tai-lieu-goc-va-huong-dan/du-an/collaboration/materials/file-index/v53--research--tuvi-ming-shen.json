@@ -1,0 +1,497 @@
+{
+  "scope": "v53/research/tuvi-ming-shen",
+  "files": [
+    {
+      "file": "v53/research/tuvi-ming-shen/CURRENT_CANVAS_INVENTORY.json",
+      "bytes": 73702,
+      "sha256": "42442ef026eae8a33eb556f00a103373e4b36527a15076905bcd8e24136ce9e0",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/42442ef026eae8a33eb556f00a103373e4b36527a15076905bcd8e24136ce9e0",
+      "httpRange": {
+        "offset": 151759749,
+        "compressedBytes": 7703,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/FIRST_PASS_READINGS.json",
+      "bytes": 11210,
+      "sha256": "8d589ac38c1961e2afde870fe148453d68f41ed7db8bd0b8672a81d14e536a8b",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8d589ac38c1961e2afde870fe148453d68f41ed7db8bd0b8672a81d14e536a8b",
+      "httpRange": {
+        "offset": 281129687,
+        "compressedBytes": 3693,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/FLANKING_LABEL_DISPOSITIONS.json",
+      "bytes": 3929,
+      "sha256": "6b8ad7ab306e711a60fbf7bc25f184b4f0332010c999ef32a049209f64725f16",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6b8ad7ab306e711a60fbf7bc25f184b4f0332010c999ef32a049209f64725f16",
+      "httpRange": {
+        "offset": 259820602,
+        "compressedBytes": 1039,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/MING_SHEN_READINGS.json",
+      "bytes": 1231,
+      "sha256": "22e8bd2fad222a0856c2af9362687782fd344a129cc8935444190b93de6126a0",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/22e8bd2fad222a0856c2af9362687782fd344a129cc8935444190b93de6126a0",
+      "httpRange": {
+        "offset": 98327631,
+        "compressedBytes": 641,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/PROMOTION_IDENTITIES.json",
+      "bytes": 12520,
+      "sha256": "15e95a56d64fd3ff2abed4d183d0368eef8e46a6dc6d7ee05bab1e9ba15bad7d",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/15e95a56d64fd3ff2abed4d183d0368eef8e46a6dc6d7ee05bab1e9ba15bad7d",
+      "httpRange": {
+        "offset": 290107563,
+        "compressedBytes": 3215,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/SOURCE_DISPOSITIONS.json",
+      "bytes": 2659,
+      "sha256": "8bd3bcd08461e2f7d3063852090c41873deba8c188e98e70342f572f25903858",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8bd3bcd08461e2f7d3063852090c41873deba8c188e98e70342f572f25903858",
+      "httpRange": {
+        "offset": 268965612,
+        "compressedBytes": 643,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/SOURCE_MANIFEST.json",
+      "bytes": 36303,
+      "sha256": "8f2e2af5d7ea40b0c75b25ee23328333c5b9c68a3c52d10b82fa040a2e03887f",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8f2e2af5d7ea40b0c75b25ee23328333c5b9c68a3c52d10b82fa040a2e03887f",
+      "httpRange": {
+        "offset": 297945955,
+        "compressedBytes": 4796,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/STAGED_build-ming-shen.py",
+      "bytes": 5328,
+      "sha256": "56b4e6de316217f88f6af410ed51c3d9f6e97c03772a5f622c275ac92fe57d8b",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/56b4e6de316217f88f6af410ed51c3d9f6e97c03772a5f622c275ac92fe57d8b",
+      "httpRange": {
+        "offset": 164971837,
+        "compressedBytes": 2635,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/STAGED_finalize-stage.py",
+      "bytes": 10277,
+      "sha256": "3d9381b6cfdc69d6a0f36ca4481230fe74822349ebc2ef496009511c95c9c083",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/3d9381b6cfdc69d6a0f36ca4481230fe74822349ebc2ef496009511c95c9c083",
+      "httpRange": {
+        "offset": 405429480,
+        "compressedBytes": 5447,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/STAGED_record-readings.py",
+      "bytes": 5790,
+      "sha256": "44cd32738f624125f8a0e8331b4890b063b024cbdb9eb0eed147dfc821ad958a",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/44cd32738f624125f8a0e8331b4890b063b024cbdb9eb0eed147dfc821ad958a",
+      "httpRange": {
+        "offset": 181128734,
+        "compressedBytes": 3205,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/STAGED_snapshot.py",
+      "bytes": 1278,
+      "sha256": "f99c43a76c9150c9343bbadd9e8b84cf55c0db37b311895f7eb7af0dad8f3d3d",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f99c43a76c9150c9343bbadd9e8b84cf55c0db37b311895f7eb7af0dad8f3d3d",
+      "httpRange": {
+        "offset": 247110599,
+        "compressedBytes": 662,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/STAGED_test-ming-shen.mjs",
+      "bytes": 7307,
+      "sha256": "d96401c1c8521433b47ae92f96dacda4c493dedd716d82cf2bc3a146fdda26f7",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d96401c1c8521433b47ae92f96dacda4c493dedd716d82cf2bc3a146fdda26f7",
+      "httpRange": {
+        "offset": 195908041,
+        "compressedBytes": 3303,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/WINDOWS_TRUST_REQUESTS.json",
+      "bytes": 35882,
+      "sha256": "0b92b8e20634feb174cd987559c0e30ec2e2d82b00befb0bae63084fcb3ca4fb",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0b92b8e20634feb174cd987559c0e30ec2e2d82b00befb0bae63084fcb3ca4fb",
+      "httpRange": {
+        "offset": 171808713,
+        "compressedBytes": 4541,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/WORK_STATE.json",
+      "bytes": 3748,
+      "sha256": "1ef1850ae0cfb49749ec07df92d37349bbaa95c285f5fc555498232c3d765277",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/1ef1850ae0cfb49749ec07df92d37349bbaa95c285f5fc555498232c3d765277",
+      "httpRange": {
+        "offset": 67588585,
+        "compressedBytes": 2177,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-049-native-trust.jpg",
+      "bytes": 541304,
+      "sha256": "c38b77acb96550f059dc2b51a3d382f13180fd9c7c92a960510380515547a114",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c38b77acb96550f059dc2b51a3d382f13180fd9c7c92a960510380515547a114",
+      "httpRange": {
+        "offset": 328963937,
+        "compressedBytes": 540151,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-050-native-trust.jpg",
+      "bytes": 540787,
+      "sha256": "e267242dd5ff52ff4f9e5881e78ee29517479f9309c795f66864017ac65967d0",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e267242dd5ff52ff4f9e5881e78ee29517479f9309c795f66864017ac65967d0",
+      "httpRange": {
+        "offset": 306488437,
+        "compressedBytes": 539682,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-051-native-trust.jpg",
+      "bytes": 560791,
+      "sha256": "92d17f3473925de541f7ab5224a566d495022e9e81f0ff40bfaf5e2efa9ce68c",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/92d17f3473925de541f7ab5224a566d495022e9e81f0ff40bfaf5e2efa9ce68c",
+      "httpRange": {
+        "offset": 324690789,
+        "compressedBytes": 559811,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-052-native-trust.jpg",
+      "bytes": 539032,
+      "sha256": "d9e0da3f10526aa3fd5972d626c3629068571d11bf9bd3607c548533adcbe5d0",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d9e0da3f10526aa3fd5972d626c3629068571d11bf9bd3607c548533adcbe5d0",
+      "httpRange": {
+        "offset": 202100460,
+        "compressedBytes": 537894,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-053-native-trust.jpg",
+      "bytes": 521355,
+      "sha256": "bd84023812c6b4ef29268db9da0c5d3dd16d16ca0dc5c32068dfcb6fd4368753",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bd84023812c6b4ef29268db9da0c5d3dd16d16ca0dc5c32068dfcb6fd4368753",
+      "httpRange": {
+        "offset": 205273980,
+        "compressedBytes": 520147,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-054-native-trust.jpg",
+      "bytes": 522752,
+      "sha256": "0b52df21113e82eac5ae483fb3049af3713a33715bbcb173d9ba7c62011efc38",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0b52df21113e82eac5ae483fb3049af3713a33715bbcb173d9ba7c62011efc38",
+      "httpRange": {
+        "offset": 166208045,
+        "compressedBytes": 521503,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-055-native-trust.jpg",
+      "bytes": 530430,
+      "sha256": "cfcded9ff2b5460dabc7eef57c3934fbf9428ce826cc391275309ea3ffec9cb6",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/cfcded9ff2b5460dabc7eef57c3934fbf9428ce826cc391275309ea3ffec9cb6",
+      "httpRange": {
+        "offset": 89115582,
+        "compressedBytes": 529242,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-056-native-trust.jpg",
+      "bytes": 531454,
+      "sha256": "d5f69686d32128388492dae7c0f344cc220972560dc92fb54e639a794ebccc55",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d5f69686d32128388492dae7c0f344cc220972560dc92fb54e639a794ebccc55",
+      "httpRange": {
+        "offset": 152778393,
+        "compressedBytes": 530282,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-057-native-trust.jpg",
+      "bytes": 534175,
+      "sha256": "04b30b16e90b2a42aaf8fa658c496fa4935a631fe83402a0ef8d430cb70d3dc6",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/04b30b16e90b2a42aaf8fa658c496fa4935a631fe83402a0ef8d430cb70d3dc6",
+      "httpRange": {
+        "offset": 113436715,
+        "compressedBytes": 532998,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-058-native-trust.jpg",
+      "bytes": 529305,
+      "sha256": "16ba70856adbe86eda0b372b9701e4d645f7eae96395eac1bfc8b686f9404dff",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/16ba70856adbe86eda0b372b9701e4d645f7eae96395eac1bfc8b686f9404dff",
+      "httpRange": {
+        "offset": 298382709,
+        "compressedBytes": 527981,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-059-native-trust.jpg",
+      "bytes": 530063,
+      "sha256": "8dda1ee2bee0225a68d6a242e75097804e02759381198f73ec8e9c754eab2197",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8dda1ee2bee0225a68d6a242e75097804e02759381198f73ec8e9c754eab2197",
+      "httpRange": {
+        "offset": 291581152,
+        "compressedBytes": 528823,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-060-native-trust.jpg",
+      "bytes": 539931,
+      "sha256": "0d4375dd908c42233828daaf9e4c4c435f9d541937a7308bcb0e0a9fef4603ad",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0d4375dd908c42233828daaf9e4c4c435f9d541937a7308bcb0e0a9fef4603ad",
+      "httpRange": {
+        "offset": 191765908,
+        "compressedBytes": 538745,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-061-native-trust.jpg",
+      "bytes": 524746,
+      "sha256": "e7cc564c8405f56610ff253025d1439f1e01e36b723dc26d51bb2659967ecd20",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e7cc564c8405f56610ff253025d1439f1e01e36b723dc26d51bb2659967ecd20",
+      "httpRange": {
+        "offset": 388473438,
+        "compressedBytes": 523545,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-062-native-trust.jpg",
+      "bytes": 524560,
+      "sha256": "66f291fff39e28c48620c15921bece0af55f108f923ee0bc3cbf16c8ce6503e7",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/66f291fff39e28c48620c15921bece0af55f108f923ee0bc3cbf16c8ce6503e7",
+      "httpRange": {
+        "offset": 211068982,
+        "compressedBytes": 523364,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-063-native-trust.jpg",
+      "bytes": 525210,
+      "sha256": "436f388af31e99ac0a34b7daf9a952769f4528d3865dd379e5c393fa23372a21",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/436f388af31e99ac0a34b7daf9a952769f4528d3865dd379e5c393fa23372a21",
+      "httpRange": {
+        "offset": 166974860,
+        "compressedBytes": 524071,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-064-native-trust.jpg",
+      "bytes": 528131,
+      "sha256": "9eeb79f12c9a1544a30cf24c354e2033d6e219592fdf077791be93465ada4e04",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9eeb79f12c9a1544a30cf24c354e2033d6e219592fdf077791be93465ada4e04",
+      "httpRange": {
+        "offset": 138348942,
+        "compressedBytes": 526893,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-065-native-trust.jpg",
+      "bytes": 538297,
+      "sha256": "2b2272ca03d5761473c8df3990a4d80f07a289789987b1c9ad95382566f5b4d5",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2b2272ca03d5761473c8df3990a4d80f07a289789987b1c9ad95382566f5b4d5",
+      "httpRange": {
+        "offset": 194161250,
+        "compressedBytes": 537125,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-066-native-trust.jpg",
+      "bytes": 506259,
+      "sha256": "b235baf63af4f558fcc78be43b007dc284c5710e2d88f24caf67e59c028259cb",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b235baf63af4f558fcc78be43b007dc284c5710e2d88f24caf67e59c028259cb",
+      "httpRange": {
+        "offset": 342643348,
+        "compressedBytes": 504957,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-067-native-trust.jpg",
+      "bytes": 509726,
+      "sha256": "f8042142556d832d590cf6799e6f8732eee50e61a9e4b0bafe67d826fa6d8c42",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f8042142556d832d590cf6799e6f8732eee50e61a9e4b0bafe67d826fa6d8c42",
+      "httpRange": {
+        "offset": 223798790,
+        "compressedBytes": 508453,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-068-native-trust.jpg",
+      "bytes": 525035,
+      "sha256": "61963cda4df26f64ec33a7b69996ea893155ca295e4345d04bbbe1ab247e8000",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/61963cda4df26f64ec33a7b69996ea893155ca295e4345d04bbbe1ab247e8000",
+      "httpRange": {
+        "offset": 78688251,
+        "compressedBytes": 523892,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-069-native-trust.jpg",
+      "bytes": 516867,
+      "sha256": "09b8b64db5387f1ed6037358eabb3c1361e4dce79f2db691c784e97c478ffefd",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/09b8b64db5387f1ed6037358eabb3c1361e4dce79f2db691c784e97c478ffefd",
+      "httpRange": {
+        "offset": 147932333,
+        "compressedBytes": 515471,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-070-native-trust.jpg",
+      "bytes": 522147,
+      "sha256": "eadc5630613dcd6c6bf71c54c76df6bf6d20c41eac028c06202f83742949c10b",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/eadc5630613dcd6c6bf71c54c76df6bf6d20c41eac028c06202f83742949c10b",
+      "httpRange": {
+        "offset": 63402133,
+        "compressedBytes": 520760,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-071-native-trust.jpg",
+      "bytes": 541978,
+      "sha256": "9444df32db88012d9794935d8e5cee4eb70a3a28f22dd9415dc54c4a64bb1e4d",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/9444df32db88012d9794935d8e5cee4eb70a3a28f22dd9415dc54c4a64bb1e4d",
+      "httpRange": {
+        "offset": 338637115,
+        "compressedBytes": 540829,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-072-native-trust.jpg",
+      "bytes": 542209,
+      "sha256": "920ae0878d3dcc3176edad56f5d2002759278c252d8549d349915978827645e8",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/920ae0878d3dcc3176edad56f5d2002759278c252d8549d349915978827645e8",
+      "httpRange": {
+        "offset": 315931367,
+        "compressedBytes": 541090,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/canvas-073-native-trust.jpg",
+      "bytes": 524247,
+      "sha256": "4a71475169b2bb781752dcf8bbc9957b320f5380ed09a2c7f3a44ad274f28bfd",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4a71475169b2bb781752dcf8bbc9957b320f5380ed09a2c7f3a44ad274f28bfd",
+      "httpRange": {
+        "offset": 274827222,
+        "compressedBytes": 523114,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/fetch.ps1",
+      "bytes": 1856,
+      "sha256": "7c20ab1ec65037532f137e8b52bed0b7f1ba30f9964e12d85c90f2fb8b64fe18",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7c20ab1ec65037532f137e8b52bed0b7f1ba30f9964e12d85c90f2fb8b64fe18",
+      "httpRange": {
+        "offset": 45121784,
+        "compressedBytes": 996,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-ming-shen/source-ming-shen.mjs",
+      "bytes": 1698,
+      "sha256": "74bc87fe0e46bf81592ac20283fb289628946d37304ec6e69a019fe04d2cf324",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/74bc87fe0e46bf81592ac20283fb289628946d37304ec6e69a019fe04d2cf324",
+      "httpRange": {
+        "offset": 362706886,
+        "compressedBytes": 783,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

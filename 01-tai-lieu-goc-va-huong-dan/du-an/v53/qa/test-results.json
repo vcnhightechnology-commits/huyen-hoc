@@ -1,0 +1,309 @@
+{
+  "date": "2026-10-26T22:52:22.250Z",
+  "checks": [
+    {
+      "name": "Tử vi: full star positions and palace flags match actual V52",
+      "ok": true,
+      "detail": {
+        "cases": 336,
+        "differences": 0
+      }
+    },
+    {
+      "name": "Bát tự: four pillars and elements match actual V52",
+      "ok": true,
+      "detail": {
+        "cases": 288
+      }
+    },
+    {
+      "name": "All supported years: nạp âm and cung phi match V52",
+      "ok": true,
+      "detail": {
+        "cases": 402
+      }
+    },
+    {
+      "name": "Complete consumer reading content, known pure hexagrams",
+      "ok": true,
+      "detail": {
+        "stars": 14,
+        "palaces": 12,
+        "yi": 64,
+        "names": true,
+        "pure": [
+          1,
+          2
+        ]
+      }
+    },
+    {
+      "name": "Research panels and external source links absent from product DOM",
+      "ok": true
+    },
+    {
+      "name": "Empty form gives useful validation",
+      "ok": true
+    },
+    {
+      "name": "Impossible Gregorian date is rejected",
+      "ok": true
+    },
+    {
+      "name": "Tử vi form produces chart and four reading topics",
+      "ok": true
+    },
+    {
+      "name": "Selected topic displays relevant interpretation",
+      "ok": true
+    },
+    {
+      "name": "Explicit save creates one local profile",
+      "ok": true
+    },
+    {
+      "name": "Download contains consumer reading without research terms",
+      "ok": true
+    },
+    {
+      "name": "Editing a form clears stale results and export actions",
+      "ok": true
+    },
+    {
+      "name": "Saved profile restores original birth input and reading",
+      "ok": true
+    },
+    {
+      "name": "Lunar leap date and day rollover produce result",
+      "ok": true
+    },
+    {
+      "name": "Nonexistent leap month rejected",
+      "ok": true
+    },
+    {
+      "name": "Unknown birth time suppresses uncertain interpretation at boundary",
+      "ok": true
+    },
+    {
+      "name": "Stable three pillars have no fabricated hour",
+      "ok": true
+    },
+    {
+      "name": "Four known pillars receive Nhật chủ reading",
+      "ok": true
+    },
+    {
+      "name": "Bản mệnh: correct nạp âm and escaped user input",
+      "ok": true
+    },
+    {
+      "name": "Bát trạch: eight directions, four favorable, chosen direction",
+      "ok": true
+    },
+    {
+      "name": "Manual pure Yang gives Càn and no moving hexagram",
+      "ok": true
+    },
+    {
+      "name": "Moving line produces changed hexagram and labels moving stage",
+      "ok": true
+    },
+    {
+      "name": "Single throw advances one line",
+      "ok": true
+    },
+    {
+      "name": "Coin throwing generates full six-line result",
+      "ok": true
+    },
+    {
+      "name": "1440px tuvi: page has no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "name": "1440px bazi: page has no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "name": "1440px destiny: page has no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "name": "1440px directions: page has no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "name": "1440px yi: page has no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "name": "768px tuvi: page has no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 768,
+        "width": 768
+      }
+    },
+    {
+      "name": "768px bazi: page has no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 768,
+        "width": 768
+      }
+    },
+    {
+      "name": "768px destiny: page has no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 768,
+        "width": 768
+      }
+    },
+    {
+      "name": "768px directions: page has no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 768,
+        "width": 768
+      }
+    },
+    {
+      "name": "768px yi: page has no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 768,
+        "width": 768
+      }
+    },
+    {
+      "name": "390px tuvi: page has no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "390px bazi: page has no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "390px destiny: page has no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "390px directions: page has no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "390px yi: page has no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "320px tuvi: page has no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 320,
+        "width": 320
+      }
+    },
+    {
+      "name": "320px bazi: page has no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 320,
+        "width": 320
+      }
+    },
+    {
+      "name": "320px destiny: page has no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 320,
+        "width": 320
+      }
+    },
+    {
+      "name": "320px directions: page has no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 320,
+        "width": 320
+      }
+    },
+    {
+      "name": "320px yi: page has no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "scroll": 320,
+        "width": 320
+      }
+    },
+    {
+      "name": "Saved manual moving hexagram reopens correctly",
+      "ok": true
+    },
+    {
+      "name": "Delete removes only selected profile",
+      "ok": true
+    },
+    {
+      "name": "Privacy dialog works on mobile and describes local save",
+      "ok": true
+    },
+    {
+      "name": "Dialog closes with keyboard",
+      "ok": true
+    },
+    {
+      "name": "No runtime JavaScript errors",
+      "ok": true,
+      "detail": []
+    },
+    {
+      "name": "Portable product makes no HTTP requests",
+      "ok": true,
+      "detail": []
+    }
+  ],
+  "errors": [],
+  "requests": []
+}

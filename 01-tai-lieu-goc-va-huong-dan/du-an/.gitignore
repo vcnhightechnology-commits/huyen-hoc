@@ -1,0 +1,41 @@
+# Generated packages and full snapshots are retained once by STORAGE_POLICY.md.
+/*.zip
+/archives/
+/tmp/
+/recovery/
+/v46/
+/v47/
+/v48/
+/v49/
+/v50/
+/v51/
+/v52/
+**/node_modules/
+# Binary evidence lives on disk and in the single consolidated source package.
+*.pdf
+*.djvu
+*.zip
+*.png
+*.jpg
+*.JPG
+*.jpeg
+*.webp
+*.sqlite
+*.sqlite-wal
+*.sqlite-shm
+*.pyc
+__pycache__/
+# Additional binary evidence and local credentials stay on this computer.
+*.jp2
+*.tif
+*.tiff
+*.gif
+*.exe
+*.dll
+*.7z
+*.rar
+.env
+.env.*
+!.env.example
+*.pem
+*.key

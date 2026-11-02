@@ -1,0 +1,29 @@
+{
+  "scope": "v53/qa/meihua-volume-map",
+  "files": [
+    {
+      "file": "v53/qa/meihua-volume-map/RELEASE_RESULTS.json",
+      "bytes": 957,
+      "sha256": "8e2d2d2836b2884ef47b2dd581e979b6fc5965370bfeff07f24666f659096bd3",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8e2d2d2836b2884ef47b2dd581e979b6fc5965370bfeff07f24666f659096bd3",
+      "httpRange": {
+        "offset": 294491271,
+        "compressedBytes": 495,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/meihua-volume-map/SOURCE_RESULTS.json",
+      "bytes": 2191,
+      "sha256": "ccc6c9f0cf370226d5ad6890bb840e40872e0597ed16f06c5d80501e0226abee",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/ccc6c9f0cf370226d5ad6890bb840e40872e0597ed16f06c5d80501e0226abee",
+      "httpRange": {
+        "offset": 50540461,
+        "compressedBytes": 1063,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

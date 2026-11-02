@@ -1,0 +1,109 @@
+{
+  "date": "2026-10-27",
+  "sourceID": "B03-book3",
+  "pdfPages": [
+    7,
+    8
+  ],
+  "sourceContext": "weather-timing-paragraph",
+  "methods": [
+    {
+      "id": "moving-no-other-cause",
+      "pdfPage": 8,
+      "boundedNormalizedReading": "用神動而無他故者候逢合之日應事",
+      "motion": "moving",
+      "requiresBoolean": "noOtherCauseConfirmed",
+      "target": "combine-subject"
+    },
+    {
+      "id": "static-combined",
+      "pdfPage": 8,
+      "boundedNormalizedReading": "靜而逢合者皆候沖日應事",
+      "motion": "static",
+      "requiresBoolean": "combinationConfirmed",
+      "target": "clash-subject"
+    },
+    {
+      "id": "enters-context-tomb",
+      "pdfPage": 8,
+      "boundedNormalizedReading": "用神入墓于日辰者候沖開墓庫之日應事",
+      "motion": null,
+      "requiresBoolean": "tombPremiseConfirmed",
+      "target": "clash-tomb"
+    },
+    {
+      "id": "self-change-tomb",
+      "pdfPage": 8,
+      "boundedNormalizedReading": "用神自化入墓者候沖用神之日應事",
+      "motion": "moving",
+      "requiresBoolean": "tombPremiseConfirmed",
+      "target": "clash-subject",
+      "requiresOwnChangedBranchEqualsExplicitTomb": true
+    }
+  ],
+  "scope": "Four explicitly bounded target-branch coordinates, not a complete 應期 model.",
+  "tombAndOtherCausePremisesAreExplicitCallerAssertionsNotInferredTruth": true,
+  "sixClashPairs": [
+    [
+      "子",
+      "午"
+    ],
+    [
+      "丑",
+      "未"
+    ],
+    [
+      "寅",
+      "申"
+    ],
+    [
+      "卯",
+      "酉"
+    ],
+    [
+      "辰",
+      "戌"
+    ],
+    [
+      "巳",
+      "亥"
+    ]
+  ],
+  "sixCombinationPairs": [
+    [
+      "子",
+      "丑"
+    ],
+    [
+      "寅",
+      "亥"
+    ],
+    [
+      "卯",
+      "戌"
+    ],
+    [
+      "辰",
+      "酉"
+    ],
+    [
+      "巳",
+      "申"
+    ],
+    [
+      "午",
+      "未"
+    ]
+  ],
+  "notCompiled": [
+    "旬內/出旬 void horizons",
+    "Month-break fill/combine and out-of-month conditions",
+    "Source-relative 生旺/墓絕 classification",
+    "Hidden original-spirit appearance",
+    "Near/far question and 月/日 horizons",
+    "Weather 財/父 subject changes and 轉爻"
+  ],
+  "allTimingPremisesCompiled": false,
+  "meteorologicalPredictionAccuracyEstablished": false,
+  "consumerApplied": false
+}

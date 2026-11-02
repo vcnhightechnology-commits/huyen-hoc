@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-28",
+  "version": "2.6.2",
+  "localFiles": [
+    {
+      "file": "v53/engine.js",
+      "bytes": 42033,
+      "sha256": "39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6"
+    },
+    {
+      "file": "v46/node_modules/iztro/package.json",
+      "bytes": 2650,
+      "sha256": "e0250813ee16ed518ab358bcadd7efb4412f86dde3d47d12a8392009d5488cff"
+    },
+    {
+      "file": "v46/node_modules/iztro/lib/index.js",
+      "bytes": 1368,
+      "sha256": "10ab83d0ebfe3e5b335589767f4851034e1cf029c7ca7cbc231c22b562c7e4fb"
+    },
+    {
+      "file": "v46/node_modules/iztro/lib/astro/astro.js",
+      "bytes": 23054,
+      "sha256": "f22ef4e13902c489fcbbc340bb685ed5dce350f7794f2856daf43aa3308a1100"
+    },
+    {
+      "file": "v46/node_modules/iztro/lib/astro/FunctionalAstrolabe.js",
+      "bytes": 18360,
+      "sha256": "d0bf549d5c73195019afcd2675e3b83a69b57a51920eec7c041cac7d29f6725d"
+    }
+  ],
+  "tarball": {
+    "file": "v46/evidence/npm/iztro-2.6.2.tgz",
+    "bytes": 1425345,
+    "sha256": "d44e96631c0506424c3aef25a7bba8e43e01729102d6a703720cbe224aec5403"
+  },
+  "proofKind": "Fourinstallediztrocorefilescomparedtoretainedpinnedtarball;notpublisherdigitalsignature.",
+  "actualHHCTuviCalls": 2,
+  "actualIztroByLunarCalls": 2,
+  "postCorrectionActualChartCalls": 0,
+  "calendarConfig": {
+    "yearDivide": "normal",
+    "horoscopeDivide": "normal",
+    "ageDivide": "normal",
+    "dayDivide": "current",
+    "algorithm": "default"
+  },
+  "calendarConventionDeclaredNotEstablishedForHistoricalPersons": true
+}

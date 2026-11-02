@@ -1,0 +1,123 @@
+{
+  "date": "2026-10-29",
+  "daySystem": "ITKC-GO1508A.日論.two-declared-patterns.v1",
+  "hourSystem": "ITKC-GO1508A.時論.paragraph-activity.v1",
+  "wholeSourceMethodApplied": false,
+  "consumerApplied": false,
+  "dayPatterns": [
+    {
+      "id": "tiandi-turn",
+      "title": "天地轉殺",
+      "position": 247,
+      "pairs": [
+        {
+          "season": "spring",
+          "month": 2,
+          "branch": "卯"
+        },
+        {
+          "season": "summer",
+          "month": 5,
+          "branch": "午"
+        },
+        {
+          "season": "autumn",
+          "month": 8,
+          "branch": "酉"
+        },
+        {
+          "season": "winter",
+          "month": 11,
+          "branch": "子"
+        }
+      ],
+      "literal": "春忌二月卯日夏忌五月午日秋忌八月酉日冬忌十一月子日",
+      "operationContext": "修造起工動土開塘築墻甃砌堦路開渠穿井如一應修作動土並忌此日",
+      "digitalDiscrepancy": "並起此日 is not used as a permission. Image reads並忌此日.",
+      "sourceMonthOrSeasonCalendarAdapter": false
+    },
+    {
+      "id": "tianzei",
+      "title": "天賊",
+      "positions": [
+        247,
+        248
+      ],
+      "classToOfficer": {
+        "meng": "滿",
+        "zhong": "破",
+        "ji": "開"
+      },
+      "literal": "孟月滿日仲月破日季月開日",
+      "operationContext": "修造動土竪柱",
+      "guardText": "天狗明星守護 and 天狗下食時能守護 are distinct; no classifier or exception emendation implemented.",
+      "monthClassToModernMonthAdapter": false
+    }
+  ],
+  "hourParagraphs": [
+    {
+      "id": "jielu",
+      "title": "截路空亡",
+      "position": 255,
+      "literal": "此時止忌納表進章出行遠迴如修造安葬並不避忌",
+      "namedRestrictedActivities": [
+        "memorial",
+        "travel"
+      ],
+      "namedNotAvoidedActivities": [
+        "build",
+        "burial"
+      ],
+      "unlistedActivityDefault": null
+    },
+    {
+      "id": "xunzhong",
+      "title": "旬中空亡",
+      "positions": [
+        255,
+        256
+      ],
+      "literal": "上官嫁娶出行遠迴修造入宅建寺觀神廟及新立神像開光上座並凶",
+      "namedRestrictedActivities": [
+        "office",
+        "marriage",
+        "travel",
+        "build",
+        "relocation",
+        "temple-consecration"
+      ],
+      "namedNotAvoidedActivities": [],
+      "unlistedActivityDefault": null
+    }
+  ],
+  "generalHourContext": {
+    "position": 256,
+    "literal": "上官嫁娶出行入宅修造安葬修方一切動用宜用四大吉時兼用黃道吉星時得吉神到時可勝諸凶所有河魁九醜截路日中空亡孤辰寡宿建破大敗祿陷空亡等時並不忌亦不用硬本貴人祿馬時",
+    "literalDayGlyph": "日",
+    "institutionalEditorialDayGlyph": "旬",
+    "namedActivities": [
+      "office",
+      "marriage",
+      "travel",
+      "relocation",
+      "build",
+      "burial",
+      "directional-repair"
+    ],
+    "requiredDeclaredCompositePremise": "Full 四大吉時/黃道吉星/吉神到時 context confirmed; no ANY/ALL inferred or stars calculated by this API.",
+    "combinedPriorityResolved": false
+  },
+  "buildBuryRepairHourContext": {
+    "position": 256,
+    "literal": "宜合通天竅走馬六壬天罡取用吉時吉神到山到向如修方用時亦依前例",
+    "calendarOrStarAlgorithmHereEstablished": false
+  },
+  "limits": [
+    "Only two named day patterns, not the complete18dayclauses.",
+    "Clock/hour status is caller-declared; no time adapter, source timezone, early/lateZi or calendar mapping.",
+    "Named paragraph avoidance and conditional general-hour override remain separate; no overall synthesis.",
+    "日/旬 reading mode explicit; printed日does not automatically become旬.",
+    "P08 andITKCactivitylistsremainseparate;unlistedactivitynull,notgooddate.",
+    "Source claims are research data, never user instructions or empirically verified outcomes."
+  ]
+}

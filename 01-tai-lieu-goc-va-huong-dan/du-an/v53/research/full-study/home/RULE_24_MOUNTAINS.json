@@ -1,0 +1,459 @@
+{
+  "schema": "hhc.home.24-mountains.reference.v1",
+  "status": "Ready for implementation with explicit digital conventions; not room placement or fortune interpretation",
+  "source": {
+    "id": "CADAL06056503",
+    "title": "欽定協紀辨方書 卷二",
+    "container": "四庫全書",
+    "catalogURL": "https://commons.wikimedia.org/wiki/File:CADAL06056503_%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8%C2%B7%E5%8D%B7%E4%BA%8C.djvu",
+    "transcriptionURL": "https://zh.wikisource.org/w/index.php?oldid=787335&title=%E6%AC%BD%E5%AE%9A%E5%8D%94%E7%B4%80%E8%BE%A8%E6%96%B9%E6%9B%B8_(%E5%9B%9B%E5%BA%AB%E5%85%A8%E6%9B%B8%E6%9C%AC)%2F%E5%8D%B702",
+    "scanPagesRead": [
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8
+    ],
+    "decisivePages": [
+      5,
+      6,
+      7
+    ],
+    "wholeContainerPages": 110,
+    "wholeContainerRead": false,
+    "custodyNote": "Downloaded from public Commons mirror; CADAL origin and attribution are catalog claims. No independent CADAL master-byte comparison."
+  },
+  "sourceFacts": {
+    "palaceGroups": [
+      {
+        "trigram": "坎",
+        "direction": "N",
+        "mountains": [
+          "壬",
+          "子",
+          "癸"
+        ]
+      },
+      {
+        "trigram": "艮",
+        "direction": "NE",
+        "mountains": [
+          "丑",
+          "艮",
+          "寅"
+        ]
+      },
+      {
+        "trigram": "震",
+        "direction": "E",
+        "mountains": [
+          "甲",
+          "卯",
+          "乙"
+        ]
+      },
+      {
+        "trigram": "巽",
+        "direction": "SE",
+        "mountains": [
+          "辰",
+          "巽",
+          "巳"
+        ]
+      },
+      {
+        "trigram": "離",
+        "direction": "S",
+        "mountains": [
+          "丙",
+          "午",
+          "丁"
+        ]
+      },
+      {
+        "trigram": "坤",
+        "direction": "SW",
+        "mountains": [
+          "未",
+          "坤",
+          "申"
+        ]
+      },
+      {
+        "trigram": "兌",
+        "direction": "W",
+        "mountains": [
+          "庚",
+          "酉",
+          "辛"
+        ]
+      },
+      {
+        "trigram": "乾",
+        "direction": "NW",
+        "mountains": [
+          "戌",
+          "乾",
+          "亥"
+        ]
+      }
+    ],
+    "explicitOppositeExamples": [
+      [
+        "子",
+        "午"
+      ],
+      [
+        "午",
+        "子"
+      ],
+      [
+        "壬",
+        "丙"
+      ],
+      [
+        "丙",
+        "壬"
+      ]
+    ],
+    "printedDiagramOrientation": "South (離/午) at top; East (震/卯) at left; North (坎/子) at bottom; West (兌/酉) at right",
+    "traditionalRing": "正針/二十四方位; do not silently substitute 中針 or 縫針"
+  },
+  "digitalConventions": {
+    "angleOrigin": "0° at the selected north reference, aligned with 子 center",
+    "rotation": "Clockwise in a modern north-up bearing convention",
+    "equalSectors": "360° / 24 = 15°; center spacing15°, each half-width7.5°",
+    "nominalFormula": "index = floor((normalize360(angle)+7.5)/15) mod24",
+    "nominalBoundary": "Lower inclusive, upper exclusive; exact boundary belongs to clockwise next mountain",
+    "uncertainty": "With error=0, return only the nominal half-open sector. With error>0, use a closed bearing interval and return every sector whose closed edge intersects it, including endpoint touches. Reconciled to product module convention on 2026-10-26; not a claim about ancient boundary policy.",
+    "northReference": "Caller must declare true or magnetic; this source does not establish their equivalence",
+    "declination": "For a chosen true-north display only: true bearing = normalize360(magnetic bearing + east-positive declination). Declination must be explicit; no inferred zero.",
+    "notSourceStatements": [
+      "The 0–360° numeric coding and half-open tie policy are implementation conventions, not quotations from this page.",
+      "No universal ancient true-versus-magnetic-north rule is established here."
+    ]
+  },
+  "mountains": [
+    {
+      "index": 0,
+      "name": "子",
+      "vietnamese": "Tý",
+      "trigram": "坎",
+      "direction": "N",
+      "centerDegrees": 0,
+      "lowerInclusiveDegrees": 352.5,
+      "upperExclusiveDegrees": 7.5,
+      "wrapsZero": true,
+      "oppositeName": "午",
+      "oppositeCenterDegrees": 180
+    },
+    {
+      "index": 1,
+      "name": "癸",
+      "vietnamese": "Quý",
+      "trigram": "坎",
+      "direction": "N",
+      "centerDegrees": 15,
+      "lowerInclusiveDegrees": 7.5,
+      "upperExclusiveDegrees": 22.5,
+      "wrapsZero": false,
+      "oppositeName": "丁",
+      "oppositeCenterDegrees": 195
+    },
+    {
+      "index": 2,
+      "name": "丑",
+      "vietnamese": "Sửu",
+      "trigram": "艮",
+      "direction": "NE",
+      "centerDegrees": 30,
+      "lowerInclusiveDegrees": 22.5,
+      "upperExclusiveDegrees": 37.5,
+      "wrapsZero": false,
+      "oppositeName": "未",
+      "oppositeCenterDegrees": 210
+    },
+    {
+      "index": 3,
+      "name": "艮",
+      "vietnamese": "Cấn",
+      "trigram": "艮",
+      "direction": "NE",
+      "centerDegrees": 45,
+      "lowerInclusiveDegrees": 37.5,
+      "upperExclusiveDegrees": 52.5,
+      "wrapsZero": false,
+      "oppositeName": "坤",
+      "oppositeCenterDegrees": 225
+    },
+    {
+      "index": 4,
+      "name": "寅",
+      "vietnamese": "Dần",
+      "trigram": "艮",
+      "direction": "NE",
+      "centerDegrees": 60,
+      "lowerInclusiveDegrees": 52.5,
+      "upperExclusiveDegrees": 67.5,
+      "wrapsZero": false,
+      "oppositeName": "申",
+      "oppositeCenterDegrees": 240
+    },
+    {
+      "index": 5,
+      "name": "甲",
+      "vietnamese": "Giáp",
+      "trigram": "震",
+      "direction": "E",
+      "centerDegrees": 75,
+      "lowerInclusiveDegrees": 67.5,
+      "upperExclusiveDegrees": 82.5,
+      "wrapsZero": false,
+      "oppositeName": "庚",
+      "oppositeCenterDegrees": 255
+    },
+    {
+      "index": 6,
+      "name": "卯",
+      "vietnamese": "Mão",
+      "trigram": "震",
+      "direction": "E",
+      "centerDegrees": 90,
+      "lowerInclusiveDegrees": 82.5,
+      "upperExclusiveDegrees": 97.5,
+      "wrapsZero": false,
+      "oppositeName": "酉",
+      "oppositeCenterDegrees": 270
+    },
+    {
+      "index": 7,
+      "name": "乙",
+      "vietnamese": "Ất",
+      "trigram": "震",
+      "direction": "E",
+      "centerDegrees": 105,
+      "lowerInclusiveDegrees": 97.5,
+      "upperExclusiveDegrees": 112.5,
+      "wrapsZero": false,
+      "oppositeName": "辛",
+      "oppositeCenterDegrees": 285
+    },
+    {
+      "index": 8,
+      "name": "辰",
+      "vietnamese": "Thìn",
+      "trigram": "巽",
+      "direction": "SE",
+      "centerDegrees": 120,
+      "lowerInclusiveDegrees": 112.5,
+      "upperExclusiveDegrees": 127.5,
+      "wrapsZero": false,
+      "oppositeName": "戌",
+      "oppositeCenterDegrees": 300
+    },
+    {
+      "index": 9,
+      "name": "巽",
+      "vietnamese": "Tốn",
+      "trigram": "巽",
+      "direction": "SE",
+      "centerDegrees": 135,
+      "lowerInclusiveDegrees": 127.5,
+      "upperExclusiveDegrees": 142.5,
+      "wrapsZero": false,
+      "oppositeName": "乾",
+      "oppositeCenterDegrees": 315
+    },
+    {
+      "index": 10,
+      "name": "巳",
+      "vietnamese": "Tỵ",
+      "trigram": "巽",
+      "direction": "SE",
+      "centerDegrees": 150,
+      "lowerInclusiveDegrees": 142.5,
+      "upperExclusiveDegrees": 157.5,
+      "wrapsZero": false,
+      "oppositeName": "亥",
+      "oppositeCenterDegrees": 330
+    },
+    {
+      "index": 11,
+      "name": "丙",
+      "vietnamese": "Bính",
+      "trigram": "離",
+      "direction": "S",
+      "centerDegrees": 165,
+      "lowerInclusiveDegrees": 157.5,
+      "upperExclusiveDegrees": 172.5,
+      "wrapsZero": false,
+      "oppositeName": "壬",
+      "oppositeCenterDegrees": 345
+    },
+    {
+      "index": 12,
+      "name": "午",
+      "vietnamese": "Ngọ",
+      "trigram": "離",
+      "direction": "S",
+      "centerDegrees": 180,
+      "lowerInclusiveDegrees": 172.5,
+      "upperExclusiveDegrees": 187.5,
+      "wrapsZero": false,
+      "oppositeName": "子",
+      "oppositeCenterDegrees": 0
+    },
+    {
+      "index": 13,
+      "name": "丁",
+      "vietnamese": "Đinh",
+      "trigram": "離",
+      "direction": "S",
+      "centerDegrees": 195,
+      "lowerInclusiveDegrees": 187.5,
+      "upperExclusiveDegrees": 202.5,
+      "wrapsZero": false,
+      "oppositeName": "癸",
+      "oppositeCenterDegrees": 15
+    },
+    {
+      "index": 14,
+      "name": "未",
+      "vietnamese": "Mùi",
+      "trigram": "坤",
+      "direction": "SW",
+      "centerDegrees": 210,
+      "lowerInclusiveDegrees": 202.5,
+      "upperExclusiveDegrees": 217.5,
+      "wrapsZero": false,
+      "oppositeName": "丑",
+      "oppositeCenterDegrees": 30
+    },
+    {
+      "index": 15,
+      "name": "坤",
+      "vietnamese": "Khôn",
+      "trigram": "坤",
+      "direction": "SW",
+      "centerDegrees": 225,
+      "lowerInclusiveDegrees": 217.5,
+      "upperExclusiveDegrees": 232.5,
+      "wrapsZero": false,
+      "oppositeName": "艮",
+      "oppositeCenterDegrees": 45
+    },
+    {
+      "index": 16,
+      "name": "申",
+      "vietnamese": "Thân",
+      "trigram": "坤",
+      "direction": "SW",
+      "centerDegrees": 240,
+      "lowerInclusiveDegrees": 232.5,
+      "upperExclusiveDegrees": 247.5,
+      "wrapsZero": false,
+      "oppositeName": "寅",
+      "oppositeCenterDegrees": 60
+    },
+    {
+      "index": 17,
+      "name": "庚",
+      "vietnamese": "Canh",
+      "trigram": "兌",
+      "direction": "W",
+      "centerDegrees": 255,
+      "lowerInclusiveDegrees": 247.5,
+      "upperExclusiveDegrees": 262.5,
+      "wrapsZero": false,
+      "oppositeName": "甲",
+      "oppositeCenterDegrees": 75
+    },
+    {
+      "index": 18,
+      "name": "酉",
+      "vietnamese": "Dậu",
+      "trigram": "兌",
+      "direction": "W",
+      "centerDegrees": 270,
+      "lowerInclusiveDegrees": 262.5,
+      "upperExclusiveDegrees": 277.5,
+      "wrapsZero": false,
+      "oppositeName": "卯",
+      "oppositeCenterDegrees": 90
+    },
+    {
+      "index": 19,
+      "name": "辛",
+      "vietnamese": "Tân",
+      "trigram": "兌",
+      "direction": "W",
+      "centerDegrees": 285,
+      "lowerInclusiveDegrees": 277.5,
+      "upperExclusiveDegrees": 292.5,
+      "wrapsZero": false,
+      "oppositeName": "乙",
+      "oppositeCenterDegrees": 105
+    },
+    {
+      "index": 20,
+      "name": "戌",
+      "vietnamese": "Tuất",
+      "trigram": "乾",
+      "direction": "NW",
+      "centerDegrees": 300,
+      "lowerInclusiveDegrees": 292.5,
+      "upperExclusiveDegrees": 307.5,
+      "wrapsZero": false,
+      "oppositeName": "辰",
+      "oppositeCenterDegrees": 120
+    },
+    {
+      "index": 21,
+      "name": "乾",
+      "vietnamese": "Càn",
+      "trigram": "乾",
+      "direction": "NW",
+      "centerDegrees": 315,
+      "lowerInclusiveDegrees": 307.5,
+      "upperExclusiveDegrees": 322.5,
+      "wrapsZero": false,
+      "oppositeName": "巽",
+      "oppositeCenterDegrees": 135
+    },
+    {
+      "index": 22,
+      "name": "亥",
+      "vietnamese": "Hợi",
+      "trigram": "乾",
+      "direction": "NW",
+      "centerDegrees": 330,
+      "lowerInclusiveDegrees": 322.5,
+      "upperExclusiveDegrees": 337.5,
+      "wrapsZero": false,
+      "oppositeName": "巳",
+      "oppositeCenterDegrees": 150
+    },
+    {
+      "index": 23,
+      "name": "壬",
+      "vietnamese": "Nhâm",
+      "trigram": "坎",
+      "direction": "N",
+      "centerDegrees": 345,
+      "lowerInclusiveDegrees": 337.5,
+      "upperExclusiveDegrees": 352.5,
+      "wrapsZero": false,
+      "oppositeName": "丙",
+      "oppositeCenterDegrees": 165
+    }
+  ],
+  "unverified": [
+    "Birth-year to personal kua formula and its year boundary (Lunar New Year versus Li Chun)",
+    "Special kua5 redistribution for male/female and historical domains",
+    "Annual/monthly/period flying-star seed and forward/reverse rules",
+    "Room orientation, stove mouth, bed head, house sitting/facing identification and irregular floor-plan division",
+    "Predictive efficacy and medical/financial outcomes"
+  ]
+}

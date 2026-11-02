@@ -1,0 +1,965 @@
+{
+  "scope": "v53/research/liuyao-b03-book6",
+  "files": [
+    {
+      "file": "v53/research/liuyao-b03-book6/ACQUISITION.json",
+      "bytes": 1036,
+      "sha256": "47ff1026d067c2c999aa10a0082eb89cfae0bdd50cc0b3248a9e57debdf97443",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/47ff1026d067c2c999aa10a0082eb89cfae0bdd50cc0b3248a9e57debdf97443",
+      "httpRange": {
+        "offset": 248118815,
+        "compressedBytes": 569,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/ACQUISITION_CHECKS.json",
+      "bytes": 479,
+      "sha256": "9400aac7a69ba9d7f9bd9b221a58914e16fa370b26f64f98a1d3771404f08737",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/9400aac7a69ba9d7f9bd9b221a58914e16fa370b26f64f98a1d3771404f08737",
+      "httpRange": {
+        "offset": 336397178,
+        "compressedBytes": 317,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/BOOK6_CURRENT_UNITS.json",
+      "bytes": 6555,
+      "sha256": "585e729d7ebb430686af9dff39012cd804942b53da62174fec8dc4dc8362188f",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/585e729d7ebb430686af9dff39012cd804942b53da62174fec8dc4dc8362188f",
+      "httpRange": {
+        "offset": 226997021,
+        "compressedBytes": 1001,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/MANUAL_READINGS.json",
+      "bytes": 33208,
+      "sha256": "77261e0349e95fad144abd34fdc4de2716674fb51ebd38d254b4da7ff3c95a76",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/77261e0349e95fad144abd34fdc4de2716674fb51ebd38d254b4da7ff3c95a76",
+      "httpRange": {
+        "offset": 382256958,
+        "compressedBytes": 5170,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/NLC892-GBZX0301013045-259424.pdf",
+      "bytes": 55093879,
+      "sha256": "1d6c656828533ac52ae1fd4ff06cc3c025db98ae5458dc686eda2a6b1d11f07f",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/1d6c656828533ac52ae1fd4ff06cc3c025db98ae5458dc686eda2a6b1d11f07f",
+      "httpRange": {
+        "offset": 102,
+        "compressedBytes": 54893697,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/OPERATIONAL_CLAUSES.json",
+      "bytes": 6184,
+      "sha256": "51a76ade96360995dbeb9392be4832ade0fca73cacf9b2968c495cc83911d30e",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/51a76ade96360995dbeb9392be4832ade0fca73cacf9b2968c495cc83911d30e",
+      "httpRange": {
+        "offset": 106960382,
+        "compressedBytes": 1901,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/PRINTED_FIXTURES.json",
+      "bytes": 2814,
+      "sha256": "ce4a3ece12d9742b270ab32e0f2e473656f8ea56d735ecca0f000ff51b7eca31",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/ce4a3ece12d9742b270ab32e0f2e473656f8ea56d735ecca0f000ff51b7eca31",
+      "httpRange": {
+        "offset": 66561787,
+        "compressedBytes": 1054,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/REQUESTS.json",
+      "bytes": 6030,
+      "sha256": "c8ceb03d8c55185ba23819cddd9538b300b8399ee64b5ab0cd36c9ffff83592e",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c8ceb03d8c55185ba23819cddd9538b300b8399ee64b5ab0cd36c9ffff83592e",
+      "httpRange": {
+        "offset": 387574925,
+        "compressedBytes": 2365,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/SOURCE_AUDIT.json",
+      "bytes": 988,
+      "sha256": "0c827baa58dafd54db8a7410d3bbbb96944011515c03253badda8192c5fa5904",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0c827baa58dafd54db8a7410d3bbbb96944011515c03253badda8192c5fa5904",
+      "httpRange": {
+        "offset": 180401573,
+        "compressedBytes": 565,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/SUPPORT_CHAIN_CLAUSE.json",
+      "bytes": 806,
+      "sha256": "be2892f50c3c4af947d9dbfab5a34494c567bef5ea63b611ecf803902ac60e79",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/be2892f50c3c4af947d9dbfab5a34494c567bef5ea63b611ecf803902ac60e79",
+      "httpRange": {
+        "offset": 212065056,
+        "compressedBytes": 521,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/WORK_STATE.json",
+      "bytes": 3202,
+      "sha256": "c8e8384e588cbbdb5f993c086c20c3a68d88a02ad979c616d014e25cbd771c01",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c8e8384e588cbbdb5f993c086c20c3a68d88a02ad979c616d014e25cbd771c01",
+      "httpRange": {
+        "offset": 389958668,
+        "compressedBytes": 1822,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/b03-book6-commons-api.json",
+      "bytes": 12950,
+      "sha256": "7a1bd1da79c9dff1de903647ea883d69c1de70deed140c641fe2f6f14a0b16a3",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7a1bd1da79c9dff1de903647ea883d69c1de70deed140c641fe2f6f14a0b16a3",
+      "httpRange": {
+        "offset": 10165642,
+        "compressedBytes": 2445,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-01.png",
+      "bytes": 1119496,
+      "sha256": "197f9bdd7212fe8fac1a0c3958aac94f0f4e862f502c0941110cd9860bad83ed",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/197f9bdd7212fe8fac1a0c3958aac94f0f4e862f502c0941110cd9860bad83ed",
+      "httpRange": {
+        "offset": 335530527,
+        "compressedBytes": 1118857,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-02.png",
+      "bytes": 2068336,
+      "sha256": "c709d4ed335bef7822ce8506d1381cff07ee50af0fdb82131c787f1452d9f2f5",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c709d4ed335bef7822ce8506d1381cff07ee50af0fdb82131c787f1452d9f2f5",
+      "httpRange": {
+        "offset": 369183177,
+        "compressedBytes": 2064319,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-03.png",
+      "bytes": 2021640,
+      "sha256": "4c57c9f40763a920dd85e04d57073e192d75b5dc701d10e9c6665544c06dc45a",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4c57c9f40763a920dd85e04d57073e192d75b5dc701d10e9c6665544c06dc45a",
+      "httpRange": {
+        "offset": 289407228,
+        "compressedBytes": 2020448,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-04.png",
+      "bytes": 2016728,
+      "sha256": "51ee46f27aa46c6f97a7fd92f67f536f005e23f55856c4844f338406f739f101",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/51ee46f27aa46c6f97a7fd92f67f536f005e23f55856c4844f338406f739f101",
+      "httpRange": {
+        "offset": 107396380,
+        "compressedBytes": 2015790,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-05.png",
+      "bytes": 2003057,
+      "sha256": "c9bcd014df5b19bf7b9d849a8bfa538dcaefecaafd058f6857c0ac200b78f6ed",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c9bcd014df5b19bf7b9d849a8bfa538dcaefecaafd058f6857c0ac200b78f6ed",
+      "httpRange": {
+        "offset": 396349338,
+        "compressedBytes": 2002274,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-06.png",
+      "bytes": 1988195,
+      "sha256": "d5a446cbca044e52fa9d7751909f9923db3247915517e35cef9b9a046eb56f64",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d5a446cbca044e52fa9d7751909f9923db3247915517e35cef9b9a046eb56f64",
+      "httpRange": {
+        "offset": 148744021,
+        "compressedBytes": 1987008,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-07.png",
+      "bytes": 1970959,
+      "sha256": "d86d082b2646e842064fdf1082e6c4e8a7132fdd5ac757d8ece2f1ee2a3bf2c7",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d86d082b2646e842064fdf1082e6c4e8a7132fdd5ac757d8ece2f1ee2a3bf2c7",
+      "httpRange": {
+        "offset": 184160878,
+        "compressedBytes": 1970247,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-08.png",
+      "bytes": 2010984,
+      "sha256": "49cae7011e68dd3716bc9c39d793ac5454c5b2ba15144bbb7d768c8dda4838af",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/49cae7011e68dd3716bc9c39d793ac5454c5b2ba15144bbb7d768c8dda4838af",
+      "httpRange": {
+        "offset": 267609149,
+        "compressedBytes": 2010401,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-09.png",
+      "bytes": 2004885,
+      "sha256": "b5c6761f14669a8af6a6916ae2def2fc7013bd0a4eed4a6b99b0a5e753621b7e",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/b5c6761f14669a8af6a6916ae2def2fc7013bd0a4eed4a6b99b0a5e753621b7e",
+      "httpRange": {
+        "offset": 333787,
+        "compressedBytes": 2004627,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-10.png",
+      "bytes": 2015134,
+      "sha256": "38d78a22523f3852d0782c7094c0fcf4cce4ad77e036ef03883ebce0ab17ba6c",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/38d78a22523f3852d0782c7094c0fcf4cce4ad77e036ef03883ebce0ab17ba6c",
+      "httpRange": {
+        "offset": 356406979,
+        "compressedBytes": 2014693,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-11.png",
+      "bytes": 2030393,
+      "sha256": "14bdcef7cd528aee00dd3b606f8a0946e1254be602f413fa89b2feecc6e5efea",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/14bdcef7cd528aee00dd3b606f8a0946e1254be602f413fa89b2feecc6e5efea",
+      "httpRange": {
+        "offset": 275339503,
+        "compressedBytes": 2029824,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-12.png",
+      "bytes": 2010807,
+      "sha256": "0861e36b90914acec2b63dce63763df082c9fcf941cf8c169cd44890ffc18016",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0861e36b90914acec2b63dce63763df082c9fcf941cf8c169cd44890ffc18016",
+      "httpRange": {
+        "offset": 136328875,
+        "compressedBytes": 2010220,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-13.png",
+      "bytes": 1988497,
+      "sha256": "bc3689aed7511e48cafd63d952a98853d751e095e585ff84af541ac7eecffc43",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bc3689aed7511e48cafd63d952a98853d751e095e585ff84af541ac7eecffc43",
+      "httpRange": {
+        "offset": 195395963,
+        "compressedBytes": 1987792,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-14.png",
+      "bytes": 1980565,
+      "sha256": "2c446a1d519bf6a72495d3aeb999ed2a3982cf64b20e4e4fc191dcf5fa92fa65",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2c446a1d519bf6a72495d3aeb999ed2a3982cf64b20e4e4fc191dcf5fa92fa65",
+      "httpRange": {
+        "offset": 204531023,
+        "compressedBytes": 1979948,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-15.png",
+      "bytes": 2003320,
+      "sha256": "74accb6333b7f3e959aa0399725c4c9360721a5933f52df62e078e350f259f15",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/74accb6333b7f3e959aa0399725c4c9360721a5933f52df62e078e350f259f15",
+      "httpRange": {
+        "offset": 358327775,
+        "compressedBytes": 2002519,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-16.png",
+      "bytes": 1999395,
+      "sha256": "f2ef8aaef9961eff50f179d0d83c5dfa410abc1da966664e8d6c19c2e608f1a8",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f2ef8aaef9961eff50f179d0d83c5dfa410abc1da966664e8d6c19c2e608f1a8",
+      "httpRange": {
+        "offset": 169417532,
+        "compressedBytes": 1998487,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-17.png",
+      "bytes": 2014766,
+      "sha256": "8566f1c59d635daa2790bf65cd651685997f55d397ad023064254d1bffdf6528",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8566f1c59d635daa2790bf65cd651685997f55d397ad023064254d1bffdf6528",
+      "httpRange": {
+        "offset": 203375614,
+        "compressedBytes": 2014499,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-18.png",
+      "bytes": 1978637,
+      "sha256": "f18e38ead92d8c60079144ec1beb20beb58a9e74d2faacf80b05ae54143796ca",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f18e38ead92d8c60079144ec1beb20beb58a9e74d2faacf80b05ae54143796ca",
+      "httpRange": {
+        "offset": 155709847,
+        "compressedBytes": 1977727,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-19.png",
+      "bytes": 2017412,
+      "sha256": "04159cdb97ae935a654594f4c987676efce27c03d544c07baccbd3337bfbafc0",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/04159cdb97ae935a654594f4c987676efce27c03d544c07baccbd3337bfbafc0",
+      "httpRange": {
+        "offset": 106891933,
+        "compressedBytes": 2017010,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-20.png",
+      "bytes": 2012350,
+      "sha256": "4cb399a8cf4f94e6780ed573a6b221e7076b697359ef054ccdd34c1dfd57fa31",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4cb399a8cf4f94e6780ed573a6b221e7076b697359ef054ccdd34c1dfd57fa31",
+      "httpRange": {
+        "offset": 294751264,
+        "compressedBytes": 2011753,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-21.png",
+      "bytes": 2007873,
+      "sha256": "3117bce07caacc576a2dc49fdb92143e8b7c8b3c1945144f3e73f32ca2f0d5a9",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/3117bce07caacc576a2dc49fdb92143e8b7c8b3c1945144f3e73f32ca2f0d5a9",
+      "httpRange": {
+        "offset": 246343036,
+        "compressedBytes": 2006986,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-22.png",
+      "bytes": 1980988,
+      "sha256": "1ee8688f587beb1b0a1553ee8a41a430ca7a32c9aeb59a14f8f721d34f947f2b",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/1ee8688f587beb1b0a1553ee8a41a430ca7a32c9aeb59a14f8f721d34f947f2b",
+      "httpRange": {
+        "offset": 65178964,
+        "compressedBytes": 1980048,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-23.png",
+      "bytes": 2001993,
+      "sha256": "c9e02687566395386da2fcd2d3263a2a92e017780f482b37e145122ebee5079c",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c9e02687566395386da2fcd2d3263a2a92e017780f482b37e145122ebee5079c",
+      "httpRange": {
+        "offset": 401259669,
+        "compressedBytes": 2000845,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-24.png",
+      "bytes": 1986954,
+      "sha256": "caefd24b4b286989c53c879ffb0fe357fb54affce927a46f8acc08023ab26182",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/caefd24b4b286989c53c879ffb0fe357fb54affce927a46f8acc08023ab26182",
+      "httpRange": {
+        "offset": 422396641,
+        "compressedBytes": 1985622,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-25.png",
+      "bytes": 1994697,
+      "sha256": "44b707613bd4d84db8256c57da2313647ab32011d9d711bc7cb17d1e26c55950",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/44b707613bd4d84db8256c57da2313647ab32011d9d711bc7cb17d1e26c55950",
+      "httpRange": {
+        "offset": 176947490,
+        "compressedBytes": 1994107,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-26.png",
+      "bytes": 1995874,
+      "sha256": "1240127523122fbf3341533228f21be66143a2037a295dc8db368c2d2840e2bd",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1240127523122fbf3341533228f21be66143a2037a295dc8db368c2d2840e2bd",
+      "httpRange": {
+        "offset": 242933321,
+        "compressedBytes": 1995085,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-27.png",
+      "bytes": 1975282,
+      "sha256": "33c1f333dfa384dec67dbd9e43493d25c8e411a4017c927667076d8c851d098d",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/33c1f333dfa384dec67dbd9e43493d25c8e411a4017c927667076d8c851d098d",
+      "httpRange": {
+        "offset": 271480304,
+        "compressedBytes": 1974489,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-28.png",
+      "bytes": 2022520,
+      "sha256": "01ac2a8f585c48b12d3cd5c2b4d24881b20f1996a7820195e3b28ed41d1ead68",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/01ac2a8f585c48b12d3cd5c2b4d24881b20f1996a7820195e3b28ed41d1ead68",
+      "httpRange": {
+        "offset": 84835794,
+        "compressedBytes": 2021170,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-29.png",
+      "bytes": 2018825,
+      "sha256": "5aff2bbbcfac10866c9e81bf1e3dd5bccb5ed18e13399a8857c8a371369bcfb1",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5aff2bbbcfac10866c9e81bf1e3dd5bccb5ed18e13399a8857c8a371369bcfb1",
+      "httpRange": {
+        "offset": 248682872,
+        "compressedBytes": 2017680,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-30.png",
+      "bytes": 2011279,
+      "sha256": "c751672714a6af8d604546fd1c61ab730b3d7b2b1f34dc6e00603290a8f7f6b5",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c751672714a6af8d604546fd1c61ab730b3d7b2b1f34dc6e00603290a8f7f6b5",
+      "httpRange": {
+        "offset": 371851940,
+        "compressedBytes": 2010407,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-31.png",
+      "bytes": 2001215,
+      "sha256": "7d50f0883d69da3ae83744e5a6d798358930c45e9969d508c719652a14b95f8e",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7d50f0883d69da3ae83744e5a6d798358930c45e9969d508c719652a14b95f8e",
+      "httpRange": {
+        "offset": 49899058,
+        "compressedBytes": 2001049,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-32.png",
+      "bytes": 2014223,
+      "sha256": "2b9fd4a86f59d8a39ad8d075a63fcab1e4ce14b7c755ac2db0e0919e0bba9334",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2b9fd4a86f59d8a39ad8d075a63fcab1e4ce14b7c755ac2db0e0919e0bba9334",
+      "httpRange": {
+        "offset": 196828423,
+        "compressedBytes": 2013271,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-33.png",
+      "bytes": 2003855,
+      "sha256": "ea8fea1ad1bc55d21aeef82ed56acaf210f0e75e1b430f7533afa8dd489b6e10",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ea8fea1ad1bc55d21aeef82ed56acaf210f0e75e1b430f7533afa8dd489b6e10",
+      "httpRange": {
+        "offset": 59980486,
+        "compressedBytes": 2003229,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-34.png",
+      "bytes": 1973707,
+      "sha256": "6913104f6c04daa2e6338b2243e4a39f130864084cc0e42e6d366f387787d482",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6913104f6c04daa2e6338b2243e4a39f130864084cc0e42e6d366f387787d482",
+      "httpRange": {
+        "offset": 233368873,
+        "compressedBytes": 1971594,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-35.png",
+      "bytes": 2003566,
+      "sha256": "0c0ad4cb5dcd051c2b28ae4aec20c942b904691d88e5879a649a866d3387f1bb",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0c0ad4cb5dcd051c2b28ae4aec20c942b904691d88e5879a649a866d3387f1bb",
+      "httpRange": {
+        "offset": 174772599,
+        "compressedBytes": 2002271,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-36.png",
+      "bytes": 2005381,
+      "sha256": "0ae8ce8441e5af4148bbe44d092e12e6a74f8386d964fa9e8f9739c28a94a731",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0ae8ce8441e5af4148bbe44d092e12e6a74f8386d964fa9e8f9739c28a94a731",
+      "httpRange": {
+        "offset": 158799476,
+        "compressedBytes": 2004341,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-37.png",
+      "bytes": 2020608,
+      "sha256": "00753af5c49ca7659e77d7b66adc806bfe94711ba8a0e2c9a4890e3b0befa758",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/00753af5c49ca7659e77d7b66adc806bfe94711ba8a0e2c9a4890e3b0befa758",
+      "httpRange": {
+        "offset": 2596913,
+        "compressedBytes": 2019511,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-38.png",
+      "bytes": 1991779,
+      "sha256": "bf4c18510137d31c2e7d540ffd777dccf1b8d2b97ef38287cef548aea00ba212",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bf4c18510137d31c2e7d540ffd777dccf1b8d2b97ef38287cef548aea00ba212",
+      "httpRange": {
+        "offset": 221596884,
+        "compressedBytes": 1991451,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-39.png",
+      "bytes": 2011097,
+      "sha256": "6e06fa4d6292027698c594dbadcfbc6c7df80b6013cf6c94a8a68682ca1e8a57",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6e06fa4d6292027698c594dbadcfbc6c7df80b6013cf6c94a8a68682ca1e8a57",
+      "httpRange": {
+        "offset": 271152587,
+        "compressedBytes": 2010490,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-40.png",
+      "bytes": 2004004,
+      "sha256": "d31c46598570e9d4b8f9fab58404ccf882ba4ebb660db029c721409aaf19ce98",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d31c46598570e9d4b8f9fab58404ccf882ba4ebb660db029c721409aaf19ce98",
+      "httpRange": {
+        "offset": 118690297,
+        "compressedBytes": 2003184,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-41.png",
+      "bytes": 1995684,
+      "sha256": "3e90954b60c73b68c155cd9e3af2c7a676a11f0a50e2562c825e78300d3c787a",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/3e90954b60c73b68c155cd9e3af2c7a676a11f0a50e2562c825e78300d3c787a",
+      "httpRange": {
+        "offset": 67689359,
+        "compressedBytes": 1994908,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-42.png",
+      "bytes": 1989958,
+      "sha256": "d9d103ae10d1ecb7a8ad629f0a1be1fbed8667ebc7b2cfa43c82b4af48640c8e",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d9d103ae10d1ecb7a8ad629f0a1be1fbed8667ebc7b2cfa43c82b4af48640c8e",
+      "httpRange": {
+        "offset": 200096822,
+        "compressedBytes": 1989148,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-43.png",
+      "bytes": 2009518,
+      "sha256": "d8c3d02e09142eb66f43a59597ec33a33032a9450e3ad2a88d693aac09ab0146",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d8c3d02e09142eb66f43a59597ec33a33032a9450e3ad2a88d693aac09ab0146",
+      "httpRange": {
+        "offset": 187166176,
+        "compressedBytes": 2008864,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-44.png",
+      "bytes": 2014391,
+      "sha256": "df0f8458270a932bd10136c170bd007118e60a007866e9faeba367f3580d94ec",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/df0f8458270a932bd10136c170bd007118e60a007866e9faeba367f3580d94ec",
+      "httpRange": {
+        "offset": 261947770,
+        "compressedBytes": 2014109,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-45.png",
+      "bytes": 1988704,
+      "sha256": "3e396d3e54fee319b4ca42c9d94e4724269d2005ed4a642f1fef0c7f4c6e33d9",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/3e396d3e54fee319b4ca42c9d94e4724269d2005ed4a642f1fef0c7f4c6e33d9",
+      "httpRange": {
+        "offset": 63093082,
+        "compressedBytes": 1987917,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-46.png",
+      "bytes": 2005033,
+      "sha256": "66b9d336143a66fcad66dd43e09e40eeed0a7fa6daddf0743ced7487608b00ec",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/66b9d336143a66fcad66dd43e09e40eeed0a7fa6daddf0743ced7487608b00ec",
+      "httpRange": {
+        "offset": 204429791,
+        "compressedBytes": 2004123,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-47.png",
+      "bytes": 2012535,
+      "sha256": "61653ed4e9f44ae8952a8af397f8f2371c992c54c6ad97fdecc53069af3f4edb",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/61653ed4e9f44ae8952a8af397f8f2371c992c54c6ad97fdecc53069af3f4edb",
+      "httpRange": {
+        "offset": 76386132,
+        "compressedBytes": 2012135,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-48.png",
+      "bytes": 2022016,
+      "sha256": "730dd13e892fa0331f9b9fee8dad602f6a81e8e66af9c626450ed5935accddc1",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/730dd13e892fa0331f9b9fee8dad602f6a81e8e66af9c626450ed5935accddc1",
+      "httpRange": {
+        "offset": 343204064,
+        "compressedBytes": 2020885,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-49.png",
+      "bytes": 1995247,
+      "sha256": "d9cda6eb58e3ee25008ce591315c7a909fc4fc7044505878f343c597561bb022",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d9cda6eb58e3ee25008ce591315c7a909fc4fc7044505878f343c597561bb022",
+      "httpRange": {
+        "offset": 198102712,
+        "compressedBytes": 1994008,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-50.png",
+      "bytes": 1998658,
+      "sha256": "cff13aebbd06b5b470a9f9690905174070da9a506aab624ea6094c974a49b855",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/cff13aebbd06b5b470a9f9690905174070da9a506aab624ea6094c974a49b855",
+      "httpRange": {
+        "offset": 90191907,
+        "compressedBytes": 1997356,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-51.png",
+      "bytes": 2003576,
+      "sha256": "458c6296fd6fb22b12dded11d81e3a138f4d6d1f7bd480acacb27cc265679f6f",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/458c6296fd6fb22b12dded11d81e3a138f4d6d1f7bd480acacb27cc265679f6f",
+      "httpRange": {
+        "offset": 190055259,
+        "compressedBytes": 2003014,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-52.png",
+      "bytes": 2012863,
+      "sha256": "e9680d27b9b6e354c5bfb98d34e10e94e4de337d7f8437765e91ad950812520e",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/e9680d27b9b6e354c5bfb98d34e10e94e4de337d7f8437765e91ad950812520e",
+      "httpRange": {
+        "offset": 46605266,
+        "compressedBytes": 2011957,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-53.png",
+      "bytes": 2014212,
+      "sha256": "cdceb6795d342d605eedd2ffdc064d32ecd9a5809b76719ac706e5d8a4d3ffc6",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/cdceb6795d342d605eedd2ffdc064d32ecd9a5809b76719ac706e5d8a4d3ffc6",
+      "httpRange": {
+        "offset": 56357165,
+        "compressedBytes": 2012926,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-54.png",
+      "bytes": 1984303,
+      "sha256": "a4a11a6819138fd9e865cc980cc7a40d30819769ec3e06ef7c9443229333c0c4",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a4a11a6819138fd9e865cc980cc7a40d30819769ec3e06ef7c9443229333c0c4",
+      "httpRange": {
+        "offset": 213038749,
+        "compressedBytes": 1983555,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-55.png",
+      "bytes": 2007508,
+      "sha256": "b02c830b4b25b95f3276c035bfd86315e0056e3afeb8c1da61b3ee7bd600e6ea",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b02c830b4b25b95f3276c035bfd86315e0056e3afeb8c1da61b3ee7bd600e6ea",
+      "httpRange": {
+        "offset": 320974506,
+        "compressedBytes": 2006648,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-56.png",
+      "bytes": 1988249,
+      "sha256": "8b4bdc7f614e2fcb83864aae1aea7b17974bc94a2dcb49c7c6849cdbc77042cb",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8b4bdc7f614e2fcb83864aae1aea7b17974bc94a2dcb49c7c6849cdbc77042cb",
+      "httpRange": {
+        "offset": 264093949,
+        "compressedBytes": 1987344,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-57.png",
+      "bytes": 2019584,
+      "sha256": "2864dd9104836a6e88ace8d03c3b3a1b5b2d0979735493bc3cbfd7483a7e466a",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2864dd9104836a6e88ace8d03c3b3a1b5b2d0979735493bc3cbfd7483a7e466a",
+      "httpRange": {
+        "offset": 155780546,
+        "compressedBytes": 2017939,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-58.png",
+      "bytes": 2000391,
+      "sha256": "ef7aa383006193735f8aef6a0d84fe2a9cf6a0d40a15af4f22707d2d2fdcdaa2",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ef7aa383006193735f8aef6a0d84fe2a9cf6a0d40a15af4f22707d2d2fdcdaa2",
+      "httpRange": {
+        "offset": 127577206,
+        "compressedBytes": 1999039,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-59.png",
+      "bytes": 2010609,
+      "sha256": "f56f01dc24d6dd1a57bbe78d3630e5c2661589e19a2bb1175f1fbf25f9a04031",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f56f01dc24d6dd1a57bbe78d3630e5c2661589e19a2bb1175f1fbf25f9a04031",
+      "httpRange": {
+        "offset": 202650815,
+        "compressedBytes": 2009471,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-60.png",
+      "bytes": 1991727,
+      "sha256": "ac2a40a631fbec5a5aad4a57ed46dcabe088cb0a6172347ede93992c75fa7cdd",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/ac2a40a631fbec5a5aad4a57ed46dcabe088cb0a6172347ede93992c75fa7cdd",
+      "httpRange": {
+        "offset": 281275161,
+        "compressedBytes": 1990704,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-61.png",
+      "bytes": 2017855,
+      "sha256": "8a5c98959e8f19a7703a57f29b2486e5a36903863450117c4841545b5c931c19",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8a5c98959e8f19a7703a57f29b2486e5a36903863450117c4841545b5c931c19",
+      "httpRange": {
+        "offset": 251678111,
+        "compressedBytes": 2016874,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-62.png",
+      "bytes": 1999461,
+      "sha256": "0f328f187aa0f585727870d3e589895401af44bfdf7e83366bfdcf3b41d52794",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0f328f187aa0f585727870d3e589895401af44bfdf7e83366bfdcf3b41d52794",
+      "httpRange": {
+        "offset": 209586701,
+        "compressedBytes": 1999118,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-63.png",
+      "bytes": 2000742,
+      "sha256": "bce1dd8d2f80693ad32a82988b07e86ec1dd8aabfa4ef07652e952ac8b382fbf",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bce1dd8d2f80693ad32a82988b07e86ec1dd8aabfa4ef07652e952ac8b382fbf",
+      "httpRange": {
+        "offset": 199097427,
+        "compressedBytes": 1999487,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-64.png",
+      "bytes": 1973629,
+      "sha256": "adac79b584afe67e2cc12000dfd33da4c794087c8d278a18e18ea448b75c2979",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/adac79b584afe67e2cc12000dfd33da4c794087c8d278a18e18ea448b75c2979",
+      "httpRange": {
+        "offset": 295110663,
+        "compressedBytes": 1970364,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/bushi-book6-65.png",
+      "bytes": 1119753,
+      "sha256": "ad91c8d08293775c60a7b6fb6587303c2d2b7b111ca0eb4a963cca4b14939586",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/ad91c8d08293775c60a7b6fb6587303c2d2b7b111ca0eb4a963cca4b14939586",
+      "httpRange": {
+        "offset": 293982846,
+        "compressedBytes": 1118929,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/printed-p2-qa.png",
+      "bytes": 1309876,
+      "sha256": "ebf116345f807784d907a51f7c8ee57436fd354a3b1fa54eb9d3ceed7ce72f7e",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ebf116345f807784d907a51f7c8ee57436fd354a3b1fa54eb9d3ceed7ce72f7e",
+      "httpRange": {
+        "offset": 78496210,
+        "compressedBytes": 1310276,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/images/printed-p3-qa.png",
+      "bytes": 2930089,
+      "sha256": "66da517a6d801e2ce80fffd857d53caf657c310d3e6a9e7f041d93b58a042f76",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/66da517a6d801e2ce80fffd857d53caf657c310d3e6a9e7f041d93b58a042f76",
+      "httpRange": {
+        "offset": 207717683,
+        "compressedBytes": 2930979,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-b03-book6/support-chain-reference.mjs",
+      "bytes": 2388,
+      "sha256": "f4f655fc97aebed963816db14e5bd7b85801ffa5ffb3c3af341a461627a27558",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f4f655fc97aebed963816db14e5bd7b85801ffa5ffb3c3af341a461627a27558",
+      "httpRange": {
+        "offset": 199114719,
+        "compressedBytes": 1181,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

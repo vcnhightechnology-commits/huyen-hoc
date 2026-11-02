@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-28",
+  "url": "https://www.digital.archives.go.jp/api/iiif/4469314/manifest.json",
+  "status": 200,
+  "file": "official-manifest.json",
+  "bytes": 125132,
+  "sha256": "3f167e1280527e1c672a72d7ef060c299ce9dffad1f362ddba04575da3df1560",
+  "TLSCertificateValidationEnabled": true,
+  "headers": {
+    "Transfer-Encoding": [
+      "chunked"
+    ],
+    "Connection": [
+      "keep-alive"
+    ],
+    "Date": [
+      "Wed, 28 Oct 2026 15:47:43 GMT"
+    ],
+    "Vary": [
+      "Accept-Encoding"
+    ],
+    "Server": [
+      "Apache"
+    ],
+    "X-Frame-Options": [
+      "SAMEORIGIN"
+    ],
+    "Pragma": [
+      "no-cache"
+    ],
+    "Cache-Control": [
+      "no-store, no-cache"
+    ],
+    "Content-Security-Policy": [
+      "frame-ancestors 'self'"
+    ],
+    "X-Content-Type-Options": [
+      "nosniff"
+    ],
+    "Access-Control-Allow-Origin": [
+      "*"
+    ],
+    "Set-Cookie": [
+      "AWSALB=ujOiNf9LTVm1eoSguMK4G6fGMtsZq0zA3f5DaD8G+GWmIj00yGsJMSLYxqlzyKNViujLWyjSmmwYjUJJFFcdVWSVpjZ9CYS36Iozen7kH3AhK6mpfKELWSKeyOcf; Expires=Wed, 04 Nov 2026 15:47:42 GMT; Path=/;HttpOnly;Secure",
+      "AWSALBCORS=ujOiNf9LTVm1eoSguMK4G6fGMtsZq0zA3f5DaD8G+GWmIj00yGsJMSLYxqlzyKNViujLWyjSmmwYjUJJFFcdVWSVpjZ9CYS36Iozen7kH3AhK6mpfKELWSKeyOcf; Expires=Wed, 04 Nov 2026 15:47:42 GMT; Path=/; SameSite=None;HttpOnly;Secure",
+      "JSESSIONID=41D6BCED1F7612E916ED114EF3C769E6; Path=/; HttpOnly;HttpOnly;Secure",
+      "amladConsumerLang=ja; Path=/;HttpOnly;Secure"
+    ],
+    "Strict-Transport-Security": [
+      "max-age=31536000"
+    ],
+    "X-Cache": [
+      "Miss from cloudfront"
+    ],
+    "Via": [
+      "1.1 ff9e2a5d657393157b5ba02d35532aa0.cloudfront.net (CloudFront)"
+    ],
+    "X-Amz-Cf-Pop": [
+      "LAX53-P5"
+    ],
+    "X-Amz-Cf-Id": [
+      "4v1IjPMZrk-amfm21O1M6dovWTOmrVuNRQoTby1Mgas0cvmnU6LjRA=="
+    ],
+    "Content-Type": [
+      "application/json; charset=UTF-8"
+    ],
+    "Expires": [
+      "Thu, 01 Dec 1994 16:00:00 GMT"
+    ],
+    "Content-Language": [
+      "ja"
+    ]
+  }
+}

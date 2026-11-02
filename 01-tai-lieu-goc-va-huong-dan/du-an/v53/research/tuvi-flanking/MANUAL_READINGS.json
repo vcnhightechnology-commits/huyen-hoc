@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-28",
+  "system": "NAJ-4468520-juan2-QA-flanking-two-neighbours",
+  "records": [
+    {
+      "id": "general-limit",
+      "canvas": 39,
+      "literal": "推吉凶不可一例而斷",
+      "role": "Methodological constraint, not one-star or one-condition forecasting"
+    },
+    {
+      "id": "solar-lunar-flank",
+      "canvas": 40,
+      "literal": "假如太陽太陰在身命前後二宮夾命不逢空劫羊殺其貴可矣",
+      "role": "Selected printed annotation; evaluate only two distinct neighbouring palaces around explicitly declared Ming. Do not assign scope of unqualified 不逢 or validate outcome."
+    },
+    {
+      "id": "chang-qu-flank",
+      "canvas": 40,
+      "literal": "如昌曲夾命亦如之",
+      "role": "Second explicitly named pair. Conditions inherited textually from same clause; no fortune assertion."
+    },
+    {
+      "id": "void-malefic-contrast",
+      "canvas": 40,
+      "literal": "夾空夾劫主貧賤夾羊夾陀為乞丐",
+      "role": "Source heading outcome claims retained historically. Not an equivalence to either favourable geometry or medical/social predictions."
+    }
+  ],
+  "fullClausesCharacterByCharacterCollated": false,
+  "selectedClauseReadingsActuallyViewed": true,
+  "sourceExclusionScopeResolved": false,
+  "sourceStrengthFullyResolved": false,
+  "sourceOutcomeValidated": false,
+  "wholeUnitApplied": false
+}

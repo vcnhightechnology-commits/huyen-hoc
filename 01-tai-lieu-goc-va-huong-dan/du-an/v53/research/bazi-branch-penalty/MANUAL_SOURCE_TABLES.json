@@ -1,0 +1,202 @@
+{
+  "sourceID": "TMTH002-CADAL06066038-SANXING",
+  "frameID": "declared-distinct-source-occurrences",
+  "directedEdges": [
+    {
+      "from": "寅",
+      "to": "巳",
+      "family": "yin-si-shen"
+    },
+    {
+      "from": "巳",
+      "to": "申",
+      "family": "yin-si-shen"
+    },
+    {
+      "from": "申",
+      "to": "寅",
+      "family": "yin-si-shen"
+    },
+    {
+      "from": "丑",
+      "to": "戌",
+      "family": "chou-xu-wei"
+    },
+    {
+      "from": "戌",
+      "to": "未",
+      "family": "chou-xu-wei"
+    },
+    {
+      "from": "未",
+      "to": "丑",
+      "family": "chou-xu-wei"
+    },
+    {
+      "from": "子",
+      "to": "卯",
+      "family": "zi-mao"
+    },
+    {
+      "from": "卯",
+      "to": "子",
+      "family": "zi-mao"
+    },
+    {
+      "from": "辰",
+      "to": "辰",
+      "family": "self"
+    },
+    {
+      "from": "午",
+      "to": "午",
+      "family": "self"
+    },
+    {
+      "from": "酉",
+      "to": "酉",
+      "family": "self"
+    },
+    {
+      "from": "亥",
+      "to": "亥",
+      "family": "self"
+    }
+  ],
+  "classificationVoices": {
+    "primary": {
+      "yin-si-shen": "無恩",
+      "chou-xu-wei": "恃勢",
+      "zi-mao": "無禮",
+      "self": "自刑"
+    },
+    "san-che-yi-lan": {
+      "yin-si-shen": "恃勢",
+      "chou-xu-wei": "無恩"
+    }
+  },
+  "namedAlternativeIsNotCorrection": true,
+  "unresolvedLiteral": {
+    "page": 215,
+    "digital": "卯寅子",
+    "nativeSelected": "卯寅子",
+    "policy": "Keep literal;do not silently emend.卯→子edgeusesseparatelaterexplicit所以卯刑子at219."
+  },
+  "sourceOrdinalRows": [
+    {
+      "id": "mao-zi-forward",
+      "from": "卯",
+      "to": "子",
+      "direction": "forward",
+      "sourceInclusiveCount": 10
+    },
+    {
+      "id": "zi-mao-backward",
+      "from": "子",
+      "to": "卯",
+      "direction": "backward",
+      "sourceInclusiveCount": 10
+    },
+    {
+      "id": "yin-si-backward",
+      "from": "寅",
+      "to": "巳",
+      "direction": "backward",
+      "sourceInclusiveCount": 10
+    },
+    {
+      "id": "si-shen-backward",
+      "from": "巳",
+      "to": "申",
+      "direction": "backward",
+      "sourceInclusiveCount": 10
+    },
+    {
+      "id": "chou-xu-forward",
+      "from": "丑",
+      "to": "戌",
+      "direction": "forward",
+      "sourceInclusiveCount": 10
+    },
+    {
+      "id": "xu-wei-forward",
+      "from": "戌",
+      "to": "未",
+      "direction": "forward",
+      "sourceInclusiveCount": 10
+    }
+  ],
+  "entryClause": {
+    "literal": "凡命三刑全須分刑得入刑不得入以年為主月日時為客",
+    "host": "source-year",
+    "guest": "source-month-day-hour",
+    "fullnessRequiresDeclaration": true,
+    "baseLabels": {
+      "host-to-guest": {
+        "entered": "貴",
+        "not-entered": "賤"
+      },
+      "guest-to-host": {
+        "entered": "賤",
+        "not-entered": "貴"
+      }
+    },
+    "fuJuAndOtherContextOverridesNotEvaluated": true
+  },
+  "literalEntryExamples": [
+    {
+      "anchor": "乙丑",
+      "target": "庚戌",
+      "sourceRelation": "同類相刑",
+      "sourceAction": "不吉",
+      "literalEntry": null
+    },
+    {
+      "anchor": "乙丑",
+      "target": "丙戌",
+      "sourceRelation": "相生相刑",
+      "sourceAction": "不以刑論",
+      "literalEntry": null
+    },
+    {
+      "anchor": "乙丑",
+      "target": "壬戌",
+      "sourceRelation": "相生相刑",
+      "sourceAction": "不以刑論",
+      "literalEntry": null
+    },
+    {
+      "anchor": "乙丑",
+      "target": "戊戌",
+      "sourceRelation": "相尅相刑",
+      "sourceAction": "刑得入",
+      "literalEntry": true
+    },
+    {
+      "anchor": "乙丑",
+      "target": "甲戌",
+      "sourceRelation": "相尅相刑",
+      "sourceAction": "刑不入",
+      "literalEntry": false
+    }
+  ],
+  "sourceControlExample": {
+    "yearPillar": "癸巳",
+    "dayPillar": "戊寅",
+    "hourPillar": "庚申",
+    "literal": "癸巳生人得戊寅日却得庚申時",
+    "sourceRelations": [
+      "癸巳為戊寅所制",
+      "庚申木却制戊寅之土"
+    ],
+    "noHistoricalDateInvented": true
+  },
+  "fourSelfBranches": [
+    "辰",
+    "午",
+    "酉",
+    "亥"
+  ],
+  "fourDistinctClauseRequiresDeclaredBeneficSuppressor": true,
+  "healthMortalityMoralityGenderRankPredictionsValidated": false
+}

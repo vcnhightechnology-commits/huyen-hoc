@@ -1,0 +1,32 @@
+{
+  "date": "2026-10-29",
+  "status": "private-C14-source-subject-and-coordinate-audit;full-luck-conditions-open",
+  "catalogueID": "M01",
+  "parentContext": "FOOD-00-C14",
+  "sourceReading": "SOURCE_READINGS.json",
+  "frozenExpectations": "EXPECTED_COORDINATES.json",
+  "actualRuntime": "ACTUAL_RUNTIME.json",
+  "sourceVerification": "SOURCE_RESULTS.json",
+  "retainedSourcePositionsReexamined": [173, 174, 175],
+  "actualNewCoordinateCalls": 4,
+  "retainedCoordinateCallsReused": 2,
+  "engineRerunsAfterPayloadRetained": 0,
+  "newCalendarObjects": 0,
+  "newNatalCharts": 0,
+  "newHTTPBodies": 0,
+  "newSourcePositions": 0,
+  "implicitInitialChangShengSubjectResolved": false,
+  "lexicalBaiMuyuComparisonIsNamedReportedVoice": true,
+  "parentCoverageCountsStill": [44, 46, 0],
+  "C14ParentLinkedOrAppliedByThisAudit": false,
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false,
+  "next": [
+    "Do not repeat4new or2reused getDiShi calls; source/runtime verifier reuses payload.",
+    "Build a source-subject inspector only after keeping the implicit長生 subject explicitly declared/unresolved; engine match cannot resolve grammar.",
+    "For敗, require named reported SanmingTiyao alias policy or leave lexical mapping unknown. Do not universalize ordinary敗 as沐浴.",
+    "Keep explicit庚死子/甲敗子/甲冠帶丑 and their parent luck context; do not assign all source phases to日主庚.",
+    "金之庫/己丑glyph,whole seasonal/luck predicates,wealth/health/outcome assertions and independent witnesses remain open.",
+    "Integrate only after a useful complete bounded reference scope; no source-package rebuild solely for this unfinished audit."
+  ]
+}

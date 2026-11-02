@@ -1,0 +1,99 @@
+{
+  "date": "2026-10-29",
+  "executedUTC": "2026-10-29T07:06:02.067Z",
+  "engineSHA256": "39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6",
+  "relationsSHA256": "a1599a0ddbe716f02111e56f5da82943bd2878356fc3959a411fbffc8bd8e6d0",
+  "lunarLibrarySHA256": "76e490b74e9913ed94b49689b90abc688ed1e2b11456312b3eb081ec63cf2fbe",
+  "lunarVersion": "1.8.6",
+  "scriptSHA256": "84a342c585ac526f830aca67ae550a4969eb1fcbebd3bd4c18e77b574547b7ae",
+  "freezeSHA256": "6d69153cf136a904754b2309da1f66a5523807ac6a6805281578ba2f68591217",
+  "pairs": [
+    {
+      "root": "甲",
+      "target": "丙",
+      "actualHHCTenGod": "Thực Thần",
+      "actualLunarTenGod": "食神"
+    },
+    {
+      "root": "甲",
+      "target": "壬",
+      "actualHHCTenGod": "Thiên Ấn",
+      "actualLunarTenGod": "偏印"
+    },
+    {
+      "root": "甲",
+      "target": "戊",
+      "actualHHCTenGod": "Thiên Tài",
+      "actualLunarTenGod": "偏财"
+    },
+    {
+      "root": "甲",
+      "target": "庚",
+      "actualHHCTenGod": "Thất Sát",
+      "actualLunarTenGod": "七杀"
+    },
+    {
+      "root": "壬",
+      "target": "甲",
+      "actualHHCTenGod": "Thực Thần",
+      "actualLunarTenGod": "食神"
+    },
+    {
+      "root": "壬",
+      "target": "丙",
+      "actualHHCTenGod": "Thiên Tài",
+      "actualLunarTenGod": "偏财"
+    },
+    {
+      "root": "丙",
+      "target": "戊",
+      "actualHHCTenGod": "Thực Thần",
+      "actualLunarTenGod": "食神"
+    },
+    {
+      "root": "丙",
+      "target": "庚",
+      "actualHHCTenGod": "Thiên Tài",
+      "actualLunarTenGod": "偏财"
+    },
+    {
+      "root": "庚",
+      "target": "甲",
+      "actualHHCTenGod": "Thiên Tài",
+      "actualLunarTenGod": "偏财"
+    },
+    {
+      "root": "戊",
+      "target": "庚",
+      "actualHHCTenGod": "Thực Thần",
+      "actualLunarTenGod": "食神"
+    },
+    {
+      "root": "丙",
+      "target": "壬",
+      "actualHHCTenGod": "Thất Sát",
+      "actualLunarTenGod": "七杀"
+    }
+  ],
+  "stemElements": {
+    "甲": "木",
+    "丙": "火",
+    "壬": "水",
+    "戊": "土",
+    "庚": "金"
+  },
+  "summary": {
+    "actualHHCGodCalls": 11,
+    "actualLunarTenGodTableQueries": 11,
+    "actualLunarStemElementTableQueries": 5,
+    "actualHHCNatalCharts": 0,
+    "actualLunarCalendarObjects": 0,
+    "actualIztroCharts": 0,
+    "newIndependentPrintedBirthCharts": 0,
+    "sourceRelationCoordinatesCompared": true,
+    "sourceEllipsisMeaningValidated": false,
+    "sourceSuppressionEffectivenessValidated": false,
+    "sourceOutcomeValidated": false,
+    "consumerChanged": false
+  }
+}

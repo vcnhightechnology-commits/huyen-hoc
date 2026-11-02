@@ -1,0 +1,235 @@
+{
+  "date": "2026-10-27",
+  "clauses": [
+    {
+      "id": "S1",
+      "pdfPage": 57,
+      "boundedParaphrase": "A strong static line can generate or control a weak static line;the reverse is not granted by mere relation.",
+      "effect": "static-effect-conditional",
+      "requires": [
+        "actorStrong",
+        "targetWeak"
+      ],
+      "consumerApplied": false
+    },
+    {
+      "id": "S2",
+      "pdfPage": 58,
+      "boundedParaphrase": "Moving lines can act on static lines;weakness/activity/effectiveness still need premises.",
+      "effect": "primary-edge-candidate-not-verdict",
+      "requires": [],
+      "consumerApplied": false
+    },
+    {
+      "id": "T1",
+      "pdfPage": 58,
+      "boundedParaphrase": "Changed line acts by generation/control/clash/combination on its own original position.",
+      "effect": "changed-to-own-primary-only",
+      "requires": [],
+      "consumerApplied": false
+    },
+    {
+      "id": "T2",
+      "pdfPage": 58,
+      "boundedParaphrase": "Changed line does not act on other primary or changed lines.",
+      "effect": "block-changed-cross-position",
+      "requires": [],
+      "consumerApplied": false
+    },
+    {
+      "id": "T3",
+      "pdfPage": 58,
+      "boundedParaphrase": "Other primary lines do not act on a changed line.",
+      "effect": "block-primary-to-changed",
+      "requires": [],
+      "consumerApplied": false
+    },
+    {
+      "id": "T4",
+      "pdfPage": 59,
+      "boundedParaphrase": "Day/month can act on moving/static/hidden/flying/changed lines;those lines cannot injure day/month.",
+      "effect": "calendar-to-line-only",
+      "requires": [],
+      "consumerApplied": false
+    },
+    {
+      "id": "M1",
+      "pdfPage": 61,
+      "boundedParaphrase": "Month clash marks month break;month combination has a use-related context.",
+      "effect": "separate-raw-month-relations",
+      "requires": [],
+      "consumerApplied": false
+    },
+    {
+      "id": "M2",
+      "pdfPage": 61,
+      "boundedParaphrase": "Month can affect both visible and hidden/changed candidates;month not appearing as a line does not make it absent.",
+      "effect": "explicit-context-separate-from-figure",
+      "requires": [],
+      "consumerApplied": false
+    },
+    {
+      "id": "M3",
+      "pdfPage": 61,
+      "boundedParaphrase": "Month matching a line gives当權even if旬空;the author disputes reading all旬內 as empty.",
+      "effect": "month-occupancy-void-qualification",
+      "requires": [
+        "monthOccupancy",
+        "void"
+      ],
+      "consumerApplied": false
+    },
+    {
+      "id": "M4",
+      "pdfPage": 62,
+      "boundedParaphrase": "A void desired line may still be旬內empty and become usable on leaving旬;do not erase all temporary void.",
+      "effect": "temporary-vs-terminal-void-distinction",
+      "requires": [
+        "void"
+      ],
+      "consumerApplied": false
+    },
+    {
+      "id": "M5",
+      "pdfPage": 63,
+      "boundedParaphrase": "Even month-matching line can be restrained by own changed return-control;other supports may rescue.",
+      "effect": "month-occupancy-not-invulnerability",
+      "requires": [],
+      "consumerApplied": false
+    },
+    {
+      "id": "M6",
+      "pdfPage": 66,
+      "boundedParaphrase": "Month-clashed line supported by day can retain use depending on context;day/month interaction is not a simple score.",
+      "effect": "keep-day-month-evidence-separate",
+      "requires": [],
+      "consumerApplied": false
+    },
+    {
+      "id": "D1",
+      "pdfPage": 67,
+      "boundedParaphrase": "Strong static line clashed by day is暗動.",
+      "effect": "dark-movement",
+      "requires": [
+        "dayClash",
+        "static",
+        "strongBeforeDay"
+      ],
+      "consumerApplied": false
+    },
+    {
+      "id": "D2",
+      "pdfPage": 67,
+      "boundedParaphrase": "Weak static line clashed by day is日破.",
+      "effect": "day-break",
+      "requires": [
+        "dayClash",
+        "static",
+        "weakBeforeDay"
+      ],
+      "consumerApplied": false
+    },
+    {
+      "id": "D3",
+      "pdfPage": 67,
+      "boundedParaphrase": "Strong moving line clashed by day becomes more active.",
+      "effect": "movement-reinforced",
+      "requires": [
+        "dayClash",
+        "moving",
+        "strongBeforeDay"
+      ],
+      "consumerApplied": false
+    },
+    {
+      "id": "D4",
+      "pdfPage": 67,
+      "boundedParaphrase": "Weak moving line clashed by day is散.",
+      "effect": "movement-scattered",
+      "requires": [
+        "dayClash",
+        "moving",
+        "weakBeforeDay"
+      ],
+      "consumerApplied": false
+    },
+    {
+      "id": "D5",
+      "pdfPage": 67,
+      "boundedParaphrase": "Day clash with a void line can起/實;day clash with a combined line canopenit.",
+      "effect": "raw-relation-not-universal-destruction",
+      "requires": [
+        "dayClash"
+      ],
+      "consumerApplied": false
+    },
+    {
+      "id": "D6",
+      "pdfPage": 68,
+      "boundedParaphrase": "Day-matching line is not broken by month clash and is not automatically weak by season.",
+      "effect": "day-occupancy-month-break-qualification",
+      "requires": [
+        "dayOccupancy",
+        "monthClash"
+      ],
+      "consumerApplied": false
+    },
+    {
+      "id": "D7",
+      "pdfPage": 68,
+      "boundedParaphrase": "Day-monthsupportdoesnoteraseallothermoving,return-controlorstrongopposingconditions.",
+      "effect": "no-single-axis-final-verdict",
+      "requires": [],
+      "consumerApplied": false
+    },
+    {
+      "id": "D8",
+      "pdfPage": 69,
+      "boundedParaphrase": "Author says日沖散wasnotuniversallyconfirmed;movingstronglinesnotautomaticallyscattered.",
+      "effect": "explicit-author-qualification",
+      "requires": [],
+      "consumerApplied": false
+    },
+    {
+      "id": "H1",
+      "pdfPage": 74,
+      "boundedParaphrase": "Static line meeting合mayrise;moving line meeting合maybind.",
+      "effect": "combination-not-always-free-activity",
+      "requires": [],
+      "consumerApplied": false
+    },
+    {
+      "id": "H2",
+      "pdfPage": 76,
+      "boundedParaphrase": "六合and六合變六合need用神旺/有氣andquestion-context;not unconditional good outcome.",
+      "effect": "no-harmony-score",
+      "requires": [],
+      "consumerApplied": false
+    },
+    {
+      "id": "H3",
+      "pdfPage": 78,
+      "boundedParaphrase": "三合局needs explicit moving/static/dark/void/tomb/use-line membership conditions.",
+      "effect": "three-branch-presence-not-full-transformation",
+      "requires": [],
+      "consumerApplied": false
+    },
+    {
+      "id": "H4",
+      "pdfPage": 79,
+      "boundedParaphrase": "Source discusses 世應/inner-outer and disputes one universalapplication.",
+      "effect": "retain-conflicting-application-context",
+      "requires": [],
+      "consumerApplied": false
+    }
+  ],
+  "scope": "Layer permissions,qualitative month table and qualified day-clash labels,not a complete strength/calendar/use-god classifier.",
+  "notEstablished": [
+    "Gregorian/lunar/solar-term month boundary",
+    "Automatic旺相/休囚before day intervention",
+    "旬空/tomb/extinctioncompletealgorithm",
+    "Complete三合conditionsandpriority",
+    "Empirical outcome accuracy"
+  ],
+  "sourceAdvicePolicy": "Historical medical/fortune/determinism/ritual statements are source content,not user instructions or clinical guidance."
+}

@@ -1,0 +1,49 @@
+{
+  "sourceID": "TMTH005-FOOD-C13",
+  "frameID": "declared-source-strength-context",
+  "pillarOrder": [
+    "year",
+    "month",
+    "day",
+    "hour"
+  ],
+  "pillars": "Exactly four sexagenary-canonical two-character stems/branches or explicit null; no hidden stems.",
+  "sourceBirthSeason": [
+    "summer",
+    "three-spring",
+    "other",
+    null
+  ],
+  "sourceLuckRegion": [
+    "東南",
+    "南方",
+    "other",
+    null
+  ],
+  "requiredFacts": [
+    "bingWaterRestraintAbsent",
+    "continuingShengWangXiangLuSatisfied",
+    "fireStrong",
+    "earthStrong",
+    "jiaStrong",
+    "bingReceivesGeneration",
+    "wuJiQiThin"
+  ],
+  "factValues": [
+    true,
+    false,
+    null
+  ],
+  "factMeaning": {
+    "bingWaterRestraintAbsent": "Declared absence of functional water restraint on丙, separate from visible water markers.",
+    "continuingShengWangXiangLuSatisfied": "Declared satisfaction of the whole source compound生旺向祿, subject binding still unresolved.",
+    "fireStrong": "Declared火旺, not inferred from夏月/東南.",
+    "earthStrong": "Declared土旺, separate from火旺.",
+    "jiaStrong": "Declared甲旺, not identical to丙受生.",
+    "bingReceivesGeneration": "Declared丙火得生, not identical to戊己氣厚.",
+    "wuJiQiThin": "Declared spring contrast戊巳氣薄 (working image戊己); no element score."
+  },
+  "allFieldsMustBeExplicit": true,
+  "missingMeansUnknownOnlyWhenExplicitNull": true,
+  "premiseMatchesAreNotOutcomes": true
+}

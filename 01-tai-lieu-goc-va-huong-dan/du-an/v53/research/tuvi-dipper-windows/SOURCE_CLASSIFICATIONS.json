@@ -1,0 +1,140 @@
+{
+  "date": "2026-10-29",
+  "system": "NAJ4468520-juan3-selected-major-dipper-labels",
+  "scope": "14 selected principal-star descriptors in upper82left/83right; not all18/19 source-list counts, all star offices or all voices.",
+  "normalization": "Source-name traditional Chinese and iztro simplified aliases explicitly separate. Classes never inferred from element, chart placement or a different Q&A voice.",
+  "rows": [
+    {
+      "sourceStar": "紫微",
+      "iztroAlias": "紫微",
+      "literalDipperDescriptor": "中天星南北斗",
+      "sourceCanvas": 82,
+      "disposition": "combined-unresolved",
+      "singleDipper": null,
+      "wholeStarUnitApplied": false
+    },
+    {
+      "sourceStar": "天機",
+      "iztroAlias": "天机",
+      "literalDipperDescriptor": "南斗",
+      "sourceCanvas": 82,
+      "disposition": "single-named",
+      "singleDipper": "南斗",
+      "wholeStarUnitApplied": false
+    },
+    {
+      "sourceStar": "太陽",
+      "iztroAlias": "太阳",
+      "literalDipperDescriptor": "南北斗",
+      "sourceCanvas": 82,
+      "disposition": "combined-unresolved",
+      "singleDipper": null,
+      "wholeStarUnitApplied": false
+    },
+    {
+      "sourceStar": "武曲",
+      "iztroAlias": "武曲",
+      "literalDipperDescriptor": "北斗",
+      "sourceCanvas": 83,
+      "disposition": "single-named",
+      "singleDipper": "北斗",
+      "wholeStarUnitApplied": false
+    },
+    {
+      "sourceStar": "天同",
+      "iztroAlias": "天同",
+      "literalDipperDescriptor": "南斗",
+      "sourceCanvas": 82,
+      "disposition": "single-named",
+      "singleDipper": "南斗",
+      "wholeStarUnitApplied": false
+    },
+    {
+      "sourceStar": "廉貞",
+      "iztroAlias": "廉贞",
+      "literalDipperDescriptor": "北斗",
+      "sourceCanvas": 82,
+      "disposition": "single-named",
+      "singleDipper": "北斗",
+      "wholeStarUnitApplied": false
+    },
+    {
+      "sourceStar": "天府",
+      "iztroAlias": "天府",
+      "literalDipperDescriptor": "南斗",
+      "sourceCanvas": 83,
+      "disposition": "single-named",
+      "singleDipper": "南斗",
+      "wholeStarUnitApplied": false
+    },
+    {
+      "sourceStar": "太陰",
+      "iztroAlias": "太阴",
+      "literalDipperDescriptor": "南北斗",
+      "sourceCanvas": 83,
+      "disposition": "combined-unresolved",
+      "singleDipper": null,
+      "wholeStarUnitApplied": false
+    },
+    {
+      "sourceStar": "貪狼",
+      "iztroAlias": "贪狼",
+      "literalDipperDescriptor": "北斗",
+      "sourceCanvas": 83,
+      "disposition": "single-named",
+      "singleDipper": "北斗",
+      "wholeStarUnitApplied": false
+    },
+    {
+      "sourceStar": "巨門",
+      "iztroAlias": "巨门",
+      "literalDipperDescriptor": "北斗",
+      "sourceCanvas": 83,
+      "disposition": "single-named",
+      "singleDipper": "北斗",
+      "wholeStarUnitApplied": false
+    },
+    {
+      "sourceStar": "天相",
+      "iztroAlias": "天相",
+      "literalDipperDescriptor": "南斗",
+      "sourceCanvas": 83,
+      "disposition": "single-named",
+      "singleDipper": "南斗",
+      "wholeStarUnitApplied": false
+    },
+    {
+      "sourceStar": "天梁",
+      "iztroAlias": "天梁",
+      "literalDipperDescriptor": "南斗",
+      "sourceCanvas": 83,
+      "disposition": "single-named",
+      "singleDipper": "南斗",
+      "wholeStarUnitApplied": false
+    },
+    {
+      "sourceStar": "七殺",
+      "iztroAlias": "七杀",
+      "literalDipperDescriptor": "南斗",
+      "sourceCanvas": 83,
+      "disposition": "single-named",
+      "singleDipper": "南斗",
+      "wholeStarUnitApplied": false
+    },
+    {
+      "sourceStar": "破軍",
+      "iztroAlias": "破军",
+      "literalDipperDescriptor": "北斗",
+      "sourceCanvas": 83,
+      "disposition": "single-named",
+      "singleDipper": "北斗",
+      "wholeStarUnitApplied": false
+    }
+  ],
+  "combinedPolicy": "南北斗 or 中天星南北斗 is retained as a compound descriptor. Do not force either one, duplicate an event window, or use major/minor star count to select.",
+  "deferred": [
+    "Other source stars including祿存/昌曲/輔弼 and the printed一十八星 counting problem are not resolved here.",
+    "Q&A answers and juan3 attribute list are distinct textual voices.",
+    "No empirical event timing, favourable scores or modern period-date boundaries."
+  ]
+}

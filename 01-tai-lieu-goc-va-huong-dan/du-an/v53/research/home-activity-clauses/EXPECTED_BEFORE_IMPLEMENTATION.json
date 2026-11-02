@@ -1,0 +1,516 @@
+{
+  "schema": "hhc.home.activity.expected.v1",
+  "date": "2026-10-29",
+  "writtenBeforeImplementation": true,
+  "sourceID": "itkc-1508A-vol2-daily-selected",
+  "frameID": "source-declared-day-and-symbolic-activity",
+  "manualCases": [
+    {
+      "id": "dasha-repair-hall-middle",
+      "input": {
+        "clauseID": "white-tiger",
+        "activity": "repair-hall",
+        "kind": "dasha",
+        "starPosition": "central-palace",
+        "locationRole": "hall-middle"
+      },
+      "expectedLocalAvoidance": true,
+      "sourcePremise": "大殺限定廳堂中間;雷霆廳堂;其餘無妨"
+    },
+    {
+      "id": "dasha-repair-hall-other",
+      "input": {
+        "clauseID": "white-tiger",
+        "activity": "repair-hall",
+        "kind": "dasha",
+        "starPosition": "central-palace",
+        "locationRole": "hall-other"
+      },
+      "expectedLocalAvoidance": false,
+      "sourcePremise": "大殺限定廳堂中間;雷霆廳堂;其餘無妨"
+    },
+    {
+      "id": "dasha-repair-outside-hall",
+      "input": {
+        "clauseID": "white-tiger",
+        "activity": "repair-hall",
+        "kind": "dasha",
+        "starPosition": "central-palace",
+        "locationRole": "outside-hall"
+      },
+      "expectedLocalAvoidance": false,
+      "sourcePremise": "大殺限定廳堂中間;雷霆廳堂;其餘無妨"
+    },
+    {
+      "id": "dasha-noise-middle",
+      "input": {
+        "clauseID": "white-tiger",
+        "activity": "music-or-noisy-guests",
+        "kind": "dasha",
+        "starPosition": "central-palace",
+        "locationRole": "hall-middle"
+      },
+      "expectedLocalAvoidance": true,
+      "sourcePremise": "又云廳堂中間忌皷樂會客諠譁"
+    },
+    {
+      "id": "dasha-noise-other",
+      "input": {
+        "clauseID": "white-tiger",
+        "activity": "music-or-noisy-guests",
+        "kind": "dasha",
+        "starPosition": "central-palace",
+        "locationRole": "outside-hall"
+      },
+      "expectedLocalAvoidance": null,
+      "sourcePremise": "Noexplicitoutside-noiseexception"
+    },
+    {
+      "id": "leiting-repair-hall-middle",
+      "input": {
+        "clauseID": "white-tiger",
+        "activity": "repair-hall",
+        "kind": "leiting",
+        "starPosition": "central-palace",
+        "locationRole": "hall-middle"
+      },
+      "expectedLocalAvoidance": true,
+      "sourcePremise": "大殺限定廳堂中間;雷霆廳堂;其餘無妨"
+    },
+    {
+      "id": "leiting-repair-hall-other",
+      "input": {
+        "clauseID": "white-tiger",
+        "activity": "repair-hall",
+        "kind": "leiting",
+        "starPosition": "central-palace",
+        "locationRole": "hall-other"
+      },
+      "expectedLocalAvoidance": true,
+      "sourcePremise": "大殺限定廳堂中間;雷霆廳堂;其餘無妨"
+    },
+    {
+      "id": "leiting-repair-outside-hall",
+      "input": {
+        "clauseID": "white-tiger",
+        "activity": "repair-hall",
+        "kind": "leiting",
+        "starPosition": "central-palace",
+        "locationRole": "outside-hall"
+      },
+      "expectedLocalAvoidance": false,
+      "sourcePremise": "大殺限定廳堂中間;雷霆廳堂;其餘無妨"
+    },
+    {
+      "id": "leiting-noise-middle",
+      "input": {
+        "clauseID": "white-tiger",
+        "activity": "music-or-noisy-guests",
+        "kind": "leiting",
+        "starPosition": "central-palace",
+        "locationRole": "hall-middle"
+      },
+      "expectedLocalAvoidance": true,
+      "sourcePremise": "又云廳堂中間忌皷樂會客諠譁"
+    },
+    {
+      "id": "leiting-noise-other",
+      "input": {
+        "clauseID": "white-tiger",
+        "activity": "music-or-noisy-guests",
+        "kind": "leiting",
+        "starPosition": "central-palace",
+        "locationRole": "outside-hall"
+      },
+      "expectedLocalAvoidance": null,
+      "sourcePremise": "Noexplicitoutside-noiseexception"
+    },
+    {
+      "id": "not-permanent-yiwei",
+      "input": {
+        "clauseID": "white-tiger",
+        "activity": "repair-hall",
+        "kind": "dasha",
+        "starPosition": "unknown",
+        "locationRole": "hall-middle"
+      },
+      "expectedLocalAvoidance": null,
+      "sourcePremise": "乙未narrativeisnotpermanentclassifier"
+    },
+    {
+      "id": "waste-regular-True",
+      "input": {
+        "clauseID": "four-waste",
+        "activity": "start-building",
+        "dayKind": "regular",
+        "beneficPresent": true
+      },
+      "expectedLocalAvoidance": true,
+      "sourcePremise": "傍四廢吉神倂可用;正四廢惟忌起造"
+    },
+    {
+      "id": "waste-regular-False",
+      "input": {
+        "clauseID": "four-waste",
+        "activity": "start-building",
+        "dayKind": "regular",
+        "beneficPresent": false
+      },
+      "expectedLocalAvoidance": true,
+      "sourcePremise": "傍四廢吉神倂可用;正四廢惟忌起造"
+    },
+    {
+      "id": "waste-lateral-True",
+      "input": {
+        "clauseID": "four-waste",
+        "activity": "start-building",
+        "dayKind": "lateral",
+        "beneficPresent": true
+      },
+      "expectedLocalAvoidance": false,
+      "sourcePremise": "傍四廢吉神倂可用;正四廢惟忌起造"
+    },
+    {
+      "id": "waste-lateral-False",
+      "input": {
+        "clauseID": "four-waste",
+        "activity": "start-building",
+        "dayKind": "lateral",
+        "beneficPresent": false
+      },
+      "expectedLocalAvoidance": null,
+      "sourcePremise": "傍四廢吉神倂可用;正四廢惟忌起造"
+    },
+    {
+      "id": "waste-lateral-None",
+      "input": {
+        "clauseID": "four-waste",
+        "activity": "start-building",
+        "dayKind": "lateral",
+        "beneficPresent": null
+      },
+      "expectedLocalAvoidance": null,
+      "sourcePremise": "傍四廢吉神倂可用;正四廢惟忌起造"
+    },
+    {
+      "id": "waste-unexpanded-zayong",
+      "input": {
+        "clauseID": "four-waste",
+        "activity": "all-miscellaneous-work",
+        "dayKind": "regular",
+        "beneficPresent": true
+      },
+      "expectedLocalAvoidance": null,
+      "sourcePremise": "雜用notautomaticuniversalcategory"
+    },
+    {
+      "id": "wantong-start-building",
+      "input": {
+        "clauseID": "wantong-fire",
+        "activity": "start-building",
+        "markerStatus": true,
+        "beneficPresent": true
+      },
+      "expectedLocalAvoidance": true,
+      "sourcePremise": "止忌fouractivities;縱遇諸吉不能壓制"
+    },
+    {
+      "id": "wantong-erect-pillars",
+      "input": {
+        "clauseID": "wantong-fire",
+        "activity": "erect-pillars",
+        "markerStatus": true,
+        "beneficPresent": true
+      },
+      "expectedLocalAvoidance": true,
+      "sourcePremise": "止忌fouractivities;縱遇諸吉不能壓制"
+    },
+    {
+      "id": "wantong-make-fire-drying-kiln",
+      "input": {
+        "clauseID": "wantong-fire",
+        "activity": "make-fire-drying-kiln",
+        "markerStatus": true,
+        "beneficPresent": true
+      },
+      "expectedLocalAvoidance": true,
+      "sourcePremise": "止忌fouractivities;縱遇諸吉不能壓制"
+    },
+    {
+      "id": "wantong-build-thatch-hut",
+      "input": {
+        "clauseID": "wantong-fire",
+        "activity": "build-thatch-hut",
+        "markerStatus": true,
+        "beneficPresent": true
+      },
+      "expectedLocalAvoidance": true,
+      "sourcePremise": "止忌fouractivities;縱遇諸吉不能壓制"
+    },
+    {
+      "id": "wantong-generic-stove",
+      "input": {
+        "clauseID": "wantong-fire",
+        "activity": "modern-gas-stove",
+        "markerStatus": true,
+        "beneficPresent": true
+      },
+      "expectedLocalAvoidance": null,
+      "sourcePremise": "Noautomaticmoderntechnologytranslation"
+    },
+    {
+      "id": "wantong-unknown-day",
+      "input": {
+        "clauseID": "wantong-fire",
+        "activity": "start-building",
+        "markerStatus": null,
+        "beneficPresent": true
+      },
+      "expectedLocalAvoidance": null,
+      "sourcePremise": "No calendar classifier"
+    },
+    {
+      "id": "official-thatch",
+      "input": {
+        "clauseID": "tianhuo",
+        "activity": "thatch-cover",
+        "markerStatus": true,
+        "voice": "official-calendar"
+      },
+      "expectedLocalAvoidance": true,
+      "sourcePremise": "官曆止忌苫蓋"
+    },
+    {
+      "id": "official-boat-unlisted",
+      "input": {
+        "clauseID": "tianhuo",
+        "activity": "cover-boat",
+        "markerStatus": true,
+        "voice": "official-calendar"
+      },
+      "expectedLocalAvoidance": null,
+      "sourcePremise": "Officialbranchdoesnotlistboat;notinferredsafe"
+    },
+    {
+      "id": "reported-cover-house",
+      "input": {
+        "clauseID": "tianhuo",
+        "activity": "cover-house",
+        "markerStatus": true,
+        "voice": "reported-other-almanacs"
+      },
+      "expectedLocalAvoidance": true,
+      "sourcePremise": "諸曆書並云threecovers;anonymouslyreported"
+    },
+    {
+      "id": "reported-cover-hut",
+      "input": {
+        "clauseID": "tianhuo",
+        "activity": "cover-hut",
+        "markerStatus": true,
+        "voice": "reported-other-almanacs"
+      },
+      "expectedLocalAvoidance": true,
+      "sourcePremise": "諸曆書並云threecovers;anonymouslyreported"
+    },
+    {
+      "id": "reported-cover-boat",
+      "input": {
+        "clauseID": "tianhuo",
+        "activity": "cover-boat",
+        "markerStatus": true,
+        "voice": "reported-other-almanacs"
+      },
+      "expectedLocalAvoidance": true,
+      "sourcePremise": "諸曆書並云threecovers;anonymouslyreported"
+    },
+    {
+      "id": "shousi-inherit-title",
+      "input": {
+        "clauseID": "received-death",
+        "activity": "inherit-title",
+        "markerStatus": true,
+        "beneficPresent": true
+      },
+      "expectedLocalAvoidance": true,
+      "sourcePremise": "大忌specificoffice/courtactions"
+    },
+    {
+      "id": "shousi-receive-investiture",
+      "input": {
+        "clauseID": "received-death",
+        "activity": "receive-investiture",
+        "markerStatus": true,
+        "beneficPresent": true
+      },
+      "expectedLocalAvoidance": true,
+      "sourcePremise": "大忌specificoffice/courtactions"
+    },
+    {
+      "id": "shousi-take-office",
+      "input": {
+        "clauseID": "received-death",
+        "activity": "take-office",
+        "markerStatus": true,
+        "beneficPresent": true
+      },
+      "expectedLocalAvoidance": true,
+      "sourcePremise": "大忌specificoffice/courtactions"
+    },
+    {
+      "id": "shousi-submit-memorial",
+      "input": {
+        "clauseID": "received-death",
+        "activity": "submit-memorial",
+        "markerStatus": true,
+        "beneficPresent": true
+      },
+      "expectedLocalAvoidance": true,
+      "sourcePremise": "大忌specificoffice/courtactions"
+    },
+    {
+      "id": "shousi-burial",
+      "input": {
+        "clauseID": "received-death",
+        "activity": "burial",
+        "markerStatus": true,
+        "beneficPresent": false
+      },
+      "expectedLocalAvoidance": false,
+      "sourcePremise": "至如埋葬則亦不忌"
+    },
+    {
+      "id": "shousi-building-no-ritual-override",
+      "input": {
+        "clauseID": "received-death",
+        "activity": "start-building",
+        "markerStatus": true,
+        "beneficPresent": true
+      },
+      "expectedLocalAvoidance": null,
+      "sourcePremise": "Construction+beneficpointsritual,nosimplepermission"
+    },
+    {
+      "id": "tiange-travel",
+      "input": {
+        "clauseID": "tiange",
+        "activity": "travel",
+        "markerStatus": true,
+        "huangdaoQualified": true
+      },
+      "expectedLocalAvoidance": false,
+      "sourcePremise": "Fouractivities合得黃道不避天隔"
+    },
+    {
+      "id": "tiange-seek-office",
+      "input": {
+        "clauseID": "tiange",
+        "activity": "seek-office",
+        "markerStatus": true,
+        "huangdaoQualified": true
+      },
+      "expectedLocalAvoidance": false,
+      "sourcePremise": "Fouractivities合得黃道不避天隔"
+    },
+    {
+      "id": "tiange-submit-memorial",
+      "input": {
+        "clauseID": "tiange",
+        "activity": "submit-memorial",
+        "markerStatus": true,
+        "huangdaoQualified": true
+      },
+      "expectedLocalAvoidance": false,
+      "sourcePremise": "Fouractivities合得黃道不避天隔"
+    },
+    {
+      "id": "tiange-present-petition",
+      "input": {
+        "clauseID": "tiange",
+        "activity": "present-petition",
+        "markerStatus": true,
+        "huangdaoQualified": true
+      },
+      "expectedLocalAvoidance": false,
+      "sourcePremise": "Fouractivities合得黃道不避天隔"
+    },
+    {
+      "id": "tiange-converse-rejected",
+      "input": {
+        "clauseID": "tiange",
+        "activity": "travel",
+        "markerStatus": true,
+        "huangdaoQualified": false
+      },
+      "expectedLocalAvoidance": null,
+      "sourcePremise": "Huangdaofalsedoesnotprovenegation"
+    },
+    {
+      "id": "renge-marry-wife",
+      "input": {
+        "clauseID": "renge",
+        "activity": "marry-wife",
+        "markerStatus": true,
+        "marriageDayQualified": true
+      },
+      "expectedLocalAvoidance": false,
+      "sourcePremise": "娶婦進口合嫁娶日則不避"
+    },
+    {
+      "id": "renge-admit-household-member",
+      "input": {
+        "clauseID": "renge",
+        "activity": "admit-household-member",
+        "markerStatus": true,
+        "marriageDayQualified": true
+      },
+      "expectedLocalAvoidance": false,
+      "sourcePremise": "娶婦進口合嫁娶日則不避"
+    },
+    {
+      "id": "renge-converse-rejected",
+      "input": {
+        "clauseID": "renge",
+        "activity": "marry-wife",
+        "markerStatus": true,
+        "marriageDayQualified": false
+      },
+      "expectedLocalAvoidance": null,
+      "sourcePremise": "Unqualifiedpremisenotconverse"
+    },
+    {
+      "id": "fire-ge-smelt-or-kiln-stove",
+      "input": {
+        "clauseID": "fire-ge",
+        "activity": "smelt-or-kiln-stove",
+        "markerStatus": true
+      },
+      "expectedLocalAvoidance": null,
+      "sourcePremise": "及bindingandpriorityunresolved;notimplemented"
+    },
+    {
+      "id": "water-ge-open-pond",
+      "input": {
+        "clauseID": "water-ge",
+        "activity": "open-pond",
+        "markerStatus": true
+      },
+      "expectedLocalAvoidance": null,
+      "sourcePremise": "及bindingandpriorityunresolved;notimplemented"
+    },
+    {
+      "id": "water-ge-release-fish",
+      "input": {
+        "clauseID": "water-ge",
+        "activity": "release-fish",
+        "markerStatus": true
+      },
+      "expectedLocalAvoidance": null,
+      "sourcePremise": "及bindingandpriorityunresolved;notimplemented"
+    }
+  ],
+  "expectationCount": 45,
+  "finalSuitabilityAlwaysNull": true,
+  "newCalendarEngineCalls": 0,
+  "casesNotIndependentSourceWitnesses": true
+}

@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-27",
+  "checks": 9,
+  "actualHHCHexCalls": 64,
+  "privateFigureMotionContexts": 4096,
+  "groupsPerContext": 6,
+  "completeGroups": 2048,
+  "qualifyingGroups": 1120,
+  "witnesses": 2816,
+  "duplicateMemberCharts": 22,
+  "discardedRepeatedBranchTriples": 8704,
+  "perGroup": {
+    "water-trine": {
+      "complete": 576,
+      "qualifying": 312,
+      "witnesses": 768
+    },
+    "fire-trine": {
+      "complete": 576,
+      "qualifying": 312,
+      "witnesses": 768
+    },
+    "metal-trine": {
+      "complete": 448,
+      "qualifying": 248,
+      "witnesses": 640
+    },
+    "wood-trine": {
+      "complete": 448,
+      "qualifying": 248,
+      "witnesses": 640
+    },
+    "tiger-snake-monkey": {
+      "complete": 0,
+      "qualifying": 0,
+      "witnesses": 0
+    },
+    "ox-dog-goat": {
+      "complete": 0,
+      "qualifying": 0,
+      "witnesses": 0
+    }
+  },
+  "graphDigest": "4e7a98afc24472077d21fa5f46770705293f61245b6f12b4b77f851dcccb3191",
+  "operationalClauses": 30,
+  "manualRecords": 20,
+  "newLocalRenders": 17,
+  "expandedEarlierReadings": 3,
+  "volume4ContentPages": 19,
+  "newContentPages": 16,
+  "coverPages": 1,
+  "newHTTPBodies": 0,
+  "newOriginalPDFs": 0,
+  "physicalBook2AllPagesViewedByRecordedScope": true,
+  "wholeBookApplied": false,
+  "wholeCatalogueCompleted": false,
+  "effectiveFormationModel": false,
+  "changedOrCalendarTriadCompletion": false,
+  "consumerChanged": false,
+  "htmlBytes": 707411,
+  "htmlSHA256": "549cb415c1a7785e92be25b407d965ea0abd4d3affc54696b784f84d87601857",
+  "siteClean": true,
+  "webZIPUnchanged": true,
+  "priorEightReferencesPreserved": true,
+  "previousSourceZIPPreservedBytes": 1150284497,
+  "unchangedEarlierV53Files": 2297,
+  "manifestFilesVerified": 2333,
+  "sourceZIPFilesVerified": 2334
+}

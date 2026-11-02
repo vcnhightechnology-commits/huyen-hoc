@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-28",
+  "retainedSourceFile": "v53/research/fortune-followup/official-080.jpg",
+  "retainedSHA256": "ef453337cd2255b4539053c78c89556ca47536ec9bd3cf476730532e63b32e37",
+  "retainedSourceDimensions": [
+    2200,
+    1659
+  ],
+  "newExactNativeCrop": {
+    "date": "2026-10-28",
+    "source": "v53/research/fortune-followup/official-080.jpg",
+    "sourceSHA256": "ef453337cd2255b4539053c78c89556ca47536ec9bd3cf476730532e63b32e37",
+    "sourceSize": [
+      2200,
+      1659
+    ],
+    "box": [
+      460,
+      350,
+      850,
+      1450
+    ],
+    "file": "child80-native-crop.png",
+    "sha256": "bef72296fdb5242e6d0bb8a8463d8ad4e392247be51b4f8131a8ccf4abbb42e1",
+    "method": "Exactnativepixelcrop; noresampling/OCR or restoration",
+    "actuallyViewed": true,
+    "pixelMatch": true
+  },
+  "institution": "NationalArchivesofJapan",
+  "catalogue": "https://www.digital.archives.go.jp/file/1078787",
+  "canvasOrdinal": 80,
+  "nativeJP2Acquired": false,
+  "sourceImageKind": "Previouslyretained2200pxIIIFJPEGresponse;serverderivative,notoriginalJP2.",
+  "newHigherResolutionRequest": {
+    "date": "2026-10-28",
+    "retrievedUTC": "2026-10-28T02:24:45.557Z",
+    "url": "https://www.digital.archives.go.jp/api/content/item/da12/C102812186300/iiif/M2019050811103249305_0080.jp2/full/max/0/native.jpg",
+    "observedInManifest": "v53/research/fortune-followup/official-manifest.json",
+    "manifestSHA256": "732991ca47aefc323ea2095a93202fd301421ad8b92994c63caae2a94acf75af",
+    "canvas": "https://www.digital.archives.go.jp/api/iiif/4468520/canvas/C102812186300",
+    "sourceDimensions": [
+      6300,
+      4750
+    ],
+    "status": 403,
+    "headers": {
+      "server": "CloudFront",
+      "date": "Wed, 28 Oct 2026 02:24:42 GMT",
+      "content-length": "608",
+      "connection": "keep-alive",
+      "content-type": "text/html",
+      "x-cache": "Error from cloudfront",
+      "via": "1.1 66b4cf5fe1131d403a242f2f9f334158.cloudfront.net (CloudFront)",
+      "x-amz-cf-pop": "DEN52-P3",
+      "x-amz-cf-id": "FVPtUsARmVWoxpsStKknwdGqE3EUlazR24cu5U9Dw8VQUrNEoOTInw==",
+      "x-frame-options": "SAMEORIGIN"
+    },
+    "tls": {
+      "authorized": true,
+      "authorizationError": null,
+      "protocol": "TLSv1.3"
+    },
+    "file": "official-080-max-response.bin",
+    "bytes": 608,
+    "sha256": "3583028b8177997257190b29910fd802ea895c68f197c795e5267d00cf76d6a0",
+    "sourceKind": "RetainedHTTPresponsebody;notbookimage",
+    "reason": "Previously retained2200pxpage80 contains unresolved童限/age wording. One targeted higher-resolution request;nochallengebypass,notrepeat ofidenticalrendition.",
+    "actuallyViewed": false
+  },
+  "newOriginalContainers": 0,
+  "newSourcePositions": 0,
+  "expandedPriorReadPositions": 1,
+  "newSuccessfulImageDownloads": 0,
+  "newHTTPRequests": 1,
+  "failedHTTPBodiesRetained": 1
+}

@@ -1,0 +1,94 @@
+{
+  "retainedContainer": {
+    "file": "v53/research/bazi-season-strength/CADAL06066038.djvu",
+    "bytes": 10858550,
+    "sha256": "7a53f35982f0b946281d0e393c5d6ddcce1fd091aea83c11af6a06bcdfe6a85e"
+  },
+  "decoder": {
+    "file": "v53/research/bazi-pattern-extension/tooling/djvu.js",
+    "bytes": 556634,
+    "sha256": "10a831d62cc7ced39c30c7350a11410402d082a0f0a5b073a88d3d7ca662add3"
+  },
+  "records": [
+    {
+      "page": 204,
+      "file": "p204.png",
+      "bytes": 268347,
+      "sha256": "013e1c15f8fded3525d8a264fdf833f4e499eb8c7812b973289f603e84e61a4b",
+      "width": 2337,
+      "height": 3144,
+      "pixelRGBA_SHA256": "843dbf77deb78ccf2f8ab0a8df61bc593edd263baa7e2201ea708f0835ec0e02",
+      "actuallyViewed": true
+    },
+    {
+      "page": 205,
+      "file": "p205.png",
+      "bytes": 257894,
+      "sha256": "4ffc9ca999d7ab9793d39b20c0291d4689d234835c05e04a172f264deaac2d27",
+      "width": 2317,
+      "height": 3134,
+      "pixelRGBA_SHA256": "9535441937da96e3e784b0ac099874be02e98d0e60bcbb2f07ace1586b88dbfc",
+      "actuallyViewed": true
+    },
+    {
+      "page": 206,
+      "file": "p206.png",
+      "bytes": 276089,
+      "sha256": "dee7c79f6ee97041e07e6eae58f7e65845613e4b6c21d9ca9b41a703b62c8fc1",
+      "width": 2307,
+      "height": 3147,
+      "pixelRGBA_SHA256": "6d3745cb006ef578551968afa94500e840a7fe805cfefe9d17b19b2a94633e78",
+      "actuallyViewed": true
+    },
+    {
+      "page": 207,
+      "file": "p207.png",
+      "bytes": 246992,
+      "sha256": "cac09115efae7e6c1f9a0baebcb1e9f6d3b12286c060df03ffb198225ddb73c2",
+      "width": 2321,
+      "height": 3142,
+      "pixelRGBA_SHA256": "40b1c8ea754aaa66fdfcae124c24cca129127dd145715f94e7c9a49ffe762419",
+      "actuallyViewed": true
+    },
+    {
+      "page": 208,
+      "file": "p208.png",
+      "bytes": 282030,
+      "sha256": "4b9b38cf232e1bca9eaf2aed7627658e6f03265cb9ee791d81d49ee1352a537d",
+      "width": 2310,
+      "height": 3168,
+      "pixelRGBA_SHA256": "364c7bf40c8b997c0438a733bbc67a52ceeefe2b4413c9768d28eed228d56d38",
+      "actuallyViewed": true
+    },
+    {
+      "page": 209,
+      "file": "p209.png",
+      "bytes": 242288,
+      "sha256": "57dbd957817c6e35fa51875960e07f1d4848f953f477c8d115dc42f4755d8682",
+      "width": 2311,
+      "height": 3143,
+      "pixelRGBA_SHA256": "6bb29e456a7e7956ac8e2069184cbc87e9cd1375a40f6c87c5dae8f9f1ac619c",
+      "actuallyViewed": true
+    }
+  ],
+  "newPositionsActuallyViewed": [
+    206,
+    207,
+    208,
+    209
+  ],
+  "sharedPriorPositions": [
+    204,
+    205
+  ],
+  "initialEndCandidateWasEarly": {
+    "firstCandidates": [
+      206,
+      207,
+      208
+    ],
+    "observedRequiredEnd": 209,
+    "supplementGeneratedAndViewedBeforeFreeze": true
+  },
+  "newHTTPBodies": 0
+}

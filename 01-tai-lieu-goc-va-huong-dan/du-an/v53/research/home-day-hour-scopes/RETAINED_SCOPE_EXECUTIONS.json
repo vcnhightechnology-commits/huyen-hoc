@@ -1,0 +1,762 @@
+{
+  "date": "2026-10-29",
+  "actualRetainedAPICalls": 15,
+  "newCalendarEngineCalls": 0,
+  "newLunarObjects": 0,
+  "newHHCCharts": 0,
+  "newIztroCharts": 0,
+  "records": [
+    {
+      "status": true,
+      "activity": "travel",
+      "p08CalledActivity": "travel",
+      "p08ActualResult": {
+        "system": "YZSS-Tianyige-hour-table-134-135",
+        "jieluStatus": true,
+        "activity": "travel",
+        "sourceRestrictionApplies": true,
+        "sourcePDFPage": 134,
+        "otherFactorsStillUnresolved": true,
+        "overallRecommendation": null
+      },
+      "itkcPrivateResult": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "input": {
+          "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+          "hazard": "jielu",
+          "declaredHazardStatus": true,
+          "activity": "travel",
+          "generalHourPremisesConfirmed": null,
+          "readingMode": "unresolved"
+        },
+        "namedParagraphRestriction": true,
+        "namedParagraphPositions": [
+          255
+        ],
+        "unlistedActivityDefaultIsUnknown": true,
+        "generalHourLiteralDayGlyph": "日",
+        "institutionalEditorialDayGlyph": "旬",
+        "generalOverrideMentionsChosenHazard": true,
+        "conditionalGeneralOverrideClaim": null,
+        "conditionalOverrideIsHistoricalClaim": true,
+        "combinedFinalRestriction": null,
+        "sourcePrioritiesResolved": false,
+        "fullGeneralHourPremisesCalculated": false,
+        "sourceDateOrHourClassificationDerived": false,
+        "calendarAdapterImplemented": false,
+        "sourceMonthOrHourBoundary": null,
+        "sourceLeapMonthPolicy": null,
+        "sourceTimezone": null,
+        "overallRecommendation": null,
+        "sourceOutcome": null,
+        "consumerApplied": false,
+        "wholeSourceMethodApplied": false
+      },
+      "sameNamedSystemProven": false,
+      "preferredWitness": null,
+      "overallRecommendation": null
+    },
+    {
+      "status": true,
+      "activity": "marriage",
+      "p08CalledActivity": "marriage",
+      "p08ActualResult": {
+        "system": "YZSS-Tianyige-hour-table-134-135",
+        "jieluStatus": true,
+        "activity": "marriage",
+        "sourceRestrictionApplies": true,
+        "sourcePDFPage": 134,
+        "otherFactorsStillUnresolved": true,
+        "overallRecommendation": null
+      },
+      "itkcPrivateResult": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "input": {
+          "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+          "hazard": "jielu",
+          "declaredHazardStatus": true,
+          "activity": "marriage",
+          "generalHourPremisesConfirmed": null,
+          "readingMode": "unresolved"
+        },
+        "namedParagraphRestriction": null,
+        "namedParagraphPositions": [
+          255
+        ],
+        "unlistedActivityDefaultIsUnknown": true,
+        "generalHourLiteralDayGlyph": "日",
+        "institutionalEditorialDayGlyph": "旬",
+        "generalOverrideMentionsChosenHazard": true,
+        "conditionalGeneralOverrideClaim": null,
+        "conditionalOverrideIsHistoricalClaim": true,
+        "combinedFinalRestriction": null,
+        "sourcePrioritiesResolved": false,
+        "fullGeneralHourPremisesCalculated": false,
+        "sourceDateOrHourClassificationDerived": false,
+        "calendarAdapterImplemented": false,
+        "sourceMonthOrHourBoundary": null,
+        "sourceLeapMonthPolicy": null,
+        "sourceTimezone": null,
+        "overallRecommendation": null,
+        "sourceOutcome": null,
+        "consumerApplied": false,
+        "wholeSourceMethodApplied": false
+      },
+      "sameNamedSystemProven": false,
+      "preferredWitness": null,
+      "overallRecommendation": null
+    },
+    {
+      "status": true,
+      "activity": "relocation",
+      "p08CalledActivity": "relocation",
+      "p08ActualResult": {
+        "system": "YZSS-Tianyige-hour-table-134-135",
+        "jieluStatus": true,
+        "activity": "relocation",
+        "sourceRestrictionApplies": true,
+        "sourcePDFPage": 134,
+        "otherFactorsStillUnresolved": true,
+        "overallRecommendation": null
+      },
+      "itkcPrivateResult": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "input": {
+          "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+          "hazard": "jielu",
+          "declaredHazardStatus": true,
+          "activity": "relocation",
+          "generalHourPremisesConfirmed": null,
+          "readingMode": "unresolved"
+        },
+        "namedParagraphRestriction": null,
+        "namedParagraphPositions": [
+          255
+        ],
+        "unlistedActivityDefaultIsUnknown": true,
+        "generalHourLiteralDayGlyph": "日",
+        "institutionalEditorialDayGlyph": "旬",
+        "generalOverrideMentionsChosenHazard": true,
+        "conditionalGeneralOverrideClaim": null,
+        "conditionalOverrideIsHistoricalClaim": true,
+        "combinedFinalRestriction": null,
+        "sourcePrioritiesResolved": false,
+        "fullGeneralHourPremisesCalculated": false,
+        "sourceDateOrHourClassificationDerived": false,
+        "calendarAdapterImplemented": false,
+        "sourceMonthOrHourBoundary": null,
+        "sourceLeapMonthPolicy": null,
+        "sourceTimezone": null,
+        "overallRecommendation": null,
+        "sourceOutcome": null,
+        "consumerApplied": false,
+        "wholeSourceMethodApplied": false
+      },
+      "sameNamedSystemProven": false,
+      "preferredWitness": null,
+      "overallRecommendation": null
+    },
+    {
+      "status": true,
+      "activity": "build",
+      "p08CalledActivity": "other",
+      "p08ActualResult": {
+        "system": "YZSS-Tianyige-hour-table-134-135",
+        "jieluStatus": true,
+        "activity": "other",
+        "sourceRestrictionApplies": false,
+        "sourcePDFPage": 134,
+        "otherFactorsStillUnresolved": true,
+        "overallRecommendation": null
+      },
+      "itkcPrivateResult": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "input": {
+          "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+          "hazard": "jielu",
+          "declaredHazardStatus": true,
+          "activity": "build",
+          "generalHourPremisesConfirmed": null,
+          "readingMode": "unresolved"
+        },
+        "namedParagraphRestriction": false,
+        "namedParagraphPositions": [
+          255
+        ],
+        "unlistedActivityDefaultIsUnknown": true,
+        "generalHourLiteralDayGlyph": "日",
+        "institutionalEditorialDayGlyph": "旬",
+        "generalOverrideMentionsChosenHazard": true,
+        "conditionalGeneralOverrideClaim": null,
+        "conditionalOverrideIsHistoricalClaim": true,
+        "combinedFinalRestriction": null,
+        "sourcePrioritiesResolved": false,
+        "fullGeneralHourPremisesCalculated": false,
+        "sourceDateOrHourClassificationDerived": false,
+        "calendarAdapterImplemented": false,
+        "sourceMonthOrHourBoundary": null,
+        "sourceLeapMonthPolicy": null,
+        "sourceTimezone": null,
+        "overallRecommendation": null,
+        "sourceOutcome": null,
+        "consumerApplied": false,
+        "wholeSourceMethodApplied": false
+      },
+      "sameNamedSystemProven": false,
+      "preferredWitness": null,
+      "overallRecommendation": null
+    },
+    {
+      "status": true,
+      "activity": "burial",
+      "p08CalledActivity": "other",
+      "p08ActualResult": {
+        "system": "YZSS-Tianyige-hour-table-134-135",
+        "jieluStatus": true,
+        "activity": "other",
+        "sourceRestrictionApplies": false,
+        "sourcePDFPage": 134,
+        "otherFactorsStillUnresolved": true,
+        "overallRecommendation": null
+      },
+      "itkcPrivateResult": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "input": {
+          "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+          "hazard": "jielu",
+          "declaredHazardStatus": true,
+          "activity": "burial",
+          "generalHourPremisesConfirmed": null,
+          "readingMode": "unresolved"
+        },
+        "namedParagraphRestriction": false,
+        "namedParagraphPositions": [
+          255
+        ],
+        "unlistedActivityDefaultIsUnknown": true,
+        "generalHourLiteralDayGlyph": "日",
+        "institutionalEditorialDayGlyph": "旬",
+        "generalOverrideMentionsChosenHazard": true,
+        "conditionalGeneralOverrideClaim": null,
+        "conditionalOverrideIsHistoricalClaim": true,
+        "combinedFinalRestriction": null,
+        "sourcePrioritiesResolved": false,
+        "fullGeneralHourPremisesCalculated": false,
+        "sourceDateOrHourClassificationDerived": false,
+        "calendarAdapterImplemented": false,
+        "sourceMonthOrHourBoundary": null,
+        "sourceLeapMonthPolicy": null,
+        "sourceTimezone": null,
+        "overallRecommendation": null,
+        "sourceOutcome": null,
+        "consumerApplied": false,
+        "wholeSourceMethodApplied": false
+      },
+      "sameNamedSystemProven": false,
+      "preferredWitness": null,
+      "overallRecommendation": null
+    },
+    {
+      "status": false,
+      "activity": "travel",
+      "p08CalledActivity": "travel",
+      "p08ActualResult": {
+        "system": "YZSS-Tianyige-hour-table-134-135",
+        "jieluStatus": false,
+        "activity": "travel",
+        "sourceRestrictionApplies": false,
+        "sourcePDFPage": 134,
+        "otherFactorsStillUnresolved": true,
+        "overallRecommendation": null
+      },
+      "itkcPrivateResult": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "input": {
+          "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+          "hazard": "jielu",
+          "declaredHazardStatus": false,
+          "activity": "travel",
+          "generalHourPremisesConfirmed": null,
+          "readingMode": "unresolved"
+        },
+        "namedParagraphRestriction": false,
+        "namedParagraphPositions": [
+          255
+        ],
+        "unlistedActivityDefaultIsUnknown": true,
+        "generalHourLiteralDayGlyph": "日",
+        "institutionalEditorialDayGlyph": "旬",
+        "generalOverrideMentionsChosenHazard": true,
+        "conditionalGeneralOverrideClaim": false,
+        "conditionalOverrideIsHistoricalClaim": true,
+        "combinedFinalRestriction": null,
+        "sourcePrioritiesResolved": false,
+        "fullGeneralHourPremisesCalculated": false,
+        "sourceDateOrHourClassificationDerived": false,
+        "calendarAdapterImplemented": false,
+        "sourceMonthOrHourBoundary": null,
+        "sourceLeapMonthPolicy": null,
+        "sourceTimezone": null,
+        "overallRecommendation": null,
+        "sourceOutcome": null,
+        "consumerApplied": false,
+        "wholeSourceMethodApplied": false
+      },
+      "sameNamedSystemProven": false,
+      "preferredWitness": null,
+      "overallRecommendation": null
+    },
+    {
+      "status": false,
+      "activity": "marriage",
+      "p08CalledActivity": "marriage",
+      "p08ActualResult": {
+        "system": "YZSS-Tianyige-hour-table-134-135",
+        "jieluStatus": false,
+        "activity": "marriage",
+        "sourceRestrictionApplies": false,
+        "sourcePDFPage": 134,
+        "otherFactorsStillUnresolved": true,
+        "overallRecommendation": null
+      },
+      "itkcPrivateResult": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "input": {
+          "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+          "hazard": "jielu",
+          "declaredHazardStatus": false,
+          "activity": "marriage",
+          "generalHourPremisesConfirmed": null,
+          "readingMode": "unresolved"
+        },
+        "namedParagraphRestriction": false,
+        "namedParagraphPositions": [
+          255
+        ],
+        "unlistedActivityDefaultIsUnknown": true,
+        "generalHourLiteralDayGlyph": "日",
+        "institutionalEditorialDayGlyph": "旬",
+        "generalOverrideMentionsChosenHazard": true,
+        "conditionalGeneralOverrideClaim": false,
+        "conditionalOverrideIsHistoricalClaim": true,
+        "combinedFinalRestriction": null,
+        "sourcePrioritiesResolved": false,
+        "fullGeneralHourPremisesCalculated": false,
+        "sourceDateOrHourClassificationDerived": false,
+        "calendarAdapterImplemented": false,
+        "sourceMonthOrHourBoundary": null,
+        "sourceLeapMonthPolicy": null,
+        "sourceTimezone": null,
+        "overallRecommendation": null,
+        "sourceOutcome": null,
+        "consumerApplied": false,
+        "wholeSourceMethodApplied": false
+      },
+      "sameNamedSystemProven": false,
+      "preferredWitness": null,
+      "overallRecommendation": null
+    },
+    {
+      "status": false,
+      "activity": "relocation",
+      "p08CalledActivity": "relocation",
+      "p08ActualResult": {
+        "system": "YZSS-Tianyige-hour-table-134-135",
+        "jieluStatus": false,
+        "activity": "relocation",
+        "sourceRestrictionApplies": false,
+        "sourcePDFPage": 134,
+        "otherFactorsStillUnresolved": true,
+        "overallRecommendation": null
+      },
+      "itkcPrivateResult": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "input": {
+          "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+          "hazard": "jielu",
+          "declaredHazardStatus": false,
+          "activity": "relocation",
+          "generalHourPremisesConfirmed": null,
+          "readingMode": "unresolved"
+        },
+        "namedParagraphRestriction": false,
+        "namedParagraphPositions": [
+          255
+        ],
+        "unlistedActivityDefaultIsUnknown": true,
+        "generalHourLiteralDayGlyph": "日",
+        "institutionalEditorialDayGlyph": "旬",
+        "generalOverrideMentionsChosenHazard": true,
+        "conditionalGeneralOverrideClaim": false,
+        "conditionalOverrideIsHistoricalClaim": true,
+        "combinedFinalRestriction": null,
+        "sourcePrioritiesResolved": false,
+        "fullGeneralHourPremisesCalculated": false,
+        "sourceDateOrHourClassificationDerived": false,
+        "calendarAdapterImplemented": false,
+        "sourceMonthOrHourBoundary": null,
+        "sourceLeapMonthPolicy": null,
+        "sourceTimezone": null,
+        "overallRecommendation": null,
+        "sourceOutcome": null,
+        "consumerApplied": false,
+        "wholeSourceMethodApplied": false
+      },
+      "sameNamedSystemProven": false,
+      "preferredWitness": null,
+      "overallRecommendation": null
+    },
+    {
+      "status": false,
+      "activity": "build",
+      "p08CalledActivity": "other",
+      "p08ActualResult": {
+        "system": "YZSS-Tianyige-hour-table-134-135",
+        "jieluStatus": false,
+        "activity": "other",
+        "sourceRestrictionApplies": false,
+        "sourcePDFPage": 134,
+        "otherFactorsStillUnresolved": true,
+        "overallRecommendation": null
+      },
+      "itkcPrivateResult": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "input": {
+          "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+          "hazard": "jielu",
+          "declaredHazardStatus": false,
+          "activity": "build",
+          "generalHourPremisesConfirmed": null,
+          "readingMode": "unresolved"
+        },
+        "namedParagraphRestriction": false,
+        "namedParagraphPositions": [
+          255
+        ],
+        "unlistedActivityDefaultIsUnknown": true,
+        "generalHourLiteralDayGlyph": "日",
+        "institutionalEditorialDayGlyph": "旬",
+        "generalOverrideMentionsChosenHazard": true,
+        "conditionalGeneralOverrideClaim": false,
+        "conditionalOverrideIsHistoricalClaim": true,
+        "combinedFinalRestriction": null,
+        "sourcePrioritiesResolved": false,
+        "fullGeneralHourPremisesCalculated": false,
+        "sourceDateOrHourClassificationDerived": false,
+        "calendarAdapterImplemented": false,
+        "sourceMonthOrHourBoundary": null,
+        "sourceLeapMonthPolicy": null,
+        "sourceTimezone": null,
+        "overallRecommendation": null,
+        "sourceOutcome": null,
+        "consumerApplied": false,
+        "wholeSourceMethodApplied": false
+      },
+      "sameNamedSystemProven": false,
+      "preferredWitness": null,
+      "overallRecommendation": null
+    },
+    {
+      "status": false,
+      "activity": "burial",
+      "p08CalledActivity": "other",
+      "p08ActualResult": {
+        "system": "YZSS-Tianyige-hour-table-134-135",
+        "jieluStatus": false,
+        "activity": "other",
+        "sourceRestrictionApplies": false,
+        "sourcePDFPage": 134,
+        "otherFactorsStillUnresolved": true,
+        "overallRecommendation": null
+      },
+      "itkcPrivateResult": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "input": {
+          "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+          "hazard": "jielu",
+          "declaredHazardStatus": false,
+          "activity": "burial",
+          "generalHourPremisesConfirmed": null,
+          "readingMode": "unresolved"
+        },
+        "namedParagraphRestriction": false,
+        "namedParagraphPositions": [
+          255
+        ],
+        "unlistedActivityDefaultIsUnknown": true,
+        "generalHourLiteralDayGlyph": "日",
+        "institutionalEditorialDayGlyph": "旬",
+        "generalOverrideMentionsChosenHazard": true,
+        "conditionalGeneralOverrideClaim": false,
+        "conditionalOverrideIsHistoricalClaim": true,
+        "combinedFinalRestriction": null,
+        "sourcePrioritiesResolved": false,
+        "fullGeneralHourPremisesCalculated": false,
+        "sourceDateOrHourClassificationDerived": false,
+        "calendarAdapterImplemented": false,
+        "sourceMonthOrHourBoundary": null,
+        "sourceLeapMonthPolicy": null,
+        "sourceTimezone": null,
+        "overallRecommendation": null,
+        "sourceOutcome": null,
+        "consumerApplied": false,
+        "wholeSourceMethodApplied": false
+      },
+      "sameNamedSystemProven": false,
+      "preferredWitness": null,
+      "overallRecommendation": null
+    },
+    {
+      "status": null,
+      "activity": "travel",
+      "p08CalledActivity": "travel",
+      "p08ActualResult": {
+        "system": "YZSS-Tianyige-hour-table-134-135",
+        "jieluStatus": null,
+        "activity": "travel",
+        "sourceRestrictionApplies": null,
+        "sourcePDFPage": 134,
+        "otherFactorsStillUnresolved": true,
+        "overallRecommendation": null
+      },
+      "itkcPrivateResult": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "input": {
+          "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+          "hazard": "jielu",
+          "declaredHazardStatus": null,
+          "activity": "travel",
+          "generalHourPremisesConfirmed": null,
+          "readingMode": "unresolved"
+        },
+        "namedParagraphRestriction": null,
+        "namedParagraphPositions": [
+          255
+        ],
+        "unlistedActivityDefaultIsUnknown": true,
+        "generalHourLiteralDayGlyph": "日",
+        "institutionalEditorialDayGlyph": "旬",
+        "generalOverrideMentionsChosenHazard": true,
+        "conditionalGeneralOverrideClaim": null,
+        "conditionalOverrideIsHistoricalClaim": true,
+        "combinedFinalRestriction": null,
+        "sourcePrioritiesResolved": false,
+        "fullGeneralHourPremisesCalculated": false,
+        "sourceDateOrHourClassificationDerived": false,
+        "calendarAdapterImplemented": false,
+        "sourceMonthOrHourBoundary": null,
+        "sourceLeapMonthPolicy": null,
+        "sourceTimezone": null,
+        "overallRecommendation": null,
+        "sourceOutcome": null,
+        "consumerApplied": false,
+        "wholeSourceMethodApplied": false
+      },
+      "sameNamedSystemProven": false,
+      "preferredWitness": null,
+      "overallRecommendation": null
+    },
+    {
+      "status": null,
+      "activity": "marriage",
+      "p08CalledActivity": "marriage",
+      "p08ActualResult": {
+        "system": "YZSS-Tianyige-hour-table-134-135",
+        "jieluStatus": null,
+        "activity": "marriage",
+        "sourceRestrictionApplies": null,
+        "sourcePDFPage": 134,
+        "otherFactorsStillUnresolved": true,
+        "overallRecommendation": null
+      },
+      "itkcPrivateResult": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "input": {
+          "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+          "hazard": "jielu",
+          "declaredHazardStatus": null,
+          "activity": "marriage",
+          "generalHourPremisesConfirmed": null,
+          "readingMode": "unresolved"
+        },
+        "namedParagraphRestriction": null,
+        "namedParagraphPositions": [
+          255
+        ],
+        "unlistedActivityDefaultIsUnknown": true,
+        "generalHourLiteralDayGlyph": "日",
+        "institutionalEditorialDayGlyph": "旬",
+        "generalOverrideMentionsChosenHazard": true,
+        "conditionalGeneralOverrideClaim": null,
+        "conditionalOverrideIsHistoricalClaim": true,
+        "combinedFinalRestriction": null,
+        "sourcePrioritiesResolved": false,
+        "fullGeneralHourPremisesCalculated": false,
+        "sourceDateOrHourClassificationDerived": false,
+        "calendarAdapterImplemented": false,
+        "sourceMonthOrHourBoundary": null,
+        "sourceLeapMonthPolicy": null,
+        "sourceTimezone": null,
+        "overallRecommendation": null,
+        "sourceOutcome": null,
+        "consumerApplied": false,
+        "wholeSourceMethodApplied": false
+      },
+      "sameNamedSystemProven": false,
+      "preferredWitness": null,
+      "overallRecommendation": null
+    },
+    {
+      "status": null,
+      "activity": "relocation",
+      "p08CalledActivity": "relocation",
+      "p08ActualResult": {
+        "system": "YZSS-Tianyige-hour-table-134-135",
+        "jieluStatus": null,
+        "activity": "relocation",
+        "sourceRestrictionApplies": null,
+        "sourcePDFPage": 134,
+        "otherFactorsStillUnresolved": true,
+        "overallRecommendation": null
+      },
+      "itkcPrivateResult": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "input": {
+          "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+          "hazard": "jielu",
+          "declaredHazardStatus": null,
+          "activity": "relocation",
+          "generalHourPremisesConfirmed": null,
+          "readingMode": "unresolved"
+        },
+        "namedParagraphRestriction": null,
+        "namedParagraphPositions": [
+          255
+        ],
+        "unlistedActivityDefaultIsUnknown": true,
+        "generalHourLiteralDayGlyph": "日",
+        "institutionalEditorialDayGlyph": "旬",
+        "generalOverrideMentionsChosenHazard": true,
+        "conditionalGeneralOverrideClaim": null,
+        "conditionalOverrideIsHistoricalClaim": true,
+        "combinedFinalRestriction": null,
+        "sourcePrioritiesResolved": false,
+        "fullGeneralHourPremisesCalculated": false,
+        "sourceDateOrHourClassificationDerived": false,
+        "calendarAdapterImplemented": false,
+        "sourceMonthOrHourBoundary": null,
+        "sourceLeapMonthPolicy": null,
+        "sourceTimezone": null,
+        "overallRecommendation": null,
+        "sourceOutcome": null,
+        "consumerApplied": false,
+        "wholeSourceMethodApplied": false
+      },
+      "sameNamedSystemProven": false,
+      "preferredWitness": null,
+      "overallRecommendation": null
+    },
+    {
+      "status": null,
+      "activity": "build",
+      "p08CalledActivity": "other",
+      "p08ActualResult": {
+        "system": "YZSS-Tianyige-hour-table-134-135",
+        "jieluStatus": null,
+        "activity": "other",
+        "sourceRestrictionApplies": null,
+        "sourcePDFPage": 134,
+        "otherFactorsStillUnresolved": true,
+        "overallRecommendation": null
+      },
+      "itkcPrivateResult": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "input": {
+          "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+          "hazard": "jielu",
+          "declaredHazardStatus": null,
+          "activity": "build",
+          "generalHourPremisesConfirmed": null,
+          "readingMode": "unresolved"
+        },
+        "namedParagraphRestriction": null,
+        "namedParagraphPositions": [
+          255
+        ],
+        "unlistedActivityDefaultIsUnknown": true,
+        "generalHourLiteralDayGlyph": "日",
+        "institutionalEditorialDayGlyph": "旬",
+        "generalOverrideMentionsChosenHazard": true,
+        "conditionalGeneralOverrideClaim": null,
+        "conditionalOverrideIsHistoricalClaim": true,
+        "combinedFinalRestriction": null,
+        "sourcePrioritiesResolved": false,
+        "fullGeneralHourPremisesCalculated": false,
+        "sourceDateOrHourClassificationDerived": false,
+        "calendarAdapterImplemented": false,
+        "sourceMonthOrHourBoundary": null,
+        "sourceLeapMonthPolicy": null,
+        "sourceTimezone": null,
+        "overallRecommendation": null,
+        "sourceOutcome": null,
+        "consumerApplied": false,
+        "wholeSourceMethodApplied": false
+      },
+      "sameNamedSystemProven": false,
+      "preferredWitness": null,
+      "overallRecommendation": null
+    },
+    {
+      "status": null,
+      "activity": "burial",
+      "p08CalledActivity": "other",
+      "p08ActualResult": {
+        "system": "YZSS-Tianyige-hour-table-134-135",
+        "jieluStatus": null,
+        "activity": "other",
+        "sourceRestrictionApplies": null,
+        "sourcePDFPage": 134,
+        "otherFactorsStillUnresolved": true,
+        "overallRecommendation": null
+      },
+      "itkcPrivateResult": {
+        "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+        "input": {
+          "system": "ITKC-GO1508A.時論.paragraph-activity.v1",
+          "hazard": "jielu",
+          "declaredHazardStatus": null,
+          "activity": "burial",
+          "generalHourPremisesConfirmed": null,
+          "readingMode": "unresolved"
+        },
+        "namedParagraphRestriction": null,
+        "namedParagraphPositions": [
+          255
+        ],
+        "unlistedActivityDefaultIsUnknown": true,
+        "generalHourLiteralDayGlyph": "日",
+        "institutionalEditorialDayGlyph": "旬",
+        "generalOverrideMentionsChosenHazard": true,
+        "conditionalGeneralOverrideClaim": null,
+        "conditionalOverrideIsHistoricalClaim": true,
+        "combinedFinalRestriction": null,
+        "sourcePrioritiesResolved": false,
+        "fullGeneralHourPremisesCalculated": false,
+        "sourceDateOrHourClassificationDerived": false,
+        "calendarAdapterImplemented": false,
+        "sourceMonthOrHourBoundary": null,
+        "sourceLeapMonthPolicy": null,
+        "sourceTimezone": null,
+        "overallRecommendation": null,
+        "sourceOutcome": null,
+        "consumerApplied": false,
+        "wholeSourceMethodApplied": false
+      },
+      "sameNamedSystemProven": false,
+      "preferredWitness": null,
+      "overallRecommendation": null
+    }
+  ],
+  "scopeLimitedComparisonNotOverallFengShuiConclusion": true,
+  "consumerApplied": false
+}

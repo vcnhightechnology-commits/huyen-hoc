@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-29",
+  "executedUTC": "2026-10-29T10:52:38.559Z",
+  "libraryVersion": "1.8.6",
+  "libraryFile": "v46/node_modules/lunar-typescript/dist/index.cjs",
+  "librarySHA256": "76e490b74e9913ed94b49689b90abc688ed1e2b11456312b3eb081ec63cf2fbe",
+  "scriptSHA256": "168d3f51322cb10f04d861c2c6f8a0084ac8e9856ee100ce1d5fba44494b38c1",
+  "freezeSHA256": "56a1b3a8d0dd18e5fc07008abc90389a13b5216390d27e7955826e963063163f",
+  "method": "Execute retained lunar-typescript;2 exported NAYIN lookups and2 WU_XING_GAN lookups for the two source repeated-pillar phrases. No complete natal charts or historical birth dates.",
+  "cases": [
+    {
+      "pillar": "庚辰",
+      "expectedNaYin": "白蜡金",
+      "expectedStemElement": "金",
+      "actualNaYin": "白蜡金",
+      "actualStemElement": "金",
+      "matches": true
+    },
+    {
+      "pillar": "辛丑",
+      "expectedNaYin": "壁上土",
+      "expectedStemElement": "金",
+      "actualNaYin": "壁上土",
+      "actualStemElement": "金",
+      "matches": true
+    }
+  ],
+  "actualNaYinTableQueries": 2,
+  "actualStemElementTableQueries": 2,
+  "actualCalendarObjects": 0,
+  "actualNatalCharts": 0,
+  "sourceGoldMeaningAdjudicated": false,
+  "sourcePredictionValidated": false
+}

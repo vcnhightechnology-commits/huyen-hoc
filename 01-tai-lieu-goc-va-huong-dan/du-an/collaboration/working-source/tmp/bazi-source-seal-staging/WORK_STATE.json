@@ -1,0 +1,30 @@
+{
+  "date": "2026-10-30",
+  "status": "private-volume3-digital-crossreference-verified;facsimile-and-C19binding-open",
+  "sourceReading": "MANUAL.json",
+  "digitalExcerpt": "RETAINED_EXCERPT.txt",
+  "reference": "source-seal.mjs",
+  "checks": [
+    "RESULTS.json",
+    "SOURCE_RESULTS.json"
+  ],
+  "groups": 4,
+  "frames": 247,
+  "newEngineCalls": 0,
+  "currentParentCountsUnchanged": [
+    49,
+    41,
+    0
+  ],
+  "newParentLinks": 0,
+  "wholeContextApplied": false,
+  "wholeCatalogueCompleted": false,
+  "consumerChanged": false,
+  "finding": "Volume3論正印explicitlydefines五行之正庫andprints華蓋印example. This provides an intrawork lexical candidate for C19, not a verified identification or independent transmission.",
+  "remaining": [
+    "Read retained/identifiedvolume3facsimile43b-44a before calling this image-collated; do not fetch a whole book merely for two folios.",
+    "Water/earth targets壬辰/丙辰are kept as one literal source group; do not assign them separately by modern convention.",
+    "Resolve sourceanchor命andC19localmeaning; C21strength and remainingC35verses stay open."
+  ],
+  "packageBoundary": "Private work after released C16/C23/C31inventory; not in that manifest/ZIP. No full package rebuild for this small cross-reference."
+}

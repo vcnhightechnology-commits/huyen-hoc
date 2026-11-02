@@ -1,0 +1,1755 @@
+{
+  "schema": "hhc.full-study.yi-facsimile-384-audit.v1",
+  "createdAt": "2026-10-26T04:48:33.291Z",
+  "summary": {
+    "ordinaryYao": 384,
+    "manuallyReadAndCollated": 384,
+    "remaining": 0,
+    "completeHexagrams": 64,
+    "completeHexagramIds": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      40,
+      41,
+      42,
+      43,
+      44,
+      45,
+      46,
+      47,
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      61,
+      62,
+      63,
+      64
+    ],
+    "ocrOnly": 0,
+    "exactHanAgreesWithApp": 327,
+    "exactHanAgreesWithWikisource": 325,
+    "neitherExact": 55,
+    "supplementaryStatementsManuallyRead": 2,
+    "sourcePdfs": 2,
+    "independentHistoricalEditions": 1,
+    "pdfPages": 209,
+    "pageImageHashesVerified": 209,
+    "checkpointFilesVerified": 12,
+    "rowsDifferingFromApp": 57,
+    "rowsDifferingFromWikisource": 59,
+    "rowsDifferingFromEither": 61
+  },
+  "baseline": {
+    "file": "v49/data/yi_research.json",
+    "sha256": "714f76578658507a278ecb88d1e9c4dec4cd1614d4c72f6765b711e59ee0c523"
+  },
+  "sources": [
+    {
+      "retrievedAt": "2026-10-26T03:54:30.776Z",
+      "commonsPageId": 117954821,
+      "title": "File:NCPSSD-71014695 周易四卷 第一册.pdf",
+      "metadataUrl": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3ANCPSSD-71014695%20%E5%91%A8%E6%98%93%E5%9B%9B%E5%8D%B7%20%E7%AC%AC%E4%B8%80%E5%86%8C.pdf&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&format=json",
+      "metadataFile": "evidence/NCPSSD-71014695_周易四卷_第一册.pdf.metadata.json",
+      "metadataSha256": "54a97c4e8b3bfcced64385f5231e7868056711aa0af8963ccc2b6b5b35b070f8",
+      "binaryUrl": "https://upload.wikimedia.org/wikipedia/commons/7/7a/NCPSSD-71014695_%E5%91%A8%E6%98%93%E5%9B%9B%E5%8D%B7_%E7%AC%AC%E4%B8%80%E5%86%8C.pdf",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NCPSSD-71014695_%E5%91%A8%E6%98%93%E5%9B%9B%E5%8D%B7_%E7%AC%AC%E4%B8%80%E5%86%8C.pdf",
+      "file": "evidence/NCPSSD-71014695_周易四卷_第一册.pdf",
+      "bytes": 28895802,
+      "sha256": "a35643bec19d116a0ce1323a4afcb6ac7d8cb247618adb0edc2531696ab64bb5",
+      "pageCount": 97,
+      "width": 1072,
+      "height": 1566,
+      "contentType": "application/pdf"
+    },
+    {
+      "retrievedAt": "2026-10-26T03:53:52.450Z",
+      "commonsPageId": 117954825,
+      "title": "File:NCPSSD-71014696 周易四卷 第二册.pdf",
+      "metadataUrl": "https://commons.wikimedia.org/w/api.php?action=query&titles=File%3ANCPSSD-71014696%20%E5%91%A8%E6%98%93%E5%9B%9B%E5%8D%B7%20%E7%AC%AC%E4%BA%8C%E5%86%8C.pdf&prop=imageinfo&iiprop=url%7Csize%7Cextmetadata&format=json",
+      "metadataFile": "evidence/NCPSSD-71014696_周易四卷_第二册.pdf.metadata.json",
+      "metadataSha256": "07b8a0319bd5270f1f57f3090a9b92fdcb3ba6b59c776f27a61587f527141dda",
+      "binaryUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f7/NCPSSD-71014696_%E5%91%A8%E6%98%93%E5%9B%9B%E5%8D%B7_%E7%AC%AC%E4%BA%8C%E5%86%8C.pdf",
+      "descriptionUrl": "https://commons.wikimedia.org/wiki/File:NCPSSD-71014696_%E5%91%A8%E6%98%93%E5%9B%9B%E5%8D%B7_%E7%AC%AC%E4%BA%8C%E5%86%8C.pdf",
+      "file": "evidence/NCPSSD-71014696_周易四卷_第二册.pdf",
+      "bytes": 35731493,
+      "sha256": "9a810330902aa4230fd0e55db746e63f123aaeb7ae78899488cb62879ee26b2d",
+      "pageCount": 112,
+      "width": 1070,
+      "height": 1581,
+      "contentType": "application/pdf"
+    }
+  ],
+  "edition": {
+    "commonsTitle": "周易四卷",
+    "commentator": "朱熹; the heading in book 1 PDF page 22 says 朱熹本義",
+    "dateFromImprint": "同治十三年甲戌 (1874)",
+    "pressFromImprint": "江西書局開雕",
+    "imprintImage": "evidence/book1-pages/p004.jpg",
+    "imprintCrop": "evidence/imprint-crop.png",
+    "commonsEditionMetadata": "清同治十三年（1874）江南書局刻本",
+    "publisherConflict": "The image reads 江西, while Commons description metadata says 江南. Keep both assertions; not resolved by silently changing either.",
+    "sourceInstitutionAsCreditedByCommons": "National Center for Philosophy and Social Sciences Documentation",
+    "institutionDirectCatalogAccess": "The Commons template identifies the ncpssd.org barcode URLs; direct catalog was inaccessible to the web reader. No claim of independently downloading the PDF from the institution.",
+    "callNumberAsCataloguedOnCommons": "經104/2540",
+    "volumes": [
+      {
+        "book": 1,
+        "barcode": "71014695",
+        "bookid": "GJ1152645",
+        "pdf": "evidence/NCPSSD-71014695_周易四卷_第一册.pdf",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:NCPSSD-71014695_%E5%91%A8%E6%98%93%E5%9B%9B%E5%8D%B7_%E7%AC%AC%E4%B8%80%E5%86%8C.pdf",
+        "institutionCatalogUrl": "https://www.ncpssd.org/Literature/articleinfo?type=Ancient&barcodenum=71014695"
+      },
+      {
+        "book": 2,
+        "barcode": "71014696",
+        "bookid": "GJ1152646",
+        "pdf": "evidence/NCPSSD-71014696_周易四卷_第二册.pdf",
+        "commonsUrl": "https://commons.wikimedia.org/wiki/File:NCPSSD-71014696_%E5%91%A8%E6%98%93%E5%9B%9B%E5%8D%B7_%E7%AC%AC%E4%BA%8C%E5%86%8C.pdf",
+        "institutionCatalogUrl": "https://www.ncpssd.org/Literature/articleinfo?type=Ancient&barcodenum=71014696"
+      }
+    ]
+  },
+  "checkpoints": [
+    {
+      "file": "checkpoint-01.json",
+      "sha256": "2887b17742b3fefcd3d5cbe6103beb14c67d73f2ee6f20ad9ab4e5757873127a",
+      "rows": 36,
+      "hexagrams": [
+        29,
+        38,
+        51,
+        53,
+        55,
+        59
+      ]
+    },
+    {
+      "file": "checkpoint-02.json",
+      "sha256": "a65b7ec78a6b34a62d4f90376d32b5f6566b0109ce236c25c09d91eb91d0fa30",
+      "rows": 30,
+      "hexagrams": [
+        60,
+        61,
+        62,
+        63,
+        64
+      ]
+    },
+    {
+      "file": "checkpoint-03.json",
+      "sha256": "1d63b1fe3f9b0f14ce51860ff9d7c0ec579d0f89fac3d2c57a576317300c0bd8",
+      "rows": 42,
+      "hexagrams": [
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37
+      ]
+    },
+    {
+      "file": "checkpoint-04.json",
+      "sha256": "755a9993f928c01e8e711df3466746d98305542e323da95acba37c123e631a0d",
+      "rows": 18,
+      "hexagrams": [
+        39,
+        40,
+        41
+      ]
+    },
+    {
+      "file": "checkpoint-05.json",
+      "sha256": "ff2b7f004301e415d29cb08a0dcbdfffeb015a24f5fce2ae9898df0e04cfa95c",
+      "rows": 36,
+      "hexagrams": [
+        42,
+        43,
+        44,
+        45,
+        46,
+        47
+      ]
+    },
+    {
+      "file": "checkpoint-06.json",
+      "sha256": "c781f1a1a9ccf2ff16f5a1a5db4caa75fcb187be674a9bec4a2e4b5abedfd894",
+      "rows": 18,
+      "hexagrams": [
+        48,
+        49,
+        50
+      ]
+    },
+    {
+      "file": "checkpoint-07.json",
+      "sha256": "43903cd552e3543dfe3295734bf140241db49e316b57e63b9e29e17d5692cdf0",
+      "rows": 30,
+      "hexagrams": [
+        52,
+        54,
+        56,
+        57,
+        58
+      ]
+    },
+    {
+      "file": "checkpoint-08.json",
+      "sha256": "25f7c01e42623f3fb249c004eea072b5a7ca774be9b0f608f24dc4337ec115b6",
+      "rows": 36,
+      "hexagrams": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "file": "checkpoint-09.json",
+      "sha256": "568e816ee5a5af7ac7de2c71b70ee8855efd2d23a93cefe9093e59556dd7acca",
+      "rows": 42,
+      "hexagrams": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ]
+    },
+    {
+      "file": "checkpoint-10.json",
+      "sha256": "0a88fa3a3fb76de31c3cd743be12917fc0dde57db08a146e1f7b27596cc3f413",
+      "rows": 18,
+      "hexagrams": [
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "file": "checkpoint-11.json",
+      "sha256": "8c24431e1206d63cacbea6a5f73e2ae0438d6c12e5b8ccaf274a7cc41f4670fb",
+      "rows": 42,
+      "hexagrams": [
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ]
+    },
+    {
+      "file": "checkpoint-12.json",
+      "sha256": "5a268d435779f2fb5891ea003aa0bb3e539325e27a249b9ad01da898627489c1",
+      "rows": 36,
+      "hexagrams": [
+        24,
+        25,
+        26,
+        27,
+        28,
+        30
+      ]
+    }
+  ],
+  "method": "manual-visual-transcription; large-type original statement only; no OCR",
+  "comparisonPolicy": "NFC, punctuation/spacing removed, no allograph folding. A mismatch is not automatically a source error.",
+  "scope": "Six ordinary yao for each of 64 hexagrams; supplementary 用九/用六 separate. One visually inspected edition only; no full commentary transcription.",
+  "limitations": [
+    "All 384 statements have been visually read and transcribed once, with targeted second looks. This is not two-reader adjudication.",
+    "Original printed allographs are represented by available Unicode characters; typography and punctuation are not facsimile-encoded.",
+    "The two PDFs are two volumes of one edition, not two independent historical witnesses.",
+    "Public corpus and interpretations were not changed by this research.",
+    "Reading all yao statements does not equal extracting all commentary, all 十翼, or all knowledge in the work."
+  ],
+  "supplementary": [
+    {
+      "hexagram": 1,
+      "label": "用九",
+      "book": 1,
+      "pdfPage": 25,
+      "readingHanUnpunctuated": "見羣龍无首吉",
+      "note": "Print uses 羣 and 无. Label and gloss are excluded from transcript.",
+      "method": "manual-visual-transcription; large-type original statement only; no OCR",
+      "sourceImage": "evidence/book1-pages/p025.jpg",
+      "sourceImageSha256": "203af02d6f7e120a12c56006aaa0ffd7b787da244a95f9264bc855676dad2dc6"
+    },
+    {
+      "hexagram": 2,
+      "label": "用六",
+      "book": 1,
+      "pdfPage": 36,
+      "readingHanUnpunctuated": "利永貞",
+      "note": "Label and following commentary are excluded from transcript.",
+      "method": "manual-visual-transcription; large-type original statement only; no OCR",
+      "sourceImage": "evidence/book1-pages/p036.jpg",
+      "sourceImageSha256": "babfc0a81acfb562148a867a04e687bea63438d9e056d87ad7d28d67912fad21"
+    }
+  ],
+  "differences": [
+    {
+      "hexagram": 5,
+      "han": "需",
+      "position": 1,
+      "lineLabel": "初九",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "需于郊利用恒无咎",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-08.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 44,
+          "image": "evidence/book1-pages/p044.jpg",
+          "sha256": "c38bd671e63113cc73252eac2d264377b4c8a919603832e9f2fb2a74cb339ab7"
+        }
+      ],
+      "baselineApp": "需于郊，利用恆，无咎。",
+      "baselineWikisource": "需于郊，利用恆，无咎。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 8,
+      "han": "比",
+      "position": 1,
+      "lineLabel": "初六",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "有孚比之无咎有孚盈缶終來有他吉",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-09.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 51,
+          "image": "evidence/book1-pages/p051.jpg",
+          "sha256": "b10fc6c47d65012eeb1dda9e6871daae2133bdd04bfb1b9c0f53a4ac5e8cd773"
+        }
+      ],
+      "baselineApp": "有孚，比之，无咎。有孚盈缶，終來有它，吉。",
+      "baselineWikisource": "有孚，比之，无咎。有孚盈缶，終來有它，吉。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 8,
+      "han": "比",
+      "position": 5,
+      "lineLabel": "九五",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "顯比王用三驅失前禽邑人不誡吉",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-09.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 51,
+          "image": "evidence/book1-pages/p051.jpg",
+          "sha256": "b10fc6c47d65012eeb1dda9e6871daae2133bdd04bfb1b9c0f53a4ac5e8cd773"
+        }
+      ],
+      "baselineApp": "顯比。王用三敺，失前禽，邑人不誡，吉。",
+      "baselineWikisource": "顯比。王用三敺，失前禽，邑人不誡，吉。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 9,
+      "han": "小畜",
+      "position": 3,
+      "lineLabel": "九三",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "輿說輻夫妻反目",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-09.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 53,
+          "image": "evidence/book1-pages/p053.jpg",
+          "sha256": "1100daf307ef38854c3632830ead13434b9c52b7bb4f2a0c051b698c4346b134"
+        }
+      ],
+      "baselineApp": "車說輹，夫妻反目。",
+      "baselineWikisource": "車說輹，夫妻反目。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 9,
+      "han": "小畜",
+      "position": 6,
+      "lineLabel": "上九",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "既雨既處尚德載婦貞厲月幾望君子征凶",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-09.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 54,
+          "image": "evidence/book1-pages/p054.jpg",
+          "sha256": "a0af85f01806f8685d23d7f75e9721f849f5237f46a169a1e64eb910b99dfe0b"
+        }
+      ],
+      "baselineApp": "既雨既處，尚得載，婦貞厲，月幾望，君子征凶。",
+      "baselineWikisource": "既雨既處，尚得載，婦貞厲，月幾望，君子征凶。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 10,
+      "han": "履",
+      "position": 6,
+      "lineLabel": "上九",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "視履考祥其旋元吉",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-09.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 57,
+          "image": "evidence/book1-pages/p057.jpg",
+          "sha256": "3bae427b8613dbb5908f20261eef501ecd5006a3e4055e96197fda765f742076"
+        }
+      ],
+      "baselineApp": "視履考詳，其旋元吉。",
+      "baselineWikisource": "視履考詳，其旋元吉。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 12,
+      "han": "否",
+      "position": 5,
+      "lineLabel": "九五",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "休否大人吉其亡其亡繫于苞桑",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-09.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 60,
+          "image": "evidence/book1-pages/p060.jpg",
+          "sha256": "2d32d9696e07c23641d54555ee72ab680c42e5862d9a7b8a85ec084901c69f59"
+        }
+      ],
+      "baselineApp": "休否，大人吉。其亡其亡，繫于包桑。",
+      "baselineWikisource": "休否，大人吉。其亡其亡，繫于包桑。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 13,
+      "han": "同人",
+      "position": 1,
+      "lineLabel": "初九",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "同人于門无咎",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-09.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 61,
+          "image": "evidence/book1-pages/p061.jpg",
+          "sha256": "34a6ee67597e31238ac6226cc14ece54d789b9918638be075bed2ee86dbf9f86"
+        }
+      ],
+      "baselineApp": "同人于門，無咎。",
+      "baselineWikisource": "同人于門，無咎。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 13,
+      "han": "同人",
+      "position": 4,
+      "lineLabel": "九四",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "乘其墉弗克攻吉",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-09.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 62,
+          "image": "evidence/book1-pages/p062.jpg",
+          "sha256": "3b86bcd4d615b3912a4438a93bd32cffa0d13558f5e64fbad891aecffe392c5c"
+        }
+      ],
+      "baselineApp": "乘其庸，弗克攻，吉。",
+      "baselineWikisource": "乘其庸，弗克攻，吉。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 13,
+      "han": "同人",
+      "position": 5,
+      "lineLabel": "九五",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "同人先號咷而後笑大師克相遇",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-09.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 62,
+          "image": "evidence/book1-pages/p062.jpg",
+          "sha256": "3b86bcd4d615b3912a4438a93bd32cffa0d13558f5e64fbad891aecffe392c5c"
+        }
+      ],
+      "baselineApp": "同人，先號啕而後笑。大師克相遇。",
+      "baselineWikisource": "同人，先號啕而後笑。大師克相遇。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 13,
+      "han": "同人",
+      "position": 6,
+      "lineLabel": "上九",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "同人于郊无悔",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-09.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 62,
+          "image": "evidence/book1-pages/p062.jpg",
+          "sha256": "3b86bcd4d615b3912a4438a93bd32cffa0d13558f5e64fbad891aecffe392c5c"
+        }
+      ],
+      "baselineApp": "同人于郊，無悔。",
+      "baselineWikisource": "同人于郊，無悔。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 14,
+      "han": "大有",
+      "position": 2,
+      "lineLabel": "九二",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "大車以載有攸往无咎",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-10.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 63,
+          "image": "evidence/book1-pages/p063.jpg",
+          "sha256": "6b5852ec77ea8f215511f5c7c25c4386a6cdafabc09092efa2ff19f97756403d"
+        }
+      ],
+      "baselineApp": "大轝以載，有攸往，无咎。",
+      "baselineWikisource": "大轝以載，有攸往，无咎。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 14,
+      "han": "大有",
+      "position": 4,
+      "lineLabel": "九四",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "匪其彭无咎",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-10.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 64,
+          "image": "evidence/book1-pages/p064.jpg",
+          "sha256": "5ee9fc33aa71f43d8485f575706ed8cfa9702d5af9ed3e97f17beea3b54d3a65"
+        }
+      ],
+      "baselineApp": "匪其尫，无咎。",
+      "baselineWikisource": "匪其尫，无咎。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 14,
+      "han": "大有",
+      "position": 6,
+      "lineLabel": "上九",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "自天祐之吉无不利",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-10.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 64,
+          "image": "evidence/book1-pages/p064.jpg",
+          "sha256": "5ee9fc33aa71f43d8485f575706ed8cfa9702d5af9ed3e97f17beea3b54d3a65"
+        }
+      ],
+      "baselineApp": "自天佑之，吉无不利。",
+      "baselineWikisource": "自天佑之，吉无不利。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 16,
+      "han": "豫",
+      "position": 4,
+      "lineLabel": "九四",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "由豫大有得勿疑朋盍簪",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-10.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 68,
+          "image": "evidence/book1-pages/p068.jpg",
+          "sha256": "2efd5ff37516cb9c24f15035832b75c5e267a86267e4a57555176d860808ea2a"
+        }
+      ],
+      "baselineApp": "由豫，大有得。勿疑。朋盍戠。",
+      "baselineWikisource": "由豫，大有得。勿疑。朋盍戠。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 16,
+      "han": "豫",
+      "position": 5,
+      "lineLabel": "六五",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "貞疾恒不死",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-10.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 68,
+          "image": "evidence/book1-pages/p068.jpg",
+          "sha256": "2efd5ff37516cb9c24f15035832b75c5e267a86267e4a57555176d860808ea2a"
+        }
+      ],
+      "baselineApp": "貞疾，恆不死。",
+      "baselineWikisource": "貞疾，恆不死。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 20,
+      "han": "觀",
+      "position": 2,
+      "lineLabel": "六二",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "闚觀利女貞",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-11.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 76,
+          "image": "evidence/book1-pages/p076.jpg",
+          "sha256": "13ee3b45da34641080b84ccb583c91e3084c408af0de0f33722d9c4433e9c033"
+        }
+      ],
+      "baselineApp": "窺觀，利女貞。",
+      "baselineWikisource": "窺觀，利女貞。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 21,
+      "han": "噬嗑",
+      "position": 3,
+      "lineLabel": "六三",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "噬腊肉遇毒小吝无咎",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-11.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 78,
+          "image": "evidence/book1-pages/p078.jpg",
+          "sha256": "ac7a4eb2190c901aa349b06215141120f7ec151553b744ab97326153df2915c0"
+        }
+      ],
+      "baselineApp": "噬昔肉，遇毒；小吝，无咎。",
+      "baselineWikisource": "噬昔肉，遇毒；小吝，无咎。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 22,
+      "han": "賁",
+      "position": 5,
+      "lineLabel": "六五",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "賁于丘園束帛戔戔吝終吉",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-11.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 81,
+          "image": "evidence/book1-pages/p081.jpg",
+          "sha256": "b2930e097d642411022c708f0c7d969e319d081b543f2ae8665a44337daa7150"
+        }
+      ],
+      "baselineApp": "賁於丘園，束帛戔戔，吝，終吉。",
+      "baselineWikisource": "賁於丘園，束帛戔戔，吝，終吉。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 23,
+      "han": "剝",
+      "position": 6,
+      "lineLabel": "上九",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "碩果不食君子得輿小人剝廬",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-11.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 82,
+          "image": "evidence/book1-pages/p082.jpg",
+          "sha256": "1692b7b339c009b035b04eb98ed0f34843474ed55531863c608462f98b72d4a8"
+        }
+      ],
+      "baselineApp": "碩果不食，君子德車，小人剝廬。",
+      "baselineWikisource": "碩果不食，君子德車，小人剝廬。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 24,
+      "han": "復",
+      "position": 1,
+      "lineLabel": "初九",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "不遠復无祗悔元吉",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-12.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 84,
+          "image": "evidence/book1-pages/p084.jpg",
+          "sha256": "55dcf30d474929ea92ebc58116681e241f6dd4d7e1e2cfa0be94fd4ea216a4de"
+        }
+      ],
+      "baselineApp": "不遠復，无祇悔，元吉。",
+      "baselineWikisource": "不遠復，无祇悔，元吉。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 26,
+      "han": "大畜",
+      "position": 3,
+      "lineLabel": "九三",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "良馬逐利艱貞曰閑輿衞利有攸往",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-12.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 88,
+          "image": "evidence/book1-pages/p088.jpg",
+          "sha256": "8b72b443f9689e81cd40ac42488abe89b5fc4c384458ccc0d0122f5f71479d54"
+        }
+      ],
+      "baselineApp": "良馬逐，利艱貞，吉。日閑輿衛，利有攸往。",
+      "baselineWikisource": "良馬逐，利艱貞，吉。日閑輿衛，利有攸往。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 26,
+      "han": "大畜",
+      "position": 4,
+      "lineLabel": "六四",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "童牛之牿元吉",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-12.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 88,
+          "image": "evidence/book1-pages/p088.jpg",
+          "sha256": "8b72b443f9689e81cd40ac42488abe89b5fc4c384458ccc0d0122f5f71479d54"
+        }
+      ],
+      "baselineApp": "童牛之告，元吉。",
+      "baselineWikisource": "童牛之告，元吉。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 27,
+      "han": "頤",
+      "position": 1,
+      "lineLabel": "初九",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "舍爾靈龜觀我朶頤凶",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-12.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 90,
+          "image": "evidence/book1-pages/p090.jpg",
+          "sha256": "69db73f97af4ac69ed470a4516061405115e563eb15e03b2b48bd686b392cec9"
+        }
+      ],
+      "baselineApp": "舍爾靈龜，觀我朵頤，凶。",
+      "baselineWikisource": "舍爾靈龜，觀我朵頤，凶。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 29,
+      "han": "坎",
+      "position": 4,
+      "lineLabel": "六四",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "樽酒簋貳用缶納約自牖終无咎",
+      "method": "manual-visual-transcription; six complete yao per hexagram; large type only, excluding label, commentary and phonetic gloss; no OCR",
+      "checkpoint": "checkpoint-01.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 94,
+          "image": "evidence/book1-pages/p094.jpg",
+          "sha256": "01a632291ebf4284091400a749f7acbf39c9445cf0a2c68622ed34f662c2f8fb"
+        }
+      ],
+      "baselineApp": "尊酒簋，貳用缶。内約自牖，終无咎。",
+      "baselineWikisource": "尊酒簋，貳用缶。內約自牖，終无咎。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 29,
+      "han": "坎",
+      "position": 5,
+      "lineLabel": "九五",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "坎不盈祗既平无咎",
+      "method": "manual-visual-transcription; six complete yao per hexagram; large type only, excluding label, commentary and phonetic gloss; no OCR",
+      "checkpoint": "checkpoint-01.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 94,
+          "image": "evidence/book1-pages/p094.jpg",
+          "sha256": "01a632291ebf4284091400a749f7acbf39c9445cf0a2c68622ed34f662c2f8fb"
+        }
+      ],
+      "baselineApp": "坎不盈，禔既平，无咎。",
+      "baselineWikisource": "坎不盈，禔既平，无咎。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 30,
+      "han": "離",
+      "position": 3,
+      "lineLabel": "九三",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "日昃之離不鼓缶而歌則大耋之嗟凶",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-12.json",
+      "sourceImages": [
+        {
+          "book": 1,
+          "pdfPage": 95,
+          "image": "evidence/book1-pages/p095.jpg",
+          "sha256": "7635aad854f8002cce95c4f47f70a2a86df9d23e672c4288fbf0ae79f623f361"
+        }
+      ],
+      "baselineApp": "日昃之離，不鼓缶而歌，則大耋之差，凶。",
+      "baselineWikisource": "日昃之離，不鼓缶而歌，則大耋之差，凶。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 32,
+      "han": "恆",
+      "position": 1,
+      "lineLabel": "初六",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "浚恒貞凶无攸利",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-03.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 5,
+          "image": "evidence/book2-pages/p005.jpg",
+          "sha256": "dc7b545effffcb860c1392e9eb37bb0df2d2535ce44a72a70c9a20cf66e3d124"
+        },
+        {
+          "book": 2,
+          "pdfPage": 6,
+          "image": "evidence/book2-pages/p006.jpg",
+          "sha256": "57ec57d5489380383d2b2eaff3b2c6394eeb1493b015f70c783b6b7a5c5cdf66"
+        }
+      ],
+      "baselineApp": "浚恆，貞凶，无攸利。",
+      "baselineWikisource": "浚恆，貞凶，无攸利。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 32,
+      "han": "恆",
+      "position": 3,
+      "lineLabel": "九三",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "不恒其德或承之羞貞吝",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-03.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 6,
+          "image": "evidence/book2-pages/p006.jpg",
+          "sha256": "57ec57d5489380383d2b2eaff3b2c6394eeb1493b015f70c783b6b7a5c5cdf66"
+        }
+      ],
+      "baselineApp": "不恆其德，或承之羞，貞吝。",
+      "baselineWikisource": "不恆其德，或承之羞，貞吝。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 32,
+      "han": "恆",
+      "position": 5,
+      "lineLabel": "六五",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "恒其德貞婦人吉夫子凶",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-03.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 6,
+          "image": "evidence/book2-pages/p006.jpg",
+          "sha256": "57ec57d5489380383d2b2eaff3b2c6394eeb1493b015f70c783b6b7a5c5cdf66"
+        }
+      ],
+      "baselineApp": "恆其德，貞，婦人吉，夫子凶。",
+      "baselineWikisource": "恆其德，貞，婦人吉，夫子凶。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 32,
+      "han": "恆",
+      "position": 6,
+      "lineLabel": "上六",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "振恒凶",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-03.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 7,
+          "image": "evidence/book2-pages/p007.jpg",
+          "sha256": "29b6a573db0d13ae4a9195eb643e0a476ececb182bd97a114bed7828a45541d9"
+        }
+      ],
+      "baselineApp": "震恆，凶。",
+      "baselineWikisource": "震恆，凶。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 34,
+      "han": "大壯",
+      "position": 4,
+      "lineLabel": "九四",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "貞吉悔亡藩決不羸壯于大輿之輹",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-03.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 10,
+          "image": "evidence/book2-pages/p010.jpg",
+          "sha256": "3db3795b24ddffc30cac406aeec0d20fdd12ab63ef096dc0796ea101871b3d08"
+        }
+      ],
+      "baselineApp": "貞吉悔亡，藩決不羸，壯于大轝之腹。",
+      "baselineWikisource": "貞吉悔亡，藩決不羸，壯于大轝之腹。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 35,
+      "han": "晉",
+      "position": 3,
+      "lineLabel": "六三",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "衆允悔亡",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-03.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 12,
+          "image": "evidence/book2-pages/p012.jpg",
+          "sha256": "4cf3db60423e457a080e257cdf3caae045f64ed129754f5535573c17a056e00b"
+        }
+      ],
+      "baselineApp": "眾允，悔亡。",
+      "baselineWikisource": "眾允，悔亡。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 35,
+      "han": "晉",
+      "position": 5,
+      "lineLabel": "六五",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "悔亡失得勿恤往吉无不利",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-03.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 12,
+          "image": "evidence/book2-pages/p012.jpg",
+          "sha256": "4cf3db60423e457a080e257cdf3caae045f64ed129754f5535573c17a056e00b"
+        }
+      ],
+      "baselineApp": "悔亡，矢得勿恤，往吉无不利。",
+      "baselineWikisource": "悔亡，矢得勿恤，往吉无不利。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 38,
+      "han": "睽",
+      "position": 3,
+      "lineLabel": "六三",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "見輿曳其牛掣其人天且劓无初有終",
+      "method": "manual-visual-transcription; six complete yao per hexagram; large type only, excluding label, commentary and phonetic gloss; no OCR",
+      "checkpoint": "checkpoint-01.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 18,
+          "image": "evidence/book2-pages/p018.jpg",
+          "sha256": "b57ae98ae4a07d22e0ff7401f7d0a864ab6e98e99600f4d23717380b53e38fec"
+        }
+      ],
+      "baselineApp": "見輿曳，其牛𧤊，其人天且劓，无初有終。",
+      "baselineWikisource": "見輿曳，其牛𧤊，其人天且劓，无初有終。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 38,
+      "han": "睽",
+      "position": 6,
+      "lineLabel": "上九",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "睽孤見豕負塗載鬼一車先張之弧後說之弧匪寇婚媾往遇雨則吉",
+      "method": "manual-visual-transcription; six complete yao per hexagram; large type only, excluding label, commentary and phonetic gloss; no OCR",
+      "checkpoint": "checkpoint-01.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 18,
+          "image": "evidence/book2-pages/p018.jpg",
+          "sha256": "b57ae98ae4a07d22e0ff7401f7d0a864ab6e98e99600f4d23717380b53e38fec"
+        }
+      ],
+      "baselineApp": "睽孤，見豕負涂，載鬼一車，先張之弧，後說之弧，匪寇婚媾，往遇雨則吉。",
+      "baselineWikisource": "睽孤， 見豕負塗，載鬼一車， 先張之弧，後說之弧，匪寇婚媾，往遇雨則吉。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": true,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 40,
+      "han": "解",
+      "position": 5,
+      "lineLabel": "六五",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "君子維有解吉有孚于小人",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-04.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 22,
+          "image": "evidence/book2-pages/p022.jpg",
+          "sha256": "e1272fb95f62e0aa7127f7e7e5f93f72c162e01ffc2d37d035d14e622f00a582"
+        }
+      ],
+      "baselineApp": "君子惟有解，吉；有孚于小人。",
+      "baselineWikisource": "君子惟有解，吉；有孚于小人。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 41,
+      "han": "損",
+      "position": 1,
+      "lineLabel": "初九",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "已事遄往无咎酌損之",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-04.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 23,
+          "image": "evidence/book2-pages/p023.jpg",
+          "sha256": "12e05ada4169760275e78ecdc4a2907f3be367b496eb31055192c9f1a0321414"
+        }
+      ],
+      "baselineApp": "祀事遄往，无咎，酌損之。",
+      "baselineWikisource": "祀事遄往，无咎，酌損之。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 42,
+      "han": "益",
+      "position": 6,
+      "lineLabel": "上九",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "莫益之或擊之立心勿恒凶",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-05.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 26,
+          "image": "evidence/book2-pages/p026.jpg",
+          "sha256": "0200e925b8bc73c37fa22ca77196986d1ef846662d79c1345706e61fe34a7002"
+        }
+      ],
+      "baselineApp": "莫益之，或擊之，立心勿恆，凶。",
+      "baselineWikisource": "莫益之，或擊之，立心勿恆，凶。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 44,
+      "han": "姤",
+      "position": 1,
+      "lineLabel": "初六",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "繫于金柅貞吉有攸往見凶羸豕孚蹢躅",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-05.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 30,
+          "image": "evidence/book2-pages/p030.jpg",
+          "sha256": "c7bc6a0d0e6dfb69acd4af5793c8503222ecfaaf3d162e6b82feafa66c15b6ba"
+        }
+      ],
+      "baselineApp": "系于金柅，貞吉，有攸往，見凶，羸豕，孚，蹢躅。",
+      "baselineWikisource": "系于金柅，貞吉，有攸往，見凶，羸豕，孚，蹢躅。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 45,
+      "han": "萃",
+      "position": 6,
+      "lineLabel": "上六",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "齎咨涕洟无咎",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-05.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 33,
+          "image": "evidence/book2-pages/p033.jpg",
+          "sha256": "15564ddacb005823c8e75a9911ecfdca5c00da0a9ca0e69d1bdaf76873ac13da"
+        }
+      ],
+      "baselineApp": "齎資涕洟，无咎。",
+      "baselineWikisource": "齎資涕洟，无咎。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 46,
+      "han": "升",
+      "position": 4,
+      "lineLabel": "六四",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "王用亨于岐山吉无咎",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-05.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 34,
+          "image": "evidence/book2-pages/p034.jpg",
+          "sha256": "836204a51bad38fd20a7842bb41c43340f8792350d4e5b098281bd8c5ae5af45"
+        }
+      ],
+      "baselineApp": "王用享于岐山，吉无咎。",
+      "baselineWikisource": "王用享于岐山，吉无咎。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 47,
+      "han": "困",
+      "position": 3,
+      "lineLabel": "六三",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "困于石據于蒺藜入于其宮不見其妻凶",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-05.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 36,
+          "image": "evidence/book2-pages/p036.jpg",
+          "sha256": "3097ed08f77d6aeba4a2e0ab2011006f960e56203efe597c52a7213056013f1e"
+        }
+      ],
+      "baselineApp": "困于石，據于蒺蔾，入于其宮，不見其妻，凶。",
+      "baselineWikisource": "困于石，據于蒺蔾，入于其宮，不見其妻，凶。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 47,
+      "han": "困",
+      "position": 4,
+      "lineLabel": "九四",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "來徐徐困于金車吝有終",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-05.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 36,
+          "image": "evidence/book2-pages/p036.jpg",
+          "sha256": "3097ed08f77d6aeba4a2e0ab2011006f960e56203efe597c52a7213056013f1e"
+        }
+      ],
+      "baselineApp": "來荼荼，困于金轝，吝，有終。",
+      "baselineWikisource": "來荼荼，困于金轝，吝，有終。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 48,
+      "han": "井",
+      "position": 2,
+      "lineLabel": "九二",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "井谷射鮒甕敝漏",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-06.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 38,
+          "image": "evidence/book2-pages/p038.jpg",
+          "sha256": "3b810442237ca03cbba3e11de077ba8460ee49dc7ec3b22d879752dec7cfeb40"
+        }
+      ],
+      "baselineApp": "井谷射鮒，瓮敝漏。",
+      "baselineWikisource": "井谷射鮒，瓮敝漏。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 48,
+      "han": "井",
+      "position": 5,
+      "lineLabel": "九五",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "井洌寒泉食",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-06.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 38,
+          "image": "evidence/book2-pages/p038.jpg",
+          "sha256": "3b810442237ca03cbba3e11de077ba8460ee49dc7ec3b22d879752dec7cfeb40"
+        }
+      ],
+      "baselineApp": "井冽，寒泉食。",
+      "baselineWikisource": "井冽，寒泉食。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 49,
+      "han": "革",
+      "position": 2,
+      "lineLabel": "六二",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "己日乃革之征吉无咎",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-06.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 40,
+          "image": "evidence/book2-pages/p040.jpg",
+          "sha256": "2ecc9812faefe6197fbadb6232e142ff9b97493d0ef00e5c03524cc5db648d55"
+        }
+      ],
+      "baselineApp": "已日乃革之，征吉，无咎。",
+      "baselineWikisource": "已日乃革之，征吉，无咎。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 50,
+      "han": "鼎",
+      "position": 4,
+      "lineLabel": "九四",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "鼎折足覆公餗其形渥凶",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-06.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 42,
+          "image": "evidence/book2-pages/p042.jpg",
+          "sha256": "aa11bdfb248f312eb157a57187cfa938033d82e7f9b26fb7c4a094a645254a93"
+        }
+      ],
+      "baselineApp": "鼎折足，覆公餗，其刑渥，凶。",
+      "baselineWikisource": "鼎折足，覆公餗，其刑渥，凶。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 51,
+      "han": "震",
+      "position": 6,
+      "lineLabel": "上六",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "震索索視矍矍征凶震不于其躬于其鄰无咎婚媾有言",
+      "method": "manual-visual-transcription; six complete yao per hexagram; large type only, excluding label, commentary and phonetic gloss; no OCR",
+      "checkpoint": "checkpoint-01.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 45,
+          "image": "evidence/book2-pages/p045.jpg",
+          "sha256": "900c0e7e4f34c60da8c4a99c76930e4abd92c59b36121cdb823a6cf7bc2c0501"
+        }
+      ],
+      "baselineApp": "震索索，視矍矍，征凶。震不于其躬，于其鄰，无咎。婚媾有言。",
+      "baselineWikisource": "震索索，視矍矍，征凶。震不于其躬，于其鄰，無咎。婚媾有言。",
+      "exactHanAgreesWithApp": true,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 52,
+      "han": "艮",
+      "position": 3,
+      "lineLabel": "九三",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "艮其限列其夤厲熏心",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-07.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 46,
+          "image": "evidence/book2-pages/p046.jpg",
+          "sha256": "c8dc65b8f29093f33f6e1cda43fa72dcbe694ceb402df331101f7cab9ca018f9"
+        }
+      ],
+      "baselineApp": "艮其限，裂其夤，厲閽心。",
+      "baselineWikisource": "艮其限，裂其夤，厲閽心。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 52,
+      "han": "艮",
+      "position": 5,
+      "lineLabel": "六五",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "艮其輔言有序悔亡",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-07.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 48,
+          "image": "evidence/book2-pages/p048.jpg",
+          "sha256": "f0f8a61dc2a542786dfb2c25b996c5232829420742c317e56b774d35dec4149a"
+        }
+      ],
+      "baselineApp": "艮其輔，言有孚，悔亡。",
+      "baselineWikisource": "艮其輔，言有孚，悔亡。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 53,
+      "han": "漸",
+      "position": 1,
+      "lineLabel": "初六",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "鴻漸于干小子厲有言无咎",
+      "method": "manual-visual-transcription; six complete yao per hexagram; large type only, excluding label, commentary and phonetic gloss; no OCR",
+      "checkpoint": "checkpoint-01.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 49,
+          "image": "evidence/book2-pages/p049.jpg",
+          "sha256": "45f6d4bd046e3dc69396e97134ff7489c64b42e9e0ba1af7069925d69adf0a4f"
+        }
+      ],
+      "baselineApp": "鴻漸于干，小子厲，有言，无咎。",
+      "baselineWikisource": "鴻漸于干，小子厲，有言，無咎。",
+      "exactHanAgreesWithApp": true,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 53,
+      "han": "漸",
+      "position": 4,
+      "lineLabel": "六四",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "鴻漸于木或得其桷无咎",
+      "method": "manual-visual-transcription; six complete yao per hexagram; large type only, excluding label, commentary and phonetic gloss; no OCR",
+      "checkpoint": "checkpoint-01.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 50,
+          "image": "evidence/book2-pages/p050.jpg",
+          "sha256": "1ecafab32c7ea34edff21acbe631a5590968cc2244f5a6e526307e264da9cc14"
+        }
+      ],
+      "baselineApp": "鴻漸于木，或得其桷，无咎。",
+      "baselineWikisource": "鴻漸于木，或得其桷，無咎。",
+      "exactHanAgreesWithApp": true,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 55,
+      "han": "豐",
+      "position": 6,
+      "lineLabel": "上六",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "豐其屋蔀其家窺其戶闃其无人三歲不覿凶",
+      "method": "manual-visual-transcription; six complete yao per hexagram; large type only, excluding label, commentary and phonetic gloss; no OCR",
+      "checkpoint": "checkpoint-01.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 54,
+          "image": "evidence/book2-pages/p054.jpg",
+          "sha256": "f5d25ce9245e7e35e4c7c4871a25c0bca2f26c55d5a7be092470182f367a9e90"
+        }
+      ],
+      "baselineApp": "豐其屋，蔀其家，窺其戶，闃其无人，三歲不觌，凶。",
+      "baselineWikisource": "豐其屋，蔀其家，窺其戶，闃其无人，三歲不覿，凶。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": true,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 56,
+      "han": "旅",
+      "position": 2,
+      "lineLabel": "六二",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "旅即次懷其資得童僕貞",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-07.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 55,
+          "image": "evidence/book2-pages/p055.jpg",
+          "sha256": "c2a149f25a35923eedb73413fbc9654ff23414b1dbd68361042d5549914b6b8d"
+        }
+      ],
+      "baselineApp": "旅即次，懷其資，得僮僕貞。",
+      "baselineWikisource": "旅即次，懷其資，得僮僕貞。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 56,
+      "han": "旅",
+      "position": 3,
+      "lineLabel": "九三",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "旅焚其次喪其童僕貞厲",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-07.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 55,
+          "image": "evidence/book2-pages/p055.jpg",
+          "sha256": "c2a149f25a35923eedb73413fbc9654ff23414b1dbd68361042d5549914b6b8d"
+        }
+      ],
+      "baselineApp": "旅焚其次，喪其僮僕，貞厲。",
+      "baselineWikisource": "旅焚其次，喪其僮僕，貞厲。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 59,
+      "han": "渙",
+      "position": 1,
+      "lineLabel": "初六",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "用拯馬壯吉",
+      "method": "manual-visual-transcription; six complete yao per hexagram; large type only, excluding label, commentary and phonetic gloss; no OCR",
+      "checkpoint": "checkpoint-01.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 61,
+          "image": "evidence/book2-pages/p061.jpg",
+          "sha256": "3d8a7f16a6068536f886e57d987b793ff37aa3fc0e9962496a20afb881c5e211"
+        }
+      ],
+      "baselineApp": "用拯馬壯，吉，悔亡。",
+      "baselineWikisource": "用拯馬壯，吉，悔亡。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 59,
+      "han": "渙",
+      "position": 2,
+      "lineLabel": "九二",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "渙奔其机悔亡",
+      "method": "manual-visual-transcription; six complete yao per hexagram; large type only, excluding label, commentary and phonetic gloss; no OCR",
+      "checkpoint": "checkpoint-01.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 61,
+          "image": "evidence/book2-pages/p061.jpg",
+          "sha256": "3d8a7f16a6068536f886e57d987b793ff37aa3fc0e9962496a20afb881c5e211"
+        }
+      ],
+      "baselineApp": "渙奔其机，悔亡。",
+      "baselineWikisource": "渙奔其機，悔亡。",
+      "exactHanAgreesWithApp": true,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 59,
+      "han": "渙",
+      "position": 4,
+      "lineLabel": "六四",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "渙其羣元吉渙有丘匪夷所思",
+      "method": "manual-visual-transcription; six complete yao per hexagram; large type only, excluding label, commentary and phonetic gloss; no OCR",
+      "checkpoint": "checkpoint-01.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 61,
+          "image": "evidence/book2-pages/p061.jpg",
+          "sha256": "3d8a7f16a6068536f886e57d987b793ff37aa3fc0e9962496a20afb881c5e211"
+        }
+      ],
+      "baselineApp": "渙其群，元吉。渙有丘，匪夷所思。",
+      "baselineWikisource": "渙其群，元吉。渙有丘，匪夷所思。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 61,
+      "han": "中孚",
+      "position": 1,
+      "lineLabel": "初九",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "虞吉有他不燕",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-02.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 64,
+          "image": "evidence/book2-pages/p064.jpg",
+          "sha256": "65b7067237bed13280b9f6d2716d6027fff53b8107869251f2cc9f79b08878b1"
+        }
+      ],
+      "baselineApp": "虞吉，有它不燕。",
+      "baselineWikisource": "虞吉，有它不燕。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    },
+    {
+      "hexagram": 61,
+      "han": "中孚",
+      "position": 4,
+      "lineLabel": "六四",
+      "status": "manually-read-and-collated",
+      "readingHanUnpunctuated": "月幾望馬匹亡无咎",
+      "method": "manual-visual-transcription; large-type yao only; no OCR",
+      "checkpoint": "checkpoint-02.json",
+      "sourceImages": [
+        {
+          "book": 2,
+          "pdfPage": 65,
+          "image": "evidence/book2-pages/p065.jpg",
+          "sha256": "900271276632f5fa3d8c67e19f41afe04c15c7cb0ee33e1e9c52dfbce7957ece"
+        }
+      ],
+      "baselineApp": "月既望，馬匹亡，无咎。",
+      "baselineWikisource": "月既望，馬匹亡，无咎。",
+      "exactHanAgreesWithApp": false,
+      "exactHanAgreesWithWikisource": false,
+      "facsimileCollationStatus": "manually-read-and-collated"
+    }
+  ]
+}

@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-27",
+  "checks": [
+    {
+      "name": "Pinned original PDF and22manual image records retain hashes,with no new HTTP or PDF",
+      "ok": true
+    },
+    {
+      "name": "Complete seven-page TOC has130regular numbered entries and five distinctly identified supplements",
+      "ok": true
+    },
+    {
+      "name": "Chapter28has actual108..116span;headings,ad/endleaf and body probes are not counted as full book reading",
+      "ok": true
+    },
+    {
+      "name": "Six source cases retain exact root/flying positions and distinguish visible/changed candidates",
+      "ok": true
+    },
+    {
+      "name": "PDF113first損41visible父母巳line1is separate from the later漸53→巽57recast",
+      "ok": true
+    },
+    {
+      "name": "困47→兌58has visible午fireline3,hidden巳fireline1and changed巳fireline1with no automatic selection",
+      "ok": true
+    },
+    {
+      "name": "All320hexagram/kin queries use their own pure palace and actual HHC calls,with all384root positions retained",
+      "ok": true
+    },
+    {
+      "name": "Explicit day/month branch candidates remain separate and do not suppress roots or auto-select a useful god",
+      "ok": true
+    },
+    {
+      "name": "Six useful/five unusable clauses preserve missing premises as unknown",
+      "ok": true
+    },
+    {
+      "name": "Conjunction/disjunction use three-valued logic without treating unknown weakness as true or false",
+      "ok": true
+    },
+    {
+      "name": "Concurrent positive/negative matches remain explicit and never invent source priority or a fortune verdict",
+      "ok": true
+    },
+    {
+      "name": "Every one of16explicit factual inputs can be true/false/unknown and is returned as an asserted research premise",
+      "ok": true
+    },
+    {
+      "name": "Unsupported calendar/automatic classification inputs are rejected;structural relations cannot be overwritten",
+      "ok": true
+    },
+    {
+      "name": "Returned records are isolated and public modules plus earlier foundation reference stay byte-identical",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "tocUnits": 135,
+    "regularNumberedUnits": 130,
+    "supplements": 5,
+    "chapterSpanPages": 9,
+    "imageRecords": 22,
+    "newRenders": 21,
+    "newHTTPResponses": 0,
+    "sourceCases": 6,
+    "queries": 320,
+    "rootPositions": 384,
+    "coincidences": 144,
+    "missingKinQueries": 56,
+    "actualHHCHexCalls": 649,
+    "conditionalClauses": 11,
+    "explicitFactualInputs": 16,
+    "graphDigest": "8aa15279f12cc062ba126cedf22d738eaaf099d6e832a8ef66d70cc96978c4ca",
+    "consumerChanged": false,
+    "wholeBookApplied": false,
+    "outcomeClaimsValidated": false
+  },
+  "htmlSHA256": "549cb415c1a7785e92be25b407d965ea0abd4d3affc54696b784f84d87601857"
+}

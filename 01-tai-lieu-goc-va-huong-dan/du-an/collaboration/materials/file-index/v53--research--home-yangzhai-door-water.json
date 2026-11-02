@@ -1,0 +1,401 @@
+{
+  "scope": "v53/research/home-yangzhai-door-water",
+  "files": [
+    {
+      "file": "v53/research/home-yangzhai-door-water/CONTEXT_READINGS.json",
+      "bytes": 6650,
+      "sha256": "58d8eb2a7a8c3629f4918e3d618f2dcf643f04976f9e688f2a1feb7ec1c9d65c",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/58d8eb2a7a8c3629f4918e3d618f2dcf643f04976f9e688f2a1feb7ec1c9d65c",
+      "httpRange": {
+        "offset": 227987522,
+        "compressedBytes": 2567,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/MANUAL_ROOM_PAIR_ANCHORS.json",
+      "bytes": 1137,
+      "sha256": "53426301f7d3c0add83f841686a0e19c53fcf9192ae2bd1a06d5fec7d78f5696",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/53426301f7d3c0add83f841686a0e19c53fcf9192ae2bd1a06d5fec7d78f5696",
+      "httpRange": {
+        "offset": 122122635,
+        "compressedBytes": 504,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/MANUAL_SOURCE_POLARITY.json",
+      "bytes": 952,
+      "sha256": "2250f96a92f885f5cdcd4148ec18d275d55cfdf97fa66e916331fb69241a5001",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2250f96a92f885f5cdcd4148ec18d275d55cfdf97fa66e916331fb69241a5001",
+      "httpRange": {
+        "offset": 90314400,
+        "compressedBytes": 546,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/MANUAL_WATER_TABLE.json",
+      "bytes": 9564,
+      "sha256": "570c3653ca73c16a6bf9e4f11d08388542afb730734bcbc8ab252067e043d89b",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/570c3653ca73c16a6bf9e4f11d08388542afb730734bcbc8ab252067e043d89b",
+      "httpRange": {
+        "offset": 170435813,
+        "compressedBytes": 1422,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/PROMOTION_IDENTITIES.json",
+      "bytes": 13326,
+      "sha256": "f6546fda9d88e7cb56c25f3ed5d077774064af25ce803de362caa4ee0529ce46",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f6546fda9d88e7cb56c25f3ed5d077774064af25ce803de362caa4ee0529ce46",
+      "httpRange": {
+        "offset": 211975573,
+        "compressedBytes": 3372,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/RAW_IMAGES.json",
+      "bytes": 9432,
+      "sha256": "1dff523f5b740e91c5d5f1ea93837236db2a3662676d7eecd6f35e37ac6135a1",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/1dff523f5b740e91c5d5f1ea93837236db2a3662676d7eecd6f35e37ac6135a1",
+      "httpRange": {
+        "offset": 57317080,
+        "compressedBytes": 1689,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/STAGED_WORK_STATE.json",
+      "bytes": 2246,
+      "sha256": "341cca0c876d29985035e79c252688a416bbaf6318fffc74a468982159151f0b",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/341cca0c876d29985035e79c252688a416bbaf6318fffc74a468982159151f0b",
+      "httpRange": {
+        "offset": 281572684,
+        "compressedBytes": 1222,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/STAGED_extract-raw.py",
+      "bytes": 1728,
+      "sha256": "ed85ee5c1b23e2d26545804d01cc30e2900f512f009373da56648fc1ce30a801",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ed85ee5c1b23e2d26545804d01cc30e2900f512f009373da56648fc1ce30a801",
+      "httpRange": {
+        "offset": 101786547,
+        "compressedBytes": 978,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/STAGED_promote.py",
+      "bytes": 2500,
+      "sha256": "270b7f79e3d9b7125dd542228c17c08ccbb65f9270af235159c01cfe60b22bc1",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/270b7f79e3d9b7125dd542228c17c08ccbb65f9270af235159c01cfe60b22bc1",
+      "httpRange": {
+        "offset": 140444162,
+        "compressedBytes": 1170,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/STAGED_record-readings.py",
+      "bytes": 8959,
+      "sha256": "39f17eadb886f51976cced561891027e515bc18d4c7eb52590d609fbeda208b2",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/39f17eadb886f51976cced561891027e515bc18d4c7eb52590d609fbeda208b2",
+      "httpRange": {
+        "offset": 373420245,
+        "compressedBytes": 4614,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/STAGED_test-water-reference.mjs",
+      "bytes": 8131,
+      "sha256": "8e5377216ed8a289b328926e9e23aace94724a0da29b76d5637b9ffe5c5fcf88",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8e5377216ed8a289b328926e9e23aace94724a0da29b76d5637b9ffe5c5fcf88",
+      "httpRange": {
+        "offset": 294964991,
+        "compressedBytes": 3445,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/STAGED_verify-native.py",
+      "bytes": 1959,
+      "sha256": "e57af1e76ed95f76f6e1d4e9511097b6ba17ac19fff314cfed7711e48c6bfa57",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e57af1e76ed95f76f6e1d4e9511097b6ba17ac19fff314cfed7711e48c6bfa57",
+      "httpRange": {
+        "offset": 340429250,
+        "compressedBytes": 983,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/UNIT_MAP.json",
+      "bytes": 5549,
+      "sha256": "4883e7fcc434c6c7a3fc8d9679be4ad904782d5198a6dcfcea23bfab93218123",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4883e7fcc434c6c7a3fc8d9679be4ad904782d5198a6dcfcea23bfab93218123",
+      "httpRange": {
+        "offset": 256979756,
+        "compressedBytes": 1644,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/WORK_STATE.json",
+      "bytes": 4651,
+      "sha256": "369f0d66e3d5f68b94a854d1e62430f16aee51b0589065ad1bb7fd634ce132f0",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/369f0d66e3d5f68b94a854d1e62430f16aee51b0589065ad1bb7fd634ce132f0",
+      "httpRange": {
+        "offset": 332182037,
+        "compressedBytes": 2571,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p094.jpg",
+      "bytes": 817482,
+      "sha256": "d709b9efc3d68e73fc351684bd7f98dd926b760da601b220bac017c5c95c21d1",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d709b9efc3d68e73fc351684bd7f98dd926b760da601b220bac017c5c95c21d1",
+      "httpRange": {
+        "offset": 161725570,
+        "compressedBytes": 815983,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p095.jpg",
+      "bytes": 813020,
+      "sha256": "c9f53166a9c6d5686e3ac085da7880962342cc32e601f4381b30cf2f2aa3a1e5",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c9f53166a9c6d5686e3ac085da7880962342cc32e601f4381b30cf2f2aa3a1e5",
+      "httpRange": {
+        "offset": 403521266,
+        "compressedBytes": 811902,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p096.jpg",
+      "bytes": 823121,
+      "sha256": "66da10e94f670cfad955ba9588ef6ad449c32ce6430b2fbf31395684ee46607a",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/66da10e94f670cfad955ba9588ef6ad449c32ce6430b2fbf31395684ee46607a",
+      "httpRange": {
+        "offset": 206896584,
+        "compressedBytes": 820997,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p097.jpg",
+      "bytes": 791936,
+      "sha256": "0483021a57a56d0ec4c865c5785caa86c44e8ed82a11735ae4b7504bf8799389",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0483021a57a56d0ec4c865c5785caa86c44e8ed82a11735ae4b7504bf8799389",
+      "httpRange": {
+        "offset": 111889205,
+        "compressedBytes": 790702,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p098.jpg",
+      "bytes": 767960,
+      "sha256": "416c696ac365e8f71ff01b089213350c1419698902ef6e8ad6d0331152a4eb57",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/416c696ac365e8f71ff01b089213350c1419698902ef6e8ad6d0331152a4eb57",
+      "httpRange": {
+        "offset": 144571463,
+        "compressedBytes": 767565,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p099.jpg",
+      "bytes": 768455,
+      "sha256": "fac22d6946754c11012056f5de021314f43fe0711930504bfff36fce8af83e37",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/fac22d6946754c11012056f5de021314f43fe0711930504bfff36fce8af83e37",
+      "httpRange": {
+        "offset": 261640452,
+        "compressedBytes": 767398,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p100.jpg",
+      "bytes": 768827,
+      "sha256": "aa1bf5d225cd866cb1212047ee4f1be45536b93ae89ea6df1ab47529c58153c4",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/aa1bf5d225cd866cb1212047ee4f1be45536b93ae89ea6df1ab47529c58153c4",
+      "httpRange": {
+        "offset": 263391683,
+        "compressedBytes": 767581,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p101.jpg",
+      "bytes": 747978,
+      "sha256": "456141b764346b220d3da3084d127a5d32285b6d4274a2dac0835a580461d592",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/456141b764346b220d3da3084d127a5d32285b6d4274a2dac0835a580461d592",
+      "httpRange": {
+        "offset": 189276237,
+        "compressedBytes": 747828,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p102.jpg",
+      "bytes": 847455,
+      "sha256": "30aa9d146a9af72baf3b335f7a7ddec8292be63d83231ec99ffee47bf9d17e35",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/30aa9d146a9af72baf3b335f7a7ddec8292be63d83231ec99ffee47bf9d17e35",
+      "httpRange": {
+        "offset": 243380286,
+        "compressedBytes": 846908,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p103.jpg",
+      "bytes": 774364,
+      "sha256": "69e34c1d6580b6ce87eded41b3d142881f7a0cfbbb9459e89a5b3d20acff2929",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/69e34c1d6580b6ce87eded41b3d142881f7a0cfbbb9459e89a5b3d20acff2929",
+      "httpRange": {
+        "offset": 239736822,
+        "compressedBytes": 773959,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p104.jpg",
+      "bytes": 773321,
+      "sha256": "271c3fe2a82263e745c9ba7043dd8f5e023bfc1b2403aaec638e77e75799e969",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/271c3fe2a82263e745c9ba7043dd8f5e023bfc1b2403aaec638e77e75799e969",
+      "httpRange": {
+        "offset": 140662472,
+        "compressedBytes": 772360,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p105.jpg",
+      "bytes": 759741,
+      "sha256": "2705934f36ac33a123bd12b350e4a2dd53518ab82b9f53f017a3f9fccdd3057c",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2705934f36ac33a123bd12b350e4a2dd53518ab82b9f53f017a3f9fccdd3057c",
+      "httpRange": {
+        "offset": 139609138,
+        "compressedBytes": 759142,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p106.jpg",
+      "bytes": 739967,
+      "sha256": "b858e6e29059702f0f50ab8798c6becbaa9cec316ba7b4870559dc183fbe3cdf",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/b858e6e29059702f0f50ab8798c6becbaa9cec316ba7b4870559dc183fbe3cdf",
+      "httpRange": {
+        "offset": 170162383,
+        "compressedBytes": 738861,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p107.jpg",
+      "bytes": 758030,
+      "sha256": "2958024daf97162121775c136f4b5006af232055c24631aba2434eb4b43783f5",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2958024daf97162121775c136f4b5006af232055c24631aba2434eb4b43783f5",
+      "httpRange": {
+        "offset": 165011757,
+        "compressedBytes": 757187,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p108.jpg",
+      "bytes": 748581,
+      "sha256": "5459801c1e32c7ad65485f672520b0fedf4a32a549240b9edfe0a9e7d416c613",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5459801c1e32c7ad65485f672520b0fedf4a32a549240b9edfe0a9e7d416c613",
+      "httpRange": {
+        "offset": 138012576,
+        "compressedBytes": 747449,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p109.jpg",
+      "bytes": 785914,
+      "sha256": "818d865a5cec57e6ccf138577fdefc28e849161a6228e45b929ae12ead99cbe0",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/818d865a5cec57e6ccf138577fdefc28e849161a6228e45b929ae12ead99cbe0",
+      "httpRange": {
+        "offset": 79220056,
+        "compressedBytes": 784494,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p110.jpg",
+      "bytes": 771991,
+      "sha256": "492314ee05f6e5dac34c6813cc45ec369d1b9e9390522d31212264deddde03f0",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/492314ee05f6e5dac34c6813cc45ec369d1b9e9390522d31212264deddde03f0",
+      "httpRange": {
+        "offset": 263720843,
+        "compressedBytes": 770170,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/raw-p111.jpg",
+      "bytes": 730475,
+      "sha256": "e0a19b88a9f5d47d3ac79117130a17f0541b89c62a3a861bba08825b0fa6e26c",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e0a19b88a9f5d47d3ac79117130a17f0541b89c62a3a861bba08825b0fa6e26c",
+      "httpRange": {
+        "offset": 285953937,
+        "compressedBytes": 729958,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-door-water/source-water-reference.mjs",
+      "bytes": 3407,
+      "sha256": "8335dd8174d951e1f09a5744e6bacd25e9557662535ab8f7acba044572de66dd",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8335dd8174d951e1f09a5744e6bacd25e9557662535ab8f7acba044572de66dd",
+      "httpRange": {
+        "offset": 92956738,
+        "compressedBytes": 1451,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

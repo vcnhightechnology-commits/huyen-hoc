@@ -1,0 +1,124 @@
+{
+  "source": "NLC416-12jh005426-44577.pdf",
+  "tocPDFPages": [
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12
+  ],
+  "status": "five-volume-page-navigation-complete-all-clauses-not-complete",
+  "volumes": [
+    {
+      "volume": 1,
+      "tocPages": [
+        5,
+        6
+      ],
+      "topics": [
+        "Basic trigram/element/numeric rules",
+        "Time/count/sound/word/measurement casting",
+        "Object/direction classes",
+        "Worked examples",
+        "Full trigram correspondence tables"
+      ],
+      "currentCoverage": "42boundedpage records/45units,64printedpalace members. All216symbol-tablebody positions now read/compared in separate BODY_COLLATION:214clear+2glyph-open;131same/81different/2digitalomissions/2glyph-open. Not a critical edition or all subsidiary clauses.",
+      "titlePDFPage": 13,
+      "lastContentPDFPage": 54,
+      "lastPrintedPage": 42,
+      "latestBodyCollation": "../meihua-table-bodies/BODY_COLLATION.json"
+    },
+    {
+      "volume": 2,
+      "tocPages": [
+        6,
+        7,
+        8
+      ],
+      "topics": [
+        "Body/use principles and exceptions",
+        "Eighteen subject domains",
+        "Three essentials and ten responses",
+        "Season/motion/direction/internal-external conditions",
+        "Additional-number,home and object examples"
+      ],
+      "currentCoverage": "All44printedcontentpages55–98visuallymappedto52digitalunits;18roles/85directrelationclausesandboundedseason/interactionpremisescompiledinternally. Fullsubsidiaryclausesremainopen. See../meihua-conditions/UNIT_MAP.json.",
+      "titlePDFPage": 55,
+      "endPDFPage": 98,
+      "lastPrintedPage": 44
+    },
+    {
+      "volume": 3,
+      "tocPages": [
+        8,
+        9
+      ],
+      "topics": [
+        "Direction and eight change diagrams",
+        "Body/use/mutual/change/strength/motion",
+        "Response-time and object poems",
+        "Additional ten-response and hexagram-response tables"
+      ],
+      "currentCoverage": "Continuous42boundedpagerecords/41content(27new/14expanded+1endleaf),26pinneddigitalunits.13materialcontrasts andmotion/localrolepremises compiledprivately;notfullclause/tabletranscription. See../meihua-external/UNIT_MAP.json.",
+      "titlePDFPage": 103,
+      "lastContentPDFPage": 143,
+      "endleafPDFPage": 144,
+      "lastPrintedPage": 42
+    },
+    {
+      "volume": 4,
+      "tocPages": [
+        9,
+        10,
+        11
+      ],
+      "topics": [
+        "Character-divination essays",
+        "Historical character-stroke/form examples",
+        "Paired desires/observations/responses",
+        "Six spirits and five-element stroke/form poems"
+      ],
+      "currentCoverage": "Continuouspage/unitnavigationthroughallprintedpages,withboundedpremisereadings;notfullclausetranscriptionorcompletedglyphclassifier. See../meihua-volume-map/UNIT_MAP.json.",
+      "notEquivalentTo": "three digital volumes",
+      "titlePDFPage": 145,
+      "endleafPDFPage": 188
+    },
+    {
+      "volume": 5,
+      "tocPages": [
+        11,
+        12
+      ],
+      "topics": [
+        "Five elements/stars/spirits and document matters",
+        "Use/deity and void/star categories",
+        "Seasonal strength and sexagenary poems",
+        "Character/hexagram analogies and miscellaneous essays"
+      ],
+      "currentCoverage": "Continuous page/unit navigation;後天時方720positions now recorded separately:707read/12unannotated/1glyph-open. All introductory/label/calendar semantics and full subsidiary clauses/glyph observer premises remain open. Not a finished prediction algorithm.",
+      "notEquivalentTo": "three digital volumes",
+      "titlePDFPage": 189,
+      "endleafPDFPage": 228,
+      "latestHourTable": "../meihua-hour-table/HOUR_TABLE.json"
+    }
+  ],
+  "nextRequirement": "Resolve2symbol-tableglyphs+1hour-tableglyph/independent witnesses,and complete every subsidiary clause and table-label/calendar/glyph-input premise. Do not repeat completed page navigation/216bodypositions/720hourpositions.",
+  "editionIdentity": "../meihua-witness/EDITION_IDENTITY.json",
+  "physicalLowerBookCoverPDFPage": 102,
+  "excludedBetweenVolumes2and3": {
+    "advertisements": [
+      99,
+      100
+    ],
+    "logo": [
+      101
+    ],
+    "lowerBookCover": [
+      102
+    ]
+  },
+  "currentNavigation": "../meihua-volume1/FIVE_VOLUME_NAVIGATION.json"
+}

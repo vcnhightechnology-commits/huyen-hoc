@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-30",
+  "status": "bounded-source-layer-integrated;whole-context-open",
+  "catalogueID": "M01",
+  "parentContext": "FOOD-00-C23",
+  "historicalPrivateStatePreserved": true,
+  "sourceChecksReferenceHistoricalUnlinkedMatrix": true,
+  "currentParentMatrix": "v53/research/bazi-food-quantity/CURRENT_CONTEXT_COVERAGE.json",
+  "currentPartialLinkedParents": 49,
+  "unlinkedParents": 41,
+  "wholeParentsApplied": 0,
+  "sourceSealSequenceException": false,
+  "allScopesHavePreimplementationFreeze": false,
+  "latestResearchReport": "v53/BAZI_FOOD_RATIONALE_QUANTITY_REPORT.md",
+  "packageVerificationPointer": "recovery/research-release/FINAL_VERIFICATION.json",
+  "newEngineCallsThisIntegration": 0,
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false
+}

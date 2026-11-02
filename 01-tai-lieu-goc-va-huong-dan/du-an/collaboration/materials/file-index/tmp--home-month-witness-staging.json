@@ -1,0 +1,581 @@
+{
+  "scope": "tmp/home-month-witness-staging",
+  "files": [
+    {
+      "file": "tmp/home-month-witness-staging/ACQUISITION_AND_LIMITS.json",
+      "bytes": 1455,
+      "sha256": "f9cb480de54d935333eaa4f1a3ac08143e473347e36a73808f4864c8ea3fbf20",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f9cb480de54d935333eaa4f1a3ac08143e473347e36a73808f4864c8ea3fbf20",
+      "httpRange": {
+        "offset": 247964176,
+        "compressedBytes": 833,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/ACTUAL_RUNTIME.json",
+      "bytes": 142919,
+      "sha256": "aac8187acdc2ffabc7c47277a5d342353b4f73a93c9054b09788f7fb2fbed6f0",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/aac8187acdc2ffabc7c47277a5d342353b4f73a93c9054b09788f7fb2fbed6f0",
+      "httpRange": {
+        "offset": 270886440,
+        "compressedBytes": 5912,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/DIGITAL_TABLE_EXTRACTS.json",
+      "bytes": 5194,
+      "sha256": "fb644817f40a52fdd10bed8be936ba0a0ba3cd56935712db0a4aced41bf12652",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/fb644817f40a52fdd10bed8be936ba0a0ba3cd56935712db0a4aced41bf12652",
+      "httpRange": {
+        "offset": 266560190,
+        "compressedBytes": 825,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/FAILED_BATCH_AUDIT.json",
+      "bytes": 1197,
+      "sha256": "97c4e7b3aef8063817533073f94a162c6dca9c2d7fcffb0fddc8cb46ec064b85",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/97c4e7b3aef8063817533073f94a162c6dca9c2d7fcffb0fddc8cb46ec064b85",
+      "httpRange": {
+        "offset": 23444160,
+        "compressedBytes": 671,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/MANUAL_EXPECTATIONS.json",
+      "bytes": 1664,
+      "sha256": "45d547bf44bad0ae2db49d148118d445b5bd03c7cecabec384092ec67bb5e077",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/45d547bf44bad0ae2db49d148118d445b5bd03c7cecabec384092ec67bb5e077",
+      "httpRange": {
+        "offset": 197287943,
+        "compressedBytes": 596,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/MANUAL_WITNESS_TABLE.json",
+      "bytes": 11551,
+      "sha256": "2c4bba64668420c29f43e6028ab390f4a963b263a02276b9474e009fb28d8d65",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2c4bba64668420c29f43e6028ab390f4a963b263a02276b9474e009fb28d8d65",
+      "httpRange": {
+        "offset": 206514494,
+        "compressedBytes": 1192,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/NATIVE_CROPS.json",
+      "bytes": 4535,
+      "sha256": "f0a92729cf8aca4cafff38e8d60c6747c1947379c8e48d8f7ed9f78040712e72",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f0a92729cf8aca4cafff38e8d60c6747c1947379c8e48d8f7ed9f78040712e72",
+      "httpRange": {
+        "offset": 144351041,
+        "compressedBytes": 1013,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/REQUESTS.json",
+      "bytes": 39326,
+      "sha256": "4411ccf7378d80ce8548207f456ab73bc6d526053db7ae890cc8f06bcf864640",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4411ccf7378d80ce8548207f456ab73bc6d526053db7ae890cc8f06bcf864640",
+      "httpRange": {
+        "offset": 174255188,
+        "compressedBytes": 5267,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/SNU_TRANSPORT_FAILURE.json",
+      "bytes": 310,
+      "sha256": "426035efcc1b6cf8a72f326f6eac40958ca4122420946555691c0af6364fe284",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/426035efcc1b6cf8a72f326f6eac40958ca4122420946555691c0af6364fe284",
+      "httpRange": {
+        "offset": 152511110,
+        "compressedBytes": 236,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/SOURCE_IDENTITIES.json",
+      "bytes": 1519,
+      "sha256": "22d444063fbcd5d5e6f9fea29ea0867d0884ca1b848cd08e978f8be381da5ee1",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/22d444063fbcd5d5e6f9fea29ea0867d0884ca1b848cd08e978f8be381da5ee1",
+      "httpRange": {
+        "offset": 95877606,
+        "compressedBytes": 774,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/TEST_RESULTS.json",
+      "bytes": 1788,
+      "sha256": "e92fbdd543631d606a7cd81f705d2351af8bfddcf16a28ca0026902b25df19c6",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/e92fbdd543631d606a7cd81f705d2351af8bfddcf16a28ca0026902b25df19c6",
+      "httpRange": {
+        "offset": 41896625,
+        "compressedBytes": 824,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/TRANSCRIPTION_FREEZE.json",
+      "bytes": 6289,
+      "sha256": "45a65ffaf7100a570da0fd8b9731767cbe71e7c57d69421fe2939a56adc5c7fc",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/45a65ffaf7100a570da0fd8b9731767cbe71e7c57d69421fe2939a56adc5c7fc",
+      "httpRange": {
+        "offset": 195377925,
+        "compressedBytes": 2191,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/WASEDA_TRANSPORT_FAILURE.json",
+      "bytes": 386,
+      "sha256": "ca172c7edd4e74b90e4e959cccc263b7709d73921b496c9ef5f32fe2ad3b1730",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/ca172c7edd4e74b90e4e959cccc263b7709d73921b496c9ef5f32fe2ad3b1730",
+      "httpRange": {
+        "offset": 404484730,
+        "compressedBytes": 262,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/WORK_STATE.json",
+      "bytes": 2091,
+      "sha256": "5d41251dcda1b260b240bc402ee420439e528299554a223ac481bf786dc9dd16",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5d41251dcda1b260b240bc402ee420439e528299554a223ac481bf786dc9dd16",
+      "httpRange": {
+        "offset": 274157592,
+        "compressedBytes": 1205,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/acquire-body.ps1",
+      "bytes": 1204,
+      "sha256": "eab93a89f7603c3990c747b909e16530e39773e432e752270587860d64168f10",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/eab93a89f7603c3990c747b909e16530e39773e432e752270587860d64168f10",
+      "httpRange": {
+        "offset": 63172016,
+        "compressedBytes": 656,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/acquire-next.ps1",
+      "bytes": 1026,
+      "sha256": "af4f0c8e21dccbeb663b9c449078149741032cd873ff1371ff9a0812b9f1a905",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/af4f0c8e21dccbeb663b9c449078149741032cd873ff1371ff9a0812b9f1a905",
+      "httpRange": {
+        "offset": 310192681,
+        "compressedBytes": 599,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/crop-month-order.png",
+      "bytes": 318176,
+      "sha256": "e81f40c8768ad22118ee3f09ccae7ea8422e5f267244fc3fa2728d015ceef0c0",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/e81f40c8768ad22118ee3f09ccae7ea8422e5f267244fc3fa2728d015ceef0c0",
+      "httpRange": {
+        "offset": 33691363,
+        "compressedBytes": 318171,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/crop-tian-dao-complete.png",
+      "bytes": 464546,
+      "sha256": "8657db253769f0e442818d7ae9426e6b3c7d5c9bb191ce7fd78886b565bb3e53",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8657db253769f0e442818d7ae9426e6b3c7d5c9bb191ce7fd78886b565bb3e53",
+      "httpRange": {
+        "offset": 211472409,
+        "compressedBytes": 464490,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/crop-tian-dao.png",
+      "bytes": 373303,
+      "sha256": "c2dbc939e9edf795acabe320ff4c6aeeb4916def2b0bfc6b89cce288c04fac6a",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c2dbc939e9edf795acabe320ff4c6aeeb4916def2b0bfc6b89cce288c04fac6a",
+      "httpRange": {
+        "offset": 315773806,
+        "compressedBytes": 373255,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/crop-tian-de-he.png",
+      "bytes": 468835,
+      "sha256": "7286c798c954c9a4ea8fa421740ff4ee5f02a04c9c558080cbcb8a470ac9f84e",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/7286c798c954c9a4ea8fa421740ff4ee5f02a04c9c558080cbcb8a470ac9f84e",
+      "httpRange": {
+        "offset": 335500133,
+        "compressedBytes": 468618,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/crop-tian-de.png",
+      "bytes": 414953,
+      "sha256": "a76b2cb1472d645278b1a8ee4b5747153762c5bbc16c5663b35edf0efd3c3f99",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a76b2cb1472d645278b1a8ee4b5747153762c5bbc16c5663b35edf0efd3c3f99",
+      "httpRange": {
+        "offset": 237626063,
+        "compressedBytes": 414971,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/crop-yue-cai.png",
+      "bytes": 364666,
+      "sha256": "d10362aa14b4a466f226bc8fa9a688334c3b8113c81bb0742a2e2d7058a84761",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d10362aa14b4a466f226bc8fa9a688334c3b8113c81bb0742a2e2d7058a84761",
+      "httpRange": {
+        "offset": 104807658,
+        "compressedBytes": 364649,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/crop-yue-de-he.png",
+      "bytes": 355491,
+      "sha256": "29d8bd49007c913e04d6d369d37ca22bdb549fd3d2bf0eadaa37dc9861c5f4dd",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/29d8bd49007c913e04d6d369d37ca22bdb549fd3d2bf0eadaa37dc9861c5f4dd",
+      "httpRange": {
+        "offset": 174413390,
+        "compressedBytes": 355378,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/crop-yue-de.png",
+      "bytes": 482093,
+      "sha256": "30532c757ef98f29bbe98cd29e95a98bee969f1b012b83b70974b0481bf5573a",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/30532c757ef98f29bbe98cd29e95a98bee969f1b012b83b70974b0481bf5573a",
+      "httpRange": {
+        "offset": 240326799,
+        "compressedBytes": 482091,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/crop-yue-kong.png",
+      "bytes": 365870,
+      "sha256": "e6c007343b89a1a61fad3b61ca61bd599f83320a15610a17c14a3de7211823d0",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e6c007343b89a1a61fad3b61ca61bd599f83320a15610a17c14a3de7211823d0",
+      "httpRange": {
+        "offset": 374741555,
+        "compressedBytes": 365811,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/extract-digital-tables.py",
+      "bytes": 1984,
+      "sha256": "65f17333ff4e084d76bc47ecab5272afb80664c5f935e836dcdd11bfcebb3160",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/65f17333ff4e084d76bc47ecab5272afb80664c5f935e836dcdd11bfcebb3160",
+      "httpRange": {
+        "offset": 107057319,
+        "compressedBytes": 1044,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/inspect-text.py",
+      "bytes": 1742,
+      "sha256": "aa715a6662fbaea7923f2aac9c7fdcd5be8cd460a0902055ed803d4688cbe6a5",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/aa715a6662fbaea7923f2aac9c7fdcd5be8cd460a0902055ed803d4688cbe6a5",
+      "httpRange": {
+        "offset": 267567499,
+        "compressedBytes": 819,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/itkc-1508A-bibliography.html",
+      "bytes": 4747,
+      "sha256": "070b7af8ff7d1674ba7474bad5eb9db6a21aa97ac7f14265b1749e049397ccdc",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/070b7af8ff7d1674ba7474bad5eb9db6a21aa97ac7f14265b1749e049397ccdc",
+      "httpRange": {
+        "offset": 129876717,
+        "compressedBytes": 947,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/itkc-1508A-editorial-notes.html",
+      "bytes": 8670,
+      "sha256": "9666d6bd0892829cc4d17ad8fead0fcd898aa92687bc1a712c43a338aa0e7912",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/9666d6bd0892829cc4d17ad8fead0fcd898aa92687bc1a712c43a338aa0e7912",
+      "httpRange": {
+        "offset": 363931975,
+        "compressedBytes": 3174,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/itkc-1508A-upper-directory.html",
+      "bytes": 12565,
+      "sha256": "9de39a23f1bdeae01ef7942ac5f85de860c5ec1531d9a7e642e929b78c408f39",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9de39a23f1bdeae01ef7942ac5f85de860c5ec1531d9a7e642e929b78c408f39",
+      "httpRange": {
+        "offset": 120420587,
+        "compressedBytes": 2262,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/itkc-V002-034.JPG",
+      "bytes": 1289126,
+      "sha256": "921879c6fec510bb8e2672857e3e3b7e67467c881e6d4c5158b49e944386cd80",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/921879c6fec510bb8e2672857e3e3b7e67467c881e6d4c5158b49e944386cd80",
+      "httpRange": {
+        "offset": 318982347,
+        "compressedBytes": 1271088,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/itkc-V002-035.JPG",
+      "bytes": 1304734,
+      "sha256": "7f632d43f4f2bc3d58f20d025072ecd136ec2483e208df62b35d0e994c3e9df4",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7f632d43f4f2bc3d58f20d025072ecd136ec2483e208df62b35d0e994c3e9df4",
+      "httpRange": {
+        "offset": 63378064,
+        "compressedBytes": 1289105,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/itkc-directory.html",
+      "bytes": 62145,
+      "sha256": "3f176a3acb974ea75b0b3b881318e393b86fcf62f5082d0d3a55fda5a3877575",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/3f176a3acb974ea75b0b3b881318e393b86fcf62f5082d0d3a55fda5a3877575",
+      "httpRange": {
+        "offset": 72718915,
+        "compressedBytes": 17034,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/itkc-imageviewer-root.html",
+      "bytes": 62890,
+      "sha256": "ed2dc82c22298eb81fb0e4ceff09579d62e50686add8e892ba861405dddaec8b",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ed2dc82c22298eb81fb0e4ceff09579d62e50686add8e892ba861405dddaec8b",
+      "httpRange": {
+        "offset": 101252321,
+        "compressedBytes": 16823,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/itkc-month-directions-0110.html",
+      "bytes": 149352,
+      "sha256": "98d01685cb9ea36e2e24b4beec51248b674c0745ace2e13d0eb81e2255a8b2da",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/98d01685cb9ea36e2e24b4beec51248b674c0745ace2e13d0eb81e2255a8b2da",
+      "httpRange": {
+        "offset": 31765722,
+        "compressedBytes": 11136,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/itkc-month-image-next.json",
+      "bytes": 1312,
+      "sha256": "7cb0e7aef1f38ddcf7aee785b8e13eb14efb3bd7fd050a4be6683216bc8e2608",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7cb0e7aef1f38ddcf7aee785b8e13eb14efb3bd7fd050a4be6683216bc8e2608",
+      "httpRange": {
+        "offset": 46805616,
+        "compressedBytes": 558,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/itkc-month-image-node.html",
+      "bytes": 1450,
+      "sha256": "f26997ea8d087803beecd638ec882d48d522d30ec40735e44b270e385cc4ee9b",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f26997ea8d087803beecd638ec882d48d522d30ec40735e44b270e385cc4ee9b",
+      "httpRange": {
+        "offset": 167545420,
+        "compressedBytes": 630,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/monthly-witness-reference.mjs",
+      "bytes": 3156,
+      "sha256": "d51d4d462e8a470f9d704baef2482ddcb7f61048700296eeebbb42be2bab4e07",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d51d4d462e8a470f9d704baef2482ddcb7f61048700296eeebbb42be2bab4e07",
+      "httpRange": {
+        "offset": 144534668,
+        "compressedBytes": 1541,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/pre-fix/TRANSCRIPTION_FREEZE.json",
+      "bytes": 5864,
+      "sha256": "bdb4fa42f3381cb63758c3e7074432952f33e4c4c1e6b8c7bb435840ffd92e08",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bdb4fa42f3381cb63758c3e7074432952f33e4c4c1e6b8c7bb435840ffd92e08",
+      "httpRange": {
+        "offset": 205925072,
+        "compressedBytes": 1984,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/pre-fix/monthly-witness-reference.mjs",
+      "bytes": 2948,
+      "sha256": "75aed1d1b9a814086e776fe84a66a703024b7aa9afe8229df1f78955811496d8",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/75aed1d1b9a814086e776fe84a66a703024b7aa9afe8229df1f78955811496d8",
+      "httpRange": {
+        "offset": 373648771,
+        "compressedBytes": 1461,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/pre-fix/run-actual-once.mjs",
+      "bytes": 2397,
+      "sha256": "31fe2f7ffa610b82ab1b0405141489b066b5c46b78b2a9740a732ed053493596",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/31fe2f7ffa610b82ab1b0405141489b066b5c46b78b2a9740a732ed053493596",
+      "httpRange": {
+        "offset": 255927988,
+        "compressedBytes": 1221,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/promote.py",
+      "bytes": 14512,
+      "sha256": "011ec5a935e09cbca35cadd0ae538840ff2901c99474afc54e0c4995072ed31e",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/011ec5a935e09cbca35cadd0ae538840ff2901c99474afc54e0c4995072ed31e",
+      "httpRange": {
+        "offset": 12134237,
+        "compressedBytes": 6769,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/run-actual-once.mjs",
+      "bytes": 2554,
+      "sha256": "417d1ce04e6138e217d23c1f89821440d1988582ceb72dd6f6bf345c99397c8a",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/417d1ce04e6138e217d23c1f89821440d1988582ceb72dd6f6bf345c99397c8a",
+      "httpRange": {
+        "offset": 145339130,
+        "compressedBytes": 1278,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/snapshot-previous.py",
+      "bytes": 1026,
+      "sha256": "d4421a97b26bef586e8b5a5ee694b77d1b84c42a5493d32c9a23a986aaa7424b",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d4421a97b26bef586e8b5a5ee694b77d1b84c42a5493d32c9a23a986aaa7424b",
+      "httpRange": {
+        "offset": 127489726,
+        "compressedBytes": 610,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/test-witness.mjs",
+      "bytes": 7415,
+      "sha256": "fe650c6b9b9926b699c986e6584e05f857a7c91f67b86f7532690967a33fc6d5",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/fe650c6b9b9926b699c986e6584e05f857a7c91f67b86f7532690967a33fc6d5",
+      "httpRange": {
+        "offset": 301333436,
+        "compressedBytes": 3074,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/wikisource-itkc-file-description.html",
+      "bytes": 68821,
+      "sha256": "bc4fd267544df329c42b7b8319b5bf224d5963d19906d2dac59d1693cecf42db",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bc4fd267544df329c42b7b8319b5bf224d5963d19906d2dac59d1693cecf42db",
+      "httpRange": {
+        "offset": 197538488,
+        "compressedBytes": 19033,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/xuanze-yaolue-root.html",
+      "bytes": 57741,
+      "sha256": "f93b531b972c979f972aebc7a91fb46257167192912dde0e2bcab1944dba5228",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f93b531b972c979f972aebc7a91fb46257167192912dde0e2bcab1944dba5228",
+      "httpRange": {
+        "offset": 240871847,
+        "compressedBytes": 16345,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/home-month-witness-staging/xuanze-yaolue-upper.html",
+      "bytes": 500441,
+      "sha256": "4bf49609180880a23c28793d1d7466490d87035115f9945fc2a733ed1b742021",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4bf49609180880a23c28793d1d7466490d87035115f9945fc2a733ed1b742021",
+      "httpRange": {
+        "offset": 286522763,
+        "compressedBytes": 71126,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

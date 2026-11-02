@@ -1,0 +1,463 @@
+{
+  "sourceDigital": {
+    "file": "v53/research/bazi-relations/sources/KR3g0042_002.txt",
+    "bytes": 123566,
+    "sha256": "b0f9badc8aff64ee137392277eb2f7a428c39a9d8c9faa3154f79c626c2131b4"
+  },
+  "editorialUnits": 56,
+  "cleanCodepoints": 2140,
+  "cleanUTF16Units": 2148,
+  "cleanSHA256": "7dac02df8d3d87385c2027991d9ce23894f7f5b310ef809d0af41d8ed67f168f",
+  "segmentationIsEditorialNotAtomicRules": true,
+  "records": [
+    {
+      "id": "P00",
+      "startCodepoint": 0,
+      "endCodepoint": 3,
+      "literalDigital": "論三刑",
+      "disposition": "heading",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P01",
+      "startCodepoint": 3,
+      "endCodepoint": 137,
+      "literalDigital": "隂符經曰恩生於害害生於恩三刑生於二合亦如六害生於六合之義如申子辰三合加寅卯辰三位則申刑寅子刑卯辰見辰自刑寅午戍加巳午未則寅刑巳午見午自刑戍刑未巳酉丑加申酉戍則巳刑申酉見酉自刑丑刑戍亥卯未加亥子丑則亥見亥自刑卯寅子未刑丑合中生刑猶人夫婦相合而反致刑傷造化人事其理一而已矣",
+      "disposition": "attribution-and-four-source-overlays",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P02",
+      "startCodepoint": 137,
+      "endCodepoint": 251,
+      "literalDigital": "經云金剛火强自刑其方木落歸本水流趨東故巳酉丑金位其刑皆在西方寅午戍火位其刑皆在南方是金剛火强自刑其方也亥卯未木位其刑皆在北方亥者木之根言木落歸本者草木至冬而摇落歸根之謂也申子辰水位其刑皆在東方辰者水之府言水流趨東必東流逝而不返也",
+      "disposition": "spatial-etiology",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P03",
+      "startCodepoint": 251,
+      "endCodepoint": 268,
+      "literalDigital": "子卯一刑也寅巳申二刑也丑未戍三刑也",
+      "disposition": "three-numbered-families",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P04",
+      "startCodepoint": 268,
+      "endCodepoint": 371,
+      "literalDigital": "或曰三刑之法以數起之皇極中天十為煞數積數至十則畨空其數天道惡盈滿則覆故數自卯順至子子逆至卯極十數而為無禮之刑寅逆至巳巳逆至申極十數而為無恩之刑丑順至戍戍順至未極十數而為恃勢之刑七則衝十則刑六則合一理之自然也",
+      "disposition": "attributed-ordinal-ten-explanation",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P05",
+      "startCodepoint": 371,
+      "endCodepoint": 454,
+      "literalDigital": "然寅巳申何以謂之無恩葢寅中有甲木刑巳中戊土戊以癸水相合為妻則癸水者甲木之母也戊土既為癸水之夫乃甲之父也彼父而我刑之恩斯忘矣巳中之丙刑申中之庚申中之庚刑寅中之甲准此同義",
+      "disposition": "primary-無恩-hidden-stem-analogy",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P06",
+      "startCodepoint": 454,
+      "endCodepoint": 499,
+      "literalDigital": "又云寅有生火刑巳上生金巳上寄生之土刑申上長生之水申中生水刑寅中生火不恤所生遥相尅制做曰無恩",
+      "disposition": "alternate-life-stage-analogy",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P07",
+      "startCodepoint": 499,
+      "endCodepoint": 519,
+      "literalDigital": "生旺主人持重少語寡慾無情多招失義忘恩之撓",
+      "disposition": "historical-vitality-personality",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P08",
+      "startCodepoint": 519,
+      "endCodepoint": 530,
+      "literalDigital": "死絶則面譽背毁忘恩失義",
+      "disposition": "historical-vitality-personality",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P09",
+      "startCodepoint": 530,
+      "endCodepoint": 542,
+      "literalDigital": "入貴格則𢡖虐好殺好立功業",
+      "disposition": "historical-status-personality",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P10",
+      "startCodepoint": 542,
+      "endCodepoint": 554,
+      "literalDigital": "入賤格則言行乖越貪吝無厭",
+      "disposition": "historical-status-personality",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P11",
+      "startCodepoint": 554,
+      "endCodepoint": 575,
+      "literalDigital": "婦人得之多産血損胎之災一生不利骨肉性頗亷正",
+      "disposition": "historical-sex-health-family",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P12",
+      "startCodepoint": 575,
+      "endCodepoint": 648,
+      "literalDigital": "丑戌未何以謂之恃勢葢丑中有旺水丑乃水中之土戌中有墓火丑恃旺水刑戌中之墓火戌為六甲之尊未為六癸之卑戌恃六甲之尊刑未六癸之卑未有旺土復恃勢刑丑中之旺水",
+      "disposition": "primary-恃勢-water-fire-analogy",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P13",
+      "startCodepoint": 648,
+      "endCodepoint": 690,
+      "literalDigital": "又云未恃丁火之勢以刑丑中之金丑恃旺水之勢以刑戌中之火戌恃辛金之勢以刑未中之木故曰恃勢",
+      "disposition": "alternate-hidden-stem-analogy",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P14",
+      "startCodepoint": 690,
+      "endCodepoint": 708,
+      "literalDigital": "生旺主人精神意氣雄豪眉粗靣濶以直交人",
+      "disposition": "historical-vitality-personality",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P15",
+      "startCodepoint": 708,
+      "endCodepoint": 726,
+      "literalDigital": "死絶刑露痩小精神乖佼是非賤佞樂禍幸災",
+      "disposition": "historical-vitality-personality",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P16",
+      "startCodepoint": 726,
+      "endCodepoint": 738,
+      "literalDigital": "入貴格則公清平正人多畏懼",
+      "disposition": "historical-status-personality",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P17",
+      "startCodepoint": 738,
+      "endCodepoint": 750,
+      "literalDigital": "入賤格則多犯刑書暗昧之災",
+      "disposition": "historical-status-outcome",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P18",
+      "startCodepoint": 750,
+      "endCodepoint": 758,
+      "literalDigital": "婦人得之妨害孤獨",
+      "disposition": "historical-sex-family",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P19",
+      "startCodepoint": 758,
+      "endCodepoint": 828,
+      "literalDigital": "子卯何以謂之無禮子屬水卯屬木水能生木則子水為母卯木為子子毋自相刑又卯為日門子為陽之所生日出於卯子卯角立無欽卑之道不恤所以相生逓相刑害故曰無禮",
+      "disposition": "primary-無禮-elements-and-directions",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P20",
+      "startCodepoint": 828,
+      "endCodepoint": 893,
+      "literalDigital": "又云子中獨用癸水癸用戊土為夫星而敗於卯所以子刑卯卯中獨用乙木乙用庚金為夫星而死於子所以卯刑子此二家囚夫見刑女命見之尢為不良故曰無禮",
+      "disposition": "alternate-spouse-stem-life-stage-analogy",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P21",
+      "startCodepoint": 893,
+      "endCodepoint": 911,
+      "literalDigital": "生旺主人威肅靣無和氣氣强性暴太察不容",
+      "disposition": "historical-vitality-personality",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P22",
+      "startCodepoint": 911,
+      "endCodepoint": 932,
+      "literalDigital": "死絶則侮慢忽畧狹劣刻剥少孝弟害妻子呉越六親",
+      "disposition": "historical-vitality-personality-family",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P23",
+      "startCodepoint": 932,
+      "endCodepoint": 948,
+      "literalDigital": "入貴格則多掌兵權不利近侍位居不乆",
+      "disposition": "historical-status-outcome",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P24",
+      "startCodepoint": 948,
+      "endCodepoint": 959,
+      "literalDigital": "入賤格則悖㓙暴多招刑祸",
+      "disposition": "historical-status-outcome",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P25",
+      "startCodepoint": 959,
+      "endCodepoint": 1037,
+      "literalDigital": "辰午酉亥何以謂之自刑謂寅申巳亥有寅巳申互相刑内有亥無刑辰戌丑未有戌丑未互相刑内有辰無刑子午卯酉有子卯互相刑内有午酉無刑是以此四位謂之自刑葢無别物相加乃曰自也",
+      "disposition": "self-penalty-excluded-branch-etiology",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P26",
+      "startCodepoint": 1037,
+      "endCodepoint": 1087,
+      "literalDigital": "又云辰者水之墓滔則盈午者火之旺暴則焚酉者金之位剛則缺亥者水之生旺則朽各禀已盛太過之氣而自致禍故曰自刑",
+      "disposition": "self-penalty-vitality-etiology",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P27",
+      "startCodepoint": 1087,
+      "endCodepoint": 1098,
+      "literalDigital": "生旺則沉靜内毒形容劣弱",
+      "disposition": "historical-vitality-personality",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P28",
+      "startCodepoint": 1098,
+      "endCodepoint": 1116,
+      "literalDigital": "死絶則深毒輕忽察見淵漁多肢節手足之災",
+      "disposition": "historical-vitality-health",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P29",
+      "startCodepoint": 1116,
+      "endCodepoint": 1124,
+      "literalDigital": "入貴格則機變權謀",
+      "disposition": "historical-status-personality",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P30",
+      "startCodepoint": 1124,
+      "endCodepoint": 1144,
+      "literalDigital": "入賤格則多憂頑愚不情自害帶諸凶煞非令終也",
+      "disposition": "historical-status-outcome",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P31",
+      "startCodepoint": 1144,
+      "endCodepoint": 1153,
+      "literalDigital": "婦人主淫蕩凶折之災",
+      "disposition": "historical-sex-outcome",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P32",
+      "startCodepoint": 1153,
+      "endCodepoint": 1197,
+      "literalDigital": "此刑有四等名目而獨曰三刑者取四衝四極四庫各缺其一則欹而不正三者各自相推不齊用心故云三刑也",
+      "disposition": "three-vs-four-class-explanation",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P33",
+      "startCodepoint": 1197,
+      "endCodepoint": 1241,
+      "literalDigital": "三車一覧以寅巳申為恃勢以三宫中各有長生臨官之勢丑戌未為無恩以三位皆屬土比和為兄弟其説亦通",
+      "disposition": "named-alternative-swaps-無恩恃勢",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P34",
+      "startCodepoint": 1241,
+      "endCodepoint": 1287,
+      "literalDigital": "凡見刑不可便以凶論須看五行中有無吉辰旺相官星印綬貴神徳福等物有此諸吉相扶相助刑不為害而反為用",
+      "disposition": "no-immediate-adverse-verdict;open-benefic-premises",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P35",
+      "startCodepoint": 1287,
+      "endCodepoint": 1311,
+      "literalDigital": "如無諸吉相助更𢃄亡刼天中羊刃等煞以惡濟惡禍不可言",
+      "disposition": "open-adverse-star-premises",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P36",
+      "startCodepoint": 1311,
+      "endCodepoint": 1350,
+      "literalDigital": "又云三刑怕金鬼谷遺文曰君子不刑定不發若居仕路多騰逹小人到此必為災不然也被官鞭撻",
+      "disposition": "separate-taboo-and-鬼谷attribution",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P37",
+      "startCodepoint": 1350,
+      "endCodepoint": 1395,
+      "literalDigital": "壺中子云八字無格以扶持九命有刑而馭雜或作閭巷之輩或為市井之徒詳此論可表君子得之吉小人得之凶",
+      "disposition": "attributed-historical-status",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P38",
+      "startCodepoint": 1395,
+      "endCodepoint": 1413,
+      "literalDigital": "辰午酉亥四字全而得吉神壓之當為貴為權",
+      "disposition": "all-four-distinct-with-benefic-condition",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P39",
+      "startCodepoint": 1413,
+      "endCodepoint": 1439,
+      "literalDigital": "最嫌者辰見辰午見午酉見酉亥見亥若更有惡煞相併最為不良",
+      "disposition": "repeated-distinct-occurrences-and-other-star-condition",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P40",
+      "startCodepoint": 1439,
+      "endCodepoint": 1470,
+      "literalDigital": "沈芝云自刑𢃄煞不為良年月刑膚定見傷不是獄中憔悴死便因刀劒刃頭亡",
+      "disposition": "attributed-historical-health-mortality",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P41",
+      "startCodepoint": 1470,
+      "endCodepoint": 1482,
+      "literalDigital": "又云𢃄辰午酉亥全中年䘮明",
+      "disposition": "attributed-historical-health",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P42",
+      "startCodepoint": 1482,
+      "endCodepoint": 1499,
+      "literalDigital": "又云自刑怕火若刑中有制未可便以此論",
+      "disposition": "control-exception-not-automatic",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P43",
+      "startCodepoint": 1499,
+      "endCodepoint": 1567,
+      "literalDigital": "洞𤣥經曰酉酉惡其太剛火殺其刑者何憂午午惡其太暴水减其勢者無咎木並生而勢减(言辰見/辰也)水冷流而溢漲(言亥見/亥也)木落由䘮水流非旺是也",
+      "disposition": "selected-control-mechanisms-and-open-wording",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P44",
+      "startCodepoint": 1567,
+      "endCodepoint": 1591,
+      "literalDigital": "凡命有官星印綬者須用官印来刑則吉若官印被命刑則凶",
+      "disposition": "direction-of官印刑命vs命刑官印",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P45",
+      "startCodepoint": 1591,
+      "endCodepoint": 1615,
+      "literalDigital": "指迷賦云官刑命喜莫教命返刑官官刑受刑雖貴非戎即吏",
+      "disposition": "attributed-direction-warning",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P46",
+      "startCodepoint": 1615,
+      "endCodepoint": 1661,
+      "literalDigital": "一行禪師云甲子己卯有一説正印鳯池訣丙寅辛巳亦同然三公禄位遷甲子見己卯丙寅見辛巳是官印刑命為吉",
+      "disposition": "甲子己卯/丙寅辛巳literal-examples",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P47",
+      "startCodepoint": 1661,
+      "endCodepoint": 1720,
+      "literalDigital": "又曰凡命三刑全須分刑得入刑不得入以年為主月日時為客如主刑客刑得入為貴刑不入即賤若客來刑主須是刑不入方為貴格刑得入者即賤",
+      "disposition": "declared-fullness-host-year-guest-month-day-hour-and-entry",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P48",
+      "startCodepoint": 1720,
+      "endCodepoint": 1777,
+      "literalDigital": "假令丑刑戌看是何丑何戌如乙丑刑庚戌是同類相刑不吉刑丙戌壬戌則相生相刑不以刑論戊戌甲戌是相尅相刑戊戌刑得入甲戌刑不入",
+      "disposition": "five-literal-pillar-entry-examples",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P49",
+      "startCodepoint": 1777,
+      "endCodepoint": 1819,
+      "literalDigital": "更看禍福所生之地如何如戊戌福聚之地却乙丑来刑則大吉若刑不入福聚之地不為貴命㸔餘准此推",
+      "disposition": "additional-fu-ju-context-and-priority",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P50",
+      "startCodepoint": 1819,
+      "endCodepoint": 1860,
+      "literalDigital": "經云凡命定其無刑先論太嵗葢言人命惡見三刑若月日時𢃄煞而太嵗不干預者不論故曰先論太嵗",
+      "disposition": "year-involvement-premise",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P51",
+      "startCodepoint": 1860,
+      "endCodepoint": 1936,
+      "literalDigital": "又云以煞止煞多掌兵刑之任葢言太嵗受刑而别刑若乃制刑太嵗者假令癸巳生人得戊寅日却得庚申時之類葢癸巳為戊寅所制得庚申木却制戊寅之土本有刑而却無刑故曰以煞止煞",
+      "disposition": "three-role癸巳year戊寅day庚申hour-example",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P52",
+      "startCodepoint": 1936,
+      "endCodepoint": 1984,
+      "literalDigital": "古歌云三刑之位𢃄三竒天乙兼得在日時刑若等分干遇徳官居極品定無虧可見三刑要相等更𢃄三竒貴人天徳為吉",
+      "disposition": "additional-three-wonders-nobles-and-equivalence-premises",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P53",
+      "startCodepoint": 1984,
+      "endCodepoint": 2054,
+      "literalDigital": "玉井云相刑法聚歛精華非刑不可閉藏用神非刑不可財官氣實非刑不可生合氣絶非刑不可宜往宜歸非刑不可或假或真真刑不可刃煞伏藏非刑不可鄙吝滯留非刑不可",
+      "disposition": "attributed-seven-necessary-penalty-metaphors",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P54",
+      "startCodepoint": 2054,
+      "endCodepoint": 2085,
+      "literalDigital": "又云刑害之具或太過又有支神轉能刑其刑害之具重者俗而不秀秀而不竒",
+      "disposition": "open-excess-and-counter-penalty",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "P55",
+      "startCodepoint": 2085,
+      "endCodepoint": 2140,
+      "literalDigital": "(或曰三刑刑上刑下自刑也如子刑卯卯為刑下子/為刑上丑刑戌戌為下刑未為刑上寅刑己巳為刑)(下申為刑上/此説更好)",
+      "disposition": "closing-alternative-upper-lower-self-explanation",
+      "predictiveEfficacyValidated": false
+    }
+  ],
+  "wholeChapterApplied": false
+}

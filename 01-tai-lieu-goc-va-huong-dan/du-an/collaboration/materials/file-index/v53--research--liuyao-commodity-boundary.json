@@ -1,0 +1,437 @@
+{
+  "scope": "v53/research/liuyao-commodity-boundary",
+  "files": [
+    {
+      "file": "v53/research/liuyao-commodity-boundary/B02_CURRENT_UNITS.json",
+      "bytes": 61644,
+      "sha256": "e2d918c2646a4ddbcb330d7ffd8a0d3ae80766da38d66e2314b3eacb8b4f1e58",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e2d918c2646a4ddbcb330d7ffd8a0d3ae80766da38d66e2314b3eacb8b4f1e58",
+      "httpRange": {
+        "offset": 309431525,
+        "compressedBytes": 7322,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/COMMODITY_BOUNDARY.json",
+      "bytes": 1829,
+      "sha256": "adc0a1b9b56a7514b4cc057438f7fb1ecf20ba522834f847114cdad4e3eecca6",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/adc0a1b9b56a7514b4cc057438f7fb1ecf20ba522834f847114cdad4e3eecca6",
+      "httpRange": {
+        "offset": 297151812,
+        "compressedBytes": 851,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/LOCAL_RENDERS.json",
+      "bytes": 14513,
+      "sha256": "66d2ae9efc3516611dfe0a1f50620611dc488f1cfbf3f56135b17a3744b9fede",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/66d2ae9efc3516611dfe0a1f50620611dc488f1cfbf3f56135b17a3744b9fede",
+      "httpRange": {
+        "offset": 206892089,
+        "compressedBytes": 4393,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/MANUAL_READINGS.json",
+      "bytes": 15116,
+      "sha256": "57db94da45913d33a37a041a09fefee1481d24bfdd6dd19a7ac9f3b24af38ceb",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/57db94da45913d33a37a041a09fefee1481d24bfdd6dd19a7ac9f3b24af38ceb",
+      "httpRange": {
+        "offset": 224387554,
+        "compressedBytes": 4457,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/NUMBERING_AUDIT.json",
+      "bytes": 1473,
+      "sha256": "362cd51fc4df338c46e4da2359476cd2db12d3a1f0fa83091493b2c9732ee390",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/362cd51fc4df338c46e4da2359476cd2db12d3a1f0fa83091493b2c9732ee390",
+      "httpRange": {
+        "offset": 329148024,
+        "compressedBytes": 746,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/PROMOTION_IDENTITIES.json",
+      "bytes": 9790,
+      "sha256": "507ad528746a13efdeff836da1067e05604a0ba912900ba1b78ee63c7f4a6593",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/507ad528746a13efdeff836da1067e05604a0ba912900ba1b78ee63c7f4a6593",
+      "httpRange": {
+        "offset": 350493310,
+        "compressedBytes": 2469,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/QA_RENDERS.json",
+      "bytes": 795,
+      "sha256": "9b96f9815958d57423a9bc6e08ed01b406c3125892c7cb2cb5d95f85b93a9e2b",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9b96f9815958d57423a9bc6e08ed01b406c3125892c7cb2cb5d95f85b93a9e2b",
+      "httpRange": {
+        "offset": 95816808,
+        "compressedBytes": 335,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/SOURCE_MANIFEST.json",
+      "bytes": 16057,
+      "sha256": "05a97b44ff81aa1bd14e9ae6fa1b7b8a7a6567e71a821ea0e8511aa8e95fb48a",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/05a97b44ff81aa1bd14e9ae6fa1b7b8a7a6567e71a821ea0e8511aa8e95fb48a",
+      "httpRange": {
+        "offset": 120333260,
+        "compressedBytes": 4913,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/STAGED_REFERENCE.mjs",
+      "bytes": 1793,
+      "sha256": "d786fd69d7290e1561cbd44d77119f71618521e2e9b6bc97effcf51b2bb8706e",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d786fd69d7290e1561cbd44d77119f71618521e2e9b6bc97effcf51b2bb8706e",
+      "httpRange": {
+        "offset": 168154467,
+        "compressedBytes": 911,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/TOC_QA.json",
+      "bytes": 364,
+      "sha256": "a7d75082fc541b8bedc35fa8c81ff4dc0f0a191602173112c8b791b6f7feb8ea",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a7d75082fc541b8bedc35fa8c81ff4dc0f0a191602173112c8b791b6f7feb8ea",
+      "httpRange": {
+        "offset": 244693331,
+        "compressedBytes": 250,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/WORK_STATE.json",
+      "bytes": 5320,
+      "sha256": "35ec5a9a6f728d1e85153a7099c1deddedf902049aaa0a4e55f936e63f413ffd",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/35ec5a9a6f728d1e85153a7099c1deddedf902049aaa0a4e55f936e63f413ffd",
+      "httpRange": {
+        "offset": 328171555,
+        "compressedBytes": 2676,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/commodity-boundary.mjs",
+      "bytes": 1791,
+      "sha256": "f62f55015cdc622b386c68bc1998ad3e0a4b882404b4826b4af2e12c91583096",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f62f55015cdc622b386c68bc1998ad3e0a4b882404b4826b4af2e12c91583096",
+      "httpRange": {
+        "offset": 210674584,
+        "compressedBytes": 902,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-301.png",
+      "bytes": 96348,
+      "sha256": "a7bc3e2fa01837eeed9c991567626b15c042a812b4cddc1067dddf6f366b2497",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a7bc3e2fa01837eeed9c991567626b15c042a812b4cddc1067dddf6f366b2497",
+      "httpRange": {
+        "offset": 244599719,
+        "compressedBytes": 93510,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-302.png",
+      "bytes": 88369,
+      "sha256": "5ef2d410b8e4a6f01ca7221fe9f5d33fdc795135bfb6001b4c62519f79a7b79c",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5ef2d410b8e4a6f01ca7221fe9f5d33fdc795135bfb6001b4c62519f79a7b79c",
+      "httpRange": {
+        "offset": 337531929,
+        "compressedBytes": 84824,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-303.png",
+      "bytes": 99260,
+      "sha256": "a5e6ed774dba5c72126193dac135547c2378336b7d2040ff3636630d06a34839",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a5e6ed774dba5c72126193dac135547c2378336b7d2040ff3636630d06a34839",
+      "httpRange": {
+        "offset": 226471485,
+        "compressedBytes": 96578,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-304.png",
+      "bytes": 87318,
+      "sha256": "272e96bf67324b117a8bc3dec6e63797619089edca378831720317a3b0023c4e",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/272e96bf67324b117a8bc3dec6e63797619089edca378831720317a3b0023c4e",
+      "httpRange": {
+        "offset": 141435768,
+        "compressedBytes": 84459,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-305.png",
+      "bytes": 104756,
+      "sha256": "85e8ee53eca20c5facd20f94a130ae3b4648c78135613a5e813fd02a79e78ea9",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/85e8ee53eca20c5facd20f94a130ae3b4648c78135613a5e813fd02a79e78ea9",
+      "httpRange": {
+        "offset": 210401465,
+        "compressedBytes": 102214,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-306.png",
+      "bytes": 102942,
+      "sha256": "752b248e84f8db0ef4ffc6decf46ecc9a01e53d5772eeb31353d6a7f035dd24c",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/752b248e84f8db0ef4ffc6decf46ecc9a01e53d5772eeb31353d6a7f035dd24c",
+      "httpRange": {
+        "offset": 368422801,
+        "compressedBytes": 100174,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-307.png",
+      "bytes": 106004,
+      "sha256": "200166263d01492e1c59b9dd5dbeab6901a544f6844fae5e3013de6da6a33235",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/200166263d01492e1c59b9dd5dbeab6901a544f6844fae5e3013de6da6a33235",
+      "httpRange": {
+        "offset": 75746154,
+        "compressedBytes": 103337,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-308.png",
+      "bytes": 101987,
+      "sha256": "59c49d3635c0fd1f9c3508b67beae149c0299d60fee78c9964d1ecaf351348aa",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/59c49d3635c0fd1f9c3508b67beae149c0299d60fee78c9964d1ecaf351348aa",
+      "httpRange": {
+        "offset": 232531888,
+        "compressedBytes": 99595,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-309.png",
+      "bytes": 88745,
+      "sha256": "a3cfb31f599c34427745f557ed5900bcbc436f4cb504919b771d857ac7dbeab5",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a3cfb31f599c34427745f557ed5900bcbc436f4cb504919b771d857ac7dbeab5",
+      "httpRange": {
+        "offset": 207973961,
+        "compressedBytes": 85684,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-310.png",
+      "bytes": 80138,
+      "sha256": "60e675ddc93e45492aecb8618ccba5d4d5b296fc06868a27f8a1bb9f4f33b2b2",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/60e675ddc93e45492aecb8618ccba5d4d5b296fc06868a27f8a1bb9f4f33b2b2",
+      "httpRange": {
+        "offset": 71232254,
+        "compressedBytes": 77220,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-311.png",
+      "bytes": 92532,
+      "sha256": "b52fcdd2a8a9f466ecaf42811c76644aada06d490bf1e4933d3cbfcef8235e10",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b52fcdd2a8a9f466ecaf42811c76644aada06d490bf1e4933d3cbfcef8235e10",
+      "httpRange": {
+        "offset": 378337761,
+        "compressedBytes": 89423,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-312.png",
+      "bytes": 85912,
+      "sha256": "c3d8c0ca9c1987913229edfc2766d268e5322ea2571950bb20860c5e46d33d7b",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c3d8c0ca9c1987913229edfc2766d268e5322ea2571950bb20860c5e46d33d7b",
+      "httpRange": {
+        "offset": 332680464,
+        "compressedBytes": 83156,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-313.png",
+      "bytes": 88102,
+      "sha256": "37df7546ace40b19117cfef13a9e27ffd7dd36c299528e3d202cee619bf489f4",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/37df7546ace40b19117cfef13a9e27ffd7dd36c299528e3d202cee619bf489f4",
+      "httpRange": {
+        "offset": 346061050,
+        "compressedBytes": 84764,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-314.png",
+      "bytes": 88785,
+      "sha256": "ef1c4c713bedcb2d65b8ff2379a64cb5e24c5e81e096b8224e08bbe3abc78d31",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ef1c4c713bedcb2d65b8ff2379a64cb5e24c5e81e096b8224e08bbe3abc78d31",
+      "httpRange": {
+        "offset": 123192964,
+        "compressedBytes": 85802,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-315.png",
+      "bytes": 92742,
+      "sha256": "0830be4a84baa790a11c0d333e3a07a03d8fbaae5d9d84d44f529ca0572f55c4",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0830be4a84baa790a11c0d333e3a07a03d8fbaae5d9d84d44f529ca0572f55c4",
+      "httpRange": {
+        "offset": 136016783,
+        "compressedBytes": 89685,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-316.png",
+      "bytes": 89271,
+      "sha256": "6139a451c32ecbed8909059a8a34cc43cf1276bcd0944bee8342f9360b25a08f",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6139a451c32ecbed8909059a8a34cc43cf1276bcd0944bee8342f9360b25a08f",
+      "httpRange": {
+        "offset": 74462022,
+        "compressedBytes": 86277,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-317.png",
+      "bytes": 94506,
+      "sha256": "a15f5a30a539a93f56e0174291f9f8c662280569abe7bcdbd47b57466e9cc0e3",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a15f5a30a539a93f56e0174291f9f8c662280569abe7bcdbd47b57466e9cc0e3",
+      "httpRange": {
+        "offset": 159510199,
+        "compressedBytes": 91349,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-318.png",
+      "bytes": 111474,
+      "sha256": "91834d0cdd6de7105d882b2ae618296a3970abdcdb6843626334ca2b66c9bf5a",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/91834d0cdd6de7105d882b2ae618296a3970abdcdb6843626334ca2b66c9bf5a",
+      "httpRange": {
+        "offset": 310902690,
+        "compressedBytes": 108198,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-319.png",
+      "bytes": 95345,
+      "sha256": "d940d04843b9815d5cec7215dcf3867a88be39b5341be9454d087c7a70120743",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d940d04843b9815d5cec7215dcf3867a88be39b5341be9454d087c7a70120743",
+      "httpRange": {
+        "offset": 195725174,
+        "compressedBytes": 92585,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-320.png",
+      "bytes": 100531,
+      "sha256": "a7fdb4f2ea1019e5779df8762d04c82c5984e2d574c9bfc210deacb0f8f44ff9",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a7fdb4f2ea1019e5779df8762d04c82c5984e2d574c9bfc210deacb0f8f44ff9",
+      "httpRange": {
+        "offset": 244787911,
+        "compressedBytes": 97921,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-321.png",
+      "bytes": 99686,
+      "sha256": "4cad62d2507f87f2c9b3f689ec4e85d606256ef6ffc5aec73c1b15f8773fa3f5",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4cad62d2507f87f2c9b3f689ec4e85d606256ef6ffc5aec73c1b15f8773fa3f5",
+      "httpRange": {
+        "offset": 294654288,
+        "compressedBytes": 96874,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-322.png",
+      "bytes": 100578,
+      "sha256": "a350ff92132d3f68bd98772377b41ea6a382c75ea4be6189d854d0a580ba7a73",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a350ff92132d3f68bd98772377b41ea6a382c75ea4be6189d854d0a580ba7a73",
+      "httpRange": {
+        "offset": 173123739,
+        "compressedBytes": 97329,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-323.png",
+      "bytes": 78273,
+      "sha256": "984573d44ccc6758c591404c12cec8eedf1f8d2cb69bcada7ec8b60ae0407d66",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/984573d44ccc6758c591404c12cec8eedf1f8d2cb69bcada7ec8b60ae0407d66",
+      "httpRange": {
+        "offset": 27460223,
+        "compressedBytes": 75351,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/liuyao-commodity-boundary/images/zengshan-324.png",
+      "bytes": 104156,
+      "sha256": "6bd3852f5ed1353dcdb7156e10c4eda071b785f50e4e4207c1a8ac06d1570c61",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6bd3852f5ed1353dcdb7156e10c4eda071b785f50e4e4207c1a8ac06d1570c61",
+      "httpRange": {
+        "offset": 262142666,
+        "compressedBytes": 101852,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

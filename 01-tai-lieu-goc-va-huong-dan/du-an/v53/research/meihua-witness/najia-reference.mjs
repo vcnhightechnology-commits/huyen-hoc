@@ -1,0 +1,5 @@
+// Research-only reference compiler for one retained printed table. Not a public divination engine.
+import{readFile}from'node:fs/promises';
+const table=JSON.parse(await readFile(new URL('./NAJIA_TABLE.json',import.meta.url),'utf8')),spirits=JSON.parse(await readFile(new URL('./SIX_SPIRITS.json',import.meta.url),'utf8'));
+export function sixSpirits(dayStem){if(typeof dayStem!=='string'||!Object.hasOwn(spirits.starts,dayStem))throw Error('Choose an explicit supported Han day stem.');const first=spirits.order.indexOf(spirits.starts[dayStem]);return Array.from({length:6},(_,i)=>spirits.order[(first+i)%6])}
+export function assign({upper,lower,dayStem}={}){for(const n of[upper,lower])if(!Number.isInteger(n)||n<1||n>8)throw Error('Trigrams must be integers1..8.');const up=table.records.find(r=>r.trigram===upper),lo=table.records.find(r=>r.trigram===lower),s=dayStem===undefined?null:sixSpirits(dayStem);return[...lo.lowerBottomToTop,...up.upperBottomToTop].map((value,i)=>({line:i+1,half:i<3?'lower':'upper',stem:value[0],branch:value[1],ganzhi:value.slice(0,2),elementHan:value[2],elementVI:table.elementTranslation[value[2]],...(s?{spirit:s[i]}:{})}))}

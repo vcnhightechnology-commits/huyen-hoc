@@ -1,0 +1,724 @@
+{
+  "date": "2026-10-28",
+  "actualHHCTuviCalls": 2,
+  "actualIztroNatalCalls": 2,
+  "actualRuntimeBatchInvocations": 1,
+  "records": [
+    {
+      "caseID": "ma-zhou-left",
+      "input": {
+        "y": 1939,
+        "m": 9,
+        "d": 18,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 14,
+        "minute": 0,
+        "gender": "male"
+      },
+      "printedYearPillar": "己卯",
+      "actualHHCYearPillar": "Kỷ Mão",
+      "hhcSolar": {
+        "d": 30,
+        "m": 10,
+        "y": 1939
+      },
+      "iztroSolar": "1939-10-30",
+      "iztroLunar": "一九三九年九月十八",
+      "hhcProjection": {
+        "mingBranch": "卯",
+        "cucNumber": 6,
+        "majorBranches": {
+          "紫微": "辰",
+          "天機": "卯",
+          "太陽": "丑",
+          "武曲": "子",
+          "天同": "亥",
+          "廉貞": "申",
+          "天府": "子",
+          "太陰": "丑",
+          "貪狼": "寅",
+          "巨門": "卯",
+          "天相": "辰",
+          "天梁": "巳",
+          "七殺": "午",
+          "破軍": "戌"
+        },
+        "transformationBranches": {
+          "祿": "子",
+          "權": "寅",
+          "科": "巳",
+          "忌": "亥"
+        }
+      },
+      "iztroProjection": {
+        "mingBranch": "卯",
+        "cucNumber": 6,
+        "majorBranches": {
+          "紫微": "辰",
+          "天機": "卯",
+          "太陽": "丑",
+          "武曲": "子",
+          "天同": "亥",
+          "廉貞": "申",
+          "天府": "子",
+          "太陰": "丑",
+          "貪狼": "寅",
+          "巨門": "卯",
+          "天相": "辰",
+          "天梁": "巳",
+          "七殺": "午",
+          "破軍": "戌"
+        },
+        "transformationBranches": {
+          "祿": "子",
+          "權": "寅",
+          "科": "巳",
+          "忌": "亥"
+        }
+      },
+      "hhcComparison": {
+        "system": "NAJ-4469314-canvas80-two-printed-cases",
+        "caseID": "ma-zhou-left",
+        "coordinates": [
+          {
+            "id": "ming",
+            "source": "卯",
+            "actual": "卯",
+            "status": "match"
+          },
+          {
+            "id": "cuc",
+            "source": 6,
+            "actual": 6,
+            "status": "match"
+          },
+          {
+            "id": "major:紫微",
+            "source": "辰",
+            "actual": "辰",
+            "status": "match"
+          },
+          {
+            "id": "major:天機",
+            "source": "卯",
+            "actual": "卯",
+            "status": "match"
+          },
+          {
+            "id": "major:太陽",
+            "source": "丑",
+            "actual": "丑",
+            "status": "match"
+          },
+          {
+            "id": "major:武曲",
+            "source": "子",
+            "actual": "子",
+            "status": "match"
+          },
+          {
+            "id": "major:天同",
+            "source": "亥",
+            "actual": "亥",
+            "status": "match"
+          },
+          {
+            "id": "major:廉貞",
+            "source": "申",
+            "actual": "申",
+            "status": "match"
+          },
+          {
+            "id": "major:天府",
+            "source": "子",
+            "actual": "子",
+            "status": "match"
+          },
+          {
+            "id": "major:太陰",
+            "source": "丑",
+            "actual": "丑",
+            "status": "match"
+          },
+          {
+            "id": "major:貪狼",
+            "source": "寅",
+            "actual": "寅",
+            "status": "match"
+          },
+          {
+            "id": "major:巨門",
+            "source": "卯",
+            "actual": "卯",
+            "status": "match"
+          },
+          {
+            "id": "major:天相",
+            "source": "辰",
+            "actual": "辰",
+            "status": "match"
+          },
+          {
+            "id": "major:天梁",
+            "source": null,
+            "actual": "巳",
+            "status": "source-unresolved"
+          },
+          {
+            "id": "major:七殺",
+            "source": "午",
+            "actual": "午",
+            "status": "match"
+          },
+          {
+            "id": "major:破軍",
+            "source": "戌",
+            "actual": "戌",
+            "status": "match"
+          },
+          {
+            "id": "transform:祿",
+            "source": "子",
+            "actual": "子",
+            "sourceStar": "武曲",
+            "status": "match"
+          },
+          {
+            "id": "transform:權",
+            "source": "寅",
+            "actual": "寅",
+            "sourceStar": "貪狼",
+            "status": "match"
+          },
+          {
+            "id": "transform:忌",
+            "source": "亥",
+            "actual": "亥",
+            "sourceStar": "文曲",
+            "status": "match"
+          }
+        ],
+        "comparedCoordinates": 18,
+        "matches": 18,
+        "mismatches": [],
+        "historicalBirthDateEstablished": false,
+        "sourcePredictionValidated": false,
+        "allMinorStarsCollated": false,
+        "wholeSourceApplied": false,
+        "practicalOutcome": null,
+        "consumerApplied": false
+      },
+      "iztroComparison": {
+        "system": "NAJ-4469314-canvas80-two-printed-cases",
+        "caseID": "ma-zhou-left",
+        "coordinates": [
+          {
+            "id": "ming",
+            "source": "卯",
+            "actual": "卯",
+            "status": "match"
+          },
+          {
+            "id": "cuc",
+            "source": 6,
+            "actual": 6,
+            "status": "match"
+          },
+          {
+            "id": "major:紫微",
+            "source": "辰",
+            "actual": "辰",
+            "status": "match"
+          },
+          {
+            "id": "major:天機",
+            "source": "卯",
+            "actual": "卯",
+            "status": "match"
+          },
+          {
+            "id": "major:太陽",
+            "source": "丑",
+            "actual": "丑",
+            "status": "match"
+          },
+          {
+            "id": "major:武曲",
+            "source": "子",
+            "actual": "子",
+            "status": "match"
+          },
+          {
+            "id": "major:天同",
+            "source": "亥",
+            "actual": "亥",
+            "status": "match"
+          },
+          {
+            "id": "major:廉貞",
+            "source": "申",
+            "actual": "申",
+            "status": "match"
+          },
+          {
+            "id": "major:天府",
+            "source": "子",
+            "actual": "子",
+            "status": "match"
+          },
+          {
+            "id": "major:太陰",
+            "source": "丑",
+            "actual": "丑",
+            "status": "match"
+          },
+          {
+            "id": "major:貪狼",
+            "source": "寅",
+            "actual": "寅",
+            "status": "match"
+          },
+          {
+            "id": "major:巨門",
+            "source": "卯",
+            "actual": "卯",
+            "status": "match"
+          },
+          {
+            "id": "major:天相",
+            "source": "辰",
+            "actual": "辰",
+            "status": "match"
+          },
+          {
+            "id": "major:天梁",
+            "source": null,
+            "actual": "巳",
+            "status": "source-unresolved"
+          },
+          {
+            "id": "major:七殺",
+            "source": "午",
+            "actual": "午",
+            "status": "match"
+          },
+          {
+            "id": "major:破軍",
+            "source": "戌",
+            "actual": "戌",
+            "status": "match"
+          },
+          {
+            "id": "transform:祿",
+            "source": "子",
+            "actual": "子",
+            "sourceStar": "武曲",
+            "status": "match"
+          },
+          {
+            "id": "transform:權",
+            "source": "寅",
+            "actual": "寅",
+            "sourceStar": "貪狼",
+            "status": "match"
+          },
+          {
+            "id": "transform:忌",
+            "source": "亥",
+            "actual": "亥",
+            "sourceStar": "文曲",
+            "status": "match"
+          }
+        ],
+        "comparedCoordinates": 18,
+        "matches": 18,
+        "mismatches": [],
+        "historicalBirthDateEstablished": false,
+        "sourcePredictionValidated": false,
+        "allMinorStarsCollated": false,
+        "wholeSourceApplied": false,
+        "practicalOutcome": null,
+        "consumerApplied": false
+      },
+      "fullHistoricalDateAttributed": false
+    },
+    {
+      "caseID": "jia-yi-right",
+      "input": {
+        "y": 1963,
+        "m": 3,
+        "d": 20,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 6,
+        "minute": 0,
+        "gender": "male"
+      },
+      "printedYearPillar": "癸卯",
+      "actualHHCYearPillar": "Quý Mão",
+      "hhcSolar": {
+        "d": 13,
+        "m": 4,
+        "y": 1963
+      },
+      "iztroSolar": "1963-4-13",
+      "iztroLunar": "一九六三年三月二十",
+      "hhcProjection": {
+        "mingBranch": "丑",
+        "cucNumber": 4,
+        "majorBranches": {
+          "紫微": "午",
+          "天機": "巳",
+          "太陽": "卯",
+          "武曲": "寅",
+          "天同": "丑",
+          "廉貞": "戌",
+          "天府": "戌",
+          "太陰": "亥",
+          "貪狼": "子",
+          "巨門": "丑",
+          "天相": "寅",
+          "天梁": "卯",
+          "七殺": "辰",
+          "破軍": "申"
+        },
+        "transformationBranches": {
+          "祿": "申",
+          "權": "丑",
+          "科": "亥",
+          "忌": "子"
+        }
+      },
+      "iztroProjection": {
+        "mingBranch": "丑",
+        "cucNumber": 4,
+        "majorBranches": {
+          "紫微": "午",
+          "天機": "巳",
+          "太陽": "卯",
+          "武曲": "寅",
+          "天同": "丑",
+          "廉貞": "戌",
+          "天府": "戌",
+          "太陰": "亥",
+          "貪狼": "子",
+          "巨門": "丑",
+          "天相": "寅",
+          "天梁": "卯",
+          "七殺": "辰",
+          "破軍": "申"
+        },
+        "transformationBranches": {
+          "祿": "申",
+          "權": "丑",
+          "科": "亥",
+          "忌": "子"
+        }
+      },
+      "hhcComparison": {
+        "system": "NAJ-4469314-canvas80-two-printed-cases",
+        "caseID": "jia-yi-right",
+        "coordinates": [
+          {
+            "id": "ming",
+            "source": "丑",
+            "actual": "丑",
+            "status": "match"
+          },
+          {
+            "id": "cuc",
+            "source": 4,
+            "actual": 4,
+            "status": "match"
+          },
+          {
+            "id": "major:紫微",
+            "source": "午",
+            "actual": "午",
+            "status": "match"
+          },
+          {
+            "id": "major:天機",
+            "source": "巳",
+            "actual": "巳",
+            "status": "match"
+          },
+          {
+            "id": "major:太陽",
+            "source": "卯",
+            "actual": "卯",
+            "status": "match"
+          },
+          {
+            "id": "major:武曲",
+            "source": "寅",
+            "actual": "寅",
+            "status": "match"
+          },
+          {
+            "id": "major:天同",
+            "source": "丑",
+            "actual": "丑",
+            "status": "match"
+          },
+          {
+            "id": "major:廉貞",
+            "source": "子",
+            "actual": "戌",
+            "status": "mismatch"
+          },
+          {
+            "id": "major:天府",
+            "source": "戌",
+            "actual": "戌",
+            "status": "match"
+          },
+          {
+            "id": "major:太陰",
+            "source": "亥",
+            "actual": "亥",
+            "status": "match"
+          },
+          {
+            "id": "major:貪狼",
+            "source": "子",
+            "actual": "子",
+            "status": "match"
+          },
+          {
+            "id": "major:巨門",
+            "source": "丑",
+            "actual": "丑",
+            "status": "match"
+          },
+          {
+            "id": "major:天相",
+            "source": "寅",
+            "actual": "寅",
+            "status": "match"
+          },
+          {
+            "id": "major:天梁",
+            "source": "卯",
+            "actual": "卯",
+            "status": "match"
+          },
+          {
+            "id": "major:七殺",
+            "source": "辰",
+            "actual": "辰",
+            "status": "match"
+          },
+          {
+            "id": "major:破軍",
+            "source": "申",
+            "actual": "申",
+            "status": "match"
+          },
+          {
+            "id": "transform:祿",
+            "source": "申",
+            "actual": "申",
+            "sourceStar": "破軍",
+            "status": "match"
+          },
+          {
+            "id": "transform:權",
+            "source": "丑",
+            "actual": "丑",
+            "sourceStar": "巨門",
+            "status": "match"
+          },
+          {
+            "id": "transform:科",
+            "source": "亥",
+            "actual": "亥",
+            "sourceStar": "太陰",
+            "status": "match"
+          },
+          {
+            "id": "transform:忌",
+            "source": "子",
+            "actual": "子",
+            "sourceStar": "貪狼",
+            "status": "match"
+          }
+        ],
+        "comparedCoordinates": 20,
+        "matches": 19,
+        "mismatches": [
+          {
+            "id": "major:廉貞",
+            "source": "子",
+            "actual": "戌",
+            "status": "mismatch"
+          }
+        ],
+        "historicalBirthDateEstablished": false,
+        "sourcePredictionValidated": false,
+        "allMinorStarsCollated": false,
+        "wholeSourceApplied": false,
+        "practicalOutcome": null,
+        "consumerApplied": false
+      },
+      "iztroComparison": {
+        "system": "NAJ-4469314-canvas80-two-printed-cases",
+        "caseID": "jia-yi-right",
+        "coordinates": [
+          {
+            "id": "ming",
+            "source": "丑",
+            "actual": "丑",
+            "status": "match"
+          },
+          {
+            "id": "cuc",
+            "source": 4,
+            "actual": 4,
+            "status": "match"
+          },
+          {
+            "id": "major:紫微",
+            "source": "午",
+            "actual": "午",
+            "status": "match"
+          },
+          {
+            "id": "major:天機",
+            "source": "巳",
+            "actual": "巳",
+            "status": "match"
+          },
+          {
+            "id": "major:太陽",
+            "source": "卯",
+            "actual": "卯",
+            "status": "match"
+          },
+          {
+            "id": "major:武曲",
+            "source": "寅",
+            "actual": "寅",
+            "status": "match"
+          },
+          {
+            "id": "major:天同",
+            "source": "丑",
+            "actual": "丑",
+            "status": "match"
+          },
+          {
+            "id": "major:廉貞",
+            "source": "子",
+            "actual": "戌",
+            "status": "mismatch"
+          },
+          {
+            "id": "major:天府",
+            "source": "戌",
+            "actual": "戌",
+            "status": "match"
+          },
+          {
+            "id": "major:太陰",
+            "source": "亥",
+            "actual": "亥",
+            "status": "match"
+          },
+          {
+            "id": "major:貪狼",
+            "source": "子",
+            "actual": "子",
+            "status": "match"
+          },
+          {
+            "id": "major:巨門",
+            "source": "丑",
+            "actual": "丑",
+            "status": "match"
+          },
+          {
+            "id": "major:天相",
+            "source": "寅",
+            "actual": "寅",
+            "status": "match"
+          },
+          {
+            "id": "major:天梁",
+            "source": "卯",
+            "actual": "卯",
+            "status": "match"
+          },
+          {
+            "id": "major:七殺",
+            "source": "辰",
+            "actual": "辰",
+            "status": "match"
+          },
+          {
+            "id": "major:破軍",
+            "source": "申",
+            "actual": "申",
+            "status": "match"
+          },
+          {
+            "id": "transform:祿",
+            "source": "申",
+            "actual": "申",
+            "sourceStar": "破軍",
+            "status": "match"
+          },
+          {
+            "id": "transform:權",
+            "source": "丑",
+            "actual": "丑",
+            "sourceStar": "巨門",
+            "status": "match"
+          },
+          {
+            "id": "transform:科",
+            "source": "亥",
+            "actual": "亥",
+            "sourceStar": "太陰",
+            "status": "match"
+          },
+          {
+            "id": "transform:忌",
+            "source": "子",
+            "actual": "子",
+            "sourceStar": "貪狼",
+            "status": "match"
+          }
+        ],
+        "comparedCoordinates": 20,
+        "matches": 19,
+        "mismatches": [
+          {
+            "id": "major:廉貞",
+            "source": "子",
+            "actual": "戌",
+            "status": "mismatch"
+          }
+        ],
+        "historicalBirthDateEstablished": false,
+        "sourcePredictionValidated": false,
+        "allMinorStarsCollated": false,
+        "wholeSourceApplied": false,
+        "practicalOutcome": null,
+        "consumerApplied": false
+      },
+      "fullHistoricalDateAttributed": false
+    }
+  ],
+  "engineSHA256": "39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6",
+  "iztroVersion": "2.6.2",
+  "sourceOutcomeValidated": false,
+  "consumerChanged": false
+}

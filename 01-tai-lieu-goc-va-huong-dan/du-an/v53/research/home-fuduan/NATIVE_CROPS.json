@@ -1,0 +1,82 @@
+{
+  "date": "2026-10-29",
+  "records": [
+    {
+      "id": "fuduan-main",
+      "source": {
+        "file": "v53/research/home-day-hour-scopes/ITKC_BT_1508A_V002_249.JPG",
+        "bytes": 1255380,
+        "sha256": "cdfa6261f038b031a2932ed44a523d4557f6063167f61ba27467eeee6de4bc82"
+      },
+      "boxXYXY": [
+        130,
+        240,
+        640,
+        2090
+      ],
+      "crop": {
+        "file": "tmp/home-fuduan-staging/fuduan-main.png",
+        "bytes": 1431727,
+        "sha256": "0a1e8d671996834f244a60b3550035cc3075b057e1dc97a1c9485bb93e9398f0"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "viewed": true,
+      "accepted": false,
+      "exclusionReason": "Selected complete recrop retained instead."
+    },
+    {
+      "id": "fuduan-end",
+      "source": {
+        "file": "v53/research/home-day-hour-scopes/ITKC_BT_1508A_V002_250.JPG",
+        "bytes": 1281172,
+        "sha256": "00421f259149fb0080499886843fffd77070f89eba683674f034d46e5f8bf195"
+      },
+      "boxXYXY": [
+        1370,
+        240,
+        1515,
+        500
+      ],
+      "crop": {
+        "file": "tmp/home-fuduan-staging/fuduan-end.png",
+        "bytes": 60279,
+        "sha256": "3dd9fc9a77cbb1a6a5e3db3195d3737bcbd454511afc9f8795cd2bc719383dde"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "viewed": true,
+      "accepted": false,
+      "exclusionReason": "Wrong next-section heading on250, not伏斷end; excluded."
+    },
+    {
+      "id": "fuduan-complete-249",
+      "source": {
+        "file": "v53/research/home-day-hour-scopes/ITKC_BT_1508A_V002_249.JPG",
+        "bytes": 1255380,
+        "sha256": "cdfa6261f038b031a2932ed44a523d4557f6063167f61ba27467eeee6de4bc82"
+      },
+      "boxXYXY": [
+        100,
+        200,
+        770,
+        2090
+      ],
+      "crop": {
+        "file": "tmp/home-fuduan-staging/fuduan-complete-249.png",
+        "bytes": 1898180,
+        "sha256": "67d0b14b561b58d54aa998089e483015b78492238fd82509ac1d772757f78d4f"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "viewed": true,
+      "accepted": true
+    }
+  ]
+}

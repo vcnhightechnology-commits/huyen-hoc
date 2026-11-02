@@ -1,0 +1,91 @@
+{
+  "schema": "hhc.bazi.triad-stars.coordinates.v1",
+  "date": "2026-10-29",
+  "sourceID": "tmth002-cadal06066038-triad-stars",
+  "frameID": "source-declared-group-anchor-target-and-qualification",
+  "rows": [
+    {
+      "groupID": "water",
+      "branches": [
+        "申",
+        "子",
+        "辰"
+      ],
+      "general": "子",
+      "canopy": "辰",
+      "xianchi": "酉",
+      "groupElement": "水"
+    },
+    {
+      "groupID": "metal",
+      "branches": [
+        "巳",
+        "酉",
+        "丑"
+      ],
+      "general": "酉",
+      "canopy": "丑",
+      "xianchi": "午",
+      "groupElement": "金"
+    },
+    {
+      "groupID": "fire",
+      "branches": [
+        "寅",
+        "午",
+        "戌"
+      ],
+      "general": "午",
+      "canopy": "戌",
+      "xianchi": "卯",
+      "groupElement": "火"
+    },
+    {
+      "groupID": "wood",
+      "branches": [
+        "亥",
+        "卯",
+        "未"
+      ],
+      "general": "卯",
+      "canopy": "未",
+      "xianchi": "子",
+      "groupElement": "木"
+    }
+  ],
+  "generalCanopyBasis": {
+    "literal": [
+      "故以三合中位謂之将星",
+      "以三合底處得庫謂之華葢"
+    ],
+    "coordinateStatus": "Editorial projection of 中位/底庫 over the four ordered groups independently explicit in the preceding source chapter; not a printed twelve-row table.",
+    "parentGroupEvidence": "v53/research/bazi-branch-triad/MANUAL_TABLES.json",
+    "requiresFullTriadFormed": false,
+    "anchorPillar": null
+  },
+  "xianchiPreface": {
+    "voice": "按 in the heading; keep separate from the subsequent 淮南子 and quoted judgements.",
+    "literal": "按此煞須天干納音於地同類方是若只論寅午戌在卯天干納音或不屬火非是",
+    "scope": "A bare group-to-target branch relation is insufficient under this preface. Source role of the NaYin input is not explicit enough to choose a natal pillar; receive qualification only as declared true/false/null.",
+    "calendarAdapter": null
+  },
+  "heavyGold": {
+    "sourceVoice": "壺中子有重金重葢格",
+    "literal": "如庚辰見庚辰辛丑見辛丑但逢兩金重見華葢更有禄馬秀氣扶持當封爵",
+    "printedRepeatedPillars": [
+      "庚辰",
+      "辛丑"
+    ],
+    "interpretation": "Keep 金 meaning unresolved between stem material, classification and source rhetoric; do not assert both repeated pillars have NaYin金. No natal date or completed四柱 is provided.",
+    "priorContrastingVoice": "三命云華葢怕金木",
+    "priority": null
+  },
+  "deferred": [
+    "NaYin qualification source role/anchor, exact year-day-time/fetal basis and calendar adapter.",
+    "Complete condition branches in38 editor units: benefics, noble markers, 正印/庫墓/驛馬, year-stem store, void/break/clash/strength and nested attributions.",
+    "Meaning/precedence of reported gold-wood taboo vs repeated-gold examples; no silent harmonization.",
+    "All historical health, death, spouse, fertility, gender, moral and socioeconomic outcomes remain unvalidated and outside consumer inference."
+  ],
+  "sourceOutcomesValidated": false,
+  "wholeChaptersApplied": false
+}

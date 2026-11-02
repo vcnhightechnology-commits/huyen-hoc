@@ -1,0 +1,61 @@
+{
+  "date": "2026-10-28",
+  "sources": [
+    {
+      "file": "v53/research/bazi-pattern-witness/CADAL06066041.djvu",
+      "bytes": 10721582,
+      "sha256": "013ce4861680a2bf08b811050c45a45bb2d3ce9d164f7e2341d7070bd5cb2c1a",
+      "retainedRequestManifest": "v53/research/bazi-pattern-witness/REQUESTS.json",
+      "retainedHTTP200AndTLSAuthorized": true,
+      "newHTTPThisScope": false
+    },
+    {
+      "file": "v53/research/bazi-pattern-extension/tooling/djvu.js",
+      "bytes": 556634,
+      "sha256": "10a831d62cc7ced39c30c7350a11410402d082a0f0a5b073a88d3d7ca662add3",
+      "retainedRequestManifest": "v53/research/bazi-pattern-extension/tooling/REQUESTS.json",
+      "retainedHTTP200AndTLSAuthorized": true,
+      "newHTTPThisScope": false
+    },
+    {
+      "file": "v53/research/four-items/sources/KR3g0042_005.txt",
+      "bytes": 122081,
+      "sha256": "1ebdd92feaa57496b702f962ad6fafd4f19c17e98c38a94b40f626ef321dd997",
+      "kind": "retained-pinned-digital-transcription;notindependentimagewitness"
+    }
+  ],
+  "retainedSectionCodepointsIncludingMarkup": 6755,
+  "retainedSectionSHA256": "816106f9c7f461b947df0b61cc6ff59b3cea07d296e070194671680cc9944c48",
+  "scopeNewHTTPRequests": 0,
+  "scopeNewOriginalContainers": 0,
+  "scopeNewIndependentWitnesses": 0,
+  "sourceContainerPositions": 226,
+  "firstPassRetainedPositionsViewed": 31,
+  "newFirstReadPositions": 27,
+  "boundaryOnlyNewPosition": 168,
+  "foodSectionPositionsAvailableAndReviewed": 30,
+  "priorReadPositionsExpanded": [
+    169,
+    170,
+    171,
+    198
+  ],
+  "newNativePNGDerivatives": 27,
+  "newSourceDownloads": 0,
+  "manualContextGroups": 90,
+  "contextCleanCodepoints": 5307,
+  "imageContinuityGapFolios": [
+    "005-94a",
+    "005-94b",
+    "005-95a",
+    "005-95b"
+  ],
+  "gapMissingAnywhereInContainerEstablished": false,
+  "digitalAndImageSameWYGFamilyNotIndependent": true,
+  "imageGlyphsNotGloballyNormalized": true,
+  "allImageCharactersCollated": false,
+  "wholeWorkApplied": false,
+  "retainedSectionCodepointCountAfterUniversalNewlines": true,
+  "retainedSectionRawUTF8DecodedCodepointsIncludingCRLF": 7050,
+  "retainedSectionCRLFLineBreaks": 295
+}

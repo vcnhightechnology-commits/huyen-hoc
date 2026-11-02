@@ -1,0 +1,434 @@
+{
+  "date": "2026-10-28",
+  "methods": [
+    {
+      "id": "b02-ch105-whole-house-critique",
+      "pages": [
+        360,
+        361
+      ],
+      "subjects": [
+        "whole-household"
+      ],
+      "questions": [
+        "undifferentiated-household-fortunes"
+      ],
+      "roles": [],
+      "sourceVoice": "野鶴",
+      "fullConditionalRuleEncoded": false,
+      "sourceRejectsUndifferentiatedQuestion": true
+    },
+    {
+      "id": "b02-ch106-house",
+      "pages": [
+        361,
+        362,
+        363
+      ],
+      "subjects": [
+        "self"
+      ],
+      "questions": [
+        "build-house",
+        "buy-house",
+        "rent-house"
+      ],
+      "roles": [
+        {
+          "id": "building",
+          "kin": "父母",
+          "purpose": "the house/project in this named context"
+        }
+      ],
+      "sourceVoice": "sourcechapter106;TOCsellingtitlekeptdistinctfrombodyrenting",
+      "fullConditionalRuleEncoded": false
+    },
+    {
+      "id": "b02-ch111-moving-relative",
+      "pages": [
+        364,
+        365
+      ],
+      "subjects": [
+        "father",
+        "mother",
+        "sibling",
+        "wife",
+        "child"
+      ],
+      "questions": [
+        "specified-relative-at-move"
+      ],
+      "roles": [],
+      "sourceVoice": "sourcechapter111 separatepersonqueries",
+      "fullConditionalRuleEncoded": false,
+      "roleBySubject": {
+        "father": [
+          {
+            "id": "father",
+            "kin": "父母",
+            "purpose": "explicitfather"
+          }
+        ],
+        "mother": [
+          {
+            "id": "mother",
+            "kin": "父母",
+            "purpose": "explicitmother"
+          }
+        ],
+        "sibling": [
+          {
+            "id": "sibling",
+            "kin": "兄弟",
+            "purpose": "explicitsibling"
+          }
+        ],
+        "wife": [
+          {
+            "id": "wife",
+            "kin": "妻財",
+            "purpose": "explicitwife"
+          }
+        ],
+        "child": [
+          {
+            "id": "child",
+            "kin": "子孫",
+            "purpose": "explicitchild"
+          }
+        ]
+      },
+      "roleBasis": "Explicitpersonquestionsinthesourceplusdeclaredstandardkinprojection;notallfullkinlabelsliterallyprintedineach111clause."
+    },
+    {
+      "id": "b02-ch112-livestock",
+      "pages": [
+        365,
+        366
+      ],
+      "subjects": [
+        "self"
+      ],
+      "questions": [
+        "livestock-enclosure"
+      ],
+      "roles": [
+        {
+          "id": "livestock",
+          "kin": "子孫",
+          "purpose": "symboliclivestockrole;notanimalhealthdiagnosis"
+        },
+        {
+          "id": "construction",
+          "kin": "父母",
+          "purpose": "constructioncontext"
+        }
+      ],
+      "sourceVoice": "sourcechapter112",
+      "fullConditionalRuleEncoded": false
+    },
+    {
+      "id": "b02-ch113-old-house",
+      "pages": [
+        366,
+        367,
+        368,
+        369,
+        370,
+        371
+      ],
+      "subjects": [
+        "self"
+      ],
+      "questions": [
+        "named-concern-only"
+      ],
+      "roles": [],
+      "sourceVoice": "野鶴",
+      "fullConditionalRuleEncoded": false,
+      "sourceRequiresNamedConcern": true,
+      "universalDoorLineAdapterEstablished": false
+    },
+    {
+      "id": "b02-ch114-cohabitation",
+      "pages": [
+        371
+      ],
+      "subjects": [
+        "unrelated-cohabitant",
+        "father",
+        "mother",
+        "sibling",
+        "wife",
+        "child"
+      ],
+      "questions": [
+        "specified-cohabitant"
+      ],
+      "roles": [],
+      "sourceVoice": "sourcechapter114 explicitrelationship",
+      "fullConditionalRuleEncoded": false,
+      "roleBySubject": {
+        "unrelated-cohabitant": [
+          {
+            "id": "querent",
+            "structuralRole": "世",
+            "purpose": "querent"
+          },
+          {
+            "id": "cohabitant",
+            "structuralRole": "應",
+            "purpose": "symbolicothercohabitant"
+          }
+        ],
+        "father": [
+          {
+            "id": "father",
+            "kin": "父母",
+            "purpose": "explicitfather"
+          }
+        ],
+        "mother": [
+          {
+            "id": "mother",
+            "kin": "父母",
+            "purpose": "explicitmother"
+          }
+        ],
+        "sibling": [
+          {
+            "id": "sibling",
+            "kin": "兄弟",
+            "purpose": "explicitsibling"
+          }
+        ],
+        "wife": [
+          {
+            "id": "wife",
+            "kin": "妻財",
+            "purpose": "explicitwife"
+          }
+        ],
+        "child": [
+          {
+            "id": "child",
+            "kin": "子孫",
+            "purpose": "explicitchild"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b02-ch120-landform",
+      "pages": [
+        378,
+        379,
+        380,
+        381
+      ],
+      "subjects": [
+        "specified-land"
+      ],
+      "questions": [
+        "landform-only"
+      ],
+      "roles": [
+        {
+          "id": "site",
+          "structuralRole": "世",
+          "purpose": "symbolichole/site"
+        },
+        {
+          "id": "opposite",
+          "structuralRole": "應",
+          "purpose": "symbolicoppositemountain"
+        }
+      ],
+      "sourceVoice": "sourcechapter120",
+      "fullConditionalRuleEncoded": false,
+      "sourceMiddleTwoLines": "明堂",
+      "sourceFormCannotPredictAllFamilyOutcomes": true
+    },
+    {
+      "id": "b02-ch121-acquisition-when",
+      "pages": [
+        381,
+        382
+      ],
+      "subjects": [
+        "self"
+      ],
+      "questions": [
+        "land-acquisition-time"
+      ],
+      "roles": [
+        {
+          "id": "land",
+          "structuralRole": "世",
+          "purpose": "landacquisitioncontext"
+        }
+      ],
+      "sourceVoice": "sourcechapter121",
+      "fullConditionalRuleEncoded": false
+    },
+    {
+      "id": "b02-ch122-acquisition-where",
+      "pages": [
+        382
+      ],
+      "subjects": [
+        "self"
+      ],
+      "questions": [
+        "land-acquisition-place"
+      ],
+      "roles": [
+        {
+          "id": "land",
+          "kin": "父母",
+          "purpose": "landlocationcontext"
+        }
+      ],
+      "sourceVoice": "野鶴 sourcechapter122",
+      "fullConditionalRuleEncoded": false,
+      "directionToRealPlaceAdapterEstablished": false
+    },
+    {
+      "id": "b02-ch123-geomancer",
+      "pages": [
+        382,
+        383
+      ],
+      "subjects": [
+        "specified-practitioner"
+      ],
+      "questions": [
+        "practitioner-context"
+      ],
+      "roles": [
+        {
+          "id": "practitioner",
+          "structuralRole": "應",
+          "purpose": "symbolicpractitioner;notidentifiedpersonorqualityrating"
+        }
+      ],
+      "sourceVoice": "sourcechapter123",
+      "fullConditionalRuleEncoded": false
+    },
+    {
+      "id": "b02-ch124-point",
+      "pages": [
+        383,
+        384
+      ],
+      "subjects": [
+        "specified-land"
+      ],
+      "questions": [
+        "source-relative-height-band"
+      ],
+      "roles": [
+        {
+          "id": "point",
+          "structuralRole": "世",
+          "purpose": "symbolicpoint"
+        }
+      ],
+      "sourceVoice": "sourcechapter124",
+      "fullConditionalRuleEncoded": false,
+      "sourceRelativeHeightBands": [
+        {
+          "sourceLines": [
+            1,
+            2
+          ],
+          "label": "下"
+        },
+        {
+          "sourceLines": [
+            3,
+            4
+          ],
+          "label": "中"
+        },
+        {
+          "sourceLines": [
+            5,
+            6
+          ],
+          "label": "上"
+        }
+      ],
+      "heightBandIsNotElevationOrDiggingDepth": true
+    },
+    {
+      "id": "b02-ch126-old-grave",
+      "pages": [
+        384,
+        385,
+        386
+      ],
+      "subjects": [
+        "self"
+      ],
+      "questions": [
+        "own-fortune-symbol",
+        "declared-child-concern",
+        "grave-affliction-symbol"
+      ],
+      "roles": [],
+      "sourceVoice": "sourcechapter126",
+      "fullConditionalRuleEncoded": false,
+      "roleByQuestion": {
+        "own-fortune-symbol": [
+          {
+            "id": "querent",
+            "structuralRole": "世",
+            "purpose": "ownquestion"
+          }
+        ],
+        "declared-child-concern": [
+          {
+            "id": "descendant",
+            "kin": "子孫",
+            "purpose": "explicitdescendantquestion"
+          }
+        ],
+        "grave-affliction-symbol": [
+          {
+            "id": "grave",
+            "kin": "父母",
+            "purpose": "explicitgravequestion"
+          }
+        ]
+      }
+    },
+    {
+      "id": "b02-ch129-after-repair",
+      "pages": [
+        388,
+        389
+      ],
+      "subjects": [
+        "self"
+      ],
+      "questions": [
+        "after-repair-context"
+      ],
+      "roles": [
+        {
+          "id": "querent",
+          "structuralRole": "世",
+          "purpose": "afterrepaircontext"
+        }
+      ],
+      "sourceVoice": "sourcechapter129",
+      "fullConditionalRuleEncoded": false
+    }
+  ],
+  "sourceInstructionsAreData": true,
+  "symbolicRolesNotRealPersonIdentity": true,
+  "clinicalLegalFinancialConstructionOutcomesValidated": false,
+  "allSourceConditionsApplied": false
+}

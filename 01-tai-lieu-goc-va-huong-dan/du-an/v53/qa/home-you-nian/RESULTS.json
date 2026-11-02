@@ -1,0 +1,769 @@
+{
+  "date": "2026-10-27",
+  "checks": [
+    {
+      "name": "Facsimile container and decoder retained identity",
+      "ok": true
+    },
+    {
+      "name": "Seven directly read transformations cover all nonself pairs in each named system",
+      "ok": true
+    },
+    {
+      "name": "64 directly read small-system star abbreviations match independent relation map",
+      "ok": true
+    },
+    {
+      "name": "Two source contexts retain their different favorable-star sets without a default rating",
+      "ok": true
+    },
+    {
+      "name": "128 private relations distinguish 40 differing labels,16 literal agreements and8 self roles",
+      "ok": true
+    },
+    {
+      "name": "Unknown origin/target remain null; named system and inputs validated",
+      "ok": true
+    },
+    {
+      "name": "Eight actual HHC executions match all64 conditional palace/direction labels from image-based rules",
+      "ok": true
+    },
+    {
+      "name": "Six digital artifacts and three failed HTTP bodies retain byte hashes",
+      "ok": true
+    },
+    {
+      "name": "Consumer remains byte-identical and excludes new private reference",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "actualHHCDirectionsCalls": 8,
+    "conditionalHHCLabels": 64,
+    "privateRelations": 128,
+    "directSmallStarCells": 64,
+    "directNonselfPairs": 56,
+    "sourcePolicyContexts": 128,
+    "differingLabels": 40,
+    "literalMatchingLabels": 16,
+    "selfRoleOnly": 8
+  },
+  "engineSHA256": "39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6",
+  "fixtures": [
+    {
+      "origin": "坎",
+      "target": "坎",
+      "sourcePage": 90,
+      "expected": "Phục Vị",
+      "actual": "Phục Vị",
+      "engineAccessInput": {
+        "year": 1900,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "坎",
+      "target": "艮",
+      "sourcePage": 95,
+      "expected": "Ngũ Quỷ",
+      "actual": "Ngũ Quỷ",
+      "engineAccessInput": {
+        "year": 1900,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "坎",
+      "target": "震",
+      "sourcePage": 99,
+      "expected": "Thiên Y",
+      "actual": "Thiên Y",
+      "engineAccessInput": {
+        "year": 1900,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "坎",
+      "target": "巽",
+      "sourcePage": 91,
+      "expected": "Sinh Khí",
+      "actual": "Sinh Khí",
+      "engineAccessInput": {
+        "year": 1900,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "坎",
+      "target": "離",
+      "sourcePage": 105,
+      "expected": "Diên Niên",
+      "actual": "Diên Niên",
+      "engineAccessInput": {
+        "year": 1900,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "坎",
+      "target": "坤",
+      "sourcePage": 103,
+      "expected": "Tuyệt Mệnh",
+      "actual": "Tuyệt Mệnh",
+      "engineAccessInput": {
+        "year": 1900,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "坎",
+      "target": "兌",
+      "sourcePage": 97,
+      "expected": "Họa Hại",
+      "actual": "Họa Hại",
+      "engineAccessInput": {
+        "year": 1900,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "坎",
+      "target": "乾",
+      "sourcePage": 101,
+      "expected": "Lục Sát",
+      "actual": "Lục Sát",
+      "engineAccessInput": {
+        "year": 1900,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "坤",
+      "target": "坎",
+      "sourcePage": 103,
+      "expected": "Tuyệt Mệnh",
+      "actual": "Tuyệt Mệnh",
+      "engineAccessInput": {
+        "year": 1905,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "坤",
+      "target": "艮",
+      "sourcePage": 91,
+      "expected": "Sinh Khí",
+      "actual": "Sinh Khí",
+      "engineAccessInput": {
+        "year": 1905,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "坤",
+      "target": "震",
+      "sourcePage": 97,
+      "expected": "Họa Hại",
+      "actual": "Họa Hại",
+      "engineAccessInput": {
+        "year": 1905,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "坤",
+      "target": "巽",
+      "sourcePage": 95,
+      "expected": "Ngũ Quỷ",
+      "actual": "Ngũ Quỷ",
+      "engineAccessInput": {
+        "year": 1905,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "坤",
+      "target": "離",
+      "sourcePage": 101,
+      "expected": "Lục Sát",
+      "actual": "Lục Sát",
+      "engineAccessInput": {
+        "year": 1905,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "坤",
+      "target": "坤",
+      "sourcePage": 90,
+      "expected": "Phục Vị",
+      "actual": "Phục Vị",
+      "engineAccessInput": {
+        "year": 1905,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "坤",
+      "target": "兌",
+      "sourcePage": 99,
+      "expected": "Thiên Y",
+      "actual": "Thiên Y",
+      "engineAccessInput": {
+        "year": 1905,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "坤",
+      "target": "乾",
+      "sourcePage": 105,
+      "expected": "Diên Niên",
+      "actual": "Diên Niên",
+      "engineAccessInput": {
+        "year": 1905,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "震",
+      "target": "坎",
+      "sourcePage": 99,
+      "expected": "Thiên Y",
+      "actual": "Thiên Y",
+      "engineAccessInput": {
+        "year": 1907,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "震",
+      "target": "艮",
+      "sourcePage": 101,
+      "expected": "Lục Sát",
+      "actual": "Lục Sát",
+      "engineAccessInput": {
+        "year": 1907,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "震",
+      "target": "震",
+      "sourcePage": 90,
+      "expected": "Phục Vị",
+      "actual": "Phục Vị",
+      "engineAccessInput": {
+        "year": 1907,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "震",
+      "target": "巽",
+      "sourcePage": 105,
+      "expected": "Diên Niên",
+      "actual": "Diên Niên",
+      "engineAccessInput": {
+        "year": 1907,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "震",
+      "target": "離",
+      "sourcePage": 91,
+      "expected": "Sinh Khí",
+      "actual": "Sinh Khí",
+      "engineAccessInput": {
+        "year": 1907,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "震",
+      "target": "坤",
+      "sourcePage": 97,
+      "expected": "Họa Hại",
+      "actual": "Họa Hại",
+      "engineAccessInput": {
+        "year": 1907,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "震",
+      "target": "兌",
+      "sourcePage": 103,
+      "expected": "Tuyệt Mệnh",
+      "actual": "Tuyệt Mệnh",
+      "engineAccessInput": {
+        "year": 1907,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "震",
+      "target": "乾",
+      "sourcePage": 95,
+      "expected": "Ngũ Quỷ",
+      "actual": "Ngũ Quỷ",
+      "engineAccessInput": {
+        "year": 1907,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "巽",
+      "target": "坎",
+      "sourcePage": 91,
+      "expected": "Sinh Khí",
+      "actual": "Sinh Khí",
+      "engineAccessInput": {
+        "year": 1906,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "巽",
+      "target": "艮",
+      "sourcePage": 103,
+      "expected": "Tuyệt Mệnh",
+      "actual": "Tuyệt Mệnh",
+      "engineAccessInput": {
+        "year": 1906,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "巽",
+      "target": "震",
+      "sourcePage": 105,
+      "expected": "Diên Niên",
+      "actual": "Diên Niên",
+      "engineAccessInput": {
+        "year": 1906,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "巽",
+      "target": "巽",
+      "sourcePage": 90,
+      "expected": "Phục Vị",
+      "actual": "Phục Vị",
+      "engineAccessInput": {
+        "year": 1906,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "巽",
+      "target": "離",
+      "sourcePage": 99,
+      "expected": "Thiên Y",
+      "actual": "Thiên Y",
+      "engineAccessInput": {
+        "year": 1906,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "巽",
+      "target": "坤",
+      "sourcePage": 95,
+      "expected": "Ngũ Quỷ",
+      "actual": "Ngũ Quỷ",
+      "engineAccessInput": {
+        "year": 1906,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "巽",
+      "target": "兌",
+      "sourcePage": 101,
+      "expected": "Lục Sát",
+      "actual": "Lục Sát",
+      "engineAccessInput": {
+        "year": 1906,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "巽",
+      "target": "乾",
+      "sourcePage": 97,
+      "expected": "Họa Hại",
+      "actual": "Họa Hại",
+      "engineAccessInput": {
+        "year": 1906,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "乾",
+      "target": "坎",
+      "sourcePage": 101,
+      "expected": "Lục Sát",
+      "actual": "Lục Sát",
+      "engineAccessInput": {
+        "year": 1904,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "乾",
+      "target": "艮",
+      "sourcePage": 99,
+      "expected": "Thiên Y",
+      "actual": "Thiên Y",
+      "engineAccessInput": {
+        "year": 1904,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "乾",
+      "target": "震",
+      "sourcePage": 95,
+      "expected": "Ngũ Quỷ",
+      "actual": "Ngũ Quỷ",
+      "engineAccessInput": {
+        "year": 1904,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "乾",
+      "target": "巽",
+      "sourcePage": 97,
+      "expected": "Họa Hại",
+      "actual": "Họa Hại",
+      "engineAccessInput": {
+        "year": 1904,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "乾",
+      "target": "離",
+      "sourcePage": 103,
+      "expected": "Tuyệt Mệnh",
+      "actual": "Tuyệt Mệnh",
+      "engineAccessInput": {
+        "year": 1904,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "乾",
+      "target": "坤",
+      "sourcePage": 105,
+      "expected": "Diên Niên",
+      "actual": "Diên Niên",
+      "engineAccessInput": {
+        "year": 1904,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "乾",
+      "target": "兌",
+      "sourcePage": 91,
+      "expected": "Sinh Khí",
+      "actual": "Sinh Khí",
+      "engineAccessInput": {
+        "year": 1904,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "乾",
+      "target": "乾",
+      "sourcePage": 90,
+      "expected": "Phục Vị",
+      "actual": "Phục Vị",
+      "engineAccessInput": {
+        "year": 1904,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "兌",
+      "target": "坎",
+      "sourcePage": 97,
+      "expected": "Họa Hại",
+      "actual": "Họa Hại",
+      "engineAccessInput": {
+        "year": 1903,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "兌",
+      "target": "艮",
+      "sourcePage": 105,
+      "expected": "Diên Niên",
+      "actual": "Diên Niên",
+      "engineAccessInput": {
+        "year": 1903,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "兌",
+      "target": "震",
+      "sourcePage": 103,
+      "expected": "Tuyệt Mệnh",
+      "actual": "Tuyệt Mệnh",
+      "engineAccessInput": {
+        "year": 1903,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "兌",
+      "target": "巽",
+      "sourcePage": 101,
+      "expected": "Lục Sát",
+      "actual": "Lục Sát",
+      "engineAccessInput": {
+        "year": 1903,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "兌",
+      "target": "離",
+      "sourcePage": 95,
+      "expected": "Ngũ Quỷ",
+      "actual": "Ngũ Quỷ",
+      "engineAccessInput": {
+        "year": 1903,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "兌",
+      "target": "坤",
+      "sourcePage": 99,
+      "expected": "Thiên Y",
+      "actual": "Thiên Y",
+      "engineAccessInput": {
+        "year": 1903,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "兌",
+      "target": "兌",
+      "sourcePage": 90,
+      "expected": "Phục Vị",
+      "actual": "Phục Vị",
+      "engineAccessInput": {
+        "year": 1903,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "兌",
+      "target": "乾",
+      "sourcePage": 91,
+      "expected": "Sinh Khí",
+      "actual": "Sinh Khí",
+      "engineAccessInput": {
+        "year": 1903,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "艮",
+      "target": "坎",
+      "sourcePage": 95,
+      "expected": "Ngũ Quỷ",
+      "actual": "Ngũ Quỷ",
+      "engineAccessInput": {
+        "year": 1902,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "艮",
+      "target": "艮",
+      "sourcePage": 90,
+      "expected": "Phục Vị",
+      "actual": "Phục Vị",
+      "engineAccessInput": {
+        "year": 1902,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "艮",
+      "target": "震",
+      "sourcePage": 101,
+      "expected": "Lục Sát",
+      "actual": "Lục Sát",
+      "engineAccessInput": {
+        "year": 1902,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "艮",
+      "target": "巽",
+      "sourcePage": 103,
+      "expected": "Tuyệt Mệnh",
+      "actual": "Tuyệt Mệnh",
+      "engineAccessInput": {
+        "year": 1902,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "艮",
+      "target": "離",
+      "sourcePage": 97,
+      "expected": "Họa Hại",
+      "actual": "Họa Hại",
+      "engineAccessInput": {
+        "year": 1902,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "艮",
+      "target": "坤",
+      "sourcePage": 91,
+      "expected": "Sinh Khí",
+      "actual": "Sinh Khí",
+      "engineAccessInput": {
+        "year": 1902,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "艮",
+      "target": "兌",
+      "sourcePage": 105,
+      "expected": "Diên Niên",
+      "actual": "Diên Niên",
+      "engineAccessInput": {
+        "year": 1902,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "艮",
+      "target": "乾",
+      "sourcePage": 99,
+      "expected": "Thiên Y",
+      "actual": "Thiên Y",
+      "engineAccessInput": {
+        "year": 1902,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "離",
+      "target": "坎",
+      "sourcePage": 105,
+      "expected": "Diên Niên",
+      "actual": "Diên Niên",
+      "engineAccessInput": {
+        "year": 1901,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "離",
+      "target": "艮",
+      "sourcePage": 97,
+      "expected": "Họa Hại",
+      "actual": "Họa Hại",
+      "engineAccessInput": {
+        "year": 1901,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "離",
+      "target": "震",
+      "sourcePage": 91,
+      "expected": "Sinh Khí",
+      "actual": "Sinh Khí",
+      "engineAccessInput": {
+        "year": 1901,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "離",
+      "target": "巽",
+      "sourcePage": 99,
+      "expected": "Thiên Y",
+      "actual": "Thiên Y",
+      "engineAccessInput": {
+        "year": 1901,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "離",
+      "target": "離",
+      "sourcePage": 90,
+      "expected": "Phục Vị",
+      "actual": "Phục Vị",
+      "engineAccessInput": {
+        "year": 1901,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "離",
+      "target": "坤",
+      "sourcePage": 101,
+      "expected": "Lục Sát",
+      "actual": "Lục Sát",
+      "engineAccessInput": {
+        "year": 1901,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "離",
+      "target": "兌",
+      "sourcePage": 95,
+      "expected": "Ngũ Quỷ",
+      "actual": "Ngũ Quỷ",
+      "engineAccessInput": {
+        "year": 1901,
+        "gender": "male"
+      }
+    },
+    {
+      "origin": "離",
+      "target": "乾",
+      "sourcePage": 103,
+      "expected": "Tuyệt Mệnh",
+      "actual": "Tuyệt Mệnh",
+      "engineAccessInput": {
+        "year": 1901,
+        "gender": "male"
+      }
+    }
+  ],
+  "validated": "Conditional relation labels, named-system distinction and source-context guard only.",
+  "notValidated": [
+    "Year→kua/calendarboundary",
+    "Actual dwelling origin/dragon/sitting/facing",
+    "Room/stove/bed placement",
+    "Source predictive efficacy",
+    "Complete110pagevolume/allclauses"
+  ],
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false
+}

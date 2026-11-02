@@ -1,0 +1,194 @@
+/**
+ * AI-13 RESEARCH-ONLY / NOT A PATCH TO HHC_ENGINE
+ *
+ * Distinguish (i) geographical birthplace, (ii) historical calendar authority,
+ * (iii) convention used to label the lunar day, and (iv) civil time zone.
+ * All evidence below is a calendar-POLICY hypothesis, not a historical IANA
+ * clock-offset resolver or verified government-issued daily calendar.
+ *
+ * Source anchors:
+ * - 121-CP 1967-08-08: GMT+7 official North effective 1968-01-01.
+ * - 01-VLDC 1967-08-19: 1968/1969 Tet one day earlier under new calendar.
+ * - SGGP 2005 historical article: northern and liberated southern territories
+ *   followed +7, Saigon-administrated territory +8 in 1968-1975.
+ * - Southern calendar-reference cutover in 1975 not verified by a primary
+ *   contemporary government calendar. Do not conflate a June civil-clock change.
+ */
+
+export const EVIDENCE = Object.freeze({
+  decision121CP: Object.freeze({
+    id: 'VN-121-CP-1967', quality: 'primary-text-extraction',
+    description: 'Decision 121-CP dated 1967-08-08, effective 1968-01-01; North Vietnam calendar +7',
+    location: 'Công báo số 10 (1967-08-31), page 116',
+    verification: 'PDF text retrieved; image facsimile/hash not independently archived'
+  }),
+  circular01VLDC: Object.freeze({
+    id: 'VN-01-VLDC-1967', quality: 'primary-document-transcription',
+    description: '1967-08-19 circular explicitly contrasts Lunar New Year 1968 and 1969',
+    verification: 'Secondary-hosted transcription; original paper image not verified'
+  }),
+  historicalRegionalPractice: Object.freeze({
+    id: 'VN-SGGP-HISTORY-2005', quality: 'secondary-retrospective',
+    description: 'Historical article distinguishes northern +7, liberated southern +7, Saigon-administered +8',
+    url: 'https://www.sggp.org.vn/gio-viet-nam-post129003.html'
+  }),
+  legacyCalendarHistory: Object.freeze({
+    id: 'VN-HISTORICAL-CALENDAR-RECONSTRUCTION', quality: 'secondary-reconstruction',
+    description: 'Pre-1968 Chinese +8 calendar convention, not an independently archived daily almanac',
+    url: 'https://licham.net/phuong-phap-tinh'
+  }),
+  unresolved1975: Object.freeze({
+    id: 'VN-1975-CALENDAR-CUTOVER-UNRESOLVED', quality: 'evidence-gap',
+    description: 'Official 1975 southern lunar-calendar switch date not corroborated by primary calendar',
+    verification: 'Civil-clock realignment is not a proven lunar-calendar changeover'
+  }),
+  post1976: Object.freeze({
+    id: 'VN-POST-1975-STANDARD', quality: 'secondary-reconstruction',
+    description: '1976 +7 unified national-calendar reference in this limited research model'
+  })
+});
+
+export const GEOGRAPHIES = Object.freeze(['north', 'south', 'unspecified']);
+export const AUTHORITIES = Object.freeze([
+  'north-government', 'liberated-south', 'saigon-administered', 'unknown'
+]);
+
+function parseDate(date) {
+  if (typeof date !== 'string' || !/^\d{4}-\d{2}-\d{2}$/.test(date))
+    throw new TypeError('Gregorian date must use YYYY-MM-DD');
+  const [y, m, d] = date.split('-').map(Number);
+  if (y < 1967 || y > 1976) throw new RangeError('research scope limited to 1967-1976');
+  const ms = Date.UTC(y, m - 1, d);
+  const dt = new Date(ms);
+  if (dt.getUTCFullYear() !== y || dt.getUTCMonth() + 1 !== m || dt.getUTCDate() !== d)
+    throw new RangeError('Gregorian calendar date does not exist');
+  return date;
+}
+
+function requireEnum(value, valid, name) {
+  if (!valid.includes(value))
+    throw new RangeError(`${name} must be one of ${valid.join(', ')}`);
+  return value;
+}
+
+/**
+ * Candidate policy ONLY; do not use to transform a birth instant or choose a
+ * released chart. 'authority' is who supplied the contemporary calendar,
+ * NOT an assertion about the person's political affiliation.
+ */
+export function proposeCalendarAuthorities({ date, geography, authority } = {}) {
+  const d = parseDate(date);
+  const place = requireEnum(geography, GEOGRAPHIES, 'geography');
+  const issuer = requireEnum(authority, AUTHORITIES, 'authority');
+
+  let offsets;
+  let reason;
+  let evidence;
+  let confidence;
+  let transitionUnresolved = false;
+
+  if (d < '1968-01-01') {
+    offsets = [8];
+    reason = 'pre-1968-common-printed-calendar-model';
+    evidence = ['legacyCalendarHistory', 'historicalRegionalPractice'];
+    confidence = 'secondary-reconstruction';
+  } else if (d >= '1976-01-01') {
+    offsets = [7];
+    reason = 'post-1975-common-printed-calendar-model';
+    evidence = ['post1976'];
+    confidence = 'secondary-reconstruction';
+  } else if (d > '1975-04-30' && place !== 'north') {
+    // This branch intentionally runs BEFORE the authority-specific branches.
+    // The declared authority can refer to an earlier printed calendar, but
+    // cannot settle the precise source/cutover of a 1975 southern calendar.
+    offsets = [7, 8];
+    reason = 'southern-1975-authority-cutover-unresolved';
+    evidence = ['unresolved1975', 'historicalRegionalPractice'];
+    confidence = 'unresolved';
+    transitionUnresolved = true;
+  } else if (issuer === 'north-government') {
+    offsets = [7];
+    reason = 'north-121cp-official-calendar';
+    evidence = ['decision121CP', 'circular01VLDC'];
+    confidence = 'primary-rule-with-model';
+  } else if (issuer === 'liberated-south') {
+    offsets = [7];
+    reason = 'liberated-south-printed-calendar-reconstruction';
+    evidence = ['historicalRegionalPractice'];
+    confidence = 'secondary-retrospective';
+  } else if (issuer === 'saigon-administered') {
+    offsets = [8];
+    reason = 'saigon-administered-printed-calendar-reconstruction';
+    evidence = ['historicalRegionalPractice'];
+    confidence = 'secondary-retrospective';
+  } else {
+    offsets = [7, 8];
+    reason = 'calendar-authority-not-documented';
+    evidence = ['decision121CP', 'historicalRegionalPractice'];
+    confidence = 'unresolved';
+  }
+  // Conflicting location/authority metadata need explicit verification; never
+  // 'correct' the authority or location by guessing from a single field.
+  const metadataConflict =
+    (place === 'north' && ['liberated-south', 'saigon-administered'].includes(issuer)) ||
+    (place === 'south' && issuer === 'north-government');
+  // Even if all candidate lunar labels agree in 1967/1976, contradictory
+  // provenance is still contradictory. Do not manufacture offset ambiguity
+  // outside the documented 1968-1975 regional split.
+  if (metadataConflict && d >= '1968-01-01' && d < '1976-01-01') {
+    offsets = [7, 8];
+    reason = 'geography-and-calendar-authority-conflict';
+    evidence = ['decision121CP', 'historicalRegionalPractice'];
+    confidence = 'unresolved';
+  }
+  const candidates = Object.freeze([...offsets]);
+  return Object.freeze({
+    date: d, geography: place, claimedCalendarAuthority: issuer,
+    candidateCalendarReferenceOffsets: candidates,
+    policyReason: reason, policyEvidenceQuality: confidence,
+    evidenceRecords: Object.freeze(evidence.map(k => EVIDENCE[k])),
+    policyUnresolved: candidates.length > 1 || transitionUnresolved || metadataConflict,
+    southern1975CutoverUnresolved: transitionUnresolved,
+    conflictingMetadata: metadataConflict,
+    exactBirthplaceCivilOffsetResolved: false,
+    legalAuthorityProvenForEverySouthLocation: false,
+    autoChooseReleasedChart: false
+  });
+}
+
+function checkLunar(label, name) {
+  if (!label || typeof label !== 'object' || Array.isArray(label) ||
+      ![label.y, label.m, label.d].every(Number.isInteger) ||
+      label.y < 1966 || label.y > 1977 ||
+      label.m < 1 || label.m > 12 || label.d < 1 || label.d > 30 ||
+      typeof label.leap !== 'boolean') throw new TypeError(`${name} is not a complete lunar label`);
+  return Object.freeze({y: label.y, m: label.m, d: label.d, leap: label.leap});
+}
+
+/**
+ * PRESERVES ambiguity even when two convention labels happen to match.
+ * 'lunarLabelUnambiguous' and 'calendarSourceUnambiguous' are distinct fields.
+ */
+export function auditCandidateLunarLabels({ decision, utc7, utc8 } = {}) {
+  if (!decision || !Array.isArray(decision.candidateCalendarReferenceOffsets) ||
+      decision.candidateCalendarReferenceOffsets.length === 0 ||
+      !decision.candidateCalendarReferenceOffsets.every(x => x === 7 || x === 8))
+    throw new TypeError('a decision with valid candidate reference offsets is required');
+  const labels = {7: checkLunar(utc7, 'utc7'), 8: checkLunar(utc8, 'utc8')};
+  const same = Object.keys(labels[7]).every(k => labels[7][k] === labels[8][k]);
+  const resultCandidates = decision.candidateCalendarReferenceOffsets.map(offset =>
+    Object.freeze({referenceOffset: offset, lunar: labels[offset]}));
+  const policyUnresolved = Boolean(decision.policyUnresolved) || resultCandidates.length !== 1;
+  return Object.freeze({
+    date: decision.date,
+    selectedCandidates: Object.freeze(resultCandidates),
+    modelLunarLabelsDiffer: !same,
+    lunarLabelUnambiguous: same || (resultCandidates.length === 1),
+    calendarSourceUnambiguous: !policyUnresolved,
+    requiresProvenanceReview: policyUnresolved,
+    requiresChoiceToAvoidDifferentLunarLabel: !same && resultCandidates.length > 1,
+    birthplaceCivilOffsetResolved: false,
+    calendarSourceVerifiedByIndependentDailyAlmanac: false,
+    autoChooseReleasedChart: false
+  });
+}

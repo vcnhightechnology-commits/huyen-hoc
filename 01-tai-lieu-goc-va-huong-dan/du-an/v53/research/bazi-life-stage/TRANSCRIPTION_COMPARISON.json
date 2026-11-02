@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-29",
+  "firstSourceVerificationPassed": false,
+  "firstFailure": "Unnormalized retained digital concatenation uses 飬 whereas frozen image-working main list uses 養.",
+  "retainedDigitalCodepoint": "U+98EC",
+  "retainedDigitalCharacter": "飬",
+  "workingImageReadingCodepoint": "U+990A",
+  "workingImageReading": "養",
+  "sourceImage": "v53/research/bazi-season-strength/p113.png",
+  "sourceAndFrozenBytesChanged": false,
+  "repair": "Use only an explicit 飬→養 replacement in the temporary digital-comparison string; retain original source bytes and the frozen manual reading.",
+  "generalUnicodeNormalizationUsed": false,
+  "engineReexecuted": false
+}

@@ -1,0 +1,143 @@
+{
+  "date": "2026-10-29",
+  "system": "TMTH002-initial-ten-stem-birth-death",
+  "scope": "Only explicitly named birth/death coordinates, not all twelve stages or every voice in chapter.",
+  "rows": [
+    {
+      "stem": "甲",
+      "sourceBirthBranch": "亥",
+      "sourceDeathBranch": "午",
+      "sourcePages": [
+        10,
+        11
+      ],
+      "voice": "initial-ten-stem-exposition",
+      "diplomaticGlyphCollationComplete": false
+    },
+    {
+      "stem": "乙",
+      "sourceBirthBranch": "午",
+      "sourceDeathBranch": "亥",
+      "sourcePages": [
+        12,
+        13
+      ],
+      "voice": "initial-ten-stem-exposition",
+      "diplomaticGlyphCollationComplete": false
+    },
+    {
+      "stem": "丙",
+      "sourceBirthBranch": "寅",
+      "sourceDeathBranch": "酉",
+      "sourcePages": [
+        14
+      ],
+      "voice": "initial-ten-stem-exposition",
+      "diplomaticGlyphCollationComplete": false
+    },
+    {
+      "stem": "丁",
+      "sourceBirthBranch": "酉",
+      "sourceDeathBranch": "寅",
+      "sourcePages": [
+        16
+      ],
+      "voice": "initial-ten-stem-exposition",
+      "diplomaticGlyphCollationComplete": false
+    },
+    {
+      "stem": "戊",
+      "sourceBirthBranch": "寅",
+      "sourceDeathBranch": "酉",
+      "sourcePages": [
+        18
+      ],
+      "voice": "initial-ten-stem-exposition",
+      "diplomaticGlyphCollationComplete": false
+    },
+    {
+      "stem": "己",
+      "sourceBirthBranch": "酉",
+      "sourceDeathBranch": "寅",
+      "sourcePages": [
+        20
+      ],
+      "voice": "initial-ten-stem-exposition",
+      "diplomaticGlyphCollationComplete": false
+    },
+    {
+      "stem": "庚",
+      "sourceBirthBranch": "巳",
+      "sourceDeathBranch": "子",
+      "sourcePages": [
+        21
+      ],
+      "voice": "initial-ten-stem-exposition",
+      "diplomaticGlyphCollationComplete": false
+    },
+    {
+      "stem": "辛",
+      "sourceBirthBranch": "子",
+      "sourceDeathBranch": "巳",
+      "sourcePages": [
+        23
+      ],
+      "voice": "initial-ten-stem-exposition",
+      "diplomaticGlyphCollationComplete": false
+    },
+    {
+      "stem": "壬",
+      "sourceBirthBranch": "申",
+      "sourceDeathBranch": "卯",
+      "sourcePages": [
+        25
+      ],
+      "voice": "initial-ten-stem-exposition",
+      "diplomaticGlyphCollationComplete": false
+    },
+    {
+      "stem": "癸",
+      "sourceBirthBranch": "卯",
+      "sourceDeathBranch": "申",
+      "sourcePages": [
+        27
+      ],
+      "voice": "initial-ten-stem-exposition",
+      "diplomaticGlyphCollationComplete": false
+    }
+  ],
+  "workingReadingNotes": [
+    "己/已-like glyphs in branch positions of 庚/辛 are recorded as working 巳 by the named-branch context; raw PNG and digital bytes unchanged.",
+    "邜/卯 retained source shape versus working branch 卯; no automatic global text replacement.",
+    "Death/live wood metaphors in paragraphs are not automatically the twelve-phase 死/長生 labels."
+  ],
+  "parallelVoices": [
+    {
+      "pages": [
+        29
+      ],
+      "voice": "論曰",
+      "note": "Supports 戊生寅/己生酉 and criticizes an alternative 戊生申/己生卯."
+    },
+    {
+      "pages": [
+        30,
+        31
+      ],
+      "voice": "或曰 and reported systems",
+      "note": "Earth body/use and 寅/申/巳 alternatives; not adopted as additional starts in the initial table."
+    },
+    {
+      "pages": [
+        34,
+        35
+      ],
+      "voice": "reported one-wood argument and subsequent conclusion",
+      "note": "Same生死 argument for paired stems appears before authorial 前説 conclusion; unresolved reference scope not silently equated to the initial table."
+    }
+  ],
+  "fullChapterRead": false,
+  "fullTwelveStageMatrixEstablished": false,
+  "sourceEffectivenessValidated": false,
+  "consumerChanged": false
+}

@@ -1,0 +1,250 @@
+{
+  "date": "2026-10-28",
+  "status": "staged-traveler-question-and-structural-vocabulary-boundary-verified",
+  "checks": [
+    {
+      "name": "26 inspected source positions/2QA images/2nativecrops retain identities and distinguish1non-ruleleaf;no newHTTP/PDF",
+      "ok": true
+    },
+    {
+      "name": "Printed旅→艮 executes2realHHCcalls andmatches6workingkin/branchlabels,Self1/Response4,changed酉財→戌子 while explicitSi-normalization staysdeclared",
+      "ok": true
+    },
+    {
+      "name": "Source有病isstructuralvocabulary at334,notautomaticactualpersonillness;return-dateandtravelercondition remainexplicitdifferentqueries",
+      "ok": true
+    },
+    {
+      "name": "Explicitmother/ father role absentfromsurface staysunselected;unrelatedResponse isnotbiologicalmother oridentifiedtraveler andmissingquestion/subject staysunknown",
+      "ok": true
+    },
+    {
+      "name": "20furtherfirst-passspans yield102readspans/27headingonly whilemedical/legal/supernatural/sexoutcomes andchapter103stayunestablished",
+      "ok": true
+    },
+    {
+      "name": "Strictinputs rejecthiddenpremises/clinicalquestion/silent aliases;returnedliteral/coordinates cannotmutatesource andconsumerreleaseunchanged",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "newViewedSourcePositions": 26,
+    "contentPositions": 25,
+    "nonRuleLeaves": 1,
+    "highResolutionQAViewed": 2,
+    "nativeCropsViewed": 2,
+    "firstPassSpansAdded": 20,
+    "stagedCurrentFirstPassSpans": 102,
+    "stagedCurrentHeadingOnlyUnits": 27,
+    "actualHHCHexCalls": 2,
+    "printedCastFixtures": 1,
+    "workingSourceKinBranchLabels": 6,
+    "explicitSiNormalizations": 1,
+    "sourceChangedKinBranchLabels": 1,
+    "namedQuestions": 2,
+    "explicitSubjects": 4,
+    "newHTTPRequests": 0,
+    "newOriginalContainers": 0
+  },
+  "fixtureProjection": {
+    "system": "B02-ch094-explicit-traveler-question",
+    "subject": "mother",
+    "question": "return-date",
+    "sourcePages": [
+      333,
+      334,
+      335,
+      336,
+      337
+    ],
+    "chart": {
+      "schema": "hhc.liuyao.structural-chart.v1",
+      "orientation": "bottom-to-top",
+      "input": [
+        8,
+        8,
+        7,
+        9,
+        8,
+        7
+      ],
+      "primary": {
+        "number": 56,
+        "normalizedName": "火山旅",
+        "palace": "離",
+        "palaceTrigram": 3,
+        "palaceElement": "火",
+        "stage": "一世",
+        "stageIndex": 1,
+        "shi": 1,
+        "ying": 4,
+        "bits": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "changed": {
+        "number": 52,
+        "normalizedName": "艮為山",
+        "bits": [
+          0,
+          0,
+          1,
+          0,
+          0,
+          1
+        ],
+        "ownPalaceDiagnostic": "艮",
+        "ownPalaceElementDiagnostic": "土",
+        "annotationKinBasisPalace": "離",
+        "shiYingReassigned": false
+      },
+      "dayStem": null,
+      "lines": [
+        {
+          "line": 1,
+          "stem": "丙",
+          "branch": "辰",
+          "element": "土",
+          "kin": "子孫",
+          "kinBasisPalace": "離",
+          "value": 8,
+          "polarity": 0,
+          "moving": false,
+          "role": "世",
+          "spirit": null,
+          "changed": null
+        },
+        {
+          "line": 2,
+          "stem": "丙",
+          "branch": "午",
+          "element": "火",
+          "kin": "兄弟",
+          "kinBasisPalace": "離",
+          "value": 8,
+          "polarity": 0,
+          "moving": false,
+          "role": null,
+          "spirit": null,
+          "changed": null
+        },
+        {
+          "line": 3,
+          "stem": "丙",
+          "branch": "申",
+          "element": "金",
+          "kin": "妻財",
+          "kinBasisPalace": "離",
+          "value": 7,
+          "polarity": 1,
+          "moving": false,
+          "role": null,
+          "spirit": null,
+          "changed": null
+        },
+        {
+          "line": 4,
+          "stem": "己",
+          "branch": "酉",
+          "element": "金",
+          "kin": "妻財",
+          "kinBasisPalace": "離",
+          "value": 9,
+          "polarity": 1,
+          "moving": true,
+          "role": "應",
+          "spirit": null,
+          "changed": {
+            "line": 4,
+            "stem": "丙",
+            "branch": "戌",
+            "element": "土",
+            "kin": "子孫",
+            "kinBasisPalace": "離",
+            "polarity": 0
+          }
+        },
+        {
+          "line": 5,
+          "stem": "己",
+          "branch": "未",
+          "element": "土",
+          "kin": "子孫",
+          "kinBasisPalace": "離",
+          "value": 8,
+          "polarity": 0,
+          "moving": false,
+          "role": null,
+          "spirit": null,
+          "changed": null
+        },
+        {
+          "line": 6,
+          "stem": "己",
+          "branch": "巳",
+          "element": "火",
+          "kin": "兄弟",
+          "kinBasisPalace": "離",
+          "value": 7,
+          "polarity": 1,
+          "moving": false,
+          "role": null,
+          "spirit": null,
+          "changed": null
+        }
+      ],
+      "movingLines": [
+        4
+      ],
+      "scope": "structural-source-reference-only",
+      "consumerApplied": false,
+      "predictedEvent": null,
+      "missingPremises": [
+        "用神selection",
+        "飛伏rules",
+        "calendar month/day boundaries",
+        "旺衰/旬空conditionalrules",
+        "full source exceptions",
+        "outcome validation"
+      ]
+    },
+    "questionScopeComplete": true,
+    "candidateRoleProjection": {
+      "kin": "父母",
+      "originalLines": [],
+      "changedLines": [],
+      "hiddenRoleAutomaticallySelected": false
+    },
+    "sourceStructuralVocabulary": {
+      "literal": "用神墓絕空破受傷謂之有病",
+      "term": "有病",
+      "namedPassageSense": "source-use-line-afflicted-by-tomb/extinction/void/break/injury",
+      "notAutomaticallyActualPersonIllness": true,
+      "notAClinicalDefinition": true
+    },
+    "sourceQuestionWasNotSilentlyChanged": true,
+    "biologicalIdentityInferred": false,
+    "useLineSelected": null,
+    "effectiveActivity": null,
+    "strength": null,
+    "structuralAffliction": null,
+    "actualPersonIllness": null,
+    "healthResult": null,
+    "lifespan": null,
+    "actualTravelSafety": null,
+    "returnDate": null,
+    "currentLocation": null,
+    "chronologicalDateAdapter": null,
+    "practicalOutcome": null,
+    "consumerApplied": false
+  },
+  "wholeChaptersApplied": false,
+  "sourceOutcomesValidated": false,
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false
+}

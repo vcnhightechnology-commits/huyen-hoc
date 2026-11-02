@@ -1,0 +1,49 @@
+{
+  "schema": "hhc.research.resume-index.v1",
+  "date": "2026-10-29",
+  "scope": "B02 active-map pointer and two explicitly indexed weather scopes only; not exhaustive whole-library deduplication.",
+  "catalogues": {
+    "B02": {
+      "currentMap": "v53/research/liuyao-foundation-span/B02_CURRENT_UNITS.json",
+      "currentMapIdentity": {
+        "file": "v53/research/liuyao-foundation-span/B02_CURRENT_UNITS.json",
+        "bytes": 72266,
+        "sha256": "7c88e978ced20bfd18fd15542874253b56ff237a917978874d129f4f7ccadae8"
+      },
+      "mapReport": "v53/LIUYAO_FOUNDATION_SPAN_REPORT.md",
+      "expectedCounts": {
+        "registeredUnits": 137,
+        "firstPassCompleteSpanUnits": 137,
+        "headingOnlyBodyUnits": 0,
+        "partialFoundationUnits": 0,
+        "otherPartialUnits": 0,
+        "wholeUnitsApplied": 0
+      },
+      "knownScopes": {
+        "weather-voices-and-heng-case": {
+          "disposition": "reuse-existing-complete-bounded-scope",
+          "report": "v53/LIUYAO_WEATHER_ROLES_REPORT.md",
+          "module": "v53/research/liuyao-weather/weather-reference.mjs",
+          "fixtures": "v53/research/liuyao-weather/PRINTED_FIXTURES.json",
+          "sourcePages": [
+            191,
+            201
+          ],
+          "newSourceCase": false,
+          "wholeChapterApplied": false
+        },
+        "complete-weather-strength-and-timing": {
+          "disposition": "open-source-premises",
+          "report": "v53/LIUYAO_WEATHER_ROLES_REPORT.md",
+          "module": "v53/research/liuyao-weather/weather-reference.mjs",
+          "newSourceCase": null,
+          "wholeChapterApplied": false
+        }
+      }
+    }
+  },
+  "unknownScopeDisposition": "unindexed-scope-review-coverage-first",
+  "wholeCatalogueCompleted": false,
+  "newEngineCalls": 0,
+  "consumerChanged": false
+}

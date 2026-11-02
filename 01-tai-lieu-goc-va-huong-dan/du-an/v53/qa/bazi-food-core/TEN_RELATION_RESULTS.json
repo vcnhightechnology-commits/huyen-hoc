@@ -1,0 +1,121 @@
+{
+  "date": "2026-10-28",
+  "checks": [
+    {
+      "name": "AlltennewmodulefoodrelationbranchesagreewithactualHHCrelationfunctionandactualLunarrelationtablewithoutassumingrawfourpillarsareacalendarchart",
+      "ok": true
+    }
+  ],
+  "records": [
+    {
+      "declaredCoordinatePair": [
+        "甲子",
+        "丙子"
+      ],
+      "actualHHCTenGod": "Thực Thần",
+      "actualLunarTenGod": "食神",
+      "sourceQuantityNotInferred": true,
+      "realCalendarDateValidated": false
+    },
+    {
+      "declaredCoordinatePair": [
+        "乙丑",
+        "丁丑"
+      ],
+      "actualHHCTenGod": "Thực Thần",
+      "actualLunarTenGod": "食神",
+      "sourceQuantityNotInferred": true,
+      "realCalendarDateValidated": false
+    },
+    {
+      "declaredCoordinatePair": [
+        "丙子",
+        "戊子"
+      ],
+      "actualHHCTenGod": "Thực Thần",
+      "actualLunarTenGod": "食神",
+      "sourceQuantityNotInferred": true,
+      "realCalendarDateValidated": false
+    },
+    {
+      "declaredCoordinatePair": [
+        "丁丑",
+        "己丑"
+      ],
+      "actualHHCTenGod": "Thực Thần",
+      "actualLunarTenGod": "食神",
+      "sourceQuantityNotInferred": true,
+      "realCalendarDateValidated": false
+    },
+    {
+      "declaredCoordinatePair": [
+        "戊子",
+        "庚子"
+      ],
+      "actualHHCTenGod": "Thực Thần",
+      "actualLunarTenGod": "食神",
+      "sourceQuantityNotInferred": true,
+      "realCalendarDateValidated": false
+    },
+    {
+      "declaredCoordinatePair": [
+        "己丑",
+        "辛丑"
+      ],
+      "actualHHCTenGod": "Thực Thần",
+      "actualLunarTenGod": "食神",
+      "sourceQuantityNotInferred": true,
+      "realCalendarDateValidated": false
+    },
+    {
+      "declaredCoordinatePair": [
+        "庚子",
+        "壬子"
+      ],
+      "actualHHCTenGod": "Thực Thần",
+      "actualLunarTenGod": "食神",
+      "sourceQuantityNotInferred": true,
+      "realCalendarDateValidated": false
+    },
+    {
+      "declaredCoordinatePair": [
+        "辛丑",
+        "癸丑"
+      ],
+      "actualHHCTenGod": "Thực Thần",
+      "actualLunarTenGod": "食神",
+      "sourceQuantityNotInferred": true,
+      "realCalendarDateValidated": false
+    },
+    {
+      "declaredCoordinatePair": [
+        "壬子",
+        "甲子"
+      ],
+      "actualHHCTenGod": "Thực Thần",
+      "actualLunarTenGod": "食神",
+      "sourceQuantityNotInferred": true,
+      "realCalendarDateValidated": false
+    },
+    {
+      "declaredCoordinatePair": [
+        "癸丑",
+        "乙丑"
+      ],
+      "actualHHCTenGod": "Thực Thần",
+      "actualLunarTenGod": "食神",
+      "sourceQuantityNotInferred": true,
+      "realCalendarDateValidated": false
+    }
+  ],
+  "summary": {
+    "fixedStemPairs": 10,
+    "actualHHCTenGodFunctionQueries": 10,
+    "actualLunarRelationTableQueries": 10,
+    "newHHCBaziCharts": 0,
+    "newLunarCalendarCharts": 0,
+    "sourceAllTenRowsDirectlyPrintedNotClaimed": true,
+    "rawCountDoesNotInferSourceQuantity": true,
+    "consumerChanged": false
+  }
+}

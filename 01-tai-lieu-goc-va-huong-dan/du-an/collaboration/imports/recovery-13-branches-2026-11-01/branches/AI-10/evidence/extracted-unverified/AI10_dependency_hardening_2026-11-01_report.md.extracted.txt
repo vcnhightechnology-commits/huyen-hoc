@@ -1,0 +1,66 @@
+# AI-10 — Kiểm đầy đủ phụ thuộc Node/JSON và chứng thực Git HEAD tại máy
+
+**Ngày:** 01/11/2026
+**Phạm vi:** `collaboration/parallel-research/submissions/AI-10/`
+**Mốc nguồn đối chiếu từ lần đồng bộ gần nhất:** `3fba778df2db68cd0fdbb472a271b1322dcc66ae` trên `codex/ai-10-tam-thuc` (CHƯA thể xác nhận lại HEAD thời điểm đóng gói).
+**Trạng thái:** Bản vá hoàn thiện, chạy kiểm tra cục bộ; **chưa đẩy GitHub** do kết nối GitHub trả HTTP 403 `Sorry. Your account was suspended` khi đọc repo, file và PR #11.
+
+## 1. Vì sao cần bổ sung
+
+`TEST_MANIFEST.json` của vòng trước đã ghim byte/SHA-1 Git cho **22 tệp `test-*.mjs`**, nhưng không kiểm tra ngay từ đầu rằng **các mô-đun `.mjs` được import và JSON nguồn được đọc có còn đầy đủ, thuộc thư mục AI-10 và giữ nguyên byte được commit hay không**. Điều này có thể tạo ra khoảng trống khi test có SHA đúng nhưng một phụ thuộc đổi nội dung, hoặc khi kiểm thử chạy trên checkout thiếu dữ liệu.
+
+Bản vá này thêm hai lớp riêng biệt, tránh nhập nhằng về phạm vi chứng thực:
+
+1. **Kiểm tra closure nguồn không thực thi** (`ai10-dependency-audit.mjs`): dùng `node:vm.SourceTextModule` trong tiến trình phân tích cách ly để lấy các `import`/`export from` tĩnh; lần theo các URL tệp `new URL('./file.json', import.meta.url)` dạng hằng; đi xuyên qua các mô-đun nội bộ; từ chối thiếu tệp, import package ngoài `node:`, vượt phạm vi AI-10, symlink thư mục/tệp, nhập động `import()` hoặc `require()`. Xuất SHA Git **quan sát được** cho từng tệp, song không mạo nhận đã so với commit.
+2. **Kiểm tra HEAD Git tại máy, tùy chọn** (`ai10-git-tree-audit.mjs`): so tất cả tệp đã phát hiện với các blob có trong **cây commit `HEAD` tại checkout**, không chỉ so tệp test. Bắt được tệp `.mjs`/JSON sửa nhưng chưa commit, kể cả sửa có cùng kích thước và tệp mới được import nhưng chưa commit. **Không truy cập mạng** và không xác thực HEAD đó là commit chính thức trên máy chủ GitHub.
+
+Trình chạy `run-ai10-strict.mjs` được mở rộng với hai lựa chọn **`--verify-git-head`** và **`--run-git-head`**, ngoài ba lựa chọn trước. `--run` giữ khả năng chạy trên archive không có `.git`, nhưng bảo đảm inventory test và closure nguồn đều hợp lệ trước khi chạy. Người cần bảo đảm byte đối với commit tại máy phải sử dụng `--run-git-head`.
+
+## 2. Ranh giới phương pháp
+
+- Dùng trình phân tích cú pháp Node `vm.SourceTextModule` (cần Node.js 20+/22 và cờ `--experimental-vm-modules` do tiện ích gọi nội bộ), **không evaluate module**, không chạy app/engine khi kiểm closure. Việc kiểm thử riêng bằng `node --test` diễn ra sau các điều kiện chắn.
+- Kiểm nhập tĩnh và `new URL` dạng chữ hằng, không bao phủ mọi I/O runtime được ghép chuỗi, ví dụ `readFileSync(dynamicPath)`, biểu thức trong template literal hay code sinh ra bằng `eval`. Trả `dynamicRuntimeReadsCovered=false`; không gọi đây là chứng nhận toàn diện mọi phụ thuộc runtime.
+- Nếu thiếu Git metadata, `--verify-git-head` trả lỗi có mã `GIT_REPOSITORY_NOT_FOUND` thay vì tự giả định cây Git đúng.
+- Một Git HEAD được xác nhận **chỉ là HEAD tại máy**. Mức `remoteCommitAuthenticated=false`, `historicalSourcesAuthenticated=false`, `consumerReady=false` vẫn giữ nguyên. Không có bất cứ thay đổi quy tắc lịch, Tứ khóa, Sơ truyền/Tam truyền, hoặc dữ liệu phát hành.
+
+## 3. Kiểm thử thực tế trên môi trường hiện hữu
+
+Node.js **22.16.0**, chạy tất cả tệp test AI-10 hiện có trong bản dựng một phần tại máy:
+
+- **102/102 ca kiểm đạt; 0 thất bại** (80 kiểm cũ và **22 phản chứng mới**); **13 tệp test có mặt**.
+- `TEST_MANIFEST.json` sau sửa có **24 tệp test bắt buộc** = 22 tệp ở nhánh gần nhất + 2 tệp mới. **Còn thiếu 11 tệp** tại bản dựng này. `run-ai10-strict.mjs --verify-only` trả **exit 1** đúng thiết kế — **không** báo full suite đã qua.
+- Chạy `auditAI10DependencyClosure` trên 13 tệp test cục bộ đạt, phát hiện chính xác **30 tệp tham chiếu tĩnh**, gồm **26 tệp mô-đun/test và 4 JSON**, không có lỗi phụ thuộc thuộc tập kiểm hiện có.
+- Đã kiểm thử bằng fixture Git thật (tạo và commit trên máy): checkout sạch qua `--verify-git-head` và `--run-git-head`; sửa `.mjs` hoặc `.json`, sửa có cùng byte-length, stage nhưng chưa commit, import tệp chưa tracked đều bị từ chối. Kho giả lập chưa đủ phụ thuộc cũng bị chặn **trước** bước test.
+- Chưa chạy 24/24 tệp test trên checkout GitHub nguyên vẹn, GitHub Actions, hay hồi quy V53.
+
+## 4. Mã/tệp thay đổi trong bản vá này
+
+**Tệp mới:**
+
+- `ai10-dependency-audit.mjs`
+- `ai10-git-tree-audit.mjs`
+- `test-ai10-dependency-audit.mjs` (**12 ca kiểm**)
+- `test-ai10-git-tree-audit.mjs` (**10 ca kiểm**)
+- `DEPENDENCY_HARDENING_REPORT.md` và `DEPENDENCY_HARDENING_STATE.json`
+
+**Tệp sửa:**
+
+- `run-ai10-strict.mjs` (thêm closure + chế độ kiểm Git HEAD)
+- `test-ai10-test-audit.mjs` (đổi fixture thử CLI và số tệp manifest 22 → 24)
+- `TEST_MANIFEST.json` (đúng Git blob SHA/byte của hai test mới và test cũ đã cập nhật)
+
+Không đụng `main`, engine, frontend, V53, `COVERAGE.json`, ZIP hay dữ liệu thuộc lane khác.
+
+## 5. Hướng dẫn chạy khi có checkout đầy đủ và quyền GitHub đã hoạt động trở lại
+
+Từ thư mục gốc repo đã checkout đúng nhánh:
+
+```bash
+node collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/run-ai10-strict.mjs --verify-only
+node collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/run-ai10-strict.mjs --verify-git-head
+node collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/run-ai10-strict.mjs --run-git-head
+```
+
+**Chỉ cho phép đề xuất nghiệm thu kỹ thuật đầy đủ** sau khi 24/24 tệp test được xác nhận byte và tất cả các test thực sự pass trên checkout nguyên vẹn. Nếu Git SHA trong manifest chưa khớp phiên bản nhánh đã thay đổi do AI khác, cần rà soát và cập nhật manifest bằng bằng chứng trước khi tiếp tục, **không tự thay số hoặc bỏ qua cảnh báo**.
+
+Khi GitHub hết trả 403, dùng file `.patch` đính kèm ngoài kho, `git apply --check` rồi `git apply` trên `codex/ai-10-tam-thuc` từ baseline nêu trên, chạy lại đầy đủ, cập nhật Draft PR #11; không merge tự động.

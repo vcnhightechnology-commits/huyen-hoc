@@ -1,0 +1,19 @@
+{
+  "records": [
+    {
+      "file": "tmp/bazi-true-ghost-context-staging/ACTUAL_RUNTIME.json",
+      "bytes": 1940,
+      "sha256": "685c66ddda02cc3471aa3a7c7277141ec4ddde19dc2381c61870a4229a315456",
+      "purpose": "Reuse己卯/己酉only",
+      "queriesRerun": 0
+    },
+    {
+      "file": "v53/research/bazi-branch-harm/ACTUAL_RUNTIME.json",
+      "bytes": 2635,
+      "sha256": "d6983fd1d33531220128dbeb8e6a275a6cfa82bf16e9e271801a8d87248cd63f",
+      "purpose": "Reuse12CHONGrows",
+      "queriesRerun": 0
+    }
+  ],
+  "newEngineCallsInReuse": 0
+}

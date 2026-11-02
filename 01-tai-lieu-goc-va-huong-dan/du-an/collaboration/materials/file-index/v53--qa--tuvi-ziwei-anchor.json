@@ -1,0 +1,41 @@
+{
+  "scope": "v53/qa/tuvi-ziwei-anchor",
+  "files": [
+    {
+      "file": "v53/qa/tuvi-ziwei-anchor/REFERENCE_RESULTS.json",
+      "bytes": 239385,
+      "sha256": "ccc2bef1ee93747dc9c0b819e196712e6e2d16ab6be20e02516632f551d40fb7",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/ccc2bef1ee93747dc9c0b819e196712e6e2d16ab6be20e02516632f551d40fb7",
+      "httpRange": {
+        "offset": 49281866,
+        "compressedBytes": 8229,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/tuvi-ziwei-anchor/RELEASE_RESULTS.json",
+      "bytes": 1545,
+      "sha256": "8a67aabb132af9bddece83395a3061076075c4c81d43125eb6f0096801345c40",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8a67aabb132af9bddece83395a3061076075c4c81d43125eb6f0096801345c40",
+      "httpRange": {
+        "offset": 260033355,
+        "compressedBytes": 728,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/tuvi-ziwei-anchor/SOURCE_RESULTS.json",
+      "bytes": 1047,
+      "sha256": "197e10b6ac061eb9006cfdd36800b027fdceaa12429880d7b4a842d6ac2be624",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/197e10b6ac061eb9006cfdd36800b027fdceaa12429880d7b4a842d6ac2be624",
+      "httpRange": {
+        "offset": 335529903,
+        "compressedBytes": 522,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

@@ -1,0 +1,1433 @@
+{
+  "scope": "v53/research/home-yangzhai-final-spans",
+  "files": [
+    {
+      "file": "v53/research/home-yangzhai-final-spans/PROMOTION_IDENTITIES.json",
+      "bytes": 36631,
+      "sha256": "7adec83542eb2ad4af112ff2311d5698c7eb82529fb81cddb89193715ea33ac3",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7adec83542eb2ad4af112ff2311d5698c7eb82529fb81cddb89193715ea33ac3",
+      "httpRange": {
+        "offset": 34379197,
+        "compressedBytes": 8654,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/SOURCE_DISPOSITIONS.json",
+      "bytes": 3905,
+      "sha256": "849355b928ee4ddd0a6f2fc2e61fb436ac7a271d3016799cd1a2f16d46f21862",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/849355b928ee4ddd0a6f2fc2e61fb436ac7a271d3016799cd1a2f16d46f21862",
+      "httpRange": {
+        "offset": 200528982,
+        "compressedBytes": 1488,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/STAGED_promote.py",
+      "bytes": 6834,
+      "sha256": "285a7a4678a14581991c28f032e46daf871b1881f8275228b4bea7f52ff5c2c7",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/285a7a4678a14581991c28f032e46daf871b1881f8275228b4bea7f52ff5c2c7",
+      "httpRange": {
+        "offset": 155740312,
+        "compressedBytes": 3041,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/STAGED_verify-native.py",
+      "bytes": 4775,
+      "sha256": "4fd130b6b170b75cabacc07f8ccf16db3196333a611dced0fc7d8a4155999ecc",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4fd130b6b170b75cabacc07f8ccf16db3196333a611dced0fc7d8a4155999ecc",
+      "httpRange": {
+        "offset": 344766692,
+        "compressedBytes": 2309,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/UNIT_MAP.json",
+      "bytes": 7524,
+      "sha256": "b55bf8a71655dcec9fb9217aac33f7d849295873c6ce6bc18c66a2bc722ee65d",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b55bf8a71655dcec9fb9217aac33f7d849295873c6ce6bc18c66a2bc722ee65d",
+      "httpRange": {
+        "offset": 379440148,
+        "compressedBytes": 2178,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/WORK_STATE.json",
+      "bytes": 3482,
+      "sha256": "fcc6899719ca095c566d9d9f3ec70d048dfd552a229fcd7db40d7afa008161a0",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/fcc6899719ca095c566d9d9f3ec70d048dfd552a229fcd7db40d7afa008161a0",
+      "httpRange": {
+        "offset": 287055049,
+        "compressedBytes": 2025,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/CONTEXT_READINGS.json",
+      "bytes": 6350,
+      "sha256": "db938ab612f483a50d56d6593939c501afb30b753c50a6f3ad2ea2434e1fcc5f",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/db938ab612f483a50d56d6593939c501afb30b753c50a6f3ad2ea2434e1fcc5f",
+      "httpRange": {
+        "offset": 219140217,
+        "compressedBytes": 2376,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/PANEL_INVENTORY.json",
+      "bytes": 32742,
+      "sha256": "3992c95e8348056bef0f24198f2e4db90b75574225e2e00d02d175a1aab06eaf",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/3992c95e8348056bef0f24198f2e4db90b75574225e2e00d02d175a1aab06eaf",
+      "httpRange": {
+        "offset": 371492732,
+        "compressedBytes": 1448,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/RAW_IMAGES.json",
+      "bytes": 10392,
+      "sha256": "8d2ddf071c490ddfba06490139d58f9ad2acb99587112441591bd08e14e786a1",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8d2ddf071c490ddfba06490139d58f9ad2acb99587112441591bd08e14e786a1",
+      "httpRange": {
+        "offset": 280597347,
+        "compressedBytes": 1891,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/STAGED_WORK_STATE.json",
+      "bytes": 1672,
+      "sha256": "ee55de77fdf62da5bd129bb769e530c4d00234c4d5119b699584eb65f1e2935b",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ee55de77fdf62da5bd129bb769e530c4d00234c4d5119b699584eb65f1e2935b",
+      "httpRange": {
+        "offset": 112413468,
+        "compressedBytes": 944,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/STAGED_extract-raw.py",
+      "bytes": 1534,
+      "sha256": "e9ae2b229c9068fc8ba9d26389c25ccbf09dba74bb2826f8efc32f311614a6ed",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/e9ae2b229c9068fc8ba9d26389c25ccbf09dba74bb2826f8efc32f311614a6ed",
+      "httpRange": {
+        "offset": 48900582,
+        "compressedBytes": 933,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/raw-p013.jpg",
+      "bytes": 692607,
+      "sha256": "b345a873a316e9f8ab415f86f2ea21e4cacf283bbb5972be1c3805a18f926d4d",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b345a873a316e9f8ab415f86f2ea21e4cacf283bbb5972be1c3805a18f926d4d",
+      "httpRange": {
+        "offset": 358493161,
+        "compressedBytes": 691893,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/raw-p014.jpg",
+      "bytes": 714525,
+      "sha256": "9d4b490272c289b2b4d45a7ad14a74d6f3a9c16934eab0f3e34771d6a0f5485b",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9d4b490272c289b2b4d45a7ad14a74d6f3a9c16934eab0f3e34771d6a0f5485b",
+      "httpRange": {
+        "offset": 111869079,
+        "compressedBytes": 713751,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/raw-p015.jpg",
+      "bytes": 739023,
+      "sha256": "eeffd20ca12f3328deeb36741f338960fcf16bdb9e1542a19d3c285a1d508044",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/eeffd20ca12f3328deeb36741f338960fcf16bdb9e1542a19d3c285a1d508044",
+      "httpRange": {
+        "offset": 121705164,
+        "compressedBytes": 738052,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/raw-p016.jpg",
+      "bytes": 731653,
+      "sha256": "f38aafc23c4aa9949671db25796b18daa2d1b364dd1be1772a5671a5989f66ef",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f38aafc23c4aa9949671db25796b18daa2d1b364dd1be1772a5671a5989f66ef",
+      "httpRange": {
+        "offset": 177112592,
+        "compressedBytes": 730712,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/raw-p017.jpg",
+      "bytes": 748547,
+      "sha256": "17c6add04401d93e417e744efd86bf6fdce3144e11d8fb81c734ff8bff5eebda",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/17c6add04401d93e417e744efd86bf6fdce3144e11d8fb81c734ff8bff5eebda",
+      "httpRange": {
+        "offset": 316073901,
+        "compressedBytes": 746362,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/raw-p018.jpg",
+      "bytes": 739853,
+      "sha256": "35217aaccbbfd10b5d585edca61d7696b295990c259367a0cd59fe88b744fb18",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/35217aaccbbfd10b5d585edca61d7696b295990c259367a0cd59fe88b744fb18",
+      "httpRange": {
+        "offset": 318131387,
+        "compressedBytes": 738938,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/raw-p019.jpg",
+      "bytes": 707802,
+      "sha256": "3d3d060b492529c816a7b96e74531e1ed77c107d946f9cde5878d24a7f5eee56",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/3d3d060b492529c816a7b96e74531e1ed77c107d946f9cde5878d24a7f5eee56",
+      "httpRange": {
+        "offset": 401180150,
+        "compressedBytes": 706001,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/raw-p020.jpg",
+      "bytes": 705540,
+      "sha256": "819e74acedbb2deb8f54d6b00576d68a847f1d299cacfd2a15aa42734ee3a4ca",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/819e74acedbb2deb8f54d6b00576d68a847f1d299cacfd2a15aa42734ee3a4ca",
+      "httpRange": {
+        "offset": 82054112,
+        "compressedBytes": 704064,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/raw-p021.jpg",
+      "bytes": 694652,
+      "sha256": "deca82f48ef7b0f9efb4de0aac1a7dd9447068c2116aa338259b8d2e439ac7f6",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/deca82f48ef7b0f9efb4de0aac1a7dd9447068c2116aa338259b8d2e439ac7f6",
+      "httpRange": {
+        "offset": 255533928,
+        "compressedBytes": 693617,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/raw-p022.jpg",
+      "bytes": 622226,
+      "sha256": "57c5a99f8ca5860a7b18bec62216d9e9355ad0e08e50a0755f7b189cbf49a923",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/57c5a99f8ca5860a7b18bec62216d9e9355ad0e08e50a0755f7b189cbf49a923",
+      "httpRange": {
+        "offset": 221600946,
+        "compressedBytes": 621994,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/raw-p023.jpg",
+      "bytes": 744194,
+      "sha256": "e2d3c9b80696782d52fecf9933ae3be093f1300f6b413111b37f5245fbb79762",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e2d3c9b80696782d52fecf9933ae3be093f1300f6b413111b37f5245fbb79762",
+      "httpRange": {
+        "offset": 308685631,
+        "compressedBytes": 743254,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/raw-p024.jpg",
+      "bytes": 766551,
+      "sha256": "a033b4b2799332c19130f7433cb738c23004e0f309e4b95b8552053bf87255ba",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a033b4b2799332c19130f7433cb738c23004e0f309e4b95b8552053bf87255ba",
+      "httpRange": {
+        "offset": 146153662,
+        "compressedBytes": 766081,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/raw-p025.jpg",
+      "bytes": 739656,
+      "sha256": "86fe2f37c6ce970d8e116e51f1a25d7e0c5162c48fd7f15a4ad4e4828405369c",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/86fe2f37c6ce970d8e116e51f1a25d7e0c5162c48fd7f15a4ad4e4828405369c",
+      "httpRange": {
+        "offset": 219428123,
+        "compressedBytes": 739168,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/raw-p026.jpg",
+      "bytes": 745569,
+      "sha256": "7cc9c1ca78de8c9c03dda47afcf408ed77c6411aade10a250a567eb215c838b8",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7cc9c1ca78de8c9c03dda47afcf408ed77c6411aade10a250a567eb215c838b8",
+      "httpRange": {
+        "offset": 46864629,
+        "compressedBytes": 744736,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/raw-p027.jpg",
+      "bytes": 764316,
+      "sha256": "b80447cc94121cb37a250f98b356a9568c1f010bda19d47e2a9269ee06cef90b",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/b80447cc94121cb37a250f98b356a9568c1f010bda19d47e2a9269ee06cef90b",
+      "httpRange": {
+        "offset": 168060011,
+        "compressedBytes": 763568,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/raw-p028.jpg",
+      "bytes": 742458,
+      "sha256": "449f82fe31ab81890f15bc2b31fa11da89b445ae0e27b49374fad3098bfc0298",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/449f82fe31ab81890f15bc2b31fa11da89b445ae0e27b49374fad3098bfc0298",
+      "httpRange": {
+        "offset": 176203254,
+        "compressedBytes": 741569,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/raw-p029.jpg",
+      "bytes": 781104,
+      "sha256": "6bd5c48ddc0c2cc103436a8900d5f6d94b4ed6d3bcfd4da9e7012cfc0a82ed5e",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6bd5c48ddc0c2cc103436a8900d5f6d94b4ed6d3bcfd4da9e7012cfc0a82ed5e",
+      "httpRange": {
+        "offset": 262244620,
+        "compressedBytes": 779358,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/raw-p030.jpg",
+      "bytes": 725714,
+      "sha256": "7e06f21ccd38e9d071d3e8069ef9aadb8637304d9735f461af27f2919e6cbd7a",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7e06f21ccd38e9d071d3e8069ef9aadb8637304d9735f461af27f2919e6cbd7a",
+      "httpRange": {
+        "offset": 58275755,
+        "compressedBytes": 724755,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/raw-p031.jpg",
+      "bytes": 745627,
+      "sha256": "8b74b1057ffd9349cb17d1f5aded649ea7c17e13e64e6c9cbd7acb1bdc220917",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8b74b1057ffd9349cb17d1f5aded649ea7c17e13e64e6c9cbd7acb1bdc220917",
+      "httpRange": {
+        "offset": 266411208,
+        "compressedBytes": 745553,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/raw-p032.jpg",
+      "bytes": 748078,
+      "sha256": "33b1a9f51321c7d54ac6cd984a7cdd68949f459eab5ef5ad10552524f5e2dc7c",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/33b1a9f51321c7d54ac6cd984a7cdd68949f459eab5ef5ad10552524f5e2dc7c",
+      "httpRange": {
+        "offset": 270669574,
+        "compressedBytes": 746854,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/raw-p033.jpg",
+      "bytes": 695361,
+      "sha256": "e958dc3778437ec7e628257d4b35de3c6451f2a724c6314999bedc518dc7c281",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/e958dc3778437ec7e628257d4b35de3c6451f2a724c6314999bedc518dc7c281",
+      "httpRange": {
+        "offset": 44156839,
+        "compressedBytes": 694986,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/exterior/raw-p034.jpg",
+      "bytes": 814791,
+      "sha256": "ca1f1ea2ac75470764dd2efacc10b810f2aabf6fa1a4c943d1f7cbdd912863d2",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/ca1f1ea2ac75470764dd2efacc10b810f2aabf6fa1a4c943d1f7cbdd912863d2",
+      "httpRange": {
+        "offset": 404488864,
+        "compressedBytes": 812624,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/CONTEXT_READINGS.json",
+      "bytes": 13565,
+      "sha256": "b39a87f36f2c828cee1859de6e715a3ca7d571afd2212136ddd03fda36510aa8",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b39a87f36f2c828cee1859de6e715a3ca7d571afd2212136ddd03fda36510aa8",
+      "httpRange": {
+        "offset": 360005916,
+        "compressedBytes": 4885,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/MANUAL_HOUR_TABLE.json",
+      "bytes": 4737,
+      "sha256": "b5d79bc2e5cd9035724a3a83087bfce4acd52d354f677577b14fb2ad72ee3093",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/b5d79bc2e5cd9035724a3a83087bfce4acd52d354f677577b14fb2ad72ee3093",
+      "httpRange": {
+        "offset": 2667893,
+        "compressedBytes": 997,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/RAW_IMAGES.json",
+      "bytes": 20922,
+      "sha256": "8e665a0985f4a513f70b783aaa1164fd39657c830e6af0cc98f365fac9d95a26",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8e665a0985f4a513f70b783aaa1164fd39657c830e6af0cc98f365fac9d95a26",
+      "httpRange": {
+        "offset": 294971880,
+        "compressedBytes": 3408,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/READING_CORRECTION_AUDIT.json",
+      "bytes": 782,
+      "sha256": "ea1b67afa76668c9725eda0b99012002206aa393433eb0ae7ed52ed19facbc99",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ea1b67afa76668c9725eda0b99012002206aa393433eb0ae7ed52ed19facbc99",
+      "httpRange": {
+        "offset": 51317727,
+        "compressedBytes": 504,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/STAGED_WORK_STATE.json",
+      "bytes": 1312,
+      "sha256": "d4be28b7aa49b0294784e6579171f86a2f02c372450ea157f571694745b297ec",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d4be28b7aa49b0294784e6579171f86a2f02c372450ea157f571694745b297ec",
+      "httpRange": {
+        "offset": 132433829,
+        "compressedBytes": 640,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/STAGED_extract-raw.py",
+      "bytes": 1541,
+      "sha256": "cae8e355e3133efb106b81bea8faa6d01ea027a4ad145c10d328d7d96497a06f",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/cae8e355e3133efb106b81bea8faa6d01ea027a4ad145c10d328d7d96497a06f",
+      "httpRange": {
+        "offset": 422395601,
+        "compressedBytes": 938,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/STAGED_manual-hour-tables.py",
+      "bytes": 4356,
+      "sha256": "f703044e588f6fbd1e63aa2a8bf4ab85c9da3d317b60a55f7fb1920d4ad9d7f6",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f703044e588f6fbd1e63aa2a8bf4ab85c9da3d317b60a55f7fb1920d4ad9d7f6",
+      "httpRange": {
+        "offset": 218859229,
+        "compressedBytes": 2299,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/STAGED_test-hour-reference.mjs",
+      "bytes": 6151,
+      "sha256": "8fcb9ee9ff8b87faf7d0da2ae1a0854afde5e742d0740ad41f428a536faf4af5",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8fcb9ee9ff8b87faf7d0da2ae1a0854afde5e742d0740ad41f428a536faf4af5",
+      "httpRange": {
+        "offset": 300622049,
+        "compressedBytes": 2533,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p124.jpg",
+      "bytes": 787481,
+      "sha256": "bfc43c5155139f8b1bff21009d222967f37c97d64ad83bf478260f5d2ca0a957",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bfc43c5155139f8b1bff21009d222967f37c97d64ad83bf478260f5d2ca0a957",
+      "httpRange": {
+        "offset": 231924158,
+        "compressedBytes": 785719,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p125.jpg",
+      "bytes": 780162,
+      "sha256": "552beb1e7f961b6fe8206bacbf9e3dd4f963d7b8b100f337abaede3e8425be77",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/552beb1e7f961b6fe8206bacbf9e3dd4f963d7b8b100f337abaede3e8425be77",
+      "httpRange": {
+        "offset": 145182790,
+        "compressedBytes": 778681,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p126.jpg",
+      "bytes": 813414,
+      "sha256": "585a814949f28530ccc3a9b06f88a92fde2d09522c8cc27d92658f7046504cf4",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/585a814949f28530ccc3a9b06f88a92fde2d09522c8cc27d92658f7046504cf4",
+      "httpRange": {
+        "offset": 226184220,
+        "compressedBytes": 811742,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p127.jpg",
+      "bytes": 764519,
+      "sha256": "06d0b29eaef400186f6aa8fb1d145592a78f97cc3859f736ada6d752dd77472f",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/06d0b29eaef400186f6aa8fb1d145592a78f97cc3859f736ada6d752dd77472f",
+      "httpRange": {
+        "offset": 127845605,
+        "compressedBytes": 763434,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p128.jpg",
+      "bytes": 795676,
+      "sha256": "7a46440d74978e4eddf0501b28fd15c60519317dc5ca383f8d44fc80d76c727f",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7a46440d74978e4eddf0501b28fd15c60519317dc5ca383f8d44fc80d76c727f",
+      "httpRange": {
+        "offset": 10168189,
+        "compressedBytes": 794122,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p129.jpg",
+      "bytes": 793452,
+      "sha256": "504006d1a07e20c6646393d21bf11382e68a7f6ab523c5494ed929091d2a7c25",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/504006d1a07e20c6646393d21bf11382e68a7f6ab523c5494ed929091d2a7c25",
+      "httpRange": {
+        "offset": 348054260,
+        "compressedBytes": 790716,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p130.jpg",
+      "bytes": 811647,
+      "sha256": "fcb023d42104581b9892bada7aca5c6acf1cff4279eb6a1d77296fc45724b900",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/fcb023d42104581b9892bada7aca5c6acf1cff4279eb6a1d77296fc45724b900",
+      "httpRange": {
+        "offset": 283686164,
+        "compressedBytes": 809526,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p131.jpg",
+      "bytes": 810368,
+      "sha256": "e8e587a003957124e35252d9885ba8b2ec0f4eb413a5606a10523f1e4d0408f0",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/e8e587a003957124e35252d9885ba8b2ec0f4eb413a5606a10523f1e4d0408f0",
+      "httpRange": {
+        "offset": 39066186,
+        "compressedBytes": 807714,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p132.jpg",
+      "bytes": 782747,
+      "sha256": "11c129deb71d22641ead689d2dd980466ce9220660f79a903b578a2cdd0ab4a3",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/11c129deb71d22641ead689d2dd980466ce9220660f79a903b578a2cdd0ab4a3",
+      "httpRange": {
+        "offset": 238189490,
+        "compressedBytes": 780797,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p133.jpg",
+      "bytes": 825493,
+      "sha256": "836080a49e668456d3e66200f011ef0a224dcd72ddbe07dbb091762c87185da0",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/836080a49e668456d3e66200f011ef0a224dcd72ddbe07dbb091762c87185da0",
+      "httpRange": {
+        "offset": 190520966,
+        "compressedBytes": 822504,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p134.jpg",
+      "bytes": 794481,
+      "sha256": "421266ea4de843a0a13575fb43e07893bfe8e9482b861627a7d2f43146423895",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/421266ea4de843a0a13575fb43e07893bfe8e9482b861627a7d2f43146423895",
+      "httpRange": {
+        "offset": 147334750,
+        "compressedBytes": 791837,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p135.jpg",
+      "bytes": 803383,
+      "sha256": "24ae6c35123eef3f4164cd902d18e7863802ed9364b483d095ea839ca954ed5d",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/24ae6c35123eef3f4164cd902d18e7863802ed9364b483d095ea839ca954ed5d",
+      "httpRange": {
+        "offset": 125784919,
+        "compressedBytes": 801222,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p136.jpg",
+      "bytes": 796507,
+      "sha256": "52332be84314af1f83a0840832695b77b33c56b6c1c3af12c8e4b92c32f790dc",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/52332be84314af1f83a0840832695b77b33c56b6c1c3af12c8e4b92c32f790dc",
+      "httpRange": {
+        "offset": 111579095,
+        "compressedBytes": 794350,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p137.jpg",
+      "bytes": 886914,
+      "sha256": "8b0985252340d2345a6bd1db9c9e312c51a449be77abc37233cc57154ab9959c",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8b0985252340d2345a6bd1db9c9e312c51a449be77abc37233cc57154ab9959c",
+      "httpRange": {
+        "offset": 263184716,
+        "compressedBytes": 885950,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p138.jpg",
+      "bytes": 870246,
+      "sha256": "9c3f7111c7ad23611847b2c04e0f9450953f76691674cc6f27f310eff21008d9",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9c3f7111c7ad23611847b2c04e0f9450953f76691674cc6f27f310eff21008d9",
+      "httpRange": {
+        "offset": 103408672,
+        "compressedBytes": 868410,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p139.jpg",
+      "bytes": 917489,
+      "sha256": "da891fd487b1b929db29112e2d96ec80930ec29259c4bbe6afaf537642273790",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/da891fd487b1b929db29112e2d96ec80930ec29259c4bbe6afaf537642273790",
+      "httpRange": {
+        "offset": 212339552,
+        "compressedBytes": 915796,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p140.jpg",
+      "bytes": 876738,
+      "sha256": "fa8517403f82c04a8f4d2295d956bd0740fc9931d079e150c4984824179ac744",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/fa8517403f82c04a8f4d2295d956bd0740fc9931d079e150c4984824179ac744",
+      "httpRange": {
+        "offset": 257444319,
+        "compressedBytes": 874973,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p141.jpg",
+      "bytes": 870910,
+      "sha256": "32f720ffef38300ccecffa5ce90e83d1c677356597c4c55c029c6e86993f2022",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/32f720ffef38300ccecffa5ce90e83d1c677356597c4c55c029c6e86993f2022",
+      "httpRange": {
+        "offset": 265260653,
+        "compressedBytes": 868806,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p142.jpg",
+      "bytes": 890117,
+      "sha256": "2dead110f058048b25cc59b2facb810cfc6c752229b3673fb4d44a176f0f76ad",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2dead110f058048b25cc59b2facb810cfc6c752229b3673fb4d44a176f0f76ad",
+      "httpRange": {
+        "offset": 216316169,
+        "compressedBytes": 888460,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p143.jpg",
+      "bytes": 871307,
+      "sha256": "01f64c3a35479532a33a84bde8b2ef341d71b49e8d5a6322c6a367b057ee266d",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/01f64c3a35479532a33a84bde8b2ef341d71b49e8d5a6322c6a367b057ee266d",
+      "httpRange": {
+        "offset": 93806473,
+        "compressedBytes": 869582,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p144.jpg",
+      "bytes": 843947,
+      "sha256": "2870a56a8ec8bad7dc635c7b23bc2e3196763510e9c519027918b15d687cfd8d",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2870a56a8ec8bad7dc635c7b23bc2e3196763510e9c519027918b15d687cfd8d",
+      "httpRange": {
+        "offset": 158489010,
+        "compressedBytes": 842184,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p145.jpg",
+      "bytes": 841508,
+      "sha256": "df17a9db29274581394c3658cb0698c47837f5eab4dbab7056e98e60653904ac",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/df17a9db29274581394c3658cb0698c47837f5eab4dbab7056e98e60653904ac",
+      "httpRange": {
+        "offset": 263961981,
+        "compressedBytes": 839910,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p146.jpg",
+      "bytes": 796025,
+      "sha256": "6e2dae475bf2e2fd6706b56e1a1e4d5de808c2e4848168ffa1bfbf4918be2b40",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6e2dae475bf2e2fd6706b56e1a1e4d5de808c2e4848168ffa1bfbf4918be2b40",
+      "httpRange": {
+        "offset": 273214621,
+        "compressedBytes": 794137,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p147.jpg",
+      "bytes": 806038,
+      "sha256": "bb85458a86a5c07db8c366fae8b16e67329f43ffd04bd840cd2c798597f589da",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bb85458a86a5c07db8c366fae8b16e67329f43ffd04bd840cd2c798597f589da",
+      "httpRange": {
+        "offset": 191638709,
+        "compressedBytes": 803544,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p148.jpg",
+      "bytes": 899843,
+      "sha256": "f1cb3e7b653b5e44ff78d02efc6f38a9e7719c7fbfc19f1d5def3c9c41b70e3d",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f1cb3e7b653b5e44ff78d02efc6f38a9e7719c7fbfc19f1d5def3c9c41b70e3d",
+      "httpRange": {
+        "offset": 162443642,
+        "compressedBytes": 898492,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p149.jpg",
+      "bytes": 880231,
+      "sha256": "bef01799fcbe06a452d75a05453e040c4bb1904c7fe624f28905c4dd263b8b90",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bef01799fcbe06a452d75a05453e040c4bb1904c7fe624f28905c4dd263b8b90",
+      "httpRange": {
+        "offset": 219367472,
+        "compressedBytes": 877838,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p150.jpg",
+      "bytes": 755565,
+      "sha256": "45a87921acfaa043195b3cde51bab4f01374a6a68585dfac69d1a27bd31b236c",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/45a87921acfaa043195b3cde51bab4f01374a6a68585dfac69d1a27bd31b236c",
+      "httpRange": {
+        "offset": 195605224,
+        "compressedBytes": 754672,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p151.jpg",
+      "bytes": 807917,
+      "sha256": "69d54b00c7b1faf5158234325e233e35eff9c721dfae78aaef0e6d8e44de3b2b",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/69d54b00c7b1faf5158234325e233e35eff9c721dfae78aaef0e6d8e44de3b2b",
+      "httpRange": {
+        "offset": 238627982,
+        "compressedBytes": 805966,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p152.jpg",
+      "bytes": 797175,
+      "sha256": "7101903f083ada1cc468b11efd73d7a0be720314916b4ac0ed1fb0f3727c9e8b",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/7101903f083ada1cc468b11efd73d7a0be720314916b4ac0ed1fb0f3727c9e8b",
+      "httpRange": {
+        "offset": 319287378,
+        "compressedBytes": 794743,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p153.jpg",
+      "bytes": 829971,
+      "sha256": "7af4c1e60c5d627292b85b0f7b2c9f505341523c6bc74cdbebf08226449b05b4",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7af4c1e60c5d627292b85b0f7b2c9f505341523c6bc74cdbebf08226449b05b4",
+      "httpRange": {
+        "offset": 34859165,
+        "compressedBytes": 827899,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p154.jpg",
+      "bytes": 882484,
+      "sha256": "ccf83db70f11b6764c6d3ed3558f31497d56f45c746e4952ce7ad2939eee9e5b",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/ccf83db70f11b6764c6d3ed3558f31497d56f45c746e4952ce7ad2939eee9e5b",
+      "httpRange": {
+        "offset": 50758630,
+        "compressedBytes": 880950,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p155.jpg",
+      "bytes": 804355,
+      "sha256": "19fd17138c742ee522eb1f37c7da8bfb742bee95079b6ba05c1ddb41a4de3863",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/19fd17138c742ee522eb1f37c7da8bfb742bee95079b6ba05c1ddb41a4de3863",
+      "httpRange": {
+        "offset": 341531121,
+        "compressedBytes": 802353,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p156.jpg",
+      "bytes": 807409,
+      "sha256": "b73bc8dc1160d543b825b1fe5a2fe308e6dabc3793d4de464e5b55a62fc00819",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/b73bc8dc1160d543b825b1fe5a2fe308e6dabc3793d4de464e5b55a62fc00819",
+      "httpRange": {
+        "offset": 159586681,
+        "compressedBytes": 805257,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p157.jpg",
+      "bytes": 794645,
+      "sha256": "19a6b1a721cac0b24762de472050027e0d2d1bc9648405521b3b0c7388df9a86",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/19a6b1a721cac0b24762de472050027e0d2d1bc9648405521b3b0c7388df9a86",
+      "httpRange": {
+        "offset": 336971526,
+        "compressedBytes": 792625,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p158.jpg",
+      "bytes": 779987,
+      "sha256": "57a489216f7131fedf7ef37ed4b6a6ccb327c8954325ff56f73ecde199deb443",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/57a489216f7131fedf7ef37ed4b6a6ccb327c8954325ff56f73ecde199deb443",
+      "httpRange": {
+        "offset": 220083556,
+        "compressedBytes": 778962,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p159.jpg",
+      "bytes": 800654,
+      "sha256": "b44698a9f951a8d2f1e617925780ca704df3dfe715c0264b47eddf5e46559ed8",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b44698a9f951a8d2f1e617925780ca704df3dfe715c0264b47eddf5e46559ed8",
+      "httpRange": {
+        "offset": 370011207,
+        "compressedBytes": 797216,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p160.jpg",
+      "bytes": 795298,
+      "sha256": "71f1d8761aeab5d5102c493566878ace381d0258b7fae395f6fb4cc96d9452a9",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/71f1d8761aeab5d5102c493566878ace381d0258b7fae395f6fb4cc96d9452a9",
+      "httpRange": {
+        "offset": 330585163,
+        "compressedBytes": 792919,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p161.jpg",
+      "bytes": 738118,
+      "sha256": "61272135880787aa7c35592d937e4e9c25d4e9f6d1b3cfcd5ffd7ef8c7b4cc5b",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/61272135880787aa7c35592d937e4e9c25d4e9f6d1b3cfcd5ffd7ef8c7b4cc5b",
+      "httpRange": {
+        "offset": 73469247,
+        "compressedBytes": 737076,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p162.jpg",
+      "bytes": 749818,
+      "sha256": "8a53705ab7342d1d16ff932b866c2b002e4f72dc7c000eb5cb27b3a0a62ccab4",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8a53705ab7342d1d16ff932b866c2b002e4f72dc7c000eb5cb27b3a0a62ccab4",
+      "httpRange": {
+        "offset": 250929143,
+        "compressedBytes": 748866,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p163.jpg",
+      "bytes": 764980,
+      "sha256": "ce9127a73c759daafaf5a2c5db249a72d2998af6959a283320a33163e3112643",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/ce9127a73c759daafaf5a2c5db249a72d2998af6959a283320a33163e3112643",
+      "httpRange": {
+        "offset": 73484232,
+        "compressedBytes": 763724,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p164.jpg",
+      "bytes": 776316,
+      "sha256": "d55ae0061ca58b988e176ca6c6157408c6f3c3eb4e0136eebc7a237a705e4f5f",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d55ae0061ca58b988e176ca6c6157408c6f3c3eb4e0136eebc7a237a705e4f5f",
+      "httpRange": {
+        "offset": 146032271,
+        "compressedBytes": 774645,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p165.jpg",
+      "bytes": 819191,
+      "sha256": "8c2bfaf2023ddd6028d834d54c8d947dbeec210f0ad02c7509028986a94b0691",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8c2bfaf2023ddd6028d834d54c8d947dbeec210f0ad02c7509028986a94b0691",
+      "httpRange": {
+        "offset": 275459186,
+        "compressedBytes": 816576,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p166.jpg",
+      "bytes": 739578,
+      "sha256": "04dd2ec0891dd7408e23eaad64bd50d44fd7ce5869ceb457f5614eb4fd7b7583",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/04dd2ec0891dd7408e23eaad64bd50d44fd7ce5869ceb457f5614eb4fd7b7583",
+      "httpRange": {
+        "offset": 114434947,
+        "compressedBytes": 738324,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p167.jpg",
+      "bytes": 773606,
+      "sha256": "24464c5556f0d920cca02fe4fb256e16a4e99a99e5902c738417606f05c2bf3c",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/24464c5556f0d920cca02fe4fb256e16a4e99a99e5902c738417606f05c2bf3c",
+      "httpRange": {
+        "offset": 122801057,
+        "compressedBytes": 771952,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/raw-p168.jpg",
+      "bytes": 775819,
+      "sha256": "a547f8421242239d0027323775ebe69e44d2b8df9205ceb5823a5af9bca4113e",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a547f8421242239d0027323775ebe69e44d2b8df9205ceb5823a5af9bca4113e",
+      "httpRange": {
+        "offset": 223479554,
+        "compressedBytes": 775089,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/selection/source-hour-reference.mjs",
+      "bytes": 2434,
+      "sha256": "d1cd7e2f92d9925c16ba25207a9b5132e3527fb5a0fedc8d6c82d2cebd9b3f3d",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d1cd7e2f92d9925c16ba25207a9b5132e3527fb5a0fedc8d6c82d2cebd9b3f3d",
+      "httpRange": {
+        "offset": 113042367,
+        "compressedBytes": 1096,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/CONTEXT_READINGS.json",
+      "bytes": 8322,
+      "sha256": "e407d80b10c85054a23f08fab148c87f95665f2dc8c60d62058358020a332296",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e407d80b10c85054a23f08fab148c87f95665f2dc8c60d62058358020a332296",
+      "httpRange": {
+        "offset": 326718164,
+        "compressedBytes": 3223,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/RAW_IMAGES.json",
+      "bytes": 14214,
+      "sha256": "00e1159ccfb76df9ee445a9f125afbcf64bf5e0e98cbbee1875951500c255ece",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/00e1159ccfb76df9ee445a9f125afbcf64bf5e0e98cbbee1875951500c255ece",
+      "httpRange": {
+        "offset": 8152294,
+        "compressedBytes": 2435,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/STAGED_WORK_STATE.json",
+      "bytes": 699,
+      "sha256": "c8447e814eb91c92c9b0adf9bdce9d292242b3e2456ac8da9f5eccf4e270be17",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c8447e814eb91c92c9b0adf9bdce9d292242b3e2456ac8da9f5eccf4e270be17",
+      "httpRange": {
+        "offset": 386283013,
+        "compressedBytes": 341,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/STAGED_extract-raw.py",
+      "bytes": 1537,
+      "sha256": "8e6100f34c70c0f2507b13963fcc3509881d3484cda6c56596ee89f296771210",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8e6100f34c70c0f2507b13963fcc3509881d3484cda6c56596ee89f296771210",
+      "httpRange": {
+        "offset": 294970842,
+        "compressedBytes": 936,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p168.jpg",
+      "bytes": 775819,
+      "sha256": "a547f8421242239d0027323775ebe69e44d2b8df9205ceb5823a5af9bca4113e",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a547f8421242239d0027323775ebe69e44d2b8df9205ceb5823a5af9bca4113e",
+      "httpRange": {
+        "offset": 223479554,
+        "compressedBytes": 775089,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p169.jpg",
+      "bytes": 765928,
+      "sha256": "691c712ffb42e02d9fd870e471870b7881f63d8788f500bc9039089b7894b52a",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/691c712ffb42e02d9fd870e471870b7881f63d8788f500bc9039089b7894b52a",
+      "httpRange": {
+        "offset": 235343115,
+        "compressedBytes": 764508,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p170.jpg",
+      "bytes": 778416,
+      "sha256": "9a7663acf303120be5f1b44d7936ae44028e188ae43321acffa9ce070e99a02e",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9a7663acf303120be5f1b44d7936ae44028e188ae43321acffa9ce070e99a02e",
+      "httpRange": {
+        "offset": 44654132,
+        "compressedBytes": 776623,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p171.jpg",
+      "bytes": 799408,
+      "sha256": "d110177b8c8a19ce4cda49b0db58b77ddb4071d375f73c7c366fa552b78d241e",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d110177b8c8a19ce4cda49b0db58b77ddb4071d375f73c7c366fa552b78d241e",
+      "httpRange": {
+        "offset": 105172409,
+        "compressedBytes": 797322,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p172.jpg",
+      "bytes": 792284,
+      "sha256": "89b45be3ee24e161d37340f1333711672b886503d705ceee4b811bec4f57cdf3",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/89b45be3ee24e161d37340f1333711672b886503d705ceee4b811bec4f57cdf3",
+      "httpRange": {
+        "offset": 248263452,
+        "compressedBytes": 790151,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p173.jpg",
+      "bytes": 764443,
+      "sha256": "c4ed1b393d2275085eda460cb2bc9c7101e9ac6b60f561ad39dcaf0929413f7a",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c4ed1b393d2275085eda460cb2bc9c7101e9ac6b60f561ad39dcaf0929413f7a",
+      "httpRange": {
+        "offset": 344235935,
+        "compressedBytes": 762407,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p174.jpg",
+      "bytes": 800127,
+      "sha256": "b80a98c65ec3de081bdbe2e16850df7129bcc794e7eeb7bf70674ec5c2b9bace",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/b80a98c65ec3de081bdbe2e16850df7129bcc794e7eeb7bf70674ec5c2b9bace",
+      "httpRange": {
+        "offset": 168829046,
+        "compressedBytes": 797771,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p175.jpg",
+      "bytes": 825806,
+      "sha256": "f69e4507bdf88f63ff2f2368e0cdca01e09305af1d41eee68cb84bf61d5282d8",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f69e4507bdf88f63ff2f2368e0cdca01e09305af1d41eee68cb84bf61d5282d8",
+      "httpRange": {
+        "offset": 212171320,
+        "compressedBytes": 823801,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p176.jpg",
+      "bytes": 782883,
+      "sha256": "f00c29f1f28a6271000a0e3e62b88caf60e9cf43bc576777de5e82cd1ba98baa",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f00c29f1f28a6271000a0e3e62b88caf60e9cf43bc576777de5e82cd1ba98baa",
+      "httpRange": {
+        "offset": 134533134,
+        "compressedBytes": 781348,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p177.jpg",
+      "bytes": 777126,
+      "sha256": "104a91f77e87f44536c17cb6f772b8d8ce66322bf9ce523c286e7e075333f03e",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/104a91f77e87f44536c17cb6f772b8d8ce66322bf9ce523c286e7e075333f03e",
+      "httpRange": {
+        "offset": 227762894,
+        "compressedBytes": 775949,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p178.jpg",
+      "bytes": 786251,
+      "sha256": "21368726717cc57417b349e9a5a55377b0d33af5e0d9bf7f664097f6c0aabc47",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/21368726717cc57417b349e9a5a55377b0d33af5e0d9bf7f664097f6c0aabc47",
+      "httpRange": {
+        "offset": 85525786,
+        "compressedBytes": 784949,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p179.jpg",
+      "bytes": 745266,
+      "sha256": "72f4035ded6b56b6eae22eb6484cd290fa69c2b3114a04666205e89447361cbe",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/72f4035ded6b56b6eae22eb6484cd290fa69c2b3114a04666205e89447361cbe",
+      "httpRange": {
+        "offset": 342456940,
+        "compressedBytes": 744285,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p180.jpg",
+      "bytes": 781527,
+      "sha256": "42cb5123e55a0e622e8e403b1b13c3c948cd162164ec74cb6085b2df4803f0f3",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/42cb5123e55a0e622e8e403b1b13c3c948cd162164ec74cb6085b2df4803f0f3",
+      "httpRange": {
+        "offset": 158335019,
+        "compressedBytes": 779420,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p181.jpg",
+      "bytes": 790373,
+      "sha256": "b1a36134f3f926def9a7b90ceff9ea0508e87fd577c1a973411010a1df3c40aa",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b1a36134f3f926def9a7b90ceff9ea0508e87fd577c1a973411010a1df3c40aa",
+      "httpRange": {
+        "offset": 339332861,
+        "compressedBytes": 789743,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p182.jpg",
+      "bytes": 833633,
+      "sha256": "3b8eb65d1744b5fd87b04f95d5e42e445a2c907d9ede8571c90a0e91f501c312",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/3b8eb65d1744b5fd87b04f95d5e42e445a2c907d9ede8571c90a0e91f501c312",
+      "httpRange": {
+        "offset": 387435892,
+        "compressedBytes": 831395,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p183.jpg",
+      "bytes": 824878,
+      "sha256": "b02847725dcec12d768c5151036156147cea3b78cb0a7d5548608d5b387a9860",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b02847725dcec12d768c5151036156147cea3b78cb0a7d5548608d5b387a9860",
+      "httpRange": {
+        "offset": 320152300,
+        "compressedBytes": 822104,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p184.jpg",
+      "bytes": 788810,
+      "sha256": "17934fbe17ed98aa84858edfb4758b79ef0b22bcfd548cb4b4aca1ddec10dc64",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/17934fbe17ed98aa84858edfb4758b79ef0b22bcfd548cb4b4aca1ddec10dc64",
+      "httpRange": {
+        "offset": 314710015,
+        "compressedBytes": 786764,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p185.jpg",
+      "bytes": 796548,
+      "sha256": "ec5f3b4e74dd2e0bb4da5af20b494ccc2ab143f24a15e0da970fecb916af32ae",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ec5f3b4e74dd2e0bb4da5af20b494ccc2ab143f24a15e0da970fecb916af32ae",
+      "httpRange": {
+        "offset": 90745219,
+        "compressedBytes": 794616,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p186.jpg",
+      "bytes": 842013,
+      "sha256": "893f6baaf14cbdc246a6415e66c6fb3c530aa9b1568fab4ee5b4e4544aaf0327",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/893f6baaf14cbdc246a6415e66c6fb3c530aa9b1568fab4ee5b4e4544aaf0327",
+      "httpRange": {
+        "offset": 243577315,
+        "compressedBytes": 839261,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p187.jpg",
+      "bytes": 791257,
+      "sha256": "03a0af66e8c45de994bf8bb35d27274846a10ea0e265f3f1a650a623b00f7b60",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/03a0af66e8c45de994bf8bb35d27274846a10ea0e265f3f1a650a623b00f7b60",
+      "httpRange": {
+        "offset": 104180007,
+        "compressedBytes": 788960,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p188.jpg",
+      "bytes": 790739,
+      "sha256": "d5d4b86e76437c38aeb59349d4d6c72a60496783066b4eb2f6fea716e07a0e44",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d5d4b86e76437c38aeb59349d4d6c72a60496783066b4eb2f6fea716e07a0e44",
+      "httpRange": {
+        "offset": 151738984,
+        "compressedBytes": 788658,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p189.jpg",
+      "bytes": 805703,
+      "sha256": "d03fd7653f251b9bb9435119450aac38c6501f3f6337d40c09258904d17bc39e",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d03fd7653f251b9bb9435119450aac38c6501f3f6337d40c09258904d17bc39e",
+      "httpRange": {
+        "offset": 95832373,
+        "compressedBytes": 804093,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p190.jpg",
+      "bytes": 818512,
+      "sha256": "1a69d4ed2ccf3177a31bdaa5d3ce9d79a20a591b99628be83195e2a176147309",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1a69d4ed2ccf3177a31bdaa5d3ce9d79a20a591b99628be83195e2a176147309",
+      "httpRange": {
+        "offset": 345157170,
+        "compressedBytes": 815788,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p191.jpg",
+      "bytes": 833791,
+      "sha256": "b59d823bfe7b1fd7e50fc8a36ad2478b6a231b28e6d67b1a8dd892e9415625ae",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b59d823bfe7b1fd7e50fc8a36ad2478b6a231b28e6d67b1a8dd892e9415625ae",
+      "httpRange": {
+        "offset": 383166999,
+        "compressedBytes": 831577,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p192.jpg",
+      "bytes": 840195,
+      "sha256": "2acee7e64cde2af4f227b1d46becedf31c5186e215911fce0421b433df15b71d",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2acee7e64cde2af4f227b1d46becedf31c5186e215911fce0421b433df15b71d",
+      "httpRange": {
+        "offset": 189397166,
+        "compressedBytes": 838592,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p193.jpg",
+      "bytes": 811853,
+      "sha256": "f79870f1172993c72b44b448ce6c0ac8847893fe06bf81ece9161161109199ea",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f79870f1172993c72b44b448ce6c0ac8847893fe06bf81ece9161161109199ea",
+      "httpRange": {
+        "offset": 222086027,
+        "compressedBytes": 810404,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p194.jpg",
+      "bytes": 847242,
+      "sha256": "4af77bc3e89b602e12a443b566dcb0cb2da2cb61864d8b8640410073f03d09e7",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4af77bc3e89b602e12a443b566dcb0cb2da2cb61864d8b8640410073f03d09e7",
+      "httpRange": {
+        "offset": 279922291,
+        "compressedBytes": 846167,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/home-yangzhai-final-spans/talismans/raw-p195.jpg",
+      "bytes": 682489,
+      "sha256": "31ae2cea928d5e8b8f95e1f5695053969734fe5a2993ef776fd955aad0d97d1e",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/31ae2cea928d5e8b8f95e1f5695053969734fe5a2993ef776fd955aad0d97d1e",
+      "httpRange": {
+        "offset": 250709568,
+        "compressedBytes": 682285,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

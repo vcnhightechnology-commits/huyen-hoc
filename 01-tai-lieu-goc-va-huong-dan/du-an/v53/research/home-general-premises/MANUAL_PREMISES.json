@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-29",
+  "relatedWork": "選擇要略/中/總論",
+  "independentP08Edition": false,
+  "scope": "Selected operation and functional-anchor premises only, not the whole general method or calendar adapter.",
+  "systems": {
+    "continuity": "ITKC-GO1508A.總論.work-continuity.v1",
+    "central": "ITKC-GO1508A.總論.central-repair-premises.v1",
+    "anchor": "ITKC-GO1508A.總論.functional-anchor.v1",
+    "window": "ITKC-GO1508A.總論.year-officer-repair-window.v1"
+  },
+  "records": [
+    {
+      "id": "continuity",
+      "title": "論修方用工法",
+      "positions": [
+        257,
+        258
+      ],
+      "literalUnpunctuated": "自竪柱之後相連用工不住手雖過月節修作無妨若一住手從月建節侯已過欲再起用工又得吉神盖照方道起可用工但無凶殺亦可用工若過月節為凶神所占切不宜再起用工如其月方道無殺亦可修作至如擇日與竪造同",
+      "croppedImageCollated": true,
+      "editorialConditions": [
+        "The opening after-pillar-raising condition is retained for this evaluator.",
+        "A crossed source month/term must be explicitly declared, never computed from an adopted calendar.",
+        "Continuous work receives only the local cross-boundary statement. Paused work requires current-direction reassessment.",
+        "A benefic alone does not establish absence of harmful occupants; source veto is retained.",
+        "A declared no-harm condition has an explicit local permission; no full choice-of-day evaluation is implied."
+      ]
+    },
+    {
+      "id": "central",
+      "title": "論修中宮法",
+      "positions": [
+        258,
+        259
+      ],
+      "literalUnpunctuated": "人家以茶亭為中茶亭即今明樓神廟庵堂以殿堂中為中宮自屋簷滴水內皆謂之中宮凡修中宮但要中宮無殺而有吉會修作不妨若一住手過月踰節恐為凶神所占不宜再起手用工至如修中宮宜明樓中正坐符使",
+      "croppedImageCollated": true,
+      "readingQualification": "茶亭 follows institutional transcription; historical hall terminology and rare glyph identification remain separate from a modern plan label. Do not claim a measured geometric definition.",
+      "editorialConditions": [
+        "無殺而有吉 retained as a conjunction.",
+        "Return a local initial conjunction, plus paused/crossed warning separately. No automatic priority between the opening conjunction and restart warning.",
+        "屋簷滴水內 is retained literally, not a polygon/centroid algorithm.",
+        "坐符使 is recorded as source practice, excluded from product actions."
+      ]
+    },
+    {
+      "id": "anchor",
+      "title": "論修作用盤針定中宮方道法",
+      "positions": [
+        259
+      ],
+      "literalUnpunctuated": "凡公府以正廳為中寺觀以佛道聖像取壇座為中社壇以神主為中宮民宅舍以茶亭為中或是隔舍畫堂皆以向中一間為中或是單棟宅舍祖先福神香火安於左右敖間內人眷房舍住歸一頭亦以中間房舍為中若在正屋側畔橫棟屋內住坐安奉祖先福神香火於橫棟屋內亦取向中一間為中如人家止有正廳却無明樓前有廊後有房只取正廳當中對棟柱置羅經依上用羅經格定萬無一失",
+      "croppedImageCollated": true,
+      "readingQualification": "Anchors are named text referents; rare hall glyph/architectural equivalence unresolved. 萬無一失 is a historical claim, not a validation result.",
+      "cases": [
+        {
+          "id": "public-office",
+          "sourcePremises": "公府",
+          "sourceAnchor": "正廳",
+          "symbolicAnchor": "main-hall"
+        },
+        {
+          "id": "temple-with-icons",
+          "sourcePremises": "寺觀以佛道聖像",
+          "sourceAnchor": "壇座",
+          "symbolicAnchor": "icon-altar-seat"
+        },
+        {
+          "id": "community-altar",
+          "sourcePremises": "社壇",
+          "sourceAnchor": "神主",
+          "symbolicAnchor": "spirit-tablet"
+        },
+        {
+          "id": "residential-named-hall",
+          "sourcePremises": "民宅舍",
+          "sourceAnchor": "茶亭",
+          "symbolicAnchor": "named-residential-hall"
+        },
+        {
+          "id": "separate-painted-hall",
+          "sourcePremises": "隔舍畫堂",
+          "sourceAnchor": "向中一間",
+          "symbolicAnchor": "middle-facing-bay"
+        },
+        {
+          "id": "single-block-side-altars-one-end-residents",
+          "sourcePremises": "單棟宅舍祖先福神香火安於左右敖間內人眷房舍住歸一頭",
+          "sourceAnchor": "中間房舍",
+          "symbolicAnchor": "middle-room"
+        },
+        {
+          "id": "side-block-residence-and-altars",
+          "sourcePremises": "正屋側畔橫棟屋內住坐安奉祖先福神香火於橫棟屋內",
+          "sourceAnchor": "向中一間",
+          "symbolicAnchor": "middle-facing-bay"
+        },
+        {
+          "id": "main-hall-no-minglou-front-corridor-rear-rooms",
+          "sourcePremises": "止有正廳却無明樓前有廊後有房",
+          "sourceAnchor": "正廳當中對棟柱置羅經",
+          "symbolicAnchor": "main-hall-middle-opposite-ridge-post"
+        }
+      ]
+    },
+    {
+      "id": "window",
+      "title": "論歲官交承修作方道",
+      "positions": [
+        265
+      ],
+      "literalUnpunctuated": "遇每年交大寒中氣五日後擇日用工修作方道至立春後二日住工謂之歲官交承之際並不問方道吉凶神殺如立春交節已過二日則年月凶神方位已定不可修作如方位無凶神修作不妨",
+      "croppedImageCollated": true,
+      "editorialConditions": [
+        "Only directional repair paragraph, not the adjacent new-building/ritual procedure.",
+        "Day counting, inclusive/exclusive endpoints, local time and source term calculation remain unresolved.",
+        "Caller-declared after-Dahan-five and past-Lichun-two are not engine-derived dates. Equality at exact days remains unresolved.",
+        "Beyond the stated Lichun limit, no-harm exception is preserved. Before Dahan start no permission is inferred."
+      ]
+    }
+  ],
+  "normalizedCharacters": "Editorial punctuation removed; 為/爲 and 竪/豎 normalized in selected strings, raw JPEG/digital retained. Not a diplomatic transcription of all glyphs.",
+  "consumerApplied": false,
+  "calendarMonthBoundaryResolved": false,
+  "leapMonthPolicyResolved": false,
+  "sourceOutcomeValidated": false
+}

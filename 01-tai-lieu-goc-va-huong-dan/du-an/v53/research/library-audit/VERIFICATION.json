@@ -1,0 +1,86 @@
+{
+  "checks": [
+    {
+      "name": "Audit covers each of the 40 original catalogue IDs exactly once",
+      "ok": true
+    },
+    {
+      "name": "All 16 inherited module source records keep their own IDs and historical claim labels",
+      "ok": true
+    },
+    {
+      "name": "No whole book is falsely marked fully implemented",
+      "ok": true
+    },
+    {
+      "name": "Resource types distinguish modern websites, institutions and portals from books",
+      "ok": true
+    },
+    {
+      "name": "Duplicate catalogue entries are retained but not counted as unique titles or full books",
+      "ok": true
+    },
+    {
+      "name": "The 384 stored lines are distinguished from the current 64 generic readings",
+      "ok": true
+    },
+    {
+      "name": "Runtime inspection records computed ten gods and existing age-start data honestly",
+      "ok": true
+    },
+    {
+      "name": "The actual engine files inspected still match recorded hashes",
+      "ok": true
+    },
+    {
+      "name": "Every newly saved response body matches byte length and SHA-256",
+      "ok": true
+    },
+    {
+      "name": "All accepted bodies were obtained over certificate-verified HTTPS with HTTP 200",
+      "ok": true
+    },
+    {
+      "name": "Two failed image responses are excluded from valid facsimiles",
+      "ok": true
+    },
+    {
+      "name": "The institutional manifest has 23 canvases, of which 21 actual images were saved",
+      "ok": true
+    },
+    {
+      "name": "Every accepted facsimile opens as the expected 3331 by 2882 JPEG",
+      "ok": true
+    },
+    {
+      "name": "Both Kanripo witnesses are pinned to immutable commits",
+      "ok": true
+    },
+    {
+      "name": "Three selected text differences are found without forcing a correction",
+      "ok": true
+    },
+    {
+      "name": "Real engine comparison checks 32 explicitly transcribed direction labels",
+      "ok": true
+    },
+    {
+      "name": "The source numbering difference is preserved rather than equating 五黄 with kua 2",
+      "ok": true
+    },
+    {
+      "name": "Earlier source archives were actually rechecked rather than redownloaded",
+      "ok": true
+    },
+    {
+      "name": "Consumer HTML and release folder remain byte-identical during this research audit",
+      "ok": true
+    },
+    {
+      "name": "Private books, new manifests and source names are absent from consumer HTML",
+      "ok": true
+    }
+  ],
+  "passed": 20,
+  "scope": "Coverage/provenance audit, not a full-book review or new UI regression suite."
+}

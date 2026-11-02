@@ -1,0 +1,166 @@
+{
+  "schema": "hhc.source.http.v1",
+  "records": [
+    {
+      "file": "commons-imageinfo.json",
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&titles=File%3ANCL-000002203+%E6%96%B0%E5%91%BD%E7%90%86%E6%8E%A2%E5%8E%9F.pdf&prop=imageinfo&iiprop=url%7Csize%7Csha1%7Cextmetadata",
+      "status": 200,
+      "headers": {
+        "date": "Mon, 26 Oct 2026 09:23:26 GMT",
+        "server": "mw-api-ext.eqiad.main-5f8dd6899c-sdh8n",
+        "x-content-type-options": "nosniff",
+        "content-security-policy": "default-src 'self'; script-src 'none'; object-src 'none'",
+        "x-frame-options": "DENY",
+        "content-disposition": "inline; filename=api-result.json",
+        "expires": "Mon, 26 Oct 2026 10:23:26 GMT",
+        "cache-control": "max-age=3600, s-maxage=3600, public",
+        "content-type": "application/json; charset=utf-8",
+        "age": "0",
+        "accept-ranges": "bytes",
+        "x-cache": "cp1110 miss, cp1110 miss",
+        "x-cache-status": "miss",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "set-cookie": [
+          "WMF-Last-Access=26-Oct-2026;Path=/;HttpOnly;secure;Expires=Fri, 27 Nov 2026 00:00:00 GMT",
+          "GeoIP=US:::37.75:-97.82:v4; Path=/; secure; Domain=.wikimedia.org",
+          "NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600",
+          "WMF-Uniq=z_fowo1EushJiTDld9HMrgQFAAAAAFvdq239KeYmW7Sz3TC57RL-OSCkPWQqHrJ5;Domain=commons.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Tue, 26 Oct 2027 00:00:00 GMT"
+        ],
+        "x-client-ip": "103.111.32.68",
+        "vary": "Accept-Encoding,X-Subdomain,Treat-as-Untrusted,X-Forwarded-Proto,Cookie,Authorization,User-Agent",
+        "content-length": "2242",
+        "x-request-id": "ebbf0ea8-97fa-4093-81f9-8b0e1e461998",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"miss\", host;desc=\"cp1110\",co_id;desc=\"1342162202\""
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "bytes": 2242,
+      "sha256": "265b204ceb836dc7d525989e759ff1f7f6d34df8118555b3be3b5db54b8a8635",
+      "sha1": "9739077792a0d34acd9c388bd03e0e7bfbd018a4",
+      "retrievedUTC": "2026-10-26T09:23:31.678Z"
+    },
+    {
+      "file": "commons-description.html",
+      "url": "https://commons.wikimedia.org/w/index.php?title=File%3ANCL-000002203+%E6%96%B0%E5%91%BD%E7%90%86%E6%8E%A2%E5%8E%9F.pdf&oldid=1029746256",
+      "status": 200,
+      "headers": {
+        "date": "Mon, 26 Oct 2026 09:23:26 GMT",
+        "server": "mw-web.eqiad.main-dccb7c848-bjdvl",
+        "x-content-type-options": "nosniff",
+        "content-language": "en",
+        "accept-ch": "",
+        "reporting-endpoints": "csp-report-to-endpoint='/w/api.php?action=cspreport&format=json';",
+        "content-security-policy": "script-src 'unsafe-eval' blob: 'self' meta.wikimedia.org *.wikimedia.org *.wikipedia.org *.wikinews.org *.wiktionary.org *.wikibooks.org *.wikiversity.org *.wikisource.org wikisource.org *.wikiquote.org *.wikidata.org *.wikifunctions.org *.wikivoyage.org *.mediawiki.org mediawiki.org wikimedia.org *.wmflabs.org *.wmcloud.org *.toolforge.org wss://*.toolforge.org *.jsdelivr.net unpkg.com cdnjs.cloudflare.com raw.githubusercontent.com *.github.com code.jquery.com cdn.mathjax.org use.typekit.net fonts.cdnfonts.com use.fontawesome.com i.ytimg.com rsms.me doi.org localhost https://localhost:* http://localhost:* wss://localhost:* ws://localhost:* *.google.com *.gstatic.com *.googleapis.com *.translate.yandex.net yastatic.net ya.ru radically.github.io cdn.sammdot.ca cdn.fontshare.com viaf.org publicai-proxy.alaexis.workers.dev iiif.archive.org api.flickr.com live.staticflickr.com api.anthropic.com api.openai.com api.publicai.co catalogo.pusc.it parsifal.urbe.it opac.sbn.it overpass-api.de api.openrouteservice.org archive.org *.openstreetmap.org *.waymarkedtrails.org *.thunderforest.com registry.ipe.wiki analytics.ipe.wiki qlever.dev app.goacoustic.com wikipedia-archive.ourworldindata.org api.inaturalist.org inaturalist-open-data.s3.amazonaws.com validator.w3.org db.onlinewebfonts.com fontlibrary.org 'unsafe-inline' auth.wikimedia.org; default-src 'self' data: blob: https://upload.wikimedia.org https://thumb.wikimedia.org meta.wikimedia.org *.wikimedia.org *.wikipedia.org *.wikinews.org *.wiktionary.org *.wikibooks.org *.wikiversity.org *.wikisource.org wikisource.org *.wikiquote.org *.wikidata.org *.wikifunctions.org *.wikivoyage.org *.mediawiki.org mediawiki.org wikimedia.org *.wmflabs.org *.wmcloud.org *.toolforge.org wss://*.toolforge.org *.jsdelivr.net unpkg.com cdnjs.cloudflare.com raw.githubusercontent.com *.github.com code.jquery.com cdn.mathjax.org use.typekit.net fonts.cdnfonts.com use.fontawesome.com i.ytimg.com rsms.me doi.org localhost https://localhost:* http://localhost:* wss://localhost:* ws://localhost:* *.google.com *.gstatic.com *.googleapis.com *.translate.yandex.net yastatic.net ya.ru radically.github.io cdn.sammdot.ca cdn.fontshare.com viaf.org publicai-proxy.alaexis.workers.dev iiif.archive.org api.flickr.com live.staticflickr.com api.anthropic.com api.openai.com api.publicai.co catalogo.pusc.it parsifal.urbe.it opac.sbn.it overpass-api.de api.openrouteservice.org archive.org *.openstreetmap.org *.waymarkedtrails.org *.thunderforest.com registry.ipe.wiki analytics.ipe.wiki qlever.dev app.goacoustic.com wikipedia-archive.ourworldindata.org api.inaturalist.org inaturalist-open-data.s3.amazonaws.com validator.w3.org db.onlinewebfonts.com fontlibrary.org en.wikipedia.org en.wikibooks.org en.wikinews.org en.wikiquote.org en.wikisource.org en.wikiversity.org en.wikivoyage.org en.wiktionary.org www.mediawiki.org foundation.wikimedia.org incubator.wikimedia.org species.wikimedia.org wikimania.wikimedia.org www.wikidata.org www.wikifunctions.org auth.wikimedia.org; style-src 'self' data: blob: https://upload.wikimedia.org https://thumb.wikimedia.org meta.wikimedia.org *.wikimedia.org *.wikipedia.org *.wikinews.org *.wiktionary.org *.wikibooks.org *.wikiversity.org *.wikisource.org wikisource.org *.wikiquote.org *.wikidata.org *.wikifunctions.org *.wikivoyage.org *.mediawiki.org mediawiki.org wikimedia.org *.wmflabs.org *.wmcloud.org *.toolforge.org wss://*.toolforge.org *.jsdelivr.net unpkg.com cdnjs.cloudflare.com raw.githubusercontent.com *.github.com code.jquery.com cdn.mathjax.org use.typekit.net fonts.cdnfonts.com use.fontawesome.com i.ytimg.com rsms.me doi.org localhost https://localhost:* http://localhost:* wss://localhost:* ws://localhost:* *.google.com *.gstatic.com *.googleapis.com *.translate.yandex.net yastatic.net ya.ru radically.github.io cdn.sammdot.ca cdn.fontshare.com viaf.org publicai-proxy.alaexis.workers.dev iiif.archive.org api.flickr.com live.staticflickr.com api.anthropic.com api.openai.com api.publicai.co catalogo.pusc.it parsifal.urbe.it opac.sbn.it overpass-api.de api.openrouteservice.org archive.org *.openstreetmap.org *.waymarkedtrails.org *.thunderforest.com registry.ipe.wiki analytics.ipe.wiki qlever.dev app.goacoustic.com wikipedia-archive.ourworldindata.org api.inaturalist.org inaturalist-open-data.s3.amazonaws.com validator.w3.org db.onlinewebfonts.com fontlibrary.org 'unsafe-inline'; object-src 'none'; report-uri /w/api.php?action=cspreport&format=json; report-to csp-report-to-endpoint",
+        "last-modified": "Mon, 12 Oct 2026 09:23:27 GMT",
+        "content-type": "text/html; charset=UTF-8",
+        "age": "2",
+        "accept-ranges": "bytes",
+        "x-cache": "cp1110 miss, cp1110 miss",
+        "x-cache-status": "miss",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "set-cookie": [
+          "WMF-Last-Access=26-Oct-2026;Path=/;HttpOnly;secure;Expires=Fri, 27 Nov 2026 00:00:00 GMT",
+          "GeoIP=US:::37.75:-97.82:v4; Path=/; secure; Domain=.wikimedia.org",
+          "NetworkProbeLimit=0.001;Path=/;Secure;SameSite=None;Max-Age=3600",
+          "WMF-Uniq=Oaph7GkdbUc08UZ_haeFOQQFAAAAAFvdvT5ngUaHtlW-5XquXJLKn0HO3iBo_E7l;Domain=commons.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Tue, 26 Oct 2027 00:00:00 GMT"
+        ],
+        "x-client-ip": "103.111.32.68",
+        "cache-control": "private, s-maxage=0, max-age=0, must-revalidate, no-transform",
+        "vary": "Accept-Encoding,X-Subdomain,Cookie,Authorization,User-Agent",
+        "transfer-encoding": "chunked",
+        "x-request-id": "5f5d49e3-4fc6-4f3e-99a4-50a958ddab5c",
+        "x-analytics": "",
+        "server-timing": "cache;desc=\"miss\", host;desc=\"cp1110\",co_id;desc=\"3852628829\""
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "bytes": 119104,
+      "sha256": "aa59e9fe8e3b3644d82efc5b9b2bfd0370c269fe61319301a60a71a0a6477e22",
+      "sha1": "5c990a0a63b61992cd7f285430f3b5b849b84631",
+      "retrievedUTC": "2026-10-26T09:23:32.358Z"
+    },
+    {
+      "file": "ncl-catalog.html",
+      "url": "https://taiwanebook.ncl.edu.tw/zh-tw/book/NCL-000002203",
+      "status": 200,
+      "headers": {
+        "content-type": "text/html; charset=UTF-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "cache-control": "no-cache, private",
+        "date": "Mon, 26 Oct 2026 09:23:28 GMT",
+        "content-security-policy": "base-uri 'self';connect-src 'self' ws://nclweb.internal:5173 www.google-analytics.com;default-src 'self' www.google.com;form-action 'self';img-src 'self';media-src 'self';object-src 'none';script-src 'self' www.google.com www.google-analytics.com www.googletagmanager.com nclweb.internal:5173 'nonce-EkOzfstVK5SUNOEsTtW1xhdbNMJU1MSpcX2n3UkV';style-src 'self' fonts.bunny.net fonts.googleapis.com 'nonce-EkOzfstVK5SUNOEsTtW1xhdbNMJU1MSpcX2n3UkV';frame-ancestors 'self';font-src 'self' data: fonts.gstatic.com fonts.bunny.net",
+        "set-cookie": [
+          "XSRF-TOKEN=eyJpdiI6IkFRN2VIMloyQTh3TzNGeHF5Nk14MkE9PSIsInZhbHVlIjoiTXFHR1ZoUnhqS016SE9YRmRzNmw5T1RBMk50M1FrUTBkaDdiYzRhNUxvMDBzYklNVEVDL2VBUWZSUDVXZzZyYmEvejh0bk9IQkVlRWYwVlBSb1RNbHpoRXhZS2tSMWJjMzBtcEpkdWhqckpkMUMvUzREUDVrMjFJUUpORUlscjMiLCJtYWMiOiI3MDBjNWYwNDA5ZTUzMzgwYTA5OTE2OTEyYmMyNDBlZWViYmI3MjU1MGZkYzE3NzVkNzdkNWJiOGNkZjg3YmM1IiwidGFnIjoiIn0%3D; expires=Mon, 26 Oct 2026 11:23:29 GMT; Max-Age=7200; path=/; samesite=lax; Secure; HttpOnly",
+          "_session=eyJpdiI6ImFaZitnWk9YT2Y4SFUvQXh5SUIxeUE9PSIsInZhbHVlIjoiaC9vUklZcjRrLzFocnluajgwSXFrT050TlR3NVBhckh1T04rUzZ1T1U1TzdUY2RWVDhocUd0My9RQ2R4YTNDY0JkWjEvQXN2TWM2UnVCS0ZnVkt3SVdTa2lHYm1PcHVhSm9DS2ZHUEdyRU1INk11NmFFaVhibzNDMWlWanJEOWMiLCJtYWMiOiI1ZDkxZDUxZTY4ZGY5Yjg3MjJjZGQzYzY0MTNkOTZlY2I1ZDExOThjNzVhZjQ3NTk3Y2FmYzJhM2NhMjdiY2NmIiwidGFnIjoiIn0%3D; expires=Mon, 26 Oct 2026 11:23:29 GMT; Max-Age=7200; path=/; httponly; samesite=lax; Secure"
+        ],
+        "x-frame-options": "SAMEORIGIN",
+        "x-xss-protection": "1; mode=block",
+        "x-content-type-options": "nosniff",
+        "strict-transport-security": "max-age=31536000; includeSubDomains"
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "bytes": 30806,
+      "sha256": "3f41dbeae802e35f2fade35fff00a141d824bf2b5c97ca7becaf98ff07078489",
+      "sha1": "e54d8106a9aeae7c270f15438c7ee49e8ffdece8",
+      "retrievedUTC": "2026-10-26T09:23:34.725Z"
+    },
+    {
+      "file": "NCL-000002203.pdf",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/4/4a/NCL-000002203_%E6%96%B0%E5%91%BD%E7%90%86%E6%8E%A2%E5%8E%9F.pdf?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+      "status": 200,
+      "headers": {
+        "content-type": "application/pdf",
+        "x-object-meta-sha1base36": "4cpgkmgjvozyvixoqgiqd13iwn3xles",
+        "etag": "fc86e168e68dc54d81ffe57eb40de466",
+        "last-modified": "Thu, 24 Nov 2022 22:47:19 GMT",
+        "accept-ranges": "bytes",
+        "content-length": "58287949",
+        "date": "Mon, 26 Oct 2026 09:23:30 GMT",
+        "x-ratelimit-limit": "600000, 600000;w=60",
+        "x-ratelimit-remaining": "599999",
+        "x-ratelimit-reset": "30",
+        "server": "envoy",
+        "age": "0",
+        "x-cache": "cp1105 miss, cp1105 pass",
+        "x-cache-status": "pass",
+        "server-timing": "cache;desc=\"pass\", host;desc=\"cp1105\"",
+        "strict-transport-security": "max-age=106384710; includeSubDomains; preload",
+        "report-to": "{ \"group\": \"wm_nel\", \"max_age\": 604800, \"endpoints\": [{ \"url\": \"https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0\" }] }",
+        "nel": "{ \"report_to\": \"wm_nel\", \"max_age\": 604800, \"failure_fraction\": 0.05, \"success_fraction\": 0.0}",
+        "x-client-ip": "2a02:6ea0:1806:d000:4902:34f9:c51c:edb3",
+        "x-content-type-options": "nosniff",
+        "reporting-endpoints": "csp_endpoint=\"https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json\"",
+        "content-security-policy-report-only": "default-src 'none'; script-src 'none'; style-src 'unsafe-inline' data:; font-src data:; img-src data: https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; connect-src https://upload.wikimedia.org/favicon.ico https://thumb.wikimedia.org/favicon.ico; media-src data: 'self'; worker-src 'none'; manifest-src 'none'; base-uri 'none'; form-action 'none'; frame-ancestors 'none'; object-src 'self'; report-uri https://commons.wikimedia.org/w/api.php?reportonly=1&source=image&action=cspreport&format=json; report-to csp_endpoint",
+        "access-control-allow-origin": "*",
+        "access-control-expose-headers": "Age, Date, Content-Length, Content-Range, X-Content-Duration, X-Cache",
+        "timing-allow-origin": "*",
+        "set-cookie": [
+          "WMF-Uniq=GPlsnj533LgKbXbyszYmVQQFAAAAAFvdTXOsa8OfvfbYUk9CmCOGb1s-u8DQERLj;Domain=upload.wikimedia.org;Path=/;HttpOnly;secure;SameSite=None;Expires=Tue, 26 Oct 2027 00:00:00 GMT"
+        ],
+        "x-request-id": "395bac6a-1de3-4b0a-8114-e55354eac49a",
+        "x-analytics": ""
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "bytes": 58287949,
+      "sha256": "3dfee4ef4636d48c2d2e749f90408a825e0eacee99b8c73b9748a03deb73dcfd",
+      "sha1": "2543dd33a32be978bd09e96557cdc3a57c0309a4",
+      "retrievedUTC": "2026-10-26T09:23:41.589Z"
+    }
+  ]
+}

@@ -1,0 +1,741 @@
+diff --git a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/DEPENDENCY_HARDENING_REPORT.md b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/DEPENDENCY_HARDENING_REPORT.md
+new file mode 100644
+index 0000000..275a8fa
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/DEPENDENCY_HARDENING_REPORT.md
+@@ -0,0 +1,66 @@
++# AI-10 — Kiểm đầy đủ phụ thuộc Node/JSON và chứng thực Git HEAD tại máy
++
++**Ngày:** 01/11/2026
++**Phạm vi:** `collaboration/parallel-research/submissions/AI-10/`
++**Mốc nguồn đối chiếu từ lần đồng bộ gần nhất:** `3fba778df2db68cd0fdbb472a271b1322dcc66ae` trên `codex/ai-10-tam-thuc` (CHƯA thể xác nhận lại HEAD thời điểm đóng gói).
++**Trạng thái:** Bản vá hoàn thiện, chạy kiểm tra cục bộ; **chưa đẩy GitHub** do kết nối GitHub trả HTTP 403 `Sorry. Your account was suspended` khi đọc repo, file và PR #11.
++
++## 1. Vì sao cần bổ sung
++
++`TEST_MANIFEST.json` của vòng trước đã ghim byte/SHA-1 Git cho **22 tệp `test-*.mjs`**, nhưng không kiểm tra ngay từ đầu rằng **các mô-đun `.mjs` được import và JSON nguồn được đọc có còn đầy đủ, thuộc thư mục AI-10 và giữ nguyên byte được commit hay không**. Điều này có thể tạo ra khoảng trống khi test có SHA đúng nhưng một phụ thuộc đổi nội dung, hoặc khi kiểm thử chạy trên checkout thiếu dữ liệu.
++
++Bản vá này thêm hai lớp riêng biệt, tránh nhập nhằng về phạm vi chứng thực:
++
++1. **Kiểm tra closure nguồn không thực thi** (`ai10-dependency-audit.mjs`): dùng `node:vm.SourceTextModule` trong tiến trình phân tích cách ly để lấy các `import`/`export from` tĩnh; lần theo các URL tệp `new URL('./file.json', import.meta.url)` dạng hằng; đi xuyên qua các mô-đun nội bộ; từ chối thiếu tệp, import package ngoài `node:`, vượt phạm vi AI-10, symlink thư mục/tệp, nhập động `import()` hoặc `require()`. Xuất SHA Git **quan sát được** cho từng tệp, song không mạo nhận đã so với commit.
++2. **Kiểm tra HEAD Git tại máy, tùy chọn** (`ai10-git-tree-audit.mjs`): so tất cả tệp đã phát hiện với các blob có trong **cây commit `HEAD` tại checkout**, không chỉ so tệp test. Bắt được tệp `.mjs`/JSON sửa nhưng chưa commit, kể cả sửa có cùng kích thước và tệp mới được import nhưng chưa commit. **Không truy cập mạng** và không xác thực HEAD đó là commit chính thức trên máy chủ GitHub.
++
++Trình chạy `run-ai10-strict.mjs` được mở rộng với hai lựa chọn **`--verify-git-head`** và **`--run-git-head`**, ngoài ba lựa chọn trước. `--run` giữ khả năng chạy trên archive không có `.git`, nhưng bảo đảm inventory test và closure nguồn đều hợp lệ trước khi chạy. Người cần bảo đảm byte đối với commit tại máy phải sử dụng `--run-git-head`.
++
++## 2. Ranh giới phương pháp
++
++- Dùng trình phân tích cú pháp Node `vm.SourceTextModule` (cần Node.js 20+/22 và cờ `--experimental-vm-modules` do tiện ích gọi nội bộ), **không evaluate module**, không chạy app/engine khi kiểm closure. Việc kiểm thử riêng bằng `node --test` diễn ra sau các điều kiện chắn.
++- Kiểm nhập tĩnh và `new URL` dạng chữ hằng, không bao phủ mọi I/O runtime được ghép chuỗi, ví dụ `readFileSync(dynamicPath)`, biểu thức trong template literal hay code sinh ra bằng `eval`. Trả `dynamicRuntimeReadsCovered=false`; không gọi đây là chứng nhận toàn diện mọi phụ thuộc runtime.
++- Nếu thiếu Git metadata, `--verify-git-head` trả lỗi có mã `GIT_REPOSITORY_NOT_FOUND` thay vì tự giả định cây Git đúng.
++- Một Git HEAD được xác nhận **chỉ là HEAD tại máy**. Mức `remoteCommitAuthenticated=false`, `historicalSourcesAuthenticated=false`, `consumerReady=false` vẫn giữ nguyên. Không có bất cứ thay đổi quy tắc lịch, Tứ khóa, Sơ truyền/Tam truyền, hoặc dữ liệu phát hành.
++
++## 3. Kiểm thử thực tế trên môi trường hiện hữu
++
++Node.js **22.16.0**, chạy tất cả tệp test AI-10 hiện có trong bản dựng một phần tại máy:
++
++- **102/102 ca kiểm đạt; 0 thất bại** (80 kiểm cũ và **22 phản chứng mới**); **13 tệp test có mặt**.
++- `TEST_MANIFEST.json` sau sửa có **24 tệp test bắt buộc** = 22 tệp ở nhánh gần nhất + 2 tệp mới. **Còn thiếu 11 tệp** tại bản dựng này. `run-ai10-strict.mjs --verify-only` trả **exit 1** đúng thiết kế — **không** báo full suite đã qua.
++- Chạy `auditAI10DependencyClosure` trên 13 tệp test cục bộ đạt, phát hiện chính xác **30 tệp tham chiếu tĩnh**, gồm **26 tệp mô-đun/test và 4 JSON**, không có lỗi phụ thuộc thuộc tập kiểm hiện có.
++- Đã kiểm thử bằng fixture Git thật (tạo và commit trên máy): checkout sạch qua `--verify-git-head` và `--run-git-head`; sửa `.mjs` hoặc `.json`, sửa có cùng byte-length, stage nhưng chưa commit, import tệp chưa tracked đều bị từ chối. Kho giả lập chưa đủ phụ thuộc cũng bị chặn **trước** bước test.
++- Chưa chạy 24/24 tệp test trên checkout GitHub nguyên vẹn, GitHub Actions, hay hồi quy V53.
++
++## 4. Mã/tệp thay đổi trong bản vá này
++
++**Tệp mới:**
++
++- `ai10-dependency-audit.mjs`
++- `ai10-git-tree-audit.mjs`
++- `test-ai10-dependency-audit.mjs` (**12 ca kiểm**)
++- `test-ai10-git-tree-audit.mjs` (**10 ca kiểm**)
++- `DEPENDENCY_HARDENING_REPORT.md` và `DEPENDENCY_HARDENING_STATE.json`
++
++**Tệp sửa:**
++
++- `run-ai10-strict.mjs` (thêm closure + chế độ kiểm Git HEAD)
++- `test-ai10-test-audit.mjs` (đổi fixture thử CLI và số tệp manifest 22 → 24)
++- `TEST_MANIFEST.json` (đúng Git blob SHA/byte của hai test mới và test cũ đã cập nhật)
++
++Không đụng `main`, engine, frontend, V53, `COVERAGE.json`, ZIP hay dữ liệu thuộc lane khác.
++
++## 5. Hướng dẫn chạy khi có checkout đầy đủ và quyền GitHub đã hoạt động trở lại
++
++Từ thư mục gốc repo đã checkout đúng nhánh:
++
++```bash
++node collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/run-ai10-strict.mjs --verify-only
++node collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/run-ai10-strict.mjs --verify-git-head
++node collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/run-ai10-strict.mjs --run-git-head
++```
++
++**Chỉ cho phép đề xuất nghiệm thu kỹ thuật đầy đủ** sau khi 24/24 tệp test được xác nhận byte và tất cả các test thực sự pass trên checkout nguyên vẹn. Nếu Git SHA trong manifest chưa khớp phiên bản nhánh đã thay đổi do AI khác, cần rà soát và cập nhật manifest bằng bằng chứng trước khi tiếp tục, **không tự thay số hoặc bỏ qua cảnh báo**.
++
++Khi GitHub hết trả 403, dùng file `.patch` đính kèm ngoài kho, `git apply --check` rồi `git apply` trên `codex/ai-10-tam-thuc` từ baseline nêu trên, chạy lại đầy đủ, cập nhật Draft PR #11; không merge tự động.
+diff --git a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/DEPENDENCY_HARDENING_STATE.json b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/DEPENDENCY_HARDENING_STATE.json
+new file mode 100644
+index 0000000..60d2c95
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/DEPENDENCY_HARDENING_STATE.json
+@@ -0,0 +1,44 @@
++{
++  "schema": "hhc.ai10.dependency-hardening.v1",
++  "date": "2026-11-01",
++  "branch": "codex/ai-10-tam-thuc",
++  "lastKnownRemoteBranchCommit": "3fba778df2db68cd0fdbb472a271b1322dcc66ae",
++  "remoteHeadReverifiedThisTurn": false,
++  "githubConnectorAccess": "blocked-http-403-user-account-suspended",
++  "githubCommitCreatedThisTurn": false,
++  "githubPRUpdatedThisTurn": false,
++  "githubPRNumber": 11,
++  "intendedPRStatus": "draft",
++  "nodeVersion": "22.16.0",
++  "priorLocalTestCases": 80,
++  "newDependencyTestCases": 12,
++  "newGitHeadTestCases": 10,
++  "locallyAvailableTestCasesRun": 102,
++  "locallyAvailableTestCasesPassed": 102,
++  "locallyAvailableTestCasesFailed": 0,
++  "requiredManifestTestFileCount": 24,
++  "locallyAvailableManifestTestFiles": 13,
++  "missingManifestTestFiles": 11,
++  "strictFullTestInventoryPassed": false,
++  "strictFullTestInventoryExitCode": 1,
++  "localStaticClosureModulesAndTests": 26,
++  "localStaticClosureJsonFixtures": 4,
++  "localStaticClosureTotal": 30,
++  "localStaticClosurePassed": true,
++  "gitHeadAuditOnSyntheticGitFixturesPassed": true,
++  "gitHEADOfActualUserRepositoryVerified": false,
++  "fullGitHubAISuiteExecuted": false,
++  "githubActionsCIExecuted": false,
++  "v53RegressionExecuted": false,
++  "sourceCalendarOrLiuRenRulesChanged": false,
++  "consumerChanged": false,
++  "wholeWorkApplied": false,
++  "mainModified": false,
++  "changesContainNoArchivesOrLargeBinaryArtifacts": true,
++  "handoff": [
++    "Restore GitHub connector access, verify branch HEAD and PR draft status",
++    "Check/apply local patch only if expected base blobs match the current AI-10 branch",
++    "Run all 24 pinned test scripts and Git HEAD integrity mode on full Git checkout",
++    "Do not promote S01/S02/S03 beyond not_established without independent source collation"
++  ]
++}
+diff --git a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/TEST_MANIFEST.json b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/TEST_MANIFEST.json
+index 39ef8c8..8102cc1 100644
+--- a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/TEST_MANIFEST.json
++++ b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/TEST_MANIFEST.json
+@@ -36,10 +36,20 @@
+       "gitBlobSha": "d9f7d6b0d4f2b42c4decc3fe243c73f981fa2c57",
+       "bytes": 3918
+     },
++    {
++      "path": "tam-thuc-reproducible-audit-2026-11-01/test-ai10-dependency-audit.mjs",
++      "bytes": 7507,
++      "gitBlobSha": "b4591045a9fcd593ff8046a3eb05ffc05cb06b74"
++    },
++    {
++      "path": "tam-thuc-reproducible-audit-2026-11-01/test-ai10-git-tree-audit.mjs",
++      "bytes": 7267,
++      "gitBlobSha": "09b8d49f7eb5b7b1ba38891e4fc01b56972702ec"
++    },
+     {
+       "path": "tam-thuc-reproducible-audit-2026-11-01/test-ai10-test-audit.mjs",
+-      "gitBlobSha": "3b60876d3f762979bda5ef5f3ca2975b98b70841",
+-      "bytes": 6489
++      "gitBlobSha": "4d6fe53eb64938d3244df01e5910ba6f490164dc",
++      "bytes": 6543
+     },
+     {
+       "path": "tam-thuc-reproducible-audit-2026-11-01/test-s02-method-ambiguity.mjs",
+diff --git a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/ai10-dependency-audit.mjs b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/ai10-dependency-audit.mjs
+new file mode 100644
+index 0000000..920adad
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/ai10-dependency-audit.mjs
+@@ -0,0 +1,166 @@
++/**
++ * AI-10: static, fail-closed dependency *presence and scope* preflight.
++ * Never executes examined modules; never calls the app/engine or the network.
++ * This is a structural import scan, not a JavaScript compiler or a byte lock.
++ * Static relative import/export and new URL('...',import.meta.url) literals
++ * are traversed transitively. Runtime-generated I/O cannot be proven here.
++ */
++import {readFileSync,lstatSync,realpathSync} from 'node:fs';
++import {resolve,relative,dirname,sep,isAbsolute} from 'node:path';
++import {spawnSync} from 'node:child_process';
++import {gitBlobSha} from './ai10-test-audit.mjs';
++
++const URL_LITERAL=/^new\s+URL\s*\(\s*(['"])([^'"\r\n]+)\1\s*,\s*import\.meta\.url\s*\)/;
++const DYNAMIC_IMPORT=/\bimport\s*\(/;
++const REQUIRE_CALL=/\brequire\s*\(/;
++// node:vm.SourceTextModule parses import declarations without evaluating code.
++// Isolate it in a short-lived, no-network child because the VM parser flag is
++// still experimental on Node 20/22. Syntax errors fail the preflight closed.
++const STATIC_PARSER=String.raw`const vm=require('node:vm');
++try {const m=new vm.SourceTextModule(require('node:fs').readFileSync(0,'utf8'),{identifier:'AI-10 source preflight'});
++ process.stdout.write(JSON.stringify(m.dependencySpecifiers));}
++catch(e){process.stderr.write(String(e?.message||e));process.exitCode=2;}`;
++function staticallyParsedImports(source){
++ const p=spawnSync(process.execPath,['--experimental-vm-modules','--no-warnings','-e',STATIC_PARSER],
++  {input:source,encoding:'utf8',timeout:10000,maxBuffer:1024*1024});
++ if(p.error||p.status!==0)throw new Error(String(p.error?.message||p.stderr||'Source parser failed'));
++ const result=JSON.parse(p.stdout);
++ if(!Array.isArray(result)||result.some(s=>typeof s!=='string'))throw new Error('Invalid source parser result');
++ return result;
++}
++/** Replace strings, comments and templates with spaces without examining them
++ * as live code. This deliberately does not claim to resolve runtime I/O in
++ * template interpolations. Static imports are parsed with the VM compiler. */
++function scanStaticURLLiterals(source){
++ const refs=[],sanitized=source.split('');
++ const blank=(start,end)=>{for(let j=start;j<end;j++)if(source[j]!=='\n')sanitized[j]=' ';};
++ for(let i=0;i<source.length;){
++  if(source.startsWith('//',i)){
++   const end=source.indexOf('\n',i);const j=end<0?source.length:end;blank(i,j);i=j;continue;
++  }
++  if(source.startsWith('/*',i)){
++   const end=source.indexOf('*/',i+2);const j=end<0?source.length:end+2;blank(i,j);i=j;continue;
++  }
++  if(source[i]==='\''||source[i]==='"'||source[i]==='`'){
++   const quote=source[i];let j=i+1;
++   for(;j<source.length;j++){
++    if(source[j]==='\\'){j++;continue;}
++    if(source[j]===quote){j++;break;}
++   }
++   blank(i,j);i=j;continue;
++  }
++  if(source.startsWith('new',i)){
++   const m=URL_LITERAL.exec(source.slice(i));
++   if(m&&(!i||!/[\w$]/.test(source[i-1]))){refs.push(m[2]);}
++  }
++  i++;
++ }
++ return {refs:[...new Set(refs)],sanitized:sanitized.join('')};
++}
++const STATIC_FILE_TYPES=new Set(['.mjs','.js','.json']);
++const deepFreeze=o=>Object.freeze(o);
++function problem(code,path,detail){return deepFreeze({code,path,detail});}
++function within(root,target){
++ const rel=relative(root,target);
++ return rel!==''&&!rel.startsWith('..'+sep)&&rel!=='..'&&!isAbsolute(rel);
++}
++function checkPath(root,file){
++ if(!within(root,file))return 'OUTSIDE_AI10';
++ const segments=relative(root,file).split(sep);
++ let cur=root;
++ for(const segment of segments){
++  cur=resolve(cur,segment);
++  let stat;
++  try{stat=lstatSync(cur);}catch(e){return e?.code==='ENOENT'?'MISSING_DEPENDENCY':'UNREADABLE_DEPENDENCY';}
++  if(stat.isSymbolicLink())return 'DEPENDENCY_SYMLINK';
++ }
++ if(!realpathSync(file).startsWith(realpathSync(root)+sep))return 'OUTSIDE_AI10';
++ if(!lstatSync(file).isFile())return 'NOT_REGULAR_FILE';
++ return null;
++}
++function allowedSpecifier(spec){
++ if(spec.startsWith('node:'))return 'builtin';
++ if(spec.startsWith('./')||spec.startsWith('../'))return 'relative';
++ return 'unsupported';
++}
++/**
++ * @param {string} root  Absolute or relative path to AI-10 submission folder.
++ * @param {string[]} tests Paths RELATIVE to root, already vetted by test manifest.
++ * @returns {{pass:boolean,files:readonly object[],issues:readonly object[]}}
++ */
++export function auditAI10DependencyClosure(root,tests){
++ if(typeof root!=='string'||root.length===0||!Array.isArray(tests)||
++    tests.some(p=>typeof p!=='string'||p.length===0))
++  throw new TypeError('Explicit AI-10 root and array of test paths required');
++ const absRoot=resolve(root);
++ const issues=[],visited=new Set(),pending=[];
++ for(const test of tests){
++  const abs=resolve(absRoot,test);
++  if(!within(absRoot,abs)||!/^test-[A-Za-z0-9_.-]+\.mjs$/.test(test.split(/[\\/]/).at(-1))){
++   issues.push(problem('BAD_TEST_PATH',test,'Only relative AI-10 test-*.mjs paths are permitted'));
++  } else pending.push(abs);
++ }
++ const entries=[];
++ while(pending.length){
++  const file=pending.pop();
++  if(visited.has(file))continue;
++  visited.add(file);
++  const rel=relative(absRoot,file).split(sep).join('/');
++  const invalid=checkPath(absRoot,file);
++  if(invalid){issues.push(problem(invalid,rel,'Cannot inspect this dependency'));continue;}
++  let bytes;
++  try{bytes=readFileSync(file);}catch(e){issues.push(problem('UNREADABLE_DEPENDENCY',rel,String(e?.code||e?.message)));continue;}
++  const kind=file.endsWith('.json')?'fixture':'module';
++  entries.push(deepFreeze({path:rel,kind,bytes:bytes.length,gitBlobSha:gitBlobSha(bytes)}));
++  if(kind==='fixture')continue;
++  const content=bytes.toString('utf8');
++  let staticImports;
++  try{staticImports=staticallyParsedImports(content);}
++  catch(e){issues.push(problem('SOURCE_PARSE_ERROR',rel,e.message));continue;}
++  const {refs,sanitized}=scanStaticURLLiterals(content);
++  // Dynamic imports are detected only in the token-like, non-string parts of
++  // the source. Runtime imports in template interpolations are NOT certified.
++  if(DYNAMIC_IMPORT.test(sanitized))issues.push(problem('DYNAMIC_IMPORT_UNINSPECTED',rel,'Dynamic import needs manual review'));
++  if(REQUIRE_CALL.test(sanitized))issues.push(problem('REQUIRE_UNINSPECTED',rel,'CommonJS require needs manual review'));
++  for(const spec of [...new Set([...staticImports,...refs])]){
++   const type=allowedSpecifier(spec);
++   if(type==='builtin')continue;
++   if(type==='unsupported'){issues.push(problem('EXTERNAL_SPECIFIER',rel,spec));continue;}
++   const target=resolve(dirname(file),spec);
++   // A literal directory URL may be used to locate the AI-10 root itself,
++   // e.g. new URL('../', import.meta.url) in a test; it is not a file import.
++   // Reject directory references that escape the audit boundary.
++   if(spec.endsWith('/')){
++    if(target!==absRoot&&!within(absRoot,target))
++     issues.push(problem('OUTSIDE_AI10',rel,spec));
++    else if(target!==absRoot){
++     const invalid=checkPath(absRoot,target);
++     if(invalid==='NOT_REGULAR_FILE')continue;
++     if(invalid)issues.push(problem(invalid,rel,spec));
++    }
++    continue;
++   }
++   if(!/[.]mjs$|[.]js$|[.]json$/.test(target)){
++    issues.push(problem('UNSUPPORTED_EXTENSION',rel,spec));continue;
++   }
++   const extension=target.slice(target.lastIndexOf('.'));
++   if(!STATIC_FILE_TYPES.has(extension)){
++    issues.push(problem('UNSUPPORTED_EXTENSION',rel,spec));continue;
++   }
++   if(!within(absRoot,target)){
++    issues.push(problem('OUTSIDE_AI10',rel,spec));continue;
++   }
++   pending.push(target);
++  }
++ }
++ entries.sort((a,b)=>a.path.localeCompare(b.path,'en'));
++ issues.sort((a,b)=>a.path.localeCompare(b.path,'en')||a.code.localeCompare(b.code,'en'));
++ return deepFreeze({catalogue:'AI-10',pass:issues.length===0,
++  testEntries:tests.length,localSourceFileCount:entries.length,
++  moduleCount:entries.filter(x=>x.kind==='module').length,
++  fixtureCount:entries.filter(x=>x.kind==='fixture').length,
++  files:deepFreeze(entries),issues:deepFreeze(issues),
++  compilerVerified:false,dependenciesPinnedToGitCommit:false,
++  dynamicRuntimeReadsCovered:false,sourceTextAuthenticated:false,
++  fullSuiteExecuted:false,consumerReady:false});
++}
+diff --git a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/ai10-git-tree-audit.mjs b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/ai10-git-tree-audit.mjs
+new file mode 100644
+index 0000000..e6987fd
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/ai10-git-tree-audit.mjs
+@@ -0,0 +1,71 @@
++/**
++ * AI-10: optional offline comparison of every discovered source/test/JSON
++ * against bytes recorded in *local Git HEAD*. This does NOT authenticate
++ * HEAD as the official remote branch, nor prove historical source accuracy.
++ * Run only after dependency closure succeeds. Does not fetch or push.
++ */
++import {spawnSync} from 'node:child_process';
++import {resolve,relative,isAbsolute,sep} from 'node:path';
++
++const SHA=/^[0-9a-f]{40}$/;
++function issue(code,path,detail){return Object.freeze({code,path,detail});}
++function run(cwd,args){
++ const r=spawnSync('git',['-C',cwd,...args],{encoding:'utf8',timeout:10000,maxBuffer:8*1024*1024});
++ if(r.error||r.status!==0)return {ok:false,error:String(r.error?.message||r.stderr||'git failed')};
++ return {ok:true,value:r.stdout};
++}
++export function auditAI10GitHead(root,closure){
++ if(typeof root!=='string'||root.length===0||!closure||!Array.isArray(closure.files))
++  throw new TypeError('AI-10 root and dependency report with files required');
++ const absolute=resolve(root),issues=[];
++ const top=run(absolute,['rev-parse','--show-toplevel']);
++ if(!top.ok){
++  return Object.freeze({pass:false,localGitHead:null,checked:0,
++   issues:Object.freeze([issue('GIT_REPOSITORY_NOT_FOUND','(root)',top.error)]),
++   remoteCommitAuthenticated:false,historicalSourcesAuthenticated:false,consumerReady:false});
++ }
++ const repo=resolve(top.value.trim()),prefix=relative(repo,absolute).split(sep).join('/');
++ if(prefix==='..'||prefix.startsWith('../')||isAbsolute(prefix)){
++  return Object.freeze({pass:false,localGitHead:null,checked:0,
++   issues:Object.freeze([issue('ROOT_OUTSIDE_GIT','(root)',prefix)]),
++   remoteCommitAuthenticated:false,historicalSourcesAuthenticated:false,consumerReady:false});
++ }
++ const head=run(repo,['rev-parse','HEAD']);
++ const tree=run(repo,['ls-tree','-r','-z','HEAD','--',prefix||'.']);
++ if(!head.ok||!tree.ok){
++  return Object.freeze({pass:false,localGitHead:null,checked:0,
++   issues:Object.freeze([issue('GIT_HEAD_UNREADABLE','(root)',head.error||tree.error)]),
++   remoteCommitAuthenticated:false,historicalSourcesAuthenticated:false,consumerReady:false});
++ }
++ const entries=new Map();
++ for(const line of tree.value.split('\0').filter(Boolean)){
++  const match=/^([0-7]{6}) blob ([0-9a-f]{40})\t(.+)$/.exec(line);
++  if(match)entries.set(match[3],{mode:match[1],sha:match[2]});
++ }
++ let checked=0;
++ for(const file of closure.files){
++  if(!file||typeof file.path!=='string'||typeof file.gitBlobSha!=='string'||!SHA.test(file.gitBlobSha)){
++   issues.push(issue('BAD_CLOSURE_ENTRY','(closure)','Malformed closure file'));continue;
++  }
++  const path=resolve(absolute,file.path);
++  const fromRepo=relative(repo,path).split(sep).join('/');
++  if(fromRepo==='..'||fromRepo.startsWith('../')||isAbsolute(fromRepo)){
++   issues.push(issue('OUTSIDE_GIT_REPOSITORY',file.path,'Path escapes local Git checkout'));continue;
++  }
++  const existing=entries.get(fromRepo);
++  if(!existing){issues.push(issue('NOT_TRACKED_IN_HEAD',file.path,'File not present in local Git HEAD'));continue;}
++  checked++;
++  if(existing.mode!=='100644'&&existing.mode!=='100755'){
++   issues.push(issue('UNSUPPORTED_HEAD_MODE',file.path,existing.mode));continue;
++  }
++  if(existing.sha!==file.gitBlobSha)
++   issues.push(issue('GIT_HEAD_BLOB_MISMATCH',file.path,
++    'working SHA '+file.gitBlobSha+' differs from local HEAD '+existing.sha));
++ }
++ issues.sort((a,b)=>a.path.localeCompare(b.path,'en')||a.code.localeCompare(b.code,'en'));
++ return Object.freeze({pass:issues.length===0 && closure.pass===true,
++  localGitHead:head.value.trim(),checked,expectedClosureFiles:closure.files.length,
++  issues:Object.freeze(issues),localGitHeadIntegrityOnly:true,
++  remoteCommitAuthenticated:false,historicalSourcesAuthenticated:false,
++  fullSuiteExecuted:false,consumerReady:false});
++}
+diff --git a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/run-ai10-strict.mjs b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/run-ai10-strict.mjs
+index 3b9f170..d972a4e 100644
+--- a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/run-ai10-strict.mjs
++++ b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/run-ai10-strict.mjs
+@@ -4,20 +4,27 @@ import {fileURLToPath} from 'node:url';
+ import {dirname,join} from 'node:path';
+ import {spawnSync} from 'node:child_process';
+ import {auditAI10TestManifest} from './ai10-test-audit.mjs';
++import {auditAI10DependencyClosure} from './ai10-dependency-audit.mjs';
++import {auditAI10GitHead} from './ai10-git-tree-audit.mjs';
+ const args=process.argv.slice(2);
+ const opts=new Set(args);
+-const accepted=new Set(['--list','--verify-only','--run']);
++const accepted=new Set(['--list','--verify-only','--run','--verify-git-head','--run-git-head']);
+ if(args.some(x=>!accepted.has(x))||opts.size>1){
+- console.error('Usage: node run-ai10-strict.mjs [--verify-only|--list|--run]');
++ console.error('Usage: node run-ai10-strict.mjs [--verify-only|--list|--run|--verify-git-head|--run-git-head]');
+  process.exitCode=2;
+ }else{
+  const root=dirname(dirname(fileURLToPath(import.meta.url)));
+  const manifest=JSON.parse(readFileSync(new URL('./TEST_MANIFEST.json',import.meta.url),'utf8'));
+  const result=auditAI10TestManifest(root,manifest);
+  console.log('AI-10 test inventory: '+JSON.stringify(result));
+- if(!result.pass)process.exitCode=1;
++ const dependency = result.pass ? auditAI10DependencyClosure(root,manifest.testFiles.map(x=>x.path)) : null;
++ if(dependency)console.log('AI-10 dependency closure: '+JSON.stringify({pass:dependency.pass,sourceFiles:dependency.localSourceFileCount,modules:dependency.moduleCount,fixtures:dependency.fixtureCount,issues:dependency.issues,compilerVerified:dependency.compilerVerified,dependenciesPinnedToGitCommit:dependency.dependenciesPinnedToGitCommit}));
++ const requireGit=opts.has('--verify-git-head')||opts.has('--run-git-head');
++ const gitHead=dependency?.pass&&requireGit ? auditAI10GitHead(root,dependency) : null;
++ if(gitHead)console.log('AI-10 local Git HEAD: '+JSON.stringify(gitHead));
++ if(!result.pass || (dependency!==null && !dependency.pass) || (requireGit && gitHead?.pass!==true))process.exitCode=1;
+  else if(opts.has('--list'))for(const x of manifest.testFiles)console.log(x.path);
+- else if(!opts.has('--verify-only')){
++ else if(!opts.has('--verify-only')&&!opts.has('--verify-git-head')){
+   const scriptPaths=manifest.testFiles.map(x=>join(root,...x.path.split('/')));
+   const run=spawnSync(process.execPath,['--test',...scriptPaths],{stdio:'inherit'});
+   if(run.error){console.error(run.error.message);process.exitCode=1;}
+diff --git a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/test-ai10-dependency-audit.mjs b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/test-ai10-dependency-audit.mjs
+new file mode 100644
+index 0000000..b459104
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/test-ai10-dependency-audit.mjs
+@@ -0,0 +1,138 @@
++import test from 'node:test';
++import assert from 'node:assert/strict';
++import {readFileSync,writeFileSync,mkdtempSync,mkdirSync,rmSync,symlinkSync,copyFileSync} from 'node:fs';
++import {tmpdir} from 'node:os';
++import {join} from 'node:path';
++import {spawnSync} from 'node:child_process';
++import {auditAI10DependencyClosure} from './ai10-dependency-audit.mjs';
++import {gitBlobSha} from './ai10-test-audit.mjs';
++
++const relativeTest='suite/test-subject.mjs';
++function make(){
++ const root=mkdtempSync(join(tmpdir(),'ai10-dep-'));
++ mkdirSync(join(root,'suite'));mkdirSync(join(root,'library'));
++ const write=(path,body)=>{writeFileSync(join(root,...path.split('/')),body);};
++ write(relativeTest,`import {value} from '../library/index.mjs';
++import {readFileSync} from 'node:fs';
++const json=JSON.parse(readFileSync(new URL('../library/source.json',import.meta.url),'utf8'));
++export const matched=value===json.value;
++`);
++ write('library/index.mjs',`export {value} from './nested.mjs';\n`);
++ write('library/nested.mjs',`export const value=7;\n`);
++ write('library/source.json',JSON.stringify({value:7})+'\n');
++ return {root,write};
++}
++function withFixture(fn){const f=make();try{return fn(f);}finally{rmSync(f.root,{recursive:true,force:true});}}
++const codes=x=>x.issues.map(y=>y.code);
++
++test('Transitive static module imports and new URL JSON fixture are inventoried without running code',()=>withFixture(({root})=>{
++ const x=auditAI10DependencyClosure(root,[relativeTest]);
++ assert.equal(x.pass,true,JSON.stringify(x.issues));
++ assert.equal(x.testEntries,1);assert.equal(x.localSourceFileCount,4);
++ assert.equal(x.moduleCount,3);assert.equal(x.fixtureCount,1);
++ assert.deepEqual(x.files.map(y=>y.path),['library/index.mjs','library/nested.mjs','library/source.json',relativeTest]);
++ assert.ok(x.files.every(y=>y.gitBlobSha===gitBlobSha(readFileSync(join(root,y.path)))));
++ assert.equal(x.fullSuiteExecuted,false);assert.equal(x.sourceTextAuthenticated,false);
++ assert.equal(x.dependenciesPinnedToGitCommit,false);
++}));
++
++test('Missing module detected before Node runtime resolves imports',()=>withFixture(({root,write})=>{
++ write('library/index.mjs',`import {value} from './missing.mjs'; export const answer=value;\n`);
++ const x=auditAI10DependencyClosure(root,[relativeTest]);
++ assert.equal(x.pass,false);assert.ok(codes(x).includes('MISSING_DEPENDENCY'));
++ assert.equal(x.files.some(f=>f.path==='library/missing.mjs'),false);
++}));
++
++test('Missing JSON source is not silently excluded from test dependency closure',()=>withFixture(({root})=>{
++ rmSync(join(root,'library/source.json'));
++ assert.ok(codes(auditAI10DependencyClosure(root,[relativeTest])).includes('MISSING_DEPENDENCY'));
++}));
++
++test('Static import that escapes AI-10 root is rejected',()=>withFixture(({root,write})=>{
++ write('library/index.mjs',`import {a} from '../../foreign.mjs'; export const value=a;\n`);
++ const x=auditAI10DependencyClosure(root,[relativeTest]);
++ assert.ok(codes(x).includes('OUTSIDE_AI10'));
++}));
++
++test('Bare third-party imports are not mistaken for built-in Node modules',()=>withFixture(({root,write})=>{
++ write('library/index.mjs',`import {run} from 'unlisted-package'; export const value=run;\n`);
++ const x=auditAI10DependencyClosure(root,[relativeTest]);
++ assert.ok(codes(x).includes('EXTERNAL_SPECIFIER'));
++}));
++
++test('Dynamic ESM imports and CommonJS calls cannot obtain a complete static certificate',()=>withFixture(({root,write})=>{
++ write('library/index.mjs',`export const value=import('./other.mjs');\n`);
++ let r=auditAI10DependencyClosure(root,[relativeTest]);
++ assert.ok(codes(r).includes('DYNAMIC_IMPORT_UNINSPECTED'));
++ write('library/index.mjs',`export const value=require('./other.mjs');\n`);
++ r=auditAI10DependencyClosure(root,[relativeTest]);
++ assert.ok(codes(r).includes('REQUIRE_UNINSPECTED'));
++}));
++
++test('A symlink to an imported source file fails closed',()=>withFixture(({root,write})=>{
++ write('library/actual.mjs','export const value=3;\n');
++ rmSync(join(root,'library/nested.mjs'));
++ symlinkSync(join(root,'library/actual.mjs'),join(root,'library/nested.mjs'));
++ const r=auditAI10DependencyClosure(root,[relativeTest]);
++ assert.ok(codes(r).includes('DEPENDENCY_SYMLINK'));
++}));
++
++test('Symlink parent directories cannot hide an imported file outside the root',()=>withFixture(({root,write})=>{
++ mkdirSync(join(root,'safe'));
++ write('safe/value.mjs','export const value=7;\n');
++ symlinkSync(join(root,'safe'),join(root,'library/alias'));
++ write('library/index.mjs',`export {value} from './alias/value.mjs';\n`);
++ assert.ok(codes(auditAI10DependencyClosure(root,[relativeTest])).includes('DEPENDENCY_SYMLINK'));
++}));
++
++test('In-scope source mutation changes observed hash but is not falsely called commit-pinned',()=>withFixture(({root,write})=>{
++ const a=auditAI10DependencyClosure(root,[relativeTest]);
++ write('library/nested.mjs','export const value=8;\n');
++ const b=auditAI10DependencyClosure(root,[relativeTest]);
++ assert.equal(a.pass,true);assert.equal(b.pass,true);
++ assert.notEqual(a.files.find(x=>x.path==='library/nested.mjs').gitBlobSha,
++                 b.files.find(x=>x.path==='library/nested.mjs').gitBlobSha);
++ assert.equal(b.dependenciesPinnedToGitCommit,false);
++}));
++
++test('Bad test list and traversal input fail closed',()=>withFixture(({root})=>{
++ assert.throws(()=>auditAI10DependencyClosure(root,null),TypeError);
++ const x=auditAI10DependencyClosure(root,['../test-evil.mjs']);
++ assert.equal(x.pass,false);assert.ok(codes(x).includes('BAD_TEST_PATH'));
++}));
++
++test('Actual partial AI-10 workspace static closure includes all currently available pinned tests',()=>{
++ const here=new URL('../',import.meta.url);
++ const root=here.pathname;
++ const manifest=JSON.parse(readFileSync(new URL('./TEST_MANIFEST.json',import.meta.url),'utf8'));
++ const paths=manifest.testFiles.map(x=>x.path).filter(p=>{
++  try{readFileSync(join(root,p));return true;}catch{return false;}
++ });
++ // A partial checkout can still audit the dependency scope of its present tests.
++ const report=auditAI10DependencyClosure(root,paths);
++ assert.equal(paths.length,13); // 11 pre-existing plus two new auditing test scripts
++ assert.equal(report.pass,true,JSON.stringify(report.issues));
++ assert.equal(report.testEntries,13);
++ assert.equal(report.fullSuiteExecuted,false);
++});
++
++test('Standalone strict CLI refuses a missing transitively referenced source before tests run',()=>{
++ const root=mkdtempSync(join(tmpdir(),'ai10-dep-cli-'));
++ try{
++  const toolsDir=join(root,'tam-thuc-reproducible-audit-2026-11-01');
++  const suiteDir=join(root,'suite');
++  mkdirSync(toolsDir);mkdirSync(suiteDir);
++  for(const name of ['run-ai10-strict.mjs','ai10-test-audit.mjs','ai10-dependency-audit.mjs','ai10-git-tree-audit.mjs'])
++   copyFileSync(new URL('./'+name,import.meta.url),join(toolsDir,name));
++  const script=join(suiteDir,'test-cli.mjs');
++  writeFileSync(script,`import '../library/missing.mjs';\nimport test from 'node:test';\ntest('must not run',()=>{});\n`);
++  const bytes=readFileSync(script);
++  const manifest={schema:'hhc.ai10.test-inventory.v1',testFiles:[
++   {path:'suite/test-cli.mjs',bytes:bytes.length,gitBlobSha:gitBlobSha(bytes)}]};
++  writeFileSync(join(toolsDir,'TEST_MANIFEST.json'),JSON.stringify(manifest));
++  const cmd=spawnSync(process.execPath,[join(toolsDir,'run-ai10-strict.mjs'),'--run'],{encoding:'utf8'});
++  assert.equal(cmd.status,1,cmd.stderr);
++  assert.match(cmd.stdout,/MISSING_DEPENDENCY/);
++  assert.doesNotMatch(cmd.stdout,/TAP version 13/);
++ }finally{rmSync(root,{recursive:true,force:true});}
++});
+diff --git a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/test-ai10-git-tree-audit.mjs b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/test-ai10-git-tree-audit.mjs
+new file mode 100644
+index 0000000..09b8d49
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/test-ai10-git-tree-audit.mjs
+@@ -0,0 +1,130 @@
++import test from 'node:test';
++import assert from 'node:assert/strict';
++import {mkdtempSync,mkdirSync,writeFileSync,rmSync,readFileSync} from 'node:fs';
++import {tmpdir} from 'node:os';
++import {join} from 'node:path';
++import {spawnSync} from 'node:child_process';
++import {auditAI10DependencyClosure} from './ai10-dependency-audit.mjs';
++import {auditAI10GitHead} from './ai10-git-tree-audit.mjs';
++import {gitBlobSha} from './ai10-test-audit.mjs';
++
++function git(repo,...args){
++ const p=spawnSync('git',['-C',repo,...args],{encoding:'utf8'});
++ assert.equal(p.status,0,p.stderr);return p.stdout.trim();
++}
++function makeGit(){
++ const repo=mkdtempSync(join(tmpdir(),'ai10-tree-'));
++ const root=join(repo,'collaboration','parallel-research','submissions','AI-10');
++ mkdirSync(join(root,'suite'),{recursive:true});mkdirSync(join(root,'library'));
++ const write=(name,value)=>writeFileSync(join(root,...name.split('/')),value);
++ write('suite/test-check.mjs',"import {answer} from '../library/answer.mjs';\nimport {readFileSync} from 'node:fs';\nexport const ok=answer===JSON.parse(readFileSync(new URL('../library/fixture.json',import.meta.url))).answer;\n");
++ write('library/answer.mjs','export const answer=42;\n');
++ write('library/fixture.json','{"answer":42}\n');
++ git(repo,'init','-q');git(repo,'config','user.email','ai10@example.invalid');git(repo,'config','user.name','AI10 Local Test');
++ git(repo,'add','.');git(repo,'commit','-q','-m','base');
++ const closure=()=>auditAI10DependencyClosure(root,['suite/test-check.mjs']);
++ return {repo,root,write,closure};
++}
++function fixture(fn){const r=makeGit();try{return fn(r);}finally{rmSync(r.repo,{recursive:true,force:true});}}
++const codes=r=>r.issues.map(x=>x.code);
++
++test('A clean checkout has every transitive source, test, and JSON in Git HEAD',()=>fixture(({root,closure,repo})=>{
++ const deps=closure();assert.equal(deps.pass,true,JSON.stringify(deps.issues));
++ assert.equal(deps.files.length,3);
++ const result=auditAI10GitHead(root,deps);
++ assert.equal(result.pass,true,JSON.stringify(result.issues));
++ assert.equal(result.checked,3);
++ assert.equal(result.localGitHead,git(repo,'rev-parse','HEAD'));
++ assert.equal(result.remoteCommitAuthenticated,false);
++ assert.equal(result.historicalSourcesAuthenticated,false);
++ assert.equal(result.fullSuiteExecuted,false);
++}));
++
++test('A same-length change to a transitively imported JS is rejected despite intact test bytes',()=>fixture(({root,closure,write})=>{
++ write('library/answer.mjs','export const answer=43;\n');
++ const deps=closure();assert.equal(deps.pass,true);
++ const r=auditAI10GitHead(root,deps);
++ assert.equal(r.pass,false);assert.deepEqual(codes(r),['GIT_HEAD_BLOB_MISMATCH']);
++ assert.equal(r.issues[0].path,'library/answer.mjs');
++}));
++
++test('A byte change in a referenced JSON fixture is rejected',()=>fixture(({root,closure,write})=>{
++ write('library/fixture.json','{"answer":43}\n');
++ const r=auditAI10GitHead(root,closure());
++ assert.equal(r.pass,false);assert.equal(r.issues[0].path,'library/fixture.json');
++ assert.ok(codes(r).includes('GIT_HEAD_BLOB_MISMATCH'));
++}));
++
++test('A newly imported untracked module is not treated as verified Git HEAD source',()=>fixture(({root,closure,write})=>{
++ write('library/answer.mjs',"import {extra} from './fresh.mjs'; export const answer=extra;\n");
++ write('library/fresh.mjs','export const extra=42;\n');
++ const deps=closure();assert.equal(deps.pass,true,JSON.stringify(deps.issues));
++ const r=auditAI10GitHead(root,deps);
++ assert.equal(r.pass,false);
++ assert.ok(codes(r).includes('NOT_TRACKED_IN_HEAD'));
++ assert.ok(codes(r).includes('GIT_HEAD_BLOB_MISMATCH'));
++}));
++
++test('Git staging a changed JSON does not make local HEAD verification succeed',()=>fixture(({repo,root,closure,write})=>{
++ write('library/fixture.json','{"answer":44}\n');
++ git(repo,'add','collaboration');
++ const r=auditAI10GitHead(root,closure());
++ assert.ok(codes(r).includes('GIT_HEAD_BLOB_MISMATCH'));
++}));
++
++test('A new local Git commit establishes a new local reference, but not a remote authentication',()=>fixture(({repo,root,closure,write})=>{
++ const before=git(repo,'rev-parse','HEAD');
++ write('library/answer.mjs','export const answer=43;\n');
++ git(repo,'add','collaboration');git(repo,'commit','-q','-m','new-local-head');
++ const r=auditAI10GitHead(root,closure());
++ assert.equal(r.pass,true,JSON.stringify(r.issues));
++ assert.notEqual(r.localGitHead,before);
++ assert.equal(r.remoteCommitAuthenticated,false);
++}));
++
++test('A directory without Git metadata cannot receive a Git HEAD certificate',()=>{
++ const repo=mkdtempSync(join(tmpdir(),'ai10-no-git-'));
++ try{
++  const r=auditAI10GitHead(repo,{pass:true,files:[]});
++  assert.equal(r.pass,false);assert.ok(codes(r).includes('GIT_REPOSITORY_NOT_FOUND'));
++  assert.equal(r.remoteCommitAuthenticated,false);
++ }finally{rmSync(repo,{recursive:true,force:true});}
++});
++
++test('A dependency audit that already failed cannot become a passing Git certificate',()=>fixture(({root,closure,write})=>{
++ write('library/answer.mjs',"import '../library/missing.mjs'; export const answer=42;\n");
++ const deps=closure();assert.equal(deps.pass,false);
++ const r=auditAI10GitHead(root,deps);assert.equal(r.pass,false);
++}));
++
++test('Wrong argument types and forged closure records are rejected',()=>fixture(({root,closure})=>{
++ assert.throws(()=>auditAI10GitHead(root,{}),TypeError);
++ assert.throws(()=>auditAI10GitHead(null,closure()),TypeError);
++ const forged={pass:true,files:[{path:'library/answer.mjs',gitBlobSha:'fake'}]};
++ const r=auditAI10GitHead(root,forged);
++ assert.equal(r.pass,false);assert.ok(codes(r).includes('BAD_CLOSURE_ENTRY'));
++}));
++
++test('Strict CLI --verify-git-head and --run-git-head succeed on a fully committed tiny fixture',()=>fixture(({repo,root,write})=>{
++ const tooling=join(root,'tam-thuc-reproducible-audit-2026-11-01');mkdirSync(tooling);
++ for(const name of ['run-ai10-strict.mjs','ai10-test-audit.mjs','ai10-dependency-audit.mjs','ai10-git-tree-audit.mjs']){
++  const source=new URL('./'+name,import.meta.url);
++  const contents=readFileSync(source);
++  writeFileSync(join(tooling,name),contents);
++ }
++ write('suite/test-check.mjs',"import test from 'node:test';\nimport {answer} from '../library/answer.mjs';\ntest('fixture',()=>{if(answer!==42)throw Error('not 42');});\n");
++ const bytes=readFileSync(join(root,'suite/test-check.mjs'));
++ const manifest={schema:'hhc.ai10.test-inventory.v1',testFiles:[
++  {path:'suite/test-check.mjs',bytes:bytes.length,gitBlobSha:gitBlobSha(bytes)}]};
++ write('tam-thuc-reproducible-audit-2026-11-01/TEST_MANIFEST.json',JSON.stringify(manifest));
++ git(repo,'add','.');git(repo,'commit','-q','-m','strict cli setup');
++ const invoke=flag=>spawnSync(process.execPath,[join(tooling,'run-ai10-strict.mjs'),flag],{encoding:'utf8'});
++ const verify=invoke('--verify-git-head');assert.equal(verify.status,0,verify.stderr);
++ assert.match(verify.stdout,/"localGitHeadIntegrityOnly":true/);
++ const run=invoke('--run-git-head');assert.equal(run.status,0,run.stderr);
++ assert.match(run.stdout,/AI-10 local Git HEAD/);
++ write('library/answer.mjs','export const answer=43;\n');
++ const blocked=invoke('--run-git-head');assert.equal(blocked.status,1);
++ assert.match(blocked.stdout,/GIT_HEAD_BLOB_MISMATCH/);
++ assert.doesNotMatch(blocked.stdout,/TAP version 13/);
++}));
+diff --git a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/test-ai10-test-audit.mjs b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/test-ai10-test-audit.mjs
+index 3b60876..4d6fe53 100644
+--- a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/test-ai10-test-audit.mjs
++++ b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/test-ai10-test-audit.mjs
+@@ -69,10 +69,10 @@ test('Passing manifest never claims AI-10 historical source, V53 or engine accep
+  assert.ok(Object.isFrozen(r));assert.ok(Object.isFrozen(r.issues));
+  assert.throws(()=>{r.pass=false;},TypeError);
+ }));
+-test('Current GitHub-based manifest contains this test and exactly 22 controlled test paths',()=>{
++test('Current GitHub-based manifest contains this test and exactly 24 controlled test paths',()=>{
+  const m=JSON.parse(readFileSync(new URL('./TEST_MANIFEST.json',import.meta.url),'utf8'));
+- assert.equal(m.testFiles.length,22);
+- assert.equal(new Set(m.testFiles.map(x=>x.path)).size,22);
++ assert.equal(m.testFiles.length,24);
++ assert.equal(new Set(m.testFiles.map(x=>x.path)).size,24);
+  const self=m.testFiles.find(x=>x.path==='tam-thuc-reproducible-audit-2026-11-01/test-ai10-test-audit.mjs');
+  assert.ok(self);
+  const bytes=readFileSync(new URL('./test-ai10-test-audit.mjs',import.meta.url));
+@@ -87,7 +87,7 @@ test('Standalone CLI verifies and executes a complete, tiny synthetic checkout',
+   const tooling=join(root,'tam-thuc-reproducible-audit-2026-11-01');
+   const fixture=join(root,'fixture');
+   mkdirSync(tooling);mkdirSync(fixture);
+-  for(const file of ['ai10-test-audit.mjs','run-ai10-strict.mjs'])
++  for(const file of ['ai10-test-audit.mjs','ai10-dependency-audit.mjs','ai10-git-tree-audit.mjs','run-ai10-strict.mjs'])
+    copyFileSync(new URL('./'+file,import.meta.url),join(tooling,file));
+   const file=join(fixture,'test-hello.mjs');
+   writeFileSync(file,"import test from 'node:test'; test('tiny suite',()=>{});\n");

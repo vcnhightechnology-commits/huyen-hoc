@@ -1,0 +1,518 @@
+{
+  "date": "2026-10-27",
+  "checks": [
+    {
+      "name": "Retained container/comparator/two expandedimages/crop keepSHA;zero new pages orHTTP",
+      "ok": true
+    },
+    {
+      "name": "Ten direct source triplets match exact folio113a-b;three己/巳variants explicit;lastrow crossespages",
+      "ok": true
+    },
+    {
+      "name": "Actual lunar-typescript1.8.6 runtime has retained audited bytes",
+      "ok": true
+    },
+    {
+      "name": "Ten fixture dates execute120HHC/120Lunar calls over12hours;all fourpillars andday-hour arithmeticagree",
+      "ok": true
+    },
+    {
+      "name": "Ten source hours all contain explicit stem orhiddenbranch Thất Sát in actualchart;not a favorableverdict",
+      "ok": true
+    },
+    {
+      "name": "120day-month contexts:onlyten directsource monthcoordinatesmatch;hourabsence staysunknown",
+      "ok": true
+    },
+    {
+      "name": "Unknown,false andinvalidday-hour aredistinct;source丙己亥confirmed andfalse乙亥controlrejected",
+      "ok": true
+    },
+    {
+      "name": "Strictcontext/sparseinputs andmutation guards preserve retainedsource",
+      "ok": true
+    },
+    {
+      "name": "HTMLunchanged;privatepatternmatcher absentfrom product",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "actualHHCBaziCalls": 120,
+    "actualLunarCalls": 120,
+    "sourceTriplets": 10,
+    "sourceHourKillContexts": 10,
+    "privateMonthContexts": 120,
+    "expandedPreviouslyReadPages": 2,
+    "newSourcePages": 0,
+    "newHTTPRequests": 0
+  },
+  "sourceFixtures": [
+    {
+      "source": {
+        "dayStem": "甲",
+        "monthBranch": "寅",
+        "printedHourPillar": "壬申",
+        "image": 223,
+        "folio": "005-113a",
+        "glyphsNormalizedFromRoles": true,
+        "sourceImages": [
+          223
+        ],
+        "digitalTripletAsRetained": "甲日寅月宜壬申時",
+        "imageTripletNormalized": "甲日寅月宜壬申時",
+        "digitalGlyphVariant": false
+      },
+      "input": {
+        "y": 2020,
+        "m": 2,
+        "d": 21,
+        "hour": 16,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "戊寅",
+        "甲午",
+        "壬申"
+      ],
+      "sourceCoordinateMatched": true,
+      "hourKillPositions": [
+        {
+          "pillarIndex": 3,
+          "pillar": "giờ",
+          "branch": "Thân",
+          "stem": 6,
+          "name": "Canh",
+          "primary": true
+        }
+      ],
+      "historicalBirthDate": false
+    },
+    {
+      "source": {
+        "dayStem": "乙",
+        "monthBranch": "卯",
+        "printedHourPillar": "辛巳",
+        "image": 223,
+        "folio": "005-113a",
+        "glyphsNormalizedFromRoles": true,
+        "sourceImages": [
+          223
+        ],
+        "digitalTripletAsRetained": "乙日卯月宜辛巳時",
+        "imageTripletNormalized": "乙日卯月宜辛巳時",
+        "digitalGlyphVariant": false
+      },
+      "input": {
+        "y": 2020,
+        "m": 3,
+        "d": 23,
+        "hour": 10,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "己卯",
+        "乙丑",
+        "辛巳"
+      ],
+      "sourceCoordinateMatched": true,
+      "hourKillPositions": [
+        {
+          "pillarIndex": 3,
+          "pillar": "giờ",
+          "stem": 7,
+          "name": "Tân"
+        }
+      ],
+      "historicalBirthDate": false
+    },
+    {
+      "source": {
+        "dayStem": "丙",
+        "monthBranch": "巳",
+        "printedHourPillar": "己亥",
+        "image": 223,
+        "folio": "005-113a",
+        "glyphsNormalizedFromRoles": true,
+        "sourceImages": [
+          223
+        ],
+        "digitalTripletAsRetained": "丙日巳月宜巳亥時",
+        "imageTripletNormalized": "丙日巳月宜己亥時",
+        "digitalGlyphVariant": true
+      },
+      "input": {
+        "y": 2020,
+        "m": 5,
+        "d": 23,
+        "hour": 22,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "辛巳",
+        "丙寅",
+        "己亥"
+      ],
+      "sourceCoordinateMatched": true,
+      "hourKillPositions": [
+        {
+          "pillarIndex": 3,
+          "pillar": "giờ",
+          "branch": "Hợi",
+          "stem": 8,
+          "name": "Nhâm",
+          "primary": true
+        }
+      ],
+      "historicalBirthDate": false
+    },
+    {
+      "source": {
+        "dayStem": "丁",
+        "monthBranch": "午",
+        "printedHourPillar": "庚子",
+        "image": 223,
+        "folio": "005-113a",
+        "glyphsNormalizedFromRoles": true,
+        "sourceImages": [
+          223
+        ],
+        "digitalTripletAsRetained": "丁日午月宜庚子時",
+        "imageTripletNormalized": "丁日午月宜庚子時",
+        "digitalGlyphVariant": false
+      },
+      "input": {
+        "y": 2020,
+        "m": 6,
+        "d": 23,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "壬午",
+        "丁酉",
+        "庚子"
+      ],
+      "sourceCoordinateMatched": true,
+      "hourKillPositions": [
+        {
+          "pillarIndex": 3,
+          "pillar": "giờ",
+          "branch": "Tý",
+          "stem": 9,
+          "name": "Quý",
+          "primary": true
+        }
+      ],
+      "historicalBirthDate": false
+    },
+    {
+      "source": {
+        "dayStem": "戊",
+        "monthBranch": "巳",
+        "printedHourPillar": "甲寅",
+        "image": 223,
+        "folio": "005-113a",
+        "glyphsNormalizedFromRoles": true,
+        "sourceImages": [
+          223
+        ],
+        "digitalTripletAsRetained": "戊日巳月宜甲寅時",
+        "imageTripletNormalized": "戊日巳月宜甲寅時",
+        "digitalGlyphVariant": false
+      },
+      "input": {
+        "y": 2020,
+        "m": 5,
+        "d": 15,
+        "hour": 4,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "辛巳",
+        "戊午",
+        "甲寅"
+      ],
+      "sourceCoordinateMatched": true,
+      "hourKillPositions": [
+        {
+          "pillarIndex": 3,
+          "pillar": "giờ",
+          "stem": 0,
+          "name": "Giáp"
+        },
+        {
+          "pillarIndex": 3,
+          "pillar": "giờ",
+          "branch": "Dần",
+          "stem": 0,
+          "name": "Giáp",
+          "primary": true
+        }
+      ],
+      "historicalBirthDate": false
+    },
+    {
+      "source": {
+        "dayStem": "己",
+        "monthBranch": "午",
+        "printedHourPillar": "乙丑",
+        "image": 223,
+        "folio": "005-113a",
+        "glyphsNormalizedFromRoles": true,
+        "sourceImages": [
+          223
+        ],
+        "digitalTripletAsRetained": "巳日午月宜乙丑時",
+        "imageTripletNormalized": "己日午月宜乙丑時",
+        "digitalGlyphVariant": true
+      },
+      "input": {
+        "y": 2020,
+        "m": 6,
+        "d": 15,
+        "hour": 2,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "壬午",
+        "己丑",
+        "乙丑"
+      ],
+      "sourceCoordinateMatched": true,
+      "hourKillPositions": [
+        {
+          "pillarIndex": 3,
+          "pillar": "giờ",
+          "stem": 1,
+          "name": "Ất"
+        }
+      ],
+      "historicalBirthDate": false
+    },
+    {
+      "source": {
+        "dayStem": "庚",
+        "monthBranch": "申",
+        "printedHourPillar": "丙戌",
+        "image": 223,
+        "folio": "005-113a",
+        "glyphsNormalizedFromRoles": true,
+        "sourceImages": [
+          223
+        ],
+        "digitalTripletAsRetained": "庚日申月宜丙戌時",
+        "imageTripletNormalized": "庚日申月宜丙戌時",
+        "digitalGlyphVariant": false
+      },
+      "input": {
+        "y": 2020,
+        "m": 8,
+        "d": 15,
+        "hour": 20,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "甲申",
+        "庚寅",
+        "丙戌"
+      ],
+      "sourceCoordinateMatched": true,
+      "hourKillPositions": [
+        {
+          "pillarIndex": 3,
+          "pillar": "giờ",
+          "stem": 2,
+          "name": "Bính"
+        }
+      ],
+      "historicalBirthDate": false
+    },
+    {
+      "source": {
+        "dayStem": "辛",
+        "monthBranch": "酉",
+        "printedHourPillar": "丁酉",
+        "image": 223,
+        "folio": "005-113a",
+        "glyphsNormalizedFromRoles": true,
+        "sourceImages": [
+          223
+        ],
+        "digitalTripletAsRetained": "辛日酉月宜丁酉時",
+        "imageTripletNormalized": "辛日酉月宜丁酉時",
+        "digitalGlyphVariant": false
+      },
+      "input": {
+        "y": 2020,
+        "m": 9,
+        "d": 15,
+        "hour": 18,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "乙酉",
+        "辛酉",
+        "丁酉"
+      ],
+      "sourceCoordinateMatched": true,
+      "hourKillPositions": [
+        {
+          "pillarIndex": 3,
+          "pillar": "giờ",
+          "stem": 3,
+          "name": "Đinh"
+        }
+      ],
+      "historicalBirthDate": false
+    },
+    {
+      "source": {
+        "dayStem": "壬",
+        "monthBranch": "亥",
+        "printedHourPillar": "戊申",
+        "image": 223,
+        "folio": "005-113a",
+        "glyphsNormalizedFromRoles": true,
+        "sourceImages": [
+          223
+        ],
+        "digitalTripletAsRetained": "壬日亥月宜戊申時",
+        "imageTripletNormalized": "壬日亥月宜戊申時",
+        "digitalGlyphVariant": false
+      },
+      "input": {
+        "y": 2020,
+        "m": 11,
+        "d": 15,
+        "hour": 16,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "丁亥",
+        "壬戌",
+        "戊申"
+      ],
+      "sourceCoordinateMatched": true,
+      "hourKillPositions": [
+        {
+          "pillarIndex": 3,
+          "pillar": "giờ",
+          "stem": 4,
+          "name": "Mậu"
+        },
+        {
+          "pillarIndex": 3,
+          "pillar": "giờ",
+          "branch": "Thân",
+          "stem": 4,
+          "name": "Mậu",
+          "primary": false
+        }
+      ],
+      "historicalBirthDate": false
+    },
+    {
+      "source": {
+        "dayStem": "癸",
+        "monthBranch": "子",
+        "printedHourPillar": "己未",
+        "image": 224,
+        "folio": "005-113b",
+        "glyphsNormalizedFromRoles": true,
+        "sourceImages": [
+          223,
+          224
+        ],
+        "digitalTripletAsRetained": "癸日子月宜巳未時",
+        "imageTripletNormalized": "癸日子月宜己未時",
+        "digitalGlyphVariant": true
+      },
+      "input": {
+        "y": 2020,
+        "m": 12,
+        "d": 16,
+        "hour": 14,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "戊子",
+        "癸巳",
+        "己未"
+      ],
+      "sourceCoordinateMatched": true,
+      "hourKillPositions": [
+        {
+          "pillarIndex": 3,
+          "pillar": "giờ",
+          "stem": 5,
+          "name": "Kỷ"
+        },
+        {
+          "pillarIndex": 3,
+          "pillar": "giờ",
+          "branch": "Mùi",
+          "stem": 5,
+          "name": "Kỷ",
+          "primary": true
+        }
+      ],
+      "historicalBirthDate": false
+    }
+  ],
+  "caseDigest": "a285a8d979506dff51dce3c4516335c973c91b19afa680f1fec52526dbf48b86",
+  "htmlSHA256": "549cb415c1a7785e92be25b407d965ea0abd4d3affc54696b784f84d87601857",
+  "fullPatternClassifier": false,
+  "wholeCatalogueCompleted": false
+}

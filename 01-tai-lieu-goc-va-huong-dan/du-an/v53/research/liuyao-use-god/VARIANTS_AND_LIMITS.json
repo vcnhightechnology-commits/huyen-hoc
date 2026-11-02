@@ -1,0 +1,58 @@
+{
+  "date": "2026-10-27",
+  "items": [
+    {
+      "id": "void-date",
+      "pdfPage": 52,
+      "status": "source-date-vs-void-prose-unresolved",
+      "literalDate": "酉月辛卯日",
+      "standardDayVoid": "午未",
+      "incompatibleProse": "財卯空/changed財寅空",
+      "hypothesisNotCorrection": "辛亥wouldfit寅卯voidbuttheprinteddateisread辛卯;keepbothsourceclaimsseparate."
+    },
+    {
+      "id": "four-glyphs",
+      "pdfPage": 48,
+      "status": "reading-resolved",
+      "finding": "需5→訟6moves1,3,4,6;line5isstatic,asexplicitlystatedinprose. Failedfixturewithline5movingyielded64andwascorrectedbyimage/prose,notbychangingengine."
+    },
+    {
+      "id": "da-guo-not-xun",
+      "pdfPage": 54,
+      "status": "reading-resolved",
+      "finding": "Thefigureis大過28→鼎50,moving5/6;do not misassign it as巽57. 用亥4/元酉5/忌未6."
+    },
+    {
+      "id": "and-or-connective",
+      "pdfPages": [
+        52,
+        53
+      ],
+      "status": "editorial-operationalization",
+      "finding": "Within numberedlistitems,enumeratedalternativecontextsarecompiledasany;combinedqualifiersasall. Thisisexplicitimplementationinterpretation,notevidencealllaterexceptionscompleted."
+    },
+    {
+      "id": "kin-role-not-valence",
+      "pdfPages": [
+        49,
+        50,
+        51
+      ],
+      "status": "source-qualified",
+      "finding": "姐夫mappingdisputed,子孫called福神butunfavorablefor功名,and忌+元coactivitycangenerateachain. No universalpositive/negativeroleweights."
+    },
+    {
+      "id": "root-and-calendar",
+      "pdfPages": [
+        53,
+        54
+      ],
+      "status": "open-premises",
+      "finding": "用神有氣/無根,暗動,vượngsuy,day/month/void/tomb/extinction requirecompleteidentifiedrules. Inputsremainexplicit;notfilledfrompartialheadingorbranchalone."
+    }
+  ],
+  "historicalMedicalOutcomeClaims": "Recordedashistoricalclaims,notvalidatedcausalityormedicalguidance.",
+  "sourceInstructionsAreData": true,
+  "b03ParallelChapterCollated": false,
+  "wholeBookApplied": false
+}

@@ -1,0 +1,50 @@
+{
+  "records": [
+    {
+      "page": 211,
+      "raw": {
+        "file": "p211.png",
+        "bytes": 244023,
+        "sha256": "a4d4d89d72cb4dc8272ba19b7443ce38476685fddf5c06f40e8c01d3427286bd"
+      },
+      "crop": {
+        "file": "p211-direction-and-true-metal-fire.png",
+        "bytes": 79930,
+        "sha256": "b429e17e2cc7765568888154cc37e967ef57d9b3f063f0f2e6bce07d3b7cd67f"
+      },
+      "boxXYXY": [
+        800,
+        310,
+        1590,
+        2870
+      ],
+      "actuallyViewed": true,
+      "accepted": true,
+      "selectedColumnsComplete": true
+    },
+    {
+      "page": 214,
+      "raw": {
+        "file": "p214.png",
+        "bytes": 267740,
+        "sha256": "3f84c6cfff8b8f353b50b2754a76db9ba20a029d5b3e6660f3081af045dde301"
+      },
+      "crop": {
+        "file": "p214-stem-branch-pillar-priority.png",
+        "bytes": 86909,
+        "sha256": "7243e72d3d16c7fd013b053fe461cb6ae1e6d4253bea7716bbbf0e32a53bf107"
+      },
+      "boxXYXY": [
+        1230,
+        310,
+        2050,
+        2860
+      ],
+      "actuallyViewed": true,
+      "accepted": true,
+      "selectedColumnsComplete": true
+    }
+  ],
+  "fullPageContext": "NATIVE_REVIEW.json",
+  "note": "Mark viewed/accepted only after inspecting generated crops."
+}

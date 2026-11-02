@@ -1,0 +1,114 @@
+{
+  "cases": [
+    {
+      "pairID": "jia-ji",
+      "glyphPolicy": "digital-literal-only",
+      "ordinaryCoordinateComparisonAvailable": false,
+      "ordinaryFoodGodRelations": null,
+      "ordinaryNonFoodRelations": null,
+      "allComponentRelationsAreFoodGod": null,
+      "effectiveTransformation": null,
+      "sourceOutcome": null
+    },
+    {
+      "pairID": "bing-xin",
+      "glyphPolicy": "digital-literal-only",
+      "ordinaryCoordinateComparisonAvailable": true,
+      "ordinaryFoodGodRelations": 2,
+      "ordinaryNonFoodRelations": 2,
+      "allComponentRelationsAreFoodGod": false,
+      "effectiveTransformation": null,
+      "sourceOutcome": null
+    },
+    {
+      "pairID": "wu-gui",
+      "glyphPolicy": "digital-literal-only",
+      "ordinaryCoordinateComparisonAvailable": true,
+      "ordinaryFoodGodRelations": 2,
+      "ordinaryNonFoodRelations": 2,
+      "allComponentRelationsAreFoodGod": false,
+      "effectiveTransformation": null,
+      "sourceOutcome": null
+    },
+    {
+      "pairID": "geng-yi",
+      "glyphPolicy": "digital-literal-only",
+      "ordinaryCoordinateComparisonAvailable": true,
+      "ordinaryFoodGodRelations": 2,
+      "ordinaryNonFoodRelations": 2,
+      "allComponentRelationsAreFoodGod": false,
+      "effectiveTransformation": null,
+      "sourceOutcome": null
+    },
+    {
+      "pairID": "ren-ding",
+      "glyphPolicy": "digital-literal-only",
+      "ordinaryCoordinateComparisonAvailable": false,
+      "ordinaryFoodGodRelations": null,
+      "ordinaryNonFoodRelations": null,
+      "allComponentRelationsAreFoodGod": null,
+      "effectiveTransformation": null,
+      "sourceOutcome": null
+    },
+    {
+      "pairID": "jia-ji",
+      "glyphPolicy": "retained-native-working-己",
+      "ordinaryCoordinateComparisonAvailable": true,
+      "ordinaryFoodGodRelations": 2,
+      "ordinaryNonFoodRelations": 2,
+      "allComponentRelationsAreFoodGod": false,
+      "effectiveTransformation": null,
+      "sourceOutcome": null
+    },
+    {
+      "pairID": "bing-xin",
+      "glyphPolicy": "retained-native-working-己",
+      "ordinaryCoordinateComparisonAvailable": true,
+      "ordinaryFoodGodRelations": 2,
+      "ordinaryNonFoodRelations": 2,
+      "allComponentRelationsAreFoodGod": false,
+      "effectiveTransformation": null,
+      "sourceOutcome": null
+    },
+    {
+      "pairID": "wu-gui",
+      "glyphPolicy": "retained-native-working-己",
+      "ordinaryCoordinateComparisonAvailable": true,
+      "ordinaryFoodGodRelations": 2,
+      "ordinaryNonFoodRelations": 2,
+      "allComponentRelationsAreFoodGod": false,
+      "effectiveTransformation": null,
+      "sourceOutcome": null
+    },
+    {
+      "pairID": "geng-yi",
+      "glyphPolicy": "retained-native-working-己",
+      "ordinaryCoordinateComparisonAvailable": true,
+      "ordinaryFoodGodRelations": 2,
+      "ordinaryNonFoodRelations": 2,
+      "allComponentRelationsAreFoodGod": false,
+      "effectiveTransformation": null,
+      "sourceOutcome": null
+    },
+    {
+      "pairID": "ren-ding",
+      "glyphPolicy": "retained-native-working-己",
+      "ordinaryCoordinateComparisonAvailable": true,
+      "ordinaryFoodGodRelations": 2,
+      "ordinaryNonFoodRelations": 2,
+      "allComponentRelationsAreFoodGod": false,
+      "effectiveTransformation": null,
+      "sourceOutcome": null
+    }
+  ],
+  "expectedFullNativeCycle": [
+    "土",
+    "水",
+    "火",
+    "金",
+    "木"
+  ],
+  "sourceVoiceName": "希尹",
+  "noGlobalGlyphEmendation": true,
+  "noInferenceOfNatalTransformation": true
+}

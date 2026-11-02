@@ -1,0 +1,65 @@
+{
+  "files": [
+    {
+      "file": "tmp/bazi-food-label-scope-staging/EXPECTED.json",
+      "bytes": 1208,
+      "sha256": "c6da27a398b026625f3979f0ee52ba1216331280398bc6e07bcb9a2b77d1c455"
+    },
+    {
+      "file": "tmp/bazi-food-label-scope-staging/FREEZE.json",
+      "bytes": 734,
+      "sha256": "94cde3a28e5b8bb0445bd9d2cde0a53a7e91325ba3b7bb4b4918c89162dfa5d3"
+    },
+    {
+      "file": "tmp/bazi-food-label-scope-staging/label-scope.mjs",
+      "bytes": 2216,
+      "sha256": "b618fbd4bc3d226c2ca9d27d68ac806b0d20e38c96160c02d053e17045b1ed9d"
+    },
+    {
+      "file": "tmp/bazi-food-label-scope-staging/prepare.py",
+      "bytes": 3003,
+      "sha256": "bcbfb33059682a0d469f1351cb78155a1c12636ce9fdc65c35ba806ba1c3bd9e"
+    },
+    {
+      "file": "tmp/bazi-food-label-scope-staging/record-progress.py",
+      "bytes": 3163,
+      "sha256": "b11940dbd74f30fa568cc066128fc12afb47a146aec4712b7f27784889a96dd6"
+    },
+    {
+      "file": "tmp/bazi-food-label-scope-staging/RESULTS.json",
+      "bytes": 256,
+      "sha256": "7c5d60b8206769b39ca51fed950499afce5952c9e71fe37654a2041febd9badc"
+    },
+    {
+      "file": "tmp/bazi-food-label-scope-staging/REUSE.json",
+      "bytes": 1533,
+      "sha256": "4c39c8ce5c30c6616d961ef39bce63fbb5fe92b3a0cd1d45ae5ae8b7a422582b"
+    },
+    {
+      "file": "tmp/bazi-food-label-scope-staging/SOURCE_RESULTS.json",
+      "bytes": 223,
+      "sha256": "7d5e3f529d903a03cb30ce981ed000ee9faaa66ff7e1d597955719aa98923830"
+    },
+    {
+      "file": "tmp/bazi-food-label-scope-staging/SOURCE_REVIEW.json",
+      "bytes": 2568,
+      "sha256": "0ebb67f601cbcf59b35ceac80649e3957c63ebda560f206484853ccebcec2cc6"
+    },
+    {
+      "file": "tmp/bazi-food-label-scope-staging/test-label-scope.mjs",
+      "bytes": 3211,
+      "sha256": "c8868e0c34d01b45e0360d768f8dce3e190a1e3509e9da730512b055966e3fb7"
+    },
+    {
+      "file": "tmp/bazi-food-label-scope-staging/verify.py",
+      "bytes": 991,
+      "sha256": "65c070b4d614a8db997a9d01480ef7e790f2bb783d441073964508f2a3e00468"
+    },
+    {
+      "file": "tmp/bazi-food-label-scope-staging/WORK_STATE.json",
+      "bytes": 1352,
+      "sha256": "61fd2b60b061bc783dff948d19eea14badf3198bde13ccb62f615efada06d677"
+    }
+  ],
+  "privateAfterReleaseInventory": true
+}

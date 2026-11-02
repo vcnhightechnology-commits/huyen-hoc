@@ -1,0 +1,142 @@
+{
+  "schema": "hhc.meihua.methods.source-application.v1",
+  "date": "2026-10-26",
+  "newExternalResponses": 0,
+  "newImageReadings": 0,
+  "sourcePDF": "../meihua/NLC416-12jh005426-44577.pdf",
+  "sourcePDFSHA256": "af608094ab11ae209eae91a9365565e7c9cff604aac3da5e753e04d1cc4598c0",
+  "reusedImageEvidence": [
+    {
+      "pdfPage": 16,
+      "image": "../meihua/images/p016.png",
+      "imageSHA256": "a9956f0410dbece22e5958c24ca32025ff27a7a99a6731fc5cca31437a38596d"
+    },
+    {
+      "pdfPage": 17,
+      "image": "../meihua/images/p017.png",
+      "imageSHA256": "d8dccaa53b189fce63502297238348696e9f2d6e65fab0c09755204852fcb7a8"
+    },
+    {
+      "pdfPage": 18,
+      "image": "../meihua/images/p018.png",
+      "imageSHA256": "e904baf09ff0a228a70acbdc40c50542b3f21ac2df9d7449c3f269318d59838b"
+    },
+    {
+      "pdfPage": 19,
+      "image": "../meihua/images/p019.png",
+      "imageSHA256": "b2c9d9ad91fd42a410d082770f5167c3c8554faf725e846dc511a170f8e1814d"
+    },
+    {
+      "pdfPage": 25,
+      "image": "../meihua/images/p025.png",
+      "imageSHA256": "320a2ab745fcc141cd2484a44730f9ac7d6722278fca282fd6de650e26936850"
+    },
+    {
+      "pdfPage": 26,
+      "image": "../meihua/images/p026.png",
+      "imageSHA256": "008a0a32fa9f0777a96ca961ebc0b46344f2d60af699e00865f7239d34385f2e"
+    },
+    {
+      "pdfPage": 27,
+      "image": "../meihua/images/p027.png",
+      "imageSHA256": "ec4bae6d1e31001df2ef15722ef5a0540ebedf1258ea4207b197a3546060ef79"
+    },
+    {
+      "pdfPage": 95,
+      "image": "../meihua/images/p095.png",
+      "imageSHA256": "040fed791677918d4f5e010c95a6f239322b7e7cc90b0eb5b59c22acb0666b0d"
+    },
+    {
+      "pdfPage": 96,
+      "image": "../meihua/images/p096.png",
+      "imageSHA256": "20a26b7278f2c681580e73114d6a9e92005c4fe8d3c9347e1decebb916b7ad68"
+    }
+  ],
+  "rules": [
+    {
+      "id": "time-extra",
+      "sourcePages": [
+        95,
+        96
+      ],
+      "evidenceType": "explicit-rule-and-three-printed-examples",
+      "inputPremise": "positive number explicitly chosen by user;no automatic surname-stroke conversion",
+      "savedRule": "ymdh-extra-v1",
+      "status": "implemented-with-declared-input-limits"
+    },
+    {
+      "id": "word-split",
+      "sourcePages": [
+        16,
+        17
+      ],
+      "evidenceType": "explicit-left-right-rule-plus-selected-no-hour-convention",
+      "inputPremise": "both stroke groups known and positive",
+      "savedRule": "explicit-word-no-hour-v1",
+      "status": "implemented-with-declared-input-limits"
+    },
+    {
+      "id": "word-strokes",
+      "sourcePages": [
+        17,
+        26,
+        27
+      ],
+      "evidenceType": "explicit2/3grouping-and-two-printed-count-examples",
+      "inputPremise": "historical stroke counts supplied by user,not auto-detected",
+      "savedRule": "explicit-word-no-hour-v1",
+      "status": "implemented-with-declared-input-limits"
+    },
+    {
+      "id": "word-tones",
+      "sourcePages": [
+        17,
+        18,
+        25,
+        26
+      ],
+      "evidenceType": "explicit4..10historical-tone-counts-and-one-worked-example",
+      "inputPremise": "user supplies historical four-tone classes;no Vietnamese/modern tone proxy",
+      "savedRule": "explicit-word-no-hour-v1",
+      "status": "implemented-with-declared-input-limits"
+    },
+    {
+      "id": "word-length",
+      "sourcePages": [
+        16,
+        18
+      ],
+      "evidenceType": "combined-general-even-odd-rule-and11..100count-rule",
+      "inputPremise": "user-confirmed count of Han characters,excluding punctuation/space;no automatic Unicode counting",
+      "savedRule": "explicit-word-no-hour-v1",
+      "status": "implemented-with-declared-input-limits"
+    },
+    {
+      "id": "zhang-chi",
+      "sourcePages": [
+        18
+      ],
+      "evidenceType": "explicit-rule-without-hour;no printed numeric example found",
+      "inputPremise": "two positive components in known units;no metric conversion or normalization",
+      "savedRule": "zhang-chi-no-hour-v1",
+      "status": "implemented-with-declared-input-limits"
+    },
+    {
+      "id": "chi-cun",
+      "sourcePages": [
+        19
+      ],
+      "evidenceType": "explicit-rule-adds-hour;no printed numeric example found",
+      "inputPremise": "two positive components and known hour;no metric conversion or normalization",
+      "savedRule": "chi-cun-hour-v1",
+      "status": "implemented-with-declared-input-limits"
+    }
+  ],
+  "openPremises": [
+    "General add-hour clause versus word examples remains a named convention,not silently unified.",
+    "Zero stroke/measurement components are unsupported;no source-confirmed zero-trigram premise.",
+    "No historical unit length or modern character-counting database assumed.",
+    "Full source book,seasonal/external-response/duration rules and source-internal diagram conflicts remain open."
+  ],
+  "wholeBookCompleted": false
+}

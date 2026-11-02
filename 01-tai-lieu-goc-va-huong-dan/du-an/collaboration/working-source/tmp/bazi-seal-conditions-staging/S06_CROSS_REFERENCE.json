@@ -1,0 +1,27 @@
+{
+  "status": "digital-cross-reference-only;native-volume6-not-reviewed-for-this-scope",
+  "targetUnit": "S06",
+  "targetText": "有年時見印名鳯凰啣印如虞尚書癸未甲寅戊午丙辰是也",
+  "crossReference": {
+    "file": "v53/research/bazi-relations/sources/KR3g0042_006.txt",
+    "sha256": "17ed9b106fe07f18e0fb56b9351507c68e22eaf700005659adca9dda436d674f",
+    "digitalFolio": "006-92b",
+    "heading": "君臣慶㑹",
+    "quotedExample": "如虞尚書癸未甲寅戊午丙辰",
+    "precedingPremiseBeforeLineBreak": "若年與月合日與時合為䨇鴛徳",
+    "precedingPremiseAfterLineBreak": "合尤妙"
+  },
+  "provenance": {
+    "repository": "https://github.com/kanripo/KR3g0042",
+    "branch": "WYG",
+    "revision": "7db72e5553de6ee4c45ed3980c6c67f8a6e451bf"
+  },
+  "finding": "The same four-pillar string appears under another rule heading in the same transcribed work. This supports retention of the printed sequence, but does not independently verify the historical person's birth record or prove that the two rule headings share a mechanism.",
+  "limits": [
+    "The volume-6 native page has not been compared in this bounded cross-reference.",
+    "Do not infer all S06 role assignments or apply its name as an outcome rule from this repetition.",
+    "Do not count the volume-6 text as an independent witness: it is the same work and digital repository."
+  ],
+  "engineCalls": 0,
+  "consumerChanged": false
+}

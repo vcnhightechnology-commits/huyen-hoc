@@ -1,0 +1,57 @@
+{
+  "date": "2026-10-28",
+  "sourceParentContext": "FOOD-00-C15",
+  "contextCodepoints": 213,
+  "digitalPartitionUnits": 10,
+  "selectedExceptionRecords": 8,
+  "directNativeReviewPositions": [
+    175,
+    176
+  ],
+  "nativeCropsViewedPixelMatched": 4,
+  "newSourcePositions": 0,
+  "newHTTPRequests": 0,
+  "newContainers": 0,
+  "sourceTextLayers": {
+    "originalCorpusRetainedUnchanged": true,
+    "manualNativeSelectedReadingsNotWholeGlyphCollation": true,
+    "canonicalStemRoleReadingsExplicit": true
+  },
+  "unresolved": {
+    "namedPillarDayOrOtherAnchor": true,
+    "effectiveCombinationOrSupport": true,
+    "luClause土Versus壬": true,
+    "guiClauseFinalBranchGlyph": true,
+    "jiXinVersusXinDingPriority": true
+  },
+  "disposition": "Bounded research premise audit; all true research premises are explicit declarations, not validated birth-chart facts.",
+  "noBlanketOwlRule": true,
+  "noRelationRemapping": true,
+  "sourceFullClausesApplied": false,
+  "sourceOutcomesValidated": false,
+  "consumerApplied": false,
+  "testExecutionAudit": {
+    "finalCompleteChecks": 5,
+    "finalHHCTenGodQueries": 8,
+    "uniqueRecipientOwlPairs": 7,
+    "finalLunarHiddenTableQueries": 4,
+    "finalLunarCombinationTableQueries": 4,
+    "firstFailedRun": {
+      "date": "2026-10-28",
+      "failure": "test expected135 ternary contexts, actual enumeration162",
+      "cause": "Manual expected-count arithmetic error: five three-premise records yield5*27, three two-premise records yield3*9; total162.",
+      "firstRunCompleteChecksBeforeFailure": 3,
+      "firstRunActualHHCTenGodQueries": 8,
+      "firstRunActualLunarHiddenStemTableQueries": 4,
+      "firstRunActualLunarCombinationTableQueries": 4,
+      "firstRunTernaryContextsEvaluated": 162,
+      "logicOrManualSourceTableChanged": false,
+      "repair": "Expected context count only changed135to162; final full test rerun is required but not independent evidence.",
+      "consumerAffected": false
+    },
+    "allRunsHHCTenGodQueries": 16,
+    "allRunsLunarHiddenTableQueries": 8,
+    "allRunsLunarCombinationTableQueries": 8,
+    "doNotTreatRerunAsIndependentEvidence": true
+  }
+}

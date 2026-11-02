@@ -1,0 +1,93 @@
+{
+  "date": "2026-10-29",
+  "records": [
+    {
+      "id": "definition-complete",
+      "source": {
+        "file": "v53/research/bazi-food-source/p191.png",
+        "bytes": 234268,
+        "sha256": "1c8a56bb14b7ba0c49b488120296356241643d5e44368904053bc3e913389540"
+      },
+      "sourceSize": [
+        2280,
+        3143
+      ],
+      "boxXYXY": [
+        760,
+        270,
+        960,
+        2960
+      ],
+      "crop": {
+        "file": "tmp/bazi-tongke-cases-staging/definition-complete.png",
+        "bytes": 27978,
+        "sha256": "2fa0622b6f955ae7059e0556bc6dd5b9a542c7690caf9fa1b82b7004856adc19"
+      },
+      "nativePixels": true,
+      "viewed": true,
+      "accepted": true,
+      "scope": "Exact visible columns only; other words on original full pages not globally normalized."
+    },
+    {
+      "id": "ranking-and-han-complete",
+      "source": {
+        "file": "v53/research/bazi-food-source/p191.png",
+        "bytes": 234268,
+        "sha256": "1c8a56bb14b7ba0c49b488120296356241643d5e44368904053bc3e913389540"
+      },
+      "sourceSize": [
+        2280,
+        3143
+      ],
+      "boxXYXY": [
+        340,
+        270,
+        760,
+        2960
+      ],
+      "crop": {
+        "file": "tmp/bazi-tongke-cases-staging/ranking-and-han-complete.png",
+        "bytes": 56285,
+        "sha256": "9c13c9c3a29a11fa87b5dc5ebbe9b136931bbe236e19df66c4ca6ff2f30061ab"
+      },
+      "nativePixels": true,
+      "viewed": true,
+      "accepted": true,
+      "scope": "Exact visible columns only; other words on original full pages not globally normalized."
+    },
+    {
+      "id": "qin-and-wang-complete",
+      "source": {
+        "file": "v53/research/bazi-food-source/p192.png",
+        "bytes": 234156,
+        "sha256": "d35ecdb890695ae7fe2e9c6e444b69ad86632f1b6c9d920eadf3c4258513fefc"
+      },
+      "sourceSize": [
+        2310,
+        3145
+      ],
+      "boxXYXY": [
+        1550,
+        270,
+        1950,
+        2960
+      ],
+      "crop": {
+        "file": "tmp/bazi-tongke-cases-staging/qin-and-wang-complete.png",
+        "bytes": 52064,
+        "sha256": "94020782b3a46270000a85b8c8fd268354757f96e93b6076a5b3d861f4d2b0ca"
+      },
+      "nativePixels": true,
+      "viewed": true,
+      "accepted": true,
+      "scope": "Exact visible columns only; other words on original full pages not globally normalized."
+    }
+  ],
+  "newSourcePositions": 0,
+  "sourcePositionsExpanded": [
+    191,
+    192
+  ],
+  "allRecordsViewed": true,
+  "priorThreeTrialCropsExcludedFromEvidence": true
+}

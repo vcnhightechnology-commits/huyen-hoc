@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-29",
+  "summary": {
+    "completeChecks": 7,
+    "frozenFiles": 36,
+    "preImplementationManualCases": 28,
+    "declaredDayPatternFrames": 3588,
+    "hourParagraphFrames": 594,
+    "unsupportedTimeFramesKeptUnknown": 2691,
+    "invalidInputsRejected": 20,
+    "cachedRetainedP08APICalls": 15,
+    "newRetainedP08APICallsDuringReplay": 0,
+    "newCalendarCallsDuringReplay": 0,
+    "consumerChanged": false,
+    "wholeSourceMethodApplied": false
+  },
+  "tests": [
+    {
+      "name": "Immutable pre-implementation source/crop/manual freeze",
+      "passed": true
+    },
+    {
+      "name": "28 manually adjudicated cases saved before implementation",
+      "passed": true
+    },
+    {
+      "name": "Day-pattern grids: only four printed pairs/three month-class officer pairs, no calendar inference",
+      "passed": true
+    },
+    {
+      "name": "Hour context grids: direct local paragraph and conditional override kept distinct",
+      "passed": true
+    },
+    {
+      "name": "Three reading differences and related-compilation activity scope are not silently normalized",
+      "passed": true
+    },
+    {
+      "name": "Replay 15 actual retained P08 API results without re-executing the module",
+      "passed": true
+    },
+    {
+      "name": "Wrong system/fields/coercion and cross-rule assumptions rejected",
+      "passed": true
+    }
+  ]
+}

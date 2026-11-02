@@ -1,0 +1,402 @@
+{
+  "checks": [
+    {
+      "name": "Executed lunar-typescript1.8.6 retains the audited runtime identity",
+      "ok": true
+    },
+    {
+      "name": "All7936 previous charts keep every computed field under the legacy default",
+      "ok": true
+    },
+    {
+      "name": "Explicit next-day hour option matches all four pillars of7936 fresh real-library comparisons",
+      "ok": true
+    },
+    {
+      "name": "All3720 affected cases keep their day master and map the new visible hour relation to the actual API",
+      "ok": true
+    },
+    {
+      "name": "Both image-read source examples match current engine; lunar-to-civil date mapping is explicitly derived",
+      "ok": true
+    },
+    {
+      "name": "Changing only the late-Zi hour stem keeps direction,onset and all ten dayun cycles unchanged",
+      "ok": true
+    },
+    {
+      "name": "Option has no effect outside23h or when the day already changes at23h; additional timezone scope is internal only",
+      "ok": true
+    },
+    {
+      "name": "Unknown-hour pillars,boundaries and ambiguity guards are identical and never create an hour pillar",
+      "ok": true
+    },
+    {
+      "name": "Invalid hour policies are rejected rather than silently used",
+      "ok": true
+    },
+    {
+      "name": "All unrelated modules and relation/dayun implementations retain their snapshot bytes",
+      "ok": true
+    },
+    {
+      "name": "The complete existing Tuvi calendar/star path is byte-identical inside engine.js",
+      "ok": true
+    },
+    {
+      "name": "Standalone embeds the revised engine and UI with no external module dependency",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "legacyCharts": 7936,
+    "realReferenceCharts": 7936,
+    "affectedHourRelationChecks": 3720,
+    "imageExamples": 2
+  },
+  "witness": [
+    {
+      "id": "late-zi",
+      "input": {
+        "y": 1914,
+        "m": 2,
+        "d": 4,
+        "hour": 23,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "next"
+      },
+      "pillars": [
+        "甲寅",
+        "丙寅",
+        "辛酉",
+        "庚子"
+      ],
+      "printedPillars": [
+        "甲寅",
+        "丙寅",
+        "辛酉",
+        "庚子"
+      ],
+      "dateMapping": "Gregorian date derived by installed library; not a date printed in the book or a historical biography assertion"
+    },
+    {
+      "id": "early-zi",
+      "input": {
+        "y": 1914,
+        "m": 2,
+        "d": 5,
+        "hour": 0,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "next"
+      },
+      "pillars": [
+        "甲寅",
+        "丙寅",
+        "壬戌",
+        "庚子"
+      ],
+      "printedPillars": [
+        "甲寅",
+        "丙寅",
+        "壬戌",
+        "庚子"
+      ],
+      "dateMapping": "Gregorian date derived by installed library; not a date printed in the book or a historical biography assertion"
+    }
+  ],
+  "sampleResults": [
+    {
+      "input": {
+        "y": 2018,
+        "m": 8,
+        "d": 9,
+        "hour": 0,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "noTime": false,
+        "dayPolicy": "midnight",
+        "lateZiHour": "next"
+      },
+      "pillars": [
+        "戊戌",
+        "庚申",
+        "癸酉",
+        "壬子"
+      ],
+      "reference": [
+        "戊戌",
+        "庚申",
+        "癸酉",
+        "壬子"
+      ]
+    },
+    {
+      "input": {
+        "y": 2018,
+        "m": 8,
+        "d": 9,
+        "hour": 0,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "noTime": false,
+        "dayPolicy": "zi",
+        "lateZiHour": "next"
+      },
+      "pillars": [
+        "戊戌",
+        "庚申",
+        "癸酉",
+        "壬子"
+      ],
+      "reference": [
+        "戊戌",
+        "庚申",
+        "癸酉",
+        "壬子"
+      ]
+    },
+    {
+      "input": {
+        "y": 2018,
+        "m": 8,
+        "d": 9,
+        "hour": 0,
+        "minute": 59,
+        "tz": 8,
+        "gender": "male",
+        "noTime": false,
+        "dayPolicy": "midnight",
+        "lateZiHour": "next"
+      },
+      "pillars": [
+        "戊戌",
+        "庚申",
+        "癸酉",
+        "壬子"
+      ],
+      "reference": [
+        "戊戌",
+        "庚申",
+        "癸酉",
+        "壬子"
+      ]
+    },
+    {
+      "input": {
+        "y": 2018,
+        "m": 8,
+        "d": 9,
+        "hour": 0,
+        "minute": 59,
+        "tz": 8,
+        "gender": "male",
+        "noTime": false,
+        "dayPolicy": "zi",
+        "lateZiHour": "next"
+      },
+      "pillars": [
+        "戊戌",
+        "庚申",
+        "癸酉",
+        "壬子"
+      ],
+      "reference": [
+        "戊戌",
+        "庚申",
+        "癸酉",
+        "壬子"
+      ]
+    }
+  ],
+  "timeCases": [
+    {
+      "hour": 0,
+      "dayPolicy": "midnight",
+      "tz": 7,
+      "changes": false
+    },
+    {
+      "hour": 0,
+      "dayPolicy": "midnight",
+      "tz": 8,
+      "changes": false
+    },
+    {
+      "hour": 0,
+      "dayPolicy": "midnight",
+      "tz": 5.5,
+      "changes": false
+    },
+    {
+      "hour": 1,
+      "dayPolicy": "midnight",
+      "tz": 7,
+      "changes": false
+    },
+    {
+      "hour": 1,
+      "dayPolicy": "midnight",
+      "tz": 8,
+      "changes": false
+    },
+    {
+      "hour": 1,
+      "dayPolicy": "midnight",
+      "tz": 5.5,
+      "changes": false
+    },
+    {
+      "hour": 12,
+      "dayPolicy": "midnight",
+      "tz": 7,
+      "changes": false
+    },
+    {
+      "hour": 12,
+      "dayPolicy": "midnight",
+      "tz": 8,
+      "changes": false
+    },
+    {
+      "hour": 12,
+      "dayPolicy": "midnight",
+      "tz": 5.5,
+      "changes": false
+    },
+    {
+      "hour": 22,
+      "dayPolicy": "midnight",
+      "tz": 7,
+      "changes": false
+    },
+    {
+      "hour": 22,
+      "dayPolicy": "midnight",
+      "tz": 8,
+      "changes": false
+    },
+    {
+      "hour": 22,
+      "dayPolicy": "midnight",
+      "tz": 5.5,
+      "changes": false
+    },
+    {
+      "hour": 23,
+      "dayPolicy": "midnight",
+      "tz": 7,
+      "changes": true
+    },
+    {
+      "hour": 23,
+      "dayPolicy": "midnight",
+      "tz": 8,
+      "changes": true
+    },
+    {
+      "hour": 23,
+      "dayPolicy": "midnight",
+      "tz": 5.5,
+      "changes": true
+    },
+    {
+      "hour": 0,
+      "dayPolicy": "zi",
+      "tz": 7,
+      "changes": false
+    },
+    {
+      "hour": 0,
+      "dayPolicy": "zi",
+      "tz": 8,
+      "changes": false
+    },
+    {
+      "hour": 0,
+      "dayPolicy": "zi",
+      "tz": 5.5,
+      "changes": false
+    },
+    {
+      "hour": 1,
+      "dayPolicy": "zi",
+      "tz": 7,
+      "changes": false
+    },
+    {
+      "hour": 1,
+      "dayPolicy": "zi",
+      "tz": 8,
+      "changes": false
+    },
+    {
+      "hour": 1,
+      "dayPolicy": "zi",
+      "tz": 5.5,
+      "changes": false
+    },
+    {
+      "hour": 12,
+      "dayPolicy": "zi",
+      "tz": 7,
+      "changes": false
+    },
+    {
+      "hour": 12,
+      "dayPolicy": "zi",
+      "tz": 8,
+      "changes": false
+    },
+    {
+      "hour": 12,
+      "dayPolicy": "zi",
+      "tz": 5.5,
+      "changes": false
+    },
+    {
+      "hour": 22,
+      "dayPolicy": "zi",
+      "tz": 7,
+      "changes": false
+    },
+    {
+      "hour": 22,
+      "dayPolicy": "zi",
+      "tz": 8,
+      "changes": false
+    },
+    {
+      "hour": 22,
+      "dayPolicy": "zi",
+      "tz": 5.5,
+      "changes": false
+    },
+    {
+      "hour": 23,
+      "dayPolicy": "zi",
+      "tz": 7,
+      "changes": false
+    },
+    {
+      "hour": 23,
+      "dayPolicy": "zi",
+      "tz": 8,
+      "changes": false
+    },
+    {
+      "hour": 23,
+      "dayPolicy": "zi",
+      "tz": 5.5,
+      "changes": false
+    }
+  ]
+}

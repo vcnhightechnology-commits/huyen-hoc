@@ -1,0 +1,15 @@
+PASS Calendar, natal placements, prior interpretations and fortune calculations retain their prior bytes
+PASS 144 real iztro charts agree on 1,728 trine/opposite groups, independent of array order
+PASS All 168 major-star/branch statuses are reached and agree with the selected actual iztro table
+PASS Context reading leaves every natal chart unchanged
+PASS Invalid palace/branch indices fail explicitly
+PASS 105 separately recorded source/convention fixtures cover centers, all boundaries, uncertainty and magnetic correction
+PASS Maximum uncertainty keeps all 24 mountains and 0 equals 360
+PASS Invalid mountain inputs are rejected
+PASS Every one of 384 specific readings is accessible without changing moving-line selection
+PASS Invalid hexagram and line selection are rejected
+PASS Year/month addition clamps month ends rather than overflowing them
+PASS Real lunar-typescript agrees on direction and 80 complete can-chi cycles; intervals join without gaps
+PASS Unknown birth hour has no invented start timestamp or interval dates
+PASS Ambiguous birth-day pillars suppress season and cycle interpretations
+14/14 passed

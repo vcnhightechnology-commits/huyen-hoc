@@ -1,0 +1,53 @@
+{
+  "scope": "tmp/bazi-jianlu-hours-staging",
+  "files": [
+    {
+      "file": "tmp/bazi-jianlu-hours-staging/MANUAL_READINGS.json",
+      "bytes": 3702,
+      "sha256": "6a07d17a09fc3326692e4bf53c168f26100c410906231f28e8f8186590590fb2",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6a07d17a09fc3326692e4bf53c168f26100c410906231f28e8f8186590590fb2",
+      "httpRange": {
+        "offset": 245536495,
+        "compressedBytes": 1210,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-jianlu-hours-staging/PROBE_RESULTS.json",
+      "bytes": 7253,
+      "sha256": "4649bf697ae223df8574deaa1b4a8e129f608a6796f58c275c5e685039314504",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4649bf697ae223df8574deaa1b4a8e129f608a6796f58c275c5e685039314504",
+      "httpRange": {
+        "offset": 202287631,
+        "compressedBytes": 1111,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-jianlu-hours-staging/p223-hour-column-qa.png",
+      "bytes": 38726,
+      "sha256": "e7cce24ae7cd8baeb93ab08c400d19d581a5861f05d90c6de40b7836ba0e2a6a",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e7cce24ae7cd8baeb93ab08c400d19d581a5861f05d90c6de40b7836ba0e2a6a",
+      "httpRange": {
+        "offset": 388997085,
+        "compressedBytes": 38370,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/bazi-jianlu-hours-staging/probe.mjs",
+      "bytes": 2902,
+      "sha256": "67f66fe416216f1cf4af54c99918fbdb66c3626b687ff4f7e4c6419062ec5aa3",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/67f66fe416216f1cf4af54c99918fbdb66c3626b687ff4f7e4c6419062ec5aa3",
+      "httpRange": {
+        "offset": 225494927,
+        "compressedBytes": 1487,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

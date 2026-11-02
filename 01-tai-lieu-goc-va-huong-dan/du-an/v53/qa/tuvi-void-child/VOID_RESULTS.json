@@ -1,0 +1,3512 @@
+{
+  "date": "2026-10-28",
+  "status": "staged-two-birthyear-void-pair-tables-and-runtime-representation-contrasts-verified",
+  "checks": [
+    {
+      "name": "Retained source image/manifest, engine and actual iztro2.6.2 code agree with recorded bytes and the preserved npm tarball",
+      "ok": true
+    },
+    {
+      "name": "Five stem groups and six decadeheads retain22 working branch coordinates under explicitly declared birth-year scope and Si orthography",
+      "ok": true
+    },
+    {
+      "name": "1440 source-year/branch queries cover both tables and264 unresolved-Si queries preserve unknown rather than silently normalizing",
+      "ok": true
+    },
+    {
+      "name": "60 actual HHC natal charts and120 actual iztro natal calls compare full pairs against default two-star and Zhongzhou single-star representations",
+      "ok": true
+    },
+    {
+      "name": "Pair-versus-star differences are representation conventions, not source confirmation of a parity selector or performance/outcome difference",
+      "ok": true
+    },
+    {
+      "name": "Unknown year/branch stays unknown, source day/month substitution and silent aliases are rejected, returned pairs do not mutate source",
+      "ok": true
+    },
+    {
+      "name": "Released HTML, engine and first-major-period convention remain byte-identical to the verified3521-file package",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "sourceJieluStemGroups": 5,
+    "sourceXunzhongCycleGroups": 6,
+    "canonicalWorkingBranchCoordinates": 22,
+    "explicitSiNormalizationOccurrences": 2,
+    "privateSourceYearBranchQueries": 1440,
+    "unresolvedSiQueries": 264,
+    "unresolvedSiMemberships": 242,
+    "actualHHCTuviCalls": 60,
+    "actualIztroDefaultNatalCalls": 60,
+    "actualIztroZhongzhouNatalCalls": 60,
+    "actualNatalContexts": 60,
+    "expandedPriorReadSourcePositions": 1,
+    "nativeQACrops": 1,
+    "newHTTPRequests": 0,
+    "newOriginalContainers": 0,
+    "newSourcePositions": 0
+  },
+  "runtimeIdentity": [
+    {
+      "file": "v46/node_modules/iztro/lib/star/location.js",
+      "bytes": 34690,
+      "sha256": "57928b614ec01fa9ac8e69488a5338bb9c764e9800f557d6030aa25b9df07e36",
+      "byteIdenticalToRetainedTarball": true
+    },
+    {
+      "file": "v46/node_modules/iztro/lib/star/adjectiveStar.js",
+      "bytes": 7743,
+      "sha256": "e4d3a933feb983dbc9ae9d52e22023827b0eed5b67977042628c6cb7f48c5303",
+      "byteIdenticalToRetainedTarball": true
+    },
+    {
+      "file": "v46/node_modules/iztro/lib/i18n/locales/zh-CN/star.js",
+      "bytes": 3752,
+      "sha256": "6cdb514e2f95471b5caeb6a4b55858e1ca872488d82b0d8afae1119c64cca7a3",
+      "byteIdenticalToRetainedTarball": true
+    },
+    {
+      "file": "v46/node_modules/iztro/lib/data/constants.js",
+      "bytes": 4388,
+      "sha256": "8dba02dee9608136b97c98d82db9cc6635d700383ef049191ca619eb147dfa8f",
+      "byteIdenticalToRetainedTarball": true
+    },
+    {
+      "file": "v46/node_modules/iztro/lib/utils/index.js",
+      "bytes": 9232,
+      "sha256": "a8cf90cede5d5200d6d8d9686254a99f0ec495ffdbf8c6487919c3e7ed7fa732",
+      "byteIdenticalToRetainedTarball": true
+    }
+  ],
+  "runtime": [
+    {
+      "input": {
+        "y": 1924,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1924-02-19",
+      "sourceYear": "甲子",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "申",
+        "酉"
+      ],
+      "sourceXunzhongPair": [
+        "戌",
+        "亥"
+      ],
+      "hhcTrietPair": [
+        "申",
+        "酉"
+      ],
+      "hhcTuanPair": [
+        "戌",
+        "亥"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "申"
+        ],
+        "kongwang": [
+          "酉"
+        ],
+        "xunkong": [
+          "戌"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "戌"
+        ],
+        "jiekong": [
+          "申"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1925,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1925-02-07",
+      "sourceYear": "乙丑",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "午",
+        "未"
+      ],
+      "sourceXunzhongPair": [
+        "戌",
+        "亥"
+      ],
+      "hhcTrietPair": [
+        "午",
+        "未"
+      ],
+      "hhcTuanPair": [
+        "戌",
+        "亥"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "午"
+        ],
+        "kongwang": [
+          "未"
+        ],
+        "xunkong": [
+          "亥"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "亥"
+        ],
+        "jiekong": [
+          "未"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1926,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1926-02-27",
+      "sourceYear": "丙寅",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "辰",
+        "巳"
+      ],
+      "sourceXunzhongPair": [
+        "戌",
+        "亥"
+      ],
+      "hhcTrietPair": [
+        "辰",
+        "巳"
+      ],
+      "hhcTuanPair": [
+        "戌",
+        "亥"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "辰"
+        ],
+        "kongwang": [
+          "巳"
+        ],
+        "xunkong": [
+          "戌"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "戌"
+        ],
+        "jiekong": [
+          "辰"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1927,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1927-02-16",
+      "sourceYear": "丁卯",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "寅",
+        "卯"
+      ],
+      "sourceXunzhongPair": [
+        "戌",
+        "亥"
+      ],
+      "hhcTrietPair": [
+        "寅",
+        "卯"
+      ],
+      "hhcTuanPair": [
+        "戌",
+        "亥"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "寅"
+        ],
+        "kongwang": [
+          "卯"
+        ],
+        "xunkong": [
+          "亥"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "亥"
+        ],
+        "jiekong": [
+          "卯"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1928,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1928-02-06",
+      "sourceYear": "戊辰",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "子",
+        "丑"
+      ],
+      "sourceXunzhongPair": [
+        "戌",
+        "亥"
+      ],
+      "hhcTrietPair": [
+        "子",
+        "丑"
+      ],
+      "hhcTuanPair": [
+        "戌",
+        "亥"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "子"
+        ],
+        "kongwang": [
+          "丑"
+        ],
+        "xunkong": [
+          "戌"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "戌"
+        ],
+        "jiekong": [
+          "子"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1929,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1929-02-24",
+      "sourceYear": "己巳",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "申",
+        "酉"
+      ],
+      "sourceXunzhongPair": [
+        "戌",
+        "亥"
+      ],
+      "hhcTrietPair": [
+        "申",
+        "酉"
+      ],
+      "hhcTuanPair": [
+        "戌",
+        "亥"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "申"
+        ],
+        "kongwang": [
+          "酉"
+        ],
+        "xunkong": [
+          "亥"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "亥"
+        ],
+        "jiekong": [
+          "酉"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1930,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1930-02-13",
+      "sourceYear": "庚午",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "午",
+        "未"
+      ],
+      "sourceXunzhongPair": [
+        "戌",
+        "亥"
+      ],
+      "hhcTrietPair": [
+        "午",
+        "未"
+      ],
+      "hhcTuanPair": [
+        "戌",
+        "亥"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "午"
+        ],
+        "kongwang": [
+          "未"
+        ],
+        "xunkong": [
+          "戌"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "戌"
+        ],
+        "jiekong": [
+          "午"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1931,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1931-03-03",
+      "sourceYear": "辛未",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "辰",
+        "巳"
+      ],
+      "sourceXunzhongPair": [
+        "戌",
+        "亥"
+      ],
+      "hhcTrietPair": [
+        "辰",
+        "巳"
+      ],
+      "hhcTuanPair": [
+        "戌",
+        "亥"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "辰"
+        ],
+        "kongwang": [
+          "巳"
+        ],
+        "xunkong": [
+          "亥"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "亥"
+        ],
+        "jiekong": [
+          "巳"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1932,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1932-02-20",
+      "sourceYear": "壬申",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "寅",
+        "卯"
+      ],
+      "sourceXunzhongPair": [
+        "戌",
+        "亥"
+      ],
+      "hhcTrietPair": [
+        "寅",
+        "卯"
+      ],
+      "hhcTuanPair": [
+        "戌",
+        "亥"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "寅"
+        ],
+        "kongwang": [
+          "卯"
+        ],
+        "xunkong": [
+          "戌"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "戌"
+        ],
+        "jiekong": [
+          "寅"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1933,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1933-02-09",
+      "sourceYear": "癸酉",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "子",
+        "丑"
+      ],
+      "sourceXunzhongPair": [
+        "戌",
+        "亥"
+      ],
+      "hhcTrietPair": [
+        "子",
+        "丑"
+      ],
+      "hhcTuanPair": [
+        "戌",
+        "亥"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "子"
+        ],
+        "kongwang": [
+          "丑"
+        ],
+        "xunkong": [
+          "亥"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "亥"
+        ],
+        "jiekong": [
+          "丑"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1934,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1934-02-28",
+      "sourceYear": "甲戌",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "申",
+        "酉"
+      ],
+      "sourceXunzhongPair": [
+        "申",
+        "酉"
+      ],
+      "hhcTrietPair": [
+        "申",
+        "酉"
+      ],
+      "hhcTuanPair": [
+        "申",
+        "酉"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "申"
+        ],
+        "kongwang": [
+          "酉"
+        ],
+        "xunkong": [
+          "申"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "申"
+        ],
+        "jiekong": [
+          "申"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1935,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1935-02-18",
+      "sourceYear": "乙亥",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "午",
+        "未"
+      ],
+      "sourceXunzhongPair": [
+        "申",
+        "酉"
+      ],
+      "hhcTrietPair": [
+        "午",
+        "未"
+      ],
+      "hhcTuanPair": [
+        "申",
+        "酉"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "午"
+        ],
+        "kongwang": [
+          "未"
+        ],
+        "xunkong": [
+          "酉"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "酉"
+        ],
+        "jiekong": [
+          "未"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1936,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1936-02-07",
+      "sourceYear": "丙子",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "辰",
+        "巳"
+      ],
+      "sourceXunzhongPair": [
+        "申",
+        "酉"
+      ],
+      "hhcTrietPair": [
+        "辰",
+        "巳"
+      ],
+      "hhcTuanPair": [
+        "申",
+        "酉"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "辰"
+        ],
+        "kongwang": [
+          "巳"
+        ],
+        "xunkong": [
+          "申"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "申"
+        ],
+        "jiekong": [
+          "辰"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1937,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1937-02-25",
+      "sourceYear": "丁丑",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "寅",
+        "卯"
+      ],
+      "sourceXunzhongPair": [
+        "申",
+        "酉"
+      ],
+      "hhcTrietPair": [
+        "寅",
+        "卯"
+      ],
+      "hhcTuanPair": [
+        "申",
+        "酉"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "寅"
+        ],
+        "kongwang": [
+          "卯"
+        ],
+        "xunkong": [
+          "酉"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "酉"
+        ],
+        "jiekong": [
+          "卯"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1938,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1938-02-14",
+      "sourceYear": "戊寅",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "子",
+        "丑"
+      ],
+      "sourceXunzhongPair": [
+        "申",
+        "酉"
+      ],
+      "hhcTrietPair": [
+        "子",
+        "丑"
+      ],
+      "hhcTuanPair": [
+        "申",
+        "酉"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "子"
+        ],
+        "kongwang": [
+          "丑"
+        ],
+        "xunkong": [
+          "申"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "申"
+        ],
+        "jiekong": [
+          "子"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1939,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1939-03-05",
+      "sourceYear": "己卯",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "申",
+        "酉"
+      ],
+      "sourceXunzhongPair": [
+        "申",
+        "酉"
+      ],
+      "hhcTrietPair": [
+        "申",
+        "酉"
+      ],
+      "hhcTuanPair": [
+        "申",
+        "酉"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "申"
+        ],
+        "kongwang": [
+          "酉"
+        ],
+        "xunkong": [
+          "酉"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "酉"
+        ],
+        "jiekong": [
+          "酉"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1940,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1940-02-22",
+      "sourceYear": "庚辰",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "午",
+        "未"
+      ],
+      "sourceXunzhongPair": [
+        "申",
+        "酉"
+      ],
+      "hhcTrietPair": [
+        "午",
+        "未"
+      ],
+      "hhcTuanPair": [
+        "申",
+        "酉"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "午"
+        ],
+        "kongwang": [
+          "未"
+        ],
+        "xunkong": [
+          "申"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "申"
+        ],
+        "jiekong": [
+          "午"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1941,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1941-02-10",
+      "sourceYear": "辛巳",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "辰",
+        "巳"
+      ],
+      "sourceXunzhongPair": [
+        "申",
+        "酉"
+      ],
+      "hhcTrietPair": [
+        "辰",
+        "巳"
+      ],
+      "hhcTuanPair": [
+        "申",
+        "酉"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "辰"
+        ],
+        "kongwang": [
+          "巳"
+        ],
+        "xunkong": [
+          "酉"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "酉"
+        ],
+        "jiekong": [
+          "巳"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1942,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1942-03-01",
+      "sourceYear": "壬午",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "寅",
+        "卯"
+      ],
+      "sourceXunzhongPair": [
+        "申",
+        "酉"
+      ],
+      "hhcTrietPair": [
+        "寅",
+        "卯"
+      ],
+      "hhcTuanPair": [
+        "申",
+        "酉"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "寅"
+        ],
+        "kongwang": [
+          "卯"
+        ],
+        "xunkong": [
+          "申"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "申"
+        ],
+        "jiekong": [
+          "寅"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1943,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1943-02-19",
+      "sourceYear": "癸未",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "子",
+        "丑"
+      ],
+      "sourceXunzhongPair": [
+        "申",
+        "酉"
+      ],
+      "hhcTrietPair": [
+        "子",
+        "丑"
+      ],
+      "hhcTuanPair": [
+        "申",
+        "酉"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "子"
+        ],
+        "kongwang": [
+          "丑"
+        ],
+        "xunkong": [
+          "酉"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "酉"
+        ],
+        "jiekong": [
+          "丑"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1944,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1944-02-08",
+      "sourceYear": "甲申",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "申",
+        "酉"
+      ],
+      "sourceXunzhongPair": [
+        "午",
+        "未"
+      ],
+      "hhcTrietPair": [
+        "申",
+        "酉"
+      ],
+      "hhcTuanPair": [
+        "午",
+        "未"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "申"
+        ],
+        "kongwang": [
+          "酉"
+        ],
+        "xunkong": [
+          "午"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "午"
+        ],
+        "jiekong": [
+          "申"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1945,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1945-02-27",
+      "sourceYear": "乙酉",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "午",
+        "未"
+      ],
+      "sourceXunzhongPair": [
+        "午",
+        "未"
+      ],
+      "hhcTrietPair": [
+        "午",
+        "未"
+      ],
+      "hhcTuanPair": [
+        "午",
+        "未"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "午"
+        ],
+        "kongwang": [
+          "未"
+        ],
+        "xunkong": [
+          "未"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "未"
+        ],
+        "jiekong": [
+          "未"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1946,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1946-02-16",
+      "sourceYear": "丙戌",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "辰",
+        "巳"
+      ],
+      "sourceXunzhongPair": [
+        "午",
+        "未"
+      ],
+      "hhcTrietPair": [
+        "辰",
+        "巳"
+      ],
+      "hhcTuanPair": [
+        "午",
+        "未"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "辰"
+        ],
+        "kongwang": [
+          "巳"
+        ],
+        "xunkong": [
+          "午"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "午"
+        ],
+        "jiekong": [
+          "辰"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1947,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1947-02-05",
+      "sourceYear": "丁亥",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "寅",
+        "卯"
+      ],
+      "sourceXunzhongPair": [
+        "午",
+        "未"
+      ],
+      "hhcTrietPair": [
+        "寅",
+        "卯"
+      ],
+      "hhcTuanPair": [
+        "午",
+        "未"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "寅"
+        ],
+        "kongwang": [
+          "卯"
+        ],
+        "xunkong": [
+          "未"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "未"
+        ],
+        "jiekong": [
+          "卯"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1948,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1948-02-24",
+      "sourceYear": "戊子",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "子",
+        "丑"
+      ],
+      "sourceXunzhongPair": [
+        "午",
+        "未"
+      ],
+      "hhcTrietPair": [
+        "子",
+        "丑"
+      ],
+      "hhcTuanPair": [
+        "午",
+        "未"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "子"
+        ],
+        "kongwang": [
+          "丑"
+        ],
+        "xunkong": [
+          "午"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "午"
+        ],
+        "jiekong": [
+          "子"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1949,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1949-02-12",
+      "sourceYear": "己丑",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "申",
+        "酉"
+      ],
+      "sourceXunzhongPair": [
+        "午",
+        "未"
+      ],
+      "hhcTrietPair": [
+        "申",
+        "酉"
+      ],
+      "hhcTuanPair": [
+        "午",
+        "未"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "申"
+        ],
+        "kongwang": [
+          "酉"
+        ],
+        "xunkong": [
+          "未"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "未"
+        ],
+        "jiekong": [
+          "酉"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1950,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1950-03-03",
+      "sourceYear": "庚寅",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "午",
+        "未"
+      ],
+      "sourceXunzhongPair": [
+        "午",
+        "未"
+      ],
+      "hhcTrietPair": [
+        "午",
+        "未"
+      ],
+      "hhcTuanPair": [
+        "午",
+        "未"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "午"
+        ],
+        "kongwang": [
+          "未"
+        ],
+        "xunkong": [
+          "午"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "午"
+        ],
+        "jiekong": [
+          "午"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1951,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1951-02-20",
+      "sourceYear": "辛卯",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "辰",
+        "巳"
+      ],
+      "sourceXunzhongPair": [
+        "午",
+        "未"
+      ],
+      "hhcTrietPair": [
+        "辰",
+        "巳"
+      ],
+      "hhcTuanPair": [
+        "午",
+        "未"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "辰"
+        ],
+        "kongwang": [
+          "巳"
+        ],
+        "xunkong": [
+          "未"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "未"
+        ],
+        "jiekong": [
+          "巳"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1952,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1952-02-10",
+      "sourceYear": "壬辰",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "寅",
+        "卯"
+      ],
+      "sourceXunzhongPair": [
+        "午",
+        "未"
+      ],
+      "hhcTrietPair": [
+        "寅",
+        "卯"
+      ],
+      "hhcTuanPair": [
+        "午",
+        "未"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "寅"
+        ],
+        "kongwang": [
+          "卯"
+        ],
+        "xunkong": [
+          "午"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "午"
+        ],
+        "jiekong": [
+          "寅"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1953,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1953-02-28",
+      "sourceYear": "癸巳",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "子",
+        "丑"
+      ],
+      "sourceXunzhongPair": [
+        "午",
+        "未"
+      ],
+      "hhcTrietPair": [
+        "子",
+        "丑"
+      ],
+      "hhcTuanPair": [
+        "午",
+        "未"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "子"
+        ],
+        "kongwang": [
+          "丑"
+        ],
+        "xunkong": [
+          "未"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "未"
+        ],
+        "jiekong": [
+          "丑"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1954,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1954-02-17",
+      "sourceYear": "甲午",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "申",
+        "酉"
+      ],
+      "sourceXunzhongPair": [
+        "辰",
+        "巳"
+      ],
+      "hhcTrietPair": [
+        "申",
+        "酉"
+      ],
+      "hhcTuanPair": [
+        "辰",
+        "巳"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "申"
+        ],
+        "kongwang": [
+          "酉"
+        ],
+        "xunkong": [
+          "辰"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "辰"
+        ],
+        "jiekong": [
+          "申"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1955,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1955-02-07",
+      "sourceYear": "乙未",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "午",
+        "未"
+      ],
+      "sourceXunzhongPair": [
+        "辰",
+        "巳"
+      ],
+      "hhcTrietPair": [
+        "午",
+        "未"
+      ],
+      "hhcTuanPair": [
+        "辰",
+        "巳"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "午"
+        ],
+        "kongwang": [
+          "未"
+        ],
+        "xunkong": [
+          "巳"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "巳"
+        ],
+        "jiekong": [
+          "未"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1956,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1956-02-26",
+      "sourceYear": "丙申",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "辰",
+        "巳"
+      ],
+      "sourceXunzhongPair": [
+        "辰",
+        "巳"
+      ],
+      "hhcTrietPair": [
+        "辰",
+        "巳"
+      ],
+      "hhcTuanPair": [
+        "辰",
+        "巳"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "辰"
+        ],
+        "kongwang": [
+          "巳"
+        ],
+        "xunkong": [
+          "辰"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "辰"
+        ],
+        "jiekong": [
+          "辰"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1957,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1957-02-14",
+      "sourceYear": "丁酉",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "寅",
+        "卯"
+      ],
+      "sourceXunzhongPair": [
+        "辰",
+        "巳"
+      ],
+      "hhcTrietPair": [
+        "寅",
+        "卯"
+      ],
+      "hhcTuanPair": [
+        "辰",
+        "巳"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "寅"
+        ],
+        "kongwang": [
+          "卯"
+        ],
+        "xunkong": [
+          "巳"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "巳"
+        ],
+        "jiekong": [
+          "卯"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1958,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1958-03-04",
+      "sourceYear": "戊戌",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "子",
+        "丑"
+      ],
+      "sourceXunzhongPair": [
+        "辰",
+        "巳"
+      ],
+      "hhcTrietPair": [
+        "子",
+        "丑"
+      ],
+      "hhcTuanPair": [
+        "辰",
+        "巳"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "子"
+        ],
+        "kongwang": [
+          "丑"
+        ],
+        "xunkong": [
+          "辰"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "辰"
+        ],
+        "jiekong": [
+          "子"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1959,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1959-02-22",
+      "sourceYear": "己亥",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "申",
+        "酉"
+      ],
+      "sourceXunzhongPair": [
+        "辰",
+        "巳"
+      ],
+      "hhcTrietPair": [
+        "申",
+        "酉"
+      ],
+      "hhcTuanPair": [
+        "辰",
+        "巳"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "申"
+        ],
+        "kongwang": [
+          "酉"
+        ],
+        "xunkong": [
+          "巳"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "巳"
+        ],
+        "jiekong": [
+          "酉"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1960,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1960-02-11",
+      "sourceYear": "庚子",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "午",
+        "未"
+      ],
+      "sourceXunzhongPair": [
+        "辰",
+        "巳"
+      ],
+      "hhcTrietPair": [
+        "午",
+        "未"
+      ],
+      "hhcTuanPair": [
+        "辰",
+        "巳"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "午"
+        ],
+        "kongwang": [
+          "未"
+        ],
+        "xunkong": [
+          "辰"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "辰"
+        ],
+        "jiekong": [
+          "午"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1961,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1961-03-01",
+      "sourceYear": "辛丑",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "辰",
+        "巳"
+      ],
+      "sourceXunzhongPair": [
+        "辰",
+        "巳"
+      ],
+      "hhcTrietPair": [
+        "辰",
+        "巳"
+      ],
+      "hhcTuanPair": [
+        "辰",
+        "巳"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "辰"
+        ],
+        "kongwang": [
+          "巳"
+        ],
+        "xunkong": [
+          "巳"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "巳"
+        ],
+        "jiekong": [
+          "巳"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1962,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1962-02-19",
+      "sourceYear": "壬寅",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "寅",
+        "卯"
+      ],
+      "sourceXunzhongPair": [
+        "辰",
+        "巳"
+      ],
+      "hhcTrietPair": [
+        "寅",
+        "卯"
+      ],
+      "hhcTuanPair": [
+        "辰",
+        "巳"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "寅"
+        ],
+        "kongwang": [
+          "卯"
+        ],
+        "xunkong": [
+          "辰"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "辰"
+        ],
+        "jiekong": [
+          "寅"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1963,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1963-02-08",
+      "sourceYear": "癸卯",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "子",
+        "丑"
+      ],
+      "sourceXunzhongPair": [
+        "辰",
+        "巳"
+      ],
+      "hhcTrietPair": [
+        "子",
+        "丑"
+      ],
+      "hhcTuanPair": [
+        "辰",
+        "巳"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "子"
+        ],
+        "kongwang": [
+          "丑"
+        ],
+        "xunkong": [
+          "巳"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "巳"
+        ],
+        "jiekong": [
+          "丑"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1964,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1964-02-27",
+      "sourceYear": "甲辰",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "申",
+        "酉"
+      ],
+      "sourceXunzhongPair": [
+        "寅",
+        "卯"
+      ],
+      "hhcTrietPair": [
+        "申",
+        "酉"
+      ],
+      "hhcTuanPair": [
+        "寅",
+        "卯"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "申"
+        ],
+        "kongwang": [
+          "酉"
+        ],
+        "xunkong": [
+          "寅"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "寅"
+        ],
+        "jiekong": [
+          "申"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1965,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1965-02-16",
+      "sourceYear": "乙巳",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "午",
+        "未"
+      ],
+      "sourceXunzhongPair": [
+        "寅",
+        "卯"
+      ],
+      "hhcTrietPair": [
+        "午",
+        "未"
+      ],
+      "hhcTuanPair": [
+        "寅",
+        "卯"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "午"
+        ],
+        "kongwang": [
+          "未"
+        ],
+        "xunkong": [
+          "卯"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "卯"
+        ],
+        "jiekong": [
+          "未"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1966,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1966-02-04",
+      "sourceYear": "丙午",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "辰",
+        "巳"
+      ],
+      "sourceXunzhongPair": [
+        "寅",
+        "卯"
+      ],
+      "hhcTrietPair": [
+        "辰",
+        "巳"
+      ],
+      "hhcTuanPair": [
+        "寅",
+        "卯"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "辰"
+        ],
+        "kongwang": [
+          "巳"
+        ],
+        "xunkong": [
+          "寅"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "寅"
+        ],
+        "jiekong": [
+          "辰"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1967,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1967-02-23",
+      "sourceYear": "丁未",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "寅",
+        "卯"
+      ],
+      "sourceXunzhongPair": [
+        "寅",
+        "卯"
+      ],
+      "hhcTrietPair": [
+        "寅",
+        "卯"
+      ],
+      "hhcTuanPair": [
+        "寅",
+        "卯"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "寅"
+        ],
+        "kongwang": [
+          "卯"
+        ],
+        "xunkong": [
+          "卯"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "卯"
+        ],
+        "jiekong": [
+          "卯"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1968,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1968-02-13",
+      "sourceYear": "戊申",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "子",
+        "丑"
+      ],
+      "sourceXunzhongPair": [
+        "寅",
+        "卯"
+      ],
+      "hhcTrietPair": [
+        "子",
+        "丑"
+      ],
+      "hhcTuanPair": [
+        "寅",
+        "卯"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "子"
+        ],
+        "kongwang": [
+          "丑"
+        ],
+        "xunkong": [
+          "寅"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "寅"
+        ],
+        "jiekong": [
+          "子"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1969,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1969-03-03",
+      "sourceYear": "己酉",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "申",
+        "酉"
+      ],
+      "sourceXunzhongPair": [
+        "寅",
+        "卯"
+      ],
+      "hhcTrietPair": [
+        "申",
+        "酉"
+      ],
+      "hhcTuanPair": [
+        "寅",
+        "卯"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "申"
+        ],
+        "kongwang": [
+          "酉"
+        ],
+        "xunkong": [
+          "卯"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "卯"
+        ],
+        "jiekong": [
+          "酉"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1970,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1970-02-20",
+      "sourceYear": "庚戌",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "午",
+        "未"
+      ],
+      "sourceXunzhongPair": [
+        "寅",
+        "卯"
+      ],
+      "hhcTrietPair": [
+        "午",
+        "未"
+      ],
+      "hhcTuanPair": [
+        "寅",
+        "卯"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "午"
+        ],
+        "kongwang": [
+          "未"
+        ],
+        "xunkong": [
+          "寅"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "寅"
+        ],
+        "jiekong": [
+          "午"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1971,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1971-02-10",
+      "sourceYear": "辛亥",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "辰",
+        "巳"
+      ],
+      "sourceXunzhongPair": [
+        "寅",
+        "卯"
+      ],
+      "hhcTrietPair": [
+        "辰",
+        "巳"
+      ],
+      "hhcTuanPair": [
+        "寅",
+        "卯"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "辰"
+        ],
+        "kongwang": [
+          "巳"
+        ],
+        "xunkong": [
+          "卯"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "卯"
+        ],
+        "jiekong": [
+          "巳"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1972,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1972-02-29",
+      "sourceYear": "壬子",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "寅",
+        "卯"
+      ],
+      "sourceXunzhongPair": [
+        "寅",
+        "卯"
+      ],
+      "hhcTrietPair": [
+        "寅",
+        "卯"
+      ],
+      "hhcTuanPair": [
+        "寅",
+        "卯"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "寅"
+        ],
+        "kongwang": [
+          "卯"
+        ],
+        "xunkong": [
+          "寅"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "寅"
+        ],
+        "jiekong": [
+          "寅"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1973,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1973-02-17",
+      "sourceYear": "癸丑",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "子",
+        "丑"
+      ],
+      "sourceXunzhongPair": [
+        "寅",
+        "卯"
+      ],
+      "hhcTrietPair": [
+        "子",
+        "丑"
+      ],
+      "hhcTuanPair": [
+        "寅",
+        "卯"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "子"
+        ],
+        "kongwang": [
+          "丑"
+        ],
+        "xunkong": [
+          "卯"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "卯"
+        ],
+        "jiekong": [
+          "丑"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1974,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1974-02-06",
+      "sourceYear": "甲寅",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "申",
+        "酉"
+      ],
+      "sourceXunzhongPair": [
+        "子",
+        "丑"
+      ],
+      "hhcTrietPair": [
+        "申",
+        "酉"
+      ],
+      "hhcTuanPair": [
+        "子",
+        "丑"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "申"
+        ],
+        "kongwang": [
+          "酉"
+        ],
+        "xunkong": [
+          "子"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "子"
+        ],
+        "jiekong": [
+          "申"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1975,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1975-02-25",
+      "sourceYear": "乙卯",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "午",
+        "未"
+      ],
+      "sourceXunzhongPair": [
+        "子",
+        "丑"
+      ],
+      "hhcTrietPair": [
+        "午",
+        "未"
+      ],
+      "hhcTuanPair": [
+        "子",
+        "丑"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "午"
+        ],
+        "kongwang": [
+          "未"
+        ],
+        "xunkong": [
+          "丑"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "丑"
+        ],
+        "jiekong": [
+          "未"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1976,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1976-02-14",
+      "sourceYear": "丙辰",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "辰",
+        "巳"
+      ],
+      "sourceXunzhongPair": [
+        "子",
+        "丑"
+      ],
+      "hhcTrietPair": [
+        "辰",
+        "巳"
+      ],
+      "hhcTuanPair": [
+        "子",
+        "丑"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "辰"
+        ],
+        "kongwang": [
+          "巳"
+        ],
+        "xunkong": [
+          "子"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "子"
+        ],
+        "jiekong": [
+          "辰"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1977,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1977-03-04",
+      "sourceYear": "丁巳",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "寅",
+        "卯"
+      ],
+      "sourceXunzhongPair": [
+        "子",
+        "丑"
+      ],
+      "hhcTrietPair": [
+        "寅",
+        "卯"
+      ],
+      "hhcTuanPair": [
+        "子",
+        "丑"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "寅"
+        ],
+        "kongwang": [
+          "卯"
+        ],
+        "xunkong": [
+          "丑"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "丑"
+        ],
+        "jiekong": [
+          "卯"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1978,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1978-02-21",
+      "sourceYear": "戊午",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "子",
+        "丑"
+      ],
+      "sourceXunzhongPair": [
+        "子",
+        "丑"
+      ],
+      "hhcTrietPair": [
+        "子",
+        "丑"
+      ],
+      "hhcTuanPair": [
+        "子",
+        "丑"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "子"
+        ],
+        "kongwang": [
+          "丑"
+        ],
+        "xunkong": [
+          "子"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "子"
+        ],
+        "jiekong": [
+          "子"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1979,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1979-02-11",
+      "sourceYear": "己未",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "申",
+        "酉"
+      ],
+      "sourceXunzhongPair": [
+        "子",
+        "丑"
+      ],
+      "hhcTrietPair": [
+        "申",
+        "酉"
+      ],
+      "hhcTuanPair": [
+        "子",
+        "丑"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "申"
+        ],
+        "kongwang": [
+          "酉"
+        ],
+        "xunkong": [
+          "丑"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "丑"
+        ],
+        "jiekong": [
+          "酉"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1980,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1980-03-01",
+      "sourceYear": "庚申",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "午",
+        "未"
+      ],
+      "sourceXunzhongPair": [
+        "子",
+        "丑"
+      ],
+      "hhcTrietPair": [
+        "午",
+        "未"
+      ],
+      "hhcTuanPair": [
+        "子",
+        "丑"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "午"
+        ],
+        "kongwang": [
+          "未"
+        ],
+        "xunkong": [
+          "子"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "子"
+        ],
+        "jiekong": [
+          "午"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1981,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1981-02-19",
+      "sourceYear": "辛酉",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "辰",
+        "巳"
+      ],
+      "sourceXunzhongPair": [
+        "子",
+        "丑"
+      ],
+      "hhcTrietPair": [
+        "辰",
+        "巳"
+      ],
+      "hhcTuanPair": [
+        "子",
+        "丑"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "辰"
+        ],
+        "kongwang": [
+          "巳"
+        ],
+        "xunkong": [
+          "丑"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "丑"
+        ],
+        "jiekong": [
+          "巳"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1982,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1982-02-08",
+      "sourceYear": "壬戌",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "寅",
+        "卯"
+      ],
+      "sourceXunzhongPair": [
+        "子",
+        "丑"
+      ],
+      "hhcTrietPair": [
+        "寅",
+        "卯"
+      ],
+      "hhcTuanPair": [
+        "子",
+        "丑"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "寅"
+        ],
+        "kongwang": [
+          "卯"
+        ],
+        "xunkong": [
+          "子"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "子"
+        ],
+        "jiekong": [
+          "寅"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    },
+    {
+      "input": {
+        "y": 1983,
+        "m": 1,
+        "d": 15,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 12,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1983-02-27",
+      "sourceYear": "癸亥",
+      "fixtureYearBoundaryPolicy": "normal-lunar-year-selection;not proven a universal classical calendar adapter",
+      "sourceJieluPair": [
+        "子",
+        "丑"
+      ],
+      "sourceXunzhongPair": [
+        "子",
+        "丑"
+      ],
+      "hhcTrietPair": [
+        "子",
+        "丑"
+      ],
+      "hhcTuanPair": [
+        "子",
+        "丑"
+      ],
+      "iztroDefault": {
+        "jielu": [
+          "子"
+        ],
+        "kongwang": [
+          "丑"
+        ],
+        "xunkong": [
+          "丑"
+        ],
+        "jiekong": []
+      },
+      "iztroZhongzhou": {
+        "jielu": [],
+        "kongwang": [],
+        "xunkong": [
+          "丑"
+        ],
+        "jiekong": [
+          "丑"
+        ]
+      },
+      "sourceSingleStarParitySelectorAttested": false
+    }
+  ],
+  "originalJP2Acquired": false,
+  "sourceSingleStarParitySelectorAttested": false,
+  "sourceYearBoundaryAdapterEstablished": false,
+  "practicalOutcomesValidated": false,
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false
+}

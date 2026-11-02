@@ -1,0 +1,39 @@
+{
+  "schema": "hhc.home.ge.source-reuse.v1",
+  "sourceID": "itkc-1508A-vol2-daily-selected",
+  "sourceImages": [
+    {
+      "file": "v53/research/home-day-hour-scopes/ITKC_BT_1508A_V002_251.JPG",
+      "bytes": 1172122,
+      "sha256": "b762211c12efd94b4983404b2fe3cde60530158db09bded89530caa536489707"
+    },
+    {
+      "file": "v53/research/home-day-hour-scopes/ITKC_BT_1508A_V002_252.JPG",
+      "bytes": 1156260,
+      "sha256": "0d7fb94ee7b6a2b2065765e80da6a9780d51ec7e1d9a4dd87d4290d995c9120a"
+    },
+    {
+      "file": "v53/research/home-day-hour-scopes/ITKC_BT_1508A_V002_253.JPG",
+      "bytes": 1120936,
+      "sha256": "b1a7a6d239eb4219ba743135cb4cfda29a79104eaba03178fbe5e02a7c876fc9"
+    }
+  ],
+  "digitalText": {
+    "file": "v53/research/home-general-premises/itkc-day-theory-extracted.txt",
+    "bytes": 3185,
+    "sha256": "c4887e2cd492d8a655c8868b6f5bc794cc7c79be1176047db232df0f7c3542b0"
+  },
+  "digitalHTML": {
+    "file": "v53/research/home-general-premises/itkc-day-theory.html",
+    "bytes": 9232,
+    "sha256": "497fc84e7b8ead3f3827abaed3ffb741f368df13d98be24a92f91e4dd9112da2"
+  },
+  "originalAcquisitionEvidence": "v53/research/home-day-hour-scopes/REQUESTS.json",
+  "status": "Retained institutional facsimile images and its modern digital transcription; not independent witnesses.",
+  "newHTTPBodies": 0,
+  "newBooks": 0,
+  "newContainers": 0,
+  "newSourcePositions": 0,
+  "newEngineCalls": 0,
+  "engineReason": "No calendar formula or engine comparison in these selected clauses; all marker and qualification premises remain declared."
+}

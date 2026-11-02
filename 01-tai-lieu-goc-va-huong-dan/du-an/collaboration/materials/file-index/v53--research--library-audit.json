@@ -1,0 +1,617 @@
+{
+  "scope": "v53/research/library-audit",
+  "files": [
+    {
+      "file": "v53/research/library-audit/COVERAGE.json",
+      "bytes": 63623,
+      "sha256": "919afa6af86d2e81633e2a60620df3c56ae93628e5d445c2c99667c3c75004b7",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/919afa6af86d2e81633e2a60620df3c56ae93628e5d445c2c99667c3c75004b7",
+      "httpRange": {
+        "offset": 312225482,
+        "compressedBytes": 14305,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/COVERAGE.md",
+      "bytes": 18396,
+      "sha256": "f0c68797c58ce298444d8262c789e56330d0227bcb23af41ef93cd50fc90ea1c",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f0c68797c58ce298444d8262c789e56330d0227bcb23af41ef93cd50fc90ea1c",
+      "httpRange": {
+        "offset": 144717014,
+        "compressedBytes": 5570,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/LEGACY_CATALOGUE.json",
+      "bytes": 25125,
+      "sha256": "bdcb14f2ab090effada29c5bf1a7ad370b384ea8035a196049c26e0eaaa8a6e0",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bdcb14f2ab090effada29c5bf1a7ad370b384ea8035a196049c26e0eaaa8a6e0",
+      "httpRange": {
+        "offset": 208470053,
+        "compressedBytes": 7020,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/NDL_CHART_READINGS.json",
+      "bytes": 2676,
+      "sha256": "02671cba71d8f3c68da4a16a48f98d3ca9365b52d023d15f0fff544e688789bd",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/02671cba71d8f3c68da4a16a48f98d3ca9365b52d023d15f0fff544e688789bd",
+      "httpRange": {
+        "offset": 97423195,
+        "compressedBytes": 1232,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/NDL_ENGINE_COMPARISON.json",
+      "bytes": 12431,
+      "sha256": "e171c3f89e57a26f5b96a487fabd19debd9afd7a94571ebebdc35dea98842a86",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e171c3f89e57a26f5b96a487fabd19debd9afd7a94571ebebdc35dea98842a86",
+      "httpRange": {
+        "offset": 296237657,
+        "compressedBytes": 1180,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/PUBLIC_BASELINE.json",
+      "bytes": 276,
+      "sha256": "66ff96353cf5c6025a8526b68724b1b3c034ab9b4cd7c0860aafb54246d905fa",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/66ff96353cf5c6025a8526b68724b1b3c034ab9b4cd7c0860aafb54246d905fa",
+      "httpRange": {
+        "offset": 211852871,
+        "compressedBytes": 212,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/RUNTIME_PROBE.json",
+      "bytes": 3125,
+      "sha256": "34a0aa0fce46ede190e463c54ce90e325e62a15e13f9b470a5c979577db92c0f",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/34a0aa0fce46ede190e463c54ce90e325e62a15e13f9b470a5c979577db92c0f",
+      "httpRange": {
+        "offset": 311948122,
+        "compressedBytes": 1338,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/TEXT_WITNESS_CHECK.json",
+      "bytes": 3179,
+      "sha256": "d6daf0e4903f3a1a5ea49a111e75502ec22057916c62b13e16c87855a67eef78",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d6daf0e4903f3a1a5ea49a111e75502ec22057916c62b13e16c87855a67eef78",
+      "httpRange": {
+        "offset": 160200694,
+        "compressedBytes": 1524,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/VERIFICATION.json",
+      "bytes": 2609,
+      "sha256": "33d5174fcc482bb688cbcf54607338a1385fab751a288b6602cc7ccd513b8f0b",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/33d5174fcc482bb688cbcf54607338a1385fab751a288b6602cc7ccd513b8f0b",
+      "httpRange": {
+        "offset": 273838971,
+        "compressedBytes": 992,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/KR3g0019-KR3g0019_000.txt",
+      "bytes": 1442,
+      "sha256": "b2e8cf82101f9e5a10677fa7cf584f0e25a02da621d439efeadb1c05cd423dd9",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b2e8cf82101f9e5a10677fa7cf584f0e25a02da621d439efeadb1c05cd423dd9",
+      "httpRange": {
+        "offset": 349095010,
+        "compressedBytes": 842,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/KR3g0019-KR3g0019_001.txt",
+      "bytes": 9937,
+      "sha256": "619aa9ec17852afd4b3629f9b5ff3b31b18872a4824747e890d092aefcd975cc",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/619aa9ec17852afd4b3629f9b5ff3b31b18872a4824747e890d092aefcd975cc",
+      "httpRange": {
+        "offset": 79214150,
+        "compressedBytes": 5544,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/KR3g0019-KR3g0019_002.txt",
+      "bytes": 8112,
+      "sha256": "c67b8d70714492f5bfb3dc9bb603092bd84e33e443cc0a588bc02a46de9ff23d",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c67b8d70714492f5bfb3dc9bb603092bd84e33e443cc0a588bc02a46de9ff23d",
+      "httpRange": {
+        "offset": 367177965,
+        "compressedBytes": 4051,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/KR3g0019-Readme.org",
+      "bytes": 274,
+      "sha256": "342435df6c7dd183e3d33ff3d28d87d4b80595d6f9e5ee84882a20c5320a5ae3",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/342435df6c7dd183e3d33ff3d28d87d4b80595d6f9e5ee84882a20c5320a5ae3",
+      "httpRange": {
+        "offset": 281574008,
+        "compressedBytes": 190,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/KR3g0019-commit.json",
+      "bytes": 3319,
+      "sha256": "2845d03e4bd0d58d4bbfab6a9eeacab69e5596db44e62bfc5cb03f4d0ca52f73",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2845d03e4bd0d58d4bbfab6a9eeacab69e5596db44e62bfc5cb03f4d0ca52f73",
+      "httpRange": {
+        "offset": 155321499,
+        "compressedBytes": 843,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/KR5a0294-KR5a0294_000.txt",
+      "bytes": 252,
+      "sha256": "b28d77f538821a536bcf261344d54e7d7ad94e89c7f148b9819edb02286655d7",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b28d77f538821a536bcf261344d54e7d7ad94e89c7f148b9819edb02286655d7",
+      "httpRange": {
+        "offset": 347897303,
+        "compressedBytes": 215,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/KR5a0294-KR5a0294_001.txt",
+      "bytes": 10201,
+      "sha256": "36999623ec17df47c746d09aef90671b0a8de44d112151bab7e75000306ca242",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/36999623ec17df47c746d09aef90671b0a8de44d112151bab7e75000306ca242",
+      "httpRange": {
+        "offset": 332176253,
+        "compressedBytes": 5682,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/KR5a0294-KR5a0294_002.txt",
+      "bytes": 8422,
+      "sha256": "ccadc3644ea912f85645bf6a1b3e59bcb45590601fee2e13e5d5fd224b8ac03e",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/ccadc3644ea912f85645bf6a1b3e59bcb45590601fee2e13e5d5fd224b8ac03e",
+      "httpRange": {
+        "offset": 42538549,
+        "compressedBytes": 4242,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/KR5a0294-Readme.org",
+      "bytes": 308,
+      "sha256": "d0be3aae490875c7a32b2089756516266d223413f29a1b002bdef1b012f400a8",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d0be3aae490875c7a32b2089756516266d223413f29a1b002bdef1b012f400a8",
+      "httpRange": {
+        "offset": 103031694,
+        "compressedBytes": 194,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/KR5a0294-commit.json",
+      "bytes": 3319,
+      "sha256": "19a066b26279ab2e165f7603d5d2fc3ed1636b2c4d38609fcfefa9424b5b50f5",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/19a066b26279ab2e165f7603d5d2fc3ed1636b2c4d38609fcfefa9424b5b50f5",
+      "httpRange": {
+        "offset": 336653281,
+        "compressedBytes": 839,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/MANIFEST.json",
+      "bytes": 79421,
+      "sha256": "62463d5b910730f7e9e5b51a30f518d044ba063ae3520042d3189c4df373c814",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/62463d5b910730f7e9e5b51a30f518d044ba063ae3520042d3189c4df373c814",
+      "httpRange": {
+        "offset": 85372538,
+        "compressedBytes": 15985,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/REVISIONS.json",
+      "bytes": 445,
+      "sha256": "f9822118f1bebdab709f3c15b090b049b7fae1af2c8b28b742cf4b717ce2f90d",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f9822118f1bebdab709f3c15b090b049b7fae1af2c8b28b742cf4b717ce2f90d",
+      "httpRange": {
+        "offset": 242816492,
+        "compressedBytes": 288,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/archive-06066037-metadata.json",
+      "bytes": 85357,
+      "sha256": "044f1c19f0f602bf24bfdfa65eeb3c7432cf9daee2e1257ea832fe0ef72f556f",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/044f1c19f0f602bf24bfdfa65eeb3c7432cf9daee2e1257ea832fe0ef72f556f",
+      "httpRange": {
+        "offset": 109427087,
+        "compressedBytes": 5086,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/contact-sheet.png",
+      "bytes": 2170875,
+      "sha256": "5a6a934afd55b67dd46d14fb84b6fc282adadbcfd6aba2c2daeb7bc801c78565",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5a6a934afd55b67dd46d14fb84b6fc282adadbcfd6aba2c2daeb7bc801c78565",
+      "httpRange": {
+        "offset": 238739366,
+        "compressedBytes": 1964486,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-01.jpg",
+      "bytes": 3365136,
+      "sha256": "ee9da4461f9b2b8bdab131a015a2b1659b8b3db57b5644e8e9767f1eb326883e",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ee9da4461f9b2b8bdab131a015a2b1659b8b3db57b5644e8e9767f1eb326883e",
+      "httpRange": {
+        "offset": 115418274,
+        "compressedBytes": 3205272,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-02.jpg",
+      "bytes": 1465858,
+      "sha256": "d35b836ce5db1c090b17e9086676f393c4f37c20d8cee02884e643432fc9bebb",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d35b836ce5db1c090b17e9086676f393c4f37c20d8cee02884e643432fc9bebb",
+      "httpRange": {
+        "offset": 122940802,
+        "compressedBytes": 1332569,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-03.jpg",
+      "bytes": 414,
+      "sha256": "48a91c351e7b23e63b7b4565355dad26b0f8fb2d62ec45c5cd0dce1f14180955",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/48a91c351e7b23e63b7b4565355dad26b0f8fb2d62ec45c5cd0dce1f14180955",
+      "httpRange": {
+        "offset": 257146672,
+        "compressedBytes": 319,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-04.jpg",
+      "bytes": 3285767,
+      "sha256": "c1d88e9d64a60737378ce03a2d6572d7b1788de5e46b18ea795e3f823f55afa7",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c1d88e9d64a60737378ce03a2d6572d7b1788de5e46b18ea795e3f823f55afa7",
+      "httpRange": {
+        "offset": 267010337,
+        "compressedBytes": 3143759,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-05.jpg",
+      "bytes": 2886956,
+      "sha256": "bf9126d44df38665b7a80dab2f3709cb0a615ec2361c5b3f246e02432cca2d8a",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bf9126d44df38665b7a80dab2f3709cb0a615ec2361c5b3f246e02432cca2d8a",
+      "httpRange": {
+        "offset": 227377850,
+        "compressedBytes": 2745633,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-06.jpg",
+      "bytes": 2495211,
+      "sha256": "da5de1b978dbddeaffce06dc7293887c50b6eb28cf1b45976274a0a4fa6a642b",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/da5de1b978dbddeaffce06dc7293887c50b6eb28cf1b45976274a0a4fa6a642b",
+      "httpRange": {
+        "offset": 207615487,
+        "compressedBytes": 2358794,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-07.jpg",
+      "bytes": 2601386,
+      "sha256": "43f4bdc8fbcdcec3eabf4f0a856de2a6a14fa9ce7056ca669c1c18607bb7ef12",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/43f4bdc8fbcdcec3eabf4f0a856de2a6a14fa9ce7056ca669c1c18607bb7ef12",
+      "httpRange": {
+        "offset": 171768371,
+        "compressedBytes": 2466020,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-08.jpg",
+      "bytes": 2683736,
+      "sha256": "e84fa57fad913e48801f4eae4286cbe700dc69178697cfe591b116b7256dbf2e",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/e84fa57fad913e48801f4eae4286cbe700dc69178697cfe591b116b7256dbf2e",
+      "httpRange": {
+        "offset": 34750006,
+        "compressedBytes": 2545363,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-09.jpg",
+      "bytes": 2714359,
+      "sha256": "2271086c95a5a1ca77e1a62d5fe1e9e4bce750246a67811cd356d08f5bdb06e3",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2271086c95a5a1ca77e1a62d5fe1e9e4bce750246a67811cd356d08f5bdb06e3",
+      "httpRange": {
+        "offset": 91048413,
+        "compressedBytes": 2581710,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-10.jpg",
+      "bytes": 3245823,
+      "sha256": "8c181eecc111ddcbfd0bee9f34743bdcf5414042c143b652ce848e4eefde0de6",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8c181eecc111ddcbfd0bee9f34743bdcf5414042c143b652ce848e4eefde0de6",
+      "httpRange": {
+        "offset": 272355294,
+        "compressedBytes": 3101257,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-11.jpg",
+      "bytes": 3116455,
+      "sha256": "df25cffc02a790c62057f37f49ac985c75d7f4502d8e86cad9fca0b940bed1ac",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/df25cffc02a790c62057f37f49ac985c75d7f4502d8e86cad9fca0b940bed1ac",
+      "httpRange": {
+        "offset": 267821175,
+        "compressedBytes": 2968229,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-12.jpg",
+      "bytes": 2727086,
+      "sha256": "d09b52066359dcad354f8337976ada44faf170043fccb1bee0f5564931edd0ea",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d09b52066359dcad354f8337976ada44faf170043fccb1bee0f5564931edd0ea",
+      "httpRange": {
+        "offset": 99016131,
+        "compressedBytes": 2581135,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-13.jpg",
+      "bytes": 2362768,
+      "sha256": "3fccb3b0924541960a2b5ef45775ca887820ae57e8db2fd432ae6fcb4aa801ff",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/3fccb3b0924541960a2b5ef45775ca887820ae57e8db2fd432ae6fcb4aa801ff",
+      "httpRange": {
+        "offset": 129989715,
+        "compressedBytes": 2222420,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-14.jpg",
+      "bytes": 2130664,
+      "sha256": "1b6f3490c45d6c2f2321d4100bf122793f1c20c78123fff0f53893c99990bbf2",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1b6f3490c45d6c2f2321d4100bf122793f1c20c78123fff0f53893c99990bbf2",
+      "httpRange": {
+        "offset": 352171820,
+        "compressedBytes": 1990266,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-15.jpg",
+      "bytes": 1645943,
+      "sha256": "ff7ce3ac20752815eed277922259d27a9227cdf13c56191fa340728e43658a2a",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ff7ce3ac20752815eed277922259d27a9227cdf13c56191fa340728e43658a2a",
+      "httpRange": {
+        "offset": 311136874,
+        "compressedBytes": 1510248,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-16.jpg",
+      "bytes": 2578265,
+      "sha256": "7a89aa9def2b7a1ce8d41b73e4a32b3a4ba45391b9d762590be18a07498c863e",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7a89aa9def2b7a1ce8d41b73e4a32b3a4ba45391b9d762590be18a07498c863e",
+      "httpRange": {
+        "offset": 29907580,
+        "compressedBytes": 2439763,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-17.jpg",
+      "bytes": 2510602,
+      "sha256": "b59195d62afbb62ebe0a2fe514853e38207857455c50cd7e7a654bf430c8d8af",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b59195d62afbb62ebe0a2fe514853e38207857455c50cd7e7a654bf430c8d8af",
+      "httpRange": {
+        "offset": 380735215,
+        "compressedBytes": 2372740,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-18.jpg",
+      "bytes": 2633127,
+      "sha256": "f23110d452902c818809fc584aa3f7cdf4c4c22f567359cda4ac8ebf33958875",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f23110d452902c818809fc584aa3f7cdf4c4c22f567359cda4ac8ebf33958875",
+      "httpRange": {
+        "offset": 164893257,
+        "compressedBytes": 2492077,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-19.jpg",
+      "bytes": 2528271,
+      "sha256": "028b45834a35988b1303f8450a0375bb9b84ead47fe1fe8be65cce16797930ed",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/028b45834a35988b1303f8450a0375bb9b84ead47fe1fe8be65cce16797930ed",
+      "httpRange": {
+        "offset": 97830802,
+        "compressedBytes": 2387875,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-20.jpg",
+      "bytes": 2505149,
+      "sha256": "65ef249cbffa3c483613e27a2f87947c0dcf38621e7f817f26afdc7f9659cdfc",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/65ef249cbffa3c483613e27a2f87947c0dcf38621e7f817f26afdc7f9659cdfc",
+      "httpRange": {
+        "offset": 104692534,
+        "compressedBytes": 2364683,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-21.jpg",
+      "bytes": 2674743,
+      "sha256": "9bfc132fe38ae199d48ff4a4abf4e4062926be367d7a9670cda09cb4098a936d",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9bfc132fe38ae199d48ff4a4abf4e4062926be367d7a9670cda09cb4098a936d",
+      "httpRange": {
+        "offset": 100256750,
+        "compressedBytes": 2531257,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-22.jpg",
+      "bytes": 3813959,
+      "sha256": "c3885ed44eab4a1bbe50af0931a28c2ac68ce0b200c88ea5a75cc4a816e2c09e",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c3885ed44eab4a1bbe50af0931a28c2ac68ce0b200c88ea5a75cc4a816e2c09e",
+      "httpRange": {
+        "offset": 325297837,
+        "compressedBytes": 3665998,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-23.jpg",
+      "bytes": 414,
+      "sha256": "5fb88f75a7f0a03de5aa8d04220302e1b54d15ca15123d7878988ccfd52e3d75",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/5fb88f75a7f0a03de5aa8d04220302e1b54d15ca15123d7878988ccfd52e3d75",
+      "httpRange": {
+        "offset": 58940100,
+        "compressedBytes": 321,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-canvas-index.json",
+      "bytes": 12188,
+      "sha256": "2be8eb1c7f1eb65de8700025d930708f10744e8e772ecd67a00e4f82fee93a2a",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2be8eb1c7f1eb65de8700025d930708f10744e8e772ecd67a00e4f82fee93a2a",
+      "httpRange": {
+        "offset": 199914138,
+        "compressedBytes": 721,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-catalog.html",
+      "bytes": 273495,
+      "sha256": "6969d512eb29dd50d6a95eecf11d3cd82f2eb51e6f75cd49df3ee99e10edfbec",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6969d512eb29dd50d6a95eecf11d3cd82f2eb51e6f75cd49df3ee99e10edfbec",
+      "httpRange": {
+        "offset": 237121124,
+        "compressedBytes": 80648,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/ndl-760737-iiif.json",
+      "bytes": 14252,
+      "sha256": "753fe4f55ccb6b5949b4bbeb615dcaf34f111b9482c04f95ade9b8d41c0c43d7",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/753fe4f55ccb6b5949b4bbeb615dcaf34f111b9482c04f95ade9b8d41c0c43d7",
+      "httpRange": {
+        "offset": 368591349,
+        "compressedBytes": 1292,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/wikisource-yuanhai.html",
+      "bytes": 313004,
+      "sha256": "7826dabdc37204d7434c917b7256eacc5aed1583ae4b0319cdbce498adf58931",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/7826dabdc37204d7434c917b7256eacc5aed1583ae4b0319cdbce498adf58931",
+      "httpRange": {
+        "offset": 388298503,
+        "compressedBytes": 116839,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/wikisource-zhaijing.html",
+      "bytes": 59587,
+      "sha256": "c3d77e1779ffb8135d2c6c5ea8f4b791e2759f5bc2b029c15d12bed298a4a283",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c3d77e1779ffb8135d2c6c5ea8f4b791e2759f5bc2b029c15d12bed298a4a283",
+      "httpRange": {
+        "offset": 332663125,
+        "compressedBytes": 17237,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

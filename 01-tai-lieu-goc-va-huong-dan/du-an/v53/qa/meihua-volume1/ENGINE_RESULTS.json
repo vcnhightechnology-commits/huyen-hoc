@@ -1,0 +1,68 @@
+{
+  "schema": "hhc.meihua.volume1.qa.v1",
+  "checks": [
+    {
+      "name": "OriginalPDF/all232localrenders retainidentity;214priorrecords remainexact,18missingpagesfilledwithoutHTTP/OCR",
+      "ok": true
+    },
+    {
+      "name": "42boundedvolume1pages/45pinnedunitlinks:23new+19expandedincludingearlierboundary54,whichcontainslasttasteandclosingtext",
+      "ok": true
+    },
+    {
+      "name": "216physicalheaderpositions,27pertable;214pinneddigitalbodies keep exactSHAanduncompletedphysical-bodycollationstatus",
+      "ok": true
+    },
+    {
+      "name": "Twoactualdigitalomissions andeight謀望/謀旺headingpositions stay separated;raw214-fieldindexnotrewritten",
+      "ok": true
+    },
+    {
+      "name": "64literalprintedmembers identifiedwith64actualenginecompositions;sevenphysical/digitalnamepositions preservebothlayers withoutrewritingsource",
+      "ok": true
+    },
+    {
+      "name": "Inferredmaskformula matchesindependentsequentialtoggles andall64printedmembers;noeventorunprinted世應rule asserted",
+      "ok": true
+    },
+    {
+      "name": "All64bitkeys formabijection;twoactualcounterexamplespreventpalaceelementfromsilentlyoverwritingMaiHoabodyelement",
+      "ok": true
+    },
+    {
+      "name": "Invalidnumbers,bits,querypremises andprototype-likevalues rejected;returnvalues cannotmutate sourcecatalogue",
+      "ok": true
+    },
+    {
+      "name": "Fivevolumescover212spanpages/209content+3endleaves;front/ads/logo/cover/imprint/backaccountforall232withoutclaimingfullclauseapplication",
+      "ok": true
+    },
+    {
+      "name": "Printedpalacereference andbody/headerresearchstayoutsidetheunchanged703410byteconsumerHTML",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "sourcePageRecords": 42,
+    "newPageRecords": 23,
+    "expandedEarlierReadings": 19,
+    "newPNGDerivatives": 18,
+    "retainedPNGDerivatives": 232,
+    "digitalUnitLinks": 45,
+    "physicalHeaderPositions": 216,
+    "pinnedDigitalFields": 214,
+    "missingDigitalFields": 2,
+    "differentHeaderSlots": 8,
+    "differentPalaceNamePositions": 7,
+    "printedPalaceRows": 8,
+    "printedPalaceMembers": 64,
+    "actualEngineCompositions": 64,
+    "inverseBitKeys": 64,
+    "fullBodyCollationCompleted": false,
+    "newHTTPResponses": 0,
+    "consumerChanged": false,
+    "predictiveAccuracyEstablished": false,
+    "wholeBookApplied": false
+  },
+  "htmlSHA256": "3800162854742c915d60f0051c65cadb0eb9a1c803f9f937bf1b6a593c96d268"
+}

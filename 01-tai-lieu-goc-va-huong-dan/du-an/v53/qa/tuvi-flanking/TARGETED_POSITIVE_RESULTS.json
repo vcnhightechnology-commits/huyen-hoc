@@ -1,0 +1,170 @@
+{
+  "date": "2026-10-28",
+  "boundedSearch": {
+    "year": 1984,
+    "months": "1..12",
+    "days": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      16,
+      20,
+      25
+    ],
+    "hours": "twelvebranches",
+    "stopAfter": 2,
+    "completedDomain": false
+  },
+  "actualHHCTuviSearchCalls": 165,
+  "actualIztroPositiveCalls": 2,
+  "additionalMatchedStarBranchCoordinates": 4,
+  "positiveCases": [
+    {
+      "input": {
+        "y": 1984,
+        "m": 1,
+        "d": 2,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 14,
+        "minute": 0,
+        "gender": "female"
+      },
+      "solar": "1984-02-03",
+      "placements": {
+        "Thái Dương": "申",
+        "Thái Âm": "午"
+      },
+      "ming": "未",
+      "result": {
+        "system": "NAJ-4468520-juan2-QA-flanking-two-neighbours",
+        "kind": "sun-moon",
+        "anchorRole": "命宮",
+        "anchorBranch": "未",
+        "pair": {
+          "kind": "sun-moon",
+          "stars": [
+            "Thái Dương",
+            "Thái Âm"
+          ],
+          "iztroNames": [
+            "太阳",
+            "太阴"
+          ],
+          "sourceNames": [
+            "太陽",
+            "太陰"
+          ]
+        },
+        "geometryMatched": true,
+        "placements": [
+          {
+            "star": "Thái Dương",
+            "branch": "申",
+            "offsetFromMing": 1
+          },
+          {
+            "star": "Thái Âm",
+            "branch": "午",
+            "offsetFromMing": 11
+          }
+        ],
+        "fullSourceConditionsMatched": null,
+        "sourceExclusionScopeResolved": false,
+        "starStrengthResolved": false,
+        "sourceOutcomeValidated": false,
+        "practicalOutcome": null,
+        "unimplementedSourceConditions": [
+          "不逢空劫羊殺 scope and effective obstruction",
+          "星格/旺陷/吉化/三合 source preconditions beyond selected clause",
+          "身宮 relation not inferred from the phrase 身命",
+          "period-frame adapters and source outcomes"
+        ],
+        "geometryIsNotWholePattern": true
+      },
+      "iztroMingBranch": "未"
+    },
+    {
+      "input": {
+        "y": 1984,
+        "m": 2,
+        "d": 2,
+        "calendar": "lunar",
+        "leap": false,
+        "leapPolicy": "same",
+        "dayPolicy": "current",
+        "tz": 8,
+        "hour": 16,
+        "minute": 0,
+        "gender": "male"
+      },
+      "solar": "1984-03-04",
+      "placements": {
+        "Thái Dương": "申",
+        "Thái Âm": "午"
+      },
+      "ming": "未",
+      "result": {
+        "system": "NAJ-4468520-juan2-QA-flanking-two-neighbours",
+        "kind": "sun-moon",
+        "anchorRole": "命宮",
+        "anchorBranch": "未",
+        "pair": {
+          "kind": "sun-moon",
+          "stars": [
+            "Thái Dương",
+            "Thái Âm"
+          ],
+          "iztroNames": [
+            "太阳",
+            "太阴"
+          ],
+          "sourceNames": [
+            "太陽",
+            "太陰"
+          ]
+        },
+        "geometryMatched": true,
+        "placements": [
+          {
+            "star": "Thái Dương",
+            "branch": "申",
+            "offsetFromMing": 1
+          },
+          {
+            "star": "Thái Âm",
+            "branch": "午",
+            "offsetFromMing": 11
+          }
+        ],
+        "fullSourceConditionsMatched": null,
+        "sourceExclusionScopeResolved": false,
+        "starStrengthResolved": false,
+        "sourceOutcomeValidated": false,
+        "practicalOutcome": null,
+        "unimplementedSourceConditions": [
+          "不逢空劫羊殺 scope and effective obstruction",
+          "星格/旺陷/吉化/三合 source preconditions beyond selected clause",
+          "身宮 relation not inferred from the phrase 身命",
+          "period-frame adapters and source outcomes"
+        ],
+        "geometryIsNotWholePattern": true
+      },
+      "iztroMingBranch": "未"
+    }
+  ],
+  "searchCasesAreConstructedModernInputsNotHistoricalExamples": true,
+  "base144ChartsNotRerun": true,
+  "fullSourceConditionsValidated": false,
+  "consumerChanged": false
+}

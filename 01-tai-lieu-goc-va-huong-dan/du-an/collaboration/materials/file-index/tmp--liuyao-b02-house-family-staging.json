@@ -1,0 +1,545 @@
+{
+  "scope": "tmp/liuyao-b02-house-family-staging",
+  "files": [
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/B02_CURRENT_UNITS.json",
+      "bytes": 66791,
+      "sha256": "19f44eec3b7bd5e383d43fc344dba5c95ed6c649d46086e56c42554aab9eb1d9",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/19f44eec3b7bd5e383d43fc344dba5c95ed6c649d46086e56c42554aab9eb1d9",
+      "httpRange": {
+        "offset": 340923733,
+        "compressedBytes": 7815,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/CHART_CROP.json",
+      "bytes": 423,
+      "sha256": "648c043c5a9ea72cf298514f30bdb671657392706e3727e216e8c2881a9ed8bf",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/648c043c5a9ea72cf298514f30bdb671657392706e3727e216e8c2881a9ed8bf",
+      "httpRange": {
+        "offset": 94290868,
+        "compressedBytes": 277,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/DETAIL_CROP.json",
+      "bytes": 425,
+      "sha256": "1abc4799876da025b36c8b2018e53cdcce4cb0a93afceff4b543bed89f9de4c6",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1abc4799876da025b36c8b2018e53cdcce4cb0a93afceff4b543bed89f9de4c6",
+      "httpRange": {
+        "offset": 346628832,
+        "compressedBytes": 278,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/LOCAL_RENDERS.json",
+      "bytes": 13635,
+      "sha256": "78f4f7a5ffe0893789ed68b785c9ae64ec9080de6bd2f2cb8606db252fe61c12",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/78f4f7a5ffe0893789ed68b785c9ae64ec9080de6bd2f2cb8606db252fe61c12",
+      "httpRange": {
+        "offset": 3565281,
+        "compressedBytes": 4663,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/MANUAL_READINGS.json",
+      "bytes": 16981,
+      "sha256": "9c28f2c97c6e1cac34eb5f0219db4e542ec5d41162df676f0652a35058a50f9a",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9c28f2c97c6e1cac34eb5f0219db4e542ec5d41162df676f0652a35058a50f9a",
+      "httpRange": {
+        "offset": 103400875,
+        "compressedBytes": 4900,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/QA_RENDERS.json",
+      "bytes": 651,
+      "sha256": "dd8f1fa2fa8b32cf3768a80095710dccbbe7971306d74ffeedb27294e1093be8",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/dd8f1fa2fa8b32cf3768a80095710dccbbe7971306d74ffeedb27294e1093be8",
+      "httpRange": {
+        "offset": 243179988,
+        "compressedBytes": 292,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/RESULTS.json",
+      "bytes": 6718,
+      "sha256": "ed78418d077f760c8c16bdc681f3eb327844a34c514d4c6a1229ba12dc1363a6",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ed78418d077f760c8c16bdc681f3eb327844a34c514d4c6a1229ba12dc1363a6",
+      "httpRange": {
+        "offset": 101685327,
+        "compressedBytes": 2332,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/SOURCE_VERIFICATION.json",
+      "bytes": 1130,
+      "sha256": "17459c317c2152a8e3b99186a3ac3a5aa6dcda5498733844f35338240d081436",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/17459c317c2152a8e3b99186a3ac3a5aa6dcda5498733844f35338240d081436",
+      "httpRange": {
+        "offset": 313756576,
+        "compressedBytes": 549,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/TRAVELER_CONTEXT.json",
+      "bytes": 2624,
+      "sha256": "7c8852eb8dc7d18146bd88368738bf64af1ab9cb1042f164e79f44b884a3eede",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7c8852eb8dc7d18146bd88368738bf64af1ab9cb1042f164e79f44b884a3eede",
+      "httpRange": {
+        "offset": 45485706,
+        "compressedBytes": 1126,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/WORK_STATE.json",
+      "bytes": 3188,
+      "sha256": "26470ccbb8906658a18697802e24a5830cc50146e07f0e00a53e8803553dd4a1",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/26470ccbb8906658a18697802e24a5830cc50146e07f0e00a53e8803553dd4a1",
+      "httpRange": {
+        "offset": 135101316,
+        "compressedBytes": 1702,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/fixture334-chart-native.png",
+      "bytes": 86389,
+      "sha256": "410b58df5bf95d8b850b0b4cf97b4480906eacd450c523186552bfa7ee78ad8a",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/410b58df5bf95d8b850b0b4cf97b4480906eacd450c523186552bfa7ee78ad8a",
+      "httpRange": {
+        "offset": 143142950,
+        "compressedBytes": 75569,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/fixture334-native-detail.png",
+      "bytes": 96463,
+      "sha256": "d2944e0b4f37795d88ed5ec88df5f830494fd8930f5a2ef9f4f4cfeeae9b6136",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d2944e0b4f37795d88ed5ec88df5f830494fd8930f5a2ef9f4f4cfeeae9b6136",
+      "httpRange": {
+        "offset": 117156978,
+        "compressedBytes": 85681,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/qa360-334.png",
+      "bytes": 651264,
+      "sha256": "b78eb5566ed840c368972b34f00aa04645efb5e9f479a2a3263da1d0a87ee60c",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/b78eb5566ed840c368972b34f00aa04645efb5e9f479a2a3263da1d0a87ee60c",
+      "httpRange": {
+        "offset": 162430437,
+        "compressedBytes": 550729,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/qa360-345.png",
+      "bytes": 815479,
+      "sha256": "e9afd68825bc8457c9ea6d568a75ccf66ece7ac5cac4f4932c703c56076e458c",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/e9afd68825bc8457c9ea6d568a75ccf66ece7ac5cac4f4932c703c56076e458c",
+      "httpRange": {
+        "offset": 48902014,
+        "compressedBytes": 692210,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/record-study.py",
+      "bytes": 5108,
+      "sha256": "d946987c457a627b152896830172ffe7c711c924a30e5998e498f3fd5a89faf2",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d946987c457a627b152896830172ffe7c711c924a30e5998e498f3fd5a89faf2",
+      "httpRange": {
+        "offset": 195888699,
+        "compressedBytes": 2470,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/redecode-325-144.png",
+      "bytes": 90103,
+      "sha256": "cf425e07742e7733e8accdc2e528952311fb14ce64beeb034d1b578c2c0ad183",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/cf425e07742e7733e8accdc2e528952311fb14ce64beeb034d1b578c2c0ad183",
+      "httpRange": {
+        "offset": 85501260,
+        "compressedBytes": 86777,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/redecode-334-360.png",
+      "bytes": 651264,
+      "sha256": "b78eb5566ed840c368972b34f00aa04645efb5e9f479a2a3263da1d0a87ee60c",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/b78eb5566ed840c368972b34f00aa04645efb5e9f479a2a3263da1d0a87ee60c",
+      "httpRange": {
+        "offset": 162430437,
+        "compressedBytes": 550729,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/test-traveler-context.mjs",
+      "bytes": 7853,
+      "sha256": "4f9754fb984f4673ee9f938c009b7164a700e3db06225829f0a3f34784fa0af8",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4f9754fb984f4673ee9f938c009b7164a700e3db06225829f0a3f34784fa0af8",
+      "httpRange": {
+        "offset": 343585994,
+        "compressedBytes": 3361,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/traveler-context.mjs",
+      "bytes": 2054,
+      "sha256": "d74e6c5d93c530c0056348fc0aef4566d533f4b6d795d34636e6cb698cea5c00",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d74e6c5d93c530c0056348fc0aef4566d533f4b6d795d34636e6cb698cea5c00",
+      "httpRange": {
+        "offset": 167543956,
+        "compressedBytes": 996,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-325.png",
+      "bytes": 90103,
+      "sha256": "cf425e07742e7733e8accdc2e528952311fb14ce64beeb034d1b578c2c0ad183",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/cf425e07742e7733e8accdc2e528952311fb14ce64beeb034d1b578c2c0ad183",
+      "httpRange": {
+        "offset": 85501260,
+        "compressedBytes": 86777,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-326.png",
+      "bytes": 97705,
+      "sha256": "7ecef45a355de7bce04db8d9e59969c253a1296f273fa5701312c3886fbe468a",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7ecef45a355de7bce04db8d9e59969c253a1296f273fa5701312c3886fbe468a",
+      "httpRange": {
+        "offset": 60765562,
+        "compressedBytes": 94840,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-327.png",
+      "bytes": 99048,
+      "sha256": "72baad5d58cc2bcb41a16d3c20713ace8bec3c5aee41d01bb97681332d9f90e5",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/72baad5d58cc2bcb41a16d3c20713ace8bec3c5aee41d01bb97681332d9f90e5",
+      "httpRange": {
+        "offset": 340721327,
+        "compressedBytes": 96498,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-328.png",
+      "bytes": 94264,
+      "sha256": "d615a23ceacbfea53e04e449c8a99faeff5f21a3a2122152febb76bdebef0110",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d615a23ceacbfea53e04e449c8a99faeff5f21a3a2122152febb76bdebef0110",
+      "httpRange": {
+        "offset": 153601246,
+        "compressedBytes": 90992,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-329.png",
+      "bytes": 97160,
+      "sha256": "7785a9260ddbb3381068f19978a4c7411bbb0632003507259d75b82ef0cd204d",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/7785a9260ddbb3381068f19978a4c7411bbb0632003507259d75b82ef0cd204d",
+      "httpRange": {
+        "offset": 383525101,
+        "compressedBytes": 94589,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-330.png",
+      "bytes": 86134,
+      "sha256": "d8d55977dd3a8ef45a1a0b7c63b14d670fca62b0f16c712d2e570874ead1358b",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d8d55977dd3a8ef45a1a0b7c63b14d670fca62b0f16c712d2e570874ead1358b",
+      "httpRange": {
+        "offset": 189273567,
+        "compressedBytes": 83221,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-331.png",
+      "bytes": 106167,
+      "sha256": "c19c9bab799d44054f22f73e3b412e266c7e33711330dbdb8f2986979d8fa793",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c19c9bab799d44054f22f73e3b412e266c7e33711330dbdb8f2986979d8fa793",
+      "httpRange": {
+        "offset": 263486727,
+        "compressedBytes": 103381,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-332.png",
+      "bytes": 98587,
+      "sha256": "9309252b38eaa74b715f6005a171d215d601d361a338ec1f2953ed39f0d0393f",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/9309252b38eaa74b715f6005a171d215d601d361a338ec1f2953ed39f0d0393f",
+      "httpRange": {
+        "offset": 328074931,
+        "compressedBytes": 95432,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-333.png",
+      "bytes": 103770,
+      "sha256": "b92d25f88a0f7b736425893d27368c7d9949bf24a0204d626d4cd2e269c5fc17",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/b92d25f88a0f7b736425893d27368c7d9949bf24a0204d626d4cd2e269c5fc17",
+      "httpRange": {
+        "offset": 176699502,
+        "compressedBytes": 101075,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-334.png",
+      "bytes": 85837,
+      "sha256": "0333a77a99b4fe8705bd3f9177507d6b46a0ddd86dfd1d5b85ae2c379c07e13e",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0333a77a99b4fe8705bd3f9177507d6b46a0ddd86dfd1d5b85ae2c379c07e13e",
+      "httpRange": {
+        "offset": 103562449,
+        "compressedBytes": 83077,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-335.png",
+      "bytes": 71293,
+      "sha256": "a9eba8cac965f6d9a124ba74aaa6b6e6315fcde6d0c9c4ed72405057e108ea8e",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a9eba8cac965f6d9a124ba74aaa6b6e6315fcde6d0c9c4ed72405057e108ea8e",
+      "httpRange": {
+        "offset": 262489414,
+        "compressedBytes": 68271,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-336.png",
+      "bytes": 80917,
+      "sha256": "ddf22d0a0722ebb7de692d2db9f0d9e2a0ef17b5bc87ef725a5acba3c3360a52",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/ddf22d0a0722ebb7de692d2db9f0d9e2a0ef17b5bc87ef725a5acba3c3360a52",
+      "httpRange": {
+        "offset": 246351536,
+        "compressedBytes": 78347,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-337.png",
+      "bytes": 54152,
+      "sha256": "1f1a44534afdce46a88d66bdfe276b030165524756c6175c192a83a20223ff09",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/1f1a44534afdce46a88d66bdfe276b030165524756c6175c192a83a20223ff09",
+      "httpRange": {
+        "offset": 67940271,
+        "compressedBytes": 51174,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-338.png",
+      "bytes": 23687,
+      "sha256": "bfab422e401a5c119485e2850d3b9860d8c4c8c55c4fadfbc6a9ee46d3d2a604",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bfab422e401a5c119485e2850d3b9860d8c4c8c55c4fadfbc6a9ee46d3d2a604",
+      "httpRange": {
+        "offset": 231898812,
+        "compressedBytes": 20269,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-339.png",
+      "bytes": 83110,
+      "sha256": "97d7df6c87d8fe2ed6408f844a24e849c8b5df8543b6a1bf818824041cff8687",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/97d7df6c87d8fe2ed6408f844a24e849c8b5df8543b6a1bf818824041cff8687",
+      "httpRange": {
+        "offset": 23446968,
+        "compressedBytes": 80166,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-340.png",
+      "bytes": 97253,
+      "sha256": "fd4dbbe3e93465ca1858d03d296efb8cd7461533ba112014122e4989d4dfa75b",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/fd4dbbe3e93465ca1858d03d296efb8cd7461533ba112014122e4989d4dfa75b",
+      "httpRange": {
+        "offset": 288908835,
+        "compressedBytes": 94647,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-341.png",
+      "bytes": 107766,
+      "sha256": "c01f8246b451d1b198437575b0f4cb21fa611594df16e584857a151da17fb66d",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c01f8246b451d1b198437575b0f4cb21fa611594df16e584857a151da17fb66d",
+      "httpRange": {
+        "offset": 247727478,
+        "compressedBytes": 104549,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-342.png",
+      "bytes": 92511,
+      "sha256": "d52b8936a2a1b1916a03f97845604483519e56f5b6b30a09d71f8ae613e56804",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d52b8936a2a1b1916a03f97845604483519e56f5b6b30a09d71f8ae613e56804",
+      "httpRange": {
+        "offset": 144644213,
+        "compressedBytes": 89356,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-343.png",
+      "bytes": 96917,
+      "sha256": "5cd04d3de128b91da313a434505c0456faccbfb7ea6e8696969909bedea7fbe5",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5cd04d3de128b91da313a434505c0456faccbfb7ea6e8696969909bedea7fbe5",
+      "httpRange": {
+        "offset": 264376381,
+        "compressedBytes": 94273,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-344.png",
+      "bytes": 106281,
+      "sha256": "af3bd3993afcc95a3e155a84d33f3205ba572f83dfafe86a76d8a2fb4c94ccab",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/af3bd3993afcc95a3e155a84d33f3205ba572f83dfafe86a76d8a2fb4c94ccab",
+      "httpRange": {
+        "offset": 309535039,
+        "compressedBytes": 103430,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-345.png",
+      "bytes": 101789,
+      "sha256": "20e7a74db33f62248b21bf939efb4207465d1eddc0c1edf42a02d51dfbdbc1bb",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/20e7a74db33f62248b21bf939efb4207465d1eddc0c1edf42a02d51dfbdbc1bb",
+      "httpRange": {
+        "offset": 83143772,
+        "compressedBytes": 99256,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-346.png",
+      "bytes": 109500,
+      "sha256": "2bfebae9dddb53dbf99f0128241a5805338632676303dbab1f118baab7ef0e11",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2bfebae9dddb53dbf99f0128241a5805338632676303dbab1f118baab7ef0e11",
+      "httpRange": {
+        "offset": 200275242,
+        "compressedBytes": 106777,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-347.png",
+      "bytes": 107243,
+      "sha256": "f0947cb31f402ce7d3737efadc1a9cbb4e4f92a863e75b0cf056f58bcfcfbca7",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f0947cb31f402ce7d3737efadc1a9cbb4e4f92a863e75b0cf056f58bcfcfbca7",
+      "httpRange": {
+        "offset": 142260604,
+        "compressedBytes": 104638,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-348.png",
+      "bytes": 113221,
+      "sha256": "99081fda662d3fad50810572bd1d6aef2b6025220975786be06af225416c94ca",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/99081fda662d3fad50810572bd1d6aef2b6025220975786be06af225416c94ca",
+      "httpRange": {
+        "offset": 33175227,
+        "compressedBytes": 110364,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-349.png",
+      "bytes": 105063,
+      "sha256": "ee55af8c6122d5cbcbb6a0ee9d67d3dd525aef37817747c09ffb6029de197759",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ee55af8c6122d5cbcbb6a0ee9d67d3dd525aef37817747c09ffb6029de197759",
+      "httpRange": {
+        "offset": 112310897,
+        "compressedBytes": 102469,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/liuyao-b02-house-family-staging/zengshan-350.png",
+      "bytes": 103204,
+      "sha256": "b06ce6f9095fb26ac9c9a2b11c38fe34e236196e4e140acc61080d585733721e",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b06ce6f9095fb26ac9c9a2b11c38fe34e236196e4e140acc61080d585733721e",
+      "httpRange": {
+        "offset": 322992561,
+        "compressedBytes": 100268,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

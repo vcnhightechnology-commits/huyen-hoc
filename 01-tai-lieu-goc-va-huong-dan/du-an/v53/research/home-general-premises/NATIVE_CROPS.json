@@ -1,0 +1,163 @@
+{
+  "date": "2026-10-29",
+  "records": [
+    {
+      "id": "continuous-work-main",
+      "source": {
+        "file": "tmp/home-calendar-premises-staging/ITKC_BT_1508A_V002_257.JPG",
+        "bytes": 1323533,
+        "sha256": "9bb78b19d365a74e91999e0d60d661fc9e14ef0051244c2debaff72d57f27232"
+      },
+      "boxXYXY": [
+        102,
+        285,
+        665,
+        2090
+      ],
+      "crop": {
+        "file": "tmp/home-calendar-premises-staging/continuous-work-main-complete.png",
+        "bytes": 1673402,
+        "sha256": "bf5ae4526c45af2de5801396afe3998cd1102e8a5f61020733aedb66e7d9ee82"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "viewed": true,
+      "accepted": true,
+      "excludedTrialCrop": "continuous-work-main.png"
+    },
+    {
+      "id": "continuous-work-end",
+      "source": {
+        "file": "tmp/home-calendar-premises-staging/ITKC_BT_1508A_V002_258.JPG",
+        "bytes": 1173289,
+        "sha256": "8771f62ff59b61e85a8eba073adf54a52b0787f60a326010124b688915557dee"
+      },
+      "boxXYXY": [
+        1230,
+        285,
+        1515,
+        2090
+      ],
+      "crop": {
+        "file": "tmp/home-calendar-premises-staging/continuous-work-end-complete.png",
+        "bytes": 723481,
+        "sha256": "000e7a06f773b9b18d372d847ff069f58407c1d7c36a4060825226d969be56df"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "viewed": true,
+      "accepted": true,
+      "excludedTrialCrop": "continuous-work-end.png"
+    },
+    {
+      "id": "central-zone-and-pausing",
+      "source": {
+        "file": "tmp/home-calendar-premises-staging/ITKC_BT_1508A_V002_258.JPG",
+        "bytes": 1173289,
+        "sha256": "8771f62ff59b61e85a8eba073adf54a52b0787f60a326010124b688915557dee"
+      },
+      "boxXYXY": [
+        105,
+        285,
+        770,
+        2090
+      ],
+      "crop": {
+        "file": "tmp/home-calendar-premises-staging/central-zone-and-pausing-complete.png",
+        "bytes": 1807923,
+        "sha256": "4ea501959509f2b94eaa493967a24b8694d1f8e3a8e08360dbf6217905055732"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "viewed": true,
+      "accepted": true,
+      "excludedTrialCrop": "central-zone-and-pausing.png"
+    },
+    {
+      "id": "functional-compass-anchor",
+      "source": {
+        "file": "tmp/home-calendar-premises-staging/ITKC_BT_1508A_V002_259.JPG",
+        "bytes": 1223996,
+        "sha256": "5d3d11e4007cd03dbeb2fbe82c52327104f20eb50b278f6d6329270a693c4789"
+      },
+      "boxXYXY": [
+        100,
+        280,
+        1390,
+        2090
+      ],
+      "crop": {
+        "file": "tmp/home-calendar-premises-staging/functional-compass-anchor-complete.png",
+        "bytes": 3533147,
+        "sha256": "ea24e3963f66a43d9b04c0d86484f12a7724dae95e548fd2d87266643c7dbcf1"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "viewed": true,
+      "accepted": true,
+      "excludedTrialCrop": "functional-compass-anchor.png"
+    },
+    {
+      "id": "year-officer-repair-window",
+      "source": {
+        "file": "tmp/home-calendar-premises-staging/ITKC_BT_1508A_V002_265.JPG",
+        "bytes": 1236494,
+        "sha256": "fa65a18a96020cbd8cd563d37937b2619e79319b786537e125c22852886f740b"
+      },
+      "boxXYXY": [
+        235,
+        285,
+        900,
+        2090
+      ],
+      "crop": {
+        "file": "tmp/home-calendar-premises-staging/year-officer-repair-window.png",
+        "bytes": 1843993,
+        "sha256": "432fca93b5220a3664267188ec0850d668d32a07ad50917b45b7cb328e3182d7"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "viewed": true,
+      "accepted": true
+    },
+    {
+      "id": "central-zone-end",
+      "source": {
+        "file": "tmp/home-calendar-premises-staging/ITKC_BT_1508A_V002_259.JPG",
+        "bytes": 1223996,
+        "sha256": "5d3d11e4007cd03dbeb2fbe82c52327104f20eb50b278f6d6329270a693c4789"
+      },
+      "boxXYXY": [
+        1380,
+        280,
+        1525,
+        2090
+      ],
+      "crop": {
+        "file": "tmp/home-calendar-premises-staging/central-zone-end.png",
+        "bytes": 360285,
+        "sha256": "2abceae6e995c2e9f79616fe40030bc6b7c2350daebc0ed4fda94eb321467d71"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "viewed": true,
+      "accepted": true
+    }
+  ],
+  "purpose": "Nextscopepredicatecollationonly;notyetfunctionalrelease",
+  "allFinalCropsViewed": true,
+  "excludedNarrowTrialCrops": 4,
+  "trialFilesRemainInStagingOnly": true
+}

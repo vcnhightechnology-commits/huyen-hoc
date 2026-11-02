@@ -1,0 +1,37 @@
+{
+  "frozenAtUTC": "2026-10-29T13:36:50.152068+00:00",
+  "purpose": "Manual source contexts, cropped native evidence and independent expected values before new reference/runtime.",
+  "files": [
+    {
+      "file": "NATIVE_REVIEW.json",
+      "bytes": 3050,
+      "sha256": "1eb9f55df77df121d23014feec7599023ac75e1f3f2d1aa492be6f2bcc075af0"
+    },
+    {
+      "file": "SELECTED_CROPS.json",
+      "bytes": 1748,
+      "sha256": "64dbc427eecaa7b8ae8cc67ab834e0610503db6aedcec52349850129235514e0"
+    },
+    {
+      "file": "CONTEXT_DISPOSITIONS.json",
+      "bytes": 4134,
+      "sha256": "224cb2c8d50f24644bba395e8a638d3b19218e9394fe8940d2481d6b6d306b42"
+    },
+    {
+      "file": "MANUAL_SOURCE_TABLES.json",
+      "bytes": 3589,
+      "sha256": "e973108f974fbbfb0c1077b1b17981a85b4e6ee1ff9a041b9b51c2e1adce9c5e"
+    },
+    {
+      "file": "EXPECTED_BEFORE_IMPLEMENTATION.json",
+      "bytes": 2099,
+      "sha256": "2a34bec9c851c9eede53b490185686ec7e28f7bb6069d1fcc8488d00db062a99"
+    },
+    {
+      "file": "REUSED_ACTUAL_EVIDENCE.json",
+      "bytes": 1210,
+      "sha256": "dff4ac216651397e10fc8165581ca11437189a9af68f855fbd78bed3caf62934"
+    }
+  ],
+  "privateWorkingFollowupNotInCurrentReleasePackage": true
+}

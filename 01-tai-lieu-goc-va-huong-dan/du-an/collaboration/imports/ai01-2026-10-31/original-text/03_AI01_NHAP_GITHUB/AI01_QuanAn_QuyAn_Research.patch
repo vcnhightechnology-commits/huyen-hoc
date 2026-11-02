@@ -1,0 +1,595 @@
+diff --git a/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/CASE_ANALYSIS.md b/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/CASE_ANALYSIS.md
+new file mode 100644
+index 0000000..e8ad5e1
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/CASE_ANALYSIS.md
+@@ -0,0 +1,72 @@
++# AI-01 — Hai ví dụ Quan Ấn/Quỷ Ấn và kiểm cấu trúc can chi
++
++**Nguồn gốc của các tứ trụ:** 《五行精紀》 quyển 19, `論正印`, đoạn được dẫn dưới tên `天元變化書`. Chữ số hóa đã kiểm đối chiếu từ [Linh Tê](https://asklingxi.com/zh-tw/books/wuxing-jingji/19-jinshen/02-zhengyin), [识典 A](https://www.shidianguji.com/zh/book/NGJ892411999013122114408/chapter/1lmyjad4zcsvn) và [识典 B](https://www.shidianguji.com/zh/book/NGJ8922621209348/chapter/1lnvyvqxghstk), **chưa đối ảnh NLC**. Nạp âm đối chiếu từ [TMTH quyển 1](https://zh.wikisource.org/zh-hant/三命通會/卷一).
++
++## 1. Phải kiểm hai lớp trước khi dịch nghĩa
++
++**Lớp A:** tính **can/tháng theo can năm** (五虎遁 / 遁月從年), **can/giờ theo can ngày** (五鼠遁 / 遁時從日). Khung nguồn [TMTH quyển 2 — 論遁月時](https://zh.wikisource.org/zh-hant/三命通會/卷二). Chỉ kiểm tính nhất quán nội bộ của **chuỗi trụ văn bản**, không phải tính lá số từ ngày sinh dương lịch vì không có ngày/giờ sinh thực tế được cung cấp.
++
++**Lớp B:** đối hành **Nạp âm** theo can chi của từng trụ, không lấy hành của Thiên can hay hành của Địa chi thay thế. Khi cổ văn nói **Thủy nhiều/Thổ Ấn**, phải biết tác giả đang gọi theo tầng nào. Sách không nói cách đo vượng suy đầy đủ cho toàn bộ trường hợp.
++
++## 2. Ví dụ A: tổ hợp được khen, tháng 乙卯 theo bản có cơ sở tốt hơn
++
++| Cột | Can chi | Hành Nạp âm | Chức năng được nhận diện **trong ví dụ** |
++| --- | --- | --- | --- |
++| Năm | `癸巳` (Quý Tị) | **Thủy** — Trường Lưu Thủy | Chủ thể ban đầu thuộc Thủy theo Nạp âm |
++| Tháng | `乙卯` (Ất Mão) | **Thủy** — Đại Khê Thủy | Giúp tạo ba Thủy trong toàn ví dụ |
++| Ngày | `丙辰` (Bính Thìn) | **Thổ** — Sa Trung Thổ | Nhãn **Thổ Ấn** trong hệ Ngũ hành Ấn khố |
++| Giờ | `壬辰` (Nhâm Thìn) | **Thủy** — Trường Lưu Thủy | Cũng thuộc nhóm Ấn chính khố, nhưng hành Thủy |
++
++**Nhận xét từ nguồn:** nói **nhiều Thủy có thể dùng Thổ Ấn**, đánh giá trường hợp thuận. Giải thích dạng Quan Ấn trong bối cảnh “can chi có giao thiệp”. Mọi từ như *có thể* hay *được khen* là mô tả **ý tác giả cổ**, không phải hiệu lực thực tế được thử nghiệm.
++
++**Kiểm phép tháng:** năm **Quý** là nhóm `戊癸`, khởi tháng Dần bằng `甲寅`, sau đó `乙卯`, `丙辰`. Do đó ở **tháng Mão**, can thích hợp là **Ất (乙)**. Nếu chép `己卯` (Kỷ Mão), cấu trúc không khớp phương pháp TMTH; hành Nạp âm của `己卯` là **Thổ**, sẽ biến toàn bộ ca từ **3 Thủy + 1 Thổ** thành **2 Thủy + 2 Thổ**, cũng kém phù hợp với lời *Thủy nhiều*. Tuy nhiên **2 chứng cứ nhất quán nội bộ** không bằng **đã đọc ảnh**; vẫn cần kiểm mặt giấy.
++
++**Kiểm phép giờ:** ngày Bính (`丙`) khởi Tý giờ từ `戊子`, rồi thứ tự can: Sửu Kỷ, Dần Canh, Mão Tân, **Thìn Nhâm (`壬辰`)**. Trụ giờ có **sự nhất quán nội bộ** theo phép khởi giờ.
++
++## 3. Ví dụ B: tổ hợp được gọi Quỷ Ấn
++
++| Cột | Can chi | Hành Nạp âm | Chức năng được nhận diện **trong ví dụ** |
++| --- | --- | --- | --- |
++| Năm | `癸巳` (Quý Tị) | **Thủy** | Một vị trí Thủy |
++| Tháng | `丙辰` (Bính Thìn) | **Thổ** | Thổ Ấn thứ nhất |
++| Ngày | `戊戌` (Mậu Tuất) | **Mộc** — Bình Địa Mộc | Không tự quy can Mậu = Thổ cho Nạp âm trụ |
++| Giờ | `丙辰` (Bính Thìn) | **Thổ** | Thổ Ấn thứ hai |
++
++**Nhận xét từ nguồn:** câu “một Thủy không đương hai Thổ” đi ngay sau ví dụ này; tác giả gọi **Quỷ Ấn** và đánh giá bất lợi. Nếu ghi **Mậu Tuất là Thổ** theo can Mậu và lẫn với Nạp âm **Mộc** của toàn trụ, sẽ làm sai bảng thành **1 Thủy + 3 Thổ**. Đây là một ví dụ hay để dạy người học **không trộn tầng Can/Nạp âm**.
++
++**Kiểm tháng:** từ năm Quý, tháng Thìn là `丙辰` — khớp. **Kiểm giờ:** ngày Mậu (`戊`) khởi Tý giờ `壬子`, nên Thìn giờ `丙辰` — khớp. Do đó cả hai ví dụ với phiên bản **Ất Mão** đều phù hợp hệ lập trụ cơ bản của TMTH. **Độ đúng của lời đoán vẫn chưa được xác nhận**.
++
++## 4. Các mốc câu chữ và phương pháp không thể rút gọn
++
++| Tính chất | Ví dụ A | Ví dụ B |
++| --- | --- | --- |
++| Cùng là “người Thủy gặp Thổ Ấn” | Có | Có |
++| Tháng theo phép Năm Quý | `乙卯` | `丙辰` |
++| Trụ giờ theo phép Ngày | `丙` nhật → `壬辰` | `戊` nhật → `丙辰` |
++| Số Nạp âm Thủy trong các trụ | 3 | 1 |
++| Số Nạp âm Thổ trong các trụ | 1 | 2 |
++| Hành còn lại | 0 | 1 Mộc (`戊戌`) |
++| Cách tác giả gắn nhãn | Tình thế Thủy có thể dùng Thổ, **ví dụ thuận** | **Quỷ Ấn**, ví dụ bất lợi |
++| Điều chưa có công thức | Tiêu chuẩn thực sự của `交涉`, vượng suy, điều kiện “dùng” Ấn | Tổng quát hóa từ “một Thủy, hai Thổ” sang các trụ khác |
++
++Một công cụ nghiên cứu **chỉ nên hiển thị**: "**Ví dụ theo 五行精紀:** ...; lời tác giả: ...; các điều kiện chưa đủ để máy hóa". Không nên tự cho hệ thống chạy **`if water_count >=3 and earth_count===1 then good`**, vì sách không hề ghi điều kiện đó là **cần và đủ**.
++
++## 5. Một dị văn khác: ngày Giáp Tuất, giờ Dậu
++
++| Nguồn | Chép tên hai trụ | Kiểm theo phép `遁時從日` |
++| --- | --- | --- |
++| TMTH WYG 003-44b | `甲戌日` / `癸酉時` | **Phù hợp**: ngày Giáp, giờ Dậu phải là Quý Dậu |
++| WXJJ đoạn quy cho 閻東叟書, bản rõ đang lưu | `甲戌日` / `乙酉時` | **Không phù hợp** với cách khởi giờ từ ngày Giáp trong TMTH quyển 2 |
++
++Kết quả này **ủng hộ** cách viết TMTH trong hệ khởi giờ thông thường. Tuy nhiên tư liệu WXJJ là bản chép **chưa đối ảnh**: không được sửa `乙` thành `癸` trong câu trích nguồn, và không được xem kết quả kiểm lịch làm bằng chứng rằng mọi điều kiện Ấn của đoạn đã hiểu đúng.
++
++## 6. Thao tác máy tính minh bạch (KHÔNG tính mệnh)
++
++Tệp `CHECK_SOURCE_EXAMPLES.py` kiểm **đúng bốn điều**:
++
++1. Với năm **Quý**, tháng Mão phải là **Ất Mão**, tháng Thìn là **Bính Thìn** theo phương pháp khởi tháng truyền thống.
++2. Với ngày **Bính**, giờ Thìn là **Nhâm Thìn**; với ngày **Mậu**, giờ Thìn là **Bính Thìn**; với ngày **Giáp**, giờ Dậu là **Quý Dậu**.
++3. Các phép gán hành Nạp âm chỉ dùng **7 can chi được nghiên cứu**; không lập thư viện Nạp âm 60 cặp mới khi đã có trong Huyền Học Các.
++4. Tổng hành Nạp âm của **hai ví dụ được nguồn nêu**, chỉ để **phân tích câu chữ**, không tự động cho ra “Quan/Quỷ” ở ca chưa có nguồn.
++
++**Chú ý:** nếu chỉ có bản chép số, script chỉ kiểm tính **nhất quán nội tại của cách đọc**, không kiểm ảnh sách, chữ chép thực tế hay độ hiệu nghiệm.
+diff --git a/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/CHECK_SOURCE_EXAMPLES.py b/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/CHECK_SOURCE_EXAMPLES.py
+new file mode 100644
+index 0000000..9fd19cd
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/CHECK_SOURCE_EXAMPLES.py
+@@ -0,0 +1,72 @@
++#!/usr/bin/env python3
++"""AI-01 local sanity checks of historical text case examples.
++
++This intentionally tests a few *textual readings* and the traditional
++month/hour gan sequence. It does NOT authenticate a facsimile, make predictions,
++run Huyen Hoc Cac engines, or infer universal 官印/鬼印 rules.
++"""
++from collections import Counter
++import json
++
++STEMS = "甲乙丙丁戊己庚辛壬癸"
++MONTH_BRANCHES = "寅卯辰巳午未申酉戌亥子丑"
++HOUR_BRANCHES = "子丑寅卯辰巳午未申酉戌亥"
++MONTH_START = {"甲": "丙", "己": "丙", "乙": "戊", "庚": "戊", "丙": "庚", "辛": "庚", "丁": "壬", "壬": "壬", "戊": "甲", "癸": "甲"}
++HOUR_START = {"甲": "甲", "己": "甲", "乙": "丙", "庚": "丙", "丙": "戊", "辛": "戊", "丁": "庚", "壬": "庚", "戊": "壬", "癸": "壬"}
++NAYIN_SELECTED = {
++    "癸巳": ("水", "長流水"),
++    "乙卯": ("水", "大溪水"),
++    "己卯": ("土", "城頭土"),
++    "丙辰": ("土", "沙中土"),
++    "壬辰": ("水", "長流水"),
++    "戊戌": ("木", "平地木"),
++    "甲戌": ("火", "山頭火"),
++    "乙酉": ("水", "泉中水"),
++    "癸酉": ("金", "劍鋒金"),
++}
++
++def month_pillar(year_stem, month_branch):
++    i = MONTH_BRANCHES.index(month_branch)
++    start = STEMS.index(MONTH_START[year_stem])
++    return STEMS[(start + i) % 10] + month_branch
++
++def hour_pillar(day_stem, hour_branch):
++    i = HOUR_BRANCHES.index(hour_branch)
++    start = STEMS.index(HOUR_START[day_stem])
++    return STEMS[(start + i) % 10] + hour_branch
++
++def nayin_counts(pillars):
++    assert all(s in NAYIN_SELECTED for s in pillars)
++    return dict(sorted(Counter(NAYIN_SELECTED[s][0] for s in pillars).items()))
++
++# The first example's month stem must remain a TEXTUAL VARIANT until facsimile checked.
++case_a = ["癸巳", "乙卯", "丙辰", "壬辰"]
++case_a_ocr_alternative = ["癸巳", "己卯", "丙辰", "壬辰"]
++case_b = ["癸巳", "丙辰", "戊戌", "丙辰"]
++assert month_pillar("癸", "卯") == "乙卯"
++assert month_pillar("癸", "辰") == "丙辰"
++assert hour_pillar("丙", "辰") == "壬辰"
++assert hour_pillar("戊", "辰") == "丙辰"
++assert hour_pillar("甲", "酉") == "癸酉"
++assert hour_pillar("甲", "酉") != "乙酉"
++assert case_a[1] == month_pillar(case_a[0][0], case_a[1][1])
++assert case_a_ocr_alternative[1] != month_pillar(case_a_ocr_alternative[0][0], case_a_ocr_alternative[1][1])
++assert case_a[3] == hour_pillar(case_a[2][0], case_a[3][1])
++assert case_b[1] == month_pillar(case_b[0][0], case_b[1][1])
++assert case_b[3] == hour_pillar(case_b[2][0], case_b[3][1])
++assert nayin_counts(case_a) == {"土": 1, "水": 3}
++assert nayin_counts(case_a_ocr_alternative) == {"土": 2, "水": 2}
++assert nayin_counts(case_b) == {"土": 2, "木": 1, "水": 1}
++assert all(s in NAYIN_SELECTED for s in [*case_a, *case_b, "甲戌", "乙酉", "癸酉"])
++
++print(json.dumps({
++    "validation": "LOCAL_TEXTUAL_SANITY_ONLY",
++    "passed": True,
++    "caseA": {"pillars": case_a, "nayinCounts": nayin_counts(case_a), "monthMatchesYearMethod": True, "hourMatchesDayMethod": True},
++    "caseA_OCR_alternative": {"pillars": case_a_ocr_alternative, "nayinCounts": nayin_counts(case_a_ocr_alternative), "monthMatchesYearMethod": False},
++    "caseB": {"pillars": case_b, "nayinCounts": nayin_counts(case_b), "monthMatchesYearMethod": True, "hourMatchesDayMethod": True},
++    "otherReading": {"day": "甲戌", "timeWXJJtext": "乙酉", "timeTMTHtext": "癸酉", "expectedByDefaultDayHourRule": "癸酉"},
++    "ancientImageViewed": False, "GitHubRepoChanged": False,
++    "engineOrNatalPredictions": 0,
++    "universalGuanOrGuiSealRulesEstablished": 0,
++}, ensure_ascii=False, indent=2))
+diff --git a/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/COLLATION_AND_VARIANTS.md b/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/COLLATION_AND_VARIANTS.md
+new file mode 100644
+index 0000000..d316376
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/COLLATION_AND_VARIANTS.md
+@@ -0,0 +1,71 @@
++# AI-01 — Đối chiếu văn bản: Tam Mệnh Thông Hội (TMTH) ↔ Ngũ Hành Tinh Kỷ (WXJJ)
++
++**Mục tiêu:** không tự “hợp nhất cổ thư”. Phân tích hai **tác phẩm khác nhau**, dấu hiệu văn bản bị biên soạn lại, và các dị cách chép có thể đổi ý nghĩa lý luận. Các bản web điện tử **không tự được xem là các bản in độc lập**; tài liệu NLC còn chờ đối ảnh. Câu chữ WYG đã kiểm ở PR #16/#18 được sử dụng với tọa độ vốn có, không xác nhận lại bytes vì kết nối GitHub 403 ở lượt này.
++
++## 1. Mười hai hàng đối chiếu có ý nghĩa
++
++| # | TMTH-WYG quyển 3 | WXJJ quyển 19 | Hệ quả nghiên cứu, **chưa phải phán dị bản** |
++|---|---|---|---|
++| V01 | `五行之正庫` và năm tên Ấn | Có **5 tên Ấn** và mục `五行正印` | Tính liên tục của nhóm **Ấn khố** rõ; WXJJ giải thích bổ sung. |
++| V02 | `得本家正印為貴`; `本家印又得貴格扶之` | `得本家印最佳`, rồi tách nhiều trường hợp dựa vào vượng, khố đồng loại, Lộc Mã/Giáp Quý/Hoa Cái | TMTH **rút ngắn nhiều lớp điều kiện**; không lấy “bản gia ⇒ tốt” làm công thức hoàn chỉnh. |
++| V03 | `本主同徳為上帝座為中胎月為下` | Một bản số: `主本同德為上帝坐為中胎月為下` | `本主`/`主本`, `帝座`/`帝坐` và dấu câu vẫn phải đối ảnh; chỉ nhận được **trật tự trên–giữa–dưới**, chưa tính vị trí/điểm. |
++| V04 | **`水命人得本家印無益`** — `003-44b` | Trong nhánh được quy cho `閻東叟書`: **`水命人得木印無益`**; phần đầu lại khen Thủy gặp **Nhâm Thìn** thuộc bản gia nếu có trợ cách | **Dị cách có khả năng tác động tới cả cơ chế**: chữ `本家` khác `木`. Cần khảo bản chép/quan hệ biên tập, **không emend bản WYG**. |
++| V05 | `得木印損氣` | Nhánh dẫn `天元變化書`: `水人得木印名曰損氣` | Cùng hướng lý luận **Thủy gặp Mộc** nhưng không chứng minh cách đánh giá tự động cho mọi Nạp âm. |
++| V06 | `得土印支干有交涉者名官印無交涉者名鬼印` | WXJJ giữ phân biệt **giao thiệp/không giao thiệp**, nhưng có **hai ví dụ bốn trụ thực văn** | **Tiến bộ tri thức chính:** có thể học được ví dụ Quan/Quỷ mà TMTH lược mất; phép `交涉` chưa được định nghĩa trọn vẹn. |
++| V07 | `五位俱無氣` ở S07 `福聚印` | Bản số WXJJ có `五位中或四位` | Thêm **hoặc bốn vị trí** có thể đổi tiền đề; không tự nhập WXJJ vào S07 WYG. |
++| V08 | S07 `福聚印` | WXJJ có **`福聚印`** và nhắc thêm **`權印`** từ `玉霄寶鑑` | Hai cách gọi không có bằng chứng đủ để **coi là một mã quy tắc duy nhất**. |
++| V09 | S11 `臨空印` | WXJJ: tiêu đề `歸空印`, trong nội văn nói `臨空印` | Có thể là khác nhãn mục/giọng biên tập; lưu **hai tên** và đoạn diễn giải, chưa tự sửa. |
++| V10 | S12 `自刑印` | WXJJ: tiểu mục `自刑殺`; cả hai cùng ví dụ Canh Tuất/Ất Sửu và `丑戌相刑` | Phân biệt **tên mục khác** dù ví dụ chung. Không thay bằng “tự hình” bảng hiện đại. |
++| V11 | S06 `鳯凰啣印` | WXJJ: `鳳凰御印格`, có câu thơ và cùng ví dụ Quý Mùi–Giáp Dần–Mậu Ngọ–Bính Thìn | Tên nhãn và lời thơ khác; nhân vật lịch sử trong câu chuyện **chưa xác minh sinh thần độc lập**. |
++| V12 | `甲戌日得癸酉時` (`003-44b`) | Một lời WXJJ: `甲戌日得乙酉時` | **Thay đổi cả can giờ và hành Nạp âm**. Phép khởi giờ từ ngày Giáp ủng hộ `癸酉`, nhưng không đủ để sửa chứng WXJJ nếu chưa xem scan. |
++
++### V04 — Không thể hòa giải một cách đơn giản
++
++Bản WYG **`水命人得本家印無益`** sẽ trở thành một phát biểu **bất lợi ở ngay một loại Ấn bản gia** nếu giữ nguyên cách hiểu mặt chữ. Trong khi đó **WXJJ** có bối cảnh rõ ràng khen **Thủy với Nhâm Thìn** (bản gia) *kèm điều kiện trợ cách*, và một phát biểu bất lợi gắn với **Ấn Mộc**. TMTH cũng viết ngay sau là **Mộc Ấn tổn khí**. Có ba khả năng phải tách riêng:
++
++1. **Sai khác chữ/truyền chép:** `木` thành `本家` ở một điểm truyền văn hoặc qua thao tác biên tập.
++2. **Hai quy tắc đặt ở hoàn cảnh khác:** “bản gia vô ích” có thể là lời cảnh báo điều kiện về một loại thủy mệnh cụ thể; WXJJ nói trường hợp có trợ cách. Chưa rõ điều kiện ngầm.
++3. **Tổ hợp lời dẫn nhiều người:** TMTH có thể nén nhiều giọng trong một đoạn; WXJJ giữ phần trích dẫn và tên tài liệu khác nhau. Cần kiểm xem thứ tự/vị trí ghi chú ở bản scan.
++
++**Không** được lựa chọn khả năng (1) chỉ vì nó làm câu đẹp hơn. Cho đến khi có đối ảnh và truyền bản thật, cả hai chuỗi chữ đều phải được lưu theo nguồn.
++
++### V03 — “Bản chủ đồng đức” không phải một bộ công thức 3–2–1
++
++WXJJ có các cụm theo mức **thượng/trung/hạ**, cộng với các tên ấn **Giáp Quý/Hoa Cái/Tương Sinh/Văn Chương**. Ta có thể dựng **sơ đồ từ vựng của nguồn**, nhưng không có định nghĩa chuẩn cho `帝座` và `胎月` đủ để tính điểm. Có thể các thứ bậc nói về **vị trí/quan hệ** khác nhau, nhưng không được gán xác suất, trọng số, ưu tiên tổng giữa hai giọng trong cùng một tác phẩm.
++
++### V12 — Kiểm tính nhất quán của stem giờ
++
++Theo **TMTH quyển 2 `論遁月時`**, Giáp nhật khởi **Giáp Tý** ở giờ Tý và thuận theo can. Giờ **Dậu** thứ mười trong thứ tự 12 giờ phải là **Quý Dậu**. Dạng **Ất Dậu** không theo phép khởi giờ này với **Giáp nhật**, nên cần cờ `calendar-inconsistent-in-default-method` cho chứng WXJJ. Đây là một **chẩn đoán nội tại**, không biến thành “chữ ảnh đã bị sửa”.
++
++## 2. Những ví dụ khác không nên vội đồng nhất
++
++- WXJJ `財庫印` dùng ví dụ **Thủy gặp Hỏa Ấn**, là **phân loại một kiểu Ấn** trong chương 19. Bài AI-01 PR #18 có **`祿財庫 / 命財庫 / 身財庫`** trong TMTH quyển 5: đó là **ba Tài khố của ba tầng Lộc–Mệnh–Thân**, không hề có chứng cứ cho phép gộp thành một.
++- WXJJ chia **Phúc Tụ** và **Quyền Ấn** theo lời quy cho `玉霄寶鑑`; TMTH nén nhiều cơ chế dưới một tên, việc tên gần nhau chưa xác nhận sự tương đương.
++- WXJJ có **Giáp Quý Ấn** nhiều điều kiện, không chỉ phát biểu “có Quý nhân là tốt”.
++- S09 TMTH WYG có **`月日時胎`**; một số bản điện tử TMTH bỏ chữ **`胎`**. WXJJ bản rõ cũng bao gồm **thai**. Đây là chứng cứ hỗ trợ giữ tiếng WYG, **không tự chứng minh hai bản in độc lập**.
++
++## 3. Phả hệ nguồn: ai đang nói?
++
++| Giọng được viết trong WXJJ | Loại chứng cứ hiện có | Phần nội dung liên hệ |
++| --- | --- | --- |
++| **Liêu Trung — tác phẩm 五行精紀** | Chương đã đọc qua các bản chép số hiện đại | Sưu tập/hệ thống hóa các luận điểm |
++| **林開五命** | Chỉ là **tên nguồn được WXJJ dẫn** | Nhiều kiểu Ấn, cách gọi nhãn `自刑殺` |
++| **閻東叟書** | Chỉ là **lời được WXJJ dẫn**, chưa mở bản độc lập | Thứ bậc, chính/thiên Ấn và điều kiện, mệnh Thủy/Ấn Mộc |
++| **天元變化書** | Chỉ là **lời được WXJJ dẫn**, chưa mở bản độc lập | **Quan Ấn/Quỷ Ấn và hai Tứ trụ** |
++| **玉霄寶鑑** | Chỉ là **lời được WXJJ dẫn**, chưa mở bản độc lập | Tiết Ấn, Quyền Ấn, các yếu tố hỗ trợ |
++| **燭神經 / 廣信集 / 紫虛局** | Những tên trích dẫn, **không phải bản riêng được xem** | Lời đoán/nguồn ví dụ, Văn Chương Ấn/Ngự Ấn |
++
++**Nghiên cứu học thuật kế tiếp:** tìm **bản văn độc lập thực sự tồn tại** của một nguồn được WXJJ dẫn, giám định niên đại/ấn bản và chỉ khi đó mới nâng mức chứng từ “trích dẫn bên trong sách khác” thành “đối chiếu tác phẩm thứ ba”.
++
++## 4. Việc xem ảnh phải làm trước phán quyết chữ
++
++[Quyển 4 PDF *Ngũ Hành Tinh Kỷ*, NLC](https://commons.wikimedia.org/wiki/File:NLC892-2621-209417_五行精紀_第4冊.pdf) gồm quyển 17–22; sách là bản **抄本**, 10 hàng × 24 chữ theo mô tả. Đã tìm nguồn catalog nhưng công cụ web không tải được file 12,6 MB. Bước cần người có máy đọc: tìm **quyển 19 – 論正印 – 天元變化書云** trong PDF này; đọc thực tế ký tự **tháng 乙/己**, **giờ 乙/癸**, **本家/木**, **五位/或四位**, **帝座/帝坐**. Lưu **số trang PDF + số tờ nguyên bản + crop + SHA256 PDF**, không ghi “đã xem ảnh” trước bước này.
++
++## 5. Nguồn đối chứng trực tuyến
++
++- [TMTH WYG quyển 3](https://zh.wikisource.org/zh-hant/三命通會_(四庫全書本)/卷03)
++- [TMTH quyển 2 và phép khởi tháng/giờ](https://zh.wikisource.org/zh-hant/三命通會/卷二)
++- [WXJJ quyển 19 bản rõ](https://asklingxi.com/zh-tw/books/wuxing-jingji/19-jinshen/02-zhengyin)
++- [WXJJ bản 识典 A, khả năng OCR chưa rà](https://www.shidianguji.com/zh/book/NGJ892411999013122114408/chapter/1lmyjad4zcsvn)
++- [WXJJ bản 识典 B, khả năng OCR chưa rà](https://www.shidianguji.com/zh/book/NGJ8922621209348/chapter/1lnvyvqxghstk)
++- [NLC/Commons metadata facsimile chờ xem](https://commons.wikimedia.org/wiki/File:NLC892-2621-209417_五行精紀_第4冊.pdf)
+diff --git a/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/KNOWLEDGE_ARTICLE_VI.md b/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/KNOWLEDGE_ARTICLE_VI.md
+new file mode 100644
+index 0000000..56cb393
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/KNOWLEDGE_ARTICLE_VI.md
+@@ -0,0 +1,141 @@
++# Ấn bản gia, Quan Ấn và Quỷ Ấn: đọc hai cổ thư để hiểu một lý luận có điều kiện
++
++**Huyền Học Các · Thư viện Bát Tự · AI-01 · Bản nghiên cứu ngày 31/10/2026**  
++**Chủ đề:** Chính Ấn theo Ngũ hành–Nạp âm–khố mộ; đây **không** phải Chính Ấn Thập thần tính trực tiếp từ Nhật can và **không phải phương pháp dự đoán đã được kiểm chứng khoa học**.
++
++## Mở đầu: tại sao chỉ nhận ra tên Ấn vẫn chưa đủ?
++
++Người nghiên cứu Bát Tự thường gặp câu “có Ấn thì tốt”, “có Quỷ thì xấu”. Nhưng những quyển cổ về *Chính Ấn* không chỉ nêu tên sao hoặc hành. Chúng còn hỏi Ấn ấy là của hệ nào, có phải **bản gia** của chủ thể đang xét, có **đồng loại làm khố**, có **quý nhân hoặc Hoa Cái trợ giúp**, có **vượng khí**, bị **hình/xung/phá/hại** hay **Không Vong**, và khi có tương khắc thì bên nào **đủ khả năng đảm đương**. Hai cấu trúc có “Thủy” và “Thổ Ấn” giống nhau về tên nhưng vẫn có thể được tác giả đặt vào hai loại khác nhau.
++
++Trong phiên này, một nguồn đối chiếu trước đó chưa được dùng trực tiếp cho luồng AI-01 đã được tìm thấy: **《五行精紀》 quyển 19, thiên 《論正印》**. Sách này trình bày **nhiều loại Ấn hơn** đoạn tóm lược của **《三命通會》 quyển 3**, đồng thời chứa ví dụ **Quan Ấn** và **Quỷ Ấn** từ lời dẫn mang tên **《天元變化書》**. Điều quan trọng: ta đang so **hai tác phẩm văn bản có khả năng liên hệ biên tập**, **không** dùng hai cuốn như hai cuộc thử nghiệm xác nhận lời bói.
++
++## 1. Ấn bản gia (本家印): định danh trước, đánh giá sau
++
++Trong *Tam Mệnh Thông Hội* quyển 3, Chính Ấn mở đầu bằng **“chính khố của Ngũ hành”** (`五行之正庫`). Năm cặp can chi được nêu là **Ất Sửu/Kim, Quý Mùi/Mộc, Giáp Tuất/Hỏa, Nhâm Thìn/Thủy, Bính Thìn/Thổ**. Bài AI-01 trước đó đã đối lại cả năm với danh mục sáu mươi Giáp Tý trong quyển 1 cùng tác phẩm.
++
++*Ngũ Hành Tinh Kỷ* quyển 19 cũng nêu **cùng năm loại Chính Ấn**, rồi cho biết trường hợp phù hợp với **hành bản gia** là dạng được đánh giá cao trong khung cổ. Tác giả không dừng ở “có bản gia là xong” mà lập ra nhiều tình thế có điều kiện:
++
++- Có **Ấn bản gia**, hoặc người thuộc Thủy có **Nhâm Thìn** làm vị trí ngày/giờ; phải xét tiếp **Lộc–Mã, Giáp Quý, Hoa Cái**.
++- Nếu **không phải Ấn bản gia**, vẫn có thể được đánh giá thuận **khi khí vượng**, **đồng loại tạo khố** và có nhóm hỗ trợ. Nếu chỉ có một vài yếu tố, tác giả giảm tầng đánh giá theo hoàn cảnh.
++- Có **khắc phá** hoặc **Không Vong**, hay kèm các điều kiện bất lợi, kết luận truyền thống khác đi.
++
++Như vậy, ngay trong khung cổ pháp, có thể phân biệt ít nhất ba thứ: **(1) nhận dạng một Ấn**, **(2) nó có phải bản gia không**, **(3) tác giả cho rằng các điều kiện giúp/phá đang tồn tại hay không**. Ba thứ không được trộn làm một nhãn “Ấn tốt”. Việc ghi một ví dụ “thượng đẳng” trong sách là ghi **lời đánh giá lịch sử**, không phải bằng chứng rằng người mang can chi ấy chắc chắn có phẩm chất hoặc chức vị như sách nói.
++
++### Vấn đề đối chiếu cần giữ nguyên
++
++*Tam Mệnh Thông Hội* bản WYG tại `003-44b` có câu ngắn: **người mệnh Thủy được Ấn bản gia thì “vô ích”**. Tuy nhiên *Ngũ Hành Tinh Kỷ* quyển 19 có phần **đề cao Ấn bản gia**, và dẫn **người mệnh Thủy được Nhâm Thìn ở vị trí ngày hoặc giờ** với nhóm phụ trợ. Cùng phần sau của *Ngũ Hành Tinh Kỷ* lại ghi **người Thủy gặp Ấn Mộc “vô ích”**; ngay đoạn dẫn *Thiên Nguyên Biến Hóa Thư* giải thích đây là dạng **Tổn khí (損氣)**.
++
++Hai cách đọc “**bản gia** vô ích” và “**Mộc Ấn** vô ích” gây ra **điểm bất đồng nội dung quan trọng**. Có thể có hiện tượng rút gọn, thay chữ hoặc chuyển cảnh khi *Tam Mệnh Thông Hội* biên tập tài liệu trước đó; cũng có thể lời nguồn đang đặt tiêu chuẩn khác nhau. **Chưa đủ chứng cứ ảnh nguyên bản và lịch sử truyền bản để quyết định**; Huyền Học Các nên cho người đọc thấy cả hai, không âm thầm sửa cổ thư WYG thành Mộc hoặc tuyên bố một phía sai.
++
++## 2. Quan Ấn và Quỷ Ấn: cùng là Thổ Ấn của người Thủy, nhưng khác tình thế
++
++Một chỗ rất có giá trị trong *Ngũ Hành Tinh Kỷ* là lời dẫn *Thiên Nguyên Biến Hóa Thư*: khi **người thuộc Thủy** gặp **Ấn thuộc Thổ**, tên **Quỷ Ấn (鬼印)** hoặc **Quan Ấn (官印)** phụ thuộc vào việc can–chi có **giao thiệp (交涉)** hay không. Sách còn **cho hai ví dụ Tứ trụ**, chứ không chỉ một quy tắc trừu tượng.
++
++### Ví dụ A: tổ hợp được nguồn đánh giá thuận
++
++| Vị trí | Can chi | Nạp âm trong truyền thống sáu mươi Giáp Tý |
++| --- | --- | --- |
++| Năm | **Quý Tị (癸巳)** | **Trường Lưu Thủy** |
++| Tháng | **Ất Mão (乙卯)** theo bản chép có kiểm nội tại | **Đại Khê Thủy** |
++| Ngày | **Bính Thìn (丙辰)** | **Sa Trung Thổ** — một trong năm Ấn chính khố |
++| Giờ | **Nhâm Thìn (壬辰)** | **Trường Lưu Thủy** — cũng là một Chính Ấn khác trong bộ năm |
++
++Ở tầng Nạp âm, đây là **3 vị trí thuộc Thủy và 1 vị trí thuộc Thổ**. Sách nói tình huống Thủy nhiều có thể sử dụng Thổ Ấn, và **đánh giá đây là ví dụ thuận**. Đây **không** phải một phép đếm chung rằng “từ ba Thủy trở lên mới thành Quan Ấn”: ngữ cảnh nguồn còn nói về **giao thiệp của can chi**, nhưng bản chép chưa xác định được một công thức quyết định `交涉` cho tất cả tổ hợp.
++
++**Bài học:** Thổ khắc Thủy ở Ngũ hành **chưa đủ** để kết luận đây là Quỷ Ấn. Trong quan niệm cổ này, người viết còn xem toàn cục có “đủ chịu Thổ” hay không và các quan hệ can–chi đi kèm. Điều ta xác nhận được ở đây là **cách tác giả giải thích hai ví dụ**, không phải hiệu lực dự báo ngoài đời thực.
++
++### Ví dụ B: trường hợp được sách gọi là Quỷ Ấn
++
++| Vị trí | Can chi | Nạp âm |
++| --- | --- | --- |
++| Năm | **Quý Tị (癸巳)** | Trường Lưu Thủy |
++| Tháng | **Bính Thìn (丙辰)** | Sa Trung Thổ |
++| Ngày | **Mậu Tuất (戊戌)** | Bình Địa Mộc |
++| Giờ | **Bính Thìn (丙辰)** | Sa Trung Thổ |
++
++Theo hành Nạp âm, trường hợp này có **một Thủy, hai Thổ và một Mộc**. Trong đoạn nguồn, tác giả đánh giá bất lợi vì **một Thủy khó đảm đương hai Thổ**; ví dụ được mang tên Quỷ Ấn. Đây chính là phần **Tam Mệnh Thông Hội quyển 3 tóm tắt đến chữ `鬼印` nhưng không giữ cả hai chuỗi bốn trụ**.
++
++Không được biến câu văn của tác giả thành luật độc lập “2 Thổ/1 Thủy = Quỷ Ấn”; không có đủ mô tả về sự mạnh/yếu theo tháng, vị trí, mộ khố và quan hệ can–chi trong tất cả trường hợp. Cũng không được thay Quan Ấn bằng **Chính Quan Thập thần** hoặc Quỷ Ấn bằng **Thất Sát** của nhật chủ nếu nguồn không nói thế.
++
++### So sánh hai ví dụ
++
++| Câu hỏi | Ví dụ A | Ví dụ B |
++| --- | --- | --- |
++| Chủ đề nguồn | Người thuộc Thủy gặp Thổ Ấn | Người thuộc Thủy gặp Thổ Ấn |
++| Cặp **Bính Thìn/Thổ** | Một lần ở ngày | Hai lần ở tháng và giờ |
++| Tỷ lệ hành Nạp âm trong minh họa | 3 Thủy + 1 Thổ | 1 Thủy + 2 Thổ + 1 Mộc |
++| Nhãn theo lời nguồn | Ví dụ thuộc tình thế **có thể dụng Ấn**, được khen | **Quỷ Ấn**, bị chê |
++| Điều ta chưa chứng minh | `交涉` chính xác tính thế nào? | Những trường hợp nào khác được gọi cùng nhãn? |
++
++**Kết luận học thuật:** một thuật ngữ như Quan Ấn/Quỷ Ấn không thể suy từ một cặp hành đối khắc. Nó gắn với **đối tượng, vị trí, phối hợp và quy ước riêng của sách**.
++
++## 3. Bản chủ đồng đức, Đế tọa, Thai nguyệt — tầng bậc chưa định nghĩa hết
++
++*Tam Mệnh Thông Hội* ghi câu **`本主同徳為上帝座為中胎月為下`**, thường được ngắt: **“Bản chủ đồng đức là thượng; Đế tọa là trung; Thai nguyệt là hạ.”** *Ngũ Hành Tinh Kỷ* cũng có cấu trúc gần giống, nhưng một số bản số ghi **`主本同德`**, **`帝坐`** thay vì **`本主同德`**, **`帝座`**.
++
++Hai tác phẩm giúp thấy rõ tác giả muốn **phân loại mức độ theo ngữ cảnh**, song **chưa giải thích đầy đủ** các thuật ngữ nào được xem là “Đế tọa” hay cách xác định “Thai nguyệt” theo từng ca. Đặc biệt, không thể từ ba chữ **thượng / trung / hạ** tự đặt ra điểm số 3–2–1, hoặc tự đồng nhất Thai nguyệt với một tháng âm lịch thông thường. Đây là **thứ bậc đánh giá do nguồn phát biểu**, chưa phải thuật toán được xác minh.
++
++Đoạn của *Ngũ Hành Tinh Kỷ* còn xếp thêm các dạng trợ cách: **Giáp Quý**, **Hoa Cái Ấn**, **Tương Sinh Ấn**, **Văn Chương Ấn**, và nhiều mục khác. Nguồn khác chương có thể gán tầng không giống nhau vì các điều kiện và giọng trích dẫn không đồng nhất; không trộn thành một bảng xếp hạng toàn thư.
++
++## 4. Tìm ra nhiều tên Ấn mà đoạn quyển 3 tóm lược chưa nói hết
++
++*Ngũ Hành Tinh Kỷ* quyển 19 chia thành nhiều tiểu mục, không chỉ các nhãn Chính Ấn nổi bật trong *Tam Mệnh Thông Hội*. Đáng chú ý:
++
++| Tên / ý trong *Ngũ Hành Tinh Kỷ* | Cách đọc và quan hệ với Tam Mệnh |
++| --- | --- |
++| **五行正印** | Chính Ấn theo chính khố Ngũ hành, năm cặp nổi bật |
++| **夾貴印** | Ấn có điều kiện **quý nhân kẹp/giáp**, không đồng nghĩa với Ấn đơn lẻ |
++| **華蓋印** | Hoa Cái Ấn, có phân biệt giữa Hoa Cái + Ấn + khố + giáp quý và các trường hợp thiếu một phần |
++| **偏印 / 偏正印** | Nhãn trong **hệ Ấn chính khố cổ pháp**, không tự lấy làm Thiên Ấn Thập thần của nhật can |
++| **節印** | Tiết Ấn: văn nguồn nối Hoa Cái Ấn và điều kiện Chính kiến Dịch Mã; Tam Mệnh chương 3 không tách rõ mục này |
++| **權印** | Quyền Ấn: liên hệ câu “nhiều vị trí vô khí, Ấn ở khố/vượng, Sát được chế”; không được hợp nhất mặc định với **Phúc Tụ Ấn** |
++| **財庫印** | Tài Khố Ấn: ví dụ người Thủy có Hỏa Ấn; **khác hệ với ba Tài khố Lộc/Mệnh/Thân** ở quyển 5 đã nghiên cứu tại PR #18 |
++| **歸空印** | *Quy Không Ấn* là tên ở một mục nguồn; *Tam Mệnh* viết *Lâm Không Ấn (臨空印)*. Có liên hệ cơ chế nhưng không nhất thiết là nhãn đồng nhất mọi chỗ |
++| **自刑殺** | Tự Hình Sát ở *Ngũ Hành Tinh Kỷ*, so với *Tự Hình Ấn* ở *Tam Mệnh*. Cùng nêu Canh Tuất/Ất Sửu và Sửu–Tuất tương hình; **giữ khác tên nguồn** |
++| **鳳凰御印格** | Phượng Hoàng Ngự Ấn cách trong nguồn sớm, so *Phượng Hoàng Hàm Ấn (鳯凰啣印)* ở Tam Mệnh; cùng dẫn chuỗi Quý Mùi/Giáp Dần/Mậu Ngọ/Bính Thìn nhưng chưa phải xác nhận ngày sinh thật |
++
++Khi biên soạn thư viện, nên hiển thị **tên Hán theo từng tác phẩm**, nêu **nhãn liên hệ** ở mục bên cạnh và chỉ gộp khi có biện luận truyền bản/định nghĩa đủ; đừng tự sửa một tên thành tên còn lại.
++
++## 5. Phúc Tụ Ấn: một chữ “hoặc bốn vị trí” có thể thay đổi điều kiện
++
++Trong *Tam Mệnh Thông Hội* WYG S07, câu **năm vị trí đều vô khí** có hình thức `五位俱...`. Trong *Ngũ Hành Tinh Kỷ* quyển 19, bản số tốt ghi **năm vị trí, hoặc bốn vị trí**. Đây là khác biệt **có khả năng làm thay đổi tập ca đáp ứng** nếu một ngày nào đó chuyển thành thuật toán.
++
++Vì vậy, thư viện tri thức nên ghi hai mục:
++
++- **Cách đọc TMTH-WYG:** căn cứ câu `五位俱`, không tự thay thành “bốn trong năm cũng được”.
++- **Cách đọc WXJJ quyển 19:** bản số có `或四位`; cần xác minh trên scan trước khi xác nhận mức chắc chắn của khác bản.
++
++Tương tự, *Ngũ Hành Tinh Kỷ* còn nhắc **Quyền Ấn**, liên hệ cấu trúc nhưng có lời dẫn nguồn riêng. Không tự cho rằng Phúc Tụ, Quyền Ấn và toàn bộ quy tắc Huyền Học Các là cùng một phép.
++
++## 6. Tại sao phép lịch pháp hữu ích cho khảo cổ thư nhưng không thay thế đọc ảnh?
++
++Một bản chép số của *Ngũ Hành Tinh Kỷ* viết ví dụ A với **tháng Ất Mão (乙卯)**, một bản khác biểu hiện như **Kỷ Mão (己卯)** hoặc **Dĩ Mão (已卯)**. *Tam Mệnh Thông Hội* quyển 2, thiên **Luận Độn Nguyệt Thời**, ghi rõ: khởi tháng từ **can năm**, khởi giờ từ **can ngày**, và với năm Mậu/Quý bắt đầu **tháng Dần là Giáp Dần**.
++
++Từ đó, với **năm Quý**, các tháng liên tiếp phải là **Giáp Dần → Ất Mão → Bính Thìn**. Cách chép **Ất Mão** tương thích cách lập trụ; **Kỷ Mão** không tương thích. Ở tầng Nạp âm, **Ất Mão = Thủy** cũng làm đoạn “Thủy nhiều” của ví dụ A trở nên hợp văn cảnh hơn cách đọc **Kỷ Mão = Thổ**. Hai phép kiểm độc lập về cấu trúc và nội dung do đó **ủng hộ chữ Ất**, nhưng vẫn chưa cho quyền sửa dòng của bản scan trước khi xem ảnh gốc.
++
++Cũng có một dị văn khác: *Ngũ Hành Tinh Kỷ* có bản số viết **Giáp Tuất nhật – Ất Dậu giờ**, trong khi *Tam Mệnh Thông Hội* WYG viết **Giáp Tuất nhật – Quý Dậu giờ**. Theo phép khởi giờ từ nhật can Giáp trong **cùng quyển 2**, giờ Dậu là **Quý Dậu**, không phải Ất Dậu. Đây là bằng chứng nội tại **ủng hộ cách chép Quý Dậu** của TMTH trong phép đặt giờ thông thường, nhưng không đủ để tuyên bố bản nguyên văn *Ngũ Hành Tinh Kỷ* chắc chắn chép sai. Cần xem bản sao chép NLC.
++
++**Bài học rút ra:** những công cụ tính can chi, Nạp âm và khởi giờ/nguyệt có thể giúp **phát hiện ca ghi không nhất quán trong bản chép**, nhưng không được phép **bí mật sửa chữ sách cổ**. Kết luận khảo dị cần có **ảnh gốc**.
++
++## 7. Gợi ý xây dựng Thư viện Tri Thức Huyền Học Các
++
++Đề xuất các bài học độc lập sau:
++
++1. **“Chính Ấn cổ pháp: bản gia, đồng loại và điều kiện trợ cách.”** Giải thích năm loại Ấn theo hành Nạp âm, phân biệt nhận dạng/khố mộ/hiệu lực.
++2. **“Quan Ấn – Quỷ Ấn: hai ví dụ Tứ trụ từ Ngũ Hành Tinh Kỷ.”** Có bảng bốn vị trí, hành Nạp âm và chú giải “một Thủy không đương nổi hai Thổ” theo phạm vi ví dụ.
++3. **“Khảo dị cổ thư: bản gia hay Mộc, Ất hay Kỷ, Quý hay Ất?”** Minh họa cách xử lý nguyên văn, lỗi bản chép và vai trò kiểm toán lịch pháp.
++4. **“Các tên Ấn tương ứng và khác nhau qua hai tác phẩm.”** Quy Không/Lâm Không, Tự Hình Sát/Tự Hình Ấn, Ngự Ấn/Hàm Ấn, Phúc Tụ/Quyền Ấn.
++5. **“Vì sao không thể lấy Chính Ấn cổ pháp thay Chính Ấn Thập thần?”** Nối với bài AI-01 PR #18: một bên lấy chính khố Ngũ hành/Nạp âm, một bên có định nghĩa `生我者` theo Nhật chủ.
++
++Đây là **bộ nội dung lịch sử–lý luận** để biên tập viên phát triển thư viện. Chưa có cơ sở để tự động đánh dấu một lá số thật là “Quan Ấn”, “Quỷ Ấn”, xếp hạng cát/hung, dự đoán bệnh tật, nghề nghiệp, phẩm chất hoặc vận mệnh người dùng.
++
++## Tài liệu tham khảo trực tiếp
++
++- [《五行精紀》 quyển 19, *Luận Chính Ấn*, bản đọc Linh Tê](https://asklingxi.com/zh-tw/books/wuxing-jingji/19-jinshen/02-zhengyin): các nhánh và hai ví dụ. **Bản điện tử có khả năng đã biên tập**.
++- [《五行精紀》 quyển 19, bản chép số 识典 A](https://www.shidianguji.com/zh/book/NGJ892411999013122114408/chapter/1lmyjad4zcsvn), [bản 识典 B](https://www.shidianguji.com/zh/book/NGJ8922621209348/chapter/1lnvyvqxghstk): chỗ chữ rối/khác cách chép.
++- [NLC/Commons danh mục ảnh sao chép sách *Ngũ Hành Tinh Kỷ*, quyển 17–22](https://commons.wikimedia.org/wiki/File:NLC892-2621-209417_五行精紀_第4冊.pdf): **chưa tải/đối ảnh trong lượt này**.
++- [《三命通會》 WYG quyển 3, *Luận Chính Ấn*](https://zh.wikisource.org/zh-hant/三命通會_(四庫全書本)/卷03): các câu Chính Ấn WYG.
++- [《三命通會》 quyển 2, *Luận Độn Nguyệt Thời*](https://zh.wikisource.org/zh-hant/三命通會/卷二): kiểm bắt đầu tháng Giáp Dần từ năm Mậu/Quý; giờ từ can ngày.
++- [《三命通會》 quyển 1, sáu mươi Giáp Tý](https://zh.wikisource.org/zh-hant/三命通會/卷一): kiểm hành Nạp âm của ví dụ.
++
++**Ghi chú nghiên cứu:** Câu trích Hán ngắn để xác định vị trí, không thay cho việc đọc cả ngữ cảnh nguồn. Tệp `COLLATION_AND_VARIANTS.md` và `CASE_ANALYSIS.md` ghi chi tiết tại sao chưa thể lấp các khoảng trống bằng luật máy tính.
+diff --git a/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/KNOWLEDGE_CARDS_VI.md b/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/KNOWLEDGE_CARDS_VI.md
+new file mode 100644
+index 0000000..d1819b7
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/KNOWLEDGE_CARDS_VI.md
+@@ -0,0 +1,43 @@
++# AI-01 — Sáu mục kiến thức ngắn có thể giao cho biên tập viên Huyền Học Các
++
++**Loại nội dung:** *cổ thư và lịch sử hệ lý luận mệnh lý*. **Không phải công thức lập lá số hoặc xác nhận dự đoán.** Trỏ mỗi mục tới hồ sơ dài `KNOWLEDGE_ARTICLE_VI.md`, nguồn trong `SOURCE_REGISTER.md` và bảng dị văn `COLLATION_AND_VARIANTS.md`.
++
++## Mục 1 — Chính Ấn cổ pháp là gì?
++
++Trong thiên *Luận Chính Ấn* quyển 3 của **Tam Mệnh Thông Hội**, tác giả khởi đầu từ **chính khố của Ngũ hành**, không phải từ quan hệ **hành sinh nhật can**. Năm can chi nêu làm Chính Ấn là Ất Sửu (Kim), Quý Mùi (Mộc), Giáp Tuất (Hỏa), Nhâm Thìn (Thủy), Bính Thìn (Thổ). **Ngũ Hành Tinh Kỷ** quyển 19 cũng có cùng nhóm năm tên. Người học nên biết **Chính Ấn cổ pháp** và **Chính Ấn Thập thần** có thể là hai cách xác định khác nhau; phải đọc định nghĩa trước khi luận.
++
++**Dẫn nguồn:** TMTH WYG `003-43b`; WXJJ 19 `五行正印`. **Trạng thái:** kiến thức giải nghĩa, chưa phải phép tính chung.
++
++## Mục 2 — Vì sao Ấn bản gia không bảo đảm tốt?
++
++*Ấn bản gia* là tên phân loại về sự phù hợp với chủ thể theo hệ Ngũ hành/Nạp âm cổ. Nguồn còn yêu cầu xét **khí vượng, khố đồng loại, Lộc–Mã, Quý nhân, Hoa Cái** và các yếu tố **khắc phá hoặc Không Vong**. Bản chép *Tam Mệnh Thông Hội* có một câu cảnh báo về người Thủy gặp Ấn bản gia; trong *Ngũ Hành Tinh Kỷ* lại có trường hợp Thủy gặp Nhâm Thìn được khen **khi có điều kiện trợ cách**. Người học phải giữ bối cảnh nguồn, không gán điểm tốt/xấu cho riêng nhãn.
++
++**Dẫn nguồn:** TMTH `003-43b`,`003-44b`; WXJJ 19 `五行正印`. **Điểm mở:** khác chữ **本家/木** chưa giải dứt.
++
++## Mục 3 — Quan Ấn và Quỷ Ấn không chỉ là hai nhãn đối nghịch
++
++*Ngũ Hành Tinh Kỷ* dẫn một lời cổ phân biệt **Quan Ấn** và **Quỷ Ấn** khi người thuộc Thủy gặp Thổ Ấn theo **giao thiệp của can chi** và các yếu tố phối hợp. Sách đưa hai ví dụ: Quý Tị–Ất Mão–Bính Thìn–Nhâm Thìn là ca được đánh giá thuận; Quý Tị–Bính Thìn–Mậu Tuất–Bính Thìn là ca gọi Quỷ Ấn. Ở tầng Nạp âm, ca trước có **ba Thủy, một Thổ**, ca sau có **một Thủy, hai Thổ, một Mộc**. Đó là **bối cảnh của hai ví dụ** chứ không phải ngưỡng số do tác giả định nghĩa cho mọi ca.
++
++**Dẫn nguồn:** WXJJ 19, lời dẫn `天元變化書云`; TMTH `003-44b`. **Điểm mở:** `交涉` chưa có công thức đầu vào/đầu ra.
++
++## Mục 4 — Năm vị trí và bốn vị trí trong Phúc Tụ Ấn
++
++*Tam Mệnh Thông Hội* WYG S07 nói đến **năm vị trí** năm/tháng/ngày/giờ/thai trong lời bàn Phúc Tụ Ấn. *Ngũ Hành Tinh Kỷ* quyển 19 có bản chép ghi **năm hoặc bốn vị trí**. Vì thế, hai văn bản **chưa thể được gộp thành một phép nhận diện Phúc Tụ chung**. Ngay cả khi dự án chỉ dạy khái niệm, nên ghi rõ sách nào nói dạng nào và chưa kiểm lại ảnh ở đâu.
++
++**Dẫn nguồn:** TMTH `003-45a`, WXJJ 19 `福聚印`. **Trạng thái:** dị văn/khác truyền thống chưa phân xử bằng facsimile.
++
++## Mục 5 — Một chữ khác có thể thay đổi toàn bộ ví dụ
++
++Trong ví dụ Quan Ấn, một bản chép có **Ất Mão**, bản khác xuất hiện **Kỷ Mão** (hoặc chữ dễ bị nhận thành Kỷ). Theo phép **năm Quý khởi Giáp Dần**, tháng Mão phải là **Ất Mão**. Ất Mão còn có Nạp âm **Thủy**, phù hợp lời “Thủy nhiều”, trong khi Kỷ Mão có Nạp âm **Thổ**. Đây là ví dụ về **kiểm nội tại bằng lịch pháp để phát hiện khả năng chép sai**, nhưng **quyền sửa chữ gốc** phải chờ đối ảnh.
++
++**Dẫn nguồn:** WXJJ 19 qua các bản chép số; TMTH quyển 2 `論遁月時`, quyển 1 Nạp âm. **Trạng thái:** hai phép kiểm củng cố giả thuyết, chưa có facsimile.
++
++## Mục 6 — Thuật ngữ giống nhau vẫn có thể thuộc hệ khác
++
++*Ngũ Hành Tinh Kỷ* nói đến **Tài Khố Ấn (財庫印)** với ví dụ người Thủy gặp Hỏa Ấn. Ở một chỗ khác, *Tam Mệnh Thông Hội* quyển 5 có ba loại **Lộc Tài khố, Mệnh Tài khố, Thân Tài khố** dựa trên ba tầng của Giáp Tý. Chúng có **hai chữ Tài khố giống nhau nhưng không được chứng minh là cùng một phép**. Tương tự, **Quy Không/Lâm Không**, **Tự Hình Sát/Tự Hình Ấn** và **Phượng Hoàng Ngự Ấn/Phượng Hoàng Hàm Ấn** là các tên cần chú giải theo từng tác phẩm.
++
++**Dẫn nguồn:** WXJJ 19 `財庫印` và các mục có tên; TMTH `005-55b`, `003-44b`, `003-45b`. **Trạng thái:** so sánh hệ khái niệm, không hợp nhất thành từ điển máy.
++
++---
++
++**Dùng trong thư viện:** nếu xuất bản, mỗi thẻ nên có nút xem **đúng tác phẩm/quyển/tờ** và nhãn **“diễn giải cổ thư / khác truyền bản / chưa đủ tiền đề tự động”**. Chữ **“được đánh giá tốt/xấu”** ở đây chỉ mô tả quan điểm trong nguồn, không phải một khẳng định về đời sống cá nhân.
+diff --git a/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/OPEN_QUESTIONS.md b/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/OPEN_QUESTIONS.md
+new file mode 100644
+index 0000000..430b484
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/OPEN_QUESTIONS.md
+@@ -0,0 +1,32 @@
++# AI-01 — Câu hỏi ưu tiên cho lượt kế tiếp và yêu cầu phối hợp
++
++**Phạm vi hẹp:** `AI-01/WORK-TMTH-KR3g0042 × WXJJ-SONG-19/論正印`. Không thay phiên của AI-02 (các sách Tử Bình khác), AI-03, AI-13 và không ghi vào status toàn kho mà chưa qua điều phối.
++
++## Mức ưu tiên 1 — xác minh đúng chữ cổ và nghĩa luận
++
++1. **Đọc ảnh nguyên bản WXJJ, quyển 19:** trước mắt đọc bản NLC/Commons quyển 4 PDF gồm quyển 17–22. Cần đúng trang/tờ cho `乙卯`/`己卯` trong ví dụ Quan Ấn, `乙酉`/`癸酉` trong ví dụ Giáp Tuất/giờ Dậu, các chữ `木`/`本家`, `主本`/`本主`, và `五位中或四位`. Lưu crop và số trang PDF sau khi xem ảnh, không dùng OCR làm phán quyết. Tệp NLC: https://commons.wikimedia.org/wiki/File:NLC892-2621-209417_五行精紀_第4冊.pdf
++2. **Bản khác WXJJ:** tìm thư mục ấn bản, niên đại, chữ ký tệp và nếu có ảnh scan thực sự độc lập hãy lập bảng đối chiếu từng mục. Hai ID 识典 có thể là các bản sao/OCR, không mặc nhiên là hai truyền bản.
++3. **Trường hợp `本家`/`木` ở TMTH WYG:** đọc và đối ảnh gốc WYG tờ `003-44b`; so tài liệu WXJJ trong cùng chương cùng với các lời `閻東叟書`, `天元變化書`. Xác định câu là biên tập, dị bản hay đổi điều kiện theo ngữ cảnh. **Chưa được emend WYG**.
++4. **Chứng cứ của `交涉`:** tách ba câu hỏi: (a) `支干` nói chi/can của những trụ nào, (b) `交涉` là hợp, sinh khắc, thông khí, tương trợ hay liên hệ khác, (c) hai ví dụ đủ là cần/đủ hay chỉ minh họa? Phải tìm định nghĩa trong nguồn cùng giọng hoặc thêm ví dụ xác minh; không lấy số lượng Nạp âm Thủy/Thổ làm định nghĩa.
++5. **Phân gốc `本主同德`/`帝座`/`胎月`:** kiểm chính văn, cấu trúc chấm câu và so các chỗ thuật ngữ này được chú giải ngoài thiên Chính Ấn; chưa tự biến thành điểm số/bảng xếp hạng.
++
++## Mức ưu tiên 2 — mở rộng lý luận có ích
++
++6. **Tách Ấn bản gia, Quan Ấn, Quỷ Ấn, Phúc Tụ/Quyền Ấn** thành bài học độc lập với điều kiện và ví dụ. Tăng số bài học **không phải** tăng coverage engine.
++7. **Điều kiện Phúc Tụ**: TMTH S07 ghi `五位俱` còn WXJJ có `五位中或四位`. Giữ hai nhánh văn bản và truy nguồn cho riêng `權印`; nếu có triển khai sau này cần hai policy khác nhau, không tự OR khi chưa phê duyệt.
++8. **Ba cặp tên khác nhau qua hai tác phẩm**: `歸空印/臨空印`, `自刑殺/自刑印`, `鳳凰御印格/鳯凰啣印`. So nguồn, giọng, ví dụ; tạo bản đồ liên hệ không giả rằng là các synonym chắc chắn.
++9. **Phát triển hiểu biết chữ `財庫印`:** đối chiếu WXJJ quyển 19 với `祿財庫/命財庫/身財庫` TMTH quyển 5 trong bài AI-01 PR #18. Chưa đủ để nhập hai hệ.
++10. **Khảo nguyên liệu sớm hơn:** `天元變化書`, `閻東叟書`, `林開五命`, `玉霄寶鑑` là các sách được dẫn bên trong WXJJ. Khi nào có tài liệu độc lập với xuất xứ và ảnh, mới đưa chúng vào hạng chứng riêng trong thư viện.
++
++## Mức ưu tiên 3 — quy trình cộng tác và kỹ thuật
++
++11. **Nghẽn GitHub:** lượt 31/10/2026 connector `mcp__GitHub__fetch_file` trả **403** với thông điệp **“Sorry. Your account was suspended”**. Do vậy bản mới được lưu làm gói artifact địa phương, chưa cập nhật PR #18. Sau khi chủ tài khoản giải quyết quyền GitHub, đưa **thư mục submission mới** vào nhánh `codex/ai01-luming-shen-seal-theory` (hoặc nhánh AI-01 khác nếu PR18 đã đổi), kiểm base trước, mở/tạo PR nháp và để điều phối duyệt. **Không merge và không sửa main**.
++12. **Không tải lại toàn bộ release** `materials-v53` hoặc chạy batch engine đã giữ. Chỉ phục hồi vùng ảnh PDF cần thiết, xác minh SHA256 thật nếu có file; tránh chạy tràn bảo trì lưu trữ.
++13. **AI-13** có thể kiểm can-tháng, can-giờ và Nạp âm, nhưng không nên dùng kết quả tính toán để sửa nguyên văn. Giao phương pháp và nguồn, nhận kết quả check ở bảng ghi chú. **AI-02** có thể khảo quan niệm Quan/Quỷ của tác phẩm Tử Bình độc lập nhưng không sửa bài AI-01.
++
++## Đề xuất nghiệm thu kiến thức
++
++- Một bài học **Quan Ấn – Quỷ Ấn** có **hai Tứ trụ**, nguồn và hành Nạp âm rõ; nhấn mạnh **chưa có bộ nhận dạng phổ quát**.
++- Một bài học **Ấn bản gia và điều kiện trợ cách**, có cả câu thuận và bất lợi cùng nguồn đi kèm để dạy cách tránh kết luận cứng.
++- Một bảng **12 dị văn/khác biên tập**, có tối thiểu 3 trường hợp ảnh hưởng thực sự đến lý luận: `木/本家`, `五/或四`, `乙/己` hay `癸/乙`.
++- Duy trì ranh giới **source-prose / editorial-inference / computerized-consistency-check / facsimile-adjudication**.
+diff --git a/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/RESEARCH_STATE.json b/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/RESEARCH_STATE.json
+new file mode 100644
+index 0000000..53bba69
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/RESEARCH_STATE.json
+@@ -0,0 +1,39 @@
++{
++  "schema": "hhc.ai01.external-source-knowledge-handoff.v1",
++  "date": "2026-10-31",
++  "lane": "AI-01",
++  "scope": "TMTH-WYG-versus-WXJJ-Song-volume19-positive-seals",
++  "sourceWorksCompared": ["三命通會", "五行精紀"],
++  "separateHistoricalPrintedWitnessesWithPageImagesActuallyReadThisTurn": 0,
++  "publicDigitalTextSourcesReviewed": [
++    "https://zh.wikisource.org/zh-hant/三命通會_(四庫全書本)/卷03",
++    "https://zh.wikisource.org/zh-hant/三命通會/卷二",
++    "https://zh.wikisource.org/zh-hant/三命通會/卷一",
++    "https://asklingxi.com/zh-tw/books/wuxing-jingji/19-jinshen/02-zhengyin",
++    "https://www.shidianguji.com/zh/book/NGJ892411999013122114408/chapter/1lmyjad4zcsvn",
++    "https://www.shidianguji.com/zh/book/NGJ8922621209348/chapter/1lnvyvqxghstk"
++  ],
++  "identifiedUnreviewedFacsimile": "https://commons.wikimedia.org/wiki/File:NLC892-2621-209417_五行精紀_第4冊.pdf",
++  "citationAndVariantRows": 12,
++  "theoryClaims": 18,
++  "illustrativeFourPillarCases": 2,
++  "readerKnowledgeCards": 6,
++  "verifiedInternalMonthAndHourPatterns": true,
++  "globalRuleOperatorsOrUnknownPremisesResolved": false,
++  "predictionsEfficacyValidated": false,
++  "engineCalls": 0,
++  "sourceOriginalBytesMutated": false,
++  "consumerChanged": false,
++  "GitHubWriteResult": "BLOCKED_403_ACCOUNT_SUSPENDED",
++  "GitHubPRCreatedThisTurn": false,
++  "workSavedAsLocalImportableFiles": true,
++  "importantVariants": [
++    "TMTH 水命人得本家印無益 versus WXJJ 水命人得木印無益",
++    "TMTH 五位俱 versus WXJJ 五位中或四位",
++    "WXJJ 乙卯 versus 己卯/已卯 in first illustrated horoscope",
++    "TMTH 甲戌日癸酉時 versus WXJJ 甲戌日乙酉時",
++    "TMTH 臨空印 versus WXJJ 歸空印",
++    "TMTH 自刑印 versus WXJJ 自刑殺",
++    "TMTH 鳯凰啣印 versus WXJJ 鳳凰御印格"
++  ]
++}
+diff --git a/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/SOURCE_REGISTER.md b/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/SOURCE_REGISTER.md
+new file mode 100644
+index 0000000..ce7fddc
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/SOURCE_REGISTER.md
+@@ -0,0 +1,52 @@
++# AI-01 — Sổ nguồn bổ sung: Ngũ Hành Tinh Kỷ quyển 19 / Tam Mệnh Thông Hội quyển 1–3
++
++**Ngày khảo:** 31/10/2026 · **Đối tượng:** Chính Ấn cổ pháp, Bản gia Ấn, Quan Ấn/Quỷ Ấn · **Mục đích:** bổ sung tri thức mệnh lý lịch sử cho thư viện Huyền Học Các.  
++**Tình trạng:** bản thảo độc lập có đối chiếu nguồn số công khai; **chưa được đưa vào repository** do công cụ GitHub trả `HTTP 403: Sorry. Your account was suspended`. Không tuyên bố commit/PR mới.
++
++## 1. Hai tác phẩm và quan hệ chứng cứ
++
++| Work ID | Tác phẩm | Phần nghiên cứu | Nguồn mở được | Tư cách chứng |
++|---|---|---|---|---|
++| `TMTH-WYG` | 《三命通會》, Vạn Dân Anh (Minh), phiên bản Tứ Khố WYG | Quyển 3, `論正印`, tờ `003-43b`–`003-45b`; quyển 1 phần `六十甲子`, quyển 2 `論遁月時` | [Tứ Khố WYG quyển 3](https://zh.wikisource.org/zh-hant/三命通會_(四庫全書本)/卷03); [quyển 1](https://zh.wikisource.org/zh-hant/三命通會_(四庫全書本)/卷01); [quyển 2](https://zh.wikisource.org/zh-hant/三命通會/卷二) | Một **tác phẩm**; nhiều quyển/chỗ số hóa không phải nhiều sách độc lập |
++| `WXJJ-SONG-19` | 《五行精紀》, quyển 19, truyền là Liêu Trung (Tống) | `論正印`, các mục `五行正印`, `偏印`, `福聚印`, `官印/鬼印` và ví dụ | [Chép số biên tập Linh Tê](https://asklingxi.com/zh-tw/books/wuxing-jingji/19-jinshen/02-zhengyin); [Thư viện 识典 bản A](https://www.shidianguji.com/zh/book/NGJ892411999013122114408/chapter/1lmyjad4zcsvn); [识典 bản B](https://www.shidianguji.com/zh/book/NGJ8922621209348/chapter/1lnvyvqxghstk) | **Tác phẩm khác và được quy thuộc thời Tống**, là đầu mối văn bản đi trước; nhưng nhiều đoạn có khả năng được Tam Mệnh Thông Hội tiếp thu, **không phải các nhân chứng độc lập xác nhận tính ứng nghiệm** |
++
++**Tư liệu facsimile tìm được nhưng CHƯA hiệu khảo:** [NLC/Commons — 五行精紀 第4冊.pdf](https://commons.wikimedia.org/wiki/File:NLC892-2621-209417_五行精紀_第4冊.pdf), danh mục quốc gia ghi **bản sao chép 抄本**, không ghi năm xuất bản; gồm các quyển 17–22, **68 trang PDF**. Phiên này đã mở được mô tả catalogue, nhưng tệp scan PDF 12,6 MB không tải/mở được qua công cụ hiện có. **Không được nói đã xem mặt giấy, cũng không xác quyết chữ dị thể hay sửa chữ OCR dựa trên bản chép số.** Khi có máy khác, tải tài liệu, tìm điểm bắt đầu quyển 19, xác nhận từng dòng trong ảnh trước khi lập bản khảo dị chắc chắn.
++
++**Nguồn bộ máy:** `三命通會` WYG bản chép số gốc trên GitHub: `v53/research/bazi-relations/sources/KR3g0042_001.txt`, `KR3g0042_002.txt`, `KR3g0042_003.txt` (đã được AI-01 ở PR #18 đọc/neo trước khi tài khoản bị chặn). Nguồn quyển 3 SHA-256 đã giữ trong dự án: `267fda36d206bfd153d9377441adb5f99f96c39a594a5f7ebdf3e4dd226e9b87`. **Lượt hiện tại không truy cập lại được GitHub**, vì vậy không thể nhận rằng đã kiểm lại bytes tại commit mới.
++
++## 2. Tại sao phải phân cấp nguồn?
++
++- `WXJJ-SONG-19` không phải chỉ là URL khác của `TMTH-WYG`. Đây là **hai nhan đề/tác phẩm**; nhưng các đoạn trùng từ, ví dụ và trật tự rất gần nhau, nên phải điều tra khả năng **trích lại hoặc biên tập lại**. Không gọi đây là 2 chứng độc lập cho cùng một lời dự đoán.
++- Bên trong `五行精紀` còn **dẫn tên nhiều tài liệu được đặt trong ngoặc hoặc dẫn lời** như `林開五命`, `玉霄寶鑑`, `閻東叟書`, `天元變化書`, `燭神經`, `廣信集`, `紫虛局`. Đây là **nguồn được dẫn tên**, chưa phải bản in độc lập mà AI hiện đã kiểm đọc; giữ trạng thái `quoted-inside-WXJJ`.
++- Hai đường dẫn 识典 A/B có khác chữ nhiều, một phần có biểu hiện **OCR lỗi** (`巳/已`, `乙/已/己`, `日/曰`, `交涉/交沙`, `甲戌/甲戍`). Chúng **không tự động là hai truyền bản in độc lập** chỉ vì hai URL/ID sách.
++- Ấn phẩm thế kỷ XVIII `欽定古今圖書集成` có đoạn chép `論正印` tương ứng với Tam Mệnh: [Wikisource, Nghệ thuật điển quyển 599](https://zh.wikisource.org/zh/欽定古今圖書集成/博物彙編/藝術典/第599卷). Đây là **nhân chứng về sự tiếp nhận/biên tập muộn**, chưa thể xem là truyền thống lý luận độc lập.
++
++## 3. Điểm neo trích ngắn và xuất xứ
++
++| Chứng cứ | Vị trí | Cụm Hán văn cần kiểm đủ ngữ cảnh | Nhận xét nguồn |
++|---|---|---|---|
++| SR01 | TMTH WYG `003-43b` | `正印者乃五行之正庫` | Định nghĩa Chính Ấn theo **chính khố** |
++| SR02 | TMTH WYG `003-43b` | `本主同徳為上帝座為中胎月為下` | Câu phân tầng, cách đặt dấu câu cần nghiên cứu |
++| SR03 | TMTH WYG `003-44b` | `水命人得本家印無益` | Phát biểu gây căng thẳng với `WXJJ` |
++| SR04 | TMTH WYG `003-44b` | `得土印支干有交涉者名官印` | Tiêu chuẩn `交涉` **chưa định nghĩa thao tác** |
++| SR05 | WXJJ quyển 19, `五行正印` | `得本家印最佳` | Đánh giá phân hạng có điều kiện, không phải hiệu lực thực nghiệm |
++| SR06 | WXJJ quyển 19, `五行正印` | `水命人得壬辰為日時` | **Ví dụ thuận về Thủy–Nhâm Thìn** kèm nhóm phụ trợ |
++| SR07 | WXJJ quyển 19, đoạn quy cho `閻東叟書` | `水命人得木印無益` | So với SR03: **木** khác **本家** |
++| SR08 | WXJJ quyển 19, đoạn `天元變化書云` | `支干有交涉者是官印` | Cặp nhãn phân biệt từ ví dụ Tứ trụ |
++| SR09 | WXJJ quyển 19, cùng đoạn | `一水不任兩土氣多` | Cơ sở diễn giải ví dụ Quỷ Ấn thứ hai |
++| SR10 | WXJJ quyển 19, `五行正印主本同德` | `帝坐為中胎月為下` | So `帝座`/`帝坐`, `本主`/`主本` |
++| SR11 | WXJJ quyển 19, `福聚印` | `五位中或四位` | Khác với TMTH WYG `五位俱` (S07) |
++| SR12 | WXJJ quyển 19, các tiểu mục | `歸空印` / `自刑殺` / `鳳凰御印格` | Tên mục khác TMTH `臨空印` / `自刑印` / `鳯凰啣印` |
++| SR13 | WXJJ quyển 19, đoạn `閻東叟書` | `甲戌日得乙酉時` | TMTH WYG `甲戌日得癸酉時`: khác stem giờ, kiểm phép khởi giờ |
++| SR14 | TMTH, quyển 2, `論遁月時` | `遁月從年遁時從日` | Phép nội bộ để kiểm tháng/năm và ngày/giờ ở ví dụ |
++
++### Trạng thái chứng cứ
++
++- `digital-primary-text-compared`: Có hai tác phẩm khác tên và lời dẫn được mở qua web.
++- `independent-print-facsimile-collation`: **CHƯA**; tài liệu NLC đã định vị nhưng chưa tải/đối ảnh.
++- `modern-transliteration-validation`: Các bản số có thể sai ở chữ nhất là `乙`, `己`, `已` và `戌`, `戍`.
++- `scientific-outcome-validation`: **KHÔNG** — nghiên cứu hệ tư tưởng cổ pháp, không thẩm định dự đoán.
++
++## 4. Giới hạn quyền ghi
++
++Khi thử đọc file GitHub qua connector trong lượt này, máy chủ trả **403 / tài khoản bị tạm ngưng**. Không thể sửa PR #18 hoặc tạo PR mới. Toàn bộ nội dung trong thư mục này là **bản nghiên cứu mới để nhập vào nhánh AI-01** sau khi quyền được khôi phục; không đặt nó vào `main`, release, engine, web, `COVERAGE.json`, `POST_RELEASE_WORKING_FOLLOWUP.json` hoặc kho nguồn gốc.
+diff --git a/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/THEORY_MATRIX.csv b/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/THEORY_MATRIX.csv
+new file mode 100644
+index 0000000..9e3e33a
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/THEORY_MATRIX.csv
+@@ -0,0 +1,19 @@
++claim_id,claim,source_locator,verbatim_or_structural_anchor,evidence_level,qualifier,status
++AI01-X01,Five classical right-treasury seals,TMTH-WYG:003-43b;WXJJ:19/五行正印,乙丑/癸未/壬辰/甲戌/丙辰,source words observed,Five Nayin matches are source-specific; different works closely related,do_not_apply_engine
++AI01-X02,Native-house seal identified separately from other favorable conditions,WXJJ:19/五行正印,得本家印最佳,source words observed,Favorable historical assertion has additional Wang/Kum/GiapQui constraints,expository_only
++AI01-X03,Water native-house seal disagreement,TMTH-WYG:003-44b;WXJJ:19/五行正印,水命人得本家印無益 vs 水命人得木印無益,semantic conflict; facsimile pending,Possible copying/editing/changed context: no unilateral emendation,hold_for_collation
++AI01-X04,Wood seal described as draining for water,TMTH-WYG:003-44b;WXJJ:19/天元變化書云,水人得木印名曰損氣,cross-work textual parallel,Not equivalent to all Wood combinations being bad,expository_only
++AI01-X05,Earth seal category depends on Gan/Zhi interactions,TMTH-WYG:003-44b;WXJJ:19/天元變化書云,支干有交涉者官印 無交涉者鬼印,source words observed,Definition of 交涉 and reference frame unresolved,needs-premises
++AI01-X06,Original Guan-seal example has year 癸巳 month 乙卯 day 丙辰 hour 壬辰,WXJJ:19/天元變化書云,癸巳 乙卯 丙辰 壬辰,editorial reading supported by two structural checks,Alternative 己卯/已卯 in digital OCR; manuscript image not inspected,example-only
++AI01-X07,First example Nayin pattern,WXJJ:19 and TMTH:01 Nayin,Water Water Earth Water,derived from source example and Nayin table,3 water/1 earth is explanatory not universal threshold,example-only
++AI01-X08,Original Gui-seal example has year 癸巳 month 丙辰 day 戊戌 hour 丙辰,WXJJ:19/天元變化書云,癸巳 丙辰 戊戌 丙辰,source words observed across digital renderings,Year/month and day/hour internally compatible,example-only
++AI01-X09,Second example Nayin pattern,WXJJ:19 and TMTH:01 Nayin,Water Earth Wood Earth,derived from source example and Nayin table,1 water cannot bear 2 earth is author-specific example not universal formula,example-only
++AI01-X10,Upper/Middle/Lower ranks associated with homode virtue; emperor seat; fetal month,TMTH-WYG:003-43b;WXJJ:19/late paragraph,本主同徳為上 帝座為中 胎月為下,rank words observed,No operational definitions for 帝座 胎月 or scoring,expository_only
++AI01-X11,Fuju five places vs five or four places,TMTH-WYG:003-45a;WXJJ:19/福聚印,五位俱 vs 五位中或四位,textual difference observed in digital sources,Not safe to combine these premises or claim OCR verified,needs-facsimile
++AI01-X12,Gui-kong and Lin-kong labels differ,TMTH-WYG:003-45b;WXJJ:19/歸空印,歸空印 vs 臨空印,labels observed,May be editorial relation not proven synonyms,nomenclature-only
++AI01-X13,Self-penalty Seal vs Self-penalty Sha labels differ,TMTH-WYG:003-45b;WXJJ:19/自刑殺,自刑印 vs 自刑殺; 丑戌相刑,labels observed,Do not emend Sửu–Tuất to modern self-penalty lists,nomenclature-only
++AI01-X14,Phoenix Seal name differs,TMTH-WYG:003-44b;WXJJ:19/鳳凰御印格,鳯凰啣印 vs 鳳凰御印格,labels observed,Same narrative example is not independent historical birth proof,nomenclature-only
++AI01-X15,Day Jia hour You character conflict,TMTH-WYG:003-44b;WXJJ:19/late paragraph;TMTH:02/論遁月時,癸酉 vs 乙酉,day-hour consistency supports 癸酉 reading,No facsimile adjudication of WXJJ variant,needs-facsimile
++AI01-X16,Month Gui-year Mao-month character conflict,WXJJ:19/天元變化書云;TMTH:02/論遁月時,乙卯 vs 己卯/已卯,monthly sequence and Nayin context support 乙卯,Not a source-emendation license; see NLC PDF,needs-facsimile
++AI01-X17,Wuxing text contains Cai-ku Seal distinct from three wealth treasuries,WXJJ:19/財庫印;TMTH:05/祿命身三等財庫,財庫印 vs 祿財庫 命財庫 身財庫,terms documented in distinct frameworks,Do not alias by shared two Han characters,expository_only
++AI01-X18,Wuxing quoted works are leads only,WXJJ:19/林開五命 閻東叟書 天元變化書 玉霄寶鑑,cited books within one source,bibliographic lead,Not newly checked external witness or outcome evidence,research-open

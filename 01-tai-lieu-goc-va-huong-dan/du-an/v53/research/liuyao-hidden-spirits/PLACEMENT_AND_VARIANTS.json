@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-27",
+  "rules": [
+    {
+      "id": "P1",
+      "pdfPages": [
+        108,
+        109,
+        110
+      ],
+      "meaning": "When desired kin is absent,read corresponding lines of the original palace pure hexagram;the current same-position line covers it as飛神."
+    },
+    {
+      "id": "P2",
+      "pdfPages": [
+        108,
+        109,
+        110
+      ],
+      "meaning": "Source first considers day/month candidates when desired kin is not in the figure;calendar usefulness and strength premises remain explicit and unevaluated here."
+    },
+    {
+      "id": "P3",
+      "pdfPages": [
+        112
+      ],
+      "meaning": "Other cited methods search another palace or a returning-soul fourth figure when a pure primary hexagram has a damaged desired kin. The commentator rejects automatically taking those alternatives;do not silently mix methods."
+    },
+    {
+      "id": "P4",
+      "pdfPages": [
+        113,
+        114,
+        115
+      ],
+      "meaning": "Historical repeated-cast anecdotes and medical/death claims retained as historical claims,not outcome validation or instructions to user."
+    },
+    {
+      "id": "P5",
+      "pdfPages": [
+        115
+      ],
+      "meaning": "困→兌example compares damaged visible午fire,hidden巳fire and changed巳fire. A visible kin does not prove the entire source discussion inapplicable;changed-line candidates must remain visible and no automatic hidden-only decision is made."
+    },
+    {
+      "id": "P6",
+      "pdfPages": [
+        115,
+        116
+      ],
+      "meaning": "Commentator disputes an exclusive focus on hidden/changed placement and cites month or changing-line usefulness. Candidate placement is separate from choosing a useful god."
+    }
+  ],
+  "candidateAPI": "Return pure-palace structural locations for an explicit desired kin,visible/changed/day-month availability,and relationships;always usefulnessSelection=null. No automatic fallback selection.",
+  "sourceInstructionsAreData": true,
+  "independentB03ChapterCollation": false,
+  "fullChapterFirstPassRead": true,
+  "allHistoricalClaimsEstablished": false
+}

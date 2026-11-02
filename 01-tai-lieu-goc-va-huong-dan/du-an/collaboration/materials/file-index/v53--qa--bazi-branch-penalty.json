@@ -1,0 +1,53 @@
+{
+  "scope": "v53/qa/bazi-branch-penalty",
+  "files": [
+    {
+      "file": "v53/qa/bazi-branch-penalty/PROMOTION_IDENTITIES.json",
+      "bytes": 11474,
+      "sha256": "5936994fe75f7ded7978c2798907cd6eaaef2d0077248faabb930153460b97bf",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5936994fe75f7ded7978c2798907cd6eaaef2d0077248faabb930153460b97bf",
+      "httpRange": {
+        "offset": 229381433,
+        "compressedBytes": 2991,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/bazi-branch-penalty/REFERENCE_RESULTS.json",
+      "bytes": 634,
+      "sha256": "7d51905d63f64d68d664d7791aa148962417acd1cf02cecce7e6552feb430686",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7d51905d63f64d68d664d7791aa148962417acd1cf02cecce7e6552feb430686",
+      "httpRange": {
+        "offset": 51900209,
+        "compressedBytes": 343,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/bazi-branch-penalty/RELEASE_RESULTS.json",
+      "bytes": 1718,
+      "sha256": "0cd00ce546cd808fa2f0c7b3208d050b53cd5a2893ca0fe243f444551e89342e",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0cd00ce546cd808fa2f0c7b3208d050b53cd5a2893ca0fe243f444551e89342e",
+      "httpRange": {
+        "offset": 186507407,
+        "compressedBytes": 723,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/bazi-branch-penalty/SOURCE_RESULTS.json",
+      "bytes": 601,
+      "sha256": "cb8a9290a63858bf044101ff402a635ad71389e74297722e13903a88807ae003",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/cb8a9290a63858bf044101ff402a635ad71389e74297722e13903a88807ae003",
+      "httpRange": {
+        "offset": 595472,
+        "compressedBytes": 314,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "date": "2026-10-28",
+  "firstAttempt": "Stopped after byte-identical copies, before runtime runner relocation/state updates, because runner filename inherited previous scope.",
+  "recovery": "Correct filename and verify existing destination bytes before reuse; no runtime rerun or old-release mutation.",
+  "consumerAffected": false
+}

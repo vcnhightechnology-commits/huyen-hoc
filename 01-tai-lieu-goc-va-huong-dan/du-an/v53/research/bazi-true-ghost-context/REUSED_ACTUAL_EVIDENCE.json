@@ -1,0 +1,46 @@
+{
+  "file": "v53/qa/bazi-food-appendices/REFERENCE_RESULTS.json",
+  "bytes": 12967,
+  "sha256": "824b75c19144483f214e4ad8f8a3310b7130bcaeb0de4bb670d612a1d87995c0",
+  "librarySHA256": "76e490b74e9913ed94b49689b90abc688ed1e2b11456312b3eb081ec63cf2fbe",
+  "mechanisms": [
+    {
+      "kind": "combination",
+      "caseID": "bound-甲",
+      "foodStem": "丙",
+      "actualPartner": "辛"
+    },
+    {
+      "kind": "combination",
+      "caseID": "bound-己",
+      "foodStem": "辛",
+      "actualPartner": "丙"
+    },
+    {
+      "kind": "combination",
+      "caseID": "bound-乙",
+      "foodStem": "丁",
+      "actualPartner": "壬"
+    },
+    {
+      "kind": "combination",
+      "caseID": "bound-庚",
+      "foodStem": "壬",
+      "actualPartner": "丁"
+    },
+    {
+      "kind": "combination",
+      "caseID": "bound-丙",
+      "foodStem": "戊",
+      "actualPartner": "癸"
+    },
+    {
+      "kind": "combination",
+      "caseID": "bound-辛",
+      "foodStem": "癸",
+      "actualPartner": "戊"
+    }
+  ],
+  "queriesRerun": 0,
+  "purpose": "Reuse the six actually executed HE_GAN_5 queries; request only four missing partners in the new batch."
+}

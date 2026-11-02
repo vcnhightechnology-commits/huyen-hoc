@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-26T04:38:00.390Z",
+  "sourcePolicy": "Reuse previously captured response bytes for package and images. Newly saved official API documentation is a modern primary software source, not an old printed witness.",
+  "newResponses": [
+    {
+      "url": "https://docs.iztro.com/en_US/learn/astrolabe",
+      "status": 200,
+      "headers": {
+        "date": "Mon, 26 Oct 2026 04:20:40 GMT",
+        "content-type": "text/html; charset=utf-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "x-content-type-options": "nosniff",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=0CD7adISi%2Fy45LQtFXEZLw4H5AF0RnEZDeai%2FikIwm8UzK9jpO9r3W3MxOe0WFAMjJcDuHPv1hyXJy1R7bYZqN6nXrba0GDHL%2F8q6etTEKamoFf6rd7pBAdUgbVT0KEwglq2%2BlWXo%2BmdZ0fXiw%3D%3D\"}]}",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "link": "</assets/style.ddd4f68c.css>; rel=\"preload stylesheet\"; as=style, </assets/chunks/framework.7fab6bae.js>; rel=\"modulepreload\", </assets/chunks/theme.132a76fd.js>; rel=\"modulepreload\", </assets/chunks/palace@2x.07328b4c.js>; rel=\"modulepreload\", </assets/chunks/donate.3a95be8c.js>; rel=\"modulepreload\", </assets/chunks/wcpay.d0e1a780.js>; rel=\"modulepreload\", </assets/en_US_learn_astrolabe.md.7a23c65c.lean.js>; rel=\"modulepreload\"",
+        "server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=30,cfOrigin;dur=70",
+        "server": "cloudflare",
+        "cf-cache-status": "DYNAMIC",
+        "cf-ray": "a506ab7ad9a82b4f-LAX",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "receivedUTC": "2026-10-26T04:20:45.853Z",
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "bytes": 71975,
+      "sha256": "895f0e11a0acf4f4cdeb039ee6cf49d715227f2e016957faafb556d2ed6ba0ad",
+      "file": "tuvi/official-astrolabe.html"
+    },
+    {
+      "url": "https://docs.iztro.com/posts/star",
+      "status": 200,
+      "headers": {
+        "date": "Mon, 26 Oct 2026 04:20:41 GMT",
+        "content-type": "text/html; charset=utf-8",
+        "transfer-encoding": "chunked",
+        "connection": "keep-alive",
+        "x-content-type-options": "nosniff",
+        "report-to": "{\"group\":\"cf-nel\",\"max_age\":604800,\"endpoints\":[{\"url\":\"https://a.nel.cloudflare.com/report/v4?s=N%2Ba2LcRG4hfNvN58d3uncIkN77LyjCsSqm%2Bj3eXzevxsqoEnJMSxP%2ByDJLenWYAIOid5UIhSHr5ZYjF0uTZnrDdcMbRb19Ejxf7bU%2FdYGkefQlxhlNWTBcNMrF6H1hZ4CXPb%2BpTh98fLgN%2FWwA%3D%3D\"}]}",
+        "nel": "{\"report_to\":\"cf-nel\",\"success_fraction\":0.0,\"max_age\":604800}",
+        "access-control-allow-origin": "*",
+        "cache-control": "public, max-age=0, must-revalidate",
+        "referrer-policy": "strict-origin-when-cross-origin",
+        "link": "</assets/style.ddd4f68c.css>; rel=\"preload stylesheet\"; as=style, </assets/chunks/framework.7fab6bae.js>; rel=\"modulepreload\", </assets/chunks/theme.132a76fd.js>; rel=\"modulepreload\", </assets/posts_star.md.775b09ee.lean.js>; rel=\"modulepreload\"",
+        "server-timing": "cfCacheStatus;desc=\"DYNAMIC\", cfEdge;dur=6,cfOrigin;dur=65",
+        "server": "cloudflare",
+        "cf-cache-status": "DYNAMIC",
+        "cf-ray": "a506ab7d7bd02b4f-LAX",
+        "alt-svc": "h3=\":443\"; ma=86400"
+      },
+      "receivedUTC": "2026-10-26T04:20:46.251Z",
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "bytes": 92030,
+      "sha256": "57e633bcd874e5b105b993ecfea8c89e873912ea3fd7d42150200028648919aa",
+      "file": "tuvi/official-star-api.html"
+    }
+  ],
+  "reused": [
+    {
+      "file": "../v46/evidence/npm/iztro-2.6.2.tgz",
+      "bytes": 1425345,
+      "sha256": "d44e96631c0506424c3aef25a7bba8e43e01729102d6a703720cbe224aec5403",
+      "downloadedAgain": false
+    },
+    {
+      "file": "../v46/node_modules/iztro/lib/data/stars.js",
+      "bytes": 3827,
+      "sha256": "b091a7b3a6bbf75ebba20e41d352bf023068a3a449303f75acec2b2bae8831c0",
+      "downloadedAgain": false
+    },
+    {
+      "file": "../v46/node_modules/iztro/lib/astro/analyzer.js",
+      "bytes": 11639,
+      "sha256": "918ad887f00546730e282e068ab774006b361a0297640436abd2de3a84d42e66",
+      "downloadedAgain": false
+    },
+    {
+      "file": "../v46/node_modules/iztro/lib/astro/FunctionalAstrolabe.js",
+      "bytes": 18360,
+      "sha256": "d0bf549d5c73195019afcd2675e3b83a69b57a51920eec7c041cac7d29f6725d",
+      "downloadedAgain": false
+    },
+    {
+      "file": "../v46/node_modules/iztro/lib/astro/FunctionalSurpalaces.js",
+      "bytes": 1498,
+      "sha256": "9a0ee5232bd13535d4bf6409163f3ddabdbcf54c88b74a3859ecb73900426c05",
+      "downloadedAgain": false
+    },
+    {
+      "file": "research/fortune-table/official-088.jpg",
+      "bytes": 499196,
+      "sha256": "4606f782e1966017dbdbe390f9cf81f4dc368f425050e808e4d8acb4382c6b9c",
+      "downloadedAgain": false
+    },
+    {
+      "file": "research/fortune-table/official-089.jpg",
+      "bytes": 527255,
+      "sha256": "0eee1d171348de6f9478cfce2ca7bb26a9c04414265fb07ffe1390d125d504e8",
+      "downloadedAgain": false
+    }
+  ],
+  "manualCells": 162,
+  "manualDifferences": 15,
+  "publicEditorial": "22 pair readings are authored reflective prompts; they are not quotations or validation of predictions."
+}

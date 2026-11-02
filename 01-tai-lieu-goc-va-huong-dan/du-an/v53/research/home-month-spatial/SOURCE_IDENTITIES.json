@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-29",
+  "records": [
+    {
+      "source": {
+        "file": "v53/research/home-time-premises/ITKC_BT_1508A_V002_241.JPG",
+        "bytes": 1257399,
+        "sha256": "aab17136095d7a6605e2362b51a3676e8ec9bb28557d8c981478a52869ed4a07"
+      },
+      "crop": {
+        "file": "tmp/home-month-spatial-staging/monthly-duhuo-complete-241.png",
+        "bytes": 1237865,
+        "sha256": "95be276e380726d8c6f349e2d6d806f35316f802bd15c00b2d425079d7e3dfad"
+      },
+      "boxXYXY": [
+        225,
+        220,
+        660,
+        2100
+      ],
+      "nativeSize": [
+        435,
+        1880
+      ],
+      "actuallyViewed": true
+    },
+    {
+      "source": {
+        "file": "v53/research/home-time-premises/ITKC_BT_1508A_V002_245.JPG",
+        "bytes": 1162291,
+        "sha256": "d84b5c531754d8505ce7d72bbe74d6adda7b4055b85e86191291970fa7786e0e"
+      },
+      "crop": {
+        "file": "tmp/home-month-spatial-staging/monthly-daily-datou-complete-245.png",
+        "bytes": 1167848,
+        "sha256": "2d9d9549ebfc3bb42da73988050d0f5095b8e95c508f3afe9e0d56e31cab134f"
+      },
+      "boxXYXY": [
+        1040,
+        220,
+        1470,
+        2090
+      ],
+      "nativeSize": [
+        430,
+        1870
+      ],
+      "actuallyViewed": true
+    },
+    {
+      "source": {
+        "file": "v53/research/home-time-premises/ITKC_BT_1508A_V002_245.JPG",
+        "bytes": 1162291,
+        "sha256": "d84b5c531754d8505ce7d72bbe74d6adda7b4055b85e86191291970fa7786e0e"
+      },
+      "crop": {
+        "file": "tmp/home-month-spatial-staging/one-benefic-complete-245.png",
+        "bytes": 1889159,
+        "sha256": "1f74514299b5b5ea1d88bcbd7b66d1f0725dd4bb00ec41376fb7e46677afc0a0"
+      },
+      "boxXYXY": [
+        545,
+        220,
+        1220,
+        2115
+      ],
+      "nativeSize": [
+        675,
+        1895
+      ],
+      "actuallyViewed": true
+    }
+  ],
+  "rejectedTrialCrops": [
+    {
+      "file": "monthly-duhuo-241.png",
+      "reason": "Top clipped heading; retained as trial, not accepted evidence."
+    },
+    {
+      "file": "monthly-daily-datou-245.png",
+      "reason": "Top clipped heading; retained as trial, not accepted evidence."
+    },
+    {
+      "file": "one-benefic-245.png",
+      "reason": "Top clipped heading; retained as trial, not accepted evidence."
+    }
+  ],
+  "newHTTPBodies": 0,
+  "newSourcePositions": 0,
+  "newIndependentP08Editions": 0
+}

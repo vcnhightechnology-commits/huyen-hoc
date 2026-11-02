@@ -1,0 +1,148 @@
+{
+  "date": "2026-10-29",
+  "library": {
+    "file": "v46/node_modules/lunar-typescript/dist/index.cjs",
+    "bytes": 425191,
+    "sha256": "76e490b74e9913ed94b49689b90abc688ed1e2b11456312b3eb081ec63cf2fbe"
+  },
+  "actualLunarObjects": 2,
+  "actualJieQiTables": 2,
+  "newHHCCharts": 0,
+  "newIztroCharts": 0,
+  "records": [
+    {
+      "year": 2025,
+      "engineWallComponents": {
+        "dahan": [
+          2025,
+          1,
+          20,
+          4,
+          0,
+          8
+        ],
+        "lichun": [
+          2025,
+          2,
+          3,
+          22,
+          10,
+          28
+        ]
+      },
+      "hypotheticalDayCountingOnly": {
+        "startInclusiveCivilDayFive": [
+          2025,
+          1,
+          24,
+          0,
+          0,
+          0
+        ],
+        "startAfterFiveCivilDateChanges": [
+          2025,
+          1,
+          25,
+          0,
+          0,
+          0
+        ],
+        "startElapsed120WallHours": [
+          2025,
+          1,
+          25,
+          4,
+          0,
+          8
+        ],
+        "endAfterTwoCivilDateChanges": [
+          2025,
+          2,
+          5,
+          0,
+          0,
+          0
+        ],
+        "endElapsed48WallHours": [
+          2025,
+          2,
+          5,
+          22,
+          10,
+          28
+        ]
+      },
+      "sourceCalendarOrCountingChosen": false,
+      "sourceTimezoneAssigned": false
+    },
+    {
+      "year": 2026,
+      "engineWallComponents": {
+        "dahan": [
+          2026,
+          1,
+          20,
+          9,
+          44,
+          56
+        ],
+        "lichun": [
+          2026,
+          2,
+          4,
+          4,
+          2,
+          8
+        ]
+      },
+      "hypotheticalDayCountingOnly": {
+        "startInclusiveCivilDayFive": [
+          2026,
+          1,
+          24,
+          0,
+          0,
+          0
+        ],
+        "startAfterFiveCivilDateChanges": [
+          2026,
+          1,
+          25,
+          0,
+          0,
+          0
+        ],
+        "startElapsed120WallHours": [
+          2026,
+          1,
+          25,
+          9,
+          44,
+          56
+        ],
+        "endAfterTwoCivilDateChanges": [
+          2026,
+          2,
+          6,
+          0,
+          0,
+          0
+        ],
+        "endElapsed48WallHours": [
+          2026,
+          2,
+          6,
+          4,
+          2,
+          8
+        ]
+      },
+      "sourceCalendarOrCountingChosen": false,
+      "sourceTimezoneAssigned": false
+    }
+  ],
+  "arithmeticIsUnzonedWallComponentComparison": true,
+  "sourceCalendarAdapterImplemented": false,
+  "sourceRelativeDayCountingResolved": false,
+  "consumerApplied": false
+}

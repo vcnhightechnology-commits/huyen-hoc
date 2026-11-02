@@ -1,0 +1,26 @@
+{
+  "date": "2026-10-28",
+  "passingChecksCurrent": 6,
+  "priorPassingChecksSupersededNotAdditional": 6,
+  "reasonForRerun": "ActualprivateAPIchange:yearmonthscopecompletenessandDjVuContainerPagefieldfix. Addedunknown-day/hourandunknown-scoped-positionassertions.",
+  "engineReexecutionsFromTestRerun": 0,
+  "actualCompletedEngineProbe": {
+    "HHC": 2,
+    "lunarForward": 2,
+    "lunarBoundedSearch": 57
+  },
+  "historicalBirthDateAttribution": false,
+  "consumerDefectFound": false,
+  "initialCropTargetMissedAndCorrected": true,
+  "nativeCropFilesViewed": 8,
+  "browserUsed": false,
+  "wholeCatalogueComplete": false,
+  "initialSourceVerificationMetadataFailure": {
+    "check": "byteSHA-vs-normalized-textSHA",
+    "reason": "CONTEXTS first labeled LF-decoded-textSHA as retainedsectionSHA;original retained CRLF bytes have separate identity.",
+    "correction": "RecordbyteSHA and LFdecodedtextSHA separately;explicitly label7050rawcodepoints/6755LFdecoded offsets/5307clean codepoints.",
+    "originalBytesChanged": false,
+    "contextTextChanged": false,
+    "engineReexecuted": false
+  }
+}

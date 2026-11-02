@@ -1,0 +1,153 @@
+{
+  "date": "2026-10-28",
+  "system": "NAJ-4469314-canvas80-two-printed-cases",
+  "canvas": 80,
+  "sourceImage": "canvas-080-3000.jpg",
+  "sourceImageSHA256": "0da236e3f2d66ebab6e2fbb710e8fe8145258110f7b02294474fa71135512ece",
+  "records": [
+    {
+      "id": "ma-zhou-left",
+      "printedName": "馬周之命",
+      "side": "left",
+      "birthLiteral": "己卯年九月十八日未時生",
+      "sourceYearPillar": "己卯",
+      "sourceMonth": 9,
+      "sourceDay": 18,
+      "sourceHourBranch": "未",
+      "genderLiteral": "陰男",
+      "sourceCucNumber": 6,
+      "sourceCucLiteral": "火六局",
+      "mingBranch": "卯",
+      "majorBranches": {
+        "紫微": "辰",
+        "天機": "卯",
+        "太陽": "丑",
+        "武曲": "子",
+        "天同": "亥",
+        "廉貞": "申",
+        "天府": "子",
+        "太陰": "丑",
+        "貪狼": "寅",
+        "巨門": "卯",
+        "天相": "辰",
+        "天梁": null,
+        "七殺": "午",
+        "破軍": "戌"
+      },
+      "unresolvedPrimaryLabels": [
+        {
+          "star": "天梁",
+          "sourceCellCandidate": "巳",
+          "reason": "Smallengravedglyphnotadjudicated;withheldbeforeruntimeevenifenginemaypredictthiscell"
+        }
+      ],
+      "transformationLabels": [
+        {
+          "kind": "祿",
+          "star": "武曲",
+          "branch": "子"
+        },
+        {
+          "kind": "權",
+          "star": "貪狼",
+          "branch": "寅"
+        },
+        {
+          "kind": "忌",
+          "star": "文曲",
+          "branch": "亥"
+        }
+      ],
+      "uncomparedTransformation": "科circlein巳butassociated天梁glyphwithheld",
+      "deathDateAnnotation": "丁卯年四十九歲四月初九故",
+      "modernTestYear": 1939,
+      "hourIndex": 7,
+      "hourCenter": 14
+    },
+    {
+      "id": "jia-yi-right",
+      "printedName": "賈誼之命",
+      "side": "right",
+      "birthLiteral": "癸卯年三月二十日卯時生",
+      "sourceYearPillar": "癸卯",
+      "sourceMonth": 3,
+      "sourceDay": 20,
+      "sourceHourBranch": "卯",
+      "genderLiteral": "陰男",
+      "sourceCucNumber": 4,
+      "sourceCucLiteral": "金四局",
+      "mingBranch": "丑",
+      "majorBranches": {
+        "紫微": "午",
+        "天機": "巳",
+        "太陽": "卯",
+        "武曲": "寅",
+        "天同": "丑",
+        "廉貞": "子",
+        "天府": "戌",
+        "太陰": "亥",
+        "貪狼": "子",
+        "巨門": "丑",
+        "天相": "寅",
+        "天梁": "卯",
+        "七殺": "辰",
+        "破軍": "申"
+      },
+      "unresolvedPrimaryLabels": [],
+      "transformationLabels": [
+        {
+          "kind": "祿",
+          "star": "破軍",
+          "branch": "申"
+        },
+        {
+          "kind": "權",
+          "star": "巨門",
+          "branch": "丑"
+        },
+        {
+          "kind": "科",
+          "star": "太陰",
+          "branch": "亥"
+        },
+        {
+          "kind": "忌",
+          "star": "貪狼",
+          "branch": "子"
+        }
+      ],
+      "deathDateAnnotation": "庚午年二十八歲四月初七故",
+      "modernTestYear": 1963,
+      "hourIndex": 3,
+      "hourCenter": 6
+    }
+  ],
+  "sourceMinorStarsFullyCollated": false,
+  "chartFrame": {
+    "basis": "Editorialnormalizationofprinted12celllayout;leftproseexplicit巨機居卯andMinglabelanchor;traditionalbranchorientationdeclared,not12literalprintedbranchlabels.",
+    "topLeftToRight": [
+      "巳",
+      "午",
+      "未",
+      "申"
+    ],
+    "rightTopToBottom": [
+      "酉",
+      "戌"
+    ],
+    "bottomRightToLeft": [
+      "亥",
+      "子",
+      "丑",
+      "寅"
+    ],
+    "leftBottomToTop": [
+      "卯",
+      "辰"
+    ]
+  },
+  "calendarBasis": "Modernmechanicalalignmentusesdeclaredordinarylunarmonth,UTC8,currentday,normalyeardivision;theseconventionsnotprovedhistoricalbytheprinteddate.",
+  "modernYearsAreHistoricalBirthYears": false,
+  "printedDeathAnnotationsAreNotRuntimeTargets": true,
+  "sourceOutcomesValidated": false
+}

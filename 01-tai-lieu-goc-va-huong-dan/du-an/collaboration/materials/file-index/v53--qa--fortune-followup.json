@@ -1,0 +1,53 @@
+{
+  "scope": "v53/qa/fortune-followup",
+  "files": [
+    {
+      "file": "v53/qa/fortune-followup/conventions-390.png",
+      "bytes": 10436,
+      "sha256": "f20e57ff33da142c63e9781f89d07e80965b48a8694984e3ef9641471a8c8ff9",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f20e57ff33da142c63e9781f89d07e80965b48a8694984e3ef9641471a8c8ff9",
+      "httpRange": {
+        "offset": 164338272,
+        "compressedBytes": 9978,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/fortune-followup/conventions-browser-tests.json",
+      "bytes": 1584,
+      "sha256": "b1f1afb81ba807277ec364ecc37f10ab1fdaca5ce9b1acb01ea084fe889a161e",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/b1f1afb81ba807277ec364ecc37f10ab1fdaca5ce9b1acb01ea084fe889a161e",
+      "httpRange": {
+        "offset": 341957982,
+        "compressedBytes": 505,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/fortune-followup/fortune-conventions.txt",
+      "bytes": 6386,
+      "sha256": "dfbe25968209e462ad7a8bc5046c17e8f5150b4f2376fad4bb7139755240a307",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/dfbe25968209e462ad7a8bc5046c17e8f5150b4f2376fad4bb7139755240a307",
+      "httpRange": {
+        "offset": 280985904,
+        "compressedBytes": 2592,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/fortune-followup/witness-tests.json",
+      "bytes": 49284,
+      "sha256": "b6955ed0d86599b097931729f039d37b4355dc2ee4556cbf1ff2d03e4a7dd750",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/b6955ed0d86599b097931729f039d37b4355dc2ee4556cbf1ff2d03e4a7dd750",
+      "httpRange": {
+        "offset": 157826297,
+        "compressedBytes": 5073,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

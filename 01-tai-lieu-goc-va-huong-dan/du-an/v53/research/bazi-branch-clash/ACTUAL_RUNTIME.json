@@ -1,0 +1,148 @@
+{
+  "executedUTC": "2026-10-29T14:07:10.344Z",
+  "libraryFile": "v46/node_modules/lunar-typescript/dist/index.cjs",
+  "librarySHA256": "76e490b74e9913ed94b49689b90abc688ed1e2b11456312b3eb081ec63cf2fbe",
+  "scriptSHA256": "34de7f9f8f593a106d9f550446bb7e1082b811d8c1cf024c78a5f7f8884596dc",
+  "freezeSHA256": "d69acbb9980452f5c14050c076f5abbba5500662bfff65e815218cd864c33cd7",
+  "rows": [
+    {
+      "pillar": "辛巳",
+      "expected": "白蜡金",
+      "actual": "白蜡金"
+    },
+    {
+      "pillar": "癸亥",
+      "expected": "大海水",
+      "actual": "大海水"
+    },
+    {
+      "pillar": "壬申",
+      "expected": "剑锋金",
+      "actual": "剑锋金"
+    },
+    {
+      "pillar": "庚寅",
+      "expected": "松柏木",
+      "actual": "松柏木"
+    },
+    {
+      "pillar": "甲子",
+      "expected": "海中金",
+      "actual": "海中金"
+    },
+    {
+      "pillar": "甲午",
+      "expected": "沙中金",
+      "actual": "沙中金"
+    }
+  ],
+  "reusedNaYin": [
+    {
+      "pillar": "己酉",
+      "expected": "大驿土",
+      "actual": "大驿土"
+    },
+    {
+      "pillar": "己卯",
+      "expected": "城头土",
+      "actual": "城头土"
+    }
+  ],
+  "reusedClashes": [
+    {
+      "branch": "子",
+      "index": 0,
+      "expected": "午",
+      "actual": "午"
+    },
+    {
+      "branch": "丑",
+      "index": 1,
+      "expected": "未",
+      "actual": "未"
+    },
+    {
+      "branch": "寅",
+      "index": 2,
+      "expected": "申",
+      "actual": "申"
+    },
+    {
+      "branch": "卯",
+      "index": 3,
+      "expected": "酉",
+      "actual": "酉"
+    },
+    {
+      "branch": "辰",
+      "index": 4,
+      "expected": "戌",
+      "actual": "戌"
+    },
+    {
+      "branch": "巳",
+      "index": 5,
+      "expected": "亥",
+      "actual": "亥"
+    },
+    {
+      "branch": "午",
+      "index": 6,
+      "expected": "子",
+      "actual": "子"
+    },
+    {
+      "branch": "未",
+      "index": 7,
+      "expected": "丑",
+      "actual": "丑"
+    },
+    {
+      "branch": "申",
+      "index": 8,
+      "expected": "寅",
+      "actual": "寅"
+    },
+    {
+      "branch": "酉",
+      "index": 9,
+      "expected": "卯",
+      "actual": "卯"
+    },
+    {
+      "branch": "戌",
+      "index": 10,
+      "expected": "辰",
+      "actual": "辰"
+    },
+    {
+      "branch": "亥",
+      "index": 11,
+      "expected": "巳",
+      "actual": "巳"
+    }
+  ],
+  "reusedEvidence": [
+    {
+      "file": "tmp/bazi-true-ghost-context-staging/ACTUAL_RUNTIME.json",
+      "bytes": 1940,
+      "sha256": "685c66ddda02cc3471aa3a7c7277141ec4ddde19dc2381c61870a4229a315456",
+      "purpose": "Reuse己卯/己酉only",
+      "queriesRerun": 0
+    },
+    {
+      "file": "v53/research/bazi-branch-harm/ACTUAL_RUNTIME.json",
+      "bytes": 2635,
+      "sha256": "d6983fd1d33531220128dbeb8e6a275a6cfa82bf16e9e271801a8d87248cd63f",
+      "purpose": "Reuse12CHONGrows",
+      "queriesRerun": 0
+    }
+  ],
+  "actualNewNaYinQueries": 6,
+  "reusedNaYinQueries": 2,
+  "reusedClashQueries": 12,
+  "newActualCalendarObjects": 0,
+  "newNatalCharts": 0,
+  "sourceOutcomesValidated": false,
+  "method": "Execute6specificuncoveredNaYinlookups;reuse2exactNaYinrowsand12actualCHONGresults.Notageneralclashefficacyorastrologicalpredictiontest."
+}

@@ -1,0 +1,41 @@
+{
+  "scope": "v53/qa/home-direction-tables",
+  "files": [
+    {
+      "file": "v53/qa/home-direction-tables/RELEASE_RESULTS.json",
+      "bytes": 899,
+      "sha256": "8e31303dbe0bced91da4b12be24a3e5c08dd727e2becd5050c4d0223d8af256b",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8e31303dbe0bced91da4b12be24a3e5c08dd727e2becd5050c4d0223d8af256b",
+      "httpRange": {
+        "offset": 294491868,
+        "compressedBytes": 485,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/home-direction-tables/RESULTS.json",
+      "bytes": 15391,
+      "sha256": "ac96a89d488efa819ffa82c12278e5fe8c46d47e07f6f3a3886154805a404df6",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/ac96a89d488efa819ffa82c12278e5fe8c46d47e07f6f3a3886154805a404df6",
+      "httpRange": {
+        "offset": 284843089,
+        "compressedBytes": 2251,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/home-direction-tables/SOURCE_RESULTS.json",
+      "bytes": 536,
+      "sha256": "9b1d6683ac1e0668b283712a3070fcd2f837b8f4dbe14387ef1ab8d2f2edac16",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9b1d6683ac1e0668b283712a3070fcd2f837b8f4dbe14387ef1ab8d2f2edac16",
+      "httpRange": {
+        "offset": 91309574,
+        "compressedBytes": 318,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

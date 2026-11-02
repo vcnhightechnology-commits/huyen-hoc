@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-28",
+  "attempt1": {
+    "result": "ERR_UNSUPPORTED_ESM_URL_SCHEME after actual-engine check passed; absolute Windows C: dynamic import unsupported",
+    "failedScriptRetained": "test-reference-before-import-fix.mjs",
+    "passingChecksBeforeFailure": 6,
+    "actualHHCDirectionsExecutionsBeforeFailure": 360,
+    "actualLunarYearObjectsBeforeFailure": 180,
+    "actualLunarAnnualFieldsBeforeFailure": 360,
+    "fixtureFileWritten": false,
+    "executionCountBasis": "Sequential code reached following dynamic import; all previous assertions completed. In-memory fixtures not retained, so not evidence independent of final run."
+  },
+  "fix": "pathToFileURL for dynamic import; source/reference logic unchanged",
+  "expectedFinalRerunCalls": {
+    "HHC": 360,
+    "LunarYear": 180
+  },
+  "doNotCountRepeatedExecutionAsIndependentEvidence": true,
+  "consumerChanged": false
+}

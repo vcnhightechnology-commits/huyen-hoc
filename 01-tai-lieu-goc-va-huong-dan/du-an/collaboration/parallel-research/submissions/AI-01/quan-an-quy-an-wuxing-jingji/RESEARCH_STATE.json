@@ -1,0 +1,93 @@
+{
+  "schema": "hhc.ai01.external-source-knowledge-handoff.v1",
+  "date": "2026-11-01",
+  "lane": "AI-01",
+  "scope": "TMTH-WYG-versus-WXJJ-Song-volume19-positive-seals",
+  "sourceWorksCompared": ["三命通會", "五行精紀"],
+  "physicalFacsimileCopiesWithPageImagesReviewed": 2,
+  "publicDigitalTextSourcesReviewed": [
+    "https://zh.wikisource.org/zh-hant/三命通會_(四庫全書本)/卷03",
+    "https://zh.wikisource.org/zh-hant/三命通會/卷二",
+    "https://zh.wikisource.org/zh-hant/三命通會/卷一",
+    "https://asklingxi.com/zh-tw/books/wuxing-jingji/19-jinshen/02-zhengyin",
+    "https://www.shidianguji.com/zh/book/NGJ892411999013122114408/chapter/1lmyjad4zcsvn",
+    "https://www.shidianguji.com/zh/book/NGJ8922621209348/chapter/1lnvyvqxghstk",
+    "https://www.shidianguji.com/zh/book/CADAL04201270/chapter/1l1xwxfumtuz3",
+    "https://www.shidianguji.com/zh/book/NGJ8922621209348/chapter/1lnvyv01dpw5c",
+    "https://www.shidianguji.com/zh/book/NGJ8922621209348/chapter/1lnvyv1jjj20w",
+    "https://www.shidianguji.com/zh/book/NGJ8922621209348/chapter/1lnvyvscx7ggz",
+    "https://www.shidianguji.com/zh/book/NGJ892411999013122114408/chapter/1lmyjaikl6tkj",
+    "https://catalog.digitalarchives.tw/item/00/61/2a/a1.html",
+    "https://www.xingmao.co/blog/posts/%E6%9D%8E%E9%8F%98%E6%BF%A4%EF%BD%9C%E3%80%8A%E5%85%AB%E7%A8%AE%E4%BA%94%E8%A1%8C%E7%B2%BE%E7%B4%80%E7%AE%8B%E8%A8%82%E2%80%A7%E5%87%A1%E4%BE%8B%E3%80%8B",
+    "https://www.shidianguji.com/zh/book/NGJ89241199902622348518/chapter/1lp2iwyy71o9u",
+    "https://commons.wikimedia.org/wiki/File:NCL-06584_%E4%BA%94%E8%A1%8C%E7%B2%BE%E7%B4%80.pdf",
+    "https://commons.wikimedia.org/wiki/File:NLC892-2621-209417_%E4%BA%94%E8%A1%8C%E7%B2%BE%E7%B4%80_%E7%AC%AC4%E5%86%8A.pdf"
+  ],
+  "facsimilePartiallyReviewed": {
+    "url": "https://commons.wikimedia.org/wiki/File:NLC892-411999013122-114453_五行精紀_第3冊.pdf",
+    "localFile": "v53/research/bazi-relations/evidence/facsimiles/NLC06857_WXJJ_VOL3_20261101.pdf",
+    "bytes": 37007952,
+    "sha256": "e88387495032048b71d11196ee59861ad1bfeee4c7ca5ee80fd9686eb9d37d04",
+    "pdfPagesReviewed": [47, 48, 49, 50],
+    "directNlcCatalogueConfirmed": false,
+    "openGlyph": "First example month stem at PDF page 50 remains unresolved (乙/己/已)."
+  },
+  "secondFacsimilePreviewReviewed": {
+    "url": "https://commons.wikimedia.org/wiki/File:NLC892-2621-209417_%E4%BA%94%E8%A1%8C%E7%B2%BE%E7%B4%80_%E7%AC%AC4%E5%86%8A.pdf",
+    "sourcePdfAcquired": false,
+    "pdfPagesPreviewed": [30, 31],
+    "page30": {
+      "localFile": "v53/research/bazi-relations/evidence/facsimiles/NLC892-2621-209417_VOL4_PAGE30_3840px.jpg",
+      "bytes": 1207853,
+      "sha256": "18d5c8fdd269cac798a7b66a63871ba65a94bc24b5dd36a204e2300a4bf8d1d4",
+      "reading": "福聚印; 年月日時胎五位中或四位"
+    },
+    "page31": {
+      "localFile": "v53/research/bazi-relations/evidence/facsimiles/NLC892-2621-209417_VOL4_PAGE31_3840px.jpg",
+      "bytes": 1049488,
+      "sha256": "3a64b33aada026c8b9ddb7eafe8c726a44f8a1cbebe2f4ac90072a26ded40d81",
+      "reading": "partial headings 帶殺印/臨空印/刑印"
+    },
+    "relationshipToShidianRecord": "Same NLC 892-2621 six-volume digitization series indicated; exact chapter-19 transcript-to-page linkage remains unverified. Shidian omits 日; the inspected scans visibly retain it."
+  },
+  "identifiedSecondCopyCandidate": {
+    "url": "https://commons.wikimedia.org/wiki/File:NCL-06584_五行精紀.pdf",
+    "edition": "清琴川張氏小琅嬛福地精鈔本",
+    "reportedPages": 445,
+    "reportedFileSize": "240.79 MB",
+    "downloaded": false,
+    "targetFolioLocated": false,
+    "sameObjectAsDigitalArchivesTaiwan6367905": "unverified"
+  },
+  "latestBibliographicNote": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/AI01_YUXIAO_BIBLIOGRAPHIC_NOTE_2026-11-01.md",
+  "yuxiaoBibliographicFinding": {
+    "source": "宋史藝文志卷五",
+    "entry": "通真子玉霄寶鑑經一卷",
+    "status": "bibliographic-only; no standalone 玉霄 text located",
+    "wxjjDigitalCitationVolumes": [1, 3, 4, 19, 20, 25]
+  },
+  "citationAndVariantRows": 13,
+  "theoryClaims": 20,
+  "illustrativeFourPillarCases": 2,
+  "readerKnowledgeCards": 6,
+  "verifiedInternalMonthAndHourPatterns": true,
+  "globalRuleOperatorsOrUnknownPremisesResolved": false,
+  "predictionsEfficacyValidated": false,
+  "engineAuditRuns": 1,
+  "engineFunctionCalls": 3,
+  "actualEngineAudit": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/AI01_ENGINE_EXAMPLE_AUDIT_2026-11-01.json",
+  "sourceOriginalBytesMutated": false,
+  "consumerChanged": false,
+  "GitHubWriteResult": "BLOCKED_403_ACCOUNT_SUSPENDED",
+  "GitHubPRCreatedThisTurn": false,
+  "workSavedAsLocalImportableFiles": true,
+  "importantVariants": [
+    "TMTH 水命人得本家印無益 versus WXJJ 水命人得木印無益",
+    "TMTH 五位俱 versus WXJJ 五位中或四位",
+    "WXJJ 乙卯 versus 己卯/已卯 in first illustrated horoscope",
+    "TMTH 甲戌日癸酉時 versus WXJJ 甲戌日乙酉時",
+    "TMTH 臨空印 versus WXJJ 歸空印",
+    "TMTH 自刑印 versus WXJJ 自刑殺",
+    "TMTH 鳯凰啣印 versus WXJJ 鳳凰御印格"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-29",
+  "failedBatches": 1,
+  "stage": "Named god row lookup for new source yue-de passed to old P08 API requiring month-de. First24 literal comparisons completed, next threw.",
+  "error": "TypeError: Named god row required",
+  "actualHHCCompassCallsBeforeFailure": 2,
+  "completedLiteralComparisonsBeforeFailure": 24,
+  "partialRawPayloadPersisted": false,
+  "failedBatchCountedAsPassing": false,
+  "sourceDataOrConsumerChanged": false,
+  "fix": "Explicit seven-row identifier map; original literal grids and expected counts unchanged. Re-execution justified by this implementation failure; count both batches.",
+  "retainedPreFixFiles": [
+    {
+      "file": "pre-fix/monthly-witness-reference.mjs",
+      "bytes": 2948,
+      "sha256": "75aed1d1b9a814086e776fe84a66a703024b7aa9afe8229df1f78955811496d8"
+    },
+    {
+      "file": "pre-fix/run-actual-once.mjs",
+      "bytes": 2397,
+      "sha256": "31fe2f7ffa610b82ab1b0405141489b066b5c46b78b2a9740a732ed053493596"
+    },
+    {
+      "file": "pre-fix/TRANSCRIPTION_FREEZE.json",
+      "bytes": 5864,
+      "sha256": "bdb4fa42f3381cb63758c3e7074432952f33e4c4c1e6b8c7bb435840ffd92e08"
+    }
+  ]
+}

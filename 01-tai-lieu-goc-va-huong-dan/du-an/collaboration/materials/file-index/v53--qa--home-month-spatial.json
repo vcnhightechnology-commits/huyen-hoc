@@ -1,0 +1,53 @@
+{
+  "scope": "v53/qa/home-month-spatial",
+  "files": [
+    {
+      "file": "v53/qa/home-month-spatial/PROMOTION_IDENTITIES.json",
+      "bytes": 5270,
+      "sha256": "e4c218a3316eea09d3c02ad7911c2bc9a4e8adc66cc5c4a299986a133522f075",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e4c218a3316eea09d3c02ad7911c2bc9a4e8adc66cc5c4a299986a133522f075",
+      "httpRange": {
+        "offset": 331222981,
+        "compressedBytes": 1425,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/home-month-spatial/REFERENCE_RESULTS.json",
+      "bytes": 435,
+      "sha256": "0377027e4a9b99def2dfb0ed77490da9b44045594391ba98c4d5d90e014f6952",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0377027e4a9b99def2dfb0ed77490da9b44045594391ba98c4d5d90e014f6952",
+      "httpRange": {
+        "offset": 104169005,
+        "compressedBytes": 272,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/home-month-spatial/RELEASE_RESULTS.json",
+      "bytes": 1286,
+      "sha256": "cf1c51663241e0fd0e55e4eec2a243bbbf8dc373e4e3fd2b9daaddbb279631ef",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/cf1c51663241e0fd0e55e4eec2a243bbbf8dc373e4e3fd2b9daaddbb279631ef",
+      "httpRange": {
+        "offset": 85060670,
+        "compressedBytes": 549,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/home-month-spatial/SOURCE_RESULTS.json",
+      "bytes": 407,
+      "sha256": "5924eabb297542ac5f4903e9bd789654bfe17feb3c216bc5d7abf877f4586ba4",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5924eabb297542ac5f4903e9bd789654bfe17feb3c216bc5d7abf877f4586ba4",
+      "httpRange": {
+        "offset": 229154498,
+        "compressedBytes": 238,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

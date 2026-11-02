@@ -1,0 +1,62 @@
+{
+  "checks": [
+    {
+      "name": "Four retained HTTPS response bodies keep byte length,hash and authorized TLS evidence",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Actual PDF matches Commons API size and SHA1; local SHA256 records identity",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Institutional catalog independently identifies title,author,publisher,place,year and accession",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Actual486PDF pages remain distinguished from catalog487and conditional1915edition date",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "All59stored navigation/evidence page rasters retain their exact extraction hashes",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "All13selected content/bibliographic page rasters match their actual parent PDF images",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Two JP2view PNG derivatives have identical decoded pixels and no text reconstruction",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Manual late-Zi instruction and direct named example remain separately anchored to read pages",
+      "ok": true,
+      "detail": null
+    },
+    {
+      "name": "Traditional onset,person identity and whole-book coverage remain explicitly excluded",
+      "ok": true,
+      "detail": null
+    }
+  ],
+  "summary": {
+    "httpBodies": 4,
+    "pdfBytes": 58287949,
+    "pdfSHA256": "3dfee4ef4636d48c2d2e749f90408a825e0eacee99b8c73b9748a03deb73dcfd",
+    "pdfPages": 486,
+    "storedPageRasters": 59,
+    "parentImageChecks": 13,
+    "targetContentPages": 8,
+    "targetUnits": 3,
+    "noOCR": true,
+    "noIndependentTextualLineageClaim": true
+  },
+  "manualSHA256": "6b3683cea1e7ee4eaffbf21061e2b1286c236494641a1bd645a6ddd94b27c8a0"
+}

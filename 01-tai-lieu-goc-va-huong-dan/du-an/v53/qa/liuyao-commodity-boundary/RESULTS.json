@@ -1,0 +1,243 @@
+{
+  "date": "2026-10-28",
+  "status": "staged-corrected-b02-numbering-and-rejection-of-automatic-commodity-inference-verified",
+  "checks": [
+    {
+      "name": "24 inspected source positions,retainedTOC17 reread and2 high-resolution commodity images preserve recorded bytes;no newHTTP/container",
+      "ok": true
+    },
+    {
+      "name": "One actual HHC call confirms printed static旅56;6 source kin/branch labels,Self1/Response4 and two metalWealth coordinates match",
+      "ok": true
+    },
+    {
+      "name": "Quoted metal-to-jewels rule is explicitly rejected by named author and cannot override caller commodity or silently turn翠毛 into modernjade翡翠",
+      "ok": true
+    },
+    {
+      "name": "TOC17 and body317–318 reveal omitted marriage82 and repeatedrisk81;workingmap expands136→137 without altering oldmap or source",
+      "ok": true
+    },
+    {
+      "name": "Strict context/figures reject missing fields,aliases,hidden premises;returned source data cannot mutate tables and money/action/date stay unknown",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "newViewedSourcePositions": 24,
+    "expandedPriorTOCPositions": 1,
+    "sourceQARendersViewed": 3,
+    "firstPassSpansAdded": 16,
+    "workingRegisteredUnitsBefore": 136,
+    "workingRegisteredUnitsAfter": 137,
+    "currentFirstPassSpans": 82,
+    "currentHeadingOnlyUnits": 47,
+    "partialFoundationUnits": 7,
+    "otherPartialUnits": 1,
+    "actualHHCHexCalls": 1,
+    "printedCastFixtures": 1,
+    "sourceKinBranchLabels": 6,
+    "metalWealthCoordinates": 2,
+    "selectedQuotedOldMappings": 2,
+    "explicitSourceCommodityLabels": 4,
+    "newHTTPRequests": 0,
+    "newOriginalContainers": 0
+  },
+  "fixtureProjection": {
+    "system": "B02-ch076-explicit-commodity-question",
+    "sourcePages": [
+      313,
+      314
+    ],
+    "chart": {
+      "schema": "hhc.liuyao.structural-chart.v1",
+      "orientation": "bottom-to-top",
+      "input": [
+        8,
+        8,
+        7,
+        7,
+        8,
+        7
+      ],
+      "primary": {
+        "number": 56,
+        "normalizedName": "火山旅",
+        "palace": "離",
+        "palaceTrigram": 3,
+        "palaceElement": "火",
+        "stage": "一世",
+        "stageIndex": 1,
+        "shi": 1,
+        "ying": 4,
+        "bits": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1
+        ]
+      },
+      "changed": {
+        "number": 56,
+        "normalizedName": "火山旅",
+        "bits": [
+          0,
+          0,
+          1,
+          1,
+          0,
+          1
+        ],
+        "ownPalaceDiagnostic": "離",
+        "ownPalaceElementDiagnostic": "火",
+        "annotationKinBasisPalace": "離",
+        "shiYingReassigned": false
+      },
+      "dayStem": null,
+      "lines": [
+        {
+          "line": 1,
+          "stem": "丙",
+          "branch": "辰",
+          "element": "土",
+          "kin": "子孫",
+          "kinBasisPalace": "離",
+          "value": 8,
+          "polarity": 0,
+          "moving": false,
+          "role": "世",
+          "spirit": null,
+          "changed": null
+        },
+        {
+          "line": 2,
+          "stem": "丙",
+          "branch": "午",
+          "element": "火",
+          "kin": "兄弟",
+          "kinBasisPalace": "離",
+          "value": 8,
+          "polarity": 0,
+          "moving": false,
+          "role": null,
+          "spirit": null,
+          "changed": null
+        },
+        {
+          "line": 3,
+          "stem": "丙",
+          "branch": "申",
+          "element": "金",
+          "kin": "妻財",
+          "kinBasisPalace": "離",
+          "value": 7,
+          "polarity": 1,
+          "moving": false,
+          "role": null,
+          "spirit": null,
+          "changed": null
+        },
+        {
+          "line": 4,
+          "stem": "己",
+          "branch": "酉",
+          "element": "金",
+          "kin": "妻財",
+          "kinBasisPalace": "離",
+          "value": 7,
+          "polarity": 1,
+          "moving": false,
+          "role": "應",
+          "spirit": null,
+          "changed": null
+        },
+        {
+          "line": 5,
+          "stem": "己",
+          "branch": "未",
+          "element": "土",
+          "kin": "子孫",
+          "kinBasisPalace": "離",
+          "value": 8,
+          "polarity": 0,
+          "moving": false,
+          "role": null,
+          "spirit": null,
+          "changed": null
+        },
+        {
+          "line": 6,
+          "stem": "己",
+          "branch": "巳",
+          "element": "火",
+          "kin": "兄弟",
+          "kinBasisPalace": "離",
+          "value": 7,
+          "polarity": 1,
+          "moving": false,
+          "role": null,
+          "spirit": null,
+          "changed": null
+        }
+      ],
+      "movingLines": [],
+      "scope": "structural-source-reference-only",
+      "consumerApplied": false,
+      "predictedEvent": null,
+      "missingPremises": [
+        "用神selection",
+        "飛伏rules",
+        "calendar month/day boundaries",
+        "旺衰/旬空conditionalrules",
+        "full source exceptions",
+        "outcome validation"
+      ]
+    },
+    "explicitCommodityLabel": null,
+    "questionScopeComplete": false,
+    "wealthCoordinates": [
+      {
+        "line": 3,
+        "branch": "申",
+        "element": "金"
+      },
+      {
+        "line": 4,
+        "branch": "酉",
+        "element": "金"
+      }
+    ],
+    "quotedOldMappingReferences": [
+      {
+        "element": "金",
+        "labels": [
+          "珠寶玉石"
+        ],
+        "acceptedByNamedAuthor": false,
+        "notARecommendation": true
+      }
+    ],
+    "automaticCommodityInferenceRejected": true,
+    "inferredCommodity": null,
+    "commodityRecommendation": null,
+    "productClassification": null,
+    "sourceQuestionCommodityPreserved": null,
+    "actualPrice": null,
+    "profit": null,
+    "financialResult": null,
+    "saleOrPurchaseAction": null,
+    "geographicalRecommendation": null,
+    "chronologicalDateAdapter": null,
+    "effectiveStrength": null,
+    "sourceOutcomeValidated": false,
+    "consumerApplied": false
+  },
+  "sourceEmended": false,
+  "commodityInferenceRejectedByNamedAuthor": true,
+  "fullConditionalRulesEncoded": false,
+  "sourceOutcomesValidated": false,
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false
+}

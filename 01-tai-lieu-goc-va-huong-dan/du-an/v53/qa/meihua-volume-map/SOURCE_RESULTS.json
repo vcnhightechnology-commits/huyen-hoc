@@ -1,0 +1,64 @@
+{
+  "checks": [
+    {
+      "name": "Retained original PDF and all47new bounded reading records have exact source-image hashes;no new HTTP or rendered image",
+      "ok": true
+    },
+    {
+      "name": "47new pages plus retained35content/two endleaf records span all84pages of printed volumes4/5;navigation is not full reading",
+      "ok": true
+    },
+    {
+      "name": "All82content pages have a bounded unit location;93groups retain34prior IDs, hierarchy and unfinished clause coverage",
+      "ok": true
+    },
+    {
+      "name": "Uncertain勢heading, nested poem/umbrella and distinct traveller headings remain explicit;table boundary extends through212",
+      "ok": true
+    },
+    {
+      "name": "60literal row headers have valid sexagenary order and six page-transition controls;720positions are not720transcribed rules",
+      "ok": true
+    },
+    {
+      "name": "Four brush-season metaphors stay separate from the20cell season table;23glyph anecdotes remain narrative evidence",
+      "ok": true
+    },
+    {
+      "name": "Glyph六神無正位is not a missing cyclic day-stem assignment;glyph用神and moving-trigram use remain distinct",
+      "ok": true
+    },
+    {
+      "name": "Actual released MaiHoa engine keeps eight trigrams and rejects an invented ninth after the printed extra勾陳clause",
+      "ok": true,
+      "detail": {
+        "realEngineControls": 9
+      }
+    },
+    {
+      "name": "Consumer HTML/JS/CSS keep released bytes;pending candidate remains separate without claiming browser or PDF passes",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "newPageRecords": 47,
+    "pageNavigationCovered": 84,
+    "contentPages": 82,
+    "priorUnitGroups": 34,
+    "newUnitGroups": 59,
+    "totalUnitGroups": 93,
+    "hourTableRowHeaders": 60,
+    "labelCellPositions": 720,
+    "literalLabelCellsTranscribed": 0,
+    "brushSeasonRows": 4,
+    "glyphSpirits": 6,
+    "anecdoteLabels": 23,
+    "newHTTPResponses": 0,
+    "newRenderedDerivatives": 0,
+    "realEngineControls": 9,
+    "consumerChanged": false,
+    "wholeBookRead": false,
+    "wholeBookApplied": false
+  },
+  "htmlSHA256": "3800162854742c915d60f0051c65cadb0eb9a1c803f9f937bf1b6a593c96d268"
+}

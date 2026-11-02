@@ -1,0 +1,696 @@
+{
+  "books": [
+    {
+      "id": "M07",
+      "group": "Mệnh lý – Bát tự",
+      "title_vi": "Bảng giải thích quy tắc lập Tứ trụ",
+      "title_han": "四柱排盤",
+      "level": "Nhập môn",
+      "access": "Nguồn tra cứu",
+      "description": "Trụ năm theo Lập Xuân, trụ tháng theo tiết khí, quy tắc đổi ngày giờ Tý",
+      "url": "https://pillarchart.com/methodology"
+    },
+    {
+      "id": "M08",
+      "group": "Mệnh lý – Bát tự",
+      "title_vi": "Địa chi tàng can",
+      "title_han": "地支藏干",
+      "level": "Trung cấp",
+      "access": "Nguồn tra cứu",
+      "description": "Đối chiếu thiên can ẩn của 12 địa chi và bản khí",
+      "url": "https://pillarchart.com/hidden-stems"
+    },
+    {
+      "id": "F01",
+      "group": "Nền tảng – Dịch học",
+      "title_vi": "Chu Dịch / Kinh Dịch",
+      "title_han": "周易",
+      "level": "Nhập môn",
+      "access": "Toàn văn",
+      "description": "64 quẻ, quái từ, hào từ, Dịch truyện",
+      "url": "https://zh.wikisource.org/zh-hant/周易"
+    },
+    {
+      "id": "F02",
+      "group": "Nền tảng – Dịch học",
+      "title_vi": "Chu Dịch, bản song ngữ Anh–Hán",
+      "title_han": "周易",
+      "level": "Nhập môn",
+      "access": "Toàn văn",
+      "description": "đối chiếu chữ Hán và bản dịch James Legge",
+      "url": "https://ctext.org/book-of-changes"
+    },
+    {
+      "id": "F03",
+      "group": "Nền tảng – Dịch học",
+      "title_vi": "Hoàng Cực Kinh Thế",
+      "title_han": "皇極經世",
+      "level": "Nâng cao",
+      "access": "Thư mục/tìm kiếm",
+      "description": "tượng số, lịch sử thuật số; cần kiểm định phiên bản",
+      "url": "https://zh.wikisource.org/wiki/Portal:科學技術"
+    },
+    {
+      "id": "M01",
+      "group": "Mệnh lý – Bát tự",
+      "title_vi": "Tam Mệnh Thông Hội",
+      "title_han": "三命通會",
+      "level": "Trung cấp",
+      "access": "Toàn văn",
+      "description": "can chi, ngũ hành, thần sát và nhiều học thuyết Tứ trụ",
+      "url": "https://zh.wikisource.org/wiki/三命通會"
+    },
+    {
+      "id": "M02",
+      "group": "Mệnh lý – Bát tự",
+      "title_vi": "Tam Mệnh Thông Hội, bản scan quyển 1",
+      "title_han": "三命通會",
+      "level": "Trung cấp",
+      "access": "Bản scan",
+      "description": "đối chiếu bố cục bản in Tứ khố",
+      "url": "https://archive.org/details/06066037.cn"
+    },
+    {
+      "id": "M03",
+      "group": "Mệnh lý – Bát tự",
+      "title_vi": "Tích Thiên Tủy",
+      "title_han": "滴天髓",
+      "level": "Nâng cao",
+      "access": "Toàn văn",
+      "description": "vượng suy, hình tượng, thể dụng, thuận nghịch",
+      "url": "https://zh.wikisource.org/zh-hant/滴天髓"
+    },
+    {
+      "id": "M04",
+      "group": "Mệnh lý – Bát tự",
+      "title_vi": "Uyên Hải Tử Bình",
+      "title_han": "淵海子平",
+      "level": "Trung cấp",
+      "access": "Thư mục/tra cứu bản",
+      "description": "cách cục, thập thần, truyền thống Tử Bình",
+      "url": "https://www.shuge.org/meet/topic/18510/"
+    },
+    {
+      "id": "M05",
+      "group": "Mệnh lý – Bát tự",
+      "title_vi": "Tử Bình Chân Thuyên",
+      "title_han": "子平真詮",
+      "level": "Nâng cao",
+      "access": "Thư mục tác phẩm",
+      "description": "nguyệt lệnh, cách cục, luận dụng thần; cần tìm bản chú thích đáng tin",
+      "url": "https://zh.wikisource.org/zh-hant/Portal:科學技術"
+    },
+    {
+      "id": "M06",
+      "group": "Mệnh lý – Bát tự",
+      "title_vi": "Thần Phong Thông Khảo",
+      "title_han": "神峰通考",
+      "level": "Nâng cao",
+      "access": "Thư mục/trao đổi cổ thư",
+      "description": "so sánh luận giải mệnh lý và các dị bản",
+      "url": "https://www.shuge.org/meet/topic/92982/"
+    },
+    {
+      "id": "T01",
+      "group": "Tử vi Đẩu số",
+      "title_vi": "Tử Vi Đẩu Số Toàn Thư",
+      "title_han": "紫微斗數全書",
+      "level": "Trung cấp",
+      "access": "Toàn văn",
+      "description": "an sao, 12 cung, các thiên phú và luận đoán cổ",
+      "url": "https://zh.wikisource.org/zh-hant/紫微斗數全書"
+    },
+    {
+      "id": "T02",
+      "group": "Tử vi Đẩu số",
+      "title_vi": "Tử Vi Đẩu Số trong Tục Đạo Tạng",
+      "title_han": "紫微斗數",
+      "level": "Nâng cao",
+      "access": "Toàn văn",
+      "description": "đối chiếu truyền bản khác với Tử Vi Đẩu Số Toàn Thư",
+      "url": "https://zh.wikisource.org/zh-hant/紫微斗數"
+    },
+    {
+      "id": "B01",
+      "group": "Bói quẻ – Dịch số",
+      "title_vi": "Mai Hoa Dịch Số",
+      "title_han": "梅花易數",
+      "level": "Trung cấp",
+      "access": "Toàn văn theo quyển",
+      "description": "lập quẻ theo số, thời gian, tượng và thể dụng",
+      "url": "https://zh.wikisource.org/zh-hant/梅花易數/卷一"
+    },
+    {
+      "id": "B02",
+      "group": "Bói quẻ – Lục Hào",
+      "title_vi": "Tăng San Bốc Dịch",
+      "title_han": "增刪卜易",
+      "level": "Trung cấp",
+      "access": "Toàn văn",
+      "description": "lập quẻ Lục Hào, dụng thần, nhật nguyệt, động biến",
+      "url": "https://zh.wikisource.org/zh-hant/增刪卜易"
+    },
+    {
+      "id": "B03",
+      "group": "Bói quẻ – Lục Hào",
+      "title_vi": "Bốc Phệ Chính Tông",
+      "title_han": "卜筮正宗",
+      "level": "Nâng cao",
+      "access": "Toàn văn theo quyển",
+      "description": "lục thân, dụng thần, quyết đoán, so sánh với Tăng San",
+      "url": "https://zh.wikisource.org/wiki/卜筮正宗（河潞武子龄校本）/卷前"
+    },
+    {
+      "id": "P01",
+      "group": "Phong thủy",
+      "title_vi": "Táng Thư",
+      "title_han": "葬書",
+      "level": "Trung cấp",
+      "access": "Toàn văn",
+      "description": "tư tưởng âm trạch, địa thế; tác giả cổ truyền còn tranh luận",
+      "url": "https://zh.wikisource.org/zh-hant/葬書"
+    },
+    {
+      "id": "P02",
+      "group": "Phong thủy",
+      "title_vi": "Táng Thư, bản Tứ khố",
+      "title_han": "葬書（四庫全書本）",
+      "level": "Nâng cao",
+      "access": "Toàn văn và lời đề yếu",
+      "description": "đối chiếu nguồn gốc và nhiều dị bản",
+      "url": "https://zh.wikisource.org/wiki/葬書_(四庫全書本)"
+    },
+    {
+      "id": "P03",
+      "group": "Phong thủy",
+      "title_vi": "Trạch Kinh / Hoàng Đế Trạch Kinh",
+      "title_han": "宅經",
+      "level": "Trung cấp",
+      "access": "Toàn văn",
+      "description": "tư tưởng dương trạch cổ và phân hướng",
+      "url": "https://zh.wikisource.org/zh-hant/宅經"
+    },
+    {
+      "id": "P04",
+      "group": "Phong thủy",
+      "title_vi": "Dương Trạch Chân Quyết",
+      "title_han": "陽宅真訣",
+      "level": "Trung cấp",
+      "access": "Bản scan",
+      "description": "Bát trạch, địa thế, phân định phương vị",
+      "url": "https://www.shuge.org/view/yang_zhai_zhen_jue/"
+    },
+    {
+      "id": "P05",
+      "group": "Phong thủy",
+      "title_vi": "Nhân Tử Tu Tri",
+      "title_han": "人子須知",
+      "level": "Nâng cao",
+      "access": "Toàn văn",
+      "description": "hình thế, long–huyệt–sa–thủy và ví dụ mô tả địa hình",
+      "url": "https://zh.wikisource.org/zh-hant/人子須知"
+    },
+    {
+      "id": "P06",
+      "group": "Phong thủy",
+      "title_vi": "Địa Lý Đại Thành",
+      "title_han": "地理大成",
+      "level": "Nâng cao",
+      "access": "Bản scan bộ sách",
+      "description": "loan đầu, la kinh, lý khí; bộ sách nhiều tập",
+      "url": "https://www.shuge.org/view/di_li_da_cheng/"
+    },
+    {
+      "id": "P07",
+      "group": "Phong thủy",
+      "title_vi": "Trùng Đính Tướng Trạch Tạo Phúc Toàn Thư",
+      "title_han": "重訂相宅造福全書",
+      "level": "Nâng cao",
+      "access": "Bản scan tuyển tập",
+      "description": "bao gồm Lỗ Ban Kinh, Ngọc Hạp Ký, Dương Trạch Đại Toàn",
+      "url": "https://www.shuge.org/view/zao_fu_quan_shu/"
+    },
+    {
+      "id": "P08",
+      "group": "Phong thủy",
+      "title_vi": "Dương Trạch Thập Thư",
+      "title_han": "陽宅十書",
+      "level": "Nâng cao",
+      "access": "Thư mục bản cổ",
+      "description": "tuyển khảo cứu phong thủy dương trạch và dị bản",
+      "url": "https://www.shuge.org/meet/topic/16222/"
+    },
+    {
+      "id": "N01",
+      "group": "Nhân tướng học",
+      "title_vi": "Thần Tướng Toàn Biên",
+      "title_han": "神相全編",
+      "level": "Trung cấp",
+      "access": "Bản scan",
+      "description": "tổng tập tư liệu về tướng pháp lịch sử",
+      "url": "https://old.shuge.org/ebook/shen-xiang-quan-bian/"
+    },
+    {
+      "id": "N02",
+      "group": "Nhân tướng học",
+      "title_vi": "Thần Tướng Toàn Biên, bản PDF",
+      "title_han": "神相全編",
+      "level": "Nâng cao",
+      "access": "Bản scan",
+      "description": "tham khảo bản số hóa ở Wikimedia Commons",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/2/22/NLC416-13jh001662-59167_神相全編.pdf"
+    },
+    {
+      "id": "N03",
+      "group": "Nhân tướng học",
+      "title_vi": "Nghiên cứu phiên bản Ma Y Tướng Pháp",
+      "title_han": "麻衣相法",
+      "level": "Nâng cao",
+      "access": "Nghiên cứu học thuật",
+      "description": "kiểm định niên đại và mối liên hệ với Thần Tướng Toàn Biên",
+      "url": "https://www.airitilibrary.com/Article/Detail/02544466-201612-201703010021-201703010021-131-164"
+    },
+    {
+      "id": "L01",
+      "group": "Trạch nhật",
+      "title_vi": "Khâm Định Hiệp Kỷ Biện Phương Thư",
+      "title_han": "欽定協紀辨方書",
+      "level": "Nâng cao",
+      "access": "Toàn văn",
+      "description": "hệ thống chọn ngày, thần sát, lịch pháp truyền thống",
+      "url": "https://zh.wikisource.org/zh-hant/欽定協紀辨方書_(四庫全書本)"
+    },
+    {
+      "id": "L02",
+      "group": "Trạch nhật",
+      "title_vi": "Hiệp Kỷ Biện Phương Thư, bản scan",
+      "title_han": "欽定協紀辨方書",
+      "level": "Nâng cao",
+      "access": "Bản scan nhiều quyển",
+      "description": "đối chiếu bản in cũ và bản điện tử",
+      "url": "https://commons.wikimedia.org/wiki/Category:欽定協紀辨方書"
+    },
+    {
+      "id": "S01",
+      "group": "Tam thức",
+      "title_vi": "Độn Giáp Diễn Nghĩa",
+      "title_han": "遁甲演義",
+      "level": "Chuyên sâu",
+      "access": "Toàn văn",
+      "description": "Kỳ Môn Độn Giáp, cửu cung, cửu tinh, bát môn",
+      "url": "https://zh.wikisource.org/zh-hant/遁甲演義"
+    },
+    {
+      "id": "S02",
+      "group": "Tam thức",
+      "title_vi": "Lục Nhâm Đại Toàn",
+      "title_han": "六壬大全",
+      "level": "Chuyên sâu",
+      "access": "Toàn văn",
+      "description": "Đại Lục Nhâm, tứ khóa, tam truyền, thần tướng",
+      "url": "https://zh.wikisource.org/wiki/六壬大全"
+    },
+    {
+      "id": "S03",
+      "group": "Tam thức",
+      "title_vi": "Thái Ất Kim Kính Thức Kinh",
+      "title_han": "太乙金鏡式經",
+      "level": "Chuyên sâu",
+      "access": "Toàn văn",
+      "description": "Thái Ất và các phương pháp lập thức cổ",
+      "url": "https://zh.wikisource.org/zh-hant/太乙金鏡式經_(四庫全書本)"
+    },
+    {
+      "id": "V01",
+      "group": "Việt Nam – Hán Nôm",
+      "title_vi": "Viện Nghiên cứu Hán Nôm",
+      "title_han": "漢喃研究院",
+      "level": "Mọi cấp",
+      "access": "Thư viện/tra cứu",
+      "description": "tìm tư liệu địa lý, Hán Nôm, Tả Ao; một số bản chưa số hóa",
+      "url": "https://hannom.vass.gov.vn/"
+    },
+    {
+      "id": "V02",
+      "group": "Việt Nam – Hán Nôm",
+      "title_vi": "Thư viện số Hán Nôm",
+      "title_han": "漢喃數字圖書館",
+      "level": "Mọi cấp",
+      "access": "Thư viện số",
+      "description": "tra văn bản chữ Hán/Nôm lưu giữ ở Việt Nam",
+      "url": "https://nomfoundation.org/nom-project/Digital-Library-of-Han-Nom?uiLang=vn"
+    },
+    {
+      "id": "V03",
+      "group": "Sách tiếng Việt",
+      "title_vi": "Kinh Dịch – Đạo của người quân tử",
+      "title_han": "—",
+      "level": "Nhập môn",
+      "access": "Thông tin xuất bản",
+      "description": "sách nhập môn Kinh Dịch tiếng Việt, Nguyễn Hiến Lê",
+      "url": "https://www.fahasa.com/kinh-dich-dao-cua-nguoi-quan-tu-tb-2023.html"
+    },
+    {
+      "id": "V04",
+      "group": "Sách tiếng Việt",
+      "title_vi": "Tử Vi Đẩu Số Tân Biên",
+      "title_han": "—",
+      "level": "Trung cấp",
+      "access": "Thông tin/tra cứu bản in",
+      "description": "sách tiếng Việt của Vân Đằng Thái Thứ Lang; xác minh xuất bản và quyền truy cập",
+      "url": "https://www.dantocking.com/2012/11/tu-vi-au-so-tan-bien-van-ang-thai-thu.html"
+    },
+    {
+      "id": "X01",
+      "group": "Kiểm chứng – tham khảo",
+      "title_vi": "Stanford Encyclopedia of Philosophy: Chinese Philosophy of Change",
+      "title_han": "易學研究",
+      "level": "Mọi cấp",
+      "access": "Nghiên cứu học thuật",
+      "description": "Đối chiếu 8 quái, 64 quẻ và khung lịch sử tư tưởng Dịch học.",
+      "url": "https://plato.stanford.edu/entries/chinese-change/"
+    },
+    {
+      "id": "X02",
+      "group": "Kiểm chứng – tham khảo",
+      "title_vi": "Bảng cung phi, tám hướng Bát trạch",
+      "title_han": "八宅",
+      "level": "Nhập môn",
+      "access": "Nguồn tra cứu",
+      "description": "Đối chiếu phép tính cung phi và phân loại hướng theo Đại Du Niên.",
+      "url": "https://www.amlichvn.net/xem-huong-nha/"
+    },
+    {
+      "id": "X03",
+      "group": "Kiểm chứng – tham khảo",
+      "title_vi": "Bảng 60 hoa giáp và nạp âm",
+      "title_han": "六十甲子納音",
+      "level": "Nhập môn",
+      "access": "Nguồn tra cứu",
+      "description": "Đối chiếu từng cặp can chi và ngũ hành nạp âm trong chu kỳ 60.",
+      "url": "https://liushijia.quan77.cn/"
+    },
+    {
+      "id": "X04",
+      "group": "Kiểm chứng – tham khảo",
+      "title_vi": "Kinh Dịch (Chu Dịch) – Chinese Text Project",
+      "title_han": "周易",
+      "level": "Mọi cấp",
+      "access": "Toàn văn",
+      "description": "Văn bản Hán cổ phục vụ tra cứu tên quẻ và tư tưởng của Dịch học.",
+      "url": "https://ctext.org/book-of-changes"
+    }
+  ],
+  "moduleSources": [
+    {
+      "id": "SRC_M_01",
+      "module": [
+        "menh",
+        "tuvi"
+      ],
+      "title_vi": "Tử Vi Đẩu Số Toàn Thư, quyển II",
+      "title_han": "紫微斗數全書/卷二",
+      "url": "https://zh.wikisource.org/zh-hant/紫微斗數全書/卷二",
+      "access": "toan_van_han",
+      "source_type": "co_thu",
+      "sections": [
+        "六十花甲子納音歌",
+        "安身命例",
+        "安南北斗諸星訣",
+        "安祿權科忌四星變化訣"
+      ],
+      "use": "nạp âm, phép an sao, 12 cung, bảng Tứ Hóa",
+      "verified": "Da doi chieu trang nguon; cac bang an sao phuc tap can test them"
+    },
+    {
+      "id": "SRC_M_02",
+      "module": [
+        "menh",
+        "bazi"
+      ],
+      "title_vi": "Tam Mệnh Thông Hội – tổng luận nạp âm",
+      "title_han": "三命通會",
+      "url": "https://ctext.org/wiki.pl?chapter=926860&if=en",
+      "access": "toan_van_han_trang_chi_muc",
+      "source_type": "co_thu",
+      "sections": [
+        "總論納音"
+      ],
+      "use": "nguồn lịch sử cho nạp âm, 60 hoa giáp",
+      "verified": "Trang tra cuu co van ban; cong cu truy cap co the han che"
+    },
+    {
+      "id": "SRC_M_03",
+      "module": [
+        "menh",
+        "bazi",
+        "tuvi"
+      ],
+      "title_vi": "Âm lịch Việt Nam – nghiên cứu Hồ Ngọc Đức",
+      "title_han": "越南陰曆",
+      "url": "https://honguyenviet.com/amlich/vncal_en.html",
+      "access": "phuong_phap",
+      "source_type": "lich_phap",
+      "sections": [
+        "Lunar calendar calculations",
+        "Official and astronomical calendar"
+      ],
+      "use": "lịch âm Việt Nam, múi giờ, các mốc lịch sử",
+      "verified": "Da doc mo ta phuong phap"
+    },
+    {
+      "id": "SRC_M_04",
+      "module": [
+        "menh"
+      ],
+      "title_vi": "Bát Trạch Minh Kính – du niên, cung phi, tám hướng",
+      "title_han": "八宅明鏡",
+      "url": "https://www.keepds.com/book/read?bo=bazhaimingjing",
+      "access": "van_ban_tong_hop_chua_hieu_dinh",
+      "source_type": "co_thu_ban_so_hoa",
+      "sections": [
+        "歸藏訣",
+        "東四宅",
+        "西四宅",
+        "游年"
+      ],
+      "use": "hệ cung phi Bát trạch và ý nghĩa bốn hướng truyền thống",
+      "verified": "Da doi chieu doan kinh ve sinh khi/thien y/dien nien; van ban web chua co ban scan hieu dinh"
+    },
+    {
+      "id": "SRC_T_01",
+      "module": [
+        "tuvi"
+      ],
+      "title_vi": "Tử Vi Đẩu Số Toàn Thư – toàn lãm",
+      "title_han": "紫微斗數全書/全覽",
+      "url": "https://zh.wikisource.org/zh-hant/紫微斗數全書/全覽",
+      "access": "toan_van_han",
+      "source_type": "co_thu",
+      "sections": [
+        "安身命例",
+        "安星訣",
+        "論星辰"
+      ],
+      "use": "hệ sao, cách an 12 cung, chính tinh và phụ tinh",
+      "verified": "Da doi chieu muc co thu va trich doan"
+    },
+    {
+      "id": "SRC_T_03",
+      "module": [
+        "tuvi"
+      ],
+      "title_vi": "Tử Vi Đẩu Số Toàn Thư – Quyển I: Chư tinh vấn đáp",
+      "title_han": "紫微斗數全書/卷一",
+      "url": "https://zh.wikisource.org/zh-hant/紫微斗數全書/卷一",
+      "access": "toan_van_han",
+      "source_type": "co_thu",
+      "sections": [
+        "諸星問答論",
+        "十四正曜"
+      ],
+      "use": "danh muc 14 sao va y nghia bieu tuong trong co thu",
+      "verified": "Da doi chieu muc luc cac chuong sao; moi chu de tong hop la dien giai, khong phai du doan"
+    },
+    {
+      "id": "SRC_T_02",
+      "module": [
+        "tuvi"
+      ],
+      "title_vi": "Danh mục in cổ thư Tử Vi Đẩu Số Toàn Thư",
+      "title_han": "紫微斗數全書",
+      "url": "https://ncc.com.tw/books/goods.php?id=7381",
+      "access": "thu_muc",
+      "source_type": "thu_muc",
+      "sections": [
+        "目錄",
+        "卷二"
+      ],
+      "use": "doi chieu muc luc va phan biet ban in",
+      "verified": "Trang danh muc, khong thay the ban goc"
+    },
+    {
+      "id": "SRC_B_01",
+      "module": [
+        "bazi"
+      ],
+      "title_vi": "Kho 13 cổ thư Tử Bình – Uyên Hải",
+      "title_han": "子平命理",
+      "url": "https://yuanhai.org/shuji/ziping/",
+      "access": "thu_muc_trich_doan",
+      "source_type": "thu_muc",
+      "sections": [
+        "淵海子平",
+        "三命通會",
+        "滴天髓",
+        "子平真詮"
+      ],
+      "use": "tra cứu các truyền bản và thuật ngữ Bát tự",
+      "verified": "Da doi chieu danh muc; mot so tac pham chi co trich doan"
+    },
+    {
+      "id": "SRC_B_02",
+      "module": [
+        "bazi"
+      ],
+      "title_vi": "Phương pháp lập Bát tự: Lập Xuân, tiết khí, ngày giờ",
+      "title_han": "四柱八字排盤規則",
+      "url": "https://pillarchart.com/methodology",
+      "access": "phuong_phap",
+      "source_type": "nguon_hien_dai",
+      "sections": [
+        "Year pillar",
+        "Month pillar",
+        "Day pillar",
+        "Hidden stems",
+        "Ten gods"
+      ],
+      "use": "quy tắc thuật toán, dị bản giờ Tý, giờ Mặt Trời",
+      "verified": "Da doc chi tiet, nguon hien dai, khong thay the co thu"
+    },
+    {
+      "id": "SRC_B_03",
+      "module": [
+        "bazi"
+      ],
+      "title_vi": "Lịch tiết khí: cơ sở thiên văn",
+      "title_han": "二十四節氣",
+      "url": "https://www.hko.gov.hk/en/gts/time/24solarterms.htm",
+      "access": "du_lieu_lich",
+      "source_type": "co_quan_thien_van",
+      "sections": [
+        "24 Solar Terms"
+      ],
+      "use": "đối chiếu mốc 12 tiết khí mở tháng",
+      "verified": "Nguon duoc cong cu lap la so tham khao; can test tung nam"
+    },
+    {
+      "id": "SRC_B_04",
+      "module": [
+        "bazi"
+      ],
+      "title_vi": "Tử Bình cổ thư: Uyên Hải Tử Bình",
+      "title_han": "淵海子平",
+      "url": "https://zh.wikisource.org/wiki/淵海子平",
+      "access": "toan_van_han",
+      "source_type": "co_thu",
+      "sections": [
+        "地支藏遁歌",
+        "十神"
+      ],
+      "use": "tàng can, thập thần, cách đọc nhật chủ",
+      "verified": "Da xac nhan la mot nguon co thu duoc dan chieu trong phuong phap"
+    },
+    {
+      "id": "SRC_Q_01",
+      "module": [
+        "boique"
+      ],
+      "title_vi": "Chu Dịch – 64 quẻ và thứ tự quẻ",
+      "title_han": "周易",
+      "url": "https://zh.wikisource.org/zh-hant/周易",
+      "access": "toan_van_han",
+      "source_type": "co_thu",
+      "sections": [
+        "六十四卦速查表",
+        "上下經卦名次序"
+      ],
+      "use": "tên quẻ, bát quái trên/dưới, thứ tự Văn Vương",
+      "verified": "Da doi chieu bang 8x8"
+    },
+    {
+      "id": "SRC_Q_02",
+      "module": [
+        "boique"
+      ],
+      "title_vi": "Chu Dịch – quẻ Càn (mẫu cấu trúc sáu hào)",
+      "title_han": "周易/乾",
+      "url": "https://zh.wikisource.org/zh-hant/周易/乾",
+      "access": "toan_van_han",
+      "source_type": "co_thu",
+      "sections": [
+        "卦辭",
+        "爻辭",
+        "彖曰",
+        "象曰"
+      ],
+      "use": "phân biệt quái từ và hào từ, sáu hào từ dưới lên",
+      "verified": "Da doc trang nguon, khong sao chep toan van"
+    },
+    {
+      "id": "SRC_Q_03",
+      "module": [
+        "boique"
+      ],
+      "title_vi": "Tăng San Bốc Dịch",
+      "title_han": "增刪卜易",
+      "url": "https://zh.wikisource.org/zh-hant/增刪卜易",
+      "access": "toan_van_han",
+      "source_type": "co_thu",
+      "sections": [
+        "八卦章",
+        "納甲",
+        "六親",
+        "世應",
+        "用神"
+      ],
+      "use": "Lục Hào/Nạp Giáp - nhánh riêng với giải quẻ Chu Dịch",
+      "verified": "Da doc chuong mo dau"
+    },
+    {
+      "id": "SRC_Q_04",
+      "module": [
+        "boique"
+      ],
+      "title_vi": "Mai Hoa Dịch Số",
+      "title_han": "梅花易數",
+      "url": "https://zh.wikisource.org/zh-hant/梅花易數",
+      "access": "toan_van_han",
+      "source_type": "co_thu",
+      "sections": [
+        "年月日時起卦",
+        "體用",
+        "互卦"
+      ],
+      "use": "hệ lập quẻ theo số/giờ/hiện tượng, là mô-đun riêng",
+      "verified": "Da doi chieu muc luc"
+    },
+    {
+      "id": "SRC_Q_05",
+      "module": [
+        "boique"
+      ],
+      "title_vi": "Bảng cấu trúc 64 quẻ và thứ tự Văn Vương",
+      "title_han": "易經六十四卦",
+      "url": "https://toea.com/i-ching-hexagrams",
+      "access": "bang_tra",
+      "source_type": "nguon_hien_dai",
+      "sections": [
+        "King Wen mapping",
+        "Bottom-to-top lines"
+      ],
+      "use": "đối chiếu 64 quẻ và sáu hào nhị phân",
+      "verified": "Da doc mo ta phuong phap va bang cau truc"
+    }
+  ]
+}

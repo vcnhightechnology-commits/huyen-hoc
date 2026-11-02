@@ -1,0 +1,46 @@
+{
+  "status": "source-and-reference-verified;package-verification-external",
+  "checks": [
+    {
+      "passed": true,
+      "frozenFiles": 4,
+      "acceptedNativeCropsRGBMatched": 2,
+      "trialCropsRetained": 2,
+      "retainedImagesReexamined": 3,
+      "retainedActualNewCoordinateCallsVerified": 4,
+      "retainedCoordinateCallsReused": 2,
+      "newEngineCallsDuringVerification": 0,
+      "actualNatalCharts": 0,
+      "implicitSourceSubjectResolved": false,
+      "C14ParentCoverageRaised": false,
+      "wholeContextApplied": false,
+      "newHTTPBodies": 0,
+      "newSourcePositions": 0,
+      "consumerChanged": false
+    },
+    {
+      "passed": true,
+      "groups": 6,
+      "declaredInspectionFrames": 14,
+      "nullInvariants": 112,
+      "unsupportedRequests": 6,
+      "invalidInputs": 7,
+      "retainedActualNewCoordinateCalls": 4,
+      "retainedCoordinateCallsReused": 2,
+      "newEngineCallsDuringTests": 0,
+      "grammarSubjectResolvedByEngine": false,
+      "parentContextCoverageRaised": false,
+      "consumerChanged": false,
+      "wholeContextApplied": false
+    }
+  ],
+  "historicalFrozenParentMatrix": {
+    "file": "v53/research/bazi-food-chain/CURRENT_CONTEXT_COVERAGE.json",
+    "bytes": 49140,
+    "sha256": "0e08e128b4e3386a95da8dadc1e64fba9a6014b41617a3799f19e9fd6bdad09e"
+  },
+  "currentParentMatrix": "v53/research/bazi-food-strength/CURRENT_CONTEXT_COVERAGE.json",
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false,
+  "packageVerificationPointer": "recovery/research-release/FINAL_VERIFICATION.json"
+}

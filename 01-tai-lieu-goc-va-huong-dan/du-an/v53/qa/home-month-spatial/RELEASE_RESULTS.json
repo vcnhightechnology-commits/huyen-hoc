@@ -1,0 +1,43 @@
+{
+  "status": "source-and-reference-verified;package-verification-external",
+  "scope": "home-month-spatial",
+  "checks": [
+    {
+      "passed": true,
+      "frozenFiles": 4,
+      "retainedSourcePositionsReexamined": 2,
+      "nativeCropsRGBMatched": 3,
+      "rejectedTrialCropsRetained": 3,
+      "sourceUnits": 3,
+      "monthlyActorLabels": 5,
+      "sourcePrintedExampleCount": 0,
+      "newSourcePositions": 0,
+      "newHTTPBodies": 0,
+      "newEngineCalls": 0,
+      "P08LabelsAmended": 0,
+      "wholeSourceMethodApplied": false,
+      "consumerChanged": false
+    },
+    {
+      "passed": true,
+      "groups": 8,
+      "frozenFiles": 4,
+      "declaredPremiseFrames": 3689,
+      "sourcePrintedExamples": 0,
+      "nullInvariants": 29512,
+      "unsupportedRequests": 8,
+      "invalidInputs": 14,
+      "sourceUnits": 3,
+      "monthlyActorLabels": 5,
+      "priorWantongFireNonInterference": true,
+      "newEngineCallsDuringTests": 0,
+      "newCalendarObjects": 0,
+      "newHTTPBodies": 0,
+      "consumerChanged": false,
+      "wholeSourceMethodApplied": false
+    }
+  ],
+  "consumerChanged": false,
+  "wholeSourceMethodApplied": false,
+  "packageVerificationPointer": "recovery/research-release/FINAL_VERIFICATION.json"
+}

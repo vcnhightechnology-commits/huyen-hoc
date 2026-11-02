@@ -1,0 +1,98 @@
+{
+  "date": "2026-10-27",
+  "checks": [
+    {
+      "name": "All216physical body positions have unique trigram/field identities,27per trigram",
+      "ok": true
+    },
+    {
+      "name": "Retained PDF and all22expanded page readings retain source SHA256",
+      "ok": true
+    },
+    {
+      "name": "All214pinned digital bodies and hashes remain byte-identical;new physical readings match the separately hashed transcription file",
+      "ok": true
+    },
+    {
+      "name": "Both previously found digital omissions have explicit physical bodies and no invented digital text",
+      "ok": true
+    },
+    {
+      "name": "Two unresolved glyphs remain open rather than being completed from the digital text",
+      "ok": true
+    },
+    {
+      "name": "The216body comparison partitions into131same,81different,2missing and2glyph-open positions",
+      "ok": true
+    },
+    {
+      "name": "Every body has a source-use disposition;96historical forecasts receive no empirical or consumer promotion",
+      "ok": true
+    },
+    {
+      "name": "Actual engine casts join all seven trigram roles to the correct internal source identities",
+      "ok": true,
+      "detail": {
+        "actualCompositions": 384,
+        "fieldJoins": 2688
+      }
+    },
+    {
+      "name": "Eight actual object-direction casts agree with the printed direction rows",
+      "ok": true,
+      "detail": {
+        "actualInspectCalls": 8
+      }
+    },
+    {
+      "name": "Symbol-number sets do not replace trigram6or7with their first listed number",
+      "ok": true,
+      "detail": {
+        "counterexamples": 2
+      }
+    },
+    {
+      "name": "Unusual time wording and local number-order differences remain explicit without calendar inference",
+      "ok": true
+    },
+    {
+      "name": "Seven native renders and twelve visually inspected glyph crops preserve recorded bytes",
+      "ok": true
+    },
+    {
+      "name": "Reference records are copied and require explicit canonical identities and printed field names",
+      "ok": true
+    },
+    {
+      "name": "All product HTML and root JS/CSS remain identical to the tested layer release;research stays outside site",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "bodyPositions": 216,
+    "normalizedReadingsComplete": 214,
+    "glyphOpenFields": 2,
+    "comparison": {
+      "different-character-sequence": 81,
+      "same-after-punctuation-removal": 131,
+      "glyph-open": 2,
+      "missing-in-pinned-digital": 2
+    },
+    "disposition": {
+      "cultural-symbol-association": 96,
+      "calendar-analogy-premises-open": 8,
+      "traditional-forecast-claim-not-empirically-established": 96,
+      "name-number-analogy-not-cast-arithmetic": 16
+    },
+    "actualCompositions": 384,
+    "sourceFieldJoins": 2688,
+    "actualDirectionInspectCalls": 8,
+    "newSourceHTTP": 0,
+    "expandedEarlierPages": 22,
+    "nativeQARenders": 7,
+    "glyphCrops": 12,
+    "consumerChanged": false,
+    "wholeBookApplied": false
+  },
+  "htmlSHA256": "549cb415c1a7785e92be25b407d965ea0abd4d3affc54696b784f84d87601857"
+}

@@ -1,0 +1,65 @@
+{
+  "sourceID": "B02-NLC45344-CH032-LIANGXIAN",
+  "frameID": "declared-primary-palace-use-occurrences",
+  "scope": "Editorial structural projection motivated by the printed three-use example; not an automatic source selection algorithm.",
+  "kinBasis": "primary-palace",
+  "layerScope": "primary-and-own-moving-changes",
+  "occurrenceIDPolicy": "primary:L or own-change:L, where L is one-based source line; identical branch text never merges occurrences.",
+  "changedScope": "Only the changed annotation at an actually moving line; never all six transformed lines as concurrent actors.",
+  "desiredKinRole": "Caller declares a source kin category; free-text question parsing and automatic use-god choice remain absent.",
+  "sourceExample": {
+    "fixtureID": "yu-guimei-three-uses",
+    "page": 135,
+    "values": [
+      6,
+      6,
+      8,
+      7,
+      8,
+      8
+    ],
+    "desiredKin": "子孫",
+    "expectedOccurrences": [
+      {
+        "occurrenceID": "primary:2",
+        "line": 2,
+        "layer": "primary",
+        "branch": "巳"
+      },
+      {
+        "occurrenceID": "primary:4",
+        "line": 4,
+        "layer": "primary",
+        "branch": "午"
+      },
+      {
+        "occurrenceID": "own-change:1",
+        "line": 1,
+        "layer": "own-moving-change",
+        "branch": "巳"
+      }
+    ]
+  },
+  "pairwiseComparisonPolicy": "All unordered occurrence pairs retain the five quoted comparisons separately. Applying a two-candidate comparison to each pair is an editorial inspection projection; it does not establish a source total ranking for three uses.",
+  "retainedRuntime": {
+    "file": "tmp/liuyao-multiple-use-staging/ACTUAL_CAST_RUNTIME.json",
+    "bytes": 3689,
+    "sha256": "e5c5808c2a8aa83ea9fbe9e312c9d7b3ce4f1bc8141941984c36744fa363fbe5"
+  },
+  "reader": {
+    "file": "v53/research/liuyao-foundations/liuyao-reference.mjs",
+    "bytes": 3965,
+    "sha256": "a77da7ec4f59dce1ccd8dd6ad4a66f94320987465f60725af0595e25d5908eb7"
+  },
+  "readerRules": {
+    "file": "v53/research/liuyao-foundations/RULES.json",
+    "bytes": 11748,
+    "sha256": "d5e764cbe44a6077a68d128bfa197f3aa4f6a178692e346d56a112d5a3b99064"
+  },
+  "priorComparisonReference": {
+    "file": "tmp/liuyao-multiple-use-staging/multiple-use-reference.mjs",
+    "bytes": 3557,
+    "sha256": "461b5b3adf1dce4d1905a2d181c7361b46bcd779f90c2f212e1cdc242e11d925"
+  },
+  "fullSelectionMethodEstablished": false
+}

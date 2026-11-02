@@ -1,0 +1,152 @@
+{
+  "scope": "Literal small extracts and negative controls; historical source claims, not empirical human predictions.",
+  "seasonalWaterBrush": {
+    "pdfPage": 160,
+    "rows": [
+      {
+        "season": "春",
+        "waterMetaphor": "昏濁"
+      },
+      {
+        "season": "夏",
+        "waterMetaphor": "枯涸"
+      },
+      {
+        "season": "秋",
+        "waterMetaphor": "澄清"
+      },
+      {
+        "season": "冬",
+        "waterMetaphor": "凝結"
+      }
+    ],
+    "notEquivalentTo": "旺相休囚table204 or meteorological data"
+  },
+  "brushSpirits": {
+    "pdfPage": 172,
+    "rows": [
+      {
+        "name": "青龍",
+        "element": "木"
+      },
+      {
+        "name": "朱雀",
+        "element": "火"
+      },
+      {
+        "name": "勾陳",
+        "element": "土"
+      },
+      {
+        "name": "螣蛇",
+        "element": null,
+        "printedQualification": "無正位"
+      },
+      {
+        "name": "白虎",
+        "element": "金"
+      },
+      {
+        "name": "玄武",
+        "element": "水"
+      }
+    ],
+    "notEquivalentTo": "day-stem cyclic六神179–180; the printed螣蛇qualification is not a missing day-stem assignment"
+  },
+  "glyphAnecdoteLabels": [
+    {
+      "pdfPage": 155,
+      "glyphs": [
+        "殿",
+        "家",
+        "判",
+        "硯",
+        "典"
+      ]
+    },
+    {
+      "pdfPage": 156,
+      "glyphs": [
+        "果",
+        "馬",
+        "來",
+        "癸",
+        "但",
+        "謙",
+        "亨",
+        "達",
+        "奇",
+        "俊",
+        "常",
+        "每"
+      ]
+    },
+    {
+      "pdfPage": 157,
+      "glyphs": [
+        "城",
+        "池",
+        "春",
+        "一",
+        "盆",
+        "田"
+      ]
+    }
+  ],
+  "anecdotesAreIndependentValidation": false,
+  "negativeControls": [
+    {
+      "pages": [
+        161
+      ],
+      "premise": "八卦斷alsohas勾陳clause",
+      "prohibitedInference": "a ninth trigram"
+    },
+    {
+      "pages": [
+        167
+      ],
+      "premise": "吉 土/士relative stroke proportions",
+      "prohibitedInference": "typed code point or total-stroke parity fully specifies the form"
+    },
+    {
+      "pages": [
+        168
+      ],
+      "premise": "Several alternative辛timings",
+      "prohibitedInference": "unique event-date algorithm"
+    },
+    {
+      "pages": [
+        172
+      ],
+      "premise": "反體context can reverse喜/慶/星",
+      "prohibitedInference": "positive-word fortune classifier"
+    },
+    {
+      "pages": [
+        215
+      ],
+      "premise": "十人寫一字筆法各不同",
+      "prohibitedInference": "same typed character supplies all handwriting observations"
+    },
+    {
+      "pages": [
+        213
+      ],
+      "premise": "末筆用神in glyph chapter",
+      "prohibitedInference": "same reference as MaiHoa moving trigram or Bazi useful god"
+    },
+    {
+      "pages": [
+        214,
+        218,
+        219
+      ],
+      "premise": "Stroke/material-to-lifespan claims",
+      "prohibitedInference": "validated lifespan forecasts"
+    }
+  ],
+  "consumerApplied": false,
+  "newPredictiveAccuracyEstablished": false
+}

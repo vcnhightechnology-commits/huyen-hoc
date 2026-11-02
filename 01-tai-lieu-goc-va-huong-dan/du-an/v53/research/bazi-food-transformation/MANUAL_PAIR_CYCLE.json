@@ -1,0 +1,91 @@
+{
+  "sourceID": "TMTH005-FOOD-C16-Xiyin",
+  "rows": [
+    {
+      "id": "jia-ji",
+      "digitalPairLiteral": "甲巳",
+      "nativeImageWorkingPair": "甲己",
+      "sourceTransformedElement": "土",
+      "digitalFoodTargetPairLiteral": "丙辛",
+      "nativeImageWorkingFoodTargetPair": "丙辛",
+      "targetSourceTransformedElement": "水",
+      "sourceClause": "甲巳化土故食丙辛",
+      "directedTransformedElementClaim": [
+        "土",
+        "水"
+      ],
+      "allFourOrdinaryStemRelationsAreFoodGod": false,
+      "actualTransformationEstablished": false
+    },
+    {
+      "id": "bing-xin",
+      "digitalPairLiteral": "丙辛",
+      "nativeImageWorkingPair": "丙辛",
+      "sourceTransformedElement": "水",
+      "digitalFoodTargetPairLiteral": "戊癸",
+      "nativeImageWorkingFoodTargetPair": "戊癸",
+      "targetSourceTransformedElement": "火",
+      "sourceClause": "丙辛化水故食戊癸",
+      "directedTransformedElementClaim": [
+        "水",
+        "火"
+      ],
+      "allFourOrdinaryStemRelationsAreFoodGod": false,
+      "actualTransformationEstablished": false
+    },
+    {
+      "id": "wu-gui",
+      "digitalPairLiteral": "戊癸",
+      "nativeImageWorkingPair": "戊癸",
+      "sourceTransformedElement": "火",
+      "digitalFoodTargetPairLiteral": "庚乙",
+      "nativeImageWorkingFoodTargetPair": "庚乙",
+      "targetSourceTransformedElement": "金",
+      "sourceClause": "戊癸化火故食庚乙",
+      "directedTransformedElementClaim": [
+        "火",
+        "金"
+      ],
+      "allFourOrdinaryStemRelationsAreFoodGod": false,
+      "actualTransformationEstablished": false
+    },
+    {
+      "id": "geng-yi",
+      "digitalPairLiteral": "庚乙",
+      "nativeImageWorkingPair": "庚乙",
+      "sourceTransformedElement": "金",
+      "digitalFoodTargetPairLiteral": "壬丁",
+      "nativeImageWorkingFoodTargetPair": "壬丁",
+      "targetSourceTransformedElement": "木",
+      "sourceClause": "庚乙化金故食壬丁",
+      "directedTransformedElementClaim": [
+        "金",
+        "木"
+      ],
+      "allFourOrdinaryStemRelationsAreFoodGod": false,
+      "actualTransformationEstablished": false
+    },
+    {
+      "id": "ren-ding",
+      "digitalPairLiteral": "壬丁",
+      "nativeImageWorkingPair": "壬丁",
+      "sourceTransformedElement": "木",
+      "digitalFoodTargetPairLiteral": "甲巳",
+      "nativeImageWorkingFoodTargetPair": "甲己",
+      "targetSourceTransformedElement": "土",
+      "sourceClause": "壬丁化木故食甲巳",
+      "directedTransformedElementClaim": [
+        "木",
+        "土"
+      ],
+      "allFourOrdinaryStemRelationsAreFoodGod": false,
+      "actualTransformationEstablished": false
+    }
+  ],
+  "closingLiteral": "化氣相尅而食",
+  "clauseOrderIsSourceOrder": true,
+  "digitalJiGlyphPolicy": "Digital巳 preserved; image working己 requires explicit native-working policy, not global emendation.",
+  "modernPairLabelsAreEditorial": true,
+  "transformedElementsAreReportedSourceDoctrineNotActualNatalTransformation": true,
+  "sourceRationaleDoesNotReplaceOrdinaryTenGodRelations": true
+}

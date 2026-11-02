@@ -1,0 +1,14 @@
+{
+  "date": "2026-10-29",
+  "detectedAfterInitialPassingTests": true,
+  "initialTestsFailed": false,
+  "cause": "Initial source case omitted shared 皆以向中一間 qualifier for residential 茶亭, not a calendar/runtime discrepancy.",
+  "correction": "Retain named hall AND middle-facing bay; never select a modern geometric center.",
+  "initialSourceFreezeRetained": "TRANSCRIPTION_FREEZE.json",
+  "initialImplementationAndPassingTestsRetained": "initial-qualification-omission",
+  "initialManualCases": 34,
+  "unchangedPreImplementationManualCases": 33,
+  "currentOracleRevisedAfterImplementation": 1,
+  "consumerAffected": false,
+  "actualCalendarRerun": false
+}

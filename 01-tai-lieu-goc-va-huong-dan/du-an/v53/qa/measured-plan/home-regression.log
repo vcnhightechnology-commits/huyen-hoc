@@ -1,0 +1,41 @@
+PASS Existing calendar, chart, directions and reading engines remain byte-identical
+PASS Seven distinct spaces include doors, shared space, sleep, cooking and wet areas
+PASS Unobserved conditions never produce a favorable assessment
+PASS Blocked exits, missing exterior exhaust and water leakage produce actionable priorities
+PASS Presence and absence questions have correct polarity
+PASS Position alone never supplies a room fortune or assumes window exposure
+PASS Saved source bodies match their byte counts and SHA-256, including labeled failed responses
+PASS Direct link opens room guide under the existing Hướng nhà tool without birth input
+PASS Every room begins with unknown position and unknown conditions
+PASS Zone button synchronizes dropdown, active selection and conditional advice
+PASS Reported obstacle produces a specific action with no overall house score
+PASS Multiple rooms may share one sector without being labeled an overlap error
+PASS Changing rooms preserves each room’s position and answers
+PASS Clearing a position affects only the selected room and restores unknown
+PASS House type updates relevant advice without changing observations
+PASS TXT includes selected room, all recorded positions, answers, suggestions and limits
+PASS Room print contains suggestions and position summary, hides interactive and age panels
+PASS Existing direction calculation still returns eight labeled directions
+PASS Returning to room mode preserves the current room and observations
+PASS Opening a saved directions profile from room mode restores visible calculated result
+PASS Switching tools hides home tabs and guide and restores ordinary forms
+PASS Browser back restores room route
+PASS Room entry: title, placement, neighbors, cultural note and three-state questions render
+PASS Room living: title, placement, neighbors, cultural note and three-state questions render
+PASS Room bedroom: title, placement, neighbors, cultural note and three-state questions render
+PASS Room kitchen: title, placement, neighbors, cultural note and three-state questions render
+PASS Room bathroom: title, placement, neighbors, cultural note and three-state questions render
+PASS Room study: title, placement, neighbors, cultural note and three-state questions render
+PASS Room altar: title, placement, neighbors, cultural note and three-state questions render
+PASS 320px: room view and occupied map have no horizontal overflow
+PASS 390px: room view and occupied map have no horizontal overflow
+PASS 650px: room view and occupied map have no horizontal overflow
+PASS 768px: room view and occupied map have no horizontal overflow
+PASS 1024px: room view and occupied map have no horizontal overflow
+PASS 1440px: room view and occupied map have no horizontal overflow
+PASS Room guide does not persist layout data automatically
+PASS Mobile starts with optional map collapsed and room advice directly accessible
+PASS Mobile map opens with a keyboard-accessible native control
+PASS Reload keeps the deep link but clears room observations
+PASS Standalone HTML has no runtime errors, HTTP requests or research/source links
+40/40 passed

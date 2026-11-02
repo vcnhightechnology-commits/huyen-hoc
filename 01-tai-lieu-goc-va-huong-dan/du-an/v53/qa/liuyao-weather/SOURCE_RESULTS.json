@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-27",
+  "sourcePDFBytes": 11089308,
+  "sourcePDFSHA256": "caac111bc5c5b1c08fd27b3828e7cf6b5430503800f2427d8f2b28809022abaa",
+  "newHTTPRequests": 0,
+  "newOriginalContainers": 0,
+  "promotedRenderedPositions": 30,
+  "promotedViewedPositions": 23,
+  "newWeatherContentPositionsRead": 21,
+  "newParatextPositionsRead": 1,
+  "newNextChapterOpeningPositionsRead": 1,
+  "expandedPriorBodyPositions": 3,
+  "renderedNotReadPositions": 7,
+  "sourceImageHashesVerified": 34,
+  "reproductions": [
+    {
+      "sourcePage": 191,
+      "dpi": 144,
+      "file": "redecode-144-191.png",
+      "sha256": "46c7b6e7dc87e60c5cec534f50e123e8d5a45e9e7e3a69d237adabe592bda186",
+      "pixelRGB_SHA256": "897ff7f2590c03b3a25b85486f63101a9706521115c661af14a3e9ac7049145e",
+      "pixelMatch": true,
+      "notNewSourcePosition": true
+    },
+    {
+      "sourcePage": 191,
+      "dpi": 360,
+      "file": "redecode-360-191.png",
+      "sha256": "e2222102af4f20242c3aa751d3b115e76ef8f53ea091d73907db97b33caec3bb",
+      "pixelRGB_SHA256": "082a9caea169914cd85662bb15dca3d49459b2e062724010af55418bfd98e8ac",
+      "pixelMatch": true,
+      "notNewSourcePosition": true
+    }
+  ],
+  "namedRoleVoices": 2,
+  "namedSelectors": 5,
+  "allSourceImageCharactersCollated": false,
+  "wholeChapterApplied": false,
+  "wholeCatalogueCompleted": false
+}

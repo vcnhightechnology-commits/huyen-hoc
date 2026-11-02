@@ -1,0 +1,93 @@
+{
+  "schema": "hhc.meihua.five-volume-navigation.v1",
+  "volumes": [
+    {
+      "volume": 1,
+      "first": 13,
+      "lastContent": 54,
+      "last": 54,
+      "map": "UNIT_MAP.json",
+      "digitalUnits": 45,
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "volume": 2,
+      "first": 55,
+      "lastContent": 98,
+      "last": 98,
+      "map": "../meihua-conditions/UNIT_MAP.json",
+      "digitalUnits": 52,
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "volume": 3,
+      "first": 103,
+      "lastContent": 143,
+      "last": 144,
+      "map": "../meihua-external/UNIT_MAP.json",
+      "digitalUnits": 26,
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "volume": 4,
+      "first": 145,
+      "lastContent": 187,
+      "last": 188,
+      "map": "../meihua-volume-map/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "volume": 5,
+      "first": 189,
+      "lastContent": 227,
+      "last": 228,
+      "map": "../meihua-volume-map/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    }
+  ],
+  "counts": {
+    "volumeSpanPages": 212,
+    "contentPagesIncludingTitleAndClosing": 209,
+    "endleaves": 3,
+    "threeDigitalVolumeUnits": 123,
+    "volume4and5GroupedNestedUnits": 93
+  },
+  "excluded": {
+    "frontMatter": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "advertisements": [
+      99,
+      100,
+      229,
+      230
+    ],
+    "logo": [
+      101
+    ],
+    "physicalLowerBookCover": [
+      102
+    ],
+    "imprint": [
+      231
+    ],
+    "backMatter": [
+      232
+    ]
+  },
+  "policy": "CompletepagenavigationandretainedrendersareNOTfullclausereading/application. 93groupednestedunitsareNOTdirectlycomparablewith123digitalsectionsorindependentworks.",
+  "all232PDFPagesRendered": true,
+  "wholeBookApplied": false,
+  "wholeCatalogueCompleted": false
+}

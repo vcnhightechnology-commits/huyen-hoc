@@ -1,0 +1,309 @@
+{
+  "cases": [
+    {
+      "id": "water-all",
+      "groupID": "water",
+      "slots": [
+        "申",
+        "子",
+        "辰",
+        "午"
+      ],
+      "anchorStem": "丙",
+      "expectedComplete": true,
+      "expectedMissingExclusion": false
+    },
+    {
+      "id": "water-duplicate-not-third",
+      "groupID": "water",
+      "slots": [
+        "申",
+        "子",
+        "申",
+        "午"
+      ],
+      "anchorStem": "丙",
+      "expectedComplete": false,
+      "expectedMissingExclusion": true
+    },
+    {
+      "id": "water-one-unknown",
+      "groupID": "water",
+      "slots": [
+        "申",
+        "子",
+        null,
+        "午"
+      ],
+      "anchorStem": "丙",
+      "expectedComplete": null,
+      "expectedMissingExclusion": null
+    },
+    {
+      "id": "water-no-room-for-two",
+      "groupID": "water",
+      "slots": [
+        "申",
+        "午",
+        "午",
+        null
+      ],
+      "anchorStem": "丙",
+      "expectedComplete": false,
+      "expectedMissingExclusion": true
+    },
+    {
+      "id": "earth-needs-four",
+      "groupID": "four-earth",
+      "slots": [
+        "辰",
+        "戌",
+        "丑",
+        "午"
+      ],
+      "anchorStem": "丁",
+      "expectedComplete": false,
+      "expectedMissingExclusion": null
+    },
+    {
+      "id": "earth-all-four",
+      "groupID": "four-earth",
+      "slots": [
+        "辰",
+        "戌",
+        "丑",
+        "未"
+      ],
+      "anchorStem": "丁",
+      "expectedComplete": true,
+      "expectedMissingExclusion": null
+    },
+    {
+      "id": "earth-unknown",
+      "groupID": "four-earth",
+      "slots": [
+        "辰",
+        "戌",
+        "丑",
+        null
+      ],
+      "anchorStem": "丁",
+      "expectedComplete": null,
+      "expectedMissingExclusion": null
+    },
+    {
+      "id": "bing-three-lu",
+      "groupID": "metal",
+      "slots": [
+        "巳",
+        "酉",
+        "丑",
+        "子"
+      ],
+      "anchorStem": "丙",
+      "expectedComplete": true,
+      "expectedMissingExclusion": false,
+      "expectedThreeLu": true
+    },
+    {
+      "id": "ding-three-lu",
+      "groupID": "fire",
+      "slots": [
+        "寅",
+        "午",
+        "戌",
+        "酉"
+      ],
+      "anchorStem": "丁",
+      "expectedComplete": true,
+      "expectedMissingExclusion": false,
+      "expectedThreeLu": true
+    },
+    {
+      "id": "bing-fire-no-selected-three-lu",
+      "groupID": "fire",
+      "slots": [
+        "寅",
+        "午",
+        "戌",
+        "酉"
+      ],
+      "anchorStem": "丙",
+      "expectedComplete": true,
+      "expectedMissingExclusion": false,
+      "expectedThreeLu": null
+    },
+    {
+      "id": "ding-metal-no-selected-three-lu",
+      "groupID": "metal",
+      "slots": [
+        "巳",
+        "酉",
+        "丑",
+        "子"
+      ],
+      "anchorStem": "丁",
+      "expectedComplete": true,
+      "expectedMissingExclusion": false,
+      "expectedThreeLu": null
+    },
+    {
+      "id": "other-stem-no-source-role",
+      "groupID": "wood",
+      "slots": [
+        "亥",
+        "卯",
+        "未",
+        "辰"
+      ],
+      "anchorStem": "甲",
+      "expectedComplete": true,
+      "expectedMissingExclusion": false,
+      "expectedSourceRole": null
+    }
+  ],
+  "actualTenGodQueries": [
+    {
+      "anchorStem": "丙",
+      "targetStem": "甲",
+      "targetElement": "木",
+      "expectedTenGod": "Thiên Ấn"
+    },
+    {
+      "anchorStem": "丙",
+      "targetStem": "乙",
+      "targetElement": "木",
+      "expectedTenGod": "Chính Ấn"
+    },
+    {
+      "anchorStem": "丁",
+      "targetStem": "甲",
+      "targetElement": "木",
+      "expectedTenGod": "Chính Ấn"
+    },
+    {
+      "anchorStem": "丁",
+      "targetStem": "乙",
+      "targetElement": "木",
+      "expectedTenGod": "Thiên Ấn"
+    },
+    {
+      "anchorStem": "丙",
+      "targetStem": "丙",
+      "targetElement": "火",
+      "expectedTenGod": "Tỷ Kiên"
+    },
+    {
+      "anchorStem": "丙",
+      "targetStem": "丁",
+      "targetElement": "火",
+      "expectedTenGod": "Kiếp Tài"
+    },
+    {
+      "anchorStem": "丁",
+      "targetStem": "丙",
+      "targetElement": "火",
+      "expectedTenGod": "Kiếp Tài"
+    },
+    {
+      "anchorStem": "丁",
+      "targetStem": "丁",
+      "targetElement": "火",
+      "expectedTenGod": "Tỷ Kiên"
+    },
+    {
+      "anchorStem": "丙",
+      "targetStem": "戊",
+      "targetElement": "土",
+      "expectedTenGod": "Thực Thần"
+    },
+    {
+      "anchorStem": "丙",
+      "targetStem": "己",
+      "targetElement": "土",
+      "expectedTenGod": "Thương Quan"
+    },
+    {
+      "anchorStem": "丁",
+      "targetStem": "戊",
+      "targetElement": "土",
+      "expectedTenGod": "Thương Quan"
+    },
+    {
+      "anchorStem": "丁",
+      "targetStem": "己",
+      "targetElement": "土",
+      "expectedTenGod": "Thực Thần"
+    },
+    {
+      "anchorStem": "丙",
+      "targetStem": "庚",
+      "targetElement": "金",
+      "expectedTenGod": "Thiên Tài"
+    },
+    {
+      "anchorStem": "丙",
+      "targetStem": "辛",
+      "targetElement": "金",
+      "expectedTenGod": "Chính Tài"
+    },
+    {
+      "anchorStem": "丁",
+      "targetStem": "庚",
+      "targetElement": "金",
+      "expectedTenGod": "Chính Tài"
+    },
+    {
+      "anchorStem": "丁",
+      "targetStem": "辛",
+      "targetElement": "金",
+      "expectedTenGod": "Thiên Tài"
+    },
+    {
+      "anchorStem": "丙",
+      "targetStem": "壬",
+      "targetElement": "水",
+      "expectedTenGod": "Thất Sát"
+    },
+    {
+      "anchorStem": "丙",
+      "targetStem": "癸",
+      "targetElement": "水",
+      "expectedTenGod": "Chính Quan"
+    },
+    {
+      "anchorStem": "丁",
+      "targetStem": "壬",
+      "targetElement": "水",
+      "expectedTenGod": "Chính Quan"
+    },
+    {
+      "anchorStem": "丁",
+      "targetStem": "癸",
+      "targetElement": "水",
+      "expectedTenGod": "Thất Sát"
+    }
+  ],
+  "actualLuQueries": [
+    {
+      "stem": "丙",
+      "expected": "巳"
+    },
+    {
+      "stem": "丁",
+      "expected": "午"
+    }
+  ],
+  "analyticCompleteCoordinateFramesPerThreeBranchGroup": 252,
+  "analyticCompleteCoordinateFramesEarth": 24,
+  "exhaustiveKnownBranchFrameCount": 20736,
+  "neverInfer": [
+    "effectiveFormation",
+    "transformedElement",
+    "wholePatternEstablished",
+    "natalOutcome",
+    "calendarDate",
+    "strength",
+    "interSourcePriority"
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "records": [
+    {
+      "source": {
+        "file": "v53/research/bazi-food-source/p174.png",
+        "bytes": 268988,
+        "sha256": "a4f714c267e56af4edcf078429c0233da0ed44b2bf93a9fabc8298acfe65f5a0"
+      },
+      "crop": {
+        "file": "tmp/bazi-food-luck-subject-staging/p174-life-subjects.png",
+        "bytes": 166686,
+        "sha256": "4216d197d48e47e38116c0e55183cfa6136a48275a5c0fd021d60fcc6dc136f4"
+      },
+      "boxXYXY": [
+        340,
+        305,
+        1800,
+        2840
+      ],
+      "actuallyViewed": true
+    },
+    {
+      "source": {
+        "file": "v53/research/bazi-food-source/p175.png",
+        "bytes": 269363,
+        "sha256": "b9fdb2fbe9127089a2f003069a519076422261ad3bdccd9c979e9b24f477dbae"
+      },
+      "crop": {
+        "file": "tmp/bazi-food-luck-subject-staging/p175-chou-complete.png",
+        "bytes": 69386,
+        "sha256": "6b37bca496bc96366e54fa60a39a226a61bf5f335bc4823d89e28cab1d668ef6"
+      },
+      "boxXYXY": [
+        1510,
+        290,
+        2080,
+        2910
+      ],
+      "actuallyViewed": true
+    }
+  ],
+  "fullImagesActuallyViewed": [
+    {
+      "file": "v53/research/bazi-food-source/p173.png",
+      "bytes": 270236,
+      "sha256": "f899933d8ce37cb204864bf883b3c23415b47012abd6730ee10fdfc16fb0c41b"
+    },
+    {
+      "file": "v53/research/bazi-food-source/p174.png",
+      "bytes": 268988,
+      "sha256": "a4f714c267e56af4edcf078429c0233da0ed44b2bf93a9fabc8298acfe65f5a0"
+    },
+    {
+      "file": "v53/research/bazi-food-source/p175.png",
+      "bytes": 269363,
+      "sha256": "b9fdb2fbe9127089a2f003069a519076422261ad3bdccd9c979e9b24f477dbae"
+    }
+  ],
+  "rejectedTrialCrops": [
+    {
+      "file": "p173-entry.png",
+      "reason": "initial term庚 clipped,full image retained instead"
+    },
+    {
+      "file": "p175-choudi.png",
+      "reason": "cut before甲冠帶;complete crop supersedes for proof"
+    }
+  ],
+  "newHTTPBodies": 0,
+  "newIndependentSources": 0
+}

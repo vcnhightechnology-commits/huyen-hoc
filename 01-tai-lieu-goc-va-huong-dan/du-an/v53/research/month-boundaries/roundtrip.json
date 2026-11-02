@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-26T03:16:32.664Z",
+  "scope": "Internal consistency between actual daily solarToLunar output and the new month overview at UTC+7/UTC+8. The expected groups come from the same calendar engine; this is not independent calendar validation.",
+  "reports": [
+    {
+      "tz": 7,
+      "years": 200,
+      "months": 2472,
+      "differences": [],
+      "unguarded": [],
+      "missing": []
+    },
+    {
+      "tz": 8,
+      "years": 200,
+      "months": 2472,
+      "differences": [],
+      "unguarded": [],
+      "missing": []
+    }
+  ]
+}

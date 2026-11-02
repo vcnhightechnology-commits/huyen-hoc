@@ -1,0 +1,50 @@
+{
+  "schema": "hhc.meihua-layers.pending.v1",
+  "date": "2026-10-27",
+  "status": "released-calculation-browser-pdf-and-integration-verified",
+  "releasedHTMLSHA256": "549cb415c1a7785e92be25b407d965ea0abd4d3affc54696b784f84d87601857",
+  "candidateFiles": [
+    {
+      "file": "Huyen_Hoc_Cac.html",
+      "bytes": 707411,
+      "sha256": "549cb415c1a7785e92be25b407d965ea0abd4d3affc54696b784f84d87601857"
+    },
+    {
+      "file": "meihua.css",
+      "bytes": 3888,
+      "sha256": "35929c7ef4252fdc5df0ad7f17724b198dfa2bd6fe201e891bc02197e41d13d0"
+    },
+    {
+      "file": "meihua.js",
+      "bytes": 24287,
+      "sha256": "9f9eeb319b53bc54103193008ee9476d607185a020377dc4cf1f527bd3d2376e"
+    }
+  ],
+  "calculationChecks": 14,
+  "structures": 384,
+  "layerRelations": 1536,
+  "browserChecksExecuted": 34,
+  "pdfCreated": true,
+  "released": true,
+  "block": null,
+  "next": [
+    "Consumer candidate has been integrated;do not rerun the old parking script or treat historical usage-limit block as current.",
+    "Continue full source extraction:216field bodies,subsidiary clauses,720hour labels and independent witness/calendar premises."
+  ],
+  "wholeBookCompleted": false,
+  "wholeCatalogueCompleted": false,
+  "historicalBlock": {
+    "kind": "automatic-approval-review-unavailable-usage-limit",
+    "requestedAction": "node v53/scripts/verify-meihua-layers-browser.mjs --pdf",
+    "actionExecuted": false,
+    "safetyVerdict": null,
+    "reportedRetryTime": "Oct 27th, 2026 1:19 AM; tool message did not state timezone",
+    "policy": "Do not bypass approval review by switching launch mechanisms or permissions."
+  },
+  "previousReleasedHTMLSHA256": "3800162854742c915d60f0051c65cadb0eb9a1c803f9f937bf1b6a593c96d268",
+  "pdfPages": 4,
+  "pdfVisuallyReviewed": true,
+  "integratedCoreChecks": 50,
+  "report": "../../MEIHUA_LAYERS_REPORT.md",
+  "qa": "../../qa/meihua-layers/RELEASE_RESULTS.json"
+}

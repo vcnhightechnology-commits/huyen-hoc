@@ -1,0 +1,39 @@
+{
+  "passed": true,
+  "schema": "hhc.wyg07.tail-native-feature-comparison.v1",
+  "sha256CheckedImages": 14,
+  "alignedTailPages": [
+    {
+      "short": 195,
+      "long": 203,
+      "goodSiftFeatures": 256,
+      "secondBest": 44
+    },
+    {
+      "short": 196,
+      "long": 204,
+      "goodSiftFeatures": 276,
+      "secondBest": 57
+    },
+    {
+      "short": 197,
+      "long": 205,
+      "goodSiftFeatures": 261,
+      "secondBest": 44
+    },
+    {
+      "short": 198,
+      "long": 206,
+      "goodSiftFeatures": 239,
+      "secondBest": 61
+    }
+  ],
+  "observedOffsetPlus8AtTail": true,
+  "shortScanEndMatchesLongScanEnd": true,
+  "allEightDifferentPagesLocated": false,
+  "missingOriginalPagesEstablished": false,
+  "independentPrintedEditionsEstablished": false,
+  "OCRUsed": false,
+  "consumerChanged": false,
+  "engineCalls": 0
+}

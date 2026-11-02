@@ -1,0 +1,313 @@
+{
+  "sourceDigital": {
+    "file": "v53/research/bazi-relations/sources/KR3g0042_002.txt",
+    "bytes": 123566,
+    "sha256": "b0f9badc8aff64ee137392277eb2f7a428c39a9d8c9faa3154f79c626c2131b4"
+  },
+  "chapter": "論六害",
+  "editorialSegmentationNotSourceParagraphs": true,
+  "cleanCodepoints": 717,
+  "cleanUTF16Units": 719,
+  "cleanSHA256": "3e39c7da0ecbff65b45a0eb5659430d5b54b15762936b6d66afeafa17e76f8e6",
+  "digitalEntityCodesPreserved": true,
+  "records": [
+    {
+      "id": "H00",
+      "startCodepoint": 0,
+      "endCodepoint": 3,
+      "literalDigital": "論六害",
+      "disposition": "heading",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H01",
+      "startCodepoint": 3,
+      "endCodepoint": 43,
+      "literalDigital": "因晝夜隂陽之氣感而六合因六合而生六害因六害而忌晝夜隂陽之氣六害者十二支凌戰之辰也",
+      "disposition": "etiological-preface",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H02",
+      "startCodepoint": 43,
+      "endCodepoint": 68,
+      "literalDigital": "子未相害者謂未旺土亥子旺水名勢家相害故子見未則為害",
+      "disposition": "pair-definition",
+      "implementedAs": "source-coordinate-or-declared-premise-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H03",
+      "startCodepoint": 68,
+      "endCodepoint": 105,
+      "literalDigital": "丑午相害者謂午以旺火凌丑死金名官鬼相害故丑見午而午更帶丑干之真鬼則為害尢甚",
+      "disposition": "pair-and-open-true-ghost-condition",
+      "implementedAs": "source-coordinate-or-declared-premise-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H04",
+      "startCodepoint": 105,
+      "endCodepoint": 146,
+      "literalDigital": "寅巳相害者謂各恃臨官擅能而進相害若干神往来有鬼者尢甚况刑在其中尢不可不加减災福言之",
+      "disposition": "pair-and-open-ghost-penalty-condition",
+      "implementedAs": "source-coordinate-or-declared-premise-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H05",
+      "startCodepoint": 146,
+      "endCodepoint": 184,
+      "literalDigital": "卯辰相害者謂卯以旺木凌辰死土此以少淩長相害故辰見卯而卯更帶辰干真鬼則其害尢甚",
+      "disposition": "pair-and-open-true-ghost-condition",
+      "implementedAs": "source-coordinate-or-declared-premise-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H06",
+      "startCodepoint": 184,
+      "endCodepoint": 219,
+      "literalDigital": "申亥相害者謂各恃臨官競嫉才能爭進相害故申見亥亥見申均為害更納音相尅者重",
+      "disposition": "bidirectional-pair-and-nayin-condition",
+      "implementedAs": "source-coordinate-or-declared-premise-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H07",
+      "startCodepoint": 219,
+      "endCodepoint": 270,
+      "literalDigital": "酉戍相害者謂戍以死火害酉旺金此嫉妬相害故酉人見戍則㓙戍人見酉無災若乙酉人得戊戌乙為真金戊為真火為害尢甚",
+      "disposition": "directional-exception-and-literal-example",
+      "implementedAs": "source-coordinate-or-declared-premise-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H08",
+      "startCodepoint": 270,
+      "endCodepoint": 291,
+      "literalDigital": "又云六六親害損也犯之主六親上有損尅故謂六害",
+      "disposition": "historical-kin-outcome",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H09",
+      "startCodepoint": 291,
+      "endCodepoint": 371,
+      "literalDigital": "子未直上穿心與衝合恩未結而讐巳生乃曰害如子生人畏午衝而未却去合午丑畏未衝而午却去合未寅畏申衝而巳合申卯畏酉衝而辰合酉申畏寅衝而亥合寅酉畏卯衝而戍合卯所以皆為害也",
+      "disposition": "causal-explanation-six-rows",
+      "implementedAs": "source-coordinate-or-declared-premise-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H10",
+      "startCodepoint": 371,
+      "endCodepoint": 387,
+      "literalDigital": "凡人𢃄此再見羊刃刼煞官符為災尢甚",
+      "disposition": "open-additional-star-condition",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H11",
+      "startCodepoint": 387,
+      "endCodepoint": 408,
+      "literalDigital": "又曰寅巳亥申值生旺則主神潔貌俊好爭奪喜激作",
+      "disposition": "historical-vitality-personality",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H12",
+      "startCodepoint": 408,
+      "endCodepoint": 427,
+      "literalDigital": "值死絶則多謀少成强學人做事兀兀趨進不厭",
+      "disposition": "historical-vitality-personality",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H13",
+      "startCodepoint": 427,
+      "endCodepoint": 437,
+      "literalDigital": "入貴格則有操守善機權",
+      "disposition": "historical-status-personality",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H14",
+      "startCodepoint": 437,
+      "endCodepoint": 447,
+      "literalDigital": "入賤格則多詐愛貪鄙吝",
+      "disposition": "historical-status-personality",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H15",
+      "startCodepoint": 447,
+      "endCodepoint": 469,
+      "literalDigital": "又云申亥重得五岳當慎傷殘寅巳兩闗四體必憂廢棄",
+      "disposition": "historical-injury-claims",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H16",
+      "startCodepoint": 469,
+      "endCodepoint": 485,
+      "literalDigital": "卯辰午丑如生旺主好勝多怒嚴毅不忍",
+      "disposition": "historical-vitality-personality",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H17",
+      "startCodepoint": 485,
+      "endCodepoint": 503,
+      "literalDigital": "死絶主毒害傷&KR0429;傾覆之事",
+      "disposition": "historical-vitality-outcome",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H18",
+      "startCodepoint": 503,
+      "endCodepoint": 514,
+      "literalDigital": "入貴格則主大權司刑典獄",
+      "disposition": "historical-status-outcome",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H19",
+      "startCodepoint": 514,
+      "endCodepoint": 524,
+      "literalDigital": "入賤格謀生於不義之地",
+      "disposition": "historical-status-outcome",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H20",
+      "startCodepoint": 524,
+      "endCodepoint": 537,
+      "literalDigital": "子未生旺死絶皆不利六親骨肉",
+      "disposition": "historical-kin-outcome",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H21",
+      "startCodepoint": 537,
+      "endCodepoint": 545,
+      "literalDigital": "入貴格多妻妾之累",
+      "disposition": "historical-status-family",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H22",
+      "startCodepoint": 545,
+      "endCodepoint": 552,
+      "literalDigital": "入賤格孤獨無倚",
+      "disposition": "historical-status-family",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H23",
+      "startCodepoint": 552,
+      "endCodepoint": 563,
+      "literalDigital": "戍酉如生旺不容物多剛戾",
+      "disposition": "historical-vitality-personality",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H24",
+      "startCodepoint": 563,
+      "endCodepoint": 571,
+      "literalDigital": "死絶酷狠憎善妬能",
+      "disposition": "historical-vitality-personality",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H25",
+      "startCodepoint": 571,
+      "endCodepoint": 586,
+      "literalDigital": "入貴格羅忮無辜結搆入訟頗多奸侫",
+      "disposition": "historical-status-outcome",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H26",
+      "startCodepoint": 586,
+      "endCodepoint": 597,
+      "literalDigital": "入賤格殘害隂狡性佞不良",
+      "disposition": "historical-status-personality",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H27",
+      "startCodepoint": 597,
+      "endCodepoint": 621,
+      "literalDigital": "凡六害入命大率主妨害孤獨骨肉参商財帛澹泊女命尢忌",
+      "disposition": "historical-generic-outcome",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H28",
+      "startCodepoint": 621,
+      "endCodepoint": 635,
+      "literalDigital": "兼起命宫㸔之落何宫分逐宫詳斷",
+      "disposition": "open-palace-premises",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H29",
+      "startCodepoint": 635,
+      "endCodepoint": 649,
+      "literalDigital": "珞琭子云六害之徒命有七傷之事",
+      "disposition": "attributed-historical-outcome",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H30",
+      "startCodepoint": 649,
+      "endCodepoint": 681,
+      "literalDigital": "金書訣曰六害之人忌日時老年殘疾苦何依又逢羊刄神相蝕不中鋒鋩虎亦欺",
+      "disposition": "attributed-historical-injury-outcome",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H31",
+      "startCodepoint": 681,
+      "endCodepoint": 703,
+      "literalDigital": "可見命犯六害大忌干支相傷日時上最𦂳身命宫次之",
+      "disposition": "open-stem-branch-and-pillar-priority",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    },
+    {
+      "id": "H32",
+      "startCodepoint": 703,
+      "endCodepoint": 717,
+      "literalDigital": "便是貴格貴自貴害自害兩不相掩",
+      "disposition": "historical-independent-effects-no-cancellation",
+      "implementedAs": "source-record-only",
+      "predictiveEfficacyValidated": false
+    }
+  ],
+  "wholeChapterApplied": false
+}

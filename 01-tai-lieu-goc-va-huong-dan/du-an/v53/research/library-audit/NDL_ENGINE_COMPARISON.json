@@ -1,0 +1,491 @@
+{
+  "schema": "hhc.ndl-eight-direction.engine-comparison.v1",
+  "createdUTC": "2026-10-25T16:17:04.349Z",
+  "scope": "Japanese edition/adaptation, not the Chinese original Ba Zhai Ming Jing. This checks 32 eight-direction labels only; not 24-mountain subdivisions, birth-year-to-kua arithmetic, room placement, the entire book, or predictive effects. Canvas numbers are viewer identifiers, not physical leaf numbers. Images 03 and 23 returned HTTP 400 and do not count as saved facsimile pages.",
+  "charts": 4,
+  "fields": 32,
+  "matched": 32,
+  "differences": [],
+  "rows": [
+    {
+      "chart": "乾宅 / 六白宅之圖",
+      "kua": 6,
+      "input": {
+        "year": 1901,
+        "gender": "female"
+      },
+      "direction": "Bắc",
+      "printed": "六煞",
+      "expected": "Lục Sát",
+      "actual": "Lục Sát",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-12.jpg",
+      "region": "right chart"
+    },
+    {
+      "chart": "乾宅 / 六白宅之圖",
+      "kua": 6,
+      "input": {
+        "year": 1901,
+        "gender": "female"
+      },
+      "direction": "Đông Bắc",
+      "printed": "天醫",
+      "expected": "Thiên Y",
+      "actual": "Thiên Y",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-12.jpg",
+      "region": "right chart"
+    },
+    {
+      "chart": "乾宅 / 六白宅之圖",
+      "kua": 6,
+      "input": {
+        "year": 1901,
+        "gender": "female"
+      },
+      "direction": "Đông",
+      "printed": "五鬼",
+      "expected": "Ngũ Quỷ",
+      "actual": "Ngũ Quỷ",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-12.jpg",
+      "region": "right chart"
+    },
+    {
+      "chart": "乾宅 / 六白宅之圖",
+      "kua": 6,
+      "input": {
+        "year": 1901,
+        "gender": "female"
+      },
+      "direction": "Đông Nam",
+      "printed": "禍害",
+      "expected": "Họa Hại",
+      "actual": "Họa Hại",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-12.jpg",
+      "region": "right chart"
+    },
+    {
+      "chart": "乾宅 / 六白宅之圖",
+      "kua": 6,
+      "input": {
+        "year": 1901,
+        "gender": "female"
+      },
+      "direction": "Nam",
+      "printed": "絶命",
+      "expected": "Tuyệt Mệnh",
+      "actual": "Tuyệt Mệnh",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-12.jpg",
+      "region": "right chart"
+    },
+    {
+      "chart": "乾宅 / 六白宅之圖",
+      "kua": 6,
+      "input": {
+        "year": 1901,
+        "gender": "female"
+      },
+      "direction": "Tây Nam",
+      "printed": "延年",
+      "expected": "Diên Niên",
+      "actual": "Diên Niên",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-12.jpg",
+      "region": "right chart"
+    },
+    {
+      "chart": "乾宅 / 六白宅之圖",
+      "kua": 6,
+      "input": {
+        "year": 1901,
+        "gender": "female"
+      },
+      "direction": "Tây",
+      "printed": "生氣",
+      "expected": "Sinh Khí",
+      "actual": "Sinh Khí",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-12.jpg",
+      "region": "right chart"
+    },
+    {
+      "chart": "乾宅 / 六白宅之圖",
+      "kua": 6,
+      "input": {
+        "year": 1901,
+        "gender": "female"
+      },
+      "direction": "Tây Bắc",
+      "printed": "伏位",
+      "expected": "Phục Vị",
+      "actual": "Phục Vị",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-12.jpg",
+      "region": "right chart"
+    },
+    {
+      "chart": "坤宅 / 五黄宅之圖",
+      "kua": 2,
+      "input": {
+        "year": 1905,
+        "gender": "male"
+      },
+      "direction": "Bắc",
+      "printed": "絶命",
+      "expected": "Tuyệt Mệnh",
+      "actual": "Tuyệt Mệnh",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-12.jpg",
+      "region": "left chart"
+    },
+    {
+      "chart": "坤宅 / 五黄宅之圖",
+      "kua": 2,
+      "input": {
+        "year": 1905,
+        "gender": "male"
+      },
+      "direction": "Đông Bắc",
+      "printed": "生氣",
+      "expected": "Sinh Khí",
+      "actual": "Sinh Khí",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-12.jpg",
+      "region": "left chart"
+    },
+    {
+      "chart": "坤宅 / 五黄宅之圖",
+      "kua": 2,
+      "input": {
+        "year": 1905,
+        "gender": "male"
+      },
+      "direction": "Đông",
+      "printed": "禍害",
+      "expected": "Họa Hại",
+      "actual": "Họa Hại",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-12.jpg",
+      "region": "left chart"
+    },
+    {
+      "chart": "坤宅 / 五黄宅之圖",
+      "kua": 2,
+      "input": {
+        "year": 1905,
+        "gender": "male"
+      },
+      "direction": "Đông Nam",
+      "printed": "五鬼",
+      "expected": "Ngũ Quỷ",
+      "actual": "Ngũ Quỷ",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-12.jpg",
+      "region": "left chart"
+    },
+    {
+      "chart": "坤宅 / 五黄宅之圖",
+      "kua": 2,
+      "input": {
+        "year": 1905,
+        "gender": "male"
+      },
+      "direction": "Nam",
+      "printed": "六煞",
+      "expected": "Lục Sát",
+      "actual": "Lục Sát",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-12.jpg",
+      "region": "left chart"
+    },
+    {
+      "chart": "坤宅 / 五黄宅之圖",
+      "kua": 2,
+      "input": {
+        "year": 1905,
+        "gender": "male"
+      },
+      "direction": "Tây Nam",
+      "printed": "伏位",
+      "expected": "Phục Vị",
+      "actual": "Phục Vị",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-12.jpg",
+      "region": "left chart"
+    },
+    {
+      "chart": "坤宅 / 五黄宅之圖",
+      "kua": 2,
+      "input": {
+        "year": 1905,
+        "gender": "male"
+      },
+      "direction": "Tây",
+      "printed": "天醫",
+      "expected": "Thiên Y",
+      "actual": "Thiên Y",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-12.jpg",
+      "region": "left chart"
+    },
+    {
+      "chart": "坤宅 / 五黄宅之圖",
+      "kua": 2,
+      "input": {
+        "year": 1905,
+        "gender": "male"
+      },
+      "direction": "Tây Bắc",
+      "printed": "延年",
+      "expected": "Diên Niên",
+      "actual": "Diên Niên",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-12.jpg",
+      "region": "left chart"
+    },
+    {
+      "chart": "兌宅 / 七赤宅之圖",
+      "kua": 7,
+      "input": {
+        "year": 1902,
+        "gender": "female"
+      },
+      "direction": "Bắc",
+      "printed": "禍害",
+      "expected": "Họa Hại",
+      "actual": "Họa Hại",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-11.jpg",
+      "region": "left chart"
+    },
+    {
+      "chart": "兌宅 / 七赤宅之圖",
+      "kua": 7,
+      "input": {
+        "year": 1902,
+        "gender": "female"
+      },
+      "direction": "Đông Bắc",
+      "printed": "延年",
+      "expected": "Diên Niên",
+      "actual": "Diên Niên",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-11.jpg",
+      "region": "left chart"
+    },
+    {
+      "chart": "兌宅 / 七赤宅之圖",
+      "kua": 7,
+      "input": {
+        "year": 1902,
+        "gender": "female"
+      },
+      "direction": "Đông",
+      "printed": "絶命",
+      "expected": "Tuyệt Mệnh",
+      "actual": "Tuyệt Mệnh",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-11.jpg",
+      "region": "left chart"
+    },
+    {
+      "chart": "兌宅 / 七赤宅之圖",
+      "kua": 7,
+      "input": {
+        "year": 1902,
+        "gender": "female"
+      },
+      "direction": "Đông Nam",
+      "printed": "六煞",
+      "expected": "Lục Sát",
+      "actual": "Lục Sát",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-11.jpg",
+      "region": "left chart"
+    },
+    {
+      "chart": "兌宅 / 七赤宅之圖",
+      "kua": 7,
+      "input": {
+        "year": 1902,
+        "gender": "female"
+      },
+      "direction": "Nam",
+      "printed": "五鬼",
+      "expected": "Ngũ Quỷ",
+      "actual": "Ngũ Quỷ",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-11.jpg",
+      "region": "left chart"
+    },
+    {
+      "chart": "兌宅 / 七赤宅之圖",
+      "kua": 7,
+      "input": {
+        "year": 1902,
+        "gender": "female"
+      },
+      "direction": "Tây Nam",
+      "printed": "天醫",
+      "expected": "Thiên Y",
+      "actual": "Thiên Y",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-11.jpg",
+      "region": "left chart"
+    },
+    {
+      "chart": "兌宅 / 七赤宅之圖",
+      "kua": 7,
+      "input": {
+        "year": 1902,
+        "gender": "female"
+      },
+      "direction": "Tây",
+      "printed": "伏位",
+      "expected": "Phục Vị",
+      "actual": "Phục Vị",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-11.jpg",
+      "region": "left chart"
+    },
+    {
+      "chart": "兌宅 / 七赤宅之圖",
+      "kua": 7,
+      "input": {
+        "year": 1902,
+        "gender": "female"
+      },
+      "direction": "Tây Bắc",
+      "printed": "生氣",
+      "expected": "Sinh Khí",
+      "actual": "Sinh Khí",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-11.jpg",
+      "region": "left chart"
+    },
+    {
+      "chart": "艮宅 / 八白宅之圖",
+      "kua": 8,
+      "input": {
+        "year": 1900,
+        "gender": "female"
+      },
+      "direction": "Bắc",
+      "printed": "五鬼",
+      "expected": "Ngũ Quỷ",
+      "actual": "Ngũ Quỷ",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-11.jpg",
+      "region": "right chart"
+    },
+    {
+      "chart": "艮宅 / 八白宅之圖",
+      "kua": 8,
+      "input": {
+        "year": 1900,
+        "gender": "female"
+      },
+      "direction": "Đông Bắc",
+      "printed": "伏位",
+      "expected": "Phục Vị",
+      "actual": "Phục Vị",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-11.jpg",
+      "region": "right chart"
+    },
+    {
+      "chart": "艮宅 / 八白宅之圖",
+      "kua": 8,
+      "input": {
+        "year": 1900,
+        "gender": "female"
+      },
+      "direction": "Đông",
+      "printed": "六煞",
+      "expected": "Lục Sát",
+      "actual": "Lục Sát",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-11.jpg",
+      "region": "right chart"
+    },
+    {
+      "chart": "艮宅 / 八白宅之圖",
+      "kua": 8,
+      "input": {
+        "year": 1900,
+        "gender": "female"
+      },
+      "direction": "Đông Nam",
+      "printed": "絶命",
+      "expected": "Tuyệt Mệnh",
+      "actual": "Tuyệt Mệnh",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-11.jpg",
+      "region": "right chart"
+    },
+    {
+      "chart": "艮宅 / 八白宅之圖",
+      "kua": 8,
+      "input": {
+        "year": 1900,
+        "gender": "female"
+      },
+      "direction": "Nam",
+      "printed": "禍害",
+      "expected": "Họa Hại",
+      "actual": "Họa Hại",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-11.jpg",
+      "region": "right chart"
+    },
+    {
+      "chart": "艮宅 / 八白宅之圖",
+      "kua": 8,
+      "input": {
+        "year": 1900,
+        "gender": "female"
+      },
+      "direction": "Tây Nam",
+      "printed": "生氣",
+      "expected": "Sinh Khí",
+      "actual": "Sinh Khí",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-11.jpg",
+      "region": "right chart"
+    },
+    {
+      "chart": "艮宅 / 八白宅之圖",
+      "kua": 8,
+      "input": {
+        "year": 1900,
+        "gender": "female"
+      },
+      "direction": "Tây",
+      "printed": "延年",
+      "expected": "Diên Niên",
+      "actual": "Diên Niên",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-11.jpg",
+      "region": "right chart"
+    },
+    {
+      "chart": "艮宅 / 八白宅之圖",
+      "kua": 8,
+      "input": {
+        "year": 1900,
+        "gender": "female"
+      },
+      "direction": "Tây Bắc",
+      "printed": "天醫",
+      "expected": "Thiên Y",
+      "actual": "Thiên Y",
+      "match": true,
+      "sourceFile": "new-sources/ndl-760737-11.jpg",
+      "region": "right chart"
+    }
+  ]
+}

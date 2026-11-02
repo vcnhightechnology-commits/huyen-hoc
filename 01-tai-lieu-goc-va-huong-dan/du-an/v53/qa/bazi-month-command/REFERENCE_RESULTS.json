@@ -1,0 +1,564 @@
+{
+  "date": "2026-10-28",
+  "checks": [
+    {
+      "name": "Two literal source lists retain24 rows69 allocations and non-normalized totals",
+      "ok": true
+    },
+    {
+      "name": "24 actual lunar hidden-stem table accesses compare named source lists as a different data type",
+      "ok": true
+    },
+    {
+      "name": "Earth palace labels remain unconverted; prose and Yujing branch sets are not silently merged",
+      "ok": true
+    },
+    {
+      "name": "Unknown variant/frame/month and modern calendar queries cannot obtain a dominant stem or weights",
+      "ok": true
+    },
+    {
+      "name": "Original number anomalies and source-copy safety survive lookup",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "actualLunarHiddenStemTableQueries": 24,
+    "newCalendarChartCalls": 0,
+    "sourceRows": 24,
+    "allocationEntries": 69,
+    "exactCanonicalSetMatches": 6,
+    "differentCanonicalSets": 16,
+    "unresolvedCanonicalSets": 2
+  },
+  "comparisons": [
+    {
+      "variant": "chapter-prose",
+      "monthBranch": "寅",
+      "actualLunarFixedStems": [
+        "甲",
+        "丙",
+        "戊"
+      ],
+      "canonicalSourceSet": null,
+      "unresolvedSourceLabels": [
+        "艮土"
+      ],
+      "exactSetMatch": null,
+      "allSourceLabelsRetained": [
+        "艮土",
+        "丙",
+        "甲"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    },
+    {
+      "variant": "chapter-prose",
+      "monthBranch": "卯",
+      "actualLunarFixedStems": [
+        "乙"
+      ],
+      "canonicalSourceSet": [
+        "甲",
+        "乙"
+      ],
+      "unresolvedSourceLabels": [],
+      "exactSetMatch": false,
+      "allSourceLabelsRetained": [
+        "甲",
+        "乙"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    },
+    {
+      "variant": "chapter-prose",
+      "monthBranch": "辰",
+      "actualLunarFixedStems": [
+        "戊",
+        "乙",
+        "癸"
+      ],
+      "canonicalSourceSet": [
+        "乙",
+        "壬",
+        "戊"
+      ],
+      "unresolvedSourceLabels": [],
+      "exactSetMatch": false,
+      "allSourceLabelsRetained": [
+        "乙",
+        "壬",
+        "戊"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    },
+    {
+      "variant": "chapter-prose",
+      "monthBranch": "巳",
+      "actualLunarFixedStems": [
+        "丙",
+        "庚",
+        "戊"
+      ],
+      "canonicalSourceSet": [
+        "戊",
+        "庚",
+        "丙"
+      ],
+      "unresolvedSourceLabels": [],
+      "exactSetMatch": true,
+      "allSourceLabelsRetained": [
+        "戊",
+        "庚",
+        "丙"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    },
+    {
+      "variant": "chapter-prose",
+      "monthBranch": "午",
+      "actualLunarFixedStems": [
+        "丁",
+        "己"
+      ],
+      "canonicalSourceSet": [
+        "丙",
+        "丁"
+      ],
+      "unresolvedSourceLabels": [],
+      "exactSetMatch": false,
+      "allSourceLabelsRetained": [
+        "丙",
+        "丁"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    },
+    {
+      "variant": "chapter-prose",
+      "monthBranch": "未",
+      "actualLunarFixedStems": [
+        "己",
+        "丁",
+        "乙"
+      ],
+      "canonicalSourceSet": [
+        "丁",
+        "甲",
+        "己"
+      ],
+      "unresolvedSourceLabels": [],
+      "exactSetMatch": false,
+      "allSourceLabelsRetained": [
+        "丁",
+        "甲",
+        "己"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    },
+    {
+      "variant": "chapter-prose",
+      "monthBranch": "申",
+      "actualLunarFixedStems": [
+        "庚",
+        "壬",
+        "戊"
+      ],
+      "canonicalSourceSet": null,
+      "unresolvedSourceLabels": [
+        "坤土"
+      ],
+      "exactSetMatch": null,
+      "allSourceLabelsRetained": [
+        "坤土",
+        "壬",
+        "庚"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    },
+    {
+      "variant": "chapter-prose",
+      "monthBranch": "酉",
+      "actualLunarFixedStems": [
+        "辛"
+      ],
+      "canonicalSourceSet": [
+        "庚",
+        "辛"
+      ],
+      "unresolvedSourceLabels": [],
+      "exactSetMatch": false,
+      "allSourceLabelsRetained": [
+        "庚",
+        "辛"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    },
+    {
+      "variant": "chapter-prose",
+      "monthBranch": "戌",
+      "actualLunarFixedStems": [
+        "戊",
+        "辛",
+        "丁"
+      ],
+      "canonicalSourceSet": [
+        "辛",
+        "丙",
+        "戊"
+      ],
+      "unresolvedSourceLabels": [],
+      "exactSetMatch": false,
+      "allSourceLabelsRetained": [
+        "辛",
+        "丙",
+        "戊"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    },
+    {
+      "variant": "chapter-prose",
+      "monthBranch": "亥",
+      "actualLunarFixedStems": [
+        "壬",
+        "甲"
+      ],
+      "canonicalSourceSet": [
+        "戊",
+        "甲",
+        "壬"
+      ],
+      "unresolvedSourceLabels": [],
+      "exactSetMatch": false,
+      "allSourceLabelsRetained": [
+        "戊",
+        "甲",
+        "壬"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    },
+    {
+      "variant": "chapter-prose",
+      "monthBranch": "子",
+      "actualLunarFixedStems": [
+        "癸"
+      ],
+      "canonicalSourceSet": [
+        "壬",
+        "癸"
+      ],
+      "unresolvedSourceLabels": [],
+      "exactSetMatch": false,
+      "allSourceLabelsRetained": [
+        "壬",
+        "癸"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    },
+    {
+      "variant": "chapter-prose",
+      "monthBranch": "丑",
+      "actualLunarFixedStems": [
+        "己",
+        "癸",
+        "辛"
+      ],
+      "canonicalSourceSet": [
+        "癸",
+        "庚",
+        "己"
+      ],
+      "unresolvedSourceLabels": [],
+      "exactSetMatch": false,
+      "allSourceLabelsRetained": [
+        "癸",
+        "庚",
+        "己"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    },
+    {
+      "variant": "cited-Yujing-table",
+      "monthBranch": "寅",
+      "actualLunarFixedStems": [
+        "甲",
+        "丙",
+        "戊"
+      ],
+      "canonicalSourceSet": [
+        "己",
+        "丙",
+        "甲"
+      ],
+      "unresolvedSourceLabels": [],
+      "exactSetMatch": false,
+      "allSourceLabelsRetained": [
+        "己",
+        "丙",
+        "甲"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    },
+    {
+      "variant": "cited-Yujing-table",
+      "monthBranch": "卯",
+      "actualLunarFixedStems": [
+        "乙"
+      ],
+      "canonicalSourceSet": [
+        "乙",
+        "甲",
+        "癸"
+      ],
+      "unresolvedSourceLabels": [],
+      "exactSetMatch": false,
+      "allSourceLabelsRetained": [
+        "乙",
+        "甲",
+        "癸"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    },
+    {
+      "variant": "cited-Yujing-table",
+      "monthBranch": "辰",
+      "actualLunarFixedStems": [
+        "戊",
+        "乙",
+        "癸"
+      ],
+      "canonicalSourceSet": [
+        "戊",
+        "乙",
+        "癸"
+      ],
+      "unresolvedSourceLabels": [],
+      "exactSetMatch": true,
+      "allSourceLabelsRetained": [
+        "戊",
+        "乙",
+        "癸"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    },
+    {
+      "variant": "cited-Yujing-table",
+      "monthBranch": "巳",
+      "actualLunarFixedStems": [
+        "丙",
+        "庚",
+        "戊"
+      ],
+      "canonicalSourceSet": [
+        "丙",
+        "戊",
+        "庚"
+      ],
+      "unresolvedSourceLabels": [],
+      "exactSetMatch": true,
+      "allSourceLabelsRetained": [
+        "丙",
+        "戊",
+        "庚"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    },
+    {
+      "variant": "cited-Yujing-table",
+      "monthBranch": "午",
+      "actualLunarFixedStems": [
+        "丁",
+        "己"
+      ],
+      "canonicalSourceSet": [
+        "丁",
+        "丙",
+        "乙"
+      ],
+      "unresolvedSourceLabels": [],
+      "exactSetMatch": false,
+      "allSourceLabelsRetained": [
+        "丁",
+        "丙",
+        "乙"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    },
+    {
+      "variant": "cited-Yujing-table",
+      "monthBranch": "未",
+      "actualLunarFixedStems": [
+        "己",
+        "丁",
+        "乙"
+      ],
+      "canonicalSourceSet": [
+        "己",
+        "乙",
+        "丁"
+      ],
+      "unresolvedSourceLabels": [],
+      "exactSetMatch": true,
+      "allSourceLabelsRetained": [
+        "己",
+        "乙",
+        "丁"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    },
+    {
+      "variant": "cited-Yujing-table",
+      "monthBranch": "申",
+      "actualLunarFixedStems": [
+        "庚",
+        "壬",
+        "戊"
+      ],
+      "canonicalSourceSet": [
+        "庚",
+        "己",
+        "戊",
+        "壬"
+      ],
+      "unresolvedSourceLabels": [],
+      "exactSetMatch": false,
+      "allSourceLabelsRetained": [
+        "庚",
+        "己",
+        "戊",
+        "壬"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    },
+    {
+      "variant": "cited-Yujing-table",
+      "monthBranch": "酉",
+      "actualLunarFixedStems": [
+        "辛"
+      ],
+      "canonicalSourceSet": [
+        "辛",
+        "庚",
+        "丁"
+      ],
+      "unresolvedSourceLabels": [],
+      "exactSetMatch": false,
+      "allSourceLabelsRetained": [
+        "辛",
+        "庚",
+        "丁"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    },
+    {
+      "variant": "cited-Yujing-table",
+      "monthBranch": "戌",
+      "actualLunarFixedStems": [
+        "戊",
+        "辛",
+        "丁"
+      ],
+      "canonicalSourceSet": [
+        "戊",
+        "辛",
+        "丁"
+      ],
+      "unresolvedSourceLabels": [],
+      "exactSetMatch": true,
+      "allSourceLabelsRetained": [
+        "戊",
+        "辛",
+        "丁"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    },
+    {
+      "variant": "cited-Yujing-table",
+      "monthBranch": "亥",
+      "actualLunarFixedStems": [
+        "壬",
+        "甲"
+      ],
+      "canonicalSourceSet": [
+        "壬",
+        "甲",
+        "戊"
+      ],
+      "unresolvedSourceLabels": [],
+      "exactSetMatch": false,
+      "allSourceLabelsRetained": [
+        "壬",
+        "甲",
+        "戊"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    },
+    {
+      "variant": "cited-Yujing-table",
+      "monthBranch": "子",
+      "actualLunarFixedStems": [
+        "癸"
+      ],
+      "canonicalSourceSet": [
+        "癸",
+        "壬",
+        "辛"
+      ],
+      "unresolvedSourceLabels": [],
+      "exactSetMatch": false,
+      "allSourceLabelsRetained": [
+        "癸",
+        "壬",
+        "辛"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    },
+    {
+      "variant": "cited-Yujing-table",
+      "monthBranch": "丑",
+      "actualLunarFixedStems": [
+        "己",
+        "癸",
+        "辛"
+      ],
+      "canonicalSourceSet": [
+        "己",
+        "癸",
+        "辛"
+      ],
+      "unresolvedSourceLabels": [],
+      "exactSetMatch": true,
+      "allSourceLabelsRetained": [
+        "己",
+        "癸",
+        "辛"
+      ],
+      "notAnEngineBug": true,
+      "notProofOfEffectiveCommand": true
+    }
+  ],
+  "consumerChanged": false,
+  "actualDateCommandOrStrengthValidated": false
+}

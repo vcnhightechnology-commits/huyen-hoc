@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-29",
+  "records": [
+    {
+      "source": {
+        "file": "v53/research/tuvi-ziwei-anchor/canvas-082-native-trust.jpg",
+        "bytes": 529437,
+        "sha256": "02edb0b0c6b927594b3e447bc737325edc2a303c82a2ab903f2b3adb8d7ead24"
+      },
+      "crop": {
+        "file": "tmp/tuvi-dipper-windows-staging/upper82-classes.png",
+        "bytes": 1368101,
+        "sha256": "32e25379d5ec2c1e39b760b81f06b68726c9bfad43e2629f8664b9013baba6b0"
+      },
+      "boxXYXY": [
+        280,
+        340,
+        990,
+        1455
+      ],
+      "actuallyViewed": true,
+      "readingScope": "Selected labels and timing passage only; not all source words diplomatically collated."
+    },
+    {
+      "source": {
+        "file": "v53/research/fortune-table/official-083.jpg",
+        "bytes": 516847,
+        "sha256": "49ff62da044e52fc66d7d88562a85329328ffa27ea53ac799af5ff2bc969571a"
+      },
+      "crop": {
+        "file": "tmp/tuvi-dipper-windows-staging/upper83-right-complete.png",
+        "bytes": 1220890,
+        "sha256": "bf9e0d81bc8e994dd4f032bbe735c6de8903df4157637a628da075957d8a1353"
+      },
+      "boxXYXY": [
+        1080,
+        325,
+        1950,
+        1155
+      ],
+      "actuallyViewed": true,
+      "readingScope": "Selected labels and timing passage only; not all source words diplomatically collated."
+    },
+    {
+      "source": {
+        "file": "v53/research/tuvi-lower-contexts/canvas-035-2200.jpg",
+        "bytes": 549747,
+        "sha256": "3840fc6d4ceceefd3f3e09bcb489c9f2b13a1d2f97e27089cc6dfbda93f0a233"
+      },
+      "crop": {
+        "file": "tmp/tuvi-dipper-windows-staging/lower35-window.png",
+        "bytes": 886327,
+        "sha256": "f74cd0ddd52fe11d9fd8efdbfb4693f56b4cb5c0afc3a448cbde7e71408cb8fc"
+      },
+      "boxXYXY": [
+        590,
+        300,
+        1080,
+        1300
+      ],
+      "actuallyViewed": true,
+      "readingScope": "Selected labels and timing passage only; not all source words diplomatically collated."
+    }
+  ],
+  "trialCropRetained": {
+    "file": "upper83-classes.png",
+    "acceptedForCompleteClassificationProof": false,
+    "reason": "Wuq-right column outside initial selection; complete-right native crop added and viewed. Other visible labels not new independent evidence."
+  },
+  "newHTTPBodies": 0,
+  "newSourcePositions": 0,
+  "newIndependentEditions": 0
+}

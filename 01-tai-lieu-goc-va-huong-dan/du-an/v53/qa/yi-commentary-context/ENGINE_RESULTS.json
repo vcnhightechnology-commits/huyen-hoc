@@ -1,0 +1,467 @@
+{
+  "checks": [
+    {
+      "name": "The reused95,666,503byte PDF retains the established identity; no edition-date certainty is invented",
+      "ok": true
+    },
+    {
+      "name": "Eight exact embedded JPEG byte identities agree with the executed extraction audit,including one new page248",
+      "ok": true
+    },
+    {
+      "name": "Seven new black-commentary units have individually read page references; prior yao collation counts stay unchanged",
+      "ok": true
+    },
+    {
+      "name": "Source uncertainty and ancient hierarchy remain explicit; red notes and the source-specific line roles are not silently applied",
+      "ok": true
+    },
+    {
+      "name": "The actual six consumer Yi modules run from the same source bytes embedded in standalone HTML",
+      "ok": true
+    },
+    {
+      "name": "Exactly six intended consumer records change and only47.4gets a clarified title; all other378ordinary readings are preserved",
+      "ok": true,
+      "detail": [
+        "34.4",
+        "35.5",
+        "47.4",
+        "50.4",
+        "59.1",
+        "61.4"
+      ]
+    },
+    {
+      "name": "All six editorial changes retain exact before/after values and a separately recorded source context",
+      "ok": true
+    },
+    {
+      "name": "Reviewed Khảm29.4stays unchanged; reading more sources does not force an unnecessary product edit",
+      "ok": true
+    },
+    {
+      "name": "Engine,cast-selection,export/profile,Chinese corpus,Càn/Khôn and all unrelated feature modules remain byte-identical",
+      "ok": true
+    },
+    {
+      "name": "Historical manual collations,Chinese source corpus,qualified provenance and source rasters retain exact bytes",
+      "ok": true
+    },
+    {
+      "name": "Twenty-four actual engine cases exercise absent,single,other and all-moving selections for every edited hexagram",
+      "ok": true
+    },
+    {
+      "name": "Selected-line reading and complete six-line context share all six revised records",
+      "ok": true
+    },
+    {
+      "name": "All384ordinary reading titles remain unique and every reflection has a concrete practice prompt",
+      "ok": true
+    },
+    {
+      "name": "Revised Khốn avoids a broken-equipment diagnosis,and TrungPhu retains respectful discussion rather than blanket severance advice",
+      "ok": true
+    },
+    {
+      "name": "Source quotations,PDF identity and research notes stay outside consumer HTML",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "newCommentaryUnits": 7,
+    "targetImages": 8,
+    "newEmbeddedJPEGExtractions": 1,
+    "newYaoCollations": 0,
+    "consumerRecordsRefined": 6,
+    "unchangedOrdinaryReadings": 378,
+    "titleChanges": 1,
+    "actualEngineTargetCases": 24,
+    "externalResponses": 0
+  },
+  "manualSHA256": "cc415f86f4c5209ab710bc788ffc90cdef1b7c5ecba3d04e3b909ef5dc6c2dc0",
+  "changesSHA256": "1409398596382563f4f56e875c758255966216813bf601ce64fce34f415cbe12",
+  "imageAuditSHA256": "c24aa0d8693cb5a09077c95bd2823ffe969d971f26b2904ec42c4a2907755dbc",
+  "htmlSHA256": "57850abfad4a3c92069de448e3d654d427a4bd778d100b08925e5ba1c8330d8e",
+  "casts": [
+    {
+      "hexagram": 34,
+      "changed": 34,
+      "positions": [],
+      "values": [
+        7,
+        7,
+        7,
+        7,
+        8,
+        8
+      ]
+    },
+    {
+      "hexagram": 34,
+      "changed": 11,
+      "positions": [
+        4
+      ],
+      "values": [
+        7,
+        7,
+        7,
+        9,
+        8,
+        8
+      ]
+    },
+    {
+      "hexagram": 34,
+      "changed": 43,
+      "positions": [
+        5
+      ],
+      "values": [
+        7,
+        7,
+        7,
+        7,
+        6,
+        8
+      ]
+    },
+    {
+      "hexagram": 34,
+      "changed": 20,
+      "positions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "values": [
+        9,
+        9,
+        9,
+        9,
+        6,
+        6
+      ]
+    },
+    {
+      "hexagram": 35,
+      "changed": 35,
+      "positions": [],
+      "values": [
+        8,
+        8,
+        8,
+        7,
+        8,
+        7
+      ]
+    },
+    {
+      "hexagram": 35,
+      "changed": 12,
+      "positions": [
+        5
+      ],
+      "values": [
+        8,
+        8,
+        8,
+        7,
+        6,
+        7
+      ]
+    },
+    {
+      "hexagram": 35,
+      "changed": 16,
+      "positions": [
+        6
+      ],
+      "values": [
+        8,
+        8,
+        8,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "hexagram": 35,
+      "changed": 5,
+      "positions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "values": [
+        6,
+        6,
+        6,
+        9,
+        6,
+        9
+      ]
+    },
+    {
+      "hexagram": 47,
+      "changed": 47,
+      "positions": [],
+      "values": [
+        8,
+        7,
+        8,
+        7,
+        7,
+        8
+      ]
+    },
+    {
+      "hexagram": 47,
+      "changed": 29,
+      "positions": [
+        4
+      ],
+      "values": [
+        8,
+        7,
+        8,
+        9,
+        7,
+        8
+      ]
+    },
+    {
+      "hexagram": 47,
+      "changed": 40,
+      "positions": [
+        5
+      ],
+      "values": [
+        8,
+        7,
+        8,
+        7,
+        9,
+        8
+      ]
+    },
+    {
+      "hexagram": 47,
+      "changed": 22,
+      "positions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "values": [
+        6,
+        9,
+        6,
+        9,
+        9,
+        6
+      ]
+    },
+    {
+      "hexagram": 50,
+      "changed": 50,
+      "positions": [],
+      "values": [
+        8,
+        7,
+        7,
+        7,
+        8,
+        7
+      ]
+    },
+    {
+      "hexagram": 50,
+      "changed": 18,
+      "positions": [
+        4
+      ],
+      "values": [
+        8,
+        7,
+        7,
+        9,
+        8,
+        7
+      ]
+    },
+    {
+      "hexagram": 50,
+      "changed": 44,
+      "positions": [
+        5
+      ],
+      "values": [
+        8,
+        7,
+        7,
+        7,
+        6,
+        7
+      ]
+    },
+    {
+      "hexagram": 50,
+      "changed": 3,
+      "positions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "values": [
+        6,
+        9,
+        9,
+        9,
+        6,
+        9
+      ]
+    },
+    {
+      "hexagram": 59,
+      "changed": 59,
+      "positions": [],
+      "values": [
+        8,
+        7,
+        8,
+        8,
+        7,
+        7
+      ]
+    },
+    {
+      "hexagram": 59,
+      "changed": 61,
+      "positions": [
+        1
+      ],
+      "values": [
+        6,
+        7,
+        8,
+        8,
+        7,
+        7
+      ]
+    },
+    {
+      "hexagram": 59,
+      "changed": 20,
+      "positions": [
+        2
+      ],
+      "values": [
+        8,
+        9,
+        8,
+        8,
+        7,
+        7
+      ]
+    },
+    {
+      "hexagram": 59,
+      "changed": 55,
+      "positions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "values": [
+        6,
+        9,
+        6,
+        6,
+        9,
+        9
+      ]
+    },
+    {
+      "hexagram": 61,
+      "changed": 61,
+      "positions": [],
+      "values": [
+        7,
+        7,
+        8,
+        8,
+        7,
+        7
+      ]
+    },
+    {
+      "hexagram": 61,
+      "changed": 10,
+      "positions": [
+        4
+      ],
+      "values": [
+        7,
+        7,
+        8,
+        6,
+        7,
+        7
+      ]
+    },
+    {
+      "hexagram": 61,
+      "changed": 41,
+      "positions": [
+        5
+      ],
+      "values": [
+        7,
+        7,
+        8,
+        8,
+        9,
+        7
+      ]
+    },
+    {
+      "hexagram": 61,
+      "changed": 62,
+      "positions": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "values": [
+        9,
+        9,
+        6,
+        6,
+        9,
+        9
+      ]
+    }
+  ]
+}

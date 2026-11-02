@@ -1,0 +1,262 @@
+{
+  "schema": "hhc.home.fuduan.preimplementation.expected.v1",
+  "date": "2026-10-29",
+  "sourceID": "xieji-ssid12152602-vol36-selected",
+  "frameID": "seven-declared-720-step-blocks-28-mansions",
+  "writtenBeforeReferenceImplementation": true,
+  "manualPrintedTable": {
+    "title": "伏斷時立成",
+    "printedRowHeading": "日",
+    "printedRowsTopToBottom": [
+      "子",
+      "丑",
+      "寅",
+      "卯",
+      "辰",
+      "巳",
+      "午",
+      "未",
+      "申",
+      "酉",
+      "戌",
+      "亥"
+    ],
+    "columnsRightToLeft": [
+      {
+        "yuan": 1,
+        "values": [
+          "虛",
+          "危",
+          "室",
+          "壁",
+          "奎",
+          "婁",
+          "胃",
+          "昴",
+          "畢",
+          "觜",
+          "參",
+          "井"
+        ]
+      },
+      {
+        "yuan": 4,
+        "values": [
+          "鬼",
+          "柳",
+          "星",
+          "張",
+          "翼",
+          "軫",
+          "角",
+          "亢",
+          "氐",
+          "房",
+          "心",
+          "尾"
+        ]
+      },
+      {
+        "yuan": 7,
+        "values": [
+          "箕",
+          "斗",
+          "牛",
+          "女",
+          "虛",
+          "危",
+          "室",
+          "壁",
+          "奎",
+          "婁",
+          "胃",
+          "昴"
+        ]
+      },
+      {
+        "yuan": 3,
+        "values": [
+          "畢",
+          "觜",
+          "參",
+          "井",
+          "鬼",
+          "柳",
+          "星",
+          "張",
+          "翼",
+          "軫",
+          "角",
+          "亢"
+        ]
+      },
+      {
+        "yuan": 6,
+        "values": [
+          "氐",
+          "房",
+          "心",
+          "尾",
+          "箕",
+          "斗",
+          "牛",
+          "女",
+          "虛",
+          "危",
+          "室",
+          "壁"
+        ]
+      },
+      {
+        "yuan": 2,
+        "values": [
+          "奎",
+          "婁",
+          "胃",
+          "昴",
+          "畢",
+          "觜",
+          "參",
+          "井",
+          "鬼",
+          "柳",
+          "星",
+          "張"
+        ]
+      },
+      {
+        "yuan": 5,
+        "values": [
+          "翼",
+          "軫",
+          "角",
+          "亢",
+          "氐",
+          "房",
+          "心",
+          "尾",
+          "箕",
+          "斗",
+          "牛",
+          "女"
+        ]
+      }
+    ],
+    "cellsManuallyRead": 84,
+    "mansionGlyphsOnly": true,
+    "fortuneAnnotationsNotTranscribed": true,
+    "rowSemanticAdapter": null,
+    "scope": "Literal sourcecoordinates; no automatic day/hour/calendar mapping."
+  },
+  "proseExamples": [
+    {
+      "yuan": 1,
+      "day": "甲子",
+      "hour": "子",
+      "mansion": "虛"
+    },
+    {
+      "yuan": 1,
+      "day": "甲子",
+      "hour": "寅",
+      "mansion": "室"
+    },
+    {
+      "yuan": 1,
+      "day": "甲子",
+      "hour": "巳",
+      "mansion": "婁"
+    },
+    {
+      "yuan": 1,
+      "day": "甲子",
+      "hour": "酉",
+      "mansion": "觜"
+    },
+    {
+      "yuan": 1,
+      "day": "乙丑",
+      "hour": "子",
+      "mansion": "鬼"
+    },
+    {
+      "yuan": 1,
+      "day": "癸亥",
+      "hour": "亥",
+      "mansion": "亢"
+    },
+    {
+      "yuan": 2,
+      "day": "甲子",
+      "hour": "子",
+      "mansion": "奎"
+    }
+  ],
+  "boundaries": [
+    {
+      "yuan": 1,
+      "last": "亢",
+      "continuousNext": "氐",
+      "declaredNext": "奎",
+      "forwardGap": 12
+    },
+    {
+      "yuan": 2,
+      "last": "尾",
+      "continuousNext": "箕",
+      "declaredNext": "畢",
+      "forwardGap": 12
+    },
+    {
+      "yuan": 3,
+      "last": "女",
+      "continuousNext": "虛",
+      "declaredNext": "鬼",
+      "forwardGap": 12
+    },
+    {
+      "yuan": 4,
+      "last": "壁",
+      "continuousNext": "奎",
+      "declaredNext": "翼",
+      "forwardGap": 12
+    },
+    {
+      "yuan": 5,
+      "last": "昴",
+      "continuousNext": "畢",
+      "declaredNext": "氐",
+      "forwardGap": 12
+    },
+    {
+      "yuan": 6,
+      "last": "井",
+      "continuousNext": "鬼",
+      "declaredNext": "箕",
+      "forwardGap": 12
+    },
+    {
+      "yuan": 7,
+      "last": "張",
+      "continuousNext": "翼",
+      "declaredNext": "虛",
+      "forwardGap": 12
+    }
+  ],
+  "periodExpectations": {
+    "withinBlockHourSteps": 28,
+    "withinBlockDayRepeat": 7,
+    "totalHourStepsSevenBlocks": 5040,
+    "continuousCompleteMansionLoops": 180,
+    "allSevenDeclaredBoundariesSeamless": false,
+    "totalCycleReturningDoesNotRemoveLocalJumps": true
+  },
+  "unknownFrames": [
+    "gregorian-calendar",
+    "ITKC-chen-ke-gan",
+    "four-kill-submerged-hour",
+    "printed-row-means-civil-day",
+    "lunar-mansion-astronomical-position"
+  ],
+  "scopeLimit": "84manualmansioncells+7sourceproseexamples+7manuallyspecifiedmodularboundaryexpectations; no auspiciousnessoracle."
+}

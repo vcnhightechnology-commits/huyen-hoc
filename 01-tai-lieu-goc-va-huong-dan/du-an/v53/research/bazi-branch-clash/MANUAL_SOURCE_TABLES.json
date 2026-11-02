@@ -1,0 +1,118 @@
+{
+  "sourceID": "TMTH002-CADAL06066038-CHONGJI",
+  "frameID": "declared-source-clash-coordinates",
+  "clashPartners": {
+    "子": "午",
+    "丑": "未",
+    "寅": "申",
+    "卯": "酉",
+    "辰": "戌",
+    "巳": "亥",
+    "午": "子",
+    "未": "丑",
+    "申": "寅",
+    "酉": "卯",
+    "戌": "辰",
+    "亥": "巳"
+  },
+  "sourceInclusiveOrdinal": 7,
+  "completeGroups": {
+    "four-birth": [
+      "寅",
+      "申",
+      "巳",
+      "亥"
+    ],
+    "four-cardinal": [
+      "子",
+      "午",
+      "卯",
+      "酉"
+    ]
+  },
+  "unresolvedFourStores": {
+    "literalDigital": "戌丑未未",
+    "policy": "Retain literal;do not replace one未with辰toformanassumedtable.",
+    "groupImplemented": false
+  },
+  "literalPillarPairs": [
+    {
+      "anchor": "辛巳",
+      "other": "癸亥",
+      "sourceLabel": "衝處相生"
+    },
+    {
+      "anchor": "壬申",
+      "other": "庚寅",
+      "sourceLabel": "衝處相尅"
+    },
+    {
+      "anchor": "甲子",
+      "other": "甲午",
+      "sourceLabel": "同類相衝"
+    },
+    {
+      "anchor": "己卯",
+      "other": "己酉",
+      "sourceLabel": "同類相衝"
+    }
+  ],
+  "namedBreakings": [
+    {
+      "id": "seal",
+      "sourcePersonElement": "木",
+      "anchorPillar": "癸未",
+      "otherPillar": "乙丑",
+      "literal": "破印者如木人帶癸未内有乙丑金之類"
+    },
+    {
+      "id": "wealth",
+      "sourcePersonElement": "金",
+      "literal": "破財者如金人以寅卯為財見申酉之類",
+      "joinAndPairAlignmentUnresolved": true
+    },
+    {
+      "id": "lu",
+      "anchorStem": "甲",
+      "sourceLuBranch": "寅",
+      "seenBranch": "申",
+      "literal": "破禄者如甲禄在寅見申字之類"
+    },
+    {
+      "id": "horse",
+      "declaredSourceHorseBranch": null,
+      "seenBranch": "亥",
+      "digitalGlyph": "己",
+      "nativeSelectedGlyph": "己",
+      "literalDigital": "破馬者如馬在己見亥字之類",
+      "horseAnchorNeverInferred": true,
+      "glyphRoleUnresolved": true,
+      "fullRuleImplemented": false,
+      "note": "Selectednativealsohas己-shapedglyph;do not silentlynormalize巳. Preserveasopenliteral."
+    },
+    {
+      "id": "union",
+      "literal": "破合者乃干合被支破如甲午人見己亥或見己字即破己亥逢子破甲午合之類",
+      "connectiveScopeUnresolved": true,
+      "fullRuleImplemented": false
+    }
+  ],
+  "yuJingDirection": [
+    {
+      "declaredImage": "吉象",
+      "sourceDesiredDirection": "other-to-self"
+    },
+    {
+      "declaredImage": "凶象",
+      "sourceDesiredDirection": "self-to-other"
+    }
+  ],
+  "roleLabels": {
+    "self": "用神",
+    "other": "閒神"
+  },
+  "qiAndSupportRequireFurtherSourcePremises": true,
+  "sourceConclusion": "觀諸詩見衝破有吉有凶不可槩論",
+  "calendarAdapter": false,
+  "healthMoralityMortalityRankPredictionsValidated": false
+}

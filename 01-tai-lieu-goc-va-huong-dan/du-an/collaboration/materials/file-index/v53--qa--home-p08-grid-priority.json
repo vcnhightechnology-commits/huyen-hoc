@@ -1,0 +1,53 @@
+{
+  "scope": "v53/qa/home-p08-grid-priority",
+  "files": [
+    {
+      "file": "v53/qa/home-p08-grid-priority/PROMOTION_IDENTITIES.json",
+      "bytes": 4401,
+      "sha256": "a992c782e4098cf2d6561377fd4a1332d785a7f30a984b41299e6f92a92985d4",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a992c782e4098cf2d6561377fd4a1332d785a7f30a984b41299e6f92a92985d4",
+      "httpRange": {
+        "offset": 254687875,
+        "compressedBytes": 1224,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/home-p08-grid-priority/RELEASE_RESULTS.json",
+      "bytes": 1022,
+      "sha256": "14176a48e55d81531a3896316b101700cd2bfc39363db05846ca702b3ecf71bf",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/14176a48e55d81531a3896316b101700cd2bfc39363db05846ca702b3ecf71bf",
+      "httpRange": {
+        "offset": 265452680,
+        "compressedBytes": 453,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/home-p08-grid-priority/SOURCE_RESULTS.json",
+      "bytes": 278,
+      "sha256": "bb32b99c6b0c19cb16f0928c2e6583959ce04aa94d7ced7bfef8847a0ad2d59b",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bb32b99c6b0c19cb16f0928c2e6583959ce04aa94d7ced7bfef8847a0ad2d59b",
+      "httpRange": {
+        "offset": 190439800,
+        "compressedBytes": 169,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/home-p08-grid-priority/TEST_RESULTS.json",
+      "bytes": 331,
+      "sha256": "f8c8386e860338cbfbd1a894d278590021a18b81aa2e0a5c5150aac99b95e8c7",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f8c8386e860338cbfbd1a894d278590021a18b81aa2e0a5c5150aac99b95e8c7",
+      "httpRange": {
+        "offset": 239536885,
+        "compressedBytes": 203,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

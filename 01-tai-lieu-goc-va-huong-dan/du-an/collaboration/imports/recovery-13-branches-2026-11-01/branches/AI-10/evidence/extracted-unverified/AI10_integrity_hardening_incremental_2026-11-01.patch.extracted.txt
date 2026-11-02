@@ -1,0 +1,683 @@
+diff --git a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/INTEGRITY_GATES_REPORT.md b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/INTEGRITY_GATES_REPORT.md
+new file mode 100644
+index 0000000..ea7670c
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/INTEGRITY_GATES_REPORT.md
+@@ -0,0 +1,98 @@
++# AI-10 — Chặn thu hẹp test manifest và tệp phụ thuộc URL động
++
++**Ngày:** 01/11/2026
++**Nhánh dự định:** `codex/ai-10-tam-thuc` — Draft PR #11.
++**Mốc GitHub cuối cùng trước khi kết nối bị chặn:** `3fba778df2db68cd0fdbb472a271b1322dcc66ae`.
++**Trạng thái:** Hoàn thiện bản vá và kiểm thử tại máy, **CHƯA push lên GitHub**. Kết nối GitHub hiện trả 403 `Sorry. Your account was suspended`.
++
++## 1. Lỗ hổng thật đã tái hiện trước khi sửa
++
++### T1 — Thu hẹp test suite nhưng chế độ `--run-git-head` vẫn thành công
++
++Một Git repository thử nghiệm đã `commit` sẵn **hai** tệp test cùng manifest khai báo hai tệp. Khi **xóa `test-b.mjs` trong worktree** đồng thời **xóa đúng mục `test-b.mjs` khỏi `TEST_MANIFEST.json` tại worktree, không commit**, phiên bản runner cũ báo:
++
++- `AI-10 test inventory`: `pass: true`, chỉ 1 tệp được kiểm;
++- `AI-10 local Git HEAD`: `pass: true`, chỉ xác minh 1 tệp còn được khai báo;
++- `--run-git-head`: **exit code 0**, thực thi đúng một test còn lại.
++
++Đây là **false positive nghiêm trọng trong tuyên bố full inventory so với HEAD**. Mã kiểm HEAD cũ không đối chiếu chính manifest và không khám phá các test **đã được commit nhưng bị loại khỏi worktree**.
++
++**Bản sửa:** Bổ sung `auditAI10GitHeadInventory(root, manifest)`:
++
++1. Đọc trực tiếp `git ls-tree -r -z HEAD` để kiểm kê **tất cả tệp `test-*.mjs` trong vùng AI-10 ở commit**, độc lập với manifest và worktree.
++2. Đối chiếu **tập đường dẫn**, SHA Git từng test trong manifest với tree đã commit; phát hiện thiếu, tăng bất thường hoặc sửa digest.
++3. So byte **`TEST_MANIFEST.json`** và bốn tệp kiểm **`run-ai10-strict.mjs`, `ai10-test-audit.mjs`, `ai10-dependency-audit.mjs`, `ai10-git-tree-audit.mjs`** với Git HEAD; từ chối symlink/tệp thiếu.
++4. Chỉ cho phép `--verify-git-head`/`--run-git-head` thông qua khi **inventory + dependency closure + Git dependency bytes + HEAD test inventory + trusted tooling** cùng đạt.
++
++Phản chứng sau sửa: việc xóa `test-b.mjs` và thu hẹp manifest trả **exit code 1**, ghi `HEAD_TEST_OMITTED_FROM_MANIFEST` cùng `TRUSTED_FILE_DIFFERS_FROM_HEAD`, **không gọi Node test**. Sửa riêng manifest, sửa runner, thêm tệp test đã commit nhưng không khai báo, SHA test trong manifest giả, symlink tới manifest đều bị chặn.
++
++**Ranh giới:** Chứng thực **Git HEAD tại máy** không chứng thực commit của `origin` hay quyền của GitHub. Một commit mới cố ý rút gọn suite phải được người duyệt đánh giá; bộ kiểm không coi commit mới mặc định là bản nguồn lịch sử đã xác minh.
++
++### T2 — Đường dẫn URL động bị scanner phụ thuộc bỏ qua
++
++Mã thử ban đầu:
++
++```js
++import {readFileSync} from 'node:fs';
++const name = './missing.json';
++const value = readFileSync(new URL(name, import.meta.url));
++```
++
++Bộ `auditAI10DependencyClosure` cũ trả **`pass: true`**, chỉ thấy tệp JS đang xét, không thấy tệp JSON không tồn tại vì scanner chỉ thu `new URL('./literal', import.meta.url)`.
++
++**Bản sửa:** Mọi `new URL(...)` không khớp mẫu tệp hằng số đã hỗ trợ đều trả vấn đề `DYNAMIC_URL_UNINSPECTED`; không tự coi việc thiếu literal là không có dependency. Các fixture sao chép tool bằng biểu thức `new URL('./'+name, ...)` được viết lại để **liệt kê URL tĩnh** cho từng tệp, tránh phải nới lỏng kiểm nguồn. Đã thử các URL động trong mô-đun nhập bắc cầu, URL ghép chuỗi, URL hằng hợp lệ, và văn bản nằm trong comment/chuỗi.
++
++**Ranh giới:** Đây vẫn là kiểm chứng **tĩnh có giới hạn**; biểu thức file I/O phức tạp, các mẫu interpolation template literal và nội dung runtime không thể được khẳng định đã xét hoàn chỉnh. Đầu ra vẫn có `dynamicRuntimeReadsCovered=false`, `sourceTextAuthenticated=false`, `consumerReady=false`.
++
++### T3 — Manifest và Git HEAD không chứa test nào
++
++Nếu danh sách được khai báo **rỗng** và thư mục hiện có cũng rỗng, `auditAI10TestManifest()` cũ có thể trả `pass:true`. Khi đó `node --test` **không có đường dẫn tường minh** có thể tự khám phá test bên ngoài phạm vi AI-10; đây là hành vi không được chấp nhận cho một bộ kiểm nghiêm ngặt.
++
++**Bản sửa:** Trả lỗi `EMPTY_TEST_MANIFEST` nếu không còn bài test khai báo, và `EMPTY_HEAD_TEST_SUITE` nếu Git HEAD không chứa một tệp `test-*.mjs` nào trong AI-10. Đã kiểm thử bộ giả lập có manifest rỗng: runner `--run` **exit 1, không gọi Node test discovery**; khi cả cây Git mới được commit không có test, `auditAI10GitHeadInventory` cũng trả lỗi.
++
++## 2. Tệp thay đổi sau vòng vá phụ thuộc trước đó
++
++- `ai10-git-tree-audit.mjs`: thêm `auditAI10GitHeadInventory`, khóa manifest và các tệp kiểm vào HEAD; từ chối Git HEAD rỗng.
++- `run-ai10-strict.mjs`: chặn `--run-git-head` và `--verify-git-head` khi HEAD inventory chưa đạt.
++- `ai10-dependency-audit.mjs`: từ chối `new URL()` có đường dẫn không phân tích tĩnh được.
++- `test-ai10-git-tree-audit.mjs`: thêm **10 kiểm** tái hiện thu hẹp manifest, sửa tool, tệp test có trong HEAD nhưng không manifest, symlink.
++- `test-ai10-dependency-audit.mjs`: thêm **4 kiểm** URL động, URL ghép và đối chứng tĩnh.
++- `test-ai10-test-audit.mjs`: chuyển fixture file URL động thành đường dẫn tĩnh, thêm kiểm trường hợp zero-test.
++- `TEST_MANIFEST.json`: cập nhật chuẩn xác SHA Git blob/byte của ba tệp test trên; giữ nguyên **24 tệp test bắt buộc**.
++- `INTEGRITY_GATES_REPORT.md`, `INTEGRITY_GATES_STATE.json`: bằng chứng và tệp trạng thái lượt này.
++
++**Không** sửa mã S01/S02/S03 tính lịch, ứng dụng, `main`, `COVERAGE.json`, ZIP hay lane khác.
++
++## 3. Kết quả kiểm thử và giới hạn rõ ràng
++
++- Node.js **22.16.0**: chạy toàn bộ **13 tệp test có sẵn tại máy**, **118/118 ca đạt, 0 fail** = 102 ca của vòng trước + **16 ca phản chứng mới**.
++- Manifest yêu cầu **24 tệp test**, hiện chỉ có 13, còn thiếu **11 tệp**. Vì vậy `run-ai10-strict.mjs --verify-only` **vẫn trả lỗi**, là kết quả đúng; tuyệt đối **không công bố full suite pass**.
++- `--run-git-head` trên Git fixture có hai test và đủ bộ tooling đã commit: **exit 0**, đầy đủ nguồn và test.
++- `--run-git-head` khi thu hẹp manifest nhưng không commit: **exit 1, không chạy test**; trước sửa đã thấy **exit 0**.
++- `auditAI10DependencyClosure` với URL JSON động bị thiếu: **fail**, trước sửa **pass**.
++- GitHub Actions, toàn bộ 24/24 tệp AI-10, hồi quy V53, chứng cứ ảnh cổ thư và mô hình lịch/engine vẫn **chưa được kiểm đầy đủ**.
++
++## 4. Bản vá và áp dụng
++
++Bàn giao hai dạng patch Git có thể kiểm bằng `git apply --check`:
++
++- **Combined**: áp một lần trên bản nguồn đã có ở GitHub commit `3fba778d…` (gồm cả bản vá phụ thuộc của vòng trước).
++- **Incremental**: áp trên checkout đã nhận **bản vá phụ thuộc** của vòng trước; chỉ chứa sửa đổi bảo vệ manifest và URL động của vòng này.
++
++Từ root checkout đã chọn đúng nhánh AI-10:
++
++```bash
++git apply --check /path/to/AI10_integrity_hardening_combined_2026-11-01.patch
++git apply /path/to/AI10_integrity_hardening_combined_2026-11-01.patch
++# Sau khi rà nội dung, commit để --run-git-head so với HEAD mới:
++node collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/run-ai10-strict.mjs --verify-only
++```
++
++`--run-git-head` có thể chạy **sau khi commit** và sau khi khôi phục đủ 24 test cùng dependency; nó từ chối worktree chưa commit. Nếu nhánh GitHub đã thay đổi, **không áp cưỡng bức**; so diff/manifest và chạy kiểm lại trước khi đề xuất PR.
++
++## 5. Điều phối và kiến nghị
++
++**AI-10:** giữ manifest là tài sản được kiểm theo chính HEAD, kiểm dependency closure trước khi chạy, và yêu cầu suite đầy đủ trước nghiệm thu.
++**AI-11:** không xem bằng chứng kiểm chương trình là chứng thực chữ cổ.
++**AI-13:** không suy việc pass của module kiểm toán thành chứng minh lịch, ngày giờ, can chi hoặc bốn khóa.
++**PR #11:** tiếp tục Draft; **chưa push bản vá mới** do 403. Đề xuất reviewer kiểm đầu ra từ hai lỗ hổng tái hiện trước và sau khi sửa, rồi mới hợp nhất.
+diff --git a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/INTEGRITY_GATES_STATE.json b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/INTEGRITY_GATES_STATE.json
+new file mode 100644
+index 0000000..37fe09f
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/INTEGRITY_GATES_STATE.json
+@@ -0,0 +1,52 @@
++{
++  "schema": "hhc.ai10.test-integrity-gates.v1",
++  "date": "2026-11-01",
++  "catalogue": "AI-10",
++  "branch": "codex/ai-10-tam-thuc",
++  "lastConfirmedGitHubHead": "3fba778df2db68cd0fdbb472a271b1322dcc66ae",
++  "githubConnectorStatus": "HTTP_403_account_suspended",
++  "githubPushCompleted": false,
++  "githubPRUpdated": false,
++  "vulnerabilitiesReproduced": [
++    {
++      "id": "MANIFEST_SHRINK_HEAD_BYPASS",
++      "previousRunnerExitCode": 0,
++      "afterFixRunnerExitCode": 1,
++      "previouslyExecutedReducedSuite": true,
++      "afterFixExecutedReducedSuite": false
++    },
++    {
++      "id": "DYNAMIC_NEW_URL_INVISIBLE",
++      "previousPreflightPassed": true,
++      "afterFixPreflightPassed": false,
++      "issue": "DYNAMIC_URL_UNINSPECTED"
++    },
++    {
++      "id": "EMPTY_TEST_SUITE_AUTO_DISCOVERY",
++      "previousEmptyManifestAccepted": true,
++      "afterFixEmptyManifestAccepted": false,
++      "afterFixEmptyGitHeadAccepted": false,
++      "afterFixNodeAutoDiscoveryPrevented": true
++    }
++  ],
++  "nodeVersion": "22.16.0",
++  "locallyPresentTestFiles": 13,
++  "manifestTestFiles": 24,
++  "missingTestFiles": 11,
++  "priorTestCases": 102,
++  "newTestCases": 16,
++  "locallyExecutedTestCases": 118,
++  "locallyPassedTestCases": 118,
++  "locallyFailedTestCases": 0,
++  "originalGitHubCompleteTestSuiteExecuted": false,
++  "GitHubActionsVerified": false,
++  "V53RegressionRun": false,
++  "cleanSyntheticGitHeadTwoTestCliPassed": true,
++  "shrunkManifestGitHeadCliBlocked": true,
++  "allSourceModulesTestedOnRealCompleteCheckout": false,
++  "sourceManuscriptVerifiedThisRound": false,
++  "consumerChanged": false,
++  "wholeWorkApplied": false,
++  "mainModified": false,
++  "researchResult": "Reproduced and blocked two independent preflight false positives, no divination engine changes."
++}
+diff --git a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/TEST_MANIFEST.json b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/TEST_MANIFEST.json
+index 8102cc1..6207e3f 100644
+--- a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/TEST_MANIFEST.json
++++ b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/TEST_MANIFEST.json
+@@ -38,18 +38,18 @@
+     },
+     {
+       "path": "tam-thuc-reproducible-audit-2026-11-01/test-ai10-dependency-audit.mjs",
+-      "bytes": 7507,
+-      "gitBlobSha": "b4591045a9fcd593ff8046a3eb05ffc05cb06b74"
++      "bytes": 9563,
++      "gitBlobSha": "b88ed5e3e4801e7119182f0580db6d6e64c656c4"
+     },
+     {
+       "path": "tam-thuc-reproducible-audit-2026-11-01/test-ai10-git-tree-audit.mjs",
+-      "bytes": 7267,
+-      "gitBlobSha": "09b8d49f7eb5b7b1ba38891e4fc01b56972702ec"
++      "bytes": 14473,
++      "gitBlobSha": "4ff8409ed5aa3bf6dfdd00c2af2eadbf595978fa"
+     },
+     {
+       "path": "tam-thuc-reproducible-audit-2026-11-01/test-ai10-test-audit.mjs",
+-      "gitBlobSha": "4d6fe53eb64938d3244df01e5910ba6f490164dc",
+-      "bytes": 6543
++      "gitBlobSha": "aa68d5454e0e8011b81a13797bcf6a4f60fb7fb1",
++      "bytes": 8344
+     },
+     {
+       "path": "tam-thuc-reproducible-audit-2026-11-01/test-s02-method-ambiguity.mjs",
+diff --git a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/ai10-dependency-audit.mjs b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/ai10-dependency-audit.mjs
+index 920adad..aa05b89 100644
+--- a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/ai10-dependency-audit.mjs
++++ b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/ai10-dependency-audit.mjs
+@@ -11,6 +11,7 @@ import {spawnSync} from 'node:child_process';
+ import {gitBlobSha} from './ai10-test-audit.mjs';
+ 
+ const URL_LITERAL=/^new\s+URL\s*\(\s*(['"])([^'"\r\n]+)\1\s*,\s*import\.meta\.url\s*\)/;
++const URL_CALL_START=/^new\s+URL\s*\(/;
+ const DYNAMIC_IMPORT=/\bimport\s*\(/;
+ const REQUIRE_CALL=/\brequire\s*\(/;
+ // node:vm.SourceTextModule parses import declarations without evaluating code.
+@@ -32,7 +33,7 @@ function staticallyParsedImports(source){
+  * as live code. This deliberately does not claim to resolve runtime I/O in
+  * template interpolations. Static imports are parsed with the VM compiler. */
+ function scanStaticURLLiterals(source){
+- const refs=[],sanitized=source.split('');
++ const refs=[],unresolvedURLCalls=[],sanitized=source.split('');
+  const blank=(start,end)=>{for(let j=start;j<end;j++)if(source[j]!=='\n')sanitized[j]=' ';};
+  for(let i=0;i<source.length;){
+   if(source.startsWith('//',i)){
+@@ -49,13 +50,19 @@ function scanStaticURLLiterals(source){
+    }
+    blank(i,j);i=j;continue;
+   }
+-  if(source.startsWith('new',i)){
+-   const m=URL_LITERAL.exec(source.slice(i));
+-   if(m&&(!i||!/[\w$]/.test(source[i-1]))){refs.push(m[2]);}
++  if(source.startsWith('new',i)&&(!i||!/[\w$]/.test(source[i-1]))){
++   const candidate=source.slice(i);
++   if(URL_CALL_START.test(candidate)){
++    const m=URL_LITERAL.exec(candidate);
++    if(m)refs.push(m[2]);
++    // Every nonliteral new URL() would otherwise evade the preflight entirely.
++    // This intentionally rejects ambiguous syntax rather than guessing a file.
++    else unresolvedURLCalls.push(i);
++   }
+   }
+   i++;
+  }
+- return {refs:[...new Set(refs)],sanitized:sanitized.join('')};
++ return {refs:[...new Set(refs)],unresolvedURLCalls,sanitized:sanitized.join('')};
+ }
+ const STATIC_FILE_TYPES=new Set(['.mjs','.js','.json']);
+ const deepFreeze=o=>Object.freeze(o);
+@@ -117,7 +124,9 @@ export function auditAI10DependencyClosure(root,tests){
+   let staticImports;
+   try{staticImports=staticallyParsedImports(content);}
+   catch(e){issues.push(problem('SOURCE_PARSE_ERROR',rel,e.message));continue;}
+-  const {refs,sanitized}=scanStaticURLLiterals(content);
++  const {refs,unresolvedURLCalls,sanitized}=scanStaticURLLiterals(content);
++  for(const offset of unresolvedURLCalls)issues.push(problem('DYNAMIC_URL_UNINSPECTED',rel,
++   'new URL() without a literal file path at character offset '+offset));
+   // Dynamic imports are detected only in the token-like, non-string parts of
+   // the source. Runtime imports in template interpolations are NOT certified.
+   if(DYNAMIC_IMPORT.test(sanitized))issues.push(problem('DYNAMIC_IMPORT_UNINSPECTED',rel,'Dynamic import needs manual review'));
+diff --git a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/ai10-git-tree-audit.mjs b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/ai10-git-tree-audit.mjs
+index e6987fd..0a9b4ab 100644
+--- a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/ai10-git-tree-audit.mjs
++++ b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/ai10-git-tree-audit.mjs
+@@ -6,6 +6,8 @@
+  */
+ import {spawnSync} from 'node:child_process';
+ import {resolve,relative,isAbsolute,sep} from 'node:path';
++import {readFileSync,lstatSync} from 'node:fs';
++import {gitBlobSha} from './ai10-test-audit.mjs';
+ 
+ const SHA=/^[0-9a-f]{40}$/;
+ function issue(code,path,detail){return Object.freeze({code,path,detail});}
+@@ -69,3 +71,110 @@ export function auditAI10GitHead(root,closure){
+   remoteCommitAuthenticated:false,historicalSourcesAuthenticated:false,
+   fullSuiteExecuted:false,consumerReady:false});
+ }
++
++/**
++ * Verify the *test inventory itself* against local Git HEAD.  A manifest that
++ * loses a test while the worktree simultaneously loses that file must never
++ * certify the remaining subset as the complete HEAD test suite.
++ *
++ * This also pins the preflight's own trusted scripts to HEAD; merely checking
++ * their imported test dependencies is not a substitute for checking the code
++ * that makes the trust decision.  This is an OFFLINE HEAD check only.
++ */
++export function auditAI10GitHeadInventory(root, manifest){
++ if(typeof root!=='string'||!root||manifest===null||typeof manifest!=='object'||
++    Array.isArray(manifest)||manifest.schema!=='hhc.ai10.test-inventory.v1'||
++    !Array.isArray(manifest.testFiles))
++  throw new TypeError('AI-10 root and versioned test manifest required');
++ const absolute=resolve(root),issues=[];
++ const fail=(code,path,detail)=>issues.push(issue(code,path,detail));
++ const top=run(absolute,['rev-parse','--show-toplevel']);
++ if(!top.ok){
++  return Object.freeze({pass:false,localGitHead:null,headTestCount:0,manifestTestCount:manifest.testFiles.length,
++   checkedTrustedFiles:0,issues:Object.freeze([issue('GIT_REPOSITORY_NOT_FOUND','(root)',top.error)]),
++   fullSuiteExecuted:false,remoteCommitAuthenticated:false,consumerReady:false});
++ }
++ const repo=resolve(top.value.trim()),prefix=relative(repo,absolute).split(sep).join('/');
++ if(prefix==='..'||prefix.startsWith('../')||isAbsolute(prefix)){
++  return Object.freeze({pass:false,localGitHead:null,headTestCount:0,manifestTestCount:manifest.testFiles.length,
++   checkedTrustedFiles:0,issues:Object.freeze([issue('ROOT_OUTSIDE_GIT','(root)',prefix)]),
++   fullSuiteExecuted:false,remoteCommitAuthenticated:false,consumerReady:false});
++ }
++ const head=run(repo,['rev-parse','HEAD']);
++ const tree=run(repo,['ls-tree','-r','-z','HEAD','--',prefix||'.']);
++ if(!head.ok||!tree.ok){
++  return Object.freeze({pass:false,localGitHead:null,headTestCount:0,manifestTestCount:manifest.testFiles.length,
++   checkedTrustedFiles:0,issues:Object.freeze([issue('GIT_HEAD_UNREADABLE','(root)',head.error||tree.error)]),
++   fullSuiteExecuted:false,remoteCommitAuthenticated:false,consumerReady:false});
++ }
++ const tracked=new Map();
++ for(const line of tree.value.split('\0').filter(Boolean)){
++  const m=/^([0-7]{6}) (blob|commit) ([0-9a-f]{40})\t(.+)$/.exec(line);
++  if(m)tracked.set(m[4],Object.freeze({mode:m[1],type:m[2],sha:m[3]}));
++ }
++ const prefixWithSlash=prefix?prefix+'/':'';
++ const headTests=new Set();
++ for(const key of tracked.keys()){
++  if(!key.startsWith(prefixWithSlash))continue;
++  const sub=key.slice(prefixWithSlash.length);
++  if(/(?:^|\/)test-[^/]*\.mjs$/.test(sub))headTests.add(sub);
++ }
++ if(headTests.size===0)fail('EMPTY_HEAD_TEST_SUITE','(HEAD)',
++  'No tracked test-*.mjs files exist under AI-10 at local HEAD');
++ const declared=new Set();
++ for(const row of manifest.testFiles){
++  const p=row?.path;
++  if(typeof p!=='string'||p.includes('..')||p.startsWith('/')||p.includes('\\')||
++     !/(?:^|\/)test-[^/]*\.mjs$/.test(p)){
++   fail('BAD_MANIFEST_TEST_PATH',String(p),'Non-canonical test path');continue;
++  }
++  if(declared.has(p))fail('DUPLICATE_MANIFEST_TEST',p,'Repeated test path');
++  declared.add(p);
++  const treeRecord=tracked.get(prefixWithSlash+p);
++  if(!treeRecord){fail('MANIFEST_TEST_ABSENT_FROM_HEAD',p,'Test absent from local HEAD');continue;}
++  if(treeRecord.type!=='blob'||!['100644','100755'].includes(treeRecord.mode))
++   fail('UNSAFE_HEAD_TEST_MODE',p,treeRecord.mode+' '+treeRecord.type);
++  if(row.gitBlobSha!==treeRecord.sha)
++   fail('MANIFEST_TEST_SHA_DIFFERS_FROM_HEAD',p,'Manifest digest disagrees with local HEAD');
++ }
++ for(const p of headTests)if(!declared.has(p))
++  fail('HEAD_TEST_OMITTED_FROM_MANIFEST',p,'Git HEAD contains an undeclared test');
++ const TRUSTED=[
++  'tam-thuc-reproducible-audit-2026-11-01/TEST_MANIFEST.json',
++  'tam-thuc-reproducible-audit-2026-11-01/run-ai10-strict.mjs',
++  'tam-thuc-reproducible-audit-2026-11-01/ai10-test-audit.mjs',
++  'tam-thuc-reproducible-audit-2026-11-01/ai10-dependency-audit.mjs',
++  'tam-thuc-reproducible-audit-2026-11-01/ai10-git-tree-audit.mjs'
++ ];
++ let checkedTrustedFiles=0;
++ for(const p of TRUSTED){
++  const rec=tracked.get(prefixWithSlash+p);
++  if(!rec){fail('TRUSTED_FILE_NOT_IN_HEAD',p,'Missing from Git HEAD');continue;}
++  if(rec.type!=='blob'||!['100644','100755'].includes(rec.mode)){
++   fail('UNSAFE_TRUSTED_HEAD_MODE',p,rec.mode+' '+rec.type);continue;
++  }
++  let absoluteFile=absolute;
++  try{
++   // Reject symlinks in parent directory components as well as file leaves.
++   for(const component of p.split('/')){
++    absoluteFile=resolve(absoluteFile,component);
++    const st=lstatSync(absoluteFile);
++    if(st.isSymbolicLink())throw Object.assign(new Error('symlink'),{code:'ELOOP'});
++   }
++   const bytes=readFileSync(absoluteFile);
++   checkedTrustedFiles++;
++   const digest=gitBlobSha(bytes);
++   if(digest!==rec.sha)fail('TRUSTED_FILE_DIFFERS_FROM_HEAD',p,'Local bytes do not match HEAD');
++  }catch(e){fail('UNSAFE_OR_MISSING_TRUSTED_FILE',p,String(e?.code||e?.message||e));}
++ }
++ const inventoryMatches=headTests.size===declared.size &&
++  [...headTests].every(x=>declared.has(x));
++ const manifestPinned=issues.every(x=>x.path!==TRUSTED[0]);
++ issues.sort((a,b)=>a.path.localeCompare(b.path,'en')||a.code.localeCompare(b.code,'en'));
++ return Object.freeze({pass:issues.length===0,
++  localGitHead:head.value.trim(),headTestCount:headTests.size,manifestTestCount:declared.size,
++  checkedTrustedFiles,issues:Object.freeze(issues),
++  sameGitHeadTestInventory:inventoryMatches,manifestPinnedToHead:manifestPinned,
++  localGitHeadIntegrityOnly:true,remoteCommitAuthenticated:false,
++  historicalSourcesAuthenticated:false,fullSuiteExecuted:false,consumerReady:false});
++}
+diff --git a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/ai10-test-audit.mjs b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/ai10-test-audit.mjs
+index f4228b5..ad98fa9 100644
+--- a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/ai10-test-audit.mjs
++++ b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/ai10-test-audit.mjs
+@@ -57,6 +57,8 @@ export function auditAI10TestManifest(root,manifest){
+   if(expected.has(row.path)){pushIssue(issues,'DUPLICATE_MANIFEST_PATH',row.path,'Repeated entry');continue;}
+   expected.set(row.path,row);
+  }
++ if(expected.size===0)pushIssue(issues,'EMPTY_TEST_MANIFEST','(manifest)',
++  'At least one explicitly pinned AI-10 test file is required');
+  const scan=discoverAI10Tests(root);
+  const actual=new Set(scan.paths);
+  for(const p of scan.symlinks)pushIssue(issues,'SYMLINK_UNTRUSTED',p,'Symbolic link not traversed');
+diff --git a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/run-ai10-strict.mjs b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/run-ai10-strict.mjs
+index d972a4e..1fe3919 100644
+--- a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/run-ai10-strict.mjs
++++ b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/run-ai10-strict.mjs
+@@ -5,7 +5,7 @@ import {dirname,join} from 'node:path';
+ import {spawnSync} from 'node:child_process';
+ import {auditAI10TestManifest} from './ai10-test-audit.mjs';
+ import {auditAI10DependencyClosure} from './ai10-dependency-audit.mjs';
+-import {auditAI10GitHead} from './ai10-git-tree-audit.mjs';
++import {auditAI10GitHead,auditAI10GitHeadInventory} from './ai10-git-tree-audit.mjs';
+ const args=process.argv.slice(2);
+ const opts=new Set(args);
+ const accepted=new Set(['--list','--verify-only','--run','--verify-git-head','--run-git-head']);
+@@ -21,8 +21,11 @@ if(args.some(x=>!accepted.has(x))||opts.size>1){
+  if(dependency)console.log('AI-10 dependency closure: '+JSON.stringify({pass:dependency.pass,sourceFiles:dependency.localSourceFileCount,modules:dependency.moduleCount,fixtures:dependency.fixtureCount,issues:dependency.issues,compilerVerified:dependency.compilerVerified,dependenciesPinnedToGitCommit:dependency.dependenciesPinnedToGitCommit}));
+  const requireGit=opts.has('--verify-git-head')||opts.has('--run-git-head');
+  const gitHead=dependency?.pass&&requireGit ? auditAI10GitHead(root,dependency) : null;
++ const gitInventory=gitHead?.pass ? auditAI10GitHeadInventory(root,manifest) : null;
+  if(gitHead)console.log('AI-10 local Git HEAD: '+JSON.stringify(gitHead));
+- if(!result.pass || (dependency!==null && !dependency.pass) || (requireGit && gitHead?.pass!==true))process.exitCode=1;
++ if(gitInventory)console.log('AI-10 Git HEAD test inventory: '+JSON.stringify(gitInventory));
++ if(!result.pass || (dependency!==null && !dependency.pass) ||
++    (requireGit && (gitHead?.pass!==true||gitInventory?.pass!==true)))process.exitCode=1;
+  else if(opts.has('--list'))for(const x of manifest.testFiles)console.log(x.path);
+  else if(!opts.has('--verify-only')&&!opts.has('--verify-git-head')){
+   const scriptPaths=manifest.testFiles.map(x=>join(root,...x.path.split('/')));
+diff --git a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/test-ai10-dependency-audit.mjs b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/test-ai10-dependency-audit.mjs
+index b459104..b88ed5e 100644
+--- a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/test-ai10-dependency-audit.mjs
++++ b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/test-ai10-dependency-audit.mjs
+@@ -122,8 +122,13 @@ test('Standalone strict CLI refuses a missing transitively referenced source bef
+   const toolsDir=join(root,'tam-thuc-reproducible-audit-2026-11-01');
+   const suiteDir=join(root,'suite');
+   mkdirSync(toolsDir);mkdirSync(suiteDir);
+-  for(const name of ['run-ai10-strict.mjs','ai10-test-audit.mjs','ai10-dependency-audit.mjs','ai10-git-tree-audit.mjs'])
+-   copyFileSync(new URL('./'+name,import.meta.url),join(toolsDir,name));
++  const toolingReferences={
++   'run-ai10-strict.mjs':new URL('./run-ai10-strict.mjs',import.meta.url),
++   'ai10-test-audit.mjs':new URL('./ai10-test-audit.mjs',import.meta.url),
++   'ai10-dependency-audit.mjs':new URL('./ai10-dependency-audit.mjs',import.meta.url),
++   'ai10-git-tree-audit.mjs':new URL('./ai10-git-tree-audit.mjs',import.meta.url)
++  };
++  for(const [name,source] of Object.entries(toolingReferences))copyFileSync(source,join(toolsDir,name));
+   const script=join(suiteDir,'test-cli.mjs');
+   writeFileSync(script,`import '../library/missing.mjs';\nimport test from 'node:test';\ntest('must not run',()=>{});\n`);
+   const bytes=readFileSync(script);
+@@ -136,3 +141,32 @@ test('Standalone strict CLI refuses a missing transitively referenced source bef
+   assert.doesNotMatch(cmd.stdout,/TAP version 13/);
+  }finally{rmSync(root,{recursive:true,force:true});}
+ });
++
++
++test('Computed new URL() must not silently pass dependency preflight',()=>withFixture(({root,write})=>{
++ write('library/index.mjs',"const filename='./missing.json'; export const value=new URL(filename,import.meta.url);\n");
++ const r=auditAI10DependencyClosure(root,[relativeTest]);
++ assert.equal(r.pass,false);assert.ok(codes(r).includes('DYNAMIC_URL_UNINSPECTED'));
++ assert.equal(r.consumerReady,false);
++}));
++
++test('Concatenated URL expression is not a verified literal file dependency',()=>withFixture(({root,write})=>{
++ write('library/index.mjs',"const filename='source'; export const value=new URL('./'+filename+'.json',import.meta.url);\n");
++ const r=auditAI10DependencyClosure(root,[relativeTest]);
++ assert.ok(codes(r).includes('DYNAMIC_URL_UNINSPECTED'));
++}));
++
++test('Static URL literal still inventories correct JSON while comments and strings do not trigger false flags',()=>withFixture(({root,write})=>{
++ write('library/index.mjs',"// new URL(runtime, import.meta.url)\nconst display='new URL(variable,import.meta.url)';\nexport const value=new URL('./source.json',import.meta.url);\n");
++ const r=auditAI10DependencyClosure(root,[relativeTest]);
++ assert.equal(r.pass,true,JSON.stringify(r.issues));
++ assert.ok(r.files.some(x=>x.path==='library/source.json'));
++ assert.equal(r.issues.filter(x=>x.code==='DYNAMIC_URL_UNINSPECTED').length,0);
++}));
++
++test('Uninspectable URL in transitive imported module is detected as well',()=>withFixture(({root,write})=>{
++ write('library/nested.mjs',"const fragment='source.json';export const value=new URL(fragment,import.meta.url);\n");
++ const r=auditAI10DependencyClosure(root,[relativeTest]);
++ assert.equal(r.pass,false);assert.ok(codes(r).includes('DYNAMIC_URL_UNINSPECTED'));
++ assert.ok(r.issues.some(x=>x.path==='library/nested.mjs'));
++}));
+diff --git a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/test-ai10-git-tree-audit.mjs b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/test-ai10-git-tree-audit.mjs
+index 09b8d49..4ff8409 100644
+--- a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/test-ai10-git-tree-audit.mjs
++++ b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/test-ai10-git-tree-audit.mjs
+@@ -1,11 +1,11 @@
+ import test from 'node:test';
+ import assert from 'node:assert/strict';
+-import {mkdtempSync,mkdirSync,writeFileSync,rmSync,readFileSync} from 'node:fs';
++import {mkdtempSync,mkdirSync,writeFileSync,rmSync,readFileSync,symlinkSync} from 'node:fs';
+ import {tmpdir} from 'node:os';
+ import {join} from 'node:path';
+ import {spawnSync} from 'node:child_process';
+ import {auditAI10DependencyClosure} from './ai10-dependency-audit.mjs';
+-import {auditAI10GitHead} from './ai10-git-tree-audit.mjs';
++import {auditAI10GitHead,auditAI10GitHeadInventory} from './ai10-git-tree-audit.mjs';
+ import {gitBlobSha} from './ai10-test-audit.mjs';
+ 
+ function git(repo,...args){
+@@ -107,8 +107,13 @@ test('Wrong argument types and forged closure records are rejected',()=>fixture(
+ 
+ test('Strict CLI --verify-git-head and --run-git-head succeed on a fully committed tiny fixture',()=>fixture(({repo,root,write})=>{
+  const tooling=join(root,'tam-thuc-reproducible-audit-2026-11-01');mkdirSync(tooling);
+- for(const name of ['run-ai10-strict.mjs','ai10-test-audit.mjs','ai10-dependency-audit.mjs','ai10-git-tree-audit.mjs']){
+-  const source=new URL('./'+name,import.meta.url);
++ const toolingReferences={
++  'run-ai10-strict.mjs':new URL('./run-ai10-strict.mjs',import.meta.url),
++  'ai10-test-audit.mjs':new URL('./ai10-test-audit.mjs',import.meta.url),
++  'ai10-dependency-audit.mjs':new URL('./ai10-dependency-audit.mjs',import.meta.url),
++  'ai10-git-tree-audit.mjs':new URL('./ai10-git-tree-audit.mjs',import.meta.url)
++ };
++ for(const [name,source] of Object.entries(toolingReferences)){
+   const contents=readFileSync(source);
+   writeFileSync(join(tooling,name),contents);
+  }
+@@ -128,3 +133,132 @@ test('Strict CLI --verify-git-head and --run-git-head succeed on a fully committ
+  assert.match(blocked.stdout,/GIT_HEAD_BLOB_MISMATCH/);
+  assert.doesNotMatch(blocked.stdout,/TAP version 13/);
+ }));
++
++
++// Regression for an actual old bypass: remove a test from both the worktree
++// AND its unpinned TEST_MANIFEST.json.  Old --run-git-head ran fewer tests and
++// returned 0. The Git HEAD inventory must now reject that exact scenario.
++function makeManifestTamperingFixture(){
++ const repo=mkdtempSync(join(tmpdir(),'ai10-head-manifest-'));
++ const root=join(repo,'collaboration','parallel-research','submissions','AI-10');
++ const tooling=join(root,'tam-thuc-reproducible-audit-2026-11-01');
++ const suite=join(root,'suite');
++ mkdirSync(tooling,{recursive:true});mkdirSync(suite);
++ const knownTools={
++  'run-ai10-strict.mjs':new URL('./run-ai10-strict.mjs',import.meta.url),
++  'ai10-test-audit.mjs':new URL('./ai10-test-audit.mjs',import.meta.url),
++  'ai10-dependency-audit.mjs':new URL('./ai10-dependency-audit.mjs',import.meta.url),
++  'ai10-git-tree-audit.mjs':new URL('./ai10-git-tree-audit.mjs',import.meta.url)
++ };
++ for(const [name,source] of Object.entries(knownTools))
++  writeFileSync(join(tooling,name),readFileSync(source));
++ for(const name of ['test-a.mjs','test-b.mjs'])
++  writeFileSync(join(suite,name),"import test from 'node:test';test('tiny fixture',()=>{});\n");
++ const manifest={schema:'hhc.ai10.test-inventory.v1',testFiles:
++  ['test-a.mjs','test-b.mjs'].map(name=>{
++   const bytes=readFileSync(join(suite,name));
++   return {path:'suite/'+name,bytes:bytes.length,gitBlobSha:gitBlobSha(bytes)};
++  })
++ };
++ const manifestPath=join(tooling,'TEST_MANIFEST.json');
++ const writeManifest=()=>writeFileSync(manifestPath,JSON.stringify(manifest,null,2)+'\n');
++ writeManifest();
++ git(repo,'init','-q');git(repo,'config','user.email','ai10@example.invalid');
++ git(repo,'config','user.name','AI10 test');git(repo,'add','.');
++ git(repo,'commit','-q','-m','trusted synthetic baseline');
++ const strict=(flag='--run-git-head')=>spawnSync(process.execPath,
++  [join(tooling,'run-ai10-strict.mjs'),flag],{encoding:'utf8'});
++ const audit=()=>auditAI10GitHeadInventory(root,manifest);
++ return {repo,root,tooling,suite,manifest,manifestPath,writeManifest,strict,audit};
++}
++function withManifestTamperingFixture(fn){
++ const f=makeManifestTamperingFixture();
++ try{return fn(f);}finally{rmSync(f.repo,{recursive:true,force:true});}
++}
++
++test('Strict Git HEAD inventory accepts a genuine complete two-test checkout',()=>withManifestTamperingFixture(f=>{
++ const r=f.audit();assert.equal(r.pass,true,JSON.stringify(r.issues));
++ assert.equal(r.headTestCount,2);assert.equal(r.manifestTestCount,2);
++ assert.equal(r.checkedTrustedFiles,5);assert.equal(r.manifestPinnedToHead,true);
++ assert.equal(r.sameGitHeadTestInventory,true);assert.equal(r.remoteCommitAuthenticated,false);
++ const cli=f.strict();assert.equal(cli.status,0,cli.stderr);
++ assert.match(cli.stdout,/\"headTestCount\":2/);
++}));
++
++test('Removed test plus shortened local manifest can never certify the old Git HEAD',()=>withManifestTamperingFixture(f=>{
++ rmSync(join(f.suite,'test-b.mjs'));
++ f.manifest.testFiles=f.manifest.testFiles.filter(x=>x.path==='suite/test-a.mjs');
++ f.writeManifest();
++ const r=f.audit();assert.equal(r.pass,false);
++ assert.ok(codes(r).includes('HEAD_TEST_OMITTED_FROM_MANIFEST'));
++ assert.ok(codes(r).includes('TRUSTED_FILE_DIFFERS_FROM_HEAD'));
++ assert.equal(r.sameGitHeadTestInventory,false);assert.equal(r.manifestPinnedToHead,false);
++ const cli=f.strict();assert.equal(cli.status,1);
++ assert.match(cli.stdout,/HEAD_TEST_OMITTED_FROM_MANIFEST/);
++ assert.doesNotMatch(cli.stdout,/TAP version 13/);
++}));
++
++test('Changing manifest JSON without changing tests still invalidates the Git certificate',()=>withManifestTamperingFixture(f=>{
++ writeFileSync(f.manifestPath,JSON.stringify(f.manifest,null,4)+'\n');
++ const r=f.audit();assert.equal(r.pass,false);
++ assert.equal(r.sameGitHeadTestInventory,true);assert.equal(r.manifestPinnedToHead,false);
++ assert.ok(codes(r).includes('TRUSTED_FILE_DIFFERS_FROM_HEAD'));
++ assert.equal(f.strict('--verify-git-head').status,1);
++}));
++
++test('Removing a test from the declared manifest alone exposes HEAD-only test',()=>withManifestTamperingFixture(f=>{
++ f.manifest.testFiles=f.manifest.testFiles.filter(x=>x.path!=='suite/test-b.mjs');
++ f.writeManifest();
++ const r=f.audit();assert.equal(r.pass,false);
++ assert.ok(codes(r).includes('HEAD_TEST_OMITTED_FROM_MANIFEST'));
++}));
++
++test('Trusted runner altered by one byte cannot verify its own old HEAD',()=>withManifestTamperingFixture(f=>{
++ const file=join(f.tooling,'run-ai10-strict.mjs');
++ writeFileSync(file,readFileSync(file,'utf8')+'// not committed\n');
++ const r=f.audit();assert.equal(r.pass,false);
++ assert.ok(r.issues.some(x=>x.path.endsWith('run-ai10-strict.mjs')&&x.code==='TRUSTED_FILE_DIFFERS_FROM_HEAD'));
++ const cli=f.strict();assert.equal(cli.status,1);assert.doesNotMatch(cli.stdout,/TAP version 13/);
++}));
++
++test('Uncommitted edit to Git HEAD verifier itself invalidates trust',()=>withManifestTamperingFixture(f=>{
++ const file=join(f.tooling,'ai10-git-tree-audit.mjs');
++ writeFileSync(file,readFileSync(file,'utf8')+'// changed\n');
++ const r=f.audit();assert.ok(codes(r).includes('TRUSTED_FILE_DIFFERS_FROM_HEAD'));
++ assert.equal(r.pass,false);
++}));
++
++test('A new HEAD-tracked test absent from the manifest cannot pass even if declared tests match',()=>withManifestTamperingFixture(f=>{
++ const name=join(f.suite,'test-hidden.mjs');
++ writeFileSync(name,"import test from 'node:test'; test('hidden',()=>{});\n");
++ git(f.repo,'add','.');git(f.repo,'commit','-q','-m','added hidden test without manifest update');
++ const r=f.audit();assert.equal(r.pass,false);
++ assert.ok(codes(r).includes('HEAD_TEST_OMITTED_FROM_MANIFEST'));
++ assert.equal(r.headTestCount,3);assert.equal(r.manifestTestCount,2);
++}));
++
++test('No Git HEAD can authenticate a fabricated manifest digest',()=>withManifestTamperingFixture(f=>{
++ f.manifest.testFiles[0].gitBlobSha='0'.repeat(40);
++ const r=f.audit();assert.ok(codes(r).includes('MANIFEST_TEST_SHA_DIFFERS_FROM_HEAD'));
++ assert.equal(r.pass,false);
++}));
++
++test('A trusted file replaced by a symlink is rejected even if symlink targets matching bytes',()=>withManifestTamperingFixture(f=>{
++ const file=join(f.tooling,'TEST_MANIFEST.json');
++ const data=readFileSync(file);
++ rmSync(file);
++ const target=join(f.tooling,'saved.txt');writeFileSync(target,data);
++ symlinkSync(target,file);
++ const r=f.audit();assert.equal(r.pass,false);
++ assert.ok(codes(r).includes('UNSAFE_OR_MISSING_TRUSTED_FILE'));
++}));
++
++
++test('Local HEAD itself containing zero tests is not eligible for a full-suite certificate',()=>withManifestTamperingFixture(f=>{
++ rmSync(join(f.suite,'test-a.mjs'));rmSync(join(f.suite,'test-b.mjs'));
++ f.manifest.testFiles=[];f.writeManifest();
++ git(f.repo,'add','-A');git(f.repo,'commit','-q','-m','removed all tests for audit fixture');
++ const result=f.audit();assert.equal(result.pass,false);
++ assert.equal(result.headTestCount,0);assert.equal(result.manifestTestCount,0);
++ assert.ok(codes(result).includes('EMPTY_HEAD_TEST_SUITE'));
++}));
+diff --git a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/test-ai10-test-audit.mjs b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/test-ai10-test-audit.mjs
+index 4d6fe53..aa68d54 100644
+--- a/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/test-ai10-test-audit.mjs
++++ b/collaboration/parallel-research/submissions/AI-10/tam-thuc-reproducible-audit-2026-11-01/test-ai10-test-audit.mjs
+@@ -87,8 +87,13 @@ test('Standalone CLI verifies and executes a complete, tiny synthetic checkout',
+   const tooling=join(root,'tam-thuc-reproducible-audit-2026-11-01');
+   const fixture=join(root,'fixture');
+   mkdirSync(tooling);mkdirSync(fixture);
+-  for(const file of ['ai10-test-audit.mjs','ai10-dependency-audit.mjs','ai10-git-tree-audit.mjs','run-ai10-strict.mjs'])
+-   copyFileSync(new URL('./'+file,import.meta.url),join(tooling,file));
++  const toolingReferences={
++   'ai10-test-audit.mjs':new URL('./ai10-test-audit.mjs',import.meta.url),
++   'ai10-dependency-audit.mjs':new URL('./ai10-dependency-audit.mjs',import.meta.url),
++   'ai10-git-tree-audit.mjs':new URL('./ai10-git-tree-audit.mjs',import.meta.url),
++   'run-ai10-strict.mjs':new URL('./run-ai10-strict.mjs',import.meta.url)
++  };
++  for(const [file,source] of Object.entries(toolingReferences))copyFileSync(source,join(tooling,file));
+   const file=join(fixture,'test-hello.mjs');
+   writeFileSync(file,"import test from 'node:test'; test('tiny suite',()=>{});\n");
+   const bytes=readFileSync(file);
+@@ -107,3 +112,32 @@ test('Standalone CLI verifies and executes a complete, tiny synthetic checkout',
+   const invalid=invoke('--unknown-flag');assert.equal(invalid.status,2);
+  }finally{rmSync(root,{recursive:true,force:true});}
+ });
++
++
++test('A zero-test manifest and empty checkout never certify a valid AI-10 test suite',()=>{
++ const root=mkdtempSync(join(tmpdir(),'ai10-empty-manifest-'));
++ try{
++  const r=auditAI10TestManifest(root,{schema:'hhc.ai10.test-inventory.v1',testFiles:[]});
++  assert.equal(r.pass,false);assert.equal(r.manifestCount,0);assert.equal(r.foundCount,0);
++  assert.deepEqual(issues(r),['EMPTY_TEST_MANIFEST']);
++ }finally{rmSync(root,{recursive:true,force:true});}
++});
++
++test('Strict --run does not launch Node test auto-discovery on an empty manifest',()=>{
++ const root=mkdtempSync(join(tmpdir(),'ai10-empty-runner-'));
++ try{
++  const tools=join(root,'tam-thuc-reproducible-audit-2026-11-01');mkdirSync(tools);
++  const sources={
++   'ai10-test-audit.mjs':new URL('./ai10-test-audit.mjs',import.meta.url),
++   'ai10-dependency-audit.mjs':new URL('./ai10-dependency-audit.mjs',import.meta.url),
++   'ai10-git-tree-audit.mjs':new URL('./ai10-git-tree-audit.mjs',import.meta.url),
++   'run-ai10-strict.mjs':new URL('./run-ai10-strict.mjs',import.meta.url)
++  };
++  for(const [file,url] of Object.entries(sources))copyFileSync(url,join(tools,file));
++  writeFileSync(join(tools,'TEST_MANIFEST.json'),
++   JSON.stringify({schema:'hhc.ai10.test-inventory.v1',testFiles:[]}));
++  const r=spawnSync(process.execPath,[join(tools,'run-ai10-strict.mjs'),'--run'],{encoding:'utf8'});
++  assert.equal(r.status,1,r.stderr);assert.match(r.stdout,/EMPTY_TEST_MANIFEST/);
++  assert.doesNotMatch(r.stdout,/TAP version 13/);
++ }finally{rmSync(root,{recursive:true,force:true});}
++});

@@ -1,0 +1,152 @@
+{
+  "executedUTC": "2026-10-29T14:32:38.611Z",
+  "engineFile": "v53/engine.js",
+  "engineSHA256": "39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6",
+  "readerFiles": [
+    {
+      "file": "v53/research/liuyao-foundations/liuyao-reference.mjs",
+      "sha256": "a77da7ec4f59dce1ccd8dd6ad4a66f94320987465f60725af0595e25d5908eb7"
+    },
+    {
+      "file": "v53/research/liuyao-foundations/RULES.json",
+      "sha256": "d5e764cbe44a6077a68d128bfa197f3aa4f6a178692e346d56a112d5a3b99064"
+    }
+  ],
+  "scriptSHA256": "8b4bed24b6a04e16bf5e375cd90840a5afead6363e8f9e3220b061cb669981f1",
+  "freezeSHA256": "3447789180bf17b25344e562c45a7d7bcd6e6e1f15cd9d3ea1c142758b02cfee",
+  "actualHHCHexNumberCalls": 5,
+  "printedCasts": 3,
+  "actualCalendarObjects": 0,
+  "cases": [
+    {
+      "id": "xiaoxu-wealth",
+      "page": 134,
+      "expectedPrimary": 9,
+      "expectedChanged": 9,
+      "actualPrimary": 9,
+      "actualChanged": 9,
+      "actualMovingLines": [],
+      "expectedMovingLines": [],
+      "selectedMain": [
+        {
+          "line": 3,
+          "branch": "辰",
+          "kin": "妻財",
+          "actualBranch": "辰",
+          "actualKin": "妻財"
+        },
+        {
+          "line": 4,
+          "branch": "未",
+          "kin": "妻財",
+          "actualBranch": "未",
+          "actualKin": "妻財"
+        }
+      ],
+      "selectedChanged": [],
+      "sourceSaysUseCount": null,
+      "structuralChildren": null,
+      "sourceHistoricalOutcomeValidated": false,
+      "calendarDate": null
+    },
+    {
+      "id": "shi-huan",
+      "page": 135,
+      "expectedPrimary": 7,
+      "expectedChanged": 59,
+      "actualPrimary": 7,
+      "actualChanged": 59,
+      "actualMovingLines": [
+        5,
+        6
+      ],
+      "expectedMovingLines": [
+        5,
+        6
+      ],
+      "selectedMain": [
+        {
+          "line": 2,
+          "branch": "辰",
+          "kin": "官鬼",
+          "actualBranch": "辰",
+          "actualKin": "官鬼"
+        },
+        {
+          "line": 4,
+          "branch": "丑",
+          "kin": "官鬼",
+          "actualBranch": "丑",
+          "actualKin": "官鬼"
+        }
+      ],
+      "selectedChanged": [],
+      "sourceSaysUseCount": null,
+      "structuralChildren": null,
+      "sourceHistoricalOutcomeValidated": false,
+      "calendarDate": null
+    },
+    {
+      "id": "yu-guimei-three-uses",
+      "page": 135,
+      "expectedPrimary": 16,
+      "expectedChanged": 54,
+      "actualPrimary": 16,
+      "actualChanged": 54,
+      "actualMovingLines": [
+        1,
+        2
+      ],
+      "expectedMovingLines": [
+        1,
+        2
+      ],
+      "selectedMain": [
+        {
+          "line": 2,
+          "branch": "巳",
+          "kin": "子孫",
+          "actualBranch": "巳",
+          "actualKin": "子孫"
+        },
+        {
+          "line": 4,
+          "branch": "午",
+          "kin": "子孫",
+          "actualBranch": "午",
+          "actualKin": "子孫"
+        }
+      ],
+      "selectedChanged": [
+        {
+          "line": 1,
+          "branch": "巳",
+          "kin": "子孫",
+          "actualBranch": "巳",
+          "actualKin": "子孫"
+        }
+      ],
+      "sourceSaysUseCount": 3,
+      "structuralChildren": [
+        {
+          "kind": "primary",
+          "line": 2,
+          "branch": "巳"
+        },
+        {
+          "kind": "primary",
+          "line": 4,
+          "branch": "午"
+        },
+        {
+          "kind": "own-moving-change",
+          "line": 1,
+          "branch": "巳"
+        }
+      ],
+      "sourceHistoricalOutcomeValidated": false,
+      "calendarDate": null
+    }
+  ],
+  "sourceOutcomesValidated": false
+}

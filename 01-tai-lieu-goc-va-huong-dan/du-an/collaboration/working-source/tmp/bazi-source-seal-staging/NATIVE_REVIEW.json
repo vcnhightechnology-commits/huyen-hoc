@@ -1,0 +1,76 @@
+{
+  "date": "2026-10-30",
+  "status": "targeted-native-crossreference-read;whole-chapter-open",
+  "sourceContainer": {
+    "file": "v53/research/bazi-jianlu-context/volume3/CADAL06066039.djvu",
+    "bytes": 10619960,
+    "sha256": "2334006e3a46b16bdbf0bf6a79512d8d0c4b87a2ce2e8e1ff503121d8f2cffdc"
+  },
+  "records": [
+    {
+      "file": "tmp/bazi-source-seal-staging/images/p088.png",
+      "bytes": 274998,
+      "sha256": "50483d79c46f4594cb52dd646cf33877e11f446e815e26592a1f34f5821274c9",
+      "containerPosition": 88,
+      "printedFolioActuallyRead": "003-43b",
+      "fullImageActuallyViewed": true
+    },
+    {
+      "file": "tmp/bazi-source-seal-staging/images/p089.png",
+      "bytes": 248243,
+      "sha256": "ebc06d71a3f498e73cd36071e20b67d3d50ec5746a2022448bcb424536fd48eb",
+      "containerPosition": 89,
+      "printedFolioActuallyRead": "003-44a",
+      "fullImageActuallyViewed": true
+    },
+    {
+      "file": "tmp/bazi-source-seal-staging/images/p090.png",
+      "bytes": 251456,
+      "sha256": "8292eb3a3cdd35acf94467eaee41569d194f27eb7e84bb5082392eb03e33df54",
+      "containerPosition": 90,
+      "printedFolioActuallyRead": "003-44b",
+      "fullImageActuallyViewed": true
+    }
+  ],
+  "directNativeAnchors": [
+    {
+      "position": 88,
+      "literal": "論正印",
+      "definition": "正印者乃五行之正庫",
+      "groupLiteral": "金命見乙丑木癸未火甲戌水土壬辰丙辰是也"
+    },
+    {
+      "position": 89,
+      "literal": "有華蓋印如亥卯未得癸未之類"
+    },
+    {
+      "position": 90,
+      "literal": "諸印要逢庫墓",
+      "conditionalContinuations": [
+        "生旺扶助互換祿馬貴人併相合",
+        "刑衝破害三合六合上見鬼"
+      ],
+      "wholeMeaningCompiled": false
+    }
+  ],
+  "nativeAndDigitalSelectedAnchorsAgree": true,
+  "allCharactersDiplomaticallyCollated": false,
+  "waterEarthGroupStillNotSplit": true,
+  "sourceAnchor命MeaningFullyAdjudicated": false,
+  "C19MeaningAdjudicated": false,
+  "newNativeDerivatives": 3,
+  "positionsViewedInThisTargetedScope": [
+    88,
+    89,
+    90
+  ],
+  "globallyNewViewedPositionsCount": null,
+  "globalPositionCountReason": "No authoritative volume3 read-union audit performed; do not infer new-to-catalogue count from new PNG derivatives.",
+  "newHTTPBodies": 0,
+  "newOriginalContainers": 0,
+  "newIndependentEditions": 0,
+  "newEngineCalls": 0,
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false,
+  "next": "Continue remainder論正印at45aonward to bound 福聚/禍聚andothernamed印conditions; keep C19binding and source命anchor open. Localized image agreement supports the lexical lead, not a natal classifier or TenGod replacement."
+}

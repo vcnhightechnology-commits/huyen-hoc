@@ -1,0 +1,752 @@
+{
+  "createdUTC": "2026-10-26T04:21:00.530Z",
+  "source": {
+    "title": "評註淵海子平",
+    "edition": "1926 scan catalogued by National Taiwan Library",
+    "pdf": "../../four-items/sources/yuanhai-NTL-v1.pdf",
+    "pdfSHA256": "664bccd1ea4706c609df8ea6cd69a4565db97dc277e876fc22eb125ea41dcc9f",
+    "catalogue": "https://taiwanebook.ncl.edu.tw/zh-tw/book/NTL-9900014379",
+    "readingMethod": "Manual visual reading of selected passages and marginal annotations; not whole-book OCR or line-by-line collation."
+  },
+  "records": [
+    {
+      "kind": "正官",
+      "vi": "Chính Quan",
+      "page": 96,
+      "printedPage": "卷二 一五",
+      "heading": "正官論",
+      "pairs": [
+        "甲辛",
+        "乙庚",
+        "丙癸",
+        "丁壬",
+        "戊乙",
+        "己甲",
+        "庚丁",
+        "辛丙",
+        "壬己",
+        "癸戊"
+      ],
+      "quote": "夫正官者甲見辛之類",
+      "limits": "The paragraph requires month command and other pillars; the adjacent annotation gives the ten fixed stem relationships. It does not certify a chart solely from the primary month hidden stem."
+    },
+    {
+      "kind": "正印",
+      "vi": "Chính Ấn",
+      "page": 101,
+      "additionalPages": [
+        102,
+        103
+      ],
+      "printedPage": "卷二 二〇–二二",
+      "heading": "論印綬",
+      "pairs": [
+        "甲癸",
+        "乙壬",
+        "丙乙",
+        "丁甲",
+        "戊丁",
+        "己丙",
+        "庚己",
+        "辛戊",
+        "壬辛",
+        "癸庚"
+      ],
+      "quote": "所謂印生我者即印綬也",
+      "limits": "The chapter discusses both 正印 and 偏印; page102 explicitly distinguishes opposite versus same polarity. Do not call every 生我 stem 正印."
+    },
+    {
+      "kind": "正财",
+      "vi": "Chính Tài",
+      "page": 104,
+      "additionalPages": [
+        105,
+        106
+      ],
+      "printedPage": "卷二 二三–二五",
+      "heading": "論正財",
+      "pairs": [
+        "甲己",
+        "乙戊",
+        "丙辛",
+        "丁庚",
+        "戊癸",
+        "己壬",
+        "庚乙",
+        "辛甲",
+        "壬丁",
+        "癸丙"
+      ],
+      "quote": "是陰見陽財陽見陰財",
+      "limits": "Page105 explicitly says 財不論偏正 while discussing broader wealth cases. The chapter heading is not the classification of every stem in every example."
+    },
+    {
+      "kind": "食神",
+      "vi": "Thực Thần",
+      "page": 108,
+      "additionalPages": [
+        107
+      ],
+      "printedPage": "卷二 二六–二七",
+      "heading": "論食神",
+      "pairs": [
+        "甲丙",
+        "乙丁",
+        "丙戊",
+        "丁己",
+        "戊庚",
+        "己辛",
+        "庚壬",
+        "辛癸",
+        "壬甲",
+        "癸乙"
+      ],
+      "quote": "如甲屬木丙屬火",
+      "limits": "The phrase 生我財神 refers to the food stem producing wealth (甲→丙→戊), not 食神 generating the day master. Same-polarity 我生 is the ten-god classification."
+    }
+  ],
+  "checks": [
+    {
+      "pair": "甲辛",
+      "expected": "正官",
+      "expectedVi": "Chính Quan",
+      "lunar": "正官",
+      "hhc": "Chính Quan",
+      "matched": true,
+      "page": 96
+    },
+    {
+      "pair": "乙庚",
+      "expected": "正官",
+      "expectedVi": "Chính Quan",
+      "lunar": "正官",
+      "hhc": "Chính Quan",
+      "matched": true,
+      "page": 96
+    },
+    {
+      "pair": "丙癸",
+      "expected": "正官",
+      "expectedVi": "Chính Quan",
+      "lunar": "正官",
+      "hhc": "Chính Quan",
+      "matched": true,
+      "page": 96
+    },
+    {
+      "pair": "丁壬",
+      "expected": "正官",
+      "expectedVi": "Chính Quan",
+      "lunar": "正官",
+      "hhc": "Chính Quan",
+      "matched": true,
+      "page": 96
+    },
+    {
+      "pair": "戊乙",
+      "expected": "正官",
+      "expectedVi": "Chính Quan",
+      "lunar": "正官",
+      "hhc": "Chính Quan",
+      "matched": true,
+      "page": 96
+    },
+    {
+      "pair": "己甲",
+      "expected": "正官",
+      "expectedVi": "Chính Quan",
+      "lunar": "正官",
+      "hhc": "Chính Quan",
+      "matched": true,
+      "page": 96
+    },
+    {
+      "pair": "庚丁",
+      "expected": "正官",
+      "expectedVi": "Chính Quan",
+      "lunar": "正官",
+      "hhc": "Chính Quan",
+      "matched": true,
+      "page": 96
+    },
+    {
+      "pair": "辛丙",
+      "expected": "正官",
+      "expectedVi": "Chính Quan",
+      "lunar": "正官",
+      "hhc": "Chính Quan",
+      "matched": true,
+      "page": 96
+    },
+    {
+      "pair": "壬己",
+      "expected": "正官",
+      "expectedVi": "Chính Quan",
+      "lunar": "正官",
+      "hhc": "Chính Quan",
+      "matched": true,
+      "page": 96
+    },
+    {
+      "pair": "癸戊",
+      "expected": "正官",
+      "expectedVi": "Chính Quan",
+      "lunar": "正官",
+      "hhc": "Chính Quan",
+      "matched": true,
+      "page": 96
+    },
+    {
+      "pair": "甲癸",
+      "expected": "正印",
+      "expectedVi": "Chính Ấn",
+      "lunar": "正印",
+      "hhc": "Chính Ấn",
+      "matched": true,
+      "page": 101
+    },
+    {
+      "pair": "乙壬",
+      "expected": "正印",
+      "expectedVi": "Chính Ấn",
+      "lunar": "正印",
+      "hhc": "Chính Ấn",
+      "matched": true,
+      "page": 101
+    },
+    {
+      "pair": "丙乙",
+      "expected": "正印",
+      "expectedVi": "Chính Ấn",
+      "lunar": "正印",
+      "hhc": "Chính Ấn",
+      "matched": true,
+      "page": 101
+    },
+    {
+      "pair": "丁甲",
+      "expected": "正印",
+      "expectedVi": "Chính Ấn",
+      "lunar": "正印",
+      "hhc": "Chính Ấn",
+      "matched": true,
+      "page": 101
+    },
+    {
+      "pair": "戊丁",
+      "expected": "正印",
+      "expectedVi": "Chính Ấn",
+      "lunar": "正印",
+      "hhc": "Chính Ấn",
+      "matched": true,
+      "page": 101
+    },
+    {
+      "pair": "己丙",
+      "expected": "正印",
+      "expectedVi": "Chính Ấn",
+      "lunar": "正印",
+      "hhc": "Chính Ấn",
+      "matched": true,
+      "page": 101
+    },
+    {
+      "pair": "庚己",
+      "expected": "正印",
+      "expectedVi": "Chính Ấn",
+      "lunar": "正印",
+      "hhc": "Chính Ấn",
+      "matched": true,
+      "page": 101
+    },
+    {
+      "pair": "辛戊",
+      "expected": "正印",
+      "expectedVi": "Chính Ấn",
+      "lunar": "正印",
+      "hhc": "Chính Ấn",
+      "matched": true,
+      "page": 101
+    },
+    {
+      "pair": "壬辛",
+      "expected": "正印",
+      "expectedVi": "Chính Ấn",
+      "lunar": "正印",
+      "hhc": "Chính Ấn",
+      "matched": true,
+      "page": 101
+    },
+    {
+      "pair": "癸庚",
+      "expected": "正印",
+      "expectedVi": "Chính Ấn",
+      "lunar": "正印",
+      "hhc": "Chính Ấn",
+      "matched": true,
+      "page": 101
+    },
+    {
+      "pair": "甲己",
+      "expected": "正财",
+      "expectedVi": "Chính Tài",
+      "lunar": "正财",
+      "hhc": "Chính Tài",
+      "matched": true,
+      "page": 104
+    },
+    {
+      "pair": "乙戊",
+      "expected": "正财",
+      "expectedVi": "Chính Tài",
+      "lunar": "正财",
+      "hhc": "Chính Tài",
+      "matched": true,
+      "page": 104
+    },
+    {
+      "pair": "丙辛",
+      "expected": "正财",
+      "expectedVi": "Chính Tài",
+      "lunar": "正财",
+      "hhc": "Chính Tài",
+      "matched": true,
+      "page": 104
+    },
+    {
+      "pair": "丁庚",
+      "expected": "正财",
+      "expectedVi": "Chính Tài",
+      "lunar": "正财",
+      "hhc": "Chính Tài",
+      "matched": true,
+      "page": 104
+    },
+    {
+      "pair": "戊癸",
+      "expected": "正财",
+      "expectedVi": "Chính Tài",
+      "lunar": "正财",
+      "hhc": "Chính Tài",
+      "matched": true,
+      "page": 104
+    },
+    {
+      "pair": "己壬",
+      "expected": "正财",
+      "expectedVi": "Chính Tài",
+      "lunar": "正财",
+      "hhc": "Chính Tài",
+      "matched": true,
+      "page": 104
+    },
+    {
+      "pair": "庚乙",
+      "expected": "正财",
+      "expectedVi": "Chính Tài",
+      "lunar": "正财",
+      "hhc": "Chính Tài",
+      "matched": true,
+      "page": 104
+    },
+    {
+      "pair": "辛甲",
+      "expected": "正财",
+      "expectedVi": "Chính Tài",
+      "lunar": "正财",
+      "hhc": "Chính Tài",
+      "matched": true,
+      "page": 104
+    },
+    {
+      "pair": "壬丁",
+      "expected": "正财",
+      "expectedVi": "Chính Tài",
+      "lunar": "正财",
+      "hhc": "Chính Tài",
+      "matched": true,
+      "page": 104
+    },
+    {
+      "pair": "癸丙",
+      "expected": "正财",
+      "expectedVi": "Chính Tài",
+      "lunar": "正财",
+      "hhc": "Chính Tài",
+      "matched": true,
+      "page": 104
+    },
+    {
+      "pair": "甲丙",
+      "expected": "食神",
+      "expectedVi": "Thực Thần",
+      "lunar": "食神",
+      "hhc": "Thực Thần",
+      "matched": true,
+      "page": 108
+    },
+    {
+      "pair": "乙丁",
+      "expected": "食神",
+      "expectedVi": "Thực Thần",
+      "lunar": "食神",
+      "hhc": "Thực Thần",
+      "matched": true,
+      "page": 108
+    },
+    {
+      "pair": "丙戊",
+      "expected": "食神",
+      "expectedVi": "Thực Thần",
+      "lunar": "食神",
+      "hhc": "Thực Thần",
+      "matched": true,
+      "page": 108
+    },
+    {
+      "pair": "丁己",
+      "expected": "食神",
+      "expectedVi": "Thực Thần",
+      "lunar": "食神",
+      "hhc": "Thực Thần",
+      "matched": true,
+      "page": 108
+    },
+    {
+      "pair": "戊庚",
+      "expected": "食神",
+      "expectedVi": "Thực Thần",
+      "lunar": "食神",
+      "hhc": "Thực Thần",
+      "matched": true,
+      "page": 108
+    },
+    {
+      "pair": "己辛",
+      "expected": "食神",
+      "expectedVi": "Thực Thần",
+      "lunar": "食神",
+      "hhc": "Thực Thần",
+      "matched": true,
+      "page": 108
+    },
+    {
+      "pair": "庚壬",
+      "expected": "食神",
+      "expectedVi": "Thực Thần",
+      "lunar": "食神",
+      "hhc": "Thực Thần",
+      "matched": true,
+      "page": 108
+    },
+    {
+      "pair": "辛癸",
+      "expected": "食神",
+      "expectedVi": "Thực Thần",
+      "lunar": "食神",
+      "hhc": "Thực Thần",
+      "matched": true,
+      "page": 108
+    },
+    {
+      "pair": "壬甲",
+      "expected": "食神",
+      "expectedVi": "Thực Thần",
+      "lunar": "食神",
+      "hhc": "Thực Thần",
+      "matched": true,
+      "page": 108
+    },
+    {
+      "pair": "癸乙",
+      "expected": "食神",
+      "expectedVi": "Thực Thần",
+      "lunar": "食神",
+      "hhc": "Thực Thần",
+      "matched": true,
+      "page": 108
+    }
+  ],
+  "examples": [
+    {
+      "page": 103,
+      "printedPage": "卷二 二二",
+      "pillarHan": [
+        "戊戌",
+        "庚申",
+        "癸酉",
+        "庚申"
+      ],
+      "focus": "癸日、庚申月，庚为正印；正文举“官印两全”之例",
+      "limit": "Reconstruct compatible dates within1800..currentLibraryYear only to verify calendar and relationships, not the historical subject/date or predicted life.",
+      "visibleGods": [
+        "正官",
+        "正印",
+        "日主",
+        "正印"
+      ],
+      "compatibleCalendarReconstructions": [
+        {
+          "solarUTC8": "1898-09-07 16:00:00",
+          "fourPillars": [
+            "戊戌",
+            "庚申",
+            "癸酉",
+            "庚申"
+          ],
+          "monthHidden": [
+            "庚",
+            "壬",
+            "戊"
+          ],
+          "monthHiddenGods": [
+            "正印",
+            "劫财",
+            "正官"
+          ]
+        },
+        {
+          "solarUTC8": "1958-08-24 16:00:00",
+          "fourPillars": [
+            "戊戌",
+            "庚申",
+            "癸酉",
+            "庚申"
+          ],
+          "monthHidden": [
+            "庚",
+            "壬",
+            "戊"
+          ],
+          "monthHiddenGods": [
+            "正印",
+            "劫财",
+            "正官"
+          ]
+        },
+        {
+          "solarUTC8": "2018-08-09 16:00:00",
+          "fourPillars": [
+            "戊戌",
+            "庚申",
+            "癸酉",
+            "庚申"
+          ],
+          "monthHidden": [
+            "庚",
+            "壬",
+            "戊"
+          ],
+          "monthHiddenGods": [
+            "正印",
+            "劫财",
+            "正官"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 105,
+      "printedPage": "卷二 二四",
+      "pillarHan": [
+        "辛丑",
+        "丁酉",
+        "丁巳",
+        "丁未"
+      ],
+      "focus": "丁日、酉月藏辛是偏财；巳中庚是正财。此例在论正财中，但正文说明偏正并论。",
+      "limit": "Chapter title does not imply every wealth relationship is 正财 or establish a complete 正财格.",
+      "visibleGods": [
+        "偏财",
+        "比肩",
+        "日主",
+        "比肩"
+      ],
+      "compatibleCalendarReconstructions": [
+        {
+          "solarUTC8": "1901-10-06 14:00:00",
+          "fourPillars": [
+            "辛丑",
+            "丁酉",
+            "丁巳",
+            "丁未"
+          ],
+          "monthHidden": [
+            "辛"
+          ],
+          "monthHiddenGods": [
+            "偏财"
+          ]
+        },
+        {
+          "solarUTC8": "1961-09-21 14:00:00",
+          "fourPillars": [
+            "辛丑",
+            "丁酉",
+            "丁巳",
+            "丁未"
+          ],
+          "monthHidden": [
+            "辛"
+          ],
+          "monthHiddenGods": [
+            "偏财"
+          ]
+        }
+      ]
+    },
+    {
+      "page": 108,
+      "printedPage": "卷二 二七",
+      "pillarHan": [
+        "己未",
+        "己巳",
+        "丁未",
+        "辛丑"
+      ],
+      "focus": "丁见己为食神（年干、月干）；巳月本气丙是劫财，不应单凭章节标题称食神格。",
+      "limit": "The passage discusses food and its conversion to wealth; only the explicit stem relationships are verified here.",
+      "visibleGods": [
+        "食神",
+        "食神",
+        "日主",
+        "偏财"
+      ],
+      "compatibleCalendarReconstructions": [
+        {
+          "solarUTC8": "1859-05-09 02:00:00",
+          "fourPillars": [
+            "己未",
+            "己巳",
+            "丁未",
+            "辛丑"
+          ],
+          "monthHidden": [
+            "丙",
+            "庚",
+            "戊"
+          ],
+          "monthHiddenGods": [
+            "劫财",
+            "正财",
+            "伤官"
+          ]
+        }
+      ]
+    }
+  ],
+  "pageImages": [
+    {
+      "page": 96,
+      "file": "sources/yuanhai-reading-096.png",
+      "bytes": 2959907,
+      "sha256": "16d87a1314365e4f8b967d35af4ec0454e24f6603efa70d7a3f7fbc2a5055329",
+      "method": "Rendered from archived PDF using pdftoppm; relevant page and annotations manually visually inspected, no OCR claim."
+    },
+    {
+      "page": 97,
+      "file": "sources/yuanhai-reading-097.png",
+      "bytes": 4176740,
+      "sha256": "fc7f77d5c5274371cce1008e3a54da4027236d087231cd004bc6bce9d5207225",
+      "method": "Rendered from archived PDF using pdftoppm; relevant page and annotations manually visually inspected, no OCR claim."
+    },
+    {
+      "page": 101,
+      "file": "sources/yuanhai-reading-101.png",
+      "bytes": 3021939,
+      "sha256": "d92e313be42ec2d12b4f6a4d874c5c0766ded7697919ca97fd8112fe3b92de96",
+      "method": "Rendered from archived PDF using pdftoppm; relevant page and annotations manually visually inspected, no OCR claim."
+    },
+    {
+      "page": 102,
+      "file": "sources/yuanhai-reading-102.png",
+      "bytes": 3244120,
+      "sha256": "785aa4a482d5eb15fcfc6ef73397e55fcfb1b406b38709a69d49624c7ffe1bdc",
+      "method": "Rendered from archived PDF using pdftoppm; relevant page and annotations manually visually inspected, no OCR claim."
+    },
+    {
+      "page": 103,
+      "file": "sources/yuanhai-reading-103.png",
+      "bytes": 3171466,
+      "sha256": "0527f5baf752779083fe59ae702852d6d600b0e3ed5c5cf6ec507cf80994ca47",
+      "method": "Rendered from archived PDF using pdftoppm; relevant page and annotations manually visually inspected, no OCR claim."
+    },
+    {
+      "page": 104,
+      "file": "sources/yuanhai-reading-104.png",
+      "bytes": 3122701,
+      "sha256": "fe7d1ce7a892345dce98a2ec2c0d957fc172bf419b7fe26ab85b08133bec11dd",
+      "method": "Rendered from archived PDF using pdftoppm; relevant page and annotations manually visually inspected, no OCR claim."
+    },
+    {
+      "page": 105,
+      "file": "sources/yuanhai-reading-105.png",
+      "bytes": 3145775,
+      "sha256": "69faf0b826dd0a6873bb265c9639c2b2a3232ef352f43619d781b22ad2987539",
+      "method": "Rendered from archived PDF using pdftoppm; relevant page and annotations manually visually inspected, no OCR claim."
+    },
+    {
+      "page": 106,
+      "file": "sources/yuanhai-reading-106.png",
+      "bytes": 3106666,
+      "sha256": "dee42a0e6044739d7111c5e311650866238e2b602254892ac2219f5799dde3df",
+      "method": "Rendered from archived PDF using pdftoppm; relevant page and annotations manually visually inspected, no OCR claim."
+    },
+    {
+      "page": 107,
+      "file": "sources/yuanhai-reading-107.png",
+      "bytes": 3063880,
+      "sha256": "16f28c891860e06c360e803d66365697cbafd42b437c517c94d9a7b027e16c2c",
+      "method": "Rendered from archived PDF using pdftoppm; relevant page and annotations manually visually inspected, no OCR claim."
+    },
+    {
+      "page": 108,
+      "file": "sources/yuanhai-reading-108.png",
+      "bytes": 3016030,
+      "sha256": "95907788deab126d3ceb243b83719baa9bfc6d816e9dcdba87ccd96747368917",
+      "method": "Rendered from archived PDF using pdftoppm; relevant page and annotations manually visually inspected, no OCR claim."
+    }
+  ],
+  "clamping": [
+    {
+      "input": "2000-02-29",
+      "operations": "nextYear(1).nextMonth(1)",
+      "actual": "2001-03-28",
+      "expected": "2001-03-28"
+    },
+    {
+      "input": "2024-01-31",
+      "operations": "nextMonth(1)",
+      "actual": "2024-02-29",
+      "expected": "2024-02-29"
+    },
+    {
+      "input": "2023-01-31",
+      "operations": "nextMonth(1)",
+      "actual": "2023-02-28",
+      "expected": "2023-02-28"
+    },
+    {
+      "input": "2020-02-29",
+      "operations": "nextYear(10)",
+      "actual": "2030-02-28",
+      "expected": "2030-02-28"
+    }
+  ],
+  "summary": {
+    "classicalCategories": 4,
+    "manuallyTranscribedStemPairs": 40,
+    "libraryAndHhcMatches": 40,
+    "classicalFourPillarExamples": 3,
+    "compatibleCalendarDates": 6,
+    "clampingTests": 4
+  },
+  "notEstablished": [
+    "Full formal pattern recognition",
+    "Useful-god selection",
+    "Complete strength/weakness evaluation",
+    "Historical identity/date reconstruction",
+    "Empirical predictive accuracy",
+    "Entire book fully applied"
+  ]
+}

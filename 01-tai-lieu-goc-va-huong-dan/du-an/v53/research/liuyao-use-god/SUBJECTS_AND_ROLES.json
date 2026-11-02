@@ -1,0 +1,137 @@
+{
+  "date": "2026-10-27",
+  "subjects": [
+    {
+      "id": "parents",
+      "desiredKin": "父母",
+      "pdfPage": 48,
+      "qualification": "Parent as explicitly named family relation."
+    },
+    {
+      "id": "grandparents",
+      "desiredKin": "父母",
+      "pdfPage": 48,
+      "qualification": "Grandparent within the source parent-generation category."
+    },
+    {
+      "id": "teacher",
+      "desiredKin": "父母",
+      "pdfPage": 48,
+      "qualification": "Teacher/elder in the specifically listed traditional category."
+    },
+    {
+      "id": "document",
+      "desiredKin": "父母",
+      "pdfPage": 49,
+      "qualification": "Written article,book,contract or official document."
+    },
+    {
+      "id": "house",
+      "desiredKin": "父母",
+      "pdfPage": 49,
+      "qualification": "House/shelter as the specifically listed object;not a modern building safety assessment."
+    },
+    {
+      "id": "boat",
+      "desiredKin": "父母",
+      "pdfPage": 49,
+      "qualification": "Boat as a listed shelter/transport object;not travel safety advice."
+    },
+    {
+      "id": "clothing",
+      "desiredKin": "父母",
+      "pdfPage": 49,
+      "qualification": "Garment/cloth as a named covering object."
+    },
+    {
+      "id": "siblings",
+      "desiredKin": "兄弟",
+      "pdfPage": 49,
+      "qualification": "Brother/sister or specifically listed same-generation kin."
+    },
+    {
+      "id": "wife",
+      "desiredKin": "妻財",
+      "pdfPage": 49,
+      "qualification": "Wife in the historical gendered system;not a universal spouse/gender mapping."
+    },
+    {
+      "id": "money",
+      "desiredKin": "妻財",
+      "pdfPage": 49,
+      "qualification": "Money,goods,treasure as named property."
+    },
+    {
+      "id": "husband",
+      "desiredKin": "官鬼",
+      "pdfPage": 49,
+      "qualification": "Wife asking about husband in this traditional wording;not a universal spouse mapping."
+    },
+    {
+      "id": "official-position",
+      "desiredKin": "官鬼",
+      "pdfPage": 49,
+      "qualification": "Traditional功名/官府 context;not automatically every modern career question."
+    },
+    {
+      "id": "thief",
+      "desiredKin": "官鬼",
+      "pdfPage": 49,
+      "qualification": "Named theft/adversary source category;not proof a person committed a crime."
+    },
+    {
+      "id": "children",
+      "desiredKin": "子孫",
+      "pdfPage": 50,
+      "qualification": "Child/descendant category as listed."
+    },
+    {
+      "id": "livestock",
+      "desiredKin": "子孫",
+      "pdfPage": 50,
+      "qualification": "The listed domestic animals/poultry category;not animal-health advice."
+    }
+  ],
+  "policy": "Only exact named subject ID maps to a kin search,not to a selected line or prediction. Multiple lines/absent kin/changed/calendar candidates stay explicit.",
+  "qualifications": [
+    {
+      "pdfPage": 49,
+      "topic": "sister-husband",
+      "sourceDefault": "兄弟",
+      "commentator": "兄弟wasnotreliable;應usedinstead",
+      "decision": "Do not offer a single automatic mapping for this disputed relation."
+    },
+    {
+      "pdfPage": 50,
+      "topic": "子孫",
+      "meaning": "Called福神but explicitly disliked for功名;rolelabelcannotbeageneralpositivescore."
+    },
+    {
+      "pdfPages": [
+        48,
+        49,
+        50
+      ],
+      "topic": "medical-and-historical-social-categories",
+      "decision": "Historical medical,servant,status and gendered claims retained as source content;not modern clinical/legal advice or all-person mappings."
+    }
+  ],
+  "roleDefinitions": {
+    "用神": "Explicit selected question-relevant line/element;not inferred from a text question.",
+    "元神": "Element generating用神",
+    "忌神": "Element controlling用神",
+    "仇神": "Element controlling元神andgenerating忌神"
+  },
+  "definitionEvidence": {
+    "pdfPage": 50,
+    "workedElement": "金",
+    "sourceAssignments": {
+      "用神": "金",
+      "元神": "土",
+      "忌神": "火",
+      "仇神": "木"
+    }
+  },
+  "unassignedRole": "The remainingelement is returned asother-element;no unprinted universal閑神rule inferred here.",
+  "consumerApplied": false
+}

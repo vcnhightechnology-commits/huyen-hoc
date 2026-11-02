@@ -1,0 +1,11 @@
+{
+  "date": "2026-10-28",
+  "stage": "Static check before published test execution/release",
+  "issue": "Base-directory replacement in retained promotion script expected a semicolon but this test extends the declaration with system; import/output relocated, base initially did not.",
+  "fix": "Match base declaration prefix, retaining following system field.",
+  "publishedTestExecutedBeforeCorrection": false,
+  "runtimeTestsRerunForCounts": false,
+  "referenceModuleChanged": false,
+  "stagedPromotionScriptPreservedAsHistory": true,
+  "result": "Exactly3pathrelocations in publishedtest,verifiedbyteagainststagedtestwithdeclaredreplacements."
+}

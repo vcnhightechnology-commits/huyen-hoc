@@ -1,0 +1,102 @@
+{
+  "date": "2026-10-29",
+  "records": [
+    {
+      "pdfPage": 1,
+      "rawDCT": {
+        "file": "tmp/home-fuduan-staging/pdf1-raw-dct.jpg",
+        "bytes": 166765,
+        "sha256": "f3ce6921b3f718a5b4c99b3296dfb53f21f677fd6423913cbceabb0d0376a24c"
+      },
+      "pixelDimensions": [
+        1512,
+        2328
+      ],
+      "rawOriginalPDFStreamNotDecodedReencoded": true,
+      "viewed": true,
+      "priorExtractedImage": {
+        "file": "tmp/home-fuduan-staging/pdf1-native-image0-Im0.jpg",
+        "bytes": 164540,
+        "sha256": "45a0217676e0338ac3badeb23976b6961de7e1270c26c22a7adbe6cbb66d152c",
+        "pixelDimensions": [
+          1512,
+          2328
+        ],
+        "format": "JPEG",
+        "pdfSourceImageName": "Im0.jpg",
+        "reference": "{'/BitsPerComponent': 8, '/ColorSpace': '/DeviceRGB', '/Filter': '/DCTDecode', '/Height': 2328, '/Subtype': '/Image', '/Type': '/XObject', '/Width': 1512}",
+        "extractedBy": "pypdf page.images:decodedimage,notoriginalPDFcontainerstreamidentity",
+        "viewed": true,
+        "rawDCTStreamByteMatched": false,
+        "finalEvidenceExcluded": true,
+        "reason": "pypdf page.images bytes differ from embedded original DCT stream; raw extracted separately for final native evidence."
+      }
+    },
+    {
+      "pdfPage": 98,
+      "rawDCT": {
+        "file": "tmp/home-fuduan-staging/pdf98-raw-dct.jpg",
+        "bytes": 550971,
+        "sha256": "af7569e87cb814e95e1a8863d6c41de41ea651d667baa2ffa0031e7e1500c614"
+      },
+      "pixelDimensions": [
+        1512,
+        2328
+      ],
+      "rawOriginalPDFStreamNotDecodedReencoded": true,
+      "viewed": true,
+      "priorExtractedImage": {
+        "file": "tmp/home-fuduan-staging/pdf98-native-image0-Im0.jpg",
+        "bytes": 550945,
+        "sha256": "bed33a4bedfdd974365a24ec14a452287a1b32db9e7ed71bb4d1d7c6bb3cc6cb",
+        "pixelDimensions": [
+          1512,
+          2328
+        ],
+        "format": "JPEG",
+        "pdfSourceImageName": "Im0.jpg",
+        "reference": "{'/BitsPerComponent': 8, '/ColorSpace': '/DeviceGray', '/Filter': '/DCTDecode', '/Height': 2328, '/Subtype': '/Image', '/Type': '/XObject', '/Width': 1512}",
+        "extractedBy": "pypdf page.images:decodedimage,notoriginalPDFcontainerstreamidentity",
+        "viewed": true,
+        "rawDCTStreamByteMatched": false,
+        "finalEvidenceExcluded": true,
+        "reason": "pypdf page.images bytes differ from embedded original DCT stream; raw extracted separately for final native evidence."
+      }
+    },
+    {
+      "pdfPage": 99,
+      "rawDCT": {
+        "file": "tmp/home-fuduan-staging/pdf99-raw-dct.jpg",
+        "bytes": 537724,
+        "sha256": "660ef4e7978b7e68d7a60f538e1506fcd67818fd6151b8849c6523bc7a3950b2"
+      },
+      "pixelDimensions": [
+        1512,
+        2328
+      ],
+      "rawOriginalPDFStreamNotDecodedReencoded": true,
+      "viewed": true,
+      "priorExtractedImage": {
+        "file": "tmp/home-fuduan-staging/pdf99-native-image0-Im0.jpg",
+        "bytes": 537660,
+        "sha256": "5f3921fcec71838753ba4117ed4d82ba83f4cd997f82ff9d5073ea70bdcae973",
+        "pixelDimensions": [
+          1512,
+          2328
+        ],
+        "format": "JPEG",
+        "pdfSourceImageName": "Im0.jpg",
+        "reference": "{'/BitsPerComponent': 8, '/ColorSpace': '/DeviceGray', '/Filter': '/DCTDecode', '/Height': 2328, '/Subtype': '/Image', '/Type': '/XObject', '/Width': 1512}",
+        "extractedBy": "pypdf page.images:decodedimage,notoriginalPDFcontainerstreamidentity",
+        "viewed": true,
+        "rawDCTStreamByteMatched": false,
+        "finalEvidenceExcluded": true,
+        "reason": "pypdf page.images bytes differ from embedded original DCT stream; raw extracted separately for final native evidence."
+      }
+    }
+  ],
+  "previousRawEqualityAssertionFailedBeforeAnyNativeCropWritten": true,
+  "oldPageImagesArtifactsExcludedFromFinalNativeEvidence": true,
+  "newSourcePositions": 0,
+  "originalPDFUnchanged": true
+}

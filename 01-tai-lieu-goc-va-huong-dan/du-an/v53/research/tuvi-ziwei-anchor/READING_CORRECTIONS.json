@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-28",
+  "initialActualRuntimeBatchMismatches": 4,
+  "source": 85,
+  "corrections": [
+    {
+      "branch": "巳",
+      "initialDecimal": 24,
+      "correctedDecimal": 14,
+      "literal": "十四",
+      "crop": "wood-si-numerals-native.png",
+      "reason": "Manual confusion between十and廿 identified by runtime mismatch then corrected by direct native image; source not emended to fit engine"
+    },
+    {
+      "branch": "午",
+      "initialDecimal": 27,
+      "correctedDecimal": 17,
+      "literal": "十七",
+      "crop": "wood-wu-numerals-native.png",
+      "reason": "Manual confusion between十and廿 identified by runtime mismatch then corrected by direct native image; source not emended to fit engine"
+    },
+    {
+      "branch": "酉",
+      "initialDecimal": 14,
+      "correctedDecimal": 24,
+      "literal": "廿四",
+      "crop": "wood-you-numerals-native.png",
+      "reason": "Manual confusion between十and廿 identified by runtime mismatch then corrected by direct native image; source not emended to fit engine"
+    },
+    {
+      "branch": "戌",
+      "initialDecimal": 17,
+      "correctedDecimal": 27,
+      "literal": "廿七",
+      "crop": "wood-xu-numerals-native.png",
+      "reason": "Manual confusion between十and廿 identified by runtime mismatch then corrected by direct native image; source not emended to fit engine"
+    }
+  ],
+  "initialTableAndResultsRetained": true,
+  "correctionBeforePromotion": true,
+  "consumerAffected": false,
+  "unaffectedRuntimeNotRerun": true
+}

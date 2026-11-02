@@ -1,0 +1,159 @@
+{
+  "date": "2026-10-27",
+  "sourceChapter": 28,
+  "sourcePDFPages": [
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116
+  ],
+  "clauses": [
+    {
+      "id": "U1",
+      "sourceClass": "six-listed-useful",
+      "pdfPage": 110,
+      "boundedParaphrase": "Hidden spirit receives generation from day/month.",
+      "expression": "hiddenDayMonthGenerated",
+      "consumerApplied": false
+    },
+    {
+      "id": "U2",
+      "sourceClass": "six-listed-useful",
+      "pdfPage": 110,
+      "boundedParaphrase": "Hidden spirit is flourishing/strong.",
+      "expression": "hiddenStrong",
+      "consumerApplied": false
+    },
+    {
+      "id": "U3",
+      "sourceClass": "six-listed-useful",
+      "pdfPage": 110,
+      "boundedParaphrase": "Covering flying line generates hidden spirit.",
+      "expression": "flyingGeneratesHidden",
+      "consumerApplied": false
+    },
+    {
+      "id": "U4",
+      "sourceClass": "six-listed-useful",
+      "pdfPage": 110,
+      "boundedParaphrase": "A moving line generates hidden spirit.",
+      "expression": "hiddenMovingGenerated",
+      "consumerApplied": false
+    },
+    {
+      "id": "U5",
+      "sourceClass": "six-listed-useful",
+      "pdfPage": 110,
+      "boundedParaphrase": "Day/month/moving lines clash with or control covering flying line.",
+      "expression": "flyingDayMonthMovingAttacked",
+      "consumerApplied": false
+    },
+    {
+      "id": "U6",
+      "sourceClass": "six-listed-useful",
+      "pdfPage": 110,
+      "boundedParaphrase": "Covering flying line is void,month-broken,weak,in tomb or extinct.",
+      "expression": {
+        "any": [
+          "flyingVoid",
+          "flyingMonthBroken",
+          "flyingWeak",
+          "flyingTomb",
+          "flyingExtinct"
+        ]
+      },
+      "consumerApplied": false
+    },
+    {
+      "id": "N1",
+      "sourceClass": "five-listed-unusable",
+      "pdfPage": 111,
+      "boundedParaphrase": "Hidden spirit weak and without qi.",
+      "expression": "hiddenWeakWithoutQi",
+      "consumerApplied": false
+    },
+    {
+      "id": "N2",
+      "sourceClass": "five-listed-unusable",
+      "pdfPage": 111,
+      "boundedParaphrase": "Hidden spirit clashed with or controlled by day/month.",
+      "expression": "hiddenDayMonthAttacked",
+      "consumerApplied": false
+    },
+    {
+      "id": "N3",
+      "sourceClass": "five-listed-unusable",
+      "pdfPage": 111,
+      "boundedParaphrase": "Strong covering flying line controls hidden spirit.",
+      "expression": {
+        "all": [
+          "flyingStrong",
+          "flyingControlsHidden"
+        ]
+      },
+      "consumerApplied": false
+    },
+    {
+      "id": "N4",
+      "sourceClass": "five-listed-unusable",
+      "pdfPage": 111,
+      "boundedParaphrase": "Hidden spirit at tomb/extinction relative to day/month/flying line.",
+      "expression": "hiddenTombOrExtinctAtDayMonthFlying",
+      "consumerApplied": false
+    },
+    {
+      "id": "N5",
+      "sourceClass": "five-listed-unusable",
+      "pdfPage": 111,
+      "boundedParaphrase": "Weak hidden spirit is void or month-broken.",
+      "expression": {
+        "all": [
+          "hiddenWeak",
+          {
+            "any": [
+              "hiddenVoid",
+              "hiddenMonthBroken"
+            ]
+          }
+        ]
+      },
+      "consumerApplied": false
+    }
+  ],
+  "factualInputs": [
+    "hiddenDayMonthGenerated",
+    "hiddenStrong",
+    "hiddenMovingGenerated",
+    "flyingDayMonthMovingAttacked",
+    "flyingVoid",
+    "flyingMonthBroken",
+    "flyingWeak",
+    "flyingTomb",
+    "flyingExtinct",
+    "hiddenWeakWithoutQi",
+    "hiddenDayMonthAttacked",
+    "flyingStrong",
+    "hiddenTombOrExtinctAtDayMonthFlying",
+    "hiddenWeak",
+    "hiddenVoid",
+    "hiddenMonthBroken"
+  ],
+  "structuralInputs": [
+    "flyingGeneratesHidden",
+    "flyingControlsHidden"
+  ],
+  "missingInputs": "unknown,notfalse",
+  "conflictPolicy": "Return every matched/contradicted/pending clause and concurrent positive/negative matches;do not invent source priority or a final fortune verdict.",
+  "limits": [
+    "No automatic use-god selection",
+    "No Gregorian/month/day-boundary adapter",
+    "No strength/tomb/void classifier from these clauses alone",
+    "No medical/lifespan/death predictions",
+    "No empirical efficacy established"
+  ]
+}

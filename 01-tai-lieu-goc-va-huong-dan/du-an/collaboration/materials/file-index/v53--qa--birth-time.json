@@ -1,0 +1,65 @@
+{
+  "scope": "v53/qa/birth-time",
+  "files": [
+    {
+      "file": "v53/qa/birth-time/before.json",
+      "bytes": 398,
+      "sha256": "5b0a6c2c9d5d42318bd15d4b68a0054d601da48b4d1a82aed956ecb1fb3ea386",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5b0a6c2c9d5d42318bd15d4b68a0054d601da48b4d1a82aed956ecb1fb3ea386",
+      "httpRange": {
+        "offset": 251226113,
+        "compressedBytes": 285,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/birth-time/explicit-midnight-mobile.png",
+      "bytes": 294144,
+      "sha256": "250b596392b7c432987ae7d93a0ec259eb55f99b8b4f7a0e2d9a7d342962ee22",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/250b596392b7c432987ae7d93a0ec259eb55f99b8b4f7a0e2d9a7d342962ee22",
+      "httpRange": {
+        "offset": 128135686,
+        "compressedBytes": 283811,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/birth-time/iztro-hour-regression.json",
+      "bytes": 1144441,
+      "sha256": "71aaece271441a589c73ce0bf350c3551dd218f583c38a3c761b9c09676c147e",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/71aaece271441a589c73ce0bf350c3551dd218f583c38a3c761b9c09676c147e",
+      "httpRange": {
+        "offset": 327070475,
+        "compressedBytes": 83269,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/birth-time/test-results.json",
+      "bytes": 3404,
+      "sha256": "4d26c5770343c032e912bba05d9c90244b3bf33c3473965ee44b4c07caddd5fc",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4d26c5770343c032e912bba05d9c90244b3bf33c3473965ee44b4c07caddd5fc",
+      "httpRange": {
+        "offset": 304135568,
+        "compressedBytes": 1145,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/birth-time/unknown-time-reading.txt",
+      "bytes": 1786,
+      "sha256": "fd0456e06342ee15db3f4d89320871994f295ebb4d69fc4f8a28194e9b453f7f",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/fd0456e06342ee15db3f4d89320871994f295ebb4d69fc4f8a28194e9b453f7f",
+      "httpRange": {
+        "offset": 288032429,
+        "compressedBytes": 1041,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

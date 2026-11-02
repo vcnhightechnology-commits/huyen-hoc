@@ -1,0 +1,128 @@
+{
+  "date": "2026-10-28",
+  "checks": [
+    {
+      "name": "59 subcontexts exactly partition1180codepoints across8 previously mixed contexts, with shared consequent and all59 dispositions retained",
+      "ok": true
+    },
+    {
+      "name": "81 declared-presence contexts agree with Boolean-completion oracle; unknown seal stays unknown and narrower opposite source claim never wins by array order",
+      "ok": true
+    },
+    {
+      "name": "Unresolved 原帶傷官財星 AND/OR alternatives use consensus without silently fixing the source reading",
+      "ok": true
+    },
+    {
+      "name": "官旺 and 無官 remain different predicates: present-but-weak fits neither route; neither unknown nor failed strength selects an else branch",
+      "ok": true
+    },
+    {
+      "name": "Two previously read printed examples execute real HHC again for the new projection; exact day facts are known while many/strength/pattern/control remain unknown",
+      "ok": true
+    },
+    {
+      "name": "Missing facts are unknown, false blocks conjunction, explicit other-pattern premise only matches source route, and exact coordinates cannot be overridden",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "selectedParentContexts": 8,
+    "selectedSubcontexts": 59,
+    "selectedCodepoints": 1180,
+    "localPredicateAudits": 28,
+    "coordinateFacts": 6,
+    "declaredOnlyFacts": 55,
+    "ternaryDeclarationContexts": 81,
+    "actualNewHHCBaziCalls": 2,
+    "previouslyReadPrintedExamplesReexecuted": 2,
+    "newSourcePages": 0,
+    "newHTTPRequests": 0,
+    "newOriginalContainers": 0,
+    "expandedPreviouslyReadSourcePositions": 8
+  },
+  "runtime": [
+    {
+      "sourceContainerPage": 218,
+      "sourcePillars": [
+        "壬申",
+        "壬子",
+        "戊午",
+        "乙卯"
+      ],
+      "fixtureInput": {
+        "y": 1932,
+        "m": 12,
+        "d": 23,
+        "hour": 6,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualHHCPillars": [
+        "壬申",
+        "壬子",
+        "戊午",
+        "乙卯"
+      ],
+      "knownCoordinateFacts": {
+        "dayIsWuWu": true,
+        "dayIsRenZi": false,
+        "dayIsBingWu": false,
+        "dayStemIsWuJi": true,
+        "listedDayBlade": true,
+        "listedNegativeDayHour": false
+      },
+      "sourceManyFirePremise": null,
+      "sourceOtherPatternPriorityPremise": null,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "sourceContainerPage": 218,
+      "sourcePillars": [
+        "丙戌",
+        "癸巳",
+        "戊午",
+        "丁巳"
+      ],
+      "fixtureInput": {
+        "y": 2006,
+        "m": 5,
+        "d": 29,
+        "hour": 10,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualHHCPillars": [
+        "丙戌",
+        "癸巳",
+        "戊午",
+        "丁巳"
+      ],
+      "knownCoordinateFacts": {
+        "dayIsWuWu": true,
+        "dayIsRenZi": false,
+        "dayIsBingWu": false,
+        "dayStemIsWuJi": true,
+        "listedDayBlade": true,
+        "listedNegativeDayHour": false
+      },
+      "sourceManyFirePremise": null,
+      "sourceOtherPatternPriorityPremise": null,
+      "sourceOutcomeValidated": false
+    }
+  ],
+  "sourceReadingAutomaticallyResolved": false,
+  "fullBladePatternClassifier": false,
+  "automaticStrengthMethodValidated": false,
+  "automaticPrecedenceEstablished": false,
+  "realPersonDeclaredFactsValidated": false,
+  "practicalOutcomesValidated": false,
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false
+}

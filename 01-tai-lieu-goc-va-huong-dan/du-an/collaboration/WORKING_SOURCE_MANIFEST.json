@@ -1,0 +1,528 @@
+{
+  "date": "2026-10-31",
+  "scope": "Selected small working research context; no source images, archives, chat history or credentials",
+  "files": [
+    {
+      "originalFile": "tmp/bazi-food-songs-staging/CROP_CANDIDATE.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-songs-staging/CROP_CANDIDATE.json",
+      "bytes": 461,
+      "sha256": "44df5ce978c8cd24dd1dbb571ac330b1c6aa2b6126405aa5a0ca6af984bad2bc"
+    },
+    {
+      "originalFile": "tmp/bazi-food-songs-staging/EXPECTED_CASES.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-songs-staging/EXPECTED_CASES.json",
+      "bytes": 1844,
+      "sha256": "6d37f028dcc528b9b0474a42e3f327c4e6b8a6909404c0627e85f411ec5c6fb8"
+    },
+    {
+      "originalFile": "tmp/bazi-food-songs-staging/freeze-source.py",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-songs-staging/freeze-source.py",
+      "bytes": 1962,
+      "sha256": "af085d735266aa7acf2241b6b355d2d183906f2e4a9862123298b69efc22aed3"
+    },
+    {
+      "originalFile": "tmp/bazi-food-songs-staging/POST_INVENTORY_IDENTITIES.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-songs-staging/POST_INVENTORY_IDENTITIES.json",
+      "bytes": 3723,
+      "sha256": "caa79837beebef42c699f00198473bf98864c2b6c53b683099c45a94fe914c99"
+    },
+    {
+      "originalFile": "tmp/bazi-food-songs-staging/PREIMPLEMENTATION_FREEZE.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-songs-staging/PREIMPLEMENTATION_FREEZE.json",
+      "bytes": 1329,
+      "sha256": "fc1b9eaa62177ee16be60b049bd5da221b6c33b058bfeb253644bd375e98f03b"
+    },
+    {
+      "originalFile": "tmp/bazi-food-songs-staging/prepare-source.py",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-songs-staging/prepare-source.py",
+      "bytes": 5929,
+      "sha256": "89ce0035dc71fd567fcc7242abba73f284d26b5d1c4e27bf748c5ab45c28f342"
+    },
+    {
+      "originalFile": "tmp/bazi-food-songs-staging/REFERENCE_RESULTS.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-songs-staging/REFERENCE_RESULTS.json",
+      "bytes": 367,
+      "sha256": "e9e9947d757a43487d60c9e2ca83c072f9b2ecd1f84fae542ef89143d91976b5"
+    },
+    {
+      "originalFile": "tmp/bazi-food-songs-staging/RESEARCH_NOTE.md",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-songs-staging/RESEARCH_NOTE.md",
+      "bytes": 3246,
+      "sha256": "3ea289c3386293aa8c9040ec8cdf2629665d7d4a9bd033352ec0e4d08d370464"
+    },
+    {
+      "originalFile": "tmp/bazi-food-songs-staging/REUSE_IDENTITIES.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-songs-staging/REUSE_IDENTITIES.json",
+      "bytes": 1675,
+      "sha256": "39793bcf88a363695feeb6a405344ad6a49d78fc2b4802575b49aa2cda42914c"
+    },
+    {
+      "originalFile": "tmp/bazi-food-songs-staging/seal-private-progress.py",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-songs-staging/seal-private-progress.py",
+      "bytes": 841,
+      "sha256": "b139846e9e35ae2ae07b768dbe41586af0c969a5040ffb941bd9837842c9da9b"
+    },
+    {
+      "originalFile": "tmp/bazi-food-songs-staging/SELECTED_V05_PREMISES.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-songs-staging/SELECTED_V05_PREMISES.json",
+      "bytes": 792,
+      "sha256": "03f2dab26db9c8206e4d384b8d669dd29ac2ba723ddfd69461f43c410eb7f692"
+    },
+    {
+      "originalFile": "tmp/bazi-food-songs-staging/song-reference.mjs",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-songs-staging/song-reference.mjs",
+      "bytes": 2468,
+      "sha256": "e3ca51701fff9e705c09022edab22d657b47455823236173c61fe0b722f933a6"
+    },
+    {
+      "originalFile": "tmp/bazi-food-songs-staging/SOURCE_BOUNDARIES.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-songs-staging/SOURCE_BOUNDARIES.json",
+      "bytes": 718,
+      "sha256": "40937b21896b57abc7819562464580892351a5fcfd64f651136ed56724e79ba6"
+    },
+    {
+      "originalFile": "tmp/bazi-food-songs-staging/SOURCE_IDENTITIES.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-songs-staging/SOURCE_IDENTITIES.json",
+      "bytes": 577,
+      "sha256": "ec8e2758f1dc53655b16f66185b356d1b0ed9c77ea36bf3626d495caded84403"
+    },
+    {
+      "originalFile": "tmp/bazi-food-songs-staging/SOURCE_RESULTS.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-songs-staging/SOURCE_RESULTS.json",
+      "bytes": 498,
+      "sha256": "f98926051de7b6a1ca1b7d5e6e3e2fce49643e98e97b1c0b021a638a01c38701"
+    },
+    {
+      "originalFile": "tmp/bazi-food-songs-staging/test-song-reference.mjs",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-songs-staging/test-song-reference.mjs",
+      "bytes": 5223,
+      "sha256": "eabc05df6c01d4a919560865a3d7dbc8f0cac005bfaea9bd3267c80c2614755d"
+    },
+    {
+      "originalFile": "tmp/bazi-food-songs-staging/verify-source.py",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-songs-staging/verify-source.py",
+      "bytes": 2560,
+      "sha256": "e43f564e2622d0e9f91ff1bdec4adf1ed3a2e870f8250af2e4ac4aeb89e18078"
+    },
+    {
+      "originalFile": "tmp/bazi-food-songs-staging/VERSE_PARTITION.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-songs-staging/VERSE_PARTITION.json",
+      "bytes": 11116,
+      "sha256": "fc6426d73103a5311378dcc2df877dcda11552134e70db1d26ae4463ed1fc384"
+    },
+    {
+      "originalFile": "tmp/bazi-food-songs-staging/WORK_STATE.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-songs-staging/WORK_STATE.json",
+      "bytes": 2587,
+      "sha256": "a9b7909621b17907c6fae22c9d240ac4276f34e1dc9c1e6c90e69357d54d26f7"
+    },
+    {
+      "originalFile": "tmp/bazi-food-label-scope-staging/EXPECTED.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-label-scope-staging/EXPECTED.json",
+      "bytes": 1208,
+      "sha256": "c6da27a398b026625f3979f0ee52ba1216331280398bc6e07bcb9a2b77d1c455"
+    },
+    {
+      "originalFile": "tmp/bazi-food-label-scope-staging/FREEZE.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-label-scope-staging/FREEZE.json",
+      "bytes": 734,
+      "sha256": "94cde3a28e5b8bb0445bd9d2cde0a53a7e91325ba3b7bb4b4918c89162dfa5d3"
+    },
+    {
+      "originalFile": "tmp/bazi-food-label-scope-staging/IDENTITIES.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-label-scope-staging/IDENTITIES.json",
+      "bytes": 2319,
+      "sha256": "d43406233e63481962e352c6fba3aa3dea301a14df1cf4d62717e2a80430a042"
+    },
+    {
+      "originalFile": "tmp/bazi-food-label-scope-staging/label-scope.mjs",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-label-scope-staging/label-scope.mjs",
+      "bytes": 2216,
+      "sha256": "b618fbd4bc3d226c2ca9d27d68ac806b0d20e38c96160c02d053e17045b1ed9d"
+    },
+    {
+      "originalFile": "tmp/bazi-food-label-scope-staging/prepare.py",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-label-scope-staging/prepare.py",
+      "bytes": 3003,
+      "sha256": "bcbfb33059682a0d469f1351cb78155a1c12636ce9fdc65c35ba806ba1c3bd9e"
+    },
+    {
+      "originalFile": "tmp/bazi-food-label-scope-staging/record-progress.py",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-label-scope-staging/record-progress.py",
+      "bytes": 3163,
+      "sha256": "b11940dbd74f30fa568cc066128fc12afb47a146aec4712b7f27784889a96dd6"
+    },
+    {
+      "originalFile": "tmp/bazi-food-label-scope-staging/RESULTS.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-label-scope-staging/RESULTS.json",
+      "bytes": 256,
+      "sha256": "7c5d60b8206769b39ca51fed950499afce5952c9e71fe37654a2041febd9badc"
+    },
+    {
+      "originalFile": "tmp/bazi-food-label-scope-staging/REUSE.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-label-scope-staging/REUSE.json",
+      "bytes": 1533,
+      "sha256": "4c39c8ce5c30c6616d961ef39bce63fbb5fe92b3a0cd1d45ae5ae8b7a422582b"
+    },
+    {
+      "originalFile": "tmp/bazi-food-label-scope-staging/SOURCE_RESULTS.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-label-scope-staging/SOURCE_RESULTS.json",
+      "bytes": 223,
+      "sha256": "7d5e3f529d903a03cb30ce981ed000ee9faaa66ff7e1d597955719aa98923830"
+    },
+    {
+      "originalFile": "tmp/bazi-food-label-scope-staging/SOURCE_REVIEW.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-label-scope-staging/SOURCE_REVIEW.json",
+      "bytes": 2568,
+      "sha256": "0ebb67f601cbcf59b35ceac80649e3957c63ebda560f206484853ccebcec2cc6"
+    },
+    {
+      "originalFile": "tmp/bazi-food-label-scope-staging/test-label-scope.mjs",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-label-scope-staging/test-label-scope.mjs",
+      "bytes": 3211,
+      "sha256": "c8868e0c34d01b45e0360d768f8dce3e190a1e3509e9da730512b055966e3fb7"
+    },
+    {
+      "originalFile": "tmp/bazi-food-label-scope-staging/verify.py",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-label-scope-staging/verify.py",
+      "bytes": 991,
+      "sha256": "65c070b4d614a8db997a9d01480ef7e790f2bb783d441073964508f2a3e00468"
+    },
+    {
+      "originalFile": "tmp/bazi-food-label-scope-staging/WORK_STATE.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-label-scope-staging/WORK_STATE.json",
+      "bytes": 1352,
+      "sha256": "61fd2b60b061bc783dff948d19eea14badf3198bde13ccb62f615efada06d677"
+    },
+    {
+      "originalFile": "tmp/bazi-source-seal-staging/EXPECTED.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-source-seal-staging/EXPECTED.json",
+      "bytes": 903,
+      "sha256": "4aee02f473311b8da4a8b00948c60b1fcb76b49e3f15a8a7d0d0caec4af548ff"
+    },
+    {
+      "originalFile": "tmp/bazi-source-seal-staging/FREEZE.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-source-seal-staging/FREEZE.json",
+      "bytes": 731,
+      "sha256": "6fca030599b5e63e0b607aa12a96f8cfd599948108da50e3d18689d545781357"
+    },
+    {
+      "originalFile": "tmp/bazi-source-seal-staging/IDENTITIES.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-source-seal-staging/IDENTITIES.json",
+      "bytes": 2272,
+      "sha256": "017c522ae7ab8313363c0e60afce3272b24f5e0c4e4d8fadb29942c6d35bdf5f"
+    },
+    {
+      "originalFile": "tmp/bazi-source-seal-staging/MANUAL.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-source-seal-staging/MANUAL.json",
+      "bytes": 1203,
+      "sha256": "67ff629878a3ad3427113ab80a2b54574da2797e2d9c192bba7688139d5d34b8"
+    },
+    {
+      "originalFile": "tmp/bazi-source-seal-staging/NATIVE_IDENTITIES.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-source-seal-staging/NATIVE_IDENTITIES.json",
+      "bytes": 1238,
+      "sha256": "6fd912de2c698cab4926360db9fc59dc51eab853cd430ee85adf520427a2fc95"
+    },
+    {
+      "originalFile": "tmp/bazi-source-seal-staging/NATIVE_REVIEW.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-source-seal-staging/NATIVE_REVIEW.json",
+      "bytes": 2785,
+      "sha256": "793fb279156f6d8c1500173312a82f3e188b394593f4e9d7d7dc2fe3674a06b7"
+    },
+    {
+      "originalFile": "tmp/bazi-source-seal-staging/prepare.py",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-source-seal-staging/prepare.py",
+      "bytes": 3140,
+      "sha256": "8934806727d78c7a2c8d5c0e852944ab26ea59bd44714262dbe06639b536186f"
+    },
+    {
+      "originalFile": "tmp/bazi-source-seal-staging/record-native-review.py",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-source-seal-staging/record-native-review.py",
+      "bytes": 3453,
+      "sha256": "1b0bd352119222fe67f84b3135d319fdaf8225df468287caa829c0a17e8ea7a0"
+    },
+    {
+      "originalFile": "tmp/bazi-source-seal-staging/render-native.mjs",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-source-seal-staging/render-native.mjs",
+      "bytes": 3001,
+      "sha256": "b7527623c66957e0f148c30c34a03d98b8382d3bb930ac639ecd0b7d875fbad2"
+    },
+    {
+      "originalFile": "tmp/bazi-source-seal-staging/RENDERS.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-source-seal-staging/RENDERS.json",
+      "bytes": 2482,
+      "sha256": "0e8e6f5e538a1cdef71556273ad960f9cb65f1d469610db4f38b15a12f3626f4"
+    },
+    {
+      "originalFile": "tmp/bazi-source-seal-staging/RENDERS_HISTORY_RECOVERY.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-source-seal-staging/RENDERS_HISTORY_RECOVERY.json",
+      "bytes": 1060,
+      "sha256": "43c572c842998dfde54a04be10c2cff8b00181b8bb407d9ac6e48566c5072e49"
+    },
+    {
+      "originalFile": "tmp/bazi-source-seal-staging/RESULTS.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-source-seal-staging/RESULTS.json",
+      "bytes": 234,
+      "sha256": "3404c16b827e1e676c864b2382a2bd0c7b13941ee069e29181ac26357100bd1a"
+    },
+    {
+      "originalFile": "tmp/bazi-source-seal-staging/RETAINED_EXCERPT.txt",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-source-seal-staging/RETAINED_EXCERPT.txt",
+      "bytes": 984,
+      "sha256": "1bc6e743c1bb790858ad3f3538d2860e23fe28e3f51c2a2bebf1f916e262545f"
+    },
+    {
+      "originalFile": "tmp/bazi-source-seal-staging/source-seal.mjs",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-source-seal-staging/source-seal.mjs",
+      "bytes": 1444,
+      "sha256": "f313c421f7f49165e0efc965082231a3257652a9ac7627ba8abdd508970a7353"
+    },
+    {
+      "originalFile": "tmp/bazi-source-seal-staging/SOURCE_IDENTITIES.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-source-seal-staging/SOURCE_IDENTITIES.json",
+      "bytes": 1261,
+      "sha256": "e53c5e388f251bd00d97433f3f20c691dbf122288a19a6e98ded06c17f33b754"
+    },
+    {
+      "originalFile": "tmp/bazi-source-seal-staging/SOURCE_RESULTS.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-source-seal-staging/SOURCE_RESULTS.json",
+      "bytes": 205,
+      "sha256": "dbe2c8d30d69c56f52ff89ffed13a82a58dfe864b3dbbb4c391577ea757277d4"
+    },
+    {
+      "originalFile": "tmp/bazi-source-seal-staging/test-source-seal.mjs",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-source-seal-staging/test-source-seal.mjs",
+      "bytes": 2455,
+      "sha256": "0eb3154eff25c5a75275bdcaca84e18d057bfc34c1214d59bf6eb3b7d3de86de"
+    },
+    {
+      "originalFile": "tmp/bazi-source-seal-staging/verify-record.py",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-source-seal-staging/verify-record.py",
+      "bytes": 3734,
+      "sha256": "708eff718d6f72a31860a47a5ec58db171d0ea7e98934f80d9558d803d8cb304"
+    },
+    {
+      "originalFile": "tmp/bazi-source-seal-staging/WORK_STATE.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-source-seal-staging/WORK_STATE.json",
+      "bytes": 1310,
+      "sha256": "44024dbe3cca985ab1206f3dcd17502c021838e3d95b86df64149d73ff02e4ea"
+    },
+    {
+      "originalFile": "tmp/bazi-seal-conditions-staging/CHAPTER_EXCERPT.txt",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-seal-conditions-staging/CHAPTER_EXCERPT.txt",
+      "bytes": 2437,
+      "sha256": "605270cdfe9dc55cc6018ff77553062e6bb37587adc98e0758081a200f16ee5b"
+    },
+    {
+      "originalFile": "tmp/bazi-seal-conditions-staging/CHAPTER_UNITS.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-seal-conditions-staging/CHAPTER_UNITS.json",
+      "bytes": 4664,
+      "sha256": "dab99881c228ae465cbdfcfbbb47f510d66fb6e01aa95e3cda90f89a068d6d26"
+    },
+    {
+      "originalFile": "tmp/bazi-seal-conditions-staging/EXPECTED.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-seal-conditions-staging/EXPECTED.json",
+      "bytes": 3767,
+      "sha256": "2284e6c42016b6769006af9f24519b23f09fb6aa7e9d8c9a17f54047a08be29a"
+    },
+    {
+      "originalFile": "tmp/bazi-seal-conditions-staging/FREEZE.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-seal-conditions-staging/FREEZE.json",
+      "bytes": 914,
+      "sha256": "ca20f0ab4e4c4bb15c7215076110fe152cddb28073dff639ffad72b2b619f909"
+    },
+    {
+      "originalFile": "tmp/bazi-seal-conditions-staging/fuju-reference.mjs",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-seal-conditions-staging/fuju-reference.mjs",
+      "bytes": 2225,
+      "sha256": "04ec4ffe48ff619a4fd8db2148eaf9d612dbc85dc28878fb3cd4ef974d0a2a2b"
+    },
+    {
+      "originalFile": "tmp/bazi-seal-conditions-staging/IDENTITIES.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-seal-conditions-staging/IDENTITIES.json",
+      "bytes": 2893,
+      "sha256": "e85d01ec3aa7f9d8daf73f203a8da3da79c8716c5a2e8cbc6740f745bc8389e4"
+    },
+    {
+      "originalFile": "tmp/bazi-seal-conditions-staging/MANUAL_FUJU.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-seal-conditions-staging/MANUAL_FUJU.json",
+      "bytes": 1104,
+      "sha256": "167b917ffa3becc13cf546ba2165295656cb5229d4087ce39db45e1fe764bb2f"
+    },
+    {
+      "originalFile": "tmp/bazi-seal-conditions-staging/prepare.py",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-seal-conditions-staging/prepare.py",
+      "bytes": 4767,
+      "sha256": "6c067ce9ffd641e7948db81c4d3b4adbfd540e5fc2dba1a1ce6a230f8bda97d2"
+    },
+    {
+      "originalFile": "tmp/bazi-seal-conditions-staging/record-progress.py",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-seal-conditions-staging/record-progress.py",
+      "bytes": 3851,
+      "sha256": "f8610ed8e9cafd1164c5710bbd71564b56bdd4e78a33e4073e4f4cbaef9150c1"
+    },
+    {
+      "originalFile": "tmp/bazi-seal-conditions-staging/RESEARCH_NOTE.md",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-seal-conditions-staging/RESEARCH_NOTE.md",
+      "bytes": 5846,
+      "sha256": "c0cc0776650f25fed697bce05e2a8545bead7b8c77f65d47f37e363084ad66a1"
+    },
+    {
+      "originalFile": "tmp/bazi-seal-conditions-staging/RESULTS.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-seal-conditions-staging/RESULTS.json",
+      "bytes": 309,
+      "sha256": "4a5309e449b0dcc8b7211b315a63c4f143ee04064b57f921b993ee9c0aed5572"
+    },
+    {
+      "originalFile": "tmp/bazi-seal-conditions-staging/S06_CROSS_REFERENCE.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-seal-conditions-staging/S06_CROSS_REFERENCE.json",
+      "bytes": 1447,
+      "sha256": "8d01398c91763bb647ad1c27e05704d2791f2a496328cefe7b51721bcdd92cc1"
+    },
+    {
+      "originalFile": "tmp/bazi-seal-conditions-staging/SOURCE_IDENTITIES.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-seal-conditions-staging/SOURCE_IDENTITIES.json",
+      "bytes": 2758,
+      "sha256": "cbadb0b2d7ac9dc0b371c54ed10a574a506ad12809e8f38e3673fcf0d3aa2e54"
+    },
+    {
+      "originalFile": "tmp/bazi-seal-conditions-staging/SOURCE_RESULTS.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-seal-conditions-staging/SOURCE_RESULTS.json",
+      "bytes": 362,
+      "sha256": "6550278eae00d18cea89e313f219fe47d1d477f8f8b6f45ba8551a35a51d6bfe"
+    },
+    {
+      "originalFile": "tmp/bazi-seal-conditions-staging/test-fuju.mjs",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-seal-conditions-staging/test-fuju.mjs",
+      "bytes": 4688,
+      "sha256": "c8931e7958582de5065f07967f460fed97caeefd92d8cf118ca8d98717b54c00"
+    },
+    {
+      "originalFile": "tmp/bazi-seal-conditions-staging/verify-source.py",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-seal-conditions-staging/verify-source.py",
+      "bytes": 1687,
+      "sha256": "05d29cdbe8af009eaacb28d7075b71971bb7608779bd47b2045bddc05749dfeb"
+    },
+    {
+      "originalFile": "tmp/bazi-seal-conditions-staging/WORK_STATE.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-seal-conditions-staging/WORK_STATE.json",
+      "bytes": 2026,
+      "sha256": "4b2a48bc071b7fecbabb51daedfa2a702b98f1e22dadd853bae48b630574f315"
+    },
+    {
+      "originalFile": "tmp/bazi-literary-seal-staging/ACTUAL_RUNTIME.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-literary-seal-staging/ACTUAL_RUNTIME.json",
+      "bytes": 7761,
+      "sha256": "5f2ec7378615cd9721b07cedd5ea33fa3ae9ebc606d523f2ce87a8cd11691c63"
+    },
+    {
+      "originalFile": "tmp/bazi-literary-seal-staging/EXPECTED.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-literary-seal-staging/EXPECTED.json",
+      "bytes": 939,
+      "sha256": "c9d3d59e799148cf3cf4257301cc21ba095d5367700d8d8bbd038ab4ab09eded"
+    },
+    {
+      "originalFile": "tmp/bazi-literary-seal-staging/FREEZE.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-literary-seal-staging/FREEZE.json",
+      "bytes": 950,
+      "sha256": "c02482db9d9b9e3d89e65205ede31993278176158eb1db2be992b7b33038f77d"
+    },
+    {
+      "originalFile": "tmp/bazi-literary-seal-staging/IDENTITIES.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-literary-seal-staging/IDENTITIES.json",
+      "bytes": 3044,
+      "sha256": "0e5b8a23238e64a3a366ee9d3a7b4fb4a18a9132e33a29e95c04f83d944d7e89"
+    },
+    {
+      "originalFile": "tmp/bazi-literary-seal-staging/IDENTITY_INPUTS.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-literary-seal-staging/IDENTITY_INPUTS.json",
+      "bytes": 874,
+      "sha256": "fd36191cf0d49e2f3f5c1af5ee8cf4cbf4d59b838d286368e5fa7c5afcb5c8a6"
+    },
+    {
+      "originalFile": "tmp/bazi-literary-seal-staging/literary-seal.mjs",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-literary-seal-staging/literary-seal.mjs",
+      "bytes": 2871,
+      "sha256": "b9f360d1f9a3fb3f285487c1aa367d8c159cdebd78032d4d4b8f2cce42f806fd"
+    },
+    {
+      "originalFile": "tmp/bazi-literary-seal-staging/MANUAL.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-literary-seal-staging/MANUAL.json",
+      "bytes": 2661,
+      "sha256": "a3ecb97ebefb0f30f8a3fd644ae5981f29a581861a27a28dc195e20ca42ee1fc"
+    },
+    {
+      "originalFile": "tmp/bazi-literary-seal-staging/PLAN.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-literary-seal-staging/PLAN.json",
+      "bytes": 7820,
+      "sha256": "0cb9adc27f2780d4d2b68d7420b83447dce361e1525148447c74807042e20ae7"
+    },
+    {
+      "originalFile": "tmp/bazi-literary-seal-staging/prepare.py",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-literary-seal-staging/prepare.py",
+      "bytes": 4752,
+      "sha256": "2bd062d12170aebff1d56de7937000836b7a3f7942c572fe35b913fe8bbce7b7"
+    },
+    {
+      "originalFile": "tmp/bazi-literary-seal-staging/record-progress.py",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-literary-seal-staging/record-progress.py",
+      "bytes": 3901,
+      "sha256": "365dcc0e043db071a08461b5eda3b3834c0f53899f781069d1cecf7edbde2fbd"
+    },
+    {
+      "originalFile": "tmp/bazi-literary-seal-staging/RESEARCH_NOTE.md",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-literary-seal-staging/RESEARCH_NOTE.md",
+      "bytes": 3782,
+      "sha256": "25254b816c1f0ce72f66ad9fcbe841c129ce15df4e0918aa16d97496ecb31374"
+    },
+    {
+      "originalFile": "tmp/bazi-literary-seal-staging/RESULTS.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-literary-seal-staging/RESULTS.json",
+      "bytes": 312,
+      "sha256": "c82fe64c77a084502819431e647d85d8adbbf8a6f0a70c3ec75a23d52dd8b619"
+    },
+    {
+      "originalFile": "tmp/bazi-literary-seal-staging/run-once.mjs",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-literary-seal-staging/run-once.mjs",
+      "bytes": 2217,
+      "sha256": "fdb98780b5a9cc3d6ce3a2e42eea840d08c760e3fb336666d45b916e4eb969d7"
+    },
+    {
+      "originalFile": "tmp/bazi-literary-seal-staging/SOURCE_RESULTS.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-literary-seal-staging/SOURCE_RESULTS.json",
+      "bytes": 440,
+      "sha256": "be142cf22adf81e085eac277848d841181cceb5cece820d3704dadcaeefe8c36"
+    },
+    {
+      "originalFile": "tmp/bazi-literary-seal-staging/test-literary-seal.mjs",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-literary-seal-staging/test-literary-seal.mjs",
+      "bytes": 4352,
+      "sha256": "efc0e354ef81ed5d2582dada44981741536407d5434964b40f5f46691dc1c89e"
+    },
+    {
+      "originalFile": "tmp/bazi-literary-seal-staging/verify-source-runtime.py",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-literary-seal-staging/verify-source-runtime.py",
+      "bytes": 2353,
+      "sha256": "4133a429e0e5706e1e0a78174a2a7a5c357a61b5ffee82612259a7e823a4f421"
+    },
+    {
+      "originalFile": "tmp/bazi-literary-seal-staging/WORK_STATE.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-literary-seal-staging/WORK_STATE.json",
+      "bytes": 2107,
+      "sha256": "1624c68230b77f092f4ccba374a0ced6086614b5f896fd25aa2efc729448dcd7"
+    },
+    {
+      "originalFile": "tmp/bazi-food-return-feeding-staging/review-source.py",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-return-feeding-staging/review-source.py",
+      "bytes": 3658,
+      "sha256": "89bb149f97d3c7d3acfeb95e2958f9213898cf6c0e2b9aebaa46547ec589fb8f"
+    },
+    {
+      "originalFile": "tmp/bazi-food-return-feeding-staging/SOURCE_DIRECTION_REVIEW.json",
+      "repositoryFile": "collaboration/working-source/tmp/bazi-food-return-feeding-staging/SOURCE_DIRECTION_REVIEW.json",
+      "bytes": 4987,
+      "sha256": "1094d0deafaebef9f71e4278ac8bf268840e1afcd4fd889b00619cca421d0a9c"
+    }
+  ]
+}

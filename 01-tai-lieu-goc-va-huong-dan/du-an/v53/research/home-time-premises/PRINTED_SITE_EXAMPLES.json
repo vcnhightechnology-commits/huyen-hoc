@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-29",
+  "system": "ITKC-GO1508A.月論.four-printed-sites.v1",
+  "records": [
+    {
+      "id": "qiu-jiazi-month2",
+      "clause": "qiu-angdao",
+      "yearGanzhi": "甲子",
+      "monthOrdinal": 2,
+      "site": "pig-enclosure",
+      "literal": "甲子年二月在猪牢"
+    },
+    {
+      "id": "qiu-jiazi-month3",
+      "clause": "qiu-angdao",
+      "yearGanzhi": "甲子",
+      "monthOrdinal": 3,
+      "site": "hall",
+      "literal": "甲子年三月占廳堂"
+    },
+    {
+      "id": "hao-month1",
+      "clause": "monthly-hao",
+      "yearGanzhi": null,
+      "monthOrdinal": 1,
+      "site": "doorway",
+      "literal": "如正月在門戶"
+    },
+    {
+      "id": "tugong-month1",
+      "clause": "tugong",
+      "yearGanzhi": null,
+      "monthOrdinal": 1,
+      "site": "stove",
+      "literal": "如正月在竈"
+    }
+  ],
+  "yearNullMeansSourceDidNotSpecifyYearNotAllYearsEstablished": true,
+  "fullTwelveMonthTableDerived": false,
+  "modernRoomGeometryMapped": false
+}

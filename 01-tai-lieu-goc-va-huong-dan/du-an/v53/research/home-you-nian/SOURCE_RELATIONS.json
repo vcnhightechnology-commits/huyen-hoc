@@ -1,0 +1,169 @@
+{
+  "source": "欽定協紀辨方書卷二, retained CADAL06056503",
+  "bitEncoding": "Modern bottom/middle/top weights1/2/4, not a claim about historical binary arithmetic.",
+  "selfRelation": {
+    "mask": 0,
+    "small": "輔弼",
+    "big": "伏位",
+    "pages": [
+      83,
+      90,
+      107
+    ],
+    "literalNamesEqual": false,
+    "samePalaceRoleOnly": true
+  },
+  "rows": [
+    {
+      "mask": 4,
+      "namedChangedLines": "上一爻變",
+      "diagramPage": 91,
+      "prosePage": 92,
+      "small": "生氣",
+      "big": "生氣",
+      "smallDiagramRating": "吉",
+      "bigDiagramRating": "吉",
+      "directUnorderedPairs": [
+        "乾兌",
+        "巽坎",
+        "艮坤",
+        "離震"
+      ]
+    },
+    {
+      "mask": 6,
+      "namedChangedLines": "上二爻變",
+      "diagramPage": 95,
+      "prosePage": 96,
+      "small": "天醫",
+      "big": "五鬼",
+      "smallDiagramRating": "吉",
+      "bigDiagramRating": "凶",
+      "directUnorderedPairs": [
+        "乾震",
+        "兌離",
+        "巽坤",
+        "坎艮"
+      ]
+    },
+    {
+      "mask": 1,
+      "namedChangedLines": "下一爻變",
+      "diagramPage": 97,
+      "prosePage": 98,
+      "small": "五鬼",
+      "big": "禍害",
+      "smallDiagramRating": "凶",
+      "bigDiagramRating": "凶",
+      "directUnorderedPairs": [
+        "乾巽",
+        "兌坎",
+        "離艮",
+        "震坤"
+      ]
+    },
+    {
+      "mask": 3,
+      "namedChangedLines": "下二爻變",
+      "diagramPage": 99,
+      "prosePage": 100,
+      "small": "福德",
+      "big": "天醫",
+      "smallDiagramRating": "吉",
+      "bigDiagramRating": "吉",
+      "directUnorderedPairs": [
+        "乾艮",
+        "兌坤",
+        "離巽",
+        "震坎"
+      ]
+    },
+    {
+      "mask": 5,
+      "namedChangedLines": "上下二爻變",
+      "diagramPage": 101,
+      "prosePage": 102,
+      "small": "遊魂",
+      "big": "六煞",
+      "smallDiagramRating": "凶",
+      "bigDiagramRating": "凶",
+      "directUnorderedPairs": [
+        "乾坎",
+        "兌巽",
+        "離坤",
+        "震艮"
+      ]
+    },
+    {
+      "mask": 2,
+      "namedChangedLines": "中一爻變",
+      "diagramPage": 103,
+      "prosePage": 104,
+      "small": "絶命",
+      "big": "絶命",
+      "smallDiagramRating": "凶",
+      "bigDiagramRating": "凶",
+      "directUnorderedPairs": [
+        "乾離",
+        "兌震",
+        "巽艮",
+        "坎坤"
+      ]
+    },
+    {
+      "mask": 7,
+      "namedChangedLines": "三爻俱變",
+      "diagramPage": 105,
+      "prosePage": 106,
+      "small": "絶體",
+      "big": "延年",
+      "smallDiagramRating": "凶",
+      "bigDiagramRating": "吉",
+      "directUnorderedPairs": [
+        "乾坤",
+        "兌艮",
+        "離坎",
+        "震巽"
+      ]
+    }
+  ],
+  "stageHeaders": {
+    "pages": [
+      107,
+      108
+    ],
+    "small": [
+      "輔弼",
+      "五鬼",
+      "福德",
+      "絶體",
+      "天醫",
+      "生氣",
+      "遊魂",
+      "絶命"
+    ],
+    "big": [
+      "伏位",
+      "禍害",
+      "天醫",
+      "延年",
+      "五鬼",
+      "生氣",
+      "六煞",
+      "絶命"
+    ]
+  },
+  "literalEqualNonselfMasks": [
+    2,
+    4
+  ],
+  "differentNonselfMasks": [
+    1,
+    3,
+    5,
+    6,
+    7
+  ],
+  "samePalaceIsNotLiteralSynonymClaim": true,
+  "consumerApplied": "Only 大遊年 is compared with current directions table; no new 小遊年 mode enabled."
+}

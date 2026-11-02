@@ -1,0 +1,41 @@
+{
+  "scope": "v53/qa/tuvi-shidian-witness",
+  "files": [
+    {
+      "file": "v53/qa/tuvi-shidian-witness/PROMOTION_IDENTITIES.json",
+      "bytes": 13331,
+      "sha256": "4ea9fb6bd2c7a2bfeadc54849e229c4fa726c2f2f16e32f2247fe8a97e1f481b",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4ea9fb6bd2c7a2bfeadc54849e229c4fa726c2f2f16e32f2247fe8a97e1f481b",
+      "httpRange": {
+        "offset": 325553983,
+        "compressedBytes": 3334,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/tuvi-shidian-witness/RELEASE_RESULTS.json",
+      "bytes": 734,
+      "sha256": "bda94514b9f97185fc6264bb6da9246cb8f7fe39fca0e9244af4b3f50bd6bba5",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/bda94514b9f97185fc6264bb6da9246cb8f7fe39fca0e9244af4b3f50bd6bba5",
+      "httpRange": {
+        "offset": 205922703,
+        "compressedBytes": 398,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/tuvi-shidian-witness/SOURCE_RESULTS.json",
+      "bytes": 424,
+      "sha256": "1b890c26ce6336fe9c52b8d0da2cbc93efc5fa2344b68b0939b98b89724bd450",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1b890c26ce6336fe9c52b8d0da2cbc93efc5fa2344b68b0939b98b89724bd450",
+      "httpRange": {
+        "offset": 354166723,
+        "compressedBytes": 262,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "date": "2026-10-27",
+  "checks": [
+    {
+      "name": "Reused50191031byte/60page original source; no new HTTP or original PDF",
+      "ok": true
+    },
+    {
+      "name": "Opening1..33 bounded read/12QA crops/direct volume1 end, editorial groups not full application",
+      "ok": true
+    },
+    {
+      "name": "Separate preface/imprint/rule voices and131TOC-stated examples, not131verified body figures",
+      "ok": true
+    },
+    {
+      "name": "120source month-stem coordinates agree with120actual HHC bazi and120actual lunar calls",
+      "ok": true
+    },
+    {
+      "name": "120source hour-stem coordinates agree with120actual HHC bazi and120actual lunar calls away from23h",
+      "ok": true
+    },
+    {
+      "name": "60nayin coordinates retain58script-normalized names and2explicit lexical variants; all60elements agree",
+      "ok": true
+    },
+    {
+      "name": "Explicit coordinate inputs required; reject clock/lunar ordinal/unknown keys and preserve input",
+      "ok": true
+    },
+    {
+      "name": "707411byte consumer and14prior LiuYao references preserved, private coordinate/source files absent from site",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "actualHHCBaziCalls": 240,
+    "actualLunarCalls": 300,
+    "monthCoordinates": 120,
+    "hourCoordinates": 120,
+    "directSingleStemAnchors": 20,
+    "editorialExpandedCoordinates": 220,
+    "nayinCoordinates": 60,
+    "nayinElementAgreements": 60,
+    "nayinNamesAfterScriptNormalization": 58,
+    "nayinLexicalVariants": 2,
+    "manualRecords": 33,
+    "QACrops": 12,
+    "QAOnlySourceRenders": 7,
+    "editorialUnitGroups": 57,
+    "TOCStatedExamples": 131
+  },
+  "htmlSHA256": "549cb415c1a7785e92be25b407d965ea0abd4d3affc54696b784f84d87601857",
+  "caseDigest": "9e52c026a902f37387eafff5cc66ad9f62612e44124c2d98cbe78757842ec4fb",
+  "consumerChanged": false,
+  "wholeBookApplied": false,
+  "wholeCatalogueCompleted": false
+}

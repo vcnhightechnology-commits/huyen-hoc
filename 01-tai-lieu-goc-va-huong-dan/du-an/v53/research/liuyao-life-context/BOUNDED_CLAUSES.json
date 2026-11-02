@@ -1,0 +1,219 @@
+{
+  "date": "2026-10-27",
+  "clauses": [
+    {
+      "id": "one-cast-limit",
+      "sourcePages": [
+        213,
+        214
+      ],
+      "sourceVoice": "覺子",
+      "disposition": "Onecastdoesnotsettleparents/siblings/spouse/children/career/wealth/longevity;source advocatesseparatequestions.",
+      "status": "scope-guard-only",
+      "outcomeValidated": false
+    },
+    {
+      "id": "conflicting-kin-effects",
+      "sourcePages": [
+        213
+      ],
+      "sourceVoice": "author",
+      "disposition": "Differentkinrolescanconstrainoneanother;sourcewarnsblanketbenefitforoneactorisnotbenefitforall.",
+      "status": "conditional-open",
+      "outcomeValidated": false
+    },
+    {
+      "id": "three-actors",
+      "sourcePages": [
+        214
+      ],
+      "sourceVoice": "覺子",
+      "disposition": "Wealthfocususes世/財/子孫asdistinctactors. Source無一失陷/旺相requiresseparatepremises.",
+      "status": "private-structural-groups",
+      "outcomeValidated": false
+    },
+    {
+      "id": "source-of-wealth",
+      "sourcePages": [
+        214
+      ],
+      "sourceVoice": "source",
+      "disposition": "子孫iscalled財之源;structuralgenerationedgesdonotestablisheffectivewealthoroutcome.",
+      "status": "private-structural-edge",
+      "outcomeValidated": false
+    },
+    {
+      "id": "wealth-vs-blessing",
+      "sourcePages": [
+        214,
+        215
+      ],
+      "sourceVoice": "multiplevoices",
+      "disposition": "財旺福空/福旺財衰/世旺 orunsupported canyielddifferentclaims;thresholdsandprioritynotcomplete.",
+      "status": "conditional-open",
+      "outcomeValidated": false
+    },
+    {
+      "id": "static-void-vs-active",
+      "sourcePages": [
+        216
+      ],
+      "sourceVoice": "覺子vsoldcommentary",
+      "disposition": "世空 lifetimefailureclaimqualifiedbyvisiblemotion/dayclash/support;absenceofcalendarpremisesstaysunknown.",
+      "status": "conditional-open",
+      "outcomeValidated": false
+    },
+    {
+      "id": "grave-qualified",
+      "sourcePages": [
+        217
+      ],
+      "sourceVoice": "覺子vsoldcommentary",
+      "disposition": "Self墓withsupport/wealth-blessinggenerationnotuniformlife-failure;墓needstargetednamedpremises.",
+      "status": "conditional-open",
+      "outcomeValidated": false
+    },
+    {
+      "id": "six-combinations",
+      "sourcePages": [
+        218,
+        219
+      ],
+      "sourceVoice": "野鶴/覺子vs舊註",
+      "disposition": "六合/六沖notautomaticfixeddecadesoffortune;sourcecounterexamplesdemand用神andcontext.",
+      "status": "conditional-open",
+      "outcomeValidated": false
+    },
+    {
+      "id": "unasked-meaning",
+      "sourcePages": [
+        219,
+        222
+      ],
+      "sourceVoice": "sourceand覺子",
+      "disposition": "Sourceanecdotesreassignquestiontounaskedcareer/familyharm;notpermissiontoinferprivateuserintent.",
+      "status": "historical-narrative-not-runtime-rule",
+      "outcomeValidated": false
+    },
+    {
+      "id": "parents-self",
+      "sourcePages": [
+        220,
+        225,
+        226
+      ],
+      "sourceVoice": "multiplevoices",
+      "disposition": "父持世interpretedhardshipinwealthcontextbutliterature/workincareer;sourcecontextmatters.",
+      "status": "context-separation",
+      "outcomeValidated": false
+    },
+    {
+      "id": "wealth-not-actual-spouse",
+      "sourcePages": [
+        226
+      ],
+      "sourceVoice": "覺子",
+      "disposition": "財roleinwealthquestiondoesnotautomaticallymeanspouse;do notturn克relationshipintomaritalclaims.",
+      "status": "scope-guard-only",
+      "outcomeValidated": false
+    },
+    {
+      "id": "profession-stereotypes",
+      "sourcePages": [
+        221,
+        223,
+        227
+      ],
+      "sourceVoice": "source",
+      "disposition": "Six-spirit/social/profession/sex/healthnarrativeshistorical,notclassificationofrealpeople.",
+      "status": "historical-claim",
+      "outcomeValidated": false
+    },
+    {
+      "id": "return-control",
+      "sourcePages": [
+        228
+      ],
+      "sourceVoice": "source",
+      "disposition": "六合doesnotnegatereturncontrol/changedghost/daymonthcontrol;efficacyrequiresmorepremises.",
+      "status": "structural-fact-only",
+      "outcomeValidated": false
+    },
+    {
+      "id": "office-writing",
+      "sourcePages": [
+        229
+      ],
+      "sourceVoice": "chapter38",
+      "disposition": "官/父parallelrolefocus;sourceuses官動生世/父旺動生世withqualification.",
+      "status": "private-structural-groups",
+      "outcomeValidated": false
+    },
+    {
+      "id": "asset-office",
+      "sourcePages": [
+        229
+      ],
+      "sourceVoice": "source",
+      "disposition": "財生官claimdependsactualgenerationandsupportedactors;notallwealthpresenceimpliesrank.",
+      "status": "conditional-open",
+      "outcomeValidated": false
+    },
+    {
+      "id": "supported-self",
+      "sourcePages": [
+        230
+      ],
+      "sourceVoice": "source",
+      "disposition": "官/self/daymonthgenerationconditionscompared;notamodernadmission/careerprobability.",
+      "status": "conditional-open",
+      "outcomeValidated": false
+    },
+    {
+      "id": "children-career",
+      "sourcePages": [
+        231,
+        232
+      ],
+      "sourceVoice": "source",
+      "disposition": "Sourcechild持世careerexamplesarenotuniformprediction;question/positionandotheractorsstillrelevant.",
+      "status": "conditional-open",
+      "outcomeValidated": false
+    },
+    {
+      "id": "longevity-opening",
+      "sourcePages": [
+        232
+      ],
+      "sourceVoice": "source",
+      "disposition": "壽元chapter39onlyopeningread;medical/death/lifespanclaimsnotvalidatedorimplemented.",
+      "status": "historical-only",
+      "outcomeValidated": false
+    },
+    {
+      "id": "blanket-cast-warning",
+      "sourcePages": [
+        222,
+        223,
+        224
+      ],
+      "sourceVoice": "multiplevoices",
+      "disposition": "Retrospectivecasesarenotindependentvalidation;onecastcannotbecreditedforarbitraryunaskedoutcomes.",
+      "status": "scope-limit",
+      "outcomeValidated": false
+    },
+    {
+      "id": "source-glyph-open",
+      "sourcePages": [
+        226
+      ],
+      "sourceVoice": "sourceimage",
+      "disposition": "Printedhexheadlooks允/兌;noemendationorfixtureuntiltargetedvisualcollation.",
+      "status": "glyph-open",
+      "outcomeValidated": false
+    }
+  ],
+  "sourceInstructionsAreData": true,
+  "allSubsidiaryClausesEnumerated": false,
+  "wholeChaptersApplied": false
+}

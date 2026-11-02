@@ -1,0 +1,44 @@
+{
+  "cases": [
+    {
+      "sourceClass": "金命",
+      "target": "乙丑",
+      "literalTargetMatch": true
+    },
+    {
+      "sourceClass": "木",
+      "target": "癸未",
+      "literalTargetMatch": true
+    },
+    {
+      "sourceClass": "火",
+      "target": "甲戌",
+      "literalTargetMatch": true
+    },
+    {
+      "sourceClass": "水土",
+      "target": "壬辰",
+      "literalTargetMatch": true
+    },
+    {
+      "sourceClass": "水土",
+      "target": "丙辰",
+      "literalTargetMatch": true
+    },
+    {
+      "sourceClass": "金命",
+      "target": "丙辰",
+      "literalTargetMatch": false
+    },
+    {
+      "sourceClass": "木",
+      "target": null,
+      "literalTargetMatch": null
+    }
+  ],
+  "unsupportedSplitClasses": [
+    "水",
+    "土"
+  ],
+  "supportedClassesAreLiteralSourceGroupsNotNormalizedElementIDs": true
+}

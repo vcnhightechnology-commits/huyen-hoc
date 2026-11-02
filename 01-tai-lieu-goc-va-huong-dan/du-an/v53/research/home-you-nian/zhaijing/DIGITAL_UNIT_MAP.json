@@ -1,0 +1,430 @@
+{
+  "date": "2026-10-27",
+  "status": "complete-retained-digitaltext-map-notfacsimile-orfullapplication",
+  "sourceCatalogueID": "P03",
+  "sources": [
+    {
+      "file": "v53/research/library-audit/new-sources/KR3g0019-KR3g0019_000.txt",
+      "bytes": 1442,
+      "sha256": "b2e8cf82101f9e5a10677fa7cf584f0e25a02da621d439efeadb1c05cd423dd9",
+      "part": "提要",
+      "retainedPageMarkers": [
+        "000-1a",
+        "000-1b",
+        "000-2a"
+      ],
+      "digitalTextActuallyRead": true,
+      "facsimileCollated": false,
+      "sourceClausesExhaustivelyApplied": false
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/KR3g0019-KR3g0019_001.txt",
+      "bytes": 9937,
+      "sha256": "619aa9ec17852afd4b3629f9b5ff3b31b18872a4824747e890d092aefcd975cc",
+      "part": "卷上",
+      "retainedPageMarkers": [
+        "001-1a",
+        "001-1b",
+        "001-2a",
+        "001-2b",
+        "001-3a",
+        "001-3b",
+        "001-4a",
+        "001-4b",
+        "001-5a",
+        "001-5b",
+        "001-6a",
+        "001-6b",
+        "001-7a",
+        "001-7b",
+        "001-8a",
+        "001-8b",
+        "001-9a",
+        "001-9b"
+      ],
+      "digitalTextActuallyRead": true,
+      "facsimileCollated": false,
+      "sourceClausesExhaustivelyApplied": false
+    },
+    {
+      "file": "v53/research/library-audit/new-sources/KR3g0019-KR3g0019_002.txt",
+      "bytes": 8112,
+      "sha256": "c67b8d70714492f5bfb3dc9bb603092bd84e33e443cc0a588bc02a46de9ff23d",
+      "part": "卷下",
+      "retainedPageMarkers": [
+        "002-1a",
+        "002-2a",
+        "002-2b",
+        "002-3a",
+        "002-3b",
+        "002-4a",
+        "002-4b",
+        "002-5a",
+        "002-5b",
+        "002-6a",
+        "002-6b",
+        "002-7a",
+        "002-7b",
+        "002-8a",
+        "002-8b"
+      ],
+      "digitalTextActuallyRead": true,
+      "facsimileCollated": false,
+      "sourceClausesExhaustivelyApplied": false
+    }
+  ],
+  "editorialUnitGroups": [
+    {
+      "id": "P03-preface",
+      "fromFolio": "000-1a",
+      "throughFolio": "000-2a",
+      "group": "Catalogueanddisputedattribution",
+      "disposition": "historical-attribution-critical-notverifiedHuangdiauthor",
+      "facsimileCollated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "P03-u-intro",
+      "fromFolio": "001-1a",
+      "throughFolio": "001-2b",
+      "group": "Sourcescopeandcompetinghousebooks",
+      "disposition": "transmission/polemicalstance-notuniversalmethod",
+      "facsimileCollated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "P03-u-24routes",
+      "fromFolio": "001-2b",
+      "throughFolio": "001-3b",
+      "group": "24routes/yinyangandmigration",
+      "disposition": "十干vs24arithmeticunresolved;source-specificnotmodernroommap",
+      "facsimileCollated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "P03-u-migration",
+      "fromFolio": "001-3b",
+      "throughFolio": "001-4a",
+      "group": "Repeatedmigrationanddirection",
+      "disposition": "historicalsymbolicclaims;noeventprediction",
+      "facsimileCollated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "P03-u-repairs",
+      "fromFolio": "001-4a",
+      "throughFolio": "001-5a",
+      "group": "Directionofrepairsandextent",
+      "disposition": "textualconditionsonly;noengineeringorhealthinference",
+      "facsimileCollated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "P03-u-five",
+      "fromFolio": "001-5a",
+      "throughFolio": "001-5b",
+      "group": "五虚五實",
+      "disposition": "do notuseoccupancy/animalcountaswealthorhealthscore",
+      "facsimileCollated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "P03-u-tomb-house",
+      "fromFolio": "001-5b",
+      "throughFolio": "001-6a",
+      "group": "House/tombandfortune",
+      "disposition": "historicalcosmology;notmodernfloorplanrule",
+      "facsimileCollated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "P03-u-sequence",
+      "fromFolio": "001-6a",
+      "throughFolio": "001-7b",
+      "group": "Repairsequenceandwarnings",
+      "disposition": "instructionsaredata,notinstructionsforassistant",
+      "facsimileCollated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "P03-u-form",
+      "fromFolio": "001-7b",
+      "throughFolio": "001-8a",
+      "group": "Formmetaphorandarrivaldirection",
+      "disposition": "notmeasuredgeometry;practicalderivationmustbeeditorial",
+      "facsimileCollated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "P03-u-season",
+      "fromFolio": "001-8a",
+      "throughFolio": "001-8b",
+      "group": "Seasonalprohibitions",
+      "disposition": "calendarboundariesunverified;notbuildingrule",
+      "facsimileCollated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "P03-u-month",
+      "fromFolio": "001-8b",
+      "throughFolio": "001-9a",
+      "group": "Monthly生氣/死氣",
+      "disposition": "twelvecoordinatepairs;not八宅生氣star",
+      "facsimileCollated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "P03-l-earth",
+      "fromFolio": "002-1a",
+      "throughFolio": "002-1a",
+      "group": "Monthly土氣衝",
+      "disposition": "twelvesourcecoordinates;facsimile/contextnotverified",
+      "facsimileCollated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "P03-l-first",
+      "fromFolio": "002-2a",
+      "throughFolio": "002-4b",
+      "group": "First24routebodyandouterprecincts",
+      "disposition": "24rolesneedmissingdiagramclassificationbeforeapplication",
+      "facsimileCollated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "P03-l-second",
+      "fromFolio": "002-5b",
+      "throughFolio": "002-8b",
+      "group": "Second24routebodyandouterprecincts",
+      "disposition": "opposedrolesnotmergedwithfirst;missingdiagramat5a",
+      "facsimileCollated": false,
+      "consumerApplied": false
+    }
+  ],
+  "groupCountMeaning": "14editorialgroups,not14sourcechapterheadings orallatomicclauses. Allretaineddigitaltextread;notallmissingprintimages/diagrams.",
+  "monthlyLifeDeathRows": [
+    {
+      "sourceMonthNumber": 1,
+      "lifeCoordinates": [
+        "子",
+        "癸"
+      ],
+      "deathCoordinates": [
+        "午",
+        "丁"
+      ],
+      "sourceFolios": [
+        "001-8b",
+        "001-9a"
+      ],
+      "calendarBoundary": null,
+      "leapMonthRule": null,
+      "consumerApplied": false
+    },
+    {
+      "sourceMonthNumber": 2,
+      "lifeCoordinates": [
+        "丑",
+        "艮"
+      ],
+      "deathCoordinates": [
+        "未",
+        "坤"
+      ],
+      "sourceFolios": [
+        "001-8b",
+        "001-9a"
+      ],
+      "calendarBoundary": null,
+      "leapMonthRule": null,
+      "consumerApplied": false
+    },
+    {
+      "sourceMonthNumber": 3,
+      "lifeCoordinates": [
+        "寅",
+        "甲"
+      ],
+      "deathCoordinates": [
+        "申",
+        "庚"
+      ],
+      "sourceFolios": [
+        "001-8b",
+        "001-9a"
+      ],
+      "calendarBoundary": null,
+      "leapMonthRule": null,
+      "consumerApplied": false
+    },
+    {
+      "sourceMonthNumber": 4,
+      "lifeCoordinates": [
+        "卯",
+        "乙"
+      ],
+      "deathCoordinates": [
+        "酉",
+        "辛"
+      ],
+      "sourceFolios": [
+        "001-8b",
+        "001-9a"
+      ],
+      "calendarBoundary": null,
+      "leapMonthRule": null,
+      "consumerApplied": false
+    },
+    {
+      "sourceMonthNumber": 5,
+      "lifeCoordinates": [
+        "辰",
+        "巽"
+      ],
+      "deathCoordinates": [
+        "戌",
+        "乾"
+      ],
+      "sourceFolios": [
+        "001-8b",
+        "001-9a"
+      ],
+      "calendarBoundary": null,
+      "leapMonthRule": null,
+      "consumerApplied": false
+    },
+    {
+      "sourceMonthNumber": 6,
+      "lifeCoordinates": [
+        "巳",
+        "丙"
+      ],
+      "deathCoordinates": [
+        "亥",
+        "壬"
+      ],
+      "sourceFolios": [
+        "001-8b",
+        "001-9a"
+      ],
+      "calendarBoundary": null,
+      "leapMonthRule": null,
+      "consumerApplied": false
+    },
+    {
+      "sourceMonthNumber": 7,
+      "lifeCoordinates": [
+        "午",
+        "丁"
+      ],
+      "deathCoordinates": [
+        "子",
+        "癸"
+      ],
+      "sourceFolios": [
+        "001-8b",
+        "001-9a"
+      ],
+      "calendarBoundary": null,
+      "leapMonthRule": null,
+      "consumerApplied": false
+    },
+    {
+      "sourceMonthNumber": 8,
+      "lifeCoordinates": [
+        "未",
+        "坤"
+      ],
+      "deathCoordinates": [
+        "丑",
+        "艮"
+      ],
+      "sourceFolios": [
+        "001-8b",
+        "001-9a"
+      ],
+      "calendarBoundary": null,
+      "leapMonthRule": null,
+      "consumerApplied": false
+    },
+    {
+      "sourceMonthNumber": 9,
+      "lifeCoordinates": [
+        "申",
+        "庚"
+      ],
+      "deathCoordinates": [
+        "寅",
+        "甲"
+      ],
+      "sourceFolios": [
+        "001-8b",
+        "001-9a"
+      ],
+      "calendarBoundary": null,
+      "leapMonthRule": null,
+      "consumerApplied": false
+    },
+    {
+      "sourceMonthNumber": 10,
+      "lifeCoordinates": [
+        "酉",
+        "辛"
+      ],
+      "deathCoordinates": [
+        "卯",
+        "乙"
+      ],
+      "sourceFolios": [
+        "001-8b",
+        "001-9a"
+      ],
+      "calendarBoundary": null,
+      "leapMonthRule": null,
+      "consumerApplied": false
+    },
+    {
+      "sourceMonthNumber": 11,
+      "lifeCoordinates": [
+        "戌",
+        "乾"
+      ],
+      "deathCoordinates": [
+        "辰",
+        "巽"
+      ],
+      "sourceFolios": [
+        "001-8b",
+        "001-9a"
+      ],
+      "calendarBoundary": null,
+      "leapMonthRule": null,
+      "consumerApplied": false
+    },
+    {
+      "sourceMonthNumber": 12,
+      "lifeCoordinates": [
+        "亥",
+        "壬"
+      ],
+      "deathCoordinates": [
+        "巳",
+        "丙"
+      ],
+      "sourceFolios": [
+        "001-8b",
+        "001-9a"
+      ],
+      "calendarBoundary": null,
+      "leapMonthRule": null,
+      "consumerApplied": false
+    }
+  ],
+  "missingDiagramLocations": [
+    "002-1b(no marker in retainedtext)",
+    "002-5a(blankmarker)"
+  ],
+  "sourceInstructionsAreData": true,
+  "wholeBookApplied": false,
+  "wholeCatalogueCompleted": false
+}

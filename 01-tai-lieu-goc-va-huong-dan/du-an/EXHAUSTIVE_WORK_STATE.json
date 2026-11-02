@@ -1,0 +1,884 @@
+{
+  "schema": "hhc.exhaustive-work-state.v1",
+  "date": "2026-11-01",
+  "userDirective": "Khai thác hết nội dung và chức năng trong các tài liệu; làm liên tục, không dừng sau từng cải tiến để báo cáo hoặc chờ lệnh tiếp.",
+  "activeUserRequestedBranch": {
+    "branchId": "AI-01",
+    "requestedOn": "2026-11-01",
+    "status": "active-local-follow-up-not-complete",
+    "latestReport": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/AI01_PROGRESS_2026-11-01.md",
+    "nextResearch": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/NEXT_RESEARCH.md",
+    "latestFacsimileCollation": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/AI01_FACSIMILE_COLLATION_2026-11-01.md",
+    "latestBibliographicNote": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/AI01_YUXIAO_BIBLIOGRAPHIC_NOTE_2026-11-01.md",
+    "latestLexicalNote": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/AI01_JIAOSHE_LEXICAL_NOTE_2026-11-01.md",
+    "facsimileSource": {
+      "work": "五行精紀, NLC/Commons 第3冊; partial collation of volume 19",
+      "file": "v53/research/bazi-relations/evidence/facsimiles/NLC06857_WXJJ_VOL3_20261101.pdf",
+      "bytes": 37007952,
+      "sha256": "e88387495032048b71d11196ee59861ad1bfeee4c7ca5ee80fd9686eb9d37d04"
+    },
+    "additionalFacsimileEvidence": {
+      "work": "五行精紀, NLC/Commons NLC892-2621-209417 第4冊; PDF p.30–31 page-preview derivatives only",
+      "sourcePdfAcquired": false,
+      "sourcePdfUrl": "https://commons.wikimedia.org/wiki/File:NLC892-2621-209417_%E4%BA%94%E8%A1%8C%E7%B2%BE%E7%B4%80_%E7%AC%AC4%E5%86%8A.pdf",
+      "previews": [
+        {
+          "file": "v53/research/bazi-relations/evidence/facsimiles/NLC892-2621-209417_VOL4_PAGE30_3840px.jpg",
+          "bytes": 1207853,
+          "sha256": "18d5c8fdd269cac798a7b66a63871ba65a94bc24b5dd36a204e2300a4bf8d1d4",
+          "reading": "福聚印; 年月日時胎五位中或四位"
+        },
+        {
+          "file": "v53/research/bazi-relations/evidence/facsimiles/NLC892-2621-209417_VOL4_PAGE31_3840px.jpg",
+          "bytes": 1049488,
+          "sha256": "3a64b33aada026c8b9ddb7eafe8c726a44f8a1cbebe2f4ac90072a26ded40d81",
+          "reading": "partial headings 帶殺印、臨空印、刑印"
+        }
+      ],
+      "interpretation": "Two NLC catalogue scans include 日 in 年月日時胎. Shidian transcript omits it; exact transcript-to-page provenance and cause remain unresolved."
+    },
+    "actualEngineAudit": "collaboration/imports/recovery-13-branches-2026-11-01/branches/AI-01/AI01_ENGINE_EXAMPLE_AUDIT_2026-11-01.json",
+    "lastUpdated": "2026-11-01",
+    "scopeNote": "User explicitly prioritized AI-01; the global M01 currentWork record remains preserved separately."
+  },
+  "status": "active-not-complete",
+  "notificationPreference": "No routine completion/progress reports at scope boundaries; keep internal records. Ask only for a genuinely required user decision or report a defect affecting the released product.",
+  "inventory": "v53/research/library-current/COVERAGE.json",
+  "detailedWorkState": "v53/research/full-study/WORK_STATE.json",
+  "completionCriteria": [
+    "Every fixed catalogue entry and module-source reference has an explicit disposition; deduplicate portals, editions and actual works instead of counting eachURL as a read book.",
+    "For every available work, enumerate its actual chapters/rule units, read them and record implemented, corroboration-only, literary/historical, conflicting, or not-yet-verified disposition with evidence.",
+    "Implement the complete reproducible functional rules that fit the product, respecting named-tradition differences; identify rather than silently invent missing premises.",
+    "Keep unverified variants and inaccessible material explicitly open; do not mark complete from downloads, chapter headings, passing tests or one narrow feature.",
+    "Run actual engines and appropriate independent examples, preserve sources/bytes/hashes and user releases, keep research outside the consumer site."
+  ],
+  "currentWork": {
+    "catalogueIDs": [
+      "M01"
+    ],
+    "work": "Thực thần:C16cặp hóa khí/C23lượng chữ/C31điều kiện Hỏa riêng",
+    "sourceDirectory": "v53/research/bazi-food-quantity",
+    "currentStep": "Thực thần C16/C23/C31: ba lớp nguồn riêng—vòng cặp hóa khí theo希尹, ví dụ lượng chữ theo壺中子 và điều kiện戊日庚時不宜火旺theo秘訣. 22nhóm/695khung/8446bất biến null đạt. C16 so20tọa độ can:10食神/5正官/5正印, tái dùng14cặp và10bạn hợp,6HHC+6lunarđã chạy một lần ở mốc riêng; C23/C31 tái dùng hai chiếu cặp core,0engine lúc tiếp nhận. C23 xét chung các khả năng của trụ thiếu, không mất tương quan hoặc tự chọn nhật chủ; C31 chỉ điều kiện can ngày戊/can giờ庚và hiệu lực Hỏa khai báo, không cấm Hỏa toàn hệ. C19/C21/C30 giữ ledger chưa áp. Bốn crop native/5vị trí cũ đọc mở rộng,0HTTP/vị trí nguồn/lịch/chart mới. C31 có seal sau triển khai được ghi ngoại lệ rõ, không gọi freeze trước mã. Ma trận90cha49liên kết phần/41chưa/0áp trọn; bản46/44cũ giữ nguyênSHA. Web nguyên byte,toàn kho còn mở.",
+    "latestResearchReport": "BAZI_FOOD_RATIONALE_QUANTITY_REPORT.md",
+    "currentFoodMatrix": "v53/research/bazi-food-quantity/CURRENT_CONTEXT_COVERAGE.json",
+    "wholeWorkApplied": false
+  },
+  "subsequentPriority": [
+    "Tiếp C19/C21 đầy đủ điều kiện hiệu lực và danh sách福聚/禍聚; C22返哺 còn hướng gốc và nghĩa皆/adjacent-all, C30官còn正官hay官煞, C35còn12bài/điều kiện từng giọng. Không chọn năm/ngày, số lượng thành sức lực, hệ số3/giảm nửa hoặc đổi巳toàn kho. Không chạy lại6HHC/6lunar,14cặp/10bạn hợp của C16; không lặpC13/C14. Luân phiên B02/P08/Tửvi nếu hướng này tắc; toàn kho chưa hoàn tất.",
+    "Tiếp FOOD-00-C16: giải thích hóa khí theo giọng希尹, giữ khác quan hệ Thập thần, kiểm chữ巳/己 bằng ảnh005-87b đã giữ. C13 hiệu lực/căn khí và chủ ngữ生旺向祿, C14長生/nghĩa金庫/toàn vận, các cha chưa liên kết vẫn mở. Không chạy lại4tọa độ mới/2tọa độ tái dùng hoặc11+11+5truy vấn C07. Luân phiên B02/P08/Tửvi khi hướng này bị tắc.",
+    "Luân phiên Tam Mệnh: dùng ma trận Thực thần hiện hành44liên kết phần/46chưa/0áp trọn hoặc ngữ cảnh vượng suy/cách cục có ảnh đã giữ; không tải/kiểm lại24truy vấn cũ. Tử vi còn nhãn ghép/phụ tinh/đếm18, đầy đủ tiền đề hạn/tuổi/ranh lịch và nguồn độc lập; P08 vẫn220nhãn mờ, B02 căn khí/vượng suy/hiệu lực vẫn mở.",
+    "Luân phiên Tử vi: đọc trạng thái/các khoảng chưa mã hóa trước khi chọn điều kiện; ưu tiên 童限,火鈴CanhNhâm hoặc khởi hạn theo từng truyền bản. Nhà ở còn220nhãnP08 mờ, lịch vị trí sao/tháng/nhuận/ưu tiên và hình học; không điền theo mẫu hay lấy cát thần của một đoạn làm phép chung. B02 căn khí/vượng suy và Tam Mệnh vượng suy/cách cục vẫn mở.",
+    "Luân phiên nhà ở: tiếp P08 nhãn tháng/ngày hoặc các điều kiện 隔/phi tinh theo ma trận; tái dùng ảnh và bảng lịch đã giữ. B02 còn căn khí, Dụng/NguyênKỵCừu, chức năng Không/Phá, ưu tiên/ngữ cảnh hỏi trước; không lấy năm cổ pháp hoặc số lần hiện làm bộ chọn Dụng tự động.",
+    "Luânphiên Dịch B02:đọc RESUME_INDEX.json vàmap137khoảng trướcchọnvai Dụng/NguyênKỵCừu,vượngsuy/日月/旬空/飛伏/應期. M01còn146vịtríquyển2chưaxáclậptheochỉmục;真五行/刑入/福聚/用神有氣有扶vàcáccáchưu tiênvẫnmở. Khôngchạy lạibảngthật24truyvấnvừagiữhoặclấytêncáchlàứngnghiệm.",
+    "Nhật luận 隔: tám đơn vị còn cần cách nối, hệ ngày/sao/lục nhâm và ưu tiên; không tự chọn AND/OR. Hai câu ngắn chỉ có ngoại lệ cục bộ trong khung khai báo, không phép hành động hay kết quả tổng thể. Nếu thiếu tiền đề, chuyển nhánh độc lập theo ma trận.",
+    "Bát tự C07: chủ ngữ khuyết vẫn là mô hình biên tập; vượng suy, chế hóa, cứu giải, ưu tiên và kết quả chưa xác lập. C05 cần đối phạm vi năm/tháng so với ngày/giờ và từ nối; không tự chọn AND/OR hay số trụ.",
+    "Ma trận Thực thần hiện hành: v53/research/bazi-food-chain/CURRENT_CONTEXT_COVERAGE.json, 44 liên kết phần/46 chưa/0 cha áp trọn; các ma trận cũ giữ lịch sử.",
+    "B02 Tam hợp: Nhật三/NLC一 đã có dị bản chọn,không tải/đối lại chỉ để tăng số. Ngữ nghĩa trọn mode1/minh-ám/hào biến,ngày tháng bổ túc/空破/入墓,ThếDụng trong cục và hiệu lực vẫn mở;không đổiNLChoặc nhậpngưỡngB03.",
+    "B02 dùng RESUME_INDEX.json/mapliuyao-foundation-span137/137/0. ChọnDụng/NguyênKỵCừu,cănkhí/vượngsuy,hiệulực/ưu tiên/phảnvídụ/日月/旬空/飛伏/應期 vàgiọngnguồn cần tiếp;khônglặpvaitrò191/201/Hằng–ĐạiQuá.",
+    "Nhật luận nhà: bảy nhóm công việc đã có,hỏa/thủy隔及vàưu tiên chưa khép;地隔/神隔/林山隔/鬼隔/刑州隔vàlịchsao,cáchđổikhônggianvẫnmở. Không lấy miễn火隔xóa kiêng萬通火星.",
+    "Phục đoạn84tên tú/7ví dụ/chu kỳ đã giữ;ITKC辰剋干/四殺沒時,nguyên/hàng日/chúcáthungvà96vịtríPDFchưađọc cònmở. P08ranhtháng/nhuận/120步/trungcung/720nhãnngoài建破chưakhép.",
+    "Bát tự44cha liênkếtphần/46chưa;Tửvi266vịtríxemđầuchưamọimệnhđề;B03/MaiHoatiếpđiềukiệnchưakhép. KiếnLộcUIchờbrowserQAdoWorktắtbrowser.",
+    "Giữ nguồn/corpus/QAngoài site và bản cũ;không tuyên bố hếtkho/hiệulực tiênđoán hoặc tựxuấtbản. Hànhvi trong sách lànộidungnghiêncứu,không làlệnhngườidùng."
+  ],
+  "automation": "Existing hourly thread heartbeat updated to this latest directive; remain silent for ordinary completed subscopes.",
+  "inProgressScope": {
+    "status": "three-food-source-layers-integrated;package-verification-external",
+    "packageVerificationPointer": "recovery/research-release/FINAL_VERIFICATION.json"
+  },
+  "previousMaiHoaWork": {
+    "catalogueID": "B01",
+    "work": "梅花易數 / Mai Hoa Dịch Số",
+    "reason": "A substantial method and set of capabilities in the fixed catalogue had not yet been implemented.",
+    "sourceDirectory": "v53/research/meihua",
+    "currentStep": "Bảng後天時方PDF207–212đã có720vị trí/60hàng×12chi:707đọc nhãn,12không thấy nhãn,1chữ mở;13vị trí nhiều chữ/721chữ đọc được. Chín hàng không đúng một罡,388/576vị trí khác giả thuyết chép mẫu theo chi;không tự sửa thành vòng quay. 14kiểm đạt;720HHC+720lunar-typescript thật khớp tọa độ can chi ngày/chi giờ trong lựa chọnUTC+8/00:00,không xác minh tiền đề lịch hoặc dự báo của sách. 6trang bảng đọc mở rộng+2ranh ngữ cảnh,0HTTP/trang mới;6renderQA/20crop/phóng. HTML707411byte/site/ZIPweb giữ bản bốn lớp98kiểm/PDF4trang. Tiếp một chữ bảng giờ,hai chữ vật tượng,dị bản/giải nghĩa/đầu vào,mọi mệnh đề phụ5quyển vànhân chứng độc lập;toàn kho chưa hoàn tất.",
+    "sourceLimits": "DirectPDF231imprint now confirms1925-11 and文明書局;notShaoYonghistoricalauthorship/firstedition. Five textual卷 and全二冊 physicalformat;3digitalvolumes remain incomplete. NLCcatalogTLSfailure retained.",
+    "latestReport": "v53/MEIHUA_LAYERS_REPORT.md",
+    "latestResearchReport": "v53/MEIHUA_HOUR_TABLE_REPORT.md",
+    "functionalBacklog": "v53/research/meihua-reading/FUNCTIONAL_BACKLOG.json",
+    "pendingConsumerCandidate": "v53/research/meihua-layers/PENDING.json",
+    "latestPageNavigation": "v53/research/meihua-volume1/FIVE_VOLUME_NAVIGATION.json",
+    "internalConditionalCompiler": "v53/research/meihua-conditions/conditions-reference.mjs",
+    "internalExternalReference": "v53/research/meihua-external/external-reference.mjs",
+    "internalPalaceReference": "v53/research/meihua-volume1/palace-reference.mjs",
+    "internalTableReference": "v53/research/meihua-table-bodies/table-reference.mjs",
+    "internalHourReference": "v53/research/meihua-hour-table/hour-reference.mjs"
+  },
+  "previousB02Work": {
+    "catalogueID": "B02",
+    "relatedCatalogueIDs": [
+      "B02"
+    ],
+    "work": "增刪卜易 — 六合/三合與元神貪合例外",
+    "reason": "Separate source-specific structural forms,conditional exceptions and withheldfirstmode interpretation instead of automatic nominalcombinationeffect.",
+    "sourceDirectory": "v53/research/liuyao-combination-context",
+    "currentStep": "B02: đọc mở rộng12vịtrícũ50–54/73–79,0HTTP/vịtrínguồn/container/nhânchứngmới;map137khoảngđọcđầu/0áphếtgiữ. Ba module riêng:ngoạilệNguyênthần51,sáudạngLụchợp73–74,Tamhợp77–79theođúnglớp. Giữ51午→未貪合khôngsinhriêngvới74化扶;rawcặphợpkhôngtựthànhgiữ/trợ/giảihợp. 78đọcrõ一爻動bằngcrop230/420,khôngsửa三hoặcnhậpngưỡngB03;dạngđầuchưaphânđịnh. Dạng2đúnghaihoạtđộng/mộtbấtđộngcầnbiếtámđộng;dạng3/4chỉnhómđầucuốinội1/3ngoại4/6vàchibiến,khôngtrộncả6hào. 16kiểmđạt;8HHCthànhcôngởcáclầnchạyđạtcuối(2cặpkếthừa1→9quaphépchiếumới,4haicặptên1→11/56→22,2vídụ79Ly→Khôn30→2). 4HHCtênquẻđãchạythànhcôngtronglầnkiểmvectorlỗitrước;giữFAILURE_AUDIT,tổng12thựcthithànhcônggồm4lặpkhôngchứngcứđộclập. Ví dụ79sáunhãngốc/bốnbiến/Thế6Ứng3khớp,giữứngviênnộiMộc/ngoạiKim;khôngthànhđịađiểm/kiệntụng/giađạo/kếtquảydược. 6cropđãxemkhớppixel/1táirender420/26identity/3modulechỉđổiimport. Hợpgiữ/giảihợp/vượngsuy/cănkhí/thànhcục/ưu tiêncònmở;HTML/site/ZIPwebnguyênbyte,toànkhoactive.",
+    "sourceLimits": "137firstpass/0whole.12retainedpositionsreviewed/6crops;16checks/8HHCpassingrun+4priorfailed-testrepeatcalls.78literal一notemended;firstmode/fullhold-release/formationunresolved.",
+    "latestReport": "v53/MEIHUA_LAYERS_REPORT.md",
+    "latestResearchReport": "v53/LIUYAO_COMBINATION_CONTEXT_REPORT.md",
+    "internalReference": "v53/research/liuyao-foundations/liuyao-reference.mjs",
+    "functionalBacklog": "v53/research/liuyao-combination-context/WORK_STATE.json",
+    "internalHiddenReference": "v53/research/liuyao-hidden-spirits/hidden-reference.mjs",
+    "currentTOC": "v53/research/liuyao-foundation-span/B02_CURRENT_UNITS.json",
+    "internalUseGodReference": "v53/research/liuyao-use-god/use-god-reference.mjs",
+    "internalDayMonthReference": "v53/research/liuyao-day-month/day-month-reference.mjs",
+    "internalVoidMotionReference": "v53/research/liuyao-void-motion/void-motion-reference.mjs",
+    "internalB03NamedJieReference": "v53/research/liuyao-b03-boundaries/named-jie-reference.mjs",
+    "internalB03AvailabilityReference": "v53/research/liuyao-b03-figures/availability-reference.mjs",
+    "B03FigureLocator": "v53/research/liuyao-b03-figures/FIGURE_LOCATOR.json",
+    "nextSourceLead": {
+      "sourceID": "B02-source-specific-combination-prerequisites",
+      "status": "full-conditions-and-exactparallel-firstmode-witness-open",
+      "file": "v53/research/liuyao-combination-context/WORK_STATE.json",
+      "remaining": "B02:137khoảngđọclầnđầu/0áphết;tiếpcácđiềukiệnhoànchỉnhchọnDụng/NguyênKỵCừu,cănkhí/vượngsuy,hiệulực/ưu tiên/phảnvídụ,giọngnguồn. Ba moduleLục–Tamhợpchỉtọađộ/tiềnđề,chưaenginehợpgiữ/giảihợp/thànhhóa đầyđủ. Nguồn78literal一爻動đãđọcrõ;nghĩathànhcụcdạngđầuchưaxáclập,khôngsửa三từthônglệhoặcB03. Tìmđúngnhânchứngsonghànhkhicóthểtruycập;khônglặptảiảnhcũ/vượtchặn. 51貪合khôngsinhvà74化扶giữriêng,khôngtựđặtưu tiên. Khônglặp16kiểm/8HHCcuối/4HHCtestvectorlỗicũhoặc64đồ/384dòngnếulogicnguồngiữ. Tamhợpcầnphânbiệtngày/thángđiềnthực,xungmộ,ámđộng,ThếDụngtrongcục vànộingoại;chưathànhngàyứngnghiệm/kếtquảthực. Cácphầnkhácactive:Tửvi童限/火鈴/CanhNhâm/khởihạn;BátTự47ngữcảnhDươngNhận/9cáchkhác/vượngsuy;nhàPhiTinh/ranhlịch/Bắcthực;B03/MaiHoa/chữmở. BrowserUIvôhiệuhóa,khôngvượtsetting;nghiêncứu/QAngoàisite,khôngxuấtbản. Danhmục40/whole0."
+    },
+    "internalB03LayerReference": "v53/research/liuyao-b03-volume3/layer-reference.mjs",
+    "currentB03UnitMap": "v53/research/liuyao-b03-volume3/VOLUME3_UNITS.json",
+    "internalB03TriadReference": "v53/research/liuyao-b03-volume4/triad-reference.mjs",
+    "currentB03Volume4PassageMap": "v53/research/liuyao-b03-volume4/MANUAL_READINGS.json",
+    "internalB03TimingReference": "v53/research/liuyao-b03-volume5/timing-reference.mjs",
+    "currentB03Volume5UnitMap": "v53/research/liuyao-b03-volume5/VOLUME5_UNITS.json",
+    "internalB03XunExitReference": "v53/research/liuyao-b03-book3/xun-exit-reference.mjs",
+    "currentB03Book3UnitMap": "v53/research/liuyao-b03-book3/BOOK3_CURRENT_UNITS.json",
+    "internalB03HomeSymbolReference": "v53/research/liuyao-b03-book4/home-symbol-reference.mjs",
+    "currentB03Book4UnitMap": "v53/research/liuyao-b03-book4/BOOK4_CURRENT_UNITS.json",
+    "internalB03LostObjectReference": "v53/research/liuyao-b03-book5/lost-object-reference.mjs",
+    "currentB03Book5UnitMap": "v53/research/liuyao-b03-book5/BOOK5_CURRENT_UNITS.json",
+    "internalB03SupportChainReference": "v53/research/liuyao-b03-book6/support-chain-reference.mjs",
+    "currentB03Book6UnitMap": "v53/research/liuyao-b03-book6/BOOK6_CURRENT_UNITS.json",
+    "internalB03StemCoordinateReference": "v53/research/liuyao-b03-book1-tables/stem-coordinate-reference.mjs",
+    "currentB03Book1OpeningMap": "v53/research/liuyao-b03-book1-tables/BOOK1_OPENING_UNITS.json",
+    "currentB03PrintedLineFixtures": "v53/research/liuyao-b03-line-labels/PRINTED_LINE_ROWS.json",
+    "currentB02UnitMap": "v53/research/liuyao-foundation-span/B02_CURRENT_UNITS.json",
+    "internalProgressionReference": "v53/research/liuyao-progress-conditions/progression-reference.mjs",
+    "internalInterposedReference": "v53/research/liuyao-b02-jinqian/interposed-reference.mjs",
+    "internalJianluReference": "v53/research/bazi-jianlu-coordinates/jianlu-reference.mjs",
+    "internalHomeYouNianReference": "v53/research/home-you-nian/you-nian-reference.mjs",
+    "internalHomeNamedTableReference": "v53/research/home-you-nian/named-table-reference.mjs",
+    "internalHomeTombReference": "v53/research/home-source-tables/tomb-reference.mjs",
+    "internalHomeFigureReference": "v53/research/home-source-tables/eight-palace-reference.mjs",
+    "internalHomeRingsReference": "v53/research/home-rings/rings-reference.mjs",
+    "internalHomeDirectionReference": "v53/research/home-direction-tables/direction-reference.mjs",
+    "internalBladeReference": "v53/research/bazi-jianlu-context/blade-reference.mjs",
+    "internalLuIllustrationReference": "v53/research/bazi-jianlu-context/lu-illustration-reference.mjs",
+    "internalLuLabelReference": "v53/research/bazi-lu-labels/lu-label-reference.mjs",
+    "internalTuviMasterReference": "v53/research/tuvi-masters/master-reference.mjs",
+    "internalWeatherReference": "v53/research/liuyao-weather/weather-reference.mjs",
+    "internalLifeContextReference": "v53/research/liuyao-life-context/life-context-reference.mjs",
+    "internalHomeDiagramReference": "v53/research/home-tomb-diagrams/diagram-reference.mjs",
+    "internalQuestionReference": "v53/research/liuyao-family-study/question-reference.mjs",
+    "internalYangrenPredicateReference": "v53/research/bazi-yangren-conditions/predicate-reference.mjs",
+    "currentPatternMatrix": "v53/research/bazi-yangren-conditions/CURRENT_PATTERN_READING_MATRIX.json",
+    "internalTuviVoidReference": "v53/research/tuvi-void-child/void-reference.mjs",
+    "internalTuviChildOrdinalReference": "v53/research/tuvi-void-child/ordinal-reference.mjs",
+    "currentTuviBoundedUnits": "v53/research/tuvi-void-child/CURRENT_UNITS.json",
+    "internalExamIntentReference": "v53/research/liuyao-exam-intent/intent-reference.mjs",
+    "internalCommodityBoundary": "v53/research/liuyao-commodity-boundary/commodity-boundary.mjs",
+    "internalHouseContext": "v53/research/liuyao-closing-context/house-context.mjs",
+    "internalTravelerContext": "v53/research/liuyao-closing-context/traveler-context.mjs",
+    "internalMotionReference": "v53/research/liuyao-foundation-span/motion-reference.mjs",
+    "internalPrintedDiagramReference": "v53/research/liuyao-foundation-span/diagram-reference.mjs",
+    "internalOriginSupportReference": "v53/research/liuyao-combination-context/origin-support-reference.mjs",
+    "internalCombinationFormsReference": "v53/research/liuyao-combination-context/combination-forms-reference.mjs",
+    "internalB02TriadReference": "v53/research/liuyao-combination-context/triad-context-reference.mjs"
+  },
+  "previousFoodSourceWork": {
+    "catalogueID": "M01",
+    "relatedCatalogueIDs": [
+      "M01"
+    ],
+    "work": "三命通會卷五 — 食神及十附目",
+    "reason": "Read full available span and preserve conditional/explanatory voices;avoid rawstem presence as fullpattern verdict.",
+    "sourceDirectory": "v53/research/bazi-food-source",
+    "currentStep": "Tam Mệnh quyển5 Thực thần+mười mục phụ: đọc31vịtrí168–198 gồm168ranhngoài/30vịtrí169–198cóphầnđọc;27đọclầnđầu(168,172–197),4đọcmởrộng169–171/198. 0HTTP/container/nhânchứngđộclậpmới;27PNGnativekhôngphải27tảimới. Bảnsố11đơnvị/6755codepointLF(7050vớicrlfgốc)đọclầnđầu,90nhómngữcảnhphủ5307codepointsạch,khôngphảiquytắcnguyêntửđãáp. Khoảngđứt188/93b→189/96ađểhở94a–95b,khôngsuythiếuởmọinơitrongcontainerhoặcđọcđủtoànnhânchứngảnh. Hai hệriêng戊日/庚申時và癸日/庚申時;dò甲丙卯寅câu193chỉnăm/tháng,giữphảnvídụ195Giápnăm/Canhthángchế,rawpresencekhôngtựloạicách. Giữvăn愛財星印綬/thơ要無官印và喜秋冬/不專秋冬songhành;Phúctinhlấynămkhácngày;帶合己ảnh/巳bảnsốchỉđốichữtạichỗ. 6kiểmđạt,2HHC+2lunarforwardthậtsau57lunarsearch;ngàyhiệnđạikhảdĩkhônggánngàysinhnhânvậthaykiểmkếtquả. 31ảnhSHA/27RGBA/8cropkhớppixel/2giảimãlại/58tệpđúngbyte,modulegiữnguyênbyte. GiữauditchỉnhmetadataSHAbyteCRLFvàLFdecodedriêng,khôngđổibytegốchaychữngữcảnh;6kiểmchạylạidosửaphạmvicờđủdữliệu,nokhôngcộng12. Thànhcách/vượngsuy/hưhợphiệulực/ưu tiên/kếtquảthựcvẫnnull;toànkhoactive,web/site/ZIPwebnguyênbyte.",
+    "latestReport": "v53/MEIHUA_LAYERS_REPORT.md",
+    "latestResearchReport": "v53/BAZI_FOOD_SOURCE_REPORT.md",
+    "functionalBacklog": "v53/research/bazi-food-source/WORK_STATE.json",
+    "internalSpecialFoodReference": "v53/research/bazi-food-source/special-food-reference.mjs",
+    "currentPatternMatrix": "v53/research/bazi-food-source/CURRENT_PATTERN_READING_MATRIX.json",
+    "currentContextMap": "v53/research/bazi-food-source/CONTEXTS.json",
+    "currentUnitMap": "v53/research/bazi-food-source/UNITS.json",
+    "sourceLimits": "31positionsreviewed(168boundary),30availablesectionpositions;94a–95bimagecontinuitygapunfilled.11digitalunitsfirstpass/90contexts/5307cleanCP,notallclausesencoded.6checks/2HHC/2lunarforward/57boundedsearch.",
+    "nextSourceLead": {
+      "sourceID": "M01-food-fullconditions-and-gap",
+      "status": "active-not-complete",
+      "file": "v53/research/bazi-food-source/WORK_STATE.json",
+      "remaining": "M01: tiếp điều kiện phụ/giọng trích của90ngữ cảnh Thực thần và10mục kèm;hai module tọađộchưa thành cách. Hưhợp,khí lực,ưu tiên tháng,phảnví dụ vàdị tựtừngchỗcònmở;khôngsuyngưỡngThựcnhiềutừđếmcan. Tìm nhânchứngảnh đúng94a–95bhoặcđịnhvịảnhđổichỗtrongcontainerkhicóích;khôngbùbằngbảnsố,khônglặptảibyteđãgiữ/vượtchặn. Hai/sáungày倒衝,bốnngày飛天/lờibìnhhai 傷官giữriêng. Chín mụcBazi khácđãcótríchmục tiêu vẫn cầnđủđiềukiện;DươngNhận47ngữcảnhngoàilựachọnvàcáctrườngpháiâmcan/nhậtNhậnchưađồngnhất. ỨngviênUIKiếnLộcgiữriêngchờbrowserQAkhảdụng. Tiếp độc lập Tửvi童限/火鈴/CanhNhâm/khởihạn,nhàPhiTinh/ranhlịch/Bắcthực,vàB02/B03/MaiHoađiềukiệnhiệulực. Danhmục40/whole0;nghiêncứu,QAvànguồnngoàisite,khôngxuấtbản."
+    }
+  },
+  "previousBaziFoodCoreWork": {
+    "catalogueID": "M01",
+    "relatedCatalogueIDs": [
+      "M01"
+    ],
+    "work": "三命通會卷五 — 食神數量/氣力與固定十神關係",
+    "reason": "Prevent visiblecounts from asserting unmeasured source quantity,purity or patternlabel;keep named source premises and fixedrelations separate.",
+    "sourceDirectory": "v53/research/bazi-food-core",
+    "currentStep": "Thực thần: chọn12mệnhđề/135codepoint từ8ngữcảnh của corpus90 nhóm để kiểm11nhánh tiềnđề nguồn;21khái niệm khí lực/lượng/thuần/hiệu lực nhận khai báo nghiên cứu,2tọađộ âm dương ngày tự xác định. Không suy多/少/純/vượng suy từ số can lộ,không lấy không-nhiều thành ít hoặc không-mạnh thành yếu. Giữ食神重見變為傷官 như nhãn luận cách riêng,không đổi quan hệThập thần cố định. 8kiểm đạt/78ngữcảnh ba giá trị,2HHC+2inspect quan hệ thật cho2ví dụ cũ qua phép chiếu mới(không chứng cứ độc lập mới),10truy vấn hàmThập thầnHHC+18truy vấn bảnglunar thật;0chart lịch/searchlunar mới. Ví dụ戊có2Thực lộ/ví dụ癸專印có0,nhưng量vàtrùng cách vẫnnull khi thiếu tiềnđề. 8tệp tiếp nhận đúngbyte,module giữ nguyên;2script chỉđổi đườngdẫn. 0HTTP/container/vịtrínguồn/nhânchứngmới,khôngchạylại6kiểm phạmvi trước. 82ngữcảnh chưa chọn cùngmệnhđềphụtrong8đãchọn vẫn mở;4tờ94a–95b ảnh thiếu liên tục chưa bù. Thànhcách/vượngsuy/hưhợphiệulực/ưu tiên/kếtquả thực chưa xác lập. HTML/site/ZIPweb nguyênbyte;toànkhoactive.",
+    "latestReport": "v53/MEIHUA_LAYERS_REPORT.md",
+    "latestResearchReport": "v53/BAZI_FOOD_CORE_REPORT.md",
+    "functionalBacklog": "v53/research/bazi-food-core/WORK_STATE.json",
+    "internalSpecialFoodReference": "v53/research/bazi-food-source/special-food-reference.mjs",
+    "currentPatternMatrix": "v53/research/bazi-food-core/CURRENT_PATTERN_READING_MATRIX.json",
+    "currentContextMap": "v53/research/bazi-food-source/CONTEXTS.json",
+    "currentUnitMap": "v53/research/bazi-food-source/UNITS.json",
+    "sourceLimits": "12clauses/135CP/8parentcontextsselectedfrom90;8parentsnotfullyencoded,82othersunselected.11predicateaudits/21declaredresearchfacts/2daypolarityfacts.8checks/78ternarycases/2HHCreprojection/2relationinspect/10HHCgod+18lunartablequeries.0newcalendar/image/HTTP.4-folioimagegapopen.",
+    "nextSourceLead": {
+      "sourceID": "M01-fullconditions-and-independent-branches",
+      "status": "active-not-complete",
+      "file": "v53/research/bazi-food-core/WORK_STATE.json",
+      "remaining": "Tiếp các mệnh đề phụ trong90ngữcảnh Thực thần/10mục kèm.8ngữcảnh chọn/12mệnh đề không khép toàn8ngữcảnh;82nhóm khác vẫn chưa chọn trong module. Lượng nhiều/ít,thuần và khí lực cần phương pháp có tên/counterexample,không tự đặt thang điểm. Cần đủ hiệu lực/ưu tiên hư hợp,chế Sát,sinhTài,Ấn vận và mối quan hệ giữa văn/thơ/lời bình. Chín mụcBazi khác cùng47ngữcảnh DươngNhậnngoàilựachọn vẫn active. Dò94a–95b bằngnhânchứngảnh hợp lệ/định vị chuyển chỗ,khi có hướng mới,không lặp tải/vượtchặn. Luân phiên phần độc lập có khoảngtrống lớn: nhà PhiTinh/biênlịch/Bắcthực;Tửvi童限/火鈴/CanhNhâm/khởihạn;Dịch B02/B03/MaiHoa tiềnđề/hiệu lực. Giữ các bản đã hoàn thành và không tuyên bố hết kho. Ứngviên giao diện KiếnLộc vẫn riêng khi browserQA không khảdụng;web chỉkếtquả/diễn giải,nghiêncứu/QAngoàisite. Khôngxuấtbản;danhmục40/whole0."
+    },
+    "internalFoodCoreReference": "v53/research/bazi-food-core/core-reference.mjs"
+  },
+  "previousHomeYangzhaiShishuWork": {
+    "catalogueID": "P08",
+    "relatedCatalogueIDs": [
+      "P08"
+    ],
+    "work": "新刻東海王先生纂輯陽宅十書 — 穿宫/内形",
+    "reason": "Close an unestablishedcatalogueworkwithactualretainedimagesandseparateorigin/layersemanticsbeforemodernroomplacement.",
+    "sourceDirectory": "v53/research/home-yangzhai-shishu",
+    "currentStep": "P08DươngTrạchThậpThư:giữPDFkhoCommons151275796byte/195vịtrí,SHA256b6394102a995bb66df173452b37614b29d58e34ff85e08c43077006572ac48a5,APIkhớpSHA1/size,4HTTP200TLS. DẫnvềThiênNhấtCácnhưngrecordcơquanchưađộclậpxácminh;PDFcóShuge/PDFPatcher/iText,khônggọiPDFnguyêngốcmáychủcơquan. Đọc40vịtrí1–12/81–94/111–124quaảnhdẫnxuấtđúngkíchthước;2mục穿宫/内形đủkhoảngđọcđầu,46nhómghi chú;10đềmụctrong4卷khôngphải10sáchđãđọc. Pháthiệncả40JPEGpypdfmãhóalại,giữaudit/sửađúngnhãn,giữriêng40rawDCTstreamsđúngbytevàxem4cropraw81/93/115/124;4cropdẫnxuấtcũcũnggiữ. PDFkhôngđổi,khôngnhậntoàn40rawảnhđãxemlại. Nguồnphâncửachính/nghimôn/việntường+cửavàgốckhởilại;進/lớpthứtựkhôngmặcđịnhtầngđứng. Chu kỳThủyMộcHỏaThổKimnguồn93có5ôđầu,phầnsau/cácđầukháclàdẫnxuấttườngminh. 6kiểmđạt/50ngữcảnhtọađộ/27ranh,modulegiữnullchobốicảnhthiếu/mixed,khôngtựhànhđầu/sao/cáthung. Khôngđổithuậtlịch/DuNiên/hìnhhọc,0chartenginekhôngliênquan. 115giảithích火唵làbếp/khônggộpchỗthờ;124giữgiọngphêbìnhcagiải,khôngápbệnh/tửvong/tàisản/thọ. 116tệpđúngbyte,modulegiữnguyên;155vịtrí/támmụcchínhchưatrọnvàmọimệnhđềphụvẫnmở. HTML/site/ZIPwebnguyênbyte,toànkhoactive.",
+    "latestReport": "v53/MEIHUA_LAYERS_REPORT.md",
+    "latestResearchReport": "v53/HOME_YANGZHAI_SHISHU_REPORT.md",
+    "functionalBacklog": "v53/research/home-yangzhai-shishu/WORK_STATE.json",
+    "currentSourceUnitMap": "v53/research/home-yangzhai-shishu/UNIT_MAP.json",
+    "currentContextMap": "v53/research/home-yangzhai-shishu/CONTEXT_READINGS.json",
+    "internalLayerCoordinateReference": "v53/research/home-yangzhai-shishu/layer-coordinate-reference.mjs",
+    "sourceLimits": "CommonsrepositoryPDFprocessedbyShuge,notindependentlyvalidatedinstitutiondownloadorimprint.40native-sizedreencodedderivativesread;40originalDCTstreamsretained,4rawcropsviewed.2chapterspans/10headingsnotwhole195positions.6checks/50coordinates27boundaries,notmoderngeometryorwholemethod.",
+    "nextSourceLead": {
+      "sourceID": "P08-ten-numbered-mainunits",
+      "status": "active-not-complete",
+      "file": "v53/research/home-yangzhai-shishu/WORK_STATE.json",
+      "remaining": "P08: tiếp155vịtríchưađọc vàtámmụcchínhchưađủ. Trướckhépchức năngphânphòng,cầnchéptọađộ12đồ82–93theotọa/hướng/cửavàcao-thấp;khôngchọnchỉquáicửa. Haiđoạn4/8đọclầnđầuchưađốihettừngchữ/điềukiện. Ưutiên福元34–58và大遊年58–81đểđủtiềnđềvới穿宮;chưagánnămhiệnđạivàranhTết/LậpXuân. Sauđótách玄空裝卦94–100/開門100–105/放水105–111,khônggọilàbộPhiTinhhiệnđạichỉtừtên玄空. DùngrawDCTstreamchođoạnquytắctiếp,lưuPNGkhôngmãhóaJPEGmớiđểQA.40pypdfderivativescũgiữlịchsử/đãxem;chỉ4rawcropđãxemtrựctiếplạitrongphạmvinày. KhôngkhẳngđịnhPDFgốccơquankhichỉcóCommons-Shugeprocessedfile. NhàXiejiđồ49cònthángThủyThổ丙辛11hay11–12/Bắcthực/biênlịch,P03thiếuảnh;khônglặptảinguồnbịchặn. Báttựvượngsuy/điềukiện/Tửvi童限火鈴CanhNhâm/khởihạn,Dịchhiệulực/B03/MaiHoavẫnmở. Nghiêncứu/QAngoàisite,0tácphẩmápdụnghết,khôngxuấtbản. ỨngviênUIKiếnLộcchờbrowserQAkhảdụng,khôngvượtsetting."
+    }
+  },
+  "previousHomeFuyuanYounianWork": {
+    "catalogueID": "P08",
+    "relatedCatalogueIDs": [
+      "P08"
+    ],
+    "work": "陽宅十書 — 福元/大遊年",
+    "reason": "Resolve birth/gate anchor and complete source year-sex coordinates before room-placement logic.",
+    "sourceDirectory": "v53/research/home-yangzhai-fuyuan",
+    "currentStep": "P08 — Phúc nguyên/Đại du niên: xem 48 raw DCT tại34–81, gồm47 vị trí mới và1 ranh đọc lại; 12 crop native khớp pixel. Chép tay180 hàng/360 ô năm–giới và40 chú trung ký trước engine. Tám khẩu quyết tạo64 tọa độ phương dẫn xuất, không gọi64 ô hình chép độc lập. 8 kiểm hoàn chỉnh đạt; lần cuối180 LunarYear1.8.6/360 trường năm và360 HHC directions thực, 360 cung khớp bảng/2880 so nhãn lặp;64 quan hệ khớp tham chiếu Hiệp Kỷ sau alias. Một lỗi import Windows sau6 kiểm/360 HHC/180 LunarYear được giữ audit; lần chạy lại không thành chứng cứ độc lập. Giữ lỗi nháp đọc vị trí tay thành cung6/8; ảnh36/41 và bảng xác định nam1/4/7, nữ5/2/8, chưa dùng nháp sai trong web. Gốc năm sinh/cửa/tọa hướng/cao thấp tách riêng; thiếu gốc hoặc ngữ cảnh trảnull, không dự đoán bệnh/tử vong/tài sản. 87 vị trí khác nhau đã đọc đầu,108 chưa đọc,4/10 khoảng mục đủ đọc đầu,0 tác phẩm áp hết. Giữ niên khoản萬曆五十二年 chưa xác minh, ranh năm sinh và mặt bằng hiện đại còn mở. 0 HTTP/container/nhân chứng độc lập mới;79 tệp tiếp nhận đúng byte, module nguyên byte. HTML/site/ZIP web nguyên byte.",
+    "latestResearchReport": "v53/HOME_FUYUAN_YOUNIAN_REPORT.md",
+    "functionalBacklog": "v53/research/home-yangzhai-fuyuan/WORK_STATE.json",
+    "currentSourceUnitMap": "v53/research/home-yangzhai-fuyuan/UNIT_MAP.json",
+    "currentContextMap": "v53/research/home-yangzhai-fuyuan/CONTEXT_READINGS.json",
+    "sourceLimits": "87/195 positions read first-pass;4/10 main spans;108 unread/all subsidiary clauses open. Annual software correspondence does not establish historical regnal conversion, birth-date boundary, floor-plan geometry, relative heights or empirical outcomes.",
+    "nextSourceLead": {
+      "sourceID": "P08-remaining-main-units",
+      "status": "active-not-complete",
+      "remaining": "P08: tiếp108 vị trí chưa đọc: ngoại hình13–33;玄空裝卦94–100;開門100–105;放水105–111;選擇124–168;符鎮168–195. Ranh chia sẻ đã đọc không đếm mới. Phúc nguyên/Du niên đã có180 hàng/360 ô và8 khẩu quyết, nhưng chưa khép mọi điều kiện. Cần chép từng ô/cửa/đường/cao thấp của các đồ46–56 và82–93; không chọn chỉ theo quái cửa hoặc coi進 là tầng đứng. Giữ萬曆五十二年 và điểm tay/cung đúng bản đọc; cần nguồn lịch sử độc lập trước đổi niên khoản. Chưa tự chọn ranh Tết/Lập Xuân hoặc nối ngày sinh/mặt bằng. Các hướng độc lập còn mở: Nhà Xieji tháng ThủyThổ丙辛11hay11–12/Bắc thực/biên lịch; P03 thiếu ảnh; Bát tự vượng suy/cách cục; Tử vi童限火鈴CanhNhâm/khởi hạn; Dịch hiệu lực/B03/MaiHoa. Không lặp tải nguồn bị chặn. Nghiên cứu và QA ngoài site. Ứng viên UI Kiến Lộc chờ browser QA khả dụng; không vượt cài đặt, không xuất bản."
+    }
+  },
+  "previousHomeDoorWaterWork": {
+    "catalogueID": "P08",
+    "relatedCatalogueIDs": [
+      "P08"
+    ],
+    "work": "陽宅十書 — 玄空裝卦/開門/放水",
+    "reason": "Finish missing chapter spans and separate literal outflow table, source polarity and opposite-room relation contexts.",
+    "sourceDirectory": "v53/research/home-yangzhai-door-water",
+    "currentStep": "P08: đọc18 raw DCT94–111,16 vị trí mới95–110/2 ranh mở rộng,12 crop native khớp pixel. Khép3 khoảng đọc đầu玄空裝卦/開門/放水, tổng103/195 vị trí/7trên10khoảng mục,92 vị trí chưa đọc và mọi điều kiện phụ còn mở. Chép24 hàng phóng thủy:46 mục dấu phương chính/8 dòng chú bên16 mục dấu,không gộp. Nhóm âm-dương12/12 dấu riêng,4 alias chính phương tường minh. Bộ tra cứu đòi gốc山龍 và nước đi; gốc năm sinh/hướng cửa/chưa rõ hoặc nước đến trảnull,không biến không-liệt-kê thành xấu. 8 kiểm đạt/72 chiều nước/72 gốc thay thế;8 HHCdirections thật khớp4 cặp phòng延年chiếu2chiều,0lịch mới. Không so sao phóng thủy với cung hiện đại giả định. 48 tệp tiếp nhận đúngbyte/module nguyênbyte; giữ audit cropđích sai/sửa và đườngdẫn test sửa trước chạy bản tiếp nhận,không chạylại runtime để tăngsố. Thước cửa/ngày tháng/đổi hào đủ điều kiện/Bắc thực/hình học/thủy lực/hiệu quả nguồn chưa xác lập. 0HTTP/container/nhânchứngđộclậpmới. HTML/site/ZIPweb nguyênbyte,toànkho active.",
+    "latestResearchReport": "v53/HOME_DOOR_WATER_REPORT.md",
+    "functionalBacklog": "v53/research/home-yangzhai-door-water/WORK_STATE.json",
+    "currentSourceUnitMap": "v53/research/home-yangzhai-door-water/UNIT_MAP.json",
+    "currentContextMap": "v53/research/home-yangzhai-door-water/CONTEXT_READINGS.json",
+    "sourceLimits": "103/195 positions first-pass read;7/10mainspans;92unread/allsubsidiaryclausesopen. No complete first-draw exchange, ruler/calendar, geometry/north or hydraulic/predictive adapter.",
+    "nextSourceLead": {
+      "sourceID": "P08-remaining-main-units",
+      "status": "active-not-complete",
+      "remaining": "P08:92 vị trí chưa đọc gồm ngoại hình13–33, tuyển trạch125–167, phù trấn168–195.124 là ranh đã đọc;không tính lại. Khép lượt đọc trước khi tự công bố toàn tác phẩm. Các mục đã đọc còn nhiều điều kiện: toàn phép交門/換象/初爻94–100; bảng lịch/mặt-thước/đơn vị cửa100–104;gốcphóngthủy/FukYuan-gate/đồ111;12đồphânviện/cao-thấp46–56và82–93. Không biến tiến trình đọc thành áp hết. Niên khoản萬曆五十二年 chưa xác minh,ranh Tết/LậpXuân,Bắc từ–Bắc thật và mặt bằng hiện đại chưa thiết lập. Khó chốt một hướng thì tiếp phần độc lập. Nhà Xieji/P03,Bát tự vượng suy/cách cục,Tử vi童限火鈴CanhNhâm/khởi hạn,Dịchhiệu lực/B03/MaiHoa còn mở. Không lặp tải nguồn bị chặn hoặc kiểm đã đạt. Nghiên cứu/QA ngoài site. UIKiếnLộc chờbrowserQAkhảdụng;khôngvượtcàiđặt,khôngxuấtbản."
+    }
+  },
+  "historicalSupersededP08FirstPassPriorities": [
+    "P08:92 vị trí chưa đọc gồm ngoại hình13–33, tuyển trạch125–167, phù trấn168–195.124 là ranh đã đọc;không tính lại. Khép lượt đọc trước khi tự công bố toàn tác phẩm. Các mục đã đọc còn nhiều điều kiện: toàn phép交門/換象/初爻94–100; bảng lịch/mặt-thước/đơn vị cửa100–104;gốcphóngthủy/FukYuan-gate/đồ111;12đồphânviện/cao-thấp46–56và82–93. Không biến tiến trình đọc thành áp hết. Niên khoản萬曆五十二年 chưa xác minh,ranh Tết/LậpXuân,Bắc từ–Bắc thật và mặt bằng hiện đại chưa thiết lập. Khó chốt một hướng thì tiếp phần độc lập. Nhà Xieji/P03,Bát tự vượng suy/cách cục,Tử vi童限火鈴CanhNhâm/khởi hạn,Dịchhiệu lực/B03/MaiHoa còn mở. Không lặp tải nguồn bị chặn hoặc kiểm đã đạt. Nghiên cứu/QA ngoài site. UIKiếnLộc chờbrowserQAkhảdụng;khôngvượtcàiđặt,khôngxuấtbản.",
+    "P08: tiếp108 vị trí chưa đọc: ngoại hình13–33;玄空裝卦94–100;開門100–105;放水105–111;選擇124–168;符鎮168–195. Ranh chia sẻ đã đọc không đếm mới. Phúc nguyên/Du niên đã có180 hàng/360 ô và8 khẩu quyết, nhưng chưa khép mọi điều kiện. Cần chép từng ô/cửa/đường/cao thấp của các đồ46–56 và82–93; không chọn chỉ theo quái cửa hoặc coi進 là tầng đứng. Giữ萬曆五十二年 và điểm tay/cung đúng bản đọc; cần nguồn lịch sử độc lập trước đổi niên khoản. Chưa tự chọn ranh Tết/Lập Xuân hoặc nối ngày sinh/mặt bằng. Các hướng độc lập còn mở: Nhà Xieji tháng ThủyThổ丙辛11hay11–12/Bắc thực/biên lịch; P03 thiếu ảnh; Bát tự vượng suy/cách cục; Tử vi童限火鈴CanhNhâm/khởi hạn; Dịch hiệu lực/B03/MaiHoa. Không lặp tải nguồn bị chặn. Nghiên cứu và QA ngoài site. Ứng viên UI Kiến Lộc chờ browser QA khả dụng; không vượt cài đặt, không xuất bản.",
+    "P08: tiếp155vịtríchưađọc vàtámmụcchínhchưađủ. Trướckhépchức năngphânphòng,cầnchéptọađộ12đồ82–93theotọa/hướng/cửavàcao-thấp;khôngchọnchỉquáicửa. Haiđoạn4/8đọclầnđầuchưađốihettừngchữ/điềukiện. Ưutiên福元34–58và大遊年58–81đểđủtiềnđềvới穿宮;chưagánnămhiệnđạivàranhTết/LậpXuân. Sauđótách玄空裝卦94–100/開門100–105/放水105–111,khônggọilàbộPhiTinhhiệnđạichỉtừtên玄空. DùngrawDCTstreamchođoạnquytắctiếp,lưuPNGkhôngmãhóaJPEGmớiđểQA.40pypdfderivativescũgiữlịchsử/đãxem;chỉ4rawcropđãxemtrựctiếplạitrongphạmvinày. KhôngkhẳngđịnhPDFgốccơquankhichỉcóCommons-Shugeprocessedfile. NhàXiejiđồ49cònthángThủyThổ丙辛11hay11–12/Bắcthực/biênlịch,P03thiếuảnh;khônglặptảinguồnbịchặn. Báttựvượngsuy/điềukiện/Tửvi童限火鈴CanhNhâm/khởihạn,Dịchhiệulực/B03/MaiHoavẫnmở. Nghiêncứu/QAngoàisite,0tácphẩmápdụnghết,khôngxuấtbản. ỨngviênUIKiếnLộcchờbrowserQAkhảdụng,khôngvượtsetting."
+  ],
+  "previousHomeFinalSpansWork": {
+    "catalogueID": "P08",
+    "relatedCatalogueIDs": [
+      "P08"
+    ],
+    "work": "陽宅十書 — 全部十論首次通讀與定時表",
+    "reason": "Close remaining first-pass spans while retaining source differences and bounded functional extraction.",
+    "sourceDirectory": "v53/research/home-yangzhai-final-spans",
+    "currentStep": "P08 khép3khoảngđọcđầu外形/選擇/符鎮:95rawrecords/94vịtríảnhphânbiệt,92vịtrímới,8cropnativekhớppixel;120panelngoạihìnhkiểmkê. Tổng195/195vịtrí/10mụcđọcđầu,0mụcáphết. Chép11cộtgiờ/132ôtrướcchạyengine;144Lunarobjects thật(12dòchi+132tọađộ),132thầngiờqueries:120khớpsaualias(12土堂→玉堂),12司命khácenginegiữnguyên,12勾陳chưa nhập. 8kiểmđạt;3APItra tọađộ/nhãngiờ/ngoạilệhoạtđộng,khôngchấmcáthung. Đọccrop134sửaýbanđầu:截路空亡chỉkiêng出行嫁娶移徙,餘皆不忌;auditgiữriêng,khôngvàoengine/web. Bảng720ôtháng/ma trận năm/tuổi/ranhlịch/thước/hìnhhọc/hiệuquảvẫnmở. Phùtrấnphânloạinghilễ/lịchsử,khôngtriểnkhaichẩnđoán/trừtai.0HTTP/container/nhânchứngđộclậpmới;HTML/site/ZIPwebnguyênbyte,toànkhoactive.",
+    "latestResearchReport": "v53/HOME_FINAL_SPANS_REPORT.md",
+    "sourceLimits": "195/195positions firstpass;0wholeunits applied;132hourcells/12pending/12source-engine differences;all remaining clauses explicit.",
+    "sourceUnitMap": "v53/research/home-yangzhai-final-spans/UNIT_MAP.json",
+    "internalHourReference": "v53/research/home-yangzhai-final-spans/selection/source-hour-reference.mjs"
+  },
+  "previousHomeCourtyardsWork": {
+    "catalogueID": "P08",
+    "work": "陽宅十書 — 穿宮十二宅圖與語境",
+    "sourceDirectory": "v53/research/home-yangzhai-courtyards",
+    "currentStep": "P08:12đồraw82–93chép69ôtrực tiếp,bađồ5ô/bốnôsaođểtrống;10kiểm(6đồ+4ngữcảnh),75lờigọithànhphầntọađộthật/0chartlịch. C84neo木khác4ô/giảthuyếtThủykhác2ô,khôngép sửa. NămHTTP200TLSthêmDjVukhoCommons33681249byte/135vịtrí;4rendernative86–89địnhvị12đồ,6ôC84đối literal cùng木1/6;chưađộc lậphệbản hoặc63ôcònlại.25cropđãxem/khớppixel;0vịtrímớiPDFThiênNhấtCác. Khởilớpđòigốctường+cửa/chiềuđầunhà,khôngtựgántầngđứng/phòngcáthung. P08vẫn195/195đọcđầu/0mụcáphết;webnguyênbyte,toànkhoactive.",
+    "latestResearchReport": "v53/HOME_COURTYARDS_REPORT.md",
+    "sourceLimits": "69literalcells/6selectedwitnesscells;twoexplicitfacingclauses;63witnesscells/fullgeometrypremisesopen;0wholeunitsapplied"
+  },
+  "historicalRetractedHourColumnPriorities": {
+    "reason": "Wrong column alignment, not edition discrepancy; see HOME_HOUR_ALIGNMENT_REPORT.md",
+    "items": [
+      "Tiếp63ônhânchứngvàcácđiềukiệntrungcung/phươngbên/cao-thấp/交門換象初爻;khôngtựsửaC84木từchu kỳ.12đồ/cửavàgốcphânviệnkhôngthayphépmặtbằnghoànchỉnh. Bảnggiờ132ô/12司命khácengine/12勾陳chưa nhập;tiếpnhânchứnghợp lệ,khoanhđúngphạmvi截路.720ôtháng/ma trận năm/tuổi/lịch/thướcvẫnmở. LuânphiênBáttựvượngsuy/cáchcục,Tửvi童限火鈴CanhNhâm/khởihạn,DịchB02/B03/MaiHoa;khônglặptảinguồnbịchặnhoặckiểmđãđạt.ỨngviênKiếnLộcchờbrowserQAkhảdụng;nghiêncứu/QAngoàisite,khôngxuấtbản.",
+      "P08 đã có195/195 vị trí/10khoảng mục đọc đầu; chưa hiệu khảo mọi chữ hay áp mọi điều kiện. Tiếp12đồ46–56/82–93 và交門/換象/初爻94–100 có đủ gốc/hướng/cửa/cao-thấp trước nối mặt bằng. Bảnggiờ134–135:132ôchéptrực tiếp/120khớpsaualias/12司命khácengine;12勾陳chưanhập. Tìm nhân chứng hợp lệ để phân biệt dị bản/lỗi in, không sửa từ công thức chung. Giữ ngoại lệ截路chỉ3loạiviệc. Tuyểntrạch720ôtháng,ma trận năm/lộc mã/quý nhân,tuổi hành niên,ranh lịch/thángnhuận/tiếtkhí/thướccửa còn mở. Phùtrấn là tư liệu nghi lễ/lịch sử,không tự thành chức năng chữa bệnh/trừtai. Báttựvượngsuy/cáchcục,Tửvi童限/火鈴/CanhNhâm/khởihạn,DịchB02/B03/MaiHoa/nhânchứng còn mở. Chuyển phần độc lập khi một hướng thiếu tiền đề;khônglặptảihoặckiểmđãđạt. Nghiêncứu/QAngoàisite;ứngviênUIKiếnLộcchờbrowserQAkhảdụng,khôngvượtsetting/khôngxuấtbản."
+    ]
+  },
+  "previousHomeHourAlignmentWork": {
+    "catalogueID": "P08",
+    "work": "陽宅十書 — 定時表欄位校正",
+    "sourceDirectory": "v53/research/home-hour-alignment",
+    "currentStep": "ĐÍNH CHÍNH bảnggiờ P08:ảnh135đúngheader司命=午申戌子寅辰午申戌子寅辰,勾陳=未酉亥丑卯巳未酉亥丑卯巳. Trướclấy cột勾陳gán司命vàcoicột日kếbênlà勾陳chưachép;12khácengine làlỗichép/lệchcột,khôngphảidịbản. Giữ10cộtcũ,sửa12ô司命/thêm12ô勾陳;6kiểmmới/144Lunarobjects thật/144nhãngiờ+144loại:144khớpsaualias/0khác.4cropnativekhớppixel;0HTTP/vịtríPDFmới/nhânchứngmới. Vai tròtoànbộcột日nhóm tamhợpvẫnmở;chưaquyđổimúigiờ/ranhngày/tổngtuyểntrạch. HTML/site/ZIPweb/enginekhôngbịảnhhưởng,toànkhoactive.",
+    "latestResearchReport": "v53/HOME_HOUR_ALIGNMENT_REPORT.md",
+    "internalHourReference": "v53/research/home-hour-alignment/source-hour-reference.mjs",
+    "sourceLimits": "144correctedhourcoordinates/0source-enginedifferencesafteraliases;neighbor日guidesemantics/fullcalendarselectionopen"
+  },
+  "previousHomeXuanKongContextWork": {
+    "catalogueID": "P08",
+    "work": "陽宅十書 — 玄空語境與圖格對勘",
+    "sourceDirectory": "v53/research/home-xuankong-context",
+    "currentStep": "P08玄空94–100raw重讀7位置/0新位置；新具名參照分離乾坎艮震陽/巽離坤兌陰，不自動等同出生東西四命或放水陰陽。5檢達，8HHCdirections真調用+8既有放水參照調用，各有4分類差異；這是框架差異，不是engine錯。已宣告且完整的來源房數才比較多寡/相等，空/缺/面積/現代樓層不代入，不推病財。另12圖69格第二版本逐格處置：64格四字段匹配，5格行字未確；0強填。9新nativecrop匹配像素(2段/7字形)。全方法/交門換象初爻/中宮和現代幾何仍未建立。",
+    "latestResearchReport": "v53/HOME_XUANKONG_CONTEXT_REPORT.md",
+    "internalHourReference": "v53/research/home-hour-alignment/source-hour-reference.mjs",
+    "sourceLimits": "Named frame labels/declared count comparison only;69witnesscells64resolved5partial;fullfirst-drawexchangeandmoderngeometryopen"
+  },
+  "historicalSupersededFoodParentPriorities": [
+    "Tiếp các mệnh đề phụ trong90ngữcảnh Thực thần/10mục kèm.8ngữcảnh chọn/12mệnh đề không khép toàn8ngữcảnh;82nhóm khác vẫn chưa chọn trong module. Lượng nhiều/ít,thuần và khí lực cần phương pháp có tên/counterexample,không tự đặt thang điểm. Cần đủ hiệu lực/ưu tiên hư hợp,chế Sát,sinhTài,Ấn vận và mối quan hệ giữa văn/thơ/lời bình. Chín mụcBazi khác cùng47ngữcảnh DươngNhậnngoàilựachọn vẫn active. Dò94a–95b bằngnhânchứngảnh hợp lệ/định vị chuyển chỗ,khi có hướng mới,không lặp tải/vượtchặn. Luân phiên phần độc lập có khoảngtrống lớn: nhà PhiTinh/biênlịch/Bắcthực;Tửvi童限/火鈴/CanhNhâm/khởihạn;Dịch B02/B03/MaiHoa tiềnđề/hiệu lực. Giữ các bản đã hoàn thành và không tuyên bố hết kho. Ứngviên giao diện KiếnLộc vẫn riêng khi browserQA không khảdụng;web chỉkếtquả/diễn giải,nghiêncứu/QAngoàisite. Khôngxuấtbản;danhmục40/whole0."
+  ],
+  "previousBaziFoodSeatWork": {
+    "catalogueID": "M01",
+    "work": "Tam Mệnh Thông Hội — Thực Thần C20: các tọa độ sinh vượng",
+    "sourceDirectory": "v53/research/bazi-food-seats",
+    "currentStep": "Thực Thần C20: đọc mở rộng hai ảnh177–178; chép năm nhóm can–chi theo cách đọc chuẩn hóa tường minh,20mục chi. Bộ tra cứu buộc gốc nhật can,đúng quan hệ Thực Thần và cặp can–chi khả dĩ;không lấy cả hai can của nhóm cho mỗi nhật can.5kiểm đạt,100truy vấn hàm Thập Thần HHC thật,600tọađộ hợp lệ/20tọađộ thuộc danh sách;2lá số HHC cũ chiếu tiêu chí mới cho vị trí[1,3]/[].Không phải hai ví dụ lịch sử mới hoặc xác nhận vượng suy.2cropnative khớppixel;0HTTP/vịtrí mới. C20là ngữ cảnh thứ9được chọn,còn81ngữ cảnh khác và mọi mệnhđề phụ;toàncách vẫn mở,web nguyênbyte.",
+    "latestResearchReport": "v53/BAZI_FOOD_SEATS_REPORT.md",
+    "internalHourReference": "v53/research/home-hour-alignment/source-hour-reference.mjs",
+    "sourceLimits": "5canonicalfamilyrows/20branchmemberships;9selectedparents/81notselected;fullstrengthandclauseconditionsopen"
+  },
+  "previousBaziSeasonalLabelWork": {
+    "catalogueID": "M01",
+    "work": "Tam Mệnh Thông Hội quyển hai — nhãn mùa vụ và giới hạn vượng suy",
+    "sourceDirectory": "v53/research/bazi-season-strength",
+    "currentStep": "Tam Mệnh quyển2:giữ thêmDjVukhoCommons/CADAL06066038,10858550byte/232vịtrí,SHA2567a53f359…/APIkhớpSHA1/size,3HTTP200TLS.Xem8vịtrí109–116(6nộidung/2ranh) và6cropnativekhớppixel.Chéptrướcso25ô/5pha春夏六月秋冬:24nhãnchuẩn,1literal夏水因chưaphânloại;ảnhgiữnétchữ因khácbốn囚đốichứng,khôngsửatừcôngthức.Có2APItra nhãn/profilenguồn,5kiểmcuối;0lịch/HHCđượcgọivìkhôngsoenginehayđổi thuật lịch.Khôngtựgán六月vớibốn季末18ngày,haysuyvượngsuy/cáthungtoànlá số.Lời見生旺未必吉/休囚死絶未必凶đượcgiữ,các12寄生táchriêng.Toàn232vịtrí/cácthuyếtkhácchưađọc,hồsơcơquanCADALchưađộc lậpxáclập;webnguyênbyte,toànkhoactive.",
+    "latestResearchReport": "v53/BAZI_SEASON_LABELS_REPORT.md",
+    "internalHourReference": "v53/research/home-hour-alignment/source-hour-reference.mjs",
+    "sourceLimits": "8of232facsimilepositions;25seasonalslots/24recognized/1literal因unknown;nofullstrengthorcalendarphaseadapter"
+  },
+  "previousBaziMonthCommandWork": {
+    "catalogueID": "M01",
+    "work": "Tam Mệnh Thông Hội — Nhân nguyên tư sự: hai danh sách và dị số",
+    "sourceDirectory": "v53/research/bazi-month-command",
+    "currentStep": "Nhânnguyêntưsựquyển2:9ảnhnative65–73(8vịtríchương/1ranhngoài),6cropkhớppixel;tổngquyển2đãxem17/232. Chép2danh sách12tháng/24hàng/69mụcngày:tổngvănxuôi360,bảngdẫn玉井358(酉32/子26);lờigiớithiệuchotámcan35ngày+hathổ50tính380kháccâu360,giữảnh/sốkhôngsửa.5kiểm,24truyvấnbảngtàngcanlunar thật:6bộkhớp/16khác/2khôngđốivì艮土坤土chưagáncan;khônggọilà16lỗiengine. APItra bảngbuộcnguồn/biếnthể/khung,khônggánngày,tưlệnh,trọngsốhoặcghéptàngcanhiệnhành. Giữlờiphêcáchchẻ3/5/7ngàyvàphạmvichỉtháng,khôngđồngnhấtvượngsuy.Toànphươngpháp/cảkhovẫnmở,webnguyênbyte.",
+    "latestResearchReport": "v53/BAZI_MONTH_COMMAND_REPORT.md",
+    "internalHourReference": "v53/research/home-hour-alignment/source-hour-reference.mjs",
+    "sourceLimits": "24source-monthrows69allocations;32/26/380vs360retained;0actualcalendarcommandmethod;17of232volume2positionsviewed"
+  },
+  "historicalSupersededFoodNineParentPriorities": [
+    "Chưa có thuật ngày thực nào được xác lập từhai bảng bất nhất. Đọc/đối riêngpha/tiết vàcácgiọngcủa玉井/醉醒子/淵源淵海,khôngtựgánquyềnưu tiênhoặcsửa32/26/380về30/360. Giữ艮土/坤土chưagáncan,vai tròthứtựbảng/chiađầugiữa/cuốitháng/ranhngàyvẫnmở.Câu支中所藏止以月論khôngthaychobảngtàngcan4trụhiện hành;24truyvấnchỉsohệdữliệukhác. Quyển2mới17/232vịtrí;季節25ôcó夏水因chưaphânloại,ThựcThần9nhómchọn/81chưavàmọiđiềukiệnphụ;nhàở/Tửvi/Dịchcònmở.Tiếpphầnđộclậpkhithiếunhânchứng,khônglặptảivàkiểmđãđạt;nghiêncứu/QAngoàisite,khôngxuấtbản.",
+    "Tìm nhân chứng hợp lệ cho夏水因nếu có,giữliteralhiện tại và24nhãnchuẩn;không tựép囚từbảngphổthông. Đọc phần季令/人元司事trước khépánhxạngàythựcvào pha,đặcbiệt六月土旺vàbốn季末. Phânbiệt5nhãnmùavụvới12寄生vàvượngsuytoànlá số;nguồn114nóisinhvượngchưa chắc吉/休囚死絕chưa chắc凶.Phần12địnhnghĩađọclầnđầu chưaápđầyđủ,mọichươngquyển2kháccònmở. Tiếp81ngữcảnh Thực thần chưa chọn vàđiềukiệnphụtrong9đãchọn;nhàở69ô64khớp/5mờ,交門換象初爻/ranhlịch/720ôtháng;Tửvi童限火鈴CanhNhâm/khởihạn,DịchB02/B03/MaiHoa.Nghiêncứu/QAngoàisite,khônglặptải/kiểmđãđạt,khôngxuấtbản.",
+    "Tiếp mệnh đề 更帶祿馬旺相 và các lớp lời bình/ưu tiên/hiệu lực trong C20,không biến tọa độ 食神見生旺 thành toàn vượng suy hoặc thành cách. Chuẩn hóa 己/巳/邜/卯 là cách đọc biên tập có ghi nhận,không ghi đè byte nguồn. Chín ngữ cảnh đã chọn mới có mệnh đề có giới hạn;81ngữ cảnh khác của90vẫn chưa vào môđun,điều kiện phụ và khoảngảnh94a–95b còn mở. Tiếp Thực/Ấn ngoại lệ hoặc cách khác có ảnh đầy đủ;khônglặpkiểmđãđạt. Nhà ở69ônhânchứng64khớp/5mờ;thuật交門換象初爻/ranhlịch/720ôtháng còn mở.Bảnggiờđínhchính144ô/0khác;khôngkhôi phục12khác giả. Tửvi童限火鈴CanhNhâm/khởihạn,DịchB02/B03/MaiHoa vẫn mở.Nghiêncứu/QAngoàisite,khôngxuấtbản."
+  ],
+  "previousBaziFoodOwlExceptionsWork": {
+    "catalogueID": "M01",
+    "work": "Tam Mệnh Thông Hội — C15 ngoại lệ Thực Thần–Thiên Ấn",
+    "sourceDirectory": "v53/research/bazi-food-owl-exceptions",
+    "currentStep": "ThựcThần C15:chiađúng213codepoint thành10đơnvị/8mệnhđềngoạilệ;giữ8phạmvicâu/4trụđượcnêu/cácvaiđảo己不倒食辛và庚不倒食壬. Ảnh175–176/crop4đãxemkhớppixel,土祿在亥khácbảnsố壬禄在亥vàchữcuốicâu癸貴chưachốt.5kiểmcuối/162ngữcảnhbagiátrị;8truyvấnhàmThậpthầnHHCthật(7cặpkhácnhau)/4bảngtàngcan+4bảnghợpcanlunar. Đúngcặp/tàngcankhôngtựxáclậphợphóa;khunglá sốkhôngđượcnhậngiảlàvaiđãchứngminh. Lỗisốkiểmkỳvọng135sửa162,auditgiữlầnnàygọi8+4+4trướcchạylạikhôngcộngthànhchứngcứmới. C15lànhómthứ10chọnmộtphần,còn80/90vàmọimệnhđềphụ;0HTTP/vịtrínguồnmới/webđổi,toànkhoactive.",
+    "latestResearchReport": "v53/BAZI_FOOD_OWL_EXCEPTIONS_REPORT.md",
+    "internalHourReference": "v53/research/home-hour-alignment/source-hour-reference.mjs",
+    "sourceLimits": "213codepoints10units/8selectedpremiseaudits;sourceanchor/effectivecombination/priorityunresolved;10foodparentsselectedpartly80remaining"
+  },
+  "previousBaziFoodAppendicesWork": {
+    "catalogueID": "M01",
+    "work": "Tam Mệnh Thông Hội — sáu mục kèm Thực Thần và ma trận90 ngữ cảnh",
+    "sourceDirectory": "v53/research/bazi-food-appendices",
+    "currentStep": "Đã kiểm sáu mục kèm Thực Thần qua 17 ngữ cảnh: 23 bản ghi tọa độ cho bảy hệ có tên, trong đó hai ví dụ đảo thực giữ riêng. Phúc Tinh giữ gốc năm, Hồng Loan Thiên Ấn giữ đích ngày/giờ; không đổi thành nhật can hoặc sao Tử vi. Hai danh sách nhiều trụ còn giữ từng token, chưa tự chọn AND/OR. Mặc Trì có các cặp khác chi, không ép cùng chi. Sáu crop từ năm ảnh cũ đã xem/khớp pixel. Chín kiểm đạt một lần; 86 truy vấn Thập Thần HHC thật (26 tọa độ in/60 cặp suy từ đếm bao gồm), một bảng Lộc và sáu bảng hợp can lunar thật. 3600 cặp can–chi khả dĩ kiểm phép đếm13=tiến12, không phải 60 dòng nguồn in. Ma trận90 cha có32 liên kết phần/tuyên bố tiền đề,58 chưa liên kết: 10 core/seats/owl +13 liên kết môđun chuyên thực/chuyên ấn cũ từng bị bỏ khỏi tổng +9 cha mới. Không cha/mục nào áp trọn; 0 chart lịch/HHCbazi/iztro mới,0HTTP/vị trí/container mới; web nguyên byte, toàn kho còn mở.",
+    "latestResearchReport": "v53/BAZI_FOOD_APPENDICES_REPORT.md",
+    "internalHourReference": "v53/research/home-hour-alignment/source-hour-reference.mjs",
+    "sourceLimits": "32partial-or-declared-premise-links/58unlinked/0whole-contexts-applied;sourceanchors/joins/effectivenessremainopen"
+  },
+  "historicalSupersededImageGapPriorities": [
+    "Tiếp các mệnh đề chưa có phép tái lập: 飛天祿馬/倒衝祿 với giọng nguồn khác nhau và khoảng ảnh94a–95b. Không giả nghĩa 多/有力/純陰/純陽/合住/羈絆 hoặc tự điền trụ bị ẩn. Thiên Trù còn vai gốc và cùng vị trí can–chi; Phúc Tinh còn phép 本旬/餘例推, cách ghép nhiều đích; 同窠 còn vai gốc/互換生旺帶祿貴; 帶合 chưa chứng hiệu lực; Hồng Loan Thiên Ấn chưa rõ gốc; Mặc Trì chưa rõ phép chọn hai đích. Nguồn tiên đoán tài lộc, con cái, sức khỏe và phẩm trật giữ ngoài diễn giải dự báo. Ma trận90 ghi liên kết bộ phận/tuyên bố nghiên cứu, không đồng nghĩa áp hết32 cha.58 cha chưa liên kết cùng mọi điều kiện phụ còn mở. C15 chữ/gốc/hiệu lực/ưu tiên, mùa 夏水因, bảng tư sự32/26/380v360 và toàn vượng suy vẫn mở. Luân phiên phần độc lập Nhà ở交門換象初爻/720ôtháng/ranhlịch, Tửvi童限火鈴CanhNhâm/khởihạn, DịchB02/B03/MaiHoa. Không lặp tải/kiểm đã đạt. Nghiên cứu/QA ngoài site; UI KiếnLộc chờ browserQA khả dụng, không vượt setting và không xuất bản."
+  ],
+  "previousBaziFoodFlyingWork": {
+    "catalogueID": "M01",
+    "work": "Tam Mệnh Thông Hội — ảnh bù94a–95b và Phi Thiên/Đảo Xung",
+    "sourceDirectory": "v53/research/bazi-food-gap-witness",
+    "currentStep": "Bổ sung DjVu CADAL06056481 qua ba bodyHTTP200/TLS,10808462byte/230vị trí, SHA2564f273322…/API khớpSHA1 vàsize. Đã xem9vị trí187–195 và6cropnative khớppixel; đối hai ranh cũ188/93b và189/96a với bản mới188/193, bù trực tiếp bốn mặt94a–95b ở189–192. Hai bản quét cùng họWYG, chưa xác lập bản in độc lập; không sửa container226 cũ. Phân loại17ngữ cảnh/1620codepoint PhiThiên–ĐảoXung; ba giọng danh sách4/2/6ngày và lời bình hai 傷官 giữ riêng. Sáu tọa độ Quan/chi được nêu kiểm10hàm ThậpThầnHHC thật và22bảnglunar(10tàngcan/6xung/6hợp). Tám kiểm đạt một lượt/180tọa độ ngày; 辰 được nguồn nêu bên cạnh申 vẫn giữ, không ép thành định nghĩa六合. Không tạo Quan ảo thành trụ thật, không lấy số chi làm 多/有力 hoặc tự giải ưu tiên 官煞/填實. Ma trận90 có42liên kết phần/48chưa,0cha áp trọn.0lá số lịch/HHCbazi/iztro mới;web nguyênbyte,toànkho mở.",
+    "latestResearchReport": "v53/BAZI_FOOD_FLYING_REPORT.md",
+    "internalHourReference": "v53/research/home-hour-alignment/source-hour-reference.mjs",
+    "sourceLimits": "Fourgapfacesavailableinnew230-positioncopy;9positionsread/notindependentedition;42partiallinks48unlinked0wholeapplied"
+  },
+  "previousHomeXuanKongLinesWork": {
+    "catalogueID": "P08",
+    "work": "Dương Trạch Thập Thư — năm đơn vị phòng và hào cửa",
+    "sourceDirectory": "v53/research/home-xuankong-lines",
+    "currentStep": "P08裝卦:đọc mở rộng raw94–95 và4cropnative khớppixel,0HTTP/vị trí/container mới. Giữ7mệnhđề đọc chọn:hai ví dụ chuyển乾→巽/坤→艮,phòng đầu là爻3,門初爻,cácphòng東北陽/西南陰, năm đơnvị theo thứtự và sửa cũ/xây mới,thơ初陽返陰. Module riêng môhình tườngminh giữ năm đơnvị nguồn cuối, đặt trên hào cửa khai báo;đòi thứtự/đuôicuối/đơnvịphânbiệt đã xác lập,không lấy tầng đứng/diệntích. Sửa cũ và xây mới mỗi đơnvị khai báo tínhmột;không tự đếm nhiều lần sửa cùng phòng. Dưới5phòng không tự chèn2hào chuyển cư;hào cửa không tự đảo theo thơ. 7kiểm đạt một lượt,64lần HHChexNumber thật phủ64mã hào vàneoCàn/Khôn/KýTế/VịTế; chỉ kiểm mã quẻ,không xác minh thuật nhà ở hay cát hung. Toànphươngpháp/đổi hào/plan hiệnđại/hiệuquả vẫn mở;web nguyênbyte,toànkho active.",
+    "latestResearchReport": "v53/HOME_XUANKONG_LINES_REPORT.md",
+    "internalHourReference": "v53/research/home-hour-alignment/source-hour-reference.mjs",
+    "sourceLimits": "Twoexpandedoldpositions/fournativecrops/sevenselectedreadings;declaredlast-fiveorderingonly;gatecomplement/initialphase/modernplanremainopen"
+  },
+  "previousTuviStarOfficeWork": {
+    "catalogueID": "T01",
+    "work": "Tử vi — đầu sách và14chính tinh, chức phận với vị trí thực",
+    "sourceDirectory": "v53/research/tuvi-star-offices",
+    "currentStep": "Tử vi T01: đọc đầu30ảnhJPEG cơquan National Archives of Japan item4468520 qua30bodyHTTP200/TLS chuẩn Windows,29bộheader/1probe khôngheader;12lỗi localissuerPython giữ audit,0bỏTLS/0JP2gốc. Mục lục6quyển tách khỏi body item上129canvas.30vịtrímới+16vịtrícũ=46đãlưu/83chưa;30ảnh đọc đầu,khôngphải toàn bộ các điều kiện.13cropnative đãxem/khớppixel,1cropnhầmvùngTianfu loại khỏi chứng LiêmTrinh. Tra14chính tinh/15giọngthuộctính giữThiênĐồng水金/CựMôn水金/ThấtSát火金,ThamLang水 và氣木體水 riêng;LiêmTrinhliteral木,nhãntạmfire vàcropcanvas21saiđược đínhchínhtrước tiếpnhận/0ảnhhưởngweb. Module buộcnguồn,tách司職vớivịtrí thật,không trọngsốhành/đoáncáthung.7kiểm đạt1lượt,12HHC Tửvi+12iztro2.6.2thật/168tọađộ chi–cung khớp,168profileđượcgắn;khôngxácminh thuậtansao từcâu司職 hay hiệuquảđoán. Webnguyênbyte,cácchương/toànkhoactive.",
+    "latestResearchReport": "v53/TUVI_STAR_OFFICES_REPORT.md",
+    "sourceLimits": "Thirtyfirstpasspositionsnotfullchapters;15elementvoicesnotweights;symbolicofficesnotplacementalgorithm;46retainedof129."
+  },
+  "previousTuviFlankingWork": {
+    "catalogueID": "T01",
+    "work": "Tử vi — phụ tinh/quyển2 và hình học hai sao giáp Mệnh",
+    "sourceDirectory": "v53/research/tuvi-flanking",
+    "currentStep": "Tửvi T01:18ảnhJPEGcơquan mới31–48/18HTTP200/TLS/header/SHA đãxem,3cropnativekhớppixel. Quyển1hếtở38,quyển2bắtđầu39,khôngnhầm36làcuối.48vịtríđầuđọcđầuliêntục+16vịtrícũrời=64vịtrílưu/65chưa trongitem129;khôngphải áp hếtquyển1. Trích4ngữcảnhvề不可一例而斷,日月前後二宮夾命,昌曲亦如之vàtiêuđềkhác;API2cặpgiápchỉkiểmhìnhhọc,táchcunglâncận/cùngcung/tamhợp/đối,giữchưa rõphạmvi不逢空劫羊殺/miếuhãm/vậnhạn.7kiểmcơsở3456hìnhhọc/48khớp,144HHC+144iztrothật/576tọađộ/288ngữcảnh,4XươngKhúcgiáp/0NhậtNguyệttrongmẫungàyâm15. Tìmgiớihạnthêm165HHCkhungkhácngày/2iztrocho2caNhậtNguyệtgiápđềungàyâm2/chiMệnh未haihìnhhọcgiốngnhau,khôngphảivídụlịchsửhay2dạngđộclập. Tổngmớilượt309HHC/146iztro,580tọađộđốithamchiếu;khôngchạylại144cađãđạt. Khớpgiápkhôngthànhkhớptoàncách/cáthung;webnguyênbyte,toànkhoactive.",
+    "latestResearchReport": "v53/TUVI_FLANKING_REPORT.md",
+    "sourceLimits": "Twoexplicitpairs/geometryonly,unscopedexclusions/strength/periodsopen;48continuousfirst-passpositions/64retainedof129."
+  },
+  "previousTuviMingShenWork": {
+    "catalogueID": "T01",
+    "work": "Tử vi — quyển2 và phép an Mệnh–Thân theo tháng–giờ",
+    "sourceDirectory": "v53/research/tuvi-ming-shen",
+    "currentStep": "Tử vi T01: đã xem 25 ảnh JPEG mới49–73 từ cơ quan lưu trữ Nhật, 25HTTP200/TLS chuẩn/header/SHA; ba crop native khớp pixel. Quyển hai bắt đầu39 và kết phần nội dung ở73, quyển ba mở cùng73;73vị trí đầu đã đọc đầu liên tục,16vị trí cũ rời chỉ liên kết lưu giữ, tổng89/129vị trí có ảnh,40chưa. Trích sáu câu về an Mệnh–Thân: tháng từDần tiến, giờ từTý nghịch choMệnh/thuận choThân,ba ví dụ thángGiêng thường vàmột ví dụ thángGiêng nhuận giờDần. APIchỉ giải thángthường vàđúng ví dụ nhuậnin; chưa suy mọi thángnhuận hayđổi giờđồnghồ/lịch.7kiểm đạt1lượt,144HHC+144iztro2.6.2thật trênnămâm1985/ngày10/12tháng/12giờ,288tọađộMệnh–Thânkhớp. Chín nhãn giáp từảnh61giữ6夾貴/3夾敗;科權祿ba nhãnkhôngtựchọn2,劫空chưachốtaliasnguồn. Khôngchạylạibộgiápcũ hoặcđưađoáncáthungvàoweb;toànkhoactive.",
+    "latestResearchReport": "v53/TUVI_MING_SHEN_REPORT.md",
+    "sourceLimits": "Regularmonth-houralgorithm+printedleap1Yinexampleonly;general-leap/clockcalendar/outcomesopen;73continuousfirstpass/89retainedof129."
+  },
+  "historicalSupersededTuviUpperMissingImagePriorities": [
+    "Tiếp bản đồ quyển ba từ74 và các vị trí đã giữ; chỉ tải các khoảng thiếu82/84/86 và93–129, không lặp1–73 hoặc16ảnhcũ. Item129 hiện89vịtrí cóảnh/40chưa;đọc đầu không phải mã hóa hết từng điều kiện. An Mệnh–Thân: giữ nguyên ví dụ閏正月生寅時ở73 và câu凡有閏月俱要依此為例. Chưa có cách ngoại suy tất cả tháng nhuận/ngày đầu/cuối từ câu này; đối tiếp quyểnba/nguồn độc lập, không ép chính sách hiện đại. Ba ví dụ thường/một ví dụ nhuận là khung khai báo, không tự gắn ngày lịch sử. Quyển2từ39–73 đã đọc đầu các đoạn, chưa áp toàn bộ骨髓賦/女命/太微賦/補遺 vàcácbảng得地失陷/富貴貧賤. Tiếp từngmệnhđề đầyđủ,cungneovà旺陷/吉化/三方四正/大限小限,chưađưa lời giới/sức khỏe/nghèo giàu thành kết quả người dùng. Danh sáchgiáp61có6nhãn thuận/3nhãn nghịch;科權祿khôngđồngnghĩahaibiên/劫空chưarõalias;giữnguyênphầnphụvề廟旺/吉星/化忌 vànhiềugiọng. Luânphiên48chaBáttự,Nhàởgiao môn/đổi tượng/720ôtháng,DịchB02/B03/MaiHoa. Nguồn/QA ngoàisite,UIKiếnLộcchờbrowserQA,khôngxuấtbản/toànkhochưahoàntất.",
+    "Tiếp ảnh49vàbảnđồtoànquyển2;sáuquyểntrongmục lụcchưaphảisáubodyitem上. Ma trậnitem129hiện64đãlưu/65chưa:49–73,82,84,86,93–129.1–48đãđọcđầu;khônglặptải/kiểmđãđạt. Khai thác các điều kiện đầy đủ trongphụtinh31–38và骨髓賦39trởđi:不逢空劫羊殺chưarõphạmvicung/hiệulực;星格旺陷/三合/吉化/thânmệnh/vậnhạn chưaadapter,khôngtựchohìnhhọcgiápthànhcáthung. Tách phép夾với三方/拱/同宮/對照 vàcácgiọngvăn,cáthunglịch sửkhôngthànhdựđoánđờithực. Giữ14profile/15giọnghànhbảntrước,khôngsửaLiêmTrinh木thànhtheokỳvọng hoặcgộp氣體.火鈴星TýNgọ/童限đuôichữ/khởihạn/CanhNhâm tiếpđộclậpđúngtruyềnbản,khiđủnguồn. LuânphiênBáttự48chachưaliênkết/mọitiềnđềphụ,Nhàởgiao môn/đổi tượng/720ôtháng,DịchB02/B03/MaiHoa. Mọi nghiêncứu/QA ngoàisite,KiếnLộcUIchờbrowserQA,khôngxuấtbản/toànkhocònactive.",
+    "Tiếp từcanvas31:phần問答phụsao và ranhquyển;khônglặptải1–30hoặckiểm168tọađộđãđạt. Ma trậnitem129 có46vịtrílưu/83chưa;30vịtrímớiđọcđầu khôngđồngnghĩa tấtcảmệnhđềđãchép/mãhóa. Từ14chương đãđịnhvị,tiếp đầyđủ miếu/hãm,tổhợp/cung/niênhạn vàcácgiọngvăn;khôngbiến單星/司職thànhđoánhoặcbắtbuộcvịtrí. Táchthuộctínhhành củabảnnàykhỏidữliệuengine/khôngsửanguồntừkỳvọnghiệnđại. Item上khôngtựđồngnhấtvới6quyển正文hoặcnhânthân陳希夷/nămin;tiếp bảnđồthân sáchvàcácitemliênquan hợp lệ. Giữ火鈴星TýNgọ/童限đuoichữ/khởihạn/CanhNhâm cònmở;khônglặpbộiztroMệnhchủ/旬空cũ. Luânphiên48chaBáttựchưaliênkếtvàmọitiềnđềphụ,Nhàởgiao môn/đổi tượng/720ôtháng,DịchB02/B03/MaiHoa;nghiêncứu/QA ngoàisite,KiếnLộcUI chờbrowserQA,khôngxuấtbản."
+  ],
+  "previousTuviZiweiAnchorWork": {
+    "catalogueID": "T01",
+    "work": "Tử vi — năm đồ an Tử Vi và bản đồ đủ ảnh tập trên",
+    "sourceDirectory": "v53/research/tuvi-ziwei-anchor",
+    "currentStep": "Tử vi T01: bổ sung40vị trí còn thiếu của item上129canvas,43bodyJPEGcơquanHTTP200/TLS/header/SHA gồm3ảnh yêu cầu4200/thực nhận3000pixel để đọc số. Xem đầu40vị trí mới và mở rộng16cũ; cùngcácmốc trước đủ129vịtrívậtlý,phần chữđến127/128mảnhinđảo bịche/129bìatrống,khôngđủ6quyển hayáp hết. Nămđồ金4/木3/水2/火6/土5 tại84–86 có150tọađộngày→chiTửVi. Một batch160HHC(10chọncục+150so)+150iztro2.6.2thật khớp150tọađộnguồn/300kiểmchi hai engine;6kiểm cuối đạt với dữliệu runtimeđãgiữ,khônggọilại chart. Bốn lỗi chép十/廿 ởMộccục được sửa bằng4cropnative trực tiếp;giữINITIAL/audit,0ảnhhưởngweb. APItra ngày–cục buộc nguồn,thiếu trảnull,khôngtựđổi lịch/tínhcục/đoánkếtquả.14cropnative đãxem/khớppixel;0JP2gốc/0bảninđộclậpmới. Webnguyênbyte,toànkhoactive.",
+    "latestResearchReport": "v53/TUVI_ZIWEI_ANCHOR_REPORT.md",
+    "sourceLimits": "129physicalpositionsfirstpassnotallrules;150day-cucanchorsonly;all6juan/generaldate-cucassignment/outcomesopen"
+  },
+  "previousHomeMonthGodWork": {
+    "catalogueID": "P08",
+    "work": "Nhà ở — bảy bảng thần theo tháng",
+    "sourceDirectory": "v53/research/home-month-gods",
+    "currentStep": "P08 nhà ở: đọc mở rộng8ảnh đãgiữ và13cropnative khớppixel,1cropnhầm cộttháng loại khỏi chứngbảngtrái. Chép7hàng月方吉神 tại146/84ô:82rõ,2ô月財tháng2/8giữnull(乙/丑chưachốt). APItra nguồn với thángkhai báo,phânbiệt phương/can/chi/quẻ;4ô天德坤乾艮巽khôngtựđổi申亥寅巳.20cặpcan(8天德合+12月德合)khớp bảngHE_GAN_5lunar-typescript1.8.6thật;4gốcquẻkhônggánphépthay.6kiểm đạt1lượt,336khungsaimonthbasis trảnull;0chartHHC/iztro/0HTTP/vịtrí/container mới. Chưa ranh tháng/nhuận/lịchchọnngày/hiệulực hợp/cáthung. Bảng720ô vàcáclớpnăm/thángkhácvẫnmở;webnguyênbyte,toànkhoactive.",
+    "latestResearchReport": "v53/HOME_MONTH_GODS_REPORT.md",
+    "sourceLimits": "84cells82clear2unresolved;20stempairsnotdate-selection/efficacy;source-month/trigramadaptersopen"
+  },
+  "previousBaziFoodPillarExampleWork": {
+    "catalogueID": "M01",
+    "work": "Bát tự — sáu ví dụ trụ Thực thần và ranh giới thuật ngữ",
+    "sourceDirectory": "v53/research/bazi-food-six-pillars",
+    "currentStep": "Thực thần C18: đọc mở rộng bốn ảnh176–179, ba crop native khớp pixel. Chép sáu ví dụ gốc甲子 với丙子/寅/辰/午/申/戌, giữ正印 và自刑破命 là nhãn cả trụ của nguồn, không đổi thành Thập thần hay tự định nghĩa quan hệ子午. API buộc đúng nguồn và gốc ví dụ chưa gán năm/ngày; 3600 cặp trụ hợp lệ chỉ sáu cặp có nhãn, ngoài danh sách trả null. Một cặp can duy nhất甲丙 được so bằng một hàm HHC và một bảng lunar thật, đều食神; một bảng xung lunar cho子→午 chỉ là tọa độ hiện hành, không bác hay giải nghĩa cơ chế nhãn cổ. Năm kiểm đạt một lượt, 1440 khung gốc năm/ngày/lịch/không rõ trả null; 0 chart sinh/iztro/HTTP/container mới. C19 giữ phúc tụ/họa tụ và tăng/giảm như văn điều kiện, không tự chấm điểm hoặc nhân nửa; C21–24 được ghi xử trí, chưa thêm liên kết chức năng. Ma trận90 cha có43 liên kết phần/47 chưa,0 áp trọn; web nguyên byte, toàn kho còn mở.",
+    "latestResearchReport": "v53/BAZI_FOOD_PILLAR_EXAMPLES_REPORT.md",
+    "sourceLimits": "Sixexact甲子examplesonly;rootrole/otherroots/C19score/fullpatternandoutcomesopen"
+  },
+  "previousB03TriadClauseWork": {
+    "catalogueID": "B03",
+    "work": "Lục hào — nguyên câu Tam hình/Tam hợp và tiền đề hoạt động",
+    "sourceDirectory": "v53/research/liuyao-b03-triad-clause",
+    "currentStep": "B03 Tam hình/Tam hợp: đọc mở rộng hai ảnh38–39 đã giữ, dựng lại39 ở360DPI và xem bốn crop nguyên pixel. Đính chính trích rút cũ皆須/得成 bằng ảnh必須/得一爻起; giữ nguyên byte hồ sơ cũ và ghi chỉ mục thay thế. Bộ riêng tách đủ ba chi/đúng hai hào hoạt động nâng một hào, một hào không nâng hai, cả ba bất động không qua điều kiện; ba hào hoạt động và trạng thái ám động thiếu căn cứ giữ null. 162khai báo ba giá trị/sáu nhóm cho18qua/24khôngqua/120chưaxácđịnh; nămkiểm đạt, bốn lời gọi HHCthật kiểm quẻcơhọc1/44/6/64,không phải bốn quẻ in mới. Chỉdùng chi bản quẻ,khônggộp chibiến/nhậtnguyệt;chưa thànhcục/vượngsuy/ứngkỳ/kếtquả. B02giữliteral一爻動 và ngưỡng riêng,khôngsửa thành三từB03. 0HTTP/PDF/vịtrí/nhânchứngđộclậpmới,web nguyênbyte,toànkhoactive.",
+    "latestResearchReport": "v53/LIUYAO_B03_TRIAD_CLAUSE_REPORT.md",
+    "sourceLimits": "Corrected full clause only;three-active/darkactivity/calendarcompletion/efficacy/outcomesopen"
+  },
+  "previousTuviLowerPrintedCaseWork": {
+    "catalogueID": "T01",
+    "work": "Tử vi — tập dưới và hai lá số in",
+    "sourceDirectory": "v53/research/tuvi-lower-printed-cases",
+    "currentStep": "T01 tập dưới 4469314: giữ hồ sơ/trình xem/manifest137vị trí và13JPEG cho12vị trí đọc mốc,16HTTP200/TLS/byte/SHA; ảnh80thêm3000pixel thực nhận,0JP2gốc/0ấnphẩmđộclậpmới. Bìa下/mở卷四/đoạn卷五–六/cuối卷之七終 đọc trực tiếp, không giả định chỉ4–6 hoặc coi đã đủ mọi quyển. Hai đồ80ghi馬周己卯9/18未陰男火6 và賈誼癸卯3/20卯陰男金4. Chép27tọađộchínhtinh rõ,1ThiênLương chưa chốt,2Mệnh/2cục/7TứHóa; khungchi12ô là chuẩn hóa biên tập cóneo,năm1939/1963 là ca thử hiệnđại,thángthường/UTC8 chưa chứnglịchsử. Mộtbatch2HHC+2iztrobyLunar thật khớp38trường mỗi engine/76so sau sửa1lỗi chép廉貞子→戌 bằng2cropnative; giữINITIAL/runtimegốc,0chartchạylại. Nămkiểm cuối dùngruntime đãgiữ đạt;8cropkhớppixel,1cropnhầm cột không làchứng ngàysinh. Còn125/137vịtríchưađọc/toànmệnhđề/đối phụsao/vậnhạn/ấnký; web nguyênbyte,toànkhoactive.",
+    "latestResearchReport": "v53/TUVI_LOWER_PRINTED_CASES_REPORT.md",
+    "sourceLimits": "12of137positions;38fieldspereachengine;1glyphunresolved;notbiographicaldates/outcomes;lowerending七literal",
+    "additionalVerificationReport": "v53/PIXEL_VERIFIER_HARDENING_REPORT.md",
+    "additionalVerifierChanges": {
+      "scripts": 2,
+      "explicitAllChannelChecks": 3,
+      "engineCalls": 0,
+      "consumerChanged": false
+    }
+  },
+  "previousTuviLowerContextsWork": {
+    "catalogueID": "T01",
+    "work": "Tử vi — ngữ cảnh quyển dưới và giáp Tả–Hữu",
+    "sourceDirectory": "v53/research/tuvi-lower-contexts",
+    "currentStep": "T01 tập dưới: bổ sung66 vị trí liên tục còn thiếu tới73 và1ảnh60 rõ hơn,67JPEG HTTP200/TLS/header/byte/SHA; tổng78/137 vị trí giữ/xem lượt đầu,59 còn thiếu. Quyển5 mở29trái, chữ 五卷終 ở64phải, đồ bắt đầu64trái và running-title六 nhìn ở65; rút lại lần đọc60六 cũ, không sửa byte nguồn trước. Lập19 xử trí cấp đoạn, giữ các điều kiện cung/sao/miếu-hãm/hạn và hai vùng lặp Nhật–Nguyệt. Câu 左右夾命 được tách hình học hai cung kề; ba ca hiện đại chạy một batch3HHC+3iztro2.6.2 thật: hai ca giáp và một ca đồng cung. Tháng11 đảo thứ tự sao, nên không ép cặp có thứ tự của ví dụ thành cả hai tháng. Sáu kiểm đạt,108 tình huống hình học,không chạy lại chart;chưa toàn貴格/cáthung. Chia Nam/Bắc Đẩu giữ bốn nhãn cửa sổ văn bản, chưa bộ ngày/thời điểm sự kiện. Chín crop xem/khớp RGB,5crop không dùng làm chứng nguyên câu. Web nguyênbyte;toànkho còn mở.",
+    "latestResearchReport": "TUVI_LOWER_CONTEXTS_REPORT.md",
+    "sourceLimits": [
+      "T01下:1–73 đã đọc đầu liên tục;78/137 vị trí tổng,59 chưa có gồm74–79,81–99,101–119,121–135. Không tải lại1–73 hoặc các mốc80/100/120/136–137. Đọc tiếp toàn quyển6/7 và mục lục/ấn ký,không gọi mọi mệnh đề đã áp.",
+      "Câu左右夾命59: giữ九月/十一月, Mệnh丑 và cặp không thứ tự子寅; tháng11runtime đảo Tả/Hữu. Cần nhân chứng/lời giải cho gắn thứ tự sao với tháng trước chuẩn hóa; hình học không thành đủ貴格. 同宮/三方 không là夾.",
+      "卷5đến64phải 五卷終,đồ64trái/65running-title六; nhận VOLUME_CORRECTION.json thay mốc60六 cũ. Các đồ64–73 mới đọc đầu19panel, chưa chép ngày/sao hay chạy; không gán ngày sinh lịch sử từ niên hiệu ví dụ.",
+      "Tiếp đầy đủ条件旺陷/吉化/本宮/對宮/三方四正/制化/年限,khungbảngmiếu-hãm và nửa hạnNamBắcĐẩu; không dùng số sao làm vượngsuy hoặc suy ngày/tháng hiệu lực từ 上/下.",
+      "Luân phiên Bát tự43cha liênkết phần/47chưa,mọi mệnh đề phụ;NhàP08bảngtháng82rõ2mờ/720ô/giao môn-đổi tượng;DịchB02/B03/MaiHoa. Nguồn/QAngoài site;UIKiếnLộc chờbrowserQA;không xuất bản hoặc tuyên bố hết kho."
+    ]
+  },
+  "previousTuviLowerTailWork": {
+    "catalogueID": "T01",
+    "work": "Tử vi — tập dưới137vịtrí và tách tọa thủ/đối cung",
+    "sourceDirectory": "v53/research/tuvi-lower-tail",
+    "currentStep": "T01 tập dưới: đã giữ và xem lượt đầu đủ137/137 vị trí ảnh, bổ sung59 JPEG HTTP200 có TLS/header/byte/SHA-256. Đây chưa phải chép ngoại giao toàn trang hay áp hết quy tắc. Định vị Quyển7 mở121trái, kết136phải; không chốt chữ六終 ở nếp gấp121. Lập bản đồ114 panel đồ và10 xử trí cấp đoạn. Ba ví dụ111/115/116 chạy một batch3HHC+3iztro2.6.2 và3 lượt đọc consumer thật: hai Mệnh vô chính diệu, một Phá Quân tọa thủ. Ban đầu28/30 trường khớp; ảnh native xác nhận một lỗi chép ô đối115, Cự Môn ở Tuất bị lấy thay Liêm–Tham ở Hợi. Đính chính có lưu vết cho30/30 trường và10 so tách cung; không chạy lại chart. Tám crop khớp RGB, sáu dùng làm chứng đọc, hai crop nếp gấp bị loại. Năm nhóm kiểm đạt. HTML, engine, content và webZIP giữ nguyên byte; toàn kho vẫn mở.",
+    "latestResearchReport": "TUVI_LOWER_TAIL_REPORT.md",
+    "sourceLimits": [
+      "T01: tập trên129 và tập dưới137 vị trí đã xem lượt đầu. Tiếp chép từng mệnh đề đủ điều kiện và ma trận sao/cung/hạn; không tải lại bản đồ hoặc đánh đồng266ảnh với áp hết bảy quyển.",
+      "Quyển7: giữ đủ đồng cung, tam phương tứ chính, vượng/hãm, cát/sát, giờ sinh và niên hạn. Mười xử trí cấp đoạn chưa phải mười quy tắc hoàn chỉnh; 金星/司正 và chữ mờ cần ngữ cảnh hoặc nhân chứng trước chuẩn hóa.",
+      "Đồ111/115/116 dùng ba năm thử hiện đại1951/1954/1980, không phải ngày sinh nhân vật lịch sử.115 đã sửa ô Hợi廉貞貪狼 từ ảnh; giữ freeze và runtime ban đầu, không chạy lại chart. Các đồ còn lại mới xem đầu, không cộng thành114caengine.",
+      "Giữ đính chính mốc60六 cũ.121 chỉ chắc nhan đề mở七, không dùng hai crop mờ làm chứng六終. Mệnh vô chính diệu vẫn tách sao đối cung khỏi sao tọa thủ; chưa suy nghề nghiệp, giàu nghèo, sức khỏe hay thọ mệnh.",
+      "Luân phiên Bát tự43cha liên kết phần/47chưa; Nhà P08 tháng82rõ/2mờ,720ô ngày và giao môn đổi tượng; Dịch B02/B03/Mai Hoa. Kiến Lộc UI chờ browserQA; nguồn và QA ngoài site; không xuất bản hoặc tuyên bố hết kho."
+    ]
+  },
+  "previousHomeMonthlyPremisesWork": {
+    "catalogueID": "P08",
+    "work": "Nhà ở — phạm vi sửa chữa và tháng cục bộ trong月論",
+    "sourceDirectory": "v53/research/home-time-premises",
+    "currentStep": "P08 phạm vi nguyệt luận: từ mục lục/metadata ITKC theo next-index lấy8ảnh240–247/18body HTTP200/TLS/byte/SHA, cùng tác phẩm選擇要略 đã có; không thêm container hoặc bản độc lập P08. Xem8vị trí gồm ranh niên/nhật luận,19xử trí cấp mục,8cropnative khớpRGB;1crop遊龍 thiếu cột cuối bị loại. Tách4vị từ sửa chỗ có sẵn, ngoại lệ dựng mới ở丘公暗刀殺 và土公敗日/動土 ở土公/遊龍伏龍. Bốn ví dụ vị trí in sẵn giữ gốc năm/tháng khai báo, không nội suy12tháng. Hàm riêng giữ ba trị,7kiểm đạt/672khung/504khung sai gốc tháng chưa rõ; không biến một điều kiêng cục bộ thành phép thi công hay kết luận tốt xấu. Tái dùng4ví dụ lịch thật đã lưu,0đối tượnglịch/chartHHC/iztro mới. Câu不問節氣 chỉ theo đoạn, chưa giải gốc/nhuận/lịch tháng toàn sách; kể ứng nghiệm/nghi thức giữ lịch sử, không thành biện pháp trên web. HTML/site/webZIP nguyên byte, nguồn/QA ngoài site, toàn kho mở.",
+    "latestResearchReport": "HOME_TIME_PREMISES_REPORT.md",
+    "sourceLimits": [
+      "P08: tiếp19mục月論 ở điều kiện đồng vị, mức sửa nhỏ/lớn, nguồn phương và ưu tiên; mới tách4vị từ cục bộ, chưa áp trọn19mệnh đề. Câu不問節氣 không xác minh lịch tháng toàn tác phẩm hoặc P08.",
+      "Tiếp月論/日論/時論/總論 với đúng nguồn khi cần gốc lịch/công việc; không tự chuyển月份 thành tháng âm số, bỏ tháng nhuận hoặc lấy chi tiết khí cho mọi bảng.",
+      "P08 vẫn còn720ô nhãn ghép ngoài建/破, hai chữ月財 của bản đang dùng, giao môn đổi tượng và gốc cửa/phòng. Đối chứng ITKC乙 và năm ô中 giữ riêng, không tự emend hoặc thay thành can.",
+      "Bát tự43cha liên kết phần/47chưa, sinh vượng/dụng thần/truyền bản còn mở;Tửvi266ảnh xem đầu chưa mọi mệnh đề;DịchB02/B03/MaiHoa tiếp điều kiện chưa khép.",
+      "Kiến Lộc UI chờbrowserQA theo cài đặt Work hiện tắt browser; nguồn/corpus/suy luận/QA ngoài site. Giữ bản đã hoàn tất, không xuất bản hoặc tuyên bố hết kho."
+    ]
+  },
+  "previousHomeGeneralPremisesWork": {
+    "catalogueID": "P08",
+    "work": "Nhà ở — điều kiện công việc, neo trung cung và khoảng ngày nguồn",
+    "sourceDirectory": "v53/research/home-general-premises",
+    "currentStep": "Tổng luận nhà ở: giữ23bodyHTTP200/TLS/SHA, gồm10ảnh cơ quan257–266 của cùng選擇要略; xem10vị trí đầu lượt,15xử trí cấp mục và6cropRGB. Bốn hàm riêng tách làm liên tục/tạm dừng sau竪柱, điều kiện trung cung無殺而有吉, tám cấu hình neo trung cung theo công năng, và cửa sổ sửa phương có ngày tương đối Đại Hàn/Lập Xuân. Không thay tâm hình học hoặc tự cho phép thi công. Tám nhóm kiểm đạt:3888khung công việc/81trung cung/24neo/540cửa sổ,3348khung sai gốc thời gian giữ chưa rõ,21đầu vào sai bị chặn.33ca kỳ vọng giữ từ trước triển khai;1ca 茶亭 bổ sung điều kiện chung皆以向中一間 sau kiểm đầu, giữ toàn bộ bản trước. Chạy2đối tượnglunar/2bảngtiếtkhí thật cho2025–2026 cho thấy đếm ngày lịch khác số giờ; không tự chọn cách đếm, múi giờ hoặc ranh nguồn.日論18mục/時論4mục mới đọc bản số, chưa đối ảnh.0chartHHC/iztro mới;web nguyênbyte,toànkho mở.",
+    "latestResearchReport": "HOME_GENERAL_PREMISES_REPORT.md",
+    "sourceLimits": [
+      "P08: đối ảnh日論18mục/時論4mục từ metadata cơ quan; tái dùng ảnh247đã có nếu trùng, không tải lại. Giữ異文日/旬vàgốc tháng riêng.",
+      "Tổng luận còn11mục chưa tách hàm, bốn nhóm chọn lọc cũng chưa khép toàn bộ lịch/ưu tiên/nghi thức. Giữ120步 và gốc trung cung theo công năng, không tự chuyển mét/tọa độ.",
+      "Nguyệt luận19mục chưa áp trọn;P08còn720ô nhãn ghép ngoài建/破,2chữ月財vàgiao môn đổi tượng. Không tự emend bằng nhân chứng liên quan.",
+      "Bát tự43cha liên kết phần/47chưa;Tửvi266ảnh xem đầu chưa mọi mệnh đề;DịchB02/B03/MaiHoa tiếp điều kiện chưa khép.",
+      "Kiến Lộc UI chờbrowserQA vì Worktắt browser; nguồn/corpus/QA ngoài site, giữ bản cũ, không tuyên bố hết kho."
+    ]
+  },
+  "previousHomeDayHourScopesWork": {
+    "catalogueID": "P08",
+    "work": "Nhà ở — mẫu ngày khai báo và phạm vi điều kiện giờ theo từng nguồn",
+    "sourceDirectory": "v53/research/home-day-hour-scopes",
+    "currentStep": "Nhật/thời luận nhà ở:17bodyHTTP200/TLS/SHA với8ảnh mới248–253/255–256vàtái dùng247,đã xem9vịtrí;22xử trí cấp mục,chưa áp hết22mệnh đề.8cropchứng cứcuốiRGBkhớp;9cropthử bịloại,mộtlềtiêuđềmởrộngsaukiểmđầukhôngđổichữ/kỳvọng/module.Ảnh並忌此日khácbảnsố並起此日,tiêuđề刑隔/正文州隔khácsố州鬲,và日中giữriêngchúgiảicơquan旬中.HaiAPIriênggiữ4cặptháng/mùa/chi天地轉殺,孟滿/仲破/季開天賊vàphạmvingànhviệc截路/旬中vớilờiưu tiêngiờcóđủtiềnđề;chưanốilịch/chấmngàygiờtổngthể.Bảykiểmđạt,3588khungngày/594khunggiờ/2691khungsai gốcthờigiangiữchưarõ/20đầuvàosaibịchặn;28cakỳvọngtrướctriểnkhai.Gọi15lầnhàmP08thậtđãgiữsohoạtđộng,khácdanhmụckiênggiữtheonguồn,0enginecalendar/chartHHC/iztromới.Webnguyênbyte,toànkhomở.",
+    "latestResearchReport": "HOME_DAY_HOUR_SCOPES_REPORT.md",
+    "sourceLimits": [
+      "Nhật luận còn16mục chưa tách hàm;đối chính xác điều kiện/ngoại lệ ở白虎/伏斷/四廢/火星/各隔 trước khi nối thao tác. Không suy ANY/ALL từ danh sách chưa phân định.",
+      "Thời luận: bốn mục mới áp tiền đề riêng;四大吉時/黃道/吉神到時và通天竅/六壬/天罡chưa có adapter nguồn,日/旬giữ lựa chọn rõ. Không tự gộp截路P08vớiITKC.",
+      "Tổng luận15/nguyệt luận19chưa áp trọn;gốc thời gian,nhuận,trungcungcôngnăng,120步vàưu tiêncòn mở. P08còn720ônhãnghépngoài建/破,2chữ月財vàgiao môn đổi tượng.",
+      "Bát tự43cha liên kết phần/47chưa;Tửvi266ảnh xem đầu chưa mọi mệnh đề;DịchB02/B03/MaiHoa tiếp điều kiện chưa khép.",
+      "Kiến Lộc UI chờbrowserQA vì Worktắt browser;nguồn/corpus/QAngoàisite,giữ bảncũ,khôngtuyênbốhếtkho."
+    ]
+  },
+  "previousResearchResumePointerWork": {
+    "catalogueID": "B02",
+    "work": "Sửa nối trạng thái hiện hành và ngăn lặp phạm vi đã tích hợp",
+    "sourceDirectory": "v53/research/research-resume-pointer",
+    "currentStep": "Sửa đường dẫn trạng thái B02: currentB02UnitMap còn trỏ136đơn vị/32khoảng đọc đầu/96chỉ đề mục, mâu thuẫn currentSourceUnitCounts137/137/0 và báo cáo đã phát hành. Trỏ đúng bản đồ liuyao-foundation-span137khoảng/0áp trọn, giữ mọi bản đồ lịch sử. Thêm chỉ mục tiếp tục và guard chỉ cho B02/hai phạm vi Thiên thời đã biết; phần chọn vai trò191/201vàquẻHằng–ĐạiQuá đã có từ27/10, nên tái dùng. Không phát hành module thời tiết trùng. Lượt phát hiện đã gọi lặp2HHC/1compile; ghi rõ0ca nguồn/vị trí/PDF/HTTPmới, các kiểm guardkhông chạy engine.8ảnh staging bịrender180DPIthừa đã giữ bản mới rồi phục hồi đủ8hash144DPIgốc;PDFvàV53đang dùng nguyênbyte. Đây là sửa điều hướng nghiên cứu, không tăng độ phủ tác phẩm.",
+    "latestResearchReport": "RESEARCH_RESUME_POINTER_REPORT.md",
+    "sourceLimits": [
+      "Đọc RESUME_INDEX.json và COVERAGE.json trước khi chọn nhánh B02. Dùng bản đồ137/137ởliuyao-foundation-span;map136trongjinqian/weatherlàlịch sử. Không lặp chọn vai trò191/201hoặcHằng–ĐạiQuá nếu nguồn/logic giữ.",
+      "B02còn chọnDụng/NguyênKỵCừu,căn khí/vượng suy,hiệu lực/ưu tiên/phản ví dụ,日月/旬空/飛伏/應期 và tranh luận giọng nguồn.137khoảngđọc đầu không là137chương áp trọn.",
+      "NhàP08:nhật luận16mục vàtoàn ngữ cảnhgiờ/nguyệt/tổng luận chưa khép;gốc lịch/nhuận,120步,trung cung công năng,日旬/刑州 và720nhãn ghép ngoài建破 giữ riêng.",
+      "Bát tự43cha liên kết phần/47chưa;Tửvi266ảnh xem đầu chưa mọi mệnh đề;B03/MaiHoa tiếp điều kiện chưa khép. Tra độ phủ hiện hành trước tái dùng staging.",
+      "Kiến LộcUIvẫnchờbrowserQAdoWorktắt browser;nguồn/corpus/QAngoàisite,giữ bản cũ,không tuyên bốhếtkho."
+    ]
+  },
+  "historicalSupersededInProgressScopeBeforeFuduan": {
+    "status": "reference-and-source-evidence-verified;release-verification-pending",
+    "sourceDirectory": "v53/research/home-time-premises"
+  },
+  "previousHomeFuduanWork": {
+    "catalogueIDs": [
+      "P08-relatedITKC",
+      "L01",
+      "L02"
+    ],
+    "work": "Phục đoạn:phânbiệtnguồn/phêbìnhvàkiểmchu kỳhữu hạn",
+    "sourceDirectory": "v53/research/home-fuduan",
+    "currentStep": "Phục đoạn: giữ3bodyHTTP200/TLS/SHA và1PDF107vịtrí, mới xem11vịtrí;khôngnhậnhếtsách. Tách ITKC辰剋干/四殺沒時 khỏi phép28tú được Hiệp Kỷ mô tả rồi phản bác. Chép84tên tú và7ví dụ;2API nội bộ giữ nguồn/khung tường minh,0kếtluận cát hung/0adapterlịch. Tám nhóm kiểm:5040khung,4452cặp7ngày,4844cặp28bước,7biên(1nguồn+6suy),19khungchưarõ/14đầuvàosaibịchặn. Ba rawDCTđốibytevớiPDF,5cropRGB;3JPEGtái mã hóa/2cropthử bịloại.7tệp kỳ vọng/bằngchứngđóngbăngtrướctriểnkhai,51tệppromoteSHA. L01/L02cùngtácphẩmchuyểnresearch_only,0áphếttoànkho;web nguyênbyte.",
+    "latestResearchReport": "HOME_FUDUAN_REPORT.md",
+    "sourceLimits": [
+      "Phục đoạn ITKC:chưa nghĩa/gốc辰 và四殺沒時;khôngghép thuậttú bịHiệpKỷphê. Bảng84tênđãđối;khônglặptải/chép. Gốcnguyên,nhãn日/chúcáthungvà96vịtríPDFchưaxem giữmở.",
+      "Nhật/thờiluận:tiếp四廢/白虎/火星/各隔vàcácngoạilệ theo đúngbản;khôngsuyquytắcđầyđủtừdanhmục. Gốclịch/nhuận/120步/trungcung/日旬/刑州và720nhãnghépP08ngoài建破vẫnmở.",
+      "B02 dùng RESUME_INDEX.json và bảnđồliuyao-foundation-span137/137/0;khônglặpvaitrò191/201hayHằng–ĐạiQuá. ChọnDụng/NguyênKỵCừu,vượngsuy/hiệulực/日月/旬空/飛伏/應期cònmở.",
+      "Báttự43cha liênkếtphần/47chưa;Tửvi266vịtríxemđầuchưamọimệnhđề;B03/MaiHoatiếpđiềukiệnchưakhép. KiếnLộcUIchờbrowserQAdoWorktắtbrowser.",
+      "Giữnguồn/corpus/QAngoàisite vàbảncũ;khôngtuyênbốhếtkho,khôngđưaphépđượcnguồndẫnđểphảnbácthànhlờikhuyên."
+    ]
+  },
+  "previousHomeActivityClausesWork": {
+    "catalogueIDs": [
+      "P08-relatedITKC"
+    ],
+    "work": "Nhật luận: phạm vi hoạt động, ngoại lệ và giọng nguồn",
+    "sourceDirectory": "v53/research/home-activity-clauses",
+    "currentStep": "Nhật luận: đọc mở rộng sáu ảnh ITKC248–253 đã giữ;0HTTP/vị trí/container/nhân chứng mới. Tách bảy nhóm điều kiện công việc 白虎/四廢/萬通火星/天火/受死/天隔/人隔. Giữ Đại sát廳堂中間 khác Lôi đình廳堂,官曆 khác lời dẫn諸曆書;ảnh có曆 khác bản số諸書.45ca kỳ vọng trước triển khai/384khung/2574bất biến,12khung không hỗ trợ/188thiếu tiền đề/10đầu vào sai.8cropRGB cuối/5trial loại,3tệp freeze/22identity. 火水隔及/ưu tiên vẫn mở,0adapterlịch/0engine lịch hay lá số mới/0kết luận tốt xấu tổng thể;web nguyên byte,toàn kho mở.",
+    "latestResearchReport": "HOME_ACTIVITY_CLAUSES_REPORT.md",
+    "sourceLimits": [
+      "Nhật luận: tiếp 地隔/神隔/林山隔/鬼隔/刑州隔 và cách nối danh sách, ưu tiên/ngoại lệ, lịch sao. 火水隔及 chưa chọn AND/OR;không lấy miễn 火隔 xóa kiêng 萬通火星.",
+      "Bạch hổ cần gốc lịch sao/trung cung và quy đổi không gian;乙未/乙卯 là lời kể,không hai ngày kiêng cố định. 四廢 cần gốc phân ngày/雜用;không coi thiếu cát thần là kết luận ngược.",
+      "Phục đoạn đã có84tên tú/7ví dụ/kiểm chu kỳ riêng;không tải/chép lại. ITKC辰剋干/四殺沒時,nguyên/hàng日/chú cát hung và96vị trí PDFchưa đọc còn mở.",
+      "B02 dùng RESUME_INDEX.json/mapliuyao-foundation-span137/137/0;không lặp vai trò191/201/Hằng–ĐạiQuá. Tiếp Dụng/NguyênKỵCừu,vượng suy/hiệu lực/日月/旬空/飛伏/應期.",
+      "Bát tự43cha liên kết phần/47chưa;Tửvi266vị trí xem đầu chưa mọi mệnh đề;B03/MaiHoa/ranh lịch/nhuận/120步/trung cung/720nhãn P08còn mở. Kiến Lộc UIchờbrowserQAdoWorktắt browser.",
+      "Giữ nguồn/corpus/QAngoài site và bản cũ;không tuyên bố toàn kho hoàn tất hoặc tự xuất bản."
+    ]
+  },
+  "previousLiuyaoTriadWitnessWork": {
+    "catalogueIDs": [
+      "B02"
+    ],
+    "work": "Tam hợp: đối dị bản một/ba và nhận diện ứng viên theo nguồn",
+    "sourceDirectory": "v53/research/liuyao-triad-witness",
+    "currentStep": "Tam hợp B02: bốn ảnh Nhật của hồ sơ4756814HTTP200/TLSauthorized/SHA(3/26định vị,8/9đích),thực nhận3000×2073khácmanifest6150×4250;0JP2/PDF mới,0vị tríNLC mới. Ảnh Nhật câu đầu三交動khácNLC78一交動;giữ dị bản/chuẩn hóa交→爻tường minh,khôngsửaNLC/nhậptruyềnbảnđộclập. Ba tọa độ đối chọn,3cropRGB/1trialloại,5tệp freeze/9ca trước triển khai. Hàm chọnnguồnnhận tập con3minhđộng+phầncònlạikhônghoạtđộngđãkhai báo;thiếu/ngoài tập giữ chưa rõ,0thànhcụctựđộng. Támkiểm/64mẫu/4khung nguồn/7đầu vào sai/3khungchờ.2HHCthậtmã2→63cho ví dụ tổng hợp,0quẻ innguồnmới;test/QAkhônggọilặp.27identity,moduleNLC/map/enginegiữSHA;webnguyênbyte,toànkhomở.",
+    "latestResearchReport": "LIUYAO_TRIAD_WITNESS_REPORT.md",
+    "sourceLimits": [
+      "B02 Tam hợp: Nhật三/NLC一 đã có dị bản chọn,không tải/đối lại chỉ để tăng số. Ngữ nghĩa trọn mode1/minh-ám/hào biến,ngày tháng bổ túc/空破/入墓,ThếDụng trong cục và hiệu lực vẫn mở;không đổiNLChoặc nhậpngưỡngB03.",
+      "B02 dùng RESUME_INDEX.json/mapliuyao-foundation-span137/137/0. ChọnDụng/NguyênKỵCừu,cănkhí/vượngsuy,hiệulực/ưu tiên/phảnvídụ/日月/旬空/飛伏/應期 vàgiọngnguồn cần tiếp;khônglặpvaitrò191/201/Hằng–ĐạiQuá.",
+      "Nhật luận nhà: bảy nhóm công việc đã có,hỏa/thủy隔及vàưu tiên chưa khép;地隔/神隔/林山隔/鬼隔/刑州隔vàlịchsao,cáchđổikhônggianvẫnmở. Không lấy miễn火隔xóa kiêng萬通火星.",
+      "Phục đoạn84tên tú/7ví dụ/chu kỳ đã giữ;ITKC辰剋干/四殺沒時,nguyên/hàng日/chúcáthungvà96vịtríPDFchưađọc cònmở. P08ranhtháng/nhuận/120步/trungcung/720nhãnngoài建破chưakhép.",
+      "Bát tự43cha liênkếtphần/47chưa;Tửvi266vịtríxemđầuchưamọimệnhđề;B03/MaiHoatiếpđiềukiệnchưakhép. KiếnLộcUIchờbrowserQAdoWorktắtbrowser.",
+      "Giữ nguồn/corpus/QAngoài site và bản cũ;không tuyên bố hếtkho/hiệulực tiênđoán hoặc tựxuấtbản. Hànhvi trong sách lànộidungnghiêncứu,không làlệnhngườidùng."
+    ]
+  },
+  "recoveryContinuation": {
+    "date": "2026-10-29",
+    "originalThread": "01a17219-cd02-7682-88b6-afe540e7be3a",
+    "currentThread": "01a1868a-223a-7e33-9ad0-708f1abd6252",
+    "historyExport": "recovery/2026-10-29_HKO_iztro",
+    "resumedFromNewerDiskStagingRatherThanOlderPendingPointer": true
+  },
+  "previousBaziFoodChainWork": {
+    "catalogueIDs": [
+      "M01"
+    ],
+    "work": "Thực thần C07 — chuỗi nguồn và chủ ngữ khuyết",
+    "sourceDirectory": "v53/research/bazi-food-chain",
+    "currentStep": "Thực thần C07: tích hợp chuỗi nguồn 甲/丙/壬/戊/庚 với sáu cạnh tọa độ và ba cách gán chủ ngữ tường minh. Ảnh 005-85a giữ câu 不能生戊土不能制庚金 không lặp chủ ngữ; cách gán cả hai cho 丙 là suy luận biên tập, cách lấy 戊 làm chủ ngữ cạnh sau mâu thuẫn tọa độ 戊→庚 sinh. Không sửa văn nguồn hoặc coi quan hệ ngũ hành là hiệu lực. Tái dùng một batch thật đã lưu: 11 hàm Thập thần HHC/11 bảng lunar/5 bảng hành; không gọi lại engine khi nối phiên. Bảy nhóm kiểm: 8 ca kỳ vọng trước triển khai, 81 khung ba giá trị, 979 bất biến, 9 khung không hỗ trợ và 5 đầu vào sai. Hai crop native khớp RGB; hai crop thử vượt biên giữ riêng và loại khỏi bằng chứng. Ma trận 90 cha: 44 liên kết phần/46 chưa/0 áp trọn. 0 HTTP/vị trí nguồn mới, web nguyên byte; toàn kho còn mở.",
+    "latestResearchReport": "BAZI_FOOD_CHAIN_REPORT.md",
+    "sourceLimits": [
+      "Bát tự C07: chủ ngữ khuyết vẫn là mô hình biên tập; vượng suy, chế hóa, cứu giải, ưu tiên và kết quả chưa xác lập. C05 cần đối phạm vi năm/tháng so với ngày/giờ và từ nối; không tự chọn AND/OR hay số trụ.",
+      "Ma trận Thực thần hiện hành: v53/research/bazi-food-chain/CURRENT_CONTEXT_COVERAGE.json, 44 liên kết phần/46 chưa/0 cha áp trọn; các ma trận cũ giữ lịch sử.",
+      "B02 Tam hợp: Nhật三/NLC一 đã có dị bản chọn,không tải/đối lại chỉ để tăng số. Ngữ nghĩa trọn mode1/minh-ám/hào biến,ngày tháng bổ túc/空破/入墓,ThếDụng trong cục và hiệu lực vẫn mở;không đổiNLChoặc nhậpngưỡngB03.",
+      "B02 dùng RESUME_INDEX.json/mapliuyao-foundation-span137/137/0. ChọnDụng/NguyênKỵCừu,cănkhí/vượngsuy,hiệulực/ưu tiên/phảnvídụ/日月/旬空/飛伏/應期 vàgiọngnguồn cần tiếp;khônglặpvaitrò191/201/Hằng–ĐạiQuá.",
+      "Nhật luận nhà: bảy nhóm công việc đã có,hỏa/thủy隔及vàưu tiên chưa khép;地隔/神隔/林山隔/鬼隔/刑州隔vàlịchsao,cáchđổikhônggianvẫnmở. Không lấy miễn火隔xóa kiêng萬通火星.",
+      "Phục đoạn84tên tú/7ví dụ/chu kỳ đã giữ;ITKC辰剋干/四殺沒時,nguyên/hàng日/chúcáthungvà96vịtríPDFchưađọc cònmở. P08ranhtháng/nhuận/120步/trungcung/720nhãnngoài建破chưakhép.",
+      "Bát tự44cha liênkếtphần/46chưa;Tửvi266vịtríxemđầuchưamọimệnhđề;B03/MaiHoatiếpđiềukiệnchưakhép. KiếnLộcUIchờbrowserQAdoWorktắtbrowser.",
+      "Giữ nguồn/corpus/QAngoài site và bản cũ;không tuyên bố hếtkho/hiệulực tiênđoán hoặc tựxuấtbản. Hànhvi trong sách lànộidungnghiêncứu,không làlệnhngườidùng."
+    ]
+  },
+  "previousBaziLifeResearch": {
+    "catalogueIDs": [
+      "M01"
+    ],
+    "work": "Hai thứ tự12thuật ngữ và20tọađộSinhTử",
+    "sourceDirectory": "v53/research/bazi-ten-stem-life",
+    "latestResearchReport": "BAZI_LIFE_RESEARCH_REPORT.md",
+    "currentStep": "Ngày29/10/2026. Tích hợp từ điển hai thứ tự12thuật ngữ và20tọađộ Sinh–Tử mười can vào hồ sơ nghiên cứu V53. Toàn bộ nguồn, mã nội bộ,ảnh và QA ở ngoài site. HTML và gói web giữ nguyên byte.",
+    "wholeChapterApplied": false
+  },
+  "previousHomeMonthLabelsWork": {
+    "catalogueIDs": [
+      "P08"
+    ],
+    "work": "Nhãn ngày720tọađộ nguồn",
+    "sourceDirectory": "v53/research/home-month-labels",
+    "currentStep": "Ngày29/10/2026. Đã kiểm ảnh đủ720tọađộ nguồn12tháng×60ngày:500nhãn làm việc đọc được,220ôchưa chốt. Chưa thể nói chép đủtoàn bảng hoặc áp trọn tác phẩm. Nhãn nhận gồm天和/地和/人和/河魁/受死/建/破/墓/四廢;không có phép xếp tốt/xấu tổng thể.",
+    "latestResearchReport": "HOME_MONTH_LABELS_REPORT.md",
+    "wholeWorkApplied": false
+  },
+  "previousHomeGeExceptionsWork": {
+    "catalogueIDs": [],
+    "relatedCatalogueIDs": [
+      "P08"
+    ],
+    "sourceIDs": [
+      "itkc-1508A-vol2-daily-selected"
+    ],
+    "work": "Nhật luận: các điều kiện 隔 và hai ngoại lệ địa phương",
+    "sourceDirectory": "v53/research/home-ge-exceptions",
+    "currentStep": "ITKC Nhật luận: đọc mở rộng ba ảnh251–253 đã giữ; mười đơn vị điều kiện biên tập dưới bảy nhóm đề mục. Hai ngoại lệ địa phương với tiền đề khai báo: vào núi để chặt gỗ có 吉星 đối với 林隔/山隔,祭祀 gặp 神在日 đối với 神隔; không tách hoạt động ghép hoặc mở rộng cầu phúc/quỷ lễ. Tám đơn vị giữ cách nối/danh sách/lồng điều kiện/phạm vi chưa rõ. Giữ đề mục 刑隔 khác thân 州隔/bản số 州鬲;種植合成收日 không tạo thêm loại ngày 合 từ dấu phẩy bản số. Bốn tệp freeze/18ca trước triển khai;7kiểm,27khung ba giá trị/135bất biến,20khung không hỗ trợ/5đầu vào sai.3cropRGB chấp nhận/2trial loại. Thực thi môđun 萬通火星 cũ kiểm không ghi đè;0engine lịch/lá số/HTTP/vị trí nguồn mới. Web nguyên byte,toàn kho còn mở.",
+    "latestResearchReport": "HOME_GE_EXCEPTIONS_REPORT.md",
+    "sourceLimits": [
+      "Only two short local exceptions under the declared reading; marker/day qualification remains caller-declared, no date adapter.",
+      "Entering a mountain to cut timber is a combined activity; no split into entry alone or location-free cutting.",
+      "祭祀合神在日 is kept apart from prayer, the preceding benefic list and historical ghost rites.",
+      "Eight condition units keep unresolved list/nested/connective/activity/heading semantics; no AND/OR guessed.",
+      "刑隔 heading and 州隔 running form remain separate roles; digital 州鬲 is not independent testimony.",
+      "種植合成收日 retains governing 合 rather than an invented third day label from digital punctuation.",
+      "No override of 萬通火星 or any other clause; local exception is not overall permission, efficacy or a prediction."
+    ],
+    "wholeWorkApplied": false
+  },
+  "previousBaziBranchUnionWork": {
+    "catalogueIDs": [
+      "M01"
+    ],
+    "relatedCatalogueIDs": [],
+    "sourceIDs": [
+      "tmth002-cadal06066038-branch-union"
+    ],
+    "work": "Tam Mệnh: 論支元六合 và các giọng nguồn",
+    "sourceDirectory": "v53/research/bazi-branch-union",
+    "currentStep": "Tam Mệnh quyển2 論支元六合: xem chín vị trí native191–199, tám vị trí chương192–199/một ranh ngoài;200–202 chỉ giải mã chưa xem. Mười bốn đơn vị biên tập phủ1087codepoint/1090UTF16 của bản số, không đồng nghĩa mọi chữ ảnh/mệnh đề đã đối. Tham chiếu sáu cặp,12hàng tháng nguồn,12cụm lời có hướng theo 天元變化書云 và hai mẫu khai báo thiếu-đích/có-đối-tác 合禄/合馬;không chọn gốc năm/ngày hay áp lên lá số. Giữ 申為二隂六三得九數, gốc giữa 合貴 chưa chốt và danh sách丑未/子午;không tự sửa chữ/chọn ANDOR. Năm tệp freeze trước triển khai;12truy vấn bảng Lục hợp+1Lộc lunar1.8.6 thật,0lịch/lá số. Tám kiểm/144cặp/12tháng/18khung ba trị/1218bất biến/43khung không hỗ trợ/9đầu vào sai;3cropRGB chấp nhận/1trial loại.0HTTP/container/nhân chứng mới;web nguyên byte,toàn kho mở.",
+    "latestResearchReport": "BAZI_BRANCH_UNION_REPORT.md",
+    "sourceLimits": [
+      "U06 廣録 five 往來 pairs, 纳音交涉 and 隔六合: no automatic effective transformation.",
+      "U10 合貴 anchor glyph, 丑未/子午 list AND/OR, complete source birth anchor and precedence.",
+      "U11 明合/暗合 and 拱實/拱虚 comparison is not a numeric strength model.",
+      "U13 甲午辛未/乙未壬午 are two-pillar phrases; no fabricated year-month-day-hour or historical birth dates.",
+      "U14 男女禁忌 remain historical claims; no sex-based fortune classifier.",
+      "All complete efficacy, strength, transformation, natal outcome and inter-source priority remain open."
+    ],
+    "wholeWorkApplied": false
+  },
+  "previousBranchCombinationWork": {
+    "catalogueIDs": [
+      "M01"
+    ],
+    "work": "Tam Mệnh: 六合/三合 theo từng giọng nguồn",
+    "sourceDirectories": [
+      "v53/research/bazi-branch-union",
+      "v53/research/bazi-branch-triad"
+    ],
+    "currentStep": "Tam Mệnh quyển 2: tích hợp nghiên cứu hai chương 論支元六合/論支元三合 trong một gói có ích. 15 vị trí native duy nhất191–205 xem lần đầu gồm ranh; hai khoảng chương192–199 và199–204 chia sẻ199. 36 đơn vị biên tập phủ1894codepoint bản số/1897UTF16, không đồng nghĩa áp hết mọi chữ ảnh/điều kiện. 六合 có sáu cặp,12tháng nguồn,12cụm lời có hướng và hai mẫu khai báo 合禄/合馬. 三合 giữ bốn nhóm ba chi khác nhóm bốn Thổ, điều kiện thiếu một chi chỉ là loại trừ, năm vai nguồn 丙丁 và hai cổng 三位禄格. Giữ 申子申 cùng bất nhất số/chữ;không tự sửa bản gốc hoặc chọn năm/ngày gốc. Batch thật20hàmThậpThầnHHC+12bảng六合/3bảngLộc lunar,0lịch/lá số. Hai bộ8kiểm: 六合144cặp/12tháng/18khung;三合20736khung/103680truy vấn nhóm và tổng tổ hợp252/24 độc lập. Sáu crop chấp nhận/bốn trial loại;0HTTP/container/nhân chứng mới. HTML/site/web ZIP nguyênbyte;toànkho còn mở.",
+    "latestResearchReport": "BAZI_BRANCH_COMBINATIONS_REPORT.md",
+    "sourceLimits": [
+      "Complete effective transformation, benefic/adverse-star identification, strength, priority and real outcomes.",
+      "The source birth-stem basis is not silently the day stem or year stem; no calendar adapter.",
+      "T22 玉井 hidden-stem interaction requires strength/多見/巳宫破壞 and effective combination; no presence-only rule.",
+      "Source clock units and 精氣神 explanation do not define modern time or natal energy.",
+      "No sex, morality, appearance or class prediction on the consumer site."
+    ],
+    "wholeWorkApplied": false
+  },
+  "historicalPriorityBeforeStarsHarms": [
+    "M01: các điều kiện hiệu lực/hữu lực/đa kiến/hư hỏng 巳宫 và hợp can ngầm-hiện ở đoạn 玉井 vẫn mở; 合貴 cần chốt gốc giữa và nối danh sách. Hướng độc lập 論將星華蓋 bắt đầu204/tiếp205 đã xem ranh, phải tái dùng ảnh trước khi render thêm. Không lặp20HHC/15truy vấn bảnglunar vừa giữ.",
+    "Tam Mệnh 六合: tiếp gốc/chữ/phạm vi 合貴, 廣録 往來/隔六合, hiệu lực/ưu tiên; không dựng năm/ngày sinh từ hai trụ. Hướng độc lập kế tiếp 論支元三合 bắt đầu ảnh199;200–202 đã giải mã nhưng chưa đọc, phải xem trước khi tải/render thêm. Không lặp13truy vấn lunar đã giữ."
+  ],
+  "previousStarsHarmsWork": {
+    "catalogueIDs": [
+      "M01"
+    ],
+    "work": "Tam Mệnh: 將星華蓋/咸池/六害 theo nguồn",
+    "sourceDirectories": [
+      "v53/research/bazi-triad-stars",
+      "v53/research/bazi-branch-harm"
+    ],
+    "currentStep": "Tam Mệnh quyển2: tích hợp nghiên cứu將星華蓋/咸池/六害 trong một batch. 11vị trí native204–214 riêng;9đọc đầu mới vào bản hiện hành(4từstaging cũ/5mới lượt này),209 chia sẻ. 71đơn vị biên tập/1616codepoint/1621UTF16,không71quy tắc hoàn chỉnh. Hàm tọa độ sao,điều kiện咸池 và ba hàm Lục hại giữ cặp danh nghĩa/chiều nguồn/bốn tiền đề khai báo/ví dụ乙酉→戊戌. Không ghi đè戌→酉無災 bằng hình học hợp-xung. 20truy vấn bảng đã giữ(4cũ/16mới),12Lục hợp tái dùng,0lá số. Hai bộ8+9nhóm kiểm và source checks đạt;nguồn/QA ngoài site,HTML/web nguyênbyte. Quyển2 hiện68/232vị trí xem đầu theo chỉ mục,164chưa xác lập;toànkho vẫn mở.",
+    "latestResearchReport": "BAZI_STARS_HARMS_REPORT.md",
+    "sourceLimits": [
+      "True ghost, true five element system and source pillar roles require contextual evidence; do not replace with ordinary ten-god, ordinary element or NaYin relation.",
+      "Four optional enhancement clauses only accept an explicit source premise; no inferred strength, ghost, NaYin role or outcome.",
+      "Causal combination-with-clash geometry cannot override the directed酉→戌/戌→酉 wording.",
+      "羊刃/刼煞/官符, vitality/death, natal palace, priority and full actual efficacy remain open.",
+      "Historical personality, sex, health, mortality, family and rank assertions are not user predictions."
+    ],
+    "wholeWorkApplied": false
+  },
+  "historicalPriorityBeforePenaltyClash": [
+    "Tiếp論三刑 từ214 đã xem ranh;215trở đi chưa đọc trong phạm vi này. Giữ các tên刑 theo từng giọng,đừng lấy nhãn dân gian hiện hành ghi đè nguồn. Đầu mối真五行/真鬼 quyển5/10 mới là bản số chưa đối ảnh;không tự ghép Nạp âm,Thập thần hoặc hành can. Không gọi lại20truy vấn bảng/12Lục hợp đã giữ.",
+    "Nhật luận 隔: tám đơn vị còn cần cách nối, hệ ngày/sao/lục nhâm và ưu tiên; không tự chọn AND/OR. Hai câu ngắn chỉ có ngoại lệ cục bộ trong khung khai báo, không phép hành động hay kết quả tổng thể. Nếu thiếu tiền đề, chuyển nhánh độc lập theo ma trận.",
+    "Bát tự C07: chủ ngữ khuyết vẫn là mô hình biên tập; vượng suy, chế hóa, cứu giải, ưu tiên và kết quả chưa xác lập. C05 cần đối phạm vi năm/tháng so với ngày/giờ và từ nối; không tự chọn AND/OR hay số trụ.",
+    "Ma trận Thực thần hiện hành: v53/research/bazi-food-chain/CURRENT_CONTEXT_COVERAGE.json, 44 liên kết phần/46 chưa/0 cha áp trọn; các ma trận cũ giữ lịch sử.",
+    "B02 Tam hợp: Nhật三/NLC一 đã có dị bản chọn,không tải/đối lại chỉ để tăng số. Ngữ nghĩa trọn mode1/minh-ám/hào biến,ngày tháng bổ túc/空破/入墓,ThếDụng trong cục và hiệu lực vẫn mở;không đổiNLChoặc nhậpngưỡngB03.",
+    "B02 dùng RESUME_INDEX.json/mapliuyao-foundation-span137/137/0. ChọnDụng/NguyênKỵCừu,cănkhí/vượngsuy,hiệulực/ưu tiên/phảnvídụ/日月/旬空/飛伏/應期 vàgiọngnguồn cần tiếp;khônglặpvaitrò191/201/Hằng–ĐạiQuá.",
+    "Nhật luận nhà: bảy nhóm công việc đã có,hỏa/thủy隔及vàưu tiên chưa khép;地隔/神隔/林山隔/鬼隔/刑州隔vàlịchsao,cáchđổikhônggianvẫnmở. Không lấy miễn火隔xóa kiêng萬通火星.",
+    "Phục đoạn84tên tú/7ví dụ/chu kỳ đã giữ;ITKC辰剋干/四殺沒時,nguyên/hàng日/chúcáthungvà96vịtríPDFchưađọc cònmở. P08ranhtháng/nhuận/120步/trungcung/720nhãnngoài建破chưakhép.",
+    "Bát tự44cha liênkếtphần/46chưa;Tửvi266vịtríxemđầuchưamọimệnhđề;B03/MaiHoatiếpđiềukiệnchưakhép. KiếnLộcUIchờbrowserQAdoWorktắtbrowser.",
+    "Giữ nguồn/corpus/QAngoài site và bản cũ;không tuyên bố hếtkho/hiệulực tiênđoán hoặc tựxuấtbản. Hànhvi trong sách lànộidungnghiêncứu,không làlệnhngườidùng."
+  ],
+  "previousPenaltyOfficialClashWork": {
+    "catalogueIDs": [
+      "M01"
+    ],
+    "work": "Tam Mệnh:官鄉/真官真鬼,三刑,衝擊",
+    "sourceDirectories": [
+      "v53/research/bazi-true-ghost-context",
+      "v53/research/bazi-branch-penalty",
+      "v53/research/bazi-branch-clash"
+    ],
+    "currentStep": "Tam Mệnh: tích hợp ba phạm vi Quan hương/真官真鬼,三刑và衝擊. 99đơnvịbiêntập/3397codepoint/3405UTF16;không99quytắchoànchỉnh. Quyển5đọc5vịtrí19–23/ngữcảnh論正官;quyển2đọc19vịtrí214–232riêng gồm18mớivà214táidùng. 15hàmnguồn giữba官鄉/tiềnđề真官真鬼,hai giọngtên刑/đủbốnchi/5vídụ刑入/ba vaitrụ,vàcặpxung/nhómđủ/hướng我他/Lộcvớigiớihạnnguồn. Giữ卯寅子,戌丑未未và馬在己chưasửa;khônggộp真五行vớiThậpthần. 24truyvấnbảngthậtđãgiữ/0lá số;6hợpcan,3Nạpâm,12xungtáidùngtheo từngkiểm,có1kếtquảNạpâmđượcdùngở2phạmvi. Ba bộ9nhómkiểmđạt,HTML/site/webnguyênbyte. Chỉmụcquyển2hiện86/232vịtríxemđầu,146chưaxáclập;toànkhovẫnmở.",
+    "latestResearchReport": "BAZI_PENALTY_OFFICIAL_CLASH_REPORT.md",
+    "sourceLimits": [
+      "Fulltrue-five-elementtableandwhichsingle/pair configuration counts ascomplete.",
+      "若不見太歲本干克branch,乙庚in日月時andpartial庚/乙支alternatives require nestedconditionmodels,notpresencethresholds.",
+      "Whetherandhowthisvolume5frameworkconnectstovolume2harmtrue-ghostphrases remainsunestablished.",
+      "No source fortune/health/mortality/rank predictions validated.",
+      "Names無恩/恃勢varybyvoice;no silentcurrentfolklorelabelcorrection.",
+      "Literal卯寅子retained;卯刑子coordinatecomesfromseparateexplicit219clause.",
+      "Full三刑/太歲participation,entry,福聚,官印,benefics,control/priorityremainunresolvedunlessdeclared.",
+      "Noinjury,death,gender,morality,rankorfortuneclassifier.",
+      "戌丑未未isnativeanddigital;noautomaticallyrepairedfour-storetable.",
+      "Horsebranchis己-shapedinnativeanddigital;noautomatic巳normalization;horsebreakingnotimplemented.",
+      "月衝日時時衝年scopeand甲午己亥/己/子unionbreakingconnectivesremainopen.",
+      "User用神/閒神,吉象/凶象,qi/support,福聚/禍聚,void/stars/strengthnotcomputed.",
+      "Nooverallgood/bad,health,morality,mortality,rankorwealthpredictionsvalidated."
+    ],
+    "wholeWorkApplied": false
+  },
+  "previousMultipleUseWork": {
+    "catalogueIDs": [
+      "B02"
+    ],
+    "work": "增刪卜易:兩現, phản ví dụ và vị trí Dụng",
+    "sourceDirectory": "v53/research/liuyao-multiple-use",
+    "currentStep": "B02 Lưỡng hiện: tích hợp năm phép so cổ pháp và bộ giữ đủ vị trí Dụng theo cung quẻ chính. Đọc mở rộng134–136/Nhật50 đã có,0vịtrí đọc đầu/HTTP mới. Giữ ba Dụng của 豫→歸妹 gồm2gốc/1biến dù chỉ2chikhácnhau;khôngrút còn2hoặc xếpưu tiên. 59049tổhợptiềnđề/10320mâuthuẫnchiều,4096cấuhình×5Lụcthân/184320bảnghivịtrí;16nhómthamchiếuđạt. Tái dùng5HHCthật của3quẻ/7nhãnchọn,4nhómkiểmquẻđạt;ảnhNLC135/Nhật50cùng玄月丙午日,khôngquychi/thángdương. Nguồn/QA ngoài site,HTML/webnguyênbyte;137khoảngB02đọcđầu/0áp trọn,toànkho vẫn mở.",
+    "latestResearchReport": "LIUYAO_MULTIPLE_USE_REPORT.md",
+    "sourceLimits": [
+      "Five quoted preference criteria are not a total author-adopted ranking; all five agreeing does not select the use.",
+      "Changing/primary occurrences use the primary palace; no all-transformed-lines activity or temporal concurrency assumed.",
+      "Three uses stay three occurrences even when two share a branch; pairwise inspection is editorial, not a complete three-use selection method.",
+      "玄月丙午日 retained literally; no month-branch or Gregorian date inferred.",
+      "Previous/linked casts and changed question-subject context remain explicit; no independently validated clinical or historical outcomes."
+    ],
+    "wholeWorkApplied": false
+  },
+  "previousHomeSpatialWork": {
+    "catalogueIDs": [
+      "P08"
+    ],
+    "work": "P08/選擇要略:ngữcảnh ngày/phương,đồngvị,cátthần",
+    "sourceDirectory": "v53/research/home-month-spatial",
+    "latestResearchReport": "HOME_SPATIAL_CONTEXT_REPORT.md",
+    "currentStep": "P08 và 選擇要略: tiếp nhận hai ngữ cảnh 建破魁罡 ngày/phương cùng ba đơn vị Nguyệt luận về đồng vị và một vị cát thần đến. Giữ riêng tầng năm/tháng/ngày; một quan sát thuận cục bộ không xóa lời kiêng ở đoạn khác. Hai bộ14nhóm kiểm/3725khung tiền đề biên tập đạt,không phải ca nguồn hay phép tính sao. Thực thi môđun 萬通火星 đã giữ để kiểm giao thoa,0lịch/HHC mới. Ba vị trí ITKC241/244/245 và P08-131 được xem mở rộng;5cropđúngRGB. Chín ảnh locator từ container CổKim đã giữ,1cropRGB:không thấy bảng720ô ở khoảng Tuyểntrạch96–101,khôngsuykhôngcóbảngởmọinơi. P08 vẫn500nhãn đọc/220chưa rõ,195vịtríđọcđầu/0áp trọn;khôngđổiweb.",
+    "wholeWorkApplied": false
+  },
+  "previousTuviDipperWork": {
+    "catalogueIDs": [
+      "T01"
+    ],
+    "work": "Tửvi:hệĐẩu/cửa sổvăn bản/chépsố",
+    "sourceDirectory": "v53/research/tuvi-dipper-windows",
+    "currentStep": "T01: nối14nhãn chính tinh ở giọng bảng Quyển3 với4cửa sổ văn bản hành hạn Quyển5;11nhãn đơn(5Bắc/6Nam),3nhãn ghép chưa phân định. 8nhóm/1718khung/13328bất biến null đạt;giữ đủ vị trí và vai trò sinh/hạn,khôngchọnnửa hạn chung. Tái dùng2HHC+2iztro2.6.2 thật/28tọa độ chính tinh của2ca hiệnđại,56chiếu nhãn khôngphải56chart mới;0engine/HTTP/ảnh mới nhịp tích hợp. Baảnh cũ xem mở rộng/3cropRGB. Đồng tiếp nhận7đoạn chép số Shidian đã lưu:1HTML200/992096byte và10client hỗ trợ ở nhịp trước,0ảnh gốc/0truyền bản độc lập. Nhãn thư việnNộiCácNhật/NamDươngĐường là thuộc tính nền tảng,chưachứngbảnriêng;童限/火鈴/CanhNhâm/khởihạn vẫn mở. Web/HTML nguyênbyte,toànkho chưa xong.",
+    "latestResearchReport": "TUVI_DIPPER_WINDOWS_REPORT.md",
+    "wholeWorkApplied": false
+  },
+  "previousFoodStrengthSubjectWork": {
+    "catalogueIDs": [
+      "M01"
+    ],
+    "work": "Thực thần:C13điều kiện/C14chủ ngữ pha",
+    "sourceDirectory": "v53/research/bazi-food-strength",
+    "currentStep": "Thực thần C13/C14: tách điều kiện nguồn Giáp/Bính/Hỏa/Thổ và chủ ngữ các pha Canh/Nhâm/Giáp. C13 có6cụm chọn/99codepoint, bộ quét đủ bốn trụ hoặc null tìm đúng壬癸亥子; thiếu trụ không thành vắng, không suy hiệu lực nước hoặc vượng suy từ chữ/mùa/phương vận. Sinh旺向祿 giữ điều kiện ghép với chủ ngữ chưa chốt. C14 giữ chủ ngữ dài đầu chưa rõ, bốn câu sau đúng chủ ngữ riêng;敗→沐浴 chỉ dưới chính sách giọng SanmingTiyao được nêu. 16nhóm/385khung/4564bất biến null đạt. Bốn getDiShi đã chạy ở nhịp riêng trước được giữ, tái dùng2tọa độ pha và1cặp Thực thần HHC/lunar từ batch cũ;0gọi engine lúc tích hợp,0lá số/lịch/HTTP/vị trí mới. Ma trận90cha nay46liên kết phần/44chưa/0áp trọn; bản44/46 cũ giữ nguyên SHA để kiểm lịch sử. Nguồn/QA ngoài site, HTML và ZIPweb nguyên byte; toàn kho còn mở.",
+    "latestResearchReport": "BAZI_FOOD_STRENGTH_SUBJECT_REPORT.md",
+    "currentFoodMatrix": "v53/research/bazi-food-strength/CURRENT_CONTEXT_COVERAGE.json",
+    "wholeWorkApplied": false
+  },
+  "recoveredResearchBranches": {
+    "date": "2026-11-01",
+    "status": "organized-for-future-research; no code applied",
+    "archive": "recovery/research-recovery/2026-11-01/HUYEN_HOC_01_13_NOI_DUNG_NGHIEN_CUU_KHOI_PHUC_2026-11-01.zip",
+    "archiveSHA256": "6330ab6e1fbd3736bb3c7bc7e076e4cd105f9bbca106bc13b7cb451cca117483",
+    "supplementalDocumentSHA256": "e70d16957aec036145a8d101664ef0b7f5ab54336afec11533f4e25fa91f1022",
+    "supplementalDocumentMatchesArchiveMemberByteForByte": true,
+    "researchTrackCount": 13,
+    "curatedIndex": "collaboration/imports/recovery-13-branches-2026-11-01/BRANCH_INDEX.md",
+    "verification": "collaboration/imports/recovery-13-branches-2026-11-01/IMPORT_VERIFICATION.json",
+    "recoveredAssetCounts": {
+      "exactOriginalBytes": 3,
+      "textExtractionUnverifiedBytes": 25,
+      "originalUnavailable": 5
+    },
+    "applicationCodeChanged": false,
+    "consumerSiteChanged": false,
+    "currentWorkPreserved": true,
+    "githubSyncStatus": "blocked-http-403-account-suspended",
+    "localCommit": "14fec7f82a84a0a2aec9ecebd343a2300fbebd89",
+    "remoteMainBeforeAttempt": "621d3c7e11098dd34269714d5acd7ed7a67fdfee"
+  }
+}

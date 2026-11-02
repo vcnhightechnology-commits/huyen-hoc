@@ -1,0 +1,272 @@
+{
+  "date": "2026-10-28",
+  "methods": [
+    {
+      "id": "b02-ch041-parent",
+      "pages": [
+        244,
+        245
+      ],
+      "subjects": [
+        "father",
+        "mother"
+      ],
+      "questions": [
+        "longevity"
+      ],
+      "roles": [
+        {
+          "id": "parent",
+          "kin": "父母"
+        }
+      ],
+      "sourceVoice": "chapter41 author; quoted yin/yang convention not automatically applied"
+    },
+    {
+      "id": "b02-ch042-sibling",
+      "pages": [
+        247,
+        248
+      ],
+      "subjects": [
+        "sibling"
+      ],
+      "questions": [
+        "harmony",
+        "support",
+        "future-sibling",
+        "longevity"
+      ],
+      "roles": [
+        {
+          "id": "sibling",
+          "kin": "兄弟"
+        }
+      ],
+      "sourceVoice": "chapter42 explicit question distinction"
+    },
+    {
+      "id": "b02-ch043-spouse",
+      "pages": [
+        249,
+        250,
+        251
+      ],
+      "subjects": [
+        "wife",
+        "husband"
+      ],
+      "questions": [
+        "longevity",
+        "grow-old",
+        "harmony",
+        "affliction"
+      ],
+      "roles": [
+        {
+          "id": "wife",
+          "kin": "妻財"
+        }
+      ],
+      "unextractedSubjects": [
+        "husband"
+      ],
+      "sourceVoice": "chapter43 author separates 財 from competing 應-wife convention; husband role not directly extracted in this bounded span"
+    },
+    {
+      "id": "b02-ch044-offspring",
+      "pages": [
+        252,
+        255,
+        256
+      ],
+      "subjects": [
+        "offspring"
+      ],
+      "questions": [
+        "current-child",
+        "additional-child",
+        "future-child",
+        "upbringing",
+        "rank"
+      ],
+      "roles": [
+        {
+          "id": "descendant",
+          "kin": "子孫"
+        }
+      ],
+      "sourceVoice": "chapter44 distinguishes existence/upbringing/rank and warns against retrospective/infant rank inference"
+    },
+    {
+      "id": "b02-ch045-literary",
+      "pages": [
+        257
+      ],
+      "subjects": [
+        "self"
+      ],
+      "questions": [
+        "literary-study"
+      ],
+      "roles": [
+        {
+          "id": "writing",
+          "kin": "父母"
+        },
+        {
+          "id": "office",
+          "kin": "官鬼"
+        }
+      ],
+      "sourceVoice": "chapter45 儒學 opening; not a universal meaning for 父母"
+    },
+    {
+      "id": "b02-ch045-artisan",
+      "pages": [
+        258
+      ],
+      "subjects": [
+        "self"
+      ],
+      "questions": [
+        "artisan-study"
+      ],
+      "roles": [
+        {
+          "id": "source-use-role",
+          "kin": "妻財"
+        },
+        {
+          "id": "source-generator-role",
+          "kin": "子孫"
+        }
+      ],
+      "sourceVoice": "chapter45 百工 paragraph; named source-use kin group does not select a line or prove efficacy"
+    },
+    {
+      "id": "b02-ch046-classic",
+      "pages": [
+        258,
+        259,
+        260
+      ],
+      "subjects": [
+        "self"
+      ],
+      "questions": [
+        "specified-classic"
+      ],
+      "roles": [
+        {
+          "id": "writing",
+          "kin": "父母"
+        },
+        {
+          "id": "office",
+          "kin": "官鬼"
+        }
+      ],
+      "sourceVoice": "chapter46 author requires specifying one classic; element labels are source coordinates, not recommendations"
+    },
+    {
+      "id": "b02-ch047-teacher",
+      "pages": [
+        260,
+        261
+      ],
+      "subjects": [
+        "self"
+      ],
+      "questions": [
+        "teacher"
+      ],
+      "roles": [
+        {
+          "id": "teacher",
+          "kin": "父母"
+        },
+        {
+          "id": "books",
+          "kin": "父母"
+        }
+      ],
+      "sourceVoice": "chapter47 explicitly uses 父母 for 師長 and 詩書; same candidate set may have two semantic roles"
+    },
+    {
+      "id": "b02-ch048-exam-stage",
+      "pages": [
+        262
+      ],
+      "subjects": [
+        "self"
+      ],
+      "questions": [
+        "specified-exam-stage"
+      ],
+      "roles": [],
+      "sourceVoice": "野鶴: county/prefecture/circuit scopes require separate questions; no automatic stage inference"
+    },
+    {
+      "id": "b02-ch049-first-exam",
+      "pages": [
+        262,
+        263
+      ],
+      "subjects": [
+        "self"
+      ],
+      "questions": [
+        "first-exam"
+      ],
+      "roles": [
+        {
+          "id": "writing",
+          "kin": "父母"
+        },
+        {
+          "id": "office",
+          "kin": "官鬼"
+        }
+      ],
+      "sourceVoice": "chapter49 source stage is historical, not a modern admissions equivalence"
+    }
+  ],
+  "classics": [
+    {
+      "name": "春秋",
+      "element": "金",
+      "sourceTerm": "春秋"
+    },
+    {
+      "name": "毛詩",
+      "element": "木",
+      "sourceTerm": "毛詩"
+    },
+    {
+      "name": "書經",
+      "element": "水",
+      "sourceTerm": "書經"
+    },
+    {
+      "name": "禮記",
+      "element": "火",
+      "sourceTerm": "禮記"
+    },
+    {
+      "name": "易經",
+      "element": "土",
+      "sourceTerm": "易經"
+    }
+  ],
+  "historicalExamStages": [
+    "county",
+    "prefecture",
+    "circuit"
+  ],
+  "sourceInstructionsAreData": true,
+  "automaticQuestionInference": false,
+  "allConditionalRulesCompiled": false,
+  "practicalOutcomesValidated": false,
+  "scope": "Private structural source projection. User target/subject/question cannot be inferred from roles. No chronology, strength, chosen use-line, prognosis, fertility, marriage or admissions result."
+}

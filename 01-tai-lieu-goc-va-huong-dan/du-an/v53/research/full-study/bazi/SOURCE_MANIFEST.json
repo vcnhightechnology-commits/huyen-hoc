@@ -1,0 +1,200 @@
+{
+  "scope": "Private research evidence; not part of site release",
+  "createdUTC": "2026-10-26T03:58:17.811Z",
+  "packageSourceRefs": {
+    "lunarTypescript": {
+      "version": "1.8.6",
+      "gitHead": "a376ec2b8fd1b3069e24c92801bab8707fccd49d"
+    },
+    "lunarJavascript": {
+      "version": "1.7.7",
+      "gitHead": "eecd5d12c8221b82ce574dc2bad2d7aefcb46e56"
+    }
+  },
+  "downloads": [
+    {
+      "file": "sources/npm-lunar-typescript-1.8.6.json",
+      "url": "https://registry.npmjs.org/lunar-typescript/1.8.6",
+      "status": 200,
+      "bytes": 2745,
+      "sha256": "b2500947473ec469d42d94bd5a1dfcee24c58073c22ab76c064dab9b84e620f1",
+      "retrievedUTC": "2026-10-26T03:58:11.132Z",
+      "tlsAuthorized": true,
+      "headers": {
+        "content-type": "application/json",
+        "last-modified": "Mon, 26 Oct 2026 03:54:11 GMT"
+      }
+    },
+    {
+      "file": "sources/npm-lunar-javascript-1.7.7.json",
+      "url": "https://registry.npmjs.org/lunar-javascript/1.7.7",
+      "status": 200,
+      "bytes": 2193,
+      "sha256": "83cbefe78fc968b0c9c513bfa3de2782f460d5e1c0cdd16518dca849924956cb",
+      "retrievedUTC": "2026-10-26T03:58:11.375Z",
+      "tlsAuthorized": true,
+      "headers": {
+        "content-type": "application/json",
+        "last-modified": "Mon, 26 Oct 2026 03:54:20 GMT"
+      }
+    },
+    {
+      "file": "sources/6tail-lunar-bazi.html",
+      "url": "https://6tail.cn/calendar/lunar.bazi.html",
+      "status": 200,
+      "bytes": 25994,
+      "sha256": "604d8db11a9ea5877a0cab600dae55e795943692d76aafea8f594a7c727c3968",
+      "retrievedUTC": "2026-10-26T03:58:12.973Z",
+      "tlsAuthorized": true,
+      "headers": {
+        "content-type": "text/html; charset=utf-8",
+        "etag": "\"669bc5db-658a\"",
+        "last-modified": "Sat, 20 Jul 2024 14:12:43 GMT"
+      }
+    },
+    {
+      "file": "sources/typescript-tree.json",
+      "url": "https://api.github.com/repos/6tail/lunar-typescript/git/trees/a376ec2b8fd1b3069e24c92801bab8707fccd49d?recursive=1",
+      "status": 200,
+      "bytes": 16653,
+      "sha256": "19f54f66e00a1ca95b7cb3679fa8fe2ebe68b9addd69594ac062caf51e418cfa",
+      "retrievedUTC": "2026-10-26T03:58:14.623Z",
+      "tlsAuthorized": true,
+      "headers": {
+        "content-type": "application/json; charset=utf-8",
+        "etag": "W/\"d8c3ebef790e77cd51da1e59da3343f24754f8c2b5114dee53a83c61ca3d3595\"",
+        "last-modified": "Mon, 26 Oct 2026 03:43:21 GMT"
+      }
+    },
+    {
+      "file": "sources/Yun.ts",
+      "url": "https://raw.githubusercontent.com/6tail/lunar-typescript/a376ec2b8fd1b3069e24c92801bab8707fccd49d/src/lib/Yun.ts",
+      "status": 200,
+      "bytes": 3300,
+      "sha256": "0bdf5ffcac7bf4be49a7e2064c3fad3aaf33eb6f75b48356f58fde0d488fb90f",
+      "retrievedUTC": "2026-10-26T03:58:15.593Z",
+      "tlsAuthorized": true,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "\"8f4cc91e3cbc5b71273483762e2a01e8f3a0ea4d367f5471f29276b511b9fe9f\""
+      }
+    },
+    {
+      "file": "sources/DaYun.ts",
+      "url": "https://raw.githubusercontent.com/6tail/lunar-typescript/a376ec2b8fd1b3069e24c92801bab8707fccd49d/src/lib/DaYun.ts",
+      "status": 200,
+      "bytes": 2812,
+      "sha256": "e96923b5857f21922046e031db18036cc812cac38fe3c8834de4f7ca615063d9",
+      "retrievedUTC": "2026-10-26T03:58:15.831Z",
+      "tlsAuthorized": true,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "\"f7011fb075b5d74afd3b558b503e50cd489f1876c707aa5fc02882615fa30b2f\""
+      }
+    },
+    {
+      "file": "sources/Solar.ts",
+      "url": "https://raw.githubusercontent.com/6tail/lunar-typescript/a376ec2b8fd1b3069e24c92801bab8707fccd49d/src/lib/Solar.ts",
+      "status": 200,
+      "bytes": 18220,
+      "sha256": "ae7bcfb29d2301b891373cb56335b5eefff12bd24411cea9560df66c345bb146",
+      "retrievedUTC": "2026-10-26T03:58:16.187Z",
+      "tlsAuthorized": true,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "\"6f864f7b5dcffd63f0011df09368a934c4dae5aeccfd647784ef5e11652d8376\""
+      }
+    },
+    {
+      "file": "sources/EightCharTest.ts",
+      "url": "https://raw.githubusercontent.com/6tail/lunar-typescript/a376ec2b8fd1b3069e24c92801bab8707fccd49d/src/test/EightCharTest.ts",
+      "status": 200,
+      "bytes": 11072,
+      "sha256": "88af41dc3526146d5b1a1c9e850f0733d7d5531eb989493e377346125b72df1c",
+      "retrievedUTC": "2026-10-26T03:58:16.600Z",
+      "tlsAuthorized": true,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "\"36b028986764da5d333592d74e9d10b0d1f34e1269c6200d155fb67eada1d17e\""
+      }
+    },
+    {
+      "file": "sources/typescript-README.md",
+      "url": "https://raw.githubusercontent.com/6tail/lunar-typescript/a376ec2b8fd1b3069e24c92801bab8707fccd49d/README.md",
+      "status": 200,
+      "bytes": 1863,
+      "sha256": "fff51c10ef109e04956ca05ecc3e3162cef7a0970b9e335505221084c60cf4f6",
+      "retrievedUTC": "2026-10-26T03:58:16.796Z",
+      "tlsAuthorized": true,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "\"88703126107ea2ebc966b12448ad3f5fdedb9fa50709e249967a5434a89d9b20\""
+      }
+    },
+    {
+      "file": "sources/javascript-lunar.js",
+      "url": "https://raw.githubusercontent.com/6tail/lunar-javascript/eecd5d12c8221b82ce574dc2bad2d7aefcb46e56/lunar.js",
+      "status": 200,
+      "bytes": 435240,
+      "sha256": "c8adc4a93bd0442b387342402548a891b094b193878de8889df35f2720ffae63",
+      "retrievedUTC": "2026-10-26T03:58:17.161Z",
+      "tlsAuthorized": true,
+      "headers": {
+        "content-type": "text/plain; charset=utf-8",
+        "etag": "\"129ac9fc16f65ac154fe27f10b2fc7de553fd61568e3400773d33d087d2292bb\""
+      }
+    }
+  ],
+  "reused": [
+    {
+      "file": "../../four-items/sources/KR3g0042_002.txt",
+      "bytes": 123566,
+      "sha256": "b0f9badc8aff64ee137392277eb2f7a428c39a9d8c9faa3154f79c626c2131b4",
+      "url": "https://raw.githubusercontent.com/kanripo/KR3g0042/7db72e5553de6ee4c45ed3980c6c67f8a6e451bf/KR3g0042_002.txt",
+      "reusedWithoutNewDownload": true
+    },
+    {
+      "file": "../../four-items/sources/KR3g0042_005.txt",
+      "bytes": 122081,
+      "sha256": "1ebdd92feaa57496b702f962ad6fafd4f19c17e98c38a94b40f626ef321dd997",
+      "url": "https://raw.githubusercontent.com/kanripo/KR3g0042/7db72e5553de6ee4c45ed3980c6c67f8a6e451bf/KR3g0042_005.txt",
+      "reusedWithoutNewDownload": true
+    },
+    {
+      "file": "../../four-items/sources/yuanhai-NTL-v1.pdf",
+      "bytes": 90837030,
+      "sha256": "664bccd1ea4706c609df8ea6cd69a4565db97dc277e876fc22eb125ea41dcc9f",
+      "url": "https://upload.wikimedia.org/wikipedia/commons/f/fa/NTL-9900014379_%E6%B7%B5%E6%B5%B7%E5%AD%90%E5%B9%B3%E5%AD%90%E5%B9%B3%E7%9C%9F%E8%A9%AE_v.1.pdf",
+      "reusedWithoutNewDownload": true
+    },
+    {
+      "file": "../../four-items/sources/yuanhai-p54.png",
+      "bytes": 4965437,
+      "sha256": "f4f28d360594d55ffd86c7b066312e8d9bba0ed51d3e97eece8224f4fa3f5246",
+      "url": null,
+      "reusedWithoutNewDownload": true
+    }
+  ],
+  "local": [
+    {
+      "file": "v46/node_modules/lunar-typescript/package.json",
+      "bytes": 2188,
+      "sha256": "f66f1217e67e227f77b7a35b3c5b40d3835842856920e99ebd7e10f2d940e21c"
+    },
+    {
+      "file": "v46/node_modules/lunar-typescript/dist/index.cjs",
+      "bytes": 425191,
+      "sha256": "76e490b74e9913ed94b49689b90abc688ed1e2b11456312b3eb081ec63cf2fbe"
+    },
+    {
+      "file": "v47/bazi/node_modules/lunar-javascript/package.json",
+      "bytes": 1510,
+      "sha256": "39b062864077ca2980683db5f209cb78339f74e4d5c1dea77b4a6263da116c02"
+    },
+    {
+      "file": "v47/bazi/node_modules/lunar-javascript/lunar.js",
+      "bytes": 435942,
+      "sha256": "9750324bfe1aa63c146f8c72b1143df924466c11c8a5277d7d9225c541a18aaa"
+    }
+  ]
+}

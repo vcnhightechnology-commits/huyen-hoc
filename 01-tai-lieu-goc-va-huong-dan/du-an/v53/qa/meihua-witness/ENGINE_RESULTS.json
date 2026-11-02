@@ -1,0 +1,189 @@
+{
+  "checks": [
+    {
+      "name": "Original PDF and all186retained PNG derivatives retain exact hashes,including41bounded page-reading records",
+      "ok": true
+    },
+    {
+      "name": "Allsix previously retained response bodies remain exact;thisscope has no new HTTP response",
+      "ok": true
+    },
+    {
+      "name": "Manual colophon and volume-start evidence has an explicit calendar conversion,correction history and qualified authorship/edition limits",
+      "ok": true
+    },
+    {
+      "name": "All48directly transcribed Nạp Giáp cells have valid sexagenary parity and source-labelled branch elements",
+      "ok": true
+    },
+    {
+      "name": "Pure Càn/Khôn and mixed Thái/Bĩ controls preserve bottom-to-top and upper/lower direction without reversing the printed table",
+      "ok": true
+    },
+    {
+      "name": "Actual existing casting engine covers all64hexagrams with384research-only assignments;missing day stem never invents six spirits",
+      "ok": true,
+      "detail": {
+        "lineRecords": 384
+      }
+    },
+    {
+      "name": "Two literal six-spirit rows match the compiled output;the remaining rotations are explicitly labelled derivations",
+      "ok": true,
+      "detail": {
+        "stemInputs": 10,
+        "derivedRotations": 4
+      }
+    },
+    {
+      "name": "Research compiler rejects missing/invalid explicit premises and returns fresh records",
+      "ok": true
+    },
+    {
+      "name": "All60nạp-âm pair members agree with the real current destiny engine on element;two label variants are retained without silently rewriting the source",
+      "ok": true,
+      "detail": {
+        "variants": [
+          {
+            "year": 1990,
+            "ganzhi": "庚午",
+            "source": "路傍土",
+            "engine": "路旁土"
+          },
+          {
+            "year": 1991,
+            "ganzhi": "辛未",
+            "source": "路傍土",
+            "engine": "路旁土"
+          },
+          {
+            "year": 2004,
+            "ganzhi": "甲申",
+            "source": "井泉水",
+            "engine": "泉中水"
+          },
+          {
+            "year": 2005,
+            "ganzhi": "乙酉",
+            "source": "井泉水",
+            "engine": "泉中水"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Seasonal transcription retains exactly20printed cells and leaves the unprinted fifth row and calendar boundaries open",
+      "ok": true
+    },
+    {
+      "name": "Unit map distinguishes34bounded groups from a complete physical inventory or whole-book application",
+      "ok": true
+    },
+    {
+      "name": "Released product modules,standalone HTML,root HTML and clean site preserve the last fully checked release bytes",
+      "ok": true
+    },
+    {
+      "name": "Thể–Dụng candidate stays separate with exact file hashes and no unexecuted browser/PDF checks labelled as passed",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "readPageRecords": 41,
+    "unitGroups": 34,
+    "retainedDerivatives": 186,
+    "newDerivatives": 87,
+    "najiaCells": 48,
+    "hexagrams": 64,
+    "researchLineRecords": 384,
+    "nayinElementMatches": 60,
+    "nayinLabelVariantPairs": 2,
+    "sixSpiritLiteralRows": 2,
+    "sixSpiritDerivedRotations": 4,
+    "seasonalCells": 20,
+    "newHTTPResponses": 0,
+    "productChange": false,
+    "wholeBookCompleted": false
+  },
+  "fixtures": [
+    {
+      "upper": 1,
+      "lower": 1,
+      "number": 1,
+      "expected": [
+        "甲子",
+        "甲寅",
+        "甲辰",
+        "壬午",
+        "壬申",
+        "壬戌"
+      ]
+    },
+    {
+      "upper": 8,
+      "lower": 8,
+      "number": 2,
+      "expected": [
+        "乙未",
+        "乙巳",
+        "乙卯",
+        "癸丑",
+        "癸亥",
+        "癸酉"
+      ]
+    },
+    {
+      "upper": 8,
+      "lower": 1,
+      "number": 11,
+      "expected": [
+        "甲子",
+        "甲寅",
+        "甲辰",
+        "癸丑",
+        "癸亥",
+        "癸酉"
+      ]
+    },
+    {
+      "upper": 1,
+      "lower": 8,
+      "number": 12,
+      "expected": [
+        "乙未",
+        "乙巳",
+        "乙卯",
+        "壬午",
+        "壬申",
+        "壬戌"
+      ]
+    }
+  ],
+  "nayinVariants": [
+    {
+      "year": 1990,
+      "ganzhi": "庚午",
+      "source": "路傍土",
+      "engine": "路旁土"
+    },
+    {
+      "year": 1991,
+      "ganzhi": "辛未",
+      "source": "路傍土",
+      "engine": "路旁土"
+    },
+    {
+      "year": 2004,
+      "ganzhi": "甲申",
+      "source": "井泉水",
+      "engine": "泉中水"
+    },
+    {
+      "year": 2005,
+      "ganzhi": "乙酉",
+      "source": "井泉水",
+      "engine": "泉中水"
+    }
+  ],
+  "htmlSHA256": "3800162854742c915d60f0051c65cadb0eb9a1c803f9f937bf1b6a593c96d268"
+}

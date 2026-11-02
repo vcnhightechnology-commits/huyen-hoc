@@ -1,0 +1,205 @@
+{
+  "date": "2026-10-29",
+  "executedUTC": "2026-10-29T10:36:11.331Z",
+  "engineFiles": [
+    {
+      "file": "v53/engine.js",
+      "bytes": 42033,
+      "sha256": "39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6"
+    },
+    {
+      "file": "v53/bazi-relations.js",
+      "bytes": 7414,
+      "sha256": "a1599a0ddbe716f02111e56f5da82943bd2878356fc3959a411fbffc8bd8e6d0"
+    }
+  ],
+  "libraryVersion": "1.8.6",
+  "libraryFile": "v46/node_modules/lunar-typescript/dist/index.cjs",
+  "librarySHA256": "76e490b74e9913ed94b49689b90abc688ed1e2b11456312b3eb081ec63cf2fbe",
+  "scriptSHA256": "cb571496c2bbfef76ee3f26481f28b4ffece07e9026fa67a26c8c97efa37fa51",
+  "freezeSHA256": "f88a1d724012203a7e60a4c60e100c32425da123aee5ed3066c26dbfb476ee4e",
+  "method": "Execute retained HHC engine and HHC_BAZI_RELATIONS.god for20 declared stem pairs; execute lunar-typescript and query its LU table for丙/丁. No fabricated date or natal chart.",
+  "tenGod": [
+    {
+      "anchorStem": "丙",
+      "targetStem": "甲",
+      "targetElement": "木",
+      "expectedTenGod": "Thiên Ấn",
+      "actual": "Thiên Ấn",
+      "matches": true
+    },
+    {
+      "anchorStem": "丙",
+      "targetStem": "乙",
+      "targetElement": "木",
+      "expectedTenGod": "Chính Ấn",
+      "actual": "Chính Ấn",
+      "matches": true
+    },
+    {
+      "anchorStem": "丁",
+      "targetStem": "甲",
+      "targetElement": "木",
+      "expectedTenGod": "Chính Ấn",
+      "actual": "Chính Ấn",
+      "matches": true
+    },
+    {
+      "anchorStem": "丁",
+      "targetStem": "乙",
+      "targetElement": "木",
+      "expectedTenGod": "Thiên Ấn",
+      "actual": "Thiên Ấn",
+      "matches": true
+    },
+    {
+      "anchorStem": "丙",
+      "targetStem": "丙",
+      "targetElement": "火",
+      "expectedTenGod": "Tỷ Kiên",
+      "actual": "Tỷ Kiên",
+      "matches": true
+    },
+    {
+      "anchorStem": "丙",
+      "targetStem": "丁",
+      "targetElement": "火",
+      "expectedTenGod": "Kiếp Tài",
+      "actual": "Kiếp Tài",
+      "matches": true
+    },
+    {
+      "anchorStem": "丁",
+      "targetStem": "丙",
+      "targetElement": "火",
+      "expectedTenGod": "Kiếp Tài",
+      "actual": "Kiếp Tài",
+      "matches": true
+    },
+    {
+      "anchorStem": "丁",
+      "targetStem": "丁",
+      "targetElement": "火",
+      "expectedTenGod": "Tỷ Kiên",
+      "actual": "Tỷ Kiên",
+      "matches": true
+    },
+    {
+      "anchorStem": "丙",
+      "targetStem": "戊",
+      "targetElement": "土",
+      "expectedTenGod": "Thực Thần",
+      "actual": "Thực Thần",
+      "matches": true
+    },
+    {
+      "anchorStem": "丙",
+      "targetStem": "己",
+      "targetElement": "土",
+      "expectedTenGod": "Thương Quan",
+      "actual": "Thương Quan",
+      "matches": true
+    },
+    {
+      "anchorStem": "丁",
+      "targetStem": "戊",
+      "targetElement": "土",
+      "expectedTenGod": "Thương Quan",
+      "actual": "Thương Quan",
+      "matches": true
+    },
+    {
+      "anchorStem": "丁",
+      "targetStem": "己",
+      "targetElement": "土",
+      "expectedTenGod": "Thực Thần",
+      "actual": "Thực Thần",
+      "matches": true
+    },
+    {
+      "anchorStem": "丙",
+      "targetStem": "庚",
+      "targetElement": "金",
+      "expectedTenGod": "Thiên Tài",
+      "actual": "Thiên Tài",
+      "matches": true
+    },
+    {
+      "anchorStem": "丙",
+      "targetStem": "辛",
+      "targetElement": "金",
+      "expectedTenGod": "Chính Tài",
+      "actual": "Chính Tài",
+      "matches": true
+    },
+    {
+      "anchorStem": "丁",
+      "targetStem": "庚",
+      "targetElement": "金",
+      "expectedTenGod": "Chính Tài",
+      "actual": "Chính Tài",
+      "matches": true
+    },
+    {
+      "anchorStem": "丁",
+      "targetStem": "辛",
+      "targetElement": "金",
+      "expectedTenGod": "Thiên Tài",
+      "actual": "Thiên Tài",
+      "matches": true
+    },
+    {
+      "anchorStem": "丙",
+      "targetStem": "壬",
+      "targetElement": "水",
+      "expectedTenGod": "Thất Sát",
+      "actual": "Thất Sát",
+      "matches": true
+    },
+    {
+      "anchorStem": "丙",
+      "targetStem": "癸",
+      "targetElement": "水",
+      "expectedTenGod": "Chính Quan",
+      "actual": "Chính Quan",
+      "matches": true
+    },
+    {
+      "anchorStem": "丁",
+      "targetStem": "壬",
+      "targetElement": "水",
+      "expectedTenGod": "Chính Quan",
+      "actual": "Chính Quan",
+      "matches": true
+    },
+    {
+      "anchorStem": "丁",
+      "targetStem": "癸",
+      "targetElement": "水",
+      "expectedTenGod": "Thất Sát",
+      "actual": "Thất Sát",
+      "matches": true
+    }
+  ],
+  "lu": [
+    {
+      "stem": "丙",
+      "expected": "巳",
+      "actual": "巳",
+      "matches": true
+    },
+    {
+      "stem": "丁",
+      "expected": "午",
+      "actual": "午",
+      "matches": true
+    }
+  ],
+  "actualHHCTenGodCalls": 20,
+  "actualLuTableQueries": 2,
+  "actualCalendarObjects": 0,
+  "actualNatalCharts": 0,
+  "sourceBroadRoleIsNotPolaritySpecificTenGod": true,
+  "limits": "Coordinates only. Source 傷局 has both 食神 and 傷官 engine coordinates; not an engine defect or a change of fixed TenGod. No full effective formation, strength or outcome validated.",
+  "sourceEfficacyValidated": false
+}

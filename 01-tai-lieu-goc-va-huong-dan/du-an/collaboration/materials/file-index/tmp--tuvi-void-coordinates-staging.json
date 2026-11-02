@@ -1,0 +1,101 @@
+{
+  "scope": "tmp/tuvi-void-coordinates-staging",
+  "files": [
+    {
+      "file": "tmp/tuvi-void-coordinates-staging/CROP.json",
+      "bytes": 516,
+      "sha256": "5802e5888e68118c5dde94cc0d7896aafaee0216439a4d21f72fcadf747be8f2",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5802e5888e68118c5dde94cc0d7896aafaee0216439a4d21f72fcadf747be8f2",
+      "httpRange": {
+        "offset": 225846104,
+        "compressedBytes": 327,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-void-coordinates-staging/RESULTS.json",
+      "bytes": 72211,
+      "sha256": "2c7e1edcb5a6000233c797695eb8c72ad8d184f6f8136a73e99025df87fa4c6b",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2c7e1edcb5a6000233c797695eb8c72ad8d184f6f8136a73e99025df87fa4c6b",
+      "httpRange": {
+        "offset": 206706923,
+        "compressedBytes": 5422,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-void-coordinates-staging/SOURCE_MANIFEST.json",
+      "bytes": 1435,
+      "sha256": "db45f329bba6f718297932546aa3aa08c8ca6bcc6fde0f2b07ac33e67ab341aa",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/db45f329bba6f718297932546aa3aa08c8ca6bcc6fde0f2b07ac33e67ab341aa",
+      "httpRange": {
+        "offset": 217308736,
+        "compressedBytes": 699,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-void-coordinates-staging/SOURCE_TABLES.json",
+      "bytes": 4023,
+      "sha256": "76d7e151df205457d640ec067a7164ea4598cddaac43c8004de70f24d4acbc90",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/76d7e151df205457d640ec067a7164ea4598cddaac43c8004de70f24d4acbc90",
+      "httpRange": {
+        "offset": 380985076,
+        "compressedBytes": 1129,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-void-coordinates-staging/WORK_STATE.json",
+      "bytes": 2467,
+      "sha256": "9673aaef5a3589dd6b452b5f0c545eecfd4dfe66bdb447fd4c81e528d7166814",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/9673aaef5a3589dd6b452b5f0c545eecfd4dfe66bdb447fd4c81e528d7166814",
+      "httpRange": {
+        "offset": 367987614,
+        "compressedBytes": 1479,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-void-coordinates-staging/test-void-reference.mjs",
+      "bytes": 10660,
+      "sha256": "0a09191bb623f35cdd66873a56cf6dc55e3e8aec15c6ca94d6fc78e0c02c9877",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0a09191bb623f35cdd66873a56cf6dc55e3e8aec15c6ca94d6fc78e0c02c9877",
+      "httpRange": {
+        "offset": 155150208,
+        "compressedBytes": 4361,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-void-coordinates-staging/void-reference.mjs",
+      "bytes": 2785,
+      "sha256": "dd9526570b0199ef46367277b52194dad7f318e99bf05094cb41087f259d156a",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/dd9526570b0199ef46367277b52194dad7f318e99bf05094cb41087f259d156a",
+      "httpRange": {
+        "offset": 243184971,
+        "compressedBytes": 1269,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-void-coordinates-staging/void80-native.png",
+      "bytes": 1374336,
+      "sha256": "e8133927a746b1e7d539a6f741d8f8d52b9b8037e1e4e190f344d2c2e4370293",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e8133927a746b1e7d539a6f741d8f8d52b9b8037e1e4e190f344d2c2e4370293",
+      "httpRange": {
+        "offset": 389599466,
+        "compressedBytes": 1374751,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

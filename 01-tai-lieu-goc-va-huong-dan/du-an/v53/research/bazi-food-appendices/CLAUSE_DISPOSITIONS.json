@@ -1,0 +1,144 @@
+{
+  "date": "2026-10-28",
+  "records": [
+    {
+      "parentContext": "FOOD-03-C01",
+      "digitalCodepoints": 4,
+      "disposition": "heading",
+      "note": "Title 天衝食祿, not a separate executable rule.",
+      "wholeClauseApplied": false,
+      "practicalOutcomeValidated": false
+    },
+    {
+      "parentContext": "FOOD-03-C02",
+      "digitalCodepoints": 59,
+      "disposition": "partial-coordinate",
+      "note": "甲→丙 and 巳 must both appear; 年月時 scope and 戊日 contrast retained. No automatic extrapolation to ten stems, no ruling on colocation.",
+      "wholeClauseApplied": false,
+      "practicalOutcomeValidated": false
+    },
+    {
+      "parentContext": "FOOD-03-C03",
+      "digitalCodepoints": 38,
+      "disposition": "unresolved-conditions-and-historical-outcome",
+      "note": "月令純粹/四柱順食/財庫 require a named complete method. Historical wealth and parental inheritance are not validated predictions.",
+      "wholeClauseApplied": false,
+      "practicalOutcomeValidated": false
+    },
+    {
+      "parentContext": "FOOD-04-C01",
+      "digitalCodepoints": 4,
+      "disposition": "heading",
+      "note": "福星貴人 title, not the current universal star table.",
+      "wholeClauseApplied": false,
+      "practicalOutcomeValidated": false
+    },
+    {
+      "parentContext": "FOOD-04-C02",
+      "digitalCodepoints": 37,
+      "disposition": "partial-coordinate",
+      "note": "Four listed target tokens, two anchor stems. 本旬 derivation, remaining 餘例推 and target join are not supplied by assumption.",
+      "wholeClauseApplied": false,
+      "practicalOutcomeValidated": false
+    },
+    {
+      "parentContext": "FOOD-04-C03",
+      "digitalCodepoints": 27,
+      "disposition": "explicit-anchor-constraint",
+      "note": "Source says 以年論 and 若以日遁則非. Year anchor required for coordinate audit; no day-stem substitution.",
+      "wholeClauseApplied": false,
+      "practicalOutcomeValidated": false
+    },
+    {
+      "parentContext": "FOOD-05-C01",
+      "digitalCodepoints": 4,
+      "disposition": "heading",
+      "note": "食神同窠 title.",
+      "wholeClauseApplied": false,
+      "practicalOutcomeValidated": false
+    },
+    {
+      "parentContext": "FOOD-05-C02",
+      "digitalCodepoints": 22,
+      "disposition": "literal-plus-declared-mathematical-derivation",
+      "note": "Literal 甲子→丙子 retained. 十三位 is modeled as an explicitly editorial inclusive +12 cycle step; sixty derived rows are separate from the one printed example.",
+      "wholeClauseApplied": false,
+      "practicalOutcomeValidated": false
+    },
+    {
+      "parentContext": "FOOD-05-C03",
+      "digitalCodepoints": 66,
+      "disposition": "historical-ranking-and-conditions",
+      "note": "月不如日/日不如時 recorded as source ordering only. 互換生旺帶祿貴 not automatically derived. Three historical charts are not calendar or outcome evidence in this scope.",
+      "wholeClauseApplied": false,
+      "practicalOutcomeValidated": false
+    },
+    {
+      "parentContext": "FOOD-05-C04",
+      "digitalCodepoints": 24,
+      "disposition": "partial-coordinate-historical-outcome-excluded",
+      "note": "Two explicit year→hour inverse-food examples; Thiên Ấn stays Thiên Ấn. Harm-to-children rhetoric excluded from interpretation.",
+      "wholeClauseApplied": false,
+      "practicalOutcomeValidated": false
+    },
+    {
+      "parentContext": "FOOD-06-C01",
+      "digitalCodepoints": 4,
+      "disposition": "heading",
+      "note": "食神帶合 title.",
+      "wholeClauseApplied": false,
+      "practicalOutcomeValidated": false
+    },
+    {
+      "parentContext": "FOOD-06-C02",
+      "digitalCodepoints": 39,
+      "disposition": "partial-coordinate",
+      "note": "Six printed anchor/food/partner triples only. Existence of a 合 partner does not establish effective combination, transformation, office or authority.",
+      "wholeClauseApplied": false,
+      "practicalOutcomeValidated": false
+    },
+    {
+      "parentContext": "FOOD-08-C01",
+      "digitalCodepoints": 4,
+      "disposition": "heading",
+      "note": "紅鸞天印 is a named Bazi source passage, not Tuvi Hong Loan.",
+      "wholeClauseApplied": false,
+      "practicalOutcomeValidated": false
+    },
+    {
+      "parentContext": "FOOD-08-C02",
+      "digitalCodepoints": 28,
+      "disposition": "partial-coordinate",
+      "note": "Four complete target pillars, day/hour target scope. Anchor role is not explicitly equated with day master. No remainder-table invention or fortune prediction.",
+      "wholeClauseApplied": false,
+      "practicalOutcomeValidated": false
+    },
+    {
+      "parentContext": "FOOD-09-C01",
+      "digitalCodepoints": 4,
+      "disposition": "heading",
+      "note": "墨池涌泉 title.",
+      "wholeClauseApplied": false,
+      "practicalOutcomeValidated": false
+    },
+    {
+      "parentContext": "FOOD-09-C02",
+      "digitalCodepoints": 22,
+      "disposition": "partial-coordinate-and-historical-example",
+      "note": "辛巳 lists 癸巳/癸亥; keep individual presence, do not silently choose OR versus AND. 陳朝議 chart is a literal example only here.",
+      "wholeClauseApplied": false,
+      "practicalOutcomeValidated": false
+    },
+    {
+      "parentContext": "FOOD-09-C03",
+      "digitalCodepoints": 40,
+      "disposition": "partial-coordinate",
+      "note": "Six further anchor/target pairs exactly retained. 己巳→辛亥 and 庚午→壬申 prevent automatic same-branch unification; 文貴 remains a source claim.",
+      "wholeClauseApplied": false,
+      "practicalOutcomeValidated": false
+    }
+  ],
+  "headings": 6,
+  "nonHeadingContexts": 11,
+  "wholeSourceUnitsApplied": 0
+}

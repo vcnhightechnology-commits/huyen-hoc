@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, viewport-fit=cover" />
+<title>请选择网盘下载</title>
+<link rel="stylesheet" href="https://f.shuge.org/dl/style.css?v=20260925d" />
+</head>
+<body>
+<div class="wrap">
+
+  <header class="site-header">
+    <a href="https://www.shuge.org/" class="logo-link">
+      <img src="https://www.shuge.org/wp-content/uploads/2026/05/shuge20260509b-1.png" width="80" alt="书格" />
+    </a>
+    <p class="page-title">请选择网盘下载：<span id="file-name-display"></span></p>
+  </header>
+
+  <div class="columns">
+
+    <!-- 左栏：轻量文档 -->
+    <section class="column column-light">
+      <h2 class="col-title">
+        <span class="title-text">
+          轻量文档
+          <button type="button" class="info-btn" id="light-info-btn" aria-label="轻量文档说明" aria-expanded="false" title="查看轻量文档说明">
+            <svg viewBox="0 0 16 16" width="11" height="11" fill="currentColor" aria-hidden="true">
+              <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0-1A6 6 0 1 0 8 2a6 6 0 0 0 0 12zM7.25 7.5a.75.75 0 0 1 1.5 0v3.75a.75.75 0 0 1-1.5 0V7.5zm.75-3a.875.875 0 1 1 0 1.75.875.875 0 0 1 0-1.75z"/>
+            </svg>
+          </button>
+        </span>
+        <small>手机或小存储用户推荐</small>
+        <div class="info-bubble" id="light-info-bubble" role="tooltip">
+          <div class="info-bubble-arrow" aria-hidden="true"></div>
+          <p>轻量文档专为小屏设备及存储空间受限的用户定制，包含原色与黑白双版本：原色版在裁切前采用最优算法将图片等比缩小至2160px宽（原宽≤2160px则保持原貌不放大），黑白版则经二值化处理，文件体积极小。</p>
+        </div>
+      </h2>
+
+      <div class="row row-qr" id="row-qr" style="display:none;">
+        <a id="qr-link" href="#" target="_blank" title="扫码下载（手机优化版）" class="qr-card">
+          <span class="brand-mark brand-shuge" aria-hidden="true"></span>
+          <div id="qrcode" class="qrcode-box"></div>
+          <div class="qr-caption">手机优化版（原色） · 扫码下载</div>
+        </a>
+      </div>
+
+      <div class="row row-btn" id="row-btn" style="display:none;">
+        <a id="btn-sjd" href="#" target="_blank" class="wide-btn tone-zhuqing">
+          <span class="brand-mark brand-doubao" aria-hidden="true"></span>
+          <span class="wide-btn-title">豆包云盘（手机优化版）</span>
+          <span class="wide-btn-sub">点击直接打开 · 免登录</span>
+        </a>
+      </div>
+
+      <div class="row row-bw" id="row-bw" style="display:none;">
+        <a id="bw-link" href="#" target="_blank" class="link-card bw-card tone-mohui">
+          <div class="card-inner">
+            <h4>黑白版</h4>
+            <h6>快速阅览可选</h6>
+            <p>黑白版基于原色版转换，文件较小。</p>
+          </div>
+        </a>
+      </div>
+
+      <p class="empty-tip" id="light-empty-tip" style="display:none;">暂无轻量文档链接</p>
+    </section>
+
+    <!-- 右栏：原始文档 -->
+    <section class="column column-original">
+      <h2 class="col-title">原大文档 <small>电脑或大屏用户推荐</small></h2>
+      <ul class="grid" id="download-grid"></ul>
+      <p id="link-fail-msg" style="display:none;">
+        如果链接失效，或可从<strong><a href="https://shuge.hanjihebi.com/" target="_blank" title="公开的存储服务器">全站资源</a></strong>选择下载
+      </p>
+    </section>
+
+  </div>
+
+  <section class="meta-info">
+    <p id="age-warning" style="display:none;"><strong>此文件可能包含不适宜未成年人阅读的内容，请确认您的年龄在<span id="age-val"></span>周岁以上才能下载。</strong></p>
+    <p id="short-url-container" style="display:none;"><strong>短链地址：</strong><span id="short-url-val"></span><button type="button" id="copy-short-url-btn" class="copy-btn" title="复制短链地址">复制</button><button type="button" id="qr-short-url-btn" class="copy-btn" title="显示短链地址二维码" aria-haspopup="dialog">二维码</button></p>
+    <dialog id="short-qr-dialog" class="qr-dialog" aria-labelledby="short-qr-title">
+      <button type="button" class="qr-dialog-close" id="short-qr-close" aria-label="关闭">×</button>
+      <h3 id="short-qr-title">短链地址二维码</h3>
+      <div id="short-qrcode" class="qrcode-box"></div>
+      <p class="qr-dialog-url" id="short-qr-url"></p>
+    </dialog>
+    <p id="md5-container" style="display:none;"><strong>MD5值：</strong><span id="md5-val"></span></p>
+  </section>
+
+  <footer class="site-footer">
+    <p>每个人都能自由地看到我们的文明</p>
+    <p>© <a href="https://www.shuge.org">书格</a> | <a href="https://shuge.hanjihebi.com/" target="_blank">公开目录</a>(新窗口) | <a href="https://www.shuge.org/foryou/disk_express/" target="_blank">硬盘直递</a>(新窗口) | <a href="https://www.shuge.org/donate/" target="_blank">捐赠</a>(新窗口)</p>
+  </footer>
+
+</div>
+
+<script src="https://f.shuge.org/dl/qrcode.min.js?v=20260925a"></script>
+<script src="https://f.shuge.org/dl/script.js?v=20260925e"></script>
+</body>
+</html>

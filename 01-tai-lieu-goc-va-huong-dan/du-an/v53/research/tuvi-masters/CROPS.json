@@ -1,0 +1,38 @@
+{
+  "records": [
+    {
+      "source": "v53/research/fortune-followup/official-080.jpg",
+      "sourceSHA256": "ef453337cd2255b4539053c78c89556ca47536ec9bd3cf476730532e63b32e37",
+      "sourceSize": [
+        2200,
+        1659
+      ],
+      "crop": "soul80-native.png",
+      "box": [
+        230,
+        300,
+        1050,
+        1460
+      ],
+      "cropSHA256": "33e885f77a84542533904ea53436eb6ef7d5d0057f0bb7beaf36935885c70a23",
+      "nativePixelsUnscaled": true
+    },
+    {
+      "source": "v53/research/fortune-table/official-081.jpg",
+      "sourceSHA256": "423f7c53bebe9829452f172645dc73d5abfc31bf4e5ccb29f031edf3f5fa8151",
+      "sourceSize": [
+        2200,
+        1659
+      ],
+      "crop": "body81-native.png",
+      "box": [
+        1390,
+        375,
+        1900,
+        1435
+      ],
+      "cropSHA256": "66b3b1b2a6733f472a4e1b25c3fbc89009f1a2b16d20e8f1a02f5105fe99d060",
+      "nativePixelsUnscaled": true
+    }
+  ]
+}

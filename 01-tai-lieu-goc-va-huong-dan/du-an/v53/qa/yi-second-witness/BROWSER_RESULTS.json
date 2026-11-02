@@ -1,0 +1,106 @@
+{
+  "checks": [
+    {
+      "name": "23.6: current HTML shows the refined selected and context reading",
+      "ok": true,
+      "detail": {
+        "selected": "SƠN ĐỊA BÁC · HÀO 6Giữ hạt giống cho chặng sauQuả lớn còn lại và chiếc xe nâng đỡ gợi việc giữ nguồn lực cùng người đồng hành; tự phá mái che sẽ làm mất nơi nương.Gợi ý thực hànhGiữ một nguồn lực cốt lõi và tìm sự hỗ trợ trước khi dùng hết phần dự phòng.",
+        "context": "HÀO 6 · ĐANG ĐỘNGGiữ hạt giống cho chặng sauQuả lớn còn lại và chiếc xe nâng đỡ gợi việc giữ nguồn lực cùng người đồng hành; tự phá mái che sẽ làm mất nơi nương.Gợi ý thực hànhGiữ một nguồn lực cốt lõi và tìm sự hỗ trợ trước khi dùng hết phần dự phòng.",
+        "count": 1
+      }
+    },
+    {
+      "name": "26.3: current HTML shows the refined selected and context reading",
+      "ok": true,
+      "detail": {
+        "selected": "SƠN THIÊN ĐẠI SÚC · HÀO 3Luyện sẵn trước ngày tiếnNgựa tốt cùng việc luyện xe, phòng vệ gợi năng lực cần rèn tập; khi tiến vẫn phải bền chí và thận trọng.Gợi ý thực hànhThử một tình huống khó, kiểm phương án dự phòng rồi mới tiến.",
+        "context": "HÀO 3 · ĐANG ĐỘNGLuyện sẵn trước ngày tiếnNgựa tốt cùng việc luyện xe, phòng vệ gợi năng lực cần rèn tập; khi tiến vẫn phải bền chí và thận trọng.Gợi ý thực hànhThử một tình huống khó, kiểm phương án dự phòng rồi mới tiến.",
+        "count": 1
+      }
+    },
+    {
+      "name": "41.1: current HTML shows the refined selected and context reading",
+      "ok": true,
+      "detail": {
+        "selected": "SƠN TRẠCH TỔN · HÀO 1Giúp nhanh nhưng trong mức có thểNgừng việc riêng để kịp giúp người, rồi cân nhắc mức đóng góp, gợi sự tương trợ đúng lúc và vừa khả năng.Gợi ý thực hànhXác nhận điều người kia cần; chọn phần mình giúp được mà vẫn giữ các trách nhiệm thiết yếu.",
+        "context": "HÀO 1 · ĐANG ĐỘNGGiúp nhanh nhưng trong mức có thểNgừng việc riêng để kịp giúp người, rồi cân nhắc mức đóng góp, gợi sự tương trợ đúng lúc và vừa khả năng.Gợi ý thực hànhXác nhận điều người kia cần; chọn phần mình giúp được mà vẫn giữ các trách nhiệm thiết yếu.",
+        "count": 1
+      }
+    },
+    {
+      "name": "52.3: current HTML shows the refined selected and context reading",
+      "ok": true,
+      "detail": {
+        "selected": "THUẦN CẤN · HÀO 3Đừng ép mình đứng yên đến căng cứngHình ảnh giữ chặt chỗ chuyển động đến mức trên dưới chia lìa gợi sự cố dừng đã thành bế tắc. Cần tìm cách tự chế có thể duy trì, tránh ép mình đến căng cứng.Gợi ý thực hànhGiảm một quy tắc tự ép không còn hữu ích; dành khoảng nghỉ rồi điều chỉnh cách làm.",
+        "context": "HÀO 3 · ĐANG ĐỘNGĐừng ép mình đứng yên đến căng cứngHình ảnh giữ chặt chỗ chuyển động đến mức trên dưới chia lìa gợi sự cố dừng đã thành bế tắc. Cần tìm cách tự chế có thể duy trì, tránh ép mình đến căng cứng.Gợi ý thực hànhGiảm một quy tắc tự ép không còn hữu ích; dành khoảng nghỉ rồi điều chỉnh cách làm.",
+        "count": 1
+      }
+    },
+    {
+      "name": "Opening a saved input profile recomputes the Cấn reflection and exact moving line",
+      "ok": true
+    },
+    {
+      "name": "Complete context starts collapsed",
+      "ok": true
+    },
+    {
+      "name": "TXT preserves the refined content plus all six contextual positions",
+      "ok": true
+    },
+    {
+      "name": "TXT export restores collapsed context",
+      "ok": true
+    },
+    {
+      "name": "Print keeps refined selected text visible and hides the input form",
+      "ok": true
+    },
+    {
+      "name": "320px: revised longer reflections fit the viewport",
+      "ok": true,
+      "detail": {
+        "page": 320,
+        "screen": 320
+      }
+    },
+    {
+      "name": "390px: revised longer reflections fit the viewport",
+      "ok": true,
+      "detail": {
+        "page": 390,
+        "screen": 390
+      }
+    },
+    {
+      "name": "768px: revised longer reflections fit the viewport",
+      "ok": true,
+      "detail": {
+        "page": 768,
+        "screen": 768
+      }
+    },
+    {
+      "name": "1440px: revised longer reflections fit the viewport",
+      "ok": true,
+      "detail": {
+        "page": 1440,
+        "screen": 1440
+      }
+    },
+    {
+      "name": "Editing the cast clears stale reading and export actions",
+      "ok": true
+    },
+    {
+      "name": "No external HTTP dependency, runtime error or research content appears",
+      "ok": true,
+      "detail": {
+        "errors": [],
+        "http": []
+      }
+    }
+  ],
+  "errors": [],
+  "http": []
+}

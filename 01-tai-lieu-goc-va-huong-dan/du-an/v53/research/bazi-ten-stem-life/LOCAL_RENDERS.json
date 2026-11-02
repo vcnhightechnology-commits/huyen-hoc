@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-29",
+  "source": "v53/research/bazi-season-strength/CADAL06066038.djvu",
+  "sourceSHA256": "7a53f35982f0b946281d0e393c5d6ddcce1fd091aea83c11af6a06bcdfe6a85e",
+  "decoder": "v53/research/bazi-pattern-extension/tooling/djvu.js",
+  "decoderSHA256": "10a831d62cc7ced39c30c7350a11410402d082a0f0a5b073a88d3d7ca662add3",
+  "containerPages": 232,
+  "method": "Unmodified retained decoder in NodeVM with ImageData value holder; native RGBA to lossless PNG via local zlib/CRC chunks. No browser, DOM canvas, OCR or HTTP.",
+  "records": [
+    {
+      "page": 9,
+      "file": "p9.png",
+      "bytes": 241349,
+      "sha256": "de6403129005b869e4fe9b9b33e0f5fc1fee11ac7a44ebc69d1c32e1dd0e1b27",
+      "width": 2318,
+      "height": 3108,
+      "pixelRGBA_SHA256": "41c0aefb5cf65a7b6c148f8fe4bddc13d36cfc2e893b47c2c131bf8472e9c442",
+      "actuallyViewed": true,
+      "scope": "Boundary/selected opening or closing only, not whole chapter.",
+      "observedFolio": "002-4a",
+      "observedAnchor": "論天干陰陽生死 begins; preceding chapter ends."
+    },
+    {
+      "page": 10,
+      "file": "p10.png",
+      "bytes": 275042,
+      "sha256": "7e4b0315960ce9d11e0cb48cddbc84042bc4074ce471cef29d88b3f138798dbf",
+      "width": 2311,
+      "height": 3115,
+      "pixelRGBA_SHA256": "bebb52e0b28a3386f3678845b2b03223b6383c96c053eefdd3cdbb12921e22e0",
+      "actuallyViewed": true,
+      "scope": "Boundary/selected opening or closing only, not whole chapter.",
+      "observedFolio": "002-4b",
+      "observedAnchor": "Opening 甲 paragraph and 長生於亥, following previous page."
+    },
+    {
+      "page": 35,
+      "file": "p35.png",
+      "bytes": 239921,
+      "sha256": "387d25da6a361adf58292a79fd9b0b7b617b7ce80b71227f3679b28379aa3505",
+      "width": 2305,
+      "height": 3127,
+      "pixelRGBA_SHA256": "fc52f556ffa750117726be67bfe869cc2b711e83c64efaef315c0d68d1a80fba",
+      "actuallyViewed": true,
+      "scope": "Boundary/selected opening or closing only, not whole chapter.",
+      "observedFolio": "002-17a",
+      "observedAnchor": "Current chapter conclusion 看命者當以前說為是, followed by 論地支."
+    }
+  ],
+  "newHTTPRequests": 0,
+  "newOriginalContainers": 0
+}

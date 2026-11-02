@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-29",
+  "reason": "Frozen opposite-star list of115 differed from actual engines; inspect the printed cell boundaries, do not emend from engine agreement.",
+  "records": [
+    {
+      "file": "115-bottom-row.png",
+      "sourceFile": "canvas-115-2200.jpg",
+      "box": [
+        250,
+        975,
+        1015,
+        1215
+      ],
+      "sha256": "e3d9107c3e2d9a1f11241755d684560a95132ca5b41ef166a3ed3647d7f08024",
+      "sourceSHA256": "c060ffc89dabd25739060d53db0f04de5573adca79534de1abfe3267115dc940",
+      "actuallyViewed": true,
+      "acceptedForLiteralProof": true,
+      "RGBPixelMatch": true
+    },
+    {
+      "file": "115-opposite-and-neighbour.png",
+      "sourceFile": "canvas-115-2200.jpg",
+      "box": [
+        800,
+        950,
+        1020,
+        1210
+      ],
+      "sha256": "9d220746ec76ce41518b0fab545890bdbee7856b17ef8ec1e00a5f664e0a34ce",
+      "sourceSHA256": "c060ffc89dabd25739060d53db0f04de5573adca79534de1abfe3267115dc940",
+      "actuallyViewed": true,
+      "acceptedForLiteralProof": true,
+      "RGBPixelMatch": true
+    }
+  ]
+}

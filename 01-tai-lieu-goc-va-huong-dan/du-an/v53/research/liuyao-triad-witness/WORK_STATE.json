@@ -1,0 +1,83 @@
+{
+  "date": "2026-10-29",
+  "status": "witness-specificcandidateverified;pendingpromotion/release",
+  "catalogueID": "B02",
+  "scope": "SeekparallelJapanvolume2readingoftriadfirstmode一爻動inNLC78;notrepeatfortune-starcanvas48-52or40349.",
+  "activeMap": "v53/research/liuyao-foundation-span/B02_CURRENT_UNITS.json",
+  "previousScope": "v53/LIUYAO_COMBINATION_CONTEXT_REPORT.md",
+  "inheritedMetadata": [
+    {
+      "file": "v53/research/liuyao-b02-jinqian/witness/CANVASES.json",
+      "bytes": 18390,
+      "sha256": "2ec0749a1b000b7c590733ec1c4668a9656be0ee34445900c71bfae54896c6e6"
+    },
+    {
+      "file": "v53/research/liuyao-b02-jinqian/witness/japan-volume2-manifest.json",
+      "bytes": 48841,
+      "sha256": "a56944bfb2084788de83001a49eb90ac8d954e4f398409e07da59821b1e05354"
+    },
+    {
+      "file": "v53/research/liuyao-b02-jinqian/witness/japan-volume2-item.html",
+      "bytes": 74916,
+      "sha256": "0032dbbcb348ed7b7b11c6680c97ccd778ea3de26ff9d62242fad4d1a71abdc7"
+    },
+    {
+      "file": "v53/research/liuyao-b02-jinqian/witness/REQUESTS.json",
+      "bytes": 4891,
+      "sha256": "6388b130a7a7a3b589200d1752d60ea93de72e6622a1693ffbae154664c733fb"
+    }
+  ],
+  "newMetadataHTTPRequests": 0,
+  "newSourceImagesActuallyViewed": 4,
+  "sourceFirstModeAdjudicated": false,
+  "next": [
+    "PreserveJapan三andNLC一asdistinctreadings;notcompletefirst-modesemanticadjudication.",
+    "Otheractivity,hiddenmovement,changedlayers,day/monthfill,void/break/tomb,sourcepriority/use-line/strengthremainunclosed.",
+    "Noautomaticcalendar,forecastorconsumerintegration;4newJapanpositionsnot53canvasread.",
+    "PreviousJapan403canvas49notretried;newrequestsare3/26navigation8/9target."
+  ],
+  "consumerChanged": false,
+  "wholeWorkApplied": false,
+  "newHTTP200Bodies": 4,
+  "newCanvasOrdinalsViewed": [
+    3,
+    26,
+    9,
+    8
+  ],
+  "navigationOnlyCanvases": [
+    3,
+    26
+  ],
+  "targetCanvases": [
+    8,
+    9
+  ],
+  "selectedParallelLiteralCandidate": "Japan8三爻動 vs NLC78一爻動;needsnativecropreview",
+  "JapanThreeActualMovingSubsetImplemented": true,
+  "NLCOneLiteralUnemended": true,
+  "newEngineCalls": 2,
+  "syntheticNotPrintedCase": true,
+  "referenceResults": {
+    "date": "2026-10-29",
+    "passed": true,
+    "groups": 8,
+    "manualExpectedCases": 9,
+    "syntheticMotionPatterns": 64,
+    "unknownSourceFrames": 4,
+    "unsupportedInputsRejected": 7,
+    "deferredQualificationContexts": 3,
+    "preimplementationFilesUnchanged": 5,
+    "retainedActualHHCCallsVerified": 2,
+    "newHHCCallsDuringTests": 0,
+    "printedSourceCastsNew": 0,
+    "selectedSourceComparisons": 3,
+    "NLCUnemended": true,
+    "fullFunctionalFormation": false,
+    "consumerChanged": false,
+    "wholeCatalogueCompleted": false
+  },
+  "sourceNativeCropsRGBMatched": 3,
+  "excludedTrialCrops": 1,
+  "selectedComparisonCount": 3
+}

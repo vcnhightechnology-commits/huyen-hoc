@@ -1,0 +1,78 @@
+{
+  "date": "2026-10-27",
+  "status": "three-life-focus-spans-and-private-structural-contexts-verified-fullconditions-active",
+  "latestReport": "v53/LIUYAO_LIFE_CONTEXT_REPORT.md",
+  "completedStep": "B02: tiếp nhận lượt đọc đầu ba khoảng chương36/PDF213–214,37/214–229,38/229–232;39 mới đầu232. 20 vị trí từ staging (19đọc đầu mới vào gói/213đãgiữ),4trang đọc mởrộng mục tiêu;12render đãchuẩnbị/7render cũ đãđọc,0HTTP/PDFgốc mới. 20mệnhđềgiới hạn,7loạicâuhỏi cần phânbiệt và2phépchiếu riêng Thế–Tài–Phúc/Tửtôn hoặc Thế–Quan–Phụ. 7kiểm đạt/2HHC thật cho復→頤/sáunhãnchi-Lụcthân;8192ngữcảnhriêng,21312cạnhsinhkhắc dẫn xuất/24576hàobiến trongcácngữcảnh ấy,khônglàcađộclập. QA360ảnh215đãxem/2táirenderkhớppixel. Map136/92chỉđềmục/36khoảngđọclầnđầu/7nềnmộtphần/1mộtphần39/0áphết. KhôngchọnDụng/vượngsuy/kếtquảtiềnbạc/nghề/sứckhỏe/tuổithọ;web/site/ZIPwebnguyênbyte,toànkhochưahoàntất.",
+  "summary": {
+    "actualHHCHexCalls": 2,
+    "printedCastFixtures": 1,
+    "sourceKinBranchLabels": 6,
+    "namedStructuralContexts": 2,
+    "separateSourceQuestionCategories": 7,
+    "privateMotionContexts": 8192,
+    "derivedEdgeContexts": 21312,
+    "ownChangeContexts": 24576,
+    "roleGroupQueries": 16384,
+    "boundedClauses": 20,
+    "viewedSourcePositions": 20,
+    "newSourceReadPositions": 19,
+    "expandedPriorReadPositions": 1,
+    "newRenderedAndReadPositions": 12,
+    "previousRenderedNowReadPositions": 7,
+    "completeFirstPassChapterSpans": 3,
+    "newHTTPRequests": 0,
+    "newOriginalContainers": 0
+  },
+  "sourceVerification": {
+    "date": "2026-10-27",
+    "sourcePDFSHA256": "caac111bc5c5b1c08fd27b3828e7cf6b5430503800f2427d8f2b28809022abaa",
+    "sourceImageHashesVerified": 20,
+    "stagedPositionsPromoted": 20,
+    "firstReadPositionsNewToRelease": 19,
+    "alreadyIntegratedPositionExpanded": 1,
+    "sourceReadingCountsBasis": "Firstpasspositions inheritedfromtmp staging;thisheartbeat reread targeted213/214/215/229. Not19newdownloadsornewreadingsclaimedforthisheartbeat.",
+    "inheritedNewlyRenderedPositions": 12,
+    "inheritedRetainedRendersRead": 7,
+    "newHighResolutionQARenders": 1,
+    "highResolutionQAViewed": true,
+    "highResolutionQASHA256": "746d7b8f2560b14354186e58850cf8eff8b03f2a8267e5f471ec612f3cdb34d3",
+    "pixelReproductions": [
+      {
+        "file": "redecode-144-215.png",
+        "sourcePage": 215,
+        "dpi": 144,
+        "sha256": "18982d4fa0ed9a681733db89f4b0604ca4a6247ebe394c26247ceb05fc5becf0",
+        "pixelMatch": true,
+        "notNewSourcePosition": true
+      },
+      {
+        "file": "redecode-360-215.png",
+        "sourcePage": 215,
+        "dpi": 360,
+        "sha256": "746d7b8f2560b14354186e58850cf8eff8b03f2a8267e5f471ec612f3cdb34d3",
+        "pixelMatch": true,
+        "notNewSourcePosition": true
+      }
+    ],
+    "completeFirstPassSpans": 3,
+    "chapter39OpeningOnly": true,
+    "newHTTPRequests": 0,
+    "newOriginalContainers": 0,
+    "allSourceImageCharactersCollated": false,
+    "sourceOutcomesValidated": false,
+    "wholeChaptersApplied": false,
+    "wholeCatalogueCompleted": false
+  },
+  "currentTOC": "v53/research/liuyao-life-context/B02_CURRENT_UNITS.json",
+  "next": [
+    "B02 chương39 壽元 mớiđọcmở232,tiếp233 đểkhép khoảngnguồn;giữlời bệnh/thọyểu lịch sử,khôngxâydựngbộđoántuổithọ. 36–38đãđọckhoảngnhưng20mệnhđềchưaphảitríchhếttừngcâu/vídụ/điềukiện.",
+    "Chương37 cònđọcmụctiêuchữđầuquẻ226trông允/兌,chưađịnhđược thìkhôngtựchọnsốquẻ. Cácngưỡngvượngsuy/khôngphá/ứngkỳ,chữnguồnvàgiọngbìnhđầyđủchưaxong. Khônglặp8192contexts/2HHCnếu logicchưađổi.",
+    "Cácnhánhkhác cònmở:B03phụ/MaiHoa/chữmở;Tửvi火鈴星/CanhNhâm/khởihạn/dịbản;Báttựcách/vượngsuy/dụngthần;NhàởPhiTinh/đoreal/TrạchKinhảnh. T02ĐạoTạng403vẫnleadriêng,khôngvượtchặn/khônggọilàđãtảisách.",
+    "ỨngviênUIKiếnLộc chờbrowserQA/TXT/in/PDF ngoài site;khôngvượtsetting. Danhmục40/whole0,nguồn/corpus/lờicổ/suyluậnngoàisite;khôngxuấtbảnmạng."
+  ],
+  "consumerChanged": false,
+  "wholeChaptersApplied": false,
+  "sourceOutcomesValidated": false,
+  "lifespanOrClinicalClassifier": false,
+  "wholeCatalogueCompleted": false
+}

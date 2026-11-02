@@ -1,0 +1,330 @@
+{
+  "schema": "hhc.home.kua.rule.v1",
+  "source": {
+    "catalogue": "https://commons.wikimedia.org/wiki/File:NLC892-GBZX0301012368-287543_%E4%B9%BE%E9%9A%86%E6%B3%95%E7%AB%85_%E4%B8%89%E5%8D%B7_%E7%AC%AC7%E5%86%8A.pdf",
+    "containerTitleAsCatalogued": "乾隆法竅 三卷 第7冊",
+    "actualScannedTitle": "八宅明鏡 卷上",
+    "imprintRead": "埽葉山房刊",
+    "sourceID": "NLC892-GBZX0301012368-287543",
+    "repositoryAttribution": "Commons catalogue attributes the scan to Tianjin Library / National Library of China; no independent custody comparison",
+    "prefaceDateRead": "乾隆五十五年歲次庚戌仲春花朝",
+    "publicationDate": "Not inferred from the1790preface; catalogue says Qing print",
+    "wholePDFPages": 58,
+    "wholePDFRead": false,
+    "decisivePDFPages": [
+      11,
+      17,
+      23,
+      24
+    ],
+    "supportingPDFPages": [
+      2,
+      4,
+      5,
+      7
+    ],
+    "yearAnchor": {
+      "text": "康熙二十三年上元甲子",
+      "gregorian": 1684,
+      "page": 24,
+      "conversionSource": "https://www.dpm.org.cn/court/lineage/226256.html"
+    }
+  },
+  "sourceFacts": {
+    "rawJiaZiSeeds": [
+      {
+        "name": "上元",
+        "maleRawSeed": 1,
+        "femaleRawSeed": 5
+      },
+      {
+        "name": "中元",
+        "maleRawSeed": 4,
+        "femaleRawSeed": 2
+      },
+      {
+        "name": "下元",
+        "maleRawSeed": 7,
+        "femaleRawSeed": 8
+      }
+    ],
+    "annualStep": {
+      "male": -1,
+      "female": 1
+    },
+    "wrap": "nine-palace ring",
+    "middleSubstitution": {
+      "male": {
+        "from": 5,
+        "to": 2,
+        "trigram": "坤"
+      },
+      "female": {
+        "from": 5,
+        "to": 8,
+        "trigram": "艮"
+      }
+    },
+    "yearCycle": "three successive sexagenary元, thenrepeat"
+  },
+  "inference": {
+    "absoluteAnchor": 1684,
+    "offset": "offset180=mod(year-1684,180); yuan=floor(offset180/60); offset60=offset180%60",
+    "maleRaw": "wrap9(maleSeed[yuan]-offset60)",
+    "femaleRaw": "wrap9(femaleSeed[yuan]+offset60)",
+    "wrap9": "1+mod(value-1,9)",
+    "effectiveNumber": "Ifraw=5 thenmale2/female8; otherwise raw",
+    "equivalentWholeYearFormula": {
+      "male": "wrap9(11-year)",
+      "female": "wrap9(year+4)"
+    },
+    "century": "No special1900/2000patch. Using only the finaltwo year digits without adjusting century is not this formula.",
+    "reason180": "60changes the seed by6mod9, producing male1→4→7 andfemale5→2→8;180divisibleby9returns bothseeds. Sexagenarycycle also repeats after180."
+  },
+  "boundaryConvention": {
+    "validated": false,
+    "statement": "The numeric input is the already selected traditional birthyear. The product currently uses a user-selected lunar year or its existing lunar-year helper. This source reading does not settle Lunar New Year versus Li Chun. Do not silently change the boundary."
+  },
+  "directExamples": {
+    "page": 23,
+    "rows": [
+      {
+        "year": 1684,
+        "yuan": "上元",
+        "ganzhi": "甲子",
+        "male": 1,
+        "female": 8,
+        "maleRaw": 1,
+        "femaleRaw": 5
+      },
+      {
+        "year": 1685,
+        "yuan": "上元",
+        "ganzhi": "乙丑",
+        "male": 9,
+        "female": 6,
+        "maleRaw": 9,
+        "femaleRaw": 6
+      },
+      {
+        "year": 1686,
+        "yuan": "上元",
+        "ganzhi": "丙寅",
+        "male": 8,
+        "female": 7,
+        "maleRaw": 8,
+        "femaleRaw": 7
+      },
+      {
+        "year": 1744,
+        "yuan": "中元",
+        "ganzhi": "甲子",
+        "male": 4,
+        "female": 2,
+        "maleRaw": 4,
+        "femaleRaw": 2
+      },
+      {
+        "year": 1745,
+        "yuan": "中元",
+        "ganzhi": "乙丑",
+        "male": 3,
+        "female": 3,
+        "maleRaw": 3,
+        "femaleRaw": 3
+      },
+      {
+        "year": 1746,
+        "yuan": "中元",
+        "ganzhi": "丙寅",
+        "male": 2,
+        "female": 4,
+        "maleRaw": 2,
+        "femaleRaw": 4
+      },
+      {
+        "year": 1804,
+        "yuan": "下元",
+        "ganzhi": "甲子",
+        "male": 7,
+        "female": 8,
+        "maleRaw": 7,
+        "femaleRaw": 8
+      },
+      {
+        "year": 1805,
+        "yuan": "下元",
+        "ganzhi": "乙丑",
+        "male": 6,
+        "female": 9,
+        "maleRaw": 6,
+        "femaleRaw": 9
+      },
+      {
+        "year": 1806,
+        "yuan": "下元",
+        "ganzhi": "丙寅",
+        "male": 2,
+        "female": 1,
+        "maleRaw": 5,
+        "femaleRaw": 1
+      }
+    ],
+    "gregorianYearAssignments": "Derived from the1684upper元anchor, not printedGregorian dates"
+  },
+  "anchors": [
+    {
+      "year": 1684,
+      "male": {
+        "year": 1684,
+        "gender": "male",
+        "yuan": "上元",
+        "offset180": 0,
+        "offset60": 0,
+        "raw": 1,
+        "number": 1
+      },
+      "female": {
+        "year": 1684,
+        "gender": "female",
+        "yuan": "上元",
+        "offset180": 0,
+        "offset60": 0,
+        "raw": 5,
+        "number": 8
+      }
+    },
+    {
+      "year": 1744,
+      "male": {
+        "year": 1744,
+        "gender": "male",
+        "yuan": "中元",
+        "offset180": 60,
+        "offset60": 0,
+        "raw": 4,
+        "number": 4
+      },
+      "female": {
+        "year": 1744,
+        "gender": "female",
+        "yuan": "中元",
+        "offset180": 60,
+        "offset60": 0,
+        "raw": 2,
+        "number": 2
+      }
+    },
+    {
+      "year": 1804,
+      "male": {
+        "year": 1804,
+        "gender": "male",
+        "yuan": "下元",
+        "offset180": 120,
+        "offset60": 0,
+        "raw": 7,
+        "number": 7
+      },
+      "female": {
+        "year": 1804,
+        "gender": "female",
+        "yuan": "下元",
+        "offset180": 120,
+        "offset60": 0,
+        "raw": 8,
+        "number": 8
+      }
+    },
+    {
+      "year": 1864,
+      "male": {
+        "year": 1864,
+        "gender": "male",
+        "yuan": "上元",
+        "offset180": 0,
+        "offset60": 0,
+        "raw": 1,
+        "number": 1
+      },
+      "female": {
+        "year": 1864,
+        "gender": "female",
+        "yuan": "上元",
+        "offset180": 0,
+        "offset60": 0,
+        "raw": 5,
+        "number": 8
+      }
+    },
+    {
+      "year": 1924,
+      "male": {
+        "year": 1924,
+        "gender": "male",
+        "yuan": "中元",
+        "offset180": 60,
+        "offset60": 0,
+        "raw": 4,
+        "number": 4
+      },
+      "female": {
+        "year": 1924,
+        "gender": "female",
+        "yuan": "中元",
+        "offset180": 60,
+        "offset60": 0,
+        "raw": 2,
+        "number": 2
+      }
+    },
+    {
+      "year": 1984,
+      "male": {
+        "year": 1984,
+        "gender": "male",
+        "yuan": "下元",
+        "offset180": 120,
+        "offset60": 0,
+        "raw": 7,
+        "number": 7
+      },
+      "female": {
+        "year": 1984,
+        "gender": "female",
+        "yuan": "下元",
+        "offset180": 120,
+        "offset60": 0,
+        "raw": 8,
+        "number": 8
+      }
+    },
+    {
+      "year": 2044,
+      "male": {
+        "year": 2044,
+        "gender": "male",
+        "yuan": "上元",
+        "offset180": 0,
+        "offset60": 0,
+        "raw": 1,
+        "number": 1
+      },
+      "female": {
+        "year": 2044,
+        "gender": "female",
+        "yuan": "上元",
+        "offset180": 0,
+        "offset60": 0,
+        "raw": 5,
+        "number": 8
+      }
+    }
+  ],
+  "limits": [
+    "No evidence of predictive efficacy",
+    "Does not choose sitting/facing orroompositions",
+    "This personalkua rule is not annual/monthly/periodFlyingStars",
+    "Historicalformula supports integer-year recurrence; productiontests limited1900–2100"
+  ]
+}

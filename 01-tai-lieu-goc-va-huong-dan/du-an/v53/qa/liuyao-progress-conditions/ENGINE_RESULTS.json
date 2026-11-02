@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-27",
+  "checks": [
+    {
+      "name": "Reused11089308byte394page source/24readings/8QAimages retainSHA;zeroHTTP ornewPDF",
+      "ok": true
+    },
+    {
+      "name": "Five first-pass spans/136units98heading-only31firstpass;duplicate32→printed31 andvolume2end preserved",
+      "ok": true
+    },
+    {
+      "name": "Two printed cast structures32.5→28 and13.6→49 execute4actualHHC calls;darkmotion isnot anothercastmark",
+      "ok": true
+    },
+    {
+      "name": "Unknownsourcepremisesstayunknown inall4advancemodes, no favorabledefault ormissingpriority",
+      "ok": true
+    },
+    {
+      "name": "Bothweak overlapadvance2/3;bothstrong matchadvance1 withoutassertingmissingvoid/break",
+      "ok": true
+    },
+    {
+      "name": "Near-termexplicitpremise gatesretreat1 even withsupport;unknownstrength isnotinferredfromsupport",
+      "ok": true
+    },
+    {
+      "name": "Latercommentarycaution andlistwaitingcondition canbothmatch;noautomaticoverride orfinalefficacy",
+      "ok": true
+    },
+    {
+      "name": "False isdistinctfromunknown;staticselectedlinehasnotransformation;strictcontextandinputpreservation",
+      "ok": true
+    },
+    {
+      "name": "64motionpatterns yield6unique-moving and6unique-staticpositions,withoutdroppingDụngor inventingdarkmotion",
+      "ok": true
+    },
+    {
+      "name": "庚noblemankeepstwoconflicting sourcealternatives;fourunprintedLustemsstaynull",
+      "ok": true
+    },
+    {
+      "name": "12explicitdaybranchesand4seasonsmaptoretainedhorse/joycoordinateswithoutcalendar orluckscore",
+      "ok": true
+    },
+    {
+      "name": "Editing returnedsource-coordinatearrays cannotchange subsequent source readings orcallerinput",
+      "ok": true
+    },
+    {
+      "name": "10actualLunarcallscompare6explicitLurootcoordinates;4sourcemissingrowsarenotfilledfromruntime",
+      "ok": true
+    },
+    {
+      "name": "707411byteconsumer/15priorreferencesunchanged;privateconditionsandstarconflictsabsentfromsite",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "actualHHCHexCalls": 4,
+    "printedCastFixtures": 2,
+    "actualLunarCalls": 10,
+    "explicitLuAgreements": 6,
+    "unfilledLuRows": 4,
+    "motionPatterns": 64,
+    "uniqueMovingPatterns": 6,
+    "uniqueStationaryPatterns": 6,
+    "manualRecords": 24,
+    "firstPassChapterSpans": 5,
+    "boundedClauses": 19,
+    "QAOnlySourceRenders": 7,
+    "QAImages": 8,
+    "B02RegisteredUnits": 136,
+    "B02HeadingOnlyBodyUnits": 98,
+    "B02FirstPassUnits": 31
+  },
+  "engineSHA256": "39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6",
+  "htmlSHA256": "549cb415c1a7785e92be25b407d965ea0abd4d3affc54696b784f84d87601857",
+  "caseDigest": "064c8e9529c564c6c716bdb4928017681f7bb333848c75c3271bfb0355f30684",
+  "consumerChanged": false,
+  "wholeBookApplied": false,
+  "wholeCatalogueCompleted": false
+}

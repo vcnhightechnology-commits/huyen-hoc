@@ -1,0 +1,218 @@
+{
+  "date": "2026-10-29",
+  "records": [
+    {
+      "id": "qiu-repair-new-month",
+      "source": {
+        "file": "tmp/home-time-premises-staging/ITKC_BT_1508A_V002_242.JPG",
+        "bytes": 1196236,
+        "sha256": "f63db4262db397ff20e8c84aace423d664e62fdfdcb0d938622af764868f5b46"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "boxXYXY": [
+        365,
+        265,
+        1115,
+        2085
+      ],
+      "crop": {
+        "file": "tmp/home-time-premises-staging/qiu-repair-new-month.png",
+        "bytes": 2081511,
+        "sha256": "3d5ad1b57739c8f072a1d908a6573a11c27aa3c15ce41f742cc2d062092e7901"
+      },
+      "viewed": true,
+      "accepted": true,
+      "scope": "Selected visible predicate only; overlapping crops/pages retain preceding/following clause."
+    },
+    {
+      "id": "qiu-family-tail",
+      "source": {
+        "file": "tmp/home-time-premises-staging/ITKC_BT_1508A_V002_242.JPG",
+        "bytes": 1196236,
+        "sha256": "f63db4262db397ff20e8c84aace423d664e62fdfdcb0d938622af764868f5b46"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "boxXYXY": [
+        240,
+        425,
+        625,
+        2085
+      ],
+      "crop": {
+        "file": "tmp/home-time-premises-staging/qiu-family-tail.png",
+        "bytes": 958004,
+        "sha256": "f043b1379b1a000be6f6c52e9f11db63e4d3b0c7a682a1e9702b0c4278083e95"
+      },
+      "viewed": true,
+      "accepted": true,
+      "scope": "Selected visible predicate only; overlapping crops/pages retain preceding/following clause."
+    },
+    {
+      "id": "month-hao-end",
+      "source": {
+        "file": "tmp/home-time-premises-staging/ITKC_BT_1508A_V002_245.JPG",
+        "bytes": 1162291,
+        "sha256": "d84b5c531754d8505ce7d72bbe74d6adda7b4055b85e86191291970fa7786e0e"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "boxXYXY": [
+        225,
+        350,
+        495,
+        2085
+      ],
+      "crop": {
+        "file": "tmp/home-time-premises-staging/month-hao-end.png",
+        "bytes": 690773,
+        "sha256": "9fec5dbd3e132909737abcf8d52e827649d0f17cb2463b87a8e389340d96ba85"
+      },
+      "viewed": true,
+      "accepted": true,
+      "scope": "Selected visible predicate only; overlapping crops/pages retain preceding/following clause."
+    },
+    {
+      "id": "month-hao-continuation",
+      "source": {
+        "file": "tmp/home-time-premises-staging/ITKC_BT_1508A_V002_246.JPG",
+        "bytes": 1261981,
+        "sha256": "25b74ac161ae191a273951d175a5be348f3fefd72c471b92e6b6f6e9dc97ab7a"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "boxXYXY": [
+        1235,
+        420,
+        1510,
+        2065
+      ],
+      "crop": {
+        "file": "tmp/home-time-premises-staging/month-hao-continuation.png",
+        "bytes": 692739,
+        "sha256": "de536f48d0ee06f4b95a768f94b2467871d5539ed6df16a8363cd6f355fdf768"
+      },
+      "viewed": true,
+      "accepted": true,
+      "scope": "Selected visible predicate only; overlapping crops/pages retain preceding/following clause."
+    },
+    {
+      "id": "tugong",
+      "source": {
+        "file": "tmp/home-time-premises-staging/ITKC_BT_1508A_V002_246.JPG",
+        "bytes": 1261981,
+        "sha256": "25b74ac161ae191a273951d175a5be348f3fefd72c471b92e6b6f6e9dc97ab7a"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "boxXYXY": [
+        755,
+        290,
+        1245,
+        2080
+      ],
+      "crop": {
+        "file": "tmp/home-time-premises-staging/tugong.png",
+        "bytes": 1386262,
+        "sha256": "acf4943af008644a86eb15a66eafba2be8f3da477a86bde336597270cb8a98cb"
+      },
+      "viewed": true,
+      "accepted": true,
+      "scope": "Selected visible predicate only; overlapping crops/pages retain preceding/following clause."
+    },
+    {
+      "id": "youlong",
+      "source": {
+        "file": "tmp/home-time-premises-staging/ITKC_BT_1508A_V002_246.JPG",
+        "bytes": 1261981,
+        "sha256": "25b74ac161ae191a273951d175a5be348f3fefd72c471b92e6b6f6e9dc97ab7a"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "boxXYXY": [
+        240,
+        280,
+        770,
+        2090
+      ],
+      "crop": {
+        "file": "tmp/home-time-premises-staging/youlong-complete.png",
+        "bytes": 1545943,
+        "sha256": "e965c627dd75cf416b146d84b206f55db03ec4e2706d60f5af48af884082f3e5"
+      },
+      "viewed": true,
+      "accepted": true,
+      "excludedNarrowTrial": "youlong.png",
+      "scope": "Selected visible predicate only; overlapping crops/pages retain preceding/following clause."
+    },
+    {
+      "id": "cattle-month-only",
+      "source": {
+        "file": "tmp/home-time-premises-staging/ITKC_BT_1508A_V002_247.JPG",
+        "bytes": 1154317,
+        "sha256": "2f54e52d14f55a5616245fa7842575ec0f637fc5f010f71147bba8fd71f70bdf"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "boxXYXY": [
+        1340,
+        290,
+        1515,
+        2070
+      ],
+      "crop": {
+        "file": "tmp/home-time-premises-staging/cattle-month-only.png",
+        "bytes": 444206,
+        "sha256": "2eb627ff6910490a693d8d0f754a0d80c462abf2296c411829a307a6d0f23c88"
+      },
+      "viewed": true,
+      "accepted": true,
+      "scope": "Selected visible predicate only; overlapping crops/pages retain preceding/following clause."
+    },
+    {
+      "id": "blade-day-vs-direction",
+      "source": {
+        "file": "tmp/home-time-premises-staging/ITKC_BT_1508A_V002_247.JPG",
+        "bytes": 1154317,
+        "sha256": "2f54e52d14f55a5616245fa7842575ec0f637fc5f010f71147bba8fd71f70bdf"
+      },
+      "sourceDimensions": [
+        1640,
+        2180
+      ],
+      "boxXYXY": [
+        980,
+        270,
+        1360,
+        2080
+      ],
+      "crop": {
+        "file": "tmp/home-time-premises-staging/blade-day-vs-direction.png",
+        "bytes": 989707,
+        "sha256": "f3a9894d2d0a6e9e18a86091354133df3a7f7bddcd5fc9f2b44928fb3905b0ff"
+      },
+      "viewed": true,
+      "accepted": true,
+      "scope": "Selected visible predicate only; overlapping crops/pages retain preceding/following clause."
+    }
+  ],
+  "newSourcePositions": 8,
+  "purpose": "Selected complete predicates/context boundaries;notglobalallcharactercollation",
+  "excludedNarrowTrialCrops": 1,
+  "allFinalCropsViewed": true
+}

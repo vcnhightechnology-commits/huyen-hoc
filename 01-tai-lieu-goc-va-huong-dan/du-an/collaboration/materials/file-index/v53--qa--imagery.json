@@ -1,0 +1,77 @@
+{
+  "scope": "v53/qa/imagery",
+  "files": [
+    {
+      "file": "v53/qa/imagery/destiny-1440.png",
+      "bytes": 544511,
+      "sha256": "53253483fcba4b4c0463d0e4875c89e0e6931eb30706c9cfbe8916f77dc934de",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/53253483fcba4b4c0463d0e4875c89e0e6931eb30706c9cfbe8916f77dc934de",
+      "httpRange": {
+        "offset": 120922201,
+        "compressedBytes": 536742,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/imagery/destiny-390.png",
+      "bytes": 232923,
+      "sha256": "d81c017c3aa10960215036f41351570c257b8fbe0c6569ea569897f263972107",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d81c017c3aa10960215036f41351570c257b8fbe0c6569ea569897f263972107",
+      "httpRange": {
+        "offset": 177229131,
+        "compressedBytes": 228810,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/imagery/test-results.json",
+      "bytes": 6186,
+      "sha256": "1d9ea5f7b2f0bb5d24ba27c4c6e5799b01e6c7b240b63f439674ea528ebc477d",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/1d9ea5f7b2f0bb5d24ba27c4c6e5799b01e6c7b240b63f439674ea528ebc477d",
+      "httpRange": {
+        "offset": 55186325,
+        "compressedBytes": 806,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/imagery/tuvi-1440.png",
+      "bytes": 532112,
+      "sha256": "db4e892950377a81862a0704d519fdb344f1732642be38bb1a66ced0ccbbddb0",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/db4e892950377a81862a0704d519fdb344f1732642be38bb1a66ced0ccbbddb0",
+      "httpRange": {
+        "offset": 217309537,
+        "compressedBytes": 524153,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/imagery/tuvi-390.png",
+      "bytes": 226801,
+      "sha256": "7aad8c4f587f95dc3901a77985d57a223547db44e804c9b1bcb530314875cadb",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/7aad8c4f587f95dc3901a77985d57a223547db44e804c9b1bcb530314875cadb",
+      "httpRange": {
+        "offset": 32580358,
+        "compressedBytes": 222262,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/imagery/tuvi-result-390.png",
+      "bytes": 239000,
+      "sha256": "e2c12ac59f8ad54a6a6a56d44219aff164c45708fc39683bea7e8a5defe68fcb",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e2c12ac59f8ad54a6a6a56d44219aff164c45708fc39683bea7e8a5defe68fcb",
+      "httpRange": {
+        "offset": 308112953,
+        "compressedBytes": 227980,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

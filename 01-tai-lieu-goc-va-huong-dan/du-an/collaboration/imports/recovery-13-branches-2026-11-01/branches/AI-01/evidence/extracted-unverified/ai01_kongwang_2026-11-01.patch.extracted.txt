@@ -1,0 +1,1000 @@
+diff --git a/collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/WYG3_KONGWANG_CROSS_AXIS.json b/collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/WYG3_KONGWANG_CROSS_AXIS.json
+new file mode 100644
+index 0000000000000000000000000000000000000000..2d876041c220311cdf0570a0278ed5847fb5e199
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/WYG3_KONGWANG_CROSS_AXIS.json
+@@ -0,0 +1,265 @@
++{
++  "schema": "hhc.ai01.kongwang-cross-axis-63a.v1",
++  "date": "2026-11-01",
++  "evidence_level": "model_verified_source_byte_not_refetched_this_turn",
++  "context": "WYG III 論空亡 folio 003-63a, compared to WYG II 遁月時 and 六合",
++  "source_paths": {
++    "wyg2": "v53/research/bazi-relations/sources/KR3g0042_002.txt",
++    "wyg3": "v53/research/bazi-relations/sources/KR3g0042_003.txt",
++    "units": "collaboration/working-source/tmp/bazi-seal-conditions-staging/CHAPTER_UNITS.json"
++  },
++  "expected_git_blobs": {
++    "wyg2": "36f5e047e3cd2d436ccc1b26d0fc8b9b88eb1a86",
++    "wyg3": "76ceb0747fb0d7b7aee2ad7fdfaf3f5874bca3c4"
++  },
++  "chapter_excerpt_sha256": "dce428726a285befc14ca09855a639fd08edc85beb6647542456ff93dbebdedf",
++  "source_quote_pins": {
++    "wyg3_63a": [
++      "如甲午癸酉丙子壬辰時",
++      "雖空却與癸酉作六合",
++      "又庫墓夾貴所以入格"
++    ],
++    "wyg3_59b": [
++      "五陽令用一陽五陰令用一陰",
++      "甲子丙寅戊辰庚午壬申則用戌不用亥",
++      "乙丑丁卯己巳辛未癸酉則用亥不用戌",
++      "又說甲子至戊辰以戌為空亡己巳至癸酉以亥為空亡分上下五年"
++    ],
++    "wyg3_61a": [
++      "若太歲與日互換空亡更不佳"
++    ],
++    "wyg3_61b": [
++      "有空亡不宜見合合則不能空矣",
++      "有空亡却喜見合合則不能空矣"
++    ],
++    "wyg2_57b": [
++      "甲巳之年丙作首"
++    ],
++    "wyg2_98a": [
++      "辰為五陽酉為四隂"
++    ]
++  },
++  "convention": {
++    "method": "two omitted earthly branches per ten-pillar 旬 (basic 旬空 only)",
++    "month_head": "甲己年丙寅起 (named convention, not WYG II emendation)",
++    "hour_head": "丙辛日戊子起 (named convention)",
++    "wyg2_digitized_source_has_甲巳_not_甲己": true,
++    "wyg3_other_空亡_methods_not_equated": true,
++    "single_branch_陰陽_and_上下五年_are_hypothetical_extensions": true
++  },
++  "source_example": {
++    "year": "甲午",
++    "month": "癸酉",
++    "day": "丙子",
++    "hour": "壬辰"
++  },
++  "derived": {
++    "pillars": {
++      "year": "甲午",
++      "month": "癸酉",
++      "day": "丙子",
++      "hour": "壬辰"
++    },
++    "xun": {
++      "year": {
++        "index0": 30,
++        "xun_head": "甲午",
++        "void_branches": [
++          "辰",
++          "巳"
++        ]
++      },
++      "month": {
++        "index0": 9,
++        "xun_head": "甲子",
++        "void_branches": [
++          "戌",
++          "亥"
++        ]
++      },
++      "day": {
++        "index0": 12,
++        "xun_head": "甲戌",
++        "void_branches": [
++          "申",
++          "酉"
++        ]
++      },
++      "hour": {
++        "index0": 28,
++        "xun_head": "甲申",
++        "void_branches": [
++          "午",
++          "未"
++        ]
++      }
++    },
++    "month_from_year_matches": true,
++    "hour_from_day_matches": true,
++    "directional_void_links": [
++      {
++        "anchor": "year",
++        "observed": "hour",
++        "branch": "辰"
++      },
++      {
++        "anchor": "day",
++        "observed": "month",
++        "branch": "酉"
++      },
++      {
++        "anchor": "hour",
++        "observed": "year",
++        "branch": "午"
++      }
++    ],
++    "six_harmony_pairs": [
++      {
++        "a": "month",
++        "b": "hour",
++        "observed": "酉辰",
++        "named_pair": "辰酉"
++      }
++    ],
++    "six_clash_pairs": [
++      {
++        "a": "year",
++        "b": "day",
++        "observed": "午子",
++        "named_pair": "子午"
++      }
++    ],
++    "year_and_day_mutually_void": false,
++    "year_and_hour_mutually_void": true,
++    "alternative_named_method_comparison": {
++      "stem_yin_yang_one": {
++        "selected_void_branches": {
++          "year": [
++            "辰"
++          ],
++          "month": [
++            "亥"
++          ],
++          "day": [
++            "申"
++          ],
++          "hour": [
++            "午"
++          ]
++        },
++        "directional_void_links": [
++          {
++            "anchor": "year",
++            "observed": "hour",
++            "branch": "辰"
++          },
++          {
++            "anchor": "hour",
++            "observed": "year",
++            "branch": "午"
++          }
++        ],
++        "year_hour_mutual": true,
++        "day_month_void": false
++      },
++      "first_five_last_five_one": {
++        "selected_void_branches": {
++          "year": [
++            "辰"
++          ],
++          "month": [
++            "亥"
++          ],
++          "day": [
++            "申"
++          ],
++          "hour": [
++            "未"
++          ]
++        },
++        "directional_void_links": [
++          {
++            "anchor": "year",
++            "observed": "hour",
++            "branch": "辰"
++          }
++        ],
++        "year_hour_mutual": false,
++        "day_month_void": false
++      }
++    }
++  },
++  "contextual_qualifiers": {
++    "source_void_does_not_identify_axis": true,
++    "three_directed_links_are_computed_possibilities_not_authored_source_labels": true,
++    "year_hour_reciprocal_is_not_the_texts_year_day_mutual_void": true,
++    "the_example_contains_六合_and_六沖_simultaneously": true,
++    "the_source_justifies_入格_by_multiple_qualifiers_not_one_boolean": true,
++    "two_branch_旬空_not_equivalent_to_截路_四大_or_五鬼空亡": true,
++    "no_historical_birthdate_follows_from_four_pillars": true,
++    "not_an_S11_臨空印_positive_or_negative_test_case": true,
++    "not_two_independent_historical_witnesses": true,
++    "source_presents_multiple_void_branch_selection_methods": true,
++    "three_two_one_link_variation_does_not_select_a_fortune_rule": true
++  },
++  "not_claimed": {
++    "original_folio_glyphs_confirmed_this_turn": false,
++    "source_repository_refetched_this_turn": false,
++    "source_independent_historical_witness_added": false,
++    "individualized_void_operand_chosen": false,
++    "year_day_mutual_void_inferred": false,
++    "s11_臨空印_conditions_proven_sufficient": false,
++    "calendar_birthdate_verified": false,
++    "prediction_enabled": false,
++    "consumer_changed": false,
++    "coverage_promoted": false
++  },
++  "engine_admission": "blocked",
++  "engine_calls": 0,
++  "sources_for_external_text_confirmation": [
++    {
++      "url": "https://zh.wikisource.org/zh-hant/三命通會/卷三",
++      "role": "modern_online_textual_copy_not_folio_image"
++    },
++    {
++      "url": "https://www.chinese-classics.org/read/shushu/mingli/san-ming-tong-hui/003",
++      "role": "modern_online_textual_copy_not_folio_image"
++    }
++  ],
++  "pairspace": {
++    "total_ordered_60x60": 3600,
++    "directional_void_pairs": 600,
++    "reciprocal_ordered_pairs": 120,
++    "reciprocal_distinct_unordered_pairs": 60,
++    "reciprocal_neighbors_per_pillar": [
++      2
++    ],
++    "reciprocal_is_not_unique_to_quoted_year_hour": true,
++    "mathematical_counts_are_not_historical_frequencies": true
++  },
++  "alternative_pairspaces": {
++    "stem_yin_yang_one": {
++      "total_ordered_60x60": 3600,
++      "directional_void_pairs": 300,
++      "reciprocal_ordered_pairs": 60,
++      "reciprocal_distinct_unordered_pairs": 30,
++      "reciprocal_neighbors_per_pillar": [
++        1
++      ],
++      "reciprocal_is_not_unique_to_quoted_year_hour": true,
++      "mathematical_counts_are_not_historical_frequencies": true
++    },
++    "first_five_last_five_one": {
++      "total_ordered_60x60": 3600,
++      "directional_void_pairs": 300,
++      "reciprocal_ordered_pairs": 36,
++      "reciprocal_distinct_unordered_pairs": 18,
++      "reciprocal_neighbors_per_pillar": [
++        0,
++        1
++      ],
++      "reciprocal_is_not_unique_to_quoted_year_hour": true,
++      "mathematical_counts_are_not_historical_frequencies": true
++    }
++  }
++}
+diff --git a/collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/WYG3_KONGWANG_CROSS_AXIS_REPORT.md b/collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/WYG3_KONGWANG_CROSS_AXIS_REPORT.md
+new file mode 100644
+index 0000000000000000000000000000000000000000..2db93420816ee01e2521e61b6f74db16286fe791
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/WYG3_KONGWANG_CROSS_AXIS_REPORT.md
+@@ -0,0 +1,101 @@
++# AI-01 — Đối chiếu chéo can chi, Không Vong và Lục hợp: WYG III, 003-63a
++
++**Ngày nghiên cứu:** 2026-11-01
++
++**Tình trạng:** mô hình toán học kiểm thử được; **nguyên byte GitHub và ảnh mặt giấy chưa kiểm lại được trong lượt này**. Kết nối GitHub từ môi trường phiên hiện tại báo `HTTP 403: Sorry. Your account was suspended`; không thực hiện push, merge hoặc chỉnh engine.
++
++## 1. Câu nguồn và phạm vi
++
++Từ các hồ sơ WYG trong dự án đã kiểm ở lượt trước, thiên `論空亡`, quyển III, tờ `003-63a` đưa ra ví dụ **`甲午 癸酉 丙子 壬辰時`**, cùng chú giải `雖空却與癸酉作六合` và `又庫墓夾貴所以入格`. Đây là **câu nguồn**, không phải một ngày sinh đã được kiểm thực tế. Các bản trực tuyến cũng chứa đoạn này: [Wikisource, quyển III](https://zh.wikisource.org/zh-hant/三命通會/卷三) và [Chinese Classics, quyển III](https://www.chinese-classics.org/read/shushu/mingli/san-ming-tong-hui/003). **Hai trang web không tự tạo ra hai bản in cổ độc lập.**
++
++Đoạn `太歲與日互換空亡` ở tờ `003-61a` có chủ thể năm và **ngày**. Vì vậy, tuyệt đối **không** được dùng câu nói này để đặt tên hay luận đoán quan hệ hai chiều giữa **năm và giờ** của ví dụ trên. Thiên đó còn phân biệt `截路空亡`, `四大空亡`, `五鬼空亡`. Quan trọng hơn, **tờ `003-59b` ngay trong thiên này đưa ra hai cách CHỌN MỘT CHI từ cặp khuyết**, do đó bảng đầu tiên chỉ minh họa phương pháp cơ bản **cả hai chi còn thiếu trong mỗi tuần 10 can (旬空)**, không tự xác định phương pháp của tác giả trong mọi ví dụ.
++
++## 2. Sự thật tính toán được từ Lục thập hoa giáp
++
++Với 60 can chi hợp lệ đánh chỉ số `0..59` theo `甲子` = 0, tuần chứa một trụ được xác định bởi `index // 10` (sáu tuần). Hai chi rơi vào `旬空` là các chi đứng sau mười vị trí của tuần, không dùng cấu hình vận hạn hay mệnh chủ.
++
++| Vị trí gán theo thứ tự bốn trụ | Index 60 | Tuần | Hai chi 旬空 | Trụ trong ví dụ có chi rơi vào 旬空 |
++|---|---:|---|---|---|
++| Năm `甲午` | 30 | `甲午旬` | `辰巳` | Giờ `壬辰` (chi `辰`) |
++| Tháng `癸酉` | 9 | `甲子旬` | `戌亥` | Không có |
++| Ngày `丙子` | 12 | `甲戌旬` | `申酉` | Tháng `癸酉` (chi `酉`) |
++| Giờ `壬辰` | 28 | **`甲申旬`** | **`午未`** | Năm `甲午` (chi `午`) |
++
++### Ba liên hệ có hướng, không phải hai
++
++1. **Năm → Giờ:** chi giờ `辰` rơi vào `旬空(甲午) = {辰, 巳}`.
++2. **Ngày → Tháng:** chi tháng `酉` rơi vào `旬空(丙子) = {申, 酉}`.
++3. **Giờ → Năm:** chi năm `午` rơi vào `旬空(壬辰) = {午, 未}`.
++
++Do (1) và (3), **năm–giờ tương hỗ** theo phép toán hai chi thiếu. Lưu ý **`壬辰` thuộc `甲申旬`**, không phải `甲辰旬`; suy sai tuần này sẽ làm mất một nửa quan hệ đối ứng. **Năm–ngày không tương hỗ**: `子` không thuộc `辰巳`, còn `午` không thuộc `申酉`.
++
++### Kiểm ngay hai phương pháp một chi theo văn tờ 59b
++
++Nguồn WYG III dẫn lời *珞琭子*:
++
++- `五陽令用一陽五陰令用一陰`: với ví dụ của **甲子旬**, các trụ can dương (`甲子、丙寅、戊辰、庚午、壬申`) chọn `戌`, các trụ can âm (`乙丑、丁卯、己巳、辛未、癸酉`) chọn `亥`.
++- Cách **chia trên/dưới năm trụ** tiếp theo: `甲子` tới `戊辰` chọn `戌`; `己巳` tới `癸酉` chọn `亥`.
++
++Tôi mô hình hóa hai phát biểu thành **hai phép mở rộng GIẢ THUYẾT qua cả sáu tuần**; nguồn đang kiểm chỉ đưa ví dụ chi tiết cho **甲子旬**. Không được gọi những phép mở rộng đó là quy tắc cổ thư chung cho mọi tuần đã được chứng minh.
++
++| Trụ | Hai chi cơ bản | Chọn theo can âm/dương | Chọn theo 5 trụ đầu/cuối của tuần |
++|---|---|---|---|
++| Năm `甲午` | 辰、巳 | 辰 | 辰 |
++| Tháng `癸酉` | 戌、亥 | 亥 | 亥 |
++| Ngày `丙子` | 申、酉 | 申 | 申 |
++| Giờ `壬辰` | 午、未 | 午 | **未** |
++
++| Phương pháp tính | Những liên hệ còn giữ lại | Số liên hệ |
++|---|---|---:|
++| Hai chi tuần không | Năm→Giờ, Ngày→Tháng, Giờ→Năm | **3** |
++| Một chi theo âm/dương | Năm→Giờ, Giờ→Năm | **2** |
++| Một chi theo nhóm 5+5 | Năm→Giờ | **1** |
++
++Vì vậy **năm–giờ chỉ tương hỗ theo hai phép đầu**; theo cách 5+5, năm→giờ còn nhưng giờ→năm không còn. Quan hệ ngày→tháng cũng biến mất khi chỉ chọn một chi từ `申酉`. Đây là **kiểm độ nhạy phương pháp**, không phải lời nói cổ thư rằng có đúng một, hai hoặc ba dấu Không Vong.
++
++### Hai phép kiểm lịch độc lập theo quy ước công bố
++
++- **Từ can năm `甲`**, dùng phép khởi tháng theo quy ước `甲己年丙寅起` thì tháng `酉` là **`癸酉`**, khớp ví dụ.
++- **Từ can ngày `丙`**, dùng phép khởi giờ theo quy ước `丙辛日戊子起` thì giờ `辰` là **`壬辰`**, khớp ví dụ.
++
++**Cảnh báo văn bản:** nguồn số WYG II `論遁月時` lưu chữ **`甲巳`**, có hình thể khác `甲己`. Chương trình dùng quy ước đã *đặt tên riêng* để kiểm tính nhất quán, **không sửa chữ nguyên văn** và không chứng minh ngày sinh tương ứng với một mốc thiên văn.
++
++### Lục hợp và Lục xung đồng thời
++
++- Tháng `癸酉` (**酉**) gặp giờ `壬辰` (**辰**): `辰酉` thuộc **六合**, đúng điều nguồn nêu bằng lời.
++- Năm `甲午` (**午**) gặp ngày `丙子` (**子**): `子午` thuộc **六沖**. Đây là phép đối chiếu chi *bên cạnh*, **không** suy ra một vận hạn/điềm hay sửa kết luận `入格` của sách.
++
++Điểm quan trọng: cùng một ví dụ chứa nhiều quan hệ trái loại, và chính văn bản nêu thêm `庫墓` và `夾貴`. Không một quan hệ đơn lẻ nào là điều kiện cần–đủ cho `臨空印` S11 hoặc cho kết luận tốt/xấu.
++
++## 3. Kiểm độ đặc hiệu trên toàn bộ 60 × 60
++
++| Đối tượng xét | Số lượng |
++|---|---:|
++| Tổng cặp có thứ tự `(A, B)` với hai trụ 60 hoa giáp | **3.600** |
++| `B` có chi nằm trong `旬空` của `A` | **600** |
++| Đồng thời `A` nằm trong `旬空` của `B` | **120** cặp có thứ tự |
++| Cặp tương hỗ không phân biệt hướng | **60** |
++| Số trụ tương hỗ với một trụ bất kỳ | **2** |
++
++Thử cả ba phương pháp trên toàn bộ 3.600 cặp (giả thuyết mở rộng cho hai phương pháp chọn một chi):
++
++| Phép chọn | Quan hệ có hướng | Quan hệ tương hỗ có thứ tự | Cặp tương hỗ không phân biệt hướng |
++|---|---:|---:|---:|
++| Hai chi cơ bản | **600** | **120** | **60** |
++| Một chi âm/dương | **300** | **60** | **30** |
++| Một chi theo 5+5 | **300** | **36** | **18** |
++
++Như vậy, **một quan hệ năm–giờ tương hỗ không độc nhất với ví dụ cổ thư**, và kết quả đếm thay đổi theo đúng quy ước đặt tên. Các số liệu là **tần suất tổ hợp toán học trên bảng hoa giáp**, không phải tỷ lệ trong dân số, không phải tần suất thực tế trong lịch và không phải tỷ lệ ứng nghiệm.
++
++## 4. Kiểm thử và nguồn
++
++- `WYG3_KONGWANG_CROSS_AXIS.json`: khóa bốn trụ, sáu tuần, quan hệ có hướng, Lục hợp/Lục xung và các cổng phủ định suy luận.
++- `validate_wyg3_kongwang_cross_axis.py --model-only`: tái tính cả ba phép chọn Không Vong từ 60 trụ, kiểm biểu diễn 3/2/1 của cùng lá số, quét 3.600 cặp theo từng phép chọn và kiểm các cổng hạn chế; chạy được ngoại tuyến.
++- `validate_wyg3_kongwang_cross_axis.py` (không cờ): **bắt buộc** đọc đúng các Git blob nguồn WYG II/III, trích đúng các folio `57b`, `98a`, `59b`, `61a`, `61b`, `63a`, xác minh SHA-256 văn bản S01–S13 và đối chiếu đoạn S11. Nếu file nguồn không có hoặc checksum khác, **báo lỗi**, không nhận là đã xem gốc.
++- `test_wyg3_kongwang_cross_axis.py`: thử toàn bộ 60 trụ; sáu tuần; 720 phép khởi tháng và 720 phép khởi giờ; thử cách chọn can âm/dương và 5+5 đối chiếu câu trên tờ 59b; thay trụ để phá từng quan hệ; lỗi gần giống `已/己`, sai chẵn lẻ, giả nhận đã đọc ảnh, cố sửa chữ `甲巳` và tự nhận engine được phê duyệt.
++
++**Trạng thái kiểm thực tế 01/11/2026:** **80/80 unit tests chạy ngoại tuyến đạt**, bao gồm kiểm mẫu âm và tình trạng nguồn không có sẽ bị chặn. **Full source SHA/folio check chưa được thực thi lượt này**, vì GitHub connector trả `403` và container không truy cập DNS GitHub. Cần chạy validator ở repository có đủ byte nguồn sau khi tài khoản có quyền trở lại.
++
++## 5. Handoff và ranh giới
++
++Bản vá chỉ chứa tài liệu và mã nghiên cứu mới trong thư mục `continuation-2026-10-31`. Chưa sửa `v53`, corpus, engine, CI, release, website, coverage, ZIP dự án, hoặc PR #13. Có thể chạy test tại thư mục đã giải nén rồi chép các file mới vào nhánh `ai-01` để chạy **source-level** và CI theo hướng dẫn ở `AI01_KONGWANG_HANDOFF.md`.
+diff --git a/collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/test_wyg3_kongwang_cross_axis.py b/collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/test_wyg3_kongwang_cross_axis.py
+new file mode 100644
+index 0000000000000000000000000000000000000000..d006df138ff090a494fd5b2f9c61bc0765a3eb4b
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/test_wyg3_kongwang_cross_axis.py
+@@ -0,0 +1,442 @@
++"""Model/source-gating tests for the WYG III 003-63a four-pillar example.
++
++All model tests are runnable offline. The corpus SHA checker is fail-closed
++until the actual AI-01 repository sources are present in the working tree.
++"""
++from __future__ import annotations
++
++import copy
++import hashlib
++import json
++import tempfile
++import unittest
++from pathlib import Path
++
++import validate_wyg3_kongwang_cross_axis as audit
++
++
++class CycleArithmetic(unittest.TestCase):
++    def test_sixty_unique_cycle_pillars(self):
++        self.assertEqual(len(audit.CYCLE), 60)
++        self.assertEqual(len(set(audit.CYCLE)), 60)
++        self.assertEqual(audit.CYCLE[0], "甲子")
++        self.assertEqual(audit.CYCLE[-1], "癸亥")
++
++    def test_cycle_indices_are_correct(self):
++        self.assertEqual([audit.cycle_index(x) for x in ("甲午", "癸酉", "丙子", "壬辰")],
++                         [30, 9, 12, 28])
++
++    def test_stem_branch_parity_exhaustively(self):
++        for pillar in audit.CYCLE:
++            stem, branch = pillar
++            self.assertEqual(audit.STEMS.index(stem) % 2, audit.BRANCHES.index(branch) % 2)
++            self.assertEqual(audit.CYCLE[audit.cycle_index(pillar)], pillar)
++
++    def test_each_xun_starts_with_jia_and_contains_exactly_ten_pillars(self):
++        expected = ["甲子", "甲戌", "甲申", "甲午", "甲辰", "甲寅"]
++        for i, head in enumerate(expected):
++            self.assertEqual(audit.CYCLE[i * 10], head)
++            self.assertEqual({audit.xun_info(x)["xun_head"] for x in audit.CYCLE[10*i:10*i+10]}, {head})
++
++    def test_six_xun_void_pairs(self):
++        expected = {
++            "甲子": ["戌", "亥"], "甲戌": ["申", "酉"],
++            "甲申": ["午", "未"], "甲午": ["辰", "巳"],
++            "甲辰": ["寅", "卯"], "甲寅": ["子", "丑"],
++        }
++        for xun, voids in expected.items():
++            self.assertEqual(audit.xun_info(xun)["void_branches"], voids)
++
++    def test_no_pillar_branch_is_empty_in_its_own_xun(self):
++        for pillar in audit.CYCLE:
++            self.assertNotIn(pillar[1], audit.xun_info(pillar)["void_branches"])
++
++    def test_months_generated_from_year_stems_are_all_legal(self):
++        for year in audit.CYCLE:
++            twelve = [audit.expected_month(year, b) for b in audit.MONTH_BRANCHES]
++            self.assertEqual(len(set(twelve)), 12)
++            for x in twelve:
++                self.assertIn(x, audit.CYCLE_LOOKUP)
++
++    def test_hours_generated_from_day_stems_are_all_legal(self):
++        for day in audit.CYCLE:
++            twelve = [audit.expected_hour(day, b) for b in audit.BRANCHES]
++            self.assertEqual(len(set(twelve)), 12)
++            for x in twelve:
++                self.assertIn(x, audit.CYCLE_LOOKUP)
++
++    def test_source_year_gives_gu1you8_as_month(self):
++        self.assertEqual(audit.expected_month("甲午", "酉"), "癸酉")
++
++    def test_source_bingzi_day_gives_renchen_hour(self):
++        self.assertEqual(audit.expected_hour("丙子", "辰"), "壬辰")
++
++    def test_reject_known_glyph_error_已_not_stem_己(self):
++        with self.assertRaises(ValueError):
++            audit.cycle_index("已卯")
++        self.assertIn("己卯", audit.CYCLE_LOOKUP)
++
++    def test_reject_branch_branch_申戌(self):
++        with self.assertRaises(ValueError):
++            audit.cycle_index("申戌")
++
++    def test_reject_illegal_stem_branch_parity(self):
++        with self.assertRaises(ValueError):
++            audit.cycle_index("甲丑")
++
++    def test_reject_nonstring_input(self):
++        with self.assertRaises(TypeError):
++            audit.cycle_index(None)
++
++    def test_reject_bad_month_branch(self):
++        with self.assertRaises(ValueError):
++            audit.expected_month("甲午", "甲")
++
++    def test_reject_bad_hour_branch(self):
++        with self.assertRaises(ValueError):
++            audit.expected_hour("丙子", "戊")
++
++
++class QuotedCase(unittest.TestCase):
++    @classmethod
++    def setUpClass(cls):
++        cls.case = audit.analyze("甲午", "癸酉", "丙子", "壬辰")
++
++    def test_year_voids_hour(self):
++        self.assertEqual(self.case["xun"]["year"]["xun_head"], "甲午")
++        self.assertIn("辰", self.case["xun"]["year"]["void_branches"])
++
++    def test_hour_is_jia_shen_xun_not_jia_chen_xun(self):
++        self.assertEqual(self.case["xun"]["hour"]["xun_head"], "甲申")
++        self.assertEqual(self.case["xun"]["hour"]["void_branches"], ["午", "未"])
++
++    def test_year_hour_reciprocal_void(self):
++        self.assertTrue(self.case["year_and_hour_mutually_void"])
++
++    def test_day_voids_month(self):
++        self.assertEqual(self.case["xun"]["day"]["xun_head"], "甲戌")
++        self.assertIn("酉", self.case["xun"]["day"]["void_branches"])
++
++    def test_month_does_not_void_day(self):
++        self.assertEqual(self.case["xun"]["month"]["void_branches"], ["戌", "亥"])
++        self.assertNotIn("子", self.case["xun"]["month"]["void_branches"])
++
++    def test_all_three_directed_void_links_and_no_fourth(self):
++        self.assertEqual(self.case["directional_void_links"], [
++            {"anchor": "year", "observed": "hour", "branch": "辰"},
++            {"anchor": "day", "observed": "month", "branch": "酉"},
++            {"anchor": "hour", "observed": "year", "branch": "午"},
++        ])
++
++    def test_not_year_day_mutual_void(self):
++        self.assertFalse(self.case["year_and_day_mutually_void"])
++
++    def test_month_hour_chen_you_harmony(self):
++        self.assertEqual(self.case["six_harmony_pairs"], [
++            {"a": "month", "b": "hour", "observed": "酉辰", "named_pair": "辰酉"}
++        ])
++
++    def test_year_day_zi_wu_clash(self):
++        self.assertEqual(self.case["six_clash_pairs"], [
++            {"a": "year", "b": "day", "observed": "午子", "named_pair": "子午"}
++        ])
++
++    def test_both_month_and_hour_stems_consistent(self):
++        self.assertTrue(self.case["month_from_year_matches"])
++        self.assertTrue(self.case["hour_from_day_matches"])
++
++    def test_control_change_year_breaks_year_hour_reciprocity(self):
++        alternate = audit.analyze("甲子", "癸酉", "丙子", "壬辰")
++        self.assertFalse(alternate["year_and_hour_mutually_void"])
++        self.assertFalse(any(x["anchor"] == "year" for x in alternate["directional_void_links"]))
++        self.assertTrue(alternate["month_from_year_matches"])
++
++    def test_control_change_day_breaks_day_month_void(self):
++        alternate = audit.analyze("丙午", "癸酉", "丙午", "壬辰")
++        self.assertNotIn({"anchor": "day", "observed": "month", "branch": "酉"},
++                         alternate["directional_void_links"])
++        self.assertTrue(alternate["hour_from_day_matches"])
++
++    def test_control_change_hour_breaks_harmony_and_year_void(self):
++        alternate = audit.analyze("甲午", "癸酉", "丙子", "庚寅")
++        self.assertFalse(alternate["year_and_hour_mutually_void"])
++        self.assertEqual(alternate["six_harmony_pairs"], [])
++        self.assertTrue(alternate["hour_from_day_matches"])
++
++    def test_control_change_month_preserves_day_void_but_loses_harmony(self):
++        alternate = audit.analyze("甲午", "壬申", "丙子", "壬辰")
++        self.assertTrue(alternate["month_from_year_matches"])
++        self.assertIn({"anchor": "day", "observed": "month", "branch": "申"},
++                      alternate["directional_void_links"])
++        self.assertEqual(alternate["six_harmony_pairs"], [])
++
++    def test_changed_hour_stem_fails_deterministic_hour_rule(self):
++        changed = audit.analyze("甲午", "癸酉", "丙子", "庚辰")
++        self.assertFalse(changed["hour_from_day_matches"])
++
++
++class Falsifiability(unittest.TestCase):
++    def test_all_3600_pairs_enumerated(self):
++        a = audit.enumerate_void_pairspace()
++        self.assertEqual(a["total_ordered_60x60"], 3600)
++
++    def test_directional_count_600(self):
++        self.assertEqual(audit.enumerate_void_pairspace()["directional_void_pairs"], 600)
++
++    def test_reciprocal_count_120_ordered(self):
++        self.assertEqual(audit.enumerate_void_pairspace()["reciprocal_ordered_pairs"], 120)
++
++    def test_reciprocal_count_60_unordered(self):
++        self.assertEqual(audit.enumerate_void_pairspace()["reciprocal_distinct_unordered_pairs"], 60)
++
++    def test_every_pillar_has_two_reciprocal_neighbors(self):
++        self.assertEqual(audit.enumerate_void_pairspace()["reciprocal_neighbors_per_pillar"], [2])
++        for a in audit.CYCLE:
++            count = sum(
++                b[1] in audit.xun_info(a)["void_branches"] and a[1] in audit.xun_info(b)["void_branches"]
++                for b in audit.CYCLE
++            )
++            self.assertEqual(count, 2)
++
++    def test_named_harmony_and_clash_are_symmetric(self):
++        for p in audit.SIX_HARMONIES:
++            self.assertEqual(audit.named_pair(p[0], p[1], audit.SIX_HARMONIES), p)
++            self.assertEqual(audit.named_pair(p[1], p[0], audit.SIX_HARMONIES), p)
++        for p in audit.SIX_CLASHES:
++            self.assertEqual(audit.named_pair(p[0], p[1], audit.SIX_CLASHES), p)
++            self.assertEqual(audit.named_pair(p[1], p[0], audit.SIX_CLASHES), p)
++
++
++class AlternativeSourceMethods(unittest.TestCase):
++    """Compare three named interpretations without adopting a historical rule."""
++
++    def test_classical_yang_stem_example_uses_xu_not_hai(self):
++        for p in ("甲子", "丙寅", "戊辰", "庚午", "壬申"):
++            self.assertEqual(audit.selected_void_branches(p, "stem_yin_yang_one"), ("戌",))
++
++    def test_classical_yin_stem_example_uses_hai_not_xu(self):
++        for p in ("乙丑", "丁卯", "己巳", "辛未", "癸酉"):
++            self.assertEqual(audit.selected_void_branches(p, "stem_yin_yang_one"), ("亥",))
++
++    def test_classical_first_half_decade_jiazi_to_wuchen(self):
++        for p in ("甲子", "乙丑", "丙寅", "丁卯", "戊辰"):
++            self.assertEqual(audit.selected_void_branches(p, "first_five_last_five_one"), ("戌",))
++
++    def test_classical_second_half_decade_jisi_to_guiyou(self):
++        for p in ("己巳", "庚午", "辛未", "壬申", "癸酉"):
++            self.assertEqual(audit.selected_void_branches(p, "first_five_last_five_one"), ("亥",))
++
++    def test_two_branch_default_returns_two(self):
++        for p in audit.CYCLE:
++            self.assertEqual(len(audit.selected_void_branches(p, "all_two")), 2)
++
++    def test_one_branch_variants_return_one_each(self):
++        for p in audit.CYCLE:
++            self.assertEqual(len(audit.selected_void_branches(p, "stem_yin_yang_one")), 1)
++            self.assertEqual(len(audit.selected_void_branches(p, "first_five_last_five_one")), 1)
++
++    def test_reject_invented_mode(self):
++        with self.assertRaises(ValueError):
++            audit.selected_void_branches("甲午", "automated_engine")
++
++    def test_yinyang_method_leaves_year_hour_reciprocal(self):
++        c = audit.analyze("甲午", "癸酉", "丙子", "壬辰")
++        alt = c["alternative_named_method_comparison"]["stem_yin_yang_one"]
++        self.assertEqual(len(alt["directional_void_links"]), 2)
++        self.assertTrue(alt["year_hour_mutual"])
++        self.assertFalse(alt["day_month_void"])
++
++    def test_halfdecade_removes_hour_to_year_link(self):
++        c = audit.analyze("甲午", "癸酉", "丙子", "壬辰")
++        alt = c["alternative_named_method_comparison"]["first_five_last_five_one"]
++        self.assertEqual(alt["directional_void_links"], [
++            {"anchor": "year", "observed": "hour", "branch": "辰"}
++        ])
++        self.assertFalse(alt["year_hour_mutual"])
++        self.assertFalse(alt["day_month_void"])
++
++    def test_three_methods_yield_three_two_one_directed_links(self):
++        c = audit.analyze("甲午", "癸酉", "丙子", "壬辰")
++        self.assertEqual([len(c["directional_void_links"])] + [
++            len(c["alternative_named_method_comparison"][mode]["directional_void_links"])
++            for mode in ("stem_yin_yang_one", "first_five_last_five_one")
++        ], [3, 2, 1])
++
++    def test_stem_parity_candidate_space_nonunique(self):
++        s = audit.enumerate_void_pairspace("stem_yin_yang_one")
++        self.assertEqual((s["directional_void_pairs"], s["reciprocal_ordered_pairs"],
++                          s["reciprocal_distinct_unordered_pairs"]), (300, 60, 30))
++        self.assertEqual(s["reciprocal_neighbors_per_pillar"], [1])
++
++    def test_halfdecade_candidate_space_nonunique(self):
++        s = audit.enumerate_void_pairspace("first_five_last_five_one")
++        self.assertEqual((s["directional_void_pairs"], s["reciprocal_ordered_pairs"],
++                          s["reciprocal_distinct_unordered_pairs"]), (300, 36, 18))
++        self.assertEqual(s["reciprocal_neighbors_per_pillar"], [0, 1])
++
++    def test_default_and_alternate_modes_not_assumed_equivalent(self):
++        a = audit.selected_void_branches("丙子", "all_two")
++        b = audit.selected_void_branches("丙子", "stem_yin_yang_one")
++        d = audit.selected_void_branches("丙子", "first_five_last_five_one")
++        self.assertEqual(a, ("申", "酉"))
++        self.assertEqual(b, ("申",))
++        self.assertEqual(d, ("申",))
++
++
++
++class RecordGates(unittest.TestCase):
++    @classmethod
++    def setUpClass(cls):
++        cls.original = json.loads(audit.RECORD.read_text(encoding="utf-8"))
++
++    def setUp(self):
++        self.d = copy.deepcopy(self.original)
++
++    def bad(self):
++        self.assertTrue(audit.validate_model(self.d))
++
++    def test_model_record_baseline(self):
++        self.assertEqual(audit.validate_model(self.d), [])
++
++    def test_no_claim_of_new_original_scan(self):
++        self.d["not_claimed"]["original_folio_glyphs_confirmed_this_turn"] = True
++        self.bad()
++
++    def test_no_claim_of_refetched_git_source(self):
++        self.d["not_claimed"]["source_repository_refetched_this_turn"] = True
++        self.bad()
++
++    def test_no_invention_of_year_day_mutual_void(self):
++        self.d["not_claimed"]["year_day_mutual_void_inferred"] = True
++        self.bad()
++
++    def test_no_unverified_空亡_operator_choice(self):
++        self.d["not_claimed"]["individualized_void_operand_chosen"] = True
++        self.bad()
++
++    def test_no_engine_admission(self):
++        self.d["engine_admission"] = "approved"
++        self.bad()
++
++    def test_no_hidden_engine_calls(self):
++        self.d["engine_calls"] = 1
++        self.bad()
++
++    def test_no_s11_sufficient_rule(self):
++        self.d["not_claimed"]["s11_臨空印_conditions_proven_sufficient"] = True
++        self.bad()
++
++    def test_no_historical_birthdate_claim(self):
++        self.d["not_claimed"]["calendar_birthdate_verified"] = True
++        self.bad()
++
++    def test_convention_does_not_emend_wyg2_甲巳_to_甲己(self):
++        self.d["convention"]["wyg2_digitized_source_has_甲巳_not_甲己"] = False
++        self.bad()
++
++    def test_cannot_drop_hour_to_year_void_direction(self):
++        self.d["derived"]["directional_void_links"].pop()
++        self.bad()
++
++    def test_cannot_change_hour_xun_to_jia_chen(self):
++        self.d["derived"]["xun"]["hour"]["xun_head"] = "甲辰"
++        self.bad()
++
++    def test_no_loss_of_ziwu_clash(self):
++        self.d["derived"]["six_clash_pairs"] = []
++        self.bad()
++
++    def test_no_multiplication_of_quoted_recipient(self):
++        self.d["derived"]["directional_void_links"].append(
++            {"anchor": "month", "observed": "day", "branch": "子"})
++        self.bad()
++
++    def test_source_pin_chinese_glyph_must_not_be_rewritten(self):
++        self.d["source_quote_pins"]["wyg2_57b"] = ["甲己之年丙作首"]
++        self.bad()
++
++    def test_unverified_git_blob_must_be_pinned(self):
++        self.d["expected_git_blobs"]["wyg3"] = "0" * 40
++        self.bad()
++
++    def test_120_reciprocal_pairs_not_unique(self):
++        self.d["pairspace"]["reciprocal_ordered_pairs"] = 2
++        self.bad()
++
++    def test_cannot_silently_rewrite_yinyang_result(self):
++        self.d["derived"]["alternative_named_method_comparison"]["stem_yin_yang_one"]["year_hour_mutual"] = False
++        self.bad()
++
++    def test_cannot_claim_halfdecade_year_hour_mutual(self):
++        self.d["derived"]["alternative_named_method_comparison"]["first_five_last_five_one"]["year_hour_mutual"] = True
++        self.bad()
++
++    def test_cannot_declare_59b_alternatives_text_is_unread(self):
++        self.d["source_quote_pins"]["wyg3_59b"].pop()
++        self.bad()
++
++    def test_cannot_turn_5plus5_into_historical_rule_for_all_xun(self):
++        self.d["convention"]["single_branch_陰陽_and_上下五年_are_hypothetical_extensions"] = False
++        self.bad()
++
++    def test_reciprocal_count_for_alternate_method_pinned(self):
++        self.d["alternative_pairspaces"]["first_five_last_five_one"]["reciprocal_ordered_pairs"] = 120
++        self.bad()
++
++    def test_no_historical_probability_from_exhaustive_counts(self):
++        self.d["pairspace"]["mathematical_counts_are_not_historical_frequencies"] = False
++        self.bad()
++
++    def test_model_rejects_missing_source_scope_warnings(self):
++        self.d["contextual_qualifiers"]["year_hour_reciprocal_is_not_the_texts_year_day_mutual_void"] = False
++        self.bad()
++
++    def test_source_unit_checksum_pin_preserved(self):
++        self.d["chapter_excerpt_sha256"] = "0" * 64
++        self.bad()
++
++
++class SourceFailClosed(unittest.TestCase):
++    def test_missing_repository_sources_never_claim_verified(self):
++        record = json.loads(audit.RECORD.read_text(encoding="utf-8"))
++        with tempfile.TemporaryDirectory() as dirname:
++            errors = audit.validate_repository_source(record, Path(dirname))
++        self.assertEqual(len(errors), 1)
++        self.assertIn("unavailable", errors[0])
++
++    def test_github_git_blob_hash_is_bytes_not_sha256(self):
++        payload = b"sample"
++        expected = hashlib.sha1(b"blob 6\0sample").hexdigest()
++        self.assertEqual(audit.git_blob_sha(payload), expected)
++        self.assertNotEqual(audit.git_blob_sha(payload + b"\n"), expected)
++
++    def test_folio_extractor_strips_only_whitespace_and_pagination(self):
++        source = "".join(
++            f"<pb:KR3g0042_WYG_003-{i}{side}>\n¶ 內容{i}{side} "
++            for i in range(1, 67) for side in "ab"
++        ).encode("utf-8")
++        self.assertEqual(audit.get_folio(source, "003", "63a"), "內容63a")
++
++    def test_folio_extractor_rejects_missing_folio(self):
++        source = "".join(
++            f"<pb:KR3g0042_WYG_003-{i}{side}>\n詞"
++            for i in range(1, 63) for side in "ab"
++        ).encode("utf-8")
++        with self.assertRaises(ValueError):
++            audit.get_folio(source, "003", "63a")
++
++    def test_source_integrity_fails_against_synthetic_not_real_bytes(self):
++        record = json.loads(audit.RECORD.read_text(encoding="utf-8"))
++        with tempfile.TemporaryDirectory() as dirname:
++            base = Path(dirname)
++            for path in audit.SOURCE_PATHS.values():
++                f = base / path
++                f.parent.mkdir(parents=True, exist_ok=True)
++                f.write_text('{"units":[]}', encoding="utf-8")
++            errors = audit.validate_repository_source(record, base)
++        self.assertTrue(errors)
++        self.assertTrue(any("byte" in e or "SHA" in e or "folio" in e for e in errors))
++
++
++if __name__ == "__main__":
++    unittest.main()
+diff --git a/collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/validate_wyg3_kongwang_cross_axis.py b/collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/validate_wyg3_kongwang_cross_axis.py
+new file mode 100644
+index 0000000000000000000000000000000000000000..ec4fa79944470d2150b4d786799787336bd8dbe9
+--- /dev/null
++++ b/collaboration/parallel-research/submissions/AI-01/continuation-2026-10-31/validate_wyg3_kongwang_cross_axis.py
+@@ -0,0 +1,417 @@
++"""Research-only xun-kong audit of WYG III 論空亡 four-pillar quotation.
++
++Two verification levels are intentionally separate:
++  * --model-only checks pure 60-pillar arithmetic and locked claims.
++  * default requires byte-verified WYG II/III Git source and S11 source units.
++
++Neither level identifies the exact 空 in the passage as a historical operator,
++nor does this code infer life events, fortune, or an S11/臨空印 rule.
++"""
++from __future__ import annotations
++
++import argparse
++import hashlib
++import json
++import re
++from pathlib import Path
++from typing import Any
++
++HERE = Path(__file__).resolve().parent
++ROOT = HERE.parents[4]
++RECORD = HERE / "WYG3_KONGWANG_CROSS_AXIS.json"
++WYG2 = ROOT / "v53/research/bazi-relations/sources/KR3g0042_002.txt"
++WYG3 = ROOT / "v53/research/bazi-relations/sources/KR3g0042_003.txt"
++UNITS = ROOT / "collaboration/working-source/tmp/bazi-seal-conditions-staging/CHAPTER_UNITS.json"
++
++STEMS = "甲乙丙丁戊己庚辛壬癸"
++BRANCHES = "子丑寅卯辰巳午未申酉戌亥"
++CYCLE = tuple(STEMS[i % 10] + BRANCHES[i % 12] for i in range(60))
++CYCLE_LOOKUP = {pillar: i for i, pillar in enumerate(CYCLE)}
++MONTH_BRANCHES = "寅卯辰巳午未申酉戌亥子丑"
++ROLES = ("year", "month", "day", "hour")
++MONTH_START = {"甲": "丙", "己": "丙", "乙": "戊", "庚": "戊",
++               "丙": "庚", "辛": "庚", "丁": "壬", "壬": "壬",
++               "戊": "甲", "癸": "甲"}
++HOUR_START = {"甲": "甲", "己": "甲", "乙": "丙", "庚": "丙",
++              "丙": "戊", "辛": "戊", "丁": "庚", "壬": "庚",
++              "戊": "壬", "癸": "壬"}
++SIX_HARMONIES = ("子丑", "寅亥", "卯戌", "辰酉", "巳申", "午未")
++SIX_CLASHES = ("子午", "丑未", "寅申", "卯酉", "辰戌", "巳亥")
++GIT_BLOB_II = "36f5e047e3cd2d436ccc1b26d0fc8b9b88eb1a86"
++GIT_BLOB_III = "76ceb0747fb0d7b7aee2ad7fdfaf3f5874bca3c4"
++CHAPTER_SHA = "dce428726a285befc14ca09855a639fd08edc85beb6647542456ff93dbebdedf"
++SOURCE_PINS = {
++    "wyg3_63a": (
++        "如甲午癸酉丙子壬辰時",
++        "雖空却與癸酉作六合",
++        "又庫墓夾貴所以入格",
++    ),
++    "wyg3_59b": (
++        "五陽令用一陽五陰令用一陰",
++        "甲子丙寅戊辰庚午壬申則用戌不用亥",
++        "乙丑丁卯己巳辛未癸酉則用亥不用戌",
++        "又說甲子至戊辰以戌為空亡己巳至癸酉以亥為空亡分上下五年",
++    ),
++    "wyg3_61a": ("若太歲與日互換空亡更不佳",),
++    "wyg3_61b": ("有空亡不宜見合合則不能空矣", "有空亡却喜見合合則不能空矣"),
++    "wyg2_57b": ("甲巳之年丙作首",),
++    "wyg2_98a": ("辰為五陽酉為四隂",),
++}
++SOURCE_PATHS = {
++    "wyg2": "v53/research/bazi-relations/sources/KR3g0042_002.txt",
++    "wyg3": "v53/research/bazi-relations/sources/KR3g0042_003.txt",
++    "units": "collaboration/working-source/tmp/bazi-seal-conditions-staging/CHAPTER_UNITS.json",
++}
++REQUIRED_FALSE = (
++    "original_folio_glyphs_confirmed_this_turn",
++    "source_repository_refetched_this_turn",
++    "source_independent_historical_witness_added",
++    "individualized_void_operand_chosen",
++    "year_day_mutual_void_inferred",
++    "s11_臨空印_conditions_proven_sufficient",
++    "calendar_birthdate_verified",
++    "prediction_enabled",
++    "consumer_changed",
++    "coverage_promoted",
++)
++
++
++def cycle_index(pillar: str) -> int:
++    """Reject illegal stems, illegal branches, parity violations, and lookalikes 已/己."""
++    if not isinstance(pillar, str):
++        raise TypeError("a can-chi pillar must be a string")
++    if pillar not in CYCLE_LOOKUP:
++        raise ValueError(f"not a legal 60-cycle pillar: {pillar!r}")
++    return CYCLE_LOOKUP[pillar]
++
++
++def xun_info(pillar: str) -> dict[str, Any]:
++    """Conventional two-branch 旬空, NOT other 空亡 variants in WYG III."""
++    idx = cycle_index(pillar)
++    first_idx = idx - idx % 10
++    first_branch_idx = first_idx % 12
++    voids = tuple(BRANCHES[(first_branch_idx + n) % 12] for n in (10, 11))
++    return {"index0": idx, "xun_head": CYCLE[first_idx], "void_branches": list(voids)}
++
++
++def expected_month(year: str, month_branch: str) -> str:
++    cycle_index(year)
++    if month_branch not in MONTH_BRANCHES or len(month_branch) != 1:
++        raise ValueError("invalid month branch")
++    offset = MONTH_BRANCHES.index(month_branch)
++    gan = STEMS[(STEMS.index(MONTH_START[year[0]]) + offset) % 10]
++    return gan + month_branch
++
++
++def expected_hour(day: str, hour_branch: str) -> str:
++    cycle_index(day)
++    if hour_branch not in BRANCHES or len(hour_branch) != 1:
++        raise ValueError("invalid hour branch")
++    offset = BRANCHES.index(hour_branch)
++    gan = STEMS[(STEMS.index(HOUR_START[day[0]]) + offset) % 10]
++    return gan + hour_branch
++
++
++def selected_void_branches(pillar: str, mode: str) -> tuple[str, ...]:
++    """Three explicit diagnostic interpretations of the same ten-step cycle.
++
++    The alternate choices reproduce the 甲子旬 examples in the source, but
++    their extension to all six 旬 is a TEST HYPOTHESIS, not an adopted rule.
++    """
++    xun = xun_info(pillar)
++    missing = xun["void_branches"]
++    if mode == "all_two":
++        return tuple(missing)
++    if mode == "stem_yin_yang_one":
++        parity = STEMS.index(pillar[0]) % 2
++        return tuple(x for x in missing if BRANCHES.index(x) % 2 == parity)
++    if mode == "first_five_last_five_one":
++        return (missing[0] if xun["index0"] % 10 < 5 else missing[1],)
++    raise ValueError("unsupported named empty-void convention: " + str(mode))
++
++
++def mode_links(pillars: dict[str, str], mode: str) -> dict[str, Any]:
++    """Directed void relations under an explicitly named convention."""
++    links = []
++    selections = {}
++    for anchor, pillar in pillars.items():
++        voids = selected_void_branches(pillar, mode)
++        selections[anchor] = list(voids)
++        for target, observed in pillars.items():
++            if target != anchor and observed[1] in voids:
++                links.append({"anchor": anchor, "observed": target, "branch": observed[1]})
++    return {
++        "selected_void_branches": selections,
++        "directional_void_links": links,
++        "year_hour_mutual": (
++            pillars["hour"][1] in selections["year"]
++            and pillars["year"][1] in selections["hour"]
++        ),
++        "day_month_void": pillars["month"][1] in selections["day"],
++    }
++
++
++def named_pair(a: str, b: str, pairs: tuple[str, ...]) -> str | None:
++    for p in pairs:
++        if frozenset(p) == frozenset((a, b)):
++            return p
++    return None
++
++
++def analyze(year: str, month: str, day: str, hour: str) -> dict[str, Any]:
++    pillars = dict(zip(ROLES, (year, month, day, hour)))
++    X = {role: xun_info(pillar) for role, pillar in pillars.items()}
++    links = []
++    harmonies = []
++    clashes = []
++    for i, (anchor, info) in enumerate(X.items()):
++        for observed, pillar in pillars.items():

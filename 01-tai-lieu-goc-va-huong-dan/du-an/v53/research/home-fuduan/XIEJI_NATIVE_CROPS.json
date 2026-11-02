@@ -1,0 +1,114 @@
+{
+  "date": "2026-10-29",
+  "records": [
+    {
+      "id": "xieji98-complete-prose",
+      "source": {
+        "file": "tmp/home-fuduan-staging/pdf98-raw-dct.jpg",
+        "bytes": 550971,
+        "sha256": "af7569e87cb814e95e1a8863d6c41de41ea651d667baa2ffa0031e7e1500c614"
+      },
+      "boxXYXY": [
+        60,
+        210,
+        1460,
+        2300
+      ],
+      "crop": {
+        "file": "tmp/home-fuduan-staging/xieji98-complete-prose.png",
+        "bytes": 1734628,
+        "sha256": "85e011b5515590311facd10a43a9038969e7b00a21fe04efaaacb11f4b38e28f"
+      },
+      "sourceDimensions": [
+        1512,
+        2328
+      ],
+      "viewed": true,
+      "accepted": true,
+      "scope": "Selected prose or mansion glyphs only; not a whole-page transcription.",
+      "rgbMatchesSourceCrop": true
+    },
+    {
+      "id": "xieji99-critique-final",
+      "source": {
+        "file": "tmp/home-fuduan-staging/pdf99-raw-dct.jpg",
+        "bytes": 537724,
+        "sha256": "660ef4e7978b7e68d7a60f538e1506fcd67818fd6151b8849c6523bc7a3950b2"
+      },
+      "boxXYXY": [
+        790,
+        150,
+        1460,
+        1180
+      ],
+      "crop": {
+        "file": "tmp/home-fuduan-staging/xieji99-critique-final.png",
+        "bytes": 396515,
+        "sha256": "88fdb161ca89ee529e13b9b631e7fa0a8b61f1aae2f8b3f09852e474317feddb"
+      },
+      "sourceDimensions": [
+        1512,
+        2328
+      ],
+      "viewed": true,
+      "accepted": true,
+      "scope": "Selected prose or mansion glyphs only; not a whole-page transcription.",
+      "rgbMatchesSourceCrop": true
+    },
+    {
+      "id": "xieji99-first-three-columns",
+      "source": {
+        "file": "tmp/home-fuduan-staging/pdf99-raw-dct.jpg",
+        "bytes": 537724,
+        "sha256": "660ef4e7978b7e68d7a60f538e1506fcd67818fd6151b8849c6523bc7a3950b2"
+      },
+      "boxXYXY": [
+        1030,
+        1160,
+        1460,
+        2220
+      ],
+      "crop": {
+        "file": "tmp/home-fuduan-staging/xieji99-first-three-columns.png",
+        "bytes": 261545,
+        "sha256": "b416a5a74a5d81619397b8e52ebe922b241b02e924e2081c8ab5bb5929548273"
+      },
+      "sourceDimensions": [
+        1512,
+        2328
+      ],
+      "viewed": true,
+      "accepted": true,
+      "scope": "Selected prose or mansion glyphs only; not a whole-page transcription.",
+      "rgbMatchesSourceCrop": true
+    },
+    {
+      "id": "xieji99-complete-mansion-table",
+      "source": {
+        "file": "tmp/home-fuduan-staging/pdf99-raw-dct.jpg",
+        "bytes": 537724,
+        "sha256": "660ef4e7978b7e68d7a60f538e1506fcd67818fd6151b8849c6523bc7a3950b2"
+      },
+      "boxXYXY": [
+        770,
+        1175,
+        1460,
+        2220
+      ],
+      "crop": {
+        "file": "tmp/home-fuduan-staging/xieji99-complete-mansion-table.png",
+        "bytes": 414635,
+        "sha256": "ca9d00a393c6481e72cc5ad29b286629342f7f9f7842fa3fc692a545d5634dad"
+      },
+      "sourceDimensions": [
+        1512,
+        2328
+      ],
+      "viewed": true,
+      "accepted": true,
+      "rgbMatchesSourceCrop": true,
+      "scope": "All84mansionglyphs and printedcolumn/rowlabels read; smallfortuneannotations not transcribed or implemented."
+    }
+  ],
+  "allClaimedAsSelectedNotEntirePDF": true
+}

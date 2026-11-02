@@ -1,0 +1,15 @@
+from pathlib import Path
+import json,hashlib
+from PIL import Image
+root=Path(__file__).resolve().parent.parent
+out=root/'research/fortune-table'
+sha=lambda p:hashlib.sha256(p.read_bytes()).hexdigest()
+s=json.loads((out/'REQUESTS.json').read_text(encoding='utf-8'))
+assert sha(out/s['manifest']['file'])==s['manifest']['sha256']
+for r in s['records']:
+ p=out/r['file'];assert p.stat().st_size==r['bytes'] and sha(p)==r['sha256'] and r['status']==200 and r['tls']['authorized'] and r['unrestricted']
+ with Image.open(p) as im:assert im.width==2200
+previous=root/'research/fortune-followup/WITNESS_AUDIT.json'
+audit={'date':'2026-10-26','scope':'Targeted search for the diagram referred to as Loc/Quyen/Khoa/Ky, after the six-passage witness study. Six image spreads saved; only diagram 88 right half is classified here. Other images are localization probes, not six newly collated texts.','institution':'National Archives of Japan','item':'https://www.digital.archives.go.jp/item/4468520','requests':'REQUESTS.json','responseCount':len(s['records']),'allResponseBytesSHA256Verified':True,'imageFormat':'Full-spread 2200-pixel IIIF JPEG responses, not original JP2 bytes.','positionPolicy':'Numbers are one-based canvas sequence ordinals, not physical leaf or PDF page numbers.','target':{'sequenceNumber':88,'file':'official-088.jpg','sha256':sha(out/'official-088.jpg'),'region':'Right half, upper two-by-two square and smaller text panels below','visibleQuadrantLabels':{'upperRight':'祿','lowerRight':'權','upperLeft':'科','lowerLeft':'忌'},'manualFinding':'This is an arrangement/combination diagram with smaller condition panels, not a ten-heavenly-stem to four-stars placement table. No new forty-cell stem mapping was transcribed from it. Do not use its title or four large labels as independent corroboration of the Canh verse variant.','notAdopted':'No strength score, auspiciousness score, new transformation table or interpretation rule is inferred from the smaller panels.'},'retainedEarlierFinding':{'file':'../fortune-followup/WITNESS_AUDIT.json','sha256':sha(previous),'Canh':'Verse image reads Thien Dong Khoa / Thien Tuong Ky; current selected digital table reads Thai Am Khoa / Thien Dong Ky. Still a retained difference; the diagram does not resolve it.','majorPeriod':'Image adjacent-palace starting wording remains distinct from the selected Menh/cuc convention. No automatic chart change.'},'publicChange':'Lunar-month overview uses the existing selected calendar/period engine. It does not apply this diagram or add source/corpus to the consumer interface.','remaining':'Compare other witnesses and relevant prose passages to determine Canh variants and the major-period starting convention. Do not search the same diagram again expecting a ten-stem table.'}
+(out/'DIAGRAM_AUDIT.json').write_text(json.dumps(audit,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+print(f"Verified {len(s['records'])} official image responses; classified one target diagram without inventing a stem table.")

@@ -1,0 +1,155 @@
+{
+  "date": "2026-10-28",
+  "checks": [
+    {
+      "name": "Eight direct source labels use four yang and four yin without classifying a measured room",
+      "ok": true
+    },
+    {
+      "name": "Eight actual HHC group fields and eight actual water-reference calls preserve differing named classifications",
+      "ok": true
+    },
+    {
+      "name": "Alternative or unknown frames never silently return XuanKong polarity",
+      "ok": true
+    },
+    {
+      "name": "Only established complete positive source counts permit an arithmetic comparison",
+      "ok": true
+    },
+    {
+      "name": "Health, wealth and full exchange are not inferred; explicit data and copies are protected",
+      "ok": true
+    }
+  ],
+  "actualHHCDirectionsCalls": 8,
+  "actualWaterReferenceCalls": 8,
+  "newCalendarCalls": 0,
+  "fixtures": [
+    {
+      "trigramLabel": "乾",
+      "literal": "陽",
+      "engineAccessInput": {
+        "year": 1904,
+        "gender": "male"
+      },
+      "actualHHCNumber": 6,
+      "modernBirthGroup": "Tây",
+      "unjustifiedEastYangAlias": "陰",
+      "birthGroupWouldDiffer": true,
+      "explicitWaterMountain": "乾",
+      "actualWaterPolarity": "陽",
+      "waterClassificationDiffers": false
+    },
+    {
+      "trigramLabel": "坎",
+      "literal": "陽",
+      "engineAccessInput": {
+        "year": 1900,
+        "gender": "male"
+      },
+      "actualHHCNumber": 1,
+      "modernBirthGroup": "Đông",
+      "unjustifiedEastYangAlias": "陽",
+      "birthGroupWouldDiffer": false,
+      "explicitWaterMountain": "子",
+      "actualWaterPolarity": "陽",
+      "waterClassificationDiffers": false
+    },
+    {
+      "trigramLabel": "艮",
+      "literal": "陽",
+      "engineAccessInput": {
+        "year": 1902,
+        "gender": "male"
+      },
+      "actualHHCNumber": 8,
+      "modernBirthGroup": "Tây",
+      "unjustifiedEastYangAlias": "陰",
+      "birthGroupWouldDiffer": true,
+      "explicitWaterMountain": "艮",
+      "actualWaterPolarity": "陰",
+      "waterClassificationDiffers": true
+    },
+    {
+      "trigramLabel": "震",
+      "literal": "陽",
+      "engineAccessInput": {
+        "year": 1907,
+        "gender": "male"
+      },
+      "actualHHCNumber": 3,
+      "modernBirthGroup": "Đông",
+      "unjustifiedEastYangAlias": "陽",
+      "birthGroupWouldDiffer": false,
+      "explicitWaterMountain": "卯",
+      "actualWaterPolarity": "陰",
+      "waterClassificationDiffers": true
+    },
+    {
+      "trigramLabel": "巽",
+      "literal": "陰",
+      "engineAccessInput": {
+        "year": 1906,
+        "gender": "male"
+      },
+      "actualHHCNumber": 4,
+      "modernBirthGroup": "Đông",
+      "unjustifiedEastYangAlias": "陽",
+      "birthGroupWouldDiffer": true,
+      "explicitWaterMountain": "巽",
+      "actualWaterPolarity": "陰",
+      "waterClassificationDiffers": false
+    },
+    {
+      "trigramLabel": "離",
+      "literal": "陰",
+      "engineAccessInput": {
+        "year": 1901,
+        "gender": "male"
+      },
+      "actualHHCNumber": 9,
+      "modernBirthGroup": "Đông",
+      "unjustifiedEastYangAlias": "陽",
+      "birthGroupWouldDiffer": true,
+      "explicitWaterMountain": "午",
+      "actualWaterPolarity": "陽",
+      "waterClassificationDiffers": true
+    },
+    {
+      "trigramLabel": "坤",
+      "literal": "陰",
+      "engineAccessInput": {
+        "year": 1905,
+        "gender": "male"
+      },
+      "actualHHCNumber": 2,
+      "modernBirthGroup": "Tây",
+      "unjustifiedEastYangAlias": "陰",
+      "birthGroupWouldDiffer": false,
+      "explicitWaterMountain": "坤",
+      "actualWaterPolarity": "陽",
+      "waterClassificationDiffers": true
+    },
+    {
+      "trigramLabel": "兌",
+      "literal": "陰",
+      "engineAccessInput": {
+        "year": 1903,
+        "gender": "male"
+      },
+      "actualHHCNumber": 7,
+      "modernBirthGroup": "Tây",
+      "unjustifiedEastYangAlias": "陰",
+      "birthGroupWouldDiffer": false,
+      "explicitWaterMountain": "酉",
+      "actualWaterPolarity": "陰",
+      "waterClassificationDiffers": false
+    }
+  ],
+  "differingBirthGroupProjections": 4,
+  "differingWaterPolarityProjections": 4,
+  "notEngineBugsOrPracticalOutcomes": true,
+  "consumerChanged": false,
+  "fullXuanKongExchangeApplied": false
+}

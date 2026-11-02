@@ -1,0 +1,41 @@
+{
+  "scope": "v53/qa/bazi-food-six-pillars",
+  "files": [
+    {
+      "file": "v53/qa/bazi-food-six-pillars/REFERENCE_RESULTS.json",
+      "bytes": 6001,
+      "sha256": "393baacd77d44c5b501f23302fe2969f9c16b023435129930d77d7175764a3d4",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/393baacd77d44c5b501f23302fe2969f9c16b023435129930d77d7175764a3d4",
+      "httpRange": {
+        "offset": 369235116,
+        "compressedBytes": 1282,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/bazi-food-six-pillars/RELEASE_RESULTS.json",
+      "bytes": 1370,
+      "sha256": "67cd3fdcaa280ab7b55d101965a4922635fb28f06c68e7792f8f8f5ba004ea7c",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/67cd3fdcaa280ab7b55d101965a4922635fb28f06c68e7792f8f8f5ba004ea7c",
+      "httpRange": {
+        "offset": 221272588,
+        "compressedBytes": 650,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/bazi-food-six-pillars/SOURCE_RESULTS.json",
+      "bytes": 880,
+      "sha256": "dabfa60bda8c3404bb96ecf43f55b4ba70af4a58300d5dccac62d01e76f1b3db",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/dabfa60bda8c3404bb96ecf43f55b4ba70af4a58300d5dccac62d01e76f1b3db",
+      "httpRange": {
+        "offset": 213946262,
+        "compressedBytes": 444,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

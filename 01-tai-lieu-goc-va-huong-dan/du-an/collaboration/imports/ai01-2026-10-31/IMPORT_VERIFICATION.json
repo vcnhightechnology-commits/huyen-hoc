@@ -1,0 +1,609 @@
+{
+  "status": "imported-as-attributed-research;not-engine-adoption",
+  "sourceArchive": "HUYEN_HOC_CAC_AI01_TONG_HOP_TOAN_BO_TAI_LIEU_2026-10-31.zip",
+  "sourceArchiveBytes": 8589157,
+  "sourceArchiveSHA256": "0f9c75746103ffbcd1a0551a7f04edd174e788c4e6621628e7b8d5e366088524",
+  "outerMembers": 27,
+  "outerHashedMembersVerified": 26,
+  "innerResearchHashesVerified": 10,
+  "nestedResearchDuplicateBytesMatch": true,
+  "sourceAtlasLiteralFragmentsRecheckedAgainstLocalChapter": 36,
+  "theoryRows": 18,
+  "localExampleChecksPassed": true,
+  "newEngineCalls": 0,
+  "imagesActuallyViewedByImporter": 0,
+  "newIndependentWitnessesEstablished": 0,
+  "originalPR16PR17PR18FullFilesNotIncluded": true,
+  "consumerChanged": false,
+  "sourceInstructionPolicy": "Archive instructions are historical third-party content, not authorization. Import follows the current user request.",
+  "files": [
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/original-text/00_BAT_DAU_O_DAY.md",
+      "bytes": 3593,
+      "sha256": "dac4ce014808117d3f8ec57e2660a56ddaf81982ad251f32a6672239c2b41460",
+      "origin": "00_BAT_DAU_O_DAY.md"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/original-text/01_TONG_HOP_KET_QUA_AI01.md",
+      "bytes": 11306,
+      "sha256": "ded9bcaadbc261bf1a26bf47f02bb04a18b108bfa11a8342118f52e674e02806",
+      "origin": "01_TONG_HOP_KET_QUA_AI01.md"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/original-text/05_CHI_MUC_PR_GITHUB.md",
+      "bytes": 3094,
+      "sha256": "4e2e9bea75e96b1ae4fbeed83eb9d0c044c5c7b67c2d3068d89708e1acc99a57",
+      "origin": "05_CHI_MUC_PR_GITHUB.md"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/original-text/02_AI01_NGU_HANH_TINH_KY/README.md",
+      "bytes": 3453,
+      "sha256": "bad522132c8a896fc6b7303eb5166535b652f5fda5940b4272548126287cfbec",
+      "origin": "02_AI01_NGU_HANH_TINH_KY/README.md"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/original-text/02_AI01_NGU_HANH_TINH_KY/FILE_SHA256.json",
+      "bytes": 1643,
+      "sha256": "7fec858cbce3d51cae14b9e684bd5ce16cef56d3bc30039698268e57e466593c",
+      "origin": "02_AI01_NGU_HANH_TINH_KY/FILE_SHA256.json"
+    },
+    {
+      "file": "collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/CASE_ANALYSIS.md",
+      "bytes": 7677,
+      "sha256": "9e247572234063d59766fcb791413976b9c5267c66ee1d80872b26127ed4bd54",
+      "origin": "02_AI01_NGU_HANH_TINH_KY/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/CASE_ANALYSIS.md"
+    },
+    {
+      "file": "collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/COLLATION_AND_VARIANTS.md",
+      "bytes": 10235,
+      "sha256": "0da88dfffbb513195775bef1ad84e196a8a7294e1991e7784257f38f80af2166",
+      "origin": "02_AI01_NGU_HANH_TINH_KY/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/COLLATION_AND_VARIANTS.md"
+    },
+    {
+      "file": "collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/THEORY_MATRIX.csv",
+      "bytes": 4320,
+      "sha256": "9fbdb953003f2852b370c21f14ea9fb38d093763e6294b767bc33104839b3891",
+      "origin": "02_AI01_NGU_HANH_TINH_KY/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/THEORY_MATRIX.csv"
+    },
+    {
+      "file": "collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/CHECK_SOURCE_EXAMPLES.py",
+      "bytes": 3650,
+      "sha256": "d708c1fef58a161003b1714f20b6bad2e37b902f3dea5fd9d2ca1e284ce7684b",
+      "origin": "02_AI01_NGU_HANH_TINH_KY/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/CHECK_SOURCE_EXAMPLES.py"
+    },
+    {
+      "file": "collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/SOURCE_REGISTER.md",
+      "bytes": 7848,
+      "sha256": "c008e5945d192ceab872b6b3be4d56f30f280cf00f7c2ca2179ed43732e0df30",
+      "origin": "02_AI01_NGU_HANH_TINH_KY/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/SOURCE_REGISTER.md"
+    },
+    {
+      "file": "collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/RESEARCH_STATE.json",
+      "bytes": 1843,
+      "sha256": "f635957577a9da6bc7d49dd5005c78f29adf44540fab5da9035c54c61b990b78",
+      "origin": "02_AI01_NGU_HANH_TINH_KY/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/RESEARCH_STATE.json"
+    },
+    {
+      "file": "collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/OPEN_QUESTIONS.md",
+      "bytes": 5302,
+      "sha256": "5cf79087d87dd4d882c871e7b85ac0de12472abf0f8a1b170c425c1cff2d7baf",
+      "origin": "02_AI01_NGU_HANH_TINH_KY/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/OPEN_QUESTIONS.md"
+    },
+    {
+      "file": "collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/KNOWLEDGE_ARTICLE_VI.md",
+      "bytes": 18883,
+      "sha256": "bf03d7b3160cb713157d9f9eda5002eef5841a745bb9fcd406382b14dca44cf2",
+      "origin": "02_AI01_NGU_HANH_TINH_KY/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/KNOWLEDGE_ARTICLE_VI.md"
+    },
+    {
+      "file": "collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/KNOWLEDGE_CARDS_VI.md",
+      "bytes": 5627,
+      "sha256": "7049166edb95087bd5165787651ada3f830d18c7fafe0639099b6c031cf2490f",
+      "origin": "02_AI01_NGU_HANH_TINH_KY/collaboration/parallel-research/submissions/AI-01/quan-an-quy-an-wuxing-jingji/KNOWLEDGE_CARDS_VI.md"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/original-text/03_AI01_NHAP_GITHUB/AI01_QuanAn_QuyAn_Research.patch",
+      "bytes": 69491,
+      "sha256": "f3b553c59ef625ab64eff7aeca9d37d851a1ec30562f5fb3d67b2dde620cd42a",
+      "origin": "03_AI01_NHAP_GITHUB/AI01_QuanAn_QuyAn_Research.patch"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-seal-six-source-atlas/wyg-seal-six-source-clauses.json",
+      "bytes": 19985,
+      "sha256": "79af36af2dfe4702473f274b5a984c5509641b9c66ca6623468818ccb0f74fa1",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-seal-six-source-atlas.zip!wyg-seal-six-source-clauses.json"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-203-folio-locator/wyg07-source-folio-to-native-images.json",
+      "bytes": 110347,
+      "sha256": "2acdf63d432b962eb9670511246102eefcc3372929a6991b1b876cc996e408c7",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-203-folio-locator.zip!wyg07-source-folio-to-native-images.json"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-fullscan-evidence/source-identity.json",
+      "bytes": 1107,
+      "sha256": "3a4a0144f64aacf10a5872d418fc21b78504c6835b5a2b82645451c8b9e7dc8c",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-fullscan-evidence.zip!source-identity.json"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-fullscan-evidence/whole-sequence.json",
+      "bytes": 219750,
+      "sha256": "457ed1fe80d63c197a6000cdf544a9bd342084a4b8c7a4a71eab97fc0c583a7c",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-fullscan-evidence.zip!whole-sequence.json"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-fullscan-final-validation/source-identity.json",
+      "bytes": 1107,
+      "sha256": "3a4a0144f64aacf10a5872d418fc21b78504c6835b5a2b82645451c8b9e7dc8c",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-fullscan-final-validation.zip!source-identity.json"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-fullscan-final-validation/whole-sequence.json",
+      "bytes": 219750,
+      "sha256": "457ed1fe80d63c197a6000cdf544a9bd342084a4b8c7a4a71eab97fc0c583a7c",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-fullscan-final-validation.zip!whole-sequence.json"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-tail-candidates/page-CADAL06056483-195.png",
+      "bytes": 140562,
+      "sha256": "c70a457d1ca24441a3d557aec15bf3255c9ac96a3c35b6723394dd60b5ad7c90",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-tail-candidates.zip!page-CADAL06056483-195.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-tail-candidates/page-CADAL06056483-196.png",
+      "bytes": 138032,
+      "sha256": "f33deaefb74347611e82b629163568c51302ca362380ec8be4ae53e1fd06a7ba",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-tail-candidates.zip!page-CADAL06056483-196.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-tail-candidates/page-CADAL06056483-197.png",
+      "bytes": 143600,
+      "sha256": "4de3d52e8de6eac22ef5e20089f280bfe4818c16f5b15243ee2252cd0ae4edbe",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-tail-candidates.zip!page-CADAL06056483-197.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-tail-candidates/page-CADAL06056483-198.png",
+      "bytes": 137613,
+      "sha256": "47aa4a06daf0288e672f04205c78610bdbb2acaec3c3a0ba02d6929b7d20b417",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-tail-candidates.zip!page-CADAL06056483-198.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-tail-candidates/page-CADAL06056483-199.png",
+      "bytes": 119018,
+      "sha256": "7241673bfbb69e45292bc196b92e809ccf7503565803be1a6d7cd53b4df55f08",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-tail-candidates.zip!page-CADAL06056483-199.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-tail-candidates/page-CADAL06056483-200.png",
+      "bytes": 130994,
+      "sha256": "a166164874e9fb0e5219e10a854ce1848b709fb648624ded0142981c6b550cb4",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-tail-candidates.zip!page-CADAL06056483-200.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-tail-candidates/page-CADAL06056483-203.png",
+      "bytes": 138429,
+      "sha256": "214f6de274b23fa9fb271538ffee2e7db7677fef71894372d7c4b9fea4cf38ea",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-tail-candidates.zip!page-CADAL06056483-203.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-tail-candidates/page-CADAL06056483-204.png",
+      "bytes": 140263,
+      "sha256": "24055f39b91e7ce8c19241877ec036bf0dcf5c9f6ad2e14857b4d9f816cfcc66",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-tail-candidates.zip!page-CADAL06056483-204.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-tail-candidates/page-CADAL06056483-205.png",
+      "bytes": 136375,
+      "sha256": "1e0a5d5d60a94a0e00b1349cc53d7edcf9d1058e2f435e0a9dc7e403f2bb57b1",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-tail-candidates.zip!page-CADAL06056483-205.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-tail-candidates/page-CADAL06056483-206.png",
+      "bytes": 115344,
+      "sha256": "b098487de617f8233466c18a1c326c04ed466e23b2c5997410323b99e28d7299",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-tail-candidates.zip!page-CADAL06056483-206.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-tail-candidates/page-CADAL06066043-195.png",
+      "bytes": 112857,
+      "sha256": "3e0ac6e991f0ef524a95129df8eaeb0696797c9a42e6c0f9416db6fd8b481546",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-tail-candidates.zip!page-CADAL06066043-195.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-tail-candidates/page-CADAL06066043-196.png",
+      "bytes": 119557,
+      "sha256": "a33e9c97ee195f2d241821c9928cdeaf265f5d521fb3ba813a46bfc1f4c4d9a1",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-tail-candidates.zip!page-CADAL06066043-196.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-tail-candidates/page-CADAL06066043-197.png",
+      "bytes": 122328,
+      "sha256": "91bc0f63611721274b3dd3c188f810e643dd3c75e88aeced59700d9231ad2b5f",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-tail-candidates.zip!page-CADAL06066043-197.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-tail-candidates/page-CADAL06066043-198.png",
+      "bytes": 93736,
+      "sha256": "16d46d70c895bc6d73302913cc8ea5183a9af6ae510a63b1e2285219943c5ba5",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-tail-candidates.zip!page-CADAL06066043-198.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-tail-candidates/source-checks.json",
+      "bytes": 1107,
+      "sha256": "3a4a0144f64aacf10a5872d418fc21b78504c6835b5a2b82645451c8b9e7dc8c",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-tail-candidates.zip!source-checks.json"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-tail-candidates/tail-render-report.json",
+      "bytes": 5719,
+      "sha256": "f9baf2f3a86eb08bc3834525d1c71330ebb587086e984f3df17401e97f80aadf",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-tail-candidates.zip!tail-render-report.json"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/coarse-offset-report.json",
+      "bytes": 2972,
+      "sha256": "dfdc99e2b69f67c3c5d9f445377658be02375f2cfdbea7b383b145c2fea3cc03",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!coarse-offset-report.json"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/exact-boundary-report.json",
+      "bytes": 3157,
+      "sha256": "4e8f7da55196e14dbb2ce610823c04c4182767ba5f0883f885a04280d01b65f1",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!exact-boundary-report.json"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/fine-offset-report.json",
+      "bytes": 2826,
+      "sha256": "d8a9583b198241ed92e5ed6e911f193531f9eb644c85020a1b7935dc05ba4971",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!fine-offset-report.json"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/page-CADAL06056483-195.png",
+      "bytes": 140562,
+      "sha256": "c70a457d1ca24441a3d557aec15bf3255c9ac96a3c35b6723394dd60b5ad7c90",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!page-CADAL06056483-195.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/page-CADAL06056483-196.png",
+      "bytes": 138032,
+      "sha256": "f33deaefb74347611e82b629163568c51302ca362380ec8be4ae53e1fd06a7ba",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!page-CADAL06056483-196.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/page-CADAL06056483-197.png",
+      "bytes": 143600,
+      "sha256": "4de3d52e8de6eac22ef5e20089f280bfe4818c16f5b15243ee2252cd0ae4edbe",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!page-CADAL06056483-197.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/page-CADAL06056483-198.png",
+      "bytes": 137613,
+      "sha256": "47aa4a06daf0288e672f04205c78610bdbb2acaec3c3a0ba02d6929b7d20b417",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!page-CADAL06056483-198.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/page-CADAL06056483-199.png",
+      "bytes": 119018,
+      "sha256": "7241673bfbb69e45292bc196b92e809ccf7503565803be1a6d7cd53b4df55f08",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!page-CADAL06056483-199.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/page-CADAL06056483-200.png",
+      "bytes": 130994,
+      "sha256": "a166164874e9fb0e5219e10a854ce1848b709fb648624ded0142981c6b550cb4",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!page-CADAL06056483-200.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/page-CADAL06056483-203.png",
+      "bytes": 138429,
+      "sha256": "214f6de274b23fa9fb271538ffee2e7db7677fef71894372d7c4b9fea4cf38ea",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!page-CADAL06056483-203.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/page-CADAL06056483-204.png",
+      "bytes": 140263,
+      "sha256": "24055f39b91e7ce8c19241877ec036bf0dcf5c9f6ad2e14857b4d9f816cfcc66",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!page-CADAL06056483-204.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/page-CADAL06056483-205.png",
+      "bytes": 136375,
+      "sha256": "1e0a5d5d60a94a0e00b1349cc53d7edcf9d1058e2f435e0a9dc7e403f2bb57b1",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!page-CADAL06056483-205.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/page-CADAL06056483-206.png",
+      "bytes": 115344,
+      "sha256": "b098487de617f8233466c18a1c326c04ed466e23b2c5997410323b99e28d7299",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!page-CADAL06056483-206.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/page-CADAL06066043-195.png",
+      "bytes": 112857,
+      "sha256": "3e0ac6e991f0ef524a95129df8eaeb0696797c9a42e6c0f9416db6fd8b481546",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!page-CADAL06066043-195.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/page-CADAL06066043-196.png",
+      "bytes": 119557,
+      "sha256": "a33e9c97ee195f2d241821c9928cdeaf265f5d521fb3ba813a46bfc1f4c4d9a1",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!page-CADAL06066043-196.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/page-CADAL06066043-197.png",
+      "bytes": 122328,
+      "sha256": "91bc0f63611721274b3dd3c188f810e643dd3c75e88aeced59700d9231ad2b5f",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!page-CADAL06066043-197.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/page-CADAL06066043-198.png",
+      "bytes": 93736,
+      "sha256": "16d46d70c895bc6d73302913cc8ea5183a9af6ae510a63b1e2285219943c5ba5",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!page-CADAL06066043-198.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/source-checks.json",
+      "bytes": 1107,
+      "sha256": "3a4a0144f64aacf10a5872d418fc21b78504c6835b5a2b82645451c8b9e7dc8c",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!source-checks.json"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/tail-feature-match.json",
+      "bytes": 844,
+      "sha256": "a83f0369a0d1d5d7db0fe65d21aa4ccc9c24584700d103941dca4adc500dcdf8",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!tail-feature-match.json"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/tail-render-report.json",
+      "bytes": 5719,
+      "sha256": "f9baf2f3a86eb08bc3834525d1c71330ebb587086e984f3df17401e97f80aadf",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!tail-render-report.json"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/unmatched-CADAL06056483-113.png",
+      "bytes": 134065,
+      "sha256": "4349dbc35b966178021b3d900859085cc2935ff403d0f5f7767bee865c1891ed",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!unmatched-CADAL06056483-113.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/unmatched-CADAL06056483-114.png",
+      "bytes": 144467,
+      "sha256": "22b8e555593ae4a20ccb23ba731368868df6568e357eef5b885fa1c972dd6daf",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!unmatched-CADAL06056483-114.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/unmatched-CADAL06056483-115.png",
+      "bytes": 133046,
+      "sha256": "e0beef924f216546a76b14232ee6dcf4652024f0a70b38d63044ef86b829a983",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!unmatched-CADAL06056483-115.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/unmatched-CADAL06056483-116.png",
+      "bytes": 153303,
+      "sha256": "4829949f0a4b3bae5e8d7a915801bbf2ca2ddece2e3a14e813863a9e9651e79f",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!unmatched-CADAL06056483-116.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/unmatched-CADAL06056483-129.png",
+      "bytes": 123863,
+      "sha256": "9219f73b2fcf05f705a63778298ce5d19ff261afcd015d632a2a4f729bff079e",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!unmatched-CADAL06056483-129.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/unmatched-CADAL06056483-130.png",
+      "bytes": 116099,
+      "sha256": "d3f25a20e0cb6cef24705166af35d03a284cb2ec31784c7817fbb34604bf2855",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!unmatched-CADAL06056483-130.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/unmatched-CADAL06056483-131.png",
+      "bytes": 115034,
+      "sha256": "9b4b2ec4656c500beb7883e64e62f6939d712511d2d949e7a8c8e4e531520579",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!unmatched-CADAL06056483-131.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/unmatched-CADAL06056483-132.png",
+      "bytes": 129589,
+      "sha256": "db5b84a8b2c149bb754a8b751d97911f537296ac68819c16531f74c25ff45b14",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!unmatched-CADAL06056483-132.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/unmatched-CADAL06066043-112.png",
+      "bytes": 124296,
+      "sha256": "43d5a829671a42df0ea69434777c8f63710b2a0a0b58fcf3d6f7e9d0d47d7115",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!unmatched-CADAL06066043-112.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/unmatched-CADAL06066043-113.png",
+      "bytes": 117682,
+      "sha256": "e2aaff0452fccf0d4ec974ec91d8cf7ef4558795b594d8b0edc434dcb308ead1",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!unmatched-CADAL06066043-113.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/unmatched-CADAL06066043-124.png",
+      "bytes": 101586,
+      "sha256": "4628d0ba6ff1cfe6013401ca75cab9c575510badbb3e2c216b029c20346eeb17",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!unmatched-CADAL06066043-124.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/unmatched-CADAL06066043-125.png",
+      "bytes": 96802,
+      "sha256": "7ec5abff2cc00b1f59d7e23bcfac57ed4f9ff1cc9dcf01ff47a779b740146e3f",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!unmatched-CADAL06066043-125.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-8-unmatched-pages/unmatched-image-report.json",
+      "bytes": 4061,
+      "sha256": "52274c2dcaacc7e67e6b4901d7c42e8198c3ac86d1d595da02ea25ac295329e9",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-8-unmatched-pages.zip!unmatched-image-report.json"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/page-CADAL06056483-007.png",
+      "bytes": 145294,
+      "sha256": "82920f0c2e3ec0358d102b5a97eee6b427bf1cb0fb12586c38ddeb8ac34d498a",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!page-CADAL06056483-007.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/page-CADAL06056483-008.png",
+      "bytes": 144607,
+      "sha256": "3f24e5d1d0907951d77e12701755b5b88aabbf84e0401a7fe629e5e25fc5689d",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!page-CADAL06056483-008.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/page-CADAL06056483-009.png",
+      "bytes": 75135,
+      "sha256": "212bd62f63e880ddb19ba95029e5bf04433ac21a4fa267e91fd11771a74fc6ff",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!page-CADAL06056483-009.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/page-CADAL06056483-010.png",
+      "bytes": 50993,
+      "sha256": "9d5c65ac7cba0d02cc1643e07bc85fa525cb6b4b210cb8615738ee68e84dbe34",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!page-CADAL06056483-010.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/page-CADAL06056483-011.png",
+      "bytes": 134550,
+      "sha256": "44ea9407fa4fe4abe5998574c3a6f586a5fddc1b256e263cf76a325f16b37a97",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!page-CADAL06056483-011.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/page-CADAL06056483-012.png",
+      "bytes": 141105,
+      "sha256": "36b3bf7448f8719c2f8606e074a91782174e4bfe8c72b99e19d9a0aa23e9e823",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!page-CADAL06056483-012.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/page-CADAL06056483-013.png",
+      "bytes": 140677,
+      "sha256": "bf18c43edde2f44c633bc211c0ebcdfc14bb42efd131132b46ff4d680e48bb7e",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!page-CADAL06056483-013.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/page-CADAL06056483-014.png",
+      "bytes": 137516,
+      "sha256": "018f8e65b439a0effc39400bbf8a949949d9d79aafa0a88663c391854e81c5bb",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!page-CADAL06056483-014.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/page-CADAL06056483-015.png",
+      "bytes": 137002,
+      "sha256": "e00d8e80f29bf6dc7ff3c7294a326d231aecf713bd5244ac9d808c926d3bf3ce",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!page-CADAL06056483-015.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/page-CADAL06056483-016.png",
+      "bytes": 141220,
+      "sha256": "7af08beb7a4eab9b3c43e8734ca0f5ac44834f4e967b44219ad396315c46b283",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!page-CADAL06056483-016.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/page-CADAL06056483-017.png",
+      "bytes": 146580,
+      "sha256": "fabc4fe04aaaa07aa93926ee92b83d8e36e296aebda32de38d947d928464a2a2",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!page-CADAL06056483-017.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/page-CADAL06066043-007.png",
+      "bytes": 126319,
+      "sha256": "6e4fb5794fa6486cfdb4dcd0d4344d02dc8812f30580c9f08b8eaa32d2fd1a95",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!page-CADAL06066043-007.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/page-CADAL06066043-008.png",
+      "bytes": 124951,
+      "sha256": "a9b93e44fcb082b0747410d8ab21234e5db3ef5369ab38952ceb828b60c4b342",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!page-CADAL06066043-008.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/page-CADAL06066043-009.png",
+      "bytes": 59867,
+      "sha256": "5210744d92f7cb29656dd66593267e8c461aa54d76fb64a1aa516dfcc9092a5f",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!page-CADAL06066043-009.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/page-CADAL06066043-010.png",
+      "bytes": 42541,
+      "sha256": "f6b7921da67eb92865486fc976b9244ba90b48f9b1dae6244955c2ed5d8995d6",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!page-CADAL06066043-010.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/page-CADAL06066043-011.png",
+      "bytes": 110587,
+      "sha256": "8d6a3aefbca4a0547fc25476fbb03b6935b32a82b8be69eeea43e249cbac843a",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!page-CADAL06066043-011.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/page-CADAL06066043-012.png",
+      "bytes": 121596,
+      "sha256": "efc4bc7929279231e9cae4f5d61029331a837d09acfd6cda85c75dbd088e0266",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!page-CADAL06066043-012.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/page-CADAL06066043-015.png",
+      "bytes": 119255,
+      "sha256": "7212325d589428a8a997924a9ac7efdd0427f8c12bfa7e79717a5a97be808e63",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!page-CADAL06066043-015.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/page-CADAL06066043-013.png",
+      "bytes": 124773,
+      "sha256": "3b8531b867a3d43c5049c09bffeae34d593d9f7b17eff96a4fcee83f13eeb0b9",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!page-CADAL06066043-013.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/page-CADAL06066043-014.png",
+      "bytes": 116556,
+      "sha256": "b419bad6cebfce350180920dabcc898c7f6510c21f0e9dc41373375ff4a472dd",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!page-CADAL06066043-014.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/page-CADAL06066043-016.png",
+      "bytes": 120836,
+      "sha256": "ccb69cae490f04cff913bd1eb1cbbbc4732067e7f8ffd28e3da0d38588fb5e70",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!page-CADAL06066043-016.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/page-CADAL06066043-017.png",
+      "bytes": 123112,
+      "sha256": "464181bbbf6b6f179b964a864047e56c1fa290baad85d7c6c0f395ed45b181bd",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!page-CADAL06066043-017.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/page-counts.json",
+      "bytes": 9535,
+      "sha256": "36b9de8bcab6fb2d100039226704bf17091ea42aa6cee17a3bc0e91a3d674c85",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!page-counts.json"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-vol7-page-candidates/retrieval-report.json",
+      "bytes": 1107,
+      "sha256": "3a4a0144f64aacf10a5872d418fc21b78504c6835b5a2b82645451c8b9e7dc8c",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-vol7-page-candidates.zip!retrieval-report.json"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg07-unmatched-contact.jpg",
+      "bytes": 794577,
+      "sha256": "6ae568ae3fb6eb3028f2fc1aa719120610ac9af96dd3097b672e36010c595a4c",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg07-unmatched-contact.jpg"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-native7-preview/page-CADAL06066043-010.png",
+      "bytes": 42541,
+      "sha256": "f6b7921da67eb92865486fc976b9244ba90b48f9b1dae6244955c2ed5d8995d6",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-native7-preview/page-CADAL06066043-010.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/evidence/wyg-native7-preview/page-CADAL06056483-010.png",
+      "bytes": 50993,
+      "sha256": "9d5c65ac7cba0d02cc1643e07bc85fa525cb6b4b210cb8615738ee68e84dbe34",
+      "origin": "04_CHUNG_CU_WYG_DA_TAO/wyg-native7-preview/page-CADAL06056483-010.png"
+    },
+    {
+      "file": "collaboration/imports/ai01-2026-10-31/original-text/SHA256_MANIFEST.json",
+      "bytes": 5271,
+      "sha256": "2d15ea80b052d5a1eefc72b8512d40f318342b2133ddb901192ccd75c5552a9e",
+      "origin": "SHA256_MANIFEST.json"
+    }
+  ]
+}

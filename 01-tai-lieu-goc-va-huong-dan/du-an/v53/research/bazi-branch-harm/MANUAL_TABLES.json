@@ -1,0 +1,240 @@
+{
+  "sourceID": "TMTH-WYG-002-LIUHAI",
+  "frameID": "declared-source-coordinate-v1",
+  "branches": [
+    "子",
+    "丑",
+    "寅",
+    "卯",
+    "辰",
+    "巳",
+    "午",
+    "未",
+    "申",
+    "酉",
+    "戌",
+    "亥"
+  ],
+  "normalization": [
+    {
+      "digital": "戍",
+      "nativeSelectedReading": "戌",
+      "inputToken": "戌",
+      "scope": "Branch token only; original digital bytes unchanged."
+    }
+  ],
+  "pairs": [
+    {
+      "id": "zi-wei",
+      "branches": [
+        "子",
+        "未"
+      ],
+      "sourceLabel": "勢家相害"
+    },
+    {
+      "id": "chou-wu",
+      "branches": [
+        "丑",
+        "午"
+      ],
+      "sourceLabel": "官鬼相害"
+    },
+    {
+      "id": "yin-si",
+      "branches": [
+        "寅",
+        "巳"
+      ],
+      "sourceLabel": "各恃臨官"
+    },
+    {
+      "id": "mao-chen",
+      "branches": [
+        "卯",
+        "辰"
+      ],
+      "sourceLabel": "以少淩長"
+    },
+    {
+      "id": "shen-hai",
+      "branches": [
+        "申",
+        "亥"
+      ],
+      "sourceLabel": "競嫉才能"
+    },
+    {
+      "id": "you-xu",
+      "branches": [
+        "酉",
+        "戌"
+      ],
+      "sourceLabel": "嫉妬相害"
+    }
+  ],
+  "directedClauses": [
+    {
+      "anchor": "子",
+      "other": "未",
+      "wording": "source-harm-wording"
+    },
+    {
+      "anchor": "丑",
+      "other": "午",
+      "wording": "source-harm-wording"
+    },
+    {
+      "anchor": "辰",
+      "other": "卯",
+      "wording": "source-harm-wording"
+    },
+    {
+      "anchor": "申",
+      "other": "亥",
+      "wording": "source-harm-wording"
+    },
+    {
+      "anchor": "亥",
+      "other": "申",
+      "wording": "source-harm-wording"
+    },
+    {
+      "anchor": "酉",
+      "other": "戌",
+      "wording": "source-adverse-wording"
+    },
+    {
+      "anchor": "戌",
+      "other": "酉",
+      "wording": "source-no-disaster-wording"
+    }
+  ],
+  "causalRows": [
+    {
+      "anchor": "子",
+      "clash": "午",
+      "other": "未"
+    },
+    {
+      "anchor": "丑",
+      "clash": "未",
+      "other": "午"
+    },
+    {
+      "anchor": "寅",
+      "clash": "申",
+      "other": "巳"
+    },
+    {
+      "anchor": "卯",
+      "clash": "酉",
+      "other": "辰"
+    },
+    {
+      "anchor": "申",
+      "clash": "寅",
+      "other": "亥"
+    },
+    {
+      "anchor": "酉",
+      "clash": "卯",
+      "other": "戌"
+    }
+  ],
+  "clashPartners": {
+    "子": "午",
+    "丑": "未",
+    "寅": "申",
+    "卯": "酉",
+    "辰": "戌",
+    "巳": "亥",
+    "午": "子",
+    "未": "丑",
+    "申": "寅",
+    "酉": "卯",
+    "戌": "辰",
+    "亥": "巳"
+  },
+  "unionPartners": {
+    "子": "丑",
+    "丑": "子",
+    "寅": "亥",
+    "卯": "戌",
+    "辰": "酉",
+    "巳": "申",
+    "午": "未",
+    "未": "午",
+    "申": "巳",
+    "酉": "辰",
+    "戌": "卯",
+    "亥": "寅"
+  },
+  "conditions": [
+    {
+      "id": "chou-wu-true-ghost",
+      "allowedOrderedPairs": [
+        [
+          "丑",
+          "午"
+        ]
+      ],
+      "literal": "午更帶丑干之真鬼",
+      "premiseRole": "Source predicate must be declared, not calculated from modern stem element or ten-god name."
+    },
+    {
+      "id": "yin-si-travel-ghost",
+      "allowedOrderedPairs": [
+        [
+          "寅",
+          "巳"
+        ],
+        [
+          "巳",
+          "寅"
+        ]
+      ],
+      "literal": "若干神往来有鬼者尢甚",
+      "premiseRole": "No unproved parity, ten-god or strength rule."
+    },
+    {
+      "id": "chen-mao-true-ghost",
+      "allowedOrderedPairs": [
+        [
+          "辰",
+          "卯"
+        ]
+      ],
+      "literal": "卯更帶辰干真鬼",
+      "premiseRole": "True ghost, source pillar role and direction require further source work."
+    },
+    {
+      "id": "shen-hai-nayin-overcoming",
+      "allowedOrderedPairs": [
+        [
+          "申",
+          "亥"
+        ],
+        [
+          "亥",
+          "申"
+        ]
+      ],
+      "literal": "更納音相尅者重",
+      "premiseRole": "Which source pillar pair and direction of overcoming are not automatically chosen."
+    }
+  ],
+  "literalExample": {
+    "anchorPillar": "乙酉",
+    "otherPillar": "戊戌",
+    "literal": "若乙酉人得戊戌乙為真金戊為真火為害尢甚",
+    "trueElementLabels": [
+      "金",
+      "火"
+    ],
+    "elementSystemNotAdjudicated": true
+  },
+  "allResultsAreSourceTextCoordinates": true,
+  "calendarAdapter": false,
+  "predictiveOutcome": null
+}

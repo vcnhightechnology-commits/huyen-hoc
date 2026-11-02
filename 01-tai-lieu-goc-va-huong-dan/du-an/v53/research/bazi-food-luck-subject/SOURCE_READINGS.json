@@ -1,0 +1,84 @@
+{
+  "date": "2026-10-29",
+  "parentContext": {
+    "id": "FOOD-00-C14",
+    "unit": "FOOD-00",
+    "heading": "論食神",
+    "startCleanCodepoint": 770,
+    "endCleanCodepoint": 987,
+    "text": "又如庚以壬為食運厯北方水旺之地發財必厚東方木旺之鄉發福必𦂳細論之庚以壬為食長生於申當㫁申地福重暴敗在酉壬水至酉便不為佳以壬生甲木為庚之財即自生分發身之財非婚配正妻之財甲至酉地為木困金鄉壬水自敗木豈能助養其父當斷此運平平行至戌運如干遇壬甲亦只㫁其半吉半㓙逢戊可㫁其有災見庚可㫁其㣲福亥運當言其大吉子運癸水傷官傷重泄本身之氣又庚死於子甲敗於子當㫁生禍身災運至丑庚金之庫水旺之鄉又有已丑助庚甲冠帶成人之地可㫁此十年發寅運亦吉卯運有災餘例此推",
+    "digitalFolios": [
+      "005-86a",
+      "005-86b",
+      "005-87a"
+    ],
+    "digitalOnlyFoliosWithinKnownContinuityGap": [],
+    "voice": "quoted-voice",
+    "disposition": "specific-stem-luck-context",
+    "readingNote": "庚壬/thuỷ/mộc và các địa vận; chuỗi tuổi/vận phụ thuộc bối cảnh, chưa là dự báo.",
+    "firstPassRead": true,
+    "allCharactersImageCollated": false,
+    "fullConditionalRuleEncoded": false,
+    "sourceOutcomeValidated": false,
+    "consumerApplied": false
+  },
+  "firstPassOnlyNotFullRule": true,
+  "mappingObserved": "p173=005-86a,p174=86b,p175=87a, observed folio/continuing text; not calculated solely2×folio.",
+  "selectedReadings": [
+    {
+      "id": "implicit-shen",
+      "image": 174,
+      "literal": "庚以壬為食長生於申",
+      "subject": "unexpressed-for-長生",
+      "editorialCandidates": [
+        "壬",
+        "庚"
+      ],
+      "adoptedSourceSubject": null,
+      "comment": "壬 is food subject in context, but compare both declared possibilities without using an engine match to establish the source grammar."
+    },
+    {
+      "id": "ren-you",
+      "image": 174,
+      "literal": "壬水至酉便不為佳…壬水自敗",
+      "subject": "壬",
+      "branch": "酉",
+      "sourcePhaseLiteral": "敗",
+      "aliasPolicy": "reported-SanmingTiyao-explicit-敗/沐浴 comparison only; not automatically all敗language or material failure"
+    },
+    {
+      "id": "geng-zi",
+      "image": 174,
+      "literal": "又庚死於子",
+      "subject": "庚",
+      "branch": "子",
+      "sourcePhaseLiteral": "死"
+    },
+    {
+      "id": "jia-zi",
+      "image": 174,
+      "literal": "甲敗於子",
+      "subject": "甲",
+      "branch": "子",
+      "sourcePhaseLiteral": "敗",
+      "aliasPolicy": "same explicit named reported lexicon only"
+    },
+    {
+      "id": "jia-chou",
+      "image": 175,
+      "literal": "運至丑…甲冠帶成人之地",
+      "subject": "甲",
+      "branch": "丑",
+      "sourcePhaseLiteral": "冠帶"
+    }
+  ],
+  "notImplemented": [
+    "財厚/發福/半吉半凶/災/傷官泄氣/制化 and full luck sequence are historical claims, not material or health predictions.",
+    "金之庫 at丑 is an elemental phrase; do not substitute庚墓 without another explicit premise.",
+    "己/已 graphic in又有己丑,subject of暴敗 and implicit initial長生 still need retained explicit policies."
+  ],
+  "sourceOutcomeValidated": false,
+  "wholeContextApplied": false,
+  "newSourcePositions": 0,
+  "consumerChanged": false
+}

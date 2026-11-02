@@ -1,0 +1,80 @@
+{
+  "date": "2026-10-29",
+  "cellCount": 84,
+  "expectedP08Comparisons": {
+    "sameLiteral": 77,
+    "differentLiteral": 5,
+    "P08Unresolved": 2
+  },
+  "explicitDifferences": [
+    {
+      "god": "tian-de-he",
+      "month": 6,
+      "P08": "己",
+      "ITKC": "中"
+    },
+    {
+      "god": "tian-de-he",
+      "month": 7,
+      "P08": "戊",
+      "ITKC": "中"
+    },
+    {
+      "god": "yue-de-he",
+      "month": 2,
+      "P08": "己",
+      "ITKC": "中"
+    },
+    {
+      "god": "yue-de-he",
+      "month": 6,
+      "P08": "己",
+      "ITKC": "中"
+    },
+    {
+      "god": "yue-de-he",
+      "month": 10,
+      "P08": "己",
+      "ITKC": "中"
+    }
+  ],
+  "P08OpenCells": [
+    {
+      "god": "yue-cai",
+      "month": 2,
+      "P08": null,
+      "ITKC": "乙"
+    },
+    {
+      "god": "yue-cai",
+      "month": 8,
+      "P08": null,
+      "ITKC": "乙"
+    }
+  ],
+  "institutionTextVsImage": [
+    {
+      "god": "yue-de",
+      "month": 4,
+      "institutionDigital": "寅",
+      "image": "庚",
+      "digitalAutoCorrected": false
+    }
+  ],
+  "wikisourceAndITKCNotCountedAsIndependent": true,
+  "actualEngineProbes": [
+    {
+      "angle": 105,
+      "expectedMountain": "Ất",
+      "expectedCenter": 105,
+      "literalHypothesis": "乙"
+    },
+    {
+      "angle": 30,
+      "expectedMountain": "Sửu",
+      "expectedCenter": 30,
+      "literalHypothesis": "丑"
+    }
+  ],
+  "engineProbePurpose": "Two hypothetical24mountain coordinate models,not a monthcalendaradapter,not emendation of P08. A75degree distinction is a coordinate illustration only."
+}

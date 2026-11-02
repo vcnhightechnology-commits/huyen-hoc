@@ -1,0 +1,718 @@
+{
+  "checks": [
+    {
+      "name": "Retained book and pinned comparator match the exact earlier release byte identities",
+      "ok": true
+    },
+    {
+      "name": "Two decoder-tool HTTP bodies have retained length/hash/TLS and official origin; they are not new book witnesses",
+      "ok": true
+    },
+    {
+      "name": "Actual decoder hash and declared official download-page version agree with render metadata",
+      "ok": true
+    },
+    {
+      "name": "All31 PNG derivatives retain exact hashes and actual native dimensions",
+      "ok": true
+    },
+    {
+      "name": "Decoder returned226 pages and recorded no HTTP requests or browser errors",
+      "ok": true
+    },
+    {
+      "name": "All28 individually read clauses are contiguous on their exact declared WYG folios with every comparison variant explicit",
+      "ok": true,
+      "detail": {
+        "declaredVariants": 8
+      }
+    },
+    {
+      "name": "Eight current partial sections plus prior ten clauses cover targeted passages in all ten matrix headings, never whole sections",
+      "ok": true
+    },
+    {
+      "name": "All31 manually viewed native images have individual anchors, including29 new context pages and2 calibration pages",
+      "ok": true
+    },
+    {
+      "name": "File page is not guessed from folio arithmetic:198=100b and218=110b, while138=68b",
+      "ok": true
+    },
+    {
+      "name": "Previously failedHTTP429 remains excluded;68b is now obtained only as a local derivative of the already retained container",
+      "ok": true
+    },
+    {
+      "name": "Prior manual readings, HTTP failure evidence and historical report keep exact bytes",
+      "ok": true
+    },
+    {
+      "name": "Actually executed lunar-typescript runtime passes its retained complete file-byte audit",
+      "ok": true
+    },
+    {
+      "name": "Eight explicit image-read stem pairs match HHC and the actual library relation table",
+      "ok": true
+    },
+    {
+      "name": "366 actual UTC+8 reference charts reproduce all four HHC pillars while locating the new source examples",
+      "ok": true
+    },
+    {
+      "name": "Each of the eight printed stem pairs has an actual chart with the exact relation stem at retained visible/hidden locations",
+      "ok": true
+    },
+    {
+      "name": "Both explicit established-Lu day/month pairs have real chart fixtures; no ten-pair source table is invented",
+      "ok": true
+    },
+    {
+      "name": "Three concrete negative/control fixtures separate visible peers, indirect-seal-without-food, and mere co-presence",
+      "ok": true,
+      "detail": {
+        "bothPresent": {
+          "input": {
+            "y": 2020,
+            "m": 1,
+            "d": 2,
+            "hour": 8,
+            "minute": 30,
+            "tz": 8,
+            "gender": "male",
+            "dayPolicy": "midnight",
+            "lateZiHour": "day"
+          },
+          "pillars": [
+            "己亥",
+            "丙子",
+            "甲辰",
+            "戊辰"
+          ],
+          "reason": "Both labels exist; presence alone does not evaluate strength, control, combination or successful pattern."
+        },
+        "indirectSealWithoutFood": {
+          "input": {
+            "y": 2020,
+            "m": 1,
+            "d": 3,
+            "hour": 8,
+            "minute": 30,
+            "tz": 8,
+            "gender": "male",
+            "dayPolicy": "midnight",
+            "lateZiHour": "day"
+          },
+          "pillars": [
+            "己亥",
+            "丙子",
+            "乙巳",
+            "庚辰"
+          ],
+          "reason": "No food in all known visible/hidden stems; keep indirect-seal label without asserting depriving-food combination."
+        },
+        "peerNotLu": {
+          "input": {
+            "y": 2020,
+            "m": 8,
+            "d": 9,
+            "hour": 8,
+            "minute": 30,
+            "tz": 8,
+            "gender": "male",
+            "dayPolicy": "midnight",
+            "lateZiHour": "day"
+          },
+          "pillars": [
+            "庚子",
+            "甲申",
+            "甲申",
+            "戊辰"
+          ],
+          "reason": "Visible peer in another pillar does not satisfy either explicit source day/month definition."
+        }
+      }
+    },
+    {
+      "name": "The five-Yang chapter and its contrary甲申/丁卯example retain the exact printed pair while HHC still preserves its underlying peer relation",
+      "ok": true,
+      "detail": {
+        "input": {
+          "y": 2020,
+          "m": 2,
+          "d": 11,
+          "hour": 5,
+          "minute": 30,
+          "tz": 8,
+          "gender": "male",
+          "dayPolicy": "midnight",
+          "lateZiHour": "day"
+        },
+        "pillars": [
+          "庚子",
+          "戊寅",
+          "甲申",
+          "丁卯"
+        ],
+        "qualification": "A modern chart matching only these two printed pillars, not a historical birth date or completed pattern judgment."
+      }
+    },
+    {
+      "name": "All previously released product/data files remain byte-identical; no speculative pattern/strength algorithm enters the website",
+      "ok": true
+    },
+    {
+      "name": "Portable HTML,root HTML and clean-site HTML retain the previous verified product",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "newTargetedClauses": 28,
+    "partialSectionsThisScope": 8,
+    "localNativePageImages": 31,
+    "newContextPages": 29,
+    "calibrationPages": 2,
+    "totalTargetedMatrixHeadingsWithImages": 10,
+    "totalTargetedClausesAcrossTwoScopes": 38,
+    "actualLibraryCharts": 367,
+    "explicitStemPairs": 8,
+    "establishedLuExamples": 2,
+    "negativeFixtures": 3,
+    "additionalBladeFixture": 1,
+    "bookNewHTTPRequests": 0,
+    "toolingHTTPResponses": 2,
+    "wholeVolumeComplete": false,
+    "fullClassifierImplemented": false,
+    "productChanged": false
+  },
+  "manualSHA256": "95223ece3888015d7b26c71ea8cf89993d61463ead1c2a927b697dd88fc05f9d",
+  "renderManifestSHA256": "8b6015e55d727b50d15b191bba4ecd252b796d6ac1b1f028214d69752fb0f806",
+  "variants": [
+    {
+      "id": "wealth-definition",
+      "image": 83,
+      "folio": "005-41a",
+      "imageText": "正財者乃甲見己乙見戊之例",
+      "digitalText": "正財者乃甲見巳乙見戊之例",
+      "difference": "Image read as stem 己; retained transcription has 巳. Preserve both, do not globally replace 巳/己."
+    },
+    {
+      "id": "wealth-official-qualifier",
+      "image": 85,
+      "folio": "005-42a",
+      "imageText": "凡財格喜見官星顯露别無傷損或更食生印助日主健旺富貴雙全",
+      "digitalText": "凡財格喜見官星顯露别無傷損或更食生印助日主徤旺富貴雙全",
+      "difference": "健/徤 glyph retained explicitly."
+    },
+    {
+      "id": "indirect-wealth-definition",
+      "image": 99,
+      "folio": "005-49a",
+      "imageText": "何謂偏財乃甲見戊乙見己之例",
+      "digitalText": "何謂偏財乃甲見戊乙見巳之例",
+      "difference": "Image read as stem 己; comparator has 巳. Do not silently change comparator."
+    },
+    {
+      "id": "seal-exception",
+      "image": 115,
+      "folio": "005-57a",
+      "imageText": "若印綬少官鬼多或入他格又不可專言印綬",
+      "digitalText": "若印綬少官鬼多或入他格又不可専言印綬",
+      "difference": "專/専 glyph retained explicitly."
+    },
+    {
+      "id": "hurting-qualifiers",
+      "image": 155,
+      "folio": "005-77a",
+      "imageText": "如月令在傷官四柱作合結局皆在傷位無衝無破不見一點官星謂之傷盡",
+      "digitalText": "如月令在傷官四柱作合結局皆在傷位無衝無破不見一㸃官星謂之傷盡",
+      "difference": "點/㸃 glyph retained explicitly."
+    },
+    {
+      "id": "blade-three-names",
+      "image": 199,
+      "folio": "005-101a",
+      "imageText": "陽刃有三有刼財刃甲見乙是也不利財官格有護禄刃甲見卯是也大利歸禄格有背禄刃乙丙是也",
+      "digitalText": "陽刃有三有刼財刃甲見乙是也不利財官格有䕶禄刃甲見卯是也大利歸禄格有背禄刃乙丙是也",
+      "difference": "護/䕶 glyph retained explicitly."
+    },
+    {
+      "id": "established-lu-other-pillars",
+      "image": 219,
+      "folio": "005-111a",
+      "imageText": "更看年時上露多者取用",
+      "digitalText": "更㸔年時上露多者取用",
+      "difference": "看/㸔 glyph retained explicitly."
+    },
+    {
+      "id": "established-lu-not-month-alone",
+      "image": 224,
+      "folio": "005-113b",
+      "imageText": "提綱建禄將何取須看年時多透露局中六格自分明莫泥提綱反為悮",
+      "digitalText": "提綱建禄將何取須㸔年時多透露局中六格自分明莫泥提綱反為悮",
+      "difference": "看/㸔 glyph retained explicitly."
+    }
+  ],
+  "pairFixtures": [
+    {
+      "source": {
+        "day": "甲",
+        "other": "己",
+        "relation": "Chính Tài",
+        "image": 83
+      },
+      "input": {
+        "y": 2020,
+        "m": 1,
+        "d": 2,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "己亥",
+        "丙子",
+        "甲辰",
+        "戊辰"
+      ],
+      "positions": {
+        "visible": [
+          {
+            "pillarIndex": 0,
+            "pillar": "năm",
+            "stem": 5,
+            "name": "Kỷ"
+          }
+        ],
+        "hidden": []
+      }
+    },
+    {
+      "source": {
+        "day": "甲",
+        "other": "戊",
+        "relation": "Thiên Tài",
+        "image": 99
+      },
+      "input": {
+        "y": 2020,
+        "m": 1,
+        "d": 2,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "己亥",
+        "丙子",
+        "甲辰",
+        "戊辰"
+      ],
+      "positions": {
+        "visible": [
+          {
+            "pillarIndex": 3,
+            "pillar": "giờ",
+            "stem": 4,
+            "name": "Mậu"
+          }
+        ],
+        "hidden": [
+          {
+            "pillarIndex": 2,
+            "pillar": "ngày",
+            "branch": "Thìn",
+            "stem": 4,
+            "name": "Mậu",
+            "primary": true
+          },
+          {
+            "pillarIndex": 3,
+            "pillar": "giờ",
+            "branch": "Thìn",
+            "stem": 4,
+            "name": "Mậu",
+            "primary": true
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "day": "甲",
+        "other": "丙",
+        "relation": "Thực Thần",
+        "image": 169
+      },
+      "input": {
+        "y": 2020,
+        "m": 1,
+        "d": 2,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "己亥",
+        "丙子",
+        "甲辰",
+        "戊辰"
+      ],
+      "positions": {
+        "visible": [
+          {
+            "pillarIndex": 1,
+            "pillar": "tháng",
+            "stem": 2,
+            "name": "Bính"
+          }
+        ],
+        "hidden": []
+      }
+    },
+    {
+      "source": {
+        "day": "乙",
+        "other": "戊",
+        "relation": "Chính Tài",
+        "image": 83
+      },
+      "input": {
+        "y": 2020,
+        "m": 1,
+        "d": 3,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "己亥",
+        "丙子",
+        "乙巳",
+        "庚辰"
+      ],
+      "positions": {
+        "visible": [],
+        "hidden": [
+          {
+            "pillarIndex": 2,
+            "pillar": "ngày",
+            "branch": "Tỵ",
+            "stem": 4,
+            "name": "Mậu",
+            "primary": false
+          },
+          {
+            "pillarIndex": 3,
+            "pillar": "giờ",
+            "branch": "Thìn",
+            "stem": 4,
+            "name": "Mậu",
+            "primary": true
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "day": "乙",
+        "other": "己",
+        "relation": "Thiên Tài",
+        "image": 99
+      },
+      "input": {
+        "y": 2020,
+        "m": 1,
+        "d": 3,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "己亥",
+        "丙子",
+        "乙巳",
+        "庚辰"
+      ],
+      "positions": {
+        "visible": [
+          {
+            "pillarIndex": 0,
+            "pillar": "năm",
+            "stem": 5,
+            "name": "Kỷ"
+          }
+        ],
+        "hidden": []
+      }
+    },
+    {
+      "source": {
+        "day": "乙",
+        "other": "丙",
+        "relation": "Thương Quan",
+        "image": 154
+      },
+      "input": {
+        "y": 2020,
+        "m": 1,
+        "d": 3,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "己亥",
+        "丙子",
+        "乙巳",
+        "庚辰"
+      ],
+      "positions": {
+        "visible": [
+          {
+            "pillarIndex": 1,
+            "pillar": "tháng",
+            "stem": 2,
+            "name": "Bính"
+          }
+        ],
+        "hidden": [
+          {
+            "pillarIndex": 2,
+            "pillar": "ngày",
+            "branch": "Tỵ",
+            "stem": 2,
+            "name": "Bính",
+            "primary": true
+          }
+        ]
+      }
+    },
+    {
+      "source": {
+        "day": "甲",
+        "other": "丁",
+        "relation": "Thương Quan",
+        "image": 154
+      },
+      "input": {
+        "y": 2020,
+        "m": 1,
+        "d": 12,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "己亥",
+        "丁丑",
+        "甲寅",
+        "戊辰"
+      ],
+      "positions": {
+        "visible": [
+          {
+            "pillarIndex": 1,
+            "pillar": "tháng",
+            "stem": 3,
+            "name": "Đinh"
+          }
+        ],
+        "hidden": []
+      }
+    },
+    {
+      "source": {
+        "day": "乙",
+        "other": "丁",
+        "relation": "Thực Thần",
+        "image": 169
+      },
+      "input": {
+        "y": 2020,
+        "m": 1,
+        "d": 13,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "己亥",
+        "丁丑",
+        "乙卯",
+        "庚辰"
+      ],
+      "positions": {
+        "visible": [
+          {
+            "pillarIndex": 1,
+            "pillar": "tháng",
+            "stem": 3,
+            "name": "Đinh"
+          }
+        ],
+        "hidden": []
+      }
+    }
+  ],
+  "luFixtures": [
+    {
+      "source": {
+        "day": "甲",
+        "month": "寅",
+        "image": 218
+      },
+      "input": {
+        "y": 2020,
+        "m": 2,
+        "d": 11,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "戊寅",
+        "甲申",
+        "戊辰"
+      ]
+    },
+    {
+      "source": {
+        "day": "乙",
+        "month": "卯",
+        "image": 218
+      },
+      "input": {
+        "y": 2020,
+        "m": 3,
+        "d": 13,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "己卯",
+        "乙卯",
+        "庚辰"
+      ]
+    }
+  ],
+  "negativeFixtures": {
+    "bothPresent": {
+      "input": {
+        "y": 2020,
+        "m": 1,
+        "d": 2,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "己亥",
+        "丙子",
+        "甲辰",
+        "戊辰"
+      ],
+      "reason": "Both labels exist; presence alone does not evaluate strength, control, combination or successful pattern."
+    },
+    "indirectSealWithoutFood": {
+      "input": {
+        "y": 2020,
+        "m": 1,
+        "d": 3,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "己亥",
+        "丙子",
+        "乙巳",
+        "庚辰"
+      ],
+      "reason": "No food in all known visible/hidden stems; keep indirect-seal label without asserting depriving-food combination."
+    },
+    "peerNotLu": {
+      "input": {
+        "y": 2020,
+        "m": 8,
+        "d": 9,
+        "hour": 8,
+        "minute": 30,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "pillars": [
+        "庚子",
+        "甲申",
+        "甲申",
+        "戊辰"
+      ],
+      "reason": "Visible peer in another pillar does not satisfy either explicit source day/month definition."
+    }
+  },
+  "bladeFixture": {
+    "input": {
+      "y": 2020,
+      "m": 2,
+      "d": 11,
+      "hour": 5,
+      "minute": 30,
+      "tz": 8,
+      "gender": "male",
+      "dayPolicy": "midnight",
+      "lateZiHour": "day"
+    },
+    "pillars": [
+      "庚子",
+      "戊寅",
+      "甲申",
+      "丁卯"
+    ],
+    "sourcePartialPillars": [
+      "甲申",
+      "丁卯"
+    ],
+    "notHistoricalBirthDate": true
+  }
+}

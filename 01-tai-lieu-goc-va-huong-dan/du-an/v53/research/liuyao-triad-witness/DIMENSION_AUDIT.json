@@ -1,0 +1,117 @@
+{
+  "date": "2026-10-27",
+  "records": [
+    {
+      "url": "https://www.digital.archives.go.jp/api/content/item/da12/C103347728600/iiif/M2021052512401615599_0003.jp2/full/max/0/native.jpg",
+      "file": "japan-volume2-spread-3-returned.jpg",
+      "executed": true,
+      "retrievedUTC": "2026-10-29T06:17:01.093Z",
+      "status": 200,
+      "error": null,
+      "headers": {
+        "content-type": "image/jpeg;charset=UTF-8"
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "nodeHTTPSDefaultCertificateValidationEnforced": true,
+      "bytes": 882906,
+      "sha256": "dc68a08c3171cffb1225d12b998b127b41b4c9fc3897ef6b214e30a15b452359",
+      "returnedDimensions": [
+        3000,
+        2073
+      ],
+      "manifestDimensions": [
+        6150,
+        4250
+      ],
+      "maxURLDidNotReturnManifestNativeSize": true,
+      "jp2OriginalAcquired": false
+    },
+    {
+      "url": "https://www.digital.archives.go.jp/api/content/item/da12/C103347730900/iiif/M2021052512401615599_0026.jp2/full/max/0/native.jpg",
+      "file": "japan-volume2-spread-26-returned.jpg",
+      "executed": true,
+      "retrievedUTC": "2026-10-29T06:17:02.778Z",
+      "status": 200,
+      "error": null,
+      "headers": {
+        "content-type": "image/jpeg;charset=UTF-8"
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "nodeHTTPSDefaultCertificateValidationEnforced": true,
+      "bytes": 888904,
+      "sha256": "3295576b507e18b29f6f3aaaf752594858facd90557c924281264d16e89637b8",
+      "returnedDimensions": [
+        3000,
+        2073
+      ],
+      "manifestDimensions": [
+        6150,
+        4250
+      ],
+      "maxURLDidNotReturnManifestNativeSize": true,
+      "jp2OriginalAcquired": false
+    },
+    {
+      "url": "https://www.digital.archives.go.jp/api/content/item/da12/C103347729200/iiif/M2021052512401615599_0009.jp2/full/max/0/native.jpg",
+      "file": "japan-volume2-spread-9-returned.jpg",
+      "executed": true,
+      "retrievedUTC": "2026-10-29T06:19:06.696Z",
+      "status": 200,
+      "error": null,
+      "headers": {
+        "content-type": "image/jpeg;charset=UTF-8"
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "nodeHTTPSDefaultCertificateValidationEnforced": true,
+      "bytes": 896143,
+      "sha256": "790e8ea768fc09a8059214d556b9cfc08e9a4a39796882365c9bcbc9988e6c44",
+      "returnedDimensions": [
+        3000,
+        2073
+      ],
+      "manifestDimensions": [
+        6150,
+        4250
+      ],
+      "maxURLDidNotReturnManifestNativeSize": true,
+      "jp2OriginalAcquired": false
+    },
+    {
+      "url": "https://www.digital.archives.go.jp/api/content/item/da12/C103347729100/iiif/M2021052512401615599_0008.jp2/full/max/0/native.jpg",
+      "file": "japan-volume2-spread-8-returned.jpg",
+      "executed": true,
+      "retrievedUTC": "2026-10-29T06:19:50.402Z",
+      "status": 200,
+      "error": null,
+      "headers": {
+        "content-type": "image/jpeg;charset=UTF-8"
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "nodeHTTPSDefaultCertificateValidationEnforced": true,
+      "bytes": 884801,
+      "sha256": "ba5566f80a350364a3240a1d15c14ab850d5a9ba6f00b22ed7722357de18ceda",
+      "returnedDimensions": [
+        3000,
+        2073
+      ],
+      "manifestDimensions": [
+        6150,
+        4250
+      ],
+      "maxURLDidNotReturnManifestNativeSize": true,
+      "jp2OriginalAcquired": false
+    }
+  ]
+}

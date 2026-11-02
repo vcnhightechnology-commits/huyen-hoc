@@ -1,0 +1,1169 @@
+{
+  "checks": [
+    {
+      "name": "All successful source response bodies retain original byte counts,SHA and authorized TLS; failed institutional attempt is separate",
+      "ok": true
+    },
+    {
+      "name": "Actual PDF matches official hosting API size/SHA1 with232pages; attribution is not an independently verified institutional imprint",
+      "ok": true
+    },
+    {
+      "name": "Three source transcriptions are pinned to exact retained revisionIDs; not counted as the scan five-volume work exhausted",
+      "ok": true
+    },
+    {
+      "name": "Printed觀梅example:辰12/17申→兌/離,one moving line,革49→咸31,mutual乾/巽",
+      "ok": true
+    },
+    {
+      "name": "Printed牡丹example:巳3/16卯→乾/巽,moving5,姤44→鼎50,mutual重乾",
+      "ok": true
+    },
+    {
+      "name": "Printed plum body/use relationships are preserved without adopting its injury forecast",
+      "ok": true
+    },
+    {
+      "name": "Exact divisibility produces trigram8and line6,never an invented trigram0or line0",
+      "ok": true
+    },
+    {
+      "name": "The chosen printed乾坤無互alternative uses changed lines for both pure primary hexagrams",
+      "ok": true
+    },
+    {
+      "name": "Object-count method explicitly uses original count plus hour for moving line,with a saved versioned rule",
+      "ok": true
+    },
+    {
+      "name": "Printed two-knock-groups example1then5at酉 gives44→57,moving4,without inferring borrowed objects",
+      "ok": true
+    },
+    {
+      "name": "Printed three direction-based examples reproduce elder44→57,youth22→37,cow7→46 with4/5/3moving",
+      "ok": true
+    },
+    {
+      "name": "All768object/direction/hour cases and1728two-sound-count cases preserve selected rule arithmetic",
+      "ok": true
+    },
+    {
+      "name": "Additional methods reject unclassified directions and missing counts and reopen canonical profile inputs",
+      "ok": true
+    },
+    {
+      "name": "All384upper/lower/moving structures execute the actual engine with exactly one changed line,correct body/use and mutual construction",
+      "ok": true
+    },
+    {
+      "name": "All51,840legal component tuples execute with defined one-line results; this is formula coverage,not calendar-date or prediction validation",
+      "ok": true
+    },
+    {
+      "name": "Malformed inputs,blank values,unknown rule versions and out-of-range integers fail without hidden defaults",
+      "ok": true,
+      "detail": {
+        "invalidCases": 24
+      }
+    },
+    {
+      "name": "Time,count,leap and pure-trigram saved inputs reproduce exact canonical inputs and all six lines",
+      "ok": true
+    },
+    {
+      "name": "Ordinary ChuDich reflections remain unchanged and new prompts do not make automatic event diagnoses",
+      "ok": true
+    },
+    {
+      "name": "All pre-existing engines,readings,home,fortune and compass modules preserve release bytes",
+      "ok": true
+    },
+    {
+      "name": "Standalone embeds actual MaiHoa module and CSS while keeping source text and archive metadata outside the product",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "structuralCases": 384,
+    "timeComponentTuples": 51840,
+    "sourceWorkedExamples": 6,
+    "directionCases": 768,
+    "soundCases": 1728,
+    "invalidInputs": 29,
+    "selectedPageImages": 25,
+    "selectedContentImages": 24,
+    "endLeafImages": 1,
+    "frontMatterImages": 11,
+    "fullBookCompleted": false
+  },
+  "htmlSHA256": "9e49791aa5b64c49d2ef5201e566ab5d83438918efce7f8ce0cc2ff887363759",
+  "manualSHA256": "2ac111bf650dbfc11d040c1f6c60a096bf35e7ed57214bd6c2de966d3698f16d",
+  "rulesSHA256": "a5f4108573a0c7c0cd9a5fe1086bc6a52d8a88044ed5d21d6cef6d3f3eeae5f0",
+  "sourcePDFSHA256": "af608094ab11ae209eae91a9365565e7c9cff604aac3da5e753e04d1cc4598c0",
+  "fixtures": {
+    "plum": {
+      "upper": {
+        "n": 2,
+        "name": "Đoài",
+        "element": "Kim",
+        "bits": [
+          1,
+          1,
+          0
+        ]
+      },
+      "lower": {
+        "n": 3,
+        "name": "Ly",
+        "element": "Hỏa",
+        "bits": [
+          1,
+          0,
+          1
+        ]
+      },
+      "moving": 1,
+      "values": [
+        9,
+        8,
+        7,
+        7,
+        7,
+        8
+      ],
+      "primary": 49,
+      "changed": 31,
+      "mutual": {
+        "number": 44,
+        "upper": {
+          "n": 1,
+          "name": "Càn",
+          "element": "Kim",
+          "bits": [
+            1,
+            1,
+            1
+          ]
+        },
+        "lower": {
+          "n": 5,
+          "name": "Tốn",
+          "element": "Mộc",
+          "bits": [
+            0,
+            1,
+            1
+          ]
+        },
+        "values": [
+          8,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "fromChanged": false
+      },
+      "body": {
+        "n": 2,
+        "name": "Đoài",
+        "element": "Kim",
+        "bits": [
+          1,
+          1,
+          0
+        ]
+      },
+      "use": {
+        "n": 3,
+        "name": "Ly",
+        "element": "Hỏa",
+        "bits": [
+          1,
+          0,
+          1
+        ]
+      },
+      "changedUse": {
+        "n": 7,
+        "name": "Cấn",
+        "element": "Thổ",
+        "bits": [
+          0,
+          0,
+          1
+        ]
+      },
+      "relation": {
+        "key": "use-controls-body",
+        "label": "Dụng khắc Thể",
+        "prompt": "Khi gặp lực cản, làm rõ giới hạn và cách hỗ trợ trước khi tiếp tục."
+      },
+      "changedRelation": {
+        "key": "use-generates-body",
+        "label": "Dụng sinh Thể",
+        "prompt": "Nhìn lại sự hỗ trợ đang có và cách tiếp nhận để làm việc vững hơn."
+      },
+      "input": {
+        "method": "time",
+        "yearBranch": 5,
+        "month": 12,
+        "day": 17,
+        "hourBranch": 9,
+        "leap": false,
+        "rule": "ymdh-v1",
+        "mutualRule": "changed-for-pure-v1"
+      },
+      "totals": {
+        "upper": 34,
+        "lower": 43,
+        "line": 43
+      }
+    },
+    "peony": {
+      "upper": {
+        "n": 1,
+        "name": "Càn",
+        "element": "Kim",
+        "bits": [
+          1,
+          1,
+          1
+        ]
+      },
+      "lower": {
+        "n": 5,
+        "name": "Tốn",
+        "element": "Mộc",
+        "bits": [
+          0,
+          1,
+          1
+        ]
+      },
+      "moving": 5,
+      "values": [
+        8,
+        7,
+        7,
+        7,
+        9,
+        7
+      ],
+      "primary": 44,
+      "changed": 50,
+      "mutual": {
+        "number": 1,
+        "upper": {
+          "n": 1,
+          "name": "Càn",
+          "element": "Kim",
+          "bits": [
+            1,
+            1,
+            1
+          ]
+        },
+        "lower": {
+          "n": 1,
+          "name": "Càn",
+          "element": "Kim",
+          "bits": [
+            1,
+            1,
+            1
+          ]
+        },
+        "values": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "fromChanged": false
+      },
+      "body": {
+        "n": 5,
+        "name": "Tốn",
+        "element": "Mộc",
+        "bits": [
+          0,
+          1,
+          1
+        ]
+      },
+      "use": {
+        "n": 1,
+        "name": "Càn",
+        "element": "Kim",
+        "bits": [
+          1,
+          1,
+          1
+        ]
+      },
+      "changedUse": {
+        "n": 3,
+        "name": "Ly",
+        "element": "Hỏa",
+        "bits": [
+          1,
+          0,
+          1
+        ]
+      },
+      "relation": {
+        "key": "use-controls-body",
+        "label": "Dụng khắc Thể",
+        "prompt": "Khi gặp lực cản, làm rõ giới hạn và cách hỗ trợ trước khi tiếp tục."
+      },
+      "changedRelation": {
+        "key": "body-generates-use",
+        "label": "Thể sinh Dụng",
+        "prompt": "Cân mức đóng góp và nguồn lực cần giữ trước khi nhận thêm trách nhiệm."
+      },
+      "input": {
+        "method": "time",
+        "yearBranch": 6,
+        "month": 3,
+        "day": 16,
+        "hourBranch": 4,
+        "leap": false,
+        "rule": "ymdh-v1",
+        "mutualRule": "changed-for-pure-v1"
+      },
+      "totals": {
+        "upper": 25,
+        "lower": 29,
+        "line": 29
+      }
+    },
+    "knocks": {
+      "upper": {
+        "n": 1,
+        "name": "Càn",
+        "element": "Kim",
+        "bits": [
+          1,
+          1,
+          1
+        ]
+      },
+      "lower": {
+        "n": 5,
+        "name": "Tốn",
+        "element": "Mộc",
+        "bits": [
+          0,
+          1,
+          1
+        ]
+      },
+      "moving": 4,
+      "values": [
+        8,
+        7,
+        7,
+        9,
+        7,
+        7
+      ],
+      "primary": 44,
+      "changed": 57,
+      "mutual": {
+        "number": 1,
+        "upper": {
+          "n": 1,
+          "name": "Càn",
+          "element": "Kim",
+          "bits": [
+            1,
+            1,
+            1
+          ]
+        },
+        "lower": {
+          "n": 1,
+          "name": "Càn",
+          "element": "Kim",
+          "bits": [
+            1,
+            1,
+            1
+          ]
+        },
+        "values": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "fromChanged": false
+      },
+      "body": {
+        "n": 5,
+        "name": "Tốn",
+        "element": "Mộc",
+        "bits": [
+          0,
+          1,
+          1
+        ]
+      },
+      "use": {
+        "n": 1,
+        "name": "Càn",
+        "element": "Kim",
+        "bits": [
+          1,
+          1,
+          1
+        ]
+      },
+      "changedUse": {
+        "n": 5,
+        "name": "Tốn",
+        "element": "Mộc",
+        "bits": [
+          0,
+          1,
+          1
+        ]
+      },
+      "relation": {
+        "key": "use-controls-body",
+        "label": "Dụng khắc Thể",
+        "prompt": "Khi gặp lực cản, làm rõ giới hạn và cách hỗ trợ trước khi tiếp tục."
+      },
+      "changedRelation": {
+        "key": "same",
+        "label": "Thể–Dụng đồng hành",
+        "prompt": "Tìm điểm chung và thống nhất cách phối hợp, đồng thời giữ rõ phần việc của mỗi bên."
+      },
+      "input": {
+        "method": "sound-pair",
+        "firstCount": 1,
+        "secondCount": 5,
+        "hourBranch": 10,
+        "rule": "two-raw-counts-hour-v1",
+        "mutualRule": "changed-for-pure-v1"
+      },
+      "totals": {
+        "upper": 1,
+        "lower": 5,
+        "line": 16
+      }
+    },
+    "elder": {
+      "upper": {
+        "n": 1,
+        "name": "Càn",
+        "element": "Kim",
+        "bits": [
+          1,
+          1,
+          1
+        ]
+      },
+      "lower": {
+        "n": 5,
+        "name": "Tốn",
+        "element": "Mộc",
+        "bits": [
+          0,
+          1,
+          1
+        ]
+      },
+      "moving": 4,
+      "values": [
+        8,
+        7,
+        7,
+        9,
+        7,
+        7
+      ],
+      "primary": 44,
+      "changed": 57,
+      "mutual": {
+        "number": 1,
+        "upper": {
+          "n": 1,
+          "name": "Càn",
+          "element": "Kim",
+          "bits": [
+            1,
+            1,
+            1
+          ]
+        },
+        "lower": {
+          "n": 1,
+          "name": "Càn",
+          "element": "Kim",
+          "bits": [
+            1,
+            1,
+            1
+          ]
+        },
+        "values": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "fromChanged": false
+      },
+      "body": {
+        "n": 5,
+        "name": "Tốn",
+        "element": "Mộc",
+        "bits": [
+          0,
+          1,
+          1
+        ]
+      },
+      "use": {
+        "n": 1,
+        "name": "Càn",
+        "element": "Kim",
+        "bits": [
+          1,
+          1,
+          1
+        ]
+      },
+      "changedUse": {
+        "n": 5,
+        "name": "Tốn",
+        "element": "Mộc",
+        "bits": [
+          0,
+          1,
+          1
+        ]
+      },
+      "relation": {
+        "key": "use-controls-body",
+        "label": "Dụng khắc Thể",
+        "prompt": "Khi gặp lực cản, làm rõ giới hạn và cách hỗ trợ trước khi tiếp tục."
+      },
+      "changedRelation": {
+        "key": "same",
+        "label": "Thể–Dụng đồng hành",
+        "prompt": "Tìm điểm chung và thống nhất cách phối hợp, đồng thời giữ rõ phần việc của mỗi bên."
+      },
+      "input": {
+        "method": "object-direction",
+        "objectTrigram": 1,
+        "direction": "southeast",
+        "hourBranch": 4,
+        "rule": "object-direction-hour-v1",
+        "mutualRule": "changed-for-pure-v1"
+      },
+      "totals": {
+        "upper": 1,
+        "lower": 5,
+        "line": 10
+      }
+    },
+    "youth": {
+      "upper": {
+        "n": 7,
+        "name": "Cấn",
+        "element": "Thổ",
+        "bits": [
+          0,
+          0,
+          1
+        ]
+      },
+      "lower": {
+        "n": 3,
+        "name": "Ly",
+        "element": "Hỏa",
+        "bits": [
+          1,
+          0,
+          1
+        ]
+      },
+      "moving": 5,
+      "values": [
+        7,
+        8,
+        7,
+        8,
+        6,
+        7
+      ],
+      "primary": 22,
+      "changed": 37,
+      "mutual": {
+        "number": 40,
+        "upper": {
+          "n": 4,
+          "name": "Chấn",
+          "element": "Mộc",
+          "bits": [
+            1,
+            0,
+            0
+          ]
+        },
+        "lower": {
+          "n": 6,
+          "name": "Khảm",
+          "element": "Thủy",
+          "bits": [
+            0,
+            1,
+            0
+          ]
+        },
+        "values": [
+          8,
+          7,
+          8,
+          7,
+          8,
+          8
+        ],
+        "fromChanged": false
+      },
+      "body": {
+        "n": 3,
+        "name": "Ly",
+        "element": "Hỏa",
+        "bits": [
+          1,
+          0,
+          1
+        ]
+      },
+      "use": {
+        "n": 7,
+        "name": "Cấn",
+        "element": "Thổ",
+        "bits": [
+          0,
+          0,
+          1
+        ]
+      },
+      "changedUse": {
+        "n": 5,
+        "name": "Tốn",
+        "element": "Mộc",
+        "bits": [
+          0,
+          1,
+          1
+        ]
+      },
+      "relation": {
+        "key": "body-generates-use",
+        "label": "Thể sinh Dụng",
+        "prompt": "Cân mức đóng góp và nguồn lực cần giữ trước khi nhận thêm trách nhiệm."
+      },
+      "changedRelation": {
+        "key": "use-generates-body",
+        "label": "Dụng sinh Thể",
+        "prompt": "Nhìn lại sự hỗ trợ đang có và cách tiếp nhận để làm việc vững hơn."
+      },
+      "input": {
+        "method": "object-direction",
+        "objectTrigram": 7,
+        "direction": "south",
+        "hourBranch": 7,
+        "rule": "object-direction-hour-v1",
+        "mutualRule": "changed-for-pure-v1"
+      },
+      "totals": {
+        "upper": 7,
+        "lower": 3,
+        "line": 17
+      }
+    },
+    "cow": {
+      "upper": {
+        "n": 8,
+        "name": "Khôn",
+        "element": "Thổ",
+        "bits": [
+          0,
+          0,
+          0
+        ]
+      },
+      "lower": {
+        "n": 6,
+        "name": "Khảm",
+        "element": "Thủy",
+        "bits": [
+          0,
+          1,
+          0
+        ]
+      },
+      "moving": 3,
+      "values": [
+        8,
+        7,
+        6,
+        8,
+        8,
+        8
+      ],
+      "primary": 7,
+      "changed": 46,
+      "mutual": {
+        "number": 24,
+        "upper": {
+          "n": 8,
+          "name": "Khôn",
+          "element": "Thổ",
+          "bits": [
+            0,
+            0,
+            0
+          ]
+        },
+        "lower": {
+          "n": 4,
+          "name": "Chấn",
+          "element": "Mộc",
+          "bits": [
+            1,
+            0,
+            0
+          ]
+        },
+        "values": [
+          7,
+          8,
+          8,
+          8,
+          8,
+          8
+        ],
+        "fromChanged": false
+      },
+      "body": {
+        "n": 8,
+        "name": "Khôn",
+        "element": "Thổ",
+        "bits": [
+          0,
+          0,
+          0
+        ]
+      },
+      "use": {
+        "n": 6,
+        "name": "Khảm",
+        "element": "Thủy",
+        "bits": [
+          0,
+          1,
+          0
+        ]
+      },
+      "changedUse": {
+        "n": 5,
+        "name": "Tốn",
+        "element": "Mộc",
+        "bits": [
+          0,
+          1,
+          1
+        ]
+      },
+      "relation": {
+        "key": "body-controls-use",
+        "label": "Thể khắc Dụng",
+        "prompt": "Làm rõ điều có thể chủ động điều chỉnh, rồi chọn một bước vừa sức."
+      },
+      "changedRelation": {
+        "key": "use-controls-body",
+        "label": "Dụng khắc Thể",
+        "prompt": "Khi gặp lực cản, làm rõ giới hạn và cách hỗ trợ trước khi tiếp tục."
+      },
+      "input": {
+        "method": "object-direction",
+        "objectTrigram": 8,
+        "direction": "north",
+        "hourBranch": 7,
+        "rule": "object-direction-hour-v1",
+        "mutualRule": "changed-for-pure-v1"
+      },
+      "totals": {
+        "upper": 8,
+        "lower": 6,
+        "line": 21
+      }
+    },
+    "pureQian": {
+      "upper": {
+        "n": 1,
+        "name": "Càn",
+        "element": "Kim",
+        "bits": [
+          1,
+          1,
+          1
+        ]
+      },
+      "lower": {
+        "n": 1,
+        "name": "Càn",
+        "element": "Kim",
+        "bits": [
+          1,
+          1,
+          1
+        ]
+      },
+      "moving": 2,
+      "values": [
+        7,
+        9,
+        7,
+        7,
+        7,
+        7
+      ],
+      "primary": 1,
+      "changed": 13,
+      "mutual": {
+        "number": 44,
+        "upper": {
+          "n": 1,
+          "name": "Càn",
+          "element": "Kim",
+          "bits": [
+            1,
+            1,
+            1
+          ]
+        },
+        "lower": {
+          "n": 5,
+          "name": "Tốn",
+          "element": "Mộc",
+          "bits": [
+            0,
+            1,
+            1
+          ]
+        },
+        "values": [
+          8,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "fromChanged": true
+      },
+      "body": {
+        "n": 1,
+        "name": "Càn",
+        "element": "Kim",
+        "bits": [
+          1,
+          1,
+          1
+        ]
+      },
+      "use": {
+        "n": 1,
+        "name": "Càn",
+        "element": "Kim",
+        "bits": [
+          1,
+          1,
+          1
+        ]
+      },
+      "changedUse": {
+        "n": 3,
+        "name": "Ly",
+        "element": "Hỏa",
+        "bits": [
+          1,
+          0,
+          1
+        ]
+      },
+      "relation": {
+        "key": "same",
+        "label": "Thể–Dụng đồng hành",
+        "prompt": "Tìm điểm chung và thống nhất cách phối hợp, đồng thời giữ rõ phần việc của mỗi bên."
+      },
+      "changedRelation": {
+        "key": "use-controls-body",
+        "label": "Dụng khắc Thể",
+        "prompt": "Khi gặp lực cản, làm rõ giới hạn và cách hỗ trợ trước khi tiếp tục."
+      },
+      "input": {
+        "method": "count",
+        "count": 1,
+        "hourBranch": 1,
+        "rule": "raw-count-hour-v1",
+        "mutualRule": "changed-for-pure-v1"
+      },
+      "totals": {
+        "upper": 1,
+        "lower": 1,
+        "line": 2
+      }
+    },
+    "pureKun": {
+      "upper": {
+        "n": 8,
+        "name": "Khôn",
+        "element": "Thổ",
+        "bits": [
+          0,
+          0,
+          0
+        ]
+      },
+      "lower": {
+        "n": 8,
+        "name": "Khôn",
+        "element": "Thổ",
+        "bits": [
+          0,
+          0,
+          0
+        ]
+      },
+      "moving": 4,
+      "values": [
+        8,
+        8,
+        8,
+        6,
+        8,
+        8
+      ],
+      "primary": 2,
+      "changed": 16,
+      "mutual": {
+        "number": 39,
+        "upper": {
+          "n": 6,
+          "name": "Khảm",
+          "element": "Thủy",
+          "bits": [
+            0,
+            1,
+            0
+          ]
+        },
+        "lower": {
+          "n": 7,
+          "name": "Cấn",
+          "element": "Thổ",
+          "bits": [
+            0,
+            0,
+            1
+          ]
+        },
+        "values": [
+          8,
+          8,
+          7,
+          8,
+          7,
+          8
+        ],
+        "fromChanged": true
+      },
+      "body": {
+        "n": 8,
+        "name": "Khôn",
+        "element": "Thổ",
+        "bits": [
+          0,
+          0,
+          0
+        ]
+      },
+      "use": {
+        "n": 8,
+        "name": "Khôn",
+        "element": "Thổ",
+        "bits": [
+          0,
+          0,
+          0
+        ]
+      },
+      "changedUse": {
+        "n": 4,
+        "name": "Chấn",
+        "element": "Mộc",
+        "bits": [
+          1,
+          0,
+          0
+        ]
+      },
+      "relation": {
+        "key": "same",
+        "label": "Thể–Dụng đồng hành",
+        "prompt": "Tìm điểm chung và thống nhất cách phối hợp, đồng thời giữ rõ phần việc của mỗi bên."
+      },
+      "changedRelation": {
+        "key": "use-controls-body",
+        "label": "Dụng khắc Thể",
+        "prompt": "Khi gặp lực cản, làm rõ giới hạn và cách hỗ trợ trước khi tiếp tục."
+      },
+      "input": {
+        "method": "count",
+        "count": 8,
+        "hourBranch": 8,
+        "rule": "raw-count-hour-v1",
+        "mutualRule": "changed-for-pure-v1"
+      },
+      "totals": {
+        "upper": 8,
+        "lower": 8,
+        "line": 16
+      }
+    },
+    "originalCount": {
+      "upper": {
+        "n": 1,
+        "name": "Càn",
+        "element": "Kim",
+        "bits": [
+          1,
+          1,
+          1
+        ]
+      },
+      "lower": {
+        "n": 1,
+        "name": "Càn",
+        "element": "Kim",
+        "bits": [
+          1,
+          1,
+          1
+        ]
+      },
+      "moving": 6,
+      "values": [
+        7,
+        7,
+        7,
+        7,
+        7,
+        9
+      ],
+      "primary": 1,
+      "changed": 43,
+      "mutual": {
+        "number": 1,
+        "upper": {
+          "n": 1,
+          "name": "Càn",
+          "element": "Kim",
+          "bits": [
+            1,
+            1,
+            1
+          ]
+        },
+        "lower": {
+          "n": 1,
+          "name": "Càn",
+          "element": "Kim",
+          "bits": [
+            1,
+            1,
+            1
+          ]
+        },
+        "values": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ],
+        "fromChanged": true
+      },
+      "body": {
+        "n": 1,
+        "name": "Càn",
+        "element": "Kim",
+        "bits": [
+          1,
+          1,
+          1
+        ]
+      },
+      "use": {
+        "n": 1,
+        "name": "Càn",
+        "element": "Kim",
+        "bits": [
+          1,
+          1,
+          1
+        ]
+      },
+      "changedUse": {
+        "n": 2,
+        "name": "Đoài",
+        "element": "Kim",
+        "bits": [
+          1,
+          1,
+          0
+        ]
+      },
+      "relation": {
+        "key": "same",
+        "label": "Thể–Dụng đồng hành",
+        "prompt": "Tìm điểm chung và thống nhất cách phối hợp, đồng thời giữ rõ phần việc của mỗi bên."
+      },
+      "changedRelation": {
+        "key": "same",
+        "label": "Thể–Dụng đồng hành",
+        "prompt": "Tìm điểm chung và thống nhất cách phối hợp, đồng thời giữ rõ phần việc của mỗi bên."
+      },
+      "input": {
+        "method": "count",
+        "count": 17,
+        "hourBranch": 1,
+        "rule": "raw-count-hour-v1",
+        "mutualRule": "changed-for-pure-v1"
+      },
+      "totals": {
+        "upper": 17,
+        "lower": 1,
+        "line": 18
+      }
+    }
+  }
+}

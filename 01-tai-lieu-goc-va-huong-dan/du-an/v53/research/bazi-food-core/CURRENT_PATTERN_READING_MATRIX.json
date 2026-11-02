@@ -1,0 +1,377 @@
+{
+  "schema": "hhc.bazi.pattern-source-reading.v1",
+  "source": "research/four-items/sources/KR3g0042_005.txt",
+  "sourceSHA256": "1ebdd92feaa57496b702f962ad6fafd4f19c17e98c38a94b40f626ef321dd997",
+  "witness": "Tam Mệnh Thông Hội, Kanripo WYG digital transcription at previously pinned commit; these passages are not all image-collated.",
+  "method": "Current matrix preserves targeted reading records and adds exact full firstpass digital/available-image spans. Firstpass coverage does not establish image continuity,all-character collation or all conditions applied.",
+  "records": [
+    {
+      "section": "論正官",
+      "pages": [
+        "005-5a",
+        "005-5b",
+        "005-6a"
+      ],
+      "relation": "Chính Quan",
+      "observations": [
+        "Ưu tiên nguyệt lệnh, kiểm chi tàng và can lộ.",
+        "Còn xét thân, tài/ấn, Quan/Sát cùng hiện, thương quan, hợp/xung và vận.",
+        "Văn bản nêu ngoại lệ có Ấn dù thân yếu; không thể đóng quy tắc đơn giản mọi thân yếu đều loại."
+      ],
+      "implementation": "Hiện bản khí và can lộ có thể kiểm. Chưa xác nhận cách từ chỉ một nhãn tháng.",
+      "imageCollation": {
+        "witness": "../../bazi-pattern-witness/MANUAL_READINGS.json",
+        "status": "targeted-clauses-and16daymonthpairs-image-collated",
+        "images": [
+          11,
+          12,
+          13,
+          14,
+          15,
+          16
+        ],
+        "clauses": 5,
+        "wholeSectionComplete": false
+      }
+    },
+    {
+      "section": "論偏官",
+      "pages": [
+        "005-22b",
+        "005-23a",
+        "005-23b"
+      ],
+      "relation": "Thất Sát / Thiên Quan",
+      "observations": [
+        "Phân biệt quan hệ can và cách gọi theo có chế/không chế trong đoạn này.",
+        "Đặt các khả năng Ấn hóa, Thực chế, phối Nhận, tài trợ; còn xét quá/bất cập.",
+        "Đoạn nêu chế quá nhiều cũng không thể luôn gọi tốt."
+      ],
+      "implementation": "Không chỉ phát hiện Thất Sát rồi sinh một lời đoán chung hoặc coi mọi Thực Thần đều đã chế Sát.",
+      "imageCollation": {
+        "witness": "../../bazi-pattern-witness/MANUAL_READINGS.json",
+        "status": "targeted3clauses-image-collated",
+        "images": [
+          46,
+          47,
+          48
+        ],
+        "clauses": 3,
+        "wholeSectionComplete": false
+      }
+    },
+    {
+      "section": "論正財",
+      "pages": [
+        "005-41a",
+        "005-41b",
+        "005-42a"
+      ],
+      "relation": "Chính Tài",
+      "observations": [
+        "Xét mùa, lực của thân, mức tài và trợ giúp từ Ấn/Thực/Quan.",
+        "Có bàn thứ tự Tài–Ấn và việc Tỷ/Kiếp xuất hiện; không phải cứ có Tài thì có tài sản.",
+        "Ví dụ trên ảnh đọc 甲見己, bản số giữ 甲見巳. Lưu riêng hai dạng; không thay hàng loạt 巳/己."
+      ],
+      "implementation": "Không suy thu nhập hay nghề nghiệp từ số lượng Tài. Giữ ví dụ ảnh Uyên Hải được đọc riêng.",
+      "imageCollation": {
+        "witness": "../../bazi-pattern-extension/MANUAL_READINGS.json",
+        "status": "targeted-clauses-image-collated-not-whole-section",
+        "images": [
+          83,
+          84,
+          85
+        ],
+        "newClauses": 4,
+        "totalTargetedClauses": 4,
+        "wholeSectionComplete": false
+      }
+    },
+    {
+      "section": "論偏財",
+      "pages": [
+        "005-49a",
+        "005-49b"
+      ],
+      "relation": "Thiên Tài",
+      "observations": [
+        "Nêu vị trí nguyệt lệnh và năm/giờ khác nhau.",
+        "Cần xét khả năng đảm nhận tài, Tỷ/Kiếp, Quan/Sát và vận.",
+        "Những lời suy tính cách/đời sống là mệnh đề truyền thống của nguồn, không được coi đã kiểm chứng."
+      ],
+      "implementation": "Chỉ trình bày quan hệ và hoàn cảnh cân nhắc, chưa nhận diện toàn cách.",
+      "imageCollation": {
+        "witness": "../../bazi-pattern-extension/MANUAL_READINGS.json",
+        "status": "targeted-clauses-image-collated-not-whole-section",
+        "images": [
+          99,
+          100
+        ],
+        "newClauses": 3,
+        "totalTargetedClauses": 3,
+        "wholeSectionComplete": false
+      }
+    },
+    {
+      "section": "論印綬",
+      "pages": [
+        "005-56b",
+        "005-57a"
+      ],
+      "relation": "Ấn thụ",
+      "observations": [
+        "Đoạn dùng nhóm sinh nhật chủ và quan hệ Quan sinh Ấn, Tài khắc Ấn.",
+        "Vị trí năm/tháng/ngày/giờ và mức nhiều/ít có điều kiện riêng.",
+        "Không gộp mọi câu trong chương thành quy tắc riêng chỉ cho Chính Ấn."
+      ],
+      "implementation": "Phân Chính/Thiên Ấn bằng quan hệ can đã kiểm; chưa dùng nhãn Ấn để khẳng định học vấn hoặc sức khỏe.",
+      "imageCollation": {
+        "witness": "../../bazi-pattern-extension/MANUAL_READINGS.json",
+        "status": "targeted-clauses-image-collated-not-whole-section",
+        "images": [
+          114,
+          115
+        ],
+        "newClauses": 4,
+        "totalTargetedClauses": 4,
+        "wholeSectionComplete": false
+      }
+    },
+    {
+      "section": "論倒食",
+      "pages": [
+        "005-67b",
+        "005-68a",
+        "005-68b"
+      ],
+      "relation": "Thiên Ấn / Đảo Thực trong điều kiện nguồn",
+      "observations": [
+        "Đầu đoạn giải quan hệ Thiên Ấn khắc Thực, nhưng có chế/hợp thì cách đọc thay đổi.",
+        "Có câu 柱中無食只以偏印論: không có Thực thì chỉ gọi Thiên Ấn trong cách bàn này.",
+        "Phải phân nhãn quan hệ cố định với kết luận tổ hợp có điều kiện."
+      ],
+      "implementation": "Không gọi mọi Thiên Ấn là Kiêu đoạt Thực hay tự sinh cảnh báo hung hiểm.",
+      "imageCollation": {
+        "witness": "../../bazi-pattern-extension/MANUAL_READINGS.json",
+        "status": "targeted-clauses-image-collated-not-whole-section",
+        "images": [
+          138
+        ],
+        "newClauses": 1,
+        "totalTargetedClauses": 3,
+        "wholeSectionComplete": false
+      },
+      "priorImageCollation": {
+        "witness": "../../bazi-pattern-witness/MANUAL_READINGS.json",
+        "status": "partial2clauses-image-collated-68b-still-digital-only",
+        "images": [
+          136,
+          137
+        ],
+        "clauses": 2,
+        "wholeSectionComplete": false
+      }
+    },
+    {
+      "section": "論傷官",
+      "pages": [
+        "005-76b",
+        "005-77a",
+        "005-77b"
+      ],
+      "relation": "Thương Quan",
+      "observations": [
+        "Có các điều kiện thương tận, dùng Tài, dùng Ấn và các ngoại lệ về Quan.",
+        "Đoạn không cho phép suy từ một Thương Quan hiện diện tới kết luận cuộc đời.",
+        "Lực của thân, mùa và toàn cấu trúc vẫn tham gia."
+      ],
+      "implementation": "Giữ diễn giải về biểu đạt/phản biện như gợi mở biên tập; chưa gắn nhãn cách cục tự động.",
+      "imageCollation": {
+        "witness": "../../bazi-pattern-extension/MANUAL_READINGS.json",
+        "status": "targeted-clauses-image-collated-not-whole-section",
+        "images": [
+          154,
+          155,
+          156
+        ],
+        "newClauses": 5,
+        "totalTargetedClauses": 5,
+        "wholeSectionComplete": false
+      }
+    },
+    {
+      "section": "論食神",
+      "pages": [
+        "005-84a",
+        "005-84b",
+        "005-85a"
+      ],
+      "relation": "Thực Thần",
+      "observations": [
+        "Đoạn giải chuỗi sinh Tài và chế Sát, còn yêu cầu thân/Thực phù hợp.",
+        "Xét Thiên Ấn, xung phá và vị trí các trụ.",
+        "Ví dụ ảnh Uyên Hải đã đọc có bản khí tháng là Kiếp Tài: tên chương không tự xác định nguyệt lệnh là Thực.",
+        "Phúctinhcủamụcnàynêurõnăm,khôngthayngày. 専食cóphảnvídụGiáplộnhưngCanhthángchế;khôngtựloạitừrawpresence.",
+        "Hai môhình戊日/癸日vớigiờ庚申chỉtọađộ;nguồnđưaQuanẤnvàmùakhácnhauởvăn/thơ/bình,giữsonghành."
+      ],
+      "implementation": "Không xác nhận một cấu trúc Thực sinh Tài chỉ do hai tên có mặt, chưa xét liên hệ/vị trí.",
+      "imageCollation": {
+        "witness": "../../bazi-pattern-extension/MANUAL_READINGS.json",
+        "status": "targeted-clauses-image-collated-not-whole-section",
+        "images": [
+          169,
+          170,
+          171
+        ],
+        "newClauses": 3,
+        "totalTargetedClauses": 3,
+        "wholeSectionComplete": false
+      },
+      "currentFullFirstPassSpan": {
+        "containerPositionsReviewed": [
+          168,
+          198
+        ],
+        "boundaryOnlyPosition": 168,
+        "foodSectionAvailableContainerPositions": [
+          169,
+          198
+        ],
+        "availableSectionPositions": 30,
+        "firstReadPositions": 27,
+        "priorReadPositionsExpanded": 4,
+        "digitalUnits": 11,
+        "digitalCodepointsAfterCRLFtoLF": 6755,
+        "rawDigitalCodepointsIncludingCRLF": 7050,
+        "cleanDigitalCodepoints": 5307,
+        "editorialContexts": 90,
+        "availableRetainedSpanFirstPassRead": true,
+        "fullImageSectionComplete": false,
+        "continuityGapFolios": [
+          "005-94a",
+          "005-94b",
+          "005-95a",
+          "005-95b"
+        ],
+        "fullConditionalClassifier": false,
+        "evidence": "../bazi-food-source/WORK_STATE.json"
+      },
+      "selectedConditionalAudit": {
+        "parentContexts": 8,
+        "clauses": 12,
+        "codepoints": 135,
+        "localPredicateRules": 11,
+        "declaredResearchFacts": 21,
+        "dayPolarityCoordinateFacts": 2,
+        "unselectedParentContexts": 82,
+        "selectedParentSubordinateClausesStillOpen": true,
+        "automaticQuantityOrStrengthMethod": false,
+        "fullPatternClassifier": false,
+        "evidence": "../bazi-food-core/WORK_STATE.json"
+      }
+    },
+    {
+      "section": "論陽刃",
+      "pages": [
+        "005-100b",
+        "005-101a",
+        "005-101b"
+      ],
+      "relation": "Dương Nhận",
+      "observations": [
+        "Đoạn giới hạn năm dương can có Nhận và phân nhiều loại Nhận; quan hệ với Tỷ/Kiếp cần giữ đúng ngữ cảnh.",
+        "Nguồn khác có thể dùng bảng tên 羊刃 rộng hơn; quyển3 có mục khác cần đối riêng.",
+        "Không lấy nhãn Nhận làm lời dự báo tai nạn."
+      ],
+      "implementation": "Chưa hợp nhất bảng 10can và 5dươngcan vào một nhãn duy nhất.",
+      "imageCollation": {
+        "witness": "../../bazi-pattern-extension/MANUAL_READINGS.json",
+        "status": "targeted-clauses-image-collated-not-whole-section",
+        "images": [
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204
+        ],
+        "newClauses": 3,
+        "totalTargetedClauses": 3,
+        "wholeSectionComplete": false
+      },
+      "currentFullFirstPassSpan": {
+        "containerPages": [
+          198,
+          218
+        ],
+        "uniquePositions": 21,
+        "newReadPositionsPromotedFromStaging": 13,
+        "expandedPriorReadPositionsInStaging": 8,
+        "wholeSectionFirstPassRead": true,
+        "allCharactersCollated": false,
+        "editorialContexts": 55,
+        "selectedMixedContexts": 8,
+        "selectedSubcontexts": 59,
+        "selectedCodepoints": 1180,
+        "localPredicateAudits": 28,
+        "fullConditionalClassifier": false,
+        "evidence": "../bazi-yangren-conditions/WORK_STATE.json"
+      }
+    },
+    {
+      "section": "論建禄",
+      "pages": [
+        "005-110b",
+        "005-111a",
+        "005-111b",
+        "005-112a"
+      ],
+      "relation": "Kiến Lộc",
+      "observations": [
+        "Định nghĩa theo ngày/tháng lâm quan, không chỉ từ Tỷ Kiên ở can.",
+        "Sau đó xét Tài/Quan/Ấn/Thực ngoài tháng và hành vận, không lấy nhãn Kiến Lộc làm đủ điều kiện.",
+        "Cần đối chiếu với phần Lộc đã được nguồn dẫn chiếu, chưa coi mục này bao trùm mọi phép lấy dụng.",
+        "Trang tệp225/tờ114a tự nói Kiến Lộc trước không có cách, gần đây mới lấy; giữ lớp lịch sử và không dựng bảng mười cặp trực tiếp từ hai ví dụ."
+      ],
+      "implementation": "Giữ mở; chưa phát hành nhãn Kiến Lộc hoặc Dụng thần chỉ theo một chi tháng.",
+      "imageCollation": {
+        "witness": "../../bazi-pattern-extension/MANUAL_READINGS.json",
+        "status": "targeted-clauses-image-collated-not-whole-section",
+        "images": [
+          218,
+          219,
+          220,
+          221,
+          222,
+          223,
+          224,
+          225
+        ],
+        "newClauses": 5,
+        "totalTargetedClauses": 5,
+        "wholeSectionComplete": false
+      }
+    }
+  ],
+  "completion": {
+    "sectionsReadInThisMatrix": 10,
+    "wholeVolumeExhausted": false,
+    "completePatternClassifier": false,
+    "completeStrengthAlgorithm": false,
+    "unifiedUsefulGodAlgorithm": false,
+    "targetedImageSections": 10,
+    "targetedImageClauses": 38,
+    "sourceDayMonthExamples": 16,
+    "additionalImageStemExamples": 8,
+    "explicitEstablishedLuExamples": 2,
+    "localNativeDerivatives": 31,
+    "localNewContextPages": 29,
+    "independentNewTextualWitness": false
+  },
+  "next": "Tiếp các mệnh đề phụ trong90ngữcảnh Thực thần/10mục kèm.8ngữcảnh chọn/12mệnh đề không khép toàn8ngữcảnh;82nhóm khác vẫn chưa chọn trong module. Lượng nhiều/ít,thuần và khí lực cần phương pháp có tên/counterexample,không tự đặt thang điểm. Cần đủ hiệu lực/ưu tiên hư hợp,chế Sát,sinhTài,Ấn vận và mối quan hệ giữa văn/thơ/lời bình. Chín mụcBazi khác cùng47ngữcảnh DươngNhậnngoàilựachọn vẫn active. Dò94a–95b bằngnhânchứngảnh hợp lệ/định vị chuyển chỗ,khi có hướng mới,không lặp tải/vượtchặn. Luân phiên phần độc lập có khoảngtrống lớn: nhà PhiTinh/biênlịch/Bắcthực;Tửvi童限/火鈴/CanhNhâm/khởihạn;Dịch B02/B03/MaiHoa tiềnđề/hiệu lực. Giữ các bản đã hoàn thành và không tuyên bố hết kho. Ứngviên giao diện KiếnLộc vẫn riêng khi browserQA không khảdụng;web chỉkếtquả/diễn giải,nghiêncứu/QAngoàisite. Khôngxuấtbản;danhmục40/whole0.",
+  "latestImageAudit": "../bazi-food-source/MANUAL_READINGS.json",
+  "supersedesForCurrentWork": "research/bazi-food-source/CURRENT_PATTERN_READING_MATRIX.json;all historical files preserved",
+  "latestFoodScope": "../bazi-food-source/CONTEXTS.json",
+  "latestFoodPredicateAudit": "../bazi-food-core/SELECTED_PREDICATES.json"
+}

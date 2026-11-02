@@ -1,0 +1,2401 @@
+{
+  "created": "2026-10-26T04:40:45.307Z",
+  "checks": [
+    {
+      "name": "Calendar, natal placements, prior interpretations and fortune calculations retain their prior bytes",
+      "ok": true
+    },
+    {
+      "name": "144 real iztro charts agree on 1,728 trine/opposite groups, independent of array order",
+      "ok": true,
+      "detail": {
+        "calls": 144,
+        "groups": 1728
+      }
+    },
+    {
+      "name": "All 168 major-star/branch statuses are reached and agree with the selected actual iztro table",
+      "ok": true,
+      "detail": {
+        "unique": 168,
+        "comparisons": 8064,
+        "scope": "Selected software table; not universal agreement of textual witnesses"
+      }
+    },
+    {
+      "name": "Context reading leaves every natal chart unchanged",
+      "ok": true
+    },
+    {
+      "name": "Invalid palace/branch indices fail explicitly",
+      "ok": true
+    },
+    {
+      "name": "105 separately recorded source/convention fixtures cover centers, all boundaries, uncertainty and magnetic correction",
+      "ok": true
+    },
+    {
+      "name": "Maximum uncertainty keeps all 24 mountains and 0 equals 360",
+      "ok": true
+    },
+    {
+      "name": "Invalid mountain inputs are rejected",
+      "ok": true
+    },
+    {
+      "name": "Every one of 384 specific readings is accessible without changing moving-line selection",
+      "ok": true
+    },
+    {
+      "name": "Invalid hexagram and line selection are rejected",
+      "ok": true
+    },
+    {
+      "name": "Year/month addition clamps month ends rather than overflowing them",
+      "ok": true
+    },
+    {
+      "name": "Real lunar-typescript agrees on direction and 80 complete can-chi cycles; intervals join without gaps",
+      "ok": true,
+      "detail": {
+        "directions": 8,
+        "sequences": 80,
+        "offsetExact": 4,
+        "note": "Offsets use HHC solar-term instants; differences from reference remain recorded"
+      }
+    },
+    {
+      "name": "Unknown birth hour has no invented start timestamp or interval dates",
+      "ok": true
+    },
+    {
+      "name": "Ambiguous birth-day pillars suppress season and cycle interpretations",
+      "ok": true
+    }
+  ],
+  "realIztroCalls": 144,
+  "uniqueBrightness": 168,
+  "relatedGroups": 1728,
+  "statusComparisons": 8064,
+  "yiLines": 384,
+  "baziExamples": [
+    {
+      "input": {
+        "tz": 8,
+        "dayPolicy": "midnight",
+        "gender": "male",
+        "noTime": false,
+        "y": 1984,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30
+      },
+      "hhc": {
+        "uncertain": false,
+        "direction": 1,
+        "season": {
+          "branch": "Tỵ",
+          "main": {
+            "index": 2,
+            "name": "Bính",
+            "element": "Hỏa",
+            "god": "Thực Thần",
+            "primary": true
+          },
+          "revealed": [
+            {
+              "index": 2,
+              "name": "Bính",
+              "element": "Hỏa",
+              "god": "Thực Thần",
+              "primary": true,
+              "pillars": []
+            },
+            {
+              "index": 6,
+              "name": "Canh",
+              "element": "Kim",
+              "god": "Thất Sát",
+              "primary": false,
+              "pillars": []
+            },
+            {
+              "index": 4,
+              "name": "Mậu",
+              "element": "Thổ",
+              "god": "Thiên Tài",
+              "primary": false,
+              "pillars": [
+                "giờ"
+              ]
+            }
+          ]
+        },
+        "noTime": false,
+        "deltaMinutes": 23739,
+        "offset": {
+          "years": 5,
+          "months": 5,
+          "days": 28,
+          "hours": 6
+        },
+        "start": {
+          "y": 1989,
+          "m": 11,
+          "d": 17,
+          "hour": 14,
+          "minute": 30
+        },
+        "cycles": [
+          {
+            "number": 1,
+            "stem": 6,
+            "branch": 6,
+            "name": "Canh Ngọ",
+            "god": "Thất Sát",
+            "start": {
+              "y": 1989,
+              "m": 11,
+              "d": 17,
+              "hour": 14,
+              "minute": 30
+            },
+            "end": {
+              "y": 1999,
+              "m": 11,
+              "d": 17,
+              "hour": 14,
+              "minute": 30
+            }
+          },
+          {
+            "number": 2,
+            "stem": 7,
+            "branch": 7,
+            "name": "Tân Mùi",
+            "god": "Chính Quan",
+            "start": {
+              "y": 1999,
+              "m": 11,
+              "d": 17,
+              "hour": 14,
+              "minute": 30
+            },
+            "end": {
+              "y": 2009,
+              "m": 11,
+              "d": 17,
+              "hour": 14,
+              "minute": 30
+            }
+          },
+          {
+            "number": 3,
+            "stem": 8,
+            "branch": 8,
+            "name": "Nhâm Thân",
+            "god": "Thiên Ấn",
+            "start": {
+              "y": 2009,
+              "m": 11,
+              "d": 17,
+              "hour": 14,
+              "minute": 30
+            },
+            "end": {
+              "y": 2019,
+              "m": 11,
+              "d": 17,
+              "hour": 14,
+              "minute": 30
+            }
+          },
+          {
+            "number": 4,
+            "stem": 9,
+            "branch": 9,
+            "name": "Quý Dậu",
+            "god": "Chính Ấn",
+            "start": {
+              "y": 2019,
+              "m": 11,
+              "d": 17,
+              "hour": 14,
+              "minute": 30
+            },
+            "end": {
+              "y": 2029,
+              "m": 11,
+              "d": 17,
+              "hour": 14,
+              "minute": 30
+            }
+          },
+          {
+            "number": 5,
+            "stem": 0,
+            "branch": 10,
+            "name": "Giáp Tuất",
+            "god": "Tỷ Kiên",
+            "start": {
+              "y": 2029,
+              "m": 11,
+              "d": 17,
+              "hour": 14,
+              "minute": 30
+            },
+            "end": {
+              "y": 2039,
+              "m": 11,
+              "d": 17,
+              "hour": 14,
+              "minute": 30
+            }
+          },
+          {
+            "number": 6,
+            "stem": 1,
+            "branch": 11,
+            "name": "Ất Hợi",
+            "god": "Kiếp Tài",
+            "start": {
+              "y": 2039,
+              "m": 11,
+              "d": 17,
+              "hour": 14,
+              "minute": 30
+            },
+            "end": {
+              "y": 2049,
+              "m": 11,
+              "d": 17,
+              "hour": 14,
+              "minute": 30
+            }
+          },
+          {
+            "number": 7,
+            "stem": 2,
+            "branch": 0,
+            "name": "Bính Tý",
+            "god": "Thực Thần",
+            "start": {
+              "y": 2049,
+              "m": 11,
+              "d": 17,
+              "hour": 14,
+              "minute": 30
+            },
+            "end": {
+              "y": 2059,
+              "m": 11,
+              "d": 17,
+              "hour": 14,
+              "minute": 30
+            }
+          },
+          {
+            "number": 8,
+            "stem": 3,
+            "branch": 1,
+            "name": "Đinh Sửu",
+            "god": "Thương Quan",
+            "start": {
+              "y": 2059,
+              "m": 11,
+              "d": 17,
+              "hour": 14,
+              "minute": 30
+            },
+            "end": {
+              "y": 2069,
+              "m": 11,
+              "d": 17,
+              "hour": 14,
+              "minute": 30
+            }
+          },
+          {
+            "number": 9,
+            "stem": 4,
+            "branch": 2,
+            "name": "Mậu Dần",
+            "god": "Thiên Tài",
+            "start": {
+              "y": 2069,
+              "m": 11,
+              "d": 17,
+              "hour": 14,
+              "minute": 30
+            },
+            "end": {
+              "y": 2079,
+              "m": 11,
+              "d": 17,
+              "hour": 14,
+              "minute": 30
+            }
+          },
+          {
+            "number": 10,
+            "stem": 5,
+            "branch": 3,
+            "name": "Kỷ Mão",
+            "god": "Chính Tài",
+            "start": {
+              "y": 2079,
+              "m": 11,
+              "d": 17,
+              "hour": 14,
+              "minute": 30
+            },
+            "end": {
+              "y": 2089,
+              "m": 11,
+              "d": 17,
+              "hour": 14,
+              "minute": 30
+            }
+          }
+        ]
+      },
+      "referenceOffset": {
+        "years": 5,
+        "months": 5,
+        "days": 28,
+        "hours": 4
+      },
+      "referenceStart": "1989-11-17 12:30:00"
+    },
+    {
+      "input": {
+        "tz": 8,
+        "dayPolicy": "midnight",
+        "gender": "female",
+        "noTime": false,
+        "y": 1984,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30
+      },
+      "hhc": {
+        "uncertain": false,
+        "direction": -1,
+        "season": {
+          "branch": "Tỵ",
+          "main": {
+            "index": 2,
+            "name": "Bính",
+            "element": "Hỏa",
+            "god": "Thực Thần",
+            "primary": true
+          },
+          "revealed": [
+            {
+              "index": 2,
+              "name": "Bính",
+              "element": "Hỏa",
+              "god": "Thực Thần",
+              "primary": true,
+              "pillars": []
+            },
+            {
+              "index": 6,
+              "name": "Canh",
+              "element": "Kim",
+              "god": "Thất Sát",
+              "primary": false,
+              "pillars": []
+            },
+            {
+              "index": 4,
+              "name": "Mậu",
+              "element": "Thổ",
+              "god": "Thiên Tài",
+              "primary": false,
+              "pillars": [
+                "giờ"
+              ]
+            }
+          ]
+        },
+        "noTime": false,
+        "deltaMinutes": 21159,
+        "offset": {
+          "years": 4,
+          "months": 10,
+          "days": 23,
+          "hours": 6
+        },
+        "start": {
+          "y": 1989,
+          "m": 4,
+          "d": 12,
+          "hour": 14,
+          "minute": 30
+        },
+        "cycles": [
+          {
+            "number": 1,
+            "stem": 4,
+            "branch": 4,
+            "name": "Mậu Thìn",
+            "god": "Thiên Tài",
+            "start": {
+              "y": 1989,
+              "m": 4,
+              "d": 12,
+              "hour": 14,
+              "minute": 30
+            },
+            "end": {
+              "y": 1999,
+              "m": 4,
+              "d": 12,
+              "hour": 14,
+              "minute": 30
+            }
+          },
+          {
+            "number": 2,
+            "stem": 3,
+            "branch": 3,
+            "name": "Đinh Mão",
+            "god": "Thương Quan",
+            "start": {
+              "y": 1999,
+              "m": 4,
+              "d": 12,
+              "hour": 14,
+              "minute": 30
+            },
+            "end": {
+              "y": 2009,
+              "m": 4,
+              "d": 12,
+              "hour": 14,
+              "minute": 30
+            }
+          },
+          {
+            "number": 3,
+            "stem": 2,
+            "branch": 2,
+            "name": "Bính Dần",
+            "god": "Thực Thần",
+            "start": {
+              "y": 2009,
+              "m": 4,
+              "d": 12,
+              "hour": 14,
+              "minute": 30
+            },
+            "end": {
+              "y": 2019,
+              "m": 4,
+              "d": 12,
+              "hour": 14,
+              "minute": 30
+            }
+          },
+          {
+            "number": 4,
+            "stem": 1,
+            "branch": 1,
+            "name": "Ất Sửu",
+            "god": "Kiếp Tài",
+            "start": {
+              "y": 2019,
+              "m": 4,
+              "d": 12,
+              "hour": 14,
+              "minute": 30
+            },
+            "end": {
+              "y": 2029,
+              "m": 4,
+              "d": 12,
+              "hour": 14,
+              "minute": 30
+            }
+          },
+          {
+            "number": 5,
+            "stem": 0,
+            "branch": 0,
+            "name": "Giáp Tý",
+            "god": "Tỷ Kiên",
+            "start": {
+              "y": 2029,
+              "m": 4,
+              "d": 12,
+              "hour": 14,
+              "minute": 30
+            },
+            "end": {
+              "y": 2039,
+              "m": 4,
+              "d": 12,
+              "hour": 14,
+              "minute": 30
+            }
+          },
+          {
+            "number": 6,
+            "stem": 9,
+            "branch": 11,
+            "name": "Quý Hợi",
+            "god": "Chính Ấn",
+            "start": {
+              "y": 2039,
+              "m": 4,
+              "d": 12,
+              "hour": 14,
+              "minute": 30
+            },
+            "end": {
+              "y": 2049,
+              "m": 4,
+              "d": 12,
+              "hour": 14,
+              "minute": 30
+            }
+          },
+          {
+            "number": 7,
+            "stem": 8,
+            "branch": 10,
+            "name": "Nhâm Tuất",
+            "god": "Thiên Ấn",
+            "start": {
+              "y": 2049,
+              "m": 4,
+              "d": 12,
+              "hour": 14,
+              "minute": 30
+            },
+            "end": {
+              "y": 2059,
+              "m": 4,
+              "d": 12,
+              "hour": 14,
+              "minute": 30
+            }
+          },
+          {
+            "number": 8,
+            "stem": 7,
+            "branch": 9,
+            "name": "Tân Dậu",
+            "god": "Chính Quan",
+            "start": {
+              "y": 2059,
+              "m": 4,
+              "d": 12,
+              "hour": 14,
+              "minute": 30
+            },
+            "end": {
+              "y": 2069,
+              "m": 4,
+              "d": 12,
+              "hour": 14,
+              "minute": 30
+            }
+          },
+          {
+            "number": 9,
+            "stem": 6,
+            "branch": 8,
+            "name": "Canh Thân",
+            "god": "Thất Sát",
+            "start": {
+              "y": 2069,
+              "m": 4,
+              "d": 12,
+              "hour": 14,
+              "minute": 30
+            },
+            "end": {
+              "y": 2079,
+              "m": 4,
+              "d": 12,
+              "hour": 14,
+              "minute": 30
+            }
+          },
+          {
+            "number": 10,
+            "stem": 5,
+            "branch": 7,
+            "name": "Kỷ Mùi",
+            "god": "Chính Tài",
+            "start": {
+              "y": 2079,
+              "m": 4,
+              "d": 12,
+              "hour": 14,
+              "minute": 30
+            },
+            "end": {
+              "y": 2089,
+              "m": 4,
+              "d": 12,
+              "hour": 14,
+              "minute": 30
+            }
+          }
+        ]
+      },
+      "referenceOffset": {
+        "years": 4,
+        "months": 10,
+        "days": 23,
+        "hours": 8
+      },
+      "referenceStart": "1989-04-12 16:30:00"
+    },
+    {
+      "input": {
+        "tz": 8,
+        "dayPolicy": "midnight",
+        "gender": "male",
+        "noTime": false,
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30
+      },
+      "hhc": {
+        "uncertain": false,
+        "direction": 1,
+        "season": {
+          "branch": "Tỵ",
+          "main": {
+            "index": 2,
+            "name": "Bính",
+            "element": "Hỏa",
+            "god": "Thương Quan",
+            "primary": true
+          },
+          "revealed": [
+            {
+              "index": 2,
+              "name": "Bính",
+              "element": "Hỏa",
+              "god": "Thương Quan",
+              "primary": true,
+              "pillars": []
+            },
+            {
+              "index": 6,
+              "name": "Canh",
+              "element": "Kim",
+              "god": "Chính Quan",
+              "primary": false,
+              "pillars": [
+                "năm",
+                "giờ"
+              ]
+            },
+            {
+              "index": 4,
+              "name": "Mậu",
+              "element": "Thổ",
+              "god": "Chính Tài",
+              "primary": false,
+              "pillars": []
+            }
+          ]
+        },
+        "noTime": false,
+        "deltaMinutes": 24376,
+        "offset": {
+          "years": 5,
+          "months": 7,
+          "days": 21,
+          "hours": 8
+        },
+        "start": {
+          "y": 1996,
+          "m": 1,
+          "d": 10,
+          "hour": 16,
+          "minute": 30
+        },
+        "cycles": [
+          {
+            "number": 1,
+            "stem": 8,
+            "branch": 6,
+            "name": "Nhâm Ngọ",
+            "god": "Chính Ấn",
+            "start": {
+              "y": 1996,
+              "m": 1,
+              "d": 10,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2006,
+              "m": 1,
+              "d": 10,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 2,
+            "stem": 9,
+            "branch": 7,
+            "name": "Quý Mùi",
+            "god": "Thiên Ấn",
+            "start": {
+              "y": 2006,
+              "m": 1,
+              "d": 10,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2016,
+              "m": 1,
+              "d": 10,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 3,
+            "stem": 0,
+            "branch": 8,
+            "name": "Giáp Thân",
+            "god": "Kiếp Tài",
+            "start": {
+              "y": 2016,
+              "m": 1,
+              "d": 10,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2026,
+              "m": 1,
+              "d": 10,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 4,
+            "stem": 1,
+            "branch": 9,
+            "name": "Ất Dậu",
+            "god": "Tỷ Kiên",
+            "start": {
+              "y": 2026,
+              "m": 1,
+              "d": 10,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2036,
+              "m": 1,
+              "d": 10,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 5,
+            "stem": 2,
+            "branch": 10,
+            "name": "Bính Tuất",
+            "god": "Thương Quan",
+            "start": {
+              "y": 2036,
+              "m": 1,
+              "d": 10,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2046,
+              "m": 1,
+              "d": 10,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 6,
+            "stem": 3,
+            "branch": 11,
+            "name": "Đinh Hợi",
+            "god": "Thực Thần",
+            "start": {
+              "y": 2046,
+              "m": 1,
+              "d": 10,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2056,
+              "m": 1,
+              "d": 10,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 7,
+            "stem": 4,
+            "branch": 0,
+            "name": "Mậu Tý",
+            "god": "Chính Tài",
+            "start": {
+              "y": 2056,
+              "m": 1,
+              "d": 10,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2066,
+              "m": 1,
+              "d": 10,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 8,
+            "stem": 5,
+            "branch": 1,
+            "name": "Kỷ Sửu",
+            "god": "Thiên Tài",
+            "start": {
+              "y": 2066,
+              "m": 1,
+              "d": 10,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2076,
+              "m": 1,
+              "d": 10,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 9,
+            "stem": 6,
+            "branch": 2,
+            "name": "Canh Dần",
+            "god": "Chính Quan",
+            "start": {
+              "y": 2076,
+              "m": 1,
+              "d": 10,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2086,
+              "m": 1,
+              "d": 10,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 10,
+            "stem": 7,
+            "branch": 3,
+            "name": "Tân Mão",
+            "god": "Thất Sát",
+            "start": {
+              "y": 2086,
+              "m": 1,
+              "d": 10,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2096,
+              "m": 1,
+              "d": 10,
+              "hour": 16,
+              "minute": 30
+            }
+          }
+        ]
+      },
+      "referenceOffset": {
+        "years": 5,
+        "months": 7,
+        "days": 21,
+        "hours": 8
+      },
+      "referenceStart": "1996-01-10 16:30:00"
+    },
+    {
+      "input": {
+        "tz": 8,
+        "dayPolicy": "midnight",
+        "gender": "female",
+        "noTime": false,
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30
+      },
+      "hhc": {
+        "uncertain": false,
+        "direction": -1,
+        "season": {
+          "branch": "Tỵ",
+          "main": {
+            "index": 2,
+            "name": "Bính",
+            "element": "Hỏa",
+            "god": "Thương Quan",
+            "primary": true
+          },
+          "revealed": [
+            {
+              "index": 2,
+              "name": "Bính",
+              "element": "Hỏa",
+              "god": "Thương Quan",
+              "primary": true,
+              "pillars": []
+            },
+            {
+              "index": 6,
+              "name": "Canh",
+              "element": "Kim",
+              "god": "Chính Quan",
+              "primary": false,
+              "pillars": [
+                "năm",
+                "giờ"
+              ]
+            },
+            {
+              "index": 4,
+              "name": "Mậu",
+              "element": "Thổ",
+              "god": "Chính Tài",
+              "primary": false,
+              "pillars": []
+            }
+          ]
+        },
+        "noTime": false,
+        "deltaMinutes": 20515,
+        "offset": {
+          "years": 4,
+          "months": 8,
+          "days": 29,
+          "hours": 14
+        },
+        "start": {
+          "y": 1995,
+          "m": 2,
+          "d": 18,
+          "hour": 22,
+          "minute": 30
+        },
+        "cycles": [
+          {
+            "number": 1,
+            "stem": 6,
+            "branch": 4,
+            "name": "Canh Thìn",
+            "god": "Chính Quan",
+            "start": {
+              "y": 1995,
+              "m": 2,
+              "d": 18,
+              "hour": 22,
+              "minute": 30
+            },
+            "end": {
+              "y": 2005,
+              "m": 2,
+              "d": 18,
+              "hour": 22,
+              "minute": 30
+            }
+          },
+          {
+            "number": 2,
+            "stem": 5,
+            "branch": 3,
+            "name": "Kỷ Mão",
+            "god": "Thiên Tài",
+            "start": {
+              "y": 2005,
+              "m": 2,
+              "d": 18,
+              "hour": 22,
+              "minute": 30
+            },
+            "end": {
+              "y": 2015,
+              "m": 2,
+              "d": 18,
+              "hour": 22,
+              "minute": 30
+            }
+          },
+          {
+            "number": 3,
+            "stem": 4,
+            "branch": 2,
+            "name": "Mậu Dần",
+            "god": "Chính Tài",
+            "start": {
+              "y": 2015,
+              "m": 2,
+              "d": 18,
+              "hour": 22,
+              "minute": 30
+            },
+            "end": {
+              "y": 2025,
+              "m": 2,
+              "d": 18,
+              "hour": 22,
+              "minute": 30
+            }
+          },
+          {
+            "number": 4,
+            "stem": 3,
+            "branch": 1,
+            "name": "Đinh Sửu",
+            "god": "Thực Thần",
+            "start": {
+              "y": 2025,
+              "m": 2,
+              "d": 18,
+              "hour": 22,
+              "minute": 30
+            },
+            "end": {
+              "y": 2035,
+              "m": 2,
+              "d": 18,
+              "hour": 22,
+              "minute": 30
+            }
+          },
+          {
+            "number": 5,
+            "stem": 2,
+            "branch": 0,
+            "name": "Bính Tý",
+            "god": "Thương Quan",
+            "start": {
+              "y": 2035,
+              "m": 2,
+              "d": 18,
+              "hour": 22,
+              "minute": 30
+            },
+            "end": {
+              "y": 2045,
+              "m": 2,
+              "d": 18,
+              "hour": 22,
+              "minute": 30
+            }
+          },
+          {
+            "number": 6,
+            "stem": 1,
+            "branch": 11,
+            "name": "Ất Hợi",
+            "god": "Tỷ Kiên",
+            "start": {
+              "y": 2045,
+              "m": 2,
+              "d": 18,
+              "hour": 22,
+              "minute": 30
+            },
+            "end": {
+              "y": 2055,
+              "m": 2,
+              "d": 18,
+              "hour": 22,
+              "minute": 30
+            }
+          },
+          {
+            "number": 7,
+            "stem": 0,
+            "branch": 10,
+            "name": "Giáp Tuất",
+            "god": "Kiếp Tài",
+            "start": {
+              "y": 2055,
+              "m": 2,
+              "d": 18,
+              "hour": 22,
+              "minute": 30
+            },
+            "end": {
+              "y": 2065,
+              "m": 2,
+              "d": 18,
+              "hour": 22,
+              "minute": 30
+            }
+          },
+          {
+            "number": 8,
+            "stem": 9,
+            "branch": 9,
+            "name": "Quý Dậu",
+            "god": "Thiên Ấn",
+            "start": {
+              "y": 2065,
+              "m": 2,
+              "d": 18,
+              "hour": 22,
+              "minute": 30
+            },
+            "end": {
+              "y": 2075,
+              "m": 2,
+              "d": 18,
+              "hour": 22,
+              "minute": 30
+            }
+          },
+          {
+            "number": 9,
+            "stem": 8,
+            "branch": 8,
+            "name": "Nhâm Thân",
+            "god": "Chính Ấn",
+            "start": {
+              "y": 2075,
+              "m": 2,
+              "d": 18,
+              "hour": 22,
+              "minute": 30
+            },
+            "end": {
+              "y": 2085,
+              "m": 2,
+              "d": 18,
+              "hour": 22,
+              "minute": 30
+            }
+          },
+          {
+            "number": 10,
+            "stem": 7,
+            "branch": 7,
+            "name": "Tân Mùi",
+            "god": "Thất Sát",
+            "start": {
+              "y": 2085,
+              "m": 2,
+              "d": 18,
+              "hour": 22,
+              "minute": 30
+            },
+            "end": {
+              "y": 2095,
+              "m": 2,
+              "d": 18,
+              "hour": 22,
+              "minute": 30
+            }
+          }
+        ]
+      },
+      "referenceOffset": {
+        "years": 4,
+        "months": 8,
+        "days": 29,
+        "hours": 14
+      },
+      "referenceStart": "1995-02-18 22:30:00"
+    },
+    {
+      "input": {
+        "tz": 8,
+        "dayPolicy": "midnight",
+        "gender": "male",
+        "noTime": false,
+        "y": 2000,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30
+      },
+      "hhc": {
+        "uncertain": false,
+        "direction": 1,
+        "season": {
+          "branch": "Tỵ",
+          "main": {
+            "index": 2,
+            "name": "Bính",
+            "element": "Hỏa",
+            "god": "Thiên Ấn",
+            "primary": true
+          },
+          "revealed": [
+            {
+              "index": 2,
+              "name": "Bính",
+              "element": "Hỏa",
+              "god": "Thiên Ấn",
+              "primary": true,
+              "pillars": [
+                "giờ"
+              ]
+            },
+            {
+              "index": 6,
+              "name": "Canh",
+              "element": "Kim",
+              "god": "Thực Thần",
+              "primary": false,
+              "pillars": [
+                "năm"
+              ]
+            },
+            {
+              "index": 4,
+              "name": "Mậu",
+              "element": "Thổ",
+              "god": "Tỷ Kiên",
+              "primary": false,
+              "pillars": []
+            }
+          ]
+        },
+        "noTime": false,
+        "deltaMinutes": 23549,
+        "offset": {
+          "years": 5,
+          "months": 5,
+          "days": 12,
+          "hours": 10
+        },
+        "start": {
+          "y": 2005,
+          "m": 11,
+          "d": 1,
+          "hour": 18,
+          "minute": 30
+        },
+        "cycles": [
+          {
+            "number": 1,
+            "stem": 8,
+            "branch": 6,
+            "name": "Nhâm Ngọ",
+            "god": "Thiên Tài",
+            "start": {
+              "y": 2005,
+              "m": 11,
+              "d": 1,
+              "hour": 18,
+              "minute": 30
+            },
+            "end": {
+              "y": 2015,
+              "m": 11,
+              "d": 1,
+              "hour": 18,
+              "minute": 30
+            }
+          },
+          {
+            "number": 2,
+            "stem": 9,
+            "branch": 7,
+            "name": "Quý Mùi",
+            "god": "Chính Tài",
+            "start": {
+              "y": 2015,
+              "m": 11,
+              "d": 1,
+              "hour": 18,
+              "minute": 30
+            },
+            "end": {
+              "y": 2025,
+              "m": 11,
+              "d": 1,
+              "hour": 18,
+              "minute": 30
+            }
+          },
+          {
+            "number": 3,
+            "stem": 0,
+            "branch": 8,
+            "name": "Giáp Thân",
+            "god": "Thất Sát",
+            "start": {
+              "y": 2025,
+              "m": 11,
+              "d": 1,
+              "hour": 18,
+              "minute": 30
+            },
+            "end": {
+              "y": 2035,
+              "m": 11,
+              "d": 1,
+              "hour": 18,
+              "minute": 30
+            }
+          },
+          {
+            "number": 4,
+            "stem": 1,
+            "branch": 9,
+            "name": "Ất Dậu",
+            "god": "Chính Quan",
+            "start": {
+              "y": 2035,
+              "m": 11,
+              "d": 1,
+              "hour": 18,
+              "minute": 30
+            },
+            "end": {
+              "y": 2045,
+              "m": 11,
+              "d": 1,
+              "hour": 18,
+              "minute": 30
+            }
+          },
+          {
+            "number": 5,
+            "stem": 2,
+            "branch": 10,
+            "name": "Bính Tuất",
+            "god": "Thiên Ấn",
+            "start": {
+              "y": 2045,
+              "m": 11,
+              "d": 1,
+              "hour": 18,
+              "minute": 30
+            },
+            "end": {
+              "y": 2055,
+              "m": 11,
+              "d": 1,
+              "hour": 18,
+              "minute": 30
+            }
+          },
+          {
+            "number": 6,
+            "stem": 3,
+            "branch": 11,
+            "name": "Đinh Hợi",
+            "god": "Chính Ấn",
+            "start": {
+              "y": 2055,
+              "m": 11,
+              "d": 1,
+              "hour": 18,
+              "minute": 30
+            },
+            "end": {
+              "y": 2065,
+              "m": 11,
+              "d": 1,
+              "hour": 18,
+              "minute": 30
+            }
+          },
+          {
+            "number": 7,
+            "stem": 4,
+            "branch": 0,
+            "name": "Mậu Tý",
+            "god": "Tỷ Kiên",
+            "start": {
+              "y": 2065,
+              "m": 11,
+              "d": 1,
+              "hour": 18,
+              "minute": 30
+            },
+            "end": {
+              "y": 2075,
+              "m": 11,
+              "d": 1,
+              "hour": 18,
+              "minute": 30
+            }
+          },
+          {
+            "number": 8,
+            "stem": 5,
+            "branch": 1,
+            "name": "Kỷ Sửu",
+            "god": "Kiếp Tài",
+            "start": {
+              "y": 2075,
+              "m": 11,
+              "d": 1,
+              "hour": 18,
+              "minute": 30
+            },
+            "end": {
+              "y": 2085,
+              "m": 11,
+              "d": 1,
+              "hour": 18,
+              "minute": 30
+            }
+          },
+          {
+            "number": 9,
+            "stem": 6,
+            "branch": 2,
+            "name": "Canh Dần",
+            "god": "Thực Thần",
+            "start": {
+              "y": 2085,
+              "m": 11,
+              "d": 1,
+              "hour": 18,
+              "minute": 30
+            },
+            "end": {
+              "y": 2095,
+              "m": 11,
+              "d": 1,
+              "hour": 18,
+              "minute": 30
+            }
+          },
+          {
+            "number": 10,
+            "stem": 7,
+            "branch": 3,
+            "name": "Tân Mão",
+            "god": "Thương Quan",
+            "start": {
+              "y": 2095,
+              "m": 11,
+              "d": 1,
+              "hour": 18,
+              "minute": 30
+            },
+            "end": {
+              "y": 2105,
+              "m": 11,
+              "d": 1,
+              "hour": 18,
+              "minute": 30
+            }
+          }
+        ]
+      },
+      "referenceOffset": {
+        "years": 5,
+        "months": 5,
+        "days": 12,
+        "hours": 8
+      },
+      "referenceStart": "2005-11-01 16:30:00"
+    },
+    {
+      "input": {
+        "tz": 8,
+        "dayPolicy": "midnight",
+        "gender": "female",
+        "noTime": false,
+        "y": 2000,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30
+      },
+      "hhc": {
+        "uncertain": false,
+        "direction": -1,
+        "season": {
+          "branch": "Tỵ",
+          "main": {
+            "index": 2,
+            "name": "Bính",
+            "element": "Hỏa",
+            "god": "Thiên Ấn",
+            "primary": true
+          },
+          "revealed": [
+            {
+              "index": 2,
+              "name": "Bính",
+              "element": "Hỏa",
+              "god": "Thiên Ấn",
+              "primary": true,
+              "pillars": [
+                "giờ"
+              ]
+            },
+            {
+              "index": 6,
+              "name": "Canh",
+              "element": "Kim",
+              "god": "Thực Thần",
+              "primary": false,
+              "pillars": [
+                "năm"
+              ]
+            },
+            {
+              "index": 4,
+              "name": "Mậu",
+              "element": "Thổ",
+              "god": "Tỷ Kiên",
+              "primary": false,
+              "pillars": []
+            }
+          ]
+        },
+        "noTime": false,
+        "deltaMinutes": 21340,
+        "offset": {
+          "years": 4,
+          "months": 11,
+          "days": 8,
+          "hours": 8
+        },
+        "start": {
+          "y": 2005,
+          "m": 4,
+          "d": 28,
+          "hour": 16,
+          "minute": 30
+        },
+        "cycles": [
+          {
+            "number": 1,
+            "stem": 6,
+            "branch": 4,
+            "name": "Canh Thìn",
+            "god": "Thực Thần",
+            "start": {
+              "y": 2005,
+              "m": 4,
+              "d": 28,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2015,
+              "m": 4,
+              "d": 28,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 2,
+            "stem": 5,
+            "branch": 3,
+            "name": "Kỷ Mão",
+            "god": "Kiếp Tài",
+            "start": {
+              "y": 2015,
+              "m": 4,
+              "d": 28,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2025,
+              "m": 4,
+              "d": 28,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 3,
+            "stem": 4,
+            "branch": 2,
+            "name": "Mậu Dần",
+            "god": "Tỷ Kiên",
+            "start": {
+              "y": 2025,
+              "m": 4,
+              "d": 28,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2035,
+              "m": 4,
+              "d": 28,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 4,
+            "stem": 3,
+            "branch": 1,
+            "name": "Đinh Sửu",
+            "god": "Chính Ấn",
+            "start": {
+              "y": 2035,
+              "m": 4,
+              "d": 28,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2045,
+              "m": 4,
+              "d": 28,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 5,
+            "stem": 2,
+            "branch": 0,
+            "name": "Bính Tý",
+            "god": "Thiên Ấn",
+            "start": {
+              "y": 2045,
+              "m": 4,
+              "d": 28,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2055,
+              "m": 4,
+              "d": 28,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 6,
+            "stem": 1,
+            "branch": 11,
+            "name": "Ất Hợi",
+            "god": "Chính Quan",
+            "start": {
+              "y": 2055,
+              "m": 4,
+              "d": 28,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2065,
+              "m": 4,
+              "d": 28,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 7,
+            "stem": 0,
+            "branch": 10,
+            "name": "Giáp Tuất",
+            "god": "Thất Sát",
+            "start": {
+              "y": 2065,
+              "m": 4,
+              "d": 28,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2075,
+              "m": 4,
+              "d": 28,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 8,
+            "stem": 9,
+            "branch": 9,
+            "name": "Quý Dậu",
+            "god": "Chính Tài",
+            "start": {
+              "y": 2075,
+              "m": 4,
+              "d": 28,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2085,
+              "m": 4,
+              "d": 28,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 9,
+            "stem": 8,
+            "branch": 8,
+            "name": "Nhâm Thân",
+            "god": "Thiên Tài",
+            "start": {
+              "y": 2085,
+              "m": 4,
+              "d": 28,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2095,
+              "m": 4,
+              "d": 28,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 10,
+            "stem": 7,
+            "branch": 7,
+            "name": "Tân Mùi",
+            "god": "Thương Quan",
+            "start": {
+              "y": 2095,
+              "m": 4,
+              "d": 28,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2105,
+              "m": 4,
+              "d": 28,
+              "hour": 16,
+              "minute": 30
+            }
+          }
+        ]
+      },
+      "referenceOffset": {
+        "years": 4,
+        "months": 11,
+        "days": 8,
+        "hours": 8
+      },
+      "referenceStart": "2005-04-28 16:30:00"
+    },
+    {
+      "input": {
+        "tz": 8,
+        "dayPolicy": "midnight",
+        "gender": "male",
+        "noTime": false,
+        "y": 2024,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30
+      },
+      "hhc": {
+        "uncertain": false,
+        "direction": 1,
+        "season": {
+          "branch": "Tỵ",
+          "main": {
+            "index": 2,
+            "name": "Bính",
+            "element": "Hỏa",
+            "god": "Thực Thần",
+            "primary": true
+          },
+          "revealed": [
+            {
+              "index": 2,
+              "name": "Bính",
+              "element": "Hỏa",
+              "god": "Thực Thần",
+              "primary": true,
+              "pillars": []
+            },
+            {
+              "index": 6,
+              "name": "Canh",
+              "element": "Kim",
+              "god": "Thất Sát",
+              "primary": false,
+              "pillars": []
+            },
+            {
+              "index": 4,
+              "name": "Mậu",
+              "element": "Thổ",
+              "god": "Thiên Tài",
+              "primary": false,
+              "pillars": [
+                "giờ"
+              ]
+            }
+          ]
+        },
+        "noTime": false,
+        "deltaMinutes": 23260,
+        "offset": {
+          "years": 5,
+          "months": 4,
+          "days": 18,
+          "hours": 8
+        },
+        "start": {
+          "y": 2029,
+          "m": 10,
+          "d": 8,
+          "hour": 16,
+          "minute": 30
+        },
+        "cycles": [
+          {
+            "number": 1,
+            "stem": 6,
+            "branch": 6,
+            "name": "Canh Ngọ",
+            "god": "Thất Sát",
+            "start": {
+              "y": 2029,
+              "m": 10,
+              "d": 8,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2039,
+              "m": 10,
+              "d": 8,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 2,
+            "stem": 7,
+            "branch": 7,
+            "name": "Tân Mùi",
+            "god": "Chính Quan",
+            "start": {
+              "y": 2039,
+              "m": 10,
+              "d": 8,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2049,
+              "m": 10,
+              "d": 8,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 3,
+            "stem": 8,
+            "branch": 8,
+            "name": "Nhâm Thân",
+            "god": "Thiên Ấn",
+            "start": {
+              "y": 2049,
+              "m": 10,
+              "d": 8,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2059,
+              "m": 10,
+              "d": 8,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 4,
+            "stem": 9,
+            "branch": 9,
+            "name": "Quý Dậu",
+            "god": "Chính Ấn",
+            "start": {
+              "y": 2059,
+              "m": 10,
+              "d": 8,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2069,
+              "m": 10,
+              "d": 8,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 5,
+            "stem": 0,
+            "branch": 10,
+            "name": "Giáp Tuất",
+            "god": "Tỷ Kiên",
+            "start": {
+              "y": 2069,
+              "m": 10,
+              "d": 8,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2079,
+              "m": 10,
+              "d": 8,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 6,
+            "stem": 1,
+            "branch": 11,
+            "name": "Ất Hợi",
+            "god": "Kiếp Tài",
+            "start": {
+              "y": 2079,
+              "m": 10,
+              "d": 8,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2089,
+              "m": 10,
+              "d": 8,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 7,
+            "stem": 2,
+            "branch": 0,
+            "name": "Bính Tý",
+            "god": "Thực Thần",
+            "start": {
+              "y": 2089,
+              "m": 10,
+              "d": 8,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2099,
+              "m": 10,
+              "d": 8,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 8,
+            "stem": 3,
+            "branch": 1,
+            "name": "Đinh Sửu",
+            "god": "Thương Quan",
+            "start": {
+              "y": 2099,
+              "m": 10,
+              "d": 8,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2109,
+              "m": 10,
+              "d": 8,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 9,
+            "stem": 4,
+            "branch": 2,
+            "name": "Mậu Dần",
+            "god": "Thiên Tài",
+            "start": {
+              "y": 2109,
+              "m": 10,
+              "d": 8,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2119,
+              "m": 10,
+              "d": 8,
+              "hour": 16,
+              "minute": 30
+            }
+          },
+          {
+            "number": 10,
+            "stem": 5,
+            "branch": 3,
+            "name": "Kỷ Mão",
+            "god": "Chính Tài",
+            "start": {
+              "y": 2119,
+              "m": 10,
+              "d": 8,
+              "hour": 16,
+              "minute": 30
+            },
+            "end": {
+              "y": 2129,
+              "m": 10,
+              "d": 8,
+              "hour": 16,
+              "minute": 30
+            }
+          }
+        ]
+      },
+      "referenceOffset": {
+        "years": 5,
+        "months": 4,
+        "days": 18,
+        "hours": 6
+      },
+      "referenceStart": "2029-10-08 14:30:00"
+    },
+    {
+      "input": {
+        "tz": 8,
+        "dayPolicy": "midnight",
+        "gender": "female",
+        "noTime": false,
+        "y": 2024,
+        "m": 5,
+        "d": 20,
+        "hour": 8,
+        "minute": 30
+      },
+      "hhc": {
+        "uncertain": false,
+        "direction": -1,
+        "season": {
+          "branch": "Tỵ",
+          "main": {
+            "index": 2,
+            "name": "Bính",
+            "element": "Hỏa",
+            "god": "Thực Thần",
+            "primary": true
+          },
+          "revealed": [
+            {
+              "index": 2,
+              "name": "Bính",
+              "element": "Hỏa",
+              "god": "Thực Thần",
+              "primary": true,
+              "pillars": []
+            },
+            {
+              "index": 6,
+              "name": "Canh",
+              "element": "Kim",
+              "god": "Thất Sát",
+              "primary": false,
+              "pillars": []
+            },
+            {
+              "index": 4,
+              "name": "Mậu",
+              "element": "Thổ",
+              "god": "Thiên Tài",
+              "primary": false,
+              "pillars": [
+                "giờ"
+              ]
+            }
+          ]
+        },
+        "noTime": false,
+        "deltaMinutes": 21620,
+        "offset": {
+          "years": 5,
+          "months": 0,
+          "days": 1,
+          "hours": 16
+        },
+        "start": {
+          "y": 2029,
+          "m": 5,
+          "d": 22,
+          "hour": 0,
+          "minute": 30
+        },
+        "cycles": [
+          {
+            "number": 1,
+            "stem": 4,
+            "branch": 4,
+            "name": "Mậu Thìn",
+            "god": "Thiên Tài",
+            "start": {
+              "y": 2029,
+              "m": 5,
+              "d": 22,
+              "hour": 0,
+              "minute": 30
+            },
+            "end": {
+              "y": 2039,
+              "m": 5,
+              "d": 22,
+              "hour": 0,
+              "minute": 30
+            }
+          },
+          {
+            "number": 2,
+            "stem": 3,
+            "branch": 3,
+            "name": "Đinh Mão",
+            "god": "Thương Quan",
+            "start": {
+              "y": 2039,
+              "m": 5,
+              "d": 22,
+              "hour": 0,
+              "minute": 30
+            },
+            "end": {
+              "y": 2049,
+              "m": 5,
+              "d": 22,
+              "hour": 0,
+              "minute": 30
+            }
+          },
+          {
+            "number": 3,
+            "stem": 2,
+            "branch": 2,
+            "name": "Bính Dần",
+            "god": "Thực Thần",
+            "start": {
+              "y": 2049,
+              "m": 5,
+              "d": 22,
+              "hour": 0,
+              "minute": 30
+            },
+            "end": {
+              "y": 2059,
+              "m": 5,
+              "d": 22,
+              "hour": 0,
+              "minute": 30
+            }
+          },
+          {
+            "number": 4,
+            "stem": 1,
+            "branch": 1,
+            "name": "Ất Sửu",
+            "god": "Kiếp Tài",
+            "start": {
+              "y": 2059,
+              "m": 5,
+              "d": 22,
+              "hour": 0,
+              "minute": 30
+            },
+            "end": {
+              "y": 2069,
+              "m": 5,
+              "d": 22,
+              "hour": 0,
+              "minute": 30
+            }
+          },
+          {
+            "number": 5,
+            "stem": 0,
+            "branch": 0,
+            "name": "Giáp Tý",
+            "god": "Tỷ Kiên",
+            "start": {
+              "y": 2069,
+              "m": 5,
+              "d": 22,
+              "hour": 0,
+              "minute": 30
+            },
+            "end": {
+              "y": 2079,
+              "m": 5,
+              "d": 22,
+              "hour": 0,
+              "minute": 30
+            }
+          },
+          {
+            "number": 6,
+            "stem": 9,
+            "branch": 11,
+            "name": "Quý Hợi",
+            "god": "Chính Ấn",
+            "start": {
+              "y": 2079,
+              "m": 5,
+              "d": 22,
+              "hour": 0,
+              "minute": 30
+            },
+            "end": {
+              "y": 2089,
+              "m": 5,
+              "d": 22,
+              "hour": 0,
+              "minute": 30
+            }
+          },
+          {
+            "number": 7,
+            "stem": 8,
+            "branch": 10,
+            "name": "Nhâm Tuất",
+            "god": "Thiên Ấn",
+            "start": {
+              "y": 2089,
+              "m": 5,
+              "d": 22,
+              "hour": 0,
+              "minute": 30
+            },
+            "end": {
+              "y": 2099,
+              "m": 5,
+              "d": 22,
+              "hour": 0,
+              "minute": 30
+            }
+          },
+          {
+            "number": 8,
+            "stem": 7,
+            "branch": 9,
+            "name": "Tân Dậu",
+            "god": "Chính Quan",
+            "start": {
+              "y": 2099,
+              "m": 5,
+              "d": 22,
+              "hour": 0,
+              "minute": 30
+            },
+            "end": {
+              "y": 2109,
+              "m": 5,
+              "d": 22,
+              "hour": 0,
+              "minute": 30
+            }
+          },
+          {
+            "number": 9,
+            "stem": 6,
+            "branch": 8,
+            "name": "Canh Thân",
+            "god": "Thất Sát",
+            "start": {
+              "y": 2109,
+              "m": 5,
+              "d": 22,
+              "hour": 0,
+              "minute": 30
+            },
+            "end": {
+              "y": 2119,
+              "m": 5,
+              "d": 22,
+              "hour": 0,
+              "minute": 30
+            }
+          },
+          {
+            "number": 10,
+            "stem": 5,
+            "branch": 7,
+            "name": "Kỷ Mùi",
+            "god": "Chính Tài",
+            "start": {
+              "y": 2119,
+              "m": 5,
+              "d": 22,
+              "hour": 0,
+              "minute": 30
+            },
+            "end": {
+              "y": 2129,
+              "m": 5,
+              "d": 22,
+              "hour": 0,
+              "minute": 30
+            }
+          }
+        ]
+      },
+      "referenceOffset": {
+        "years": 5,
+        "months": 0,
+        "days": 1,
+        "hours": 16
+      },
+      "referenceStart": "2029-05-22 00:30:00"
+    }
+  ]
+}

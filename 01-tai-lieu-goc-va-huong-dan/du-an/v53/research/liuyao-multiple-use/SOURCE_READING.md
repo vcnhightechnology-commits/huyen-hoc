@@ -1,0 +1,12 @@
+Mốc sau gói21:32ngày29/10:thamchiếu5so sánhđãkiểmđạt59049khung/10320khungmâuthuẫnchiềuưu tiên;3quẻnguồnđãđối5HHCthậtvà7nhãnchọn,3vịtríTửtônkhớp.Chưa promote;góihiệnhànhchỉchứalượtđọctrướctriểnkhai. ĐọcWORK_STATE.json,REFERENCE_RESULTS.jsonvàCAST_RESULTS.json;khônglặpruntime.
+
+# B02兩現: ngữ cảnh đang nối
+
+Đã xem mở rộngảnh134–136cũ,chưathêmvịtríđọclầnđầu/HTTP. Đềmụcthânsách134in31,chỉmụchiệnhànhgiữB02-ch032,mục134–136đãđọcđầutrướcđây. Nămcặp捨休囚用旺相/捨靜用動/捨月破用不破/捨旬空用不空/捨傷用不傷là古法đượcdẫn. Ngaysauđónêu用旬空/月破vàthựctế三現,khôngtựlậpưu tiênchọnDụy nhất.
+
+Ví dụ134hỏiTàitrong小畜:tháng未/ngày庚子,取未trì應/辰Tàixuấtkhônglàđiềukiệnlờikể;khôngsuyngàysinhGregorian. Ví dụ135師→渙:hai官mộtkhông/mộtphá,ứngvàothầnkhácnhaucủalờikể. Ví dụ豫→歸妹có子孫三現;ngườilạihỏichoquýphu nhân,sauđólàemtrai同一人自占,cầnliênkếthaiquẻvàsởhỏithayđổi. Chưacókếtquảđộc lập/ứngnghiệmxácminh,khôngmôphỏngchẩnđoánhoặcthờigiantainạn.
+
+Tiếp:táchtiềnđềkhỏixếpưu tiên,nămcặpsosánhchỉnhậngiátrịnguồnkhaibáo,bảolưucáccâuphảnví dụvàliênkếtnhiềulầnhỏi.Khôngchạylạicáctable/calendarđãgiữkhinốiphiên.
+
+
+Đínhchínhđọccụthể:ảnhNLC135vàNhật50cùng玄月丙午日;khôngdịbảnngày丙子.NATIVE_READING_AMENDMENT.jsongiữcáchhiểuđầubịloại,bảnảnhnguồnnguyênbyte. Khôngsuy玄月thành亥/chihoặcthángdương.Nhật50táidùngảnhđãtảivàđọc,khôngtínhlànhânchứngmới/vịtrímới,403canvas49khôngthửlại.

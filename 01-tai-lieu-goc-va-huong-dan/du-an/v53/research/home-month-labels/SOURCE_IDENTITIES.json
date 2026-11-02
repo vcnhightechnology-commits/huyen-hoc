@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-29",
+  "source": {
+    "file": "v53/research/home-yangzhai-final-spans/selection/raw-p131.jpg",
+    "bytes": 810368,
+    "sha256": "e8e587a003957124e35252d9885ba8b2ec0f4eb413a5606a10523f1e4d0408f0"
+  },
+  "crop": {
+    "file": "first-ten-full-margins.png",
+    "boxXYXY": [
+      0,
+      815,
+      1220,
+      1890
+    ],
+    "bytes": 2140223,
+    "sha256": "4ac8c7afb8dbf9ec36307d70c8c4dd372a1cb59d2e4e0a4f73c3a71d10b3afd3",
+    "actuallyViewed": true,
+    "RGBMatchesSource": true
+  },
+  "priorMarkerTable": {
+    "file": "v53/research/home-day-markers/MANUAL_BUILD_BREAK_MARKERS.json",
+    "bytes": 273917,
+    "sha256": "03bbede76311f3ba4521a0a7d1dad776476f4bb1f7eaeb97c881ab5aa24b5bcd"
+  },
+  "unknownGlyphPriorAudit": "v53/research/home-day-markers/PRIVATE_GLYPH_READING_CORRECTION.json",
+  "newHTTPBodies": 0,
+  "newSourcePositions": 0
+}

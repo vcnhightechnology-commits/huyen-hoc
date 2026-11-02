@@ -1,0 +1,53 @@
+{
+  "scope": "v53/qa/home-guide",
+  "files": [
+    {
+      "file": "v53/qa/home-guide/home-guide-1440.png",
+      "bytes": 448087,
+      "sha256": "1aa02357ccee60720ae3690f57e66b09eeee36fe3d20da8888cd6f5ec43ea4f5",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1aa02357ccee60720ae3690f57e66b09eeee36fe3d20da8888cd6f5ec43ea4f5",
+      "httpRange": {
+        "offset": 346183271,
+        "compressedBytes": 431988,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/home-guide/home-guide-390.png",
+      "bytes": 240207,
+      "sha256": "d5fc33b9c953df51a30586f9b7bd066ba501b99cafe5802948c4b05b8737acc8",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d5fc33b9c953df51a30586f9b7bd066ba501b99cafe5802948c4b05b8737acc8",
+      "httpRange": {
+        "offset": 153308777,
+        "compressedBytes": 230580,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/home-guide/kitchen.txt",
+      "bytes": 2462,
+      "sha256": "56a76e262a1150d80c69c27f9e3adf3dd1449f58b5ed24130b2ade7b11704de2",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/56a76e262a1150d80c69c27f9e3adf3dd1449f58b5ed24130b2ade7b11704de2",
+      "httpRange": {
+        "offset": 164962666,
+        "compressedBytes": 1281,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/home-guide/test-results.json",
+      "bytes": 5375,
+      "sha256": "384ea740d6072cf79ce2d98d0a3d181f6d0905f7fbe849baa1a0f3c3e1934d69",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/384ea740d6072cf79ce2d98d0a3d181f6d0905f7fbe849baa1a0f3c3e1934d69",
+      "httpRange": {
+        "offset": 351111372,
+        "compressedBytes": 1453,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

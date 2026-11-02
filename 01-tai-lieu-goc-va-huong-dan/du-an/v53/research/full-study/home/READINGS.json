@@ -1,0 +1,147 @@
+{
+  "schema": "hhc.home.source-readings.v1",
+  "method": "Direct visual reading of downloaded page images using view_image; no claim of full volume reading",
+  "readings": [
+    {
+      "page": 2,
+      "file": "CADAL06056503-page002-500.jpg",
+      "observed": "Title panel identifies 欽定四庫全書 / 子部 / 欽定協紀辨方書卷二. The reviewer names here are not treated as authors."
+    },
+    {
+      "page": 3,
+      "file": "CADAL06056503-page003-500.jpg",
+      "observed": "Contents includes 本原二, 二十四方位, 正五行, 中針雙山五行, 縫針三合五行."
+    },
+    {
+      "page": 4,
+      "file": "CADAL06056503-page004-500.jpg",
+      "observed": "Contents continues with 墓龍變運, 年月尅山家, 二十四節氣方位, 八卦納甲三合, 小遊年變卦, 大遊年變卦, 遊年變卦圖."
+    },
+    {
+      "page": 5,
+      "file": "CADAL06056503-page005-960.jpg",
+      "printedLeaf": "二 recto (visible 二 at margin; side inferred from sequence)",
+      "observed": "Round chart 二十四方位. Manual read all24 outer labels, South top, North bottom. No numeric degree scale."
+    },
+    {
+      "page": 6,
+      "file": "CADAL06056503-page006-960.jpg",
+      "printedLeaf": "二 verso (side inferred)",
+      "shortExtracts": [
+        "卦四天干八地支十二共為二十四方位",
+        "如子山則必午向午山則必子向",
+        "壬山則必丙向丙山則必壬向"
+      ],
+      "observed": "Explanation of24directions; 4corner trigrams,8stems,12branches; opposite sitting/facing examples; pillars pair around cardinal and corner trigrams."
+    },
+    {
+      "page": 7,
+      "file": "CADAL06056503-page007-960.jpg",
+      "printedLeaf": "三 recto (side inferred)",
+      "shortExtracts": [
+        "以二十四山分屬八卦則一卦筦三山",
+        "以二十四山分屬五行諸家不同具各有義"
+      ],
+      "groupsRead": [
+        {
+          "trigram": "坎",
+          "direction": "N",
+          "mountains": [
+            "壬",
+            "子",
+            "癸"
+          ]
+        },
+        {
+          "trigram": "艮",
+          "direction": "NE",
+          "mountains": [
+            "丑",
+            "艮",
+            "寅"
+          ]
+        },
+        {
+          "trigram": "震",
+          "direction": "E",
+          "mountains": [
+            "甲",
+            "卯",
+            "乙"
+          ]
+        },
+        {
+          "trigram": "巽",
+          "direction": "SE",
+          "mountains": [
+            "辰",
+            "巽",
+            "巳"
+          ]
+        },
+        {
+          "trigram": "離",
+          "direction": "S",
+          "mountains": [
+            "丙",
+            "午",
+            "丁"
+          ]
+        },
+        {
+          "trigram": "坤",
+          "direction": "SW",
+          "mountains": [
+            "未",
+            "坤",
+            "申"
+          ]
+        },
+        {
+          "trigram": "兌",
+          "direction": "W",
+          "mountains": [
+            "庚",
+            "酉",
+            "辛"
+          ]
+        },
+        {
+          "trigram": "乾",
+          "direction": "NW",
+          "mountains": [
+            "戌",
+            "乾",
+            "亥"
+          ]
+        }
+      ],
+      "observed": "Complete8groups×3mountains. Scan forms 巳/己 are visually close; row 辰巽巳 is normalized to branch 巳 because the24-position ring and twelve-branch inventory identify it. Do not silently call the web transcription an exact diplomatic text."
+    },
+    {
+      "page": 8,
+      "file": "CADAL06056503-page008-500.jpg",
+      "observed": "Blank verso; no rule extracted."
+    }
+  ],
+  "transcriptionOnlyRead": {
+    "file": "wikisource-xieji-v02-oldid787335.html",
+    "revision": 787335,
+    "sections": [
+      "二十四方位",
+      "大遊年變卦"
+    ],
+    "scanVerifiedSections": [
+      "二十四方位"
+    ],
+    "notScanVerifiedSections": [
+      "大遊年變卦"
+    ],
+    "note": "The complete 大遊年 passage is a useful independent Chinese transcription witness to the8-palace relation logic; not promoted to facsimile-verified in this scope."
+  },
+  "failedRequests": {
+    "count": 8,
+    "status": 400,
+    "explanation": "Nonstandard957px thumb size rejected with request to use published standard sizes. Error bodies retained as .jpg names in the archive but marked usable:false. Then used advertised500px and accepted960px. No access restriction bypass."
+  }
+}

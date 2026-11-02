@@ -1,0 +1,49 @@
+{
+  "files": [
+    {
+      "file": "v53/research/bazi-food-source/CONTEXTS.json",
+      "bytes": 82405,
+      "sha256": "c9179c1421a4521ce9bd0f5d48ab05e28a6a9ed11daf462927ad777343be0f68"
+    },
+    {
+      "file": "v53/research/bazi-food-source/p177.png",
+      "bytes": 292400,
+      "sha256": "bd60295b8c57032d9ec30ce5a2a06cade7d86a78fdec4e6d56f60659c8281bee"
+    },
+    {
+      "file": "v53/research/bazi-food-six-pillars/source-pillar-example.mjs",
+      "bytes": 2104,
+      "sha256": "e3eb1658485d6b2ca9a27dcaac6bbe8a822fc82b8c61cabd1a5dc59ba9daba2b"
+    },
+    {
+      "file": "v53/research/bazi-food-six-pillars/MANUAL_PILLAR_EXAMPLES.json",
+      "bytes": 1375,
+      "sha256": "c23f6d892dd86fd7d564003033cd55badf8d7247bf8e5e49e0d71d10c53ffc4c"
+    },
+    {
+      "file": "v53/qa/bazi-food-six-pillars/REFERENCE_RESULTS.json",
+      "bytes": 6001,
+      "sha256": "393baacd77d44c5b501f23302fe2969f9c16b023435129930d77d7175764a3d4"
+    },
+    {
+      "file": "v53/research/bazi-food-quantity/CURRENT_CONTEXT_COVERAGE.json",
+      "bytes": 51082,
+      "sha256": "d25e17f8e76573e151c307a19b9f0723650e9363a495c450dba6c36e70759a54"
+    }
+  ],
+  "actualRelation": {
+    "rootStem": "甲",
+    "targetStem": "丙",
+    "actualHHCTenGod": "Thực Thần",
+    "actualLunarTenGod": "食神",
+    "applicablePrintedExamples": 6,
+    "actualHHCRelationCalls": 1,
+    "actualLunarTenGodTableQueries": 1
+  },
+  "newEngineCalls": 0,
+  "currentParentCounts": [
+    49,
+    41,
+    0
+  ]
+}

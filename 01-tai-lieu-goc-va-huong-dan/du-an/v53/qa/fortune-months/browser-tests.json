@@ -1,0 +1,95 @@
+{
+  "date": "2026-10-26T06:26:35.473Z",
+  "checks": [
+    {
+      "name": "No year overview is invented before a target date is selected",
+      "ok": true
+    },
+    {
+      "name": "Leap year 2025 has 14 reading intervals with separate first and second halves of leap six",
+      "ok": true
+    },
+    {
+      "name": "Clicking the second leap interval selects its exact first civil date and changes the monthly palace",
+      "ok": true
+    },
+    {
+      "name": "Month navigation preserves an open overview, one active interval and keyboard focus",
+      "ok": true
+    },
+    {
+      "name": "TXT includes all months and both leap intervals even when the overview is collapsed",
+      "ok": true
+    },
+    {
+      "name": "TXT export restores the user’s collapsed overview state",
+      "ok": true
+    },
+    {
+      "name": "Real browser PDF printing opens the complete year overview and then restores its collapsed state",
+      "ok": true
+    },
+    {
+      "name": "January 1 overview follows lunar year 2025 instead of the Gregorian year",
+      "ok": true
+    },
+    {
+      "name": "Ordinary lunar year 2026 has exactly 12 chronological months",
+      "ok": true
+    },
+    {
+      "name": "A saved profile opened after changing year recomputes its selected leap interval",
+      "ok": true
+    },
+    {
+      "name": "Changing to same clears the old year overview",
+      "ok": true
+    },
+    {
+      "name": "same uses a single leap-month interval and keeps an explicit policy label",
+      "ok": true
+    },
+    {
+      "name": "Changing to next clears the old year overview",
+      "ok": true
+    },
+    {
+      "name": "next uses a single leap-month interval and keeps an explicit policy label",
+      "ok": true
+    },
+    {
+      "name": "Calendar-sensitive intervals are visibly unavailable and cannot change the selected day",
+      "ok": true
+    },
+    {
+      "name": "End-of-range months show a readable limit instead of a link into 2101",
+      "ok": true
+    },
+    {
+      "name": "Birth-year view disables earlier months and begins its partial birth month on the birth date",
+      "ok": true
+    },
+    {
+      "name": "320px month overview fits the viewport with usable buttons",
+      "ok": true
+    },
+    {
+      "name": "390px month overview fits the viewport with usable buttons",
+      "ok": true
+    },
+    {
+      "name": "768px month overview fits the viewport with usable buttons",
+      "ok": true
+    },
+    {
+      "name": "1440px month overview fits the viewport with usable buttons",
+      "ok": true
+    },
+    {
+      "name": "Standalone year navigation has no JavaScript errors, HTTP dependencies or private source panels",
+      "ok": true
+    }
+  ],
+  "errors": [],
+  "requests": []
+}

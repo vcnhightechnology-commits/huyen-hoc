@@ -1,0 +1,126 @@
+{
+  "date": "2026-10-25T16:32:49.942Z",
+  "checks": [
+    {
+      "name": "All existing calculation, interpretation and home modules retain their original bytes",
+      "ok": true
+    },
+    {
+      "name": "Fourteen source units refer to two byte-verified archived digital witnesses",
+      "ok": true
+    },
+    {
+      "name": "All 128 moving-line patterns for Càn and Khôn select only the requested lines",
+      "ok": true,
+      "detail": {
+        "patterns": 128
+      }
+    },
+    {
+      "name": "Each ordinary line has a distinct title, reading and practical prompt",
+      "ok": true
+    },
+    {
+      "name": "All-moving supplements never replace or fabricate the six ordinary lines",
+      "ok": true
+    },
+    {
+      "name": "Unreviewed hexagrams keep explicitly generic positional prompts",
+      "ok": true
+    },
+    {
+      "name": "Invalid, duplicate or out-of-range line selections fail explicitly",
+      "ok": true
+    },
+    {
+      "name": "Reading sorts a copy of the requested positions from bottom to top",
+      "ok": true
+    },
+    {
+      "name": "Càn first moving line has its own hidden-dragon reading, rather than a generic stage",
+      "ok": true
+    },
+    {
+      "name": "Càn fifth moving line changes content to leadership and collaboration",
+      "ok": true
+    },
+    {
+      "name": "Khôn fifth line uses its own image and does not prescribe lucky yellow clothing",
+      "ok": true
+    },
+    {
+      "name": "Six moving Càn lines show six readings and the separate all-moving supplement",
+      "ok": true
+    },
+    {
+      "name": "Six moving Khôn lines use its own supplement and change to Càn",
+      "ok": true
+    },
+    {
+      "name": "Other primary hexagrams disclose that their line prompts depend only on position",
+      "ok": true
+    },
+    {
+      "name": "A static Càn has no invented moving-line section",
+      "ok": true
+    },
+    {
+      "name": "TXT carries the two selected readings, practical prompts and the primary hexagram label",
+      "ok": true
+    },
+    {
+      "name": "Saved profile recomputes the correct primary hexagram and its original moving positions",
+      "ok": true
+    },
+    {
+      "name": "Print keeps line readings and hides the input form",
+      "ok": true
+    },
+    {
+      "name": "320px: specific line readings do not overflow",
+      "ok": true,
+      "detail": {
+        "page": 320,
+        "width": 320
+      }
+    },
+    {
+      "name": "390px: specific line readings do not overflow",
+      "ok": true,
+      "detail": {
+        "page": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "768px: specific line readings do not overflow",
+      "ok": true,
+      "detail": {
+        "page": 768,
+        "width": 768
+      }
+    },
+    {
+      "name": "1440px: specific line readings do not overflow",
+      "ok": true,
+      "detail": {
+        "page": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "name": "Editing a line invalidates the old reading and export actions",
+      "ok": true
+    },
+    {
+      "name": "No runtime errors, HTTP dependencies, corpus or source panels appear",
+      "ok": true,
+      "detail": {
+        "errors": [],
+        "requests": []
+      }
+    }
+  ],
+  "errors": [],
+  "requests": []
+}

@@ -1,0 +1,103 @@
+{
+  "digitalSource": {
+    "file": "v53/research/bazi-relations/sources/KR3g0042_005.txt",
+    "bytes": 122081,
+    "sha256": "1ebdd92feaa57496b702f962ad6fafd4f19c17e98c38a94b40f626ef321dd997"
+  },
+  "editorialUnits": 12,
+  "cleanCodepoints": 439,
+  "cleanSHA256": "c9092ab000d4f42499f46a227ca81d9489b6fae3f0cfec22f578fc3ab951e6f2",
+  "records": [
+    {
+      "id": "T00",
+      "literalDigital": "又云㸔官星有天官鄉取月干制嵗干如六甲年正月建丙寅五月庚午六月辛未庚辛金能制甲木戊癸即相帶而行甲癸人在午未乙丙人在辰巳丁戊人在寅卯巳庚人在戌亥辛壬人在申酉若人遇之當食天禄貴處朝倫",
+      "role": "天官鄉:月干制歲干",
+      "implemented": false
+    },
+    {
+      "id": "T01",
+      "literalDigital": "有地官鄉取月建制歲干如歲干是甲乙屬木七八月見申屬金金能制木甲乙人在申酉丙丁人在亥子戊巳人在寅卯庚辛人在巳午壬癸人在辰戌丑未若人遇之主早承休䕃官序易陞",
+      "role": "地官鄉:月建制歲干",
+      "implemented": false
+    },
+    {
+      "id": "T02",
+      "literalDigital": "有真官鄉取命前三辰月干與命干合如丙子人二月生為命前三辰是辛卯丙與辛合故丙子二月生人為真官中生之類君子遇之職居近侍小人遇之亦主富豪如劉行素御史丙子辛卯丙子辛卯正合此説",
+      "role": "真官鄉:命前三辰/月干與命干合",
+      "implemented": false
+    },
+    {
+      "id": "T03",
+      "literalDigital": "又云術者以甲見辛為官不知真五行克納音為真官此最𦂳福神",
+      "role": "真五行克納音;notordinary甲辛alone",
+      "implemented": false
+    },
+    {
+      "id": "T04",
+      "literalDigital": "干頭自見官而得合者為上有諸神来朝者最佳",
+      "role": "source-preference-with-combination-and-諸神",
+      "implemented": false
+    },
+    {
+      "id": "T05",
+      "literalDigital": "如甲寅生納音水得己亥甲巳為真土是納音見真五行克也",
+      "role": "literal-example甲寅/己亥",
+      "implemented": false
+    },
+    {
+      "id": "T06",
+      "literalDigital": "若不見太嵗本干克但於日月時上見乙庚亦是",
+      "role": "alternative日月時乙庚scope",
+      "implemented": false
+    },
+    {
+      "id": "T07",
+      "literalDigital": "若止見庚謂之偏官比之全者减力",
+      "role": "source偏官partial-configuration",
+      "implemented": false
+    },
+    {
+      "id": "T08",
+      "literalDigital": "又不見乙庚止見乙巳乙丑乙酉餘位中多見申不見申止得三五分力",
+      "role": "partial-alternatives乙巳乙丑乙酉/申",
+      "implemented": false
+    },
+    {
+      "id": "T09",
+      "literalDigital": "餘倣此",
+      "role": "analogy-not-full-table",
+      "implemented": false
+    },
+    {
+      "id": "T10",
+      "literalDigital": "又如己酉己卯見丁壬壬子壬午見乙庚雖納音見真五行克為官柰本干同受克故不作真官而作真鬼斷之",
+      "role": "two-pair-true-ghost-counterexamples",
+      "implemented": false
+    },
+    {
+      "id": "T11",
+      "literalDigital": "大小運流年逢之災尤重此亦㸔官星者所當知",
+      "role": "historical-prediction-kept-private",
+      "implemented": false
+    }
+  ],
+  "selectedNativeReadings": [
+    {
+      "page": 21,
+      "digital": "甲巳為真土",
+      "native": "甲己為真土",
+      "resolution": "Role-based native reading記己;digital bytes unchanged;no source correction or all-glyph collation claimed."
+    },
+    {
+      "page": 21,
+      "native": "己酉己卯見丁壬壬子壬午見乙庚",
+      "resolution": "Two source examples remain separately anchored; original stem also overcome is completed on22."
+    },
+    {
+      "page": 22,
+      "native": "同受克故不作真官而作真鬼斷之",
+      "resolution": "Source conclusion requires cross-page antecedent;no isolatedkeywordalias."
+    }
+  ],
+  "wholeChapterApplied": false
+}

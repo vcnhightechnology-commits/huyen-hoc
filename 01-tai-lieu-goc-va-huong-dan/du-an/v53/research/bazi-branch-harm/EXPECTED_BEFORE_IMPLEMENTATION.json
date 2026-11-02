@@ -1,0 +1,95 @@
+{
+  "purpose": "Manual expected cases frozen before reference implementation or runtime batch.",
+  "nominalPairs": [
+    "子未",
+    "丑午",
+    "寅巳",
+    "卯辰",
+    "申亥",
+    "酉戌"
+  ],
+  "directedException": {
+    "酉戌": "source-adverse-wording",
+    "戌酉": "source-no-disaster-wording"
+  },
+  "positiveExample": [
+    "乙酉",
+    "戊戌"
+  ],
+  "negativeReversedExample": [
+    "戊戌",
+    "乙酉"
+  ],
+  "causalRows": [
+    [
+      "子",
+      "午",
+      "未"
+    ],
+    [
+      "丑",
+      "未",
+      "午"
+    ],
+    [
+      "寅",
+      "申",
+      "巳"
+    ],
+    [
+      "卯",
+      "酉",
+      "辰"
+    ],
+    [
+      "申",
+      "寅",
+      "亥"
+    ],
+    [
+      "酉",
+      "卯",
+      "戌"
+    ]
+  ],
+  "declaredPremiseValues": [
+    true,
+    false,
+    null
+  ],
+  "actualLibraryExpected": {
+    "clashPartners": {
+      "子": "午",
+      "丑": "未",
+      "寅": "申",
+      "卯": "酉",
+      "辰": "戌",
+      "巳": "亥",
+      "午": "子",
+      "未": "丑",
+      "申": "寅",
+      "酉": "卯",
+      "戌": "辰",
+      "亥": "巳"
+    },
+    "newPillarLookups": [
+      {
+        "pillar": "乙酉",
+        "naYin": "泉中水",
+        "stemElement": "木"
+      },
+      {
+        "pillar": "戊戌",
+        "naYin": "平地木",
+        "stemElement": "土"
+      }
+    ]
+  },
+  "invariants": [
+    "No automatic year/day anchor",
+    "No predicted disaster/personality/health/sex/wealth",
+    "No cancellation from mechanical cause",
+    "True金/火 are not silently NaYin or ordinary stem elements",
+    "Unknown additional predicates stay null"
+  ]
+}

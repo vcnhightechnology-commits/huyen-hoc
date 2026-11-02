@@ -1,0 +1,544 @@
+{
+  "date": "2026-10-29",
+  "cases": [
+    {
+      "id": "continuous",
+      "function": "continuity",
+      "input": {
+        "system": "ITKC-GO1508A.總論.work-continuity.v1",
+        "timeBasis": "declared-source-month-term",
+        "operation": "repair-existing",
+        "afterPillarRaising": true,
+        "hasPaused": false,
+        "sourceBoundaryCrossed": true,
+        "currentDirectionHarmful": null,
+        "currentBenefic": null
+      },
+      "expected": {
+        "sourceLocalContinuation": true
+      }
+    },
+    {
+      "id": "before-pillar",
+      "function": "continuity",
+      "input": {
+        "system": "ITKC-GO1508A.總論.work-continuity.v1",
+        "timeBasis": "declared-source-month-term",
+        "operation": "repair-existing",
+        "afterPillarRaising": false,
+        "hasPaused": false,
+        "sourceBoundaryCrossed": true,
+        "currentDirectionHarmful": null,
+        "currentBenefic": null
+      },
+      "expected": {
+        "sourceLocalContinuation": null
+      }
+    },
+    {
+      "id": "paused-harm",
+      "function": "continuity",
+      "input": {
+        "system": "ITKC-GO1508A.總論.work-continuity.v1",
+        "timeBasis": "declared-source-month-term",
+        "operation": "repair-existing",
+        "afterPillarRaising": true,
+        "hasPaused": true,
+        "sourceBoundaryCrossed": true,
+        "currentDirectionHarmful": true,
+        "currentBenefic": true
+      },
+      "expected": {
+        "sourceLocalContinuation": false
+      }
+    },
+    {
+      "id": "paused-no-harm",
+      "function": "continuity",
+      "input": {
+        "system": "ITKC-GO1508A.總論.work-continuity.v1",
+        "timeBasis": "declared-source-month-term",
+        "operation": "repair-existing",
+        "afterPillarRaising": true,
+        "hasPaused": true,
+        "sourceBoundaryCrossed": true,
+        "currentDirectionHarmful": false,
+        "currentBenefic": null
+      },
+      "expected": {
+        "sourceLocalContinuation": true
+      }
+    },
+    {
+      "id": "benefic-alone",
+      "function": "continuity",
+      "input": {
+        "system": "ITKC-GO1508A.總論.work-continuity.v1",
+        "timeBasis": "declared-source-month-term",
+        "operation": "repair-existing",
+        "afterPillarRaising": true,
+        "hasPaused": true,
+        "sourceBoundaryCrossed": true,
+        "currentDirectionHarmful": null,
+        "currentBenefic": true
+      },
+      "expected": {
+        "sourceLocalContinuation": null
+      }
+    },
+    {
+      "id": "unknown-pause",
+      "function": "continuity",
+      "input": {
+        "system": "ITKC-GO1508A.總論.work-continuity.v1",
+        "timeBasis": "declared-source-month-term",
+        "operation": "repair-existing",
+        "afterPillarRaising": true,
+        "hasPaused": null,
+        "sourceBoundaryCrossed": true,
+        "currentDirectionHarmful": null,
+        "currentBenefic": null
+      },
+      "expected": {
+        "sourceLocalContinuation": null
+      }
+    },
+    {
+      "id": "not-crossed",
+      "function": "continuity",
+      "input": {
+        "system": "ITKC-GO1508A.總論.work-continuity.v1",
+        "timeBasis": "declared-source-month-term",
+        "operation": "repair-existing",
+        "afterPillarRaising": true,
+        "hasPaused": false,
+        "sourceBoundaryCrossed": false,
+        "currentDirectionHarmful": null,
+        "currentBenefic": null
+      },
+      "expected": {
+        "sourceLocalContinuation": null
+      }
+    },
+    {
+      "id": "solar-basis",
+      "function": "continuity",
+      "input": {
+        "system": "ITKC-GO1508A.總論.work-continuity.v1",
+        "timeBasis": "solar-term-month",
+        "operation": "repair-existing",
+        "afterPillarRaising": true,
+        "hasPaused": false,
+        "sourceBoundaryCrossed": true,
+        "currentDirectionHarmful": null,
+        "currentBenefic": null
+      },
+      "expected": {
+        "sourceLocalContinuation": null
+      }
+    },
+    {
+      "id": "lunar-basis",
+      "function": "continuity",
+      "input": {
+        "system": "ITKC-GO1508A.總論.work-continuity.v1",
+        "timeBasis": "numeric-lunar-month",
+        "operation": "repair-existing",
+        "afterPillarRaising": true,
+        "hasPaused": false,
+        "sourceBoundaryCrossed": true,
+        "currentDirectionHarmful": null,
+        "currentBenefic": null
+      },
+      "expected": {
+        "sourceLocalContinuation": null
+      }
+    },
+    {
+      "id": "new-build",
+      "function": "continuity",
+      "input": {
+        "system": "ITKC-GO1508A.總論.work-continuity.v1",
+        "timeBasis": "declared-source-month-term",
+        "operation": "new-build",
+        "afterPillarRaising": true,
+        "hasPaused": false,
+        "sourceBoundaryCrossed": true,
+        "currentDirectionHarmful": null,
+        "currentBenefic": null
+      },
+      "expected": {
+        "sourceLocalContinuation": null
+      }
+    },
+    {
+      "id": "all",
+      "function": "central",
+      "input": {
+        "system": "ITKC-GO1508A.總論.central-repair-premises.v1",
+        "centerOccupationHarmful": false,
+        "centerBenefic": true,
+        "hasPaused": false,
+        "sourceBoundaryCrossed": false
+      },
+      "expected": {
+        "sourceInitialConjunction": true,
+        "sourcePausedBoundaryWarning": false,
+        "overallRepairPermission": null
+      }
+    },
+    {
+      "id": "harm",
+      "function": "central",
+      "input": {
+        "system": "ITKC-GO1508A.總論.central-repair-premises.v1",
+        "centerOccupationHarmful": true,
+        "centerBenefic": true,
+        "hasPaused": false,
+        "sourceBoundaryCrossed": false
+      },
+      "expected": {
+        "sourceInitialConjunction": false,
+        "sourcePausedBoundaryWarning": false,
+        "overallRepairPermission": null
+      }
+    },
+    {
+      "id": "no-benefic",
+      "function": "central",
+      "input": {
+        "system": "ITKC-GO1508A.總論.central-repair-premises.v1",
+        "centerOccupationHarmful": false,
+        "centerBenefic": false,
+        "hasPaused": false,
+        "sourceBoundaryCrossed": false
+      },
+      "expected": {
+        "sourceInitialConjunction": false,
+        "sourcePausedBoundaryWarning": false,
+        "overallRepairPermission": null
+      }
+    },
+    {
+      "id": "unknown-harm",
+      "function": "central",
+      "input": {
+        "system": "ITKC-GO1508A.總論.central-repair-premises.v1",
+        "centerOccupationHarmful": null,
+        "centerBenefic": true,
+        "hasPaused": false,
+        "sourceBoundaryCrossed": false
+      },
+      "expected": {
+        "sourceInitialConjunction": null,
+        "sourcePausedBoundaryWarning": false,
+        "overallRepairPermission": null
+      }
+    },
+    {
+      "id": "restart",
+      "function": "central",
+      "input": {
+        "system": "ITKC-GO1508A.總論.central-repair-premises.v1",
+        "centerOccupationHarmful": false,
+        "centerBenefic": true,
+        "hasPaused": true,
+        "sourceBoundaryCrossed": true
+      },
+      "expected": {
+        "sourceInitialConjunction": true,
+        "sourcePausedBoundaryWarning": true,
+        "overallRepairPermission": null
+      }
+    },
+    {
+      "id": "possible-restart",
+      "function": "central",
+      "input": {
+        "system": "ITKC-GO1508A.總論.central-repair-premises.v1",
+        "centerOccupationHarmful": false,
+        "centerBenefic": true,
+        "hasPaused": null,
+        "sourceBoundaryCrossed": true
+      },
+      "expected": {
+        "sourceInitialConjunction": true,
+        "sourcePausedBoundaryWarning": null,
+        "overallRepairPermission": null
+      }
+    },
+    {
+      "id": "public-office",
+      "function": "anchor",
+      "input": {
+        "system": "ITKC-GO1508A.總論.functional-anchor.v1",
+        "caseID": "public-office",
+        "sourcePremisesConfirmed": true
+      },
+      "expected": {
+        "sourceAnchor": "正廳",
+        "symbolicAnchor": "main-hall",
+        "automaticPlanCoordinates": null
+      }
+    },
+    {
+      "id": "temple-with-icons",
+      "function": "anchor",
+      "input": {
+        "system": "ITKC-GO1508A.總論.functional-anchor.v1",
+        "caseID": "temple-with-icons",
+        "sourcePremisesConfirmed": true
+      },
+      "expected": {
+        "sourceAnchor": "壇座",
+        "symbolicAnchor": "icon-altar-seat",
+        "automaticPlanCoordinates": null
+      }
+    },
+    {
+      "id": "community-altar",
+      "function": "anchor",
+      "input": {
+        "system": "ITKC-GO1508A.總論.functional-anchor.v1",
+        "caseID": "community-altar",
+        "sourcePremisesConfirmed": true
+      },
+      "expected": {
+        "sourceAnchor": "神主",
+        "symbolicAnchor": "spirit-tablet",
+        "automaticPlanCoordinates": null
+      }
+    },
+    {
+      "id": "residential-named-hall",
+      "function": "anchor",
+      "input": {
+        "system": "ITKC-GO1508A.總論.functional-anchor.v1",
+        "caseID": "residential-named-hall",
+        "sourcePremisesConfirmed": true
+      },
+      "expected": {
+        "sourceAnchor": "茶亭，向中一間",
+        "symbolicAnchor": "named-residential-hall-middle-facing-bay",
+        "automaticPlanCoordinates": null
+      }
+    },
+    {
+      "id": "separate-painted-hall",
+      "function": "anchor",
+      "input": {
+        "system": "ITKC-GO1508A.總論.functional-anchor.v1",
+        "caseID": "separate-painted-hall",
+        "sourcePremisesConfirmed": true
+      },
+      "expected": {
+        "sourceAnchor": "向中一間",
+        "symbolicAnchor": "middle-facing-bay",
+        "automaticPlanCoordinates": null
+      }
+    },
+    {
+      "id": "single-block-side-altars-one-end-residents",
+      "function": "anchor",
+      "input": {
+        "system": "ITKC-GO1508A.總論.functional-anchor.v1",
+        "caseID": "single-block-side-altars-one-end-residents",
+        "sourcePremisesConfirmed": true
+      },
+      "expected": {
+        "sourceAnchor": "中間房舍",
+        "symbolicAnchor": "middle-room",
+        "automaticPlanCoordinates": null
+      }
+    },
+    {
+      "id": "side-block-residence-and-altars",
+      "function": "anchor",
+      "input": {
+        "system": "ITKC-GO1508A.總論.functional-anchor.v1",
+        "caseID": "side-block-residence-and-altars",
+        "sourcePremisesConfirmed": true
+      },
+      "expected": {
+        "sourceAnchor": "向中一間",
+        "symbolicAnchor": "middle-facing-bay",
+        "automaticPlanCoordinates": null
+      }
+    },
+    {
+      "id": "main-hall-no-minglou-front-corridor-rear-rooms",
+      "function": "anchor",
+      "input": {
+        "system": "ITKC-GO1508A.總論.functional-anchor.v1",
+        "caseID": "main-hall-no-minglou-front-corridor-rear-rooms",
+        "sourcePremisesConfirmed": true
+      },
+      "expected": {
+        "sourceAnchor": "正廳當中對棟柱置羅經",
+        "symbolicAnchor": "main-hall-middle-opposite-ridge-post",
+        "automaticPlanCoordinates": null
+      }
+    },
+    {
+      "id": "unconfirmed",
+      "function": "anchor",
+      "input": {
+        "system": "ITKC-GO1508A.總論.functional-anchor.v1",
+        "caseID": "public-office",
+        "sourcePremisesConfirmed": null
+      },
+      "expected": {
+        "sourceAnchor": null,
+        "symbolicAnchor": null
+      }
+    },
+    {
+      "id": "inside",
+      "function": "window",
+      "input": {
+        "system": "ITKC-GO1508A.總論.year-officer-repair-window.v1",
+        "timeBasis": "declared-source-relative-days",
+        "operation": "directional-repair",
+        "afterDahanFiveDays": true,
+        "pastLichunTwoDays": false,
+        "currentDirectionHarmful": null
+      },
+      "expected": {
+        "sourceWindowApplies": true,
+        "sourceLocalAvoidance": false
+      }
+    },
+    {
+      "id": "outside-harm",
+      "function": "window",
+      "input": {
+        "system": "ITKC-GO1508A.總論.year-officer-repair-window.v1",
+        "timeBasis": "declared-source-relative-days",
+        "operation": "directional-repair",
+        "afterDahanFiveDays": true,
+        "pastLichunTwoDays": true,
+        "currentDirectionHarmful": true
+      },
+      "expected": {
+        "sourceWindowApplies": false,
+        "sourceLocalAvoidance": true
+      }
+    },
+    {
+      "id": "outside-noharm",
+      "function": "window",
+      "input": {
+        "system": "ITKC-GO1508A.總論.year-officer-repair-window.v1",
+        "timeBasis": "declared-source-relative-days",
+        "operation": "directional-repair",
+        "afterDahanFiveDays": true,
+        "pastLichunTwoDays": true,
+        "currentDirectionHarmful": false
+      },
+      "expected": {
+        "sourceWindowApplies": false,
+        "sourceLocalAvoidance": false
+      }
+    },
+    {
+      "id": "outside-unknown",
+      "function": "window",
+      "input": {
+        "system": "ITKC-GO1508A.總論.year-officer-repair-window.v1",
+        "timeBasis": "declared-source-relative-days",
+        "operation": "directional-repair",
+        "afterDahanFiveDays": true,
+        "pastLichunTwoDays": true,
+        "currentDirectionHarmful": null
+      },
+      "expected": {
+        "sourceWindowApplies": false,
+        "sourceLocalAvoidance": null
+      }
+    },
+    {
+      "id": "too-early",
+      "function": "window",
+      "input": {
+        "system": "ITKC-GO1508A.總論.year-officer-repair-window.v1",
+        "timeBasis": "declared-source-relative-days",
+        "operation": "directional-repair",
+        "afterDahanFiveDays": false,
+        "pastLichunTwoDays": false,
+        "currentDirectionHarmful": null
+      },
+      "expected": {
+        "sourceWindowApplies": false,
+        "sourceLocalAvoidance": null
+      }
+    },
+    {
+      "id": "unknown-end",
+      "function": "window",
+      "input": {
+        "system": "ITKC-GO1508A.總論.year-officer-repair-window.v1",
+        "timeBasis": "declared-source-relative-days",
+        "operation": "directional-repair",
+        "afterDahanFiveDays": true,
+        "pastLichunTwoDays": null,
+        "currentDirectionHarmful": null
+      },
+      "expected": {
+        "sourceWindowApplies": null,
+        "sourceLocalAvoidance": null
+      }
+    },
+    {
+      "id": "assumed-120h",
+      "function": "window",
+      "input": {
+        "system": "ITKC-GO1508A.總論.year-officer-repair-window.v1",
+        "timeBasis": "elapsed-hours",
+        "operation": "directional-repair",
+        "afterDahanFiveDays": true,
+        "pastLichunTwoDays": false,
+        "currentDirectionHarmful": null
+      },
+      "expected": {
+        "sourceWindowApplies": null,
+        "sourceLocalAvoidance": null
+      }
+    },
+    {
+      "id": "new-build",
+      "function": "window",
+      "input": {
+        "system": "ITKC-GO1508A.總論.year-officer-repair-window.v1",
+        "timeBasis": "declared-source-relative-days",
+        "operation": "new-build",
+        "afterDahanFiveDays": true,
+        "pastLichunTwoDays": false,
+        "currentDirectionHarmful": null
+      },
+      "expected": {
+        "sourceWindowApplies": null,
+        "sourceLocalAvoidance": null
+      }
+    },
+    {
+      "id": "inconsistent",
+      "function": "window",
+      "input": {
+        "system": "ITKC-GO1508A.總論.year-officer-repair-window.v1",
+        "timeBasis": "declared-source-relative-days",
+        "operation": "directional-repair",
+        "afterDahanFiveDays": false,
+        "pastLichunTwoDays": true,
+        "currentDirectionHarmful": null
+      },
+      "expected": {
+        "sourceWindowApplies": null,
+        "sourceLocalAvoidance": null
+      }
+    }
+  ],
+  "preparedBeforeModule": false,
+  "calendarEngineOracle": false,
+  "unchangedPreImplementationCases": 33,
+  "revisedAfterInitialTestCases": 1
+}

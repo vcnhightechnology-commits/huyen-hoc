@@ -1,0 +1,66 @@
+{
+  "records": [
+    {
+      "file": "canvas080-left-top-native.png",
+      "sourceFile": "canvas-080-3000.jpg",
+      "cropBox": [
+        260,
+        580,
+        1450,
+        1110
+      ],
+      "sha256": "116b78f7efb4c2bdbd51b7e048c3fe0e2f6234c94ca8867b504bd003665a6aef",
+      "resampled": false,
+      "actuallyViewed": true,
+      "pixelMatch": true,
+      "RGBPixelMatch": true
+    },
+    {
+      "file": "canvas080-left-date-native.png",
+      "sourceFile": "canvas-080-3000.jpg",
+      "cropBox": [
+        1310,
+        1010,
+        1420,
+        1670
+      ],
+      "sha256": "5611c5ec2a4a6c4c18a904f875fee4e1e3a6ab166f9f2f0d9cbf30165d50d369",
+      "resampled": false,
+      "actuallyViewed": true,
+      "pixelMatch": true,
+      "wrongTargetForBirth": true,
+      "excludedFromBirthDateEvidence": true,
+      "RGBPixelMatch": true
+    },
+    {
+      "file": "canvas080-right-date-native.png",
+      "sourceFile": "canvas-080-3000.jpg",
+      "cropBox": [
+        2240,
+        650,
+        2370,
+        1240
+      ],
+      "sha256": "d695efbc388275fb5f7e1dbd132af99134ecd36015825f7f37fe1afe42f2ca9e",
+      "resampled": false,
+      "actuallyViewed": true,
+      "pixelMatch": true,
+      "RGBPixelMatch": true
+    },
+    {
+      "file": "canvas080-left-birth-native.png",
+      "sourceFile": "canvas-080-3000.jpg",
+      "cropBox": [
+        1070,
+        580,
+        1200,
+        1280
+      ],
+      "sha256": "e71824dd05131c71f845dc9ca75753364d0c2580f94fe2c2d3eaf7568aab4d12",
+      "resampled": false,
+      "actuallyViewed": true,
+      "pixelMatch": true,
+      "RGBPixelMatch": true
+    }
+  ]
+}

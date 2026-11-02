@@ -1,0 +1,23 @@
+{
+  "sourceID": "TMTH003-FujuYin-selected",
+  "literal": "又有福聚印如年月日時胎五位俱無氣衰敗得正印偏印俱在此印上或庫或旺雖有煞神至是受制此之謂福聚印",
+  "fiveSourcePositions": [
+    "year",
+    "month",
+    "day",
+    "hour",
+    "fetal"
+  ],
+  "allFiveRequired": true,
+  "weakPremiseLiteral": "五位俱無氣衰敗",
+  "sameSealLiteral": "得正印偏印俱在此印上",
+  "storageStrongLiteral": "或庫或旺",
+  "restraintLiteral": "雖有煞神至是受制",
+  "selectedLogic": "All five declared無氣衰敗 AND declared正印atthisseal AND declared偏印atthisseal AND (declared庫 OR declared旺). If煞神到is declared, require its declaredeffective制atthisseal.",
+  "logicStatus": "Explicit conservative source-premise composition; subject/frame definitions and actual efficacy remain open.",
+  "noShaBranchMeansNoRestraintRequiredByThisClause": true,
+  "neitherSealEqualsOrdinaryTenGodAutomatically": true,
+  "missingFetalCannotBeAssumedWeak": true,
+  "sourceOutcomeValidated": false,
+  "wholeContextApplied": false
+}

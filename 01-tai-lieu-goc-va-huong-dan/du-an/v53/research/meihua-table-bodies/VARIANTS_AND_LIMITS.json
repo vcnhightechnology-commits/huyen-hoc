@@ -1,0 +1,113 @@
+{
+  "date": "2026-10-27",
+  "unresolvedGlyphs": [
+    {
+      "id": "震-飲食",
+      "pdfPage": 39,
+      "retained": "□酸味",
+      "candidates": [
+        "菓",
+        "葉"
+      ],
+      "decision": "Do not insert digital果 or select a candidate from context alone."
+    },
+    {
+      "id": "離-天時",
+      "pdfPage": 46,
+      "retained": "日電虹□霞",
+      "candidates": [
+        "寬",
+        "霓"
+      ],
+      "decision": "Printed form resembles寬;digital霓 is not automatically accepted as the scan reading."
+    }
+  ],
+  "materialComparisons": [
+    {
+      "id": "乾-天時",
+      "physical": "電",
+      "digital": "雹",
+      "risk": "Different weather symbol;not interchangeable."
+    },
+    {
+      "id": "乾-時序",
+      "physical": "五金年月日時",
+      "digital": "一四九年月日時",
+      "risk": "Preserve the printed unusual wording;do not silently emend or parse as a dated calendar rule."
+    },
+    {
+      "id": "乾-地理",
+      "physical": "高九之所",
+      "digital": "高亢之所",
+      "risk": "Native crop retains visible九;semantic emendation would require separate evidence."
+    },
+    {
+      "id": "震-五色",
+      "physical": "黑青綠碧",
+      "digital": "青綠碧",
+      "risk": "Additional黑;do not overwrite all element palettes from one table."
+    },
+    {
+      "id": "巽-地理",
+      "physical": "花果茶圃",
+      "digital": "花果菜園",
+      "risk": "Different object/place wording."
+    },
+    {
+      "id": "巽-時序",
+      "physical": "三五八之時日月三月辰巳年月日時四月",
+      "digital": "三五八之時月日辰巳月日時",
+      "risk": "Extra month labels/year term and order;not a universal conversion algorithm."
+    },
+    {
+      "id": "坎-人物",
+      "physical": "盜賊",
+      "digital": "資賊",
+      "risk": "Different word;no person classification from a cast."
+    },
+    {
+      "id": "坎-屋舍",
+      "physical": "茶酒肆宅中濕地之處",
+      "digital": "花酒長器宅中混地之處",
+      "risk": "Different building words;keep source data outside home advice."
+    },
+    {
+      "id": "坎-婚姻",
+      "physical": "不利成婚不可婚辰戌丑未月",
+      "digital": "辰戌丑未月婚不可",
+      "risk": "Printed general clause missing in digital;historical claim only."
+    },
+    {
+      "id": "離-動物",
+      "physical": "雉龜鱉螺蚌",
+      "digital": "雉龜鱉蟹螺蚌",
+      "risk": "Digital蟹 not found in this printed row;do not fill it by analogy."
+    },
+    {
+      "id": "離-時序",
+      "physical": "二三七日",
+      "digital": "三二七日",
+      "risk": "Same-number membership does not prove equal wording/order;printed數目 elsewhere remains三二七."
+    },
+    {
+      "id": "兌-時序",
+      "physical": "金年月日二四九數月日",
+      "digital": "二四九月日",
+      "risk": "Extra金 and數;not a validated birth-year/calendar premise."
+    },
+    {
+      "id": "兌-數目",
+      "physical": "二四九",
+      "digital": "四二九",
+      "risk": "Printed姓字 retains四二九;different local order,not permission to change trigram2."
+    },
+    {
+      "id": "兌-官訟",
+      "physical": "因公有損",
+      "digital": "因訟有損",
+      "risk": "Different premise;keep as a historical assertion,not legal advice."
+    }
+  ],
+  "interpretation": "Character-sequence differences include orthographic variants,word order,omissions and substantive wording. The automated diff count is not a count of proven digital transcription errors or independent traditions.",
+  "qaLimit": "pypdf native-image decode lacks jbig2dec;metadata read succeeded and bundled Poppler rendered7targeted pages at300dpi. No new decoder/network/OCR. Crop coordinate error corrected before viewing12final crops."
+}

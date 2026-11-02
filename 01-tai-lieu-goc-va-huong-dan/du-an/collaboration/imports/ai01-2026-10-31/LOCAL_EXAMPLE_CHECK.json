@@ -1,0 +1,56 @@
+{
+  "validation": "LOCAL_TEXTUAL_SANITY_ONLY",
+  "passed": true,
+  "caseA": {
+    "pillars": [
+      "癸巳",
+      "乙卯",
+      "丙辰",
+      "壬辰"
+    ],
+    "nayinCounts": {
+      "土": 1,
+      "水": 3
+    },
+    "monthMatchesYearMethod": true,
+    "hourMatchesDayMethod": true
+  },
+  "caseA_OCR_alternative": {
+    "pillars": [
+      "癸巳",
+      "己卯",
+      "丙辰",
+      "壬辰"
+    ],
+    "nayinCounts": {
+      "土": 2,
+      "水": 2
+    },
+    "monthMatchesYearMethod": false
+  },
+  "caseB": {
+    "pillars": [
+      "癸巳",
+      "丙辰",
+      "戊戌",
+      "丙辰"
+    ],
+    "nayinCounts": {
+      "土": 2,
+      "木": 1,
+      "水": 1
+    },
+    "monthMatchesYearMethod": true,
+    "hourMatchesDayMethod": true
+  },
+  "otherReading": {
+    "day": "甲戌",
+    "timeWXJJtext": "乙酉",
+    "timeTMTHtext": "癸酉",
+    "expectedByDefaultDayHourRule": "癸酉"
+  },
+  "ancientImageViewed": false,
+  "GitHubRepoChanged": false,
+  "engineOrNatalPredictions": 0,
+  "universalGuanOrGuiSealRulesEstablished": 0
+}

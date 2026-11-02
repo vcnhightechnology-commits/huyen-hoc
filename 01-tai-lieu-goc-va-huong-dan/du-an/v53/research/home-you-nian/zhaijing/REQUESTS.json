@@ -1,0 +1,66 @@
+{
+  "records": [
+    {
+      "url": "https://commons.wikimedia.org/w/api.php?action=query&format=json&prop=revisions%7Cimageinfo&rvprop=ids&iiprop=url%7Csize%7Csha1%7Cextmetadata&titles=File%3ACADAL06054151%20%E5%AE%85%E7%B6%93%C2%B7%E5%8D%B7%E4%B8%8A~%E5%8D%B7%E4%B8%8B.djvu",
+      "file": "commons-imageinfo.json.403.txt",
+      "retrievedUTC": "2026-10-27T12:29:49.604Z",
+      "status": 403,
+      "headers": {
+        "contentType": "text/plain",
+        "contentLength": "126",
+        "lastModified": null
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null,
+        "protocol": "TLSv1.3"
+      },
+      "bytes": 126,
+      "sha256": "165da4d5af47d0a2008597750d184a3cef870aff9d0a5005b71d6bd17a75672e",
+      "sha1": "7080820a9e91cc7632ef9030bd4d3e9bb43c3819",
+      "originalRequestedStorageName": "commons-imageinfo.json",
+      "usableAsSource": false
+    },
+    {
+      "url": "https://upload.wikimedia.org/wikipedia/commons/5/57/CADAL06054151_%E5%AE%85%E7%B6%93%C2%B7%E5%8D%B7%E4%B8%8A~%E5%8D%B7%E4%B8%8B.djvu",
+      "file": "CADAL06054151.djvu.403.txt",
+      "retrievedUTC": "2026-10-27T12:31:03.434Z",
+      "status": 403,
+      "headers": {
+        "contentType": "text/plain",
+        "contentLength": "126",
+        "lastModified": null
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null,
+        "protocol": "TLSv1.3"
+      },
+      "bytes": 126,
+      "sha256": "165da4d5af47d0a2008597750d184a3cef870aff9d0a5005b71d6bd17a75672e",
+      "sha1": "7080820a9e91cc7632ef9030bd4d3e9bb43c3819",
+      "originalRequestedStorageName": "CADAL06054151.djvu",
+      "usableAsSource": false
+    },
+    {
+      "url": "https://archive.wul.waseda.ac.jp/kosho/i04/i04_00600/i04_00600_0162/i04_00600_0162.pdf",
+      "file": "waseda-i04_00600_0162.pdf.503.txt",
+      "retrievedUTC": "2026-10-27T12:45:54.630Z",
+      "status": 503,
+      "headers": {
+        "contentType": "text/html",
+        "contentLength": "1379",
+        "lastModified": null
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null,
+        "protocol": "TLSv1.3"
+      },
+      "bytes": 1379,
+      "sha256": "369225fccce0e7daa91a122ad090086916e35508405218a1e1e0335bd7491c86",
+      "usableAsSource": false,
+      "transport": "Default HTTPS certificatevalidation;identityencoding;unmodified responsebody;no customUA/auth/cookies"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-29",
+  "stage": "source labels, textual windows, retained chart projection and expected results frozen before implementation",
+  "files": [
+    {
+      "file": "tmp/tuvi-dipper-windows-staging/SOURCE_IDENTITIES.json",
+      "bytes": 2428,
+      "sha256": "54c9771c782f2c1dd6a69f534cb981c0d15a31844c703b9036b177f31193cbf0"
+    },
+    {
+      "file": "tmp/tuvi-dipper-windows-staging/SOURCE_CLASSIFICATIONS.json",
+      "bytes": 4543,
+      "sha256": "87e4802290a549ee7477a73118c3a7c91f95f5bd5e06b355f0dea931783b7b45"
+    },
+    {
+      "file": "tmp/tuvi-dipper-windows-staging/SOURCE_WINDOWS.json",
+      "bytes": 1000,
+      "sha256": "308d7af369233815913c33eb7837cc6ce09a562f36d810c06281b9226918aa24"
+    },
+    {
+      "file": "tmp/tuvi-dipper-windows-staging/RETAINED_CHART_PROJECTIONS.json",
+      "bytes": 8713,
+      "sha256": "e3a0ac72215c83a5775073450b1801b30be2121c3d5f94bbeb7ab8dd3b5de9b0"
+    },
+    {
+      "file": "tmp/tuvi-dipper-windows-staging/EXPECTED_BEFORE_IMPLEMENTATION.json",
+      "bytes": 2572,
+      "sha256": "e46842ff38d585b49302f69b9c1d48422647009c6bb2fbc6dc3c4c821c129d06"
+    },
+    {
+      "file": "tmp/tuvi-dipper-windows-staging/REUSE_IDENTITIES.json",
+      "bytes": 1800,
+      "sha256": "6b4c4c8a4cd526038fd3a40acbfabaee70a9cd596038deb9e47189ad1ba8d3fe"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+import{readFile,writeFile}from'node:fs/promises';import{resolve}from'node:path';import{createHash}from'node:crypto';import vm from'node:vm';import assert from'node:assert/strict';
+const r=resolve(import.meta.dirname,'..'),w=resolve(r,'..'),b=resolve(r,'research/bazi-yangren-conditions'),q=resolve(r,'qa/bazi-yangren-conditions');
+const read=async p=>JSON.parse(await readFile(p,'utf8')),sha=x=>createHash('sha256').update(x).digest('hex'),s=await read(resolve(b,'SOURCE_MANIFEST.json')),renders=await read(resolve(b,'LOCAL_RENDERS.json'));
+const raw=await readFile(resolve(w,s.sourceContainer)),code=await readFile(resolve(w,s.decoder));assert.equal(sha(raw),s.sourceSHA256);assert.equal(sha(code),s.decoderSHA256);
+globalThis.self=globalThis;globalThis.document={};globalThis.ImageData=class{constructor(a,b,c){if(typeof a==='number'){this.width=a;this.height=b;this.data=new Uint8ClampedArray(a*b*4)}else{this.data=a;this.width=b;this.height=c}}};
+vm.runInThisContext(code.toString());const doc=new DjVu.Document(raw.buffer.slice(raw.byteOffset,raw.byteOffset+raw.length));assert.equal(doc.getPagesQuantity(),226);const records=[];
+for(const page of[205,208]){const expected=renders.records.find(x=>x.page===page),im=(await doc.getPage(page)).getImageData();assert.deepEqual([im.width,im.height],[expected.width,expected.height]);assert.equal(sha(Buffer.from(im.data)),expected.pixelRGBA_SHA256);records.push({page,pixelRGBA_SHA256:expected.pixelRGBA_SHA256,actualNativeDecodePixelMatch:true});}
+await writeFile(resolve(q,'DECODE_RESULTS.json'),JSON.stringify({date:'2026-10-28',sourceSHA256:s.sourceSHA256,decoderSHA256:s.decoderSHA256,actualContainerPages:226,records,newPNGFiles:0,newHTTPRequests:0,browserUsed:false},null,2)+'\n');
+console.log('Two native source pixel buffers reproduced with retained unmodified decoder;no browser or newPNG/HTTP.');

@@ -1,0 +1,13 @@
+{
+  "date": "2026-10-28",
+  "attempts": [
+    {
+      "phase": "release --prepare",
+      "result": "assertion failed before package",
+      "reason": "Global numeric replacement of prior manifest count4696 also replaced substring4696 in pinned HTML hash; corrected verifier constant to original hash.",
+      "consumerBytesChanged": false,
+      "runtimeReexecuted": false
+    }
+  ],
+  "correctedExpectedHTMLSHA256": "549cb415c1a7785e92be25b407d965ea0abd4d3affc54696b784f84d87601857"
+}

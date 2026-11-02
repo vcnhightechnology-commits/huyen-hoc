@@ -1,0 +1,176 @@
+{
+  "date": "2026-10-27",
+  "checks": [
+    {
+      "name": "Original PDF,historical row-key index and six table/two bounded-context images retain source hashes",
+      "ok": true
+    },
+    {
+      "name": "Every one of the720positions is assigned to the correct60-row sequence and12normalized branch columns",
+      "ok": true
+    },
+    {
+      "name": "Every compiled annotation reading matches the separately hashed manual transcription file",
+      "ok": true
+    },
+    {
+      "name": "707read annotations,12visibly unannotated positions and1open-glyph position stay distinct,including13multi-glyph positions",
+      "ok": true
+    },
+    {
+      "name": "Nine fully read rows violate the single-罡 assumption;the partly unread丁未row retains an open count",
+      "ok": true,
+      "detail": {
+        "nonOne": [
+          {
+            "rowKey": "戊辰",
+            "fullyRead": true,
+            "columns": []
+          },
+          {
+            "rowKey": "己巳",
+            "fullyRead": true,
+            "columns": [
+              "辰",
+              "巳"
+            ]
+          },
+          {
+            "rowKey": "癸酉",
+            "fullyRead": true,
+            "columns": []
+          },
+          {
+            "rowKey": "丙子",
+            "fullyRead": true,
+            "columns": []
+          },
+          {
+            "rowKey": "丁酉",
+            "fullyRead": true,
+            "columns": [
+              "辰",
+              "申",
+              "酉"
+            ]
+          },
+          {
+            "rowKey": "庚子",
+            "fullyRead": true,
+            "columns": [
+              "子",
+              "巳"
+            ]
+          },
+          {
+            "rowKey": "乙巳",
+            "fullyRead": true,
+            "columns": []
+          },
+          {
+            "rowKey": "庚戌",
+            "fullyRead": true,
+            "columns": []
+          },
+          {
+            "rowKey": "癸亥",
+            "fullyRead": true,
+            "columns": []
+          }
+        ],
+        "centerCountOpen": [
+          {
+            "rowKey": "丁未",
+            "fullyRead": false,
+            "columns": [
+              "未"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "First/last printed rows retain the observed罡/禍/失/死/吉glyphs without silently substituting祿",
+      "ok": true
+    },
+    {
+      "name": "Six native300dpi renders and20reviewed crops/nearest zooms retain exact hashes",
+      "ok": true
+    },
+    {
+      "name": "Actually executed lunar-typescript1.8.6files match the retained runtime audit",
+      "ok": true,
+      "detail": {
+        "runtimeFiles": 2
+      }
+    },
+    {
+      "name": "720actual HHC Bazi calls and720real reference charts agree on the explicitly selected UTC+8midnight day/hour coordinates and visit every source cell",
+      "ok": true,
+      "detail": {
+        "actualHHCCharts": 720,
+        "actualReferenceCharts": 720,
+        "sourcePositionsVisited": 720,
+        "scope": "Coordinate consistency only;does not establish a historical Gregorian adapter or forecast accuracy."
+      }
+    },
+    {
+      "name": "Copying a branch-only template cannot reproduce the later48printed rows;counterexamples are retained",
+      "ok": true,
+      "detail": {
+        "branchOnlySame": 188,
+        "branchOnlyDifferent": 388,
+        "comparedPositions": 576
+      }
+    },
+    {
+      "name": "Four firm introductory anchors agree with甲子;transferring them to all five子rows is a stated hypothesis with15/20matches,not a universal rule",
+      "ok": true,
+      "detail": {
+        "matched": 15,
+        "total": 20
+      }
+    },
+    {
+      "name": "Lookup returns isolated records and accepts only explicit printed row keys and normalized branch columns",
+      "ok": true
+    },
+    {
+      "name": "All720positions retain absent forecast glosses and no consumer promotion;source input semantics remain open",
+      "ok": true
+    },
+    {
+      "name": "Consumer HTML and all root JS/CSS retain released bytes;source annotations stay outside site",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "positions": 720,
+    "readAnnotations": 707,
+    "visiblyUnannotated": 12,
+    "glyphOpen": 1,
+    "multiGlyphPositions": 13,
+    "readGlyphs": 721,
+    "confirmedNonSingleCenterRows": 9,
+    "rowsWithOpenCenterCount": 1,
+    "actualHHCCharts": 720,
+    "actualReferenceCharts": 720,
+    "sourcePositionsVisited": 720,
+    "branchOnlyComparisonPositions": 576,
+    "branchOnlySame": 188,
+    "branchOnlyDifferent": 388,
+    "introAnchorHypothesisMatches": 15,
+    "introAnchorHypothesisTotal": 20,
+    "expandedTablePages": 6,
+    "boundedContextPages": 2,
+    "newSourceHTTP": 0,
+    "newContentPages": 0,
+    "nativeQARenders": 6,
+    "qaCropsAndZooms": 20,
+    "consumerChanged": false,
+    "completeSourceInputSemantics": false,
+    "predictiveAccuracyEstablished": false,
+    "wholeBookApplied": false
+  },
+  "htmlSHA256": "549cb415c1a7785e92be25b407d965ea0abd4d3affc54696b784f84d87601857"
+}

@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-28",
+  "institution": "NationalArchivesofJapan",
+  "catalogue": "https://www.digital.archives.go.jp/file/1078787",
+  "item": "https://www.digital.archives.go.jp/item/4468520",
+  "retainedManifest": "v53/research/fortune-followup/official-manifest.json",
+  "retainedManifestSHA256": "732991ca47aefc323ea2095a93202fd301421ad8b92994c63caae2a94acf75af",
+  "retainedImage": "v53/research/fortune-followup/official-080.jpg",
+  "retainedImageSHA256": "ef453337cd2255b4539053c78c89556ca47536ec9bd3cf476730532e63b32e37",
+  "sourceDimensions": [
+    2200,
+    1659
+  ],
+  "sourceKind": "Retained2200pxserverJPEGderivative,not originalJP2 or independentnewwitness",
+  "crop": {
+    "date": "2026-10-28",
+    "source": "v53/research/fortune-followup/official-080.jpg",
+    "sourceSHA256": "ef453337cd2255b4539053c78c89556ca47536ec9bd3cf476730532e63b32e37",
+    "sourceSize": [
+      2200,
+      1659
+    ],
+    "box": [
+      1190,
+      320,
+      1930,
+      1450
+    ],
+    "file": "void80-native.png",
+    "sha256": "e8133927a746b1e7d539a6f741d8f8d52b9b8037e1e4e190f344d2c2e4370293",
+    "method": "Exact nativepixelcrop,no resampling/OCR/retouching",
+    "actuallyViewed": true,
+    "pixelMatch": true
+  },
+  "newHTTPRequests": 0,
+  "newOriginalContainers": 0,
+  "newSourcePositions": 0,
+  "expandedPriorReadPositions": 1,
+  "exactNativeCrops": 1,
+  "wholeCanvasApplied": false
+}

@@ -1,0 +1,44 @@
+{
+  "date": "2026-10-27",
+  "retainedOriginalContainer": "v53/research/full-study/home/CADAL06056503.djvu",
+  "sourceBytes": 3433014,
+  "sourceSHA256": "bfd3b76c55d62324919ab161c8c2ba2ecb129b3b2c59a3ab0428807e8f8278db",
+  "sourcePages": 110,
+  "newOriginalContainers": 0,
+  "newSuccessfulHTTPBodies": 0,
+  "retainedFailedHTTPBodies": 3,
+  "newHTTPRequestsThisTurn": 1,
+  "failedStatuses": [
+    403,
+    403,
+    503
+  ],
+  "TLSAuthorizedAllFailedRequests": true,
+  "failedBodiesNotSourceBooks": true,
+  "newNativePageDerivatives": 103,
+  "newlyReadSourceImagePages": 103,
+  "decoderCalibrationNewSourcePage": false,
+  "decoderMethod": "Unmodified DjVu0.5.4 Document/getImageData underNode;minimalImageDataholder;nativeRGBA PNG;no browser/network/OCR. BrowserlaunchEPERM avoidedwithoutescalation.",
+  "decoderNativePixelCalibration": true,
+  "P03DigitalArtifactsRead": 6,
+  "P03NewPairedContexts": 10,
+  "P03FacsimileResolved": false,
+  "XiejiFirstPassSmallBigSpansRead": true,
+  "allClausesApplied": false,
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false,
+  "draftFixtureCorrection": {
+    "page": 102,
+    "rejectedDraftPairs": [
+      "離艮",
+      "震坤"
+    ],
+    "directlyRecheckedPrintedPairs": [
+      "離坤",
+      "震艮"
+    ],
+    "cause": "Research draft reading error, detected by duplicate/mask checks before release. Image and consumer unchanged."
+  },
+  "all110ImagesFirstPassRecord": true,
+  "firstPassIsNotExhaustiveExtraction": true
+}

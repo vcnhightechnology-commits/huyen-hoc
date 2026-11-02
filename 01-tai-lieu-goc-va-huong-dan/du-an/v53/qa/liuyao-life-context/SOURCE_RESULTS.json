@@ -1,0 +1,40 @@
+{
+  "date": "2026-10-27",
+  "sourcePDFSHA256": "caac111bc5c5b1c08fd27b3828e7cf6b5430503800f2427d8f2b28809022abaa",
+  "sourceImageHashesVerified": 20,
+  "stagedPositionsPromoted": 20,
+  "firstReadPositionsNewToRelease": 19,
+  "alreadyIntegratedPositionExpanded": 1,
+  "sourceReadingCountsBasis": "Firstpasspositions inheritedfromtmp staging;thisheartbeat reread targeted213/214/215/229. Not19newdownloadsornewreadingsclaimedforthisheartbeat.",
+  "inheritedNewlyRenderedPositions": 12,
+  "inheritedRetainedRendersRead": 7,
+  "newHighResolutionQARenders": 1,
+  "highResolutionQAViewed": true,
+  "highResolutionQASHA256": "746d7b8f2560b14354186e58850cf8eff8b03f2a8267e5f471ec612f3cdb34d3",
+  "pixelReproductions": [
+    {
+      "file": "redecode-144-215.png",
+      "sourcePage": 215,
+      "dpi": 144,
+      "sha256": "18982d4fa0ed9a681733db89f4b0604ca4a6247ebe394c26247ceb05fc5becf0",
+      "pixelMatch": true,
+      "notNewSourcePosition": true
+    },
+    {
+      "file": "redecode-360-215.png",
+      "sourcePage": 215,
+      "dpi": 360,
+      "sha256": "746d7b8f2560b14354186e58850cf8eff8b03f2a8267e5f471ec612f3cdb34d3",
+      "pixelMatch": true,
+      "notNewSourcePosition": true
+    }
+  ],
+  "completeFirstPassSpans": 3,
+  "chapter39OpeningOnly": true,
+  "newHTTPRequests": 0,
+  "newOriginalContainers": 0,
+  "allSourceImageCharactersCollated": false,
+  "sourceOutcomesValidated": false,
+  "wholeChaptersApplied": false,
+  "wholeCatalogueCompleted": false
+}

@@ -1,0 +1,62 @@
+{
+  "date": "2026-10-28",
+  "records": [
+    {
+      "kind": "repository-facsimile",
+      "file": "Gujin-Tushu-Jicheng-Volume476.djvu",
+      "bytes": 33681249,
+      "sha256": "e819d6f430065e4f63c121390d74ad6d3bc36457cfb8e59fb7a2cea6483130de",
+      "apiSHA1Matched": true,
+      "TLSValidated": true,
+      "institutionOriginalDownloaded": false,
+      "credit": "Commons metadata: scan downloaded from pan.baidu.com",
+      "imprintIndependentlyValidated": false,
+      "dateInFilenameIsNotValidatedScanPrintDate": true
+    },
+    {
+      "kind": "community-transcription",
+      "response": "gjts676-page-revisions-response.json",
+      "pageNamespacesStored": 11,
+      "wholePagesFullyRead": 0,
+      "selectedProseReadPages": [
+        86,
+        87,
+        88,
+        89
+      ],
+      "facsimileNotReplacedByTranscription": true
+    },
+    {
+      "kind": "recreated-diagram-assets",
+      "response": "gjts-commons-metadata-response.json",
+      "imageMetadataRecords": 24,
+      "imageBodiesDownloaded": 0,
+      "notOriginalGlyphWitness": true
+    },
+    {
+      "kind": "retained-original-HTTP-bytes",
+      "records": 5,
+      "source": "REQUESTS.json",
+      "allHTTP200TLS": true,
+      "initialDefaultNetworkFailure": "FETCH_ERROR.json retained; no body acquired; authorized normal TLS acquisition later succeeded."
+    },
+    {
+      "kind": "local-native-DjVu-decoding",
+      "records": 4,
+      "source": "GJTS_LOCAL_RENDERS.json",
+      "notRawHTTPImages": true,
+      "noOCR": true,
+      "noBrowserBypass": true
+    },
+    {
+      "kind": "editorial-reference",
+      "files": [
+        "courtyard-reference.mjs",
+        "courtyard-context-reference.mjs"
+      ],
+      "consumerApplied": false,
+      "allConditionsApplied": false,
+      "healthOrFinancialOutcomeValidation": false
+    }
+  ]
+}

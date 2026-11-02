@@ -1,0 +1,13 @@
+import{readFile,writeFile}from'node:fs/promises';import{resolve}from'node:path';import vm from'node:vm';
+const root=resolve(import.meta.dirname,'..'),file=resolve(root,'yi-complete-data.js'),raw=await readFile(file,'utf8'),c={window:{}};vm.createContext(c);vm.runInContext(raw,c);const data=c.window.HHC_YI_COMPLETE_READINGS;
+const changes=[
+ [23,6,'Quả lớn chưa ăn gợi phần giá trị còn lại có thể nuôi tương lai; phá chỗ trú sẽ tự làm mất nền.','Quả lớn còn lại và chiếc xe nâng đỡ gợi việc giữ nguồn lực cùng người đồng hành; tự phá mái che sẽ làm mất nơi nương.','Giữ một nguồn lực cốt lõi và tìm sự hỗ trợ trước khi dùng hết phần dự phòng.'],
+ [26,3,'Ngựa tốt đua và luyện xe bảo vệ gợi năng lực phát huy nhờ huấn luyện, không chỉ nhờ khí thế.','Ngựa tốt cùng việc luyện xe, phòng vệ gợi năng lực cần rèn tập; khi tiến vẫn phải bền chí và thận trọng.','Thử một tình huống khó, kiểm phương án dự phòng rồi mới tiến.'],
+ [41,1,'Tạm việc riêng đi giúp rồi cân phần bớt gợi tương trợ cần kịp thời mà không tự làm cạn sức.','Ngừng việc riêng để kịp giúp người, rồi cân nhắc mức đóng góp, gợi sự tương trợ đúng lúc và vừa khả năng.','Xác nhận điều người kia cần; chọn phần mình giúp được mà vẫn giữ các trách nhiệm thiết yếu.'],
+ [52,3,'Giữ thắt lưng đến rách cơ lưng gợi sự kìm nén cực đoan có thể làm nội tâm khổ sở.','Hình ảnh giữ chặt chỗ chuyển động đến mức trên dưới chia lìa gợi sự cố dừng đã thành bế tắc. Cần tìm cách tự chế có thể duy trì, tránh ép mình đến căng cứng.','Giảm một quy tắc tự ép không còn hữu ích; dành khoảng nghỉ rồi điều chỉnh cách làm.']
+];
+let oldReport=await readFile(resolve(root,'research/yi-second-witness/CONSUMER_CHANGES.json'),'utf8').then(JSON.parse).catch(()=>null);const report=[];
+for(const[n,p,expected,text,tip]of changes){const line=data[n][p-1];if(line.text===text&&line.tip===tip){if(!oldReport)throw Error('Missing pre-change record');report.push(oldReport.changes.find(x=>x.hexagram===n&&x.position===p));continue}if(line.text!==expected)throw Error('Unexpected prior reading '+n+'.'+p);report.push({hexagram:n,position:p,before:{...line},after:{...line,text,tip},evidence:'MANUAL_READINGS.json',policy:'Vietnamese reflective editorial adaptation of imagery and selected commentary; not a verbatim translation, event prediction or medical claim.'});Object.assign(line,{text,tip});}
+await writeFile(resolve(root,'research/yi-second-witness/CONSUMER_CHANGES.json'),JSON.stringify({schema:'hhc.yi.editorial-change.v1',date:'2026-10-26',changes:report},null,2)+'\n');
+await writeFile(file,'window.HHC_YI_COMPLETE_READINGS='+JSON.stringify(data)+';'+(raw.endsWith('\r\n')?'\r\n':'\n'));
+console.log('Refined four position-specific readings; titles and all other380 ordinary readings retained.');

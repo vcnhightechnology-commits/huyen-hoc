@@ -1,0 +1,51 @@
+PASS Tử vi: full star positions and palace flags match actual V52
+PASS Bát tự: four pillars and elements match actual V52
+PASS All supported years: nạp âm and cung phi match V52
+PASS Complete consumer reading content, known pure hexagrams
+PASS Research panels and external source links absent from product DOM
+PASS Empty form gives useful validation
+PASS Impossible Gregorian date is rejected
+PASS Tử vi form produces chart and four reading topics
+PASS Selected topic displays relevant interpretation
+PASS Explicit save creates one local profile
+PASS Download contains consumer reading without research terms
+PASS Editing a form clears stale results and export actions
+PASS Saved profile restores original birth input and reading
+PASS Lunar leap date and day rollover produce result
+PASS Nonexistent leap month rejected
+PASS Unknown birth time suppresses uncertain interpretation at boundary
+PASS Stable three pillars have no fabricated hour
+PASS Four known pillars receive Nhật chủ reading
+PASS Bản mệnh: correct nạp âm and escaped user input
+PASS Bát trạch: eight directions, four favorable, chosen direction
+PASS Manual pure Yang gives Càn and no moving hexagram
+PASS Moving line produces changed hexagram and labels moving stage
+PASS Single throw advances one line
+PASS Coin throwing generates full six-line result
+PASS 1440px tuvi: page has no horizontal overflow
+PASS 1440px bazi: page has no horizontal overflow
+PASS 1440px destiny: page has no horizontal overflow
+PASS 1440px directions: page has no horizontal overflow
+PASS 1440px yi: page has no horizontal overflow
+PASS 768px tuvi: page has no horizontal overflow
+PASS 768px bazi: page has no horizontal overflow
+PASS 768px destiny: page has no horizontal overflow
+PASS 768px directions: page has no horizontal overflow
+PASS 768px yi: page has no horizontal overflow
+PASS 390px tuvi: page has no horizontal overflow
+PASS 390px bazi: page has no horizontal overflow
+PASS 390px destiny: page has no horizontal overflow
+PASS 390px directions: page has no horizontal overflow
+PASS 390px yi: page has no horizontal overflow
+PASS 320px tuvi: page has no horizontal overflow
+PASS 320px bazi: page has no horizontal overflow
+PASS 320px destiny: page has no horizontal overflow
+PASS 320px directions: page has no horizontal overflow
+PASS 320px yi: page has no horizontal overflow
+PASS Saved manual moving hexagram reopens correctly
+PASS Delete removes only selected profile
+PASS Privacy dialog works on mobile and describes local save
+PASS Dialog closes with keyboard
+PASS No runtime JavaScript errors
+PASS Portable product makes no HTTP requests
+50/50 passed

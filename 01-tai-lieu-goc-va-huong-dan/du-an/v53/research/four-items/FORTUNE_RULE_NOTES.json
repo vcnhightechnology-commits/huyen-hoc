@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-26",
+  "retainedSource": {
+    "file": "v47\\tuvi\\sources\\quanshu-juan2.html",
+    "sha256": "540c0f88768048d5946576b530296a11dc1200993fac94d6cffdd9a21cbdefb2",
+    "sourceLevel": "Archived digital transcription, not a facsimile collation of all rules"
+  },
+  "rules": {
+    "minor": "Male forward/female reverse regardless of birth-stem polarity; 寅午戌 start 辰, 申子辰 start 戌, 巳酉丑 start 未, 亥卯未 start 丑. Compared with real iztro for 12 birth branches/both genders.",
+    "month": "Start from annual earthly branch, count backwards to effective birth month, forwards to birth hour, then forwards target effective month. All choices same/next/split16 are explicit and used on birth and target months.",
+    "year": "Lunar year and nominal age follow the chart timezone; new year switches at lunar New Year, not Gregorian Jan 1 or Li Chun.",
+    "annualTransformations": "Use existing selected Toan Thu stem table; Nham Khoa = Thien Phu. Actual iztro 2.6.2 uses Ta Phu for this cell; preserve and report the difference. Applying the birth-stem table to the annual stem is a declared implementation convention, not a newly verified ancient passage.",
+    "decade": "Use the existing natal engine daHanStart/cuc ranges, first decade at Menh; before its start show none. Do not use native iztro childhood substitution as a decade. The short digital An Dai Han passage begins adjacent-palace counting and does not by itself resolve the whole starting-age convention; real runtime comparison checks the currently selected convention only."
+  },
+  "publicReading": "Three actual natal-palace topics selected by decade/year/month indices. This is not a full combined-star annual forecast, migrating natal stars or an event prediction.",
+  "scope": "No daily/hourly periods or automated good/bad-year score. Calendar-sensitive target intervals are rejected for review."
+}

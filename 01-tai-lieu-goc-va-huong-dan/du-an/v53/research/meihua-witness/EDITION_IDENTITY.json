@@ -1,0 +1,67 @@
+{
+  "schema": "hhc.meihua.edition-identity.v1",
+  "pdfSHA256": "af608094ab11ae209eae91a9365565e7c9cff604aac3da5e753e04d1cc4598c0",
+  "sourcePages": [
+    145,
+    188,
+    189,
+    228,
+    229,
+    230,
+    231
+  ],
+  "imprint": {
+    "evidencePDFPage": 231,
+    "publicationLine": "中華民國十四年十一月出版",
+    "distributionLine": "中華民國十四年十一月發行",
+    "republicYear": 14,
+    "month": 11,
+    "gregorianYear": 1925,
+    "conversion": "Republicyear1=1912;1911+14=1925",
+    "dateStatus": "direct-imprint-reading",
+    "publisher": "文明書局",
+    "printer": "文明書局",
+    "publisherLocation": "上海",
+    "title": "梅花易數",
+    "physicalFormatAsPrinted": "全二冊",
+    "textualVolumes": 5,
+    "firstEditionEstablished": false,
+    "historicalShaoYongAuthorshipEstablished": false,
+    "catalogOriginIndependentlyVerified": false
+  },
+  "volumeAnchors": [
+    {
+      "volume": 3,
+      "endleafPDFPage": 144,
+      "printedEndleafPage": 42
+    },
+    {
+      "volume": 4,
+      "titlePDFPage": 145,
+      "printedTitlePage": 1,
+      "endleafPDFPage": 188,
+      "printedEndleafPage": 44
+    },
+    {
+      "volume": 5,
+      "titlePDFPage": 189,
+      "printedTitlePage": 1,
+      "endleafPDFPage": 228,
+      "printedEndleafPage": 40
+    }
+  ],
+  "corrections": [
+    {
+      "target": "../meihua-reading/ADDITIONAL_SCAN_NOTES.json",
+      "prior": "Volume5startcandidate188;PDF200printed13;PDF220printed33",
+      "corrected": "Volume5titleat189printed1;PDF188isvolume4endleaf44;PDF200printed12;PDF220printed32",
+      "reason": "Directtitle/endleafreading andprintedmargins;earlieroffsetinferencewasonepageearly",
+      "changesOriginalSourceBytes": false
+    }
+  ],
+  "limits": [
+    "Thisdatebelongs tothisprintedwitness;not theorigin dateofeverycomponenttext.",
+    "Five卷aretextualdivisions;全二冊describesphysicalformat. Theyarenotfivedistinctbooks.",
+    "Thefailed directNLCcatalogTLSattempt remainsa failure;readingtheimprintdoesnotreplaceindependentcatalogauthentication."
+  ]
+}

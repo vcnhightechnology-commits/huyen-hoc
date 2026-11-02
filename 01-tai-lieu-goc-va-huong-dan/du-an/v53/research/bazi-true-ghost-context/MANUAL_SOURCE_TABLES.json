@@ -1,0 +1,179 @@
+{
+  "sourceID": "TMTH005-CADAL06066041-OFFICIAL-CONTEXT",
+  "frameID": "declared-source-ming-month-coordinates",
+  "scope": "Selected named source coordinate frameworks, not a complete official-star or natal method.",
+  "heavenRows": [
+    {
+      "anchorStems": [
+        "甲",
+        "癸"
+      ],
+      "sourceMonthBranches": [
+        "午",
+        "未"
+      ]
+    },
+    {
+      "anchorStems": [
+        "乙",
+        "丙"
+      ],
+      "sourceMonthBranches": [
+        "辰",
+        "巳"
+      ]
+    },
+    {
+      "anchorStems": [
+        "丁",
+        "戊"
+      ],
+      "sourceMonthBranches": [
+        "寅",
+        "卯"
+      ]
+    },
+    {
+      "anchorStems": [
+        "己",
+        "庚"
+      ],
+      "sourceMonthBranches": [
+        "戌",
+        "亥"
+      ]
+    },
+    {
+      "anchorStems": [
+        "辛",
+        "壬"
+      ],
+      "sourceMonthBranches": [
+        "申",
+        "酉"
+      ]
+    }
+  ],
+  "earthRows": [
+    {
+      "anchorStems": [
+        "甲",
+        "乙"
+      ],
+      "sourceMonthBranches": [
+        "申",
+        "酉"
+      ]
+    },
+    {
+      "anchorStems": [
+        "丙",
+        "丁"
+      ],
+      "sourceMonthBranches": [
+        "亥",
+        "子"
+      ]
+    },
+    {
+      "anchorStems": [
+        "戊",
+        "己"
+      ],
+      "sourceMonthBranches": [
+        "寅",
+        "卯"
+      ]
+    },
+    {
+      "anchorStems": [
+        "庚",
+        "辛"
+      ],
+      "sourceMonthBranches": [
+        "巳",
+        "午"
+      ]
+    },
+    {
+      "anchorStems": [
+        "壬",
+        "癸"
+      ],
+      "sourceMonthBranches": [
+        "辰",
+        "戌",
+        "丑",
+        "未"
+      ]
+    }
+  ],
+  "stemPartners": {
+    "甲": "己",
+    "乙": "庚",
+    "丙": "辛",
+    "丁": "壬",
+    "戊": "癸",
+    "己": "甲",
+    "庚": "乙",
+    "辛": "丙",
+    "壬": "丁",
+    "癸": "戊"
+  },
+  "trueRegion": {
+    "literal": "有真官鄉取命前三辰月干與命干合",
+    "example": {
+      "anchorPillar": "丙子",
+      "monthPillar": "辛卯"
+    },
+    "advanceSteps": 3,
+    "stepsAreEditoriallyDisambiguatedByPrintedExample": true,
+    "stemPartnerMechanismIsNotEffectiveTransformation": true,
+    "calendarFeasibilityEstablished": false
+  },
+  "trueFiveElementTerminal": {
+    "literal": "雖納音見真五行克為官柰本干同受克故不作真官而作真鬼斷之",
+    "naYinOvercome": true,
+    "originalStemAlsoOvercome": true,
+    "label": "真鬼",
+    "scope": "Selected terminal distinction only; no completeTrueOfficialmethod or computedTrueElementtable."
+  },
+  "literalCounterexamples": [
+    {
+      "anchorPillars": [
+        "己酉",
+        "己卯"
+      ],
+      "seenStemPair": [
+        "丁",
+        "壬"
+      ]
+    },
+    {
+      "anchorPillars": [
+        "壬子",
+        "壬午"
+      ],
+      "seenStemPair": [
+        "乙",
+        "庚"
+      ]
+    }
+  ],
+  "nativeDigitalVariants": [
+    {
+      "page": 21,
+      "digital": "甲巳",
+      "nativeSelected": "甲己",
+      "tokenRole": "stem pair",
+      "originalBytesChanged": false
+    }
+  ],
+  "unresolved": [
+    "Actual true-five-element configuration and original-stem relation premises",
+    "Alternative conditions and source力三五分",
+    "Connection to volume2six-harm真鬼",
+    "Calendar role and full actual chart method",
+    "Historical outcome claims"
+  ]
+}

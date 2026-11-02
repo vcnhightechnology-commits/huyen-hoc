@@ -1,0 +1,581 @@
+{
+  "scope": "v53/research/tuvi-shidian-witness",
+  "files": [
+    {
+      "file": "v53/research/tuvi-shidian-witness/ACQUISITION_SUMMARY.json",
+      "bytes": 4395,
+      "sha256": "827d7f0e37070195d256873f177dafffea8b9fa6f1bf0ce66efdcd107579f735",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/827d7f0e37070195d256873f177dafffea8b9fa6f1bf0ce66efdcd107579f735",
+      "httpRange": {
+        "offset": 88616197,
+        "compressedBytes": 1748,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/CLIENT_PART_REQUESTS.json",
+      "bytes": 647,
+      "sha256": "ca28b5d0fc62fe369e0d54a63767a5ae02e1ffd7c05bf34807fbe1970776a342",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/ca28b5d0fc62fe369e0d54a63767a5ae02e1ffd7c05bf34807fbe1970776a342",
+      "httpRange": {
+        "offset": 405309589,
+        "compressedBytes": 200,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/CLIENT_PART_REQUEST_AUDIT.json",
+      "bytes": 7166,
+      "sha256": "106a4c840696de1385a0d25f14de1f5e3482d408ca2a9a0b1cae4ba93f1ed131",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/106a4c840696de1385a0d25f14de1f5e3482d408ca2a9a0b1cae4ba93f1ed131",
+      "httpRange": {
+        "offset": 230046632,
+        "compressedBytes": 2164,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/DIGITAL_PASSAGE_LEDGER.json",
+      "bytes": 6288,
+      "sha256": "e3c8938c8abd107f3cbb1a02384a18867fac99dcc509eee7505d6a9fe9e64e07",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e3c8938c8abd107f3cbb1a02384a18867fac99dcc509eee7505d6a9fe9e64e07",
+      "httpRange": {
+        "offset": 324797599,
+        "compressedBytes": 2236,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/DIGITAL_WITNESS_FREEZE.json",
+      "bytes": 3570,
+      "sha256": "4936d7bf483b0080531ce54bd2ff519883c45950f7da988b457880f4dd9c156f",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/4936d7bf483b0080531ce54bd2ff519883c45950f7da988b457880f4dd9c156f",
+      "httpRange": {
+        "offset": 264495101,
+        "compressedBytes": 1312,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/HOST_REQUEST.json",
+      "bytes": 4658,
+      "sha256": "f0c263b33868840b56ac3e326b7c91f15ee0a40d66dc12cc22e14e88daa220a3",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f0c263b33868840b56ac3e326b7c91f15ee0a40d66dc12cc22e14e88daa220a3",
+      "httpRange": {
+        "offset": 144715189,
+        "compressedBytes": 1723,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/IMAGE_CLIENT_REQUESTS.json",
+      "bytes": 861,
+      "sha256": "6c4e24c82fd9aa9585116229814eb906d666dab6c9973fb26c04db6ae6740887",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6c4e24c82fd9aa9585116229814eb906d666dab6c9973fb26c04db6ae6740887",
+      "httpRange": {
+        "offset": 264053671,
+        "compressedBytes": 216,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/IMAGE_CLIENT_REQUEST_AUDIT.json",
+      "bytes": 9657,
+      "sha256": "16cd5f81b9a11b03251eae70330feaa86a455c2ec57c149104777eae79e22bc4",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/16cd5f81b9a11b03251eae70330feaa86a455c2ec57c149104777eae79e22bc4",
+      "httpRange": {
+        "offset": 300247706,
+        "compressedBytes": 2688,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/READER_DATA_REQUESTS.json",
+      "bytes": 433,
+      "sha256": "5dde7ae17f192de58bf784ef4b91575e10f5d4f7b61a58549aa4fccc0db47d0c",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/5dde7ae17f192de58bf784ef4b91575e10f5d4f7b61a58549aa4fccc0db47d0c",
+      "httpRange": {
+        "offset": 328754334,
+        "compressedBytes": 180,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/READER_DATA_REQUEST_AUDIT.json",
+      "bytes": 4789,
+      "sha256": "9dba02784abbfbb6bb30dff4ac5c0bf099a30087901cc9adec84f9fa76e2ae2f",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9dba02784abbfbb6bb30dff4ac5c0bf099a30087901cc9adec84f9fa76e2ae2f",
+      "httpRange": {
+        "offset": 118391421,
+        "compressedBytes": 1620,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/RELEASE_ADOPTION.json",
+      "bytes": 508,
+      "sha256": "aab450f1c715f82df0694889cb12a78d5ec571af124ab8334a05eeaf35c785ff",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/aab450f1c715f82df0694889cb12a78d5ec571af124ab8334a05eeaf35c785ff",
+      "httpRange": {
+        "offset": 270073275,
+        "compressedBytes": 323,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/REQUEST.json",
+      "bytes": 386,
+      "sha256": "da99c202afc342d054c201d27637bdcd181bd530c9c7720a2ab9fef6f41e372a",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/da99c202afc342d054c201d27637bdcd181bd530c9c7720a2ab9fef6f41e372a",
+      "httpRange": {
+        "offset": 213326628,
+        "compressedBytes": 284,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/RETAINED_COMPARISON_IDENTITIES.json",
+      "bytes": 1451,
+      "sha256": "e5431bb6e8a671333b8cccdeac4fa579e2c6545cd7d617d7d35cf23264740086",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e5431bb6e8a671333b8cccdeac4fa579e2c6545cd7d617d7d35cf23264740086",
+      "httpRange": {
+        "offset": 338002383,
+        "compressedBytes": 669,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/SOURCE_RESULTS.json",
+      "bytes": 424,
+      "sha256": "1b890c26ce6336fe9c52b8d0da2cbc93efc5fa2344b68b0939b98b89724bd450",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1b890c26ce6336fe9c52b8d0da2cbc93efc5fa2344b68b0939b98b89724bd450",
+      "httpRange": {
+        "offset": 354166723,
+        "compressedBytes": 262,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/TARGETED_REQUESTS.json",
+      "bytes": 253,
+      "sha256": "e3c69800e602f8bc190976c8e7e546f3de711555805b7e33d4d5028c18509880",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e3c69800e602f8bc190976c8e7e546f3de711555805b7e33d4d5028c18509880",
+      "httpRange": {
+        "offset": 324793964,
+        "compressedBytes": 188,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/TARGETED_REQUEST_AUDIT.json",
+      "bytes": 2460,
+      "sha256": "9aba52819ec27a5db4dba0051474dba3e90683646b4e2036efb5e5ddb9e5c297",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9aba52819ec27a5db4dba0051474dba3e90683646b4e2036efb5e5ddb9e5c297",
+      "httpRange": {
+        "offset": 86703107,
+        "compressedBytes": 1243,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/TARGET_PUBLIC_RECORDS.json",
+      "bytes": 24790,
+      "sha256": "d0dd28d401b7665105674d8a2594c131247e8e5674e53b97085fc9522e4fe08b",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/d0dd28d401b7665105674d8a2594c131247e8e5674e53b97085fc9522e4fe08b",
+      "httpRange": {
+        "offset": 103053603,
+        "compressedBytes": 4310,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/WORK_STATE.json",
+      "bytes": 1410,
+      "sha256": "305bf76100cbbd8e680b26e3b72f7f6276e19acb6156591a0645ff4fc9c59ae4",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/305bf76100cbbd8e680b26e3b72f7f6276e19acb6156591a0645ff4fc9c59ae4",
+      "httpRange": {
+        "offset": 241585790,
+        "compressedBytes": 838,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/chapter-response.html",
+      "bytes": 992096,
+      "sha256": "8888822139fb45422ffcfe2939057243df2c45307b78fbb6ff4515dc61b585ad",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8888822139fb45422ffcfe2939057243df2c45307b78fbb6ff4515dc61b585ad",
+      "httpRange": {
+        "offset": 232697796,
+        "compressedBytes": 230679,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/chapter-visible-extracted.txt",
+      "bytes": 54887,
+      "sha256": "52e03e6ebc34e807f03194e379949753a34e5e9adccb0f041c10cd5796e87887",
+      "bundle": "hhc-materials-004.zip",
+      "member": "objects/52e03e6ebc34e807f03194e379949753a34e5e9adccb0f041c10cd5796e87887",
+      "httpRange": {
+        "offset": 114997130,
+        "compressedBytes": 24761,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/client-1265.fdab5d3f.js",
+      "bytes": 179520,
+      "sha256": "6e6967367b646cadd3addf08ab0f548851c68619710683f45c91707ad71768c9",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/6e6967367b646cadd3addf08ab0f548851c68619710683f45c91707ad71768c9",
+      "httpRange": {
+        "offset": 276658296,
+        "compressedBytes": 70167,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/client-1746.0cd03317.js",
+      "bytes": 2307871,
+      "sha256": "473c7f818696a16d9bfb1e475502578fc9bf3a09c499b0cb261cf59af9084c9c",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/473c7f818696a16d9bfb1e475502578fc9bf3a09c499b0cb261cf59af9084c9c",
+      "httpRange": {
+        "offset": 203564025,
+        "compressedBytes": 840587,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/client-4994.ae981763.js",
+      "bytes": 488639,
+      "sha256": "89378234c03532714a0b7c768761a04a1bee07d00701c5b36838f786fc5b54e7",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/89378234c03532714a0b7c768761a04a1bee07d00701c5b36838f786fc5b54e7",
+      "httpRange": {
+        "offset": 241064919,
+        "compressedBytes": 196024,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/client-5456.17c717b4.js",
+      "bytes": 76849,
+      "sha256": "e4b34947bb020499224fe156f1c9cac8f7bb7946afe012655da04e9ecf5fee74",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e4b34947bb020499224fe156f1c9cac8f7bb7946afe012655da04e9ecf5fee74",
+      "httpRange": {
+        "offset": 330497323,
+        "compressedBytes": 25212,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/client-5796.f6337c0f.js",
+      "bytes": 144911,
+      "sha256": "0094fd232db6952ec52479097499d1b0f080d99300316feeac4067b0cf92ec76",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0094fd232db6952ec52479097499d1b0f080d99300316feeac4067b0cf92ec76",
+      "httpRange": {
+        "offset": 6199316,
+        "compressedBytes": 42765,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/client-7111.c595f1ca.js",
+      "bytes": 47791,
+      "sha256": "35796fd23da81bcd70d944d5d20879dabb1ea145f511e4ac78ae0548d3de8e78",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/35796fd23da81bcd70d944d5d20879dabb1ea145f511e4ac78ae0548d3de8e78",
+      "httpRange": {
+        "offset": 320598158,
+        "compressedBytes": 14463,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/client-7227.b637795c.js",
+      "bytes": 1465,
+      "sha256": "8be0c3f777b3272b30b64517323e24767c84ac89d1d2ba9a620c2ff84cf98f0d",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/8be0c3f777b3272b30b64517323e24767c84ac89d1d2ba9a620c2ff84cf98f0d",
+      "httpRange": {
+        "offset": 269334874,
+        "compressedBytes": 813,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/client-7691.d2ca499c.js",
+      "bytes": 542032,
+      "sha256": "29abf8302d2b9a0588fdcf7a43a39347f5401d8fb4727bd296321d360b0718c6",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/29abf8302d2b9a0588fdcf7a43a39347f5401d8fb4727bd296321d360b0718c6",
+      "httpRange": {
+        "offset": 168506666,
+        "compressedBytes": 211311,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/client-8920.c8dfe8e9.js",
+      "bytes": 138687,
+      "sha256": "9ca8f632ba094c14265b1ce5f0f56f1324b85a6c5b8ef963bcc5fba56d2bea02",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9ca8f632ba094c14265b1ce5f0f56f1324b85a6c5b8ef963bcc5fba56d2bea02",
+      "httpRange": {
+        "offset": 106441173,
+        "compressedBytes": 43643,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/embedded-json-10.json",
+      "bytes": 212,
+      "sha256": "eba759551a83a38491221dd24c0fad3bf0543a535002bde5270173a3e9042ecf",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/eba759551a83a38491221dd24c0fad3bf0543a535002bde5270173a3e9042ecf",
+      "httpRange": {
+        "offset": 77310561,
+        "compressedBytes": 91,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/embedded-json-11.json",
+      "bytes": 88,
+      "sha256": "ecb4475c1d7eed3fad7c0f0d16daf8073f761bbd092e0a5cb62c5f6ffec145ac",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/ecb4475c1d7eed3fad7c0f0d16daf8073f761bbd092e0a5cb62c5f6ffec145ac",
+      "httpRange": {
+        "offset": 96536902,
+        "compressedBytes": 69,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/extract-public-state.py",
+      "bytes": 1892,
+      "sha256": "e0a155a629bdda348a7bbcfbdf98427a55469c3daacff03fc3d1dfe64222dcc3",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/e0a155a629bdda348a7bbcfbdf98427a55469c3daacff03fc3d1dfe64222dcc3",
+      "httpRange": {
+        "offset": 285952869,
+        "compressedBytes": 966,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/fetch-host.ps1",
+      "bytes": 1452,
+      "sha256": "80221b5dbb6baf290d9b56a6ac2d56888a04a2cce1d18ffcebcf46fd0954a28d",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/80221b5dbb6baf290d9b56a6ac2d56888a04a2cce1d18ffcebcf46fd0954a28d",
+      "httpRange": {
+        "offset": 67334935,
+        "compressedBytes": 762,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/fetch-one.py",
+      "bytes": 1352,
+      "sha256": "c7725b296341713451be335f8888090efeaa2802432a11e3e55f9c2558c43910",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c7725b296341713451be335f8888090efeaa2802432a11e3e55f9c2558c43910",
+      "httpRange": {
+        "offset": 375176410,
+        "compressedBytes": 739,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/fetch-targeted.ps1",
+      "bytes": 2109,
+      "sha256": "c2c440249e614b069b31c5fc75430abcf4557c358feaacf2143280199b9ce3dd",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c2c440249e614b069b31c5fc75430abcf4557c358feaacf2143280199b9ce3dd",
+      "httpRange": {
+        "offset": 315642069,
+        "compressedBytes": 918,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/freeze-digital-witness.py",
+      "bytes": 7556,
+      "sha256": "2492fa20bb830cb8e32326b261bb9a50086f672f706073969d298666b3c31f83",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/2492fa20bb830cb8e32326b261bb9a50086f672f706073969d298666b3c31f83",
+      "httpRange": {
+        "offset": 123701027,
+        "compressedBytes": 3862,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/inspect-client-reads.py",
+      "bytes": 424,
+      "sha256": "aa65925c2efb39c566cabbd279bc48c33bd5ac662957e5818e5bfa66a8184893",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/aa65925c2efb39c566cabbd279bc48c33bd5ac662957e5818e5bfa66a8184893",
+      "httpRange": {
+        "offset": 267424263,
+        "compressedBytes": 287,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/inspect-image-reads.py",
+      "bytes": 488,
+      "sha256": "10b4ab824515b54e62e51dbb1c690925cbe49ae4c9b68fa1c9388f1375771543",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/10b4ab824515b54e62e51dbb1c690925cbe49ae4c9b68fa1c9388f1375771543",
+      "httpRange": {
+        "offset": 232268842,
+        "compressedBytes": 327,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/inspect-image-service.py",
+      "bytes": 466,
+      "sha256": "1704f47e3dbb6a4587c2caa6f4f0d83b66367c509b96d02e831cac287a363126",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/1704f47e3dbb6a4587c2caa6f4f0d83b66367c509b96d02e831cac287a363126",
+      "httpRange": {
+        "offset": 306712043,
+        "compressedBytes": 305,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/inspect-local.py",
+      "bytes": 1449,
+      "sha256": "82054581d3857690ed5a7255cf198fdf776a7779a1e609f9e9d230c9376b2831",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/82054581d3857690ed5a7255cf198fdf776a7779a1e609f9e9d230c9376b2831",
+      "httpRange": {
+        "offset": 86142550,
+        "compressedBytes": 764,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/inspect-metadata.py",
+      "bytes": 666,
+      "sha256": "84cc388d8cc9f64fcc5a11c010d6b0c6e30e9143944f32d4ce77b1755bd536cf",
+      "bundle": "hhc-materials-006.zip",
+      "member": "objects/84cc388d8cc9f64fcc5a11c010d6b0c6e30e9143944f32d4ce77b1755bd536cf",
+      "httpRange": {
+        "offset": 200628047,
+        "compressedBytes": 416,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/prepare-client-parts.py",
+      "bytes": 751,
+      "sha256": "0a2ca890bd604e60f76e6cddfe6e8680f2b04db5a04ce200151ddc9f49827b13",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/0a2ca890bd604e60f76e6cddfe6e8680f2b04db5a04ce200151ddc9f49827b13",
+      "httpRange": {
+        "offset": 157272144,
+        "compressedBytes": 486,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/prepare-image-client-parts.py",
+      "bytes": 771,
+      "sha256": "39ab03e89b05b01ca19fba346fb39507f0b3ca9381227aad45fbce113ec37231",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/39ab03e89b05b01ca19fba346fb39507f0b3ca9381227aad45fbce113ec37231",
+      "httpRange": {
+        "offset": 372915010,
+        "compressedBytes": 501,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/prepare-reader-data-client.py",
+      "bytes": 732,
+      "sha256": "22aca019a660709069d92d7aff8afa1fcb3dcae3ff2951073e594caa29f6db5a",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/22aca019a660709069d92d7aff8afa1fcb3dcae3ff2951073e594caa29f6db5a",
+      "httpRange": {
+        "offset": 93819428,
+        "compressedBytes": 471,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/prepare-targeted-client.py",
+      "bytes": 725,
+      "sha256": "365e6b813fb67d149dc613b6f3e7e15bd57c3b84187f2428a29a247a85b8a58c",
+      "bundle": "hhc-materials-002.zip",
+      "member": "objects/365e6b813fb67d149dc613b6f3e7e15bd57c3b84187f2428a29a247a85b8a58c",
+      "httpRange": {
+        "offset": 329255269,
+        "compressedBytes": 467,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/public-book-reader.js",
+      "bytes": 925,
+      "sha256": "a62131857d72d3dcbf077f2ccfa326d8e08dbb7d1fa10acef5c79c26474f3a79",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/a62131857d72d3dcbf077f2ccfa326d8e08dbb7d1fa10acef5c79c26474f3a79",
+      "httpRange": {
+        "offset": 227659199,
+        "compressedBytes": 520,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/public-router-data.json",
+      "bytes": 1058698,
+      "sha256": "690d62a2e732316c0e85ccc578b85c9300f275c3f3013d585d264c2edafdbfd1",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/690d62a2e732316c0e85ccc578b85c9300f275c3f3013d585d264c2edafdbfd1",
+      "httpRange": {
+        "offset": 233181136,
+        "compressedBytes": 185340,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/research/tuvi-shidian-witness/verify-digital-witness.py",
+      "bytes": 3306,
+      "sha256": "76a54b7c59f5525bcd9d308f7b4fe8c8fd48845e48baf07a98e030d690787994",
+      "bundle": "hhc-materials-005.zip",
+      "member": "objects/76a54b7c59f5525bcd9d308f7b4fe8c8fd48845e48baf07a98e030d690787994",
+      "httpRange": {
+        "offset": 380194607,
+        "compressedBytes": 1728,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

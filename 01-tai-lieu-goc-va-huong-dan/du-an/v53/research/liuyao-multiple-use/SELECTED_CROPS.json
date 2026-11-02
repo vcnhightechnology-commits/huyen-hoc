@@ -1,0 +1,92 @@
+{
+  "records": [
+    {
+      "page": 134,
+      "raw": {
+        "file": "v53/research/liuyao-progress-conditions/images/zengshan-134.png",
+        "bytes": 69247,
+        "sha256": "1b6bca60ad1955f9a5b249d9a4e1a10d60adbafa12bb89bb03f3440ab1037756"
+      },
+      "crop": {
+        "file": "tmp/liuyao-multiple-use-staging/p134-old-method-and-reversal.png",
+        "bytes": 36693,
+        "sha256": "a04a9d3d754311f92fcc8efeedc4130e3cd3376726577d2fd73b3e2f83bb624f"
+      },
+      "boxXYXY": [
+        450,
+        200,
+        810,
+        1195
+      ],
+      "actuallyViewed": true,
+      "accepted": true
+    },
+    {
+      "page": 135,
+      "raw": {
+        "file": "v53/research/liuyao-progress-conditions/images/zengshan-135.png",
+        "bytes": 88413,
+        "sha256": "656d5327c7974402d6a26c607e2b3d50b0c53094723691bd92b1f46fec68875d"
+      },
+      "crop": {
+        "file": "tmp/liuyao-multiple-use-staging/p135-three-use-and-repeat-cast.png",
+        "bytes": 55867,
+        "sha256": "93ae1e6ead26bd1d0b81b63100f1007913c80cdaad7027266810dc35e37cff33"
+      },
+      "boxXYXY": [
+        175,
+        195,
+        620,
+        1180
+      ],
+      "actuallyViewed": true,
+      "accepted": true
+    },
+    {
+      "page": 136,
+      "raw": {
+        "file": "v53/research/liuyao-progress-conditions/images/zengshan-136.png",
+        "bytes": 71835,
+        "sha256": "e54d87859ca3464a62bd546a6525ec07f6f5c7e8909ebb67dcd300e70886ae34"
+      },
+      "crop": {
+        "file": "tmp/liuyao-multiple-use-staging/p136-linked-cast-complete.png",
+        "bytes": 33620,
+        "sha256": "38c6106bfc69ed9bceb334cb8bd90a3f3156f39c83084081037420f37b0546c2"
+      },
+      "boxXYXY": [
+        535,
+        150,
+        825,
+        1210
+      ],
+      "actuallyViewed": true,
+      "accepted": true
+    }
+  ],
+  "releaseStatus": "Privatefollowupcreatedaftercurrentpackageinputlistwasfrozen.",
+  "trialRecords": [
+    {
+      "page": 136,
+      "raw": {
+        "file": "v53/research/liuyao-progress-conditions/images/zengshan-136.png",
+        "bytes": 71835,
+        "sha256": "e54d87859ca3464a62bd546a6525ec07f6f5c7e8909ebb67dcd300e70886ae34"
+      },
+      "crop": {
+        "file": "tmp/liuyao-multiple-use-staging/p136-linked-cast-conclusion.png",
+        "bytes": 27524,
+        "sha256": "acdc54b4902a53002d69e82c1d5e742ea9c95f2db044815921823ce1389af8e0"
+      },
+      "boxXYXY": [
+        625,
+        160,
+        825,
+        1130
+      ],
+      "actuallyViewed": true,
+      "accepted": false,
+      "rejectionReason": "Lastcolumnparagraphendingoutsidecrop;retainedasrejectedtrialnotcompletecross-castconclusion."
+    }
+  ]
+}

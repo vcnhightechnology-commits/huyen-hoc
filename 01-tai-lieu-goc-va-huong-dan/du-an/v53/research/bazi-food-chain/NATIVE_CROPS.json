@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-29",
+  "records": [
+    {
+      "id": "source-chain-main",
+      "source": {
+        "file": "v53/research/bazi-pattern-extension/images/p171.png",
+        "bytes": 455990,
+        "sha256": "288040818d21a7ec6499cb09e00c2ea5e8a91337b512dabf616655dc5f7bbf51"
+      },
+      "boxXYXY": [
+        980,
+        300,
+        1595,
+        3430
+      ],
+      "crop": {
+        "file": "tmp/bazi-food-chain-staging/source-chain-main.png",
+        "bytes": 71064,
+        "sha256": "d90d4cf73741a4c118f9cbb6ff7fbfb2bed92bd496fa6481ff89b9bbdcafcdcb"
+      },
+      "viewed": false,
+      "accepted": false,
+      "sourceDimensions": [
+        2318,
+        3133
+      ],
+      "exclusionReason": "Trialboxbottom3430exceedssourceheight3133;automaticallyexcludedbeforeview/freeze."
+    },
+    {
+      "id": "source-qualification-voices",
+      "source": {
+        "file": "v53/research/bazi-pattern-extension/images/p171.png",
+        "bytes": 455990,
+        "sha256": "288040818d21a7ec6499cb09e00c2ea5e8a91337b512dabf616655dc5f7bbf51"
+      },
+      "boxXYXY": [
+        550,
+        300,
+        1005,
+        3430
+      ],
+      "crop": {
+        "file": "tmp/bazi-food-chain-staging/source-qualification-voices.png",
+        "bytes": 54339,
+        "sha256": "a68ba445fe73108d7e79cc42ab0350cd312438e00b34710818eb9572491b7c9f"
+      },
+      "viewed": false,
+      "accepted": false,
+      "sourceDimensions": [
+        2318,
+        3133
+      ],
+      "exclusionReason": "Trialboxbottom3430exceedssourceheight3133;automaticallyexcludedbeforeview/freeze."
+    },
+    {
+      "id": "source-chain-main-bounded",
+      "source": {
+        "file": "v53/research/bazi-pattern-extension/images/p171.png",
+        "bytes": 455990,
+        "sha256": "288040818d21a7ec6499cb09e00c2ea5e8a91337b512dabf616655dc5f7bbf51"
+      },
+      "sourceDimensions": [
+        2318,
+        3133
+      ],
+      "boxXYXY": [
+        980,
+        300,
+        1595,
+        3030
+      ],
+      "crop": {
+        "file": "tmp/bazi-food-chain-staging/source-chain-main-bounded.png",
+        "bytes": 69851,
+        "sha256": "f20d5504cc59ad98a9f7572786642fccbaa938e48f3ac5fd5cfd8f23f8c88ead"
+      },
+      "viewed": true,
+      "accepted": true,
+      "scope": "Selectedsourcechainandqualifyingvoices;notcompleteparentdiplomaticcollation.",
+      "RGBMatchesSourceCrop": true
+    },
+    {
+      "id": "source-qualification-voices-bounded",
+      "source": {
+        "file": "v53/research/bazi-pattern-extension/images/p171.png",
+        "bytes": 455990,
+        "sha256": "288040818d21a7ec6499cb09e00c2ea5e8a91337b512dabf616655dc5f7bbf51"
+      },
+      "sourceDimensions": [
+        2318,
+        3133
+      ],
+      "boxXYXY": [
+        550,
+        300,
+        1005,
+        3030
+      ],
+      "crop": {
+        "file": "tmp/bazi-food-chain-staging/source-qualification-voices-bounded.png",
+        "bytes": 53376,
+        "sha256": "b84f2e14903fd166015e4caac95435af24b580703729010b581b2d7866671acb"
+      },
+      "viewed": true,
+      "accepted": true,
+      "scope": "Selectedsourcechainandqualifyingvoices;notcompleteparentdiplomaticcollation.",
+      "RGBMatchesSourceCrop": true
+    }
+  ],
+  "newSourcePositions": 0
+}

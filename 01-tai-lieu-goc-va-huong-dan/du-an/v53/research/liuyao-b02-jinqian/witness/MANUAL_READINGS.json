@@ -1,0 +1,111 @@
+{
+  "date": "2026-10-27",
+  "institution": "National Archives of Japan",
+  "manifestLabel": "増刪卜易２",
+  "itemURL": "https://www.digital.archives.go.jp/item/4756814",
+  "viewerURL": "https://www.digital.archives.go.jp/img/4756814",
+  "manifestFile": "japan-volume2-manifest.json",
+  "manifestSHA256": "a56944bfb2084788de83001a49eb90ac8d954e4f398409e07da59821b1e05354",
+  "registeredCanvases": 53,
+  "records": [
+    {
+      "canvasOrdinal1": 48,
+      "canvasID": "https://www.digital.archives.go.jp/api/iiif/4756814/canvas/C103347733100",
+      "resourceURL": "https://www.digital.archives.go.jp/api/content/item/da12/C103347733100/iiif/M2021052512401615599_0048.jp2/full/max/0/native.jpg",
+      "file": "japan-volume2-spread-48-returned.jpg",
+      "sha256": "deb35e1aad6f7b5ec9e1a5017fbc9c66824664e86fbfbd1755ca88c5f97b6582",
+      "bytes": 892387,
+      "servedImagePixels": [
+        3000,
+        2073
+      ],
+      "canvasMetadataPixels": [
+        6150,
+        4250
+      ],
+      "scope": "Bounded parallel ofNCL131–132:single-visible-motion cases,including named同人變澤火革.",
+      "actuallyViewed": true,
+      "entireSpreadDiplomaticallyTranscribed": false,
+      "masterResolutionProved": false
+    },
+    {
+      "canvasOrdinal1": 50,
+      "canvasID": "https://www.digital.archives.go.jp/api/iiif/4756814/canvas/C103347733300",
+      "resourceURL": "https://www.digital.archives.go.jp/api/content/item/da12/C103347733300/iiif/M2021052512401615599_0050.jp2/full/max/0/native.jpg",
+      "file": "japan-volume2-spread-50-returned.jpg",
+      "sha256": "3a070a43598d6ffb1f1babc21f1d9e4b1751c225fa94249f61bbe578ea555ad2",
+      "bytes": 905052,
+      "servedImagePixels": [
+        3000,
+        2073
+      ],
+      "canvasMetadataPixels": [
+        6150,
+        4250
+      ],
+      "scope": "Bounded parallel ofNCL134–136:multiple-use examples and repeated consultation;no heading32seen onthisspread.",
+      "actuallyViewed": true,
+      "entireSpreadDiplomaticallyTranscribed": false,
+      "masterResolutionProved": false
+    },
+    {
+      "canvasOrdinal1": 51,
+      "canvasID": "https://www.digital.archives.go.jp/api/iiif/4756814/canvas/C103347733400",
+      "resourceURL": "https://www.digital.archives.go.jp/api/content/item/da12/C103347733400/iiif/M2021052512401615599_0051.jp2/full/max/0/native.jpg",
+      "file": "japan-volume2-spread-51-returned.jpg",
+      "sha256": "15965efdd4dbeee794d336af7b600c9168694da1797a9273fe3373c902a0d84f",
+      "bytes": 895675,
+      "servedImagePixels": [
+        3000,
+        2073
+      ],
+      "canvasMetadataPixels": [
+        6150,
+        4250
+      ],
+      "scope": "Chapter33stars and directvolume2ending;noblemanverse/prose,onlysixprintedLustemrows,horsegroups/joyseasons andlimits.",
+      "actuallyViewed": true,
+      "entireSpreadDiplomaticallyTranscribed": false,
+      "masterResolutionProved": false
+    },
+    {
+      "canvasOrdinal1": 52,
+      "canvasID": "https://www.digital.archives.go.jp/api/iiif/4756814/canvas/C103347733500",
+      "resourceURL": "https://www.digital.archives.go.jp/api/content/item/da12/C103347733500/iiif/M2021052512401615599_0052.jp2/full/max/0/native.jpg",
+      "file": "japan-volume2-spread-52-returned.jpg",
+      "sha256": "c7ed8e404156d14034846cb7bc8981ccc17af449eae0ac39ca1040128a2a9b6d",
+      "bytes": 806618,
+      "servedImagePixels": [
+        3000,
+        2073
+      ],
+      "canvasMetadataPixels": [
+        6150,
+        4250
+      ],
+      "scope": "Back-of-endleaf/blankandshowthrough only;not additional clause text.",
+      "actuallyViewed": true,
+      "entireSpreadDiplomaticallyTranscribed": false,
+      "masterResolutionProved": false
+    }
+  ],
+  "unmodifiedServedResponseBytesPreserved": true,
+  "qaImages": [
+    {
+      "file": "japan51-noble-qa.png",
+      "derivedFrom": "japan-volume2-spread-51-returned.jpg",
+      "cropBox": [
+        1900,
+        330,
+        2580,
+        1250
+      ],
+      "sha256": "843dc7b003e158ea87b34753edd5452dfd2503076dbaabd8c5482e08e32fa7a5",
+      "actuallyViewed": true
+    }
+  ],
+  "all53CanvasesViewed": false,
+  "sourceInstructionsAreData": true,
+  "historicalOutcomesValidated": false,
+  "released": false
+}

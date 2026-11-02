@@ -1,0 +1,374 @@
+{
+  "date": "2026-10-28",
+  "source": "v53/research/bazi-food-source/CONTEXTS.json",
+  "sha256": "c9179c1421a4521ce9bd0f5d48ab05e28a6a9ed11daf462927ad777343be0f68",
+  "records": [
+    {
+      "id": "FOOD-01-C01",
+      "unit": "FOOD-01",
+      "heading": "飛天禄馬",
+      "startCleanCodepoint": 0,
+      "endCleanCodepoint": 4,
+      "text": "飛天禄馬",
+      "digitalFolios": [
+        "005-91b"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "heading",
+      "disposition": "editorial-heading",
+      "readingNote": "Tên mục phụ riêng trong phần Thực thần.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-01-C02",
+      "unit": "FOOD-01",
+      "heading": "飛天禄馬",
+      "startCleanCodepoint": 4,
+      "endCleanCodepoint": 64,
+      "text": "喜忌篇云若逢傷官月建如㓙處未必為㓙内有倒禄飛衝忌官星亦嫌羈絆此格惟有四日庚子壬子辛亥癸亥生十月十一月冬水純隂柱無財官方用",
+      "digitalFolios": [
+        "005-91b"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "Xiji-citation-and-gloss",
+      "disposition": "calendar-pattern-prerequisites",
+      "readingNote": "Bốn ngày 庚子壬子辛亥癸亥, tháng10/11, không Tài Quan và cùng chi; chưa đổi số tháng thành tiết khí mặc định.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-01-C03",
+      "unit": "FOOD-01",
+      "heading": "飛天禄馬",
+      "startCleanCodepoint": 64,
+      "endCleanCodepoint": 121,
+      "text": "又須月時或年與日同支方能併衝忌官星顯露禄難飛衝合神覊絆不能飛衝要柱中有一字合住禄馬方不走了貴氣喜傷官食神及干文本運",
+      "digitalFolios": [
+        "005-91b",
+        "005-92a"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "main",
+      "disposition": "position-and-activity",
+      "readingNote": "Chi tháng/giờ/năm hợp với ngày, lộ Quan/câu hợp/giữ lộc cần hiệu lực riêng.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-01-C04",
+      "unit": "FOOD-01",
+      "heading": "飛天禄馬",
+      "startCleanCodepoint": 121,
+      "endCleanCodepoint": 222,
+      "text": "假令庚子日庚以丁火為官在子月生是傷官月建可謂㓙處若子字多衝出午中丁火則庚日得官星未可便以㓙論柱要有未或寅戌但得一字合午為妙若有丑覊絆子去貪合不能衝午中之禄見丁字為官露丙為煞顯午字填實戊吞㗖則减分數嵗運同",
+      "digitalFolios": [
+        "005-92a"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "main-example",
+      "disposition": "gengzi-specific",
+      "readingNote": "子/午 và 寅戌未 so 丑; cặp xung/hợp danh nghĩa chưa đủ hiệu lực.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-01-C05",
+      "unit": "FOOD-01",
+      "heading": "飛天禄馬",
+      "startCleanCodepoint": 222,
+      "endCleanCodepoint": 256,
+      "text": "壬子日壬以巳土為官要柱中子字多衝午中巳土則壬日得官星其喜忌與庚子日同",
+      "digitalFolios": [
+        "005-92a"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "main-example",
+      "disposition": "renzi-specific-glyph-open",
+      "readingNote": "Giữ bản số 巳土, không tự sửa 己 ở mọi chỗ; điều kiện dẫn chiếu với 庚子.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-01-C06",
+      "unit": "FOOD-01",
+      "heading": "飛天禄馬",
+      "startCleanCodepoint": 256,
+      "endCleanCodepoint": 340,
+      "text": "辛亥日辛用丙火為官癸亥日癸用戊土為官俱要四柱亥字多衝出巳中丙戊則辛癸得官星柱有申或酉丑但得一作合為妙多則不中有寅覊絆則亥貪合不能衝巳中之禄見丙戊巳為官星顯露減分數嵗運同",
+      "digitalFolios": [
+        "005-92b"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "main-example",
+      "disposition": "xinhai-guihai-specific",
+      "readingNote": "亥/巳, nhóm 申酉丑 và 寅; phân một/hơn một và chữ lộ với chữ chi.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-01-C07",
+      "unit": "FOOD-01",
+      "heading": "飛天禄馬",
+      "startCleanCodepoint": 340,
+      "endCleanCodepoint": 442,
+      "text": "又曰庚子壬子二日不但忌上所犯庚子不喜水太旺為金沉水泛僧道貧苦之命或坐丑月得酉字合丑運行西方如意却不貴壬子不宜見財為壬遇丁而太過必犯淫訛之亂辛癸二日不論支下但見亥字多便能衝官辛日惟怕巳丙癸日惟怕巳戊餘忌稍輕",
+      "digitalFolios": [
+        "005-92b",
+        "005-93a"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "quoted-voice",
+      "disposition": "counterconditions",
+      "readingNote": "Nước quá vượng, 丑月/酉, Tài, các phạm vi 辛癸 khác; không gộp thành một cấm chung.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-01-C08",
+      "unit": "FOOD-01",
+      "heading": "飛天禄馬",
+      "startCleanCodepoint": 442,
+      "endCleanCodepoint": 496,
+      "text": "又曰飛天無合乃漂流之人有衝多是九流技藝之輩近貴而已既衝又合若犯前忌亦不入格嵗運逢之甚者遭横逆辛亥癸亥見之稍輕",
+      "digitalFolios": [
+        "005-93a"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "quoted-voice",
+      "disposition": "combination-conflict-conditions",
+      "readingNote": "Không hợp/có xung/phạm cấm và vận; chưa tính tiền đồ/nghề nghiệp.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-01-C09",
+      "unit": "FOOD-01",
+      "heading": "飛天禄馬",
+      "startCleanCodepoint": 496,
+      "endCleanCodepoint": 903,
+      "text": "古歌曰正衝之格是庚壬子去衝官禄自亨四柱更逢寅戌未三字得一合功名(又/)庚壬子月號衝官午動丁移巳亦遷填實破刑俱不犯英名魁譽四方傳(又/)禄馬飛天識者稀庚壬重子貴非疑柱無覊絆官星現平步青雲到鳳池(又/)辛癸衝官亥日重巳中丙戊禄來崇更逢酉丑申居命得一合神便貴榮(又/)日逢辛癸支臨亥酉丑加申合貴人四柱相扶無戊巳威風千里振英聲(又/)飛天禄馬少人知辛癸亥多最為宜不見關煞并惹絆少年富貴拜丹墀(又/)庚壬二日重逢子辛癸年時遇亥多衝起飛天真禄馬無官無絆定中和(又/)柱嫌丁丙並戊己巳午無踪寅戌明不見丑寅來覊絆子亥衝官貴禄榮(又/)亥逢辛癸子庚壬禄馬飛天仔細尋嵗運若逢財旺地須當權職自髙陞(又/)飛天禄馬最難窮正要庚壬坐子重壬暗午中邀巳禄庚虚離位就丁功䑕中同伴子難動戊要相牽午共寅庚忌丁神壬忌巳若無此犯禄豐隆(又/)辛癸生人喜亥重巳中丙戊得逢衝戊來合癸三元喜丙去伏辛四柱雄煞刃官空皆畏忌刑衝破害總朦朧若無填實虚有㑹豪傑英雄逈不同",
+      "digitalFolios": [
+        "005-93a",
+        "005-93b",
+        "005-94a"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [
+        "005-94a"
+      ],
+      "voice": "ancient-song-sequence",
+      "disposition": "parallel-verses",
+      "readingNote": "Các câu ca quyết trên ảnh đến cuối93b và phần bản số94a; đoạn thiếu ảnh giữ mở.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-01-C10",
+      "unit": "FOOD-01",
+      "heading": "飛天禄馬",
+      "startCleanCodepoint": 903,
+      "endCleanCodepoint": 920,
+      "text": "按此格止庚子辛亥是傷官壬子癸亥則非",
+      "digitalFolios": [
+        "005-94a"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [
+        "005-94a"
+      ],
+      "voice": "compiler-commentary",
+      "disposition": "explicit-disagreement",
+      "readingNote": "Lời bình chỉ 庚子辛亥 là 傷官, 壬子癸亥 không phải; không xóa bốn ngày nêu ở đầu, ảnh đoạn này chưa có.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-02-C01",
+      "unit": "FOOD-02",
+      "heading": "倒衝禄",
+      "startCleanCodepoint": 0,
+      "endCleanCodepoint": 3,
+      "text": "倒衝禄",
+      "digitalFolios": [
+        "005-94a"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [
+        "005-94a"
+      ],
+      "voice": "heading",
+      "disposition": "digital-only-heading",
+      "readingNote": "Đề mục và đầu mục ở khoảng94a–95b thiếu giữa188/189; không coi đã có ảnh đối.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-02-C02",
+      "unit": "FOOD-02",
+      "heading": "倒衝禄",
+      "startCleanCodepoint": 3,
+      "endCleanCodepoint": 157,
+      "text": "傷官月建内有倒衝禄馬格喜忌與飛天同惟時不論此格止有二日丙午丁巳夏月純陽丙以癸水為官要柱中午多有力衝出子中癸水則丙日得官星丁以壬水為官要柱中巳多有力衝出亥中壬水則丁日得官星更得丑寅或申辰卯未但有一字合住禄馬為妙多則不中丙午日怕未丁巳日怕申辰等字覊絆則己午貪合不能衝子亥中之禄柱有亥壬子癸為煞官顯露則减分數嵗運同",
+      "digitalFolios": [
+        "005-94b"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [
+        "005-94b"
+      ],
+      "voice": "main",
+      "disposition": "two-day-prerequisites-digital-only",
+      "readingNote": "Hai ngày 丙午丁巳, tháng hạ/thuần dương; các điều kiện xung lộc/câu hợp chỉ có bản số ở phần đầu.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-02-C03",
+      "unit": "FOOD-02",
+      "heading": "倒衝禄",
+      "startCleanCodepoint": 157,
+      "endCleanCodepoint": 218,
+      "text": "又曰丙午丁巳不論合禄只嫌覊絆年月併衝為上只月上有月内無則不能衝禄取貴日下無月時有亦可取用但丙午是刃雖貴終㓙一見合刃便為㓙命",
+      "digitalFolios": [
+        "005-94b",
+        "005-95a"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [
+        "005-94b",
+        "005-95a"
+      ],
+      "voice": "quoted-voice",
+      "disposition": "parallel-prerequisites-digital-only",
+      "readingNote": "Không luận hợp lộc/chỉ hiềm câu và khác vị trí năm/tháng/ngày/giờ; không hợp nhất với đoạn trước.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-02-C04",
+      "unit": "FOOD-02",
+      "heading": "倒衝禄",
+      "startCleanCodepoint": 218,
+      "endCleanCodepoint": 303,
+      "text": "若月令亥子官煞合格或透官煞有氣旺相反取合煞為大貴格不可専以日刃論不可全拘填實論丁巳日或見辛亥時柱中有己亥不妨格以丁生四月巳旺亥無氣三月亦取喜行水鄉見火則福只宜巳火餘火不宜",
+      "digitalFolios": [
+        "005-95a"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [
+        "005-95a"
+      ],
+      "voice": "main-or-quoted",
+      "disposition": "counterexample-digital-only",
+      "readingNote": "Không chuyên lấy nhật Nhận/lấp thực; 官煞 có khí và 丁巳/辛亥/己亥 là ngoại lệ có tiền đề.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-02-C05",
+      "unit": "FOOD-02",
+      "heading": "倒衝禄",
+      "startCleanCodepoint": 303,
+      "endCleanCodepoint": 358,
+      "text": "又曰此格有六日丙午丙寅丙戌丁巳丁未丁卯陽日為倒衝隂日為正衝丙日只有午字却用三合寅午戌全或三丙字喜印生助忌煞混雜",
+      "digitalFolios": [
+        "005-95a",
+        "005-95b"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [
+        "005-95a",
+        "005-95b"
+      ],
+      "voice": "quoted-voice",
+      "disposition": "six-day-variant-digital-only",
+      "readingNote": "Sáu ngày 丙午丙寅丙戌丁巳丁未丁卯 khác bản hai ngày; không ép chung.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-02-C06",
+      "unit": "FOOD-02",
+      "heading": "倒衝禄",
+      "startCleanCodepoint": 358,
+      "endCleanCodepoint": 673,
+      "text": "古歌云丙日無官局午多倒衝禄馬癸官和不逢未字來羈絆癸子俱無福嵯峩(又/)倒衝貴氣不同倫丙午飛衝子禄神癸水尅來為貴禄刑傷填實是常人(又/)倒衝禄馬貴非常丙日多逢午位良七煞不逢并惹絆白衣平歩入朝堂(又/)丙日重逢午字多莫言羊刃失中和如行火土翻成貴見子刑衝無奈何(又/)丁日蛇多是倒衝官星飛起出乾宫柱中不見亥壬字辰不留蛇福貴隆(又/)丁日衝官己要强亥為壬禄貴人鄉柱中不見辰壬癸嵗運相扶福禄昌(又/)禄馬倒衝人不知丁逢巳火亥衝宜柱無官煞併絆者年少榮華富貴竒(又/)丁日多逢巳字重局中無水貴和同傷官此格宜傷盡見亥刑衝數必空(又/)此格無官亦自臨倒衝對位禄源深丙宜午盛能衝子丁用巳多堪倒壬巳既惡辰為覊絆午尤嫌未是牽擒合神嵗運忽相遇更見填實禍不禁",
+      "digitalFolios": [
+        "005-95b",
+        "005-96a"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [
+        "005-95b"
+      ],
+      "voice": "ancient-song-sequence",
+      "disposition": "parallel-verses-mixed-availability",
+      "readingNote": "Ca quyết bắt đầu trước96a thiếu ảnh và tiếp trên189/190; không gọi toàn chuỗi ảnh đối.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    {
+      "id": "FOOD-02-C07",
+      "unit": "FOOD-02",
+      "heading": "倒衝禄",
+      "startCleanCodepoint": 673,
+      "endCleanCodepoint": 700,
+      "text": "詳諸詩止言丙午丁巳其餘四日並不論及是則以此二日倒衝為正",
+      "digitalFolios": [
+        "005-96a",
+        "005-96b"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "compiler-commentary",
+      "disposition": "two-day-preference",
+      "readingNote": "Lời bình ưu tiên hai ngày từ các bài thơ; giữ sáu ngày dẫn riêng, không dựng chuẩn chung cho mọi truyền bản.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    }
+  ],
+  "allImageCharactersCollated": false
+}

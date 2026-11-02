@@ -1,0 +1,91 @@
+{
+  "checks": [
+    {
+      "name": "Default result gives a concise summary with mutual sides visible and detailed layer reading collapsed",
+      "ok": true
+    },
+    {
+      "name": "Keyboard opens an accessible four-layer reading",
+      "ok": true
+    },
+    {
+      "name": "Wang example distinguishes control from same-element support without a combined verdict",
+      "ok": true
+    },
+    {
+      "name": "Extra6: actual browser places mutual roles on the correct original Body/Use sides",
+      "ok": true
+    },
+    {
+      "name": "Extra21: actual browser places mutual roles on the correct original Body/Use sides",
+      "ok": true
+    },
+    {
+      "name": "Pure1: displayed convention and layer roles agree while original Body remains the reference",
+      "ok": true
+    },
+    {
+      "name": "Pure8: displayed convention and layer roles agree while original Body remains the reference",
+      "ok": true
+    },
+    {
+      "name": "time: all casting paths render the same four-layer interface with a fresh collapsed state",
+      "ok": true
+    },
+    {
+      "name": "sound: all casting paths render the same four-layer interface with a fresh collapsed state",
+      "ok": true
+    },
+    {
+      "name": "direction: all casting paths render the same four-layer interface with a fresh collapsed state",
+      "ok": true
+    },
+    {
+      "name": "split: all casting paths render the same four-layer interface with a fresh collapsed state",
+      "ok": true
+    },
+    {
+      "name": "strokes: all casting paths render the same four-layer interface with a fresh collapsed state",
+      "ok": true
+    },
+    {
+      "name": "tones: all casting paths render the same four-layer interface with a fresh collapsed state",
+      "ok": true
+    },
+    {
+      "name": "length: all casting paths render the same four-layer interface with a fresh collapsed state",
+      "ok": true
+    },
+    {
+      "name": "zhang: all casting paths render the same four-layer interface with a fresh collapsed state",
+      "ok": true
+    },
+    {
+      "name": "chi: all casting paths render the same four-layer interface with a fresh collapsed state",
+      "ok": true
+    },
+    {
+      "name": "A saved cast recomputes every layer from canonical inputs and ignores injected derived data",
+      "ok": true
+    },
+    {
+      "name": "TXT opens all four layers and six reflection positions for export,then restores both collapsed readings",
+      "ok": true
+    },
+    {
+      "name": "TXT preserves a layer reading that was already open",
+      "ok": true
+    },
+    {
+      "name": "Before-print expands both readings and shows all layer cards while input controls are hidden",
+      "ok": true
+    },
+    {
+      "name": "After-print restores the previous collapsed states",
+      "ok": false
+    }
+  ],
+  "errors": [],
+  "http": [],
+  "pdfCreated": true
+}

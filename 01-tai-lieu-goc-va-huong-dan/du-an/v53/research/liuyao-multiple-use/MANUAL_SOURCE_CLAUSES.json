@@ -1,0 +1,77 @@
+{
+  "sourceID": "B02-NLC45344-CH032-LIANGXIAN",
+  "frameID": "quoted-old-method-two-declared-use-candidates",
+  "canonicalUnit": "B02-ch032",
+  "printedBodyHeading": "兩現章第三十一",
+  "headingMismatchIsNotNewUnit": true,
+  "rules": [
+    {
+      "id": "strength",
+      "field": "sourceStrength",
+      "discard": "休囚",
+      "prefer": "旺相",
+      "literal": "舍其休囚而用旺相",
+      "page": 134
+    },
+    {
+      "id": "motion",
+      "field": "sourceMotion",
+      "discard": "靜",
+      "prefer": "動",
+      "literal": "舍其靜爻而用動爻",
+      "page": 134
+    },
+    {
+      "id": "month-break",
+      "field": "sourceMonthBroken",
+      "discard": true,
+      "prefer": false,
+      "literal": "舍其月破而用不破",
+      "page": 134
+    },
+    {
+      "id": "void",
+      "field": "sourceVoid",
+      "discard": true,
+      "prefer": false,
+      "literal": "舍其旬空而用不空",
+      "page": 134
+    },
+    {
+      "id": "injury",
+      "field": "sourceInjured",
+      "discard": true,
+      "prefer": false,
+      "literal": "舍其被傷而用不傷",
+      "page": 134
+    }
+  ],
+  "sourceLayer": "quoted古法;notunconditionalauthoradoptedranking",
+  "counterexamples": [
+    {
+      "id": "void-used",
+      "page": 134,
+      "literal": "舍其不空而用旬空"
+    },
+    {
+      "id": "broken-used",
+      "page": 134,
+      "literal": "舍其不破而用月破"
+    },
+    {
+      "id": "three-uses",
+      "page": 135,
+      "literal": "此乃卦中用神三現而用月破也"
+    },
+    {
+      "id": "linked-repeat-casts",
+      "page": 136,
+      "literal": "合前二卦故敢竟許巳年"
+    }
+  ],
+  "fullRankingEstablished": false,
+  "independentClinicalOutcomeValidated": false,
+  "automaticUseSelection": false,
+  "sourcePredicatesAreDeclaredNotCalculated": true,
+  "scopeLimit": "Onlythefivequoteddichotomouscomparisonsfortwodeclaredcandidates.Nostars,calendar,vitalityorfinalpriority."
+}

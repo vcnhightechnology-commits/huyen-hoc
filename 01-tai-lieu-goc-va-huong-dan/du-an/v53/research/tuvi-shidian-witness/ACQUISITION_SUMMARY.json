@@ -1,0 +1,85 @@
+{
+  "date": "2026-10-29",
+  "publicHTMLBodies200": 1,
+  "publicClientSupportBodies200": 10,
+  "publicOriginalImageBodies": 0,
+  "newMasterContainers": 0,
+  "newIndependentEditionsEstablished": 0,
+  "networkAudit": "Initial Python sandbox request failed with local WinError10061; authorized host-network PowerShell request succeeded with ordinary TLS validation. HOST_REQUEST records successful response. Initial console Select-Object on ordered hashtable showed null fields; authoritative saved audit and body SHA confirm HTTP200/992096bytes. No second download was needed to fix console formatting.",
+  "publicImageRouteFinding": "Retrieved public reader client calls bookPagesV3 only after getPtokenStatus and decrypts picUrl per urlEncryptType. No token constructed, no decrypt executed, no image API called or source restriction bypassed. Public raw text and metadata remain usable as a digital transcription.",
+  "publicRoute404Leads": "Web tool book-root URLs returned404 while chapter URL succeeded. Not treated as absence of the work; no downloaded404body claimed.",
+  "pageAttribution": "Platform labels library 日本内阁文库, edition 南阳堂刊本/明. This is platform attribution, not independently proved imprint date or a new physical copy.",
+  "packageBoundary": "This digital-witness audit and parsed files were created after current package inventory. Do not claim they are all in the current source ZIP or V53 manifest.",
+  "clientBodies": [
+    {
+      "url": "https://lf-welfare.amemv.com/obj/douyin-welfare-image/guji/shidian/static/js/async/__session/(lang$)/book/$.4e315211.js",
+      "file": "public-book-reader.js",
+      "status": 200,
+      "bytes": 925,
+      "sha256": "a62131857d72d3dcbf077f2ccfa326d8e08dbb7d1fa10acef5c79c26474f3a79"
+    },
+    {
+      "url": "https://lf-welfare.amemv.com/obj/douyin-welfare-image/guji/shidian/7111.c595f1ca.js",
+      "file": "client-7111.c595f1ca.js",
+      "status": 200,
+      "bytes": 47791,
+      "sha256": "35796fd23da81bcd70d944d5d20879dabb1ea145f511e4ac78ae0548d3de8e78"
+    },
+    {
+      "url": "https://lf-welfare.amemv.com/obj/douyin-welfare-image/guji/shidian/1265.fdab5d3f.js",
+      "file": "client-1265.fdab5d3f.js",
+      "status": 200,
+      "bytes": 179520,
+      "sha256": "6e6967367b646cadd3addf08ab0f548851c68619710683f45c91707ad71768c9"
+    },
+    {
+      "url": "https://lf-welfare.amemv.com/obj/douyin-welfare-image/guji/shidian/4994.ae981763.js",
+      "file": "client-4994.ae981763.js",
+      "status": 200,
+      "bytes": 488639,
+      "sha256": "89378234c03532714a0b7c768761a04a1bee07d00701c5b36838f786fc5b54e7"
+    },
+    {
+      "url": "https://lf-welfare.amemv.com/obj/douyin-welfare-image/guji/shidian/1746.0cd03317.js",
+      "file": "client-1746.0cd03317.js",
+      "status": 200,
+      "bytes": 2307871,
+      "sha256": "473c7f818696a16d9bfb1e475502578fc9bf3a09c499b0cb261cf59af9084c9c"
+    },
+    {
+      "url": "https://lf-welfare.amemv.com/obj/douyin-welfare-image/guji/shidian/7227.b637795c.js",
+      "file": "client-7227.b637795c.js",
+      "status": 200,
+      "bytes": 1465,
+      "sha256": "8be0c3f777b3272b30b64517323e24767c84ac89d1d2ba9a620c2ff84cf98f0d"
+    },
+    {
+      "url": "https://lf-welfare.amemv.com/obj/douyin-welfare-image/guji/shidian/5456.17c717b4.js",
+      "file": "client-5456.17c717b4.js",
+      "status": 200,
+      "bytes": 76849,
+      "sha256": "e4b34947bb020499224fe156f1c9cac8f7bb7946afe012655da04e9ecf5fee74"
+    },
+    {
+      "url": "https://lf-welfare.amemv.com/obj/douyin-welfare-image/guji/shidian/5796.f6337c0f.js",
+      "file": "client-5796.f6337c0f.js",
+      "status": 200,
+      "bytes": 144911,
+      "sha256": "0094fd232db6952ec52479097499d1b0f080d99300316feeac4067b0cf92ec76"
+    },
+    {
+      "url": "https://lf-welfare.amemv.com/obj/douyin-welfare-image/guji/shidian/7691.d2ca499c.js",
+      "file": "client-7691.d2ca499c.js",
+      "status": 200,
+      "bytes": 542032,
+      "sha256": "29abf8302d2b9a0588fdcf7a43a39347f5401d8fb4727bd296321d360b0718c6"
+    },
+    {
+      "url": "https://lf-welfare.amemv.com/obj/douyin-welfare-image/guji/shidian/8920.c8dfe8e9.js",
+      "file": "client-8920.c8dfe8e9.js",
+      "status": 200,
+      "bytes": 138687,
+      "sha256": "9ca8f632ba094c14265b1ce5f0f56f1324b85a6c5b8ef963bcc5fba56d2bea02"
+    }
+  ]
+}

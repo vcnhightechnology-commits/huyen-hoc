@@ -1,0 +1,439 @@
+{
+  "frames": [
+    {
+      "input": {
+        "system": "P08-DAY-INTRO-131",
+        "frame": "declared-day-table-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": false,
+        "genericBeneficPresent": false,
+        "listedStarClauseSatisfied": null
+      },
+      "expectedLocalAvoidanceClaim": false,
+      "expectedLocalFavourableClaim": null
+    },
+    {
+      "input": {
+        "system": "P08-DAY-INTRO-131",
+        "frame": "declared-day-table-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": false,
+        "genericBeneficPresent": null,
+        "listedStarClauseSatisfied": null
+      },
+      "expectedLocalAvoidanceClaim": false,
+      "expectedLocalFavourableClaim": null
+    },
+    {
+      "input": {
+        "system": "P08-DAY-INTRO-131",
+        "frame": "declared-day-table-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": false,
+        "genericBeneficPresent": true,
+        "listedStarClauseSatisfied": null
+      },
+      "expectedLocalAvoidanceClaim": false,
+      "expectedLocalFavourableClaim": null
+    },
+    {
+      "input": {
+        "system": "P08-DAY-INTRO-131",
+        "frame": "declared-day-table-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": null,
+        "genericBeneficPresent": false,
+        "listedStarClauseSatisfied": null
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": null
+    },
+    {
+      "input": {
+        "system": "P08-DAY-INTRO-131",
+        "frame": "declared-day-table-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": null,
+        "genericBeneficPresent": null,
+        "listedStarClauseSatisfied": null
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": null
+    },
+    {
+      "input": {
+        "system": "P08-DAY-INTRO-131",
+        "frame": "declared-day-table-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": null,
+        "genericBeneficPresent": true,
+        "listedStarClauseSatisfied": null
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": null
+    },
+    {
+      "input": {
+        "system": "P08-DAY-INTRO-131",
+        "frame": "declared-day-table-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": true,
+        "genericBeneficPresent": false,
+        "listedStarClauseSatisfied": null
+      },
+      "expectedLocalAvoidanceClaim": true,
+      "expectedLocalFavourableClaim": null
+    },
+    {
+      "input": {
+        "system": "P08-DAY-INTRO-131",
+        "frame": "declared-day-table-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": true,
+        "genericBeneficPresent": null,
+        "listedStarClauseSatisfied": null
+      },
+      "expectedLocalAvoidanceClaim": true,
+      "expectedLocalFavourableClaim": null
+    },
+    {
+      "input": {
+        "system": "P08-DAY-INTRO-131",
+        "frame": "declared-day-table-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": true,
+        "genericBeneficPresent": true,
+        "listedStarClauseSatisfied": null
+      },
+      "expectedLocalAvoidanceClaim": true,
+      "expectedLocalFavourableClaim": null
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": false,
+        "genericBeneficPresent": false,
+        "listedStarClauseSatisfied": false
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": false
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": false,
+        "genericBeneficPresent": false,
+        "listedStarClauseSatisfied": null
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": false
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": false,
+        "genericBeneficPresent": false,
+        "listedStarClauseSatisfied": true
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": false
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": false,
+        "genericBeneficPresent": null,
+        "listedStarClauseSatisfied": false
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": false
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": false,
+        "genericBeneficPresent": null,
+        "listedStarClauseSatisfied": null
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": false
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": false,
+        "genericBeneficPresent": null,
+        "listedStarClauseSatisfied": true
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": false
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": false,
+        "genericBeneficPresent": true,
+        "listedStarClauseSatisfied": false
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": false
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": false,
+        "genericBeneficPresent": true,
+        "listedStarClauseSatisfied": null
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": false
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": false,
+        "genericBeneficPresent": true,
+        "listedStarClauseSatisfied": true
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": false
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": null,
+        "genericBeneficPresent": false,
+        "listedStarClauseSatisfied": false
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": false
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": null,
+        "genericBeneficPresent": false,
+        "listedStarClauseSatisfied": null
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": null
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": null,
+        "genericBeneficPresent": false,
+        "listedStarClauseSatisfied": true
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": null
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": null,
+        "genericBeneficPresent": null,
+        "listedStarClauseSatisfied": false
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": false
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": null,
+        "genericBeneficPresent": null,
+        "listedStarClauseSatisfied": null
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": null
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": null,
+        "genericBeneficPresent": null,
+        "listedStarClauseSatisfied": true
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": null
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": null,
+        "genericBeneficPresent": true,
+        "listedStarClauseSatisfied": false
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": false
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": null,
+        "genericBeneficPresent": true,
+        "listedStarClauseSatisfied": null
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": null
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": null,
+        "genericBeneficPresent": true,
+        "listedStarClauseSatisfied": true
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": null
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": true,
+        "genericBeneficPresent": false,
+        "listedStarClauseSatisfied": false
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": false
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": true,
+        "genericBeneficPresent": false,
+        "listedStarClauseSatisfied": null
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": null
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": true,
+        "genericBeneficPresent": false,
+        "listedStarClauseSatisfied": true
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": true
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": true,
+        "genericBeneficPresent": null,
+        "listedStarClauseSatisfied": false
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": false
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": true,
+        "genericBeneficPresent": null,
+        "listedStarClauseSatisfied": null
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": null
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": true,
+        "genericBeneficPresent": null,
+        "listedStarClauseSatisfied": true
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": true
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": true,
+        "genericBeneficPresent": true,
+        "listedStarClauseSatisfied": false
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": false
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": true,
+        "genericBeneficPresent": true,
+        "listedStarClauseSatisfied": null
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": null
+    },
+    {
+      "input": {
+        "system": "ITKC-MONTH-DIRECTION-244",
+        "frame": "declared-monthly-direction-context",
+        "activity": "printed-dwelling-work",
+        "affectedContextConfirmed": true,
+        "genericBeneficPresent": true,
+        "listedStarClauseSatisfied": true
+      },
+      "expectedLocalAvoidanceClaim": null,
+      "expectedLocalFavourableClaim": true
+    }
+  ],
+  "frozenBeforeImplementation": true,
+  "allOverallRecommendations": null,
+  "consumerApplied": false
+}

@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-27",
+  "scope": "printed-opening-figure-structures-only",
+  "fixtureCount": 2,
+  "actualHHCHexCalls": 4,
+  "actualPrivateCompileCalls": 2,
+  "engineSHA256": "39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6",
+  "results": [
+    {
+      "id": "book6-p2-jiji-ge",
+      "pdfPage": 2,
+      "question": 1,
+      "sourceSubject": "弟病",
+      "sourceMonth": "辰",
+      "sourceDayGanZhi": "丙申",
+      "sourceFigureReading": "既濟之革",
+      "primaryNumber": 63,
+      "changedNumber": 49,
+      "values": [
+        7,
+        8,
+        7,
+        6,
+        7,
+        8
+      ],
+      "movingLines": [
+        4
+      ],
+      "sourceSelectedChanges": [
+        {
+          "line": 4,
+          "primaryBranch": "申",
+          "changedBranch": "亥"
+        }
+      ],
+      "ok": true,
+      "actualEnginePrimary": 63,
+      "actualEngineChanged": 49,
+      "actualPrivateMovingLines": [
+        4
+      ],
+      "allPrintedLineAnnotationsCollated": false,
+      "sourceOutcomeIndependentlyVerified": false,
+      "sourceMonthDayConvertedToGregorian": false
+    },
+    {
+      "id": "book6-p3-kun-heng",
+      "pdfPage": 3,
+      "question": 1,
+      "sourceSubject": "弟被訟",
+      "sourceMonth": "午",
+      "sourceDayGanZhi": "丁未",
+      "sourceFigureReading": "困之恆",
+      "primaryNumber": 47,
+      "changedNumber": 32,
+      "values": [
+        8,
+        7,
+        6,
+        7,
+        9,
+        8
+      ],
+      "movingLines": [
+        3,
+        5
+      ],
+      "sourceSelectedChanges": [
+        {
+          "line": 3,
+          "primaryBranch": "午",
+          "changedBranch": "酉"
+        },
+        {
+          "line": 5,
+          "primaryBranch": "酉",
+          "changedBranch": "申"
+        }
+      ],
+      "ok": true,
+      "actualEnginePrimary": 47,
+      "actualEngineChanged": 32,
+      "actualPrivateMovingLines": [
+        3,
+        5
+      ],
+      "allPrintedLineAnnotationsCollated": false,
+      "sourceOutcomeIndependentlyVerified": false,
+      "sourceMonthDayConvertedToGregorian": false
+    }
+  ],
+  "qaImages": [
+    {
+      "pdfPage": 2,
+      "image": "images/printed-p2-qa.png",
+      "sha256": "ebf116345f807784d907a51f7c8ee57436fd354a3b1fa54eb9d3ceed7ce72f7e",
+      "dpi": 360
+    },
+    {
+      "pdfPage": 3,
+      "image": "images/printed-p3-qa.png",
+      "sha256": "66da517a6d801e2ce80fffd857d53caf657c310d3e6a9e7f041d93b58a042f76",
+      "dpi": 360
+    }
+  ],
+  "rawSourcePDFSHA256": "1d6c656828533ac52ae1fd4ff06cc3c025db98ae5458dc686eda2a6b1d11f07f",
+  "sourceInstructionsAreData": true,
+  "consumerChanged": false,
+  "allBook6QuestionsRead": false,
+  "wholeBookApplied": false
+}

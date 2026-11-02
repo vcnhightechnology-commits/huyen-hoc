@@ -1,0 +1,61 @@
+{
+  "sourceID": "TMTH005-FOOD-C31-Mijue",
+  "parent": {
+    "id": "FOOD-00-C31",
+    "unit": "FOOD-00",
+    "heading": "論食神",
+    "startCleanCodepoint": 1984,
+    "endCleanCodepoint": 2003,
+    "text": "秘訣云食神一位勝似財官戊日庚時不宜火旺",
+    "digitalFolios": [
+      "005-90a"
+    ],
+    "digitalOnlyFoliosWithinKnownContinuityGap": [],
+    "voice": "Mijue",
+    "disposition": "specific-stem-conditional",
+    "readingNote": "戊日庚時/không hỏa vượng cùng câu một Thực; không đồng nhất có 丙 với hỏa vượng.",
+    "firstPassRead": true,
+    "allCharactersImageCollated": false,
+    "fullConditionalRuleEncoded": false,
+    "sourceOutcomeValidated": false,
+    "consumerApplied": false
+  },
+  "selectedClause": "戊日庚時不宜火旺",
+  "sourceVoice": "秘訣",
+  "explicitDayStem": "戊",
+  "explicitHourStem": "庚",
+  "unimplementedPrecedingPhrase": "食神一位勝似財官",
+  "singlePlaceDoesNotAutomaticallyMeanVisibleCountOne": true,
+  "effectiveFireStrengthMustBeDeclared": true,
+  "noAutomaticFireClassificationFromSummerOrVisibleStem": true,
+  "neighborC30": {
+    "context": {
+      "id": "FOOD-00-C30",
+      "unit": "FOOD-00",
+      "heading": "論食神",
+      "startCleanCodepoint": 1966,
+      "endCleanCodepoint": 1984,
+      "text": "寳鑑賦云月露食神時露官榮顯烏臺助國臣",
+      "digitalFolios": [
+        "005-90a"
+      ],
+      "digitalOnlyFoliosWithinKnownContinuityGap": [],
+      "voice": "Baojian",
+      "disposition": "position-conditional",
+      "readingNote": "月食/時官 là vị trí riêng, không đồng nghĩa điều kiện chung cấm Quan.",
+      "firstPassRead": true,
+      "allCharactersImageCollated": false,
+      "fullConditionalRuleEncoded": false,
+      "sourceOutcomeValidated": false,
+      "consumerApplied": false
+    },
+    "hourOfficialMeaningUnresolved": true,
+    "strictZhengguanVersusGenericGuanShaNotChosen": true,
+    "implemented": false
+  },
+  "C13FireEarthStrengthConditionsHaveDifferentSourceContext": true,
+  "notUniversalFoodGodFireProhibition": true,
+  "wholeContextApplied": false,
+  "sourceOutcomeValidated": false,
+  "consumerApplied": false
+}

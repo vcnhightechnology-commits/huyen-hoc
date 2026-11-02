@@ -1,0 +1,55 @@
+{
+  "schema": "hhc.meihua.season-premises.v1",
+  "evidencePDFPages": [
+    60,
+    84,
+    85,
+    90
+  ],
+  "seasons": {
+    "spring": {
+      "strong": "Mộc",
+      "oppressed": "Thổ"
+    },
+    "summer": {
+      "strong": "Hỏa",
+      "oppressed": "Kim"
+    },
+    "autumn": {
+      "strong": "Kim",
+      "oppressed": "Mộc"
+    },
+    "winter": {
+      "strong": "Thủy",
+      "oppressed": "Hỏa"
+    },
+    "earth-months": {
+      "strong": "Thổ",
+      "oppressed": "Thủy"
+    }
+  },
+  "branchStrong": {
+    "子": "Thủy",
+    "丑": "Thổ",
+    "寅": "Mộc",
+    "卯": "Mộc",
+    "辰": "Thổ",
+    "巳": "Hỏa",
+    "午": "Hỏa",
+    "未": "Thổ",
+    "申": "Kim",
+    "酉": "Kim",
+    "戌": "Thổ",
+    "亥": "Thủy"
+  },
+  "calendarBoundaryEstablished": false,
+  "monthDayPriorityEstablished": false,
+  "unspecifiedElementsNotAssignedAFullFiveStateTable": true,
+  "gregorianDateAutoConverted": false,
+  "desiredStateByRole": {
+    "body": "strong",
+    "supporter": "strong",
+    "controller": "oppressed"
+  },
+  "consumerApplied": false
+}

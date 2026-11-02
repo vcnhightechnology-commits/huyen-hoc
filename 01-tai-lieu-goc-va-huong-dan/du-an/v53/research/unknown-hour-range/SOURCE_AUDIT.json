@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-26",
+  "newNetworkDownloads": 0,
+  "primaryTextPages": "TamMing WYG002-66a..68a, pinned transcription already retained; not newly image-collated here",
+  "softwareWitness": "lunar-typescript1.8.6 locally executed via v46/node_modules, sect2",
+  "convention": "The exhaustive supported-minute grid is an implementation convention, distinct from the original text.",
+  "files": [
+    {
+      "file": "bazi-cycles.js",
+      "bytes": 6344,
+      "sha256": "42fe0ee5ad57ed769f7f467deab20fb842bc869f8c28a38255316203d7e617e3"
+    },
+    {
+      "file": "engine.js",
+      "bytes": 41825,
+      "sha256": "462fb78b222f4d17b761f785b42700b4241d0f0e82723d0ff09a0e2aca551dee"
+    },
+    {
+      "file": "research/full-study/bazi/RESEARCH_NOTES.md",
+      "bytes": 15159,
+      "sha256": "6a57db1a3afc2a3ce0cc05a12a789cdddb758fbdfd159a8bb32460e9285b7504"
+    },
+    {
+      "file": "research/four-items/sources/KR3g0042_002.txt",
+      "bytes": 123566,
+      "sha256": "b0f9badc8aff64ee137392277eb2f7a428c39a9d8c9faa3154f79c626c2131b4"
+    },
+    {
+      "file": "../v46/node_modules/lunar-typescript/package.json",
+      "bytes": 2188,
+      "sha256": "f66f1217e67e227f77b7a35b3c5b40d3835842856920e99ebd7e10f2d940e21c"
+    },
+    {
+      "file": "../v46/node_modules/lunar-typescript/dist/lib/Yun.mjs",
+      "bytes": 2461,
+      "sha256": "2ed582552a6360697a6b0b40ebac76af6bcae686d6c5310bc57abd2ee5e8629d"
+    },
+    {
+      "file": "../v46/node_modules/lunar-typescript/dist/lib/Solar.mjs",
+      "bytes": 14089,
+      "sha256": "c243a29d2d771a0d85de70d300a888cfc00c643179f3175d35178ed16a0afe32"
+    }
+  ],
+  "identityNote": "Hashes identify retained local bytes, not publisher signatures. No new claim of tarball byte verification is made in this range audit."
+}

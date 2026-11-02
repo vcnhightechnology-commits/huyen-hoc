@@ -1,0 +1,116 @@
+{
+  "date": "2026-10-28",
+  "contextID": "FOOD-00-C20",
+  "sourceContainerPages": [
+    177,
+    178
+  ],
+  "digitalFolios": [
+    "005-88a",
+    "005-88b"
+  ],
+  "records": [
+    {
+      "dayStems": [
+        "甲",
+        "乙"
+      ],
+      "foodStems": [
+        "丙",
+        "丁"
+      ],
+      "branches": [
+        "寅",
+        "卯",
+        "巳",
+        "午"
+      ]
+    },
+    {
+      "dayStems": [
+        "丙",
+        "丁"
+      ],
+      "foodStems": [
+        "戊",
+        "己"
+      ],
+      "branches": [
+        "辰",
+        "戌",
+        "丑",
+        "未"
+      ]
+    },
+    {
+      "dayStems": [
+        "戊",
+        "己"
+      ],
+      "foodStems": [
+        "庚",
+        "辛"
+      ],
+      "branches": [
+        "巳",
+        "午",
+        "申",
+        "酉"
+      ]
+    },
+    {
+      "dayStems": [
+        "庚",
+        "辛"
+      ],
+      "foodStems": [
+        "壬",
+        "癸"
+      ],
+      "branches": [
+        "申",
+        "酉",
+        "亥",
+        "子"
+      ]
+    },
+    {
+      "dayStems": [
+        "壬",
+        "癸"
+      ],
+      "foodStems": [
+        "甲",
+        "乙"
+      ],
+      "branches": [
+        "亥",
+        "子",
+        "寅",
+        "卯"
+      ]
+    }
+  ],
+  "manualGroupRows": 5,
+  "directListedBranchMemberships": 20,
+  "correspondenceWithinEachStemPair": "Day-food stem correspondence requires fixed 食神 relation from chapter context, not both food stems for each day.",
+  "codepointCollationComplete": false,
+  "sourceChapterFullStrengthDefinition": false,
+  "sourceOutcomeValidated": false,
+  "consumerApplied": false,
+  "entryMethod": "Manual canonical stem/branch reading of five printed family lists; not diplomatic identity of every glyph.",
+  "explicitEditorialNormalizations": [
+    {
+      "sourceForms": "邜/夘",
+      "canonicalBranch": "卯",
+      "basis": "Declared canonical branch reading; source forms retained in digital corpus, not rewritten."
+    },
+    {
+      "sourceForms": "己/巳 in corresponding stem or branch positions",
+      "canonicalStem": "己",
+      "canonicalBranch": "巳",
+      "basis": "Explicit role-based editorial canonicalization to the ten-stem or twelve-branch alphabet. Not asserted as independent proof of each printed stroke."
+    }
+  ],
+  "normalizationIsNotFullCharacterCollation": true
+}

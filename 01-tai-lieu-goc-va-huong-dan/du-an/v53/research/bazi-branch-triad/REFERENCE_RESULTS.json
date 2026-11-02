@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-29",
+  "passed": true,
+  "groups": 8,
+  "frozenFiles": 5,
+  "expectedCases": 12,
+  "exhaustiveKnownSlotFrames": 20736,
+  "exhaustiveGroupQueries": 103680,
+  "analyticCompleteCounts": {
+    "water": 252,
+    "metal": 252,
+    "fire": 252,
+    "wood": 252,
+    "four-earth": 24
+  },
+  "partialUnknownFrames": 71,
+  "nullInvariants": 726341,
+  "unsupportedRequests": 18,
+  "invalidInputs": 8,
+  "editorialChapterUnits": 22,
+  "digitalCleanCodepoints": 807,
+  "retainedActualHHCTenGodCalls": 20,
+  "retainedActualLuTableQueries": 2,
+  "newEngineCallsDuringTests": 0,
+  "actualNatalCharts": 0,
+  "wholeChapterApplied": false,
+  "consumerChanged": false
+}

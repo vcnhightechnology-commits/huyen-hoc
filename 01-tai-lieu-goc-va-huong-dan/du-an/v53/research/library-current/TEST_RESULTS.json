@@ -1,0 +1,74 @@
+{
+  "date": "2026-10-26",
+  "checks": [
+    {
+      "name": "Every one of 40 catalogue entries retains its original ID and URL",
+      "ok": true
+    },
+    {
+      "name": "All 16 overlapping module references remain separately identifiable",
+      "ok": true
+    },
+    {
+      "name": "38 canonical catalogue URLs preserve duplicate CText and general-portal pairs",
+      "ok": true
+    },
+    {
+      "name": "Two general portals are not promoted into possessed or fully applied books",
+      "ok": true
+    },
+    {
+      "name": "No source record is mislabeled as an entire work fully applied",
+      "ok": true
+    },
+    {
+      "name": "Four partial-work records and four inherited URL claims are counted without double counting",
+      "ok": true
+    },
+    {
+      "name": "Alternate witnesses do not silently verify legacy original URLs",
+      "ok": true
+    },
+    {
+      "name": "Current execution corresponds to the actual published standalone HTML",
+      "ok": true
+    },
+    {
+      "name": "All loaded module hashes and consumer rendering connections are current",
+      "ok": true
+    },
+    {
+      "name": "Runtime confirms 384 individual ordinary line readings and only two all-moving supplements",
+      "ok": true
+    },
+    {
+      "name": "Runtime confirms ten relationship labels, twelve hidden-stem branches and unknown-hour handling",
+      "ok": true
+    },
+    {
+      "name": "Runtime confirms date-based period flow and split16 annual month intervals",
+      "ok": true
+    },
+    {
+      "name": "Runtime confirms seven room guides and ambiguity-preserving bearing lookup",
+      "ok": true
+    },
+    {
+      "name": "Every current evidence file exists and matches its recorded bytes and hash",
+      "ok": true
+    },
+    {
+      "name": "The alternate Yuanhai scan and targeted page image retain the recorded bytes",
+      "ok": true
+    },
+    {
+      "name": "Historical audit is preserved rather than rewritten as a new result",
+      "ok": true
+    },
+    {
+      "name": "The all-applied condition is false and no bulk new download is claimed",
+      "ok": true
+    }
+  ],
+  "scope": "Current catalogue/source tracing and actual runtime capability inspection. No fresh whole-work philological review or independent predictive validation."
+}

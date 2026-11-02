@@ -1,0 +1,60 @@
+{
+  "date": "2026-10-27",
+  "sourceID": "B02-ch029-033",
+  "sourceDatesConvertedToGregorian": false,
+  "historicalOutcomesValidated": false,
+  "fixtures": [
+    {
+      "id": "b02-progress-exam",
+      "page": 117,
+      "sourceHeading": "申月癸卯日占鄉試得恒變大過",
+      "values": [
+        8,
+        7,
+        7,
+        7,
+        6,
+        8
+      ],
+      "primary": 32,
+      "changed": 28,
+      "movingLines": [
+        5
+      ],
+      "selectedChanges": [
+        {
+          "line": 5,
+          "primaryBranch": "申",
+          "changedBranch": "酉"
+        }
+      ],
+      "additionalSourceDarkMotionNotConvertedToCastMark": {
+        "line": 3,
+        "reason": "source discusses卯日沖酉 as暗動;not another printed6/9 castmark"
+      }
+    },
+    {
+      "id": "b02-single-motion-rain",
+      "page": 131,
+      "sourceHeading": "午月甲申日防漲水沖去麥子占何日晴",
+      "values": [
+        7,
+        8,
+        7,
+        7,
+        7,
+        9
+      ],
+      "primary": 13,
+      "changed": 49,
+      "movingLines": [
+        6
+      ],
+      "selectedChanges": [],
+      "sourcePrimaryTopBranch": "戌",
+      "sourcePrimaryTopKin": "子孫",
+      "figureNumbersEditorialFromReadDiagramNotPrintedNames": true,
+      "sourceOutcomeValidated": false
+    }
+  ]
+}

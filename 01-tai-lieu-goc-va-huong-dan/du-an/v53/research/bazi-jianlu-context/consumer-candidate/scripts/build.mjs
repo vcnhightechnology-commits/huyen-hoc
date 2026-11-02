@@ -1,0 +1,8 @@
+import {readFile,writeFile} from 'node:fs/promises';
+import {resolve,dirname} from 'node:path';import{fileURLToPath}from'node:url';
+const root=resolve(dirname(fileURLToPath(import.meta.url)),'..');let html=await readFile(resolve(root,'index.html'),'utf8');
+for(const file of ['styles.css','imagery.css','experience.css','home.css','yi-lines.css','meihua.css','four-items.css','bazi-locations.css','full-study.css','fortune-context.css','home-measured-plan.css']){const css=await readFile(resolve(root,file),'utf8');html=html.replace(`<link rel="stylesheet" href="${file}">`,()=>`<style>\n${css}\n</style>`)}
+const images={};for(const name of ['hero-landscape','celestial-illustration','lotus-still-life'])images[`assets/${name}.webp`]=`data:image/webp;base64,${(await readFile(resolve(root,`assets/${name}.webp`))).toString('base64')}`;
+for(const [path,data]of Object.entries(images))html=html.replaceAll(`src="${path}"`,`src="${data}"`);
+for(const file of ['engine.js','content.js','yi-content.js','yi-complete-data.js','yi-lines.js','bazi-relations.js','bazi-month-context.js','bazi-cycles.js','tuvi-context.js','yi-context.js','fortune-context.js','fortune.js','fortune-months.js','mountains.js','bearing-guide.js','art.js','home-content.js','home-guide.js','home-internal-doors.js','home-measured-plan.js','meihua.js','app.js']){let js=await readFile(resolve(root,file),'utf8');for(const [path,data]of Object.entries(images))js=js.replaceAll(path,data);html=html.replace(`<script src="${file}"></script>`,()=>`<script>\n${js.replace(/<\/script/gi,'<\\/script')}\n</script>`)}
+await writeFile(resolve(root,'Huyen_Hoc_Cac.html'),html,'utf8');console.log('Built portable HTML:',Buffer.byteLength(html),'bytes');

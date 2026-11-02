@@ -1,0 +1,8115 @@
+{
+  "date": "2026-10-26T05:49:29.449Z",
+  "checks": [
+    {
+      "name": "Twelve unknown-hour cases match all17,280 actual known-minute calculations across eleven boundaries",
+      "ok": true,
+      "detail": {
+        "cases": 12,
+        "clocks": 17280,
+        "boundaryComparisons": 264,
+        "interiorExtrema": 0,
+        "scope": "Same HHC convention evaluated exhaustively; this is not an independent calendar source."
+      }
+    },
+    {
+      "name": "Every cycle uses its own date-clamped range and joins the next range exactly",
+      "ok": true
+    },
+    {
+      "name": "Pillar changes during a day suppress intervals instead of merging incompatible charts",
+      "ok": true
+    },
+    {
+      "name": "The complete range is independent of any internal unknown-hour anchor",
+      "ok": true
+    },
+    {
+      "name": "Cached intervals cannot be corrupted by mutating a previous result",
+      "ok": true
+    },
+    {
+      "name": "Two complete birth-day sweeps also agree with2,880 real lunar-typescript sect2 onsets when solar-term minutes agree",
+      "ok": true,
+      "detail": {
+        "calls": 2880,
+        "equal": 2880,
+        "timezone": 8,
+        "date": "2026-10-15",
+        "scope": "These dates have matching solar-term minute conventions; prior124second discrepancies on other dates remain unresolved."
+      }
+    },
+    {
+      "name": "Consumer copy labels an interval without inventing a unique onset or a missing hour pillar",
+      "ok": true
+    },
+    {
+      "name": "Existing engines remain unchanged and every reused source byte/hash is verified",
+      "ok": true
+    }
+  ],
+  "clockComparisons": 17280,
+  "rangeEndpointComparisons": 264,
+  "referenceCalls": 2880,
+  "referenceExact": 2880,
+  "reference": [
+    {
+      "input": {
+        "y": 2026,
+        "m": 10,
+        "d": 15,
+        "tz": 8,
+        "gender": "male"
+      },
+      "referenceEarliest": "2034-05-15T09:59:00.000Z",
+      "referenceLatest": "2034-09-13T08:00:00.000Z",
+      "hhcEarliest": {
+        "y": 2034,
+        "m": 5,
+        "d": 15,
+        "hour": 9,
+        "minute": 59
+      },
+      "hhcLatest": {
+        "y": 2034,
+        "m": 9,
+        "d": 13,
+        "hour": 8,
+        "minute": 0
+      },
+      "rangeEqual": true
+    },
+    {
+      "input": {
+        "y": 2026,
+        "m": 10,
+        "d": 15,
+        "tz": 8,
+        "gender": "female"
+      },
+      "referenceEarliest": "2028-12-02T14:00:00.000Z",
+      "referenceLatest": "2029-04-02T11:59:00.000Z",
+      "hhcEarliest": {
+        "y": 2028,
+        "m": 12,
+        "d": 2,
+        "hour": 14,
+        "minute": 0
+      },
+      "hhcLatest": {
+        "y": 2029,
+        "m": 4,
+        "d": 2,
+        "hour": 11,
+        "minute": 59
+      },
+      "rangeEqual": true
+    }
+  ],
+  "results": [
+    {
+      "input": {
+        "y": 2026,
+        "m": 10,
+        "d": 15,
+        "tz": 8,
+        "gender": "male"
+      },
+      "coldInspectionMs": 239.5956,
+      "range": {
+        "samples": 1440,
+        "minuteResolution": 1,
+        "convention": "Bounds over each supported birth minute in the stated civil day; not a claim that every intermediate start instant is achievable.",
+        "boundaries": [
+          {
+            "earliest": {
+              "y": 2034,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2034,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2044,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2044,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2054,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2054,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2064,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2064,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2074,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2074,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2084,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2084,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2094,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2094,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2104,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2104,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2114,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2114,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2124,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2124,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2134,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2134,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        ]
+      },
+      "cycles": [
+        {
+          "number": 1,
+          "stem": 5,
+          "branch": 11,
+          "name": "Kỷ Hợi",
+          "god": "Chính Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2034,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2034,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2044,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2044,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 2,
+          "stem": 6,
+          "branch": 0,
+          "name": "Canh Tý",
+          "god": "Thiên Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2044,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2044,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2054,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2054,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 3,
+          "stem": 7,
+          "branch": 1,
+          "name": "Tân Sửu",
+          "god": "Chính Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2054,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2054,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2064,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2064,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 4,
+          "stem": 8,
+          "branch": 2,
+          "name": "Nhâm Dần",
+          "god": "Tỷ Kiên",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2064,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2064,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2074,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2074,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 5,
+          "stem": 9,
+          "branch": 3,
+          "name": "Quý Mão",
+          "god": "Kiếp Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2074,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2074,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2084,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2084,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 6,
+          "stem": 0,
+          "branch": 4,
+          "name": "Giáp Thìn",
+          "god": "Thực Thần",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2084,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2084,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2094,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2094,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 7,
+          "stem": 1,
+          "branch": 5,
+          "name": "Ất Tỵ",
+          "god": "Thương Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2094,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2094,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2104,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2104,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 8,
+          "stem": 2,
+          "branch": 6,
+          "name": "Bính Ngọ",
+          "god": "Thiên Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2104,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2104,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2114,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2114,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 9,
+          "stem": 3,
+          "branch": 7,
+          "name": "Đinh Mùi",
+          "god": "Chính Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2114,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2114,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2124,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2124,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 10,
+          "stem": 4,
+          "branch": 8,
+          "name": "Mậu Thân",
+          "god": "Thất Sát",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2124,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2124,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2134,
+              "m": 5,
+              "d": 15,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2134,
+              "m": 9,
+              "d": 13,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 2026,
+        "m": 10,
+        "d": 15,
+        "tz": 8,
+        "gender": "female"
+      },
+      "coldInspectionMs": 273.8423,
+      "range": {
+        "samples": 1440,
+        "minuteResolution": 1,
+        "convention": "Bounds over each supported birth minute in the stated civil day; not a claim that every intermediate start instant is achievable.",
+        "boundaries": [
+          {
+            "earliest": {
+              "y": 2028,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2029,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2038,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2039,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2048,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2049,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2058,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2059,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2068,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2069,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2078,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2079,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2088,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2089,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2098,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2099,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2108,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2109,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2118,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2119,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2128,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2129,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        ]
+      },
+      "cycles": [
+        {
+          "number": 1,
+          "stem": 3,
+          "branch": 9,
+          "name": "Đinh Dậu",
+          "god": "Chính Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2028,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2029,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2038,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2039,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 2,
+          "stem": 2,
+          "branch": 8,
+          "name": "Bính Thân",
+          "god": "Thiên Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2038,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2039,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2048,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2049,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 3,
+          "stem": 1,
+          "branch": 7,
+          "name": "Ất Mùi",
+          "god": "Thương Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2048,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2049,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2058,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2059,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 4,
+          "stem": 0,
+          "branch": 6,
+          "name": "Giáp Ngọ",
+          "god": "Thực Thần",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2058,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2059,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2068,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2069,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 5,
+          "stem": 9,
+          "branch": 5,
+          "name": "Quý Tỵ",
+          "god": "Kiếp Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2068,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2069,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2078,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2079,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 6,
+          "stem": 8,
+          "branch": 4,
+          "name": "Nhâm Thìn",
+          "god": "Tỷ Kiên",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2078,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2079,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2088,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2089,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 7,
+          "stem": 7,
+          "branch": 3,
+          "name": "Tân Mão",
+          "god": "Chính Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2088,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2089,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2098,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2099,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 8,
+          "stem": 6,
+          "branch": 2,
+          "name": "Canh Dần",
+          "god": "Thiên Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2098,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2099,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2108,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2109,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 9,
+          "stem": 5,
+          "branch": 1,
+          "name": "Kỷ Sửu",
+          "god": "Chính Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2108,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2109,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2118,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2119,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 10,
+          "stem": 4,
+          "branch": 0,
+          "name": "Mậu Tý",
+          "god": "Thất Sát",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2118,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2119,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2128,
+              "m": 12,
+              "d": 2,
+              "hour": 14,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2129,
+              "m": 4,
+              "d": 2,
+              "hour": 11,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 2000,
+        "m": 2,
+        "d": 29,
+        "tz": 8,
+        "gender": "male"
+      },
+      "coldInspectionMs": 272.4749999999999,
+      "range": {
+        "samples": 1440,
+        "minuteResolution": 1,
+        "convention": "Bounds over each supported birth minute in the stated civil day; not a claim that every intermediate start instant is achievable.",
+        "boundaries": [
+          {
+            "earliest": {
+              "y": 2001,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2002,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2011,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2012,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2021,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2022,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2031,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2032,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2041,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2042,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2051,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2052,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2061,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2062,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2071,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2072,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2081,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2082,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2091,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2092,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2101,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2102,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        ]
+      },
+      "cycles": [
+        {
+          "number": 1,
+          "stem": 5,
+          "branch": 3,
+          "name": "Kỷ Mão",
+          "god": "Thực Thần",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2001,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2002,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2011,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2012,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 2,
+          "stem": 6,
+          "branch": 4,
+          "name": "Canh Thìn",
+          "god": "Chính Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2011,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2012,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2021,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2022,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 3,
+          "stem": 7,
+          "branch": 5,
+          "name": "Tân Tỵ",
+          "god": "Thiên Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2021,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2022,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2031,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2032,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 4,
+          "stem": 8,
+          "branch": 6,
+          "name": "Nhâm Ngọ",
+          "god": "Chính Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2031,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2032,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2041,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2042,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 5,
+          "stem": 9,
+          "branch": 7,
+          "name": "Quý Mùi",
+          "god": "Thất Sát",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2041,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2042,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2051,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2052,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 6,
+          "stem": 0,
+          "branch": 8,
+          "name": "Giáp Thân",
+          "god": "Chính Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2051,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2052,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2061,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2062,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 7,
+          "stem": 1,
+          "branch": 9,
+          "name": "Ất Dậu",
+          "god": "Thiên Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2061,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2062,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2071,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2072,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 8,
+          "stem": 2,
+          "branch": 10,
+          "name": "Bính Tuất",
+          "god": "Kiếp Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2071,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2072,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2081,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2082,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 9,
+          "stem": 3,
+          "branch": 11,
+          "name": "Đinh Hợi",
+          "god": "Tỷ Kiên",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2081,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2082,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2091,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2092,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 10,
+          "stem": 4,
+          "branch": 0,
+          "name": "Mậu Tý",
+          "god": "Thương Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2091,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2092,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2101,
+              "m": 9,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2102,
+              "m": 1,
+              "d": 10,
+              "hour": 14,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 2000,
+        "m": 2,
+        "d": 29,
+        "tz": 8,
+        "gender": "female"
+      },
+      "coldInspectionMs": 261.03689999999983,
+      "range": {
+        "samples": 1440,
+        "minuteResolution": 1,
+        "convention": "Bounds over each supported birth minute in the stated civil day; not a claim that every intermediate start instant is achievable.",
+        "boundaries": [
+          {
+            "earliest": {
+              "y": 2008,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2008,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2018,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2018,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2028,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2028,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2038,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2038,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2048,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2048,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2058,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2058,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2068,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2068,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2078,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2078,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2088,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2088,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2098,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2098,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2108,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2108,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        ]
+      },
+      "cycles": [
+        {
+          "number": 1,
+          "stem": 3,
+          "branch": 1,
+          "name": "Đinh Sửu",
+          "god": "Tỷ Kiên",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2008,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2008,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2018,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2018,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 2,
+          "stem": 2,
+          "branch": 0,
+          "name": "Bính Tý",
+          "god": "Kiếp Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2018,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2018,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2028,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2028,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 3,
+          "stem": 1,
+          "branch": 11,
+          "name": "Ất Hợi",
+          "god": "Thiên Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2028,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2028,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2038,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2038,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 4,
+          "stem": 0,
+          "branch": 10,
+          "name": "Giáp Tuất",
+          "god": "Chính Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2038,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2038,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2048,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2048,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 5,
+          "stem": 9,
+          "branch": 9,
+          "name": "Quý Dậu",
+          "god": "Thất Sát",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2048,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2048,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2058,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2058,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 6,
+          "stem": 8,
+          "branch": 8,
+          "name": "Nhâm Thân",
+          "god": "Chính Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2058,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2058,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2068,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2068,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 7,
+          "stem": 7,
+          "branch": 7,
+          "name": "Tân Mùi",
+          "god": "Thiên Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2068,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2068,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2078,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2078,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 8,
+          "stem": 6,
+          "branch": 6,
+          "name": "Canh Ngọ",
+          "god": "Chính Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2078,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2078,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2088,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2088,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 9,
+          "stem": 5,
+          "branch": 5,
+          "name": "Kỷ Tỵ",
+          "god": "Thực Thần",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2088,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2088,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2098,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2098,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 10,
+          "stem": 4,
+          "branch": 4,
+          "name": "Mậu Thìn",
+          "god": "Thương Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2098,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2098,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2108,
+              "m": 3,
+              "d": 16,
+              "hour": 16,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2108,
+              "m": 7,
+              "d": 16,
+              "hour": 13,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "tz": 7,
+        "gender": "male"
+      },
+      "coldInspectionMs": 283.8635000000004,
+      "range": {
+        "samples": 1440,
+        "minuteResolution": 1,
+        "convention": "Bounds over each supported birth minute in the stated civil day; not a claim that every intermediate start instant is achievable.",
+        "boundaries": [
+          {
+            "earliest": {
+              "y": 1995,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1996,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2005,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2006,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2015,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2016,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2025,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2026,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2035,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2036,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2045,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2046,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2055,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2056,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2065,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2066,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2075,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2076,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2085,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2086,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2095,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2096,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        ]
+      },
+      "cycles": [
+        {
+          "number": 1,
+          "stem": 8,
+          "branch": 6,
+          "name": "Nhâm Ngọ",
+          "god": "Chính Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 1995,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1996,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2005,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2006,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 2,
+          "stem": 9,
+          "branch": 7,
+          "name": "Quý Mùi",
+          "god": "Thiên Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2005,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2006,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2015,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2016,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 3,
+          "stem": 0,
+          "branch": 8,
+          "name": "Giáp Thân",
+          "god": "Kiếp Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2015,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2016,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2025,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2026,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 4,
+          "stem": 1,
+          "branch": 9,
+          "name": "Ất Dậu",
+          "god": "Tỷ Kiên",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2025,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2026,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2035,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2036,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 5,
+          "stem": 2,
+          "branch": 10,
+          "name": "Bính Tuất",
+          "god": "Thương Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2035,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2036,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2045,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2046,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 6,
+          "stem": 3,
+          "branch": 11,
+          "name": "Đinh Hợi",
+          "god": "Thực Thần",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2045,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2046,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2055,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2056,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 7,
+          "stem": 4,
+          "branch": 0,
+          "name": "Mậu Tý",
+          "god": "Chính Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2055,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2056,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2065,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2066,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 8,
+          "stem": 5,
+          "branch": 1,
+          "name": "Kỷ Sửu",
+          "god": "Thiên Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2065,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2066,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2075,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2076,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 9,
+          "stem": 6,
+          "branch": 2,
+          "name": "Canh Dần",
+          "god": "Chính Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2075,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2076,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2085,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2086,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 10,
+          "stem": 7,
+          "branch": 3,
+          "name": "Tân Mão",
+          "god": "Thất Sát",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2085,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2086,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2095,
+              "m": 10,
+              "d": 19,
+              "hour": 21,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2096,
+              "m": 2,
+              "d": 17,
+              "hour": 20,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1990,
+        "m": 5,
+        "d": 20,
+        "tz": 7,
+        "gender": "female"
+      },
+      "coldInspectionMs": 283.7831000000001,
+      "range": {
+        "samples": 1440,
+        "minuteResolution": 1,
+        "convention": "Bounds over each supported birth minute in the stated civil day; not a claim that every intermediate start instant is achievable.",
+        "boundaries": [
+          {
+            "earliest": {
+              "y": 1995,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 1995,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2005,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2005,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2015,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2015,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2025,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2025,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2035,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2035,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2045,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2045,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2055,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2055,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2065,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2065,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2075,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2075,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2085,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2085,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2095,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2095,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        ]
+      },
+      "cycles": [
+        {
+          "number": 1,
+          "stem": 6,
+          "branch": 4,
+          "name": "Canh Thìn",
+          "god": "Chính Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 1995,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 1995,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2005,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2005,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 2,
+          "stem": 5,
+          "branch": 3,
+          "name": "Kỷ Mão",
+          "god": "Thiên Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2005,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2005,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2015,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2015,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 3,
+          "stem": 4,
+          "branch": 2,
+          "name": "Mậu Dần",
+          "god": "Chính Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2015,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2015,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2025,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2025,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 4,
+          "stem": 3,
+          "branch": 1,
+          "name": "Đinh Sửu",
+          "god": "Thực Thần",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2025,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2025,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2035,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2035,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 5,
+          "stem": 2,
+          "branch": 0,
+          "name": "Bính Tý",
+          "god": "Thương Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2035,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2035,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2045,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2045,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 6,
+          "stem": 1,
+          "branch": 11,
+          "name": "Ất Hợi",
+          "god": "Tỷ Kiên",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2045,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2045,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2055,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2055,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 7,
+          "stem": 0,
+          "branch": 10,
+          "name": "Giáp Tuất",
+          "god": "Kiếp Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2055,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2055,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2065,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2065,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 8,
+          "stem": 9,
+          "branch": 9,
+          "name": "Quý Dậu",
+          "god": "Thiên Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2065,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2065,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2075,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2075,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 9,
+          "stem": 8,
+          "branch": 8,
+          "name": "Nhâm Thân",
+          "god": "Chính Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2075,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2075,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2085,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2085,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 10,
+          "stem": 7,
+          "branch": 7,
+          "name": "Tân Mùi",
+          "god": "Thất Sát",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2085,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2085,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2095,
+              "m": 1,
+              "d": 11,
+              "hour": 2,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2095,
+              "m": 5,
+              "d": 12,
+              "hour": 23,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1900,
+        "m": 1,
+        "d": 1,
+        "tz": -12,
+        "gender": "female"
+      },
+      "coldInspectionMs": 273.59349999999995,
+      "range": {
+        "samples": 1440,
+        "minuteResolution": 1,
+        "convention": "Bounds over each supported birth minute in the stated civil day; not a claim that every intermediate start instant is achievable.",
+        "boundaries": [
+          {
+            "earliest": {
+              "y": 1901,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1901,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 1911,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1911,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 1921,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1921,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 1931,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1931,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 1941,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1941,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 1951,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1951,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 1961,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1961,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 1971,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1971,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 1981,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1981,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 1991,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1991,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2001,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2001,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        ]
+      },
+      "cycles": [
+        {
+          "number": 1,
+          "stem": 3,
+          "branch": 1,
+          "name": "Đinh Sửu",
+          "god": "Thương Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 1901,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1901,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 1911,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1911,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 2,
+          "stem": 4,
+          "branch": 2,
+          "name": "Mậu Dần",
+          "god": "Thiên Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 1911,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1911,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 1921,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1921,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 3,
+          "stem": 5,
+          "branch": 3,
+          "name": "Kỷ Mão",
+          "god": "Chính Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 1921,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1921,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 1931,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1931,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 4,
+          "stem": 6,
+          "branch": 4,
+          "name": "Canh Thìn",
+          "god": "Thất Sát",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 1931,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1931,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 1941,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1941,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 5,
+          "stem": 7,
+          "branch": 5,
+          "name": "Tân Tỵ",
+          "god": "Chính Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 1941,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1941,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 1951,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1951,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 6,
+          "stem": 8,
+          "branch": 6,
+          "name": "Nhâm Ngọ",
+          "god": "Thiên Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 1951,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1951,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 1961,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1961,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 7,
+          "stem": 9,
+          "branch": 7,
+          "name": "Quý Mùi",
+          "god": "Chính Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 1961,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1961,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 1971,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1971,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 8,
+          "stem": 0,
+          "branch": 8,
+          "name": "Giáp Thân",
+          "god": "Tỷ Kiên",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 1971,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1971,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 1981,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1981,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 9,
+          "stem": 1,
+          "branch": 9,
+          "name": "Ất Dậu",
+          "god": "Kiếp Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 1981,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1981,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 1991,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1991,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 10,
+          "stem": 2,
+          "branch": 10,
+          "name": "Bính Tuất",
+          "god": "Thực Thần",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 1991,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 1991,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2001,
+              "m": 2,
+              "d": 2,
+              "hour": 9,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2001,
+              "m": 6,
+              "d": 1,
+              "hour": 8,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 2100,
+        "m": 12,
+        "d": 31,
+        "tz": 14,
+        "gender": "male"
+      },
+      "coldInspectionMs": 218.10849999999982,
+      "range": {
+        "samples": 1440,
+        "minuteResolution": 1,
+        "convention": "Bounds over each supported birth minute in the stated civil day; not a claim that every intermediate start instant is achievable.",
+        "boundaries": [
+          {
+            "earliest": {
+              "y": 2102,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2103,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2112,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2113,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2122,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2123,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2132,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2133,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2142,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2143,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2152,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2153,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2162,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2163,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2172,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2173,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2182,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2183,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2192,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2193,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2202,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2203,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        ]
+      },
+      "cycles": [
+        {
+          "number": 1,
+          "stem": 5,
+          "branch": 1,
+          "name": "Kỷ Sửu",
+          "god": "Thực Thần",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2102,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2103,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2112,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2113,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 2,
+          "stem": 6,
+          "branch": 2,
+          "name": "Canh Dần",
+          "god": "Chính Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2112,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2113,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2122,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2123,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 3,
+          "stem": 7,
+          "branch": 3,
+          "name": "Tân Mão",
+          "god": "Thiên Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2122,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2123,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2132,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2133,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 4,
+          "stem": 8,
+          "branch": 4,
+          "name": "Nhâm Thìn",
+          "god": "Chính Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2132,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2133,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2142,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2143,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 5,
+          "stem": 9,
+          "branch": 5,
+          "name": "Quý Tỵ",
+          "god": "Thất Sát",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2142,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2143,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2152,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2153,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 6,
+          "stem": 0,
+          "branch": 6,
+          "name": "Giáp Ngọ",
+          "god": "Chính Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2152,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2153,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2162,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2163,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 7,
+          "stem": 1,
+          "branch": 7,
+          "name": "Ất Mùi",
+          "god": "Thiên Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2162,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2163,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2172,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2173,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 8,
+          "stem": 2,
+          "branch": 8,
+          "name": "Bính Thân",
+          "god": "Kiếp Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2172,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2173,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2182,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2183,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 9,
+          "stem": 3,
+          "branch": 9,
+          "name": "Đinh Dậu",
+          "god": "Tỷ Kiên",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2182,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2183,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2192,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2193,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 10,
+          "stem": 4,
+          "branch": 10,
+          "name": "Mậu Tuất",
+          "god": "Thương Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2192,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2193,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2202,
+              "m": 9,
+              "d": 16,
+              "hour": 17,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2203,
+              "m": 1,
+              "d": 15,
+              "hour": 16,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 2024,
+        "m": 2,
+        "d": 5,
+        "tz": 5.5,
+        "gender": "male"
+      },
+      "coldInspectionMs": 223.3795,
+      "range": {
+        "samples": 1440,
+        "minuteResolution": 1,
+        "convention": "Bounds over each supported birth minute in the stated civil day; not a claim that every intermediate start instant is achievable.",
+        "boundaries": [
+          {
+            "earliest": {
+              "y": 2033,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2033,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2043,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2043,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2053,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2053,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2063,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2063,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2073,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2073,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2083,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2083,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2093,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2093,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2103,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2103,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2113,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2113,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2123,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2123,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          {
+            "earliest": {
+              "y": 2133,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2133,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        ]
+      },
+      "cycles": [
+        {
+          "number": 1,
+          "stem": 3,
+          "branch": 3,
+          "name": "Đinh Mão",
+          "god": "Thiên Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2033,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2033,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2043,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2043,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 2,
+          "stem": 4,
+          "branch": 4,
+          "name": "Mậu Thìn",
+          "god": "Kiếp Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2043,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2043,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2053,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2053,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 3,
+          "stem": 5,
+          "branch": 5,
+          "name": "Kỷ Tỵ",
+          "god": "Tỷ Kiên",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2053,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2053,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2063,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2063,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 4,
+          "stem": 6,
+          "branch": 6,
+          "name": "Canh Ngọ",
+          "god": "Thương Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2063,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2063,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2073,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2073,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 5,
+          "stem": 7,
+          "branch": 7,
+          "name": "Tân Mùi",
+          "god": "Thực Thần",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2073,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2073,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2083,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2083,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 6,
+          "stem": 8,
+          "branch": 8,
+          "name": "Nhâm Thân",
+          "god": "Chính Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2083,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2083,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2093,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2093,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 7,
+          "stem": 9,
+          "branch": 9,
+          "name": "Quý Dậu",
+          "god": "Thiên Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2093,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2093,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2103,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2103,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 8,
+          "stem": 0,
+          "branch": 10,
+          "name": "Giáp Tuất",
+          "god": "Chính Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2103,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2103,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2113,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2113,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 9,
+          "stem": 1,
+          "branch": 11,
+          "name": "Ất Hợi",
+          "god": "Thất Sát",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2113,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2113,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2123,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2123,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        },
+        {
+          "number": 10,
+          "stem": 2,
+          "branch": 0,
+          "name": "Bính Tý",
+          "god": "Chính Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2123,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2123,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2133,
+              "m": 7,
+              "d": 15,
+              "hour": 11,
+              "minute": 59
+            },
+            "latest": {
+              "y": 2133,
+              "m": 11,
+              "d": 14,
+              "hour": 10,
+              "minute": 0
+            },
+            "earliestMinute": 1439,
+            "latestMinute": 0
+          }
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 1996,
+        "m": 2,
+        "d": 29,
+        "tz": 0,
+        "gender": "female"
+      },
+      "coldInspectionMs": 264.6103999999996,
+      "range": {
+        "samples": 1440,
+        "minuteResolution": 1,
+        "convention": "Bounds over each supported birth minute in the stated civil day; not a claim that every intermediate start instant is achievable.",
+        "boundaries": [
+          {
+            "earliest": {
+              "y": 2004,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2004,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2014,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2014,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2024,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2024,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2034,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2034,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2044,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2044,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2054,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2054,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2064,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2064,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2074,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2074,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2084,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2084,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2094,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2094,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2104,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2104,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        ]
+      },
+      "cycles": [
+        {
+          "number": 1,
+          "stem": 5,
+          "branch": 1,
+          "name": "Kỷ Sửu",
+          "god": "Thương Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2004,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2004,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2014,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2014,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 2,
+          "stem": 4,
+          "branch": 0,
+          "name": "Mậu Tý",
+          "god": "Thực Thần",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2014,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2014,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2024,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2024,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 3,
+          "stem": 3,
+          "branch": 11,
+          "name": "Đinh Hợi",
+          "god": "Kiếp Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2024,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2024,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2034,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2034,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 4,
+          "stem": 2,
+          "branch": 10,
+          "name": "Bính Tuất",
+          "god": "Tỷ Kiên",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2034,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2034,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2044,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2044,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 5,
+          "stem": 1,
+          "branch": 9,
+          "name": "Ất Dậu",
+          "god": "Chính Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2044,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2044,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2054,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2054,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 6,
+          "stem": 0,
+          "branch": 8,
+          "name": "Giáp Thân",
+          "god": "Thiên Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2054,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2054,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2064,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2064,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 7,
+          "stem": 9,
+          "branch": 7,
+          "name": "Quý Mùi",
+          "god": "Chính Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2064,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2064,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2074,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2074,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 8,
+          "stem": 8,
+          "branch": 6,
+          "name": "Nhâm Ngọ",
+          "god": "Thất Sát",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2074,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2074,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2084,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2084,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 9,
+          "stem": 7,
+          "branch": 5,
+          "name": "Tân Tỵ",
+          "god": "Chính Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2084,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2084,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2094,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2094,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 10,
+          "stem": 6,
+          "branch": 4,
+          "name": "Canh Thìn",
+          "god": "Thiên Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2094,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2094,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2104,
+              "m": 4,
+              "d": 22,
+              "hour": 8,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2104,
+              "m": 8,
+              "d": 23,
+              "hour": 5,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 2030,
+        "m": 1,
+        "d": 31,
+        "tz": 7,
+        "gender": "male"
+      },
+      "coldInspectionMs": 233.89399999999932,
+      "range": {
+        "samples": 1440,
+        "minuteResolution": 1,
+        "convention": "Bounds over each supported birth minute in the stated civil day; not a claim that every intermediate start instant is achievable.",
+        "boundaries": [
+          {
+            "earliest": {
+              "y": 2038,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2038,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2048,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2048,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2058,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2058,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2068,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2068,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2078,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2078,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2088,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2088,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2098,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2098,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2108,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2108,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2118,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2118,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2128,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2128,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2138,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2138,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        ]
+      },
+      "cycles": [
+        {
+          "number": 1,
+          "stem": 2,
+          "branch": 0,
+          "name": "Bính Tý",
+          "god": "Tỷ Kiên",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2038,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2038,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2048,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2048,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 2,
+          "stem": 1,
+          "branch": 11,
+          "name": "Ất Hợi",
+          "god": "Chính Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2048,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2048,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2058,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2058,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 3,
+          "stem": 0,
+          "branch": 10,
+          "name": "Giáp Tuất",
+          "god": "Thiên Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2058,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2058,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2068,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2068,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 4,
+          "stem": 9,
+          "branch": 9,
+          "name": "Quý Dậu",
+          "god": "Chính Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2068,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2068,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2078,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2078,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 5,
+          "stem": 8,
+          "branch": 8,
+          "name": "Nhâm Thân",
+          "god": "Thất Sát",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2078,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2078,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2088,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2088,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 6,
+          "stem": 7,
+          "branch": 7,
+          "name": "Tân Mùi",
+          "god": "Chính Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2088,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2088,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2098,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2098,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 7,
+          "stem": 6,
+          "branch": 6,
+          "name": "Canh Ngọ",
+          "god": "Thiên Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2098,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2098,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2108,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2108,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 8,
+          "stem": 5,
+          "branch": 5,
+          "name": "Kỷ Tỵ",
+          "god": "Thương Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2108,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2108,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2118,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2118,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 9,
+          "stem": 4,
+          "branch": 4,
+          "name": "Mậu Thìn",
+          "god": "Thực Thần",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2118,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2118,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2128,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2128,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 10,
+          "stem": 3,
+          "branch": 3,
+          "name": "Đinh Mão",
+          "god": "Kiếp Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2128,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2128,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2138,
+              "m": 7,
+              "d": 17,
+              "hour": 10,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2138,
+              "m": 11,
+              "d": 18,
+              "hour": 7,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        }
+      ]
+    },
+    {
+      "input": {
+        "y": 2020,
+        "m": 3,
+        "d": 1,
+        "tz": 7,
+        "gender": "female"
+      },
+      "coldInspectionMs": 237.02559999999994,
+      "range": {
+        "samples": 1440,
+        "minuteResolution": 1,
+        "convention": "Bounds over each supported birth minute in the stated civil day; not a claim that every intermediate start instant is achievable.",
+        "boundaries": [
+          {
+            "earliest": {
+              "y": 2028,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2028,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2038,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2038,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2048,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2048,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2058,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2058,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2068,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2068,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2078,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2078,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2088,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2088,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2098,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2098,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2108,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2108,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2118,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2118,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          {
+            "earliest": {
+              "y": 2128,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2128,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        ]
+      },
+      "cycles": [
+        {
+          "number": 1,
+          "stem": 3,
+          "branch": 1,
+          "name": "Đinh Sửu",
+          "god": "Thiên Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2028,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2028,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2038,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2038,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 2,
+          "stem": 2,
+          "branch": 0,
+          "name": "Bính Tý",
+          "god": "Chính Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2038,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2038,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2048,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2048,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 3,
+          "stem": 1,
+          "branch": 11,
+          "name": "Ất Hợi",
+          "god": "Thực Thần",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2048,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2048,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2058,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2058,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 4,
+          "stem": 0,
+          "branch": 10,
+          "name": "Giáp Tuất",
+          "god": "Thương Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2058,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2058,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2068,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2068,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 5,
+          "stem": 9,
+          "branch": 9,
+          "name": "Quý Dậu",
+          "god": "Tỷ Kiên",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2068,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2068,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2078,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2078,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 6,
+          "stem": 8,
+          "branch": 8,
+          "name": "Nhâm Thân",
+          "god": "Kiếp Tài",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2078,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2078,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2088,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2088,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 7,
+          "stem": 7,
+          "branch": 7,
+          "name": "Tân Mùi",
+          "god": "Thiên Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2088,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2088,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2098,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2098,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 8,
+          "stem": 6,
+          "branch": 6,
+          "name": "Canh Ngọ",
+          "god": "Chính Ấn",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2098,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2098,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2108,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2108,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 9,
+          "stem": 5,
+          "branch": 5,
+          "name": "Kỷ Tỵ",
+          "god": "Thất Sát",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2108,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2108,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2118,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2118,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        },
+        {
+          "number": 10,
+          "stem": 4,
+          "branch": 4,
+          "name": "Mậu Thìn",
+          "god": "Chính Quan",
+          "start": null,
+          "end": null,
+          "startRange": {
+            "earliest": {
+              "y": 2118,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2118,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          },
+          "endRange": {
+            "earliest": {
+              "y": 2128,
+              "m": 8,
+              "d": 10,
+              "hour": 18,
+              "minute": 0
+            },
+            "latest": {
+              "y": 2128,
+              "m": 12,
+              "d": 11,
+              "hour": 15,
+              "minute": 59
+            },
+            "earliestMinute": 0,
+            "latestMinute": 1439
+          }
+        }
+      ]
+    }
+  ]
+}

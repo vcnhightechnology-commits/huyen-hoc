@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-29",
+  "stage": "before context inspector exists",
+  "files": [
+    {
+      "file": "tmp/home-p08-grid-priority-staging/SOURCE_IDENTITIES.json",
+      "bytes": 1552,
+      "sha256": "dff2f1cd45b7c3ed1cf9a7bbcec4b7a8fa56fedffb351d703ed2f44d5dae8a18"
+    },
+    {
+      "file": "tmp/home-p08-grid-priority-staging/MANUAL_CONTEXTS.json",
+      "bytes": 1486,
+      "sha256": "919e612773a5cbcc06894370b846343b98f61980285296eeffd70a681277e963"
+    },
+    {
+      "file": "tmp/home-p08-grid-priority-staging/EXPECTED_CONTEXTS.json",
+      "bytes": 14663,
+      "sha256": "8953d78b0531c8e1547371dba3a55c635c5d17fd835461d33892940821725ffb"
+    }
+  ],
+  "newEngineCalls": 0
+}

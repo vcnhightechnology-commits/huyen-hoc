@@ -1,0 +1,166 @@
+{
+  "schema": "hhc.library.runtime-probe.v1",
+  "createdUTC": "2026-10-25T16:17:04.338Z",
+  "files": [
+    {
+      "file": "engine.js",
+      "bytes": 41825,
+      "sha256": "462fb78b222f4d17b761f785b42700b4241d0f0e82723d0ff09a0e2aca551dee"
+    },
+    {
+      "file": "content.js",
+      "bytes": 15723,
+      "sha256": "c4f9c12dd2fdc703909dc9ab98e26c718f11af18f5fbba3e5c4dce88f58911a1"
+    },
+    {
+      "file": "yi-content.js",
+      "bytes": 18728,
+      "sha256": "406f58d741d6adaa388fd2aa16137d4ca0d9914573f651c72ee94ee807dfe9a5"
+    },
+    {
+      "file": "home-content.js",
+      "bytes": 11639,
+      "sha256": "47beafaf46971989e6b6a4f2fc7280af810812657cb5c2784f0cb45083e87313"
+    }
+  ],
+  "exports": [
+    "tuvi",
+    "bazi",
+    "destiny",
+    "directions",
+    "solarToLunar",
+    "lunarToSolar",
+    "lunarYearFromSolar",
+    "hexNumber",
+    "calendarNeedsReview",
+    "stems",
+    "branches",
+    "elements",
+    "elementInfo"
+  ],
+  "input": {
+    "y": 1990,
+    "m": 5,
+    "d": 20,
+    "hour": 8,
+    "minute": 30,
+    "tz": 7,
+    "gender": "male",
+    "calendar": "solar",
+    "leapPolicy": "same",
+    "dayPolicy": "current"
+  },
+  "tuvi": {
+    "palaces": 12,
+    "stars": 52,
+    "keys": [
+      "lunar",
+      "hour",
+      "gender",
+      "hr",
+      "menh",
+      "than",
+      "cuc",
+      "cucElement",
+      "cucName",
+      "stem",
+      "branch",
+      "yrIdx",
+      "yearName",
+      "na",
+      "palaces",
+      "stars",
+      "tuan",
+      "triet",
+      "direct",
+      "effectiveLeapMode",
+      "solar",
+      "originalSolar",
+      "originalLunar",
+      "tz",
+      "minute",
+      "input"
+    ],
+    "palaceKeys": [
+      "idx",
+      "branch",
+      "name",
+      "than",
+      "stars",
+      "daHanStart",
+      "tuan",
+      "triet"
+    ],
+    "coreStarReadingCount": 14,
+    "readingTopics": 12
+  },
+  "bazi": {
+    "pillars": [
+      {
+        "name": "Canh Ngọ",
+        "god": "Chính Quan"
+      },
+      {
+        "name": "Tân Tỵ",
+        "god": "Thất Sát"
+      },
+      {
+        "name": "Ất Dậu",
+        "god": "Tỷ Kiên"
+      },
+      {
+        "name": "Canh Thìn",
+        "god": "Chính Quan"
+      }
+    ],
+    "keys": [
+      "all",
+      "utc",
+      "solarYear",
+      "dayP",
+      "mainElements",
+      "start",
+      "after",
+      "prev",
+      "nearBoundary",
+      "y",
+      "m",
+      "d",
+      "h",
+      "min",
+      "tz",
+      "rule",
+      "noTime",
+      "pillars",
+      "dayMaster",
+      "input"
+    ],
+    "exposesAllHiddenStems": false
+  },
+  "directions": {
+    "kua": "Khảm",
+    "total": 8,
+    "good": 4
+  },
+  "yi": {
+    "hexagrams": 64,
+    "pureYang": 1,
+    "pureYin": 2,
+    "entryKeys": [
+      "n",
+      "name",
+      "han",
+      "theme",
+      "id",
+      "advice",
+      "lead"
+    ],
+    "hasActualLineTexts": false,
+    "genericPositionHints": 6
+  },
+  "home": {
+    "roomCount": 7,
+    "hasMetricLayoutSolver": false
+  },
+  "limits": "One real execution of the existing facade to inspect exposed data, not a new independent engine parity study, textual collation or empirical validation of divination."
+}

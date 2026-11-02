@@ -1,0 +1,800 @@
+{
+  "schema": "hhc.meihua.conditions-domains.v1",
+  "edition": "1925-11文明書局retainedwitness",
+  "scope": "18domainrolepremisesand85directrelationclauses;fullsubsidiaryrulesandvariantsremainopen. Historicalsourceassertions,notvalidatedpredictions.",
+  "domains": [
+    {
+      "id": "weather",
+      "ordinal": 1,
+      "heading": "天時",
+      "evidencePDFPages": [
+        63,
+        64,
+        65
+      ],
+      "bodyUseApplicable": false,
+      "bodyRole": null,
+      "useRole": null,
+      "directRelations": {},
+      "missingPremises": [
+        "season",
+        "prior-weather-context"
+      ],
+      "prognosticClaimsValidated": false
+    },
+    {
+      "id": "human",
+      "ordinal": 2,
+      "heading": "人事",
+      "evidencePDFPages": [
+        65
+      ],
+      "bodyUseApplicable": true,
+      "bodyRole": "主",
+      "useRole": "賓",
+      "directRelations": {
+        "body-controls-use": {
+          "printedBoundedPhrase": "吉",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-controls-body": {
+          "printedBoundedPhrase": "不宜",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "body-generates-use": {
+          "printedBoundedPhrase": "耗失之患",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-generates-body": {
+          "printedBoundedPhrase": "進益之喜",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "same": {
+          "printedBoundedPhrase": "謀為吉利",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        }
+      },
+      "missingPremises": [
+        "mutual-and-changed-relations",
+        "strength-and-season",
+        "observations-if-any"
+      ],
+      "prognosticClaimsValidated": false,
+      "consumerAutomated": false
+    },
+    {
+      "id": "household",
+      "ordinal": 3,
+      "heading": "家宅",
+      "evidencePDFPages": [
+        66
+      ],
+      "bodyUseApplicable": true,
+      "bodyRole": "主",
+      "useRole": "家宅",
+      "directRelations": {
+        "body-controls-use": {
+          "printedBoundedPhrase": "家宅多吉",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-controls-body": {
+          "printedBoundedPhrase": "家宅多凶",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "body-generates-use": {
+          "printedBoundedPhrase": "多耗散",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-generates-body": {
+          "printedBoundedPhrase": "多進益",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "same": {
+          "printedBoundedPhrase": "家宅安穩",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        }
+      },
+      "missingPremises": [
+        "mutual-and-changed-relations",
+        "strength-and-season",
+        "observations-if-any"
+      ],
+      "prognosticClaimsValidated": false,
+      "consumerAutomated": false
+    },
+    {
+      "id": "dwelling",
+      "ordinal": 4,
+      "heading": "屋舍",
+      "evidencePDFPages": [
+        66
+      ],
+      "bodyUseApplicable": true,
+      "bodyRole": "主",
+      "useRole": "屋舍",
+      "directRelations": {
+        "body-controls-use": {
+          "printedBoundedPhrase": "居之吉",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-controls-body": {
+          "printedBoundedPhrase": "居之凶",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "body-generates-use": {
+          "printedBoundedPhrase": "資財冷退",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-generates-body": {
+          "printedBoundedPhrase": "門戶興隆",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "same": {
+          "printedBoundedPhrase": "自然安穩",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        }
+      },
+      "missingPremises": [
+        "mutual-and-changed-relations",
+        "strength-and-season",
+        "observations-if-any"
+      ],
+      "prognosticClaimsValidated": false,
+      "consumerAutomated": false
+    },
+    {
+      "id": "marriage",
+      "ordinal": 5,
+      "heading": "婚姻",
+      "evidencePDFPages": [
+        66,
+        67
+      ],
+      "bodyUseApplicable": true,
+      "bodyRole": "所占之家",
+      "useRole": "所婚之家",
+      "directRelations": {
+        "body-controls-use": {
+          "printedBoundedPhrase": "可成但成之遲",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-controls-body": {
+          "printedBoundedPhrase": "不可成成亦有害",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "body-generates-use": {
+          "printedBoundedPhrase": "婚難成或因婚有失",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-generates-body": {
+          "printedBoundedPhrase": "婚易成或因婚有得",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "same": {
+          "printedBoundedPhrase": "婚姻吉利",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        }
+      },
+      "missingPremises": [
+        "mutual-and-changed-relations",
+        "strength-and-season",
+        "observations-if-any"
+      ],
+      "prognosticClaimsValidated": false,
+      "consumerAutomated": false
+    },
+    {
+      "id": "birth",
+      "ordinal": 6,
+      "heading": "生產",
+      "evidencePDFPages": [
+        67
+      ],
+      "bodyUseApplicable": true,
+      "bodyRole": "母",
+      "useRole": "生",
+      "directRelations": {
+        "body-controls-use": {
+          "printedBoundedPhrase": "不利於子",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-controls-body": {
+          "printedBoundedPhrase": "不利於母",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "body-generates-use": {
+          "printedBoundedPhrase": "利於子",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-generates-body": {
+          "printedBoundedPhrase": "利於母",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "same": {
+          "printedBoundedPhrase": "生育順快",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        }
+      },
+      "missingPremises": [
+        "mutual-and-changed-relations",
+        "strength-and-season",
+        "observations-if-any"
+      ],
+      "prognosticClaimsValidated": false,
+      "consumerAutomated": false
+    },
+    {
+      "id": "dining",
+      "ordinal": 7,
+      "heading": "飲食",
+      "evidencePDFPages": [
+        67,
+        68
+      ],
+      "bodyUseApplicable": true,
+      "bodyRole": "主",
+      "useRole": "飲食",
+      "directRelations": {
+        "body-controls-use": {
+          "printedBoundedPhrase": "飲食有阻",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-controls-body": {
+          "printedBoundedPhrase": "飲食必無",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "body-generates-use": {
+          "printedBoundedPhrase": "飲食難就",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-generates-body": {
+          "printedBoundedPhrase": "飲食必豐",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "same": {
+          "printedBoundedPhrase": "飲食豐足",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        }
+      },
+      "missingPremises": [
+        "mutual-and-changed-relations",
+        "strength-and-season",
+        "observations-if-any"
+      ],
+      "prognosticClaimsValidated": false,
+      "consumerAutomated": false
+    },
+    {
+      "id": "planning",
+      "ordinal": 8,
+      "heading": "求謀",
+      "evidencePDFPages": [
+        68
+      ],
+      "bodyUseApplicable": true,
+      "bodyRole": "主",
+      "useRole": "所謀之應",
+      "directRelations": {
+        "body-controls-use": {
+          "printedBoundedPhrase": "謀雖可成但成遲",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-controls-body": {
+          "printedBoundedPhrase": "求謀不成成亦有害",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "body-generates-use": {
+          "printedBoundedPhrase": "多謀少遂",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-generates-body": {
+          "printedBoundedPhrase": "不謀而成",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "same": {
+          "printedBoundedPhrase": "求謀稱意",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        }
+      },
+      "missingPremises": [
+        "mutual-and-changed-relations",
+        "strength-and-season",
+        "observations-if-any"
+      ],
+      "prognosticClaimsValidated": false,
+      "consumerAutomated": false
+    },
+    {
+      "id": "status",
+      "ordinal": 9,
+      "heading": "求名",
+      "evidencePDFPages": [
+        68,
+        69
+      ],
+      "bodyUseApplicable": true,
+      "bodyRole": "主",
+      "useRole": "名",
+      "directRelations": {
+        "body-controls-use": {
+          "printedBoundedPhrase": "名可成但成遲",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-controls-body": {
+          "printedBoundedPhrase": "名不可成",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "body-generates-use": {
+          "printedBoundedPhrase": "名不可就或因名有喪",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-generates-body": {
+          "printedBoundedPhrase": "名易成或因名有得",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "same": {
+          "printedBoundedPhrase": "功名稱意",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        }
+      },
+      "missingPremises": [
+        "mutual-and-changed-relations",
+        "strength-and-season",
+        "observations-if-any"
+      ],
+      "prognosticClaimsValidated": false,
+      "consumerAutomated": false
+    },
+    {
+      "id": "wealth",
+      "ordinal": 10,
+      "heading": "求財",
+      "evidencePDFPages": [
+        69
+      ],
+      "bodyUseApplicable": true,
+      "bodyRole": "主",
+      "useRole": "財",
+      "directRelations": {
+        "body-controls-use": {
+          "printedBoundedPhrase": "有財",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-controls-body": {
+          "printedBoundedPhrase": "無財",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "body-generates-use": {
+          "printedBoundedPhrase": "財有損耗之憂",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-generates-body": {
+          "printedBoundedPhrase": "財有進益之喜",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "same": {
+          "printedBoundedPhrase": "財利快意",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        }
+      },
+      "missingPremises": [
+        "mutual-and-changed-relations",
+        "strength-and-season",
+        "observations-if-any"
+      ],
+      "prognosticClaimsValidated": false,
+      "consumerAutomated": false
+    },
+    {
+      "id": "trade",
+      "ordinal": 11,
+      "heading": "交易",
+      "evidencePDFPages": [
+        69
+      ],
+      "bodyUseApplicable": true,
+      "bodyRole": "主",
+      "useRole": "交易之應",
+      "directRelations": {
+        "body-controls-use": {
+          "printedBoundedPhrase": "交易成遲",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-controls-body": {
+          "printedBoundedPhrase": "不成",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "body-generates-use": {
+          "printedBoundedPhrase": "難成或有交易之失",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-generates-body": {
+          "printedBoundedPhrase": "即成成必有財",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "same": {
+          "printedBoundedPhrase": "易成",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        }
+      },
+      "missingPremises": [
+        "mutual-and-changed-relations",
+        "strength-and-season",
+        "observations-if-any"
+      ],
+      "prognosticClaimsValidated": false,
+      "consumerAutomated": false
+    },
+    {
+      "id": "travel",
+      "ordinal": 12,
+      "heading": "出行",
+      "evidencePDFPages": [
+        69,
+        70
+      ],
+      "bodyUseApplicable": true,
+      "bodyRole": "主",
+      "useRole": "所行之應",
+      "directRelations": {
+        "body-controls-use": {
+          "printedBoundedPhrase": "可行所至多得意",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-controls-body": {
+          "printedBoundedPhrase": "出則有禍",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "body-generates-use": {
+          "printedBoundedPhrase": "出行有破耗之失",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-generates-body": {
+          "printedBoundedPhrase": "有意外之財",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "same": {
+          "printedBoundedPhrase": "出行順快",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        }
+      },
+      "missingPremises": [
+        "mutual-and-changed-relations",
+        "strength-and-season",
+        "observations-if-any"
+      ],
+      "prognosticClaimsValidated": false,
+      "consumerAutomated": false
+    },
+    {
+      "id": "traveller",
+      "ordinal": 13,
+      "heading": "行人",
+      "evidencePDFPages": [
+        70
+      ],
+      "bodyUseApplicable": true,
+      "bodyRole": "主",
+      "useRole": "行人",
+      "directRelations": {
+        "body-controls-use": {
+          "printedBoundedPhrase": "行人歸遲",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-controls-body": {
+          "printedBoundedPhrase": "行人不歸",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "body-generates-use": {
+          "printedBoundedPhrase": "行人未歸",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-generates-body": {
+          "printedBoundedPhrase": "行人即歸",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "same": {
+          "printedBoundedPhrase": "歸期不日",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        }
+      },
+      "missingPremises": [
+        "mutual-and-changed-relations",
+        "strength-and-season",
+        "observations-if-any"
+      ],
+      "prognosticClaimsValidated": false,
+      "consumerAutomated": false
+    },
+    {
+      "id": "meeting",
+      "ordinal": 14,
+      "heading": "謁見",
+      "evidencePDFPages": [
+        70
+      ],
+      "bodyUseApplicable": true,
+      "bodyRole": "主",
+      "useRole": "所見之人",
+      "directRelations": {
+        "body-controls-use": {
+          "printedBoundedPhrase": "可見",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-controls-body": {
+          "printedBoundedPhrase": "不見",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "body-generates-use": {
+          "printedBoundedPhrase": "難見見之無益",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-generates-body": {
+          "printedBoundedPhrase": "可見見之且有得",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "same": {
+          "printedBoundedPhrase": "歡然相見",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        }
+      },
+      "missingPremises": [
+        "mutual-and-changed-relations",
+        "strength-and-season",
+        "observations-if-any"
+      ],
+      "prognosticClaimsValidated": false,
+      "consumerAutomated": false
+    },
+    {
+      "id": "lost-object",
+      "ordinal": 15,
+      "heading": "失物",
+      "evidencePDFPages": [
+        71
+      ],
+      "bodyUseApplicable": true,
+      "bodyRole": "主",
+      "useRole": "失物",
+      "directRelations": {
+        "body-controls-use": {
+          "printedBoundedPhrase": "可尋遲得",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-controls-body": {
+          "printedBoundedPhrase": "不可尋",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "body-generates-use": {
+          "printedBoundedPhrase": "物難見",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-generates-body": {
+          "printedBoundedPhrase": "物易尋",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "same": {
+          "printedBoundedPhrase": "物不失",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        }
+      },
+      "missingPremises": [
+        "mutual-and-changed-relations",
+        "strength-and-season",
+        "observations-if-any"
+      ],
+      "prognosticClaimsValidated": false,
+      "consumerAutomated": false
+    },
+    {
+      "id": "illness",
+      "ordinal": 16,
+      "heading": "疾病",
+      "evidencePDFPages": [
+        71,
+        72,
+        73
+      ],
+      "bodyUseApplicable": true,
+      "bodyRole": "病人",
+      "useRole": "病症",
+      "directRelations": {
+        "body-controls-use": {
+          "printedBoundedPhrase": "病易安",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-controls-body": {
+          "printedBoundedPhrase": "雖藥無功",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "body-generates-use": {
+          "printedBoundedPhrase": "遷延難好",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-generates-body": {
+          "printedBoundedPhrase": "即愈",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "same": {
+          "printedBoundedPhrase": "疾病易安",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        }
+      },
+      "missingPremises": [
+        "mutual-and-changed-relations",
+        "strength-and-season",
+        "observations-if-any"
+      ],
+      "prognosticClaimsValidated": false,
+      "consumerAutomated": false
+    },
+    {
+      "id": "litigation",
+      "ordinal": 17,
+      "heading": "官訟",
+      "evidencePDFPages": [
+        73,
+        74
+      ],
+      "bodyUseApplicable": true,
+      "bodyRole": "主",
+      "useRole": "對辭之人與官訟之應",
+      "directRelations": {
+        "body-controls-use": {
+          "printedBoundedPhrase": "己勝人",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-controls-body": {
+          "printedBoundedPhrase": "人勝己",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "body-generates-use": {
+          "printedBoundedPhrase": "非為失理或因官有所喪",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-generates-body": {
+          "printedBoundedPhrase": "不止得理或因訟有得",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "same": {
+          "printedBoundedPhrase": "主和之義",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        }
+      },
+      "missingPremises": [
+        "mutual-and-changed-relations",
+        "strength-and-season",
+        "observations-if-any"
+      ],
+      "prognosticClaimsValidated": false,
+      "consumerAutomated": false
+    },
+    {
+      "id": "grave",
+      "ordinal": 18,
+      "heading": "墳墓",
+      "evidencePDFPages": [
+        74
+      ],
+      "bodyUseApplicable": true,
+      "bodyRole": "主",
+      "useRole": "墳墓",
+      "directRelations": {
+        "body-controls-use": {
+          "printedBoundedPhrase": "葬之吉",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-controls-body": {
+          "printedBoundedPhrase": "葬之凶",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "body-generates-use": {
+          "printedBoundedPhrase": "葬之主貧退",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "use-generates-body": {
+          "printedBoundedPhrase": "主興隆有陰益後嗣",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        },
+        "same": {
+          "printedBoundedPhrase": "乃為吉地",
+          "basis": "literal-or-close-normalization-of-printed-clause",
+          "notFinalVerdict": true
+        }
+      },
+      "missingPremises": [
+        "mutual-and-changed-relations",
+        "strength-and-season",
+        "observations-if-any"
+      ],
+      "prognosticClaimsValidated": false,
+      "consumerAutomated": false
+    }
+  ],
+  "relationCells": 85,
+  "consumerApplied": false
+}

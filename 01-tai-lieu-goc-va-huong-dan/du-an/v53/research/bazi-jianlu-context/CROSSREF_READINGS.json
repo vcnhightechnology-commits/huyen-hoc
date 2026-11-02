@@ -1,0 +1,34 @@
+{
+  "date": "2026-10-27",
+  "status": "retained-WYG-digital-crossreference-read-not-facsimile-collated",
+  "sourceFile": "v53/research/four-items/sources/KR3g0042_003.txt",
+  "sourceSHA256": "267fda36d206bfd153d9377441adb5f99f96c39a594a5f7ebdf3e4dd226e9b87",
+  "duplicateRetainedFile": "v53/research/bazi-relations/sources/KR3g0042_003.txt",
+  "duplicateByteIdentical": true,
+  "volume3CommitAsRetained": "7db72e5553de6ee4c45ed3980c6c67f8a6e451bf",
+  "sections": [
+    {
+      "heading": "論十干祿",
+      "file": "DIGITAL_CROSSREF_LU.txt",
+      "chars": 2996,
+      "folios": "003-1a through003-8b;nextheading003-9a"
+    },
+    {
+      "heading": "論羊刃",
+      "file": "DIGITAL_CROSSREF_BLADE.txt",
+      "chars": 1383,
+      "folios": "003-55b through003-59a"
+    }
+  ],
+  "importantCrossreference": "Volume3 quotes eight stem-specific branch positions, then explicitly states 子平 fiveyangstems haveblade/fiveyin do not, and refers to later論陽刃格. Thus source itself separates approaches; not an unexplained contradiction or universal tenstem rule. Direct images forvolume3 not yet collated.",
+  "sourceWarnings": [
+    "巳/己 retained digital variants",
+    "&KR0339; unresolved character entity in Lu section; no silent restoration",
+    "八干 individual branch sentences do not explicitly list 戊/己; do not silently count ten printed pairs",
+    "Source outcome claims including health/social stereotypes held privately, not implemented as forecasts"
+  ],
+  "newHTTPRequests": 0,
+  "newOriginalContainers": 0,
+  "newSourceImagePages": 0,
+  "wholeWorkApplied": false
+}

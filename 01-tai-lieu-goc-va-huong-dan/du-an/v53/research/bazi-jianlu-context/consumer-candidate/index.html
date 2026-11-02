@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#243f35">
+  <meta name="description" content="Khám phá Tử vi, Bát tự, bản mệnh và hướng nhà qua những kết quả rõ ràng, dễ đọc.">
+  <title>Huyền Học Các · Hiểu mình, thuận cuộc sống</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="imagery.css">
+  <link rel="stylesheet" href="experience.css">
+  <link rel="stylesheet" href="home.css">
+  <link rel="stylesheet" href="yi-lines.css">
+<link rel="stylesheet" href="meihua.css">
+<link rel="stylesheet" href="four-items.css">
+<link rel="stylesheet" href="bazi-locations.css">
+<link rel="stylesheet" href="full-study.css">
+<link rel="stylesheet" href="fortune-context.css">
+<link rel="stylesheet" href="home-measured-plan.css">
+</head>
+<body>
+<a class="skip-link" href="#workspace">Đi đến công cụ</a>
+<header class="site-header wrap">
+  <a class="brand" href="#tuvi" aria-label="Huyền Học Các, trang chính"><span class="brand-seal" aria-hidden="true">☷</span><span>Huyền Học Các<small>HIỂU MÌNH · THUẬN CUỘC SỐNG</small></span></a>
+  <div class="header-actions"><button class="text-button" id="help-open">Cách sử dụng</button><button class="outline-button" id="profiles-open"><span aria-hidden="true">◇</span> Hồ sơ của tôi <span id="profile-count" class="count">0</span></button></div>
+</header>
+<main>
+  <section class="hero wrap" aria-labelledby="hero-title">
+    <div class="hero-copy"><p class="eyebrow"><span></span> NGÀY SINH · BẢN THÂN · KHÔNG GIAN SỐNG</p><h1 id="hero-title">Hiểu mình hơn.<br><em>Sống hài hòa hơn.</em></h1><p class="hero-description">Khám phá Tử vi, Bát tự và phong thủy qua kết quả rõ ràng, lời diễn giải gần gũi.</p><a class="hero-link" href="#workspace">Bắt đầu tra cứu <span aria-hidden="true">↘</span></a></div>
+    <figure class="hero-visual" aria-hidden="true"><div class="hero-image-frame"><img src="assets/hero-landscape.webp" alt="" width="1024" height="683" fetchpriority="high" decoding="async"><span class="landscape-seal">☷</span></div><figcaption>Mỗi người một hành trình.</figcaption></figure>
+  </section>
+  <section class="workspace wrap" id="workspace" aria-label="Công cụ khám phá">
+    <nav class="tool-nav" aria-label="Chọn công cụ tra cứu">
+      <a href="#tuvi" data-tool="tuvi"><span class="tool-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9"/><path d="M12 3v3m0 12v3M3 12h3m12 0h3M8 8l8 8m0-8-8 8"/><circle cx="12" cy="12" r="3"/></svg></span><b>Lập lá số</b><small>12 chủ đề & vận hạn</small></a>
+      <a href="#bazi" data-tool="bazi"><span class="tool-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M4 4h16M4 20h16M5 4v16m5-16v16m4-16v16m5-16v16M4 9h16M4 15h16"/></svg></span><b>Xem Bát tự</b><small>Bốn trụ & ngũ hành</small></a>
+      <a href="#destiny" data-tool="destiny"><span class="tool-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="m12 2 9 10-9 10L3 12 12 2Z"/><path d="m12 7 4.5 5-4.5 5-4.5-5 4.5-5Z"/></svg></span><b>Tra bản mệnh</b><small>Nạp âm & cung phi</small></a>
+      <a href="#directions" data-tool="directions"><span class="tool-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="8"/><path d="M12 1v3m0 16v3M1 12h3m16 0h3m-5-6-4 8-8 4 4-8 8-4Z"/></svg></span><b>Xem hướng nhà</b><small>Hướng & bố trí phòng</small></a>
+      <a href="#yi" data-tool="yi"><span class="tool-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none"><path d="M3 4h18M3 8h7m4 0h7M3 12h18M3 16h7m4 0h7M3 20h18"/></svg></span><b>Gieo quẻ</b><small>Quẻ chủ & chuyển biến</small></a>
+    </nav>
+    <div class="workspace-heading"><div><p class="eyebrow" id="tool-kicker">NGÀY SINH & BẢN THÂN</p><h2 id="tool-title">Lá số Tử vi của bạn</h2><p id="tool-description">Bắt đầu từ thông tin sinh, đọc lá số theo từng chủ đề gần gũi.</p></div><span class="local-badge"><i></i> Riêng tư trên thiết bị</span></div>
+    <nav class="home-tabs" id="home-tabs" aria-label="Nội dung về nhà ở" hidden><a href="#directions" data-home-mode="age">Hướng theo tuổi</a><a href="#home" data-home-mode="rooms">Bố trí các phòng</a></nav>
+    <div class="workspace-grid"><aside class="input-panel" id="form-panel"></aside><section class="result-panel" id="result" aria-label="Kết quả" aria-live="polite"></section></div>
+    <section class="home-guide" id="home-guide" aria-label="Bố trí các phòng trong nhà" hidden></section>
+    <div class="how-strip"><span class="step"><b>01</b> Chọn điều muốn khám phá</span><span class="step"><b>02</b> Điền thông tin của bạn</span><span class="step"><b>03</b> Đọc & chiêm nghiệm</span></div>
+  </section>
+  <section class="closing wrap"><span class="closing-mark" aria-hidden="true">✧</span><p>Thêm một góc nhìn.<br><em>Quyết định vẫn ở bạn.</em></p><span>Mỗi kết quả là một lời gợi mở để hiểu bản thân<br>và chăm chút cuộc sống theo cách của riêng mình.</span></section>
+</main>
+<footer class="site-footer wrap"><div class="footer-brand">Huyền Học Các <span>—</span> Hiểu mình, thuận cuộc sống.</div><p>Nội dung mang tính tham khảo văn hóa; cân nhắc cùng hoàn cảnh thực tế.</p><button class="text-button" id="privacy-open">Về dữ liệu của bạn</button></footer>
+<dialog id="modal"><div class="modal-top"><h2 id="modal-title"></h2><button class="icon-button" id="modal-close" aria-label="Đóng cửa sổ">×</button></div><div id="modal-body"></div></dialog>
+<div class="toast" id="toast" role="status" hidden></div>
+<script src="engine.js"></script>
+<script src="content.js"></script>
+<script src="yi-content.js"></script>
+<script src="yi-complete-data.js"></script>
+<script src="yi-lines.js"></script>
+<script src="bazi-relations.js"></script>
+<script src="bazi-month-context.js"></script>
+<script src="bazi-cycles.js"></script>
+<script src="tuvi-context.js"></script>
+<script src="yi-context.js"></script>
+<script src="fortune-context.js"></script>
+<script src="fortune.js"></script>
+<script src="fortune-months.js"></script>
+<script src="mountains.js"></script>
+<script src="bearing-guide.js"></script>
+<script src="art.js"></script>
+<script src="home-content.js"></script>
+<script src="home-guide.js"></script>
+<script src="home-internal-doors.js"></script>
+<script src="home-measured-plan.js"></script>
+<script src="meihua.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

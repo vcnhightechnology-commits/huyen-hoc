@@ -1,0 +1,132 @@
+{
+  "date": "2026-10-27",
+  "records": [
+    {
+      "url": "https://www.digital.archives.go.jp/item/4756814",
+      "file": "japan-volume2-item.html",
+      "executed": true,
+      "retrievedUTC": "2026-10-27T11:45:04.405Z",
+      "status": 200,
+      "error": null,
+      "headers": {
+        "content-type": "text/html;charset=UTF-8"
+      },
+      "tls": {
+        "authorized": null,
+        "authorizationError": null
+      },
+      "bytes": 74916,
+      "sha256": "0032dbbcb348ed7b7b11c6680c97ccd778ea3de26ff9d62242fad4d1a71abdc7"
+    },
+    {
+      "url": "https://www.digital.archives.go.jp/api/iiif/4756814/manifest.json",
+      "file": "japan-volume2-manifest.json",
+      "executed": true,
+      "retrievedUTC": "2026-10-27T11:45:06.701Z",
+      "status": 200,
+      "error": null,
+      "headers": {
+        "content-type": "application/json;charset=UTF-8",
+        "content-length": "48841"
+      },
+      "tls": {
+        "authorized": null,
+        "authorizationError": null
+      },
+      "bytes": 48841,
+      "sha256": "a56944bfb2084788de83001a49eb90ac8d954e4f398409e07da59821b1e05354"
+    },
+    {
+      "url": "https://www.digital.archives.go.jp/api/content/item/da12/C103347733100/iiif/M2021052512401615599_0048.jp2/full/max/0/native.jpg",
+      "file": "japan-volume2-spread-48-returned.jpg",
+      "executed": true,
+      "retrievedUTC": "2026-10-27T11:46:09.031Z",
+      "status": 200,
+      "error": null,
+      "headers": {
+        "content-type": "image/jpeg;charset=UTF-8"
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "nodeHTTPSDefaultCertificateValidationEnforced": true,
+      "bytes": 892387,
+      "sha256": "deb35e1aad6f7b5ec9e1a5017fbc9c66824664e86fbfbd1755ca88c5f97b6582"
+    },
+    {
+      "url": "https://www.digital.archives.go.jp/api/content/item/da12/C103347733200/iiif/M2021052512401615599_0049.jp2/full/max/0/native.jpg",
+      "file": "japan-volume2-spread-49-returned.403.html",
+      "executed": true,
+      "retrievedUTC": "2026-10-27T11:46:09.239Z",
+      "status": 403,
+      "error": null,
+      "headers": {
+        "content-type": "text/html",
+        "content-length": "608"
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "nodeHTTPSDefaultCertificateValidationEnforced": true,
+      "bytes": 608,
+      "sha256": "3583028b8177997257190b29910fd802ea895c68f197c795e5267d00cf76d6a0"
+    },
+    {
+      "url": "https://www.digital.archives.go.jp/api/content/item/da12/C103347733400/iiif/M2021052512401615599_0051.jp2/full/max/0/native.jpg",
+      "file": "japan-volume2-spread-51-returned.jpg",
+      "executed": true,
+      "retrievedUTC": "2026-10-27T11:47:32.583Z",
+      "status": 200,
+      "error": null,
+      "headers": {
+        "content-type": "image/jpeg;charset=UTF-8"
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "nodeHTTPSDefaultCertificateValidationEnforced": true,
+      "bytes": 895675,
+      "sha256": "15965efdd4dbeee794d336af7b600c9168694da1797a9273fe3373c902a0d84f"
+    },
+    {
+      "url": "https://www.digital.archives.go.jp/api/content/item/da12/C103347733500/iiif/M2021052512401615599_0052.jp2/full/max/0/native.jpg",
+      "file": "japan-volume2-spread-52-returned.jpg",
+      "executed": true,
+      "retrievedUTC": "2026-10-27T11:47:34.004Z",
+      "status": 200,
+      "error": null,
+      "headers": {
+        "content-type": "image/jpeg;charset=UTF-8"
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "nodeHTTPSDefaultCertificateValidationEnforced": true,
+      "bytes": 806618,
+      "sha256": "c7ed8e404156d14034846cb7bc8981ccc17af449eae0ac39ca1040128a2a9b6d"
+    },
+    {
+      "url": "https://www.digital.archives.go.jp/api/content/item/da12/C103347733300/iiif/M2021052512401615599_0050.jp2/full/max/0/native.jpg",
+      "file": "japan-volume2-spread-50-returned.jpg",
+      "executed": true,
+      "retrievedUTC": "2026-10-27T11:50:15.073Z",
+      "status": 200,
+      "error": null,
+      "headers": {
+        "content-type": "image/jpeg;charset=UTF-8"
+      },
+      "tls": {
+        "authorized": true,
+        "authorizationError": null
+      },
+      "nodeHTTPSDefaultCertificateValidationEnforced": true,
+      "bytes": 905052,
+      "sha256": "3a070a43598d6ffb1f1babc21f1d9e4b1751c225fa94249f61bbe578ea555ad2"
+    }
+  ],
+  "transportLoggingLimit": "The first two metadata calls captured socket state after response end and returned null. Preserve null;do not relabel as observed authorization. Later image requests capture response-head TLS authorization=true. Nodehttps used default certificate validation;no credentials/proxy/TLS bypass."
+}

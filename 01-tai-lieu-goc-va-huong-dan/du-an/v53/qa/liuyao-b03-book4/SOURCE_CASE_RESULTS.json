@@ -1,0 +1,2118 @@
+{
+  "date": "2026-10-27",
+  "syntheticControls": [
+    {
+      "synthetic": true,
+      "notAPrintedCoinCast": true,
+      "name": "principal-door-premises",
+      "number": 41,
+      "values": [
+        7,
+        7,
+        8,
+        8,
+        8,
+        7
+      ],
+      "result": {
+        "schema": "hhc.liuyao.B03.home-symbol-coordinates.v1",
+        "sourceID": "B03-book4",
+        "sourceContext": "B03-volume9-home-divination",
+        "chart": {
+          "schema": "hhc.liuyao.structural-chart.v1",
+          "orientation": "bottom-to-top",
+          "input": [
+            7,
+            7,
+            8,
+            8,
+            8,
+            7
+          ],
+          "primary": {
+            "number": 41,
+            "normalizedName": "山澤損",
+            "palace": "艮",
+            "palaceTrigram": 7,
+            "palaceElement": "土",
+            "stage": "三世",
+            "stageIndex": 3,
+            "shi": 3,
+            "ying": 6,
+            "bits": [
+              1,
+              1,
+              0,
+              0,
+              0,
+              1
+            ]
+          },
+          "changed": {
+            "number": 41,
+            "normalizedName": "山澤損",
+            "bits": [
+              1,
+              1,
+              0,
+              0,
+              0,
+              1
+            ],
+            "ownPalaceDiagnostic": "艮",
+            "ownPalaceElementDiagnostic": "土",
+            "annotationKinBasisPalace": "艮",
+            "shiYingReassigned": false
+          },
+          "dayStem": null,
+          "lines": [
+            {
+              "line": 1,
+              "stem": "丁",
+              "branch": "巳",
+              "element": "火",
+              "kin": "父母",
+              "kinBasisPalace": "艮",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 2,
+              "stem": "丁",
+              "branch": "卯",
+              "element": "木",
+              "kin": "官鬼",
+              "kinBasisPalace": "艮",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 3,
+              "stem": "丁",
+              "branch": "丑",
+              "element": "土",
+              "kin": "兄弟",
+              "kinBasisPalace": "艮",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": "世",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 4,
+              "stem": "丙",
+              "branch": "戌",
+              "element": "土",
+              "kin": "兄弟",
+              "kinBasisPalace": "艮",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 5,
+              "stem": "丙",
+              "branch": "子",
+              "element": "水",
+              "kin": "妻財",
+              "kinBasisPalace": "艮",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 6,
+              "stem": "丙",
+              "branch": "寅",
+              "element": "木",
+              "kin": "官鬼",
+              "kinBasisPalace": "艮",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "應",
+              "spirit": null,
+              "changed": null
+            }
+          ],
+          "movingLines": [],
+          "scope": "structural-source-reference-only",
+          "consumerApplied": false,
+          "predictedEvent": null,
+          "missingPremises": [
+            "用神selection",
+            "飛伏rules",
+            "calendar month/day boundaries",
+            "旺衰/旬空conditionalrules",
+            "full source exceptions",
+            "outcome validation"
+          ]
+        },
+        "houseAnchor": {
+          "line": 2,
+          "sourceSymbol": "宅",
+          "pdfPages": [
+            28
+          ],
+          "branch": "卯",
+          "element": "木",
+          "kin": "官鬼",
+          "moving": false,
+          "shiYingRole": null,
+          "actualOwnChange": null,
+          "realWorldObjectVerified": false,
+          "effectiveness": null
+        },
+        "occupantAnchor": {
+          "line": 5,
+          "sourceSymbol": "人口",
+          "pdfPages": [
+            28
+          ],
+          "branch": "子",
+          "element": "水",
+          "kin": "妻財",
+          "moving": false,
+          "shiYingRole": null,
+          "actualOwnChange": null,
+          "realWorldObjectVerified": false,
+          "effectiveness": null
+        },
+        "innerOuter": {
+          "innerLines": [
+            1,
+            2,
+            3
+          ],
+          "outerLines": [
+            4,
+            5,
+            6
+          ],
+          "sourcePDFPage": 28,
+          "sourceSymbolicOnly": true,
+          "measuredInteriorExterior": null
+        },
+        "houseOccupantRelation": {
+          "from": "卯",
+          "to": "子",
+          "fromElement": "木",
+          "toElement": "水",
+          "sameBranch": false,
+          "sameElement": false,
+          "generates": false,
+          "controls": false,
+          "receivesGeneration": true,
+          "receivesControl": false,
+          "clash": false,
+          "combination": false
+        },
+        "fourthLineDoor": {
+          "candidate": {
+            "line": 4,
+            "sourceSymbol": "戶候選",
+            "pdfPages": [
+              41
+            ],
+            "branch": "戌",
+            "element": "土",
+            "kin": "兄弟",
+            "moving": false,
+            "shiYingRole": null,
+            "actualOwnChange": null,
+            "realWorldObjectVerified": false,
+            "effectiveness": null
+          },
+          "kinPremisePresent": true,
+          "gate": "source-kin-prerequisite-present",
+          "principalDoorCombinationToHouse": true,
+          "principalDoorGate": "source-symbol-prerequisites-present",
+          "structuralRelation": {
+            "from": "戌",
+            "to": "卯",
+            "fromElement": "土",
+            "toElement": "木",
+            "sameBranch": false,
+            "sameElement": false,
+            "generates": false,
+            "controls": false,
+            "receivesGeneration": false,
+            "receivesControl": true,
+            "clash": false,
+            "combination": true
+          },
+          "actualDoorExistence": null,
+          "physicalDoorLocation": null,
+          "motionRequiredByThisBoundedGate": false
+        },
+        "thirdLineBedException": {
+          "line": 3,
+          "kin": "兄弟",
+          "branch": "丑",
+          "gate": false,
+          "sourceSymbol": null,
+          "sourcePDFPage": 40,
+          "genericThirdLineDoorAssigned": false,
+          "actualBedLocation": null
+        },
+        "ordinalIsNotBuildingStorey": true,
+        "shiYingNotReassigned": true,
+        "changedLayerNotUsedToSubstitutePrimaryKin": true,
+        "compassBearings": null,
+        "roomRecommendations": null,
+        "physicalFloorPlan": null,
+        "sourceOutcomeAdjudication": null,
+        "predictedEvent": null,
+        "consumerApplied": false
+      }
+    },
+    {
+      "synthetic": true,
+      "notAPrintedCoinCast": true,
+      "name": "fourth-brother-without-combination",
+      "number": 35,
+      "values": [
+        8,
+        8,
+        8,
+        7,
+        8,
+        7
+      ],
+      "result": {
+        "schema": "hhc.liuyao.B03.home-symbol-coordinates.v1",
+        "sourceID": "B03-book4",
+        "sourceContext": "B03-volume9-home-divination",
+        "chart": {
+          "schema": "hhc.liuyao.structural-chart.v1",
+          "orientation": "bottom-to-top",
+          "input": [
+            8,
+            8,
+            8,
+            7,
+            8,
+            7
+          ],
+          "primary": {
+            "number": 35,
+            "normalizedName": "火地晉",
+            "palace": "乾",
+            "palaceTrigram": 1,
+            "palaceElement": "金",
+            "stage": "遊魂",
+            "stageIndex": 6,
+            "shi": 4,
+            "ying": 1,
+            "bits": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              1
+            ]
+          },
+          "changed": {
+            "number": 35,
+            "normalizedName": "火地晉",
+            "bits": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              1
+            ],
+            "ownPalaceDiagnostic": "乾",
+            "ownPalaceElementDiagnostic": "金",
+            "annotationKinBasisPalace": "乾",
+            "shiYingReassigned": false
+          },
+          "dayStem": null,
+          "lines": [
+            {
+              "line": 1,
+              "stem": "乙",
+              "branch": "未",
+              "element": "土",
+              "kin": "父母",
+              "kinBasisPalace": "乾",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": "應",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 2,
+              "stem": "乙",
+              "branch": "巳",
+              "element": "火",
+              "kin": "官鬼",
+              "kinBasisPalace": "乾",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 3,
+              "stem": "乙",
+              "branch": "卯",
+              "element": "木",
+              "kin": "妻財",
+              "kinBasisPalace": "乾",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 4,
+              "stem": "己",
+              "branch": "酉",
+              "element": "金",
+              "kin": "兄弟",
+              "kinBasisPalace": "乾",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "世",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 5,
+              "stem": "己",
+              "branch": "未",
+              "element": "土",
+              "kin": "父母",
+              "kinBasisPalace": "乾",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 6,
+              "stem": "己",
+              "branch": "巳",
+              "element": "火",
+              "kin": "官鬼",
+              "kinBasisPalace": "乾",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            }
+          ],
+          "movingLines": [],
+          "scope": "structural-source-reference-only",
+          "consumerApplied": false,
+          "predictedEvent": null,
+          "missingPremises": [
+            "用神selection",
+            "飛伏rules",
+            "calendar month/day boundaries",
+            "旺衰/旬空conditionalrules",
+            "full source exceptions",
+            "outcome validation"
+          ]
+        },
+        "houseAnchor": {
+          "line": 2,
+          "sourceSymbol": "宅",
+          "pdfPages": [
+            28
+          ],
+          "branch": "巳",
+          "element": "火",
+          "kin": "官鬼",
+          "moving": false,
+          "shiYingRole": null,
+          "actualOwnChange": null,
+          "realWorldObjectVerified": false,
+          "effectiveness": null
+        },
+        "occupantAnchor": {
+          "line": 5,
+          "sourceSymbol": "人口",
+          "pdfPages": [
+            28
+          ],
+          "branch": "未",
+          "element": "土",
+          "kin": "父母",
+          "moving": false,
+          "shiYingRole": null,
+          "actualOwnChange": null,
+          "realWorldObjectVerified": false,
+          "effectiveness": null
+        },
+        "innerOuter": {
+          "innerLines": [
+            1,
+            2,
+            3
+          ],
+          "outerLines": [
+            4,
+            5,
+            6
+          ],
+          "sourcePDFPage": 28,
+          "sourceSymbolicOnly": true,
+          "measuredInteriorExterior": null
+        },
+        "houseOccupantRelation": {
+          "from": "巳",
+          "to": "未",
+          "fromElement": "火",
+          "toElement": "土",
+          "sameBranch": false,
+          "sameElement": false,
+          "generates": true,
+          "controls": false,
+          "receivesGeneration": false,
+          "receivesControl": false,
+          "clash": false,
+          "combination": false
+        },
+        "fourthLineDoor": {
+          "candidate": {
+            "line": 4,
+            "sourceSymbol": "戶候選",
+            "pdfPages": [
+              41
+            ],
+            "branch": "酉",
+            "element": "金",
+            "kin": "兄弟",
+            "moving": false,
+            "shiYingRole": "世",
+            "actualOwnChange": null,
+            "realWorldObjectVerified": false,
+            "effectiveness": null
+          },
+          "kinPremisePresent": true,
+          "gate": "source-kin-prerequisite-present",
+          "principalDoorCombinationToHouse": false,
+          "principalDoorGate": "source-symbol-prerequisites-not-present",
+          "structuralRelation": {
+            "from": "酉",
+            "to": "巳",
+            "fromElement": "金",
+            "toElement": "火",
+            "sameBranch": false,
+            "sameElement": false,
+            "generates": false,
+            "controls": false,
+            "receivesGeneration": false,
+            "receivesControl": true,
+            "clash": false,
+            "combination": false
+          },
+          "actualDoorExistence": null,
+          "physicalDoorLocation": null,
+          "motionRequiredByThisBoundedGate": false
+        },
+        "thirdLineBedException": {
+          "line": 3,
+          "kin": "妻財",
+          "branch": "卯",
+          "gate": false,
+          "sourceSymbol": null,
+          "sourcePDFPage": 40,
+          "genericThirdLineDoorAssigned": false,
+          "actualBedLocation": null
+        },
+        "ordinalIsNotBuildingStorey": true,
+        "shiYingNotReassigned": true,
+        "changedLayerNotUsedToSubstitutePrimaryKin": true,
+        "compassBearings": null,
+        "roomRecommendations": null,
+        "physicalFloorPlan": null,
+        "sourceOutcomeAdjudication": null,
+        "predictedEvent": null,
+        "consumerApplied": false
+      }
+    },
+    {
+      "synthetic": true,
+      "notAPrintedCoinCast": true,
+      "name": "combination-without-brother",
+      "number": 17,
+      "values": [
+        7,
+        8,
+        8,
+        7,
+        7,
+        8
+      ],
+      "result": {
+        "schema": "hhc.liuyao.B03.home-symbol-coordinates.v1",
+        "sourceID": "B03-book4",
+        "sourceContext": "B03-volume9-home-divination",
+        "chart": {
+          "schema": "hhc.liuyao.structural-chart.v1",
+          "orientation": "bottom-to-top",
+          "input": [
+            7,
+            8,
+            8,
+            7,
+            7,
+            8
+          ],
+          "primary": {
+            "number": 17,
+            "normalizedName": "澤雷隨",
+            "palace": "震",
+            "palaceTrigram": 4,
+            "palaceElement": "木",
+            "stage": "歸魂",
+            "stageIndex": 7,
+            "shi": 3,
+            "ying": 6,
+            "bits": [
+              1,
+              0,
+              0,
+              1,
+              1,
+              0
+            ]
+          },
+          "changed": {
+            "number": 17,
+            "normalizedName": "澤雷隨",
+            "bits": [
+              1,
+              0,
+              0,
+              1,
+              1,
+              0
+            ],
+            "ownPalaceDiagnostic": "震",
+            "ownPalaceElementDiagnostic": "木",
+            "annotationKinBasisPalace": "震",
+            "shiYingReassigned": false
+          },
+          "dayStem": null,
+          "lines": [
+            {
+              "line": 1,
+              "stem": "庚",
+              "branch": "子",
+              "element": "水",
+              "kin": "父母",
+              "kinBasisPalace": "震",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 2,
+              "stem": "庚",
+              "branch": "寅",
+              "element": "木",
+              "kin": "兄弟",
+              "kinBasisPalace": "震",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 3,
+              "stem": "庚",
+              "branch": "辰",
+              "element": "土",
+              "kin": "妻財",
+              "kinBasisPalace": "震",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": "世",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 4,
+              "stem": "丁",
+              "branch": "亥",
+              "element": "水",
+              "kin": "父母",
+              "kinBasisPalace": "震",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 5,
+              "stem": "丁",
+              "branch": "酉",
+              "element": "金",
+              "kin": "官鬼",
+              "kinBasisPalace": "震",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 6,
+              "stem": "丁",
+              "branch": "未",
+              "element": "土",
+              "kin": "妻財",
+              "kinBasisPalace": "震",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": "應",
+              "spirit": null,
+              "changed": null
+            }
+          ],
+          "movingLines": [],
+          "scope": "structural-source-reference-only",
+          "consumerApplied": false,
+          "predictedEvent": null,
+          "missingPremises": [
+            "用神selection",
+            "飛伏rules",
+            "calendar month/day boundaries",
+            "旺衰/旬空conditionalrules",
+            "full source exceptions",
+            "outcome validation"
+          ]
+        },
+        "houseAnchor": {
+          "line": 2,
+          "sourceSymbol": "宅",
+          "pdfPages": [
+            28
+          ],
+          "branch": "寅",
+          "element": "木",
+          "kin": "兄弟",
+          "moving": false,
+          "shiYingRole": null,
+          "actualOwnChange": null,
+          "realWorldObjectVerified": false,
+          "effectiveness": null
+        },
+        "occupantAnchor": {
+          "line": 5,
+          "sourceSymbol": "人口",
+          "pdfPages": [
+            28
+          ],
+          "branch": "酉",
+          "element": "金",
+          "kin": "官鬼",
+          "moving": false,
+          "shiYingRole": null,
+          "actualOwnChange": null,
+          "realWorldObjectVerified": false,
+          "effectiveness": null
+        },
+        "innerOuter": {
+          "innerLines": [
+            1,
+            2,
+            3
+          ],
+          "outerLines": [
+            4,
+            5,
+            6
+          ],
+          "sourcePDFPage": 28,
+          "sourceSymbolicOnly": true,
+          "measuredInteriorExterior": null
+        },
+        "houseOccupantRelation": {
+          "from": "寅",
+          "to": "酉",
+          "fromElement": "木",
+          "toElement": "金",
+          "sameBranch": false,
+          "sameElement": false,
+          "generates": false,
+          "controls": false,
+          "receivesGeneration": false,
+          "receivesControl": true,
+          "clash": false,
+          "combination": false
+        },
+        "fourthLineDoor": {
+          "candidate": {
+            "line": 4,
+            "sourceSymbol": "戶候選",
+            "pdfPages": [
+              41
+            ],
+            "branch": "亥",
+            "element": "水",
+            "kin": "父母",
+            "moving": false,
+            "shiYingRole": null,
+            "actualOwnChange": null,
+            "realWorldObjectVerified": false,
+            "effectiveness": null
+          },
+          "kinPremisePresent": false,
+          "gate": "source-kin-prerequisite-not-present",
+          "principalDoorCombinationToHouse": true,
+          "principalDoorGate": "source-symbol-prerequisites-not-present",
+          "structuralRelation": {
+            "from": "亥",
+            "to": "寅",
+            "fromElement": "水",
+            "toElement": "木",
+            "sameBranch": false,
+            "sameElement": false,
+            "generates": true,
+            "controls": false,
+            "receivesGeneration": false,
+            "receivesControl": false,
+            "clash": false,
+            "combination": true
+          },
+          "actualDoorExistence": null,
+          "physicalDoorLocation": null,
+          "motionRequiredByThisBoundedGate": false
+        },
+        "thirdLineBedException": {
+          "line": 3,
+          "kin": "妻財",
+          "branch": "辰",
+          "gate": false,
+          "sourceSymbol": null,
+          "sourcePDFPage": 40,
+          "genericThirdLineDoorAssigned": false,
+          "actualBedLocation": null
+        },
+        "ordinalIsNotBuildingStorey": true,
+        "shiYingNotReassigned": true,
+        "changedLayerNotUsedToSubstitutePrimaryKin": true,
+        "compassBearings": null,
+        "roomRecommendations": null,
+        "physicalFloorPlan": null,
+        "sourceOutcomeAdjudication": null,
+        "predictedEvent": null,
+        "consumerApplied": false
+      }
+    },
+    {
+      "synthetic": true,
+      "notAPrintedCoinCast": true,
+      "name": "third-brother-mao-bed",
+      "number": 16,
+      "values": [
+        8,
+        8,
+        8,
+        7,
+        8,
+        8
+      ],
+      "result": {
+        "schema": "hhc.liuyao.B03.home-symbol-coordinates.v1",
+        "sourceID": "B03-book4",
+        "sourceContext": "B03-volume9-home-divination",
+        "chart": {
+          "schema": "hhc.liuyao.structural-chart.v1",
+          "orientation": "bottom-to-top",
+          "input": [
+            8,
+            8,
+            8,
+            7,
+            8,
+            8
+          ],
+          "primary": {
+            "number": 16,
+            "normalizedName": "雷地豫",
+            "palace": "震",
+            "palaceTrigram": 4,
+            "palaceElement": "木",
+            "stage": "一世",
+            "stageIndex": 1,
+            "shi": 1,
+            "ying": 4,
+            "bits": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ]
+          },
+          "changed": {
+            "number": 16,
+            "normalizedName": "雷地豫",
+            "bits": [
+              0,
+              0,
+              0,
+              1,
+              0,
+              0
+            ],
+            "ownPalaceDiagnostic": "震",
+            "ownPalaceElementDiagnostic": "木",
+            "annotationKinBasisPalace": "震",
+            "shiYingReassigned": false
+          },
+          "dayStem": null,
+          "lines": [
+            {
+              "line": 1,
+              "stem": "乙",
+              "branch": "未",
+              "element": "土",
+              "kin": "妻財",
+              "kinBasisPalace": "震",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": "世",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 2,
+              "stem": "乙",
+              "branch": "巳",
+              "element": "火",
+              "kin": "子孫",
+              "kinBasisPalace": "震",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 3,
+              "stem": "乙",
+              "branch": "卯",
+              "element": "木",
+              "kin": "兄弟",
+              "kinBasisPalace": "震",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 4,
+              "stem": "庚",
+              "branch": "午",
+              "element": "火",
+              "kin": "子孫",
+              "kinBasisPalace": "震",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "應",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 5,
+              "stem": "庚",
+              "branch": "申",
+              "element": "金",
+              "kin": "官鬼",
+              "kinBasisPalace": "震",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 6,
+              "stem": "庚",
+              "branch": "戌",
+              "element": "土",
+              "kin": "妻財",
+              "kinBasisPalace": "震",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            }
+          ],
+          "movingLines": [],
+          "scope": "structural-source-reference-only",
+          "consumerApplied": false,
+          "predictedEvent": null,
+          "missingPremises": [
+            "用神selection",
+            "飛伏rules",
+            "calendar month/day boundaries",
+            "旺衰/旬空conditionalrules",
+            "full source exceptions",
+            "outcome validation"
+          ]
+        },
+        "houseAnchor": {
+          "line": 2,
+          "sourceSymbol": "宅",
+          "pdfPages": [
+            28
+          ],
+          "branch": "巳",
+          "element": "火",
+          "kin": "子孫",
+          "moving": false,
+          "shiYingRole": null,
+          "actualOwnChange": null,
+          "realWorldObjectVerified": false,
+          "effectiveness": null
+        },
+        "occupantAnchor": {
+          "line": 5,
+          "sourceSymbol": "人口",
+          "pdfPages": [
+            28
+          ],
+          "branch": "申",
+          "element": "金",
+          "kin": "官鬼",
+          "moving": false,
+          "shiYingRole": null,
+          "actualOwnChange": null,
+          "realWorldObjectVerified": false,
+          "effectiveness": null
+        },
+        "innerOuter": {
+          "innerLines": [
+            1,
+            2,
+            3
+          ],
+          "outerLines": [
+            4,
+            5,
+            6
+          ],
+          "sourcePDFPage": 28,
+          "sourceSymbolicOnly": true,
+          "measuredInteriorExterior": null
+        },
+        "houseOccupantRelation": {
+          "from": "巳",
+          "to": "申",
+          "fromElement": "火",
+          "toElement": "金",
+          "sameBranch": false,
+          "sameElement": false,
+          "generates": false,
+          "controls": true,
+          "receivesGeneration": false,
+          "receivesControl": false,
+          "clash": false,
+          "combination": true
+        },
+        "fourthLineDoor": {
+          "candidate": {
+            "line": 4,
+            "sourceSymbol": "戶候選",
+            "pdfPages": [
+              41
+            ],
+            "branch": "午",
+            "element": "火",
+            "kin": "子孫",
+            "moving": false,
+            "shiYingRole": "應",
+            "actualOwnChange": null,
+            "realWorldObjectVerified": false,
+            "effectiveness": null
+          },
+          "kinPremisePresent": false,
+          "gate": "source-kin-prerequisite-not-present",
+          "principalDoorCombinationToHouse": false,
+          "principalDoorGate": "source-symbol-prerequisites-not-present",
+          "structuralRelation": {
+            "from": "午",
+            "to": "巳",
+            "fromElement": "火",
+            "toElement": "火",
+            "sameBranch": false,
+            "sameElement": true,
+            "generates": false,
+            "controls": false,
+            "receivesGeneration": false,
+            "receivesControl": false,
+            "clash": false,
+            "combination": false
+          },
+          "actualDoorExistence": null,
+          "physicalDoorLocation": null,
+          "motionRequiredByThisBoundedGate": false
+        },
+        "thirdLineBedException": {
+          "line": 3,
+          "kin": "兄弟",
+          "branch": "卯",
+          "gate": true,
+          "sourceSymbol": "床榻",
+          "sourcePDFPage": 40,
+          "genericThirdLineDoorAssigned": false,
+          "actualBedLocation": null
+        },
+        "ordinalIsNotBuildingStorey": true,
+        "shiYingNotReassigned": true,
+        "changedLayerNotUsedToSubstitutePrimaryKin": true,
+        "compassBearings": null,
+        "roomRecommendations": null,
+        "physicalFloorPlan": null,
+        "sourceOutcomeAdjudication": null,
+        "predictedEvent": null,
+        "consumerApplied": false
+      }
+    },
+    {
+      "synthetic": true,
+      "notAPrintedCoinCast": true,
+      "name": "third-mao-without-brother",
+      "number": 12,
+      "values": [
+        8,
+        8,
+        8,
+        7,
+        7,
+        7
+      ],
+      "result": {
+        "schema": "hhc.liuyao.B03.home-symbol-coordinates.v1",
+        "sourceID": "B03-book4",
+        "sourceContext": "B03-volume9-home-divination",
+        "chart": {
+          "schema": "hhc.liuyao.structural-chart.v1",
+          "orientation": "bottom-to-top",
+          "input": [
+            8,
+            8,
+            8,
+            7,
+            7,
+            7
+          ],
+          "primary": {
+            "number": 12,
+            "normalizedName": "天地否",
+            "palace": "乾",
+            "palaceTrigram": 1,
+            "palaceElement": "金",
+            "stage": "三世",
+            "stageIndex": 3,
+            "shi": 3,
+            "ying": 6,
+            "bits": [
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ]
+          },
+          "changed": {
+            "number": 12,
+            "normalizedName": "天地否",
+            "bits": [
+              0,
+              0,
+              0,
+              1,
+              1,
+              1
+            ],
+            "ownPalaceDiagnostic": "乾",
+            "ownPalaceElementDiagnostic": "金",
+            "annotationKinBasisPalace": "乾",
+            "shiYingReassigned": false
+          },
+          "dayStem": null,
+          "lines": [
+            {
+              "line": 1,
+              "stem": "乙",
+              "branch": "未",
+              "element": "土",
+              "kin": "父母",
+              "kinBasisPalace": "乾",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 2,
+              "stem": "乙",
+              "branch": "巳",
+              "element": "火",
+              "kin": "官鬼",
+              "kinBasisPalace": "乾",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 3,
+              "stem": "乙",
+              "branch": "卯",
+              "element": "木",
+              "kin": "妻財",
+              "kinBasisPalace": "乾",
+              "value": 8,
+              "polarity": 0,
+              "moving": false,
+              "role": "世",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 4,
+              "stem": "壬",
+              "branch": "午",
+              "element": "火",
+              "kin": "官鬼",
+              "kinBasisPalace": "乾",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 5,
+              "stem": "壬",
+              "branch": "申",
+              "element": "金",
+              "kin": "兄弟",
+              "kinBasisPalace": "乾",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 6,
+              "stem": "壬",
+              "branch": "戌",
+              "element": "土",
+              "kin": "父母",
+              "kinBasisPalace": "乾",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "應",
+              "spirit": null,
+              "changed": null
+            }
+          ],
+          "movingLines": [],
+          "scope": "structural-source-reference-only",
+          "consumerApplied": false,
+          "predictedEvent": null,
+          "missingPremises": [
+            "用神selection",
+            "飛伏rules",
+            "calendar month/day boundaries",
+            "旺衰/旬空conditionalrules",
+            "full source exceptions",
+            "outcome validation"
+          ]
+        },
+        "houseAnchor": {
+          "line": 2,
+          "sourceSymbol": "宅",
+          "pdfPages": [
+            28
+          ],
+          "branch": "巳",
+          "element": "火",
+          "kin": "官鬼",
+          "moving": false,
+          "shiYingRole": null,
+          "actualOwnChange": null,
+          "realWorldObjectVerified": false,
+          "effectiveness": null
+        },
+        "occupantAnchor": {
+          "line": 5,
+          "sourceSymbol": "人口",
+          "pdfPages": [
+            28
+          ],
+          "branch": "申",
+          "element": "金",
+          "kin": "兄弟",
+          "moving": false,
+          "shiYingRole": null,
+          "actualOwnChange": null,
+          "realWorldObjectVerified": false,
+          "effectiveness": null
+        },
+        "innerOuter": {
+          "innerLines": [
+            1,
+            2,
+            3
+          ],
+          "outerLines": [
+            4,
+            5,
+            6
+          ],
+          "sourcePDFPage": 28,
+          "sourceSymbolicOnly": true,
+          "measuredInteriorExterior": null
+        },
+        "houseOccupantRelation": {
+          "from": "巳",
+          "to": "申",
+          "fromElement": "火",
+          "toElement": "金",
+          "sameBranch": false,
+          "sameElement": false,
+          "generates": false,
+          "controls": true,
+          "receivesGeneration": false,
+          "receivesControl": false,
+          "clash": false,
+          "combination": true
+        },
+        "fourthLineDoor": {
+          "candidate": {
+            "line": 4,
+            "sourceSymbol": "戶候選",
+            "pdfPages": [
+              41
+            ],
+            "branch": "午",
+            "element": "火",
+            "kin": "官鬼",
+            "moving": false,
+            "shiYingRole": null,
+            "actualOwnChange": null,
+            "realWorldObjectVerified": false,
+            "effectiveness": null
+          },
+          "kinPremisePresent": false,
+          "gate": "source-kin-prerequisite-not-present",
+          "principalDoorCombinationToHouse": false,
+          "principalDoorGate": "source-symbol-prerequisites-not-present",
+          "structuralRelation": {
+            "from": "午",
+            "to": "巳",
+            "fromElement": "火",
+            "toElement": "火",
+            "sameBranch": false,
+            "sameElement": true,
+            "generates": false,
+            "controls": false,
+            "receivesGeneration": false,
+            "receivesControl": false,
+            "clash": false,
+            "combination": false
+          },
+          "actualDoorExistence": null,
+          "physicalDoorLocation": null,
+          "motionRequiredByThisBoundedGate": false
+        },
+        "thirdLineBedException": {
+          "line": 3,
+          "kin": "妻財",
+          "branch": "卯",
+          "gate": false,
+          "sourceSymbol": null,
+          "sourcePDFPage": 40,
+          "genericThirdLineDoorAssigned": false,
+          "actualBedLocation": null
+        },
+        "ordinalIsNotBuildingStorey": true,
+        "shiYingNotReassigned": true,
+        "changedLayerNotUsedToSubstitutePrimaryKin": true,
+        "compassBearings": null,
+        "roomRecommendations": null,
+        "physicalFloorPlan": null,
+        "sourceOutcomeAdjudication": null,
+        "predictedEvent": null,
+        "consumerApplied": false
+      }
+    }
+  ],
+  "actualHHCIdentityCases": [
+    [
+      1,
+      [
+        7,
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    ],
+    [
+      44,
+      [
+        8,
+        7,
+        7,
+        7,
+        7,
+        7
+      ]
+    ],
+    [
+      33,
+      [
+        8,
+        8,
+        7,
+        7,
+        7,
+        7
+      ]
+    ],
+    [
+      12,
+      [
+        8,
+        8,
+        8,
+        7,
+        7,
+        7
+      ]
+    ],
+    [
+      20,
+      [
+        8,
+        8,
+        8,
+        8,
+        7,
+        7
+      ]
+    ],
+    [
+      23,
+      [
+        8,
+        8,
+        8,
+        8,
+        8,
+        7
+      ]
+    ],
+    [
+      35,
+      [
+        8,
+        8,
+        8,
+        7,
+        8,
+        7
+      ]
+    ],
+    [
+      14,
+      [
+        7,
+        7,
+        7,
+        7,
+        8,
+        7
+      ]
+    ],
+    [
+      29,
+      [
+        8,
+        7,
+        8,
+        8,
+        7,
+        8
+      ]
+    ],
+    [
+      60,
+      [
+        7,
+        7,
+        8,
+        8,
+        7,
+        8
+      ]
+    ],
+    [
+      3,
+      [
+        7,
+        8,
+        8,
+        8,
+        7,
+        8
+      ]
+    ],
+    [
+      63,
+      [
+        7,
+        8,
+        7,
+        8,
+        7,
+        8
+      ]
+    ],
+    [
+      49,
+      [
+        7,
+        8,
+        7,
+        7,
+        7,
+        8
+      ]
+    ],
+    [
+      55,
+      [
+        7,
+        8,
+        7,
+        7,
+        8,
+        8
+      ]
+    ],
+    [
+      36,
+      [
+        7,
+        8,
+        7,
+        8,
+        8,
+        8
+      ]
+    ],
+    [
+      7,
+      [
+        8,
+        7,
+        8,
+        8,
+        8,
+        8
+      ]
+    ],
+    [
+      52,
+      [
+        8,
+        8,
+        7,
+        8,
+        8,
+        7
+      ]
+    ],
+    [
+      22,
+      [
+        7,
+        8,
+        7,
+        8,
+        8,
+        7
+      ]
+    ],
+    [
+      26,
+      [
+        7,
+        7,
+        7,
+        8,
+        8,
+        7
+      ]
+    ],
+    [
+      41,
+      [
+        7,
+        7,
+        8,
+        8,
+        8,
+        7
+      ]
+    ],
+    [
+      38,
+      [
+        7,
+        7,
+        8,
+        7,
+        8,
+        7
+      ]
+    ],
+    [
+      10,
+      [
+        7,
+        7,
+        8,
+        7,
+        7,
+        7
+      ]
+    ],
+    [
+      61,
+      [
+        7,
+        7,
+        8,
+        8,
+        7,
+        7
+      ]
+    ],
+    [
+      53,
+      [
+        8,
+        8,
+        7,
+        8,
+        7,
+        7
+      ]
+    ],
+    [
+      51,
+      [
+        7,
+        8,
+        8,
+        7,
+        8,
+        8
+      ]
+    ],
+    [
+      16,
+      [
+        8,
+        8,
+        8,
+        7,
+        8,
+        8
+      ]
+    ],
+    [
+      40,
+      [
+        8,
+        7,
+        8,
+        7,
+        8,
+        8
+      ]
+    ],
+    [
+      32,
+      [
+        8,
+        7,
+        7,
+        7,
+        8,
+        8
+      ]
+    ],
+    [
+      46,
+      [
+        8,
+        7,
+        7,
+        8,
+        8,
+        8
+      ]
+    ],
+    [
+      48,
+      [
+        8,
+        7,
+        7,
+        8,
+        7,
+        8
+      ]
+    ],
+    [
+      28,
+      [
+        8,
+        7,
+        7,
+        7,
+        7,
+        8
+      ]
+    ],
+    [
+      17,
+      [
+        7,
+        8,
+        8,
+        7,
+        7,
+        8
+      ]
+    ],
+    [
+      57,
+      [
+        8,
+        7,
+        7,
+        8,
+        7,
+        7
+      ]
+    ],
+    [
+      9,
+      [
+        7,
+        7,
+        7,
+        8,
+        7,
+        7
+      ]
+    ],
+    [
+      37,
+      [
+        7,
+        8,
+        7,
+        8,
+        7,
+        7
+      ]
+    ],
+    [
+      42,
+      [
+        7,
+        8,
+        8,
+        8,
+        7,
+        7
+      ]
+    ],
+    [
+      25,
+      [
+        7,
+        8,
+        8,
+        7,
+        7,
+        7
+      ]
+    ],
+    [
+      21,
+      [
+        7,
+        8,
+        8,
+        7,
+        8,
+        7
+      ]
+    ],
+    [
+      27,
+      [
+        7,
+        8,
+        8,
+        8,
+        8,
+        7
+      ]
+    ],
+    [
+      18,
+      [
+        8,
+        7,
+        7,
+        8,
+        8,
+        7
+      ]
+    ],
+    [
+      30,
+      [
+        7,
+        8,
+        7,
+        7,
+        8,
+        7
+      ]
+    ],
+    [
+      56,
+      [
+        8,
+        8,
+        7,
+        7,
+        8,
+        7
+      ]
+    ],
+    [
+      50,
+      [
+        8,
+        7,
+        7,
+        7,
+        8,
+        7
+      ]
+    ],
+    [
+      64,
+      [
+        8,
+        7,
+        8,
+        7,
+        8,
+        7
+      ]
+    ],
+    [
+      4,
+      [
+        8,
+        7,
+        8,
+        8,
+        8,
+        7
+      ]
+    ],
+    [
+      59,
+      [
+        8,
+        7,
+        8,
+        8,
+        7,
+        7
+      ]
+    ],
+    [
+      6,
+      [
+        8,
+        7,
+        8,
+        7,
+        7,
+        7
+      ]
+    ],
+    [
+      13,
+      [
+        7,
+        8,
+        7,
+        7,
+        7,
+        7
+      ]
+    ],
+    [
+      2,
+      [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ]
+    ],
+    [
+      24,
+      [
+        7,
+        8,
+        8,
+        8,
+        8,
+        8
+      ]
+    ],
+    [
+      19,
+      [
+        7,
+        7,
+        8,
+        8,
+        8,
+        8
+      ]
+    ],
+    [
+      11,
+      [
+        7,
+        7,
+        7,
+        8,
+        8,
+        8
+      ]
+    ],
+    [
+      34,
+      [
+        7,
+        7,
+        7,
+        7,
+        8,
+        8
+      ]
+    ],
+    [
+      43,
+      [
+        7,
+        7,
+        7,
+        7,
+        7,
+        8
+      ]
+    ],
+    [
+      5,
+      [
+        7,
+        7,
+        7,
+        8,
+        7,
+        8
+      ]
+    ],
+    [
+      8,
+      [
+        8,
+        8,
+        8,
+        8,
+        7,
+        8
+      ]
+    ],
+    [
+      58,
+      [
+        7,
+        7,
+        8,
+        7,
+        7,
+        8
+      ]
+    ],
+    [
+      47,
+      [
+        8,
+        7,
+        8,
+        7,
+        7,
+        8
+      ]
+    ],
+    [
+      45,
+      [
+        8,
+        8,
+        8,
+        7,
+        7,
+        8
+      ]
+    ],
+    [
+      31,
+      [
+        8,
+        8,
+        7,
+        7,
+        7,
+        8
+      ]
+    ],
+    [
+      39,
+      [
+        8,
+        8,
+        7,
+        8,
+        7,
+        8
+      ]
+    ],
+    [
+      15,
+      [
+        8,
+        8,
+        7,
+        8,
+        8,
+        8
+      ]
+    ],
+    [
+      62,
+      [
+        8,
+        8,
+        7,
+        7,
+        8,
+        8
+      ]
+    ],
+    [
+      54,
+      [
+        7,
+        7,
+        8,
+        7,
+        8,
+        8
+      ]
+    ]
+  ],
+  "historicalOutcomesValidated": false,
+  "sourcePrintedCoinCastFixtures": 0
+}

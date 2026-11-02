@@ -1,0 +1,66 @@
+{
+  "date": "2026-10-29",
+  "status": "27native-pages-first-pass;20coordinates-verified;ready-research-integration",
+  "catalogueID": "M01",
+  "chapter": "論天干陰陽生死",
+  "retainedContainer": "v53/research/bazi-season-strength/CADAL06066038.djvu",
+  "retainedContainerSHA256": "7a53f35982f0b946281d0e393c5d6ddcce1fd091aea83c11af6a06bcdfe6a85e",
+  "sourceDecoder": "v53/research/bazi-pattern-extension/tooling/djvu.js",
+  "boundaryImagesActuallyViewed": [
+    9,
+    10,
+    35
+  ],
+  "mappingObservedNotAssumedFromFolioArithmetic": true,
+  "newHTTPBodies": 0,
+  "newOriginalContainers": 0,
+  "newPositionsActuallyViewed": 27,
+  "wholeChapterRead": true,
+  "digitalLocator": {
+    "file": "DIGITAL_CHAPTER_LOCATOR.txt",
+    "source": "v53/research/four-items/sources/KR3g0042_002.txt",
+    "sourceBytes": 123566,
+    "sourceSHA256": "b0f9badc8aff64ee137392277eb2f7a428c39a9d8c9faa3154f79c626c2131b4",
+    "derivedFragmentNotOriginalHTTPBytes": true
+  },
+  "remaining": [
+    "Directly collate paired 生/死 clauses for all ten stems; verify each candidate container/folio position from image before recording.",
+    "Keep initial stem exposition, 又曰 layers, 論曰, 或曰 earth body/use alternatives, and subsequent counterarguments separate.",
+    "Do not infer an adopted source rule solely from 看命者當以前說為是 or equate dead/live wood metaphors with 死/長生 cycle labels.",
+    "Do not replace 己/巳/已, 邜/卯 or encoded entities silently; preserve digital/image comparison differences.",
+    "Only after a frozen source table, compare the actual lunar EightChar.getDiShi coordinate method with explicit source stems/branches, without claiming historical natal charts."
+  ],
+  "relatedVerifiedLexicon": "tmp/bazi-life-stage-staging/WORK_STATE.json",
+  "C05StillUnresolved": "tmp/bazi-food-position-staging/WORK_STATE.json",
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false,
+  "newPositionsViewedThisContinuation": 16,
+  "selectedExpositionCoordinates": 20,
+  "actualCoordinateMethodCalls": 20,
+  "actualNatalCharts": 0,
+  "tests": {
+    "date": "2026-10-29",
+    "passed": true,
+    "groups": 6,
+    "declaredStemBranchFrames": 120,
+    "explicitlyListedSourceCoordinates": 20,
+    "unlistedNotFalse": 100,
+    "unsupportedFramesRejected": 8,
+    "retainedActualMethodCallsVerified": 20,
+    "newEngineCallsDuringTests": 0,
+    "actualNatalCharts": 0,
+    "fullTwelveStageMatrixInferred": false,
+    "sourceAlternateVoicesMerged": false,
+    "consumerChanged": false
+  },
+  "sourceMetadataSupplement": "EVIDENCE_SUPPLEMENT.json",
+  "releasedV53Changed": false,
+  "next": [
+    "Read missing chapter pages and resolve attribution/sequence/direction before building complete12-stage coordinate matrix.",
+    "Integrate verified lexicon and coordinate modules together in next meaningful V53 research batch."
+  ],
+  "wholeChapterReadBasis": "First-pass continuous page reading only; not every glyph or all rules collated/applied.",
+  "newPositionsViewedThisTurn": 8,
+  "chapterDispositions": "CHAPTER_DISPOSITIONS.json",
+  "actualEngineCallsThisTurn": 0
+}

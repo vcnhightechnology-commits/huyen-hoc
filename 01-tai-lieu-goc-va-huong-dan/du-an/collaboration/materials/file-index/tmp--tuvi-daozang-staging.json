@@ -1,0 +1,41 @@
+{
+  "scope": "tmp/tuvi-daozang-staging",
+  "files": [
+    {
+      "file": "tmp/tuvi-daozang-staging/REQUESTS.json",
+      "bytes": 1433,
+      "sha256": "43aee69e06d8c663aca9ecd04f14c2cd6ae8de02db874e3f845ed01bd4368ad4",
+      "bundle": "hhc-materials-003.zip",
+      "member": "objects/43aee69e06d8c663aca9ecd04f14c2cd6ae8de02db874e3f845ed01bd4368ad4",
+      "httpRange": {
+        "offset": 169047024,
+        "compressedBytes": 737,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-daozang-staging/WORK_STATE.json",
+      "bytes": 2492,
+      "sha256": "df33f380efccdd69b09409a7d4f31a8e8e3b3712db063c0f626c6eefef7b1535",
+      "bundle": "hhc-materials-009.zip",
+      "member": "objects/df33f380efccdd69b09409a7d4f31a8e8e3b3712db063c0f626c6eefef7b1535",
+      "httpRange": {
+        "offset": 272351729,
+        "compressedBytes": 1328,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "tmp/tuvi-daozang-staging/wikisource-revision11135824.http403.body.txt",
+      "bytes": 126,
+      "sha256": "165da4d5af47d0a2008597750d184a3cef870aff9d0a5005b71d6bd17a75672e",
+      "bundle": "hhc-materials-001.zip",
+      "member": "objects/165da4d5af47d0a2008597750d184a3cef870aff9d0a5005b71d6bd17a75672e",
+      "httpRange": {
+        "offset": 296027774,
+        "compressedBytes": 109,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

@@ -1,0 +1,622 @@
+TAP version 13
+# Subtest: Transitive static module imports and new URL JSON fixture are inventoried without running code
+ok 1 - Transitive static module imports and new URL JSON fixture are inventoried without running code
+  ---
+  duration_ms: 111.491129
+  type: 'test'
+  ...
+# Subtest: Missing module detected before Node runtime resolves imports
+ok 2 - Missing module detected before Node runtime resolves imports
+  ---
+  duration_ms: 68.507205
+  type: 'test'
+  ...
+# Subtest: Missing JSON source is not silently excluded from test dependency closure
+ok 3 - Missing JSON source is not silently excluded from test dependency closure
+  ---
+  duration_ms: 89.460763
+  type: 'test'
+  ...
+# Subtest: Static import that escapes AI-10 root is rejected
+ok 4 - Static import that escapes AI-10 root is rejected
+  ---
+  duration_ms: 52.107762
+  type: 'test'
+  ...
+# Subtest: Bare third-party imports are not mistaken for built-in Node modules
+ok 5 - Bare third-party imports are not mistaken for built-in Node modules
+  ---
+  duration_ms: 69.474355
+  type: 'test'
+  ...
+# Subtest: Dynamic ESM imports and CommonJS calls cannot obtain a complete static certificate
+ok 6 - Dynamic ESM imports and CommonJS calls cannot obtain a complete static certificate
+  ---
+  duration_ms: 138.586269
+  type: 'test'
+  ...
+# Subtest: A symlink to an imported source file fails closed
+ok 7 - A symlink to an imported source file fails closed
+  ---
+  duration_ms: 57.043016
+  type: 'test'
+  ...
+# Subtest: Symlink parent directories cannot hide an imported file outside the root
+ok 8 - Symlink parent directories cannot hide an imported file outside the root
+  ---
+  duration_ms: 68.179263
+  type: 'test'
+  ...
+# Subtest: In-scope source mutation changes observed hash but is not falsely called commit-pinned
+ok 9 - In-scope source mutation changes observed hash but is not falsely called commit-pinned
+  ---
+  duration_ms: 199.028138
+  type: 'test'
+  ...
+# Subtest: Bad test list and traversal input fail closed
+ok 10 - Bad test list and traversal input fail closed
+  ---
+  duration_ms: 1.880391
+  type: 'test'
+  ...
+# Subtest: Actual partial AI-10 workspace static closure includes all currently available pinned tests
+ok 11 - Actual partial AI-10 workspace static closure includes all currently available pinned tests
+  ---
+  duration_ms: 786.485058
+  type: 'test'
+  ...
+# Subtest: Standalone strict CLI refuses a missing transitively referenced source before tests run
+ok 12 - Standalone strict CLI refuses a missing transitively referenced source before tests run
+  ---
+  duration_ms: 76.578333
+  type: 'test'
+  ...
+# Subtest: A clean checkout has every transitive source, test, and JSON in Git HEAD
+ok 13 - A clean checkout has every transitive source, test, and JSON in Git HEAD
+  ---
+  duration_ms: 122.248064
+  type: 'test'
+  ...
+# Subtest: A same-length change to a transitively imported JS is rejected despite intact test bytes
+ok 14 - A same-length change to a transitively imported JS is rejected despite intact test bytes
+  ---
+  duration_ms: 101.567121
+  type: 'test'
+  ...
+# Subtest: A byte change in a referenced JSON fixture is rejected
+ok 15 - A byte change in a referenced JSON fixture is rejected
+  ---
+  duration_ms: 89.027383
+  type: 'test'
+  ...
+# Subtest: A newly imported untracked module is not treated as verified Git HEAD source
+ok 16 - A newly imported untracked module is not treated as verified Git HEAD source
+  ---
+  duration_ms: 137.443335
+  type: 'test'
+  ...
+# Subtest: Git staging a changed JSON does not make local HEAD verification succeed
+ok 17 - Git staging a changed JSON does not make local HEAD verification succeed
+  ---
+  duration_ms: 102.764604
+  type: 'test'
+  ...
+# Subtest: A new local Git commit establishes a new local reference, but not a remote authentication
+ok 18 - A new local Git commit establishes a new local reference, but not a remote authentication
+  ---
+  duration_ms: 101.506146
+  type: 'test'
+  ...
+# Subtest: A directory without Git metadata cannot receive a Git HEAD certificate
+ok 19 - A directory without Git metadata cannot receive a Git HEAD certificate
+  ---
+  duration_ms: 2.477607
+  type: 'test'
+  ...
+# Subtest: A dependency audit that already failed cannot become a passing Git certificate
+ok 20 - A dependency audit that already failed cannot become a passing Git certificate
+  ---
+  duration_ms: 81.0786
+  type: 'test'
+  ...
+# Subtest: Wrong argument types and forged closure records are rejected
+ok 21 - Wrong argument types and forged closure records are rejected
+  ---
+  duration_ms: 88.784967
+  type: 'test'
+  ...
+# Subtest: Strict CLI --verify-git-head and --run-git-head succeed on a fully committed tiny fixture
+ok 22 - Strict CLI --verify-git-head and --run-git-head succeed on a fully committed tiny fixture
+  ---
+  duration_ms: 467.798891
+  type: 'test'
+  ...
+# Subtest: Manifest succeeds for exact two-file fixture and Git blob hashing matches Node bytes
+ok 23 - Manifest succeeds for exact two-file fixture and Git blob hashing matches Node bytes
+  ---
+  duration_ms: 10.714619
+  type: 'test'
+  ...
+# Subtest: A missing test fails closed instead of silently reducing suite
+ok 24 - A missing test fails closed instead of silently reducing suite
+  ---
+  duration_ms: 1.72368
+  type: 'test'
+  ...
+# Subtest: A new undeclared test fails rather than being automatically trusted
+ok 25 - A new undeclared test fails rather than being automatically trusted
+  ---
+  duration_ms: 2.852006
+  type: 'test'
+  ...
+# Subtest: Mutation of a test with equal bytes is detected through its exact Git blob SHA
+ok 26 - Mutation of a test with equal bytes is detected through its exact Git blob SHA
+  ---
+  duration_ms: 0.98805
+  type: 'test'
+  ...
+# Subtest: A mutation that changes file byte count is detected
+ok 27 - A mutation that changes file byte count is detected
+  ---
+  duration_ms: 1.02205
+  type: 'test'
+  ...
+# Subtest: Invalid, duplicated or path-traversing manifest entries are rejected
+ok 28 - Invalid, duplicated or path-traversing manifest entries are rejected
+  ---
+  duration_ms: 1.556555
+  type: 'test'
+  ...
+# Subtest: Symbolic links are never traversed or silently accepted as test files
+ok 29 - Symbolic links are never traversed or silently accepted as test files
+  ---
+  duration_ms: 1.00144
+  type: 'test'
+  ...
+# Subtest: Passing manifest never claims AI-10 historical source, V53 or engine acceptance
+ok 30 - Passing manifest never claims AI-10 historical source, V53 or engine acceptance
+  ---
+  duration_ms: 1.373917
+  type: 'test'
+  ...
+# Subtest: Current GitHub-based manifest contains this test and exactly 24 controlled test paths
+ok 31 - Current GitHub-based manifest contains this test and exactly 24 controlled test paths
+  ---
+  duration_ms: 0.810369
+  type: 'test'
+  ...
+# Subtest: Standalone CLI verifies and executes a complete, tiny synthetic checkout
+ok 32 - Standalone CLI verifies and executes a complete, tiny synthetic checkout
+  ---
+  duration_ms: 312.039394
+  type: 'test'
+  ...
+# Subtest: All nine methods are audited but never selected from missing facts
+ok 33 - All nine methods are audited but never selected from missing facts
+  ---
+  duration_ms: 2.301859
+  type: 'test'
+  ...
+# Subtest: Exposes old ZeiKe/BiYong necessary-condition overlap, not a method decision
+ok 34 - Exposes old ZeiKe/BiYong necessary-condition overlap, not a method decision
+  ---
+  duration_ms: 0.369823
+  type: 'test'
+  ...
+# Subtest: Exposes MaoXing/BieZe simultaneous coarse compatibility with three lessons
+ok 35 - Exposes MaoXing/BieZe simultaneous coarse compatibility with three lessons
+  ---
+  duration_ms: 0.211441
+  type: 'test'
+  ...
+# Subtest: Yaoke and MaoXing do not both appear compatible under remote-overcoming known values
+ok 36 - Yaoke and MaoXing do not both appear compatible under remote-overcoming known values
+  ---
+  duration_ms: 0.297807
+  type: 'test'
+  ...
+# Subtest: Same-board both FuYin and FanYin present propagates to all nine method audits
+ok 37 - Same-board both FuYin and FanYin present propagates to all nine method audits
+  ---
+  duration_ms: 0.320391
+  type: 'test'
+  ...
+# Subtest: A partial FuYin claim remains only a necessary-condition match, no chart
+ok 38 - A partial FuYin claim remains only a necessary-condition match, no chart
+  ---
+  duration_ms: 0.984816
+  type: 'test'
+  ...
+# Subtest: Input cannot smuggle made-up fields or inherited data
+ok 39 - Input cannot smuggle made-up fields or inherited data
+  ---
+  duration_ms: 0.647891
+  type: 'test'
+  ...
+# Subtest: Outputs are frozen and never permit application semantics
+ok 40 - Outputs are frozen and never permit application semantics
+  ---
+  duration_ms: 0.255695
+  type: 'test'
+  ...
+# Subtest: Finite S02 six-binary-plus-lessonCount space contains exactly 144 non-dual-fu-fan declarations
+ok 41 - Finite S02 six-binary-plus-lessonCount space contains exactly 144 non-dual-fu-fan declarations
+  ---
+  duration_ms: 0.920581
+  type: 'test'
+  ...
+# Subtest: Nine-method finite survey returns fully known gates but never selects a historical method
+ok 42 - Nine-method finite survey returns fully known gates but never selects a historical method
+  ---
+  duration_ms: 7.591514
+  type: 'test'
+  ...
+# Subtest: Exact independently stipulated exhaustive frequencies identify 120/144 underdetermined vectors
+ok 43 - Exact independently stipulated exhaustive frequencies identify 120/144 underdetermined vectors
+  ---
+  duration_ms: 10.815277
+  type: 'test'
+  ...
+# Subtest: All 36 method-pair overlaps are explicit, with named counterexamples and known incompatibilities
+ok 44 - All 36 method-pair overlaps are explicit, with named counterexamples and known incompatibilities
+  ---
+  duration_ms: 2.367175
+  type: 'test'
+  ...
+# Subtest: Finite-world direct evaluator rejects missing, invented and contradictory facts, not only unknown methods
+ok 45 - Finite-world direct evaluator rejects missing, invented and contradictory facts, not only unknown methods
+  ---
+  duration_ms: 0.522437
+  type: 'test'
+  ...
+# Subtest: Finite-world method inventory stays in source order and outputs cannot be used as chart data
+ok 46 - Finite-world method inventory stays in source order and outputs cannot be used as chart data
+  ---
+  duration_ms: 0.538441
+  type: 'test'
+  ...
+# Subtest: Optional semantic sensitivity filter tied=>multiple still leaves 93/108 ambiguous vectors
+ok 47 - Optional semantic sensitivity filter tied=>multiple still leaves 93/108 ambiguous vectors
+  ---
+  duration_ms: 5.372947
+  type: 'test'
+  ...
+# Subtest: S02 finite census JSON is byte-independent human-reviewable data and matches enumerated table
+ok 48 - S02 finite census JSON is byte-independent human-reviewable data and matches enumerated table
+  ---
+  duration_ms: 10.189587
+  type: 'test'
+  ...
+# Subtest: S02 12 offset profiles: exactly one all-same, one all-opposite, ten neither
+ok 49 - S02 12 offset profiles: exactly one all-same, one all-opposite, ten neither
+  ---
+  duration_ms: 2.232056
+  type: 'test'
+  ...
+# Subtest: S02 known mutually incompatible double-positive claims are contradicted for every rigid offset
+ok 50 - S02 known mutually incompatible double-positive claims are contradicted for every rigid offset
+  ---
+  duration_ms: 0.584218
+  type: 'test'
+  ...
+# Subtest: S02 correct full formal fu-yin / fan-yin claims are only compatible, not an actual chart
+ok 51 - S02 correct full formal fu-yin / fan-yin claims are only compatible, not an actual chart
+  ---
+  duration_ms: 0.147977
+  type: 'test'
+  ...
+# Subtest: S02 unknown claims remain unknown and cannot become inferred historical inputs
+ok 52 - S02 unknown claims remain unknown and cannot become inferred historical inputs
+  ---
+  duration_ms: 0.169408
+  type: 'test'
+  ...
+# Subtest: S02 claims inconsistent with supplied formal board must be flagged
+ok 53 - S02 claims inconsistent with supplied formal board must be flagged
+  ---
+  duration_ms: 0.234975
+  type: 'test'
+  ...
+# Subtest: S02 malformed, sparse, duplicate, displaced and nonrigid layouts fail closed
+ok 54 - S02 malformed, sparse, duplicate, displaced and nonrigid layouts fail closed
+  ---
+  duration_ms: 0.38796
+  type: 'test'
+  ...
+# Subtest: S02 request rejects extra props, unknown values and names used as prototype tricks
+ok 55 - S02 request rejects extra props, unknown values and names used as prototype tricks
+  ---
+  duration_ms: 0.414979
+  type: 'test'
+  ...
+# Subtest: S02 no mutability of outputs, formal layout and branch inventory
+ok 56 - S02 no mutability of outputs, formal layout and branch inventory
+  ---
+  duration_ms: 0.159154
+  type: 'test'
+  ...
+# Subtest: S02 nine methods all reject impossible simultaneous FuYin and FanYin
+ok 57 - S02 nine methods all reject impossible simultaneous FuYin and FanYin
+  ---
+  duration_ms: 2.064971
+  type: 'test'
+  ...
+# Subtest: S02 formerly allowed false positives are detected even for unrelated method
+ok 58 - S02 formerly allowed false positives are detected even for unrelated method
+  ---
+  duration_ms: 0.574744
+  type: 'test'
+  ...
+# Subtest: S02 single positive or unknown FuYin/FanYin remains as originally declared
+ok 59 - S02 single positive or unknown FuYin/FanYin remains as originally declared
+  ---
+  duration_ms: 0.242756
+  type: 'test'
+  ...
+# Subtest: S02 empty facts and unrelated methods still have no implied usable chart
+ok 60 - S02 empty facts and unrelated methods still have no implied usable chart
+  ---
+  duration_ms: 0.19714
+  type: 'test'
+  ...
+# Subtest: S02 pinned source references and provenance in JSON exactly match code
+ok 61 - S02 pinned source references and provenance in JSON exactly match code
+  ---
+  duration_ms: 2.378431
+  type: 'test'
+  ...
+# Subtest: S02 JSON records and six diagram rows match separately named source excerpts
+ok 62 - S02 JSON records and six diagram rows match separately named source excerpts
+  ---
+  duration_ms: 0.476109
+  type: 'test'
+  ...
+# Subtest: S02 metadata forbids mistaking flattened digital diagram for original independent edition
+ok 63 - S02 metadata forbids mistaking flattened digital diagram for original independent edition
+  ---
+  duration_ms: 0.182318
+  type: 'test'
+  ...
+# Subtest: S02 volume 1 and volume 4 retain different digital provenance, not 2 historical printed editions
+ok 64 - S02 volume 1 and volume 4 retain different digital provenance, not 2 historical printed editions
+  ---
+  duration_ms: 1.265517
+  type: 'test'
+  ...
+# Subtest: S02 preserve all six raw rows of the digitized diagram; no automatic geometry restoration
+ok 65 - S02 preserve all six raw rows of the digitized diagram; no automatic geometry restoration
+  ---
+  duration_ms: 0.719756
+  type: 'test'
+  ...
+# Subtest: S02 Bing-Wu remains unresolved: both digitized verses print 己 while diagram has a 巳 cue
+ok 66 - S02 Bing-Wu remains unresolved: both digitized verses print 己 while diagram has a 巳 cue
+  ---
+  duration_ms: 0.217219
+  type: 'test'
+  ...
+# Subtest: S02 Ding-Ji: Juan4 verse and flattened diagram suggest 己, not a historical attestation of Juan1
+ok 67 - S02 Ding-Ji: Juan4 verse and flattened diagram suggest 己, not a historical attestation of Juan1
+  ---
+  duration_ms: 0.144503
+  type: 'test'
+  ...
+# Subtest: S02 no source is elevated to manuscript fact or adopted as a usable lesson
+ok 68 - S02 no source is elevated to manuscript fact or adopted as a usable lesson
+  ---
+  duration_ms: 0.191171
+  type: 'test'
+  ...
+# Subtest: S02 intertext API fails closed for unknown locus and immutability
+ok 69 - S02 intertext API fails closed for unknown locus and immutability
+  ---
+  duration_ms: 0.528495
+  type: 'test'
+  ...
+# Subtest: S02 Yaoke requires REMOTE overcoming present as well as adjacent overcoming absent
+ok 70 - S02 Yaoke requires REMOTE overcoming present as well as adjacent overcoming absent
+  ---
+  duration_ms: 0.346559
+  type: 'test'
+  ...
+# Subtest: S02 metamorphic 3×3: Yaoke and MaoXing can never both pass with identical facts
+ok 71 - S02 metamorphic 3×3: Yaoke and MaoXing can never both pass with identical facts
+  ---
+  duration_ms: 0.459274
+  type: 'test'
+  ...
+# Subtest: S02 explicit unknown remote never treated as absent for Yaoke
+ok 72 - S02 explicit unknown remote never treated as absent for Yaoke
+  ---
+  duration_ms: 0.269886
+  type: 'test'
+  ...
+# Subtest: S01 sixty labels match across day/hour purely as a formal sexagenary index
+ok 73 - S01 sixty labels match across day/hour purely as a formal sexagenary index
+  ---
+  duration_ms: 1.769718
+  type: 'test'
+  ...
+# Subtest: S01 twenty three-day groups and six ten-hour xun groups cannot be identified
+ok 74 - S01 twenty three-day groups and six ten-hour xun groups cannot be identified
+  ---
+  duration_ms: 0.448578
+  type: 'test'
+  ...
+# Subtest: S01 the six printed yang1 xun ends retain the 邜 glyph separately from normalized calculation
+ok 75 - S01 the six printed yang1 xun ends retain the 邜 glyph separately from normalized calculation
+  ---
+  duration_ms: 0.179564
+  type: 'test'
+  ...
+# Subtest: S01 center five lodging note only exists in yang1 and does not convert printed palace
+ok 76 - S01 center five lodging note only exists in yang1 and does not convert printed palace
+  ---
+  duration_ms: 0.167696
+  type: 'test'
+  ...
+# Subtest: S01 original 兊/normalized 兌 are distinct and not silently collapsed
+ok 77 - S01 original 兊/normalized 兌 are distinct and not silently collapsed
+  ---
+  duration_ms: 0.348912
+  type: 'test'
+  ...
+# Subtest: S01 no calendar/date, Ju profile expansion or numeric wrapping inferred from shared label
+ok 78 - S01 no calendar/date, Ju profile expansion or numeric wrapping inferred from shared label
+  ---
+  duration_ms: 0.651236
+  type: 'test'
+  ...
+# Subtest: S02 general zeiKe gate cannot replace directional audit
+ok 79 - S02 general zeiKe gate cannot replace directional audit
+  ---
+  duration_ms: 1.176778
+  type: 'test'
+  ...
+# Subtest: S02 known absent adjacent-overcoming in coarse gate matches detailed no-branch state
+ok 80 - S02 known absent adjacent-overcoming in coarse gate matches detailed no-branch state
+  ---
+  duration_ms: 0.246071
+  type: 'test'
+  ...
+# Subtest: S02 incomplete facts remain incomplete across both levels
+ok 81 - S02 incomplete facts remain incomplete across both levels
+  ---
+  duration_ms: 0.562957
+  type: 'test'
+  ...
+# Subtest: S02 five concrete digitization divergences preserved without silent emendation
+ok 82 - S02 five concrete digitization divergences preserved without silent emendation
+  ---
+  duration_ms: 1.397522
+  type: 'test'
+  ...
+# Subtest: S02 digital PDF mapping is a candidate exactly ten stems -> eight non-cardinal branches
+ok 83 - S02 digital PDF mapping is a candidate exactly ten stems -> eight non-cardinal branches
+  ---
+  duration_ms: 0.757362
+  type: 'test'
+  ...
+# Subtest: S02 Siku digital witness retains four unresolved stems and one partially readable phrase
+ok 84 - S02 Siku digital witness retains four unresolved stems and one partially readable phrase
+  ---
+  duration_ms: 0.211831
+  type: 'test'
+  ...
+# Subtest: S02 source metadata says modern typesetting is NOT a historical image witness
+ok 85 - S02 source metadata says modern typesetting is NOT a historical image witness
+  ---
+  duration_ms: 0.594943
+  type: 'test'
+  ...
+# Subtest: S02 lower first when both upper/lower exist, never claim actual initial transmission
+ok 86 - S02 lower first when both upper/lower exist, never claim actual initial transmission
+  ---
+  duration_ms: 0.24533
+  type: 'test'
+  ...
+# Subtest: S02 upper considered only when lower absent
+ok 87 - S02 upper considered only when lower absent
+  ---
+  duration_ms: 0.111965
+  type: 'test'
+  ...
+# Subtest: S02 unknown lower never treated as false and cannot validate upper
+ok 88 - S02 unknown lower never treated as false and cannot validate upper
+  ---
+  duration_ms: 0.168207
+  type: 'test'
+  ...
+# Subtest: S02 unknown upper is unnecessary when lower definitely exists
+ok 89 - S02 unknown upper is unnecessary when lower definitely exists
+  ---
+  duration_ms: 0.112885
+  type: 'test'
+  ...
+# Subtest: S02 exhaustive 3x3x4 combinatorics never yield method or transmission
+ok 90 - S02 exhaustive 3x3x4 combinatorics never yield method or transmission
+  ---
+  duration_ms: 0.553552
+  type: 'test'
+  ...
+# Subtest: S02 malformed facts and implicit inherited fields fail closed
+ok 91 - S02 malformed facts and implicit inherited fields fail closed
+  ---
+  duration_ms: 0.678836
+  type: 'test'
+  ...
+# Subtest: S02 source evidence JSON and running witness table refer to the same two digital surfaces
+ok 92 - S02 source evidence JSON and running witness table refer to the same two digital surfaces
+  ---
+  duration_ms: 2.669819
+  type: 'test'
+  ...
+# Subtest: S02 5 witness locus statements in JSON match the JS record, including the 𭥦 glyph
+ok 93 - S02 5 witness locus statements in JSON match the JS record, including the 𭥦 glyph
+  ---
+  duration_ms: 0.329765
+  type: 'test'
+  ...
+# Subtest: S02 reference map in metadata matches ten source-specific candidate readings
+ok 94 - S02 reference map in metadata matches ten source-specific candidate readings
+  ---
+  duration_ms: 0.539252
+  type: 'test'
+  ...
+# Subtest: S02 source status remains research-only even when metadata and JS match
+ok 95 - S02 source status remains research-only even when metadata and JS match
+  ---
+  duration_ms: 0.165092
+  type: 'test'
+  ...
+# Subtest: S01 12 source-printed ten-time head triples, separate directions
+ok 96 - S01 12 source-printed ten-time head triples, separate directions
+  ---
+  duration_ms: 2.074645
+  type: 'test'
+  ...
+# Subtest: S01 xun boundaries 0..59, no auto wrap or invented Yin9 end verse
+ok 97 - S01 xun boundaries 0..59, no auto wrap or invented Yin9 end verse
+  ---
+  duration_ms: 0.605619
+  type: 'test'
+  ...
+# Subtest: S02 all 9 entry precondition audits can never select method
+ok 98 - S02 all 9 entry precondition audits can never select method
+  ---
+  duration_ms: 0.603626
+  type: 'test'
+  ...
+# Subtest: S02 method-specific consequences: Yaoke no adjacent overcoming; Bazhuan ignores remote
+ok 99 - S02 method-specific consequences: Yaoke no adjacent overcoming; Bazhuan ignores remote
+  ---
+  duration_ms: 0.401329
+  type: 'test'
+  ...
+# Subtest: S02 invalid data fail closed
+ok 100 - S02 invalid data fail closed
+  ---
+  duration_ms: 0.300982
+  type: 'test'
+  ...
+# Subtest: S03 5 distinct source streams; 360-60 same arithmetic but different method name
+ok 101 - S03 5 distinct source streams; 360-60 same arithmetic but different method name
+  ---
+  duration_ms: 0.337916
+  type: 'test'
+  ...
+# Subtest: S03 zero boundaries, positive BigInt, precision safety and no modulo of 0 to a position
+ok 102 - S03 zero boundaries, positive BigInt, precision safety and no modulo of 0 to a position
+  ---
+  duration_ms: 1.757931
+  type: 'test'
+  ...
+1..102
+# tests 102
+# suites 0
+# pass 102
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1790.70314

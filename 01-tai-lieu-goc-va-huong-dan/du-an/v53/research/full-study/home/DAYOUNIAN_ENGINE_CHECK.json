@@ -1,0 +1,916 @@
+{
+  "schema": "hhc.home.dayounian.engine-check.v1",
+  "executedUTC": "2026-10-26T04:21:35.282Z",
+  "engineFile": "v53/engine.js",
+  "engineSHA256": "462fb78b222f4d17b761f785b42700b4241d0f0e82723d0ff09a0e2aca551dee",
+  "source": "wikisource-xieji-v02-oldid787335.html, 大遊年變卦 and adjacent eight line-change paragraphs",
+  "sourceTier": "Chinese transcription witness read; this passage has not been facsimile-collated in this scope",
+  "method": "Actual window.HHC_ENGINE.directions execution under Node vm. Expected relation from named changed lines, represented as bitwise XOR. The input year only accesses a conditional kua row; its historical year→kua assignment is not validated.",
+  "cases": 64,
+  "matches": 64,
+  "verified": "64 conditional palace×direction labels only",
+  "notVerified": [
+    "Birth-year→kua, gender assignment, calendar boundary",
+    "Special kua5 rule",
+    "House sitting/facing or stove/bed/room-placement convention",
+    "Predictive effect"
+  ],
+  "results": [
+    {
+      "kua": 1,
+      "sourceTrigram": "坎",
+      "target": "Bắc",
+      "targetTrigram": "坎",
+      "expectedHan": "伏位",
+      "expected": "Phục Vị",
+      "actual": "Phục Vị",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1900,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 1,
+      "sourceTrigram": "坎",
+      "target": "Đông Bắc",
+      "targetTrigram": "艮",
+      "expectedHan": "五鬼",
+      "expected": "Ngũ Quỷ",
+      "actual": "Ngũ Quỷ",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1900,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 1,
+      "sourceTrigram": "坎",
+      "target": "Đông",
+      "targetTrigram": "震",
+      "expectedHan": "天醫",
+      "expected": "Thiên Y",
+      "actual": "Thiên Y",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1900,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 1,
+      "sourceTrigram": "坎",
+      "target": "Đông Nam",
+      "targetTrigram": "巽",
+      "expectedHan": "生氣",
+      "expected": "Sinh Khí",
+      "actual": "Sinh Khí",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1900,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 1,
+      "sourceTrigram": "坎",
+      "target": "Nam",
+      "targetTrigram": "離",
+      "expectedHan": "延年",
+      "expected": "Diên Niên",
+      "actual": "Diên Niên",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1900,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 1,
+      "sourceTrigram": "坎",
+      "target": "Tây Nam",
+      "targetTrigram": "坤",
+      "expectedHan": "絶命",
+      "expected": "Tuyệt Mệnh",
+      "actual": "Tuyệt Mệnh",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1900,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 1,
+      "sourceTrigram": "坎",
+      "target": "Tây",
+      "targetTrigram": "兌",
+      "expectedHan": "禍害",
+      "expected": "Họa Hại",
+      "actual": "Họa Hại",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1900,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 1,
+      "sourceTrigram": "坎",
+      "target": "Tây Bắc",
+      "targetTrigram": "乾",
+      "expectedHan": "六煞",
+      "expected": "Lục Sát",
+      "actual": "Lục Sát",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1900,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 2,
+      "sourceTrigram": "坤",
+      "target": "Bắc",
+      "targetTrigram": "坎",
+      "expectedHan": "絶命",
+      "expected": "Tuyệt Mệnh",
+      "actual": "Tuyệt Mệnh",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1905,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 2,
+      "sourceTrigram": "坤",
+      "target": "Đông Bắc",
+      "targetTrigram": "艮",
+      "expectedHan": "生氣",
+      "expected": "Sinh Khí",
+      "actual": "Sinh Khí",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1905,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 2,
+      "sourceTrigram": "坤",
+      "target": "Đông",
+      "targetTrigram": "震",
+      "expectedHan": "禍害",
+      "expected": "Họa Hại",
+      "actual": "Họa Hại",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1905,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 2,
+      "sourceTrigram": "坤",
+      "target": "Đông Nam",
+      "targetTrigram": "巽",
+      "expectedHan": "五鬼",
+      "expected": "Ngũ Quỷ",
+      "actual": "Ngũ Quỷ",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1905,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 2,
+      "sourceTrigram": "坤",
+      "target": "Nam",
+      "targetTrigram": "離",
+      "expectedHan": "六煞",
+      "expected": "Lục Sát",
+      "actual": "Lục Sát",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1905,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 2,
+      "sourceTrigram": "坤",
+      "target": "Tây Nam",
+      "targetTrigram": "坤",
+      "expectedHan": "伏位",
+      "expected": "Phục Vị",
+      "actual": "Phục Vị",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1905,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 2,
+      "sourceTrigram": "坤",
+      "target": "Tây",
+      "targetTrigram": "兌",
+      "expectedHan": "天醫",
+      "expected": "Thiên Y",
+      "actual": "Thiên Y",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1905,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 2,
+      "sourceTrigram": "坤",
+      "target": "Tây Bắc",
+      "targetTrigram": "乾",
+      "expectedHan": "延年",
+      "expected": "Diên Niên",
+      "actual": "Diên Niên",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1905,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 3,
+      "sourceTrigram": "震",
+      "target": "Bắc",
+      "targetTrigram": "坎",
+      "expectedHan": "天醫",
+      "expected": "Thiên Y",
+      "actual": "Thiên Y",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1907,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 3,
+      "sourceTrigram": "震",
+      "target": "Đông Bắc",
+      "targetTrigram": "艮",
+      "expectedHan": "六煞",
+      "expected": "Lục Sát",
+      "actual": "Lục Sát",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1907,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 3,
+      "sourceTrigram": "震",
+      "target": "Đông",
+      "targetTrigram": "震",
+      "expectedHan": "伏位",
+      "expected": "Phục Vị",
+      "actual": "Phục Vị",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1907,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 3,
+      "sourceTrigram": "震",
+      "target": "Đông Nam",
+      "targetTrigram": "巽",
+      "expectedHan": "延年",
+      "expected": "Diên Niên",
+      "actual": "Diên Niên",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1907,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 3,
+      "sourceTrigram": "震",
+      "target": "Nam",
+      "targetTrigram": "離",
+      "expectedHan": "生氣",
+      "expected": "Sinh Khí",
+      "actual": "Sinh Khí",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1907,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 3,
+      "sourceTrigram": "震",
+      "target": "Tây Nam",
+      "targetTrigram": "坤",
+      "expectedHan": "禍害",
+      "expected": "Họa Hại",
+      "actual": "Họa Hại",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1907,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 3,
+      "sourceTrigram": "震",
+      "target": "Tây",
+      "targetTrigram": "兌",
+      "expectedHan": "絶命",
+      "expected": "Tuyệt Mệnh",
+      "actual": "Tuyệt Mệnh",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1907,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 3,
+      "sourceTrigram": "震",
+      "target": "Tây Bắc",
+      "targetTrigram": "乾",
+      "expectedHan": "五鬼",
+      "expected": "Ngũ Quỷ",
+      "actual": "Ngũ Quỷ",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1907,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 4,
+      "sourceTrigram": "巽",
+      "target": "Bắc",
+      "targetTrigram": "坎",
+      "expectedHan": "生氣",
+      "expected": "Sinh Khí",
+      "actual": "Sinh Khí",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1906,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 4,
+      "sourceTrigram": "巽",
+      "target": "Đông Bắc",
+      "targetTrigram": "艮",
+      "expectedHan": "絶命",
+      "expected": "Tuyệt Mệnh",
+      "actual": "Tuyệt Mệnh",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1906,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 4,
+      "sourceTrigram": "巽",
+      "target": "Đông",
+      "targetTrigram": "震",
+      "expectedHan": "延年",
+      "expected": "Diên Niên",
+      "actual": "Diên Niên",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1906,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 4,
+      "sourceTrigram": "巽",
+      "target": "Đông Nam",
+      "targetTrigram": "巽",
+      "expectedHan": "伏位",
+      "expected": "Phục Vị",
+      "actual": "Phục Vị",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1906,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 4,
+      "sourceTrigram": "巽",
+      "target": "Nam",
+      "targetTrigram": "離",
+      "expectedHan": "天醫",
+      "expected": "Thiên Y",
+      "actual": "Thiên Y",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1906,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 4,
+      "sourceTrigram": "巽",
+      "target": "Tây Nam",
+      "targetTrigram": "坤",
+      "expectedHan": "五鬼",
+      "expected": "Ngũ Quỷ",
+      "actual": "Ngũ Quỷ",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1906,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 4,
+      "sourceTrigram": "巽",
+      "target": "Tây",
+      "targetTrigram": "兌",
+      "expectedHan": "六煞",
+      "expected": "Lục Sát",
+      "actual": "Lục Sát",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1906,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 4,
+      "sourceTrigram": "巽",
+      "target": "Tây Bắc",
+      "targetTrigram": "乾",
+      "expectedHan": "禍害",
+      "expected": "Họa Hại",
+      "actual": "Họa Hại",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1906,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 6,
+      "sourceTrigram": "乾",
+      "target": "Bắc",
+      "targetTrigram": "坎",
+      "expectedHan": "六煞",
+      "expected": "Lục Sát",
+      "actual": "Lục Sát",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1904,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 6,
+      "sourceTrigram": "乾",
+      "target": "Đông Bắc",
+      "targetTrigram": "艮",
+      "expectedHan": "天醫",
+      "expected": "Thiên Y",
+      "actual": "Thiên Y",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1904,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 6,
+      "sourceTrigram": "乾",
+      "target": "Đông",
+      "targetTrigram": "震",
+      "expectedHan": "五鬼",
+      "expected": "Ngũ Quỷ",
+      "actual": "Ngũ Quỷ",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1904,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 6,
+      "sourceTrigram": "乾",
+      "target": "Đông Nam",
+      "targetTrigram": "巽",
+      "expectedHan": "禍害",
+      "expected": "Họa Hại",
+      "actual": "Họa Hại",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1904,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 6,
+      "sourceTrigram": "乾",
+      "target": "Nam",
+      "targetTrigram": "離",
+      "expectedHan": "絶命",
+      "expected": "Tuyệt Mệnh",
+      "actual": "Tuyệt Mệnh",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1904,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 6,
+      "sourceTrigram": "乾",
+      "target": "Tây Nam",
+      "targetTrigram": "坤",
+      "expectedHan": "延年",
+      "expected": "Diên Niên",
+      "actual": "Diên Niên",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1904,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 6,
+      "sourceTrigram": "乾",
+      "target": "Tây",
+      "targetTrigram": "兌",
+      "expectedHan": "生氣",
+      "expected": "Sinh Khí",
+      "actual": "Sinh Khí",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1904,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 6,
+      "sourceTrigram": "乾",
+      "target": "Tây Bắc",
+      "targetTrigram": "乾",
+      "expectedHan": "伏位",
+      "expected": "Phục Vị",
+      "actual": "Phục Vị",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1904,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 7,
+      "sourceTrigram": "兌",
+      "target": "Bắc",
+      "targetTrigram": "坎",
+      "expectedHan": "禍害",
+      "expected": "Họa Hại",
+      "actual": "Họa Hại",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1903,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 7,
+      "sourceTrigram": "兌",
+      "target": "Đông Bắc",
+      "targetTrigram": "艮",
+      "expectedHan": "延年",
+      "expected": "Diên Niên",
+      "actual": "Diên Niên",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1903,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 7,
+      "sourceTrigram": "兌",
+      "target": "Đông",
+      "targetTrigram": "震",
+      "expectedHan": "絶命",
+      "expected": "Tuyệt Mệnh",
+      "actual": "Tuyệt Mệnh",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1903,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 7,
+      "sourceTrigram": "兌",
+      "target": "Đông Nam",
+      "targetTrigram": "巽",
+      "expectedHan": "六煞",
+      "expected": "Lục Sát",
+      "actual": "Lục Sát",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1903,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 7,
+      "sourceTrigram": "兌",
+      "target": "Nam",
+      "targetTrigram": "離",
+      "expectedHan": "五鬼",
+      "expected": "Ngũ Quỷ",
+      "actual": "Ngũ Quỷ",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1903,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 7,
+      "sourceTrigram": "兌",
+      "target": "Tây Nam",
+      "targetTrigram": "坤",
+      "expectedHan": "天醫",
+      "expected": "Thiên Y",
+      "actual": "Thiên Y",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1903,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 7,
+      "sourceTrigram": "兌",
+      "target": "Tây",
+      "targetTrigram": "兌",
+      "expectedHan": "伏位",
+      "expected": "Phục Vị",
+      "actual": "Phục Vị",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1903,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 7,
+      "sourceTrigram": "兌",
+      "target": "Tây Bắc",
+      "targetTrigram": "乾",
+      "expectedHan": "生氣",
+      "expected": "Sinh Khí",
+      "actual": "Sinh Khí",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1903,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 8,
+      "sourceTrigram": "艮",
+      "target": "Bắc",
+      "targetTrigram": "坎",
+      "expectedHan": "五鬼",
+      "expected": "Ngũ Quỷ",
+      "actual": "Ngũ Quỷ",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1902,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 8,
+      "sourceTrigram": "艮",
+      "target": "Đông Bắc",
+      "targetTrigram": "艮",
+      "expectedHan": "伏位",
+      "expected": "Phục Vị",
+      "actual": "Phục Vị",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1902,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 8,
+      "sourceTrigram": "艮",
+      "target": "Đông",
+      "targetTrigram": "震",
+      "expectedHan": "六煞",
+      "expected": "Lục Sát",
+      "actual": "Lục Sát",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1902,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 8,
+      "sourceTrigram": "艮",
+      "target": "Đông Nam",
+      "targetTrigram": "巽",
+      "expectedHan": "絶命",
+      "expected": "Tuyệt Mệnh",
+      "actual": "Tuyệt Mệnh",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1902,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 8,
+      "sourceTrigram": "艮",
+      "target": "Nam",
+      "targetTrigram": "離",
+      "expectedHan": "禍害",
+      "expected": "Họa Hại",
+      "actual": "Họa Hại",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1902,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 8,
+      "sourceTrigram": "艮",
+      "target": "Tây Nam",
+      "targetTrigram": "坤",
+      "expectedHan": "生氣",
+      "expected": "Sinh Khí",
+      "actual": "Sinh Khí",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1902,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 8,
+      "sourceTrigram": "艮",
+      "target": "Tây",
+      "targetTrigram": "兌",
+      "expectedHan": "延年",
+      "expected": "Diên Niên",
+      "actual": "Diên Niên",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1902,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 8,
+      "sourceTrigram": "艮",
+      "target": "Tây Bắc",
+      "targetTrigram": "乾",
+      "expectedHan": "天醫",
+      "expected": "Thiên Y",
+      "actual": "Thiên Y",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1902,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 9,
+      "sourceTrigram": "離",
+      "target": "Bắc",
+      "targetTrigram": "坎",
+      "expectedHan": "延年",
+      "expected": "Diên Niên",
+      "actual": "Diên Niên",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1901,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 9,
+      "sourceTrigram": "離",
+      "target": "Đông Bắc",
+      "targetTrigram": "艮",
+      "expectedHan": "禍害",
+      "expected": "Họa Hại",
+      "actual": "Họa Hại",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1901,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 9,
+      "sourceTrigram": "離",
+      "target": "Đông",
+      "targetTrigram": "震",
+      "expectedHan": "生氣",
+      "expected": "Sinh Khí",
+      "actual": "Sinh Khí",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1901,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 9,
+      "sourceTrigram": "離",
+      "target": "Đông Nam",
+      "targetTrigram": "巽",
+      "expectedHan": "天醫",
+      "expected": "Thiên Y",
+      "actual": "Thiên Y",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1901,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 9,
+      "sourceTrigram": "離",
+      "target": "Nam",
+      "targetTrigram": "離",
+      "expectedHan": "伏位",
+      "expected": "Phục Vị",
+      "actual": "Phục Vị",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1901,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 9,
+      "sourceTrigram": "離",
+      "target": "Tây Nam",
+      "targetTrigram": "坤",
+      "expectedHan": "六煞",
+      "expected": "Lục Sát",
+      "actual": "Lục Sát",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1901,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 9,
+      "sourceTrigram": "離",
+      "target": "Tây",
+      "targetTrigram": "兌",
+      "expectedHan": "五鬼",
+      "expected": "Ngũ Quỷ",
+      "actual": "Ngũ Quỷ",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1901,
+        "gender": "male"
+      }
+    },
+    {
+      "kua": 9,
+      "sourceTrigram": "離",
+      "target": "Tây Bắc",
+      "targetTrigram": "乾",
+      "expectedHan": "絶命",
+      "expected": "Tuyệt Mệnh",
+      "actual": "Tuyệt Mệnh",
+      "match": true,
+      "engineAccessInput": {
+        "year": 1901,
+        "gender": "male"
+      }
+    }
+  ]
+}

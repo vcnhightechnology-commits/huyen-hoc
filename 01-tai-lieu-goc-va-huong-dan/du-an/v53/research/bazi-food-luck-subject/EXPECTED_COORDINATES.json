@@ -1,0 +1,52 @@
+{
+  "newCalls": [
+    {
+      "id": "ren-you",
+      "stem": "壬",
+      "branch": "酉",
+      "expectedLunar": "沐浴",
+      "sourceStatus": "explicit-subject;named-lexical-alias-comparison"
+    },
+    {
+      "id": "jia-zi",
+      "stem": "甲",
+      "branch": "子",
+      "expectedLunar": "沐浴",
+      "sourceStatus": "explicit-subject;named-lexical-alias-comparison"
+    },
+    {
+      "id": "jia-chou",
+      "stem": "甲",
+      "branch": "丑",
+      "expectedLunar": "冠带",
+      "sourceStatus": "explicit-subject-and-context-branch"
+    },
+    {
+      "id": "alternative-geng-shen",
+      "stem": "庚",
+      "branch": "申",
+      "expectedLunar": "临官",
+      "sourceStatus": "editorial-alternative-query;not-source-assertion"
+    }
+  ],
+  "reuse": [
+    {
+      "id": "possible-ren-shen",
+      "stem": "壬",
+      "branch": "申",
+      "expectedLunar": "长生",
+      "sourceStatus": "editorial-possible-implicit-subject;not-grammatical-resolution"
+    },
+    {
+      "id": "geng-zi",
+      "stem": "庚",
+      "branch": "子",
+      "expectedLunar": "死",
+      "sourceStatus": "explicit-source-subject"
+    }
+  ],
+  "newCallsPlanned": 4,
+  "retainedCallsReused": 2,
+  "fullSourceSubjectAdjudicated": false,
+  "outcomeValidated": false
+}

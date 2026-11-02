@@ -1,0 +1,295 @@
+{
+  "date": "2026-10-28",
+  "status": "staging-coordinate-projection-verified-full-conditional-compiler-open",
+  "checks": [
+    {
+      "name": "Source daysets have3/3/4 distinct literal coordinates and negative examples contain8 separate day/hour pairs",
+      "ok": true
+    },
+    {
+      "name": "A bounded60day real lunar search locates8 explicit day/hour fixtures;8 actual HHC and8 lunar forward charts match all pillars and source pair coordinates",
+      "ok": true
+    },
+    {
+      "name": "180 sixtycycle/dayset queries and16 localnegative comparisons keep membership separate from blanketblade classification",
+      "ok": true
+    },
+    {
+      "name": "Unknown inputs do not become negative evidence, invalid/aliased coordinates are rejected and returned data cannot mutate source",
+      "ok": true
+    },
+    {
+      "name": "Fullcontext, source-strength, hiddenstemglyph and historicaloutcome premises remain explicitly incomplete",
+      "ok": true
+    }
+  ],
+  "actualLunarSearchEightCharCalls": 60,
+  "actualLunarForwardEightCharCalls": 8,
+  "actualHHCBaziCalls": 8,
+  "sourceDayHourExamples": 8,
+  "sourceDaySetEntries": 10,
+  "privateCoordinateLookups": 196,
+  "runtime": [
+    {
+      "sourcePair": {
+        "day": "甲申",
+        "hour": "丁卯"
+      },
+      "modernFeasibilityFixture": {
+        "y": 2000,
+        "m": 1,
+        "d": 27,
+        "hour": 6,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualHHCPillars": [
+        "己卯",
+        "丁丑",
+        "甲申",
+        "丁卯"
+      ],
+      "actualLunarPillars": [
+        "己卯",
+        "丁丑",
+        "甲申",
+        "丁卯"
+      ],
+      "sourceOriginalYearMonthKnown": false,
+      "GregorianBirthDateAttributedToHistoricalPerson": false,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "sourcePair": {
+        "day": "乙酉",
+        "hour": "庚辰"
+      },
+      "modernFeasibilityFixture": {
+        "y": 2000,
+        "m": 1,
+        "d": 28,
+        "hour": 8,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualHHCPillars": [
+        "己卯",
+        "丁丑",
+        "乙酉",
+        "庚辰"
+      ],
+      "actualLunarPillars": [
+        "己卯",
+        "丁丑",
+        "乙酉",
+        "庚辰"
+      ],
+      "sourceOriginalYearMonthKnown": false,
+      "GregorianBirthDateAttributedToHistoricalPerson": false,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "sourcePair": {
+        "day": "丙子",
+        "hour": "甲午"
+      },
+      "modernFeasibilityFixture": {
+        "y": 2000,
+        "m": 1,
+        "d": 19,
+        "hour": 12,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualHHCPillars": [
+        "己卯",
+        "丁丑",
+        "丙子",
+        "甲午"
+      ],
+      "actualLunarPillars": [
+        "己卯",
+        "丁丑",
+        "丙子",
+        "甲午"
+      ],
+      "sourceOriginalYearMonthKnown": false,
+      "GregorianBirthDateAttributedToHistoricalPerson": false,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "sourcePair": {
+        "day": "丁亥",
+        "hour": "丁未"
+      },
+      "modernFeasibilityFixture": {
+        "y": 2000,
+        "m": 1,
+        "d": 30,
+        "hour": 14,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualHHCPillars": [
+        "己卯",
+        "丁丑",
+        "丁亥",
+        "丁未"
+      ],
+      "actualLunarPillars": [
+        "己卯",
+        "丁丑",
+        "丁亥",
+        "丁未"
+      ],
+      "sourceOriginalYearMonthKnown": false,
+      "GregorianBirthDateAttributedToHistoricalPerson": false,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "sourcePair": {
+        "day": "庚午",
+        "hour": "乙酉"
+      },
+      "modernFeasibilityFixture": {
+        "y": 2000,
+        "m": 1,
+        "d": 13,
+        "hour": 18,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualHHCPillars": [
+        "己卯",
+        "丁丑",
+        "庚午",
+        "乙酉"
+      ],
+      "actualLunarPillars": [
+        "己卯",
+        "丁丑",
+        "庚午",
+        "乙酉"
+      ],
+      "sourceOriginalYearMonthKnown": false,
+      "GregorianBirthDateAttributedToHistoricalPerson": false,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "sourcePair": {
+        "day": "壬午",
+        "hour": "庚子"
+      },
+      "modernFeasibilityFixture": {
+        "y": 2000,
+        "m": 1,
+        "d": 25,
+        "hour": 0,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualHHCPillars": [
+        "己卯",
+        "丁丑",
+        "壬午",
+        "庚子"
+      ],
+      "actualLunarPillars": [
+        "己卯",
+        "丁丑",
+        "壬午",
+        "庚子"
+      ],
+      "sourceOriginalYearMonthKnown": false,
+      "GregorianBirthDateAttributedToHistoricalPerson": false,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "sourcePair": {
+        "day": "辛巳",
+        "hour": "戊戌"
+      },
+      "modernFeasibilityFixture": {
+        "y": 2000,
+        "m": 1,
+        "d": 24,
+        "hour": 20,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualHHCPillars": [
+        "己卯",
+        "丁丑",
+        "辛巳",
+        "戊戌"
+      ],
+      "actualLunarPillars": [
+        "己卯",
+        "丁丑",
+        "辛巳",
+        "戊戌"
+      ],
+      "sourceOriginalYearMonthKnown": false,
+      "GregorianBirthDateAttributedToHistoricalPerson": false,
+      "sourceOutcomeValidated": false
+    },
+    {
+      "sourcePair": {
+        "day": "癸巳",
+        "hour": "癸丑"
+      },
+      "modernFeasibilityFixture": {
+        "y": 2000,
+        "m": 2,
+        "d": 5,
+        "hour": 2,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualHHCPillars": [
+        "庚辰",
+        "戊寅",
+        "癸巳",
+        "癸丑"
+      ],
+      "actualLunarPillars": [
+        "庚辰",
+        "戊寅",
+        "癸巳",
+        "癸丑"
+      ],
+      "sourceOriginalYearMonthKnown": false,
+      "GregorianBirthDateAttributedToHistoricalPerson": false,
+      "sourceOutcomeValidated": false
+    }
+  ],
+  "fullBladePatternClassifier": false,
+  "strengthMethodValidated": false,
+  "sourceChronologyEstablished": false,
+  "historicalOutcomesValidated": false,
+  "consumerChanged": false
+}

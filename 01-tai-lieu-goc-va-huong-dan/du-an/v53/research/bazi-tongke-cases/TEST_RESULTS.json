@@ -1,0 +1,45 @@
+{
+  "date": "2026-10-29",
+  "checks": [
+    {
+      "name": "Manual three-case transcription and expected role probes frozen before one actual batch",
+      "ok": true
+    },
+    {
+      "name": "Thirty-six cached directed frames reproduce the reused coordinate function without new engine calls",
+      "ok": true
+    },
+    {
+      "name": "Three editorial compatible role pairs preserve two year roots and one day root",
+      "ok": true
+    },
+    {
+      "name": "Blind day-root substitution changes two coordinates; reverse direction does not establish the same nest",
+      "ok": true
+    },
+    {
+      "name": "Actual-batch accounting distinguishes relation calls, cached replay and birth charts",
+      "ok": true
+    },
+    {
+      "name": "Consumer remains unchanged and private role evidence is absent from the site",
+      "ok": true
+    }
+  ],
+  "summary": {
+    "completeChecks": 6,
+    "printedCases": 3,
+    "directedCachedFrames": 36,
+    "distinctStemPairs": 23,
+    "selectedEditorialPairs": 3,
+    "dayRootSubstitutionChanges": 2,
+    "reversedCoordinatesNotMatched": 3,
+    "actualRuntimeBatchesRetained": 1,
+    "newHHCRelationCallsThisTest": 0,
+    "newLunarTableQueriesThisTest": 0,
+    "newHHCInspectCallsThisTest": 0,
+    "newNatalChartsThisTest": 0,
+    "consumerChanged": false,
+    "wholeSourceClauseApplied": false
+  }
+}

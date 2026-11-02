@@ -1,0 +1,215 @@
+{
+  "schema": "hhc.bazi.life-stage.source-terms.v1",
+  "date": "2026-10-29",
+  "entryMethod": "Manually read retained native images112–115; exact terms and explicit aliases before implementation/runtime.",
+  "mainSystem": "TMTH002-main-twelve-enumeration",
+  "quotedSystem": "TMTH002-reported-sanming-tiyao",
+  "mainOrder": [
+    "長生",
+    "沐浴",
+    "冠帶",
+    "臨官",
+    "帝旺",
+    "衰",
+    "病",
+    "死",
+    "墓",
+    "絶",
+    "胎",
+    "養"
+  ],
+  "mainListImages": [
+    112,
+    113
+  ],
+  "quotedRows": [
+    {
+      "sourceOrdinal": 1,
+      "literalName": "受氣",
+      "explicitSourceAliases": [
+        "絶",
+        "胞"
+      ],
+      "sourceDefinition": "萬物在地中未有其象",
+      "containerPages": [
+        113
+      ],
+      "printedFolio": "002-56a",
+      "definitionUsesHistoricalMetaphor": true
+    },
+    {
+      "sourceOrdinal": 2,
+      "literalName": "受胎",
+      "explicitSourceAliases": [],
+      "sourceDefinition": "天地氣交氤氲造物其物在地中萌芽始有其氣",
+      "containerPages": [
+        113
+      ],
+      "printedFolio": "002-56a",
+      "definitionUsesHistoricalMetaphor": true
+    },
+    {
+      "sourceOrdinal": 3,
+      "literalName": "成形",
+      "explicitSourceAliases": [],
+      "sourceDefinition": "萬物在地中成形",
+      "containerPages": [
+        113
+      ],
+      "printedFolio": "002-56a",
+      "definitionUsesHistoricalMetaphor": true
+    },
+    {
+      "sourceOrdinal": 4,
+      "literalName": "長生",
+      "explicitSourceAliases": [],
+      "sourceDefinition": "萬物發生向榮",
+      "containerPages": [
+        113
+      ],
+      "printedFolio": "002-56a",
+      "definitionUsesHistoricalMetaphor": true
+    },
+    {
+      "sourceOrdinal": 5,
+      "literalName": "沐浴",
+      "explicitSourceAliases": [
+        "敗"
+      ],
+      "sourceDefinition": "萬物始生形體柔脆易為所損",
+      "containerPages": [
+        113,
+        114
+      ],
+      "printedFolio": "002-56a/56b",
+      "definitionUsesHistoricalMetaphor": true
+    },
+    {
+      "sourceOrdinal": 6,
+      "literalName": "冠帶",
+      "explicitSourceAliases": [],
+      "sourceDefinition": "萬物漸榮秀",
+      "containerPages": [
+        114
+      ],
+      "printedFolio": "002-56b",
+      "definitionUsesHistoricalMetaphor": true
+    },
+    {
+      "sourceOrdinal": 7,
+      "literalName": "臨官",
+      "explicitSourceAliases": [],
+      "sourceDefinition": "萬物既秀實",
+      "containerPages": [
+        114
+      ],
+      "printedFolio": "002-56b",
+      "definitionUsesHistoricalMetaphor": true
+    },
+    {
+      "sourceOrdinal": 8,
+      "literalName": "帝旺",
+      "explicitSourceAliases": [],
+      "sourceDefinition": "萬物成熟",
+      "containerPages": [
+        114
+      ],
+      "printedFolio": "002-56b",
+      "definitionUsesHistoricalMetaphor": true
+    },
+    {
+      "sourceOrdinal": 9,
+      "literalName": "衰",
+      "explicitSourceAliases": [],
+      "sourceDefinition": "萬物形衰",
+      "containerPages": [
+        114
+      ],
+      "printedFolio": "002-56b",
+      "definitionUsesHistoricalMetaphor": true
+    },
+    {
+      "sourceOrdinal": 10,
+      "literalName": "病",
+      "explicitSourceAliases": [],
+      "sourceDefinition": "萬物病",
+      "containerPages": [
+        114
+      ],
+      "printedFolio": "002-56b",
+      "definitionUsesHistoricalMetaphor": true
+    },
+    {
+      "sourceOrdinal": 11,
+      "literalName": "死",
+      "explicitSourceAliases": [],
+      "sourceDefinition": "萬物死",
+      "containerPages": [
+        114
+      ],
+      "printedFolio": "002-56b",
+      "definitionUsesHistoricalMetaphor": true
+    },
+    {
+      "sourceOrdinal": 12,
+      "literalName": "墓",
+      "explicitSourceAliases": [
+        "庫"
+      ],
+      "sourceDefinition": "萬物成功而藏之庫",
+      "containerPages": [
+        114
+      ],
+      "printedFolio": "002-56b",
+      "definitionUsesHistoricalMetaphor": true
+    }
+  ],
+  "quotedVoice": "三命提要云 as reported inside Tam Menh; separate historical book not independently acquired.",
+  "explicitAliasAnchors": {
+    "受氣": "一曰受氣又曰絶曰胞",
+    "沐浴": "五曰沐浴又曰敗",
+    "墓": "十二曰墓又曰庫"
+  },
+  "editorialAlignmentCandidatesNotAcceptedAliases": [
+    {
+      "quotedTerm": "受胎",
+      "mainTerm": "胎",
+      "basis": "semantic/ordinal alignment inference, not 又曰 in this clause"
+    },
+    {
+      "quotedTerm": "成形",
+      "mainTerm": "養",
+      "basis": "cyclic position inference, not explicit printed alias"
+    }
+  ],
+  "reportedBroadGroups": {
+    "四貴": [
+      "胎",
+      "生",
+      "旺",
+      "庫"
+    ],
+    "四忌": [
+      "死",
+      "絶",
+      "病",
+      "敗"
+    ]
+  },
+  "broadGroupQualifier": "亦大槩言之",
+  "noAutomaticOutcomeAnchors": [
+    "見生旺者未必便作吉論",
+    "見休囚死絶未必便作凶言"
+  ],
+  "sourceCoordinatesNotEstablished": [
+    "ten-stem start branches",
+    "yin/yang direction",
+    "date-to-branch adapter",
+    "source 生 and 旺 shorthand binding"
+  ],
+  "allChapterCharactersCollated": false,
+  "fullNatalStrengthEstablished": false,
+  "newHTTPBodies": 0,
+  "newSourcePositions": 0,
+  "consumerApplied": false
+}

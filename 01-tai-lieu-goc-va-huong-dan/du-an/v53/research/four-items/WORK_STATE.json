@@ -1,0 +1,41 @@
+{
+  "requested": "Finish all four established items; no publication",
+  "items": [
+    {
+      "id": "yi",
+      "doneWhen": "All 384 ordinary moving-line readings individually grounded in archived text; two all-moving supplements, correct UI/export/restore; no public corpus"
+    },
+    {
+      "id": "bazi",
+      "doneWhen": "Ten relationship explanations and 12 hidden-stem tables, 100 pair comparison and unknown-time gating; no automated useful-god diagnosis"
+    },
+    {
+      "id": "home",
+      "doneWhen": "All eight charts/64 direction labels compared against identifiable witness, usable degree/north/uncertainty tool; source uncertainties documented"
+    },
+    {
+      "id": "tuvi",
+      "doneWhen": "Date-based decade/year/month reading flow, lunar-year/age and leap policies consistent, real iztro comparison, save/export/restore"
+    }
+  ],
+  "completed": [
+    "yi",
+    "bazi",
+    "home",
+    "tuvi"
+  ],
+  "date": "2026-10-26",
+  "status": "complete",
+  "report": "v53/FOUR_ITEMS_REPORT.md",
+  "verification": {
+    "engine": 14,
+    "policies": 7,
+    "browser": 47,
+    "regression": 50,
+    "home": 40,
+    "experience": 36,
+    "totalPassed": 194,
+    "actualIztroHoroscopeCalls": 178
+  },
+  "limits": "Completed the four bounded items, not the entire library or all traditions; see source notes and report."
+}

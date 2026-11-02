@@ -1,0 +1,49 @@
+{
+  "nayin": {
+    "戊寅": "城头土",
+    "癸未": "杨柳木",
+    "辛巳": "白蜡金",
+    "甲戌": "山头火",
+    "庚申": "石榴木",
+    "乙丑": "海中金",
+    "癸亥": "大海水",
+    "丙辰": "沙中土",
+    "乙亥": "山头火",
+    "壬辰": "长流水",
+    "戊午": "天上火",
+    "庚子": "壁上土",
+    "丁酉": "山下火",
+    "己卯": "城头土",
+    "辛酉": "石榴木"
+  },
+  "groupATargetNaYinControlsRoot": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "groupARootStemControlsTarget": [
+    true,
+    true,
+    true,
+    true,
+    false
+  ],
+  "groupBBranchSixUnion": [
+    true,
+    true,
+    true,
+    true,
+    true
+  ],
+  "groupBRootStemControlsTarget": [
+    true,
+    true,
+    false,
+    false,
+    false
+  ],
+  "ordinaryComparisonIsEditorialNotSourceMeaning": true,
+  "mismatchDoesNotAuthorizeGlyphEmendation": true
+}

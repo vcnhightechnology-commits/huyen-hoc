@@ -1,0 +1,280 @@
+{
+  "schema": "hhc.home.ge-expected.v1",
+  "cases": [
+    {
+      "id": "forest-timber-exception",
+      "input": {
+        "sourceID": "itkc-1508A-vol2-daily-selected",
+        "frameID": "source-declared-day-and-symbolic-activity",
+        "clauseID": "forest-mountain-timber",
+        "marker": "forest-ge",
+        "activity": "enter-mountain-to-cut-timber",
+        "markerStatus": true,
+        "beneficPresent": true
+      },
+      "localAvoidance": false
+    },
+    {
+      "id": "mountain-timber-exception",
+      "input": {
+        "sourceID": "itkc-1508A-vol2-daily-selected",
+        "frameID": "source-declared-day-and-symbolic-activity",
+        "clauseID": "forest-mountain-timber",
+        "marker": "mountain-ge",
+        "activity": "enter-mountain-to-cut-timber",
+        "markerStatus": true,
+        "beneficPresent": true
+      },
+      "localAvoidance": false
+    },
+    {
+      "id": "no-benefic-no-converse",
+      "input": {
+        "sourceID": "itkc-1508A-vol2-daily-selected",
+        "frameID": "source-declared-day-and-symbolic-activity",
+        "clauseID": "forest-mountain-timber",
+        "marker": "forest-ge",
+        "activity": "enter-mountain-to-cut-timber",
+        "markerStatus": true,
+        "beneficPresent": false
+      },
+      "localAvoidance": null
+    },
+    {
+      "id": "unknown-benefic",
+      "input": {
+        "sourceID": "itkc-1508A-vol2-daily-selected",
+        "frameID": "source-declared-day-and-symbolic-activity",
+        "clauseID": "forest-mountain-timber",
+        "marker": "forest-ge",
+        "activity": "enter-mountain-to-cut-timber",
+        "markerStatus": true,
+        "beneficPresent": null
+      },
+      "localAvoidance": null
+    },
+    {
+      "id": "no-marker-no-converse",
+      "input": {
+        "sourceID": "itkc-1508A-vol2-daily-selected",
+        "frameID": "source-declared-day-and-symbolic-activity",
+        "clauseID": "forest-mountain-timber",
+        "marker": "mountain-ge",
+        "activity": "enter-mountain-to-cut-timber",
+        "markerStatus": false,
+        "beneficPresent": true
+      },
+      "localAvoidance": null
+    },
+    {
+      "id": "unknown-marker",
+      "input": {
+        "sourceID": "itkc-1508A-vol2-daily-selected",
+        "frameID": "source-declared-day-and-symbolic-activity",
+        "clauseID": "forest-mountain-timber",
+        "marker": "mountain-ge",
+        "activity": "enter-mountain-to-cut-timber",
+        "markerStatus": null,
+        "beneficPresent": true
+      },
+      "localAvoidance": null
+    },
+    {
+      "id": "entry-alone-unresolved",
+      "input": {
+        "sourceID": "itkc-1508A-vol2-daily-selected",
+        "frameID": "source-declared-day-and-symbolic-activity",
+        "clauseID": "forest-mountain-timber",
+        "marker": "forest-ge",
+        "activity": "enter-mountain",
+        "markerStatus": true,
+        "beneficPresent": true
+      },
+      "localAvoidance": null
+    },
+    {
+      "id": "timber-location-unresolved",
+      "input": {
+        "sourceID": "itkc-1508A-vol2-daily-selected",
+        "frameID": "source-declared-day-and-symbolic-activity",
+        "clauseID": "forest-mountain-timber",
+        "marker": "mountain-ge",
+        "activity": "cut-timber",
+        "markerStatus": true,
+        "beneficPresent": true
+      },
+      "localAvoidance": null
+    },
+    {
+      "id": "travel-list-unresolved",
+      "input": {
+        "sourceID": "itkc-1508A-vol2-daily-selected",
+        "frameID": "source-declared-day-and-symbolic-activity",
+        "clauseID": "forest-mountain-timber",
+        "marker": "forest-ge",
+        "activity": "travel",
+        "markerStatus": true,
+        "beneficPresent": true
+      },
+      "localAvoidance": null
+    },
+    {
+      "id": "capture-list-unresolved",
+      "input": {
+        "sourceID": "itkc-1508A-vol2-daily-selected",
+        "frameID": "source-declared-day-and-symbolic-activity",
+        "clauseID": "forest-mountain-timber",
+        "marker": "forest-ge",
+        "activity": "capture",
+        "markerStatus": true,
+        "beneficPresent": true
+      },
+      "localAvoidance": null
+    },
+    {
+      "id": "sacrifice-shen-exception",
+      "input": {
+        "sourceID": "itkc-1508A-vol2-daily-selected",
+        "frameID": "source-declared-day-and-symbolic-activity",
+        "clauseID": "sacrifice-shen-present",
+        "marker": "shen-ge",
+        "activity": "sacrificial-rite",
+        "markerStatus": true,
+        "shenPresentDay": true
+      },
+      "localAvoidance": false
+    },
+    {
+      "id": "shen-day-false-no-converse",
+      "input": {
+        "sourceID": "itkc-1508A-vol2-daily-selected",
+        "frameID": "source-declared-day-and-symbolic-activity",
+        "clauseID": "sacrifice-shen-present",
+        "marker": "shen-ge",
+        "activity": "sacrificial-rite",
+        "markerStatus": true,
+        "shenPresentDay": false
+      },
+      "localAvoidance": null
+    },
+    {
+      "id": "shen-day-unknown",
+      "input": {
+        "sourceID": "itkc-1508A-vol2-daily-selected",
+        "frameID": "source-declared-day-and-symbolic-activity",
+        "clauseID": "sacrifice-shen-present",
+        "marker": "shen-ge",
+        "activity": "sacrificial-rite",
+        "markerStatus": true,
+        "shenPresentDay": null
+      },
+      "localAvoidance": null
+    },
+    {
+      "id": "shen-marker-false",
+      "input": {
+        "sourceID": "itkc-1508A-vol2-daily-selected",
+        "frameID": "source-declared-day-and-symbolic-activity",
+        "clauseID": "sacrifice-shen-present",
+        "marker": "shen-ge",
+        "activity": "sacrificial-rite",
+        "markerStatus": false,
+        "shenPresentDay": true
+      },
+      "localAvoidance": null
+    },
+    {
+      "id": "shen-marker-unknown",
+      "input": {
+        "sourceID": "itkc-1508A-vol2-daily-selected",
+        "frameID": "source-declared-day-and-symbolic-activity",
+        "clauseID": "sacrifice-shen-present",
+        "marker": "shen-ge",
+        "activity": "sacrificial-rite",
+        "markerStatus": null,
+        "shenPresentDay": true
+      },
+      "localAvoidance": null
+    },
+    {
+      "id": "prayer-is-not-sacrifice",
+      "input": {
+        "sourceID": "itkc-1508A-vol2-daily-selected",
+        "frameID": "source-declared-day-and-symbolic-activity",
+        "clauseID": "sacrifice-shen-present",
+        "marker": "shen-ge",
+        "activity": "pray-for-blessing",
+        "markerStatus": true,
+        "shenPresentDay": true
+      },
+      "localAvoidance": null
+    },
+    {
+      "id": "ghost-rite-is-not-generic-sacrifice",
+      "input": {
+        "sourceID": "itkc-1508A-vol2-daily-selected",
+        "frameID": "source-declared-day-and-symbolic-activity",
+        "clauseID": "sacrifice-shen-present",
+        "marker": "shen-ge",
+        "activity": "ghost-rite",
+        "markerStatus": true,
+        "shenPresentDay": true
+      },
+      "localAvoidance": null
+    },
+    {
+      "id": "no-construction-extension",
+      "input": {
+        "sourceID": "itkc-1508A-vol2-daily-selected",
+        "frameID": "source-declared-day-and-symbolic-activity",
+        "clauseID": "sacrifice-shen-present",
+        "marker": "shen-ge",
+        "activity": "start-building",
+        "markerStatus": true,
+        "shenPresentDay": true
+      },
+      "localAvoidance": null
+    }
+  ],
+  "unsupportedRequests": [
+    {
+      "sourceID": "itkc-1508A-vol2-daily-selected",
+      "frameID": "source-declared-day-and-symbolic-activity",
+      "clauseID": "earth-planting",
+      "marker": "earth-ge",
+      "activity": "plant",
+      "markerStatus": true
+    },
+    {
+      "sourceID": "itkc-1508A-vol2-daily-selected",
+      "frameID": "source-declared-day-and-symbolic-activity",
+      "clauseID": "ghost-ge",
+      "marker": "ghost-ge",
+      "activity": "ghost-rite",
+      "markerStatus": true
+    },
+    {
+      "sourceID": "itkc-1508A-vol2-daily-selected",
+      "frameID": "source-declared-day-and-symbolic-activity",
+      "clauseID": "xing-zhou-ge",
+      "marker": "xing-ge",
+      "activity": "litigate",
+      "markerStatus": true
+    },
+    {
+      "sourceID": "itkc-1508A-vol2-daily-selected",
+      "frameID": "source-declared-day-and-symbolic-activity",
+      "clauseID": "fire-ge",
+      "marker": "fire-ge",
+      "activity": "furnace",
+      "markerStatus": true
+    }
+  ],
+  "neverInferred": [
+    "overallSuitability",
+    "permissionToAct",
+    "harmPrediction",
+    "calendarDate",
+    "interClausePriority"
+  ]
+}

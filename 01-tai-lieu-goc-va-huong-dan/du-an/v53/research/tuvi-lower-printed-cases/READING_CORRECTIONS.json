@@ -1,0 +1,23 @@
+{
+  "date": "2026-10-28",
+  "initialManualFile": "INITIAL_MANUAL_PRINTED_CASES.json",
+  "initialManualSHA256": "893c7fd99459af5ab3cb867d3fdd19cd381b723bc88241a484bca17d946c9fdc",
+  "initialFreezeFile": "INITIAL_TRANSCRIPTION_FREEZE.json",
+  "initialRuntimeFile": "INITIAL_ACTUAL_RUNTIME.json",
+  "initialRuntimeSHA256": "68ab76113250729aecbe52e78f91614798bd0426e9d1cdc6efcfe7c67ced3ab1",
+  "corrections": [
+    {
+      "caseID": "jia-yi-right",
+      "star": "廉貞",
+      "previousBranch": "子",
+      "correctedBranch": "戌",
+      "directImageEvidence": [
+        "canvas080-right-xu-native.png",
+        "canvas080-right-zi-native.png"
+      ],
+      "reason": "戌cellclearlyprints廉貞beside天府;子cellprints貪狼/祿存without廉貞. Misassignedonecoordinateinmanualtable,notasourcevariantorengineerror."
+    }
+  ],
+  "newChartCallsAfterCorrection": 0,
+  "sourceUnresolvedTianliangLeftRemainsNull": true
+}

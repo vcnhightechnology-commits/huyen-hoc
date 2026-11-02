@@ -1,0 +1,104 @@
+{
+  "sourceInstructionsAreData": true,
+  "tables": [
+    {
+      "system": "WYG003-quoted-eight-blade-coordinates",
+      "tier": "native-facsimile-targeted-passages",
+      "sourceFile": "v53/research/bazi-jianlu-context/volume3/CADAL06066039.djvu",
+      "sourceSHA256": "2334006e3a46b16bdbf0bf6a79512d8d0c4b87a2ce2e8e1ff503121d8f2cffdc",
+      "folio": "003-56a",
+      "sourceVoice": "希尹曰 as quoted in 論羊刃; not independently verified attribution",
+      "rows": [
+        {
+          "stem": "甲",
+          "branch": "卯"
+        },
+        {
+          "stem": "乙",
+          "branch": "辰"
+        },
+        {
+          "stem": "丙",
+          "branch": "午"
+        },
+        {
+          "stem": "丁",
+          "branch": "未"
+        },
+        {
+          "stem": "庚",
+          "branch": "酉"
+        },
+        {
+          "stem": "辛",
+          "branch": "戌"
+        },
+        {
+          "stem": "壬",
+          "branch": "子"
+        },
+        {
+          "stem": "癸",
+          "branch": "丑"
+        }
+      ],
+      "unstatedStems": [
+        "戊",
+        "己"
+      ],
+      "explicitlyExcludedStems": [],
+      "sourceCaveat": "The section later distinguishes 子平五陽干有刃/五陰干無刃 and points to the later 陽刃 chapter. Preserve named voices.",
+      "retainedDigitalFile": "v53/research/four-items/sources/KR3g0042_003.txt",
+      "retainedDigitalSHA256": "267fda36d206bfd153d9377441adb5f99f96c39a594a5f7ebdf3e4dd226e9b87",
+      "sourceImages": [
+        113
+      ],
+      "namedSchoolClarificationImages": [
+        118,
+        119
+      ]
+    },
+    {
+      "system": "WYG005-five-yang-blade-coordinates",
+      "tier": "native-facsimile-targeted-passages",
+      "sourceImages": [
+        198,
+        202
+      ],
+      "rows": [
+        {
+          "stem": "甲",
+          "branch": "卯"
+        },
+        {
+          "stem": "丙",
+          "branch": "午"
+        },
+        {
+          "stem": "戊",
+          "branch": "午"
+        },
+        {
+          "stem": "庚",
+          "branch": "酉"
+        },
+        {
+          "stem": "壬",
+          "branch": "子"
+        }
+      ],
+      "unstatedStems": [],
+      "explicitlyExcludedStems": [
+        "乙",
+        "丁",
+        "己",
+        "辛",
+        "癸"
+      ],
+      "sourceCaveat": "Coordinates are not complete blade-pattern qualification; chapter204 has an apparent-pair exception."
+    }
+  ],
+  "dateOrStemAnchorInferred": false,
+  "practicalOutcome": null,
+  "wholeSectionApplied": false
+}

@@ -1,0 +1,41 @@
+{
+  "scope": "v53/qa/home-source-tables",
+  "files": [
+    {
+      "file": "v53/qa/home-source-tables/RELEASE_RESULTS.json",
+      "bytes": 1264,
+      "sha256": "c4cca1e294d41726e213e2f37a194acc7a8bb9e25264cba62ea7caddaead052a",
+      "bundle": "hhc-materials-008.zip",
+      "member": "objects/c4cca1e294d41726e213e2f37a194acc7a8bb9e25264cba62ea7caddaead052a",
+      "httpRange": {
+        "offset": 344005663,
+        "compressedBytes": 697,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/home-source-tables/RESULTS.json",
+      "bytes": 27367,
+      "sha256": "f352905dcbce783181e98c6c1546784abf4cbfd0baad0e1a67d13b7eb6103684",
+      "bundle": "hhc-materials-010.zip",
+      "member": "objects/f352905dcbce783181e98c6c1546784abf4cbfd0baad0e1a67d13b7eb6103684",
+      "httpRange": {
+        "offset": 176203273,
+        "compressedBytes": 4425,
+        "compressionMethod": 8
+      }
+    },
+    {
+      "file": "v53/qa/home-source-tables/SOURCE_RESULTS.json",
+      "bytes": 541,
+      "sha256": "9a109c3172b9debb69457bc97b4c141a34176266bc5a1ecaf558fb0ac557e7f2",
+      "bundle": "hhc-materials-007.zip",
+      "member": "objects/9a109c3172b9debb69457bc97b4c141a34176266bc5a1ecaf558fb0ac557e7f2",
+      "httpRange": {
+        "offset": 40103592,
+        "compressedBytes": 333,
+        "compressionMethod": 8
+      }
+    }
+  ]
+}

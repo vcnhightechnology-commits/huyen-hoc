@@ -1,0 +1,46 @@
+{
+  "date": "2026-10-29",
+  "completeChecks": 7,
+  "positiveControls": 4,
+  "registeredUnits": 137,
+  "firstPassSpans": 137,
+  "wholeUnitsApplied": 0,
+  "knownScopesIndexed": 2,
+  "newSourcePositions": 0,
+  "newUniqueSourceCases": 0,
+  "newEngineCallsDuringGuardTests": 0,
+  "additionalDuplicateHHCHexNumberCallsBeforeFix": 2,
+  "additionalDuplicateCompileCallsBeforeFix": 1,
+  "consumerChanged": false,
+  "wholeCatalogueCompleted": false,
+  "checks": [
+    {
+      "name": "Current137map agrees with active coverage count and all historical maps remain independent",
+      "passed": true
+    },
+    {
+      "name": "Known already released weather role/printed-case scope resolves to reuse",
+      "passed": true
+    },
+    {
+      "name": "Open full weather-strength/timing scope remains open",
+      "passed": true
+    },
+    {
+      "name": "Unindexed scopes/catalogues never become complete",
+      "passed": true
+    },
+    {
+      "name": "Positive control reproduces and rejects the previous stale pointer",
+      "passed": true
+    },
+    {
+      "name": "Contradictory counts, altered identity and false whole-application claim rejected",
+      "passed": true
+    },
+    {
+      "name": "Duplicate calls are disclosed and guard runs never execute engines or claim whole completion",
+      "passed": true
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "schema": "hhc.tuvi.manual-brightness-groups.v1",
+  "method": "Direct visual transcription from the two retained 2200px institutional images and local enlarged crops on 2026-10-26. Groups list only the 14 major stars whose abbreviations were read clearly. This is a normalized cell reading, not a diplomatic transcription; blank and ambiguous positions are not filled from the software table. Follow-up /full/full/ responses were inspected at actual3000x2262 resolution; the canvas advertises6300x4750, but the received JPEG is capped at3000px. The clearer image resolves 卯廟梁. 未破 is printed in both 廟 and 旺 and is now classified as conflicting rather than forced into one row.",
+  "abbreviations": {
+    "紫": "Tử Vi",
+    "机": "Thiên Cơ",
+    "日": "Thái Dương",
+    "武": "Vũ Khúc",
+    "同": "Thiên Đồng",
+    "貞": "Liêm Trinh",
+    "府": "Thiên Phủ",
+    "月": "Thái Âm",
+    "陰": "Thái Âm",
+    "貪": "Tham Lang",
+    "巨": "Cự Môn",
+    "相": "Thiên Tướng",
+    "梁": "Thiên Lương",
+    "殺": "Thất Sát",
+    "破": "Phá Quân"
+  },
+  "rows": [
+    {
+      "branch": 0,
+      "file": "research/fortune-table/official-088.jpg",
+      "groups": {
+        "miao": "破梁陰相府机",
+        "wang": "同武巨貪",
+        "de": "",
+        "li": "",
+        "ping": "紫貞",
+        "bu": "",
+        "xian": "日"
+      }
+    },
+    {
+      "branch": 1,
+      "file": "research/fortune-table/official-088.jpg",
+      "groups": {
+        "miao": "紫相殺府月武",
+        "wang": "梁破",
+        "de": "",
+        "li": "貞貪",
+        "ping": "",
+        "bu": "同日巨",
+        "xian": "机"
+      }
+    },
+    {
+      "branch": 2,
+      "file": "research/fortune-table/official-088.jpg",
+      "groups": {
+        "miao": "紫相巨府梁殺",
+        "wang": "日",
+        "de": "机武破",
+        "li": "同",
+        "ping": "貪貞",
+        "bu": "",
+        "xian": "月"
+      }
+    },
+    {
+      "branch": 3,
+      "file": "research/fortune-table/official-088.jpg",
+      "groups": {
+        "miao": "日同巨梁",
+        "wang": "紫机殺",
+        "de": "府貪",
+        "li": "武",
+        "ping": "貞",
+        "bu": "",
+        "xian": "相月破"
+      }
+    },
+    {
+      "branch": 4,
+      "file": "research/fortune-table/official-088.jpg",
+      "groups": {
+        "miao": "府梁貪武",
+        "wang": "日破",
+        "de": "紫殺",
+        "li": "机貞",
+        "ping": "相同巨",
+        "bu": "",
+        "xian": "月"
+      }
+    },
+    {
+      "branch": 5,
+      "file": "research/fortune-table/official-088.jpg",
+      "groups": {
+        "miao": "同",
+        "wang": "紫日",
+        "de": "府相",
+        "li": "",
+        "ping": "机武殺破梁",
+        "bu": "",
+        "xian": "月貞貪"
+      }
+    },
+    {
+      "branch": 6,
+      "file": "research/fortune-table/official-089.jpg",
+      "groups": {
+        "miao": "紫机破梁",
+        "wang": "府日武貪巨殺",
+        "de": "相",
+        "li": "",
+        "ping": "貞",
+        "bu": "月",
+        "xian": "同"
+      }
+    },
+    {
+      "branch": 7,
+      "file": "research/fortune-table/official-089.jpg",
+      "groups": {
+        "miao": "紫武府貪",
+        "wang": "梁",
+        "de": "相日月",
+        "li": "貞",
+        "ping": "巨",
+        "bu": "同",
+        "xian": ""
+      }
+    },
+    {
+      "branch": 8,
+      "file": "research/fortune-table/official-089.jpg",
+      "groups": {
+        "miao": "相貞巨殺",
+        "wang": "紫同",
+        "de": "武日府机",
+        "li": "月",
+        "ping": "貪",
+        "bu": "",
+        "xian": "梁"
+      }
+    },
+    {
+      "branch": 9,
+      "file": "research/fortune-table/official-089.jpg",
+      "groups": {
+        "miao": "巨机",
+        "wang": "紫月府殺",
+        "de": "梁",
+        "li": "武貪",
+        "ping": "日同貞",
+        "bu": "",
+        "xian": "破相"
+      }
+    },
+    {
+      "branch": 10,
+      "file": "research/fortune-table/official-089.jpg",
+      "groups": {
+        "miao": "府梁貪殺武",
+        "wang": "月破",
+        "de": "紫相",
+        "li": "机貞",
+        "ping": "巨同",
+        "bu": "日",
+        "xian": ""
+      }
+    },
+    {
+      "branch": 11,
+      "file": "research/fortune-table/official-089.jpg",
+      "groups": {
+        "miao": "月同",
+        "wang": "紫巨",
+        "de": "府相",
+        "li": "",
+        "ping": "机殺武破",
+        "bu": "",
+        "xian": "日梁貪貞"
+      }
+    }
+  ],
+  "unresolved": [
+    {
+      "branch": 0,
+      "star": "Thất Sát",
+      "reason": "No clear major-star abbreviation located in the selected column; do not fill a row."
+    },
+    {
+      "branch": 5,
+      "star": "Cự Môn",
+      "reason": "No clear matching abbreviation located; excluded."
+    },
+    {
+      "branch": 7,
+      "star": "Thiên Cơ",
+      "reason": "No clear matching abbreviation located; excluded."
+    },
+    {
+      "branch": 7,
+      "star": "Thất Sát",
+      "reason": "Clearer image reads 破 between 武 and 府, not 殺; no clear 殺 abbreviation found in the selected column."
+    },
+    {
+      "branch": 8,
+      "star": "Phá Quân",
+      "reason": "No clear matching abbreviation located; excluded."
+    }
+  ],
+  "localCrops": [
+    {
+      "file": "qa/full-study/table-88-detail.png",
+      "source": "research/fortune-table/official-088.jpg",
+      "cropBox": [
+        230,
+        310,
+        1015,
+        1500
+      ]
+    },
+    {
+      "file": "qa/full-study/table-89-detail.png",
+      "source": "research/fortune-table/official-089.jpg",
+      "cropBox": [
+        1195,
+        315,
+        1975,
+        1475
+      ]
+    }
+  ],
+  "policy": "Keep the currently selected software table and every witness difference separate. Reading more cells is not evidence of predictive accuracy or of a universally agreed table.",
+  "conflictingCells": [
+    {
+      "branch": 7,
+      "star": "Phá Quân",
+      "glyph": "破",
+      "rowsRead": [
+        "miao",
+        "wang"
+      ],
+      "file": "research/full-study/tuvi/official-89-full.jpg",
+      "note": "The same abbreviation is printed in two status rows. No unique witness status assigned."
+    }
+  ],
+  "followupImages": [
+    {
+      "file": "research/full-study/tuvi/official-88-full.jpg",
+      "responseSize": [
+        3000,
+        2262
+      ],
+      "canvasSize": [
+        6300,
+        4750
+      ]
+    },
+    {
+      "file": "research/full-study/tuvi/official-89-full.jpg",
+      "responseSize": [
+        3000,
+        2262
+      ],
+      "canvasSize": [
+        6300,
+        4750
+      ]
+    }
+  ]
+}

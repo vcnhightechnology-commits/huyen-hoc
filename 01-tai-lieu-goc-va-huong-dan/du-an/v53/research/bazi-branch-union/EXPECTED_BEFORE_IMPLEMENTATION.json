@@ -1,0 +1,271 @@
+{
+  "schema": "hhc.bazi.branch-union.expected.v1",
+  "sixPairs": [
+    [
+      "子",
+      "丑"
+    ],
+    [
+      "寅",
+      "亥"
+    ],
+    [
+      "卯",
+      "戌"
+    ],
+    [
+      "辰",
+      "酉"
+    ],
+    [
+      "巳",
+      "申"
+    ],
+    [
+      "午",
+      "未"
+    ]
+  ],
+  "orderedPairs": [
+    {
+      "from": "子",
+      "to": "丑",
+      "phrase": "福輕"
+    },
+    {
+      "from": "丑",
+      "to": "子",
+      "phrase": "福盛"
+    },
+    {
+      "from": "寅",
+      "to": "亥",
+      "phrase": "福清"
+    },
+    {
+      "from": "亥",
+      "to": "寅",
+      "phrase": "福慢"
+    },
+    {
+      "from": "戌",
+      "to": "卯",
+      "phrase": "福虚"
+    },
+    {
+      "from": "卯",
+      "to": "戌",
+      "phrase": "福厚"
+    },
+    {
+      "from": "辰",
+      "to": "酉",
+      "phrase": "福弱"
+    },
+    {
+      "from": "酉",
+      "to": "辰",
+      "phrase": "大利"
+    },
+    {
+      "from": "午",
+      "to": "未",
+      "phrase": "福慢"
+    },
+    {
+      "from": "未",
+      "to": "午",
+      "phrase": "大利"
+    },
+    {
+      "from": "巳",
+      "to": "申",
+      "phrase": "福慢"
+    },
+    {
+      "from": "申",
+      "to": "巳",
+      "phrase": "官氣盛"
+    }
+  ],
+  "explicitNonpairs": [
+    [
+      "子",
+      "亥"
+    ],
+    [
+      "寅",
+      "丑"
+    ]
+  ],
+  "sourceMonths": [
+    [
+      12,
+      "丑",
+      "子"
+    ],
+    [
+      1,
+      "寅",
+      "亥"
+    ],
+    [
+      2,
+      "卯",
+      "戌"
+    ],
+    [
+      3,
+      "辰",
+      "酉"
+    ],
+    [
+      4,
+      "巳",
+      "申"
+    ],
+    [
+      5,
+      "午",
+      "未"
+    ],
+    [
+      6,
+      "未",
+      "午"
+    ],
+    [
+      7,
+      "申",
+      "巳"
+    ],
+    [
+      8,
+      "酉",
+      "辰"
+    ],
+    [
+      9,
+      "戌",
+      "卯"
+    ],
+    [
+      10,
+      "亥",
+      "寅"
+    ],
+    [
+      11,
+      "子",
+      "丑"
+    ]
+  ],
+  "hiddenCases": [
+    {
+      "id": "jia-absent-yin-seen-hai",
+      "caseID": "hidden-lu-jia",
+      "anchor": "甲",
+      "targetSeen": false,
+      "partnerSeen": true,
+      "expectedGate": true
+    },
+    {
+      "id": "jia-target-already-seen",
+      "caseID": "hidden-lu-jia",
+      "anchor": "甲",
+      "targetSeen": true,
+      "partnerSeen": true,
+      "expectedGate": false
+    },
+    {
+      "id": "jia-partner-not-seen",
+      "caseID": "hidden-lu-jia",
+      "anchor": "甲",
+      "targetSeen": false,
+      "partnerSeen": false,
+      "expectedGate": false
+    },
+    {
+      "id": "jia-target-unknown",
+      "caseID": "hidden-lu-jia",
+      "anchor": "甲",
+      "targetSeen": null,
+      "partnerSeen": true,
+      "expectedGate": null
+    },
+    {
+      "id": "jia-partner-unknown",
+      "caseID": "hidden-lu-jia",
+      "anchor": "甲",
+      "targetSeen": false,
+      "partnerSeen": null,
+      "expectedGate": null
+    },
+    {
+      "id": "jia-nonmatching-anchor",
+      "caseID": "hidden-lu-jia",
+      "anchor": "乙",
+      "targetSeen": false,
+      "partnerSeen": true,
+      "expectedGate": false
+    },
+    {
+      "id": "horse-yin-absent-shen-seen-si",
+      "caseID": "hidden-horse-yin",
+      "anchor": "寅",
+      "targetSeen": false,
+      "partnerSeen": true,
+      "expectedGate": true
+    },
+    {
+      "id": "horse-yin-shen-already-seen",
+      "caseID": "hidden-horse-yin",
+      "anchor": "寅",
+      "targetSeen": true,
+      "partnerSeen": true,
+      "expectedGate": false
+    },
+    {
+      "id": "horse-yin-missing-partner",
+      "caseID": "hidden-horse-yin",
+      "anchor": "寅",
+      "targetSeen": false,
+      "partnerSeen": false,
+      "expectedGate": false
+    },
+    {
+      "id": "horse-yin-unknown-partner",
+      "caseID": "hidden-horse-yin",
+      "anchor": "寅",
+      "targetSeen": false,
+      "partnerSeen": null,
+      "expectedGate": null
+    }
+  ],
+  "actualLunarExpected": {
+    "orderedPartners": {
+      "子": "丑",
+      "丑": "子",
+      "寅": "亥",
+      "卯": "戌",
+      "辰": "酉",
+      "巳": "申",
+      "午": "未",
+      "未": "午",
+      "申": "巳",
+      "酉": "辰",
+      "戌": "卯",
+      "亥": "寅"
+    },
+    "luJia": "寅"
+  },
+  "neverInfer": [
+    "effectiveCombination",
+    "transformedElement",
+    "wholePatternEstablished",
+    "natalOutcome",
+    "calendarDate",
+    "strength",
+    "interSourcePriority"
+  ]
+}

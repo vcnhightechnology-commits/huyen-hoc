@@ -1,0 +1,250 @@
+{
+  "date": "2026-10-28",
+  "sourcePDFSHA256": "b6394102a995bb66df173452b37614b29d58e34ff85e08c43077006572ac48a5",
+  "sourcePDFPages": [
+    134,
+    135
+  ],
+  "sourceDayBranches": [
+    "子",
+    "丑",
+    "寅",
+    "卯",
+    "辰",
+    "巳",
+    "午",
+    "未",
+    "申",
+    "酉",
+    "戌",
+    "亥"
+  ],
+  "entryMethod": "Direct manual entry of 11 printed columns; no engine-generated expected values",
+  "columns": [
+    {
+      "sourceLabel": "青龍",
+      "sourceType": "黃道",
+      "hoursByDayBranch": [
+        "申",
+        "戌",
+        "子",
+        "寅",
+        "辰",
+        "午",
+        "申",
+        "戌",
+        "子",
+        "寅",
+        "辰",
+        "午"
+      ],
+      "sourcePDFPage": 134
+    },
+    {
+      "sourceLabel": "明堂",
+      "sourceType": "黃道",
+      "hoursByDayBranch": [
+        "酉",
+        "亥",
+        "丑",
+        "卯",
+        "巳",
+        "未",
+        "酉",
+        "亥",
+        "丑",
+        "卯",
+        "巳",
+        "未"
+      ],
+      "sourcePDFPage": 134
+    },
+    {
+      "sourceLabel": "天刑",
+      "sourceType": "黑道",
+      "hoursByDayBranch": [
+        "戌",
+        "子",
+        "寅",
+        "辰",
+        "午",
+        "申",
+        "戌",
+        "子",
+        "寅",
+        "辰",
+        "午",
+        "申"
+      ],
+      "sourcePDFPage": 134
+    },
+    {
+      "sourceLabel": "朱雀",
+      "sourceType": "黑道",
+      "hoursByDayBranch": [
+        "亥",
+        "丑",
+        "卯",
+        "巳",
+        "未",
+        "酉",
+        "亥",
+        "丑",
+        "卯",
+        "巳",
+        "未",
+        "酉"
+      ],
+      "sourcePDFPage": 134
+    },
+    {
+      "sourceLabel": "金匱",
+      "sourceType": "黃道",
+      "hoursByDayBranch": [
+        "子",
+        "寅",
+        "辰",
+        "午",
+        "申",
+        "戌",
+        "子",
+        "寅",
+        "辰",
+        "午",
+        "申",
+        "戌"
+      ],
+      "sourcePDFPage": 135
+    },
+    {
+      "sourceLabel": "天德",
+      "sourceType": "黃道",
+      "hoursByDayBranch": [
+        "丑",
+        "卯",
+        "巳",
+        "未",
+        "酉",
+        "亥",
+        "丑",
+        "卯",
+        "巳",
+        "未",
+        "酉",
+        "亥"
+      ],
+      "sourcePDFPage": 135
+    },
+    {
+      "sourceLabel": "白虎",
+      "sourceType": "黑道",
+      "hoursByDayBranch": [
+        "寅",
+        "辰",
+        "午",
+        "申",
+        "戌",
+        "子",
+        "寅",
+        "辰",
+        "午",
+        "申",
+        "戌",
+        "子"
+      ],
+      "sourcePDFPage": 135
+    },
+    {
+      "sourceLabel": "土堂",
+      "sourceType": "黃道",
+      "hoursByDayBranch": [
+        "卯",
+        "巳",
+        "未",
+        "酉",
+        "亥",
+        "丑",
+        "卯",
+        "巳",
+        "未",
+        "酉",
+        "亥",
+        "丑"
+      ],
+      "sourcePDFPage": 135
+    },
+    {
+      "sourceLabel": "天牢",
+      "sourceType": "黑道",
+      "hoursByDayBranch": [
+        "辰",
+        "午",
+        "申",
+        "戌",
+        "子",
+        "寅",
+        "辰",
+        "午",
+        "申",
+        "戌",
+        "子",
+        "寅"
+      ],
+      "sourcePDFPage": 135
+    },
+    {
+      "sourceLabel": "玄武",
+      "sourceType": "黑道",
+      "hoursByDayBranch": [
+        "巳",
+        "未",
+        "酉",
+        "亥",
+        "丑",
+        "卯",
+        "巳",
+        "未",
+        "酉",
+        "亥",
+        "丑",
+        "卯"
+      ],
+      "sourcePDFPage": 135
+    },
+    {
+      "sourceLabel": "司命",
+      "sourceType": "黃道",
+      "hoursByDayBranch": [
+        "未",
+        "酉",
+        "亥",
+        "丑",
+        "卯",
+        "巳",
+        "未",
+        "酉",
+        "亥",
+        "丑",
+        "卯",
+        "巳"
+      ],
+      "sourcePDFPage": 135
+    }
+  ],
+  "pendingColumn": {
+    "sourceLabel": "勾陳",
+    "sourcePDFPage": 135,
+    "reason": "Printed hour column visibly irregular; full diplomatic transcription and independent witness pending. Do not fill from a common formula."
+  },
+  "comparisonAliasesOnly": {
+    "青龍": "青龙",
+    "金匱": "金匮",
+    "土堂": "玉堂",
+    "天牢": "天牢",
+    "司命": "司命"
+  },
+  "tuTangAliasIsEditorialAndDoesNotRewritePrintedGlyph": true,
+  "all144PrintedCellsCollated": false,
+  "directEnteredCells": 132,
+  "overallAuspiciousnessValidated": false
+}

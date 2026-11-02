@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-27",
+  "status": "two-ring-headings-enumerated-bounded-private-functions-verified-rest-active",
+  "latestReport": "v53/HOME_RINGS_REPORT.md",
+  "completedStep": "Nhà ở: đã đọc đủ 96 nhãn trên hai đồ trung châm/phùng châm, 24 cung nối đôi và 15 đoạn văn trong hai mục nguồn; biên dịch riêng 48 phép gán sơn–hành, ba vòng và mô hình góc tường minh. 10 kiểm đạt: 288 lần gọi HHC_MOUNTAINS thật trong 72 tâm, 72 ranh, 144 phía ranh; thêm 72 khoảng bất định. Giữ cả hai khả năng tại ranh, tách quy ước phần mềm khỏi lời sách. Cùng tên sơn: bảng đôi khác Chính ngũ hành 16/24 và Hồng phạm 17/24. 6 ảnh đọc mở rộng, 2 crop native/6 xoay không nội suy; 0 HTTP, container hoặc trang nguồn mới. Chưa có bộ nối số đo thực/Bắc từ–Bắc thật; nguồn không xác minh hiệu quả thực tế. HTML 707411 byte, site và ZIP web nguyên byte; toàn kho chưa hoàn tất.",
+  "summary": {
+    "directDiagramLabels": 96,
+    "directPairArcs": 24,
+    "enumeratedProseSegments": 15,
+    "namedRingAssignments": 48,
+    "actualHHCMountainCalls": 288,
+    "centerContexts": 72,
+    "boundaryContexts": 72,
+    "flankContexts": 144,
+    "uncertaintyContexts": 72,
+    "pairedVersusRegularDifferences": 16,
+    "pairedVersusHongfanDifferences": 17,
+    "newHTTPRequests": 0,
+    "newSourcePages": 0,
+    "expandedPreviouslyReadPages": 6
+  },
+  "sourceVerification": {
+    "date": "2026-10-27",
+    "sourceContainerSHA256": "bfd3b76c55d62324919ab161c8c2ba2ecb129b3b2c59a3ab0428807e8f8278db",
+    "sourceImageHashesVerified": 6,
+    "exactNativeCropsVerified": 2,
+    "losslessRotationsVerified": 6,
+    "directDiagramLabels": 96,
+    "directPairArcs": 24,
+    "enumeratedProseSegments": 15,
+    "newHTTPRequests": 0,
+    "newSourcePages": 0,
+    "expandedPreviouslyReadPages": 6,
+    "allInteriorCrossingPathsTraced": false,
+    "wholeCatalogueCompleted": false
+  },
+  "sourceUnitMap": "v53/research/home-rings/CURRENT_VOLUME_UNITS.json",
+  "next": [
+    "Tiếp Xieji ảnh53–54: đủ24 nhãn tiết khí/phương vị và lời tám tiết; tách tên quẻ Khảm/Chấn/Ly/Đoài khỏi chi Tý/Mão/Ngọ/Dậu. Chưa suy ra thời điểm thiên văn hoặc tự chọn cục Kỳ môn.",
+    "Tiếp ảnh55–57: 八卦納甲三合, đủ24 tọa độ thuộc8 quẻ,24 nét tượng và các điều kiện/nguồn trích. Phân biệt nạp giáp địa lý với nạp giáp từng hào; giữ riêng lời phê bình chưa rõ xuất xứ. Không lặp lại288 phép gọi vòng châm khi không đổi logic.",
+    "Mộ vận còn đồ41/49 và bộ nối niên can/pha Đông chí từ ngày; lời bình/điều kiện Hồng phạm và các ứng dụng Du Niên chưa khai thác hết. P03 Trạch Kinh vẫn thiếu ảnh/đồ, có vấn đề24/26 và quy ước tháng/nhuận; không tải lại ngay ba URL lỗi đã giữ.",
+    "Bát tự còn toàn điều kiện cách cục/vượng suy/dụng thần và nhân chứng; Tử vi còn Canh/Nhâm/tuổi khởi hạn; Dịch còn B02 từ ảnh191/B03/Mai Hoa các mệnh đề phụ. Danh mục40: chưa tác phẩm nào áp dụng trọn."
+  ],
+  "consumerChanged": false,
+  "physicalCompassAdapterEstablished": false,
+  "wholeCatalogueCompleted": false
+}

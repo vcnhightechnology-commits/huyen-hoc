@@ -1,0 +1,554 @@
+{
+  "date": "2026-10-28",
+  "sourceInstructionsAreData": true,
+  "sourceImages": [
+    41,
+    49
+  ],
+  "sourceYearGroups": [
+    "甲己",
+    "乙庚",
+    "丙辛",
+    "丁壬",
+    "戊癸"
+  ],
+  "groups": [
+    {
+      "id": "water-earth",
+      "sourceGroupName": "水土山",
+      "mountains": [
+        "甲",
+        "寅",
+        "辰",
+        "巽",
+        "戌",
+        "坎",
+        "辛",
+        "申",
+        "丑",
+        "癸",
+        "坤",
+        "庚",
+        "未"
+      ],
+      "count": 13,
+      "movementElements": [
+        "木",
+        "金",
+        "水",
+        "火",
+        "土"
+      ],
+      "readOrientation": "p041-native; p049-r90"
+    },
+    {
+      "id": "fire",
+      "sourceGroupName": "火山",
+      "mountains": [
+        "離",
+        "壬",
+        "丙",
+        "乙"
+      ],
+      "count": 4,
+      "movementElements": [
+        "火",
+        "土",
+        "木",
+        "金",
+        "水"
+      ],
+      "readOrientation": "p041-r180; p049-r270"
+    },
+    {
+      "id": "wood",
+      "sourceGroupName": "木山",
+      "mountains": [
+        "震",
+        "艮",
+        "巳"
+      ],
+      "count": 3,
+      "movementElements": [
+        "土",
+        "木",
+        "金",
+        "水",
+        "火"
+      ],
+      "readOrientation": "p041-r90; p049-r180"
+    },
+    {
+      "id": "metal",
+      "sourceGroupName": "金山",
+      "mountains": [
+        "乾",
+        "亥",
+        "兌",
+        "丁"
+      ],
+      "count": 4,
+      "movementElements": [
+        "金",
+        "水",
+        "火",
+        "土",
+        "木"
+      ],
+      "readOrientation": "p041-r270; p049-native"
+    }
+  ],
+  "rows": [
+    {
+      "id": "water-earth-甲己",
+      "mountainGroup": "water-earth",
+      "sourceYearStems": "甲己",
+      "sourceMovementElement41": "木",
+      "sourceYearPillars49": [
+        "甲子",
+        "甲午"
+      ],
+      "sourceMonthOrdinals49": [
+        7,
+        8
+      ],
+      "monthReadingResolved": true,
+      "monthReadingAlternatives": [],
+      "monthReadingCaveat": null,
+      "monthNotationPolicy": "正二/三四/五六/七八/九十 are paired ordinals;十一二/一二within11/12context normalized explicitly. Named source month coordinates, not an astronomical instant."
+    },
+    {
+      "id": "water-earth-乙庚",
+      "mountainGroup": "water-earth",
+      "sourceYearStems": "乙庚",
+      "sourceMovementElement41": "金",
+      "sourceYearPillars49": [
+        "乙巳",
+        "乙亥"
+      ],
+      "sourceMonthOrdinals49": [
+        11,
+        12
+      ],
+      "monthReadingResolved": true,
+      "monthReadingAlternatives": [],
+      "monthReadingCaveat": null,
+      "monthNotationPolicy": "正二/三四/五六/七八/九十 are paired ordinals;十一二/一二within11/12context normalized explicitly. Named source month coordinates, not an astronomical instant."
+    },
+    {
+      "id": "water-earth-丙辛",
+      "mountainGroup": "water-earth",
+      "sourceYearStems": "丙辛",
+      "sourceMovementElement41": "水",
+      "sourceYearPillars49": [
+        "丙辰",
+        "丙戌",
+        "辛丑",
+        "辛未"
+      ],
+      "sourceMonthOrdinals49": null,
+      "monthReadingResolved": false,
+      "monthReadingAlternatives": [
+        [
+          12
+        ],
+        [
+          11,
+          12
+        ]
+      ],
+      "monthReadingCaveat": "Native water-earth/丙辛 outerlabel appears十二月尅 or compressed十一二月尅; preserve ambiguity. Prior formula is not used to restore an unread stroke.",
+      "monthNotationPolicy": "正二/三四/五六/七八/九十 are paired ordinals;十一二/一二within11/12context normalized explicitly. Named source month coordinates, not an astronomical instant."
+    },
+    {
+      "id": "water-earth-丁壬",
+      "mountainGroup": "water-earth",
+      "sourceYearStems": "丁壬",
+      "sourceMovementElement41": "火",
+      "sourceYearPillars49": [
+        "丁丑",
+        "丁未",
+        "壬辰",
+        "壬戌"
+      ],
+      "sourceMonthOrdinals49": [
+        5,
+        6
+      ],
+      "monthReadingResolved": true,
+      "monthReadingAlternatives": [],
+      "monthReadingCaveat": null,
+      "monthNotationPolicy": "正二/三四/五六/七八/九十 are paired ordinals;十一二/一二within11/12context normalized explicitly. Named source month coordinates, not an astronomical instant."
+    },
+    {
+      "id": "water-earth-戊癸",
+      "mountainGroup": "water-earth",
+      "sourceYearStems": "戊癸",
+      "sourceMovementElement41": "土",
+      "sourceYearPillars49": [
+        "戊辰",
+        "戊戌",
+        "癸丑",
+        "癸未"
+      ],
+      "sourceMonthOrdinals49": [
+        7,
+        8
+      ],
+      "monthReadingResolved": true,
+      "monthReadingAlternatives": [],
+      "monthReadingCaveat": null,
+      "monthNotationPolicy": "正二/三四/五六/七八/九十 are paired ordinals;十一二/一二within11/12context normalized explicitly. Named source month coordinates, not an astronomical instant."
+    },
+    {
+      "id": "fire-甲己",
+      "mountainGroup": "fire",
+      "sourceYearStems": "甲己",
+      "sourceMovementElement41": "火",
+      "sourceYearPillars49": [
+        "甲寅",
+        "甲申"
+      ],
+      "sourceMonthOrdinals49": [
+        11,
+        12
+      ],
+      "monthReadingResolved": true,
+      "monthReadingAlternatives": [],
+      "monthReadingCaveat": null,
+      "monthNotationPolicy": "正二/三四/五六/七八/九十 are paired ordinals;十一二/一二within11/12context normalized explicitly. Named source month coordinates, not an astronomical instant."
+    },
+    {
+      "id": "fire-乙庚",
+      "mountainGroup": "fire",
+      "sourceYearStems": "乙庚",
+      "sourceMovementElement41": "土",
+      "sourceYearPillars49": [
+        "庚寅",
+        "庚申"
+      ],
+      "sourceMonthOrdinals49": [
+        5,
+        6
+      ],
+      "monthReadingResolved": true,
+      "monthReadingAlternatives": [],
+      "monthReadingCaveat": null,
+      "monthNotationPolicy": "正二/三四/五六/七八/九十 are paired ordinals;十一二/一二within11/12context normalized explicitly. Named source month coordinates, not an astronomical instant."
+    },
+    {
+      "id": "fire-丙辛",
+      "mountainGroup": "fire",
+      "sourceYearStems": "丙辛",
+      "sourceMovementElement41": "木",
+      "sourceYearPillars49": [
+        "辛巳",
+        "辛亥"
+      ],
+      "sourceMonthOrdinals49": [
+        5,
+        6
+      ],
+      "monthReadingResolved": true,
+      "monthReadingAlternatives": [],
+      "monthReadingCaveat": null,
+      "monthNotationPolicy": "正二/三四/五六/七八/九十 are paired ordinals;十一二/一二within11/12context normalized explicitly. Named source month coordinates, not an astronomical instant."
+    },
+    {
+      "id": "fire-丁壬",
+      "mountainGroup": "fire",
+      "sourceYearStems": "丁壬",
+      "sourceMovementElement41": "金",
+      "sourceYearPillars49": [
+        "丁卯",
+        "丁酉"
+      ],
+      "sourceMonthOrdinals49": [
+        3,
+        4
+      ],
+      "monthReadingResolved": true,
+      "monthReadingAlternatives": [],
+      "monthReadingCaveat": null,
+      "monthNotationPolicy": "正二/三四/五六/七八/九十 are paired ordinals;十一二/一二within11/12context normalized explicitly. Named source month coordinates, not an astronomical instant.",
+      "targetedVisualCorrection": "Initial working transcription9/10 rejected by runtime comparison; additional nativecrop confirms三四月尅 alignedleftof丁壬年. Corrected research transcription only;source/publicproduct unchanged."
+    },
+    {
+      "id": "fire-戊癸",
+      "mountainGroup": "fire",
+      "sourceYearStems": "戊癸",
+      "sourceMovementElement41": "水",
+      "sourceYearPillars49": [
+        "戊寅",
+        "戊申"
+      ],
+      "sourceMonthOrdinals49": [
+        3,
+        4
+      ],
+      "monthReadingResolved": true,
+      "monthReadingAlternatives": [],
+      "monthReadingCaveat": null,
+      "monthNotationPolicy": "正二/三四/五六/七八/九十 are paired ordinals;十一二/一二within11/12context normalized explicitly. Named source month coordinates, not an astronomical instant."
+    },
+    {
+      "id": "wood-甲己",
+      "mountainGroup": "wood",
+      "sourceYearStems": "甲己",
+      "sourceMovementElement41": "土",
+      "sourceYearPillars49": [
+        "己巳",
+        "己亥"
+      ],
+      "sourceMonthOrdinals49": [
+        3,
+        4
+      ],
+      "monthReadingResolved": true,
+      "monthReadingAlternatives": [],
+      "monthReadingCaveat": null,
+      "monthNotationPolicy": "正二/三四/五六/七八/九十 are paired ordinals;十一二/一二within11/12context normalized explicitly. Named source month coordinates, not an astronomical instant."
+    },
+    {
+      "id": "wood-乙庚",
+      "mountainGroup": "wood",
+      "sourceYearStems": "乙庚",
+      "sourceMovementElement41": "木",
+      "sourceYearPillars49": [
+        "乙丑",
+        "乙未",
+        "庚辰",
+        "庚戌"
+      ],
+      "sourceMonthOrdinals49": [
+        3,
+        4
+      ],
+      "monthReadingResolved": true,
+      "monthReadingAlternatives": [],
+      "monthReadingCaveat": null,
+      "monthNotationPolicy": "正二/三四/五六/七八/九十 are paired ordinals;十一二/一二within11/12context normalized explicitly. Named source month coordinates, not an astronomical instant."
+    },
+    {
+      "id": "wood-丙辛",
+      "mountainGroup": "wood",
+      "sourceYearStems": "丙辛",
+      "sourceMovementElement41": "金",
+      "sourceYearPillars49": [
+        "丙寅",
+        "丙申"
+      ],
+      "sourceMonthOrdinals49": [
+        7,
+        8
+      ],
+      "monthReadingResolved": true,
+      "monthReadingAlternatives": [],
+      "monthReadingCaveat": null,
+      "monthNotationPolicy": "正二/三四/五六/七八/九十 are paired ordinals;十一二/一二within11/12context normalized explicitly. Named source month coordinates, not an astronomical instant."
+    },
+    {
+      "id": "wood-丁壬",
+      "mountainGroup": "wood",
+      "sourceYearStems": "丁壬",
+      "sourceMovementElement41": "水",
+      "sourceYearPillars49": [
+        "丁巳",
+        "丁亥"
+      ],
+      "sourceMonthOrdinals49": [
+        7,
+        8
+      ],
+      "monthReadingResolved": true,
+      "monthReadingAlternatives": [],
+      "monthReadingCaveat": null,
+      "monthNotationPolicy": "正二/三四/五六/七八/九十 are paired ordinals;十一二/一二within11/12context normalized explicitly. Named source month coordinates, not an astronomical instant.",
+      "targetedVisualCorrection": "Working9/10 rejected by runtimecomparison;nativecropreads七八月尅 leftof丁壬年;correctedresearchtranscriptiononly."
+    },
+    {
+      "id": "wood-戊癸",
+      "mountainGroup": "wood",
+      "sourceYearStems": "戊癸",
+      "sourceMovementElement41": "火",
+      "sourceYearPillars49": [
+        "癸巳",
+        "癸亥"
+      ],
+      "sourceMonthOrdinals49": [
+        1,
+        2,
+        9,
+        10
+      ],
+      "monthReadingResolved": true,
+      "monthReadingAlternatives": [],
+      "monthReadingCaveat": null,
+      "monthNotationPolicy": "正二/三四/五六/七八/九十 are paired ordinals;十一二/一二within11/12context normalized explicitly. Named source month coordinates, not an astronomical instant.",
+      "targetedVisualCorrection": "Targeted nativeleftsectorcrop permits fuller numeralrange 正二九十月尅;corrected initial workingtranscription,not source/publicengine."
+    },
+    {
+      "id": "metal-甲己",
+      "mountainGroup": "metal",
+      "sourceYearStems": "甲己",
+      "sourceMovementElement41": "金",
+      "sourceYearPillars49": [
+        "甲辰",
+        "甲戌",
+        "己丑",
+        "己未"
+      ],
+      "sourceMonthOrdinals49": [
+        1,
+        2,
+        9,
+        10
+      ],
+      "monthReadingResolved": true,
+      "monthReadingAlternatives": [],
+      "monthReadingCaveat": null,
+      "monthNotationPolicy": "正二/三四/五六/七八/九十 are paired ordinals;十一二/一二within11/12context normalized explicitly. Named source month coordinates, not an astronomical instant."
+    },
+    {
+      "id": "metal-乙庚",
+      "mountainGroup": "metal",
+      "sourceYearStems": "乙庚",
+      "sourceMovementElement41": "水",
+      "sourceYearPillars49": [
+        "庚子",
+        "庚午"
+      ],
+      "sourceMonthOrdinals49": [
+        1,
+        2,
+        9,
+        10
+      ],
+      "monthReadingResolved": true,
+      "monthReadingAlternatives": [],
+      "monthReadingCaveat": null,
+      "monthNotationPolicy": "正二/三四/五六/七八/九十 are paired ordinals;十一二/一二within11/12context normalized explicitly. Named source month coordinates, not an astronomical instant."
+    },
+    {
+      "id": "metal-丙辛",
+      "mountainGroup": "metal",
+      "sourceYearStems": "丙辛",
+      "sourceMovementElement41": "火",
+      "sourceYearPillars49": [
+        "丙子",
+        "丙午"
+      ],
+      "sourceMonthOrdinals49": [
+        3,
+        4
+      ],
+      "monthReadingResolved": true,
+      "monthReadingAlternatives": [],
+      "monthReadingCaveat": null,
+      "monthNotationPolicy": "正二/三四/五六/七八/九十 are paired ordinals;十一二/一二within11/12context normalized explicitly. Named source month coordinates, not an astronomical instant."
+    },
+    {
+      "id": "metal-丁壬",
+      "mountainGroup": "metal",
+      "sourceYearStems": "丁壬",
+      "sourceMovementElement41": "土",
+      "sourceYearPillars49": [
+        "壬子",
+        "壬午"
+      ],
+      "sourceMonthOrdinals49": [
+        11,
+        12
+      ],
+      "monthReadingResolved": true,
+      "monthReadingAlternatives": [],
+      "monthReadingCaveat": null,
+      "monthNotationPolicy": "正二/三四/五六/七八/九十 are paired ordinals;十一二/一二within11/12context normalized explicitly. Named source month coordinates, not an astronomical instant."
+    },
+    {
+      "id": "metal-戊癸",
+      "mountainGroup": "metal",
+      "sourceYearStems": "戊癸",
+      "sourceMovementElement41": "木",
+      "sourceYearPillars49": [
+        "癸卯",
+        "癸酉"
+      ],
+      "sourceMonthOrdinals49": [
+        11,
+        12
+      ],
+      "monthReadingResolved": true,
+      "monthReadingAlternatives": [],
+      "monthReadingCaveat": null,
+      "monthNotationPolicy": "正二/三四/五六/七八/九十 are paired ordinals;十一二/一二within11/12context normalized explicitly. Named source month coordinates, not an astronomical instant.",
+      "targetedVisualCorrection": "Targeted nativeleftsectorcrop permits fuller numeralrange 十一二月尅;corrected initial workingtranscription,not source/publicengine."
+    }
+  ],
+  "directMovementCoordinates41": 20,
+  "directYearPillarEntries49": 50,
+  "directResolvedMonthSets49": 19,
+  "unresolvedMonthSets49": 1,
+  "allSourceImageCharactersDiplomaticallyTranscribed": false,
+  "calendarAdapterEstablished": false,
+  "wholeUnitsApplied": false,
+  "outcomesValidated": false,
+  "transcriptionCorrections": [
+    {
+      "row": "fire-丁壬",
+      "oldWorkingReading": [
+        9,
+        10
+      ],
+      "newNativeReading": [
+        3,
+        4
+      ],
+      "evidence": "p049-fire-month-detail.png",
+      "notASourceEmendation": true
+    },
+    {
+      "row": "wood-丁壬",
+      "oldWorkingReading": [
+        9,
+        10
+      ],
+      "newNativeReading": [
+        7,
+        8
+      ],
+      "evidence": "p049-wood-month-detail.png",
+      "notASourceEmendation": true
+    },
+    {
+      "row": "wood-戊癸",
+      "oldWorkingReading": [
+        3,
+        4
+      ],
+      "newNativeReading": [
+        1,
+        2,
+        9,
+        10
+      ],
+      "sourceLiteral": "正二九十月尅",
+      "evidence": "p049-wood-left-detail.png",
+      "notASourceEmendation": true
+    },
+    {
+      "row": "metal-戊癸",
+      "oldWorkingReading": [
+        9,
+        10
+      ],
+      "newNativeReading": [
+        11,
+        12
+      ],
+      "sourceLiteral": "十一二月尅",
+      "evidence": "p049-metal-left-detail.png",
+      "notASourceEmendation": true
+    }
+  ]
+}

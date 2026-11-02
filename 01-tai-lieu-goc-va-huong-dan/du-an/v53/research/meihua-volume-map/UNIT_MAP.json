@@ -1,0 +1,1319 @@
+{
+  "schema": "hhc.meihua.volume-map-units.v1",
+  "source": "../meihua/NLC416-12jh005426-44577.pdf",
+  "previousUnitMap": "../meihua-witness/UNIT_MAP.json",
+  "priorUnitGroups": 34,
+  "newUnitGroups": 59,
+  "scope": "Printed volumes4/5 page navigation and bounded rule/premise disposition. Groups and nested units are not independent works or a complete clause inventory.",
+  "units": [
+    {
+      "id": "four-opening",
+      "heading": "卷四開篇",
+      "evidencePDFPages": [
+        145
+      ],
+      "disposition": "historical-methodological",
+      "boundedUnitEndObserved": false,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "zhimi",
+      "heading": "指迷賦",
+      "evidencePDFPages": [
+        146,
+        147
+      ],
+      "disposition": "glyph-and-birth-element-premises",
+      "boundedUnitEndObserved": false,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "xuanhuang-response",
+      "heading": "玄黃剋應歌",
+      "evidencePDFPages": [
+        147,
+        148
+      ],
+      "disposition": "observer-dependent-omens",
+      "boundedUnitEndObserved": false,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "xuanhuang-preface",
+      "heading": "玄黃敘",
+      "evidencePDFPages": [
+        148,
+        149
+      ],
+      "disposition": "heading-normalization-provisional",
+      "boundedUnitEndObserved": false,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "xuanhuang-song",
+      "heading": "玄黃歌",
+      "evidencePDFPages": [
+        149,
+        150
+      ],
+      "disposition": "historical-form-and-outcome-verses",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "time-passage",
+      "heading": "時辰斷",
+      "evidencePDFPages": [
+        179
+      ],
+      "disposition": "symbolic-time-premises",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "six-spirit-start",
+      "heading": "起六神卦訣",
+      "evidencePDFPages": [
+        179,
+        180
+      ],
+      "disposition": "six-start-rules-and-two-explicit-rows-extracted",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "five-element-verse",
+      "heading": "辨別五行歌",
+      "evidencePDFPages": [
+        180,
+        181
+      ],
+      "disposition": "glyph-form-rules-no-automatic-classifier",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "six-spirit-form-verse",
+      "heading": "辨別六神歌",
+      "evidencePDFPages": [
+        181
+      ],
+      "disposition": "glyph-form-correspondences",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "five-forms",
+      "heading": "五行歌括式",
+      "evidencePDFPages": [
+        181,
+        182,
+        183,
+        184,
+        185,
+        186,
+        187
+      ],
+      "disposition": "five-form-discussion-read-but-not-losslessly-transcribed",
+      "boundedUnitEndObserved": false,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "five-complete",
+      "heading": "五行全備",
+      "evidencePDFPages": [
+        189
+      ],
+      "disposition": "glyph-form-premises",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "six-spirit-forms",
+      "heading": "六神形式",
+      "evidencePDFPages": [
+        189,
+        190
+      ],
+      "disposition": "glyph-forms-distinct-from-day-rotation",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "eight-trigram-forms",
+      "heading": "八卦辨",
+      "evidencePDFPages": [
+        190,
+        191
+      ],
+      "disposition": "glyph-form-correspondences",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "glyph-stars",
+      "heading": "貴神至忌神",
+      "evidencePDFPages": [
+        191,
+        192,
+        193,
+        194
+      ],
+      "disposition": "named-character-components-and-birth-context",
+      "boundedUnitEndObserved": false,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "principal-reference",
+      "heading": "主神",
+      "evidencePDFPages": [
+        195
+      ],
+      "disposition": "explicit-distinct-lifelong-versus-near-term-premises",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "use-reference",
+      "heading": "用神",
+      "evidencePDFPages": [
+        195
+      ],
+      "disposition": "subject-dependent-reference-not-Bazi-useful-god",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "seven-word-song",
+      "heading": "七言作用歌",
+      "evidencePDFPages": [
+        195,
+        196,
+        197
+      ],
+      "disposition": "historical-glyph-prognoses",
+      "boundedUnitEndObserved": false,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "analogy-song",
+      "heading": "比例歌",
+      "evidencePDFPages": [
+        197,
+        198
+      ],
+      "disposition": "four-analogy-examples",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "xijiangyue",
+      "heading": "西江月",
+      "evidencePDFPages": [
+        198
+      ],
+      "disposition": "literary-methodological",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "subtle-principles",
+      "heading": "易理玄微",
+      "evidencePDFPages": [
+        198
+      ],
+      "disposition": "historical-anecdote",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "fan-case",
+      "heading": "斷扇占",
+      "evidencePDFPages": [
+        198,
+        199
+      ],
+      "disposition": "historical-anecdote-not-validated",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "incense-case",
+      "heading": "買香占",
+      "evidencePDFPages": [
+        199
+      ],
+      "disposition": "historical-anecdote-not-validated",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "character-anecdotes",
+      "heading": "古人相字",
+      "evidencePDFPages": [
+        199,
+        200,
+        201,
+        202
+      ],
+      "disposition": "historical-anecdotes-not-validated",
+      "boundedUnitEndObserved": false,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "wealth-social-maxims",
+      "heading": "斷富貴貧賤要訣",
+      "evidencePDFPages": [
+        202,
+        203
+      ],
+      "disposition": "historical-social-medical-stereotypes-research-only",
+      "boundedUnitEndObserved": false,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "season-table",
+      "heading": "五行四時旺相休囚例",
+      "evidencePDFPages": [
+        203,
+        204
+      ],
+      "disposition": "20literal-cells-four-rows-no-unprinted-dead-row",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "branch-birth",
+      "heading": "五行相生地支",
+      "evidencePDFPages": [
+        204
+      ],
+      "disposition": "separate-symbolic-method-not-strength-engine",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "stem-branch-elements",
+      "heading": "天干地支屬五行",
+      "evidencePDFPages": [
+        204
+      ],
+      "disposition": "named-correspondences",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "trigram-character",
+      "heading": "論八卦性情",
+      "evidencePDFPages": [
+        204
+      ],
+      "disposition": "symbolic-correspondences",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "trigram-symbols",
+      "heading": "八卦取象",
+      "evidencePDFPages": [
+        204,
+        205
+      ],
+      "disposition": "symbolic-correspondences",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "nayin",
+      "heading": "六十甲子歌",
+      "evidencePDFPages": [
+        205
+      ],
+      "disposition": "30sourcepairs-cross-check-real-engine",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "hex-order",
+      "heading": "六十四卦次第歌",
+      "evidencePDFPages": [
+        205,
+        206
+      ],
+      "disposition": "mnemonic-order-not-new-casting-algorithm",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "trigram-analogy",
+      "heading": "繫辭八卦類象歌",
+      "evidencePDFPages": [
+        206
+      ],
+      "disposition": "symbolic-correspondences",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "najia",
+      "heading": "渾天甲子定局",
+      "evidencePDFPages": [
+        206,
+        207
+      ],
+      "disposition": "48literal-assignments-research-only-complete-table",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "hour-directions",
+      "heading": "後天時方",
+      "evidencePDFPages": [
+        207,
+        208,
+        209,
+        210,
+        211,
+        212
+      ],
+      "disposition": "60-row-key-navigation-cell-transcription-open",
+      "boundedUnitEndObserved": true,
+      "wholeUnitApplied": false,
+      "provenance": "../meihua-witness/UNIT_MAP.json",
+      "fullClauseExtractionCompleted": false
+    },
+    {
+      "id": "huaya",
+      "heading": "花押賦",
+      "evidencePDFPages": [
+        150,
+        151
+      ],
+      "disposition": "signature-form-premises",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "tanxuan",
+      "heading": "探玄賦",
+      "evidencePDFPages": [
+        151,
+        152,
+        153
+      ],
+      "disposition": "historical-form-and-outcome-verses",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "qijing",
+      "heading": "齊景至理論",
+      "evidencePDFPages": [
+        153,
+        154,
+        155
+      ],
+      "disposition": "methodological-and-narrative",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "glyph-experience",
+      "heading": "字畫經驗",
+      "evidencePDFPages": [
+        155,
+        156,
+        157
+      ],
+      "disposition": "23-labelled-historical-anecdotes",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "glyph-verses",
+      "heading": "字體詩訣",
+      "evidencePDFPages": [
+        157,
+        158,
+        159,
+        160
+      ],
+      "disposition": "character-specific-historical-outcome-verses",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "seasonal-water-brush",
+      "heading": "四季水筆",
+      "evidencePDFPages": [
+        160
+      ],
+      "disposition": "four-literal-brush-metaphors-research-only",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "stroke-yinyang",
+      "heading": "畫有陰陽",
+      "evidencePDFPages": [
+        160,
+        161
+      ],
+      "disposition": "relative-shape-not-stroke-parity",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "trigram-judgments",
+      "heading": "八卦斷",
+      "evidencePDFPages": [
+        161
+      ],
+      "disposition": "symbolic-clauses-including-extra-gouchen",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "new-heart-method",
+      "heading": "新訂指明心法",
+      "evidencePDFPages": [
+        162,
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        169,
+        170,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178
+      ],
+      "disposition": "umbrella-not-separate-algorithm",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json",
+      "unitKind": "umbrella"
+    },
+    {
+      "id": "glyph-heart-yi",
+      "heading": "相字心易",
+      "evidencePDFPages": [
+        162
+      ],
+      "disposition": "question-and-character-order-premises",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "glyph-style",
+      "heading": "辨字式",
+      "evidencePDFPages": [
+        162
+      ],
+      "disposition": "historical-social-stereotypes",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "brush-quanti",
+      "heading": "筆法筌蹄",
+      "evidencePDFPages": [
+        162,
+        163
+      ],
+      "disposition": "qualitative-handwriting-premises",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "brush-poem",
+      "heading": "歌曰",
+      "evidencePDFPages": [
+        163
+      ],
+      "disposition": "subunit-of-brush-quanti",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json",
+      "unitKind": "poem-subunit"
+    },
+    {
+      "id": "servants",
+      "heading": "奴婢",
+      "evidencePDFPages": [
+        164
+      ],
+      "disposition": "historical-status-claims",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "yin-person",
+      "heading": "陰人",
+      "evidencePDFPages": [
+        164
+      ],
+      "disposition": "historical-gender-claims",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "indirect-hand",
+      "heading": "隔手",
+      "evidencePDFPages": [
+        164
+      ],
+      "disposition": "writer-versus-questioner-premise",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "form-momentum",
+      "heading": "視勢／觀勢",
+      "evidencePDFPages": [
+        164
+      ],
+      "disposition": "heading-reading-uncertain",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json",
+      "headingUncertain": true,
+      "doNotSilentlyNormalize": true
+    },
+    {
+      "id": "person-analogy",
+      "heading": "象人",
+      "evidencePDFPages": [
+        164,
+        165
+      ],
+      "disposition": "glyph-component-and-person-analogy",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "observed-favour",
+      "heading": "有所喜",
+      "evidencePDFPages": [
+        165
+      ],
+      "disposition": "observed-form-and-subject-premises",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "observed-taboo",
+      "heading": "有所忌",
+      "evidencePDFPages": [
+        165
+      ],
+      "disposition": "observed-form-and-subject-premises",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "observed-hearing",
+      "heading": "有所聞",
+      "evidencePDFPages": [
+        165
+      ],
+      "disposition": "manual-external-sound-premise",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "observed-sight",
+      "heading": "有所見",
+      "evidencePDFPages": [
+        165
+      ],
+      "disposition": "manual-external-sight-premise",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "according-to-time",
+      "heading": "以時而言",
+      "evidencePDFPages": [
+        165
+      ],
+      "disposition": "season-premise-not-complete-strength-method",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "according-to-trigram",
+      "heading": "以卦而斷",
+      "evidencePDFPages": [
+        165,
+        166
+      ],
+      "disposition": "season-and-trigram-premises",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "according-to-animals",
+      "heading": "以禽獸而斷",
+      "evidencePDFPages": [
+        166
+      ],
+      "disposition": "animal-analogy-not-animal-recognition",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "by-class",
+      "heading": "取類而言",
+      "evidencePDFPages": [
+        166
+      ],
+      "disposition": "whole-glyph-context-not-compulsory-splitting",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "by-sequence",
+      "heading": "以次而言",
+      "evidencePDFPages": [
+        166
+      ],
+      "disposition": "writing-order-premise",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "adding-components",
+      "heading": "當添亦添",
+      "evidencePDFPages": [
+        166
+      ],
+      "disposition": "contextual-component-addition",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "removing-components",
+      "heading": "當減亦減",
+      "evidencePDFPages": [
+        166,
+        167
+      ],
+      "disposition": "contextual-component-subtraction",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "stroke-length",
+      "heading": "筆畫長短",
+      "evidencePDFPages": [
+        167
+      ],
+      "disposition": "relative-length-not-Unicode-or-numeric-parity",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "component-invasion",
+      "heading": "偏旁侵客",
+      "evidencePDFPages": [
+        167
+      ],
+      "disposition": "geometric-stroke-premises",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "glyph-guide",
+      "heading": "字畫指迷",
+      "evidencePDFPages": [
+        167,
+        168
+      ],
+      "disposition": "multiple-alternative-readings-and-timings",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "glyph-marriage",
+      "heading": "問婚姻",
+      "evidencePDFPages": [
+        168,
+        169
+      ],
+      "disposition": "historical-domain-claims",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "glyph-litigation",
+      "heading": "官事",
+      "evidencePDFPages": [
+        169
+      ],
+      "disposition": "historical-domain-claims",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "glyph-illness",
+      "heading": "疾病",
+      "evidencePDFPages": [
+        169,
+        170
+      ],
+      "disposition": "historical-medical-claims-not-diagnosis",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "glyph-pregnancy",
+      "heading": "六甲",
+      "evidencePDFPages": [
+        170
+      ],
+      "disposition": "historical-pregnancy-sex-and-death-claims",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "glyph-seeking",
+      "heading": "求謀",
+      "evidencePDFPages": [
+        170
+      ],
+      "disposition": "subject-form-and-birth-element-premises",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "traveller-letter",
+      "heading": "行人遠信",
+      "evidencePDFPages": [
+        170
+      ],
+      "disposition": "historical-travel-letter-claims",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "official-status",
+      "heading": "官貴",
+      "evidencePDFPages": [
+        170
+      ],
+      "disposition": "historical-social-role-claims",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "lost-object",
+      "heading": "失物",
+      "evidencePDFPages": [
+        171
+      ],
+      "disposition": "historical-location-claims",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "glyph-lifespan",
+      "heading": "問壽",
+      "evidencePDFPages": [
+        171
+      ],
+      "disposition": "historical-lifespan-claims-not-forecast",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "glyph-career",
+      "heading": "功名",
+      "evidencePDFPages": [
+        171
+      ],
+      "disposition": "historical-social-role-claims",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "traveller",
+      "heading": "行人",
+      "evidencePDFPages": [
+        171
+      ],
+      "disposition": "distinct-heading-from-traveller-letter",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "contrary-forms",
+      "heading": "反體",
+      "evidencePDFPages": [
+        172
+      ],
+      "disposition": "counterexample-to-positive-word-classifier",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "brush-six-spirits",
+      "heading": "六神筆法",
+      "evidencePDFPages": [
+        172
+      ],
+      "disposition": "glyph-form-system-not-day-stem-cycle",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "six-spirit-affairs",
+      "heading": "六神主事",
+      "evidencePDFPages": [
+        172,
+        173
+      ],
+      "disposition": "conditional-static-versus-moved-premise",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "six-shape-subheadings",
+      "heading": "青龍形式至玄武形式",
+      "evidencePDFPages": [
+        173,
+        174
+      ],
+      "disposition": "six-grouped-glyph-form-subheadings",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "stroke-sha",
+      "heading": "筆畫犯煞",
+      "evidencePDFPages": [
+        174
+      ],
+      "disposition": "glyph-figure-premises",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "xuanhuang-brush-song",
+      "heading": "玄黃筆法歌",
+      "evidencePDFPages": [
+        175,
+        176,
+        177,
+        178
+      ],
+      "disposition": "glyph-fragment-and-form-verses",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "five-body-forms",
+      "heading": "五行體格式",
+      "evidencePDFPages": [
+        178,
+        179
+      ],
+      "disposition": "five-grouped-stroke-form-subheadings",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "eight-reversals",
+      "heading": "八反格",
+      "evidencePDFPages": [
+        212
+      ],
+      "disposition": "short-contrary-outcome-verse",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "four-word-dubu",
+      "heading": "四言獨步",
+      "evidencePDFPages": [
+        212,
+        213,
+        214
+      ],
+      "disposition": "last-stroke-use-premises-and-historical-lifespan-claims",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "five-word-use",
+      "heading": "五言作用歌",
+      "evidencePDFPages": [
+        215
+      ],
+      "disposition": "different-handwriting-and-conditional-use",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "other-principles",
+      "heading": "別理論",
+      "evidencePDFPages": [
+        215,
+        216,
+        217,
+        218
+      ],
+      "disposition": "same-word-different-context-methodology",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "six-word-analysis",
+      "heading": "六言剖斷歌",
+      "evidencePDFPages": [
+        218,
+        219
+      ],
+      "disposition": "form-strength-and-historical-lifespan-claims",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "investigating-objects",
+      "heading": "格物章",
+      "evidencePDFPages": [
+        219,
+        220,
+        221
+      ],
+      "disposition": "material-form-analogies-not-measurement-casting",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "object-principles",
+      "heading": "物理論",
+      "evidencePDFPages": [
+        221,
+        222,
+        223
+      ],
+      "disposition": "classical-cosmological-and-contextual-analogies",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "elements-spirits-distinction",
+      "heading": "五行六神辨別論",
+      "evidencePDFPages": [
+        224,
+        225
+      ],
+      "disposition": "conditional-element-spirit-and-question-premises",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    },
+    {
+      "id": "gold-sound",
+      "heading": "金聲章",
+      "evidencePDFPages": [
+        225,
+        226,
+        227
+      ],
+      "disposition": "cosmological-writing-and-object-metaphors",
+      "boundedUnitEndObserved": true,
+      "fullClauseExtractionCompleted": false,
+      "wholeUnitApplied": false,
+      "provenance": "MANUAL_READINGS.json"
+    }
+  ],
+  "mappedPDFPages": [
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191,
+    192,
+    193,
+    194,
+    195,
+    196,
+    197,
+    198,
+    199,
+    200,
+    201,
+    202,
+    203,
+    204,
+    205,
+    206,
+    207,
+    208,
+    209,
+    210,
+    211,
+    212,
+    213,
+    214,
+    215,
+    216,
+    217,
+    218,
+    219,
+    220,
+    221,
+    222,
+    223,
+    224,
+    225,
+    226,
+    227,
+    228
+  ],
+  "contentPages": 82,
+  "endleafPages": [
+    188,
+    228
+  ],
+  "volumeFourFivePageNavigationComplete": true,
+  "wholePrintedClauseInventoryCompleted": false,
+  "wholePrintedInventoryCompleted": false,
+  "wholeBookApplied": false,
+  "stillUnmappedBodyPDFPages": [],
+  "remaining": [
+    "Volumes1–3 need the same physical-page/unit/clause coverage, not only the three digital transcriptions.",
+    "Groupedstar191–194,shape subheadings and ambiguous headings still need line-level indexing and comparison.",
+    "Table207–212 needs literal cells/variants, input semantics and an identified comparison witness.",
+    "Every potentially reproducible rule needs complete conditions and explicit observer/handwriting premises; historical outcome claims are not validated predictions."
+  ]
+}

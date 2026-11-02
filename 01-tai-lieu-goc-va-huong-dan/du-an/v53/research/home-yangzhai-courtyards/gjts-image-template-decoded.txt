@@ -1,0 +1,8 @@
+<h3 id="{{{2}}}" style="text-align: center">{{{2}}}</h3>
+{{#ifexist: Media:{{{1}}}.svg | [[file:{{{1}}}.svg|800px|frameless|center|alt={{{2}}}]] | {{#ifexist: Media:{{{1}}}.png | [[file:{{{1}}}.png|800px|frameless|center|alt={{{2}}}]] | {{ambox
+ | type  = cleanup
+ | image = [[File:Nuvola camera.svg|40px]]
+ | style = 
+ | text  = 此處缺少一幅插圖。請考慮協助將書中此處的圖片上傳到[[commons:|維基共享資源]]，以{{{1}}}.png或.svg命名。
+}}
+}}}}

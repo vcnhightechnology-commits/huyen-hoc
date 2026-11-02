@@ -1,0 +1,112 @@
+{
+  "date": "2026-10-28",
+  "sourceContainer": "v53/research/full-study/home/CADAL06056503.djvu",
+  "sourceSHA256": "bfd3b76c55d62324919ab161c8c2ba2ecb129b3b2c59a3ab0428807e8f8278db",
+  "nativeDiagramPages": [
+    {
+      "page": 41,
+      "source": "v53/research/home-you-nian/images/p041.png",
+      "sourceSHA256": "f22a30ff2c4723e96e5702b8fdf13b72641222ed4c3dc7ee7c12e35421814bb3",
+      "box": [
+        650,
+        1120,
+        1780,
+        2280
+      ],
+      "crop": "p041-native.png",
+      "cropSHA256": "9d1d47dea257f749fad1b3f0e73469964d376bc3f13942cad015f92623f6cd3b",
+      "rotations": [
+        {
+          "angleCCW": 90,
+          "file": "p041-r90.png",
+          "sha256": "e24f35a0e32e0f4450d237da9768ec01c6f6aef95d73c45b51a38d49728d98b1",
+          "pixelPermutationOnly": true
+        },
+        {
+          "angleCCW": 180,
+          "file": "p041-r180.png",
+          "sha256": "69d2e60fd6bb14b5cdebee7e518a32dff970875c3a118c8a57918b3562804a6a",
+          "pixelPermutationOnly": true
+        },
+        {
+          "angleCCW": 270,
+          "file": "p041-r270.png",
+          "sha256": "1685543c31f65abab6389e7d1bf336fa384a06c25a1b8138acd95c2289c140c9",
+          "pixelPermutationOnly": true
+        }
+      ]
+    },
+    {
+      "page": 49,
+      "source": "v53/research/home-you-nian/images/p049.png",
+      "sourceSHA256": "c74815e9f79cae9219e24d442f4b2034d7ed5c4c5ed063ec2f90ba83b92e018b",
+      "box": [
+        1180,
+        650,
+        3020,
+        2480
+      ],
+      "crop": "p049-native.png",
+      "cropSHA256": "ed4f329c44d2b3850d84f8c08d50541ad8456090e1f925cd25a6a20be620a3c2",
+      "rotations": [
+        {
+          "angleCCW": 90,
+          "file": "p049-r90.png",
+          "sha256": "d47764065b72b7027d380eeb1173fe4e3dd0a97cc73efaf1e54e0edb325421f4",
+          "pixelPermutationOnly": true
+        },
+        {
+          "angleCCW": 180,
+          "file": "p049-r180.png",
+          "sha256": "be732442cf31a7878b1a2eaafa749ed66dada60afb5d33b1fd5bfbb80f09f93d",
+          "pixelPermutationOnly": true
+        },
+        {
+          "angleCCW": 270,
+          "file": "p049-r270.png",
+          "sha256": "9e65e3febf4daa9ca73bd1d07b9e808fb85b1c6d79a6302f21f02a0a60de4fa2",
+          "pixelPermutationOnly": true
+        }
+      ]
+    }
+  ],
+  "additionalProsePages": [
+    {
+      "page": 50,
+      "file": "v53/research/home-you-nian/images/p050.png",
+      "sha256": "f1534f962a053ec9a1865f79efed3cbfa6a32690a5fb3ed9f531ab5fdaa8e731",
+      "expandedTargetedRead": true
+    },
+    {
+      "page": 51,
+      "file": "v53/research/home-you-nian/images/p051.png",
+      "sha256": "2e9650e0b29b924be11b81b721354ea5d388c6230d9220ec6678be79bb77d469",
+      "expandedTargetedRead": true
+    },
+    {
+      "page": 52,
+      "file": "v53/research/home-you-nian/images/p052.png",
+      "sha256": "94b0c9f33996981d824fe48c37e094bd9837b774ca756ddabb993f7669b12321",
+      "expandedTargetedRead": true
+    }
+  ],
+  "expandedPreviouslyReadPages": 5,
+  "newHTTPRequests": 0,
+  "newOriginalContainers": 0,
+  "newSourcePages": 0,
+  "QADerivatives": {
+    "nativeCrops": 2,
+    "losslessRotations": 6,
+    "nativeSectorCrops": 8,
+    "nativeDetailCrops": 6
+  },
+  "directVisualQADerivativesViewed": 22,
+  "derivativeCountDoesNotMeanSourcePageCount": true,
+  "ordinaryPublicHomeGeometryChanged": false,
+  "targetedTranscriptionCorrections": 4,
+  "correctionEvidenceMetadata": [
+    "DETAIL_FIRE_CROP.json",
+    "DETAIL_WOOD_CROP.json",
+    "DETAIL_LEFT_CROPS.json"
+  ]
+}

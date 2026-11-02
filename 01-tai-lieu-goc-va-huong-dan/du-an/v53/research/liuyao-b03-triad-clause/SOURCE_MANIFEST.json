@@ -1,0 +1,79 @@
+{
+  "date": "2026-10-28",
+  "sourcePDF": {
+    "file": "v53/research/liuyao-b03-volume3/NLC892-GBZX0301013045-259365.pdf",
+    "bytes": 41224832,
+    "sha256": "c1e1027331d43769733c6011b4fe99e90928e9fde013fce563c8e9bad81c04bf",
+    "physicalPages": 49
+  },
+  "retainedAcquisition": "v53/research/liuyao-b03-volume3/ACQUISITION.json",
+  "retainedAcquisitionSHA256": "8e538c17412d7cca9d2856ae8115f2040e221c1df8726bc4e37d57c0278d32f6",
+  "retainedHTTPRecords": "v53/research/liuyao-b03-volume3/REQUESTS.json",
+  "retainedHTTPRecordsSHA256": "b4ac0adeb8814cc37c30f4d02f8f0289a68886d3bb82387653eb073c89bced36",
+  "sourceImages": [
+    {
+      "file": "v53/research/liuyao-b03-volume4/images/bushi-book2-38.png",
+      "bytes": 2509080,
+      "sha256": "558d9f3a9b56131e5dddbdd9de4ac5bb0b15ca21d8b0ee05b58ff7dba55f8021",
+      "actuallyViewed": true,
+      "expandedEarlierRead": true,
+      "newSourcePosition": false
+    },
+    {
+      "file": "v53/research/liuyao-b03-volume4/images/bushi-book2-39.png",
+      "bytes": 2463102,
+      "sha256": "2389dbf998a302b4f7db4b0640627b58b7820173c6b383081104173151a4fe45",
+      "actuallyViewed": true,
+      "expandedEarlierRead": true,
+      "newSourcePosition": false
+    }
+  ],
+  "sourceGroupsBasis": "Six member sets inherited from retained normalized TRIAD_TABLES and bounded image rereading; engraving已/巳 forms in branch slots normalized as declared, not globally emended.",
+  "runtimeAndPriorReferenceIdentities": [
+    {
+      "file": "v53/engine.js",
+      "bytes": 42033,
+      "sha256": "39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6"
+    },
+    {
+      "file": "v53/research/liuyao-foundations/liuyao-reference.mjs",
+      "bytes": 3965,
+      "sha256": "a77da7ec4f59dce1ccd8dd6ad4a66f94320987465f60725af0595e25d5908eb7"
+    },
+    {
+      "file": "v53/research/liuyao-foundations/RULES.json",
+      "bytes": 11748,
+      "sha256": "d5e764cbe44a6077a68d128bfa197f3aa4f6a178692e346d56a112d5a3b99064"
+    },
+    {
+      "file": "v53/research/liuyao-b03-volume4/TRIAD_TABLES.json",
+      "bytes": 1584,
+      "sha256": "a86cf36ab6992e1bfcf1145ea5023d2aac4d7a4495858ab871692c770f847fd6"
+    },
+    {
+      "file": "v53/research/liuyao-b03-volume4/triad-reference.mjs",
+      "bytes": 2231,
+      "sha256": "0c93292b42bb55d16de754d7d3e9cb2022d5707e2de1c3490836e048597bc51f"
+    },
+    {
+      "file": "v53/research/liuyao-combination-context/triad-context-reference.mjs",
+      "bytes": 4265,
+      "sha256": "7e79d0baddc089efdea5de7fe4cd2f141cd027bce687e917182b394e29907fb6"
+    }
+  ],
+  "renderer": {
+    "file": "C:/Users/Administrator.DESKTOP-98TGIBL/.cache/codex-runtimes/codex-primary-runtime/dependencies/native/poppler/Library/bin/pdftoppm.exe",
+    "bytes": 65840,
+    "sha256": "f473853a5a1a08ad1b10708cb65ba98aa04276b42dbdd7cfd01625ba1e72784d",
+    "method": "Poppler360DPIpage39PNGandnativepixelcrops;notoriginalembeddedimagebytes"
+  },
+  "newHTTPBodies": 0,
+  "newOriginalContainers": 0,
+  "newIndependentWitnesses": 0,
+  "newSourcePositions": 0,
+  "expandedPriorPositions": 2,
+  "nativeCropsViewedPixelMatched": 4,
+  "searchResultLeadsNotAcceptedAsIndependentSource": true,
+  "consumerChanged": false,
+  "wholeWorkApplied": false
+}

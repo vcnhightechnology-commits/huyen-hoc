@@ -1,0 +1,977 @@
+{
+  "date": "2026-10-27",
+  "syntheticResults": [
+    {
+      "syntheticNotPrintedCast": true,
+      "result": {
+        "schema": "hhc.liuyao.B03.source-timing-coordinate.v1",
+        "sourceID": "B03-book3",
+        "sourcePDFPage": 8,
+        "sourceContext": "weather-timing-paragraph",
+        "method": {
+          "id": "enters-context-tomb",
+          "pdfPage": 8,
+          "boundedNormalizedReading": "用神入墓于日辰者候沖開墓庫之日應事",
+          "motion": null,
+          "requiresBoolean": "tombPremiseConfirmed",
+          "target": "clash-tomb"
+        },
+        "explicitContext": {
+          "sourceContext": "weather-timing-paragraph",
+          "useLine": 4,
+          "startDayGanZhi": "甲戌",
+          "method": "enters-context-tomb",
+          "tombBranch": "戌",
+          "tombPremiseConfirmed": true
+        },
+        "chart": {
+          "schema": "hhc.liuyao.structural-chart.v1",
+          "orientation": "bottom-to-top",
+          "input": [
+            7,
+            7,
+            7,
+            9,
+            9,
+            7
+          ],
+          "primary": {
+            "number": 1,
+            "normalizedName": "乾為天",
+            "palace": "乾",
+            "palaceTrigram": 1,
+            "palaceElement": "金",
+            "stage": "本宮",
+            "stageIndex": 0,
+            "shi": 6,
+            "ying": 3,
+            "bits": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "changed": {
+            "number": 26,
+            "normalizedName": "山天大畜",
+            "bits": [
+              1,
+              1,
+              1,
+              0,
+              0,
+              1
+            ],
+            "ownPalaceDiagnostic": "艮",
+            "ownPalaceElementDiagnostic": "土",
+            "annotationKinBasisPalace": "乾",
+            "shiYingReassigned": false
+          },
+          "dayStem": null,
+          "lines": [
+            {
+              "line": 1,
+              "stem": "甲",
+              "branch": "子",
+              "element": "水",
+              "kin": "子孫",
+              "kinBasisPalace": "乾",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 2,
+              "stem": "甲",
+              "branch": "寅",
+              "element": "木",
+              "kin": "妻財",
+              "kinBasisPalace": "乾",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 3,
+              "stem": "甲",
+              "branch": "辰",
+              "element": "土",
+              "kin": "父母",
+              "kinBasisPalace": "乾",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "應",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 4,
+              "stem": "壬",
+              "branch": "午",
+              "element": "火",
+              "kin": "官鬼",
+              "kinBasisPalace": "乾",
+              "value": 9,
+              "polarity": 1,
+              "moving": true,
+              "role": null,
+              "spirit": null,
+              "changed": {
+                "line": 4,
+                "stem": "丙",
+                "branch": "戌",
+                "element": "土",
+                "kin": "父母",
+                "kinBasisPalace": "乾",
+                "polarity": 0
+              }
+            },
+            {
+              "line": 5,
+              "stem": "壬",
+              "branch": "申",
+              "element": "金",
+              "kin": "兄弟",
+              "kinBasisPalace": "乾",
+              "value": 9,
+              "polarity": 1,
+              "moving": true,
+              "role": null,
+              "spirit": null,
+              "changed": {
+                "line": 5,
+                "stem": "丙",
+                "branch": "子",
+                "element": "水",
+                "kin": "子孫",
+                "kinBasisPalace": "乾",
+                "polarity": 0
+              }
+            },
+            {
+              "line": 6,
+              "stem": "壬",
+              "branch": "戌",
+              "element": "土",
+              "kin": "父母",
+              "kinBasisPalace": "乾",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "世",
+              "spirit": null,
+              "changed": null
+            }
+          ],
+          "movingLines": [
+            4,
+            5
+          ],
+          "scope": "structural-source-reference-only",
+          "consumerApplied": false,
+          "predictedEvent": null,
+          "missingPremises": [
+            "用神selection",
+            "飛伏rules",
+            "calendar month/day boundaries",
+            "旺衰/旬空conditionalrules",
+            "full source exceptions",
+            "outcome validation"
+          ]
+        },
+        "useLine": 4,
+        "subjectBranch": "午",
+        "actualOwnChangedBranch": "戌",
+        "requirements": [
+          {
+            "id": "tombPremiseConfirmed",
+            "known": true,
+            "satisfied": true,
+            "callerAssertion": true
+          },
+          {
+            "id": "explicit-tomb-branch",
+            "known": true,
+            "satisfied": true
+          }
+        ],
+        "premiseStatus": "explicit-premises-present",
+        "unresolved": [],
+        "targetBranch": "辰",
+        "cycleCandidates": [
+          {
+            "offsetDays": 6,
+            "sexagenaryIndex0": 16,
+            "ganZhi": "庚辰"
+          },
+          {
+            "offsetDays": 18,
+            "sexagenaryIndex0": 28,
+            "ganZhi": "壬辰"
+          },
+          {
+            "offsetDays": 30,
+            "sexagenaryIndex0": 40,
+            "ganZhi": "甲辰"
+          },
+          {
+            "offsetDays": 42,
+            "sexagenaryIndex0": 52,
+            "ganZhi": "丙辰"
+          },
+          {
+            "offsetDays": 54,
+            "sexagenaryIndex0": 4,
+            "ganZhi": "戊辰"
+          }
+        ],
+        "cycleOffset0IncludesSuppliedDay": true,
+        "cycleCandidatesAreCoordinatesNotPredictedDates": true,
+        "gregorianDates": null,
+        "callerPremisesIndependentlyVerified": false,
+        "fullTimingAdjudication": null,
+        "meteorologicalForecast": null,
+        "allOtherSourceCausesChecked": false,
+        "predictedEvent": null,
+        "consumerApplied": false
+      }
+    },
+    {
+      "syntheticNotPrintedCast": true,
+      "result": {
+        "schema": "hhc.liuyao.B03.source-timing-coordinate.v1",
+        "sourceID": "B03-book3",
+        "sourcePDFPage": 8,
+        "sourceContext": "weather-timing-paragraph",
+        "method": {
+          "id": "self-change-tomb",
+          "pdfPage": 8,
+          "boundedNormalizedReading": "用神自化入墓者候沖用神之日應事",
+          "motion": "moving",
+          "requiresBoolean": "tombPremiseConfirmed",
+          "target": "clash-subject",
+          "requiresOwnChangedBranchEqualsExplicitTomb": true
+        },
+        "explicitContext": {
+          "sourceContext": "weather-timing-paragraph",
+          "useLine": 4,
+          "startDayGanZhi": "甲戌",
+          "method": "self-change-tomb",
+          "tombBranch": "戌",
+          "tombPremiseConfirmed": true
+        },
+        "chart": {
+          "schema": "hhc.liuyao.structural-chart.v1",
+          "orientation": "bottom-to-top",
+          "input": [
+            7,
+            7,
+            7,
+            9,
+            9,
+            7
+          ],
+          "primary": {
+            "number": 1,
+            "normalizedName": "乾為天",
+            "palace": "乾",
+            "palaceTrigram": 1,
+            "palaceElement": "金",
+            "stage": "本宮",
+            "stageIndex": 0,
+            "shi": 6,
+            "ying": 3,
+            "bits": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "changed": {
+            "number": 26,
+            "normalizedName": "山天大畜",
+            "bits": [
+              1,
+              1,
+              1,
+              0,
+              0,
+              1
+            ],
+            "ownPalaceDiagnostic": "艮",
+            "ownPalaceElementDiagnostic": "土",
+            "annotationKinBasisPalace": "乾",
+            "shiYingReassigned": false
+          },
+          "dayStem": null,
+          "lines": [
+            {
+              "line": 1,
+              "stem": "甲",
+              "branch": "子",
+              "element": "水",
+              "kin": "子孫",
+              "kinBasisPalace": "乾",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 2,
+              "stem": "甲",
+              "branch": "寅",
+              "element": "木",
+              "kin": "妻財",
+              "kinBasisPalace": "乾",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 3,
+              "stem": "甲",
+              "branch": "辰",
+              "element": "土",
+              "kin": "父母",
+              "kinBasisPalace": "乾",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "應",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 4,
+              "stem": "壬",
+              "branch": "午",
+              "element": "火",
+              "kin": "官鬼",
+              "kinBasisPalace": "乾",
+              "value": 9,
+              "polarity": 1,
+              "moving": true,
+              "role": null,
+              "spirit": null,
+              "changed": {
+                "line": 4,
+                "stem": "丙",
+                "branch": "戌",
+                "element": "土",
+                "kin": "父母",
+                "kinBasisPalace": "乾",
+                "polarity": 0
+              }
+            },
+            {
+              "line": 5,
+              "stem": "壬",
+              "branch": "申",
+              "element": "金",
+              "kin": "兄弟",
+              "kinBasisPalace": "乾",
+              "value": 9,
+              "polarity": 1,
+              "moving": true,
+              "role": null,
+              "spirit": null,
+              "changed": {
+                "line": 5,
+                "stem": "丙",
+                "branch": "子",
+                "element": "水",
+                "kin": "子孫",
+                "kinBasisPalace": "乾",
+                "polarity": 0
+              }
+            },
+            {
+              "line": 6,
+              "stem": "壬",
+              "branch": "戌",
+              "element": "土",
+              "kin": "父母",
+              "kinBasisPalace": "乾",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "世",
+              "spirit": null,
+              "changed": null
+            }
+          ],
+          "movingLines": [
+            4,
+            5
+          ],
+          "scope": "structural-source-reference-only",
+          "consumerApplied": false,
+          "predictedEvent": null,
+          "missingPremises": [
+            "用神selection",
+            "飛伏rules",
+            "calendar month/day boundaries",
+            "旺衰/旬空conditionalrules",
+            "full source exceptions",
+            "outcome validation"
+          ]
+        },
+        "useLine": 4,
+        "subjectBranch": "午",
+        "actualOwnChangedBranch": "戌",
+        "requirements": [
+          {
+            "id": "actual-line-motion",
+            "known": true,
+            "satisfied": true
+          },
+          {
+            "id": "tombPremiseConfirmed",
+            "known": true,
+            "satisfied": true,
+            "callerAssertion": true
+          },
+          {
+            "id": "explicit-tomb-branch",
+            "known": true,
+            "satisfied": true
+          },
+          {
+            "id": "actual-own-change-is-explicit-tomb",
+            "known": true,
+            "satisfied": true
+          }
+        ],
+        "premiseStatus": "explicit-premises-present",
+        "unresolved": [],
+        "targetBranch": "子",
+        "cycleCandidates": [
+          {
+            "offsetDays": 2,
+            "sexagenaryIndex0": 12,
+            "ganZhi": "丙子"
+          },
+          {
+            "offsetDays": 14,
+            "sexagenaryIndex0": 24,
+            "ganZhi": "戊子"
+          },
+          {
+            "offsetDays": 26,
+            "sexagenaryIndex0": 36,
+            "ganZhi": "庚子"
+          },
+          {
+            "offsetDays": 38,
+            "sexagenaryIndex0": 48,
+            "ganZhi": "壬子"
+          },
+          {
+            "offsetDays": 50,
+            "sexagenaryIndex0": 0,
+            "ganZhi": "甲子"
+          }
+        ],
+        "cycleOffset0IncludesSuppliedDay": true,
+        "cycleCandidatesAreCoordinatesNotPredictedDates": true,
+        "gregorianDates": null,
+        "callerPremisesIndependentlyVerified": false,
+        "fullTimingAdjudication": null,
+        "meteorologicalForecast": null,
+        "allOtherSourceCausesChecked": false,
+        "predictedEvent": null,
+        "consumerApplied": false
+      }
+    },
+    {
+      "syntheticNotPrintedCast": true,
+      "result": {
+        "schema": "hhc.liuyao.B03.source-timing-coordinate.v1",
+        "sourceID": "B03-book3",
+        "sourcePDFPage": 8,
+        "sourceContext": "weather-timing-paragraph",
+        "method": {
+          "id": "moving-no-other-cause",
+          "pdfPage": 8,
+          "boundedNormalizedReading": "用神動而無他故者候逢合之日應事",
+          "motion": "moving",
+          "requiresBoolean": "noOtherCauseConfirmed",
+          "target": "combine-subject"
+        },
+        "explicitContext": {
+          "sourceContext": "weather-timing-paragraph",
+          "useLine": 4,
+          "startDayGanZhi": "甲戌",
+          "method": "moving-no-other-cause",
+          "noOtherCauseConfirmed": true
+        },
+        "chart": {
+          "schema": "hhc.liuyao.structural-chart.v1",
+          "orientation": "bottom-to-top",
+          "input": [
+            7,
+            7,
+            7,
+            9,
+            9,
+            7
+          ],
+          "primary": {
+            "number": 1,
+            "normalizedName": "乾為天",
+            "palace": "乾",
+            "palaceTrigram": 1,
+            "palaceElement": "金",
+            "stage": "本宮",
+            "stageIndex": 0,
+            "shi": 6,
+            "ying": 3,
+            "bits": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "changed": {
+            "number": 26,
+            "normalizedName": "山天大畜",
+            "bits": [
+              1,
+              1,
+              1,
+              0,
+              0,
+              1
+            ],
+            "ownPalaceDiagnostic": "艮",
+            "ownPalaceElementDiagnostic": "土",
+            "annotationKinBasisPalace": "乾",
+            "shiYingReassigned": false
+          },
+          "dayStem": null,
+          "lines": [
+            {
+              "line": 1,
+              "stem": "甲",
+              "branch": "子",
+              "element": "水",
+              "kin": "子孫",
+              "kinBasisPalace": "乾",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 2,
+              "stem": "甲",
+              "branch": "寅",
+              "element": "木",
+              "kin": "妻財",
+              "kinBasisPalace": "乾",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 3,
+              "stem": "甲",
+              "branch": "辰",
+              "element": "土",
+              "kin": "父母",
+              "kinBasisPalace": "乾",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "應",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 4,
+              "stem": "壬",
+              "branch": "午",
+              "element": "火",
+              "kin": "官鬼",
+              "kinBasisPalace": "乾",
+              "value": 9,
+              "polarity": 1,
+              "moving": true,
+              "role": null,
+              "spirit": null,
+              "changed": {
+                "line": 4,
+                "stem": "丙",
+                "branch": "戌",
+                "element": "土",
+                "kin": "父母",
+                "kinBasisPalace": "乾",
+                "polarity": 0
+              }
+            },
+            {
+              "line": 5,
+              "stem": "壬",
+              "branch": "申",
+              "element": "金",
+              "kin": "兄弟",
+              "kinBasisPalace": "乾",
+              "value": 9,
+              "polarity": 1,
+              "moving": true,
+              "role": null,
+              "spirit": null,
+              "changed": {
+                "line": 5,
+                "stem": "丙",
+                "branch": "子",
+                "element": "水",
+                "kin": "子孫",
+                "kinBasisPalace": "乾",
+                "polarity": 0
+              }
+            },
+            {
+              "line": 6,
+              "stem": "壬",
+              "branch": "戌",
+              "element": "土",
+              "kin": "父母",
+              "kinBasisPalace": "乾",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "世",
+              "spirit": null,
+              "changed": null
+            }
+          ],
+          "movingLines": [
+            4,
+            5
+          ],
+          "scope": "structural-source-reference-only",
+          "consumerApplied": false,
+          "predictedEvent": null,
+          "missingPremises": [
+            "用神selection",
+            "飛伏rules",
+            "calendar month/day boundaries",
+            "旺衰/旬空conditionalrules",
+            "full source exceptions",
+            "outcome validation"
+          ]
+        },
+        "useLine": 4,
+        "subjectBranch": "午",
+        "actualOwnChangedBranch": "戌",
+        "requirements": [
+          {
+            "id": "actual-line-motion",
+            "known": true,
+            "satisfied": true
+          },
+          {
+            "id": "noOtherCauseConfirmed",
+            "known": true,
+            "satisfied": true,
+            "callerAssertion": true
+          }
+        ],
+        "premiseStatus": "explicit-premises-present",
+        "unresolved": [],
+        "targetBranch": "未",
+        "cycleCandidates": [
+          {
+            "offsetDays": 9,
+            "sexagenaryIndex0": 19,
+            "ganZhi": "癸未"
+          },
+          {
+            "offsetDays": 21,
+            "sexagenaryIndex0": 31,
+            "ganZhi": "乙未"
+          },
+          {
+            "offsetDays": 33,
+            "sexagenaryIndex0": 43,
+            "ganZhi": "丁未"
+          },
+          {
+            "offsetDays": 45,
+            "sexagenaryIndex0": 55,
+            "ganZhi": "己未"
+          },
+          {
+            "offsetDays": 57,
+            "sexagenaryIndex0": 7,
+            "ganZhi": "辛未"
+          }
+        ],
+        "cycleOffset0IncludesSuppliedDay": true,
+        "cycleCandidatesAreCoordinatesNotPredictedDates": true,
+        "gregorianDates": null,
+        "callerPremisesIndependentlyVerified": false,
+        "fullTimingAdjudication": null,
+        "meteorologicalForecast": null,
+        "allOtherSourceCausesChecked": false,
+        "predictedEvent": null,
+        "consumerApplied": false
+      }
+    },
+    {
+      "syntheticNotPrintedCast": true,
+      "result": {
+        "schema": "hhc.liuyao.B03.source-timing-coordinate.v1",
+        "sourceID": "B03-book3",
+        "sourcePDFPage": 8,
+        "sourceContext": "weather-timing-paragraph",
+        "method": {
+          "id": "static-combined",
+          "pdfPage": 8,
+          "boundedNormalizedReading": "靜而逢合者皆候沖日應事",
+          "motion": "static",
+          "requiresBoolean": "combinationConfirmed",
+          "target": "clash-subject"
+        },
+        "explicitContext": {
+          "sourceContext": "weather-timing-paragraph",
+          "useLine": 4,
+          "startDayGanZhi": "甲戌",
+          "method": "static-combined",
+          "combinationConfirmed": true
+        },
+        "chart": {
+          "schema": "hhc.liuyao.structural-chart.v1",
+          "orientation": "bottom-to-top",
+          "input": [
+            7,
+            7,
+            7,
+            7,
+            7,
+            7
+          ],
+          "primary": {
+            "number": 1,
+            "normalizedName": "乾為天",
+            "palace": "乾",
+            "palaceTrigram": 1,
+            "palaceElement": "金",
+            "stage": "本宮",
+            "stageIndex": 0,
+            "shi": 6,
+            "ying": 3,
+            "bits": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ]
+          },
+          "changed": {
+            "number": 1,
+            "normalizedName": "乾為天",
+            "bits": [
+              1,
+              1,
+              1,
+              1,
+              1,
+              1
+            ],
+            "ownPalaceDiagnostic": "乾",
+            "ownPalaceElementDiagnostic": "金",
+            "annotationKinBasisPalace": "乾",
+            "shiYingReassigned": false
+          },
+          "dayStem": null,
+          "lines": [
+            {
+              "line": 1,
+              "stem": "甲",
+              "branch": "子",
+              "element": "水",
+              "kin": "子孫",
+              "kinBasisPalace": "乾",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 2,
+              "stem": "甲",
+              "branch": "寅",
+              "element": "木",
+              "kin": "妻財",
+              "kinBasisPalace": "乾",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 3,
+              "stem": "甲",
+              "branch": "辰",
+              "element": "土",
+              "kin": "父母",
+              "kinBasisPalace": "乾",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "應",
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 4,
+              "stem": "壬",
+              "branch": "午",
+              "element": "火",
+              "kin": "官鬼",
+              "kinBasisPalace": "乾",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 5,
+              "stem": "壬",
+              "branch": "申",
+              "element": "金",
+              "kin": "兄弟",
+              "kinBasisPalace": "乾",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": null,
+              "spirit": null,
+              "changed": null
+            },
+            {
+              "line": 6,
+              "stem": "壬",
+              "branch": "戌",
+              "element": "土",
+              "kin": "父母",
+              "kinBasisPalace": "乾",
+              "value": 7,
+              "polarity": 1,
+              "moving": false,
+              "role": "世",
+              "spirit": null,
+              "changed": null
+            }
+          ],
+          "movingLines": [],
+          "scope": "structural-source-reference-only",
+          "consumerApplied": false,
+          "predictedEvent": null,
+          "missingPremises": [
+            "用神selection",
+            "飛伏rules",
+            "calendar month/day boundaries",
+            "旺衰/旬空conditionalrules",
+            "full source exceptions",
+            "outcome validation"
+          ]
+        },
+        "useLine": 4,
+        "subjectBranch": "午",
+        "actualOwnChangedBranch": null,
+        "requirements": [
+          {
+            "id": "actual-line-motion",
+            "known": true,
+            "satisfied": true
+          },
+          {
+            "id": "combinationConfirmed",
+            "known": true,
+            "satisfied": true,
+            "callerAssertion": true
+          }
+        ],
+        "premiseStatus": "explicit-premises-present",
+        "unresolved": [],
+        "targetBranch": "子",
+        "cycleCandidates": [
+          {
+            "offsetDays": 2,
+            "sexagenaryIndex0": 12,
+            "ganZhi": "丙子"
+          },
+          {
+            "offsetDays": 14,
+            "sexagenaryIndex0": 24,
+            "ganZhi": "戊子"
+          },
+          {
+            "offsetDays": 26,
+            "sexagenaryIndex0": 36,
+            "ganZhi": "庚子"
+          },
+          {
+            "offsetDays": 38,
+            "sexagenaryIndex0": 48,
+            "ganZhi": "壬子"
+          },
+          {
+            "offsetDays": 50,
+            "sexagenaryIndex0": 0,
+            "ganZhi": "甲子"
+          }
+        ],
+        "cycleOffset0IncludesSuppliedDay": true,
+        "cycleCandidatesAreCoordinatesNotPredictedDates": true,
+        "gregorianDates": null,
+        "callerPremisesIndependentlyVerified": false,
+        "fullTimingAdjudication": null,
+        "meteorologicalForecast": null,
+        "allOtherSourceCausesChecked": false,
+        "predictedEvent": null,
+        "consumerApplied": false
+      }
+    }
+  ],
+  "historicalCastsReconstructed": false,
+  "historicalOutcomesValidated": false
+}

@@ -1,0 +1,48 @@
+{
+  "date": "2026-10-27",
+  "readings": [
+    {
+      "image": 221,
+      "folio": "005-112a",
+      "text": "歳月若是火多及或印綬雖無財官主吉",
+      "contextID": "wu-fire-seal-exception",
+      "consequence": "Do not apply a blanket 财官-required verdict to this entire source section."
+    },
+    {
+      "image": 224,
+      "folio": "005-113b",
+      "text": "是見煞取貴然亦不可太多",
+      "contextID": "too-many-kills",
+      "consequence": "宜 does not establish unconditional success; 太多 threshold unspecified."
+    },
+    {
+      "image": 224,
+      "folio": "005-113b",
+      "text": "提綱建禄將何取須看年時多透露局中六格自分明莫泥提綱反為悮",
+      "contextID": "baizhang-quote",
+      "consequence": "Look beyond month to year/hour visibility; no count-based selection."
+    },
+    {
+      "image": 198,
+      "folio": "005-100b",
+      "text": "惟甲丙戊庚壬五陽干有刃乙丁己辛癸五陰干無刃故曰陽刃",
+      "consequence": "Named five-yang school; not a universal ten-stem table."
+    },
+    {
+      "image": 202,
+      "folio": "005-102b",
+      "consequence": "Five directly stated coordinates; prediction and adjacent exceptions remain separate.",
+      "coordinateExtracts": [
+        "戊日刃在午",
+        "庚日刃在酉",
+        "壬日刃在子",
+        "甲日刃在卯",
+        "丙日刃在午"
+      ],
+      "excerptType": "discontinuous-coordinate-extracts-not-a-continuous-quotation"
+    }
+  ],
+  "directVisualQA": true,
+  "sourceInstructionsAreData": true,
+  "outcomesValidated": false
+}

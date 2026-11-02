@@ -1,0 +1,326 @@
+{
+  "date": "2026-10-28",
+  "system": "TMTH005-C15-owl-exception-premises",
+  "sourceContext": "FOOD-00-C15",
+  "sourceContextCodepoints": 213,
+  "contextUnitCount": 10,
+  "exceptionRecords": 8,
+  "exactDigitalPartition": true,
+  "allImageCharactersCollated": false,
+  "sourceRoleModelIsEditorial": true,
+  "sourceRhetoricDoesNotChangeFixedTenGodRelation": true,
+  "jiXinVersusXinDingPriorityResolved": false,
+  "records": [
+    {
+      "id": "intro",
+      "parentContext": "FOOD-00-C15",
+      "localCodepointOffsets": [
+        0,
+        11
+      ],
+      "globalCleanCodepointOffsets": [
+        987,
+        998
+      ],
+      "digitalText": "又曰食神忌梟亦有不畏者",
+      "sourceContainerPages": [
+        175
+      ],
+      "sourceRecipientStemModel": null,
+      "sourceOwlStemModel": null,
+      "namedPillarToken": null,
+      "sourceStatedCombinationPair": null,
+      "requiredResearchPremises": [],
+      "sourceAnchorRoleAutomaticallyEstablished": false,
+      "disposition": "historical-rationale-still-unimplemented",
+      "consumerApplied": false,
+      "wholeClauseApplied": false
+    },
+    {
+      "id": "jihai",
+      "parentContext": "FOOD-00-C15",
+      "localCodepointOffsets": [
+        11,
+        30
+      ],
+      "globalCleanCodepointOffsets": [
+        998,
+        1017
+      ],
+      "digitalText": "如己亥不畏丁倒食丁與壬合化木而壬禄在亥",
+      "sourceContainerPages": [
+        175
+      ],
+      "sourceRecipientStemModel": "己",
+      "sourceOwlStemModel": "丁",
+      "namedPillarToken": "己亥",
+      "sourceStatedCombinationPair": [
+        "丁",
+        "壬"
+      ],
+      "requiredResearchPremises": [
+        "sourceAnchorRoleAccepted",
+        "effectiveStatedCombination",
+        "luClauseMeaningResolved"
+      ],
+      "sourceAnchorRoleAutomaticallyEstablished": false,
+      "disposition": "named-textual-premise-audit-only",
+      "consumerApplied": false,
+      "wholeClauseApplied": false,
+      "selectedNativeReading": "如己亥不畏丁倒食丁與壬合化木而土祿在亥",
+      "readingIssue": "土 on native versus壬digital; preserve both, no emendation."
+    },
+    {
+      "id": "bingwu",
+      "parentContext": "FOOD-00-C15",
+      "localCodepointOffsets": [
+        30,
+        48
+      ],
+      "globalCleanCodepointOffsets": [
+        1017,
+        1035
+      ],
+      "digitalText": "丙午不畏甲倒食甲與巳合化土而巳禄在午",
+      "sourceContainerPages": [
+        175
+      ],
+      "sourceRecipientStemModel": "丙",
+      "sourceOwlStemModel": "甲",
+      "namedPillarToken": "丙午",
+      "sourceStatedCombinationPair": [
+        "甲",
+        "己"
+      ],
+      "requiredResearchPremises": [
+        "sourceAnchorRoleAccepted",
+        "effectiveStatedCombination",
+        "sourceLuSupportEstablished"
+      ],
+      "sourceAnchorRoleAutomaticallyEstablished": false,
+      "disposition": "named-textual-premise-audit-only",
+      "consumerApplied": false,
+      "wholeClauseApplied": false,
+      "selectedNativeReading": "丙午不畏甲倒食甲與己合化土而己祿在午",
+      "readingIssue": "Canonical己for stem-role glyph, digital巳retained separately; not a whole-character collation."
+    },
+    {
+      "id": "yisi",
+      "parentContext": "FOOD-00-C15",
+      "localCodepointOffsets": [
+        48,
+        63
+      ],
+      "globalCleanCodepointOffsets": [
+        1035,
+        1050
+      ],
+      "digitalText": "乙巳不畏癸倒食戊癸化火乙巳亦火",
+      "sourceContainerPages": [
+        175
+      ],
+      "sourceRecipientStemModel": "乙",
+      "sourceOwlStemModel": "癸",
+      "namedPillarToken": "乙巳",
+      "sourceStatedCombinationPair": [
+        "戊",
+        "癸"
+      ],
+      "requiredResearchPremises": [
+        "sourceAnchorRoleAccepted",
+        "effectiveStatedCombination",
+        "sourceFireIdentityEstablished"
+      ],
+      "sourceAnchorRoleAutomaticallyEstablished": false,
+      "disposition": "named-textual-premise-audit-only",
+      "consumerApplied": false,
+      "wholeClauseApplied": false,
+      "selectedNativeReading": "乙巳不畏癸倒食戊癸化火乙巳亦火",
+      "readingIssue": "Selected clause read, no calendar or effective transformation proved."
+    },
+    {
+      "id": "guisi",
+      "parentContext": "FOOD-00-C15",
+      "localCodepointOffsets": [
+        63,
+        78
+      ],
+      "globalCleanCodepointOffsets": [
+        1050,
+        1065
+      ],
+      "digitalText": "癸巳不畏辛倒食丙辛化水癸貴在己",
+      "sourceContainerPages": [
+        175
+      ],
+      "sourceRecipientStemModel": "癸",
+      "sourceOwlStemModel": "辛",
+      "namedPillarToken": "癸巳",
+      "sourceStatedCombinationPair": [
+        "丙",
+        "辛"
+      ],
+      "requiredResearchPremises": [
+        "sourceAnchorRoleAccepted",
+        "effectiveStatedCombination",
+        "sourceGuiSupportEstablished"
+      ],
+      "sourceAnchorRoleAutomaticallyEstablished": false,
+      "disposition": "named-textual-premise-audit-only",
+      "consumerApplied": false,
+      "wholeClauseApplied": false,
+      "selectedNativeReading": "癸巳不畏辛倒食丙辛化水癸貴在□",
+      "readingIssue": "Final支glyph己/巳left unresolved in this bounded record; not repaired from conventional貴人table."
+    },
+    {
+      "id": "geng-wu",
+      "parentContext": "FOOD-00-C15",
+      "localCodepointOffsets": [
+        78,
+        102
+      ],
+      "globalCleanCodepointOffsets": [
+        1065,
+        1089
+      ],
+      "digitalText": "庚為衆陽之首不畏戊倒食戊陽氣歸源之數見戊作喜神論",
+      "sourceContainerPages": [
+        175
+      ],
+      "sourceRecipientStemModel": "庚",
+      "sourceOwlStemModel": "戊",
+      "namedPillarToken": null,
+      "sourceStatedCombinationPair": null,
+      "requiredResearchPremises": [
+        "sourceAnchorRoleAccepted",
+        "sourceYangReturnPremiseEstablished"
+      ],
+      "sourceAnchorRoleAutomaticallyEstablished": false,
+      "disposition": "named-textual-premise-audit-only",
+      "consumerApplied": false,
+      "wholeClauseApplied": false,
+      "selectedNativeReading": "庚為衆陽之首不畏戊倒食戊陽氣歸源之數見戊作喜神論",
+      "readingIssue": "Historical argument, no measurable definition of陽氣歸源established."
+    },
+    {
+      "id": "ji-xin",
+      "parentContext": "FOOD-00-C15",
+      "localCodepointOffsets": [
+        102,
+        114
+      ],
+      "globalCleanCodepointOffsets": [
+        1089,
+        1101
+      ],
+      "digitalText": "巳不倒食辛隂氣初發散之源",
+      "sourceContainerPages": [
+        175
+      ],
+      "sourceRecipientStemModel": "辛",
+      "sourceOwlStemModel": "己",
+      "namedPillarToken": null,
+      "sourceStatedCombinationPair": null,
+      "requiredResearchPremises": [
+        "sourceAnchorRoleAccepted",
+        "sourceYinOriginPremiseEstablished"
+      ],
+      "sourceAnchorRoleAutomaticallyEstablished": false,
+      "disposition": "named-textual-premise-audit-only",
+      "consumerApplied": false,
+      "wholeClauseApplied": false,
+      "selectedNativeReading": "己不倒食辛陰氣初發散之源",
+      "readingIssue": "Canonical己in actor role; recipient辛is an explicit editorial role interpretation, not a documented birth-date adapter."
+    },
+    {
+      "id": "geng-ren",
+      "parentContext": "FOOD-00-C15",
+      "localCodepointOffsets": [
+        114,
+        126
+      ],
+      "globalCleanCodepointOffsets": [
+        1101,
+        1113
+      ],
+      "digitalText": "庚不倒食壬陽氣初發散之源",
+      "sourceContainerPages": [
+        175
+      ],
+      "sourceRecipientStemModel": "壬",
+      "sourceOwlStemModel": "庚",
+      "namedPillarToken": null,
+      "sourceStatedCombinationPair": null,
+      "requiredResearchPremises": [
+        "sourceAnchorRoleAccepted",
+        "sourceYangOriginPremiseEstablished"
+      ],
+      "sourceAnchorRoleAutomaticallyEstablished": false,
+      "disposition": "named-textual-premise-audit-only",
+      "consumerApplied": false,
+      "wholeClauseApplied": false,
+      "selectedNativeReading": "庚不倒食壬陽氣初發散之源",
+      "readingIssue": "Recipient壬is an explicit editorial role interpretation; preserve reverse grammar."
+    },
+    {
+      "id": "xin-ding",
+      "parentContext": "FOOD-00-C15",
+      "localCodepointOffsets": [
+        126,
+        158
+      ],
+      "globalCleanCodepointOffsets": [
+        1113,
+        1145
+      ],
+      "digitalText": "辛有丁不畏巳倒食為丁養育辛金也况有丁處便有巳土陰陽干渉得清福之助",
+      "sourceContainerPages": [
+        175,
+        176
+      ],
+      "sourceRecipientStemModel": "辛",
+      "sourceOwlStemModel": "己",
+      "namedPillarToken": null,
+      "sourceStatedCombinationPair": null,
+      "requiredResearchPremises": [
+        "sourceAnchorRoleAccepted",
+        "sourceDingPresent",
+        "effectiveDingSupportEstablished"
+      ],
+      "sourceAnchorRoleAutomaticallyEstablished": false,
+      "disposition": "named-textual-premise-audit-only",
+      "consumerApplied": false,
+      "wholeClauseApplied": false,
+      "selectedNativeReading": "辛有丁不畏己倒食為丁養育辛金也况有丁處便有己土陰陽干涉得清福之助",
+      "readingIssue": "Canonical己stem-role reading; mere丁presence does not establish support or化. No priority overji-xinclauseadjudicated."
+    },
+    {
+      "id": "six-xin-followup",
+      "parentContext": "FOOD-00-C15",
+      "localCodepointOffsets": [
+        158,
+        213
+      ],
+      "globalCleanCodepointOffsets": [
+        1145,
+        1200
+      ],
+      "digitalText": "故六辛人切要丁但從寅遁至辛人本禄位方知用丁為禄更月是金家巳土火裏長生故知要火為文貴金無父母借火處有父母之氣故也",
+      "sourceContainerPages": [
+        175,
+        176
+      ],
+      "sourceRecipientStemModel": null,
+      "sourceOwlStemModel": null,
+      "namedPillarToken": null,
+      "sourceStatedCombinationPair": null,
+      "requiredResearchPremises": [],
+      "sourceAnchorRoleAutomaticallyEstablished": false,
+      "disposition": "historical-rationale-still-unimplemented",
+      "consumerApplied": false,
+      "wholeClauseApplied": false
+    }
+  ],
+  "sourceOutcomesValidated": false,
+  "fullFoodPatternEstablished": false
+}

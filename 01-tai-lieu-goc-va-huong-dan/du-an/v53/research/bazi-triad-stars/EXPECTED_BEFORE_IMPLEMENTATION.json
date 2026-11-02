@@ -1,0 +1,131 @@
+{
+  "sourceRows": [
+    {
+      "groupID": "water",
+      "branches": [
+        "申",
+        "子",
+        "辰"
+      ],
+      "general": "子",
+      "canopy": "辰",
+      "xianchi": "酉",
+      "groupElement": "水"
+    },
+    {
+      "groupID": "metal",
+      "branches": [
+        "巳",
+        "酉",
+        "丑"
+      ],
+      "general": "酉",
+      "canopy": "丑",
+      "xianchi": "午",
+      "groupElement": "金"
+    },
+    {
+      "groupID": "fire",
+      "branches": [
+        "寅",
+        "午",
+        "戌"
+      ],
+      "general": "午",
+      "canopy": "戌",
+      "xianchi": "卯",
+      "groupElement": "火"
+    },
+    {
+      "groupID": "wood",
+      "branches": [
+        "亥",
+        "卯",
+        "未"
+      ],
+      "general": "卯",
+      "canopy": "未",
+      "xianchi": "子",
+      "groupElement": "木"
+    }
+  ],
+  "selectedCases": [
+    {
+      "id": "general-water",
+      "groupID": "water",
+      "star": "general",
+      "sourceAnchorBranch": "申",
+      "targetBranch": "子",
+      "expectedCoordinate": true
+    },
+    {
+      "id": "canopy-metal",
+      "groupID": "metal",
+      "star": "canopy",
+      "sourceAnchorBranch": "巳",
+      "targetBranch": "丑",
+      "expectedCoordinate": true
+    },
+    {
+      "id": "xianchi-fire-bare-insufficient",
+      "groupID": "fire",
+      "star": "xianchi",
+      "sourceAnchorBranch": "戌",
+      "targetBranch": "卯",
+      "naYinGroupMatch": null,
+      "expectedCoordinate": true,
+      "expectedQualifiedGate": null
+    },
+    {
+      "id": "xianchi-fire-qualified",
+      "groupID": "fire",
+      "star": "xianchi",
+      "sourceAnchorBranch": "寅",
+      "targetBranch": "卯",
+      "naYinGroupMatch": true,
+      "expectedCoordinate": true,
+      "expectedQualifiedGate": true
+    },
+    {
+      "id": "xianchi-fire-wrong-nayin",
+      "groupID": "fire",
+      "star": "xianchi",
+      "sourceAnchorBranch": "午",
+      "targetBranch": "卯",
+      "naYinGroupMatch": false,
+      "expectedCoordinate": true,
+      "expectedQualifiedGate": false
+    },
+    {
+      "id": "xianchi-anchor-outside-group",
+      "groupID": "fire",
+      "star": "xianchi",
+      "sourceAnchorBranch": "子",
+      "targetBranch": "卯",
+      "naYinGroupMatch": true,
+      "expectedCoordinate": false,
+      "expectedQualifiedGate": false
+    }
+  ],
+  "actualLibraryExpected": [
+    {
+      "pillar": "庚辰",
+      "expectedNaYin": "白蜡金",
+      "expectedStemElement": "金"
+    },
+    {
+      "pillar": "辛丑",
+      "expectedNaYin": "壁上土",
+      "expectedStemElement": "金"
+    }
+  ],
+  "neverInfer": [
+    "effectiveStar",
+    "wholePatternEstablished",
+    "natalOutcome",
+    "calendarDate",
+    "strength",
+    "interSourcePriority",
+    "medicalRisk"
+  ]
+}

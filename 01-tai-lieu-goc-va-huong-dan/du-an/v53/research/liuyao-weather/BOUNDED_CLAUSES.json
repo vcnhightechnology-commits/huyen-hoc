@@ -1,0 +1,187 @@
+{
+  "date": "2026-10-27",
+  "sourceInstructionsAreData": true,
+  "clauses": [
+    {
+      "id": "geographic-question-scope",
+      "sourcePages": [
+        189
+      ],
+      "sourceVoice": "unnamedauthor",
+      "disposition": "Question should identify location and desiredrain/clear/snow/frost; source broadvsnarrow semantics not interchangeable.",
+      "status": "explicit-scope-only",
+      "outcomeValidated": false
+    },
+    {
+      "id": "wealth-not-alone",
+      "sourcePages": [
+        188,
+        190
+      ],
+      "sourceVoice": "authorand覺子",
+      "disposition": "Wealthmotion alone doesnot imply all-daysun:childinactive/hiddennot qualified;source sayswealthis元神 forchild.",
+      "status": "conditional-open",
+      "outcomeValidated": false
+    },
+    {
+      "id": "rain-parent-clear-child",
+      "sourcePages": [
+        191
+      ],
+      "sourceVoice": "覺子",
+      "disposition": "Selectparentsforrainandchildrenforclear;wealthand世應 rejectedasuniversalweatherpremises.",
+      "status": "private-selector",
+      "outcomeValidated": false
+    },
+    {
+      "id": "nothing-moving",
+      "sourcePages": [
+        191
+      ],
+      "sourceVoice": "覺子",
+      "disposition": "Source advocatesanothercastwhenstatic;historicalpracticeadvice,notpermissiontoautocast/reinterpretuserrequest.",
+      "status": "historical-practice",
+      "outcomeValidated": false
+    },
+    {
+      "id": "strength-disagreement",
+      "sourcePages": [
+        192,
+        193,
+        196,
+        197
+      ],
+      "sourceVoice": "覺子vsoldcommentary/野鶴",
+      "disposition": "Voices disagreeaboutseasonalelementstrengthandwhether旺衰shouldcontrolweatherreading.",
+      "status": "conflicting-premises-open",
+      "outcomeValidated": false
+    },
+    {
+      "id": "snow-frost",
+      "sourcePages": [
+        192,
+        193
+      ],
+      "sourceVoice": "覺子vs舊註",
+      "disposition": "Blanketchild→snow/frost challenged;season/light/fog/wind distinctions unresolved.",
+      "status": "historical-claim-not-forecast",
+      "outcomeValidated": false
+    },
+    {
+      "id": "ghost-not-always-thunder",
+      "sourcePages": [
+        190,
+        194,
+        195,
+        200
+      ],
+      "sourceVoice": "multiplevoices",
+      "disposition": "Ghostmayinterpretedascloud/fog/thunderbycontext;presenceormotionalonecannotclassifyobservedweather.",
+      "status": "conditional-open",
+      "outcomeValidated": false
+    },
+    {
+      "id": "shared-combinations",
+      "sourcePages": [
+        194
+      ],
+      "sourceVoice": "oldcommentaryandcountercommentary",
+      "disposition": "財/父/鬼三合 descriptions areconditional,not a newcompletecombination-strengthmethod.",
+      "status": "conditional-open",
+      "outcomeValidated": false
+    },
+    {
+      "id": "motion-order",
+      "sourcePages": [
+        195,
+        206,
+        207
+      ],
+      "sourceVoice": "multiplevoices",
+      "disposition": "Parent/brother/child/wealthcoactivity canreferdifferentdays/hours;do notcollapseonepatternintooneeventtime.",
+      "status": "conditional-open",
+      "outcomeValidated": false
+    },
+    {
+      "id": "parent-month",
+      "sourcePages": [
+        196,
+        197
+      ],
+      "sourceVoice": "野鶴vsoldcommentary",
+      "disposition": "Parentmonthlystrength doesnotunconditionallymeanpersistentall-dayrain;sourceexamplesandrebuttalretained.",
+      "status": "conflicting-premises-open",
+      "outcomeValidated": false
+    },
+    {
+      "id": "retreat",
+      "sourcePages": [
+        198,
+        199
+      ],
+      "sourceVoice": "sourceexamples",
+      "disposition": "Motion/changetoretreatinterpretedrainstopping butpriority/availability/timingpremises notcompiled.",
+      "status": "structural-fact-only",
+      "outcomeValidated": false
+    },
+    {
+      "id": "question-relative-summary",
+      "sourcePages": [
+        201
+      ],
+      "sourceVoice": "quotedsummary",
+      "disposition": "Rainparent/clearwealth-or-child/cloudthunderghost;keepapartfromJueZi191.",
+      "status": "private-selector",
+      "outcomeValidated": false
+    },
+    {
+      "id": "void-fullness",
+      "sourcePages": [
+        199,
+        201,
+        202
+      ],
+      "sourceVoice": "multiplevoices",
+      "disposition": "Void/static/darkmotion/monthbreak fill/clash timingrequirescalendar/usefulnesspremises;donotderivepracticaldate.",
+      "status": "conditional-open",
+      "outcomeValidated": false
+    },
+    {
+      "id": "repeat-cast",
+      "sourcePages": [
+        202,
+        207,
+        208,
+        209,
+        210
+      ],
+      "sourceVoice": "author",
+      "disposition": "Repeatcasts andreportedoutcomes keptasdistincthistoricalcasts;notindependentlyvalidatedweatherobservations.",
+      "status": "historical-claim-not-forecast",
+      "outcomeValidated": false
+    },
+    {
+      "id": "weather-vs-human-affairs",
+      "sourcePages": [
+        209
+      ],
+      "sourceVoice": "author",
+      "disposition": "Usingweatherasananalogyforhumanfortuneisthesourceargument,notestablishedequivalenceoroutcomeproof.",
+      "status": "historical-argument",
+      "outcomeValidated": false
+    },
+    {
+      "id": "closing-flexibility",
+      "sourcePages": [
+        211
+      ],
+      "sourceVoice": "author",
+      "disposition": "Source closeswithflexibility ratherthanfixeduniversalverdict;noarbitrarypriorityinvented.",
+      "status": "scope-limit",
+      "outcomeValidated": false
+    }
+  ],
+  "allClausesEnumerated": false,
+  "allSourceImageCharactersCollated": false,
+  "wholeChapterApplied": false
+}

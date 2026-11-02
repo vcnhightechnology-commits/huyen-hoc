@@ -1,0 +1,219 @@
+{
+  "schema": "hhc.bazi.branch-triad.chapter.v1",
+  "chapter": "論支元三合",
+  "sourceDigital": {
+    "file": "v53/research/four-items/sources/KR3g0042_002.txt",
+    "bytes": 123566,
+    "sha256": "b0f9badc8aff64ee137392277eb2f7a428c39a9d8c9faa3154f79c626c2131b4"
+  },
+  "derivedLocator": {
+    "file": "tmp/bazi-branch-triad-staging/DIGITAL_CHAPTER_LOCATOR.txt",
+    "bytes": 2737,
+    "sha256": "e2018105e3a8a8924e5fc19feca0f0d6959a83509496d1186f551f81ea9b951d"
+  },
+  "cleanFile": "CHAPTER_CLEAN.txt",
+  "cleanSHA256": "38f60d1bff744df3d6abe09bdcdc2fde9ab239b99460b77db9cf367c5df16b6c",
+  "cleanCodepoints": 807,
+  "cleanUTF16Units": 807,
+  "offsetBasis": "Unicode codepoints after pb tags/whitespace/¶ removal; no glyph replacement.",
+  "records": [
+    {
+      "id": "T01",
+      "startCodepoint": 0,
+      "endCodepointExclusive": 79,
+      "literalDigital": "論支元三合考厯家申子辰初之氣俱起於下漏一刻巳酉丑初之氣俱起於二十六刻寅午戊初之氣俱起於五十一刻亥卯未初之氣俱起於七十六刻氣皆起於同刻是天地自然之理也故謂之三合",
+      "disposition": "reported-clepsydra-coordinates-no-modern-time-adapter",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "T02",
+      "startCodepoint": 79,
+      "endCodepointExclusive": 140,
+      "literalDigital": "或以三合者如人一身之運用也精乃天之元氣乃神之本是以精為氣之母神為氣之子子母互相生精氣神全而不散之為合葢謂支屬人元故以此論之",
+      "disposition": "alternative-精氣神-rationale-not-an-algorithm",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "T03",
+      "startCodepoint": 140,
+      "endCodepointExclusive": 199,
+      "literalDigital": "如申子辰申乃子之母辰乃子之子申乃水生子乃水旺辰乃水氣生即産旺即成庫即收有生有成有收萬物得始得終乃自然之理故申子申為水局",
+      "disposition": "water-exposition-and-repeated-申-anomaly-preserved",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "T04",
+      "startCodepoint": 199,
+      "endCodepointExclusive": 255,
+      "literalDigital": "若三字缺其一則化不成局不可以三合化局論葢天地間道理兩則化一隂一陽之謂也三則化三生萬物之謂也巳酉丑寅午戍亥卯未皆然",
+      "disposition": "necessary-completeness-only-no-sufficient-effective-formation",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "T05",
+      "startCodepoint": 255,
+      "endCodepointExclusive": 288,
+      "literalDigital": "五行不言土者四行皆頼土成局萬物皆歸藏於土故也若辰戌丑未全自作土局論",
+      "disposition": "separate-four-earth-completeness-not-three-of-four",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "T06",
+      "startCodepoint": 288,
+      "endCodepointExclusive": 338,
+      "literalDigital": "凡命有合要得局為佳假令丙丁生人見亥卯未印巳酉丑財為得局見寅午戍火為本局申子辰水為官局辰戍丑未土為傷局",
+      "disposition": "declared-丙丁-five-source-role-groups",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "T07",
+      "startCodepoint": 338,
+      "endCodepointExclusive": 378,
+      "literalDigital": "又如丙人見巳酉丑丁人見寅午戍為三位禄格謂丙以巳為禄丁以午為禄酉丑合巳寅戍合午故也",
+      "disposition": "two-selected-three-Lu-source-coordinate-gates",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "T08",
+      "startCodepoint": 378,
+      "endCodepointExclusive": 418,
+      "literalDigital": "珞琭子云禄有三㑹又云得一分三前賢不載壺中子云得一分三折月中之仙桂此之謂也餘倣此例",
+      "disposition": "nested-attributions-not-independently-acquired",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "T09",
+      "startCodepoint": 418,
+      "endCodepointExclusive": 451,
+      "literalDigital": "凡六合三合入命主人形容姿美神氣安定好生惡死心地平直周旋方便聰慧踈通",
+      "disposition": "historical-appearance-and-temperament-claims-no-product-classifier",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "T10",
+      "startCodepoint": 451,
+      "endCodepointExclusive": 494,
+      "literalDigital": "如相生合者舉事多遂更有福神來往則福愈厚一生平易多藝多才言和貌悦不較是非福禍扶持人多見憐",
+      "disposition": "historical-outcome-claim-premises-not-classified",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "T11",
+      "startCodepoint": 494,
+      "endCodepointExclusive": 530,
+      "literalDigital": "如相尅合者難事而易悦多是定計動多招損更有凶煞相兼横事勾連驚暴之災不致深咎",
+      "disposition": "historical-outcome-claim-premises-not-classified",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "T12",
+      "startCodepoint": 530,
+      "endCodepointExclusive": 574,
+      "literalDigital": "死絶合者主人有為未嘗遂意威武不重精神俗陋招人鄙薄志卑氣窄愛小人惡君子習下自賤一生少得稱懐",
+      "disposition": "historical-personality-hierarchy-not-product-rule",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "T13",
+      "startCodepoint": 574,
+      "endCodepointExclusive": 588,
+      "literalDigital": "與建禄合者多横財意外名望之福",
+      "disposition": "historical-fortune-claim-no-empirical-validation",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "T14",
+      "startCodepoint": 588,
+      "endCodepointExclusive": 602,
+      "literalDigital": "正印貴人合得天恩貴人提携之福",
+      "disposition": "historical-assistance-claim-no-empirical-validation",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "T15",
+      "startCodepoint": 602,
+      "endCodepointExclusive": 612,
+      "literalDigital": "食神合衣禄豐餘飲食厚",
+      "disposition": "historical-food-wealth-claim-no-empirical-validation",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "T16",
+      "startCodepoint": 612,
+      "endCodepointExclusive": 632,
+      "literalDigital": "元辰大耗合無禮貌言清行濁厚於賤人侮慢君子",
+      "disposition": "historical-moral-claim-not-a-character-classifier",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "T17",
+      "startCodepoint": 632,
+      "endCodepointExclusive": 645,
+      "literalDigital": "咸池併奸惡私通不良貪汚之行",
+      "disposition": "historical-moral-claim-not-a-character-classifier",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "T18",
+      "startCodepoint": 645,
+      "endCodepointExclusive": 661,
+      "literalDigital": "與官符併多招形獄詞訟旁牽暗昧是非",
+      "disposition": "historical-litigation-claim-not-a-prediction",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "T19",
+      "startCodepoint": 661,
+      "endCodepointExclusive": 672,
+      "literalDigital": "天空併動無成實賤人欺詒",
+      "disposition": "historical-performance-claim-not-a-prediction",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "T20",
+      "startCodepoint": 672,
+      "endCodepointExclusive": 702,
+      "literalDigital": "婦人大忌合中帶煞咸池玷行淫聲大耗必致淫奔中有貴格者自賤而貴也",
+      "disposition": "historical-gender-claim-not-product-rule",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "T21",
+      "startCodepoint": 702,
+      "endCodepointExclusive": 714,
+      "literalDigital": "大率合吉神則吉合㓙神則凶",
+      "disposition": "source-generalization-missing-efficacy-and-priority",
+      "wholeUnitApplied": false
+    },
+    {
+      "id": "T22",
+      "startCodepoint": 714,
+      "endCodepointExclusive": 807,
+      "literalDigital": "玉井云合者非只泥三合六合如酉字有力或多見能用寅字亦切又㸔巳宫却被壊了酉中辛寅中丙方取大凡亦㸔暗干與明干合氣相干取用名為勾引恩讐又為牽綰得失又為顧盼人我又為呼應前後又為夫婦有情又為行藏同道",
+      "disposition": "reported-hidden-and-visible-stem-interactions-open",
+      "wholeUnitApplied": false
+    }
+  ],
+  "firstPassChapterPositions": [
+    199,
+    200,
+    201,
+    202,
+    203,
+    204
+  ],
+  "sharedPriorBoundary": [
+    199
+  ],
+  "newFirstPassPositions": [
+    200,
+    201,
+    202,
+    203,
+    204
+  ],
+  "outsideBoundaryViewed": [
+    205
+  ],
+  "wholeChapterApplied": false
+}

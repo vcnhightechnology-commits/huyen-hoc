@@ -1,0 +1,55 @@
+{
+  "date": "2026-10-28",
+  "differences": [
+    {
+      "number": 20,
+      "pages": [
+        26,
+        27
+      ],
+      "line": 3,
+      "field": "element",
+      "source": "土",
+      "reference": "木",
+      "cropFile": "anomaly-crop-26.png",
+      "cropDirectlyViewed": true,
+      "status": "literal-source-versus-bounded-rule-mismatch",
+      "sourceNotEmended": true
+    },
+    {
+      "number": 61,
+      "pages": [
+        29
+      ],
+      "line": 2,
+      "field": "kin",
+      "source": "兄弟",
+      "reference": "官鬼",
+      "cropFile": "anomaly-crop-29.png",
+      "cropDirectlyViewed": true,
+      "status": "literal-source-versus-bounded-rule-mismatch",
+      "sourceNotEmended": true
+    },
+    {
+      "number": 5,
+      "pages": [
+        33
+      ],
+      "line": 1,
+      "field": "kin",
+      "source": "父母",
+      "reference": "妻財",
+      "cropFile": "anomaly-crop-33.png",
+      "cropDirectlyViewed": true,
+      "status": "literal-source-versus-bounded-rule-mismatch",
+      "sourceNotEmended": true
+    }
+  ],
+  "sameEditionNoIndependentWitness": true,
+  "source26Line3Literal": "卯土",
+  "source29Line2Literal": "兄弟卯木",
+  "source33Line1Literal": "父母子水",
+  "threeLine47IsNotSixLineChart": true,
+  "all384RowsIndependentFromRuntimeInput": true,
+  "independenceMeaning": "Manual table input from same retained edition,not an independent edition or predictive outcome dataset."
+}

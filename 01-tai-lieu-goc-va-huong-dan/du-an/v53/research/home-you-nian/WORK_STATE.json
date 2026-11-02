@@ -1,0 +1,52 @@
+{
+  "date": "2026-10-27",
+  "status": "named-source-tables-verified-atomic-extraction-active",
+  "sourceDirectory": "v53/research/home-you-nian",
+  "latestReport": "v53/HOME_YOU_NIAN_REPORT.md",
+  "completedStep": "Nhà ở: Hiệp Kỷ Biện Phương quyển2 có 103 ảnh nguồn mới đọc/95 nội dung/5 trống/3 ngoại văn, cộng7 ảnh cũ tạo lượt đọc đầu đủ110 vị trí và12 mục; chưa trích hết mệnh đề/ô bảng. Bộ riêng Đại/Tiểu Du Niên giữ7 phép đổi hào,64 ô sao đọc trực tiếp và2 bối cảnh cát hung khác nhau. 13 kiểm đạt;8 lời gọi HHC thật khớp64 nhãn hướng nhà có điều kiện cung. Hai bảng Chính/Hồng phạm đủ48 gán ngũ hành;12 dòng tháng Trạch Kinh chỉ bản chữ, không ghép lịch. P03 đã đọc6 tệp WYG/HFL,14 nhóm biên tập/10 cặp ngữ cảnh mới;ảnh/đồ còn thiếu. Ba thân HTTP lỗi giữ đúng byte/SHA/TLS (403,403,503),0 container mới. HTML707411 byte/site/ZIPweb nguyên.",
+  "sourceSummary": {
+    "date": "2026-10-27",
+    "nativePNGAndPixelHashesVerified": 103,
+    "nativeContentPages": 95,
+    "blankPages": 5,
+    "paratextPages": 3,
+    "priorImagesRetainedRead": 7,
+    "combinedFirstPassImagePositions": 110,
+    "sourceUnitsLocated": 12,
+    "decoderCalibrationPixelEqual": true,
+    "redecodedPixelArrays": 2,
+    "newSourcePagesFromRedecode": 0,
+    "P03ArtifactsHashed": 6,
+    "newBoundedTextPairsAnchored": 10,
+    "P03FacsimileResolved": false,
+    "allSourceClausesApplied": false,
+    "wholeCatalogueCompleted": false
+  },
+  "engineSummary": {
+    "actualHHCDirectionsCalls": 8,
+    "conditionalHHCLabels": 64,
+    "privateRelations": 128,
+    "directSmallStarCells": 64,
+    "directNonselfPairs": 56,
+    "sourcePolicyContexts": 128,
+    "differingLabels": 40,
+    "literalMatchingLabels": 16,
+    "selfRoleOnly": 8
+  },
+  "tableSummary": {
+    "namedMountainAssignments": 48,
+    "monthlySourceRows": 12,
+    "calendarAdapters": 0,
+    "actualHHCEngineCalls": 0
+  },
+  "next": [
+    "Continue atomic extraction from all12 Xieji volume2 units, now first-pass located: full middle/seam ring coordinate tables/use premises,墓龍變運/yearmonth冠 all cells/examples, five子/納音/solstice boundaries, quoted voices and attribution. Do not redo64direction labels without a change.",
+    "Small/Big: seven transformation rules and64small-star cells verified; complete application clauses,坐山/立向/龍 origin selection and384lineglyph figurecollation remain. No universalSmall rating or automaticroomadapter.",
+    "P03 retained WYG/HFL digitaltext all read and14editorialgroups mapped, not all clauses applied. Tennewpairedcontexts/threeprior preserved;十干+十二支+四維=26versus24,prohibitionvariant,missingdiagrams,month/leap boundary andHFL1988metadata remain. Three failed URLs retained; no immediate retry.",
+    "Otherdomains remain active: Bazi fullpatternconditions/crossreferences;Tuvi independentwitness/age/Canh-Nhâm;Yi B02chapter35from191/B03/MaiHoa clauses. Catalogue40/whole0;source/QA outsideconsumer site."
+  ],
+  "consumerChanged": false,
+  "whole110ImageFirstPass": true,
+  "wholeVolumeApplied": false,
+  "wholeCatalogueCompleted": false
+}

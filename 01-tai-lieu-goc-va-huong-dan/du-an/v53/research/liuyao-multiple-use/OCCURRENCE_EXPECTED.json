@@ -1,0 +1,52 @@
+{
+  "fixtureLists": [
+    {
+      "fixtureID": "xiaoxu-wealth",
+      "desiredKin": "妻財",
+      "occurrenceIDs": [
+        "primary:3",
+        "primary:4"
+      ]
+    },
+    {
+      "fixtureID": "shi-huan",
+      "desiredKin": "官鬼",
+      "occurrenceIDs": [
+        "primary:2",
+        "primary:4"
+      ]
+    },
+    {
+      "fixtureID": "yu-guimei-three-uses",
+      "desiredKin": "子孫",
+      "occurrenceIDs": [
+        "primary:2",
+        "primary:4",
+        "own-change:1"
+      ]
+    }
+  ],
+  "threeUseDistinctBranchCount": 2,
+  "threeUseOccurrenceCount": 3,
+  "pairwiseComparisonCount": 3,
+  "allFiveAgreeStillNoSelectedUse": true,
+  "invariants": [
+    "One original occurrence for every source line",
+    "One own-change occurrence per explicitly moving line only",
+    "Kin labels remain anchored to the primary palace",
+    "Same branch on two layers remains two occurrences",
+    "Changing candidate order changes orientation,not factual pair contents",
+    "Unknown factual premises do not silently become false",
+    "No total ranking,temporal concurrency,efficacy or clinical outcome inferred"
+  ],
+  "kinTokens": [
+    "父母",
+    "兄弟",
+    "子孫",
+    "妻財",
+    "官鬼"
+  ],
+  "newExternalEngineCallsExpected": 0,
+  "retainedHHCExecutedCallsUsed": 5,
+  "newSourcePositionsExpected": 0
+}

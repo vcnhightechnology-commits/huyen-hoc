@@ -1,0 +1,101 @@
+{
+  "schema": "hhc.bazi.pattern-extension.manual.v1",
+  "date": "2026-10-26",
+  "source": "../bazi-pattern-witness/CADAL06066041.djvu",
+  "sourceSHA256": "013ce4861680a2bf08b811050c45a45bb2d3ce9d164f7e2341d7070bd5cb2c1a",
+  "digitalComparator": "../four-items/sources/KR3g0042_005.txt",
+  "digitalSHA256": "1ebdd92feaa57496b702f962ad6fafd4f19c17e98c38a94b40f626ef321dd997",
+  "method": "Manual targeted reading of locally decoded page images. No OCR. Container page and printed/WYG folio are separately anchored by text, never inferred by a single arithmetic offset. Same retained scan, not an independent textual witness.",
+  "pageAnchors": [
+    {"image":2,"folio":null,"role":"calibration-title","anchor":"欽定四庫全書 三命通會卷五"},
+    {"image":12,"folio":"005-5b","role":"calibration-prior-image","anchor":"正餘格例此甲日生酉月"},
+    {"image":83,"folio":"005-41a","role":"targeted-context","anchor":"正財者乃甲見己","digitalAnchor":"正財者乃甲見巳","difference":"Stem 己 in image versus 巳 in retained transcription; anchor-only comparison."},
+    {"image":84,"folio":"005-41b","role":"targeted-context","anchor":"若財多身弱"},
+    {"image":85,"folio":"005-42a","role":"targeted-context","anchor":"凡財格喜見"},
+    {"image":99,"folio":"005-49a","role":"targeted-context","anchor":"何謂偏財"},
+    {"image":100,"folio":"005-49b","role":"targeted-context","anchor":"月令所帶最重"},
+    {"image":114,"folio":"005-56b","role":"targeted-context","anchor":"印綬者乃五行生我之名"},
+    {"image":115,"folio":"005-57a","role":"targeted-context","anchor":"若印綬少官鬼多"},
+    {"image":138,"folio":"005-68b","role":"targeted-context","anchor":"柱中無食只以偏印論"},
+    {"image":154,"folio":"005-76b","role":"targeted-context","anchor":"傷官者我生彼之謂"},
+    {"image":155,"folio":"005-77a","role":"targeted-context","anchor":"如月令在傷官"},
+    {"image":156,"folio":"005-77b","role":"targeted-context","anchor":"傷官格用財亦有用印者"},
+    {"image":169,"folio":"005-84a","role":"targeted-context","anchor":"食神者日干所生順數第三位"},
+    {"image":170,"folio":"005-84b","role":"targeted-context","anchor":"此格要日主食神俱生旺"},
+    {"image":171,"folio":"005-85a","role":"targeted-context","anchor":"食神大忌偏印為倒食"},
+    {"image":198,"folio":"005-100b","role":"targeted-context","anchor":"論陽刃"},
+    {"image":199,"folio":"005-101a","role":"targeted-context","anchor":"陽刃有三"},
+    {"image":200,"folio":"005-101b","role":"targeted-context","anchor":"中間亦要詳辨命元淺薄"},
+    {"image":201,"folio":"005-102a","role":"targeted-context","anchor":"夫身弱見財官固喜陽刃分財合煞"},
+    {"image":202,"folio":"005-102b","role":"targeted-context","anchor":"又曰陽刃格大槩不宜財鄉"},
+    {"image":203,"folio":"005-103a","role":"targeted-context","anchor":"天干生官之財正為用神"},
+    {"image":204,"folio":"005-103b","role":"targeted-context","anchor":"甲申丁卯不為刃"},
+    {"image":218,"folio":"005-110b","role":"targeted-context","anchor":"建禄者乃甲日寅月乙日卯月"},
+    {"image":219,"folio":"005-111a","role":"targeted-context","anchor":"又不養多主貧賤"},
+    {"image":220,"folio":"005-111b","role":"targeted-context","anchor":"根在苗先實在花後"},
+    {"image":221,"folio":"005-112a","role":"targeted-context","anchor":"丁生午月金敗水絶"},
+    {"image":222,"folio":"005-112b","role":"targeted-context","anchor":"庚日申月上旬生近木餘氣"},
+    {"image":223,"folio":"005-113a","role":"targeted-context","anchor":"辛酉則為專禄","digitalAnchor":"辛酉則為専禄","difference":"專/専 glyph; anchor-only comparison."},
+    {"image":224,"folio":"005-113b","role":"targeted-context","anchor":"提綱建禄將何取"},
+    {"image":225,"folio":"005-114a","role":"targeted-context","anchor":"平論建禄與古人論禄"}
+  ],
+  "readings": [
+    {"section":"論正財","wholeSectionComplete":false,"clauses":[
+      {"id":"wealth-definition","image":83,"folio":"005-41a","text":"正財者乃甲見己乙見戊之例","digitalText":"正財者乃甲見巳乙見戊之例","difference":"Image read as stem 己; retained transcription has 巳. Preserve both, do not globally replace 巳/己."},
+      {"id":"wealth-strength-qualifier","image":84,"folio":"005-41b","text":"若財多身弱柱無印助財少身強柱有比刼太過不及皆不為福"},
+      {"id":"wealth-sequence","image":84,"folio":"005-41b","text":"先財後印反成其福先印後財反成其辱"},
+      {"id":"wealth-official-qualifier","image":85,"folio":"005-42a","text":"凡財格喜見官星顯露别無傷損或更食生印助日主健旺富貴雙全","digitalText":"凡財格喜見官星顯露别無傷損或更食生印助日主徤旺富貴雙全","difference":"健/徤 glyph retained explicitly."}
+    ],"implication":"Conditional source argument; not a claim that wealth labels or their count measure assets or income."},
+    {"section":"論偏財","wholeSectionComplete":false,"clauses":[
+      {"id":"indirect-wealth-definition","image":99,"folio":"005-49a","text":"何謂偏財乃甲見戊乙見己之例","digitalText":"何謂偏財乃甲見戊乙見巳之例","difference":"Image read as stem 己; comparator has 巳. Do not silently change comparator."},
+      {"id":"indirect-wealth-capacity","image":99,"folio":"005-49a","text":"但恐身勢無力不能勝任"},
+      {"id":"indirect-wealth-location","image":100,"folio":"005-49b","text":"月令所帶最重不宜柱中多逢"}
+    ],"implication":"Position and capacity are required by this passage; presence is not success and more is not automatically better."},
+    {"section":"論印綬","wholeSectionComplete":false,"clauses":[
+      {"id":"seal-group","image":114,"folio":"005-56b","text":"印綬者乃五行生我之名"},
+      {"id":"seal-official","image":114,"folio":"005-56b","text":"喜官星以官能生印"},
+      {"id":"seal-wealth","image":114,"folio":"005-56b","text":"忌財星以財能破印"},
+      {"id":"seal-exception","image":115,"folio":"005-57a","text":"若印綬少官鬼多或入他格又不可專言印綬","digitalText":"若印綬少官鬼多或入他格又不可専言印綬","difference":"專/専 glyph retained explicitly."}
+    ],"implication":"The chapter discusses the generating group, not exclusively the modern 正印 label. Its exceptions prohibit classifying solely by presence."},
+    {"section":"論倒食","wholeSectionComplete":false,"clauses":[
+      {"id":"no-food-only-indirect-seal","image":138,"folio":"005-68b","text":"柱中無食只以偏印論"}
+    ],"implication":"Now image-collated from the retained container, despite the earlier separate HTTP429. Does not turn the failed HTTP response into a successful page download."},
+    {"section":"論傷官","wholeSectionComplete":false,"clauses":[
+      {"id":"hurting-definition","image":154,"folio":"005-76b","text":"傷官者我生彼之謂乃甲見丁乙見丙之類"},
+      {"id":"hurting-completion","image":154,"folio":"005-76b","text":"傷官傷官格務要傷盡方作貴看元有官星傷之則重"},
+      {"id":"hurting-qualifiers","image":155,"folio":"005-77a","text":"如月令在傷官四柱作合結局皆在傷位無衝無破不見一點官星謂之傷盡","digitalText":"如月令在傷官四柱作合結局皆在傷位無衝無破不見一㸃官星謂之傷盡","difference":"點/㸃 glyph retained explicitly."},
+      {"id":"hurting-two-uses","image":156,"folio":"005-77b","text":"傷官格用財亦有用印者"},
+      {"id":"hurting-strength-branches","image":156,"folio":"005-77b","text":"身旺者用財身弱者用印"}
+    ],"implication":"Different conditional branches exist. No strength metric has been specified or verified; do not implement either branch from the label alone."},
+    {"section":"論食神","wholeSectionComplete":false,"clauses":[
+      {"id":"food-definition","image":169,"folio":"005-84a","text":"食神者日干所生順數第三位乃甲食丙乙食丁之例"},
+      {"id":"food-strength-qualifier","image":170,"folio":"005-84b","text":"此格要日主食神俱生旺"},
+      {"id":"food-indirect-seal","image":171,"folio":"005-85a","text":"食神大忌偏印為倒食"}
+    ],"implication":"Read together with the no-food clause: a generating/controlling relation is structural, not proof that a successful transformation or event follows."},
+    {"section":"論陽刃","wholeSectionComplete":false,"clauses":[
+      {"id":"blade-five-yang","image":198,"folio":"005-100b","text":"惟甲丙戊庚壬五陽干有刃乙丁己辛癸五陰干無刃故曰陽刃"},
+      {"id":"blade-three-names","image":199,"folio":"005-101a","text":"陽刃有三有刼財刃甲見乙是也不利財官格有護禄刃甲見卯是也大利歸禄格有背禄刃乙丙是也","digitalText":"陽刃有三有刼財刃甲見乙是也不利財官格有䕶禄刃甲見卯是也大利歸禄格有背禄刃乙丙是也","difference":"護/䕶 glyph retained explicitly."},
+      {"id":"blade-counterexample","image":204,"folio":"005-103b","text":"甲申丁卯不為刃申中有庚合卯中乙木為財"}
+    ],"implication":"Keep this chapter's five-yang scope and three context names separate from other ten-stem 羊刃 tables; an apparent pair may be qualified by the printed context. No accident/health forecasts."},
+    {"section":"論建禄","wholeSectionComplete":false,"clauses":[
+      {"id":"established-lu-definition","image":218,"folio":"005-110b","text":"建禄者乃甲日寅月乙日卯月五行臨官之位是也"},
+      {"id":"established-lu-other-pillars","image":219,"folio":"005-111a","text":"更看年時上露多者取用","digitalText":"更㸔年時上露多者取用","difference":"看/㸔 glyph retained explicitly."},
+      {"id":"established-lu-support","image":219,"folio":"005-111a","text":"如八字内外元有財官引旺得地官星有助"},
+      {"id":"established-lu-not-month-alone","image":224,"folio":"005-113b","text":"提綱建禄將何取須看年時多透露局中六格自分明莫泥提綱反為悮","digitalText":"提綱建禄將何取須㸔年時多透露局中六格自分明莫泥提綱反為悮","difference":"看/㸔 glyph retained explicitly."},
+      {"id":"established-lu-historical-qualification","image":225,"folio":"005-114a","text":"建禄舊無格近亦取以月支無可取之格而天干倘有財官貴氣故取建禄若比刼特發明其義耳"}
+    ],"implication":"Two explicit day/month examples plus general 臨官 definition. This chapter is not an explicit ten-pair table, nor permission to label every visible peer as 建禄 or to infer a useful god."}
+  ],
+  "explicitStemPairs": [
+    {"day":"甲","other":"己","relation":"Chính Tài","image":83},
+    {"day":"乙","other":"戊","relation":"Chính Tài","image":83},
+    {"day":"甲","other":"戊","relation":"Thiên Tài","image":99},
+    {"day":"乙","other":"己","relation":"Thiên Tài","image":99},
+    {"day":"甲","other":"丁","relation":"Thương Quan","image":154},
+    {"day":"乙","other":"丙","relation":"Thương Quan","image":154},
+    {"day":"甲","other":"丙","relation":"Thực Thần","image":169},
+    {"day":"乙","other":"丁","relation":"Thực Thần","image":169}
+  ],
+  "establishedLuExamples":[{"day":"甲","month":"寅","image":218},{"day":"乙","month":"卯","image":218}],
+  "bladeBranchExamples":[{"day":"甲","branch":"卯","image":202},{"day":"丙","branch":"午","image":202},{"day":"戊","branch":"午","image":202},{"day":"庚","branch":"酉","image":202},{"day":"壬","branch":"子","image":202}],
+  "completion":{"newTargetedClauses":28,"newPartialSections":8,"localPageImages":31,"newContextPages":29,"calibrationPages":2,"wholeVolumeComplete":false,"fullClassifierImplemented":false,"strengthMethodValidated":false,"usefulGodMethodValidated":false}
+}

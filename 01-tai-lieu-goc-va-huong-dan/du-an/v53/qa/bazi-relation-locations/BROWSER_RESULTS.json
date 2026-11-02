@@ -1,0 +1,110 @@
+{
+  "checks": [
+    {
+      "name": "Each relation now has a separate visible and hidden location list inside collapsed details",
+      "ok": true
+    },
+    {
+      "name": "Default-closed TXT now contains the exact authored meaning missing from the prior release",
+      "ok": true
+    },
+    {
+      "name": "TXT records explicit pillar and stem positions",
+      "ok": true
+    },
+    {
+      "name": "Export restores a closed relation guide",
+      "ok": true
+    },
+    {
+      "name": "Export preserves an already-open relation guide",
+      "ok": true
+    },
+    {
+      "name": "A hidden-only official relation is not presented as visible or a confirmed pattern",
+      "ok": true
+    },
+    {
+      "name": "The day reference is absent from all visible-location entries",
+      "ok": true
+    },
+    {
+      "name": "Unknown birth hour creates no hour location and explains the three-pillar scope",
+      "ok": true
+    },
+    {
+      "name": "Saved known-time profile recomputes its correct relation locations",
+      "ok": true
+    },
+    {
+      "name": "Saved profile stores input rather than derived location/strength data",
+      "ok": true
+    },
+    {
+      "name": "Before print expands relation meanings and locations while hiding the form",
+      "ok": true
+    },
+    {
+      "name": "After print restores the previously closed guide",
+      "ok": true
+    },
+    {
+      "name": "Print also preserves a guide that was already open",
+      "ok": true
+    },
+    {
+      "name": "Real PDF generation also restores closed state",
+      "ok": true
+    },
+    {
+      "name": "320px: expanded locations fit the viewport",
+      "ok": true,
+      "detail": {
+        "page": 320,
+        "screen": 320
+      }
+    },
+    {
+      "name": "390px: expanded locations fit the viewport",
+      "ok": true,
+      "detail": {
+        "page": 390,
+        "screen": 390
+      }
+    },
+    {
+      "name": "768px: expanded locations fit the viewport",
+      "ok": true,
+      "detail": {
+        "page": 768,
+        "screen": 768
+      }
+    },
+    {
+      "name": "1440px: expanded locations fit the viewport",
+      "ok": true,
+      "detail": {
+        "page": 1440,
+        "screen": 1440
+      }
+    },
+    {
+      "name": "Ambiguous date suppresses the relation cards and all derived locations",
+      "ok": true
+    },
+    {
+      "name": "Changing input removes stale relation locations and export actions",
+      "ok": true
+    },
+    {
+      "name": "Standalone reading has no HTTP requests, JavaScript errors or internal research panels",
+      "ok": true,
+      "detail": {
+        "http": [],
+        "errors": []
+      }
+    }
+  ],
+  "errors": [],
+  "http": []
+}

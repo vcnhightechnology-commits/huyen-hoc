@@ -1,0 +1,185 @@
+{
+  "date": "2026-10-28",
+  "checks": [
+    {
+      "name": "Five source phases preserve25slots with one literal因unclassified, not repaired by a common formula",
+      "ok": true
+    },
+    {
+      "name": "Known direct coordinates retain distinctions among spring, autumn and separately named sixth month",
+      "ok": true
+    },
+    {
+      "name": "Calendar dates, solar-month labels and unknown inputs do not silently pick a source phase",
+      "ok": true
+    },
+    {
+      "name": "Seasonal states never become numeric strength, twelve growth stages or fortune verdicts",
+      "ok": true
+    },
+    {
+      "name": "Wrong systems, aliases, extras and mutable returned source rows cannot corrupt the canonical table",
+      "ok": true
+    }
+  ],
+  "coordinates": [
+    {
+      "phase": "spring",
+      "element": "木",
+      "literal": "旺",
+      "recognized": "旺"
+    },
+    {
+      "phase": "spring",
+      "element": "火",
+      "literal": "相",
+      "recognized": "相"
+    },
+    {
+      "phase": "spring",
+      "element": "土",
+      "literal": "死",
+      "recognized": "死"
+    },
+    {
+      "phase": "spring",
+      "element": "金",
+      "literal": "囚",
+      "recognized": "囚"
+    },
+    {
+      "phase": "spring",
+      "element": "水",
+      "literal": "休",
+      "recognized": "休"
+    },
+    {
+      "phase": "summer",
+      "element": "木",
+      "literal": "休",
+      "recognized": "休"
+    },
+    {
+      "phase": "summer",
+      "element": "火",
+      "literal": "旺",
+      "recognized": "旺"
+    },
+    {
+      "phase": "summer",
+      "element": "土",
+      "literal": "相",
+      "recognized": "相"
+    },
+    {
+      "phase": "summer",
+      "element": "金",
+      "literal": "死",
+      "recognized": "死"
+    },
+    {
+      "phase": "summer",
+      "element": "水",
+      "literal": "因",
+      "recognized": null
+    },
+    {
+      "phase": "sixth-month-earth",
+      "element": "木",
+      "literal": "囚",
+      "recognized": "囚"
+    },
+    {
+      "phase": "sixth-month-earth",
+      "element": "火",
+      "literal": "休",
+      "recognized": "休"
+    },
+    {
+      "phase": "sixth-month-earth",
+      "element": "土",
+      "literal": "旺",
+      "recognized": "旺"
+    },
+    {
+      "phase": "sixth-month-earth",
+      "element": "金",
+      "literal": "相",
+      "recognized": "相"
+    },
+    {
+      "phase": "sixth-month-earth",
+      "element": "水",
+      "literal": "死",
+      "recognized": "死"
+    },
+    {
+      "phase": "autumn",
+      "element": "木",
+      "literal": "死",
+      "recognized": "死"
+    },
+    {
+      "phase": "autumn",
+      "element": "火",
+      "literal": "囚",
+      "recognized": "囚"
+    },
+    {
+      "phase": "autumn",
+      "element": "土",
+      "literal": "休",
+      "recognized": "休"
+    },
+    {
+      "phase": "autumn",
+      "element": "金",
+      "literal": "旺",
+      "recognized": "旺"
+    },
+    {
+      "phase": "autumn",
+      "element": "水",
+      "literal": "相",
+      "recognized": "相"
+    },
+    {
+      "phase": "winter",
+      "element": "木",
+      "literal": "相",
+      "recognized": "相"
+    },
+    {
+      "phase": "winter",
+      "element": "火",
+      "literal": "死",
+      "recognized": "死"
+    },
+    {
+      "phase": "winter",
+      "element": "土",
+      "literal": "囚",
+      "recognized": "囚"
+    },
+    {
+      "phase": "winter",
+      "element": "金",
+      "literal": "休",
+      "recognized": "休"
+    },
+    {
+      "phase": "winter",
+      "element": "水",
+      "literal": "旺",
+      "recognized": "旺"
+    }
+  ],
+  "sourceSlots": 25,
+  "recognizedStateSlots": 24,
+  "unclassifiedLiteralSlots": 1,
+  "actualCalendarOrHHCEngineCalls": 0,
+  "noEngineComparisonClaimed": true,
+  "datePhaseMappingValidated": false,
+  "fullStrengthEstablished": false,
+  "consumerChanged": false
+}

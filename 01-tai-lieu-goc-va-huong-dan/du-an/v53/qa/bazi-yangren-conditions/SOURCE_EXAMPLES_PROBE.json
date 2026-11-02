@@ -1,0 +1,91 @@
+{
+  "date": "2026-10-28",
+  "status": "staging-feasibility-only-not-full-conditional-rule-check",
+  "engineSHA256": "39f08bd1887faca4d35f7ad415ebf596621010d530b489212774d5cbf99040e6",
+  "actualPublicFromBaZiCalls": 2,
+  "actualEightCharCalls": 2,
+  "actualHHCBaziCalls": 2,
+  "sourceExamples": [
+    {
+      "sourceContainerPage": 218,
+      "sourcePillars": [
+        "壬申",
+        "壬子",
+        "戊午",
+        "乙卯"
+      ],
+      "searchBaseYear": 1900,
+      "searchMaximumIncludedYear": 2026,
+      "runtimeSearchLoopEndYear": 2026,
+      "matchingModernDateCount": 2,
+      "GregorianBirthDateAttributedToHistoricalPerson": false,
+      "sourceOutcomeValidated": false,
+      "fixtureInput": {
+        "y": 1932,
+        "m": 12,
+        "d": 23,
+        "hour": 6,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualLunarPillars": [
+        "壬申",
+        "壬子",
+        "戊午",
+        "乙卯"
+      ],
+      "actualHHCPillars": [
+        "壬申",
+        "壬子",
+        "戊午",
+        "乙卯"
+      ],
+      "genderFixtureIsNotSourceClaim": true
+    },
+    {
+      "sourceContainerPage": 218,
+      "sourcePillars": [
+        "丙戌",
+        "癸巳",
+        "戊午",
+        "丁巳"
+      ],
+      "searchBaseYear": 1900,
+      "searchMaximumIncludedYear": 2026,
+      "runtimeSearchLoopEndYear": 2026,
+      "matchingModernDateCount": 1,
+      "GregorianBirthDateAttributedToHistoricalPerson": false,
+      "sourceOutcomeValidated": false,
+      "fixtureInput": {
+        "y": 2006,
+        "m": 5,
+        "d": 29,
+        "hour": 10,
+        "minute": 0,
+        "tz": 8,
+        "gender": "male",
+        "dayPolicy": "midnight",
+        "lateZiHour": "day"
+      },
+      "actualLunarPillars": [
+        "丙戌",
+        "癸巳",
+        "戊午",
+        "丁巳"
+      ],
+      "actualHHCPillars": [
+        "丙戌",
+        "癸巳",
+        "戊午",
+        "丁巳"
+      ],
+      "genderFixtureIsNotSourceClaim": true
+    }
+  ],
+  "sourceChronologyEstablished": false,
+  "historicalOutcomesValidated": false,
+  "consumerChanged": false
+}

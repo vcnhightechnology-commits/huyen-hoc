@@ -1,0 +1,52 @@
+{
+  "schema": "hhc.ai10.test-integrity-gates.v1",
+  "date": "2026-11-01",
+  "catalogue": "AI-10",
+  "branch": "codex/ai-10-tam-thuc",
+  "lastConfirmedGitHubHead": "3fba778df2db68cd0fdbb472a271b1322dcc66ae",
+  "githubConnectorStatus": "HTTP_403_account_suspended",
+  "githubPushCompleted": false,
+  "githubPRUpdated": false,
+  "vulnerabilitiesReproduced": [
+    {
+      "id": "MANIFEST_SHRINK_HEAD_BYPASS",
+      "previousRunnerExitCode": 0,
+      "afterFixRunnerExitCode": 1,
+      "previouslyExecutedReducedSuite": true,
+      "afterFixExecutedReducedSuite": false
+    },
+    {
+      "id": "DYNAMIC_NEW_URL_INVISIBLE",
+      "previousPreflightPassed": true,
+      "afterFixPreflightPassed": false,
+      "issue": "DYNAMIC_URL_UNINSPECTED"
+    },
+    {
+      "id": "EMPTY_TEST_SUITE_AUTO_DISCOVERY",
+      "previousEmptyManifestAccepted": true,
+      "afterFixEmptyManifestAccepted": false,
+      "afterFixEmptyGitHeadAccepted": false,
+      "afterFixNodeAutoDiscoveryPrevented": true
+    }
+  ],
+  "nodeVersion": "22.16.0",
+  "locallyPresentTestFiles": 13,
+  "manifestTestFiles": 24,
+  "missingTestFiles": 11,
+  "priorTestCases": 102,
+  "newTestCases": 16,
+  "locallyExecutedTestCases": 118,
+  "locallyPassedTestCases": 118,
+  "locallyFailedTestCases": 0,
+  "originalGitHubCompleteTestSuiteExecuted": false,
+  "GitHubActionsVerified": false,
+  "V53RegressionRun": false,
+  "cleanSyntheticGitHeadTwoTestCliPassed": true,
+  "shrunkManifestGitHeadCliBlocked": true,
+  "allSourceModulesTestedOnRealCompleteCheckout": false,
+  "sourceManuscriptVerifiedThisRound": false,
+  "consumerChanged": false,
+  "wholeWorkApplied": false,
+  "mainModified": false,
+  "researchResult": "Reproduced and blocked two independent preflight false positives, no divination engine changes."
+}

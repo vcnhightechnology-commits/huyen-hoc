@@ -1,0 +1,362 @@
+{
+  "date": "2026-10-25T17:20:40.413Z",
+  "checks": [
+    {
+      "name": "Calculation, hexagram content and image registry remain byte-identical",
+      "ok": true
+    },
+    {
+      "name": "1440px: layout has no page overflow",
+      "ok": true,
+      "detail": {
+        "navTop": 425,
+        "formTop": 665,
+        "heroHeight": 337,
+        "page": 1440,
+        "width": 1440
+      }
+    },
+    {
+      "name": "1440px: forms appear earlier than the prior release",
+      "ok": true,
+      "detail": {
+        "before": 850,
+        "after": 665,
+        "pixelsEarlier": 185
+      }
+    },
+    {
+      "name": "1440px: all five task choices are visible and labeled",
+      "ok": true
+    },
+    {
+      "name": "1024px: layout has no page overflow",
+      "ok": true,
+      "detail": {
+        "navTop": 396,
+        "formTop": 638,
+        "heroHeight": 308,
+        "page": 1024,
+        "width": 1024
+      }
+    },
+    {
+      "name": "1024px: all five task choices are visible and labeled",
+      "ok": true
+    },
+    {
+      "name": "768px: layout has no page overflow",
+      "ok": true,
+      "detail": {
+        "navTop": 373,
+        "formTop": 618,
+        "heroHeight": 295,
+        "page": 768,
+        "width": 768
+      }
+    },
+    {
+      "name": "768px: all five task choices are visible and labeled",
+      "ok": true
+    },
+    {
+      "name": "650px: layout has no page overflow",
+      "ok": true,
+      "detail": {
+        "navTop": 384,
+        "formTop": 623,
+        "heroHeight": 312,
+        "page": 650,
+        "width": 650
+      }
+    },
+    {
+      "name": "650px: all five task choices are visible and labeled",
+      "ok": true
+    },
+    {
+      "name": "390px: layout has no page overflow",
+      "ok": true,
+      "detail": {
+        "navTop": 399,
+        "formTop": 638,
+        "heroHeight": 327,
+        "page": 390,
+        "width": 390
+      }
+    },
+    {
+      "name": "390px: forms appear earlier than the prior release",
+      "ok": true,
+      "detail": {
+        "before": 739,
+        "after": 638,
+        "pixelsEarlier": 101
+      }
+    },
+    {
+      "name": "390px: all five task choices are visible and labeled",
+      "ok": true
+    },
+    {
+      "name": "320px: layout has no page overflow",
+      "ok": true,
+      "detail": {
+        "navTop": 390,
+        "formTop": 629,
+        "heroHeight": 318,
+        "page": 320,
+        "width": 320
+      }
+    },
+    {
+      "name": "320px: forms appear earlier than the prior release",
+      "ok": true,
+      "detail": {
+        "before": 807,
+        "after": 629,
+        "pixelsEarlier": 178
+      }
+    },
+    {
+      "name": "320px: all five task choices are visible and labeled",
+      "ok": true
+    },
+    {
+      "name": "Mobile hero keeps text clear of the artwork and the first form close",
+      "ok": true,
+      "detail": {
+        "headlineClear": true,
+        "descriptionClear": true,
+        "artHeight": 140,
+        "formTop": 637.984375
+      }
+    },
+    {
+      "name": "Mobile labels, input and main action are comfortably sized",
+      "ok": true,
+      "detail": {
+        "label": 14,
+        "input": 16,
+        "primary": 15
+      }
+    },
+    {
+      "name": "Primary hero link reaches task selection",
+      "ok": true
+    },
+    {
+      "name": "Task bazi still switches its form and active state",
+      "ok": true
+    },
+    {
+      "name": "Task destiny still switches its form and active state",
+      "ok": true
+    },
+    {
+      "name": "Task directions still switches its form and active state",
+      "ok": true
+    },
+    {
+      "name": "Task yi still switches its form and active state",
+      "ok": true
+    },
+    {
+      "name": "Task tuvi still switches its form and active state",
+      "ok": true
+    },
+    {
+      "name": "Reading paragraphs use at least 15px text and generous line spacing",
+      "ok": true,
+      "detail": {
+        "size": 15,
+        "line": 27.75,
+        "color": "rgb(67, 86, 64)"
+      }
+    },
+    {
+      "name": "Main reading and primary button meet 4.5:1 text contrast",
+      "ok": true,
+      "detail": {
+        "reading": 7.870904026539412,
+        "button": 10.25024196617519
+      }
+    },
+    {
+      "name": "Result remains savable",
+      "ok": true
+    },
+    {
+      "name": "Consumer export remains free of design research and source names",
+      "ok": true
+    },
+    {
+      "name": "1440px: chart and larger reading fit without page overflow",
+      "ok": true,
+      "detail": {
+        "page": 1440,
+        "width": 1440,
+        "chart": 802
+      }
+    },
+    {
+      "name": "768px: chart and larger reading fit without page overflow",
+      "ok": true,
+      "detail": {
+        "page": 768,
+        "width": 768,
+        "chart": 402
+      }
+    },
+    {
+      "name": "390px: chart and larger reading fit without page overflow",
+      "ok": true,
+      "detail": {
+        "page": 390,
+        "width": 390,
+        "chart": 312
+      }
+    },
+    {
+      "name": "320px: chart and larger reading fit without page overflow",
+      "ok": true,
+      "detail": {
+        "page": 320,
+        "width": 320,
+        "chart": 248
+      }
+    },
+    {
+      "name": "Print keeps the result and hides navigation, forms and hero",
+      "ok": true
+    },
+    {
+      "name": "Help dialog remains readable and keyboard closable",
+      "ok": true
+    },
+    {
+      "name": "Product DOM does not expose competitor research or external references",
+      "ok": true
+    },
+    {
+      "name": "No runtime errors or HTTP dependencies",
+      "ok": true,
+      "detail": {
+        "errors": [],
+        "requests": []
+      }
+    }
+  ],
+  "comparison": [
+    {
+      "width": 1440,
+      "before": {
+        "navTop": 611,
+        "formTop": 850,
+        "heroHeight": 501,
+        "page": 1440,
+        "width": 1440
+      },
+      "after": {
+        "navTop": 425,
+        "formTop": 665,
+        "heroHeight": 337,
+        "page": 1440,
+        "width": 1440
+      },
+      "formPixelsEarlier": 185
+    },
+    {
+      "width": 1024,
+      "before": {
+        "navTop": 545,
+        "formTop": 784,
+        "heroHeight": 435,
+        "page": 1024,
+        "width": 1024
+      },
+      "after": {
+        "navTop": 396,
+        "formTop": 638,
+        "heroHeight": 308,
+        "page": 1024,
+        "width": 1024
+      },
+      "formPixelsEarlier": 146
+    },
+    {
+      "width": 768,
+      "before": {
+        "navTop": 431,
+        "formTop": 667,
+        "heroHeight": 342,
+        "page": 768,
+        "width": 768
+      },
+      "after": {
+        "navTop": 373,
+        "formTop": 618,
+        "heroHeight": 295,
+        "page": 768,
+        "width": 768
+      },
+      "formPixelsEarlier": 49
+    },
+    {
+      "width": 650,
+      "before": {
+        "navTop": 659,
+        "formTop": 856,
+        "heroHeight": 579,
+        "page": 650,
+        "width": 650
+      },
+      "after": {
+        "navTop": 384,
+        "formTop": 623,
+        "heroHeight": 312,
+        "page": 650,
+        "width": 650
+      },
+      "formPixelsEarlier": 233
+    },
+    {
+      "width": 390,
+      "before": {
+        "navTop": 542,
+        "formTop": 739,
+        "heroHeight": 462,
+        "page": 390,
+        "width": 390
+      },
+      "after": {
+        "navTop": 399,
+        "formTop": 638,
+        "heroHeight": 327,
+        "page": 390,
+        "width": 390
+      },
+      "formPixelsEarlier": 101
+    },
+    {
+      "width": 320,
+      "before": {
+        "navTop": 575,
+        "formTop": 807,
+        "heroHeight": 495,
+        "page": 320,
+        "width": 320
+      },
+      "after": {
+        "navTop": 390,
+        "formTop": 629,
+        "heroHeight": 318,
+        "page": 320,
+        "width": 320
+      },
+      "formPixelsEarlier": 178
+    }
+  ],
+  "errors": [],
+  "requests": []
+}

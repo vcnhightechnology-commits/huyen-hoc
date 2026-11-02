@@ -1,0 +1,130 @@
+{
+  "checks": [
+    {
+      "name": "34.4: single selected reflection and collapsed context keep the revised wording and prompt",
+      "ok": true
+    },
+    {
+      "name": "34.4: TXT retains the full revised reflection,six positions and restores collapsed context",
+      "ok": true
+    },
+    {
+      "name": "34.4: print shows full context and revised line while hiding input controls",
+      "ok": true
+    },
+    {
+      "name": "35.5: single selected reflection and collapsed context keep the revised wording and prompt",
+      "ok": true
+    },
+    {
+      "name": "35.5: TXT retains the full revised reflection,six positions and restores collapsed context",
+      "ok": true
+    },
+    {
+      "name": "35.5: print shows full context and revised line while hiding input controls",
+      "ok": true
+    },
+    {
+      "name": "47.4: single selected reflection and collapsed context keep the revised wording and prompt",
+      "ok": true
+    },
+    {
+      "name": "47.4: TXT retains the full revised reflection,six positions and restores collapsed context",
+      "ok": true
+    },
+    {
+      "name": "47.4: print shows full context and revised line while hiding input controls",
+      "ok": true
+    },
+    {
+      "name": "50.4: single selected reflection and collapsed context keep the revised wording and prompt",
+      "ok": true
+    },
+    {
+      "name": "50.4: TXT retains the full revised reflection,six positions and restores collapsed context",
+      "ok": true
+    },
+    {
+      "name": "50.4: print shows full context and revised line while hiding input controls",
+      "ok": true
+    },
+    {
+      "name": "59.1: single selected reflection and collapsed context keep the revised wording and prompt",
+      "ok": true
+    },
+    {
+      "name": "59.1: TXT retains the full revised reflection,six positions and restores collapsed context",
+      "ok": true
+    },
+    {
+      "name": "59.1: print shows full context and revised line while hiding input controls",
+      "ok": true
+    },
+    {
+      "name": "61.4: single selected reflection and collapsed context keep the revised wording and prompt",
+      "ok": true
+    },
+    {
+      "name": "61.4: TXT retains the full revised reflection,six positions and restores collapsed context",
+      "ok": true
+    },
+    {
+      "name": "61.4: print shows full context and revised line while hiding input controls",
+      "ok": true
+    },
+    {
+      "name": "Saved input profile reopens TrungPhu with the same single moving position and respectful revised prompt",
+      "ok": true
+    },
+    {
+      "name": "320px: longer reflection and practice text have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "width": 320,
+        "page": 320
+      }
+    },
+    {
+      "name": "390px: longer reflection and practice text have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "width": 390,
+        "page": 390
+      }
+    },
+    {
+      "name": "768px: longer reflection and practice text have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "width": 768,
+        "page": 768
+      }
+    },
+    {
+      "name": "1440px: longer reflection and practice text have no horizontal overflow",
+      "ok": true,
+      "detail": {
+        "width": 1440,
+        "page": 1440
+      }
+    },
+    {
+      "name": "The clarified Khốn title and help context are visible together",
+      "ok": true
+    },
+    {
+      "name": "Editing a cast clears its stale reading and export actions",
+      "ok": true
+    },
+    {
+      "name": "No JavaScript errors,HTTP requests or source/variant panels appear in the consumer HTML",
+      "ok": true,
+      "detail": {
+        "errors": [],
+        "http": []
+      }
+    }
+  ],
+  "errors": [],
+  "http": []
+}

@@ -1,0 +1,634 @@
+{
+  "schema": "hhc.liuyao.structural-rules.v1",
+  "date": "2026-10-27",
+  "tradition": "Selected operational foundations read in the two retained editions; not a universal predictive system.",
+  "palaces": [
+    {
+      "han": "乾",
+      "trigram": 1,
+      "element": "金",
+      "numbers": [
+        1,
+        44,
+        33,
+        12,
+        20,
+        23,
+        35,
+        14
+      ],
+      "normalizedNames": [
+        "乾為天",
+        "天風姤",
+        "天山遯",
+        "天地否",
+        "風地觀",
+        "山地剝",
+        "火地晉",
+        "火天大有"
+      ],
+      "evidence": [
+        {
+          "source": "bushi",
+          "pdfPages": [
+            20,
+            21
+          ]
+        },
+        {
+          "source": "zengshan",
+          "pdfPages": [
+            24,
+            25,
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "han": "坎",
+      "trigram": 6,
+      "element": "水",
+      "numbers": [
+        29,
+        60,
+        3,
+        63,
+        49,
+        55,
+        36,
+        7
+      ],
+      "normalizedNames": [
+        "坎為水",
+        "水澤節",
+        "水雷屯",
+        "水火既濟",
+        "澤火革",
+        "雷火豐",
+        "地火明夷",
+        "地水師"
+      ],
+      "evidence": [
+        {
+          "source": "bushi",
+          "pdfPages": [
+            20,
+            21
+          ]
+        },
+        {
+          "source": "zengshan",
+          "pdfPages": [
+            24,
+            25,
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "han": "艮",
+      "trigram": 7,
+      "element": "土",
+      "numbers": [
+        52,
+        22,
+        26,
+        41,
+        38,
+        10,
+        61,
+        53
+      ],
+      "normalizedNames": [
+        "艮為山",
+        "山火賁",
+        "山天大畜",
+        "山澤損",
+        "火澤睽",
+        "天澤履",
+        "風澤中孚",
+        "風山漸"
+      ],
+      "evidence": [
+        {
+          "source": "bushi",
+          "pdfPages": [
+            20,
+            21
+          ]
+        },
+        {
+          "source": "zengshan",
+          "pdfPages": [
+            24,
+            25,
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "han": "震",
+      "trigram": 4,
+      "element": "木",
+      "numbers": [
+        51,
+        16,
+        40,
+        32,
+        46,
+        48,
+        28,
+        17
+      ],
+      "normalizedNames": [
+        "震為雷",
+        "雷地豫",
+        "雷水解",
+        "雷風恒",
+        "地風升",
+        "水風井",
+        "澤風大過",
+        "澤雷隨"
+      ],
+      "evidence": [
+        {
+          "source": "bushi",
+          "pdfPages": [
+            20,
+            21
+          ]
+        },
+        {
+          "source": "zengshan",
+          "pdfPages": [
+            24,
+            25,
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "han": "巽",
+      "trigram": 5,
+      "element": "木",
+      "numbers": [
+        57,
+        9,
+        37,
+        42,
+        25,
+        21,
+        27,
+        18
+      ],
+      "normalizedNames": [
+        "巽為風",
+        "風天小畜",
+        "風火家人",
+        "風雷益",
+        "天雷無妄",
+        "火雷噬嗑",
+        "山雷頤",
+        "山風蠱"
+      ],
+      "evidence": [
+        {
+          "source": "bushi",
+          "pdfPages": [
+            20,
+            21
+          ]
+        },
+        {
+          "source": "zengshan",
+          "pdfPages": [
+            24,
+            25,
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "han": "離",
+      "trigram": 3,
+      "element": "火",
+      "numbers": [
+        30,
+        56,
+        50,
+        64,
+        4,
+        59,
+        6,
+        13
+      ],
+      "normalizedNames": [
+        "離為火",
+        "火山旅",
+        "火風鼎",
+        "火水未濟",
+        "山水蒙",
+        "風水渙",
+        "天水訟",
+        "天火同人"
+      ],
+      "evidence": [
+        {
+          "source": "bushi",
+          "pdfPages": [
+            20,
+            21
+          ]
+        },
+        {
+          "source": "zengshan",
+          "pdfPages": [
+            24,
+            25,
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "han": "坤",
+      "trigram": 8,
+      "element": "土",
+      "numbers": [
+        2,
+        24,
+        19,
+        11,
+        34,
+        43,
+        5,
+        8
+      ],
+      "normalizedNames": [
+        "坤為地",
+        "地雷復",
+        "地澤臨",
+        "地天泰",
+        "雷天大壯",
+        "澤天夬",
+        "水天需",
+        "水地比"
+      ],
+      "evidence": [
+        {
+          "source": "bushi",
+          "pdfPages": [
+            20,
+            21
+          ]
+        },
+        {
+          "source": "zengshan",
+          "pdfPages": [
+            24,
+            25,
+            26
+          ]
+        }
+      ]
+    },
+    {
+      "han": "兌",
+      "trigram": 2,
+      "element": "金",
+      "numbers": [
+        58,
+        47,
+        45,
+        31,
+        39,
+        15,
+        62,
+        54
+      ],
+      "normalizedNames": [
+        "兌為澤",
+        "澤水困",
+        "澤地萃",
+        "澤山咸",
+        "水山蹇",
+        "地山謙",
+        "雷山小過",
+        "雷澤歸妹"
+      ],
+      "evidence": [
+        {
+          "source": "bushi",
+          "pdfPages": [
+            20,
+            21
+          ]
+        },
+        {
+          "source": "zengshan",
+          "pdfPages": [
+            24,
+            25,
+            26
+          ]
+        }
+      ]
+    }
+  ],
+  "namePolicy": "Semantic hexagram identity normalized; KingWen numbers/trigram indices are editorial identifiers, not printed numerals or diplomatic allograph transcription.",
+  "binaryMasksBottomLSB": [
+    0,
+    1,
+    3,
+    7,
+    15,
+    31,
+    23,
+    16
+  ],
+  "binaryMaskPolicy": "Computational inference checked against64printed memberships and the actual HHC engine; not moving-line history.",
+  "najia": [
+    {
+      "trigram": 1,
+      "han": "乾",
+      "lowerBottomToTop": [
+        "甲子",
+        "甲寅",
+        "甲辰"
+      ],
+      "upperBottomToTop": [
+        "壬午",
+        "壬申",
+        "壬戌"
+      ]
+    },
+    {
+      "trigram": 2,
+      "han": "兌",
+      "lowerBottomToTop": [
+        "丁巳",
+        "丁卯",
+        "丁丑"
+      ],
+      "upperBottomToTop": [
+        "丁亥",
+        "丁酉",
+        "丁未"
+      ]
+    },
+    {
+      "trigram": 3,
+      "han": "離",
+      "lowerBottomToTop": [
+        "己卯",
+        "己丑",
+        "己亥"
+      ],
+      "upperBottomToTop": [
+        "己酉",
+        "己未",
+        "己巳"
+      ]
+    },
+    {
+      "trigram": 4,
+      "han": "震",
+      "lowerBottomToTop": [
+        "庚子",
+        "庚寅",
+        "庚辰"
+      ],
+      "upperBottomToTop": [
+        "庚午",
+        "庚申",
+        "庚戌"
+      ]
+    },
+    {
+      "trigram": 5,
+      "han": "巽",
+      "lowerBottomToTop": [
+        "辛丑",
+        "辛亥",
+        "辛酉"
+      ],
+      "upperBottomToTop": [
+        "辛未",
+        "辛巳",
+        "辛卯"
+      ]
+    },
+    {
+      "trigram": 6,
+      "han": "坎",
+      "lowerBottomToTop": [
+        "戊寅",
+        "戊辰",
+        "戊午"
+      ],
+      "upperBottomToTop": [
+        "戊申",
+        "戊戌",
+        "戊子"
+      ]
+    },
+    {
+      "trigram": 7,
+      "han": "艮",
+      "lowerBottomToTop": [
+        "丙辰",
+        "丙午",
+        "丙申"
+      ],
+      "upperBottomToTop": [
+        "丙戌",
+        "丙子",
+        "丙寅"
+      ]
+    },
+    {
+      "trigram": 8,
+      "han": "坤",
+      "lowerBottomToTop": [
+        "乙未",
+        "乙巳",
+        "乙卯"
+      ],
+      "upperBottomToTop": [
+        "癸丑",
+        "癸亥",
+        "癸酉"
+      ]
+    }
+  ],
+  "najiaEvidence": {
+    "source": "bushi",
+    "pdfPage": 21,
+    "fragment": "納甲裝卦歌（從下裝起）",
+    "corroboration": {
+      "source": "zengshan",
+      "pdfPages": [
+        45,
+        46
+      ]
+    }
+  },
+  "branchElements": {
+    "子": "水",
+    "丑": "土",
+    "寅": "木",
+    "卯": "木",
+    "辰": "土",
+    "巳": "火",
+    "午": "火",
+    "未": "土",
+    "申": "金",
+    "酉": "金",
+    "戌": "土",
+    "亥": "水"
+  },
+  "kinMatrix": {
+    "金": {
+      "金": "兄弟",
+      "土": "父母",
+      "木": "妻財",
+      "火": "官鬼",
+      "水": "子孫"
+    },
+    "水": {
+      "水": "兄弟",
+      "火": "妻財",
+      "土": "官鬼",
+      "金": "父母",
+      "木": "子孫"
+    },
+    "土": {
+      "土": "兄弟",
+      "火": "父母",
+      "木": "官鬼",
+      "水": "妻財",
+      "金": "子孫"
+    },
+    "火": {
+      "火": "兄弟",
+      "水": "官鬼",
+      "土": "子孫",
+      "木": "父母",
+      "金": "妻財"
+    },
+    "木": {
+      "木": "兄弟",
+      "水": "父母",
+      "金": "官鬼",
+      "火": "子孫",
+      "土": "妻財"
+    }
+  },
+  "kinEvidence": {
+    "source": "zengshan",
+    "pdfPages": [
+      46,
+      47
+    ],
+    "heading": "六親歌第五",
+    "basis": "Primary hexagram palace element, including changed-line annotations; never day-master or changed hexagram palace."
+  },
+  "stages": [
+    "本宮",
+    "一世",
+    "二世",
+    "三世",
+    "四世",
+    "五世",
+    "遊魂",
+    "歸魂"
+  ],
+  "shiByStage": [
+    6,
+    1,
+    2,
+    3,
+    4,
+    5,
+    4,
+    3
+  ],
+  "yingByStage": [
+    3,
+    4,
+    5,
+    6,
+    1,
+    2,
+    1,
+    6
+  ],
+  "roleEvidence": {
+    "source": "zengshan",
+    "pdfPage": 47,
+    "fragment": "隔世爻兩位即是應爻",
+    "explicitQianStages": true,
+    "corroboration": {
+      "source": "bushi",
+      "pdfPages": [
+        21,
+        22
+      ]
+    }
+  },
+  "changedPolicy": {
+    "source": "zengshan",
+    "pdfPages": [
+      44,
+      45
+    ],
+    "fragments": [
+      "六親須照前卦而論也",
+      "餘爻不動不變不必寫出"
+    ],
+    "onlyMovingLineAnnotations": true,
+    "kinBasis": "original-palace",
+    "changedOwnPalaceIsKinBasis": false,
+    "changedShiYingReassigned": false
+  },
+  "sixSpirits": {
+    "order": [
+      "青龍",
+      "朱雀",
+      "勾陳",
+      "螣蛇",
+      "白虎",
+      "玄武"
+    ],
+    "starts": {
+      "甲": "青龍",
+      "乙": "青龍",
+      "丙": "朱雀",
+      "丁": "朱雀",
+      "戊": "勾陳",
+      "己": "螣蛇",
+      "庚": "白虎",
+      "辛": "白虎",
+      "壬": "玄武",
+      "癸": "玄武"
+    },
+    "evidence": {
+      "source": "bushi",
+      "pdfPage": 22,
+      "literalRowsDayStems": [
+        "甲乙",
+        "丙丁"
+      ],
+      "otherRotations": "derived, not separately printed rows"
+    },
+    "input": "Explicit day stem only; absent input gives no spirit labels. No date-boundary/calendar adapter inferred."
+  },
+  "consumerApplied": false,
+  "predictionModel": null,
+  "fullLiuYaoImplemented": false
+}

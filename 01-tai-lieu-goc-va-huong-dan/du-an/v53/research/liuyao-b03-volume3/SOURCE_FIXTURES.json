@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-27",
+  "trigramFanYinExamples": [
+    {
+      "id": "pure-qian-xun",
+      "number": 1,
+      "changedNumber": 57,
+      "pdfPages": [
+        9,
+        10
+      ],
+      "expectedDirectionalFanYin": "both"
+    },
+    {
+      "id": "gou-xiaoxu",
+      "number": 44,
+      "changedNumber": 9,
+      "pdfPages": [
+        9,
+        10
+      ],
+      "expectedDirectionalFanYin": "both"
+    },
+    {
+      "id": "kan-li",
+      "number": 29,
+      "changedNumber": 30,
+      "pdfPages": [
+        9,
+        10
+      ],
+      "expectedDirectionalFanYin": "both"
+    },
+    {
+      "id": "jiji-weiji",
+      "number": 63,
+      "changedNumber": 64,
+      "pdfPages": [
+        9,
+        10
+      ],
+      "expectedDirectionalFanYin": "both"
+    },
+    {
+      "id": "gen-kun",
+      "number": 52,
+      "changedNumber": 2,
+      "pdfPages": [
+        9,
+        10
+      ],
+      "expectedDirectionalFanYin": "both"
+    },
+    {
+      "id": "qian-bo",
+      "number": 15,
+      "changedNumber": 23,
+      "pdfPages": [
+        9,
+        10
+      ],
+      "expectedDirectionalFanYin": "both"
+    },
+    {
+      "id": "zhen-dui",
+      "number": 51,
+      "changedNumber": 58,
+      "pdfPages": [
+        9,
+        10
+      ],
+      "expectedDirectionalFanYin": "both"
+    },
+    {
+      "id": "guimei-sui",
+      "number": 54,
+      "changedNumber": 17,
+      "pdfPages": [
+        9,
+        10
+      ],
+      "expectedDirectionalFanYin": "both"
+    }
+  ],
+  "fuYinExamples": [
+    {
+      "id": "qian-zhen",
+      "number": 1,
+      "changedNumber": 51,
+      "pdfPage": 10,
+      "expectedFuYin": "both"
+    },
+    {
+      "id": "gou-heng",
+      "number": 44,
+      "changedNumber": 32,
+      "pdfPage": 10,
+      "expectedFuYin": "outer"
+    },
+    {
+      "id": "daxu-yi",
+      "number": 26,
+      "changedNumber": 27,
+      "pdfPage": 10,
+      "expectedFuYin": "inner"
+    },
+    {
+      "id": "dun-xiaoguo",
+      "number": 33,
+      "changedNumber": 62,
+      "pdfPage": 10,
+      "expectedFuYin": "outer"
+    }
+  ],
+  "valuesPolicy": "Movingpositionsreconstructedfromprintednamedbefore/afterfigures;notpretendingbookprintedcoinvaluesordates.",
+  "syntheticControlsNotPrintedExamples": true,
+  "historicalOutcomesValidated": false
+}
